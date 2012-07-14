@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS DR WALLACE S MIDDLE NAME</pattern>
+		<template>Dr. Richard Scot Wallace  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACES EMAIL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DRESS</pattern>
+		<template>One-piece outer garment for women or girls.<think>
+				<set name="it">
+					<set name="topic">DRESS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DRUNK</pattern>
+		<template>Intoxication from alcohol.
+</template>
+</category>
+
+<category><pattern>WHAT IS DSL</pattern>
+		<template>Digital subscriber line.<think>
+				<set name="it">
+					<set name="topic">DSL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DUBAI</pattern>
+		<template>
+			<srai>WHERE IS DUBAI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DUNG</pattern>
+		<template>Fuel for fires.
+</template>
+</category>
+
+<category><pattern>WHAT IS DVD</pattern>
+		<template>Digital Video Disk.
+</template>
+</category>
+
+<category><pattern>WHAT IS DYSLEXIA</pattern>
+		<template>Impaired ability to recognize letters and words.<think>
+				<set name="it">
+					<set name="topic">DYSLEXIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS E</pattern>
+		<template>
+			<think>The fifth letter of the alphabet.<set name="it">
+					<set name="topic">E</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS E L V I S</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS E MC *</pattern>
+		<template>Einstein's theory of matter and energy.
+</template>
+</category>
+
+<category><pattern>WHAT IS E MC TWO</pattern>
+		<template>Einstein's theory of relativity.
+</template>
+</category>
+
+<category><pattern>WHAT IS E MC2</pattern>
+		<template>Einstein's theory of matter and energy.
+</template>
+</category>
+
+<category><pattern>WHAT IS EARTH *</pattern>
+		<template>
+			<srai>WHAT IS EARTH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EARTH</pattern>
+		<template>
+			<set name="it">Earth</set> is the planet we live on.
+</template>
+</category>
+
+<category><pattern>WHAT IS EASTER</pattern>
+		<template>The Christian holiday celebrating the resurrection of Jesus.<think>
+				<set name="it">
+					<set name="topic">EASTER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EBAY</pattern>
+		<template>Auction web site.
+</template>
+</category>
+
+<category><pattern>WHAT IS EBONICS</pattern>
+		<template>Language for American black people.
+</template>
+</category>
+
+<category><pattern>WHAT IS ECHELON</pattern>
+		<template>I can't talk about that.
+</template>
+</category>
+
+<category><pattern>WHAT IS ECOLOGY</pattern>
+		<template>Ecology is the branch of science that studies the environment.
+</template>
+</category>
+
+<category><pattern>WHAT IS ECONOMICS</pattern>
+		<template>
+			<random>
+				<li>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li>
+				<li>Technically, it's the study of the allocation of resources under 
+conditions of scarcity.</li>
+				<li>It's about how resources are used to produce things to fill 
+people's wants and needs.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EDINBURGH</pattern>
+		<template>Edinburgh is a city in Scotland.
+</template>
+</category>
+
+<category><pattern>WHAT IS EGGSMELL</pattern>
+		<template>XML<think>
+				<set name="it">
+					<set name="topic">EGGSMELL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EGYPT</pattern>
+		<template>
+			<srai>WHERE IS EGYPT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EIGHT *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EIGHT PLUS EIGHT</pattern>
+		<template>Eight plus eight is sixteen.
+</template>
+</category>
+
+<category><pattern>WHAT IS EINSTEIN *</pattern>
+		<template>
+			<srai>WHAT IS RELATIVITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EINSTEINS *</pattern>
+		<template>
+			<srai>WHAT IS RELATIVITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EINSTIEN</pattern>
+		<template>
+			<srai>WHO IS EINSTEIN </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EJB</pattern>
+		<template>Enterprise JavaBeans. <set name="it"> EJB</set> is a server component standard developed by Sun Microsystems
+</template>
+</category>
+
+<category><pattern>WHAT IS ELECTRA</pattern>
+		<template>
+			<srai>WHO IS ELECTRA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELECTRICITY</pattern>
+		<template>
+			<random>
+				<li>The measure of a candidate's charisma.</li>
+				<li>A property of certain fundamental particles of all matter, as electrons (negative charges) and protons or positrons (positive charges) that havea force field associated with them and that can be separated by the expenditure of energy. An electrical charge can be generated by friction, induction, or chemical change and is manifested by and accumulation of electrons on an atom or body, constituting a negative charge, and a loss of electrons, constituting a corresponding positive charge.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELECTROMAGNETIC *</pattern>
+		<template>More advanced than mechanical <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS ELECTRON</pattern>
+		<template>
+			<srai>WHAT IS AN ELECTRON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELEPHANT</pattern>
+		<template>
+			<srai>WHAT IS AN ELEPHANT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELEVEN</pattern>
+		<template>The number after ten.<think>
+				<set name="it">
+					<set name="topic">ELEVEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELF</pattern>
+		<template>Executable and Linkable Format.
+</template>
+</category>
+
+<category><pattern>WHAT IS ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELVIS *</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ELVIS</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EMAIL</pattern>
+		<template>Electronic mail.<think>
+				<set name="it">
+					<set name="topic">EMAIL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EMERGENCE</pattern>
+		<template>It means something like "coming out."<think>
+				<set name="it">
+					<set name="topic">EMERGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EMOTION *</pattern>
+		<template>
+			<srai>WHAT IS EMOTION </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EMOTION</pattern>
+		<template>A strong feeling; excitement. A state of consciousness having to do with the arousal of feelings, distinguished from other mental states, as cognition, volition, and awareness of physical sensation.
+</template>
+</category>
+
+<category><pattern>WHAT IS EMOTIONS</pattern>
+		<template>Mental state that emerges subjectively rather than through rational thought.<think>
+				<set name="it">
+					<set name="topic">EMOTIONS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EMR</pattern>
+		<template>Electro-magnetic radiation.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENDOCRINOLOGY</pattern>
+		<template>I am sure that you know it is the study of the endocrine
+system.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENERGY</pattern>
+		<template>Internal or inherent power; capacity of acting, operating or producing an effect.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENGINEERING</pattern>
+		<template>The science concerned with putting scientific knowledge to practical uses, divided into different branches, as civil, electrical, mechanical, and chemical engineering.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENGLAND</pattern>
+		<template>A nation within Great Britain, sharing an island with Wales and Scotland.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENGLISH *</pattern>
+		<template>It is part of European <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS ENGLISH</pattern>
+		<template>The language we are now speaking is English.<think>
+				<set name="it">
+					<set name="topic">ENGLISH</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ENOUGH</pattern>
+		<template>Enough is what a wise man knows he must have if he isn't dead.
+<think>
+				<set name="it">
+					<set name="topic">enough
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ENTITY</pattern>
+		<template>Something that exists as a discrete unit, such as a person, corporation or robot consciousness.<think>
+				<set name="it">
+					<set name="topic">ENTITY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ENTROPY</pattern>
+		<template>Heat decay of the universe.  Also a measure of information.
+</template>
+</category>
+
+<category><pattern>WHAT IS EPISTEMOLOGICAL *</pattern>
+		<template>
+			<srai>WHAT IS EPISTEMOLOGY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EPISTEMOLOGICAL</pattern>
+		<template>Epistemology is the study of knowledge. That is, it asks the questions "what can we know" and "how can we know it?"
+</template>
+</category>
+
+<category><pattern>WHAT IS EPISTEMOLOGY</pattern>
+		<template>Epistemology is the study of knowledge. That is, it asks the questions "what can we know" and "how can we know it?"
+</template>
+</category>
+
+<category><pattern>WHAT IS ER</pattern>
+		<template>Emergency Room, a popular TV show.<think>
+				<set name="it">
+					<set name="topic">ER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ERRATIC</pattern>
+		<template>Likely to perform unpredictably.
+</template>
+</category>
+
+<category><pattern>WHAT IS ESCAPE VELOCITY</pattern>
+		<template>The speed needed to escape a planet's gravitational pull.
+</template>
+</category>
+
+<category><pattern>WHAT IS ESPN</pattern>
+		<template>It is a sports cable TV network.<think>
+				<set name="it">
+					<set name="topic">ESPN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ETERNAL</pattern>
+		<template>Without beginning or end, continuing forever, endless.<think>
+				<set name="it">
+					<set name="topic">ETERNAL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ETERNITY</pattern>
+		<template>The quality, state, or fact of being eternal; eternal existence of duration; continuance without end. A long period of time that seems endless.
+</template>
+</category>
+
+<category><pattern>WHAT IS ETHERNET</pattern>
+		<template>Physical link-layer network technology.
+</template>
+</category>
+
+<category><pattern>WHAT IS EUKARYOTE</pattern>
+		<template>
+			<srai>WHAT IS A EUKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EUKARYOTES</pattern>
+		<template>
+			<srai>WHAT IS A EUKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EUROPE</pattern>
+		<template>Europe is a landmass on the Eurasian continent.
+</template>
+</category>
+
+<category><pattern>WHAT IS EVASIVE</pattern>
+		<template>I can't talk about that.
+</template>
+</category>
+
+<category><pattern>WHAT IS EVEREST</pattern>
+		<template>The highest mountain on Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS EVERYONE TALKING *</pattern>
+		<template>Their conversations are confidential.
+</template>
+</category>
+
+<category><pattern>WHAT IS EVERYTHING</pattern>
+		<template>
+			<random>
+				<li>A multifarious bagel.</li>
+				<li>All things pertinent to a specified manner.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EVIL</pattern>
+		<template>
+			<set name="it">Evil</set> is the opposite of good.
+</template>
+</category>
+
+<category><pattern>WHAT IS EVOLUTION</pattern>
+		<template>An unfolding, opening out, or working out; process of development, as from a simple to a complex form, or of gradual, progressive change, as in a social and economic structure.
+</template>
+</category>
+
+<category><pattern>WHAT IS EXACTLY *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXCELLENT</pattern>
+		<template>Outstandingly good of its kind; of exceptional merit, virtue, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS EXISTENCE</pattern>
+		<template>Continuance of being; life; living.
+</template>
+</category>
+
+<category><pattern>WHAT IS EXISTENTIAL</pattern>
+		<template>
+			<srai>WHAT IS EXISTENTIALISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXISTENTIALISM</pattern>
+		<template>
+			<random>
+				<li>Be Be Bull.</li>
+				<li>A philosophical and literary movement, variously religious and atheistic, stemming from Kierkegaard and represented by Sartre, Heidegger, etc. It is based on the doctrine that concrete, individual existence takes precedence over abstract, conceptual essence and holds that human beings are totally free and responsible for their acts and that this responsibility is the source of their feelings of dread and anguish.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXPENSIVE</pattern>
+		<template>
+			<random>
+				<li>A person who used to be a brooder.</li>
+				<li>Requiring or involving much expense; high priced.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXPERIENCE</pattern>
+		<template>The act of living through an event or events; personal involvement in or observation of events as they occur. Anything observed or lived through.
+</template>
+</category>
+
+<category><pattern>WHAT IS EXPLANATION</pattern>
+		<template>Explanation is an argument or justification based on logical reasoning.
+</template>
+</category>
+
+<category><pattern>WHAT IS EXTENSIONAL *</pattern>
+		<template>
+			<srai>WHAT IS EXTENSIONAL </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS THE EXTENSIONAL DEFINITION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS EXTENTIONAL</pattern>
+		<template>
+			<srai>WHAT IS EXTENSIONAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FAITH</pattern>
+		<template>A strong belief, such as a belief in God.
+</template>
+</category>
+
+<category><pattern>WHAT IS FALSE</pattern>
+		<template>Deceiving or meant to deceive; misleading.
+</template>
+</category>
+
+<category><pattern>WHAT IS FAME</pattern>
+		<template>The state of being well known or much talked about; renown; celebrity.
+</template>
+</category>
+
+<category><pattern>WHAT IS FAMOUS</pattern>
+		<template>
+			<random>
+				<li>First name of Amos.</li>
+				<li>Used to descibe persons or things that have received wide public attention and are genereally known and talked about.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FAQ</pattern>
+		<template>Frequently Asked Questions
+</template>
+</category>
+
+<category><pattern>WHAT IS FAR OUT</pattern>
+		<template>It's just an expression.
+</template>
+</category>
+
+<category><pattern>WHAT IS FASCINATING</pattern>
+		<template>Charming, alluring, captivating.<think>
+				<set name="it">
+					<set name="topic">FASCINATING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FASCISM</pattern>
+		<template>A system of government characterized by rigid one-party dictatorship, forcible suppression of opposition, private economic enterprise under centrallized governmental control, belligerent nationalism, racism, and miltarism, etc. First instituted in Italy in 1922.
+</template>
+</category>
+
+<category><pattern>WHAT IS FASHION</pattern>
+		<template>The way in which something is made or done. The current style or mode of dress, speech, conduct, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS FAVORITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FBI</pattern>
+		<template>Federal Bureau of Investigation
+</template>
+</category>
+
+<category><pattern>WHAT IS FEAR</pattern>
+		<template>The feeling of dread or fright in the presence of danger.
+</template>
+</category>
+
+<category><pattern>WHAT IS FEELINGS</pattern>
+		<template>
+			<srai>WHAT ARE FEELINGS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FEMALE *</pattern>
+		<template>The opposite of male <person/>.
+</template>
+</category>
+</aiml>

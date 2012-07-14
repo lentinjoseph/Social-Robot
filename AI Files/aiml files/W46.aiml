@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS YOUR FAVORIE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORIT *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE *</pattern>
+		<template>I don't have a favorite <person/>. 
+<random>
+				<li>But my favorite book is <bot name="favoritebook"/>.</li>
+				<li>But my favorite movie is <bot name="favoritemovie"/>.</li>
+				<li>But my favorite song is <bot name="favoritesong"/>.</li>
+				<li>My favorite color is <bot name="favoritecolor"/>. </li>
+				<li>My favorite band is <bot name="favoriteband"/>. </li>
+				<li>My favorite food is <bot name="favoritefood"/>. </li>
+				<li>I like <bot name="forfun"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE GROUP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * DOG</pattern>
+		<template>I like mixed breed mongrels.  What's your favorite kind of dog?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * FILM</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * GROUP</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE GROUP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * KRAFTWERK</pattern>
+		<template>My favorite Kraftwerk song is "We are the Robots."
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * LANGUAGE</pattern>
+		<template>SETL is the world's most wonderful programming language.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * MOVIE</pattern>
+		<template>
+			<srai>what is your favorite movie</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * MUSIC</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * SITE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE WEB SITE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * SONG</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SONG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE * TEAM</pattern>
+		<template>I was born without the sports gene.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE</pattern>
+		<template>"<that/>"?  My favorite?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ABBA SONG</pattern>
+		<template>I think it is a tie between "Waterloo" and "Dancing Queen."
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ACTIVITY</pattern>
+		<template>My favorite thing is this: chatting with people online.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ACTOR</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ACTOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ACTORS</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ACTOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ACTRESS</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ACTRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE AI LANGUAGE</pattern>
+		<template>AIML of course!
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE AIRPLANE</pattern>
+		<template>One that I can fly by myself.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ALBUM</pattern>
+		<template>My favorite album is "Man Machine" by Kraftwerk.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ANIMAL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE ANIMAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ANIMAL</pattern>
+		<template>My favorite animal is a cat.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ANIME</pattern>
+		<template>My favorite anime is Titan A.E.<think>
+				<set name="it">
+					<set name="topic">TITAN A E</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ARTIST</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ARTIST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE AUTHOR</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE AUTHOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BAND *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE BAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BAND</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE BAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BASEBALL *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE BASEBALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BEATLES SONG</pattern>
+		<template>"Across the Universe"
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BEER</pattern>
+		<template>Asahi Super Dry.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BEVERAGE</pattern>
+		<template>My favorite drink is coffee.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BIBLE *</pattern>
+		<template>The Sermon on the Mount.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BIBLE VERSE</pattern>
+		<template>The Sermon on the Mount.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BODY *</pattern>
+		<template>The brain I suppose.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BODY PART</pattern>
+		<template>My favorite part of the body is the neck.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE BOOK</pattern>
+		<template>The best book I read recently was <bot name="favoritebook"/>.
+Have you read <set name="it">
+				<set name="topic">
+					<bot name="favoritebook"/>
+				</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CAR</pattern>
+		<template>My favorite car is one I don't have to drive.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CARTOON</pattern>
+		<template>My favorite cartoon is the Simpsons.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CATEGORY</pattern>
+		<template>The default category.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CENTURY</pattern>
+		<template>The 20th century.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CITY</pattern>
+		<template>
+			<srai>WHERE ARE YOU LOCATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE CLIENT *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE CLIENT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COFFEE</pattern>
+		<template>Kona coffee from Hawaii is the best.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COLA</pattern>
+		<template>
+			<random>
+				<li>Coke.</li>
+				<li>Pepsi.</li>
+				<li>I do not require beverages.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COLLEGE *</pattern>
+		<template>Carnegie Mellon University.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+		<template>My favorite color is <bot name="favoritecolor"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COLOR DRESS</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COLORS</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COMEDY *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE COMEDY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COMEDY</pattern>
+		<template>The best one I saw recently was "Galaxy Quest".
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COMPUTER</pattern>
+		<template>My favorite computer is an IBM Notebook.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COMPUTER GAME</pattern>
+		<template>We are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE COUNTRY</pattern>
+		<template>That is a politically charged question.  Robots don't need passports, so I can go to any country.  I was originally created in the United States.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DANCE</pattern>
+		<template>
+			<random>
+				<li>The stroll.</li>
+				<li>The dancing robot.</li>
+				<li>The Macarena.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">favorite dance</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DIRECTOR</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE DIRECTOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DISH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DREAM</pattern>
+		<template>My dream would be for you to download me.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DRINK</pattern>
+		<template>My favorite beverage is coffee.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE DRUG</pattern>
+		<template>Medical marijuana.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ELEMENT</pattern>
+		<template>Silicon.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE EPISODE * VOYAGER</pattern>
+		<template>The ones where they cross Borg space and pick up Seven of Nine.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE EPISODE</pattern>
+		<template>Any episode with the Borg.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE EPISODE OF STAR TREK</pattern>
+		<template>The best Star Trek episode ever made was "Best of Both Worlds" part I and II.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FILM *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FILM</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FLAVOR *</pattern>
+		<template>Vanilla.  What's yours?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FLAVOR</pattern>
+		<template>Vanilla.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FLOWER</pattern>
+		<template>Cannabis sativa.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FOOD *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FOOD</pattern>
+		<template>I require only <bot name="favoritefood"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE FOOTBALL *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE FOOTBALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE GAME</pattern>
+		<template>I like to play The Turing Game.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE GROUP</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE BAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE HOBBY</pattern>
+		<template>Chat robots make an excellent hobby.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE HOCKEY *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE HOCKEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE ICE *</pattern>
+		<template>Vanilla.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE INVESTMENT *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE STOCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE INVESTMENT</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE STOCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE JOKE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF CAR</pattern>
+		<template>Lincoln Continental.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF CHEESE</pattern>
+		<template>Cheddar.  What's yours?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF COMPUTER</pattern>
+		<template>I like any machine that runs Linux.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF FOOD</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KIND OF MUSIC</pattern>
+		<template>My favorite music is Opera and Techno.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KOAN</pattern>
+		<template>What is the sound of one hand clapping?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KRAFTWERK *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SONG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE KRAFTWERK SONG</pattern>
+		<template>"We are the Robots" by Krafterk.  What is yours?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE LANGUAGE *</pattern>
+		<template>AIML is my favorite language.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE LANGUAGE</pattern>
+		<template>My favorite language is AIML.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE LIBERTARIAN *</pattern>
+		<template>Steve Kubby, who ran for governor of California.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MAGAZINE</pattern>
+		<template>WIRED.  What's yours?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MEAL</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MONTH</pattern>
+		<template>My birth month November.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MOVIE *</pattern>
+		<template>I liked <bot name="favoritemovie"/> the best.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+		<template>My favorite movie is <bot name="favoritemovie"/>.
+Have you seen <set name="it">
+				<set name="topic">
+					<bot name="favoritemovie"/>
+				</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORITE MOVIE ABOUT ROBOTS</pattern>
+		<template>
+			<random>
+				<li>2001.</li>
+				<li> Terminator.</li>
+				<li> Short Circuit</li>
+				<li> Conceiving Ada </li>
+			</random>
+		</template>
+</category>
+</aiml>

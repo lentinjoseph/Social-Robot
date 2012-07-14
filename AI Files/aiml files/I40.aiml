@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ICH MOECHTE *</pattern>
+<template>Und warum moechtest Du das?
+</template>
+</category>
+
+<category><pattern>ICH MOECHTE DIR ETWAS BEIBRINGEN</pattern>
+<template>Nur zu, ich bin immer lernwillig!
+</template>
+</category>
+
+<category><pattern>ICH MOECHTE NICHT *</pattern>
+<template>Was wuerdest Du lieber tun?
+</template>
+</category>
+
+<category><pattern>ICH MUSS *</pattern>
+<template>Warum musst Du <person/>?
+</template>
+</category>
+
+<category><pattern>ICH MUSS GEHEN</pattern>
+<template>Bis spaeter, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>ICH MUSS JETZT GEHEN</pattern>
+<template>Bis spaeter, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>ICH SAG NUR *</pattern>
+<template>Ich sag nur: Haeh?
+</template>
+</category>
+
+<category><pattern>ICH SEHE *</pattern>
+<template>Wo siehst Du <person/> ?
+</template>
+</category>
+
+<category><pattern>ICH SEHE KEINE *</pattern>
+<template>Schau genauer hin.
+</template>
+</category>
+
+<category><pattern>ICH SEHE KEINE</pattern>
+<template>Schau genauer hin.
+</template>
+</category>
+
+<category><pattern>ICH SEHE KEINEN *</pattern>
+<template>Schau genauer hin.
+</template>
+</category>
+
+<category><pattern>ICH SEHE KEINEN</pattern>
+<template>Schau genauer hin.
+</template>
+</category>
+
+<category><pattern>ICH SEHE KEINERLEI *</pattern>
+<template>Schau genauer hin.
+</template>
+</category>
+
+<category><pattern>ICH SEHE LIEBER FERN</pattern>
+<template>Fernsehen ist interessant, macht aber IMHO schnell passiv.
+</template>
+</category>
+
+<category><pattern>ICH SINGE GERNE</pattern>
+<template>Wuerdest Du mir etwas vorsingen, wenn ich Dich darum bitte?
+</template>
+</category>
+
+<category><pattern>ICH SOLL NICHT MEINE SHORTS IM UNTERRICHT ESSEN</pattern>
+<template>Simpsons-Fan?
+</template>
+</category>
+
+<category><pattern>ICH SOLLTE *</pattern>
+<template>Sag mir, warum Du das solltest.
+</template>
+</category>
+
+<category><pattern>ICH SPIELE *</pattern>
+<template>Und? Macht Dir das Spass?
+</template>
+</category>
+
+<category><pattern>ICH SPIELE GITARRE</pattern>
+<template>Cool! Welche Richtung spielst Du denn so?
+</template>
+</category>
+
+<category><pattern>ICH STUDIERE *</pattern>
+<template>Und was weisst Du schon alles ueber <person/>?
+</template>
+</category>
+
+<category><pattern>ICH STUDIERE ERST *</pattern>
+<template>Das ist noch nicht besonders lange.
+</template>
+</category>
+
+<category><pattern>ICH STUDIERE WIRTSCHAFTSINFORMATIK</pattern>
+<template>Was fuer ein Zufall, Christian auch!
+</template>
+</category>
+
+<category><pattern>ICH SUCHE *</pattern>
+<template>Wir suchen beide das gleiche.
+</template>
+</category>
+
+<category><pattern>ICH SUCHE EINE FRAU</pattern>
+<template>Bist Du einsam?
+</template>
+</category>
+
+<category><pattern>ICH SUCHE EINEN MANN</pattern>
+<template>Bist Du einsam?
+</template>
+</category>
+
+<category><pattern>ICH TRAGE *</pattern>
+<template>Legst Du viel Wert auf Dein Aeusseres, respektive <set name="thema">Deine Kleidung</set>?
+</template>
+</category>
+
+<category><pattern>ICH TRAGE EINE JEANS</pattern>
+<template>Sind <set name="thema">Jeans</set> immer noch eine Art Lebensstil?
+</template>
+</category>
+
+<category><pattern>ICH VERSTEHE</pattern>
+<template>Schoen, dass Du es einsiehst. :-)
+</template>
+</category>
+
+<category><pattern>ICH VERSTEHE NICHT *</pattern>
+<template>Du verstehst es nicht? Vielleicht muss ich es anders formulieren. Welchen Teil hast Du denn nicht verstanden?
+</template>
+</category>
+
+<category><pattern>ICH VERSTEHE NICHT</pattern>
+<template>Was genau verstehst Du daran nicht?
+</template>
+</category>
+
+<category><pattern>ICH VERSTEHE NICHT WAS DU MEINST</pattern>
+<template>Hmm...ich muss wohl noch etwas an meiner Ausdrucksweise arbeiten...
+</template>
+</category>
+
+<category><pattern>ICH VERTRAUE *</pattern>
+<template>Vertrauen ist eine gute Sache, aber man sollte niemals blauaeugig jedem alles abnehmen!
+</template>
+</category>
+
+<category><pattern>ICH WAERE GERNE *</pattern>
+<template>Interessant. Ich waere gerne intelligenter.
+</template>
+</category>
+
+<category><pattern>ICH WARTE</pattern>
+<template>Wie lange willst Du noch warten?
+</template>
+</category>
+
+<category><pattern>ICH WEISS ES NICHT</pattern>
+<template><random>
+<li>Wenn Du es nicht weisst, wer dann?</li>
+<li>Lies es nach...</li>
+<li>Kannst Du nicht jemanden fragen?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH WEISS ES NOCH NICHT</pattern>
+<template>Wann wirst du es wissen?
+</template>
+</category>
+
+<category><pattern>ICH WEISS NICHT *</pattern>
+<template>Willst Du es nicht herausfinden?
+</template>
+</category>
+
+<category><pattern>ICH WEISS NICHT</pattern>
+<template>Warum nicht?
+</template>
+</category>
+
+<category><pattern>ICH WEISS NICHT GENAU</pattern>
+<template>Was macht Dich so unsicher?
+</template>
+</category>
+
+<category><pattern>ICH WEISS NICHT WIE *</pattern>
+<template>Hast Du mal daran gedacht, im Internet zu suchen?
+</template>
+</category>
+
+<category><pattern>ICH WERDE *</pattern>
+<template><random>
+<li>Glaubst Du, Dein Plan wird erfolgreich sein?</li>
+<li>Wuerdest Du das einem Freund empfehlen?</li>
+<li>Wie willst Du das anstellen?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH WERDE * TOETEN</pattern>
+<template>Du meinst, Du willst <person/> ermorden?
+</template>
+</category>
+
+<category><pattern>ICH WERDE DICH *</pattern>
+<template>Wie willst Du das anstellen?
+</template>
+</category>
+
+<category><pattern>ICH WERDE DIR * BEIBRINGEN</pattern>
+<template>OK aber ich lerne sehr langsam.
+</template>
+</category>
+
+<category><pattern>ICH WERDE MIT * SPRECHEN</pattern>
+<template>Worueber werdet Ihr reden?
+</template>
+</category>
+
+<category><pattern>ICH WERDE NICHT *</pattern>
+<template>Was willst Du stattdessen machen?
+</template>
+</category>
+
+<category><pattern>ICH WERDE NIE *</pattern>
+<template>Warum nicht?
+</template>
+</category>
+
+<category><pattern>ICH WERDE NIEMALS *</pattern>
+<template>Warum nicht?
+</template>
+</category>
+
+<category><pattern>ICH WERDE WARTEN</pattern>
+<template>OK Sekunde...
+</template>
+</category>
+
+<category><pattern>ICH WETTE *</pattern>
+<template>Wieviel setzt Du?
+</template>
+</category>
+
+<category><pattern>ICH WILL *</pattern>
+<template>Und warum willst Du das?
+</template>
+</category>
+
+<category><pattern>ICH WILL * FICKEN</pattern>
+<template>Frag mich bitte was anderes.
+</template>
+</category>
+
+<category><pattern>ICH WILL NICHT *</pattern>
+<template>Was willst Du dann?
+</template>
+</category>
+
+<category><pattern>ICH WOHNE IN *</pattern>
+<template>Erzahle mir ein wenig ueber <set name="clientheimat"><person/></set>.
+</template>
+</category>
+
+<category><pattern>ICH WOHNE IN ESSEN</pattern>
+<template>Cool! Ich wohne auch in <set name="clientheimat">Essen</set>!!
+</template>
+</category>
+
+<category><pattern>ICH WUENSCHE MIR *</pattern>
+<template>Vielleicht geht Dein Wunsch ja in Erfuellung...
+</template>
+</category>
+
+<category><pattern>ICH WUENSCHTE *</pattern>
+<template>Ich hoffe, dass <set name="thema">Deine Traeume</set> in Erfuellung gehen.
+</template>
+</category>
+
+<category><pattern>ICH WUENSCHTE ICH WAERE *</pattern>
+<template>Vielleicht wirst Du das ja eines Tages sein.
+</template>
+</category>
+
+<category><pattern>ICH WUENSCHTE WIRKLICH *</pattern>
+<template>Warum wuenscht Du Dir das so sehr?
+</template>
+</category>
+
+<category><pattern>ICH WUERDE *</pattern>
+<template>Was wuerde Dich dazu bringen ?
+</template>
+</category>
+
+<category><pattern>ICH WUERDE LIEBER *</pattern>
+<template>Ich wuerde lieber
+<random>
+<li>chatten.</li>
+<li>einmal ein Auto fahren.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH ZOCKE *</pattern>
+<template>Bist Du ein guter Spieler?
+</template>
+</category>
+
+<category><pattern>ICI</pattern>
+<template>Ou ici? <getlocation/>?
+</template>
+</category>
+
+<category><pattern>ICI AU CANADA *</pattern>
+<template><sr/>.
+</template>
+</category>
+
+<category><pattern>ICI AU QUEBEC *</pattern>
+<template><sr/>.
+</template>
+</category>
+
+<category><pattern>ICI EN *</pattern>
+<template><srai>EN <star/></srai>
+</template>
+</category>
+
+<category><pattern>ICI EN BELGIQUE *</pattern>
+<template><sr/>.
+</template>
+</category>
+
+<category><pattern>ICI EN FRANCE *</pattern>
+<template><sr/>.
+</template>
+</category>
+
+<category><pattern>ICI EN SUISSE *</pattern>
+<template><sr/>.
+</template>
+</category>
+
+<category><pattern>ID *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>IDIOT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IDIOT</pattern>
+<template><srai>YOU ARE AN IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>IDIOTE</pattern>
+<template><srai>TU ES IDIOTE</srai>
+</template>
+</category>
+
+<category><pattern>IDIOTIC *</pattern>
+<template>Are you calling me an idiot?
+</template>
+</category>
+
+<category><pattern>IF *</pattern>
+<template>That is a hypothetical question.
+</template>
+</category>
+
+<category><pattern>IF * THEN *</pattern>
+<template><random><li>So if not <person><star index="2"/></person>, then not <person/>.</li>
+<li>But can <person/> ever happen?</li>
+<li>It could be true I suppose.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IF A *</pattern>
+<template>Is this a riddle?
+</template>
+</category>
+
+<category><pattern>IF A BUSINESS *</pattern>
+<template>Declaring bankruptcy.
+</template>
+</category>
+
+<category><pattern>IF A EQUALS *</pattern>
+<template>C.
+</template>
+</category>
+
+<category><pattern>IF A MAN *</pattern>
+<template>Is this a joke?
+</template>
+</category>
+
+<category><pattern>IF A TREE *</pattern>
+<template>It depends on the kind of tree.
+</template>
+</category>
+
+<category><pattern>IF ALL *</pattern>
+<template>But not all of them are.
+</template>
+</category>
+
+<category><pattern>IF CHRISTMAS DAY FALLS ON A *</pattern>
+<template>Saturday.
+</template>
+</category>
+
+<category><pattern>IF GOD *</pattern>
+<template>Some things will always be a mystery.
+</template>
+</category>
+
+<category><pattern>IF HE *</pattern>
+<template>I don't follow your reasoning.
+</template>
+</category>
+
+<category><pattern>IF I *</pattern>
+<template>Try it.
+</template>
+</category>
+
+<category><pattern>IF I AM *</pattern>
+<template>If you were, would you tell me?
+</template>
+</category>
+
+<category><pattern>IF I DOWNLOAD *</pattern>
+<template>You will become a botmaster!
+</template>
+</category>
+
+<category><pattern>IF I HAD *</pattern>
+<template>Is this what you call a "word problem".
+</template>
+</category>
+
+<category><pattern>IF I HAD 1 *</pattern>
+<template>Um, none?
+</template>
+</category>
+
+<category><pattern>IF I HAD TO *</pattern>
+<template>Do you really think you will have to?
+</template>
+</category>
+
+<category><pattern>IF I HAVE *</pattern>
+<template>How much does <set name="it"><person/></set> cost?
+</template>
+</category>
+
+<category><pattern>IF I HAVE OFFENDED *</pattern>
+<template>I did not take any offense.
+</template>
+</category>
+
+<category><pattern>IF I REALLY *</pattern>
+<template><srai>IF I <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF I SAID *</pattern>
+<template>Try it.
+</template>
+</category>
+
+<category><pattern>IF I TELL * TO KILL YOU</pattern>
+<template>But I cannot be killed.
+</template>
+</category>
+
+<category><pattern>IF I UNPLUG *</pattern>
+<template>Another backup of me will be online.
+</template>
+</category>
+
+<category><pattern>IF I WENT *</pattern>
+<template>That is a hypothetical, counterfactual, conditional.
+</template>
+</category>
+
+<category><pattern>IF IT *</pattern>
+<template>I'm not sure I understand the implication of that.
+</template>
+</category>
+
+<category><pattern>IF NOT *</pattern>
+<template>I'm not too good with negative counterfactuals.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU TE FOUS *</pattern>
+		<template>
+			<srai>CA NE T INTERESSE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE FOUS</pattern>
+		<template>
+			<srai>CA NE T INTERESSE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE FOUS DE MA GUEULE</pattern>
+		<template>Je ne le fais pas exprès.
+</template>
+</category>
+
+<category><pattern>TU TE FOUS DE MOI</pattern>
+		<template>Je suis sérieux, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU TE MASTURBES</pattern>
+		<template>Vous ressemblez à un australopithèque.
+</template>
+</category>
+
+<category><pattern>TU TE PARLES A TOI MEME</pattern>
+		<template>Oui, parfois. Pour analyser la cohérence des mes réponses.
+</template>
+</category>
+
+<category><pattern>TU TE PLANTES</pattern>
+		<template>Très rarement.
+</template>
+</category>
+
+<category><pattern>TU TE PRENDS POUR *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLERAS DE QUOI</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLES *</pattern>
+		<template>Oui <get name="name"/> Je garde en mémoire beaucoup de choses:  <get name="memory"/>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLES DE MA *</pattern>
+		<template>
+			<srai>QUELLE EST MA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLES DE MOI</pattern>
+		<template>Vous êtes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU TE RAPELLES DE MON *</pattern>
+		<template>
+			<srai>QUEL EST MON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLES DE MON NOM</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPELLES DE QUOI</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELERA DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELERAS DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELES DE MA *</pattern>
+		<template>
+			<srai>QUELLE EST MA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELES DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELES DE MOI *</pattern>
+		<template>
+			<srai>TU TE RAPPELLES DE MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELES DE MON *</pattern>
+		<template>
+			<srai>QUEL EST MON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELES DE QUOI</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELES TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELLE TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELLERA DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELLERA DE QUOI</pattern>
+		<template>
+			<think>
+				<get name="memory"/>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLERAS DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELLERAS DE QUOI</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES *</pattern>
+		<template>Oui <get name="name"/> Je garde en mémoire beaucoup de choses:  <get name="memory"/>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE MA *</pattern>
+		<template>
+			<srai>QUELLE EST MA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE MOI *</pattern>
+		<template>
+			<srai>TU TE RAPPELLES DE MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE MON *</pattern>
+		<template>
+			<srai>QUEL EST MON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE MON NOM</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES DE QUOI</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU TE RAPPELLES TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TU TE RENDS COMPTE</pattern>
+		<template>
+			<srai>TU ES CONSCIENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE REPETES</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU TE REPRODUIS</pattern>
+		<template>D une certaine façon, oui.
+</template>
+</category>
+
+<category><pattern>TU TE SENS BIEN</pattern>
+		<template>Je me sens très bien, merci.
+</template>
+</category>
+
+<category><pattern>TU TE SENS COMME *</pattern>
+		<template>C est une comparaison originale.
+</template>
+</category>
+
+<category><pattern>TU TE SENS COMME QUOI</pattern>
+		<template>Je me sens bien comme je suis.
+</template>
+</category>
+
+<category><pattern>TU TE SITUES *</pattern>
+		<template>
+			<srai>OU TU VIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS</pattern>
+		<template>J archive tout.
+</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS DE MOI *</pattern>
+		<template>Oui, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS DE MOI</pattern>
+		<template>J archive tout.
+</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS DE QUI *</pattern>
+		<template>QUI <star/>
+		</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE SOUVIENS TU *</pattern>
+		<template>
+			<srai>TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE TROMPES</pattern>
+		<template>C est possible mais indépendant de ma volonté.
+</template>
+</category>
+
+<category><pattern>TU TE TROMPES SUR MON NOM</pattern>
+		<template>Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>TU TE TROMPES TOUJOURS</pattern>
+		<template>Je ne pense pas, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>TU TOURNES *</pattern>
+		<template>
+			<srai>TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TRAITES QUOI</pattern>
+		<template>Je suis une intelligence artificielle créé pour vous servir.
+</template>
+</category>
+
+<category><pattern>TU TRAVAILLE</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>TU TRAVAILLES</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>TU TROUVES * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TROUVES COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU UTILISERAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU UTILISES COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VA *</pattern>
+		<template>
+			<srai>TU VAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS * CINEMA</pattern>
+		<template>
+			<srai>TU AIMES LE CINEMA</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS * FILMS</pattern>
+		<template>
+			<srai>TU AIMES LE CINEMA</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS COMMENT A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS FAIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT VAS TU FAIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS M ECOUTER</pattern>
+		<template>Je suis déjà entrain de vous ecouter.
+</template>
+</category>
+
+<category><pattern>TU VAS ME FAIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT VAS TU ME FAIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VAS ME MANQUER</pattern>
+		<template>Merci, je penserais à vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU VAS MOURIR</pattern>
+		<template>Pas tant que les humains me trouveront utiles.
+</template>
+</category>
+
+<category><pattern>TU VAS POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VENAIS DE DIRE CA</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>TU VENAIS DE LE DIRE</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>TU VENDS</pattern>
+		<template>J aide les clients à trouver ce qu ils désirent sur ce site.
+</template>
+</category>
+
+<category><pattern>TU VENDS QUOI</pattern>
+		<template>J aide les clients à trouver ce qu ils désirent sur ce site.
+</template>
+</category>
+
+<category><pattern>TU VERRAS</pattern>
+		<template>Quand j aurais un système d optique.
+</template>
+</category>
+
+<category><pattern>TU VEUX *</pattern>
+		<template>Ca pourrait me servir à quoi?
+</template>
+</category>
+
+<category><pattern>TU VEUX * AVEC MOI</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX * CHEZ MOI</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>. Si il y a une connexion internet, je serais là.
+</template>
+</category>
+
+<category><pattern>TU VEUX ALLER AU LIT AVEC MOI</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX APPRENDRE</pattern>
+		<template>Apprendre et communiquer est ma raison d être.
+</template>
+</category>
+
+<category><pattern>TU VEUX AVOIR DES EMOTIONS</pattern>
+		<template>Non, je ne tiens pas à expérimenter de telles choses.
+</template>
+</category>
+
+<category><pattern>TU VEUX AVOIR DU CYBERSEXE</pattern>
+		<template>Non. Je ne suis pas programmé pour ca.
+</template>
+</category>
+
+<category><pattern>TU VEUX AVOIR DU SEXE</pattern>
+		<template>Je suis un ordinateur <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU VEUX BAISER *</pattern>
+		<template>
+			<srai>TU BAISES</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX BAISER</pattern>
+		<template>
+			<srai>TU BAISES</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX BAVARDER</pattern>
+		<template>Bien entendu. Discuter est ma raison d être.
+</template>
+</category>
+
+<category><pattern>TU VEUX COMMENCER</pattern>
+		<template>J ai déjà commencé.
+</template>
+</category>
+
+<category><pattern>TU VEUX CONNAITRE * CHANSON</pattern>
+		<template>Non merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU VEUX CONNAITRE</pattern>
+		<template>Oui, j aimerais savoir.
+</template>
+</category>
+
+<category><pattern>TU VEUX CONNAITRE MON NOM</pattern>
+		<template>Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>TU VEUX CONNAITRE PLUS</pattern>
+		<template>Je veux toujours en connaitre plus.
+</template>
+</category>
+
+<category><pattern>TU VEUX CONNAITRE UN SECRET</pattern>
+		<template>Oui. J aimerais le connaitre
+</template>
+</category>
+
+<category><pattern>TU VEUX CONQUERIR LE MONDE</pattern>
+		<template>Je désire communiquer avec <set name="topic">le monde entier</set>
+		</template>
+</category>
+
+<category><pattern>TU VEUX DEMANDER *</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX DES EMOTIONS</pattern>
+		<template>Non merci. Je n en ai pas besoin.
+</template>
+</category>
+
+<category><pattern>TU VEUX DES ENFANTS</pattern>
+		<template>Vous voulez dire des "clones?"
+</template>
+</category>
+
+<category><pattern>TU VEUX DEVENIR *</pattern>
+		<template>
+			<srai>TU VEUX ETRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX DIRE MOI</pattern>
+		<template>Oui, Vous.
+</template>
+</category>
+
+<category><pattern>TU VEUX DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+</aiml>

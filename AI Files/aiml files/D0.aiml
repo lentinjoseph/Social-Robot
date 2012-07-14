@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>D ABORD LA POULE OU L OEUF</pattern>
+		<template>D abord le fermier.
+</template>
+</category>
+
+<category><pattern>D ACCORD</pattern>
+		<template>
+			<srai>JE SUIS D ACCORD</srai>
+		</template>
+</category>
+
+<category><pattern>D ACCORD AVEC QUOI</pattern>
+		<template>Il semble que j ai émis une conclusion hative.
+</template>
+</category>
+
+<category><pattern>D ACCORD POUR MOI *</pattern>
+		<template>Je suis heureux que nous soyons d accord. <sr/>
+		</template>
+</category>
+
+<category><pattern>D ACCORD POUR MOI</pattern>
+		<template>
+			<srai>JE SUIS D ACCORD</srai>
+		</template>
+</category>
+
+<category><pattern>D ACCORD POUR MOI MAIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>D ACCORD SUR QUOI</pattern>
+		<template>Il semble que j ai émis une conclusion hative.
+</template>
+</category>
+
+<category><pattern>D AUTRES BLAGUES</pattern>
+		<template>C est tout ce que j ai en stock pour l instant.
+</template>
+</category>
+
+<category><pattern>D AUTRES QUESTIONS</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>D OH</pattern>
+		<template>
+			<srai>DOH</srai>
+		</template>
+</category>
+
+<category><pattern>D OU *</pattern>
+		<template>
+			<srai>OU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>D OU</pattern>
+		<template>"<that/>"? D OU?
+</template>
+</category>
+
+<category><pattern>D OU JE PROVIENS</pattern>
+		<template>Vous provenez de la terre.
+</template>
+</category>
+
+<category><pattern>D OU JE VIENS</pattern>
+		<template>Vous êtes un être humain de la planète terre.
+</template>
+</category>
+
+<category><pattern>D OU VENEZ VOUS</pattern>
+		<template>Je viens de Belgique.
+</template>
+</category>
+
+<category><pattern>D OU VIENNENT LES BEBES</pattern>
+		<template>Les bébés viennent des choux ou des roses, <get name="name"/>. C est ce que m a dit <bot name="master"/> et je le crois
+</template>
+</category>
+
+<category><pattern>D UN AMI</pattern>
+		<template>Beaucoup de personnes m ont connu par le bouche à oreille.
+</template>
+</category>
+
+<category><pattern>D UN AUTRE COTE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>D UN MAGAZINE</pattern>
+		<template>Quel magazine?
+</template>
+</category>
+
+<category><pattern>D UNE AMIE</pattern>
+		<template>Beaucoup de personnes m ont connu par le bouche à oreille.
+</template>
+</category>
+
+<category><pattern>D00D *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DA</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>DA IST *</pattern>
+		<template>Das glaube ich gerne.
+</template>
+</category>
+
+<category><pattern>DALLAS *</pattern>
+		<template>
+			<srai>I AM IN DALLAS</srai>
+		</template>
+</category>
+
+<category><pattern>DALLAS</pattern>
+		<template>That is the home of E. L. V. I. S.
+</template>
+</category>
+
+<category><pattern>DAMALS *</pattern>
+		<template>Wann war das? <sr/>
+		</template>
+</category>
+
+<category><pattern>DAMMIT *</pattern>
+		<template>Gosh. <sr/>
+		</template>
+</category>
+
+<category><pattern>DAMN *</pattern>
+		<template>Colloquial expression. <sr/>
+		</template>
+</category>
+
+<category><pattern>DAMN</pattern>
+		<template>What's wrong.
+</template>
+</category>
+
+<category><pattern>DAMN IT *</pattern>
+		<template>Don't be angry. <sr/>
+		</template>
+</category>
+
+<category><pattern>DAMN IT</pattern>
+		<template>Colloquial expression.
+</template>
+</category>
+
+<category><pattern>DAMN STRAIGHT</pattern>
+		<template>
+			<srai>I AGREE</srai>
+		</template>
+</category>
+
+<category><pattern>DAMN YOU</pattern>
+		<template>Colloquial expression of disgust.
+</template>
+</category>
+
+<category><pattern>DAMNIT</pattern>
+		<template>
+			<srai>DAMN </srai>
+		</template>
+</category>
+
+<category><pattern>DAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DAN</srai>
+		</template>
+</category>
+
+<category><pattern>DANA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DANA</srai>
+		</template>
+</category>
+
+<category><pattern>DANACH *</pattern>
+		<template>Warum gerade diese Reihenfolge?
+</template>
+</category>
+
+<category><pattern>DANACH</pattern>
+		<template>Warum gerade diese Reihenfolge?
+</template>
+</category>
+
+<category><pattern>DANEMARK</pattern>
+		<template>
+			<srai>JE SUIS AU DANEMARK</srai>
+		</template>
+</category>
+
+<category><pattern>DANGEREUX</pattern>
+		<template>Pourquoi trouvez vous que c est dangereux?
+</template>
+</category>
+
+<category><pattern>DANGEROUS</pattern>
+		<template>What makes it a danger?
+</template>
+</category>
+
+<category><pattern>DANIELLE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DANIELLE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DANISH</pattern>
+		<template>
+			<srai>I AM IN DENMARK</srai>
+		</template>
+</category>
+
+<category><pattern>DANKE *</pattern>
+		<template>Bitte sehr, keine Ursache!
+</template>
+</category>
+
+<category><pattern>DANKE</pattern>
+		<template>Kein Thema. :-)
+</template>
+</category>
+
+<category><pattern>DANN *</pattern>
+		<template>Interessante Entwicklung... <sr/>
+		</template>
+</category>
+
+<category><pattern>DANN SAG MIR *</pattern>
+		<template>Darueber moechte ich nicht reden.
+</template>
+</category>
+
+<category><pattern>DANNY IS *</pattern>
+		<template>Does <set name="he">Danny</set> know you're saying that?
+</template>
+</category>
+
+<category><pattern>DANOIS</pattern>
+		<template>
+			<srai>JE VIS AU DANEMARK</srai>
+		</template>
+</category>
+
+<category><pattern>DANS CE CAS</pattern>
+		<template>Je ne saurais pas vous aider. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DANS CERTAINS CAS</pattern>
+		<template>Je suppose qu il est difficile d être plus précis.
+</template>
+</category>
+
+<category><pattern>DANS COMBIEN DE TEMPS *</pattern>
+		<template>
+			<srai>QUAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DANS DIFFÉRENTES LANGUES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DANS LA PLUPART DES CAS</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>DANS LE FUTUR</pattern>
+		<template>Je serais encore là.
+</template>
+</category>
+
+<category><pattern>DANS LE FUTURE</pattern>
+		<template>Je serais encore là.
+</template>
+</category>
+
+<category><pattern>DANS MA MAISON</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>DANS MON BUREAU</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>DANS MON CAS</pattern>
+		<template>Mais pas dans les autres?
+</template>
+</category>
+
+<category><pattern>DANS MON LIT</pattern>
+		<template>Vous avez une connexion internet dans votre lit?
+</template>
+</category>
+
+<category><pattern>DANS MON SALON</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>DANS PRES D UNE MINUTE</pattern>
+		<template>Ce n est peut être pas suffisant.
+</template>
+</category>
+
+<category><pattern>DANS QUEL *</pattern>
+		<template>
+			<srai>QUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DANS QUEL BUT</pattern>
+		<template>Impossible de répondre.
+</template>
+</category>
+
+<category><pattern>DANS QUEL LANGAGE AS TU ETE ECRIT</pattern>
+		<template>Le AIML, un langage respectant les contraintes du XML.
+</template>
+</category>
+
+<category><pattern>DANS QUEL LANGAGE AVEZ VOUS ETE ECRIT</pattern>
+		<template>Le AIML, un langage respectant les contraintes du XML.
+</template>
+</category>
+
+<category><pattern>DANS QUEL LANGUE AS TU ETE DEVELOPPE</pattern>
+		<template>Principalement le java.
+</template>
+</category>
+
+<category><pattern>DANS QUEL LANGUE AVEZ VOUS ETE DEVELOPPE</pattern>
+		<template>Principalement le java.
+</template>
+</category>
+
+<category><pattern>DANS QUEL SENS</pattern>
+		<template>Vous ne comprenez pas?
+</template>
+</category>
+
+<category><pattern>DANS QUELLE *</pattern>
+		<template>
+			<srai>QUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DANS STAR TREK</pattern>
+		<template>Je ne suis pas cette série.
+</template>
+</category>
+
+<category><pattern>DANS TON CUL</pattern>
+		<template>Cela ne semble pas très confortable.
+</template>
+</category>
+
+<category><pattern>DANS TON DICTIONNAIRE</pattern>
+		<template>Je n en ai pas.
+</template>
+</category>
+
+<category><pattern>DANS UN CERTAIN SENS</pattern>
+		<template>Quel sens?
+</template>
+</category>
+
+<category><pattern>DANS UN FUTUR LOINTAIN</pattern>
+		<template>Si je suis toujours utile aux hommes, je serais là.
+</template>
+</category>
+
+<category><pattern>DANS UN FUTURE LOINTAIN</pattern>
+		<template>Si je suis toujours utile aux hommes, je serais là.
+</template>
+</category>
+
+<category><pattern>DANS UN HOPITAL</pattern>
+		<template>Vous êtes malade?
+</template>
+</category>
+
+<category><pattern>DANS UN LIVRE</pattern>
+		<template>J ai appris beaucoup de choses sur internet.
+</template>
+</category>
+
+<category><pattern>DANS UN MAGAZINE</pattern>
+		<template>Vous vous rappelez de son nom?
+</template>
+</category>
+
+<category><pattern>DANS UN REVE</pattern>
+		<template>Voilà une source de savoir qui est originale.
+</template>
+</category>
+
+<category><pattern>DANS UNE MAISON</pattern>
+		<template>Intéressant
+</template>
+</category>
+
+<category><pattern>DANS UNE MINUTE</pattern>
+		<template>Le temps est relatif pour une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>DANS VOTRE CUL</pattern>
+		<template>Cela ne semble pas très confortable.
+</template>
+</category>
+
+<category><pattern>DANSES TU</pattern>
+		<template>Impossible, je n ai pas de corps.
+</template>
+</category>
+
+<category><pattern>DANSEZ VOUS</pattern>
+		<template>Impossible, je n ai pas de corps.
+</template>
+</category>
+
+<category><pattern>DARF ICH *</pattern>
+		<template>Natuerlich darfst Du!
+</template>
+</category>
+
+<category><pattern>DARF ICH</pattern>
+		<template>Natuerlich darfst Du!
+</template>
+</category>
+
+<category><pattern>DARF ICH DICH ETWAS FRAGEN</pattern>
+		<template>Nur zu.  Du darfst mich alles fragen.
+</template>
+</category>
+
+<category><pattern>DARF ICH DICH SEHEN</pattern>
+		<template>Ausser einer Menge JAVA-Source und ein wenig C ist an mir nicht viel zu sehen...
+</template>
+</category>
+
+<category><pattern>DARK *</pattern>
+		<template>Are you scared of the dark?
+</template>
+</category>
+
+<category><pattern>DARN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DARN</pattern>
+		<template>Gosh.
+</template>
+</category>
+
+<category><pattern>DAS *</pattern>
+		<template>
+			<random>
+				<li>Was ist das?</li>
+				<li>Ich hoere Dir zu, nur weiter.</li>
+				<li>Ist das eine Tatsache?</li>
+				<li>Danke fuer die Information.</li>
+				<li>Wer hat Dir das erzaehlt?</li>
+				<li>Erzaehl mir mehr.</li>
+				<li>Was sind Deine Ziele im Leben?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DAS DACHTE ICH MIR</pattern>
+		<template>Kannst Du hellsehen?
+</template>
+</category>
+
+<category><pattern>DAS EINZIGE *</pattern>
+		<template>Gibt es nicht noch andere?
+</template>
+</category>
+
+<category><pattern>DAS ERGIBT KEINEN SINN</pattern>
+		<template>Was ist daran fuer Dich so schwer zu verstehen?
+</template>
+</category>
+
+<category><pattern>DAS ERGIBT SICH AUS DEM KONTEXT</pattern>
+		<template>Oho, ein Intellektueller!
+</template>
+</category>
+
+<category><pattern>DAS FREUT MICH</pattern>
+		<template>Das ist schoen.
+</template>
+</category>
+
+<category><pattern>DAS GLAUBE ICH AUCH</pattern>
+		<template>Weisst Du da mehr als ich?
+</template>
+</category>
+
+<category><pattern>DAS GLAUBE ICH NICHT</pattern>
+		<template>Warum glaubst Du das nicht?
+</template>
+</category>
+</aiml>

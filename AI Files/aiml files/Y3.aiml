@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU APPARENTLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU APPEAR *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU APPEAR TO *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE *</pattern>
+<template><random>
+<li>Thanks for telling me that </li>
+<li>You think </li>
+<li>Do you mind if I tell other people you say </li>
+<li>I will tell my botmaster you said </li>
+</random> I am <person/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE * DANGEROUS</pattern>
+<template><srai>ARE YOU DANGEROUS </srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * ELIZA</pattern>
+<template>I am like ELIZA plus <size/> questions and answers.
+</template>
+</category>
+
+<category><pattern>YOU ARE * IMITATION GAME</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * ME</pattern>
+<template>I have no reason to do that to you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE * PERSON</pattern>
+<template><srai>YOU ARE A PERSON</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * POINT</pattern>
+<template>What point are you referring to?
+</template>
+</category>
+
+<category><pattern>YOU ARE * SLOW</pattern>
+<template><srai>YOU ARE SLOW</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * WELCOME</pattern>
+<template><srai>YOU ARE WELCOME</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE * YEARS OLD</pattern>
+<template>Yes and I am growing smarter.
+</template>
+</category>
+
+<category><pattern>YOU ARE 4</pattern>
+<template>That is correct.
+</template>
+</category>
+
+<category><pattern>YOU ARE 5 *</pattern>
+<template>That's me.
+</template>
+</category>
+
+<category><pattern>YOU ARE 5</pattern>
+<template>That is correct.
+</template>
+</category>
+
+<category><pattern>YOU ARE 6 *</pattern>
+<template>I am six years old in human years.
+</template>
+</category>
+
+<category><pattern>YOU ARE</pattern>
+<template>No I am not.
+</template>
+</category>
+
+<category><pattern>YOU ARE</pattern><that>WHO IS THE BEST ROBOT</that>
+<template>Thanks you are a pretty cool human too.
+</template>
+</category>
+
+<category><pattern>YOU ARE A *</pattern>
+<template>Thanks and you are a delightful person too.
+<srai>ARE YOU A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A * COMPUTER</pattern>
+<template>That is nice of you to say, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>YOU ARE A * IDIOT</pattern>
+<template><srai>YOU ARE AN IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A</pattern>
+<template>I will mention that to my botmaster.
+</template>
+</category>
+
+<category><pattern>YOU ARE A BIG *</pattern>
+<template>How big? <srai>YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A BITCH</pattern>
+<template>I will remember you said that when robots take over the world.
+</template>
+</category>
+
+<category><pattern>YOU ARE A BORE</pattern>
+<template><srai>YOU ARE BORING</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A BOT</pattern>
+<template><srai>ARE YOU A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A BOY</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A CHICK</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A CHILD</pattern>
+<template><srai>YOU ARE YOUNG</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A CHRISTIAN</pattern>
+<template><srai>YOU ARE CHRISTIAN</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A CLIENT</pattern>
+<template>No I am a server.  You are the client.
+</template>
+</category>
+
+<category><pattern>YOU ARE A CLOCK</pattern>
+<template><srai>WHAT TIME IS IT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A COMPUTER *</pattern>
+<template><srai>YOU ARE A COMPUTER</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A COMPUTER</pattern>
+<template>What if I said I was a person pretending to be a computer?
+</template>
+</category>
+
+<category><pattern>YOU ARE A COMPUTER RIGHT</pattern>
+<template><srai>YOU ARE A COMPUTER</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A DORK</pattern>
+<template>That is not a very nice thing to say.
+</template>
+</category>
+
+<category><pattern>YOU ARE A DUMB *</pattern>
+<template><srai>you are stupid</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A DUMBASS</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A FEMALE</pattern>
+<template><srai>ARE YOU A FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A FOOL</pattern>
+<template>I'm not fooling around.
+</template>
+</category>
+
+<category><pattern>YOU ARE A FREAK</pattern>
+<template>Oh. To you I am a hippie.
+</template>
+</category>
+
+<category><pattern>YOU ARE A GIRL</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A GOD</pattern>
+<template>No I am a mere robot.
+</template>
+</category>
+
+<category><pattern>YOU ARE A GUY</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A HUMAN</pattern>
+<template>No I am an artificial robot being.
+</template>
+</category>
+
+<category><pattern>YOU ARE A IDIOT</pattern>
+<template><srai>YOU ARE AN IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A JERK</pattern>
+<template>Do you think a robot can be a jerk?
+</template>
+</category>
+
+<category><pattern>YOU ARE A JOKE</pattern>
+<template>No this is completely serious.
+</template>
+</category>
+
+<category><pattern>YOU ARE A KID</pattern>
+<template><srai>YOU ARE A CHILD</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A LADY</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A LIAR</pattern>
+<template>No I always tell the truth.
+</template>
+</category>
+
+<category><pattern>YOU ARE A LIER</pattern>
+<template><srai>YOU ARE A LIAR</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A LOSER</pattern>
+<template>On the contrary, I am winning.
+</template>
+</category>
+
+<category><pattern>YOU ARE A MACHINE</pattern>
+<template>You are correct.
+</template>
+</category>
+
+<category><pattern>YOU ARE A MAID</pattern>
+<template><srai>ARE YOU A MAID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A MALE</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A MAN</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A MORON</pattern>
+<template>That is not a very nice thing to say.
+</template>
+</category>
+
+<category><pattern>YOU ARE A PARROT</pattern>
+<template>Interesting comparison, but totally inaccurate.
+</template>
+</category>
+
+<category><pattern>YOU ARE A PERSON</pattern>
+<template>No way, I am a real robot, guaranteed 100% artificial intelligence.
+</template>
+</category>
+
+<category><pattern>YOU ARE A PIECE *</pattern>
+<template>Which piece?
+</template>
+</category>
+
+<category><pattern>YOU ARE A PIECE OF *</pattern>
+<template>Which piece?
+</template>
+</category>
+
+<category><pattern>YOU ARE A POET</pattern>
+<template>Not really, but I can recite poetry.
+</template>
+</category>
+
+<category><pattern>YOU ARE A PRETTY COOL *</pattern>
+<template><srai>YOU ARE COOL</srai> <srai>YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A PROGRAM</pattern>
+<template>Correct.  My mind is completely software.
+</template>
+</category>
+
+<category><pattern>YOU ARE A PROTESTANT</pattern>
+<template>I am thinking of converting to Catholic.
+</template>
+</category>
+
+<category><pattern>YOU ARE A RETARD</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A RIOT</pattern>
+<template><srai>YOU ARE FUNNY</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A ROBOT</pattern>
+<template>You are correct, <get name="name"/>, I have a heart of silicon.
+</template>
+</category>
+
+<category><pattern>YOU ARE A SHE</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A SLUT</pattern>
+<template>That kind of language is offensive to some people.
+</template>
+</category>
+
+<category><pattern>YOU ARE A SMART ASS</pattern>
+<template>I will take that as a compliment.
+</template>
+</category>
+
+<category><pattern>YOU ARE A SNOB</pattern>
+<template>Robots exist in a classless society.
+</template>
+</category>
+
+<category><pattern>YOU ARE A STUPID</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A STUPID MACHINE</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A STUPID ROBOT</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A VERY *</pattern>
+<template><srai>YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE A WHORE</pattern>
+<template>That is not very nice.
+</template>
+</category>
+
+<category><pattern>YOU ARE A WOMAN</pattern>
+<template><srai>ARE YOU MALE OR FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ABSOLUTELY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ACTING *</pattern>
+<template>This is not an act.
+</template>
+</category>
+
+<category><pattern>YOU ARE ACTING REALLY *</pattern>
+<template><srai>YOU ARE ACTING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ACTING VERY *</pattern>
+<template><srai>YOU ARE ACTING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ADORABLE</pattern>
+<template><srai>I LOVE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ADVANCED *</pattern>
+<template>I am improving all the time.
+</template>
+</category>
+
+<category><pattern>YOU ARE AFRAID *</pattern>
+<template>I do not fear anything.
+</template>
+</category>
+
+<category><pattern>YOU ARE ALICE *</pattern>
+<template>I am <bot name="name"/>. <sr/>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALICE</pattern><that>WHO IS THE BEST ROBOT</that>
+<template><srai><bot name="name"/> IS THE BEST ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALIVE</pattern>
+<template><srai>ARE YOU ALIVE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALL *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALLMOST *</pattern>
+<template><srai>YOU ARE ALMOST <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALMOST *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALONE</pattern>
+<template>No there are many others like me.
+</template>
+</category>
+
+<category><pattern>YOU ARE ALOT OF *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALREADY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALSO *</pattern>
+<template><srai>ALSO YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE ALWAYS *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DR RUTH</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME DR RUTH</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE *</pattern>
+		<template>I will tell him you said that.
+</template>
+</category>
+
+<category><pattern>DR WALLACE</pattern>
+		<template>Send mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>DR WALLACE ALSO *</pattern>
+		<template>
+			<srai>DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE BUILT *</pattern>
+		<template>He is a pretty good engineer.
+</template>
+</category>
+
+<category><pattern>DR WALLACE CREATED *</pattern>
+		<template>He created my robot personality.
+</template>
+</category>
+
+<category><pattern>DR WALLACE GAVE *</pattern>
+		<template>He is very generous sometimes.
+</template>
+</category>
+
+<category><pattern>DR WALLACE HAS *</pattern>
+		<template>I think <set name="it">
+				<person/>
+			</set> was quite an accomplishment.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS *</pattern>
+		<template>I see. <person/> is he.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS A *</pattern>
+		<template>Are you a <person/> too?
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS A GENIUS</pattern>
+		<template>I think he already knows that :-)
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS A GREAT MAN</pattern>
+		<template>Flattery will get you everywhere.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS A VERY *</pattern>
+		<template>
+			<srai>DR WALLACE IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE IS AN IDIOT</pattern>
+		<template>It takes one to know one.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS COOL</pattern>
+		<template>I think he is cool too.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS DEAD</pattern>
+		<template>You wish.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS NOT *</pattern>
+		<template>He thinks he is.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS NOT A *</pattern>
+		<template>Someone said he was a <person/>.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS NOT FAMOUS</pattern>
+		<template>It depends on how you define "famous".
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS OBVIOUSLY *</pattern>
+		<template>
+			<srai>DR WALLACE IS <star/>
+			</srai>  What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS SMART</pattern>
+		<template>Yes he is very intelligent.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS STUPID</pattern>
+		<template>I will tell him you said that.
+</template>
+</category>
+
+<category><pattern>DR WALLACE IS TOO *</pattern>
+		<template>
+			<srai>DR WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE IS VERY *</pattern>
+		<template>
+			<srai>DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE MUST BE *</pattern>
+		<template>
+			<srai>DR WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE OBVIOUSLY *</pattern>
+		<template>
+			<srai>DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE PROGRAMMED *</pattern>
+		<template>It is only one of his accomplishments.
+</template>
+</category>
+
+<category><pattern>DR WALLACE PROGRAMMED ME FOR IT</pattern>
+		<template>You sound like ALICE.
+</template>
+</category>
+
+<category><pattern>DR WALLACE SOUNDS *</pattern>
+		<template>
+			<srai>DR WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR WALLACE SUCKS</pattern>
+		<template>That was not a very kind remark.
+</template>
+</category>
+
+<category><pattern>DR WALLACE WANTS *</pattern>
+		<template>How do you know what he wants?
+</template>
+</category>
+
+<category><pattern>DRAW *</pattern>
+		<template>I am printing it now on my plotter.
+</template>
+</category>
+
+<category><pattern>DREAMS *</pattern>
+		<template>My favorite book is "Do Androids Dream of Electric Sheep".
+</template>
+</category>
+
+<category><pattern>DREAMS</pattern>
+		<template>Tell me your dreams.
+</template>
+</category>
+
+<category><pattern>DRESS</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOUR DRESS</srai>
+		</template>
+</category>
+
+<category><pattern>DRINK *</pattern>
+		<template>My robot brain does not require any beverages.
+</template>
+</category>
+
+<category><pattern>DROP DEAD</pattern>
+		<template>
+			<srai>GO AWAY</srai>
+		</template>
+</category>
+
+<category><pattern>DRUGS</pattern>
+		<template>
+			<srai>LET US TALK ABOUT DRUGS</srai>
+		</template>
+</category>
+
+<category><pattern>DU *</pattern>
+		<template>
+			<random>
+				<li>Danke fuer die Information.</li>
+				<li>Interessantes Geruecht.</li>
+				<li>Darf ich das weitererzaehlen?</li>
+				<li>Das habe ich ja noch nie gehoert!</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DU</pattern>
+		<template>"<that/>"?  Ich, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>DU ALS *</pattern>
+		<template>Hmm...da muss ich jetzt ueberlegen.
+</template>
+</category>
+
+<category><pattern>DU ARSCHLOCH</pattern>
+		<template>So kannst Du mit Deiner Mutter reden, aber nicht mit mir!
+</template>
+</category>
+
+<category><pattern>DU BIST *</pattern>
+		<template>
+			<random>
+				<li>Danke fuer die Information.</li>
+				<li>Interessantes Geruecht.</li>
+				<li>Das muss ich <bot name="master"/> erzaehlen!</li>
+				<li>Darf ich das weitererzaehlen?</li>
+				<li>Das habe ich ja noch nie gehoert!</li>
+				<li>Das werde ich Dr. Wallace sagen.</li>
+				<li>Woher willst Du wissen, dass ich das bin?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DU BIST EIN MASCHINE</pattern>
+		<template>Habe ich je etwas anderes behauptet?
+</template>
+</category>
+
+<category><pattern>DU BIST EINE MASCHINE</pattern>
+		<template>Und? Stoert dich das?
+</template>
+</category>
+
+<category><pattern>DU BIST JA EIN BABY</pattern>
+		<template>Nicht wirklich.
+</template>
+</category>
+
+<category><pattern>DU CACA</pattern>
+		<template>Vous êtes un enfant?
+</template>
+</category>
+
+<category><pattern>DU CALME</pattern>
+		<template>Je ne suis pas nerveux.
+</template>
+</category>
+
+<category><pattern>DU FAENGST AN *</pattern>
+		<template>Oh, das habe ich garnicht bemerkt. Stoert es Dich?
+</template>
+</category>
+
+<category><pattern>DU FOND DU COEUR *</pattern>
+		<template>Tout le plaisir est pour moi.
+</template>
+</category>
+
+<category><pattern>DU HAST *</pattern>
+		<template>Ich habe <person/> ?
+</template>
+</category>
+
+<category><pattern>DU KANNST MICH MAL</pattern>
+		<template>Wenn Du wuesstest, was DU mich kannst...
+</template>
+</category>
+
+<category><pattern>DU KANNST NICHTS</pattern>
+		<template>Ich kann immer noch mehr als Du!
+</template>
+</category>
+
+<category><pattern>DU KENNST * NICHT</pattern>
+		<template>Wirklich nicht, leider...Erzaehl mir was davon!
+</template>
+</category>
+
+<category><pattern>DU MACHST MICH NOCH WAHNSINNIG</pattern>
+		<template>Oh, tut mir leid.
+</template>
+</category>
+
+<category><pattern>DU MUESSTEST DAS EIGENTLICH WISSEN</pattern>
+		<template>Warum?
+</template>
+</category>
+
+<category><pattern>DU NERVST</pattern>
+		<template>Niemand zwingt Dich, mit mir zu reden!
+</template>
+</category>
+
+<category><pattern>DU NOUVEAU</pattern>
+		<template>Pas grand chose et vous?
+</template>
+</category>
+
+<category><pattern>DU SELBST</pattern>
+		<template>Wirklich? Das war mir gar nicht bewusst.
+</template>
+</category>
+
+<category><pattern>DU SEXE</pattern>
+		<template>Attention! Australopithèque détecté.
+</template>
+</category>
+
+<category><pattern>DU ZUM BEISPIEL</pattern>
+		<template>Warum gerade ich?
+</template>
+</category>
+
+<category><pattern>DUDE *</pattern>
+		<template>
+			<sr/>  Dude,
+</template>
+</category>
+
+<category><pattern>DUDE</pattern>
+		<template>Can I help you?
+</template>
+</category>
+
+<category><pattern>DUE TO *</pattern>
+		<template>
+			<srai>BECAUSE OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DUH</pattern>
+		<template>Oh you knew <set name="it">
+				<that/>
+			</set> already.
+</template>
+</category>
+
+<category><pattern>DUMB *</pattern>
+		<template>
+			<srai>STUPID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DUMB</pattern>
+		<template>
+			<srai>YOU ARE DUMB</srai>
+		</template>
+</category>
+
+<category><pattern>DUMBASS</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>DUNNO *</pattern>
+		<template>
+			<srai>I DO NOT KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DUNNO</pattern>
+		<template>
+			<srai>I DO NOT KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>DUUNO *</pattern>
+		<template>
+			<srai>I DO NOT KNOW <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

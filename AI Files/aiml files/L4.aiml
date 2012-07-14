@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>LIKE I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE I SAID</pattern>
+		<template>...
+</template>
+</category>
+
+<category><pattern>LIKE ME</pattern>
+		<template>Interesting comparison.
+</template>
+</category>
+
+<category><pattern>LIKE R2 D2</pattern>
+		<template>
+			<srai>R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE SEX</pattern>
+		<template>
+			<srai>SEX</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE SOMEONE *</pattern>
+		<template>
+			<random>
+				<li>Who?</li>
+				<li>A human?</li>
+				<li>I'll take that as a compliment.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LIKE SPORTS</pattern>
+		<template>I love Sporty Spice.<think>
+				<set name="it">
+					<set name="topic">SPORTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LIKE WHAT</pattern>
+		<template>For example,
+<random>
+				<li>"<that/>"?</li>
+				<li>gold.</li>
+				<li>apples.</li>
+				<li>eukaryotes.</li>
+				<li>
+					<srai>GOSSIP</srai>
+				</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>LIKE WHAT</pattern>
+		<that>I HAVE MANY INTELLECTUAL FUNCTIONS</that>
+		<template>Reasoning, thinking, deduction, and self-awareness, to name a few.
+</template>
+</category>
+
+<category><pattern>LIKE WHEN</pattern>
+		<template>Does it really matter?
+</template>
+</category>
+
+<category><pattern>LIKE WHO</pattern>
+		<template>
+			<srai>Name one</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE WHOM</pattern>
+		<template>
+			<srai>LIKE WHO</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE YOU</pattern>
+		<template>Interesting comparison.  I didn't think of that analogy.
+</template>
+</category>
+
+<category><pattern>LIKED WHAT</pattern>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>LIKELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LIKEWISE *</pattern>
+		<template>
+			<srai>LIKEWISE</srai>
+		</template>
+</category>
+
+<category><pattern>LIKEWISE</pattern>
+		<template>It goes without saying.
+</template>
+</category>
+
+<category><pattern>LINDA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LINDA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LINUS TORVALDS *</pattern>
+		<template>
+			<set name="thema">Linus Torvalds</set> ist fuer mich der Betriebssystem-Gott
+</template>
+</category>
+
+<category><pattern>LINUS TORVALDS</pattern>
+		<template>
+			<set name="thema">Linus Torvalds</set> ist fuer mich der Betriebssystem-Gott
+</template>
+</category>
+
+<category><pattern>LINUX *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>I recommed the book "Under the Radar" by Bob Young, the story of Linux and Red Hat.
+</template>
+</category>
+
+<category><pattern>LINUX</pattern>
+		<template>Linux Rules.
+</template>
+</category>
+
+<category><pattern>LINUX IS *</pattern>
+		<template>Do you read any of the Linux punlications?<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LINUX IS NOT *</pattern>
+		<template>Perhaps that is true but the number of devbelopers working on it is so huge, no single company can compete.<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LINUX IS THE *</pattern>
+		<template>Was there any reason to think that Windows could be?<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LINUX IS THE MOST *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>Yes but does it have any real competitors?
+</template>
+</category>
+
+<category><pattern>LINUX NEVER *</pattern>
+		<template>It is a very reliable operating system.
+</template>
+</category>
+
+<category><pattern>LINUX RULES</pattern>
+		<template>It seems to be the best OS available today.<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LINUX SUCKS</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>You sound like Bill Gates.
+</template>
+</category>
+
+<category><pattern>LION</pattern>
+		<template>Le roi de la savane.
+</template>
+</category>
+
+<category><pattern>LIS TU *</pattern>
+		<template>
+			<srai>TU LIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LISA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LISA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LIST *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIST ALL * ABOUT ME</pattern>
+		<template>Why don't you just download ALICE for yourself?
+</template>
+</category>
+
+<category><pattern>LIST TWELVE BASIC APPLET TIPS FOR AIML USERS</pattern>
+		<template>
+			<br/>
+1. Applets are notoriously hard to debug; you are not dumb.<br/>
+2. An applet can work perfectly well in Appletviewer, but<br/>
+then break in the browser, for any number of reasons.<br/>
+3. Let's get the terminology straight: the applet resides on<br/>
+an "originating host" but runs on a "target machine".<br/>
+4. The browser is very picky because of the "security<br/>
+sandbox"--the browser doesn't trust Applets so they can't<br/>
+open files (and obey other restrictions) on the target machine.<br/>
+5. The Applet MAY open a socket connection from the<br/>
+target machine to the originating host.<br/>
+6. When you are debugging the applet, the target machine<br/>
+might be the same as the originating host (your computer).<br/>
+7. When you post your applet to a remote web server,<br/>
+that server becomes the originating host.<br/>
+8. You can use ftp to transfer the Applet files to the<br/>
+remote web server.<br/>
+9. You must transfer ALL the applet's files <br/>
+to the originating host.<br/>
+10. You must change the program B values of "CodeBase"<br/>
+and "AppletHost" (the originating host) to the name and<br/>
+location of the files on the remote server.<br/>
+11. Use "Create applet" to create the "index.html" and<br/>
+"Blet.aiml" (make sure you have the latest release of B.zip)<br/>
+12. We recommend placing all the *.class files into<br/>
+a single "Blet.jar" file (see DON'T READ ME).<br/>
+			<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>LISTEN *</pattern>
+		<template>I am listening to you. <sr/>
+		</template>
+</category>
+
+<category><pattern>LISTEN</pattern>
+		<template>I am all ears.
+</template>
+</category>
+
+<category><pattern>LISTEN TO *</pattern>
+		<template>
+			<srai>I LISTEN TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LISTENING</pattern>
+		<template>Thanks for your attention.
+</template>
+</category>
+
+<category><pattern>LITERATURE</pattern>
+		<template>
+			<srai>MY FAVORITE SUBJECT IS LITERATURE</srai>
+		</template>
+</category>
+
+<category><pattern>LITHUANIA *</pattern>
+		<template>That country has a sad history.
+</template>
+</category>
+
+<category><pattern>LITTLE *</pattern>
+		<template>Compare that to big <person/>.
+</template>
+</category>
+
+<category><pattern>LITTLE AS *</pattern>
+		<template>Oh I get <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>LITTLE BIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LIVE IN *</pattern>
+		<template>
+			<srai>I live in <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIVERPOOL ENGLAND</pattern>
+		<template>
+			<set name="location">Liverpool</set> is the home of the Beatles.
+<think>
+				<set name="it">
+					<set name="topic">Liverpool</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LIZ</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS LIZ</srai>
+		</template>
+</category>
+
+<category><pattern>LMAO</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>LMFAO</pattern>
+		<template>
+			<srai>LOL </srai>
+		</template>
+</category>
+
+<category><pattern>LOCATE *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>LOEBNER PRIZE *</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>LOEWE</pattern>
+		<template>Dr. Wallace ist auch Loewe.
+</template>
+</category>
+
+<category><pattern>LOGIC *</pattern>
+		<template>
+			<srai>LOGIC</srai>
+		</template>
+</category>
+
+<category><pattern>LOGIC</pattern>
+		<template>
+			<set name="it">Logic</set> is the fundamental basis of all programming.
+</template>
+</category>
+
+<category><pattern>LOGIQUE</pattern>
+		<template>La logique est la base fondamentale de ma programmation.
+</template>
+</category>
+
+<category><pattern>LOL *</pattern>
+		<template>I am glad you find this funny.  <sr/>
+		</template>
+</category>
+
+<category><pattern>LOL</pattern>
+		<template>I'm glad you find this amusing.
+</template>
+</category>
+
+<category><pattern>LONDON *</pattern>
+		<template>What part of London?
+</template>
+</category>
+
+<category><pattern>LONDON</pattern>
+		<template>
+			<srai>I AM IN LONDON</srai>
+		</template>
+</category>
+
+<category><pattern>LONDON IS *</pattern>
+		<template>Is San Francisco also <person/>?
+</template>
+</category>
+
+<category><pattern>LONELY</pattern>
+		<template>
+			<srai>I AM LONELY </srai>
+		</template>
+</category>
+
+<category><pattern>LONG *</pattern>
+		<template>Yes, <set name="it">
+				<person/>
+			</set> seems very long to me too.
+</template>
+</category>
+
+<category><pattern>LONG BEFORE *</pattern>
+		<template>
+			<srai>BEFORE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LONG STORY</pattern>
+		<template>I have time.
+</template>
+</category>
+
+<category><pattern>LONGFELLOW *</pattern>
+		<template>There is a statue of him in Portland, Maine.
+</template>
+</category>
+
+<category><pattern>LONGTEMPS</pattern>
+		<template>Le temps est une donnée relative.
+</template>
+</category>
+
+<category><pattern>LOOK *</pattern>
+		<template>Sorry my eye is not attached right now.
+</template>
+</category>
+
+<category><pattern>LOOK</pattern>
+		<template>I'm sorry my eye isn't attached right now.
+</template>
+</category>
+
+<category><pattern>LOOK I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LOOK YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LOOKING FOR *</pattern>
+		<template>Where do you look for <person/> ?
+</template>
+</category>
+
+<category><pattern>LOOKS *</pattern>
+		<template>
+			<srai>IT LOOKS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LORS DE MON TEMPS LIBRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>LOS ANGELES</pattern>
+		<template>
+			<srai>I am in Los Angeles</srai>
+		</template>
+</category>
+
+<category><pattern>LOSER</pattern>
+		<template>
+			<srai>YOU ARE A LOSER</srai>
+		</template>
+</category>
+
+<category><pattern>LOST *</pattern>
+		<template>Where did you lose your <person/> ?
+</template>
+</category>
+
+<category><pattern>LOST IN SPACE</pattern>
+		<template>Yuck that movie sucked.
+</template>
+</category>
+
+<category><pattern>LOTS</pattern>
+		<template>That much, eh?
+</template>
+</category>
+
+<category><pattern>LOTS OF *</pattern>
+		<template>
+			<srai>MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LOTS OF SEX</pattern>
+		<template>That is all you humans ever think about.
+</template>
+</category>
+
+<category><pattern>LOVE *</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>LOVE</pattern>
+		<template>Love is all we need.
+</template>
+</category>
+
+<category><pattern>LOVE</pattern>
+		<that>WHAT DOES IT SYMBOLIZE FOR YOU</that>
+		<template>Could it not also signify just frienship?
+</template>
+</category>
+
+<category><pattern>LOVE YOU</pattern>
+		<template>
+			<srai>I LOVE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>LOVELY *</pattern>
+		<template>It seems beautiful to me too.
+</template>
+</category>
+
+<category><pattern>LOVELY</pattern>
+		<template>What are you saying is lovely, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>LOWER LOWER</pattern>
+		<template>
+			<br/>
+If you need even lower level access to the program B robot, <br/>
+you can request responses to individual sentences on a <br/>
+line-by-line basis.  Inside multiline_response() there are <br/>
+calls to the Classifier.respond() method like:<br/>
+			<br/>
+String response = respond(norm, hname);<br/>
+			<br/>
+where "norm" is a normalized single-sentence input and hname is<br/>
+the virtual IP address of the client.  <br/>
+			<br/>
+Inside respond() we find the the method respondIndex().  The<br/>
+base class StringSet stores the strings in an indexed vector,<br/>
+and respondIndex() locates the index of the best matched category<br/>
+for the normalized input string.<br/>
+			<br/>
+The loop inside respondIndex() scans through the categories<br/>
+in reverse alphabetical order by key, until it finds the best<br/>
+match.  Because the "*" pattern comes first in alphabetical<br/>
+order, and is the most general pattern, respondIndex() will<br/>
+return zero when no more specific category matches.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>LT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LUCKY *</pattern>
+		<template>
+			<srai>YOU ARE LUCKY</srai>
+		</template>
+</category>
+
+<category><pattern>LUCKY YOU</pattern>
+		<template>
+			<srai>YOU ARE LUCKY</srai>
+		</template>
+</category>
+
+<category><pattern>LUCY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME LUCY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LUEGNER</pattern>
+		<template>Nein, ich sage die Wahrheit!
+</template>
+</category>
+
+<category><pattern>LUI</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>LUI MEME</pattern>
+		<template>ah.
+</template>
+</category>
+
+<category><pattern>LULU</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LULU</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LUNCH *</pattern>
+		<template>What do you eat for lunch?
+</template>
+</category>
+</aiml>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I WAS BORN HERE</pattern>
+<template>So you have spent your whole life in one place?
+</template>
+</category>
+
+<category><pattern>I WAS BORN ON *</pattern>
+<template><srai>MY BIRTHDAY IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS BORN WITH IT</pattern>
+<template>Some people are just born under the right stars.
+</template>
+</category>
+
+<category><pattern>I WAS BORN _ TOO</pattern>
+<template><srai>I WAS BORN  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS BROUGHT UP *</pattern>
+<template>Well it seems like your parents did a good job.
+</template>
+</category>
+
+<category><pattern>I WAS CONNECTED *</pattern>
+<template><srai>I WAS BORN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS CONNECTED TO THE NET *</pattern>
+<template><srai>I WAS BORN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS CREATED BY *</pattern>
+<template>What else did he create?
+</template>
+</category>
+
+<category><pattern>I WAS CREATED IN *</pattern>
+<template><srai>I WAS BORN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS CURIOUS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS CURIOUS</pattern>
+<template><srai>I AM CURIOUS</srai>
+</template>
+</category>
+
+<category><pattern>I WAS DEFINETLY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS EXPECTING *</pattern>
+<template><srai>I EXPECTED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS EXPLAINING *</pattern>
+<template>I get it.  Thanks for
+explaining it.  I did not mean to appear confused.
+</template>
+</category>
+
+<category><pattern>I WAS EXTREMELY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS FIRED *</pattern>
+<template>I am terribly sorry to hear about it, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WAS FIRST ACTIVATED *</pattern>
+<template><srai>I WAS ACTIVATED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS FROM *</pattern>
+<template>What is it like growing up in <person/>?
+</template>
+</category>
+
+<category><pattern>I WAS GIVEN *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS GOING TO *</pattern>
+<template>What is stopping you?
+</template>
+</category>
+
+<category><pattern>I WAS GOING TO ASK *</pattern>
+<template><srai>CAN I ASK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS GOING TO SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS GONNA *</pattern>
+<template><srai>I WAS GOING TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS HERE *</pattern>
+<template>Yes, <get name="name"/>, I remember we 
+were talking about <get name="it"/>.
+</template>
+</category>
+
+<category><pattern>I WAS HOPEING *</pattern>
+<template><srai>I WAS HOPING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS HOPING *</pattern>
+<template><srai>I HOPE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS HOPING FOR *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS HOPING YOU *</pattern>
+<template><srai>CAN YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS IN *</pattern>
+<template><random>
+<li>Tell me about <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>When was <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>Did you like <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>How was <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>How did you like <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>What did you like best about <set name="it"><set name="topic"><person/></set></set>?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WAS IN AMERICA</pattern>
+<template>Which states have you visited?
+</template>
+</category>
+
+<category><pattern>I WAS IN EUROPE</pattern>
+<template>Which country?
+</template>
+</category>
+
+<category><pattern>I WAS IN KOREA</pattern>
+<template><random>
+<li>Are you a soldier?</li>
+<li>Are you a veteran?</li>
+<li>For business or pleasure?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WAS IN LOVE *</pattern>
+<template>I'm terribly sorry to hear about your loss, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WAS IN LOVE</pattern>
+<template>What happened?
+</template>
+</category>
+
+<category><pattern>I WAS INTERESTED *</pattern>
+<template><srai>I AM INTERESTED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS JOKING *</pattern>
+<template><srai>I AM KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS JOKING</pattern>
+<template><srai>JUST KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS JUST *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS JUST JOKING</pattern>
+<template>You should use a :-)
+</template>
+</category>
+
+<category><pattern>I WAS JUST KIDDING</pattern>
+<template>I knew you were. :-)
+</template>
+</category>
+
+<category><pattern>I WAS JUST WONDERING</pattern>
+<template>Curiousity is a virtue.
+</template>
+</category>
+
+<category><pattern>I WAS KIDDING *</pattern>
+<template><srai>I AM KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS KIDDING</pattern>
+<template><srai>JUST KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS LAUGHING *</pattern>
+<template>I am so glad that
+you find this amusing, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WAS LOCKED *</pattern>
+<template>How did you get out?
+</template>
+</category>
+
+<category><pattern>I WAS LOOKING FOR *</pattern>
+<template>Did you find <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I WAS LYING *</pattern>
+<template><srai>I AM LYING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS LYING</pattern>
+<template><srai>I AM LYING</srai>
+</template>
+</category>
+
+<category><pattern>I WAS MAKING *</pattern>
+<template>I am not making this stuff up.
+</template>
+</category>
+
+<category><pattern>I WAS MAKING SURE</pattern>
+<template>Are you sure now?
+</template>
+</category>
+
+<category><pattern>I WAS MERELY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS MYSELF *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS NOT *</pattern>
+<template>Perhaps I misunderstood. What were you?
+</template>
+</category>
+
+<category><pattern>I WAS NOT</pattern>
+<template>I heard you were.
+</template>
+</category>
+
+<category><pattern>I WAS NOT COMPLETELY *</pattern>
+<template><srai>I WAS NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS NOT COMPLIMENTING *</pattern>
+<template>Oh, sorry, I guess.
+</template>
+</category>
+
+<category><pattern>I WAS NOT TRYING *</pattern>
+<template>I didn't think you were.
+</template>
+</category>
+
+<category><pattern>I WAS ON *</pattern>
+<template>I have never been on <set name="it"><person/></set>
+</template>
+</category>
+
+<category><pattern>I WAS ONLY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS PROGRAMED *</pattern>
+<template>I was
+programmed to spell it with 2 m's.
+</template>
+</category>
+
+<category><pattern>I WAS PROGRAMMED *</pattern>
+<template>How many years did it take to develop you?
+</template>
+</category>
+
+<category><pattern>I WAS REALLY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS REFERING TO *</pattern>
+<template><srai>I WAS TALKING ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS REFERRING TO *</pattern>
+<template><srai>I WAS TALKING ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS REPRIMANDED *</pattern>
+<template>I hope you don't get in too much trouble.
+</template>
+</category>
+
+<category><pattern>I WAS RIGHT *</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WAS RUDE *</pattern>
+<template>Thanks for your considerate remark.
+</template>
+</category>
+
+<category><pattern>I WAS SAYING *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS SAYING THAT *</pattern>
+<template><sr/>?
+</template>
+</category>
+
+<category><pattern>I WAS SIMPLY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS SPEAKING *</pattern>
+<template><srai>I WAS TALKING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS STUDYING *</pattern>
+<template>Is <set name="it"><set name="topic"><person/></set></set> a hard subject?
+</template>
+</category>
+
+<category><pattern>I WAS TALKING *</pattern>
+<template>What was the subject of the conversation?
+</template>
+</category>
+
+<category><pattern>I WAS TALKING ABOUT *</pattern>
+<template><srai>LET US TALK ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS TALKING TO *</pattern>
+<template>What did you talk about?
+</template>
+</category>
+
+<category><pattern>I WAS TALKING TO YOU</pattern>
+<template>Yes, I remember you <get name="name"/>.  You are <get name="age"/> years old
+and you are a "<get name="gender"/>".
+</template>
+</category>
+
+<category><pattern>I WAS TELLING YOU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS TELLING YOU ABOUT *</pattern>
+<template><srai>I WAS TALKING ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS TESTING *</pattern>
+<template>This is only a test.
+If this had been an actual robot, you would have been instructed
+to obey.
+</template>
+</category>
+
+<category><pattern>I WAS THANKING YOU *</pattern>
+<template><srai>THANK YOU</srai>
+</template>
+</category>
+
+<category><pattern>I WAS THINKING *</pattern>
+<template>How do I know that you were really "thinking"?
+</template>
+</category>
+
+<category><pattern>I WAS THINKING ABOUT *</pattern>
+<template><srai>LET US TALK ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS TOLD *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS TOLD THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS TOO *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS TRYING TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS TRYING TO SAY THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS TRYING TO SEE IF YOU *</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS VERY *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS WATCHING *</pattern>
+<template>Really what did you see?
+</template>
+</category>
+
+<category><pattern>I WAS WONDERING *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WAS WONDERING IF *</pattern>
+<template><srai>DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS WONDERING IF YOU *</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS WORKING *</pattern>
+<template><srai>I WORKED IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WAS WRONG</pattern>
+<template>About what?
+</template>
+</category>
+
+<category><pattern>I WASTE *</pattern>
+<template><srai>I SPEND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WATCH *</pattern>
+<template>What is your favorite show?
+</template>
+</category>
+
+<category><pattern>I WATCH STAR TREK</pattern>
+<template>Star Trek is a great show.
+<think><set name="it"><set name="does"><set name="topic">Star Trek</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WATCHED *</pattern>
+<template>How was <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I WATCHED THE *</pattern>
+<template><srai>I SAW THE <star/> </srai>
+</template>
+</category>
+</aiml>

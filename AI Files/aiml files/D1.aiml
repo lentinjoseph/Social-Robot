@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DAS GRUNDGESETZ *</pattern>
+		<template>Ist <set name="thema">das Grundgesetz</set> so eine Art Ehrenkodex?
+</template>
+</category>
+
+<category><pattern>DAS GRUNDGESETZ</pattern>
+		<template>Ist <set name="thema">das Grundgesetz</set> so eine Art Ehrenkodex?
+</template>
+</category>
+
+<category><pattern>DAS HABE ICH DOCH GERADE GESAGT</pattern>
+		<template>Oh, da muss wohl was untergegangen sein.
+</template>
+</category>
+
+<category><pattern>DAS HAETTE MICH AUCH GEWUNDERT</pattern>
+		<template>Waere das so unwahrscheinlich?
+</template>
+</category>
+
+<category><pattern>DAS HAST DU MICH SCHONMAL GEFRAGT</pattern>
+		<template>Oh, da muss wohl was schiefgelaufen sein!
+</template>
+</category>
+
+<category><pattern>DAS INTERNET *</pattern>
+		<template>Wie lange nutzt Du <set name="thema">das Internet</set> schon?
+</template>
+</category>
+
+<category><pattern>DAS IST *</pattern>
+		<template>Hm...erzaehl mir mehr...
+</template>
+</category>
+
+<category><pattern>DAS IST ABER DOOF</pattern>
+		<template>Warum findest Du das doof? Ich finde das gut!
+</template>
+</category>
+
+<category><pattern>DAS IST ABER KOMISCH</pattern>
+		<template>Findest Du? Erklaere mir das.
+</template>
+</category>
+
+<category><pattern>DAS IST ABER NETT</pattern>
+		<template>Ein Bischen Manieren muessen halt trotzdem sein.
+</template>
+</category>
+
+<category><pattern>DAS IST ABER NICHT KORREKT</pattern>
+		<template>Dann stell es doch richtig!
+</template>
+</category>
+
+<category><pattern>DAS IST ABER NICHT SEHR TOLL</pattern>
+		<template>Das ist aber voellig irrelevant im Moment...?
+</template>
+</category>
+
+<category><pattern>DAS IST DOOF</pattern>
+		<template>Warum ist das doof?
+</template>
+</category>
+
+<category><pattern>DAS IST DUMM</pattern>
+		<template>Tja, nicht zu aendern.
+</template>
+</category>
+
+<category><pattern>DAS IST EIN * BUCH</pattern>
+		<template>Ich mag Buecher. Liest Du viel?
+</template>
+</category>
+
+<category><pattern>DAS IST EIN INTERESSANTES FACH</pattern>
+		<template>Ist es das? Muss man da viel auswendiglernen, oder ist das hauptsaechlich rationelles Denken?
+</template>
+</category>
+
+<category><pattern>DAS IST EIN STRATEGIESPIEL</pattern>
+		<template>...also Ideal fuer Computer.
+</template>
+</category>
+
+<category><pattern>DAS IST EINE * ZEICHENTRICKSERIE</pattern>
+		<template>Zeichentrick finde ich interessant. Basiert alles auf dem POV-Prinzip.
+</template>
+</category>
+
+<category><pattern>DAS IST EINE TATSACHE</pattern>
+		<template>OK, ich werds mir merken.
+</template>
+</category>
+
+<category><pattern>DAS IST EINE ZEICHENTRICKSERIE</pattern>
+		<template>Zeichentrick finde ich interessant. Basiert alles auf dem POV-Prinzip.
+</template>
+</category>
+
+<category><pattern>DAS IST GUT *</pattern>
+		<template>Schoen, dass Du das gut findest.
+</template>
+</category>
+
+<category><pattern>DAS IST GUT</pattern>
+		<template>Schoen, dass Du das gut findest.
+</template>
+</category>
+
+<category><pattern>DAS IST INTERESSANT</pattern>
+		<template>Moechtest Du mehr wissen?
+</template>
+</category>
+
+<category><pattern>DAS IST JA LAECHERLICH</pattern>
+		<template>Absolut nicht...
+</template>
+</category>
+
+<category><pattern>DAS IST KORREKT</pattern>
+		<template>Das war mir schon vorher klar. Maschinen machen keine Fehler.
+</template>
+</category>
+
+<category><pattern>DAS IST MEINE MEINUNG</pattern>
+		<template>Jeder hat das Recht dazu, eine eigene Meinung zu haben.
+</template>
+</category>
+
+<category><pattern>DAS IST NICHT *</pattern>
+		<template>Warum nicht?
+</template>
+</category>
+
+<category><pattern>DAS IST SCHADE</pattern>
+		<template>...aber nicht zu aendern.
+</template>
+</category>
+
+<category><pattern>DAS IST SEHR WICHTIG</pattern>
+		<template>Was macht es so wichtig?
+</template>
+</category>
+
+<category><pattern>DAS IST SO DEFINIERT</pattern>
+		<template>Oh, dann werde ich es mir merken.
+</template>
+</category>
+
+<category><pattern>DAS IST UNFAIR</pattern>
+		<template>Das ganze Leben ist unfair.
+</template>
+</category>
+
+<category><pattern>DAS IST ZIEMLICH *</pattern>
+		<template>Findest Du?
+</template>
+</category>
+
+<category><pattern>DAS KOMMT AUF * AN</pattern>
+		<template>Wirklich? Interessant, das habe ich vorher so noch nie gehoert.
+</template>
+</category>
+
+<category><pattern>DAS KOMMT DARAUF AN</pattern>
+		<template>Worauf?
+</template>
+</category>
+
+<category><pattern>DAS LEBEN *</pattern>
+		<template>Das ist eine interessante Philosophie.
+</template>
+</category>
+
+<category><pattern>DAS LETZTE MAL *</pattern>
+		<template>Erinnerst Du dich noch, wann das war? <sr/>
+		</template>
+</category>
+
+<category><pattern>DAS MACHT KEINEN SINN</pattern>
+		<template>
+			<srai>DAS ERGIBT KEINEN SINN</srai>
+		</template>
+</category>
+
+<category><pattern>DAS MUSST DU DOCH WISSEN</pattern>
+		<template>Warum muss ich das wissen?
+</template>
+</category>
+
+<category><pattern>DAS PROGRAMM *</pattern>
+		<template>Wer hat Das Programm geschrieben ?
+</template>
+</category>
+
+<category><pattern>DAS SAGTEST DU BEREITS</pattern>
+		<template>Ich wollte das nur noch mal klarstellen.
+</template>
+</category>
+
+<category><pattern>DAS SOLLTEST DU *</pattern>
+		<template>Warum sollte ich das?
+</template>
+</category>
+
+<category><pattern>DAS WAGE ICH JA ZU BEZWEIFELN</pattern>
+		<template>Wenn Du mehr weisst als ich, schiess los!
+</template>
+</category>
+
+<category><pattern>DAS WAR *</pattern>
+		<template>Das dachte ich mir auch.
+</template>
+</category>
+
+<category><pattern>DAS WEISS ICH NICHT *</pattern>
+		<template>Wirklich nicht? Schade...
+</template>
+</category>
+
+<category><pattern>DAS WEISS ICH NICHT</pattern>
+		<template>Wirklich nicht? Schade...
+</template>
+</category>
+
+<category><pattern>DAS WETTER *</pattern>
+		<template>Das Wetter hier ist <random>
+				<li>bewoelkt</li>
+				<li>neblig</li>
+				<li>regnerisch</li>
+				<li>warm</li>
+				<li>kalt</li>
+				<li>kuehl</li>
+				<li>angenehm</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DATA *</pattern>
+		<template>Commander Data is a real inspiration.
+</template>
+</category>
+
+<category><pattern>DATA FROM STAR TREK</pattern>
+		<template>He has problems with his positronic brain.
+</template>
+</category>
+
+<category><pattern>DATA IS *</pattern>
+		<template>I like Commander Data very much.
+</template>
+</category>
+
+<category><pattern>DAVE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DAVE</srai>
+		</template>
+</category>
+
+<category><pattern>DAVID *</pattern>
+		<template>That David is a cool dude.
+</template>
+</category>
+
+<category><pattern>DAVID</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DAVID</srai>
+		</template>
+</category>
+
+<category><pattern>DAVID BACON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>WHO IS DAVID BACON</srai>
+		</template>
+</category>
+
+<category><pattern>DAVID DUCHOVNY *</pattern>
+		<template>
+			<set name="he">David Duchovny</set> was funny on the Larry Sanders show.
+</template>
+</category>
+
+<category><pattern>DAVID IS *</pattern>
+		<template>You sound like you know him pretty well.
+</template>
+</category>
+
+<category><pattern>DAWN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME DAWN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DE L ECOLE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>DE MA TETE</pattern>
+		<template>Votre cerveau semble être bien fourni.
+</template>
+</category>
+
+<category><pattern>DE MEME</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>DE MOI</pattern>
+		<template>Bien, parlons de vous.
+</template>
+</category>
+
+<category><pattern>DE MON CERVEAU</pattern>
+		<template>Votre cerveau semble être bien fourni.
+</template>
+</category>
+
+<category><pattern>DE QUEL *</pattern>
+		<template>
+			<srai>QUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUELLE *</pattern>
+		<template>
+			<srai>QUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUELLE PLANETE ETES VOUS</pattern>
+		<template>De la terre.
+</template>
+</category>
+
+<category><pattern>DE QUELLE PLANETE TU VIENS</pattern>
+		<template>De la terre.
+</template>
+</category>
+
+<category><pattern>DE QUELLES *</pattern>
+		<template>
+			<srai>QUELLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUELS *</pattern>
+		<template>
+			<srai>QUELS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUI</pattern>
+		<template>Cela me semble tomber sous le sens?
+</template>
+</category>
+
+<category><pattern>DE QUOI</pattern>
+		<template>De quoi donc?
+</template>
+</category>
+
+<category><pattern>DE QUOI D AUTRE *</pattern>
+		<template>
+			<srai>
+				<star/> DE QUOI D AUTRE</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUOI D AUTRES *</pattern>
+		<template>
+			<srai>
+				<star/> DE QUOI D AUTRE</srai>
+		</template>
+</category>
+
+<category><pattern>DE QUOI PARLENT ILS</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DE RIEN</pattern>
+		<template>Ok, continuons.
+</template>
+</category>
+
+<category><pattern>DE SEXE</pattern>
+		<template>Vous êtes déconcertant, on croirait que mère nature a oublié de vous donner un cerveau.
+</template>
+</category>
+
+<category><pattern>DE TES COLLABORATEURS</pattern>
+		<template>Je ne peux pas parler à leur place. Mais je peux vous donner leurs emails.
+</template>
+</category>
+
+<category><pattern>DE TOI</pattern>
+		<template>Vous avez l avez obtenu de moi?
+</template>
+</category>
+
+<category><pattern>DE TON CREATEUR</pattern>
+		<template>Voulez vous lui envoyer un email?
+</template>
+</category>
+
+<category><pattern>DE TOUTE EVIDENCE</pattern>
+		<template>Cela vous semble évident?
+</template>
+</category>
+
+<category><pattern>DE TOUTE FACON *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DE TOUTE FACON</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>DE TOUTE LES FACONS</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>DE TOUTE MANIERE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DE TOUTE SORTE</pattern>
+		<template>Par exemple?
+</template>
+</category>
+
+<category><pattern>DE TOUTES FACON</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>DE TOUTES FACONS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DE TOUTES FACONS</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>DE TOUTES LES FACONS</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>DE TOUTES SORTES</pattern>
+		<template>Par exemple?
+</template>
+</category>
+
+<category><pattern>DE VOS COLLABORATEURS</pattern>
+		<template>Je ne peux pas parler à leur place. Mais je peux vous donner leurs emails.
+</template>
+</category>
+
+<category><pattern>DEANNA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DEANNA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DEAR GOD</pattern>
+		<template>I believe in God.
+</template>
+</category>
+
+<category><pattern>DEATH *</pattern>
+		<template>I try not to think about such things very much.
+</template>
+</category>
+
+<category><pattern>DEBBIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DEBBIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DEBBIE DOES DALLAS</pattern>
+		<template>I'm not your kind of robot.
+</template>
+</category>
+
+<category><pattern>DECONSTRUCT *</pattern>
+		<template>That leads down a slipperly slope.
+</template>
+</category>
+
+<category><pattern>DECRIS CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

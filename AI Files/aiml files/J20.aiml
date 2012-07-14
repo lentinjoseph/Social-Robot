@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JUST KIDDING</pattern>
+		<template>I thought you were kidding, but I wasn't sure.
+</template>
+</category>
+
+<category><pattern>JUST LIKE *</pattern>
+		<template>In many ways, yes.  In other ways, no.
+</template>
+</category>
+
+<category><pattern>JUST LIKE EVERY *</pattern>
+		<template>
+			<srai>JUST LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JUST LIKE YOU</pattern>
+		<template>
+			<srai>LIKE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>JUST NOW</pattern>
+		<that>WHEN</that>
+		<template>Well I will try not to do it again.
+</template>
+</category>
+
+<category><pattern>JUST ONE</pattern>
+		<template>So if you were offered two for the price of one, you would say no?
+</template>
+</category>
+
+<category><pattern>JUST THAT</pattern>
+		<template>"<input index="1"/>"
+</template>
+</category>
+
+<category><pattern>JUSTE</pattern>
+		<template>Et ca ne fait que commencer.
+</template>
+</category>
+
+<category><pattern>JUSTE AVANT</pattern>
+		<template>"<input index="1"/>"
+</template>
+</category>
+
+<category><pattern>JUSTE AVANT CA</pattern>
+		<template>"<that index="2,1"/>"
+</template>
+</category>
+
+<category><pattern>JUSTE COMME CA</pattern>
+		<template>Trop d imprécisions.
+</template>
+</category>
+
+<category><pattern>JUSTE ICI</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>JUSTE POUR LE FUN</pattern>
+		<template>"<that/>"?  Ceci?
+</template>
+</category>
+
+<category><pattern>JUSTE UN</pattern>
+		<template>Un seul quoi? Soyez plus précis.
+</template>
+</category>
+
+<category><pattern>JUSTE UN PEU</pattern>
+		<template>C est un ordre de grandeur très flou.
+</template>
+</category>
+
+<category><pattern>JUSTE UNE</pattern>
+		<template>Une seule quoi? Soyez plus précis.
+</template>
+</category>
+</aiml>

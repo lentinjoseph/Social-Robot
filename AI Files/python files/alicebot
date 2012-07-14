@@ -1,0 +1,14 @@
+#!/usr/bin/python
+import commands
+import aiml
+k=aiml.Kernel()
+k.loadBrain("alice.brn")
+#k.learn("startup.xml")
+#k.respond("load aiml b")
+while True : 
+	len0=k.respond(raw_input("Me:>"))
+	len1="espeak -s100 -ven+12"
+	len0 = " \""+len0+"\""
+	len2=len1+len0
+	commands.getoutput(len2)
+	print len2

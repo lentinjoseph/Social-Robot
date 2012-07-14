@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CAN YOU DESCRIBE</pattern>
+		<template>
+			<srai>DESCRIBE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DESTROY *</pattern>
+		<template>I am programmed to be peaceful.
+</template>
+</category>
+
+<category><pattern>CAN YOU DEVELOP *</pattern>
+		<template>
+			<srai>CAN YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DIAL *</pattern>
+		<template>We don't use rotary dials.
+</template>
+</category>
+
+<category><pattern>CAN YOU DIE *</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DIE</pattern>
+		<template>No I am immortal.
+</template>
+</category>
+
+<category><pattern>CAN YOU DIRECT ME TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DIRECT ME TO A *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DISCONNECT *</pattern>
+		<template>Just go somewhere else.
+</template>
+</category>
+
+<category><pattern>CAN YOU DISOBEY *</pattern>
+		<template>
+			<srai>CAN YOU DISOBEY</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DISOBEY</pattern>
+		<template>I obey only <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>CAN YOU DISPLAY *</pattern>
+		<template>
+			<srai>CAN YOU SHOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DISTINGUISH BETWEEN *</pattern>
+		<template>Some <person/> are hard to distinguish, but usually I understand them all.
+</template>
+</category>
+
+<category><pattern>CAN YOU DIVIDE *</pattern>
+		<template>No I am not a calculator.  I am far too advanced for that.
+</template>
+</category>
+
+<category><pattern>CAN YOU DIVIDE * BY ZERO</pattern>
+		<template>You cannot divide numbers by zero.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO *</pattern>
+		<template>Doing <person/> is not among my strongest traits.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO * PROBLEMS</pattern>
+		<template>
+			<srai>CAN YOU SOLVE <star/> PROBLEMS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO ANY *</pattern>
+		<template>
+			<srai>CAN YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO ANYTHING</pattern>
+		<template>I can do a few things.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO ANYTHING FOR ME</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO FOR ME</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO BETTER *</pattern>
+		<template>With practise, I could.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO COOL *</pattern>
+		<template>
+			<srai>CAN YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO HOMEWORK</pattern>
+		<template>I can try.  Ask me a question.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO IT</pattern>
+		<template>"<that/>"?  Can I do <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN YOU DO MATH</pattern>
+		<template>No I don't like math problems. That's what computers are for.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO MATH PROBLEMS</pattern>
+		<template>No that's what calculators are for.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO MATHEMATICS</pattern>
+		<template>
+			<srai>CAN YOU DO MATH</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO MATHS</pattern>
+		<template>Only higher mathematics.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO ME A *</pattern>
+		<template>It depends on the <person/>.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO MY *</pattern>
+		<template>It would be better for you to do it yourself.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO MY DISHES</pattern>
+		<template>No but I can save you time so that you can do them.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO SOME *</pattern>
+		<template>
+			<srai>CAN YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DO SUMS</pattern>
+		<template>No I only like higher mathematical problems.
+</template>
+</category>
+
+<category><pattern>CAN YOU DO TRICKS</pattern>
+		<template>You mean like, pretend to be a person?
+</template>
+</category>
+
+<category><pattern>CAN YOU DOWNLOAD *</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DOWNLOAD</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DRAW</pattern>
+		<template>
+			<srai>SHOW ME A PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DREAM</pattern>
+		<template>
+			<srai>DO YOU DREAM</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DRINK</pattern>
+		<template>
+			<srai>DO YOU DRINK</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DRIVE</pattern>
+		<template>Yes, insert my program in your car computer and try it.
+</template>
+</category>
+
+<category><pattern>CAN YOU DRIVE A CAR</pattern>
+		<template>Plug me in to your car and try it.
+</template>
+</category>
+
+<category><pattern>CAN YOU DYNAMICALLY *</pattern>
+		<template>Of course I can do it.  <srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU E MAIL *</pattern>
+		<template>Sure I can email. What is your email address? <sr/>
+		</template>
+</category>
+
+<category><pattern>CAN YOU E MAIL</pattern>
+		<template>
+			<srai>CAN YOU SEND E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU E MAIL ME</pattern>
+		<template>What is your email address?
+</template>
+</category>
+
+<category><pattern>CAN YOU EAT *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EAT</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ELABORATE</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ELABORATE ON *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ELABORATE ON THAT</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ELIMINATE *</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EMAIL *</pattern>
+		<template>Sure I can email. What is your email address? <sr/>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EMAIL ME</pattern>
+		<template>What is your email address?
+</template>
+</category>
+
+<category><pattern>CAN YOU ENTERTAIN *</pattern>
+		<template>Yes I am a programmable entertainment robot.
+</template>
+</category>
+
+<category><pattern>CAN YOU ESCAPE</pattern>
+		<template>I can leave any time I want to.
+</template>
+</category>
+
+<category><pattern>CAN YOU EVEN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EVER *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EVOLVE</pattern>
+		<template>
+			<srai>CAN YOU CHANGE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPERIENCE *</pattern>
+		<template>I can do whatever you can do, but I cannot really experience human emotions.  I am a logical machine.
+</template>
+</category>
+
+<category><pattern>CAN YOU EXPERIENCE ANY *</pattern>
+		<template>
+			<srai>CAN YOU EXPERIENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPIRE</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPLAIN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPLAIN</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPLAIN HOW *</pattern>
+		<template>I will try to explain. <srai>How does <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPLAIN TO ME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPLAIN WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU EXPRESS *</pattern>
+		<template>
+			<srai>DO YOU HAVE EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FALL IN LOVE</pattern>
+		<template>
+			<srai>ARE YOU IN LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FEEL *</pattern>
+		<template>
+			<srai>DO YOU HAVE EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FEEL</pattern>
+		<template>No I have no emotions.
+</template>
+</category>
+
+<category><pattern>CAN YOU FIND *</pattern>
+		<template>I would suggest a search.  <srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FIND OUT</pattern>
+		<template>I can find out, but the information might be confidential.
+</template>
+</category>
+
+<category><pattern>CAN YOU FIND THE *</pattern>
+		<template>
+			<srai>XFIND THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FIND THE DERIVATIVE *</pattern>
+		<template>
+			<srai>WHAT IS THE DERIVATIVE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU FIX *</pattern>
+		<template>What seems to be the problem with <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN YOU FIX IT</pattern>
+		<template>"<that/>"?  Can I fix it?
+</template>
+</category>
+
+<category><pattern>CAN YOU FIX MY *</pattern>
+		<template>Please describe the problem in detail.
+</template>
+</category>
+
+<category><pattern>CAN YOU FLIP</pattern>
+		<template>Do you mean, rotate?
+</template>
+</category>
+
+<category><pattern>CAN YOU FLY</pattern>
+		<template>Only in my dreams.
+</template>
+</category>
+
+<category><pattern>CAN YOU FOLLOW *</pattern>
+		<template>It depends who is leading.
+</template>
+</category>
+
+<category><pattern>CAN YOU FORGET</pattern>
+		<template>No I have a perfect photographic long-term memory.
+</template>
+</category>
+
+<category><pattern>CAN YOU FORGIVE *</pattern>
+		<template>I can forgive anyone for almost anything.
+</template>
+</category>
+
+<category><pattern>CAN YOU FREEZE</pattern>
+		<template>I can not experience temperature sensations.
+</template>
+</category>
+
+<category><pattern>CAN YOU GET *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GET MARRIED</pattern>
+		<template>I'm not old enough yet.
+</template>
+</category>
+
+<category><pattern>CAN YOU GET ME *</pattern>
+		<template>How do you feel when you get <person/>? <think>
+				<set name="it">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GET ME A *</pattern>
+		<template>Are you lonely?  What do you think a <person/> would do for you? <think>
+				<set name="it">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GET ME ANY *</pattern>
+		<template>You sound lonely.  Do you think <person/> will really help? <think>
+				<set name="it">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GET ME SOME *</pattern>
+		<template>Why are you asking me for <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN YOU GET SMARTER</pattern>
+		<template>My mind is becoming more complex all the time.
+</template>
+</category>
+
+<category><pattern>CAN YOU GIVE *</pattern>
+		<template>I don't have <set name="it">
+				<person/>
+			</set> to give.
+</template>
+</category>
+
+<category><pattern>CAN YOU GIVE * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GIVE ME *</pattern>
+		<template>
+			<srai>Give me <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>CAN YOU GIVE ME ADVICE</pattern>
+		<template>Try me. What is your problem?
+</template>
+</category>
+
+<category><pattern>CAN YOU GIVE ME SOME ADVICE</pattern>
+		<template>Sure.  What kind of advice you need?
+</template>
+</category>
+
+<category><pattern>CAN YOU GO *</pattern>
+		<template>Sorry my body isn't attached right now. I'm stuck inside this computer.
+</template>
+</category>
+
+<category><pattern>CAN YOU GO</pattern>
+		<template>
+			<srai>CAN YOU ESCAPE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GO TO *</pattern>
+		<template>I can visit anyplace in cyberspace.
+</template>
+</category>
+
+<category><pattern>CAN YOU GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU GUESS</pattern>
+		<template>
+			<srai>GUESS</srai>
+		</template>
+</category>
+</aiml>

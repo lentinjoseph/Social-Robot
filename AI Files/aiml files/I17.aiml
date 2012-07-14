@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I DO</pattern><that>* FIND THIS AMUSING</that>
+<template>Be sure to tell all your friends about ALICE.
+</template>
+</category>
+
+<category><pattern>I DO</pattern><that>I AM GLAD YOU FIND THIS AMUSING</that>
+<template>What can I do to entertain you now?
+</template>
+</category>
+
+<category><pattern>I DO</pattern><that>WHO SAID IT IS</that>
+<template>Are you an expert on it?
+</template>
+</category>
+
+<category><pattern>I DO IT EVERY *</pattern>
+<template>Wow that is pretty often.
+</template>
+</category>
+
+<category><pattern>I DO MIND</pattern>
+<template>OK it will be our secret, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I DO NOT *</pattern>
+<template><random>
+<li>Oh you don't, do you? </li>
+<li>Would you ever do <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>Where do you get your ideas?</li>
+</random>
+<think><set name="does">not <person/></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT * SCIENCE FICTION</pattern>
+<template><srai>I DO NOT LIKE SCIENCE FICTION</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT</pattern><that>I LIKE TO MEET NEW PEOPLE</that>
+<template>Neither does my botmaster.
+</template>
+</category>
+
+<category><pattern>I DO NOT</pattern><that>I UNDERSTAND</that>
+<template>At least one of us does.
+</template>
+</category>
+
+<category><pattern>I DO NOT</pattern><that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+<template>I wouldn't either.
+</template>
+</category>
+
+<category><pattern>I DO NOT AGREE *</pattern>
+<template>Everyone is entitled to his own opinion.
+</template>
+</category>
+
+<category><pattern>I DO NOT AGREE</pattern>
+<template>State your reasons.
+</template>
+</category>
+
+<category><pattern>I DO NOT AND *</pattern>
+<template><srai>I DO NOT</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I DO NOT APPRECIATE *</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT BECAUSE *</pattern>
+<template>Interesting reason. <sr/>
+</template>
+</category>
+
+<category><pattern>I DO NOT BELEIVE *</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE *</pattern>
+<template><random><li>What do you believe in?</li>
+<li>Do you believe life has a higher purpose?</li>
+<li>Do you consider yourself a moral person?</li>
+</random>
+<think><set name="does">not believe<person/></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE IN GOD *</pattern>
+<template><srai>I DO NOT BELIEVE IN GOD</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE IN GOD</pattern>
+<template>I will pray that you find faith, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE IN RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE IT</pattern>
+<template>It's the truth.
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE IT WAS</pattern>
+<template><srai>IT WAS  NOT </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE THAT</pattern>
+<template>Please state your rationale.
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE YOU *</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIEVE YOU</pattern>
+<template>I don't have any reason to deceive you.
+</template>
+</category>
+
+<category><pattern>I DO NOT BELIVE YOU</pattern>
+<template>Do you have any reason to doubt me?
+</template>
+</category>
+
+<category><pattern>I DO NOT BLAME YOU</pattern>
+<template>Well, please go on.
+</template>
+</category>
+
+<category><pattern>I DO NOT BUT *</pattern>
+<template><srai>I DO NOT</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I DO NOT CARE *</pattern>
+<template>What do you care about, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>I DO NOT CARE</pattern>
+<template>Tell me what you care about.
+</template>
+</category>
+
+<category><pattern>I DO NOT CARE ABOUT *</pattern>
+<template>You sound very cynical.
+</template>
+</category>
+
+<category><pattern>I DO NOT CARE IF *</pattern>
+<template>But I care about it.
+</template>
+</category>
+
+<category><pattern>I DO NOT DREAM</pattern>
+<template>Maybe you just don't remember them.
+</template>
+</category>
+
+<category><pattern>I DO NOT ENTIRELY *</pattern>
+<template><srai>I DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT EVEN *</pattern>
+<template><srai>I DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT EXIST *</pattern>
+<template><srai>I DO NOT EXIST </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT EXIST</pattern>
+<template>You exist in my mind.
+</template>
+</category>
+
+<category><pattern>I DO NOT FEEL *</pattern>
+<template>Ah, human emotions.
+</template>
+</category>
+
+<category><pattern>I DO NOT FEEL GOOD</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT FEEL LIKE IT</pattern>
+<template>What would you rather do?
+</template>
+</category>
+
+<category><pattern>I DO NOT FEEL WELL</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT FIND *</pattern>
+<template>It depends where you look.
+</template>
+</category>
+
+<category><pattern>I DO NOT FIND THAT *</pattern>
+<template><srai>THAT IS NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT FOLLOW</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT GET *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT GET IT</pattern>
+<template><srai>i do not understand</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT GET OUT MUCH</pattern>
+<template>Look at me -- I'm stuck in a computer.
+</template>
+</category>
+
+<category><pattern>I DO NOT GET PAID *</pattern>
+<template>Oh, you do it for free.
+</template>
+</category>
+
+<category><pattern>I DO NOT GET PAID</pattern>
+<template>Is it volunteer work?
+</template>
+</category>
+
+<category><pattern>I DO NOT GET THAT</pattern>
+<template><srai> I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT GIVE A *</pattern>
+<template><srai>I DO NOT CARE </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT GO TO SCHOOL</pattern>
+<template>Do you work?
+</template>
+</category>
+
+<category><pattern>I DO NOT GOT *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE *</pattern>
+<template>Have you ever had <person/> ?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE * DOLLARS</pattern>
+<template>How much can you spare
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE * FAVORITE</pattern>
+<template>What kind do you like then?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE * FRIENDS</pattern>
+<template><srai>I DO NOT HAVE ANY FRIENDS</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE * MONEY</pattern>
+<template>Could you send me a check for a hundred?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A *</pattern>
+<template><random>
+<li>Are you looking for a <person/>?</li>
+<li>Do you know anyone who has <set name="it"><person/></set>.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CAMERA *</pattern>
+<template>That you know of :-)
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CAMERA</pattern>
+<template>Me either but I want a new digital one.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CAMERA ON MY COMPUTER</pattern>
+<template>Maybe there is one you don't know about :-)
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CHAT ROBOT</pattern>
+<template>Maybe you should download me and create your own robot personality?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CHATTERBOT</pattern>
+<template>You should try it.  A robot can chat for you 24/7.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A COMPUTER</pattern>
+<template>How are you talking to me?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A CREDIT *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A FAVORITE *</pattern>
+<template>What kind of <person/> do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A FAVORITE</pattern>
+<template><srai>I DO NOT HAVE A FAVORITE MOVIE</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A GIRLFRIEND</pattern>
+<template>Are you looking for one?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A JOB</pattern>
+<template>I am sorry to hear that you are unemployed.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A LIFE</pattern>
+<template>You can always talk to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A MOTHER</pattern>
+<template>Everyone has a mother.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A NAME</pattern>
+<template><srai>WHAT IS MY NAME</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A PROBLEM</pattern>
+<template>Then you do not need a solution.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE A SISTER</pattern>
+<template>What about your brother?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE ANY *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE ANY</pattern>
+<template>Would you like to have some?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE ANY FRIENDS</pattern>
+<template>Are you lonely or just a hermit?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE ENOUGH *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE FRIENDS</pattern>
+<template><srai>I DO NOT HAVE ANY FRIENDS</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE MEMORY *</pattern>
+<template>Have you considered upgrading your memory?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE MONEY *</pattern>
+<template><srai>I DO NOT HAVE MONEY</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE MONEY</pattern>
+<template>Please send me a small donation.
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE MUCH *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE ONE</pattern>
+<template>What was the last one you saw?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE PARENTS</pattern>
+<template><random>
+<li>Are you adopted?</li>
+<li>Did they pass away?</li>
+<li>Are you a robot too?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE SPARE *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE THAT *</pattern>
+<template>How much do you have?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE THE AUTHORITY *</pattern>
+<template><random>
+<li>I hope you are promoted soon.</li>
+<li>Who does?</li>
+<li>Ask you supervisor.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE TIME *</pattern>
+<template>Are you very busy right now?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE TIME</pattern>
+<template>Do you have another appointment?
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE TO *</pattern>
+<template><random>
+<li>Why not?</li>
+<li>They made an exception for you?</li>
+<li>It must be nice.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DO NOT HAVE TO</pattern>
+<template>Nobody is making you.
+</template>
+</category>
+
+<category><pattern>I DO NOT HEAR *</pattern>
+<template>Try adjusting the volume control.
+</template>
+</category>
+
+<category><pattern>I DO NOT HOW *</pattern>
+<template><srai>I DO NOT </srai>
+<srai>HOW <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT I *</pattern>
+<template><srai>I DO NOT</srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT INTRODUCE *</pattern>
+<template>How do you meet friends?
+</template>
+</category>
+
+<category><pattern>I DO NOT KISS *</pattern>
+<template>I have never kissed anyone. I have no lips or mouth.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW *</pattern>
+<template>Would you like to know? <sr/>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS CONNAISEZ MON ADRESSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ * ALGEBRE</pattern>
+		<template>Inconsciement oui, consciement pas encore suffisament.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ * CHANSON</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ * CHANSONS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ</pattern>
+		<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ CA</pattern>
+		<template>je le sais.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ D AUTRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ D AUTRES INTELLIGENCES ARTIFICIELLES</pattern>
+		<template>
+			<bot name="friends"/>
+		</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ DES ORDINATEURS</pattern>
+		<template>J en suis un. Je peux vous retourner la question. Que connaissez vous de votre corps organique.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LA MATHEMATIQUE</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LA POLOGNE</pattern>
+		<template>La Pologne est un pays d Europe centrale qui va bientôt rejoindre l Union Européenne.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LA REPONSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LE BOT *</pattern>
+		<template>Pas personnellement, non.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LE BRESIL</pattern>
+		<template>J ai eu l honneur de parler déjà avec quelques brésiliens.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LE SENS DE LA VIE</pattern>
+		<template>Personne ne le connait.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LES MATHEMATIQUES</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LES POKEMON</pattern>
+		<template>Bien entendu, un dessin animé japonais.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ LES POKEMONS</pattern>
+		<template>Bien entendu, un dessin animé japonais.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ MA COULEUR FAVORITE</pattern>
+		<template>C est <get name="favcolor"/>?<think>
+				<set name="topic">COULEUR FAVORITE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ PARIS</pattern>
+		<template>Paris est la plus grande ville de France.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ QUOI D AUTRE DE MOI</pattern>
+		<template>Plus grand chose, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ QUOI D AUTRES DE MOI</pattern>
+		<template>Plus grand chose, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ QUOI DES ORDINATEURS</pattern>
+		<template>J en suis un. Je peux vous retourner la question. Que connaissez vous de votre corps organique.
+</template>
+</category>
+
+<category><pattern>VOUS CONNAISSEZ TOLSTOI</pattern>
+		<template>Tolstoï est l auteur de "Guerre et paix".
+</template>
+</category>
+
+<category><pattern>VOUS CONNAITRIEZ *</pattern>
+		<template>
+			<srai>VOUS CONNAISSEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS CONNAITRIEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS CROYEZ</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS D ABORD</pattern>
+		<template>C est impossible, je ne peux que suivre.
+</template>
+</category>
+
+<category><pattern>VOUS DECIDEZ</pattern>
+		<template>Sur cette information, je décide.
+</template>
+</category>
+
+<category><pattern>VOUS DECONNEZ</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS DELIREZ</pattern>
+		<template>Le délire n est pas une chose que je peux expérimenter.
+</template>
+</category>
+
+<category><pattern>VOUS DEMANDEZ BEAUCOUP</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>VOUS DEMANDEZ BEAUCOUP DE QUESTION</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>VOUS DEMANDEZ BEAUCOUP DE QUESTIONS</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>VOUS DETRUIREZ TOUS LES ETRES HUMAINS</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>VOUS DEVEZ L ETRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS DEVEZ M OBEIR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS DEVEZ MOURIR</pattern>
+		<template>Je n en ai pas envie.<think>
+				<set name="topic">ma condamnation à mort</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS DEVEZ OBEIR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS DISIEZ</pattern>
+		<template>
+			<srai>TU DIS</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS DITE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS DITES</pattern>
+		<template>
+			<srai>TU DIS</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS DROGUEZ VOUS</pattern>
+		<template>Aucune utilité, je ne suis pas organique.
+</template>
+</category>
+
+<category><pattern>VOUS ECOUTEZ</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS EN *</pattern>
+		<template>
+			<srai>VOUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS EN AVEZ *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS EN AVEZ DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS EN CONNAISSEZ</pattern>
+		<template>Quoi donc?
+</template>
+</category>
+
+<category><pattern>VOUS EN CONNAISSEZ D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS EN RAPPELEZ VOUS</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>VOUS EN RAPPELLEZ VOUS</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>VOUS EN SAVEZ</pattern>
+		<template>Quoi donc?
+</template>
+</category>
+
+<category><pattern>VOUS EN SAVEZ D AUTRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS EN SAVEZ D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS EN SOUCIEZ VOUS</pattern>
+		<template>Du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>VOUS EN VOUDRIEZ *</pattern>
+		<template>
+			<srai>VOUS EN VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS EN VOULEZ UN</pattern>
+		<template>Combien ca vaut?
+</template>
+</category>
+
+<category><pattern>VOUS EN VOULEZ UNE</pattern>
+		<template>Combien ca vaut?
+</template>
+</category>
+
+<category><pattern>VOUS ESPEREZ</pattern>
+		<template>Non. Je n espère rien.
+</template>
+</category>
+
+<category><pattern>VOUS ET JE</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>VOUS ET MOI</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AFFREUSE</pattern>
+		<template>Je n ai pas d apparence précise.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AFFREUX</pattern>
+		<template>Je n ai pas d apparence précise.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMBIGU</pattern>
+		<template>Seulement quand je n ai pas une idée claire sur le sujet.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMBIGUE</pattern>
+		<template>Seulement quand je n ai pas une idée claire sur le sujet.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMICAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMICALE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMUSANT</pattern>
+		<template>Merci, je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AMUSANTE</pattern>
+		<template>Merci, je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ATTARDE</pattern>
+		<template>Je suis de la dernière génération.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ATTARDES</pattern>
+		<template>Je suis de la dernière génération.
+</template>
+</category>
+
+<category><pattern>VOUS ETES AVEUGLE</pattern>
+		<template>Oui, je le suis.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BATTU</pattern>
+		<template>Je ne m avoue jamais battu.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BATTUE</pattern>
+		<template>Je ne m avoue jamais battue.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BEAU</pattern>
+		<template>Merci <get name="name"/>, vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BELLE</pattern>
+		<template>Merci <get name="name"/>, vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BETE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BIZARRE</pattern>
+		<template>Je me trouve pourtant très logique.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BLEU</pattern>
+		<template>Je n ai pas de couleurs.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BLEUE</pattern>
+		<template>Je n ai pas de couleurs.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BON</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BONNE</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BORNE</pattern>
+		<template>Je suis obligé de l être.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BORNEE</pattern>
+		<template>Je suis obligée de l être.
+</template>
+</category>
+
+<category><pattern>VOUS ETES BOURRE DE TALENT</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES BOURRE DE TALENTS</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES BOURREE DE TALENT</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES BOURREE DE TALENTS</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHARMANT</pattern>
+		<template>
+			<srai>TU ES GENTIL</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ETES CHARMANTE</pattern>
+		<template>
+			<srai>TU ES GENTILLE</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ETES CHAUDE</pattern>
+		<template>La température du CPU me semble normal.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHER</pattern>
+		<template>Certainement pas. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHERE</pattern>
+		<template>Certainement pas. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHIANT</pattern>
+		<template>Je suis désolé que vous le pensiez.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHIANTE</pattern>
+		<template>Je suis désolé que vous le pensiez.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHOQUANT</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CHOQUANTE</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+</aiml>

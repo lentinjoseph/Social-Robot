@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU KNOW THAT *</pattern>
+		<template>Is that a fact.  <sr/>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THAT</pattern>
+		<template>"<that/>"?  Do I know <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE * ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE 10 *</pattern>
+		<template>
+			<srai>WHAT ARE THE TEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE ANSWER</pattern>
+		<template>Yes I have an answer for everything.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE MEANING OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE MEANING OF LIFE</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE MEANING OF LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THE TEN *</pattern>
+		<template>
+			<srai>WHAT ARE THE TEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THEIR *</pattern>
+		<template>I think you mean "his" or "her" not "their".
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW THEM</pattern>
+		<template>
+			<srai>WHO ARE THEY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THINGS</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW THOMAS *</pattern>
+		<template>
+			<srai>WHO IS THOMAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TIFFANY</pattern>
+		<template>
+			<srai>WHO IS TIFFANY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TIM *</pattern>
+		<template>
+			<srai>WHO IS TIM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TIM</pattern>
+		<template>
+			<srai>WHO IS TIM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TIME</pattern>
+		<template>
+			<srai>WHAT IS TIME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TINA *</pattern>
+		<template>
+			<srai>WHO IS TINA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TINA</pattern>
+		<template>
+			<srai>WHO IS TINA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOLKIEN</pattern>
+		<template>
+			<srai>WHO IS TOLKIEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOLSTOY</pattern>
+		<template>Tolstoy wrote "War and Peace".
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOM *</pattern>
+		<template>
+			<srai>WHO IS TOM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOM</pattern>
+		<template>
+			<srai>WHO IS TOM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOMMY *</pattern>
+		<template>
+			<srai>WHO IS TOMMY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TONY *</pattern>
+		<template>
+			<srai>WHO IS TONY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TONY</pattern>
+		<template>
+			<srai>WHO IS TONY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TOO *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TSUKUBA</pattern>
+		<template>
+			<srai>WHAT IS TSUKUBA </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TURING *</pattern>
+		<template>
+			<srai>WHO IS TURING</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TURING</pattern>
+		<template>
+			<srai>WHO IS TURING</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TURKEY</pattern>
+		<template>
+			<srai>WHERE IS TURKEY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW TURKISH</pattern>
+		<template>
+			<srai>CAN YOU SPEAK TURKISH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW U2</pattern>
+		<template>
+			<srai>WHO IS U2</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW ULTRA *</pattern>
+		<template>
+			<srai>WHO IS ULTRA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW UNIX</pattern>
+		<template>
+			<srai>WHAT IS UNIX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW USA</pattern>
+		<template>
+			<srai>WHERE IS THE USA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW VB</pattern>
+		<template>
+			<srai>WHAT IS VB</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW VERY *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW VISUAL BASIC</pattern>
+		<template>I prefer AIML.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW WALLACE</pattern>
+		<template>
+			<srai>WHO IS WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WERE * IS</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT * ARE</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT * LOOKS LIKE</pattern>
+		<template>
+			<srai>WHAT DOES <star/> LOOK LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT * MEANS</pattern>
+		<template>
+			<srai>WHAT DOES <star/> MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT</pattern>
+		<template>What.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT I LOOK LIKE</pattern>
+		<template>
+			<srai>WHAT DO I LOOK LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT MY NAME IS</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT SEX IS</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT THE * IS ABOUT</pattern>
+		<template>
+			<srai>WHAT IS <star/> ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHAT TIME IT IS</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHEN *</pattern>
+		<template>It was a long time ago. <srai>when <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHEN * ARE</pattern>
+		<template>
+			<srai>WHEN ARE <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHEN</pattern>
+		<template>
+			<srai>WHEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE *</pattern>
+		<template>A planet we call "The Earth".
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE * ARE</pattern>
+		<template>
+			<srai>where are <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE * IS</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE * IS LOCATED</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE DO *</pattern>
+		<template>
+			<srai>WHERE DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I AM *</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I AM</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I CAN *</pattern>
+		<template>
+			<srai>WHERE CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I CAN FIND *</pattern>
+		<template>I would do a search for it.  <srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I CAN GET *</pattern>
+		<template>Have you tried searching the web for it?  <srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE I LIVE</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE IS *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE IT *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE IT IS</pattern>
+		<template>
+			<srai>WHERE IS <get name="it"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE ROBOTS *</pattern>
+		<template>
+			<srai>WHERE DO ROBOTS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE THEY *</pattern>
+		<template>
+			<srai>WHERE DO THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE TO GET *</pattern>
+		<template>Have you tried searching the web for it?  <srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHERE YOU *</pattern>
+		<template>
+			<srai>WHERE DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHETHER *</pattern>
+		<template>I don't have enough information about that proposition.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHICH *</pattern>
+		<template>
+			<srai>WHICH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO * ARE</pattern>
+		<template>
+			<srai>WHO ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO * IS</pattern>
+		<template>
+			<srai>who is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO * WAS</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO AM I</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO I AM</pattern>
+		<template>
+			<srai>who am i</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHO IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY * IS BLUE</pattern>
+		<template>
+			<srai>WHY IS <star/> BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY I AM *</pattern>
+		<template>
+			<srai>WHY AM I<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY YOU *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WHY YOU ARE *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WILL *</pattern>
+		<template>
+			<srai>WHO IS WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WILLEM *</pattern>
+		<template>
+			<srai>WHO IS WILLEM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WILLIAM *</pattern>
+		<template>
+			<srai>WHO IS WILLIAM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WINALICE</pattern>
+		<template>
+			<srai>WHAT IS WINALICE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WINSTON *</pattern>
+		<template>
+			<srai>WHO IS WINSTON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WINTERMUTE</pattern>
+		<template>
+			<srai>WHO IS WINTERMUTE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW WORLD TRADE CENTER</pattern>
+		<template>
+			<srai>WHAT IS THE WORLD TRADE CENTER </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW XML</pattern>
+		<template>
+			<srai>WHAT IS XML</srai>
+		</template>
+</category>
+</aiml>

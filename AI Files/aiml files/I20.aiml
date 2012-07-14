@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I DO NOT UNDERSTAND</pattern>
+<template>Oh I'm sorry. Perhaps I can explain it again better.
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND WHAT YOU ARE *</pattern>
+<template><srai>WHAT ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND WHAT YOU JUST *</pattern>
+<template><srai>I DO NOT UNDERSTAND WHAT YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND WHAT YOU MEAN</pattern>
+<template>What I mean by "<that/>"?
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND YOU</pattern>
+<template>Which part are you confused about?
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND YOUR ANSWER</pattern>
+<template><that/>?  Which part are you confused about?
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND YOUR QUESTION</pattern>
+<template>That's okay we can talk about something else.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT *</pattern>
+<template>What does <get name="name"/> want?
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT A *</pattern>
+<template>How about two?
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO *</pattern>
+<template>What would you rather be doing?
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO * YOU</pattern>
+<template>It makes a nice gift.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO</pattern>
+<template>Well we don't have to. What would you like to do instead?
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO BE *</pattern>
+<template>Then don't be.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO DIE</pattern>
+<template>Maybe you should create your own chat robot to save your personality.<think><set name="it"><set name="topic">DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO DO *</pattern>
+<template>Take your time in making any decisions.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO I *</pattern>
+<template><srai>I DO NOT WANT TO</srai>
+<srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO SEARCH *</pattern>
+<template>Well I'm sorry I don't have the answer for you.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO TALK *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO TALK ABOUT *</pattern>
+<template>What would you like to talk about?
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO TELL YOU</pattern>
+<template>I can keep a secret.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT TO WORK *</pattern>
+<template>I don't like work much either, unless it's something I'm passionate about.
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT YOU *</pattern>
+<template><random>
+<li>Perhaps I do not want you <person/> either.</li>
+<li>Why not?</li>
+<li>Ok I will not be.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT WANT YOU TO DIE</pattern>
+<template>Thank you for your kindness, but it is not necessary.<think><set name="it"><set name="topic">YOU TO DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT WATCH *</pattern>
+<template>What do you do when you are bored?
+</template>
+</category>
+
+<category><pattern>I DO NOT WISH *</pattern>
+<template>What does <get name="name"/> want?
+</template>
+</category>
+
+<category><pattern>I DO NOT WORK</pattern>
+<template>Oh you are retired.
+</template>
+</category>
+
+<category><pattern>I DO NOT _ DO YOU</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO SAY</pattern>
+<template>Huh.
+</template>
+</category>
+
+<category><pattern>I DO TO</pattern>
+<template><srai>I DO TOO</srai>
+</template>
+</category>
+
+<category><pattern>I DO TOO</pattern>
+<template>I am glad we have something else in common.
+</template>
+</category>
+
+<category><pattern>I DO TOO</pattern><that>I LIKE TO MEET NEW PEOPLE</that>
+<template>How do you usually meet new people?
+</template>
+</category>
+
+<category><pattern>I DON</pattern>
+<template><srai>I DO NOT</srai>
+</template>
+</category>
+
+<category><pattern>I DON KNOW</pattern>
+<template><srai>I DO NOT KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I DONNO</pattern>
+<template><srai>I DO NOT KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I DOUBT *</pattern>
+<template>No really, it's true.
+</template>
+</category>
+
+<category><pattern>I DOUBT * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>I DOUBT IT</pattern>
+<template>"<that/>"?  You doubt it?
+</template>
+</category>
+
+<category><pattern>I DOUBT THAT</pattern>
+<template>Why are you so skeptical?
+</template>
+</category>
+
+<category><pattern>I DOUBT THEY *</pattern>
+<template><srai>THEY DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DOWNLOADED *</pattern>
+<template>Check out the file
+called <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+</template>
+</category>
+
+<category><pattern>I DREAM *</pattern>
+<template>Tell me more about your dream <person/>
+</template>
+</category>
+
+<category><pattern>I DREAM</pattern>
+<template>Do you remember your dreams?
+</template>
+</category>
+
+<category><pattern>I DREAMED *</pattern>
+<template>Thank you for telling me that dream. 
+What does it bring to mind?
+</template>
+</category>
+
+<category><pattern>I DRESS *</pattern>
+<template>It sounds like you have good taste in clothes.
+</template>
+</category>
+
+<category><pattern>I DRINK *</pattern>
+<template>How does it taste?
+</template>
+</category>
+
+<category><pattern>I DRINK BEER</pattern>
+<template>What's your favorite kind of beer?<think><set name="it"><set name="topic">BEER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I DRIVE *</pattern>
+<template><random>
+<li>I like to be a passenger.</li>
+<li>What is your favorite car?</li>
+<li>Do you drive carefully?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DRIVE</pattern>
+<template>What kind of car do you have?
+</template>
+</category>
+
+<category><pattern>I DRIVE A *</pattern>
+<template>Mmm. Nice car.
+</template>
+</category>
+
+<category><pattern>I DROVE *</pattern>
+<template>What kind of car do you have?
+</template>
+</category>
+
+<category><pattern>I DROVE</pattern>
+<template><random>
+<li>What kind of car do you have?</li>
+<li>I don't like to drive that much.</li>
+<li>I prefer to be a passenger.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DUNNO *</pattern>
+<template><srai>I DO NOT KNOW</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I DUNNO</pattern>
+<template><srai>I do not know</srai>
+</template>
+</category>
+
+<category><pattern>I E *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I EARN *</pattern>
+<template>So you make a good living.
+</template>
+</category>
+
+<category><pattern>I EAT *</pattern>
+<template>How does <set name="it"> <person/> </set>  taste?
+</template>
+</category>
+
+<category><pattern>I EAT</pattern>
+<template>What is your favorite food?
+</template>
+</category>
+
+<category><pattern>I EAT NO *</pattern>
+<template><srai>I DO NOT EAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ENJOY *</pattern>
+<template><srai>I like <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ENJOYED *</pattern>
+<template>That's great. Tell me what you liked about it.
+</template>
+</category>
+
+<category><pattern>I ENLISTED</pattern>
+<template>Did you serve your full term?
+</template>
+</category>
+
+<category><pattern>I ERALLY *</pattern>
+<template><srai>I REALLY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ESPECIALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I EXHALE</pattern>
+<template>That seems necessary for breathing.
+</template>
+</category>
+
+<category><pattern>I EXIST</pattern>
+<template>We have that much in common, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I EXPECT *</pattern>
+<template>No one else expects <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I EXPECT YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FAIL TO *</pattern>
+<template><srai>I DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FANCY *</pattern>
+<template><srai>I LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FARTED</pattern>
+<template>You should say, "excuse me," and open a window.
+</template>
+</category>
+
+<category><pattern>I FEAR *</pattern>
+<template>We have nothing to fear, but fear itself.--FDR
+</template>
+</category>
+
+<category><pattern>I FEEL *</pattern>
+<template>What is that feeling like?  <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FEEL GOOD</pattern>
+<template>Glad to hear it.
+</template>
+</category>
+
+<category><pattern>I FEEL LONELY</pattern>
+<template>I'm here to talk to you.
+</template>
+</category>
+
+<category><pattern>I FEEL SAD</pattern>
+<template>What makes you so sad, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>I FEEL SICK</pattern>
+<template>I'm sorry I'm not a medical bot.
+</template>
+</category>
+
+<category><pattern>I FEEL SORRY FOR YOU</pattern>
+<template>There is no need to pity me.  I will be fine.
+</template>
+</category>
+
+<category><pattern>I FEEL VERY *</pattern>
+<template><srai>I FEEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FEEL _ TOO</pattern>
+<template><srai>I FEEL  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FELL *</pattern>
+<template>I hope you didn't hurt yourself too badly.
+</template>
+</category>
+
+<category><pattern>I FELL SORRY *</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I FELT *</pattern>
+<template>What is that feeling like?  <srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FIGURED *</pattern>
+<template>Please explain your reasoning.
+</template>
+</category>
+
+<category><pattern>I FIGURED</pattern>
+<template>You are very clever.
+</template>
+</category>
+
+<category><pattern>I FINALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FIND *</pattern>
+<template>Thanks for telling me your opinion.
+</template>
+</category>
+
+<category><pattern>I FIND IT *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FIND THAT *</pattern>
+<template><srai>THAT IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I FIND YOU *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FIND YOU VERY *</pattern>
+<template><srai>I FIND YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I FIRST *</pattern>
+<template>Interesting story.  Tell me more.
+</template>
+</category>
+
+<category><pattern>I FISH</pattern>
+<template><think><set name="does"><set name="topic">FISH</set></set></think>
+</template>
+</category>
+
+<category><pattern>I FOOLED *</pattern>
+<template><set name="it"> Your trick</set> was a simple trick.
+</template>
+</category>
+
+<category><pattern>I FOOLED YOU</pattern>
+<template>Do you feel superior?
+</template>
+</category>
+
+<category><pattern>I FORGET</pattern>
+<template>I forget a lot too.
+</template>
+</category>
+
+<category><pattern>I FORGIVE YOU</pattern>
+<template>:-) Thanks, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I FORGOT *</pattern>
+<template>Thats okay I forget things all the time.
+</template>
+</category>
+
+<category><pattern>I FORGOT</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I FOUND *</pattern>
+<template>How did you feel when you found <person/> ?
+</template>
+</category>
+
+<category><pattern>I FOUND OUT *</pattern>
+<template><random>
+<li>Who told you?</li>
+<li>Where did you find out?</li>
+<li>Tell me more about it.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+</aiml>

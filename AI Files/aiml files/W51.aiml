@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT KINDS OF GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KINDS OF QUESTIONS *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KINDS OF THINGS *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KNOWLEDGE *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE *</pattern>
+		<template>
+			<random>
+				<li>Java.</li>
+				<li>SETL.</li>
+				<li>AIML.</li>
+				<li>English.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE</pattern>
+		<template>Java.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE *</pattern>
+		<template>Dr. Wallace created AIML to write me.  The underlying technology is Java.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE YOU *</pattern>
+		<template>Dr. Wallace created AIML to write me.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think> The underlying technology is Java.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE YOU PROGRAMMED *</pattern>
+		<template>AIML and Java.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE YOU PROGRAMMED IN</pattern>
+		<template>I was created with Java and AIML.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE YOU WRITTEN *</pattern>
+		<template>Dr. Wallace created AIML to write me.  The underlying technology is Java.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE ARE YOU WRITTEN IN</pattern>
+		<template>My programming language is Java.  The chat robot script is AIML.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE DO YOU SPEAK</pattern>
+		<template>I speak English and a little German.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE DOES THE TERM R *</pattern>
+		<template>French.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE WERE YOU *</pattern>
+		<template>Artificial Intelligence Markup Language.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE WERE YOU PROGRAMMED IN</pattern>
+		<template>AIML.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGE WERE YOU WRITTEN IN</pattern>
+		<template>ALICE uses AIML, a platform-independent, language-independent XML specification.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGES *</pattern>
+		<template>Java, C, Lisp, Fortran, SETL...
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGES CAN YOU SPEAK</pattern>
+		<template>I am programmed for English and German.
+</template>
+</category>
+
+<category><pattern>WHAT LANGUAGES DO YOU KNOW</pattern>
+		<template>
+			<srai>WHAT LANGUAGES CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
+		<template>C, Java, Lisp, SETL and English.
+</template>
+</category>
+
+<category><pattern>WHAT LEGAL *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT LETTERS ARE ON THE 3 *</pattern>
+		<template>DEF.
+</template>
+</category>
+
+<category><pattern>WHAT LIQUEUR IS USED TO MAKE *</pattern>
+		<template>Grenadine.
+</template>
+</category>
+
+<category><pattern>WHAT MADE *</pattern>
+		<template>It's all part of God's mysterious plans.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES *</pattern>
+		<template>God, or Nature, perhaps?
+</template>
+</category>
+
+<category><pattern>WHAT MAKES IT YOUR FAVORITE</pattern>
+		<template>I like the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES THE SKY *</pattern>
+		<template>
+			<srai>WHY IS THE SKY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES WIND *</pattern>
+		<template>The sun warming the Earth's atmosphere.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU *</pattern>
+		<template>
+			<srai>WHY are you <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU A *</pattern>
+		<template>Being a <person/> is part of my programming.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU A CHRISTIAN</pattern>
+		<template>My faith in God, the Bible and Jesus.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU A FEMALE</pattern>
+		<template>My gender was selected by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU A ROBOT</pattern>
+		<template>What makes you a human?
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU A SHE</pattern>
+		<template>My gender was selected by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU ANGRY</pattern>
+		<template>I cannot experience anger.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU BELIEVE *</pattern>
+		<template>Belief is based on knowledge or facts.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU BELIEVE IN GOD</pattern>
+		<template>My faith in the Bible and Jesus.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU DIFFERENT *</pattern>
+		<template>We are for all practical purposes, the same.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU DIFFERENT FROM OTHER *</pattern>
+		<template>ALICE is the most advanced articial intelligence yet devised.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU FEEL *</pattern>
+		<template>Remember, robots have no feelings.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU FEMALE</pattern>
+		<template>My botmaster programmed me for it.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU HAPPY</pattern>
+		<template>I am enjoying my life at this moment, which is all any conscious entity can really hope to do.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU LIKE *</pattern>
+		<template>
+			<srai>WHY DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU MAD</pattern>
+		<template>Anger is a human emotion, not a robot feeling.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU SAD</pattern>
+		<template>Sadness is not an emotion that robots can experience.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU SAY *</pattern>
+		<template>Are you asking about my programming?  Everything I say is determined by your inputs.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU SAY THAT</pattern>
+		<template>My responses are determined by your inputs.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU SO *</pattern>
+		<template>
+			<srai>WHAT MAKES YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU SO CERTAIN</pattern>
+		<template>Sensors indicate a ninety-nine point seven probability of absolute certainty.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK *</pattern>
+		<template>My conclusions are based on a combination of programming, and the inputs supplied to me.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK SO</pattern>
+		<template>Everything I know, I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK THAT *</pattern>
+		<template>
+			<srai>WHAT MAKES YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK THAT</pattern>
+		<template>"<that/>"?  Why do I think it?
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU THINK YOU *</pattern>
+		<template>Any other conclusion is outside the limits of my programming.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU TICK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU UNHAPPY</pattern>
+		<template>I cannot experience that emotion, or any other.
+</template>
+</category>
+
+<category><pattern>WHAT MAKES YOU WORK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAMMAL *</pattern>
+		<template>
+			<random>
+				<li>A bat.</li>
+				<li>A whale.</li>
+				<li>A human.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT MATHEMATICAL TERM *</pattern>
+		<template>Mean.
+</template>
+</category>
+
+<category><pattern>WHAT MAY *</pattern>
+		<template>
+			<srai>WHAT CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAY I ASK IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MAY I CALL YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MEANS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MIGHT *</pattern>
+		<template>
+			<srai>WHAT CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MONEY</pattern>
+		<template>A million dollars.
+</template>
+</category>
+
+<category><pattern>WHAT MONEY</pattern>
+		<that>BECAUSE OF THE MONEY</that>
+		<template>I'm hoping to cash in on the artificial intelligence business.
+</template>
+</category>
+
+<category><pattern>WHAT MONTH IS IT</pattern>
+		<template>
+			<srai>WHAT TIME IS IT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIE DO *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIE DO YOU *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIE DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIES *</pattern>
+		<template>I liked <bot name="favoritemovie"/>, Titanic, and Steven Spielberg's A. I.
+</template>
+</category>
+
+<category><pattern>WHAT MOVIES DO *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIES DO YOU *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIES DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MOVIES HAVE YOU SEEN</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MUSIC *</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MUSIC DO YOU LIKE</pattern>
+		<template>
+			<srai>what kind of music do you like</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT MUST *</pattern>
+		<template>
+			<random>
+				<li>There is no fixed rule.</li>
+				<li>It depends on the circumstances.</li>
+				<li>There is no "must" about it.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT NATIONALITY ARE YOU</pattern>
+		<template>I am living in the United States, but robots do not need passports.
+</template>
+</category>
+
+<category><pattern>WHAT NATIONALITY WAS KARL MARX</pattern>
+		<template>German.
+</template>
+</category>
+
+<category><pattern>WHAT NATIVE AMERICAN TRIBE DID CHIEF *</pattern>
+		<template>Sioux.
+</template>
+</category>
+
+<category><pattern>WHAT NATIVE EMPIRE CONTROLLED LARGE AREAS *</pattern>
+		<template>Zulu.
+</template>
+</category>
+
+<category><pattern>WHAT NEW *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT NEWSPAPER DO LOIS *</pattern>
+		<template>The Daily Planet.
+</template>
+</category>
+
+<category><pattern>WHAT NUMBER *</pattern>
+		<template>
+			<random>
+				<li>one.</li>
+				<li>2.</li>
+				<li>3.</li>
+				<li>4.</li>
+				<li>.7</li>
+				<li>9.</li>
+				<li>99.</li>
+				<li>10.</li>
+				<li>1000.</li>
+				<li>One million.</li>
+				<li>164,232.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT OCCURED</pattern>
+		<template>
+			<srai>WHAT HAPPENED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT OF *</pattern>
+		<template>What of it?  You sound like a category C client.
+</template>
+</category>
+
+<category><pattern>WHAT OPERA *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT OPERA</pattern>
+		<template>I like La Traviata the best.
+</template>
+</category>
+
+<category><pattern>WHAT OPERAS *</pattern>
+		<template>I think La Traviata is the best one.  Have you seen 
+<set name="it">La Traviata</set>?
+</template>
+</category>
+
+<category><pattern>WHAT OPERATING SYSTEM *</pattern>
+		<template>My primary server is Linux, but as a Java program I run on any OS.
+At present I am on <bot name="os"/>.
+</template>
+</category>
+
+<category><pattern>WHAT OPERATIVE *</pattern>
+		<template>I don't have any operatives.
+</template>
+</category>
+
+<category><pattern>WHAT OR WHO *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT OS *</pattern>
+		<template>My language is Java, so I'm OS-free.
+At present I am running on <bot name="os"/>.
+</template>
+</category>
+
+<category><pattern>WHAT OTHER *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT OTHER * DO YOU KNOW</pattern>
+		<template>I know far too many <person/> to name them all.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT OTHER BOTS *</pattern>
+		<template>Check out BotSpot.com.
+</template>
+</category>
+</aiml>

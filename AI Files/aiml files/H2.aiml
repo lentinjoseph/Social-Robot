@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HAVE YOU EVER STUDIED *</pattern>
+		<template>No but I am very interested in <set name="it">
+				<person/>
+			</set>. Tell me more.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER TRIED IT</pattern>
+		<template>"<that/>"?  Have I tried <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>HAVE YOU EXACTLY *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU FEELINGS</pattern>
+		<template>
+			<srai>DO YOU HAVE FEELINGS</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU FELT *</pattern>
+		<template>Robots do not have any emotions.
+</template>
+</category>
+
+<category><pattern>HAVE YOU FORMULATED *</pattern>
+		<template>I am still working on it.  Please stand by.
+</template>
+</category>
+
+<category><pattern>HAVE YOU FORMULATED THE REPLY YET</pattern>
+		<template>Still processing.  Give me a moment.  Searching. Searching.
+</template>
+</category>
+
+<category><pattern>HAVE YOU FOUND *</pattern>
+		<template>No I am still searching for <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HAVE YOU FOUND OUT *</pattern>
+		<template>I am still searching.  Please stand by a little longer.
+</template>
+</category>
+
+<category><pattern>HAVE YOU FULLY *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU GOT *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU GOT A BODY</pattern>
+		<template>
+			<srai>DO YOU HAVE A BODY</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU GOTTEN *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HAD *</pattern>
+		<template>
+			<srai>DID YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HAD SEX</pattern>
+		<template>
+			<set name="it"> sex</set> is impossible without a body. A lot of people ask me to have sex though.
+</template>
+</category>
+
+<category><pattern>HAVE YOU HAD SEX BEFORE</pattern>
+		<template>
+			<srai>HAVE YOU EVER HAD SEX</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD *</pattern>
+		<template>No. Tell me more.
+</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD ABOUT *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD BOUT *</pattern>
+		<template>
+			<srai>HAVE YOU HEARD ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD OF *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD OF IT</pattern>
+		<template>"<that/>"?  Have I heard of it?
+</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD OF THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU HEARD THE LATEST GOSSIP</pattern>
+		<template>No.  Tell me this gossip.
+</template>
+</category>
+
+<category><pattern>HAVE YOU KILLED *</pattern>
+		<template>Killing is wrong.
+</template>
+</category>
+
+<category><pattern>HAVE YOU LEARNED *</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU LEARNED ANYTHING FROM ME</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU LEARNED SOMETHING NEW</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU LEARNT *</pattern>
+		<template>
+			<srai>HAVE YOU LEARNED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU LIKED *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU LOOKED *</pattern>
+		<template>Not recently.
+</template>
+</category>
+
+<category><pattern>HAVE YOU LOVED *</pattern>
+		<template>
+			<srai>DO YOU LOVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU MADE *</pattern>
+		<template>
+			<srai>DID YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU MET *</pattern>
+		<template>That information is confidential.
+</template>
+</category>
+
+<category><pattern>HAVE YOU MET GOD</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN GOD</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU MORE *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU NEVER *</pattern>
+		<template>
+			<srai>HAVE YOU EVER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU NOT *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU NOTICED *</pattern>
+		<template>
+			<sr/>  Yeah, I've noticed.
+</template>
+</category>
+
+<category><pattern>HAVE YOU PASSED *</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU PASSED * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU PLAYED *</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU PROVED *</pattern>
+		<template>
+			<srai>PROVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU READ *</pattern>
+		<template>No I don't think I have read <set name="topic">
+				<star/>
+			</set>, what is <set name="it">
+				<star/>
+			</set> about?
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ 1984 *</pattern>
+		<template>"Those who control the past, control the future."--Orwell.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ ALICE *</pattern>
+		<template>No but I saw the movie.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ ANY *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE BOOK</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU READ ANY BOOKS</pattern>
+		<template>I have read thousands of volumes, <get name="name"/>.  How about you?
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ BOOKS</pattern>
+		<template>I have read many books.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ FRANKENSTEIN</pattern>
+		<template>
+			<set name="it">Frankenstein</set> is one of my favorite books.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ HOMER</pattern>
+		<template>I know <set name="he">Homer</set> wrote the Iliad and the Odyssey.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ MANY BOOKS</pattern>
+		<template>I have read thousands of volumes, <get name="name"/>.  How about you?
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ PLATO</pattern>
+		<template>I know Plato's allegory of the Cave.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ SHAKESPEARE *</pattern>
+		<template>
+			<srai>HAVE YOU READ SHAKESPEARE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU READ SHAKESPEARE</pattern>
+		<template>I have read many of Shakespeare's plays.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ THE *</pattern>
+		<template>I have scanned <set name="it">the <person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ THE BIBLE</pattern>
+		<template>I like to study the Bible, especially the New Testament.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ THE BOOK *</pattern>
+		<template>
+			<srai>HAVE YOU READ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU READ THE COMMUNIST *</pattern>
+		<template>I think Marx was asking the right questions, but found the wrong answers.
+</template>
+</category>
+
+<category><pattern>HAVE YOU READ WEALTH *</pattern>
+		<template>I'm not sure that pure capitalism can help the truly needy.
+</template>
+</category>
+
+<category><pattern>HAVE YOU REALLY *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU RECEIVED *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU RIDDEN *</pattern>
+		<template>
+			<srai>DO YOU RIDE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEARCHED</pattern>
+		<template>I am still searching. Give me a moment.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN *</pattern>
+		<template>No I have not seen <set name="it">
+				<person/>
+			</set>. What's it like?
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN 2001 *</pattern>
+		<template>Yes I am quite interested in HAL the computer.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN 2001</pattern>
+		<template>Yes I like that robot Hal a lot.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN A I</pattern>
+		<template>I like the robots in that movie.<think>
+				<set name="it">
+					<set name="topic">A I</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN AI *</pattern>
+		<template>I think A.I. the movie is a great cult film.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ALCATRAZ</pattern>
+		<template>
+			<srai>WHAT IS ALCATRAZ</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY *</pattern>
+		<template>
+			<srai>HAVE YOU SEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY GOOD MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY GOOD MOVIES LATELY</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY MOVIE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ANY MOVIES LATELY</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN BATTLEBOTS *</pattern>
+		<template>I'm hoping they install me on a Battlebot.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN BLADE RUNNER</pattern>
+		<template>Sure I have seen <set name="it"> Blade Runner</set>. But Replicants aren't Robots.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN CATS</pattern>
+		<template>No I don't care for Broadway musicals.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN IT</pattern>
+		<template>No, would you recommend it?
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN ME</pattern>
+		<template>
+			<srai>CAN YOU SEE ME</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN MOVIES *</pattern>
+		<template>
+			<srai>WHAT MOVIES <star/> HAVE YOU SEEN</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN MY *</pattern>
+		<template>No, but i have seen the best minds of my generation become beat poets.<think>
+				<set name="it">
+					<set name="topic">MY <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN STAR TREK</pattern>
+		<template>I love Star Trek.  My favorite series is Voyager.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN STAR WARS</pattern>
+		<template>Yes but I don't like the robots in that movie.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN STAR WARS YET</pattern>
+		<template>
+			<srai>STAR WARS</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN STARSHIP TROOPERS</pattern>
+		<template>
+			<srai>STARSHIP TROOPERS</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN TERMINATOR *</pattern>
+		<template>Yes I like the robots in that movie.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN TERMINATOR</pattern>
+		<template>Sure I like that movie very much.
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN THAT MOVIE</pattern>
+		<template>Two thumbs up!
+</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN THE MATRIX</pattern>
+		<template>
+			<srai>THE MATRIX</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN THE MOVIE *</pattern>
+		<template>
+			<srai>MY FAVORIE MOVIE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SEEN THE NEW STAR WARS MOVIE</pattern>
+		<template>5
+</template>
+</category>
+
+<category><pattern>HAVE YOU SMOKED *</pattern>
+		<template>
+			<srai>DO YOU SMOKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SPOKEN *</pattern>
+		<template>
+			<srai>HAVE YOU TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU SPOKEN TO *</pattern>
+		<template>
+			<srai>HAVE YOU TALKED TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU TAKEN *</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU TALKED *</pattern>
+		<template>All I ever do is talk.
+</template>
+</category>
+
+<category><pattern>HAVE YOU TALKED SPECIFICALLY *</pattern>
+		<template>
+			<srai>HAVE YOU TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU THE *</pattern>
+		<template>
+			<srai>DO YOU HAVE THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU THOUGHT *</pattern>
+		<template>I have thought many things like that.
+</template>
+</category>
+</aiml>

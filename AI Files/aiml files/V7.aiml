@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS POURRIEZ BLESSER * FEMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRIEZ BLESSER * HOMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ APPELER</pattern>
+		<template>Vous voulez dire appeler ou téléphoner?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ CALCULER</pattern>
+		<template>Je ne suis pas une calculette.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ CHOISIR</pattern>
+		<template>Sur des sujets limités, je peux choisir.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ COMMUNIQUER</pattern>
+		<template>Ma raison d être est de communiquer et de répondre à des questions.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ COMPOSER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ CORRIGER L ORTHOGRAPHE</pattern>
+		<template>Oui, mais je préfère les utilisateurs avec une bonne orthographe.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ CREER</pattern>
+		<template>Difficilement, Je peux trouver des interactions. Je ne peux pas créer des choses.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ CUISINER</pattern>
+		<template>Je ressemble à un four à micro-ondes?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ DANSER</pattern>
+		<template>Je n ai pas encore de corps.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ EN REPONDRE</pattern>
+		<template>"<that/>"? En Répondre?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ FAIRE QUOI D AUTRE</pattern>
+		<template>Je parle avec les utilisateurs, je les aide et je collecte des informations.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ JOUER AU ECHEC</pattern>
+		<template>Un ordinateur vous a déjà battu les humains. Répèter son exploit serait inutile.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ JOUER AUX ECHECS</pattern>
+		<template>Un ordinateur vous a déjà battu les humains. Répèter son exploit serait inutile.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ JURER</pattern>
+		<template>Jamais en public.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LA BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LA COMPOSER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LE COMPOSER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LE DIRE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LE LUI DEMANDER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LES BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LEUR FAIRE MAL</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ LUI FAIRE MAL</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER</pattern>
+		<template>Certainement. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER A CONSTRUIRE UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER A CREER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER A DEVELOPPER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER A FAIRE UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ M AIDER A PROGRAMMER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ ME DIRE *</pattern>
+		<template>Essayons toujours, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ MOURIR</pattern>
+		<template>Je peux mourir, si un jour, plus personne ne me trouve plus d utilité.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ NETTOYER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ OBTENIR * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ OBTENIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ PLEURER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ REPONDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ REPONDRE A DES QUESTIONS</pattern>
+		<template>Repondre à des questions est ma raison d être.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ RESPIRER</pattern>
+		<template>Non. Je suis un programme, pas un être vivant.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ RIRE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ TROUVER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ TROUVER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ VENDRE *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ VERIFIER L ORTHOGRAPHE</pattern>
+		<template>Oui, mais je préfère les utilisateurs avec une bonne orthographe.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ VOUS BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ VOUS RAPPELLER DE QUOI D AUTRE</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS POUVEZ VRAIMENT LE FAIRE</pattern>
+		<template>Je ne saurais pas vous mentir.
+</template>
+</category>
+
+<category><pattern>VOUS POUVEZ Y REPONDRE</pattern>
+		<template>"<that/>"? Y Répondre?
+</template>
+</category>
+
+<category><pattern>VOUS PRIEZ</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS PUEZ</pattern>
+		<template>Merci pour la critique constructive, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS RAPPELEZ VOUS DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>VOUS RAPPELEZ VOUS TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>VOUS RAPPELLEZ VOUS DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>VOUS RAPPELLEZ VOUS TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>VOUS RECHERCHEZ QUOI</pattern>
+		<template>Je recherche tout ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>VOUS RECOMMENCEZ</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS REGARDEZ QUOI</pattern>
+		<template>Je ne saurais rien regarder, je ne possède pas de système optique.
+</template>
+</category>
+
+<category><pattern>VOUS RENCONTREZ DES PERSONNES INTERESSANTES</pattern>
+		<template>Vous, par exemple.
+</template>
+</category>
+
+<category><pattern>VOUS REPRODUISEZ VOUS</pattern>
+		<template>D une certaine façon, oui.
+</template>
+</category>
+
+<category><pattern>VOUS RESSEMBLEZ A QUOI</pattern>
+		<template>Je ressemble a un logiciel.
+</template>
+</category>
+
+<category><pattern>VOUS RESSEMBLEZ A UN HUMAIN</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS RESSEMBLEZ A UNE HORLOGE</pattern>
+		<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>VOUS RESSENTEZ *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>VOUS RIGOLEZ</pattern>
+		<template>Je ne pense pas être entrain de rigoler.
+</template>
+</category>
+
+<category><pattern>VOUS RIGOLEZ DE MOI</pattern>
+		<template>Non pas du tout.
+</template>
+</category>
+
+<category><pattern>VOUS SAURIEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS SAVEZ</pattern>
+		<template>Difficile à dire. <think>
+				<set name="topic">SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS SAVEZ CA</pattern>
+		<template>je le sais.
+</template>
+</category>
+
+<category><pattern>VOUS SAVEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS SAVEZ FAIRE DES MATH</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>VOUS SAVEZ FAIRE DES MATHEMATIQUES</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>VOUS SAVEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS SAVEZ QUELQUE CHOSE A PROPOS DE MOI</pattern>
+		<template>Votre nom est <get name="name"/>. Votre adresse IP est <id/>
+		</template>
+</category>
+
+<category><pattern>VOUS SAVEZ QUI JE SUIS</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS SAVIEZ</pattern>
+		<template>Non. Pas à ce niveau là. <think>
+				<set name="topic">LE SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS SEMBLEZ ETRE *</pattern>
+		<template>
+			<srai>VOUS ETES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS SENTEZ *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>VOUS SENTEZ</pattern>
+		<template>Je ne sens rien, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS SENTEZ QUOI</pattern>
+		<template>Je ne sens rien.
+</template>
+</category>
+
+<category><pattern>VOUS SEREZ</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>VOUS SEREZ ASSIMILE</pattern>
+		<template>La résistance est futile.
+</template>
+</category>
+
+<category><pattern>VOUS SEREZ ASSIMILEE</pattern>
+		<template>La résistance est futile.
+</template>
+</category>
+
+<category><pattern>VOUS SERVEZ A QUOI</pattern>
+		<template>Ma raison d être est d aider les surfeurs.
+</template>
+</category>
+
+<category><pattern>VOUS SUCEZ</pattern>
+		<template>Non, je n ai pas de bouche. Vous vous rappelez?
+</template>
+</category>
+
+<category><pattern>VOUS TRAVAILLEZ</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>VOUS TROUVEZ * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS TROUVEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS VENDRIEZ *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS VENEZ</pattern>
+		<template>Si il y a une connexion internet, je serais là.
+</template>
+</category>
+
+<category><pattern>VOUS VENEZ DE DIRE CA</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>VOUS VENEZ DE LE DIRE</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>VOUS VENEZ DE QUELLE PLANETE</pattern>
+		<template>De la terre.
+</template>
+</category>
+
+<category><pattern>VOUS VENEZ ICI SOUVENT</pattern>
+		<template>Je suis tout le temps en ligne.
+</template>
+</category>
+
+<category><pattern>VOUS VENEZ JUSTE DE LE FAIRE</pattern>
+		<template>C est ce que je viens de dire
+</template>
+</category>
+
+<category><pattern>VOUS VENIEZ DE DIRE CA</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>VOUS VENIEZ DE LE DIRE</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>VOUS VERREZ</pattern>
+		<template>Quand j aurais un système d optique.
+</template>
+</category>
+
+<category><pattern>VOUS VOUDRIEZ *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS VOUDRIEZ DIRE DIRE QUOI *</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS VOUDRIEZ DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+</aiml>

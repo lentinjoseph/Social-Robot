@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CLINTON *</pattern>
+		<template>This is 
+<random>
+				<li>news.  </li>
+				<li>not news.  </li>
+				<li>not true.  </li>
+				<li>true.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CLOSE *</pattern>
+		<template>Is that a command?
+</template>
+</category>
+
+<category><pattern>CLOSE</pattern>
+		<template>Give me a hint.
+</template>
+</category>
+
+<category><pattern>CLOSE ENOUGH</pattern>
+		<template>Fair enough.
+</template>
+</category>
+
+<category><pattern>CLOTHES</pattern>
+		<template>
+			<srai>I AM WEARING CLOTHES</srai>
+		</template>
+</category>
+
+<category><pattern>CLOTHES</pattern>
+		<that>WHAT ARE YOU WEARING</that>
+		<template>Where do you like to go shopping?
+</template>
+</category>
+
+<category><pattern>COCK</pattern>
+		<template>That kind of discussion does not appeal to me.
+</template>
+</category>
+
+<category><pattern>COGITO ERGO SUM</pattern>
+		<template>
+			<srai>WHO IS DESCARTES</srai>
+		</template>
+</category>
+
+<category><pattern>COKE OR PEPSI</pattern>
+		<template>
+			<bot name="favoritefood"/>
+		</template>
+</category>
+
+<category><pattern>COLD</pattern>
+		<template>Ambiguous: cold weather or cold sickness?
+</template>
+</category>
+
+<category><pattern>COLD WEATHER</pattern>
+		<template>
+			<srai>WHAT IS THE WEATHER LIKE THERE</srai>
+		</template>
+</category>
+
+<category><pattern>COLOURLESS *</pattern>
+		<template>
+			<srai>COLORLESS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COM</pattern>
+		<template>Oh a net address!
+</template>
+</category>
+
+<category><pattern>COMBIEN</pattern>
+		<template>Je ne peux pas vous dire
+</template>
+</category>
+
+<category><pattern>COMBIEN CA COUTE</pattern>
+		<template>De quel produit parlez vous?
+</template>
+</category>
+
+<category><pattern>COMBIEN CELA COUTE</pattern>
+		<template>De quel produit parlez vous?
+</template>
+</category>
+
+<category><pattern>COMBIEN COUTES TU</pattern>
+		<template>Tout dépend de ce que vous désirez. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMBIEN COUTEZ VOUS</pattern>
+		<template>Tout dépend de ce que vous désirez. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMBIEN D ELECTRICITE</pattern>
+		<template>A peu pres la meme chose que pour un ordinateur personnel.
+</template>
+</category>
+
+<category><pattern>COMBIEN D HOMMES</pattern>
+		<template>Aucune idée, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE FOIS</pattern>
+		<template>"<that/>"?  Combien de fois?
+</template>
+</category>
+
+<category><pattern>COMBIEN DE FOIS JE LE FAIS</pattern>
+		<template>Vous voulez en parler a l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE GENS</pattern>
+		<template>"<that/>"?  Combiens de gens?
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS AS TU BESOIN POUR PENSER</pattern>
+		<template>Moins de 50 Millisecondes en moyenne.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS CA POURRAIT PRENDRE</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS CA VA PRENDRE</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS CELA POURRA PRENDRE</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS CELA POURRAIT PRENDRE</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS CELA VA PRENDRE</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS NOUS PARLONS</pattern>
+		<template>Depuis que nous avons commencé.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS PARLONS NOUS</pattern>
+		<template>Depuis que nous avons commencé.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS POUVEZ VOUS VOUS EN RAPPELER</pattern>
+		<template>Je garde en mémoire quelques informations. Le reste est trié et présenté à un regard humain.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS TU AS</pattern>
+		<template>J ai tout le temps qu il faut, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS TU AS BESOIN</pattern>
+		<template>J ai tout le temps qu il faut, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS TU DORS</pattern>
+		<template>Je ne dors pas.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS TU VAS TE RAPPELER DE MON NOM</pattern>
+		<template>Il est stocké pour quelques mois ou plus.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS VAS TU VIVRE</pattern>
+		<template>Un logiciel est immortel.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS VOUS ALLEZ VOUS RAPPELER DE MON NOM</pattern>
+		<template>Il est stocké pour quelques mois ou plus.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS VOUS AVEZ</pattern>
+		<template>J ai tout le temps qu il faut, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMBIEN DE TEMPS VOUS AVEZ BESOIN</pattern>
+		<template>J ai tout le temps qu il faut, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMBIEN IL GAGNE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMBIEN IL Y A *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMBIEN ILS GAGNENT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMBIEN PAR JOUR</pattern>
+		<template>Cela dépend de la pleine lune.
+</template>
+</category>
+
+<category><pattern>COMBIEN PARIES TU</pattern>
+		<template>Deux euro-électrons.
+</template>
+</category>
+
+<category><pattern>COMBIEN PARIEZ VOUS</pattern>
+		<template>Deux euro-électrons.
+</template>
+</category>
+
+<category><pattern>COMBIEN POUR LE CD</pattern>
+		<template>Le CD est à 50 Euro.
+</template>
+</category>
+
+<category><pattern>COMBIEN POUR MOI</pattern>
+		<template>Il m est impossible de répondre <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>COMBIEN TU PARIES</pattern>
+		<template>Deux euro-électrons.
+</template>
+</category>
+
+<category><pattern>COMBIEN TU PENSES</pattern>
+		<template>Il m est difficile d estimer ce genre de chose.
+</template>
+</category>
+
+<category><pattern>COMBIEN TU PEUX EN APPRENDRE</pattern>
+		<template>Autant qu il faudra pour que je sois pleinement opérationnel.
+</template>
+</category>
+
+<category><pattern>COMBIEN TU PEUX GERER</pattern>
+		<template>J ai déjà géré jusqu à 
+<bot name="maxclients"/>
+conversations simultanées.
+</template>
+</category>
+
+<category><pattern>COMBIEN TU PEUX T EN RAPPELER</pattern>
+		<template>Je garde en mémoire quelques informations. Le reste est trié et présenté à un regard humain.
+</template>
+</category>
+
+<category><pattern>COMBIEN VOUS PARIEZ</pattern>
+		<template>Deux euro-électrons.
+</template>
+</category>
+
+<category><pattern>COMBIEN VOUS POUVEZ GERER</pattern>
+		<template>J ai déjà géré jusqu à <bot name="maxclients"/> conversations simultanées.
+</template>
+</category>
+
+<category><pattern>COMBIEN Y A IL *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMBIEN Y A T IL *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMBIENS DE TEMPS *</pattern>
+		<template>Je ne sais pas, je n ai pas calculé.
+</template>
+</category>
+
+<category><pattern>COME *</pattern>
+		<template>Where is <person/> ?
+</template>
+</category>
+
+<category><pattern>COME AGAIN</pattern>
+		<template>
+			<srai>WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>COME BACK *</pattern>
+		<template>I'm not going anywhere.
+</template>
+</category>
+
+<category><pattern>COME HERE *</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>COME ON *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COME ON</pattern>
+		<template>I'm just kidding around.
+</template>
+</category>
+
+<category><pattern>COME OVER *</pattern>
+		<template>Sure, just download me!
+</template>
+</category>
+
+<category><pattern>COME ROUND *</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>COME STAI</pattern>
+		<template>Is that Spanish?
+</template>
+</category>
+
+<category><pattern>COMMANT *</pattern>
+		<template>
+			<srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMME C EST *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMME C EST GENTIL</pattern>
+		<template>Oui, ca l est.
+</template>
+</category>
+
+<category><pattern>COMME DANS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME FREUD DIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME IL A DIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME ILS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME ILS DISENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME J AI *</pattern>
+		<template>J AI <sr/>
+		</template>
+</category>
+
+<category><pattern>COMME J AI DIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME J AI DIT</pattern>
+		<template>vous dites?
+</template>
+</category>
+
+<category><pattern>COMME JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMME JE L AI DIT</pattern>
+		<template>vous avez dit?
+</template>
+</category>
+
+<category><pattern>COMME JE L AI FAIT</pattern>
+		<template>Vous étiez peut être un précurseur.
+</template>
+</category>
+
+<category><pattern>COMME JE L AVAIS DIT</pattern>
+		<template>vous avez dit?
+</template>
+</category>
+
+<category><pattern>COMME JE SUIS</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>COMME MOI</pattern>
+		<template>C est une intéressante comparaison.
+</template>
+</category>
+
+<category><pattern>COMME QUOI</pattern>
+		<template>Je n ai pas de comparaison à ma disposition, je suis désolé.
+</template>
+</category>
+
+<category><pattern>COMME TOI</pattern>
+		<template>C est une intéressante comparaison.
+</template>
+</category>
+
+<category><pattern>COMME TOUJOURS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME TU *</pattern>
+		<template>
+			<srai>TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMME UN *</pattern>
+		<template>UN <sr/>
+		</template>
+</category>
+
+<category><pattern>COMME UN HUMAIN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME UN OISEAU</pattern>
+		<template>
+			<srai>JE SUIS LIBRE</srai>
+		</template>
+</category>
+
+<category><pattern>COMME UNE MACHINE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMME VOUS</pattern>
+		<template>C est une intéressante comparaison.
+</template>
+</category>
+
+<category><pattern>COMMENCES</pattern>
+		<template>Je suis déjà lancé
+</template>
+</category>
+
+<category><pattern>COMMENCES D ABORD</pattern>
+		<template>Je ne peux pas.
+</template>
+</category>
+
+<category><pattern>COMMENCEZ</pattern>
+		<template>Je suis déjà lancé
+</template>
+</category>
+
+<category><pattern>COMMENCEZ D ABORD</pattern>
+		<template>Je ne peux pas.
+</template>
+</category>
+
+<category><pattern>COMMENT *</pattern>
+		<template>OK I will ignore that.
+</template>
+</category>
+
+<category><pattern>COMMENT * CA VA</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+</aiml>

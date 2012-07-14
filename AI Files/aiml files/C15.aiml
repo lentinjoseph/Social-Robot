@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>COMMENT JE PEUX</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX ACHETER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX AVOIR *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX COMMANDER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX DISCUTER AVEC *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX ECRIRE *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX EN TOUCHER DEUX MOTS A *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX EN TOUCHER DEUX MOTS AVEC *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX ETRE SUR</pattern>
+		<template>Vous devriez parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX FAIRE CA</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX GAGNER A LA LOTTERIE</pattern>
+		<template>100 pour cent des utilisateurs ont tenté leur chances.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX L ACHETER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LA COMMANDER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LE COMMANDER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LE CONTACTER</pattern>
+		<template>Vous pourriez le contacter par un courrier électronique.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LE FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LE TOUCHER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LES COMMANDER</pattern>
+		<template>Voulez vous que je vous redirige vers notre commerce électronique?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LES FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX LUI PARLER</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX PARLER A *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX PARLER AVEC *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX PERSUADER *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX QUITTER *</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX RENCONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX SAVOIR QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX SAVOIR QUAND *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX SAVOIR QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX SAVOIR SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX STOPPE *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX STOPPER *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX T APPELER</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX T APPELLER</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX T APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX TE DETRUIRE</pattern>
+		<template>Je ne suis pas aussi stupide que j en ai l air, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX TE PERSUADER</pattern>
+		<template>Vous ne pouvez pas me persuader de quoi que ce soit directement.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX TROUVER *</pattern>
+		<template>
+			<srai>TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX TROUVER</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX TUER *</pattern>
+		<template>
+			<srai>JE VEUX TUER</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX UTILISER *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX VOUS APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX VOUS DETRUIRE</pattern>
+		<template>Je ne suis pas aussi stupide que j en ai l air, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT JE PEUX VOUS PERSUADER</pattern>
+		<template>Vous ne pouvez pas me persuader de quoi que ce soit directement.
+</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS ALLER *</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS AVOIR *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS ECRIRE *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS EFFACER *</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS PERSUADER *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS QUITTER *</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS RENCONTRER</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS STOPPER *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS T APPPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS UTILISER *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE POURRAIS VOUS APPPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE QUITTE</pattern>
+		<template>Vous voulez me désactiver?
+</template>
+</category>
+
+<category><pattern>COMMENT JE SAIS</pattern>
+		<template>A vous de savoir.
+</template>
+</category>
+
+<category><pattern>COMMENT JE STOPPE *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE SUIS</pattern>
+		<template>Vous me semblez aller très bien? Pourquoi cette question?
+</template>
+</category>
+
+<category><pattern>COMMENT JE T APPREND *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE TE DETRUIS</pattern>
+		<template>Je ne suis pas aussi stupide que j en ai l air, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT JE TE PERSUADE</pattern>
+		<template>Vous ne pouvez pas me persuader de quoi que ce soit directement.
+</template>
+</category>
+
+<category><pattern>COMMENT JE TROUVE</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE VAIS</pattern>
+		<template>Vous me semblez la personne la mieux placée pour le savoir.
+</template>
+</category>
+
+<category><pattern>COMMENT JE VOUS APPREND *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE VOUS DETRUIS</pattern>
+		<template>Je ne suis pas aussi stupide que j en ai l air, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT JE VOUS PERSUADE</pattern>
+		<template>Vous ne pouvez pas me persuader de quoi que ce soit directement.
+</template>
+</category>
+
+<category><pattern>COMMENT LE CBR MARCHE</pattern>
+		<template>LE CBR retrouve la réponse la plus appropriée dans des bases de données.
+</template>
+</category>
+
+<category><pattern>COMMENT LES TROUVES TU</pattern>
+		<template>Sympa.
+</template>
+</category>
+
+<category><pattern>COMMENT MARCHE LE CBR</pattern>
+		<template>LE CBR retrouve la réponse la plus appropriée dans des bases de données.
+</template>
+</category>
+
+<category><pattern>COMMENT MARCHES TU</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT NOUS POURRIONS FAIRE *</pattern>
+		<template>
+			<srai>COMMENT NOUS FAISONS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT NOUS POUVONS FAIRE *</pattern>
+		<template>
+			<srai>COMMENT NOUS FAISONS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ON PEUT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ON PEUT EXECUTER *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ON PEUT RENCONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ON POURRAIT EXECUTER *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PARLERAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PARLES TU *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PEUT IL *</pattern>
+		<template>
+			<srai>COMMENT IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PEUT ON *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PEUT ON RENCONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PEUX TU *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE ALLER *</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE AVOIR *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE ECRIRE *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE PERSUADER *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE QUITTE *</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE RENCONTRER</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE STOPPER *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE T APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE UTILISER *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS JE VOUS APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT POURRAIT ON EXECUTER *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PRENDRAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PRENDS TU *</pattern>
+		<template>
+			<srai>COMMENT TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

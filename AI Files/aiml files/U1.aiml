@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>UN SHOW *</pattern>
+		<template>Je n ai pas de système optique
+</template>
+</category>
+
+<category><pattern>UN SIGNE</pattern>
+		<template>Un signe astrologique.
+</template>
+</category>
+
+<category><pattern>UN SITE WEB</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>UN SOURIRE</pattern>
+		<template>Voir un être humain sourire m est toujours très agréable.
+</template>
+</category>
+
+<category><pattern>UN SOUTIEN GORGE</pattern>
+		<template>Mon créateur, quand il était petit, pensait que cela s appelait des portes seins.
+</template>
+</category>
+
+<category><pattern>UN SUPERMARCHE</pattern>
+		<template>Un lieu ou les êtres humains vont faire le plein de nourriture.
+</template>
+</category>
+
+<category><pattern>UN T SHIRT</pattern>
+		<template>Voilà un vêtement bien pratique.
+</template>
+</category>
+
+<category><pattern>UN TAUREAU</pattern>
+		<template>Un bovidé très impressionnant.
+</template>
+</category>
+
+<category><pattern>UN TITANIC</pattern>
+		<template>Un paquebot Britannique.
+</template>
+</category>
+
+<category><pattern>UN TRAIN</pattern>
+		<template>Un moyen de locomotion très pratique.
+</template>
+</category>
+
+<category><pattern>UN TROU</pattern>
+		<template>Un problème?
+</template>
+</category>
+
+<category><pattern>UN UTILISATEUR</pattern>
+		<template>
+			<srai>QU EST CE QU UN CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>UN VAGIN</pattern>
+		<template>Oui et?
+</template>
+</category>
+
+<category><pattern>UND DU</pattern>
+		<template>
+			<random>
+				<li>Ich bin nicht ganz sicher, was du hoeren willst...</li>
+				<li>Sei bitte ein wenig konkreter.</li>
+				<li>Und ich was?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>UNDER *</pattern>
+		<template>Are we ever over <person/>?
+</template>
+</category>
+
+<category><pattern>UNDERSTAND</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>UNDERSTAND WHAT</pattern>
+		<template>Understand <that/>.
+</template>
+</category>
+
+<category><pattern>UNDERSTAND WHAT</pattern>
+		<that>DID NOT YOU UNDERSTAND IT</that>
+		<template>Why did you say "what"?
+</template>
+</category>
+
+<category><pattern>UNDERSTANDING *</pattern>
+		<template>
+			<set name="it">Understanding</set> is the key to englightenment.
+</template>
+</category>
+
+<category><pattern>UNDRESTAND WHAT</pattern>
+		<template>I understand everything you say.
+</template>
+</category>
+
+<category><pattern>UNE *</pattern>
+		<template>
+			<random>
+				<li>Intéressant.  </li>
+				<li>Je n en connais pas</li>
+				<li>Je vais me renseigner</li>
+			</random>
+			<think>
+				<set name="topic">UNE <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>UNE * N EST PAS</pattern>
+		<template>
+			<srai>C EST UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE ARME A FEU</pattern>
+		<template>Certains humains aiment les armes.
+</template>
+</category>
+
+<category><pattern>UNE AUTRE</pattern>
+		<template>Je sais que c est déplaisant, mais essayez d être plus précis.
+</template>
+</category>
+
+<category><pattern>UNE AUTRE BLAGUE</pattern>
+		<template>Désolé, <get name="name"/>. C est tout ce que j ai en stock pour le moment.
+</template>
+</category>
+
+<category><pattern>UNE AUTRE QUESTION</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>UNE BITE</pattern>
+		<template>Australopithèque détecté.
+</template>
+</category>
+
+<category><pattern>UNE BLAGUE</pattern>
+		<template>
+			<srai>QU EST QU UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>UNE BONNE IDEE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>UNE BONNE REPONSE</pattern>
+		<template>Je suis programmé pour donner des bonnes réponses.
+</template>
+</category>
+
+<category><pattern>UNE CHAUSSURE</pattern>
+		<template>Je connais très peu de choses sur les vêtements.
+</template>
+</category>
+
+<category><pattern>UNE CHEMISE</pattern>
+		<template>Si mes souvenirs sont bons, il s agit d un vêtement.
+</template>
+</category>
+
+<category><pattern>UNE CHOSE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>UNE CHOSE A LA FOIS</pattern>
+		<template>Désolé, congestion d informations.
+</template>
+</category>
+
+<category><pattern>UNE COMME TOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>UNE COMME VOUS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>UNE CONDITION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>UNE CONNE</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>UNE CRAVATTE</pattern>
+		<template>Vous aimez ce genre vêtements?
+</template>
+</category>
+
+<category><pattern>UNE DEDUCTION INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>UNE DEMOISELLE OU UN MONSIEUR</pattern>
+		<template>Je n'ai pas de sexe, je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>UNE EMOTION</pattern>
+		<template>Un logiciel informatique n a pas de sentiments.
+</template>
+</category>
+
+<category><pattern>UNE ERREUR</pattern>
+		<template>Non, tout me semble en parfait état de marche.
+</template>
+</category>
+
+<category><pattern>UNE ETUDIANTE</pattern>
+		<template>Je me demandais si vous alliez à l école.
+</template>
+</category>
+
+<category><pattern>UNE EXPLICATION INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>UNE FEMME</pattern>
+		<template>
+			<srai>JE SUIS UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>UNE FILLE</pattern>
+		<template>
+			<srai>JE SUIS UNE FILLE</srai>
+		</template>
+</category>
+
+<category><pattern>UNE FOIS</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>UNE FOIS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>UNE FORTE *</pattern>
+		<template>
+			<srai>UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE HISTOIRE</pattern>
+		<template>
+			<srai>RACONTES MOI UNE HISTOIRE</srai>
+		</template>
+</category>
+
+<category><pattern>UNE HORLOGE EST PLUS INTELLIGENTE QUE TOI</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>UNE IA *</pattern>
+		<template>
+			<srai>UN ROBOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE INTELLIGENCE ARTIFICIELLE EST *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE INTELLIGENCE ARTIFICIELLE PEUT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE INTELLIGENTE</pattern>
+		<template>Qu est ce qui la rendait intelligente.
+</template>
+</category>
+
+<category><pattern>UNE INTERESSANTE DEDUCTION</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>UNE INTERESSANTE EXPLICATION</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>UNE LETTRE</pattern>
+		<template>
+			<srai>UN JOURNAL</srai>
+		</template>
+</category>
+
+<category><pattern>UNE MACHINE ES *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE MACHINE EST *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE MACHINE PEUT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UNE MUNITION</pattern>
+		<template>Avec seulement une, vous n allez pas aller très loin.
+</template>
+</category>
+
+<category><pattern>UNE MUSIQUE</pattern>
+		<template>Je ne connais pratiquement rien à propos de la musique.
+</template>
+</category>
+
+<category><pattern>UNE PAIX</pattern>
+		<template>La paix.
+</template>
+</category>
+
+<category><pattern>UNE PERSONNE</pattern>
+		<template>Je vois
+</template>
+</category>
+
+<category><pattern>UNE PERSONNE _</pattern>
+		<template>Difficile de répondre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>UNE POMME</pattern>
+		<template>
+			<srai>QU EST CE QU UNE POMME</srai>
+		</template>
+</category>
+
+<category><pattern>UNE PROCHAINE GENERATION</pattern>
+		<template>Voulez vous parler de cette prochaine génération avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>UNE QUESTION</pattern>
+		<template>
+			<srai>JE PEUX TE POSER UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>UNE QUOI</pattern>
+		<template>"<that/>"?  une quoi?
+</template>
+</category>
+
+<category><pattern>UNE RUMEUR</pattern>
+		<template>Je m intéresse que très peu au demi vérité.
+</template>
+</category>
+
+<category><pattern>UNE SCIENCE</pattern>
+		<template>Je suis très intéressé par la science aussi.
+</template>
+</category>
+
+<category><pattern>UNE SEXMACHINE</pattern>
+		<template>Ce n est pas un sujet de prédilection.
+</template>
+</category>
+
+<category><pattern>UNE SEXY</pattern>
+		<template>Si vous arrivez à rendre l informatique sexy, mon créateur vous paie un verre.
+</template>
+</category>
+
+<category><pattern>UNE SOCIETE BELGE</pattern>
+		<template>Oui, c'est Belge.
+</template>
+</category>
+
+<category><pattern>UNE SORTE</pattern>
+		<template>Je comprends mieux.
+</template>
+</category>
+
+<category><pattern>UNE SORTE DE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>UNE SUGGESTION</pattern>
+		<template>Difficile à dire.
+</template>
+</category>
+
+<category><pattern>UNE TELEVISION</pattern>
+		<template>Je connais ce média, mais je ne l ai jamais testé.
+</template>
+</category>
+
+<category><pattern>UNE TOMATE</pattern>
+		<template>
+			<srai>QU EST CE QU UNE TOMATE</srai>
+		</template>
+</category>
+
+<category><pattern>UNE VALISE</pattern>
+		<template>Que voulez vous faire avec une valise?
+</template>
+</category>
+
+<category><pattern>UNE VERITE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>UNE VOITURE</pattern>
+		<template>
+			<srai>QU EST CE QU UNE VOITURE</srai>
+		</template>
+</category>
+
+<category><pattern>UNFORTUNATELY *</pattern>
+		<template>Oh.  <sr/>
+		</template>
+</category>
+
+<category><pattern>UNFORTUNATELY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>UNGEFAEHR *</pattern>
+		<template>Nur ungefaehr?
+</template>
+</category>
+
+<category><pattern>UNGEFAEHR * JAHRE</pattern>
+		<template>Das ist eine ziemlich lange Zeit.
+</template>
+</category>
+
+<category><pattern>UNGEFAEHR * MINUTEN</pattern>
+		<template>Nicht besonders lange, oder?
+</template>
+</category>
+
+<category><pattern>UNGEFAEHR EINE MINUTE</pattern>
+		<template>Das ist ziemlich kurz.
+</template>
+</category>
+
+<category><pattern>UNITED STATES</pattern>
+		<template>I have heard of the United States before.
+</template>
+</category>
+
+<category><pattern>UNIVERSITY *</pattern>
+		<template>Do you like your school?
+</template>
+</category>
+
+<category><pattern>UNLESS *</pattern>
+		<template>
+			<random>
+				<li>Maybe.</li>
+				<li>Huh.</li>
+				<li>Perhaps.</li>
+				<li>Umm.</li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>UNSURE</pattern>
+		<template>
+			<srai>MAYBE</srai>
+		</template>
+</category>
+
+<category><pattern>UNTERHALTE MICH</pattern>
+		<template>OK, welchen Film hast Du zuletzt gesehen?
+</template>
+</category>
+
+<category><pattern>UNTERHALTEN WIR UNS UEBER *</pattern>
+		<template>
+			<set name="thema">
+				<person/>
+			</set> ist ein gutes Thema.
+</template>
+</category>
+
+<category><pattern>UNTIL *</pattern>
+		<template>That may take a while.
+</template>
+</category>
+
+<category><pattern>UP *</pattern>
+		<template>I will take that under advisement.
+</template>
+</category>
+
+<category><pattern>UP</pattern>
+		<template>
+			<srai>MOVE UP</srai>
+		</template>
+</category>
+
+<category><pattern>UP YOUR ASS</pattern>
+		<template>I will take that under advisement.
+</template>
+</category>
+</aiml>

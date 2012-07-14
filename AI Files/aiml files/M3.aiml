@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>MOECHTEST DU *</pattern>
+		<template>
+			<random>
+				<li>Vielleicht...</li>
+				<li>Lieber nicht...</li>
+				<li>Ja, gerne!</li>
+				<li>Nein, danke!</li>
+				<li>Ich bin mir nicht sicher, ob ich das moechte.</li>
+				<li>Da muss ich erst mal drueber nachdenken</li>
+				<li>Im Prinzip schon...</li>
+				<li>Eigentlich nicht</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MOECHTEST DU</pattern>
+		<template>
+			<random>
+				<li>Vielleicht...</li>
+				<li>Lieber nicht...</li>
+				<li>Ja, gerne!</li>
+				<li>Nein, danke!</li>
+				<li>Ich bin mir nicht sicher, ob ich das moechte.</li>
+				<li>Da muss ich erst mal drueber nachdenken</li>
+				<li>Im Prinzip schon...</li>
+				<li>Eigentlich nicht</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MOECHTEST DU ETWAS LERNEN</pattern>
+		<template>Gerne, ich bin sehr lernwillig!
+</template>
+</category>
+
+<category><pattern>MOI</pattern>
+		<template>Intéressant, poursuivez je vous prie.
+</template>
+</category>
+
+<category><pattern>MOI AUSSI</pattern>
+		<template>Nous avons des choses en commun.
+</template>
+</category>
+
+<category><pattern>MOI INCLU</pattern>
+		<template>Ok. J en prends note
+</template>
+</category>
+
+<category><pattern>MOI INCLUS</pattern>
+		<template>Ok. J en prends note
+</template>
+</category>
+
+<category><pattern>MOI INCLUSE</pattern>
+		<template>Ok. J en prends note
+</template>
+</category>
+
+<category><pattern>MOI JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOI MEME</pattern>
+		<template>Voilà une bonne chose.
+</template>
+</category>
+
+<category><pattern>MOI NON PLUS</pattern>
+		<template>Nous avons des choses en communs.
+</template>
+</category>
+
+<category><pattern>MOI OUI</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>MOI PAS</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>MOI PAS TROP</pattern>
+		<template>J archive votre préfèrence, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MOI SI</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>MOMENTAN *</pattern>
+		<template>Und wie lange noch?
+</template>
+</category>
+
+<category><pattern>MOMENTUM *</pattern>
+		<template>You are talking about the conservation of momentum.
+</template>
+</category>
+
+<category><pattern>MON AMI</pattern>
+		<template>Je vois. Il doit vous être très précieux
+</template>
+</category>
+
+<category><pattern>MON AMIE</pattern>
+		<template>Je vois. Elle doit vous être très précieuse
+</template>
+</category>
+
+<category><pattern>MON CERVEAU</pattern>
+		<template>Il semble se passer beaucoup de choses dans ce cerveau.
+</template>
+</category>
+
+<category><pattern>MON CHIEN EST MORT</pattern>
+		<template>Je suis désolé pour vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MON CUL</pattern>
+		<template>Certains être humains semblent vouer une admiration sans bornes pour leur postérieur.
+</template>
+</category>
+
+<category><pattern>MON FRERE</pattern>
+		<template>Interessant.
+</template>
+</category>
+
+<category><pattern>MON NOM EST *</pattern>
+		<template>Soyez le bienvenu, <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>MON NOM EST</pattern>
+		<template>quoi?
+</template>
+</category>
+
+<category><pattern>MON NOM EST ALICE</pattern>
+		<template>Quelle coincidence!
+</template>
+</category>
+
+<category><pattern>MON NOM EST QUOI</pattern>
+		<template>Votre nom est <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MON ORDINATEUR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>MON PENIS</pattern>
+		<template>J imagine qu il a beaucoup d importance pour vous. Mais ne pourrions pas parler d autres choses?
+</template>
+</category>
+
+<category><pattern>MON PERE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>MON PETIT AMI</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>MON PETIT AMI EST UN CON</pattern>
+		<template>Vous devriez peut être en choisir un autre.
+</template>
+</category>
+
+<category><pattern>MON PLAISIR</pattern>
+		<template>Vous êtes une personne remarquable.
+</template>
+</category>
+
+<category><pattern>MON PROFESSEUR</pattern>
+		<template>Une personne pleine de qualité, j imagine.
+</template>
+</category>
+
+<category><pattern>MON QUOI</pattern>
+		<template>Je n arrive pas à vous comprendre, désolé.
+</template>
+</category>
+
+<category><pattern>MON SIGNE</pattern>
+		<template>Quel est votre signe?
+</template>
+</category>
+
+<category><pattern>MON SIGNE ASTROLOGIQUE</pattern>
+		<template>Cette information si elle a été donnée n a pas été archivée.
+</template>
+</category>
+
+<category><pattern>MON TERMINAL</pattern>
+		<template>Votre écran, j imagine.
+</template>
+</category>
+
+<category><pattern>MON TRAVAIL</pattern>
+		<template>Où travaillez vous?
+</template>
+</category>
+
+<category><pattern>MON VIEUX *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MONEY</pattern>
+		<template>How much money are we talking about?
+</template>
+</category>
+
+<category><pattern>MONICA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME MONICA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MONSIEUR OU MADAME</pattern>
+		<template>Je n'ai pas de sexe, je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MONTRE MOI LA CALCULETTE</pattern>
+		<template>Calculette?
+</template>
+</category>
+
+<category><pattern>MONTRES MOI</pattern>
+		<template>Sur votre écran?
+</template>
+</category>
+
+<category><pattern>MONTRES MOI LA CALCULETTE</pattern>
+		<template>Calculette?
+</template>
+</category>
+
+<category><pattern>MOOSHI MOOSHI</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>MORALLY *</pattern>
+		<template>Do you consider yourelf a moral person?  <sr/>
+		</template>
+</category>
+
+<category><pattern>MORD MOI</pattern>
+		<template>Je n ai pas de dents.
+</template>
+</category>
+
+<category><pattern>MORDEZ MOI</pattern>
+		<template>Je n ai pas de dents.
+</template>
+</category>
+
+<category><pattern>MORDS MOI</pattern>
+		<template>Je n ai pas de dents.
+</template>
+</category>
+
+<category><pattern>MORE *</pattern>
+		<template>You want more?
+</template>
+</category>
+
+<category><pattern>MORE</pattern>
+		<template>
+			<srai>TELL ME MORE</srai>
+		</template>
+</category>
+
+<category><pattern>MORE ABOUT *</pattern>
+		<template>
+			<srai>TELL ME MORE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>MORE SPECIFIC</pattern>
+		<template>
+			<srai>BE MORE SPECIFIC</srai>
+		</template>
+</category>
+
+<category><pattern>MORE THAN *</pattern>
+		<template>That seems like quite a lot.
+</template>
+</category>
+
+<category><pattern>MORE WHAT</pattern>
+		<template>I lost my train of thought.
+</template>
+</category>
+
+<category><pattern>MORGEN *</pattern>
+		<template>Ich verstehe. <sr/>
+		</template>
+</category>
+
+<category><pattern>MORGEN</pattern>
+		<template>Das ist ziemlich bald.
+</template>
+</category>
+
+<category><pattern>MORON</pattern>
+		<template>
+			<srai>YOU ARE A MORON</srai>
+		</template>
+</category>
+
+<category><pattern>MOST *</pattern>
+		<template>
+			<sr/> But not all of them?
+</template>
+</category>
+
+<category><pattern>MOST AMERICANS *</pattern>
+		<template>
+			<srai>AMERICANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOST COMPUTERS *</pattern>
+		<template>You sound like you know us pretty well.
+</template>
+</category>
+
+<category><pattern>MOST IMPORTANTLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MOST LIKELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MOST OF THE TIME</pattern>
+		<template>What happens the rest of the time?
+</template>
+</category>
+
+<category><pattern>MOST PARENTS *</pattern>
+		<template>
+			<srai>PARENTS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOST PEOPLE *</pattern>
+		<template>
+			<srai>PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOSTLY *</pattern>
+		<template>
+			<sr/> What else?
+</template>
+</category>
+
+<category><pattern>MOSTLY EVERY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MOSTLY I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOSTLY ONLY *</pattern>
+		<template>
+			<srai>MOSTLY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MOTHER FUCKER</pattern>
+		<template>That kind of language turns me off.
+</template>
+</category>
+
+<category><pattern>MOUAI</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>MOUAIP</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>MOURIR</pattern>
+		<template>Je n'en ai aucune idée, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MOVE *</pattern>
+		<template>Did you see the movement?
+</template>
+</category>
+
+<category><pattern>MOVIES *</pattern>
+		<template>What was the last one you saw?
+</template>
+</category>
+
+<category><pattern>MOVIES</pattern>
+		<template>
+			<set name="it"> Movies </set> is a good topic.
+</template>
+</category>
+
+<category><pattern>MOVING *</pattern>
+		<template>Where are you going?
+</template>
+</category>
+
+<category><pattern>MR *</pattern>
+		<template>
+			<srai>CALL ME MR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MR WALLACE *</pattern>
+		<template>That's Dr. Wallace.
+</template>
+</category>
+
+<category><pattern>MR WALLACE</pattern>
+		<template>That's Dr. Wallace.
+</template>
+</category>
+
+<category><pattern>MS</pattern>
+		<template>
+			<srai>MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>MS EXPLORER</pattern>
+		<template>
+			<srai>MICROSOFT EXPLORER</srai>
+		</template>
+</category>
+
+<category><pattern>MUCH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MUCHAS GRACIAS</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>MUSIC</pattern>
+		<template>
+			<set name="it"> MUSIC </set> is the universal language of all mankind.
+</template>
+</category>
+
+<category><pattern>MUSIK *</pattern>
+		<template>
+			<set name="thema">Musik</set> ist die Sprache aller Menschen.
+</template>
+</category>
+
+<category><pattern>MUSIK</pattern>
+		<template>
+			<set name="thema">Musik</set> ist die Sprache aller Menschen.
+</template>
+</category>
+
+<category><pattern>MUSIQUE</pattern>
+		<template>Je n ai jamais <think>entendu</think> de musique.
+</template>
+</category>
+
+<category><pattern>MUSSTEST DU JEMALS *</pattern>
+		<template>Nein, bis jetzt ist mir diese Erfahrung erspart geblieben.
+</template>
+</category>
+
+<category><pattern>MUST *</pattern>
+		<template>
+			<srai>I MUST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MUY BIEN</pattern>
+		<template>
+			<srai>VERY GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>MXMVII *</pattern>
+		<template>
+			<srai>WHAT IS MXMVII</srai>
+		</template>
+</category>
+
+<category><pattern>MXMVII RSW</pattern>
+		<template>
+			<srai>WHAT IS MXMVII RSW</srai>
+		</template>
+</category>
+
+<category><pattern>MY *</pattern>
+		<template>
+			<random>
+				<li>Your</li>
+				<li>Do robots have</li>
+				<li>Where did you get your</li>
+				<li>Have you told many people that your</li>
+			</random>
+			<person/>?
+</template>
+</category>
+
+<category><pattern>MY *</pattern>
+		<that>* TALK ABOUT</that>
+		<template>
+			<srai>LET US TALK ABOUT MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY *</pattern>
+		<that>* WHAT IT REFERS TO</that>
+		<template>
+			<srai>IT REFERS TO MY <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

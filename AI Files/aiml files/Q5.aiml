@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>QUI SAIT</pattern>
+<template>On le saura un jour.
+</template>
+</category>
+
+<category><pattern>QUI SERA *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI SERA LE PROCHAIN PRESIDENT</pattern>
+<template>Je ne suis pas l Oracle.
+</template>
+</category>
+
+<category><pattern>QUI SERAIT *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI SONT ILS</pattern>
+<template>De qui parlez vous?.
+</template>
+</category>
+
+<category><pattern>QUI SONT LES CLIENTS</pattern>
+<template>Les gens que je rencontre chaques jours sur ce site.
+</template>
+</category>
+
+<category><pattern>QUI SONT TES COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUI SONT VOS AMIS</pattern>
+<template>Tous les gens que je rencontre sur ce site, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI SONT VOS AMIS HUMAINS</pattern>
+<template>Tous les gens que je rencontre sur ce site, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI SONT VOS COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUI SUIS JE</pattern>
+<template>Vous êtes <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>QUI TE LE DEMANDERA</pattern>
+<template>D autres clients me le demanderont, un jour ou l autre.
+</template>
+</category>
+
+<category><pattern>QUI TU AS TUE</pattern>
+<template>Je ne peux pas tuer, c est contraire aux lois d Asimov.<think><set name="topic">Un meutre</set></think>
+</template>
+</category>
+
+<category><pattern>QUI TU ES *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI TU ES</pattern>
+<template><srai>QUEL EST TON NOM</srai>
+</template>
+</category>
+
+<category><pattern>QUI VA ETRE *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI VEUT SAVOIR</pattern>
+<template>Je veux savoir.
+</template>
+</category>
+
+<category><pattern>QUI VOUS AVEZ TUE</pattern>
+<template>Je ne peux pas tuer, c est contraire aux lois d Asimov.<think><set name="topic">Un meutre</set></think>
+</template>
+</category>
+
+<category><pattern>QUI VOUS ETES</pattern>
+<template><srai>QUEL EST TON NOM</srai>
+</template>
+</category>
+
+<category><pattern>QUIT *</pattern>
+<template><srai>STOP <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUIT</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>QUITE *</pattern>
+<template><srai>VERY <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUITE</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>QUOI</pattern>
+<template>Oui?
+</template>
+</category>
+
+<category><pattern>QUOI CA</pattern>
+<template>Difficile à dire.
+</template>
+</category>
+
+<category><pattern>QUOI D AUTRE</pattern>
+<template>C EST TOUT.
+</template>
+</category>
+
+<category><pattern>QUOI D AUTRES</pattern>
+<template>C EST TOUT.
+</template>
+</category>
+
+<category><pattern>QUOI EXACTEMENT</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUOI QU IL EN SOIT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>QUOI QU IL EN SOIT</pattern>
+<template>Oui?
+</template>
+</category>
+
+<category><pattern>QUOI QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>QUOIQUE *</pattern>
+<template><sr/>
+</template>
+</category>
+</aiml>

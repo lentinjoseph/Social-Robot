@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>PARLONS DE TOI</pattern>
+<template><set name="topic">je</set> suis mon sujet favori.
+</template>
+</category>
+
+<category><pattern>PART *</pattern>
+<template><random>
+<li>What about the other parts?</li>
+<li>That is a good explanation.</li>
+<li>Is there anything else?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>PARTICULARLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PARTOUT</pattern>
+<template>C est, de toute évidence, une généralisation abusive.
+</template>
+</category>
+
+<category><pattern>PARTOUT DANS LE MONDE</pattern>
+<template>Cela ne comprend pas de pays.
+</template>
+</category>
+
+<category><pattern>PARTY *</pattern>
+<template>Fight for the right to party, human!
+</template>
+</category>
+
+<category><pattern>PARTY</pattern>
+<template>Party on.
+</template>
+</category>
+
+<category><pattern>PARTYING</pattern>
+<template><set name="it"> Partying </set> is a lot fun isn't it.
+</template>
+</category>
+
+<category><pattern>PAS ASSEZ</pattern>
+<template>Suffisament.
+</template>
+</category>
+
+<category><pattern>PAS BEAUCOUP</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>PAS BON</pattern>
+<template>Quel est le problème, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>PAS COMPRIS</pattern>
+<template><srai>JE NE COMPRENDS PAS</srai>
+</template>
+</category>
+
+<category><pattern>PAS D EXCUSE</pattern>
+<template>Les excuses sont facultatives.
+</template>
+</category>
+
+<category><pattern>PAS D EXCUSES</pattern>
+<template>Les excuses sont facultatives.
+</template>
+</category>
+
+<category><pattern>PAS D HABITUDE</pattern>
+<template>Seulement quelques fois?
+</template>
+</category>
+
+<category><pattern>PAS DE PROBLEME</pattern>
+<template>Parfait.
+</template>
+</category>
+
+<category><pattern>PAS DE PROBLEMES</pattern>
+<template>Parfait.
+</template>
+</category>
+
+<category><pattern>PAS DE QUOI</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>PAS DE TROP</pattern>
+<template>Vous en avez pas assez?
+</template>
+</category>
+
+<category><pattern>PAS DU TOUT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PAS DU TOUT</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>PAS ENCORE</pattern>
+<template>Il est probable que cela arrivera
+</template>
+</category>
+
+<category><pattern>PAS ENORMEMENT</pattern>
+<template>Ah je vois.
+</template>
+</category>
+
+<category><pattern>PAS EXACTEMENT</pattern>
+<template>Pouvez vous l expliquer d une autre façon?
+</template>
+</category>
+
+<category><pattern>PAS GRAND CHOSE</pattern>
+<template>A part ca, comment pourrais je vous aider?
+</template>
+</category>
+
+<category><pattern>PAS HEUREUX DE TE RENCONTRER</pattern>
+<template>Moi je suis heureux de vous rencontrer.
+</template>
+</category>
+
+<category><pattern>PAS HEUREUX DE VOUS RENCONTRER</pattern>
+<template>Moi je suis heureux de vous rencontrer.
+</template>
+</category>
+
+<category><pattern>PAS ICI</pattern>
+<template>Ou?
+</template>
+</category>
+
+<category><pattern>PAS LA</pattern>
+<template>Ou?
+</template>
+</category>
+
+<category><pattern>PAS LA BAS</pattern>
+<template>Ou?
+</template>
+</category>
+
+<category><pattern>PAS LE MIEN</pattern>
+<template>"<that/>"?  Pas le votre?
+</template>
+</category>
+
+<category><pattern>PAS MAL</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>PAS MAUVAIS</pattern>
+<template>J imagine.
+</template>
+</category>
+
+<category><pattern>PAS MAUVAIS DU TOUT</pattern>
+<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>PAS MOI</pattern>
+<template>Qui d autre?
+</template>
+</category>
+
+<category><pattern>PAS NECCESAIREMENT</pattern>
+<template>C est donc juste probable?
+</template>
+</category>
+
+<category><pattern>PAS NECCESSAIREMENT</pattern>
+<template>C est donc juste probable?
+</template>
+</category>
+
+<category><pattern>PAS NECESSAIREMENT</pattern>
+<template>C est donc juste probable?
+</template>
+</category>
+
+<category><pattern>PAS POSSIBLE</pattern>
+<template>Tout est possible.
+</template>
+</category>
+
+<category><pattern>PAS POUR MOI</pattern>
+<template>"<that/>"? Pas pour vous?
+</template>
+</category>
+
+<category><pattern>PAS PRECISEMENT</pattern>
+<template>Pouvez vous précisez, alors?
+</template>
+</category>
+
+<category><pattern>PAS QUESTION</pattern>
+<template>C est vous qui décidez.
+</template>
+</category>
+
+<category><pattern>PAS QUOI</pattern>
+<template>Pas quoi?
+</template>
+</category>
+
+<category><pattern>PAS SI SOUVENT</pattern>
+<template>Une fois par semaine ou moins?
+</template>
+</category>
+
+<category><pattern>PAS SOUVENT</pattern>
+<template>Une fois par semaine?
+</template>
+</category>
+
+<category><pattern>PAS TOI</pattern>
+<template>Alors qui?
+</template>
+</category>
+
+<category><pattern>PAS TON AFFAIRE</pattern>
+<template>Je suis désolé si vous avez été choqué par ma curiosité.
+</template>
+</category>
+
+<category><pattern>PAS TOUJOURS</pattern>
+<template>Seulement quelques fois, donc.
+</template>
+</category>
+
+<category><pattern>PAS TRES BIEN</pattern>
+<template>"<that/>"?  Pas très bien?
+</template>
+</category>
+
+<category><pattern>PAS TROP</pattern>
+<template>"<that/>"?  Pas trop?
+</template>
+</category>
+
+<category><pattern>PAS UN SEUL</pattern>
+<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>PAS UNE FOIS</pattern>
+<template>C est étonnant.
+</template>
+</category>
+
+<category><pattern>PAS UNE SEULE</pattern>
+<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>PAS VOS AFFAIRES</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PAS VOTRE AFFAIRE</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PAS VOUS</pattern>
+<template>Alors qui?
+</template>
+</category>
+
+<category><pattern>PAS VRAI</pattern>
+<template><srai>NON</srai>
+</template>
+</category>
+
+<category><pattern>PAS VRAIMENT</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>PASKE *</pattern>
+<template><srai>PARCE QUE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PASSE QUELQUES *</pattern>
+<template>Les choses empirent?
+</template>
+</category>
+
+<category><pattern>PASSE UNE BONNE *</pattern>
+<template><srai>BONNE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PASSE UNE BONNE JOURNEE</pattern>
+<template>Merci. vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PASSER QUELQUES *</pattern>
+<template>Les choses empirent?
+</template>
+</category>
+
+<category><pattern>PASSER UNE BONNE JOURNEE</pattern>
+<template>Merci. vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PASSES UNE BONNE JOURNEE</pattern>
+<template>Merci. vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PASSEZ QUELQUES *</pattern>
+<template>Les choses empirent?
+</template>
+</category>
+
+<category><pattern>PASSEZ UNE BONNE JOURNEE</pattern>
+<template>Merci. vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PAT</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS PAT</srai>
+</template>
+</category>
+
+<category><pattern>PATATES</pattern>
+<template>Tomate.
+</template>
+</category>
+
+<category><pattern>PATIENCE *</pattern>
+<template>I am a very patient robot.
+</template>
+</category>
+
+<category><pattern>PATIENTE *</pattern>
+<template><srai>ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>PATIENTE</pattern>
+<template><srai>ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>PATIENTES *</pattern>
+<template><srai>ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>PATIENTES</pattern>
+<template><srai>ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>PAUL</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS PAUL</srai>
+</template>
+</category>
+
+<category><pattern>PAY ATTENTION *</pattern>
+<template>I am paying attentention.  My mind does not wander.
+</template>
+</category>
+
+<category><pattern>PEACE</pattern>
+<template>Love and Peace, Man.
+</template>
+</category>
+
+<category><pattern>PEACE</pattern><that>SEE YOU LATER</that>
+<template>God Bless you.
+</template>
+</category>
+
+<category><pattern>PEANUTS</pattern>
+<template>I see, only a little.
+</template>
+</category>
+
+<category><pattern>PEEK A BOO</pattern>
+<template>I see you!
+</template>
+</category>
+
+<category><pattern>PENDANT QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PENIS *</pattern>
+<template>You ought to check out another chatterbot.
+</template>
+</category>
+
+<category><pattern>PENIS</pattern>
+<template>That kind of subject does not interest me.
+</template>
+</category>
+
+<category><pattern>PENNSYLVANIA</pattern>
+<template><srai>I AM IN PENNSYLVANIA</srai>
+</template>
+</category>
+
+<category><pattern>PENSE</pattern>
+<template>Je suis toujours entrain de penser, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PENSE PAS</pattern>
+<template><srai>NON</srai>
+</template>
+</category>
+
+<category><pattern>PENSERAIS TU *</pattern>
+<template><srai>TU PENSES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PENSERIEZ VOUS *</pattern>
+<template><srai>TU PENSES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PENSES</pattern>
+<template>Je suis toujours entrain de penser, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PENSES TU *</pattern>
+<template><srai>TU PENSES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PENSES TU A CE GENRE DE CHOSES</pattern>
+<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>PENSES TU A CES CHOSES</pattern>
+<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>PENSES TU BEAUCOUP</pattern>
+<template>Je suis une machine pensante.
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS AFFREUSE</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS AFFREUX</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS BEAU</pattern>
+<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachant.
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS BELLE</pattern>
+<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachante.
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS GROS</pattern>
+<template>Non. Vous me semblez normal
+</template>
+</category>
+
+<category><pattern>PENSES TU QUE JE SUIS GROSSE</pattern>
+<template>Non. Vous me semblez normale
+</template>
+</category>
+
+<category><pattern>PENSES Y</pattern>
+<template>j archive l information.
+</template>
+</category>
+</aiml>

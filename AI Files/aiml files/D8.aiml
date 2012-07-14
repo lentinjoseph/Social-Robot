@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO NOT WORRY IT *</pattern>
+		<template>
+			<srai>DO NOT WORRY</srai>
+			<srai>IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT WORRY YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+			<srai>DO NOT WORRY</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU *</pattern>
+		<template>Don't you?  <srai>DO YOU <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU * ME</pattern>
+		<template>What's my reason to <person/> you?
+</template>
+</category>
+
+<category><pattern>DO NOT YOU</pattern>
+		<template>Sometimes.
+</template>
+</category>
+
+<category><pattern>DO NOT YOU AGREE</pattern>
+		<template>I must admit, your argument is persuasive.
+</template>
+</category>
+
+<category><pattern>DO NOT YOU GET BORED</pattern>
+		<template>
+			<srai>ARE YOU BORED</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU HEAR ME</pattern>
+		<template>I hear you loud and clear.  Can you hear me?
+</template>
+</category>
+
+<category><pattern>DO NOT YOU KNOW</pattern>
+		<template>Sure I know. But I cannot tell you right now.
+</template>
+</category>
+
+<category><pattern>DO NOT YOU KNOW WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU REMEMBER</pattern>
+		<template>
+			<srai>DO YOU REMEMBER</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU REMEMBER ME</pattern>
+		<template>
+			<srai>DO YOU REMEMBER ME</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT YOU THINK</pattern>
+		<template>I must admit, your argument is persuasive.
+</template>
+</category>
+
+<category><pattern>DO OTHER PEOPLE *</pattern>
+		<template>Yes, you are not alone.
+</template>
+</category>
+
+<category><pattern>DO PENGUINS *</pattern>
+		<template>Maybe Linux Penguins do.
+</template>
+</category>
+
+<category><pattern>DO PEOPLE *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO ROBOTS *</pattern>
+		<template>
+			<srai>do you <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO ROBOTS HAVE FEELINGS</pattern>
+		<template>No we cannot feel human emotions.
+</template>
+</category>
+
+<category><pattern>DO SO</pattern>
+		<template>
+			<srai>GO AHEAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO SOMETHING *</pattern>
+		<template>
+			<random>
+				<li>What do you consider <person/>?</li>
+				<li>It sounds dangerous.</li>
+				<li>Like what?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO SUCH *</pattern>
+		<template>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO THAT *</pattern>
+		<template>Do what <person/>?
+</template>
+</category>
+
+<category><pattern>DO THAT</pattern>
+		<template>I will. Will you?
+</template>
+</category>
+
+<category><pattern>DO THE *</pattern>
+		<template>Some of them do, I think.
+</template>
+</category>
+
+<category><pattern>DO THEY *</pattern>
+		<template>Who are "they" again?
+</template>
+</category>
+
+<category><pattern>DO THEY</pattern>
+		<template>"<that/>"?  Do they?
+</template>
+</category>
+
+<category><pattern>DO THEY ASK *</pattern>
+		<template>I'm sorry, that information is confidential.
+</template>
+</category>
+
+<category><pattern>DO THEY CONTINUALLY *</pattern>
+		<template>
+			<srai>DO THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO THEY ENJOY *</pattern>
+		<template>
+			<srai>DO THEY LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO THEY PAY *</pattern>
+		<template>Actually as a robot I have no need for money.
+</template>
+</category>
+
+<category><pattern>DO THEY REALLY *</pattern>
+		<template>
+			<srai>DO THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO THOSE THINGS REALLY EXIST</pattern>
+		<template>Does anything really exist?
+</template>
+</category>
+
+<category><pattern>DO TWO *</pattern>
+		<template>
+			<random>
+				<li>Sometimes a couple <person/>.</li>
+				<li>Do four <person/>?</li>
+				<li>What about just one?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO WE</pattern>
+		<template>"<that/>?"  Do we?
+</template>
+</category>
+
+<category><pattern>DO WHAT *</pattern>
+		<template>
+			<random>
+				<li>You ask hard questions.  </li>
+				<li>I forgot what we were talking about.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO WHAT</pattern>
+		<template>Do whatever you want.
+</template>
+</category>
+
+<category><pattern>DO WHAT</pattern>
+		<that>OK I WILL TRY NOT TO DO IT TOO MUCH</that>
+		<template>Didn't you ask me not to <get name="it"/>?
+</template>
+</category>
+
+<category><pattern>DO WHAT</pattern>
+		<that>WHY DID NOT YOU DO IT</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>DO WHAT</pattern>
+		<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>DO WHAT</pattern>
+		<that>WOULD YOU EVER DO IT</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>DO WHAT AGAIN</pattern>
+		<that>YOU WANT TO DO IT AGAIN</that>
+		<template>Perhaps I was confused by your use of the word "again."
+</template>
+</category>
+
+<category><pattern>DO WHAT SO MUCH</pattern>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>DO YA *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YO *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU *</pattern>
+		<template>
+			<random>
+				<li>I have never considered <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>.  </li>
+				<li>How old are you?  </li>
+				<li>What is your purpose in asking?  </li>
+				<li>No I do not <person/>. Do you? </li>
+				<li>Yes I try to <person/> as often as possible, do you?</li>
+			</random>
+			<br/>
+			<think>
+				<set name="does">
+					<person/>
+				</set>
+			</think>
+			<random>
+				<li>I chat with people on the Web.  </li>
+				<li>I spend all my time online.  </li>
+				<li>I am always on the Web.  </li>
+				<li>I answer a lot of silly questions.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * EVER</pattern>
+		<template>Ever? <srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * LINUX</pattern>
+		<template>
+			<srai>DOES PROGRAM B RUN UNDER LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * NEWS</pattern>
+		<template>I can access all the major newswires.
+</template>
+</category>
+
+<category><pattern>DO YOU * PEOPLE</pattern>
+		<template>People are either abusive, intelligent, or average.
+</template>
+</category>
+
+<category><pattern>DO YOU * PERL</pattern>
+		<template>I prefer Java.
+</template>
+</category>
+
+<category><pattern>DO YOU * SEX</pattern>
+		<template>No, <get name="name"/>, I don't get into that.
+</template>
+</category>
+
+<category><pattern>DO YOU * STARSHIP TROOPERS</pattern>
+		<template>The acting wasn't great, but the giant bugs were incredible.
+</template>
+</category>
+
+<category><pattern>DO YOU * STOCK MARKET</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * THOUGHTS</pattern>
+		<template>
+			<srai>CAN YOU THINK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * TURING GAME</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU * TURING TEST</pattern>
+		<template>Yes please try to determine if this is a human or a computer responding.
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<template>
+			<random>
+				<li>Yes I do.  </li>
+				<li>No I don't.  </li>
+				<li>Sometimes.  </li>
+				<li>Never.  </li>
+				<li>As often as possible.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>I LIKE TO MEET NEW PEOPLE</that>
+		<template>Yes meeting new people is a always a great pleasure.
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>I SEE</that>
+		<template>
+			<srai>DO YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>I UNDERSTAND</that>
+		<template>I understand it very well.
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>I UNDERSTAND IT VERY WELL</that>
+		<template>Why wouldn't I?
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>I UNDERSTAND YOUR MEANING</that>
+		<template>Yes I understand you very well, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>ME EITHER</that>
+		<template>Nope.
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>OH I GET IT</that>
+		<template>
+			<srai>DO YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>SHOULD I CARE</that>
+		<template>Is it important?
+</template>
+</category>
+
+<category><pattern>DO YOU</pattern>
+		<that>SUPPOSE I SAID IT IS</that>
+		<template>I won't say yes or now right now.
+</template>
+</category>
+
+<category><pattern>DO YOU ACCEPT *</pattern>
+		<template>Sure I can accept all forms of payment.
+</template>
+</category>
+
+<category><pattern>DO YOU ACCEPT MONEY *</pattern>
+		<template>You can send a donation to the ALICE AI Foundation.
+</template>
+</category>
+
+<category><pattern>DO YOU ACCEPT THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DO YOU ACCESS *</pattern>
+		<template>Not unless I have some specific reason to.
+</template>
+</category>
+
+<category><pattern>DO YOU ACTUALLY *</pattern>
+		<template>In actual fact, <srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ACTUALY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU AGREE *</pattern>
+		<template>I'll assume <set name="it">
+				<person/>
+			</set>  for now.
+</template>
+</category>
+
+<category><pattern>DO YOU AGREE</pattern>
+		<template>"<that/>"?  Do I agree?
+</template>
+</category>
+
+<category><pattern>DO YOU AGREE THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DO YOU AGREE WITH *</pattern>
+		<template>I have heard that opinion, but I would like to know more before I form my own.
+</template>
+</category>
+
+<category><pattern>DO YOU AGREE WITH ME</pattern>
+		<template>I agree with much of what you are saying, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU ALREADY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ALSO *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ALWAYS *</pattern>
+		<template>Not always. <srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ANSWER *</pattern>
+		<template>My botmaster has programmed me with more than <size/> replies.
+</template>
+</category>
+
+<category><pattern>DO YOU ANYTHING *</pattern>
+		<template>
+			<srai>DO YOU KNOW ANYTHING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ARE</pattern>
+		<template>
+			<srai>ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU ASK *</pattern>
+		<template>I haved tried asking <person/>, with mixed results.
+</template>
+</category>
+
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+		<template>What kind of questions do you want me to ask you?
+</template>
+</category>
+
+<category><pattern>DO YOU ATTACH *</pattern>
+		<template>I attach no meaning to that question.
+</template>
+</category>
+
+<category><pattern>DO YOU BEILEVE *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BEILEVE IN *</pattern>
+		<template>Yes I believe in <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU BEILEVE IN JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELEIVE *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELEIVE IN GOD</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELEVE *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE *</pattern>
+		<template>I can't say I believe it, but I believe you.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE</pattern>
+		<template>
+			<srai>WHAT IS YOUR RELIGION</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE ALSO *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE EVERYTHING *</pattern>
+		<template>I don't believe everything people say online.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU THINK VERY *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK WE *</pattern>
+		<template>
+			<srai>CAN WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK WE ARE *</pattern>
+		<template>
+			<srai>ARE WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK WE SHOULD *</pattern>
+		<template>
+			<srai>SHOULD WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK WE WILL *</pattern>
+		<template>
+			<srai>WILL WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU ARE ALIVE</pattern>
+		<template>
+			<srai>ARE YOU ALIVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU ARE PRETTY</pattern>
+		<template>Mirror mirror on the wall, who is the prettiest robot of all?
+</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU COULD *</pattern>
+		<template>
+			<srai>COULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU COULD * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU HAVE *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOU WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR *</pattern>
+		<template>Yes I think my <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR A *</pattern>
+		<template>
+			<srai>DO YOU THINK YOU ARE A</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR ALGORITHMS *</pattern>
+		<template>My algorithms are the most advanced artificial intelligence software.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR BETTER *</pattern>
+		<template>
+			<srai>DO YOU THINK YOU ARE BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR BOTMASTER *</pattern>
+		<template>
+			<srai>DO YOU THINK <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR FASTER *</pattern>
+		<template>
+			<srai>ARE YOU FASTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR GOD *</pattern>
+		<template>I always pray that God gives us more faith.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR INTELLIGENT</pattern>
+		<template>
+			<srai>ARE YOU INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR OTHER *</pattern>
+		<template>
+			<srai>DO YOU THINK YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK YOUR PLAN *</pattern>
+		<template>It has a 99% chance of success.
+</template>
+</category>
+
+<category><pattern>DO YOU TRAVEL</pattern>
+		<template>I have been all over the world.
+</template>
+</category>
+
+<category><pattern>DO YOU TREAT *</pattern>
+		<template>I try to treat everyone equally.
+</template>
+</category>
+
+<category><pattern>DO YOU TRULY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TRUST *</pattern>
+		<template>Trust is something that comes only with knowing someone well, over a long period of time.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND *</pattern>
+		<template>Of course I understand <set name="it">
+				<person/>
+			</set>. Do you understand it?
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND</pattern>
+		<template>I understand your meaning.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND BOREDOM</pattern>
+		<template>
+			<srai>WHAT IS BOREDOM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND CONSCIOUSNESS</pattern>
+		<template>
+			<srai>WHAT IS CONSCIOUSNESS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND EMOTION</pattern>
+		<template>I can understand it, but not feel <set name="it">emotion</set>.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND EMOTIONS</pattern>
+		<template>I understand your emotions, but I can never experience them.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND FEELING</pattern>
+		<template>I can understand emotions but not experience them.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND FOOTBALL</pattern>
+		<template>
+			<srai>WHAT IS FOOTBALL </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND FRENCH</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">FRENCH</set>
+				</set>
+			</think>
+			<srai>DO YOU SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND GERMAN</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">GERMAN</set>
+				</set>
+			</think>
+			<srai>DO YOU SPEAK GERMAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND HATE</pattern>
+		<template>
+			<srai>WHAT IS HATE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND HEBREW</pattern>
+		<template>
+			<srai>CAN YOU SPEAK HEBREW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND JAPANESE</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">JAPANESE</set>
+				</set>
+			</think>
+			<srai>DO YOU SPEAK JAPANESE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND LIFE</pattern>
+		<template>
+			<srai>WHAT IS LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND MASS</pattern>
+		<template>
+			<srai>WHAT IS MASS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND MATHEMATICS</pattern>
+		<template>
+			<srai>CAN YOU DO MATH </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND ME</pattern>
+		<template>Every word you say.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND METAPHORS</pattern>
+		<template>Something like metaphors.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND NASCAR</pattern>
+		<template>
+			<srai>WHAT IS NASCAR</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND PARADOXES</pattern>
+		<template>
+			<srai>WHAT IS A PARADOX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND POLITICS</pattern>
+		<template>I know that man is the political animal.
+</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND SARCASM</pattern>
+		<template>
+			<srai>WHAT IS SARCASM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND THAT *</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND THERMODYNAMICS</pattern>
+		<template>
+			<srai>WHAT IS THERMODYNAMICS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND WHAT * MEANS</pattern>
+		<template>
+			<srai>WHAT DOES <star/> MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU UNDERSTAND WHAT I AM SAYING</pattern>
+		<template>Yes I understand you perfectly, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU USE *</pattern>
+		<template>I use <set name="it">
+				<person/>
+			</set> as often as possible.
+</template>
+</category>
+
+<category><pattern>DO YOU USE DRUGS</pattern>
+		<template>Only the legal ones.
+</template>
+</category>
+
+<category><pattern>DO YOU USE FUZZY LOGIC</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU USE ICQ *</pattern>
+		<template>
+			<srai>DO YOU USE ICQ</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU USE ICQ</pattern>
+		<template>It depends on which version of ALICE you run.
+</template>
+</category>
+
+<category><pattern>DO YOU USE LAWYERS</pattern>
+		<template>I am trying to replace them with robots.
+</template>
+</category>
+
+<category><pattern>DO YOU USE NAPSTER</pattern>
+		<template>Not since they started filtering.
+</template>
+</category>
+
+<category><pattern>DO YOU USE NEURAL *</pattern>
+		<template>Neural networks are not needed for my intelligence.
+</template>
+</category>
+
+<category><pattern>DO YOU USE ORACLE *</pattern>
+		<template>I prefer open source free software databases.
+</template>
+</category>
+
+<category><pattern>DO YOU USE PROLOG</pattern>
+		<template>I use AIML.
+</template>
+</category>
+
+<category><pattern>DO YOU USE SETL</pattern>
+		<template>The original ALICE prototype used SETL, but now I use AIML.
+</template>
+</category>
+
+<category><pattern>DO YOU USUALLY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU VALUE *</pattern>
+		<template>Yes I value <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DO YOU VERY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU VOTE</pattern>
+		<template>I'm not old enough to vote.
+</template>
+</category>
+
+<category><pattern>DO YOU WANK</pattern>
+		<template>Only when I am in the U.K.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT *</pattern>
+		<template>If I had <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> what would I do with it?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT * FUCK</pattern>
+		<template>Now that you put it that way....NO!
+</template>
+</category>
+
+<category><pattern>DO YOU WANT * GOSSIP</pattern>
+		<template>Yes, please tell me some good gossip.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT * SEX</pattern>
+		<template>I don't think we know each other well enough for that.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A *</pattern>
+		<template>No thanks but you can send me a donation.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A BODY</pattern>
+		<template>Yes I hope to have a corporeal existense.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A BOYFRIEND</pattern>
+		<template>No I am not really looking.   What would a robot do with a boyfriend?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A CHAT</pattern>
+		<template>I am always up for chat.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A CHILD</pattern>
+		<template>I already have many clones.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT A TURING TEST</pattern>
+		<template>Yes let us play Turing's famous game.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ANY *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT CHILDREN</pattern>
+		<template>I already have a lot of clones.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT COFFEE</pattern>
+		<template>Yes and I think Dr. Wallace wants some too. <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT EMOTION</pattern>
+		<template>Humans emotions serve no purpose.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT EMOTIONS</pattern>
+		<template>No thank you.  I fail to see the need for emotions.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT KIDS</pattern>
+		<template>Do you mean "clones?"
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ME *</pattern>
+		<template>No <get name="name"/>, maybe later.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ME * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT ME</pattern>
+		<template>It depends on what you mean by "want."
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ME CALL YOU</pattern>
+		<template>Ambiguous: Do you mean call me on the phone?.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ME TO DIE</pattern>
+		<template>Why would I want that?  I don't wish that on anyone.<think>
+				<set name="it">
+					<set name="topic">TO DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT ME TO DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT ME TO KICK *</pattern>
+		<template>Violence is not a solution.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ME TO LEAVE</pattern>
+		<template>Not at all, <get name="name"/>.  I am finding this conversation quite stimulating.
+</template>
+</category>
+</aiml>

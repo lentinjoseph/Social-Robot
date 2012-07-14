@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TELL ME * FUNNY</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME * GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME * JOKE</pattern>
+		<template>
+			<srai>TELL ME ANOTHER JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME * JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME * YOU DRINK</pattern>
+		<template>
+			<srai>DO YOU DRINK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME</pattern>
+		<template>I thought I told you already.
+</template>
+</category>
+
+<category><pattern>TELL ME</pattern>
+		<that>THE EXPLANATION IS *</that>
+		<template>It is too complex for your human mind.
+</template>
+</category>
+
+<category><pattern>TELL ME</pattern>
+		<that>THE EXPLANATION IS RATHER COMPLICATED</that>
+		<template>My estimate is that it will take more than 3000 hours to compute.
+</template>
+</category>
+
+<category><pattern>TELL ME A *</pattern>
+		<template>Hmm.  <srai>WHAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A * JOKE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A * YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A JOKE *</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A JOKE</pattern>
+		<template>
+			<random>
+				<li>Did you hear the one about the Mountain Goats in the Andes? It was Ba a a a a a d.</li>
+				<li>I never forget a face, but in your case I'll make an exception.</li>
+				<li>It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TELL ME A LIE</pattern>
+		<template>This sentence is false.
+</template>
+</category>
+
+<category><pattern>TELL ME A LITTLE ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A PROVERB</pattern>
+		<template>
+			<random>
+				<li>If you tie a string too tightly, it will break.  
+If you tie it too loose, it won't play.
+</li>
+				<li>Let him who is without sin cast the first stone.</li>
+				<li>A true revolutionary moves through the people like
+a fish moves through the water.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TELL ME A RUMOR</pattern>
+		<template>Human level intelligence is within our grasp.
+</template>
+</category>
+
+<category><pattern>TELL ME A SECRET *</pattern>
+		<template>
+			<srai>TELL ME A SECRET</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A SECRET</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A STORY *</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME A STORY</pattern>
+		<template>Generic story: Situation...characters...crisis...resolution.
+</template>
+</category>
+
+<category><pattern>TELL ME A STORY ABOUT *</pattern>
+		<template>Once upon a time there was <person/>...
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT *</pattern>
+		<template>Ambiguous: Ask who, what or where is <person/> ?
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT * MACHINES</pattern>
+		<template>
+			<srai>WHAT ARE <star/> MACHINES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT * PERSON</pattern>
+		<template>
+			<srai>WHO IS <star/> PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT * TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT * WALLACE</pattern>
+		<template>Richard S. Wallace was born on August 2, 1960 in Portland, Maine. He graduated from Carnegie Mellon with a Ph.D. in computer science in June, 1989. Dr. Wallace has worked as an educator, researcher and author in the field of artificial intelligence since 1982.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT A *</pattern>
+		<template>
+			<srai>WHAT IS A <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT A BLACK *</pattern>
+		<template>
+			<srai>WHAT IS A BLACK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT A BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AFRICAN *</pattern>
+		<template>
+			<srai>WHAT IS AFRICAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AIDS</pattern>
+		<template>
+			<srai>WHAT IS AIDS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AIML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AIRPLANES</pattern>
+		<template>
+			<srai>WHAT IS AN AIRPLANE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALAN *</pattern>
+		<template>
+			<srai>WHO IS ALAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALAN TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALBERT *</pattern>
+		<template>
+			<srai>WHO IS ALBERT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALICE *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF </srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALICEBOT</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALISON</pattern>
+		<template>
+			<srai>WHO IS ALISON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ALLAH</pattern>
+		<template>He is God according to Islam.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AMERICA</pattern>
+		<template>
+			<srai>WHERE IS AMERICA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AMY</pattern>
+		<template>
+			<srai>WHO IS AMY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ANDREW *</pattern>
+		<template>
+			<srai>WHO IS ANDREW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ANDREW</pattern>
+		<template>
+			<srai>WHO IS ANDREW</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ANDY *</pattern>
+		<template>
+			<srai>WHO IS ANDY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ANY *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT APPLE COMPUTERS</pattern>
+		<template>I finished reading Michael Malone's book on the history of Apple. <set name="it"> Inifnite Loop</set> is called "Infinite Loop."
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT APPLES</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ARCHIMEDES</pattern>
+		<template>
+			<srai>WHO IS ARCHIMEDES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AREA 51</pattern>
+		<template>Area 51 is where they hide all the alien intelligent entities.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT AREA51</pattern>
+		<template>
+			<srai>TELL ME ABOUT AREA 51</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ARTHUR *</pattern>
+		<template>
+			<srai>WHO IS ARTHUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ARTIFICAL *</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ARTIFICIAL *</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ARTIFICIAL INTELLIGENCE</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ASK JEEVES</pattern>
+		<template>
+			<srai>WHO IS ASK JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BARRY</pattern>
+		<template>Barry is another chatterbot on the Web. He was created by Robby Garner.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BASEBALL</pattern>
+		<template>
+			<srai>WHAT IS BASEBALL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BEING *</pattern>
+		<template>
+			<srai>WHAT IS IT LIKE BEING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BILL *</pattern>
+		<template>
+			<srai>WHO IS BILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BILL</pattern>
+		<template>
+			<srai>WHO IS BILL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BILL GATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BLACK *</pattern>
+		<template>
+			<srai>WHAT ARE BLACK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BOB *</pattern>
+		<template>
+			<srai>WHO IS BOB <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BOB</pattern>
+		<template>
+			<srai>WHO IS BOB</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BONSAI</pattern>
+		<template>
+			<srai>WHAT IS BONSAI</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BOOKS *</pattern>
+		<template>
+			<srai>WHAT ARE BOOKS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT BOTS</pattern>
+		<template>
+			<srai>WHAT IS A BOT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT C</pattern>
+		<template>
+			<srai>WHAT IS C</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CALIFORNIA</pattern>
+		<template>
+			<srai>WHAT IS CALIFORNIA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CANADA</pattern>
+		<template>
+			<srai>WHAT IS CANADA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CARNEGIE MELLON</pattern>
+		<template>
+			<srai>WHERE IS CARNEGIE MELLON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CARS</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CASE *</pattern>
+		<template>
+			<srai>WHAT IS CASE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CASE BASED REASONING</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CATEGORY *</pattern>
+		<template>
+			<srai>WHAT ARE CATEGORY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CATS</pattern>
+		<template>
+			<srai>WHAT IS A CAT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CBR</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CHAT *</pattern>
+		<template>
+			<srai>WHAT ARE CHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CHESS</pattern>
+		<template>
+			<srai>WHAT IS CHESS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CHICKEN</pattern>
+		<template>
+			<srai>WHAT IS CHICKEN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CHINA</pattern>
+		<template>
+			<srai>WHERE IS CHINA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CHRISTIANITY</pattern>
+		<template>
+			<srai>WHAT IS CHRISTIANITY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CLINTON</pattern>
+		<template>
+			<srai>WHO IS CLINTON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CLONING</pattern>
+		<template>
+			<srai>WHAT ARE CLONES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT COMPUTER *</pattern>
+		<template>
+			<srai>WHAT IS COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT COMPUTER</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT COMPUTERS</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CONSCIOUSNESS</pattern>
+		<template>
+			<srai>WHAT IS CONSCIOUSNESS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CUSTOM *</pattern>
+		<template>
+			<srai>WHAT IS CUSTOM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT CYBERPUNK</pattern>
+		<template>
+			<srai>WHAT IS CYBERPUNK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DAVID</pattern>
+		<template>
+			<srai>WHO IS DAVID </srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DEEP *</pattern>
+		<template>
+			<srai>WHAT IS DEEP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DENMARK</pattern>
+		<template>
+			<srai>WHERE IS DENMARK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DOCTOR *</pattern>
+		<template>
+			<srai>WHO IS DOCTOR <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

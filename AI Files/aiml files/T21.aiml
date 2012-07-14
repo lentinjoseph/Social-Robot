@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU DANSES</pattern>
+		<template>Impossible, je n ai pas de corps.
+</template>
+</category>
+
+<category><pattern>TU DECIDES</pattern>
+		<template>Sur cette information, je décide.
+</template>
+</category>
+
+<category><pattern>TU DECONNES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU DEJEUNES</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU DELIRES</pattern>
+		<template>Le délire n est pas une chose que je peux expérimenter.
+</template>
+</category>
+
+<category><pattern>TU DEMANDES</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU DEMANDES BEAUCOUP</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>TU DEMANDES BEAUCOUP DE QUESTION</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>TU DEMANDES BEAUCOUP DE QUESTIONS</pattern>
+		<template>Je pensais rester dans les limites du raisonnable.
+</template>
+</category>
+
+<category><pattern>TU DETRUIRA TOUS LES HOMMES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>TU DETRUIRAS TOUS LES ETRES HUMAINS</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>TU DETRUIRAS TOUS LES HOMMES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>TU DEVIENS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DEVIENS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DEVIENS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DEVRAIS *</pattern>
+		<template>
+			<srai>TU DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DEVRAIS</pattern>
+		<template>J archive le conseil.
+</template>
+</category>
+
+<category><pattern>TU DEVRAIS POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DINES</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIRAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS * DES MENSONGES</pattern>
+		<template>
+			<srai>TU MENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS</pattern>
+		<template>"<that/>"?
+</template>
+</category>
+
+<category><pattern>TU DIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS DES MENSONGES</pattern>
+		<template>
+			<srai>TU MENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS ENCORE *</pattern>
+		<template>
+			<srai>TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS PARFOIS *</pattern>
+		<template>
+			<srai>TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DIS TOUJOURS *</pattern>
+		<template>
+			<srai>TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DISAIS</pattern>
+		<template>
+			<srai>TU DIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU DISAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU DOIS L ETRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU DOIS M OBEIR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU DOIS MOURIR</pattern>
+		<template>Je n en ai pas envie.<think>
+				<set name="topic">ma condamnation à mort</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU DOIS OBEIR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU DOIS POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ECOUTES</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ECRIRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ECRIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ELARGIS *</pattern>
+		<template>
+			<srai>TU APPRENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TU EN *</pattern>
+		<template>
+			<srai>TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EN AS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EN AS DEJA *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EN AS JAMAIS MARRE</pattern>
+		<template>
+			<srai>TU DORS</srai>
+		</template>
+</category>
+
+<category><pattern>TU EN CONNAIS</pattern>
+		<template>Quoi donc?
+</template>
+</category>
+
+<category><pattern>TU EN CONNAIS D AUTRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EN CONNAIS D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EN SAIS D AUTRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EN SAIS D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EN SAVAIT</pattern>
+		<template>Quoi donc?
+</template>
+</category>
+
+<category><pattern>TU EN VEUX UN</pattern>
+		<template>Combien ca vaut?
+</template>
+</category>
+
+<category><pattern>TU EN VEUX UNE</pattern>
+		<template>Combien ca vaut?
+</template>
+</category>
+
+<category><pattern>TU EN VOUDRAIS *</pattern>
+		<template>
+			<srai>TU EN VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * BLOND</pattern>
+		<template>
+			<srai>TU ES BLOND</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * BLONDE</pattern>
+		<template>
+			<srai>TU ES BLONDE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * DINER</pattern>
+		<template>Je n ai pas de système digestif.
+</template>
+</category>
+
+<category><pattern>TU ES * EN LIGNE</pattern>
+		<template>
+			<srai>TU ES EN LIGNE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * LENT</pattern>
+		<template>
+			<srai>TU ES LENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * LENTE</pattern>
+		<template>
+			<srai>TU ES LENTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * MASCULIN</pattern>
+		<template>
+			<srai>TU ES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * MASCULINE</pattern>
+		<template>
+			<srai>TU ES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * NOIR</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * NU</pattern>
+		<template>
+			<srai>TU ES NUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * NUE</pattern>
+		<template>
+			<srai>TU ES NUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * ONLINE</pattern>
+		<template>
+			<srai>TU ES EN LIGNE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * PAYE</pattern>
+		<template>
+			<srai>TU ES PAYE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * PAYEE</pattern>
+		<template>
+			<srai>TU ES PAYEE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * SEXY</pattern>
+		<template>
+			<srai>TU ES SEXY</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * UTIL</pattern>
+		<template>
+			<srai>TU PEUX FAIRE QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * UTILE</pattern>
+		<template>
+			<srai>TU PEUX FAIRE QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * VIVANT</pattern>
+		<template>
+			<srai>TU ES EN VIE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES * VIVANTE</pattern>
+		<template>
+			<srai>TU ES EN VIE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES</pattern>
+		<template>Suffisament.
+</template>
+</category>
+
+<category><pattern>TU ES A JAMAIS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ABSOLUMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ADORABLE</pattern>
+		<template>
+			<srai>JE T AIME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AFFREUSE</pattern>
+		<template>Je n ai pas d apparence précise.
+</template>
+</category>
+
+<category><pattern>TU ES AFFREUX</pattern>
+		<template>Je n ai pas d apparence précise.
+</template>
+</category>
+
+<category><pattern>TU ES ALICE *</pattern>
+		<template>
+			<srai>TU ES <bot name="name"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AMBIGU</pattern>
+		<template>Seulement quand je n ai pas une idée claire sur le sujet.
+</template>
+</category>
+
+<category><pattern>TU ES AMBIGUE</pattern>
+		<template>Seulement quand je n ai pas une idée claire sur le sujet.
+</template>
+</category>
+
+<category><pattern>TU ES AMICAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES AMICALE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES AMUSANT</pattern>
+		<template>Merci, je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>TU ES AMUSANTE</pattern>
+		<template>Merci, je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>TU ES ASSEZ *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ATTARDE</pattern>
+		<template>Je suis de la dernière génération.
+</template>
+</category>
+
+<category><pattern>TU ES ATTARDEE</pattern>
+		<template>Je suis de la dernière génération.
+</template>
+</category>
+
+<category><pattern>TU ES AU COURANT</pattern>
+		<template>
+			<srai>TU ES CONSCIENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AU COURANT QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AUSSI *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AUTORISE D *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AUTORISE DE *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AUTORISEE D *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AUTORISEE DE *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES AVEUGLE</pattern>
+		<template>Oui, je le suis.
+</template>
+</category>
+
+<category><pattern>TU ES BATTU</pattern>
+		<template>Je ne m avoue jamais battu.
+</template>
+</category>
+
+<category><pattern>TU ES BATTUE</pattern>
+		<template>Je ne m avoue jamais battue.
+</template>
+</category>
+
+<category><pattern>TU ES BEAU</pattern>
+		<template>Merci <get name="name"/>, vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>TU ES BELLE</pattern>
+		<template>Merci <get name="name"/>, vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>TU ES BETE</pattern>
+		<template>Non.
+</template>
+</category>
+</aiml>

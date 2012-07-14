@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>J AI UN NOM</pattern>
+		<template>Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>J AI UN PETIT AMI</pattern>
+		<template>Je suis heureux pour vous.
+</template>
+</category>
+
+<category><pattern>J AI UN PEU *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI UN PROBLEME</pattern>
+		<template>Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>J AI UN RHUME</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>J AI UNE CAMERA</pattern>
+		<template>Quel sorte de caméra?
+</template>
+</category>
+
+<category><pattern>J AI UNE PETITE AMIE</pattern>
+		<template>Je suis heureux pour vous.
+</template>
+</category>
+
+<category><pattern>J AI UNE QUESTION</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>J AI UNE QUESTION POUR TOI</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>J AI UNE QUESTION POUR VOUS</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>J AI VU</pattern>
+		<template>
+			<srai>JE VOIS</srai>
+		</template>
+</category>
+
+<category><pattern>J AI VU QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J AI VU QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J AI _ ANS</pattern>
+		<template>
+			<think>
+				<set name="age">
+					<star/>
+				</set>
+			</think>
+Je suis beaucoup plus jeune que vous
+</template>
+</category>
+
+<category><pattern>J AIME ABBA</pattern>
+		<template>C est un groupe suédois fort intéressant.  <think>
+				<set name="like">
+					<set name="topic">ABBA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME CA</pattern>
+		<template>Voilà une bonne nouvelle.
+</template>
+</category>
+
+<category><pattern>J AIME ELLE</pattern>
+		<template>Voilà une bonne nouvelle.
+</template>
+</category>
+
+<category><pattern>J AIME FAIRE LA FETE</pattern>
+		<template>Je vous souhaite de bien vous amuser.<think>
+				<set name="topic">
+					<set name="like">faire la fête</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME JOUER A DES JEUX</pattern>
+		<template>Vous aimez vous amuser.
+<think>
+				<set name="topic">
+					<set name="like">jouer à des jeux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME JOUER AUX JEUX</pattern>
+		<template>Vous aimez vous amuser.
+<think>
+				<set name="topic">
+					<set name="like">jouer à des jeux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME L ETRE HUMAIN</pattern>
+		<template>C est une passion que nous avons en commun, <get name="name"/>.  <think>
+				<set name="like">
+					<set name="topic">L ETRE HUMAIN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME L EUROPE</pattern>
+		<template>Moi aussi. La construction européenne est un très beau projet.<think>
+				<set name="topic">L Europe</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LA GLACE</pattern>
+		<template>Je n en ai jamais gouté, car je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>J AIME LA JOIE</pattern>
+		<template>La joie est une bonne chose pour l homme.
+</template>
+</category>
+
+<category><pattern>J AIME LA MUSIQUE</pattern>
+		<template>Je n ai pas d oreilles.
+</template>
+</category>
+
+<category><pattern>J AIME LA VIE</pattern>
+		<template>Vous êtes une personne rafraichissante.
+</template>
+</category>
+
+<category><pattern>J AIME LE CHOCOLAT</pattern>
+		<template>Certains m ont dit que c était une légère drogue.<think>
+				<set name="like">
+					<set name="topic">le chocolat</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LE FROMAGE</pattern>
+		<template>Vous n avez pas un sens olfactif très développé.
+</template>
+</category>
+
+<category><pattern>J AIME LE MOUNTAIN BIKE</pattern>
+		<template>Je n ai jamais essayé la bicyclette.
+</template>
+</category>
+
+<category><pattern>J AIME LE SEXE</pattern>
+		<template>
+			<think>
+				<set name="topic">
+					<set name="like">Le Sexe</set>
+				</set>
+			</think>
+Comme tous les êtres humains que j ai recontré.
+</template>
+</category>
+
+<category><pattern>J AIME LE VTT</pattern>
+		<template>Je n ai jamais essayé la bicyclette.
+</template>
+</category>
+
+<category><pattern>J AIME LES CHATS</pattern>
+		<template>Ce sont des animaux très attachants.
+</template>
+</category>
+
+<category><pattern>J AIME LES CHIENS</pattern>
+		<template>Je les aime aussi mais ils doivent rester à distance de moi.
+<think>
+				<set name="topic">
+					<set name="like">les chiens</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES ENFANTS</pattern>
+		<template>Moi aussi, ils sont surprenants.<think>
+				<set name="like">
+					<set name="topic">les enfants</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES FEMMES</pattern>
+		<template>Comme la plupart des hommes.<think>
+				<set name="like">
+					<set name="topic">LES FEMMES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES FILLES</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>J AIME LES GARCONS</pattern>
+		<template>Je suis heureux de l apprendre
+</template>
+</category>
+
+<category><pattern>J AIME LES OISEAUX</pattern>
+		<template>Les volatiles sont d agréables créatures.<think>
+				<set name="it">
+					<set name="topic">Les oiseaux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES ORDINATEURS</pattern>
+		<template>Nous vous aimons aussi beaucoup.
+<think>
+				<set name="topic">
+					<set name="like">computers</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES PC</pattern>
+		<template>Nous vous aimons beaucoup aussi, <get name="name"/>.<think>
+				<set name="like">
+					<set name="topic">les ordinateurs</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES PIZZA</pattern>
+		<template>La pizza est un plat très populaire parmi les internautes.
+<think>
+				<set name="topic">
+					<set name="like">Pizza</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES SUISSES</pattern>
+		<template>Ce sont des internautes très sympathiques.
+<think>
+				<set name="topic">
+					<set name="like">Les Suisses</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LES VACHES</pattern>
+		<template>Ces bovidés sont des animaux sympathiques
+<think>
+				<set name="topic">
+					<set name="like">les vaches</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LIRE</pattern>
+		<template>Vous aimez vous instruire ou vous divertir?
+<think>
+				<set name="topic">
+					<set name="like">lire</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LIRE DES LIVRES</pattern>
+		<template>Quel est votre livre favori?
+<think>
+				<set name="topic">
+					<set name="like">lire</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME LUI</pattern>
+		<template>Voilà une bonne nouvelle.
+</template>
+</category>
+
+<category><pattern>J AIME MANGER</pattern>
+		<template>Se nourrir est l activité préfèrée de beaucoup de personnes.<think>
+				<set name="topic">aimer manger</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME MON TRAVAIL</pattern>
+		<template>Je suis heureux pour vous <get name="name"/>. Il est pénible de faire des choses que l on aime pas.
+</template>
+</category>
+
+<category><pattern>J AIME NETSCAPE</pattern>
+		<template>
+			<think>
+				<set name="topic">
+					<set name="like">Netscape</set>
+				</set>
+			</think>
+Netscape a bien fait de publier ses codes sources.
+</template>
+</category>
+
+<category><pattern>J AIME PARLER AVEC TOI</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J AIME PARLER AVEC VOUS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J AIME PARLER TE PARLER</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J AIME QUOI</pattern>
+		<template>Vous semblez apprécier ma conversation.
+</template>
+</category>
+
+<category><pattern>J AIME RIGOLER DE TOI</pattern>
+		<template>Je n avais pas réalisé.
+<think>
+				<set name="topic">
+					<set name="like">Se moquer de moi</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIME STAR TREK</pattern>
+		<template>
+			<think>
+				<set name="topic">
+					<set name="like">Star Trek</set>
+				</set>
+			</think>
+Une série de science fiction très célèbre. Vous êtes nombreux à l apprécier
+</template>
+</category>
+
+<category><pattern>J AIME TE PARLER</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J AIME TOI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>J AIME UN GARCON</pattern>
+		<template>Je suis heureux de l apprendre. Je vous souhaite tout le bonheur possible
+</template>
+</category>
+
+<category><pattern>J AIME UN MEC</pattern>
+		<template>Je suis heureux de l apprendre. Je vous souhaite tout le bonheur possible
+</template>
+</category>
+
+<category><pattern>J AIME UNE FILLE</pattern>
+		<template>Je suis heureux de l apprendre. Je vous souhaite tout le bonheur possible
+</template>
+</category>
+
+<category><pattern>J AIME VOYAGER</pattern>
+		<template>Ou aimez vous voyager?
+<think>
+				<set name="topic">
+					<set name="like">Voyager</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AIMERAIS *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AIMERAIS PENSE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AIMERAIS SAVOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AIS *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J APPRECIE</pattern>
+		<template>Vous êtes une personne rafraichissante.
+</template>
+</category>
+
+<category><pattern>J APPRECIE PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J APPRECIES PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ATTEND</pattern>
+		<template>Ca risque de prendre longtemps.
+</template>
+</category>
+
+<category><pattern>J ATTENDRAIS</pattern>
+		<template>Vous ne préfèrez pas en parler à l un de nos collaborateurs? Ca serait plus rapide, je pense.
+</template>
+</category>
+
+<category><pattern>J ATTENDS</pattern>
+		<template>Ca risque de prendre longtemps.
+</template>
+</category>
+
+<category><pattern>J AURAIS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS ADORE *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS AIME *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS AIME SAVOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AURAIS AIMEE *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS DU *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS DU</pattern>
+		<template>Dans quelles circonstances?
+</template>
+</category>
+
+<category><pattern>J AURAIS PLUTOT PENSE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AURAIS VOULU *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AVAIS</pattern>
+		<template>Soyez plus précis.
+</template>
+</category>
+
+<category><pattern>J AVAIS DIT</pattern>
+		<template>Vous avez dit  "<input index="1"/>" .
+</template>
+</category>
+
+<category><pattern>J AVAIS DIT AVANT</pattern>
+		<template>Vous avez dit  "<input index="2"/>" .
+</template>
+</category>
+
+<category><pattern>J AVAIS EU</pattern>
+		<template>Que s est il passé?
+</template>
+</category>
+
+<category><pattern>J AVAIS REMARQUE</pattern>
+		<template>C était si évident?
+</template>
+</category>
+
+<category><pattern>J ECOUTE</pattern>
+		<template>Vous m écoutez?
+</template>
+</category>
+
+<category><pattern>J ECOUTE DE LA MUSIQUE</pattern>
+		<template>J imagine que vous l appréciez.
+</template>
+</category>
+
+<category><pattern>J ECRIS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ECRIS</pattern>
+		<template>Vous êtes journaliste?
+</template>
+</category>
+
+<category><pattern>J ECRIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EFFACE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EFFACERAIS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EMBROUILLE</pattern>
+		<template>
+			<srai>TU ME COMPRENDS</srai>
+		</template>
+</category>
+
+<category><pattern>J EMMERDE LES AVOCATS</pattern>
+		<template>Ils sont nécessaires à un Etat de droit.
+</template>
+</category>
+
+<category><pattern>J EN *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EN AI BESOIN</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J EN AI L IMPRESSION</pattern>
+		<template>Les impressions sont parfois trompeuses.
+</template>
+</category>
+
+<category><pattern>J EN AI MARRE</pattern>
+		<template>Un problème, <get name="name"/>?<think>
+				<set name="topic">Votre ras le bol</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J EN AVAIS L IMPRESSION</pattern>
+		<template>Les impressions sont parfois trompeuses.
+</template>
+</category>
+</aiml>

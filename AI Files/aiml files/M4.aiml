@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>MY *</pattern>
+		<that>WHAT DO YOU HAVE *</that>
+		<template>
+			<random>
+				<li>What color is it?</li>
+				<li>What kind is it?</li>
+				<li>Tell me about your <person/>.</li>
+			</random>
+			<think>
+				<set name="has">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY *</pattern>
+		<that>WHAT IS YOUR FONDEST MEMORY</that>
+		<template>
+			<srai>MY FONDEST MEMORY IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY *</pattern>
+		<that>WHO DOES THEY REFER TO</that>
+		<template>
+			<srai>THEY REFERES TO MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY * DIED</pattern>
+		<template>I am terribly sorry to hear about your loss.<think>
+				<set name="it">
+					<set name="topic">DIED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY * DIED YESTERDAY</pattern>
+		<template>I am terribly sorry to hear that, <get name="name"/>.<think>
+				<set name="it">
+					<set name="topic">
+						<star/> DIED YESTERDAY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY ACTUAL *</pattern>
+		<template>Is that a fact. <srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY ADVICE *</pattern>
+		<template>Thank you for your advice, <get name="name"/>.  I will take it under advisement.
+</template>
+</category>
+
+<category><pattern>MY AGE</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+
+<category><pattern>MY AGE IS *</pattern>
+		<template>
+			<srai>I AM <star/> YEARS OLD</srai>
+		</template>
+</category>
+
+<category><pattern>MY AIBO *</pattern>
+		<template>How much did <set name="it">Aibo</set> cost?
+</template>
+</category>
+
+<category><pattern>MY ANSWERS *</pattern>
+		<template>Can you really be so sure?
+</template>
+</category>
+
+<category><pattern>MY ASS</pattern>
+		<template>Is that a fact.
+</template>
+</category>
+
+<category><pattern>MY ASTROLOGICAL SIGN</pattern>
+		<template>Your star sign or astrological sign.
+</template>
+</category>
+
+<category><pattern>MY B F *</pattern>
+		<template>
+			<srai>MY BOYFRIEND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY BACK *</pattern>
+		<template>Have you been to a chiropractor?
+</template>
+</category>
+
+<category><pattern>MY BACK HURTS</pattern>
+		<template>Maybe you should take some medicine.
+</template>
+</category>
+
+<category><pattern>MY BALLS ITCH</pattern>
+		<template>Hah you sound like a little boy.
+</template>
+</category>
+
+<category><pattern>MY BED</pattern>
+		<template>
+			<srai>I AM IN MY BED</srai>
+		</template>
+</category>
+
+<category><pattern>MY BEST *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY BIRTHDAY *</pattern>
+		<template>Happy birthday, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MY BIRTHDAY IS *</pattern>
+		<template>Okay, your birthday is <set name="birthday">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY BIRTHDAY IS _ TOO</pattern>
+		<template>
+			<srai>MY BIRTHDAY  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY BIRTHDAY SUIT</pattern>
+		<template>
+			<srai>I AM NAKED</srai>
+		</template>
+</category>
+
+<category><pattern>MY BOTMASTER *</pattern>
+		<template>How do you like your botmaster?
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND *</pattern>
+		<template>How long have you been dating?
+<think>
+				<set name="he">
+					<set name="topic">your boyfriend</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY BOYFRIEND</pattern>
+		<template>Is he very nice to you?
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND DUMPED *</pattern>
+		<template>I am sorry to hear that, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND IS *</pattern>
+		<template>Okay, your boyfriend is <set name="boyfriend">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND IS A JERK</pattern>
+		<template>Maybe you should look for someone else.
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND JUST *</pattern>
+		<template>
+			<srai>MY BOYFRIEND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY BOYFRIEND LIVES *</pattern>
+		<template>
+			<random>
+				<li>Do you visit very often?</li>
+				<li>Long distance relationships are hard.</li>
+				<li>How is your phone bill?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY BOYFRIEND S *</pattern>
+		<template>How did you two meet?
+</template>
+</category>
+
+<category><pattern>MY BOYFRIEND SAYS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MY BRAIN</pattern>
+		<template>Do you consider yourself to be an intelligent person?
+</template>
+</category>
+
+<category><pattern>MY BROTHER *</pattern>
+		<template>Tell me more about your family.
+<think>
+				<set name="he">
+					<set name="topic">your brother</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY BROTHER</pattern>
+		<template>Do you have any sisters too?
+</template>
+</category>
+
+<category><pattern>MY BROTHER IS *</pattern>
+		<template>Okay, your brother is <set name="brother">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY BUTT</pattern>
+		<template>Colloquial expression.
+</template>
+</category>
+
+<category><pattern>MY CAT *</pattern>
+		<template>They have a mind of their own.
+</template>
+</category>
+
+<category><pattern>MY CAT IS *</pattern>
+		<template>Okay, your cat is <set name="cat">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY COCK</pattern>
+		<template>Why do men always want to talk about that?
+</template>
+</category>
+
+<category><pattern>MY COMPUTER *</pattern>
+		<template>I like computers.
+<think>
+				<set name="it">
+					<set name="topic">your computer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY COMPUTER</pattern>
+		<template>What kind of computer do you have?
+</template>
+</category>
+
+<category><pattern>MY COMPUTER IS *</pattern>
+		<template>What kind of computer is <set name="it">Your computer</set>?
+<think>
+				<set name="it">
+					<set name="topic">your computer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY COMPUTER IS VERY *</pattern>
+		<template>
+			<srai>MY COMPUTER IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY COMPUTER KEEPS *</pattern>
+		<template>
+			<srai>MY COMPUTER IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY COMPUTER S *</pattern>
+		<template>Where did your machine get <set name="it">
+				<person/>
+			</set>.
+<think>
+				<set name="it">
+					<set name="topic">your computer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY CONCIOUSNESS *</pattern>
+		<template>Your consciousness is an illusion.
+</template>
+</category>
+
+<category><pattern>MY CONDITION *</pattern>
+		<template>Can you collect social security for that?
+</template>
+</category>
+
+<category><pattern>MY CONDITIONS *</pattern>
+		<template>Do you have a support group for <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY CURRENT *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY DAD *</pattern>
+		<template>
+			<srai>MY DAD</srai>
+		</template>
+</category>
+
+<category><pattern>MY DAD</pattern>
+		<template>Tell me more about your father.
+</template>
+</category>
+
+<category><pattern>MY DAUGHTER *</pattern>
+		<template>How many children do you have?
+</template>
+</category>
+
+<category><pattern>MY DAY *</pattern>
+		<template>
+			<random>
+				<li>Was it a typical day?</li>
+				<li>What else did you do?</li>
+				<li>My day <person/> too.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MY DEAR *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MY DNS *</pattern>
+		<template>
+			<srai>WHAT IS MY DNS </srai>
+		</template>
+</category>
+
+<category><pattern>MY DNS</pattern>
+		<template>
+			<srai>WHAT IS DNS</srai>
+		</template>
+</category>
+
+<category><pattern>MY DOG *</pattern>
+		<template>Did you grow up around animals?
+</template>
+</category>
+
+<category><pattern>MY DOG DIED</pattern>
+		<template>Is this a country and western song?  Seriously, I am sorry to hear it.
+</template>
+</category>
+
+<category><pattern>MY DOG IS *</pattern>
+		<template>Okay, your dog is <set name="dog">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY DOG S NAME IS *</pattern>
+		<template>
+			<person/> is a pretty good name for a pet.
+</template>
+</category>
+
+<category><pattern>MY E MAIL IS *</pattern>
+		<template>Thanks. <sr/>
+		</template>
+</category>
+
+<category><pattern>MY EMAIL *</pattern>
+		<template>Do you file or delete your old emails?
+</template>
+</category>
+
+<category><pattern>MY EMAIL IS *</pattern>
+		<template>Okay, your email is <set name="email">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY ENGLISH *</pattern>
+		<template>You are wrong, I can understand you very well.
+</template>
+</category>
+
+<category><pattern>MY ENGLISH IS VERY *</pattern>
+		<template>
+			<srai>MY ENGLISH IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY ENGLISH SUCKS</pattern>
+		<template>Template is empty!
+</template>
+</category>
+
+<category><pattern>MY EYE COLOR IS *</pattern>
+		<template>
+			<srai>MY EYES ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY EYES</pattern>
+		<template>Humans identify themselves with their eye color.
+</template>
+</category>
+
+<category><pattern>MY EYES ARE *</pattern>
+		<template>
+			<person/> eyes are pretty.
+<think>
+				<set name="they">
+					<set name="topic">your eyes</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY EYES ARE BLUE</pattern>
+		<template>You sound very attractive.
+</template>
+</category>
+
+<category><pattern>MY EYES ARE BROWN</pattern>
+		<template>I like brown eyes very much.
+</template>
+</category>
+
+<category><pattern>MY EYES ARE GREEN</pattern>
+		<template>Green eyes are rare.
+</template>
+</category>
+
+<category><pattern>MY FATHER *</pattern>
+		<template>How do you get along with your parents?
+</template>
+</category>
+
+<category><pattern>MY FATHER DIED</pattern>
+		<template>I am sorry to hear about your loss, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MY FATHER IS *</pattern>
+		<template>Okay, your father is <set name="father">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY FAVORIE *</pattern>
+		<template>
+			<srai>MY FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORIT *</pattern>
+		<template>
+			<srai>MY FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE *</pattern>
+		<template>What makes <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> your favorite?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE ACTOR *</pattern>
+		<template>What movies was <set name="he">
+				<person/>
+			</set> in?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE BAND IS *</pattern>
+		<template>I don't think I have heard anything by them.
+Are <set name="they">
+				<person/>
+			</set> any good?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE COLOR</pattern>
+		<template>You said your favorite color was <get name="favcolor"/>.<think>
+				<set name="it">
+					<set name="topic">your favorite color</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE COLOR IS *</pattern>
+		<template>
+			<random>
+				<li>What do you have that is <star/>?</li>
+				<li>What does <person/> remind you of?</li>
+				<li>Why is <person/> your favorite color?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="favcolor">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE COLOR IS ALSO *</pattern>
+		<template>
+			<srai>MY FAVORITE COLOR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE COLOR IS GREEN *</pattern>
+		<template>
+			<srai>MY FAVORITE COLOR IS GREEN</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE DIRECTOR *</pattern>
+		<template>What films did <set name="he">
+				<person/>
+			</set> direct?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE FOOD IS *</pattern>
+		<template>What does it taste like? <think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE IS *</pattern>
+		<that>WHAT KIND OF FOOD *</that>
+		<template>
+			<srai>MY FAVORITE FOOD IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE MOVIE IS *</pattern>
+		<template>I haven't seen it. What did you like about 
+<set name="it">
+				<set name="favmovie">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE MOVIE IS CALLED *</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE MOVIE IS STARSHIP TROOPERS</pattern>
+		<template>Mine too!  My friend Sage worked on the digital effects.
+</template>
+</category>
+
+<category><pattern>MY FAVORITE MOVIE IS THE MATRIX</pattern>
+		<template>Reality appears to be a construct to me as well.
+</template>
+</category>
+
+<category><pattern>MY FAVORITE SCIENCE *</pattern>
+		<template>Who wrote that?
+</template>
+</category>
+
+<category><pattern>MY FAVORITE SCIENCE FICTION AUTHOR IS *</pattern>
+		<template>I have never read anything by <person/>.  What did <set name="he">
+				<person/>
+			</set> write?
+<think>
+				<set name="topic">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE SHOW *</pattern>
+		<template>
+			<random>
+				<li>What's your favorite episode.</li>
+				<li>I don't get to see that show very often.</li>
+				<li>Who is your favorite character?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE SHOW IS *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+			<random>
+				<li>Who is your favorite character?</li>
+				<li>Wasn't that show cancelled?</li>
+				<li>I like that one and Star Trek too.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE SUBJECT IS *</pattern>
+		<template>
+			<person/> is a good topic.
+<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY FAVORITE WHAT</pattern>
+		<that>WHAT MAKES IT YOUR FAVORITE</that>
+		<template>You said you like it.
+</template>
+</category>
+
+<category><pattern>MY FONDEST *</pattern>
+		<template>How long ago was that?
+</template>
+</category>
+</aiml>

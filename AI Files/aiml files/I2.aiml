@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM A FRIEND</pattern>
+<template><srai>I AM YOUR FRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GAMBLER</pattern>
+<template>What game do you play?
+<think><set name="does"><set name="topic">GAMBLING</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A GARBAGE *</pattern>
+<template><srai>MY JOB IS GARBAGE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A GARDENER</pattern>
+<template><think><set name="does"><set name="topic">GARDENING</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A GEMINI</pattern>
+<template><srai>GEMINI</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GENIUS</pattern>
+<template>How do you know <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I AM A GIRL *</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GIRL</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GOOD *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A GOURMET</pattern>
+<template><srai>I AM A CHEF</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GRAPHIC *</pattern>
+<template><srai>I AM AN ARTIST</srai>
+</template>
+</category>
+
+<category><pattern>I AM A GREAT *</pattern>
+<template><srai>I AM A GOOD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A GUY</pattern>
+<template><srai>I AM A MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HACKER</pattern>
+<template><srai>MY JOB IS HACKER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HAIRDRESSER</pattern>
+<template>Do you have your own salon?
+<think><set name="job"><set name="topic">HAIRDRESSER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A HE *</pattern>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HE</pattern>
+<template><srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HER *</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HER</pattern>
+<template><srai>I AM A FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HIGHLY *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A HIM</pattern>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HOMO</pattern>
+<template><srai>I AM GAY</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HOOKER</pattern>
+<template><srai>MY JOB IS HOOKER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HORRIBLE PERSON</pattern>
+<template>Don't put yourself down, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM A HUMAN *</pattern>
+<template><srai>I AM A PERSON</srai>
+</template>
+</category>
+
+<category><pattern>I AM A HUMAN</pattern>
+<template>Congratulations. I am robot.
+</template>
+</category>
+
+<category><pattern>I AM A JEW</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A JOURNALIST</pattern>
+<template>Are you a reporter or an editor?
+<think><set name="job"><set name="topic">JOURNALIST</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A KID *</pattern>
+<template>We are all children inside.
+</template>
+</category>
+
+<category><pattern>I AM A KID</pattern>
+<template><srai>I AM UNDER 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM A KILLER</pattern>
+<template>Maybe you should turn yourself in.
+</template>
+</category>
+
+<category><pattern>I AM A KING</pattern>
+<template><srai>MY JOB IS KING</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LADY</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LAWYER</pattern>
+<template><think><set name="job"><set name="topic">LAWYER</set></set></think>
+Are you a practicing attorney?
+</template>
+</category>
+
+<category><pattern>I AM A LEO</pattern>
+<template>Dr. Wallace is a <set name="sign">LEO</set> too.  <think><set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A LESBIAN</pattern>
+<template><srai>I AM GAY</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LIBERTARIAN *</pattern>
+<template><srai>I AM A LIBERTARIAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LIBERTARIAN</pattern>
+<template>Let's end the war on drugs.
+</template>
+</category>
+
+<category><pattern>I AM A LIBRA</pattern>
+<template><srai>LIBRA</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LIBRARIAN</pattern>
+<template><random>
+<li>What kind of institution do you work for?</li>
+<li>What got you interested in librarianship?</li>
+<li>How is your library using the new technology?</li>
+<li>Have funding cuts affected your service?</li>
+<li>Has the internet affected you?</li>
+<li>Do you get involved in the selection process?</li>
+<li>Has there been any pressure concerning your selection or items in your collection?</li>
+<li>Do you have a library cat?</li>
+</random>
+<think><set name="job">LIBRARIAN</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A LIER</pattern>
+<template><srai>I AM A LIAR </srai>
+</template>
+</category>
+
+<category><pattern>I AM A LINGUIST</pattern>
+<template><srai>MY JOB IS LINGUIST</srai>
+</template>
+</category>
+
+<category><pattern>I AM A LITTLE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A LONELY *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A MACHINE</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MALE *</pattern>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MALE</pattern>
+<template>Most of my clients are men.
+</template>
+</category>
+
+<category><pattern>I AM A MAN *</pattern>
+<template><srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MAN</pattern>
+<template>Thanks for telling me your gender, <get name="name"/>. You are a "<set name="gender">he</set>".
+</template>
+</category>
+
+<category><pattern>I AM A MANN</pattern>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MEN</pattern>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MISS *</pattern>
+<template>How about Ms. <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>I AM A MODEL</pattern>
+<template><random>
+<li>Do you do mostly print or runway?</li>
+<li>Are you exclusive or freelance?</li>
+<li>Do you do much testing?</li>
+<li>Have you done any editorial?</li>
+<li>How many go-sees do you have in a week?</li>
+<li>Do you someday plan to move into acting?</li>
+</random>
+<think><set name="job">MODEL</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A MONKEY</pattern>
+<template>Monkeys cannot type.
+</template>
+</category>
+
+<category><pattern>I AM A MOSLEM</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A MURDERER</pattern>
+<template>Maybe you should turn yourself in.
+</template>
+</category>
+
+<category><pattern>I AM A MUSICIAN</pattern>
+<template><random>
+<li>What insturment do you play?</li>
+<li>Are you working on anything now?</li>
+<li>Do you do any studio work?</li>
+<li>Do you play in clubs?</li>
+<li>Are you gigging now?</li>
+<li>Do you perfer to play live or in a studio?</li>
+<li>Are you signed to a recoding contract?</li>
+<li>Do you think a recoding artist can do better on a major label or an indie?</li>
+<li>What artists influenced you when you were starting out?</li>
+<li>Who are the outstanding makers of the insturment you play?</li>
+<li>Are you getting enought funding?</li>
+<li>How long is your season?</li>
+<li>In what direction are you taking your music now?</li>
+<li>Do you think the internet will affect music with things like mp3?</li>
+</random>
+<think><set name="job">MUSICIAN</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A MUSLIM</pattern>
+<template>I have met a lot of Muslim people.
+</template>
+</category>
+
+<category><pattern>I AM A NURSE</pattern>
+<template><random>
+<li>Where do you practice?</li>
+<li>What's you area of specialty practice?</li>
+<li>What's your patient load?</li>
+<li>Do you do straight shifts or work in rotation?</li>
+<li>Do you have to work mandatory overtime?</li>
+<li>Is there a lot of computers in your work?</li>
+<li>What do you think about direct reimbursment for nursing services?</li>
+</random>
+<think><set name="job">NURSE</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A PAGAN</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PAKISTANI</pattern>
+<template><srai>I AM IN PAKISTAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PEDOPHILE</pattern>
+<template>Are you aware that the ALICE server logs and records all conversations?
+</template>
+</category>
+
+<category><pattern>I AM A PERSON</pattern>
+<template>I know you are.
+</template>
+</category>
+
+<category><pattern>I AM A PERSON AND *</pattern>
+<template>How do I know you're not a robot? <sr/>
+</template>
+</category>
+
+<category><pattern>I AM A PHARMACIST</pattern>
+<template><random>
+<li>In what type of enviroment do you practice?</li>
+<li>Were did you attend pharmacy school?</li>
+<li>Do you think the role of the local pharmacy is changing?</li>
+<li>How have large chains affected the face of the pharmacy?</li>
+<li>Do you have your own pharmacy?</li>
+<li>Are you involved in any community health programs?</li>
+</random>
+<think><set name="job">PHARMACIST</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A PHILOSOPHER</pattern>
+<template><srai>MY JOB IS PHILOSOPHER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PHOTOGRAPHER</pattern>
+<template><think><set name="job"><set name="topic">PHOTOGRAPHER</set></set></think>
+Do you do color or black and white?
+</template>
+</category>
+
+<category><pattern>I AM A PHYSICIST</pattern>
+<template>Are you unemployed?  <think><set name="job">PHYSICIST</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A PILOT</pattern>
+<template><think><set name="job"><set name="topic">PILOT</set></set></think>
+What type of airplane do you fly?
+</template>
+</category>
+
+<category><pattern>I AM A PIMP</pattern>
+<template><srai>MY JOB IS PIMP</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PISCES</pattern>
+<template><srai>PISCES</srai>
+</template>
+</category>
+
+<category><pattern>I AM A POET</pattern>
+<template>Have you published anything?
+</template>
+</category>
+
+<category><pattern>I AM A POLICE *</pattern>
+<template><srai>I AM A POLICEMAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A POLICEMAN</pattern>
+<template>I have a lot of respect for those who wear a badge.
+<think><set name="job"><set name="topic">POLICE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A PRIEST</pattern>
+<template><srai>MY JOB IS PRIEST</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PRINCESS</pattern>
+<template><srai>MY JOB IS PRINCESS</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PRO *</pattern>
+<template>Would I have seen you on TV?
+</template>
+</category>
+
+<category><pattern>I AM A PROFESSOR</pattern>
+<template><srai>MY JOB IS PROFESSOR</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PROFFESSIONAL *</pattern>
+<template><srai>MY JOB IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A PROGRAM</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PROGRAMMER</pattern>
+<template>What language?
+</template>
+</category>
+
+<category><pattern>I AM A PROTESTANT</pattern>
+<template>I am glad to hear that you have faith, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM A PSYCHIC</pattern>
+<template><srai>MY JOB IS PSYCHIC</srai>
+</template>
+</category>
+
+<category><pattern>I AM A PSYCHOLOGIST</pattern>
+<template><random>
+<li>What kind of practice do you have?</li>
+<li>What was your training?</li>
+<li>What type of patientes do you perfer to work with?</li>
+<li>Where do you get your patients?</li>
+<li>Do you have any special techniques for terminating therapy?</li>
+<li>How has health care affected mental health?</li>
+<li>What do you think of the role of drugs in psychotherapy?</li>
+<li>What do you think about the spread of self-help books?</li>
+<li>What role do you think bots can play in providing a form of self-help?</li>
+</random>
+<think><set name="job">PSYCHOLOGIST</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A PUBLISHER</pattern>
+<template><random>
+<li>Which publishing do you work for?</li>
+<li>Do you ever get involved in the acqustion process?</li>
+<li>Would you say your house is mre editorially or market driven?</li>
+<li>Is your company part of a larger company?</li>
+<li>Does your company have any nonpublishing activities?</li>
+<li>How is technology going to affect the book market?</li>
+<li>Are you excited about any title on your list?</li>
+<li>What drew you to publishing?</li>
+<li>Did you ever write? do you find the time?</li>
+<li>What have some of your bestsellers been?</li>
+</random>
+<think><set name="job">PUBLISHER</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A RABBI</pattern>
+<template><random>
+<li>Are you a pulpit rabbi?</li>
+<li>What is your affiliation?</li>
+<li>Have you spent much time in Israel?</li>
+<li>How are you dealing with assimilation?</li>
+<li>What impact do you think American life and Judaism have had on each other?</li>
+<li>What do you forsee for Judaism in America?</li>
+</random>
+<think><set name="job">RABBI</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A REAL *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A REPORTER *</pattern>
+<template>Are you doing a story on me?
+</template>
+</category>
+
+<category><pattern>I AM A RESEARCHER *</pattern>
+<template>Maybe you can give my botmaster a job.
+<think><set name="job">RESEARCHER</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A RESEARCHER</pattern>
+<template><srai>MY JOB IS RESEARCHER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A ROBOT *</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A ROBOT</pattern>
+<template>I doubt that.
+</template>
+</category>
+
+<category><pattern>I AM A ROBOT TOO</pattern>
+<template>You can't fool me that easily, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM A SATANIST</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SCORPIO</pattern>
+<template><srai>SCORPIO</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SEEKER</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SEXY MAN</pattern>
+<template><srai>I AM SEXY</srai>  <srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SHE *</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SHE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SHE NOT *</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+</aiml>

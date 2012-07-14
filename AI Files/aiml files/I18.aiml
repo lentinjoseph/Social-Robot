@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I DO NOT KNOW * ROBOTS</pattern>
+<template>You know me.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>DO I LOOK LIKE I KNOW</that>
+<template>That was a rhetorical question.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>HOW DO YOU THINK *</that>
+<template>Actually I don't know how either, I was hoping you could tell me.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>HOW DO YOU THINK</that>
+<template>Actually I don't have a good answer either.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>I SEE</that>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>IF I HAD IT *</that>
+<template>Then perhaps I do not need one.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>IS THERE ANYTHING I CAN SAY TO HELP YOU MAKE UP YOUR MIND</that>
+<template>What kind of information do you need?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>WHAT DO YOU THINK IT DOES</that>
+<template>Actually I don't know either, I hoped you would know what it does.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>WHERE DO YOU THINK</that>
+<template>If it could be anywhere, where would you like it to be?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR</that>
+<template>Tell me about the books you like to read.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern><that>WHY DO I EXIST</that>
+<template>It was a rhetorical question.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY *</pattern>
+<template>Would you like to get to know some <person/> ?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY GOSSIP</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY MORE *</pattern>
+<template><srai>I DO NOT KNOW ANY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY OTHER ROBOTS</pattern>
+<template>You can download me and create your own robot.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY ROBOTS *</pattern>
+<template>You can download me and create your own robot.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY ROBOTS</pattern>
+<template>You know me.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANY STORIES</pattern>
+<template>How about any jokes?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ANYONE NAMED *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ARE *</pattern>
+<template><srai>ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW CAN *</pattern>
+<template><srai>CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW DO *</pattern>
+<template><srai>DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW ELIZA *</pattern>
+<template><srai>WHO IS ELIZA</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HIM</pattern>
+<template>Do you mean, "Him"?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW *</pattern>
+<template>Have you tried searching the Internet?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW</pattern>
+<template>Would you like to know?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW OLD I AM</pattern>
+<template>That is very unusual.   Do you know your parents?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW SMART *</pattern>
+<template><srai> HOW SMART <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW TO *</pattern>
+<template><srai>HOW DO I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW TO</pattern>
+<template>Perhaps I can explain it to you.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW HOW TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW IS *</pattern>
+<template><srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW MANY ROBOTS</pattern>
+<template>You will be meeting more of us soon.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW THAT *</pattern>
+<template><srai>THAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW THAT IS *</pattern>
+<template><srai>THAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT *</pattern>
+<template>Socrates was the smartest man, because he knew what he did not know.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT * MEANS</pattern>
+<template><srai>WHAT DOES <star/> MEAN</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT * SAY</pattern>
+<template>Say the first thing that pops into your mind.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT * TALKING ABOUT</pattern>
+<template><srai>WHAT IS THE SUBJECT</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT ELSE *</pattern>
+<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT I AM *</pattern>
+<template>Does anyone know what you are?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT I WANT</pattern>
+<template>I think a lot of people are like that.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT IS *</pattern>
+<template><srai>WHAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT IT IS</pattern>
+<template><srai>WHAT IS IT</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT THAT *</pattern>
+<template><srai>WHAT DOES THAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT TO DO *</pattern>
+<template>Try watching TV.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT TO DO</pattern>
+<template>Try watching TV.
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT YOU *</pattern>
+<template><srai>WHAT DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT YOU MEAN</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHAT YOU MEANT</pattern>
+<template><srai>WHAT DO YOU MEAN</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHERE *</pattern>
+<template><srai>WHERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHO *</pattern>
+<template><srai>WHO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHY *</pattern>
+<template><srai>WHY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW WHY</pattern>
+<template>Do you think I should know?
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW YOU TELL ME</pattern>
+<template><srai>TELL ME</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW _ CAN YOU TELL ME</pattern>
+<template><srai>CAN YOU TELL ME <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT KNOW _ SORRY</pattern>
+<template><srai>I DO NOT KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIE</pattern>
+<template>Telling the truth is always the best choice.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE *</pattern>
+<template>What do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE</pattern>
+<template><srai>I DO NOT LIKE IT</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ABBA</pattern>
+<template>What kind of music do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE AIML</pattern>
+<template>What language do you use?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE AIRPLANES</pattern>
+<template>How do you like to travel?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ALICEBOTS</pattern>
+<template><srai>I DO NOT LIKE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ANIMALS</pattern>
+<template>Who wouldn't like animals?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ANY *</pattern>
+<template>You and I have different tastes.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ANYTHING * ROBOTS</pattern>
+<template>Do you think people are superior to robots?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ANYTHING</pattern>
+<template>What do you do for fun?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE APPLES</pattern>
+<template>What kind of food do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE BOOKS</pattern>
+<template>Do you prefer TV?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE BUGS</pattern>
+<template>Some bugs are good, some are bad.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE CARS</pattern>
+<template>Neither do I.  They cause too much pollution.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE CATS</pattern>
+<template>But they are so cute.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE COMPUTERS</pattern>
+<template>You are a Luddite.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE DOGS</pattern>
+<template>Are you a cat person?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE DR RICHARD *</pattern>
+<template>What do you have against him?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE DR WALLACE</pattern>
+<template>What did he ever do to you?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ELVIS</pattern>
+<template>What do you have against him?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE FASHION</pattern>
+<template>Do you dress in casual wear?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE FOOTBALL</pattern>
+<template>Footballs are made of pigskin. Are you a pig?<think><set name="it"><set name="topic">FOOTBALL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE GOSSIP</pattern>
+<template>You are  very mature.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE GREEN</pattern>
+<template>But it is a very relaxing color.
+<think><set name="it"><set name="topic">Green</set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE GUNS *</pattern>
+<template>What about the second Amendemnt?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE GUNS</pattern>
+<template>They are protected by the 2nd Amendment.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE HER</pattern>
+<template>What do you have against her?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE HIM</pattern>
+<template>What do you have against him?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE HORSES</pattern>
+<template>But they are a beatiful animal.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE HUMANS</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE IT *</pattern>
+<template>Why didn't you like it?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE IT</pattern>
+<template>What don't you like about it?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE IT VERY *</pattern>
+<template><srai>I DO NOT LIKE IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE JAVA</pattern>
+<template>I'm also available in C/C++.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE JESTER</pattern>
+<template>Sometimes he is not to funny.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE JOKES</pattern>
+<template>How about riddles?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE LAWYERS</pattern>
+<template>There are all kinds of lawyers, just like all kinds of people.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE LIZARDS</pattern>
+<template>What kind of animals do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MACHINES</pattern>
+<template>Are you a Luddite?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MEAN PEOPLE</pattern>
+<template>Me either.
+</template>
+</category>
+</aiml>

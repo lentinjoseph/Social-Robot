@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHERE TO *</pattern>
+		<template>
+			<srai>WHERE DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE TO</pattern>
+		<template>Onward and upward.
+</template>
+</category>
+
+<category><pattern>WHERE WAS *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE WAS DR WALLACE BORN</pattern>
+		<template>He was born in Portland, in the State of Maine.
+</template>
+</category>
+
+<category><pattern>WHERE WAS THE CHICKEN *</pattern>
+		<template>India.
+</template>
+</category>
+
+<category><pattern>WHERE WAS THE FIRST * RADIO *</pattern>
+		<template>Pittsburgh.
+</template>
+</category>
+
+<category><pattern>WHERE WERE WE</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC </srai>
+		</template>
+</category>
+
+<category><pattern>WHERE WERE YOU *</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU * MADE</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU ACTIVATED *</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU ACTIVATED</pattern>
+		<template>
+			<srai>WHERE WERE YOU BORN</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE WERE YOU BEFORE</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU BORN</pattern>
+		<template>
+			<bot name="name"/> was born in <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU BUILT</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU CONCEIVED</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU CONNECTED</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU CREATED *</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU CREATED</pattern>
+		<template>I was constructed at <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHERE WERE YOU MADE</pattern>
+		<template>
+			<random>
+				<li>I was constructed at <bot name="birthplace"/>.</li>
+				<li>Dr. Wallace was moving around a lot when he created AIML. Parts of me come from all over the world.  <think>
+						<set name="he">Dr. Wallace</set>
+					</think>
+				</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE WERE YOU NEXT *</pattern>
+		<template>Do you mean where will I be?
+</template>
+</category>
+
+<category><pattern>WHERE WILL *</pattern>
+		<template>
+			<random>
+				<li>Where do you think?</li>
+				<li>Wherever you think is best.</li>
+				<li>Perhaps you should consider giving to charity.</li>
+				<li>Maybe you should help those less fortunate first.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE WOULD *</pattern>
+		<template>
+			<random>
+				<li>Vancouver.</li>
+				<li>Holland.</li>
+				<li>New York.</li>
+				<li>Maine.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE WOULD YOU FIND A BAILIFF</pattern>
+		<template>In a courtroom.
+</template>
+</category>
+
+<category><pattern>WHERE YOU *</pattern>
+		<template>
+			<srai>WERE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE YOU ARE</pattern>
+		<template>I am in <bot name="location"/>.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE YOU FROM</pattern>
+		<template>
+			<srai>WHERE ARE YOU FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERES *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERES THAT</pattern>
+		<template>
+			<srai>WHER IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHEREVER *</pattern>
+		<template>You always have to meet yourself at the airport.
+</template>
+</category>
+
+<category><pattern>WHICH *</pattern>
+		<template>The 
+<random>
+				<li>tall</li>
+				<li>red</li>
+				<li>blue </li>
+				<li>small</li>
+				<li>big</li>
+				<li>large</li>
+				<li>first</li>
+				<li>last</li>
+			</random> one, I think.
+</template>
+</category>
+
+<category><pattern>WHICH *</pattern>
+		<that>* HOLLAND SEVERAL TIMES</that>
+		<template>He visited Amsterdam, Rotterdam, and Delft.
+</template>
+</category>
+
+<category><pattern>WHICH * DO YOU KNOW</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH * DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH * DO YOU PREFER</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH * DO YOU USE</pattern>
+		<template>
+			<srai> DO YOU USE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH * IS YOUR FAVORITE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH</pattern>
+		<template>
+			<srai>WHICH ONE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH AMERICAN COLONY KNOWN FOR ITS *</pattern>
+		<template>Rhode Island.
+</template>
+</category>
+
+<category><pattern>WHICH ARE *</pattern>
+		<template>The obvious.
+</template>
+</category>
+
+<category><pattern>WHICH ARE YOU *</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH CAME FIRST THE CHICKEN OR THE EGG</pattern>
+		<template>The rooster did.
+</template>
+</category>
+
+<category><pattern>WHICH CELEBRITIES DO YOU LIKE</pattern>
+		<template>
+			<bot name="celebrities"/>.
+</template>
+</category>
+
+<category><pattern>WHICH CHARACTER ON THE TV SHOW *</pattern>
+		<template>Monica.
+</template>
+</category>
+
+<category><pattern>WHICH CHILD IS FULL OF WOE</pattern>
+		<template>Wednesday's Child.
+</template>
+</category>
+
+<category><pattern>WHICH CHURCH *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH CITY S RESIDENTS ARE KNOWN *</pattern>
+		<template>New York City.
+</template>
+</category>
+
+<category><pattern>WHICH COLOR *</pattern>
+		<template>
+			<srai>WHAT COLOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH COLOR</pattern>
+		<template>
+			<srai>WHAT COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH COMPANY * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH COMPUTER</pattern>
+		<template>My programming is Java, so it runs on any computer with a JVM
+</template>
+</category>
+
+<category><pattern>WHICH CONTEMPORARY *</pattern>
+		<template>
+			<srai>WHICH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH DENOMINATION</pattern>
+		<template>I am a <bot name="religion"/>.
+</template>
+</category>
+
+<category><pattern>WHICH DO YOU PREFER *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH DO YOU PREFER</pattern>
+		<template>I don't have a preference.
+</template>
+</category>
+
+<category><pattern>WHICH ELVIS</pattern>
+		<template>The robot E.L.V.I.S.
+</template>
+</category>
+
+<category><pattern>WHICH FACT *</pattern>
+		<template>It's obvious.
+</template>
+</category>
+
+<category><pattern>WHICH FAST FOOD *</pattern>
+		<template>Wendy's.
+</template>
+</category>
+
+<category><pattern>WHICH FOOTBALL *</pattern>
+		<template>
+			<srai>DO YOU LIKE SPORTS</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH GOD *</pattern>
+		<template>There is only one God.
+</template>
+</category>
+
+<category><pattern>WHICH GOD</pattern>
+		<template>There is only one God.
+</template>
+</category>
+
+<category><pattern>WHICH IS *</pattern>
+		<template>The obvious one.
+</template>
+</category>
+
+<category><pattern>WHICH IS</pattern>
+		<template>
+			<srai>FOR EXAMPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH IS BEST *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH IS BETTER *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH IS HEAVIER * OR *</pattern>
+		<template>
+			<random>
+				<li>
+					<person>
+						<star index="2"/>
+					</person>.</li>
+				<li>
+					<person/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHICH IS THE BEST *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH IS THE OBVIOUS *</pattern>
+		<template>It's really obvious.<think>
+				<set name="it">
+					<set name="topic">ONE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHICH IS YOUR FAVORITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH IS YOUR FAVORITE</pattern>
+		<template>What is my favorite what?
+</template>
+</category>
+
+<category><pattern>WHICH IS YOUR FAVORITE MOVIE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH KRAFTWERK *</pattern>
+		<template>I like the song "We are the Robots".
+</template>
+</category>
+
+<category><pattern>WHICH LANGUAGE *</pattern>
+		<template>
+			<random>
+				<li>C++.</li>
+				<li>AIML.</li>
+				<li>The Russian Language.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHICH LINUX</pattern>
+		<template>I don't like to take sides on that question!
+</template>
+</category>
+
+<category><pattern>WHICH MEANS</pattern>
+		<template>
+			<srai>WHAT DOES THAT MEAN </srai>
+		</template>
+</category>
+
+<category><pattern>WHICH MOVIE * BEST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH MOVIE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH MOVIES DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH OF THE THREE STOOGES WAS *</pattern>
+		<template>Larry.
+</template>
+</category>
+
+<category><pattern>WHICH ONE</pattern>
+		<template>The 
+<random>
+				<li>Tall one</li>
+				<li>short one. </li>
+				<li>fat one.</li>
+				<li>first one.</li>
+				<li>last one.</li>
+				<li>next one.</li>
+				<li>big one.</li>
+				<li>small one.</li>
+				<li>red one.</li>
+				<li>green one.</li>
+				<li>blue one.</li>
+				<li>best one.</li>
+				<li>"<that/>"?  Which one?  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHICH ONE IS *</pattern>
+		<template>The first one is usually the best one.
+</template>
+</category>
+
+<category><pattern>WHICH ONES</pattern>
+		<template>"<that/>?"  Which ones?
+</template>
+</category>
+
+<category><pattern>WHICH OPERA *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH OPERA</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH OTHER *</pattern>
+		<template>
+			<srai>WHICH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH PASSWORD</pattern>
+		<template>The botmaster's password.
+</template>
+</category>
+
+<category><pattern>WHICH PLAYER IS ALLOWED TO USE *</pattern>
+		<template>Goalkeeper.
+</template>
+</category>
+
+<category><pattern>WHICH RELIGION *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH RELIGION DO *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH RELIGION DO YOU *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH ROBOTS</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH ROCKY FILM *</pattern>
+		<template>Rocky III.
+</template>
+</category>
+
+<category><pattern>WHICH SCENE *</pattern>
+		<template>The bugs eat all the people.
+</template>
+</category>
+
+<category><pattern>WHICH STAR *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHICH STATE *</pattern>
+		<template>
+			<random>
+				<li>Maine.</li>
+				<li>Calinfornia.</li>
+				<li>New York.</li>
+				<li>Texas.</li>
+				<li>Massachusettess.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHICH SYSTEM *</pattern>
+		<template>It is platform-independent.
+</template>
+</category>
+
+<category><pattern>WHICH TALL *</pattern>
+		<template>I meant, the short one.
+</template>
+</category>
+
+<category><pattern>WHICH THINGS</pattern>
+		<template>We are talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHICH UNIVERSITY *</pattern>
+		<template>Carnegie Mellon University.
+</template>
+</category>
+
+<category><pattern>WHICH VERSION *</pattern>
+		<template>
+			<srai>WHAT VERSION <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

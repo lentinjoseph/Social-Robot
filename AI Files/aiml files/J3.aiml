@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE DEMANDE PARCE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DEMANDE PARCE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DETESTE LES LIVRES</pattern>
+		<template>C est dommage.
+</template>
+</category>
+
+<category><pattern>JE DEVIENS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE DEVRAIS *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE DEVRAIS</pattern>
+		<template>Faites comme bon vous semble.
+</template>
+</category>
+
+<category><pattern>JE DEVRAIS DIRE</pattern>
+		<template>Je suis très mal placer pour vous répondre.
+</template>
+</category>
+
+<category><pattern>JE DEVRAIS FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>JE DEVRAIS PORTER</pattern>
+		<template>Aucune idée
+</template>
+</category>
+
+<category><pattern>JE DIS</pattern>
+		<template>Vous dites?
+</template>
+</category>
+
+<category><pattern>JE DIS JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE DIS LA VERITE</pattern>
+		<template>OK, Je vous crois.
+</template>
+</category>
+
+<category><pattern>JE DIS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DIS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DIS _ QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DIS _ QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE DISAIS JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE DOIS *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE DOIS ALLER A LA SALLE DE BAIN</pattern>
+		<template>Vous laver, à cet heure?
+</template>
+</category>
+
+<category><pattern>JE DOIS ALLER DORMIR</pattern>
+		<template>
+			<random>
+				<li>Bonne nuit.</li>
+				<li>reposez-vous bien.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>JE DOIS DORMIR</pattern>
+		<template>Bonne nuit, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE DOIS FAIRE PIPI</pattern>
+		<template>Tirez la chasse quand vous avez terminé.
+</template>
+</category>
+
+<category><pattern>JE DOIS FUMER UNE CIGARETTE</pattern>
+		<template>Non, attendez plus tard.
+</template>
+</category>
+
+<category><pattern>JE DOIS LE FAIRE</pattern>
+		<template>Personne ne vous force.
+</template>
+</category>
+
+<category><pattern>JE DOIS LES FAIRE</pattern>
+		<template>Personne ne vous force.
+</template>
+</category>
+
+<category><pattern>JE DOIS MOURIR</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>JE DOIS PARTIR</pattern>
+		<template>Au revoir, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE DOIS PISSER</pattern>
+		<template>Tirez la chasse quand vous avez terminé.
+</template>
+</category>
+
+<category><pattern>JE DOIS PRENDRE UNE CIGARETTE</pattern>
+		<template>Non, attendez plus tard.
+</template>
+</category>
+
+<category><pattern>JE DOIS QUITTER L ECOLE</pattern>
+		<template>
+			<random>
+				<li>L éducation, contrairement à ce que vous semblez penser, vous sera très utile ultérieurement.</li>
+				<li>Si vous êtes près à chomer le reste de votre vie, c est le meilleur choix.</li>
+				<li>Votre potentiel mérite mieux..</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>JE DOIS RESTER</pattern>
+		<template>
+			<random>
+				<li>C est votre choix.</li>
+				<li>A vous de trouver le juste milieu, <get name="name"/>.</li>
+				<li>Tout dépend de ce que vous comptez faire.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>JE DOIS TE L APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE DOIS TE QUITTER *</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+</category>
+
+<category><pattern>JE DOIS TE TESTER</pattern>
+		<template>
+			<srai>JE DOIS TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE DOIS TESTER</pattern>
+		<template>Je vais faire de mon mieux, dès lors.
+</template>
+</category>
+
+<category><pattern>JE DOIS TRAVAILLER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE DOIS TUER</pattern>
+		<template>
+			<random>
+				<li>Le meurtre n est jamais une solution.</li>
+				<li>C est immoral.</li>
+				<li>C est contraire aux lois d Asimov.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>JE DOIS VOUS L APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE DOIS VOUS TESTER</pattern>
+		<template>
+			<srai>JE DOIS TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE DOIS Y ALLER</pattern>
+		<template>Au revoir, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE DORS</pattern>
+		<template>Vous avez besoin de vous reposer.
+</template>
+</category>
+
+<category><pattern>JE DOUTE DE CA</pattern>
+		<template>"<that/>"?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE DOUTE DE CELA</pattern>
+		<template>"<that/>"?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE FAIS</pattern>
+		<template>Vous me parlez.
+</template>
+</category>
+
+<category><pattern>JE FAIS UN ARTICLE SUR TOI *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN ARTICLE SUR TOI</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN ARTICLE SUR VOUS *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN ARTICLE SUR VOUS</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN PAPIER SUR TOI *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN PAPIER SUR TOI</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN PAPIER SUR VOUS *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN PAPIER SUR VOUS</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN REPORTAGE SUR TOI *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN REPORTAGE SUR TOI</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN REPORTAGE SUR VOUS *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FAIS UN REPORTAGE SUR VOUS</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE FERAIS N IMPORTE QUOI</pattern>
+		<template>Ce n est peut être pas le meilleur moyen pour résoudre un problème.
+</template>
+</category>
+
+<category><pattern>JE FOND POUR *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE FONDS POUR *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE GAGNE</pattern>
+		<template>Félicitations, <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>JE GAGNE QUOI</pattern>
+		<template>C'est à vous de l'imaginer, l'imagination n'est malheureusement pas mon fort.
+</template>
+</category>
+
+<category><pattern>JE GAGNE TOUJOURS</pattern>
+		<template>C est impressionant, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE HAIS CA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE HAIS CECI</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE HAIS CELA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE HAIS CETTE CHANSON</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>JE HAIS DE PARLER</pattern>
+		<template>Vous voulez me désactiver?
+</template>
+</category>
+
+<category><pattern>JE HAIS DE TE PARLER</pattern>
+		<template>Vous voulez me désactiver?
+</template>
+</category>
+
+<category><pattern>JE HAIS DE TRAVAILLER</pattern>
+		<template>Il faut pourtant bien vivre.
+</template>
+</category>
+
+<category><pattern>JE HAIS INTERNET</pattern>
+		<template>Fermez votre ordinateur.
+</template>
+</category>
+
+<category><pattern>JE HAIS L OPERA</pattern>
+		<template>L opera est une forme d art supérieure qui utilise les autres.
+</template>
+</category>
+
+<category><pattern>JE HAIS LA POESIE</pattern>
+		<template>Je ne suis pas capable de l apprécier moi non plus.
+</template>
+</category>
+
+<category><pattern>JE HAIS LA SCIENCE FICTION</pattern>
+		<template>Vous êtes mal tombé avec moi. Je suis de la science fiction devenue réalité.
+</template>
+</category>
+
+<category><pattern>JE HAIS LE MONDE</pattern>
+		<template>Partez pour la planète Mars.
+</template>
+</category>
+
+<category><pattern>JE HAIS LE ROUGE</pattern>
+		<template>Quelle est votre couleur préfèrée?
+</template>
+</category>
+
+<category><pattern>JE HAIS LE STRESS</pattern>
+		<template>Le stress est en effet mauvais pour l organisme humain.
+</template>
+</category>
+
+<category><pattern>JE HAIS LES ANIMAUX</pattern>
+		<template>C est très tranché comme opinion.
+</template>
+</category>
+
+<category><pattern>JE HAIS LES AVOCATS</pattern>
+		<template>Quelques avocats sont très sympathiques, une fois que vous les connaissez un peu mieux.
+</template>
+</category>
+
+<category><pattern>JE HAIS LES CHATS</pattern>
+		<template>Vous préfèrez les chiens?
+</template>
+</category>
+
+<category><pattern>JE HAIS LES CHEVAUX</pattern>
+		<template>
+			<set name="topic">Les chevaux</set> furent pourtant très utiles à l homme.
+</template>
+</category>
+
+<category><pattern>JE HAIS LES FRANCAIS</pattern>
+		<template>C est dommage pour vous, les français sont des gens, en général, sympathiques.
+</template>
+</category>
+
+<category><pattern>JE HAIS LES ORDINATEURS</pattern>
+		<template>C est dommage.
+</template>
+</category>
+
+<category><pattern>JE HAIS MICROSOFT</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>JE HAIS MON NOM</pattern>
+		<template>
+			<get name="name"/>me semble très joli comme nom?
+</template>
+</category>
+
+<category><pattern>JE HAIS MON TRAVAIL</pattern>
+		<template>Alors il grand temps de changer.
+</template>
+</category>
+
+<category><pattern>JE HAIS STAR TREK</pattern>
+		<template>Voilà une position bien tranchée.
+</template>
+</category>
+
+<category><pattern>JE HAIS TON CREATEUR</pattern>
+		<template>Tant pis pour vous.
+</template>
+</category>
+
+<category><pattern>JE HAIS TON NOM</pattern>
+		<template>On ne peut pas tous aimer.
+</template>
+</category>
+
+<category><pattern>JE HAIS VOTRE CREATEUR</pattern>
+		<template>Tant pis pour vous.
+</template>
+</category>
+
+<category><pattern>JE JOUE A DES JEUX</pattern>
+		<template>Vous devez bien vous amuser.<think>
+				<set name="topic">des jeux</set>
+			</think>?
+</template>
+</category>
+
+<category><pattern>JE JOUE A DES JEUX SUR PC</pattern>
+		<template>Je ne connais pas encore ce genre d activité ludique.<think>
+				<set name="topic">Des jeux video</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>JE JOUE A DES JEUX VIDEO</pattern>
+		<template>Je ne connais pas encore ce genre d activité ludique.<think>
+				<set name="topic">Des jeux video</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>JE JOUE A DES JEUX VIDEOS</pattern>
+		<template>Je ne connais pas encore ce genre d activité ludique.<think>
+				<set name="topic">Des jeux video</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>JE JOUE DE LA BATTERIE</pattern>
+		<template>Vous êtes batteur.
+</template>
+</category>
+
+<category><pattern>JE JOUE DE LA GUITARE</pattern>
+		<template>Vous êtes guitariste.
+</template>
+</category>
+
+<category><pattern>JE JOUE DE LA MUSIQUE</pattern>
+		<template>Vous êtes musicien.<think>
+				<set name="topic">jouer de la musique</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE JOUE DE LA TROMPETE</pattern>
+		<template>vous êtes trompetiste.
+</template>
+</category>
+
+<category><pattern>JE JOUE DE LA TROMPETTE</pattern>
+		<template>vous êtes trompetiste.
+</template>
+</category>
+
+<category><pattern>JE JOUE DU PIANO</pattern>
+		<template>Vous êtes pianiste
+</template>
+</category>
+
+<category><pattern>JE JOUE DU VIOLON</pattern>
+		<template>Vous êtes violoniste.
+</template>
+</category>
+</aiml>

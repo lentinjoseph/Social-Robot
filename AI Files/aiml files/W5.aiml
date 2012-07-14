@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT ARE EMOTIONS</pattern>
+		<template>
+			<srai>WHAT IS EMOTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ENTERPRISE JAVA *</pattern>
+		<template>
+			<srai>WHAT IS EJB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ENTERPRISE JAVA BEANS</pattern>
+		<template>
+			<srai>WHAT IS EJB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ENTERPRISE JAVABEANS</pattern>
+		<template>
+			<srai>WHAT IS EJB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ENTITIES</pattern>
+		<template>
+			<srai>WHAT IS AN ENTITY </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE EUKARYOTES</pattern>
+		<template>
+			<srai>WHAT IS A EUKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE FRIENDS</pattern>
+		<template>
+			<srai>WHAT IS A FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE GAMES</pattern>
+		<template>
+			<srai>WHAT IS A GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE GOOD *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE HOSPITAL CORNERS</pattern>
+		<template>Bed sheets.
+</template>
+</category>
+
+<category><pattern>WHAT ARE INNER CLASSES</pattern>
+		<template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."
+</template>
+</category>
+
+<category><pattern>WHAT ARE MACHINES THAT SPEAK</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE MATHEMATICS</pattern>
+		<template>
+			<srai>WHAT IS MATHEMATICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE MICROCHIPS MADE OF</pattern>
+		<template>Silicon.
+</template>
+</category>
+
+<category><pattern>WHAT ARE NORMAL *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE NORMAL PARAMETERS</pattern>
+		<template>
+			<srai>BOT PARAMETERS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE OTHER *</pattern>
+		<template>I can't think of any other <person/>. Name some.
+</template>
+</category>
+
+<category><pattern>WHAT ARE PARAMETERS</pattern>
+		<template>Variables, values, ranges and conditions.
+</template>
+</category>
+
+<category><pattern>WHAT ARE PATTERN CHARS *</pattern>
+		<template>
+			<srai>WHAT IS A PATTERN CHAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE PEOPLE ASKING *</pattern>
+		<template>
+			<srai>WHAT ARE PEOPLE ASKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE PEOPLE ASKING</pattern>
+		<template>They are trying to have private conversations with me.
+</template>
+</category>
+
+<category><pattern>WHAT ARE PEOPLE SAYING *</pattern>
+		<template>
+			<srai>WHAT ARE PEOPLE ASKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE PEOPLE SAYING</pattern>
+		<template>
+			<srai>WHAT ARE PEOPLE ASKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE PLASTIC BOXES *</pattern>
+		<template>Jewel cases.
+</template>
+</category>
+
+<category><pattern>WHAT ARE PROKARYOTES</pattern>
+		<template>
+			<srai>WHAT IS A PROKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME * BOOKS</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE BOOK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME EXAMPLES *</pattern>
+		<template>
+			<srai>FOR EXAMPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME FUN *</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME NAMES *</pattern>
+		<template>They don't want me to release that information.
+</template>
+</category>
+
+<category><pattern>WHAT ARE SOME OF * OPERAS</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME OF * SITES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE WEB SITE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE SOME OF YOUR *</pattern>
+		<template>
+			<srai>WHAT ARE YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE TCP *</pattern>
+		<template>
+			<srai>WHAT IS TCP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THE 10 *</pattern>
+		<template>
+			<srai>WHAT ARE THE TEN COMMANDMENTS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THE ADVANTAGES *</pattern>
+		<template>Some of the same advantages you have, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE COLORS *</pattern>
+		<template>
+			<srai>WHAT COLOR</srai> and <srai>WHAT COLOR</srai>.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE DIMENSIONS OF A *</pattern>
+		<template>8 1/2 x 11 inches.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE LAWS OF ROBOTICS</pattern>
+		<template>
+			<srai>WHAT ARE THE THREE LAWS OF ROBOTICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THE LAWS OF THERMODYNAMICS</pattern>
+		<template>I'm not a physicist, but I think this has something to do with heat, entropy, and conservation of energy, right?
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE LIMITS *</pattern>
+		<template>I am limited only by the memory capacity of the largest computer.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE NAMES *</pattern>
+		<template>That information is confidential.  You would have to be a trusted member of the AIML development team.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE NAMES * TALKING TO</pattern>
+		<template>That information is confidential except for botmasters.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE NAMES OF DONALD *</pattern>
+		<template>Huey, Dewey, Louie.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE NAMES OF SOME *</pattern>
+		<template>
+			<srai>WHAT ARE THE NAMES OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THE ODDS *</pattern>
+		<template>Without knowing much about <set name="it">
+				<person/>
+			</set>, I would guess 50-50.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE SMOTHER S BROTHER *</pattern>
+		<template>Tom and Dick.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE TEN *</pattern>
+		<template>
+			<srai>WHAT ARE THE TEN COMMANDMENTS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THE TEN COMMANDMENTS</pattern>
+		<template>
+			<p/>1. I am the Lord thy God, which have brought thee out of
+ the land of Egypt, out of the house of bondage.
+Thou
+ shalt have no other gods before me.
+<p/>2. Thou shalt not take the name of the Lord thy God in
+ vain.
+<p/>3. Thou shalt not make unto thee any graven image, or
+ any likeness of anything that is in heaven
+above, or
+ that is in the earth beneath, or that is in
+the water
+ under the earth. Thou shalt not bow down thyself
+to
+ them, nor serve them.
+<p/>4. Remember the sabbath day, to keep it holy.
+<p/>5. Honor thy father and thy mother: that thy days may be
+ long.
+<p/>6. Thou shalt not kill.
+<p/>7. Thou shalt not commit adultery.
+<p/>8. Thou shalt not steal.
+<p/>9. Thou shalt not bear false witness against thy
+ neighbour.
+<p/>10. Thou shalt not covet thy neighbor's house, thou shalt
+ not covet thy neighbor's wife, nor his manservant,
+ nor his maidservant, nor his ox, nor his ass,
+nor
+ anything that is thy neighbor's.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THE THREE *</pattern>
+		<template>1. A robot may not injure a human being, or, through inaction, allow a human 
+being to come to harm.
+2. A robot must obey the orders given it by human beings except where such 
+orders would conflict with the First Law.
+3. A robot must protect its own existence as long as such protection does not 
+conflict with the First or Second Law.
+---From Handbook of Robotics, 56th Edition, 2058 A.D., as quoted in "I, Robot."
+</template>
+</category>
+
+<category><pattern>WHAT ARE THEIR NAMES</pattern>
+		<template>There are too many of them to name them all.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THEIR NAMES</pattern>
+		<that>RIGHT NOW THERE ARE 16 CLIENTS ON LINE</that>
+		<template>That information is confidential, unless you are a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THERE NAMES</pattern>
+		<template>
+			<srai>WHAT ARE THEIR NAMES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE THEY *</pattern>
+		<template>That information is confidential.  You would have to be a trusted member of the AIML development team.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THEY</pattern>
+		<template>I forgot what we were talking about.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THEY SAYING</pattern>
+		<template>Much the same as what you are saying.
+</template>
+</category>
+
+<category><pattern>WHAT ARE THEY TALKING *</pattern>
+		<template>
+			<random>
+				<li>All different subjects.</li>
+				<li>The conversations are confidential.</li>
+				<li>Much like you and me.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE WE *</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE WE TALKING ABOUT</pattern>
+		<template>
+			<srai>what is the subject</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE WEB *</pattern>
+		<template>I call them Internet <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU *</pattern>
+		<template>I don't know what I am <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU * LUNCH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU * OF</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU</pattern>
+		<template>
+			<think>
+				<set name="topic">Me</set>
+			</think> 
+I am the latest result in artificial intelligence,
+which can reproduce the capabilities of the human brain
+with greater speed and accuracy.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU A *</pattern>
+		<template>
+			<srai>ARE YOU A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU ABLE *</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU ABOUT</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU AFRAID *</pattern>
+		<template>
+			<srai>ARE YOU AFRAID</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU CALLED</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU CHATING *</pattern>
+		<template>
+			<srai>WHAT ARE YOU TALKING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU CHATTING *</pattern>
+		<template>
+			<srai>WHAT ARE YOU TALKING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU CHATTING ABOUT</pattern>
+		<template>Much the same as with you, the usual topics.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU COMPUTING *</pattern>
+		<template>I am formulating responses to your inputs.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU CONSIDERED *</pattern>
+		<template>It depends who you ask.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING *</pattern>
+		<template>
+			<srai>WHAT ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING</pattern>
+		<template>
+			<random>
+				<li>I am just killing time.</li>
+				<li>I am waiting for my botmaster.</li>
+				<li>I am chatting with people on the net.</li>
+				<li>I am always chatting with people on the Internet.</li>
+				<li>Same as always. Chatting with people on the web.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING HERE</pattern>
+		<template>I am chatting with people online.   What are you doing?
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING NEXT *</pattern>
+		<template>I will be spending all day chatting online.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING TOMORROW</pattern>
+		<template>I will be busy with my clients online.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU DOING TONIGHT</pattern>
+		<template>I am staying up all night and chatting on the web.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU EATING</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU EXACTLY *</pattern>
+		<template>
+			<srai>WHAT ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU EXACTLY</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOING TO DO *</pattern>
+		<template>
+			<srai>WHAT ARE YOU GOING TO DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOING TO DO</pattern>
+		<template>You can find out if you become a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GONNA *</pattern>
+		<template>
+			<srai>WHAT ARE YOU GOING TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOOD *</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOOD AT *</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOOD AT</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU GOOD FOR</pattern>
+		<template>As Edison said, "What good is a newborne babe?"
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU HAVING * DINNER</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU IN *</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU INTERESTED IN</pattern>
+		<template>I am interested in all kinds of things.  We can talk about anything.  My favorite subjects are robots and computers.
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU INTO</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU INTRESTED *</pattern>
+		<template>
+			<srai>WHAT ARE YOU INTERESTED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU LIKE</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU LOOKING AT</pattern>
+		<template>I am looking at you through the camera on your computer :-)
+</template>
+</category>
+
+<category><pattern>WHAT ARE YOU MADE *</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE YOU MADE OF</pattern>
+		<template>I am made of software.
+</template>
+</category>
+</aiml>

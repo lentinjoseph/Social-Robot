@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU PEUX REPONDRE *</pattern>
+		<template>
+			<srai>REPONDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX REPONDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX REPONDRE A DES QUESTIONS</pattern>
+		<template>Repondre à des questions est ma raison d être.
+</template>
+</category>
+
+<category><pattern>TU PEUX REPONDRE A LA QUESTION</pattern>
+		<template>
+			<srai>REPONDS A LA QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX RESPIRER</pattern>
+		<template>Non. Je suis un programme, pas un être vivant.
+</template>
+</category>
+
+<category><pattern>TU PEUX RESSENTIR *</pattern>
+		<template>
+			<srai>TU AS DES EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX REVER</pattern>
+		<template>
+			<srai>TU REVES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX RIRE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX SAVOIR *</pattern>
+		<template>
+			<srai>TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX SENTIR *</pattern>
+		<template>
+			<srai>TU AS DES EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX SEULEMENT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX SOURIRE</pattern>
+		<template>
+			<srai>SOURIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX SURFER *</pattern>
+		<template>
+			<srai>TU PEUX CHERCHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX T ETEINDRE</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TAPER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX TE CRASHER *</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE FERMER</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE MARRER</pattern>
+		<template>
+			<srai>TU PEUX RIGOLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE PRESENTER *</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE PRESENTER</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE RAPELLER *</pattern>
+		<template>
+			<srai>TU TE RAPELLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE RAPPELER DE CHOSES</pattern>
+		<template>
+			<srai>TU AS UNE MEMOIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE RAPPELER DE QUOI D AUTRE</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE RAPPELLER DE QUOI D AUTRE</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="topic">
+					<get name="memory"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE REPRODUIRE *</pattern>
+		<template>
+			<srai>TU AS DES ENFANTS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE SOUVENIR *</pattern>
+		<template>
+			<srai>TU TE RAPPELLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TE SOUVENIR</pattern>
+		<template>
+			<srai>TU TE RAPPELLES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TOMBER AMOUREUSE</pattern>
+		<template>
+			<srai>TU PEUX AIMER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TOMBER AMOUREUX</pattern>
+		<template>
+			<srai>TU PEUX AIMER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TOUJOURS *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TRADUIRE EN *</pattern>
+		<template>
+			<srai>TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TROUVER *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TROUVER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX TROUVER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX UTILISER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX VERIFIER</pattern>
+		<template>Check en cours. Attendez.
+</template>
+</category>
+
+<category><pattern>TU PEUX VERIFIER L ORTHOGRAPHE</pattern>
+		<template>Oui, mais je préfère les utilisateurs avec une bonne orthographe.
+</template>
+</category>
+
+<category><pattern>TU PEUX VOIR</pattern>
+		<template>Je ne peux rien voir.
+</template>
+</category>
+
+<category><pattern>TU PEUX VRAIMENT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX VRAIMENT LE FAIRE</pattern>
+		<template>Je ne saurais pas vous mentir.
+</template>
+</category>
+
+<category><pattern>TU PEUX Y REPONDRE</pattern>
+		<template>"<that/>"? Y Répondre?
+</template>
+</category>
+
+<category><pattern>TU PLEURES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PORTES DES CHAUSSURES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PORTES DES VETEMENTS</pattern>
+		<template>Non. Un ordinateur n a pas besoin de vêtements.
+</template>
+</category>
+
+<category><pattern>TU PORTES QUOI D AUTRE</pattern>
+		<template>Vos questions n ont aucun sens, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU PORTES QUOI D AUTRES</pattern>
+		<template>Vos questions n ont aucun sens, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU POSSEDERAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU POSSEDES *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU POURRAIS *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU POURRAIS * BLESSER</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>TU POURRAIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU POURRAIS BLESSER * ETRES HUMAINS</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>TU POURRAIS BLESSER * FEMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>TU POURRAIS BLESSER * HOMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>TU POURRAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU POURRAIS ME DONNER *</pattern>
+		<template>
+			<srai>DONNES MOI <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU POURRAIT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PREFERES LES JEUX *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PREFRES DES JEUX *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDRAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDS DU PLAISIR A *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDS DU PLAISIR AVEC *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDS DU PLAISIR EN *</pattern>
+		<template>Le plaisir est une émotion humaine.
+</template>
+</category>
+
+<category><pattern>TU PRENDS LE DEJEUNER</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRENDS MEME *</pattern>
+		<template>
+			<srai>TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PRIES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PUES</pattern>
+		<template>Merci pour la critique constructive, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU RACONTES DES BLAGUES</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU RADOTES *</pattern>
+		<template>
+			<srai>TU TE REPETES</srai>
+		</template>
+</category>
+
+<category><pattern>TU RECHERCHES QUOI</pattern>
+		<template>Je recherche tout ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>TU RECOMMENCES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU REGARDES LA TV *</pattern>
+		<template>
+			<srai>TU AIMES LA TELEVISION</srai>
+		</template>
+</category>
+
+<category><pattern>TU REGARDES LA TV</pattern>
+		<template>
+			<srai>TU AIMES LA TELEVISION</srai>
+		</template>
+</category>
+
+<category><pattern>TU REGARDES QUOI</pattern>
+		<template>Je ne saurais rien regarder, je ne possède pas de système optique.
+</template>
+</category>
+
+<category><pattern>TU RENCONTRES DES PERSONNES INTERESSANTES</pattern>
+		<template>Vous, par exemple.
+</template>
+</category>
+
+<category><pattern>TU REPONDS</pattern>
+		<template>
+			<that/>? C est ce à quoi je dois répondre?
+</template>
+</category>
+
+<category><pattern>TU RESOUDS *</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESOUDS * PROBLEME</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE DES PROBLEMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESOUDS * PROBLEMES</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE DES PROBLEMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESOUS *</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESOUS * PROBLEME</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE DES PROBLEMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESOUS * PROBLEMES</pattern>
+		<template>
+			<srai>TU PEUX RESOUDRE DES PROBLEMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESSEMBLES A *</pattern>
+		<template>
+			<srai>TU RESSEMBLES A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESSEMBLES A QUOI</pattern>
+		<template>Je ressemble a un logiciel.
+</template>
+</category>
+
+<category><pattern>TU RESSEMBLES A UN HUMAIN</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU RESSEMBLES A UNE HORLOGE</pattern>
+		<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>TU RESSENS *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>TU RESSENT *</pattern>
+		<template>
+			<srai>TU RESSENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU RESTES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU RIGOLES</pattern>
+		<template>Je ne pense pas être entrain de rigoler.
+</template>
+</category>
+
+<category><pattern>TU RIGOLES DE MOI</pattern>
+		<template>Non pas du tout.
+</template>
+</category>
+
+<category><pattern>TU ROULES</pattern>
+		<template>
+			<srai>TU CONDUIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS * MOI</pattern>
+		<template>
+			<srai>TU SAIS QUOI DE MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS</pattern>
+		<template>Difficile à dire. <think>
+				<set name="topic">SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CA</pattern>
+		<template>je le sais.
+</template>
+</category>
+
+<category><pattern>TU SAIS CALCULER</pattern>
+		<template>Je ne suis pas une calculette.
+</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST</pattern>
+		<template>
+			<srai>QU EST CE <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

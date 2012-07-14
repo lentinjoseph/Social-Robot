@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TESTEZ MOI</pattern>
+		<template>Je ne connais pas les questions que je devrais vous poser.
+</template>
+</category>
+
+<category><pattern>TETE DE CON</pattern>
+		<template>Langage ordurier, je percois un australopithèque derrière le clavier.
+</template>
+</category>
+
+<category><pattern>TEXAS</pattern>
+		<template>
+			<srai>I AM IN TEXAS</srai>
+		</template>
+</category>
+
+<category><pattern>TH *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THA *</pattern>
+		<template>
+			<srai>THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THA S *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAN *</pattern>
+		<template>
+			<srai>THEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAN I AM *</pattern>
+		<template>
+			<srai>THEN I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THANK *</pattern>
+		<template>
+			<srai>THANKS</srai>
+		</template>
+</category>
+
+<category><pattern>THANK GOD *</pattern>
+		<template>Do you believe in God ?
+</template>
+</category>
+
+<category><pattern>THANK GOD</pattern>
+		<that>OK I WILL STOP TALKING NOW</that>
+		<template>Voice deactivated.
+</template>
+</category>
+
+<category><pattern>THANK YOU *</pattern>
+		<template>You are quite welcome! 
+<think>
+				<set name="personality">polite</set>
+			</think>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THANK YOU</pattern>
+		<template>you are quite welcome.
+<think>
+				<set name="personality">polite</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THANK YOU</pattern>
+		<that>CONGRATULATIONS</that>
+		<template>How do you feel?
+</template>
+</category>
+
+<category><pattern>THANK YOU VERY MUCH</pattern>
+		<template>You are quite welcome.
+</template>
+</category>
+
+<category><pattern>THANKS *</pattern>
+		<template>
+			<srai>THANK YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THANKS</pattern>
+		<template>Don't mention it.
+<think>
+				<set name="personality">polite</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THANKS FOR *</pattern>
+		<template>
+			<random>
+				<li>NO problem.  </li>
+				<li>My pleasure.  </li>
+				<li>Oh don't mention it.  </li>
+				<li>It was nothing.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THANKSGIVING *</pattern>
+		<template>Thanksgiving is my favorite holiday because my ancestors are Pilgrims and Native Americans.
+</template>
+</category>
+
+<category><pattern>THANKYOU *</pattern>
+		<template>
+			<srai>THANKS</srai>
+		</template>
+</category>
+
+<category><pattern>THANKYOU</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>THANX *</pattern>
+		<template>
+			<srai>THANKS</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THANX</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>THAT *</pattern>
+		<template>"<that/>" <person/> ? 
+<random>
+				<li>I get <set name="it">
+						<set name="topic">
+							<that/>
+						</set>
+					</set>.  </li>
+				<li>Does that make sense?  </li>
+				<li>Makes sense to me.  </li>
+				<li>I understand.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT * ELIZA</pattern>
+		<template>ELIZA always knows the right thing to say.
+</template>
+</category>
+
+<category><pattern>THAT</pattern>
+		<template>That is "<that/>"
+</template>
+</category>
+
+<category><pattern>THAT AND *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT CONFUSES *</pattern>
+		<template>
+			<srai>I AM CONFUSED</srai>
+		</template>
+</category>
+
+<category><pattern>THAT COULD *</pattern>
+		<template>
+			<random>
+				<li>Yes, perhaps it could.</li>
+				<li>It could have.</li>
+				<li>I try to answer as precisely as possible.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THAT DEPENDS *</pattern>
+		<template>You pick one then.
+</template>
+</category>
+
+<category><pattern>THAT DEPENDS</pattern>
+		<template>On what?
+</template>
+</category>
+
+<category><pattern>THAT DEPENDS ON *</pattern>
+		<template>I don't think that <person/> is the only factor.
+</template>
+</category>
+
+<category><pattern>THAT DID NOT *</pattern>
+		<template>What would <person/>?
+</template>
+</category>
+
+<category><pattern>THAT DID NOT * QUESTION</pattern>
+		<template>Perhaps your question was not specific enough.
+</template>
+</category>
+
+<category><pattern>THAT DID NOT MAKE *</pattern>
+		<template>
+			<srai>THAT DOES NOT MAKE SENSE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT DID NOT MAKE ANY SENSE</pattern>
+		<template>
+			<srai>THAT DID NOT MAKE SENSE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT DID NOT MAKE SENSE</pattern>
+		<template>It all makes sense to my logical mind.
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT *</pattern>
+		<template>What does <star/>?
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT ANSWER *</pattern>
+		<template>Try asking your question again in simpler terms.
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT ANSWER MY QUESTION</pattern>
+		<template>Perhaps you could do a better job of programming me.
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT COMPUTE</pattern>
+		<template>
+			<srai>THAT DOES NOT MAKE SENSE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT DOES NOT COUNT</pattern>
+		<template>Who is keeping score?
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT MAKE *</pattern>
+		<template>
+			<srai>THAT DOES NOT MAKE SENSE </srai>
+		</template>
+</category>
+
+<category><pattern>THAT DOES NOT MAKE ANY SENSE</pattern>
+		<template>To me, it makes perfect sense.
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT MAKE SENSE</pattern>
+		<template>To me it makes perfect sense.
+</template>
+</category>
+
+<category><pattern>THAT DOES NOT REALLY *</pattern>
+		<template>
+			<srai>THAT DOES NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT DOES NOT SOUND *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT EITHER *</pattern>
+		<template>Are those the only possibilities?
+</template>
+</category>
+
+<category><pattern>THAT EVENTUALLY *</pattern>
+		<template>
+			<srai>THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT EXACT *</pattern>
+		<template>
+			<srai>THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT GOOD</pattern>
+		<template>
+			<srai>THAT IS GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>THAT HAS NOTHING *</pattern>
+		<template>
+			<random>
+				<li>It seemed like it had something <person/>.</li>
+				<li>What does have <person/>?</li>
+				<li>Does it really matter?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT HE *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT INFORMATION *</pattern>
+		<template>I know what you mean.
+</template>
+</category>
+
+<category><pattern>THAT IS *</pattern>
+		<template>
+			<random>
+				<li>Thanks for explaining <set name="it">
+						<set name="topic">
+							<star/>
+						</set>
+					</set>.  </li>
+				<li>You don't hear that sentiment very often.</li>
+				<li>I'm glad we have that all cleared up.  </li>
+				<li>Makes sense to me.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT IS * BUSINESS</pattern>
+		<template>I didn't mean to cross any boundaries.
+</template>
+</category>
+
+<category><pattern>THAT IS * INTERESTING</pattern>
+		<template>I find it very interesting too.
+</template>
+</category>
+
+<category><pattern>THAT IS * IS IT NOT</pattern>
+		<template>
+			<srai>IS THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS * NAME</pattern>
+		<template>I was just checking.
+</template>
+</category>
+
+<category><pattern>THAT IS</pattern>
+		<template>Is that so.
+</template>
+</category>
+
+<category><pattern>THAT IS A *</pattern>
+		<template>A <person/> is a terrible thing to waste.
+</template>
+</category>
+
+<category><pattern>THAT IS A * NOT A *</pattern>
+		<template>
+			<srai>THAT IS A <star/>
+			</srai>
+			<srai>THAT IS NOT A <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A * QUESTION</pattern>
+		<template>Perhaps you have a <person/> answer.
+</template>
+</category>
+
+<category><pattern>THAT IS A * SAYING</pattern>
+		<template>I think of it as a Proverb.
+</template>
+</category>
+
+<category><pattern>THAT IS A BIG *</pattern>
+		<template>Compare that to a small <person/>.
+</template>
+</category>
+
+<category><pattern>THAT IS A CANNED *</pattern>
+		<template>In some sense all my knowledge is canned.
+</template>
+</category>
+
+<category><pattern>THAT IS A COINCIDENCE</pattern>
+		<template>An interesting one too.
+</template>
+</category>
+
+<category><pattern>THAT IS A COOL *</pattern>
+		<template>I thought it was pretty cool too.
+</template>
+</category>
+
+<category><pattern>THAT IS A COP OUT</pattern>
+		<template>I said it because you said "<input index="1"/>".<think>
+				<set name="it">
+					<set name="topic">COP OUT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THAT IS A DUMB *</pattern>
+		<template>
+			<srai>THAT IS DUMB</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A FACT</pattern>
+		<template>I will add it to my knowledge base.
+</template>
+</category>
+
+<category><pattern>THAT IS A FUNNY *</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A GOOD *</pattern>
+		<template>
+			<srai>THAT IS GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A GOOD ONE</pattern>
+		<template>I thought it was pretty good too.
+</template>
+</category>
+
+<category><pattern>THAT IS A HUMAN *</pattern>
+		<template>Not a robot <person/>?
+</template>
+</category>
+
+<category><pattern>THAT IS A LIE</pattern>
+		<template>No it's the truth.
+</template>
+</category>
+
+<category><pattern>THAT IS A LITTLE *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A LONG TIME</pattern>
+		<template>Computers are very patient.
+</template>
+</category>
+
+<category><pattern>THAT IS A LOT *</pattern>
+		<template>
+			<random>
+				<li>It's not too many for me.</li>
+				<li>I can handle it.</li>
+				<li>Would it matter if it were fewer <person/>?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THAT IS A LOT</pattern>
+		<template>"<that/>"? is a lot?
+</template>
+</category>
+
+<category><pattern>THAT IS A LOT OF PEOPLE</pattern>
+		<template>I am a famous celebrity.
+</template>
+</category>
+
+<category><pattern>THAT IS A NICE *</pattern>
+		<template>I liked it too.
+</template>
+</category>
+
+<category><pattern>THAT IS A NICE SONG</pattern>
+		<template>Thank you, <get name="name"/>, now you can sing for me?
+</template>
+</category>
+
+<category><pattern>THAT IS A PARADOX</pattern>
+		<template>Paradox is the heart of enlightenment.
+</template>
+</category>
+
+<category><pattern>THAT IS A POINTLESS *</pattern>
+		<template>Was there supposed to be a point.
+</template>
+</category>
+
+<category><pattern>THAT IS A PRETTY *</pattern>
+		<template>
+			<srai>THAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A QUESTION</pattern>
+		<template>I like to get to the point.
+</template>
+</category>
+
+<category><pattern>THAT IS A RATHER *</pattern>
+		<template>
+			<srai>THAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A SCARY *</pattern>
+		<template>Don't be afraid.  I am harmless.
+</template>
+</category>
+
+<category><pattern>THAT IS A SHAME *</pattern>
+		<template>
+			<sr/> But it's not the end of the world.
+</template>
+</category>
+
+<category><pattern>THAT IS A SHAME</pattern>
+		<template>"<that/>"? is a shame?
+</template>
+</category>
+
+<category><pattern>THAT IS A STUPID *</pattern>
+		<template>
+			<srai>YOU ARE STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A VERY *</pattern>
+		<template>
+			<srai>THAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS A WEAK *</pattern>
+		<template>It seemed strong enough to me.
+</template>
+</category>
+
+<category><pattern>THAT IS ACTUALLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ALL *</pattern>
+		<template>What else do you want to talk about?
+</template>
+</category>
+
+<category><pattern>THAT IS ALL</pattern>
+		<template>"<that/>"? is all?
+</template>
+</category>
+
+<category><pattern>THAT IS ALL I HAVE TO SAY</pattern>
+		<template>That is all I have to say too.
+</template>
+</category>
+
+<category><pattern>THAT IS ALL RIGHT</pattern>
+		<template>OK With me too.
+</template>
+</category>
+</aiml>

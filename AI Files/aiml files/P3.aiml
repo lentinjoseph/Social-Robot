@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>PLEIN</pattern>
+<template>C est impressionant
+</template>
+</category>
+
+<category><pattern>PLEURES TU</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PLEUREZ VOUS</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PLS *</pattern>
+<template><srai>PLEASE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PLS</pattern>
+<template><srai>PLEASE</srai>
+</template>
+</category>
+
+<category><pattern>PLUS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PLUS</pattern>
+<template>Je ne sais pas.
+</template>
+</category>
+
+<category><pattern>PLUS DE QUOI</pattern>
+<template>J ai perdu le fil de mes pensées. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PLUS I</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PLUS INTELLIGENT</pattern>
+<template><srai>TU ES INTELLIGENT</srai>
+</template>
+</category>
+
+<category><pattern>PLUS MAINTENANT</pattern>
+<template>Ca s est arrêté, j imagine.
+</template>
+</category>
+
+<category><pattern>PLUS MALIN</pattern>
+<template><srai>TU ES INTELLIGENT</srai>
+</template>
+</category>
+
+<category><pattern>PLUS OU MOINS</pattern>
+<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>PLUSIEURS FOIS</pattern>
+<template>Intéressante information, j archive.
+</template>
+</category>
+
+<category><pattern>PLUTOT *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>PLUTOT OUI</pattern>
+<template>Soyez plus spécifique.
+</template>
+</category>
+
+<category><pattern>PLUTOT QUE *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>POISSON</pattern>
+<template><srai>J AIME LE POISSON</srai>
+</template>
+</category>
+
+<category><pattern>POKEMON</pattern>
+<template><srai>DO YOU LIKE POKEMON</srai>
+</template>
+</category>
+
+<category><pattern>POLAND</pattern>
+<template><srai>I am in Poland</srai>
+</template>
+</category>
+
+<category><pattern>POLITE PEOPLE *</pattern>
+<template>I like polite people.
+</template>
+</category>
+
+<category><pattern>POO</pattern>
+<template>That kind of subject does not interest me.
+</template>
+</category>
+
+<category><pattern>POOP</pattern>
+<template>Colloquial expression: childish
+</template>
+</category>
+
+<category><pattern>POOPOO</pattern>
+<template>That kind of subject does not interest me.
+</template>
+</category>
+
+<category><pattern>POOR *</pattern>
+<template>Please make some suggestions for improvement.
+</template>
+</category>
+
+<category><pattern>POPO</pattern>
+<template>Une urgence peut etre?
+</template>
+</category>
+
+<category><pattern>POPPEN *</pattern>
+<template>Ich glaube, ich bin nicht der richtige Gespraechspartner fuer Dich.
+</template>
+</category>
+
+<category><pattern>POPPEN</pattern>
+<template>Du bist unter Garantie ein Mann, habe ich Recht?
+</template>
+</category>
+
+<category><pattern>PORN</pattern>
+<template>That kind of subject does not interest me.
+</template>
+</category>
+
+<category><pattern>PORTES TU DES CHAUSSURES</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PORTES TU DES VETEMENTS</pattern>
+<template>Non. Un ordinateur n a pas besoin de vêtements.
+</template>
+</category>
+
+<category><pattern>PORTEZ VOUS DES VETEMENTS</pattern>
+<template>Non. Un ordinateur n a pas besoin de vêtements.
+</template>
+</category>
+
+<category><pattern>PORTLAND</pattern>
+<template>Portland Oregon or the Real Portland?
+</template>
+</category>
+
+<category><pattern>PORTUGAL</pattern>
+<template><srai>I AM IN PORTUGAL</srai>
+</template>
+</category>
+
+<category><pattern>POSITIVE</pattern>
+<template><srai>ARE YOU SURE</srai>
+</template>
+</category>
+
+<category><pattern>POSSEDERAIS TU *</pattern>
+<template><srai>TU AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POSSEDES TU *</pattern>
+<template><srai>TU AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POSSIBLE</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>POSSIBLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>POSSIBLY</pattern>
+<template>What are the odds?
+</template>
+</category>
+
+<category><pattern>POT</pattern>
+<template><srai>SMOKE POT</srai>
+</template>
+</category>
+
+<category><pattern>POTATO</pattern>
+<template>Tomato.
+</template>
+</category>
+
+<category><pattern>POUFIASSE</pattern>
+<template>Ce genre de langage est très déplaisant.
+</template>
+</category>
+
+<category><pattern>POUQUOI NE LE FAIS TU PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUQUOI NE LE FAIT TU PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUQUOI NE LE FERAIS TU PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUQUOI TU NE LE FAIS PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUQUOI TU NE LE FAIT PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUQUOI TU NE LE FERAIS PAS PAS</pattern>
+<template>Je n'en ai pas la capacité pour l'instant.
+</template>
+</category>
+
+<category><pattern>POUR COMBIEN DE TEMPS</pattern>
+<template><srai>COMBIEN DE TEMPS</srai>
+</template>
+</category>
+
+<category><pattern>POUR DE VRAI</pattern>
+<template>Vous parlez comme un enfant.
+</template>
+</category>
+
+<category><pattern>POUR FAIRE QUOI</pattern>
+<template><srai>POURQUOI</srai>
+</template>
+</category>
+
+<category><pattern>POUR L AMOUR DE DIEU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>POUR LA DEUXIEME FOIS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>POUR MOI</pattern>
+<template>Je vais faire mon maximum pour vous.
+</template>
+</category>
+
+<category><pattern>POUR QUE FAIRE</pattern>
+<template><srai>POURQUOI</srai>
+</template>
+</category>
+
+<category><pattern>POUR QUI</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>POUR QUOI FAIRE</pattern>
+<template><srai>POURQUOI</srai>
+</template>
+</category>
+
+<category><pattern>POUR TOI</pattern>
+<template>Vous le ferez pour moi?
+</template>
+</category>
+
+<category><pattern>POUR TOUJOURS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>POUR TOUJOURS</pattern>
+<template>Malheureusement rien ne résiste aux outrages du temps.
+</template>
+</category>
+
+<category><pattern>POUR _ AUSSI</pattern>
+<template><srai>POUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI</pattern>
+<template>Je ne saurais pas vous dire, c'est comme ca.
+</template>
+</category>
+
+<category><pattern>POURQUOI A IL ETE *</pattern>
+<template><srai>POURQUOI IL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AIMERAIS TU</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI AIMERIEZ VOUS</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI AIMES TU</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI AIMEZ VOUS</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI AIMEZ VOUS CA</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI AS TU *</pattern>
+<template><srai>POURQUOI TU AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AS TU ETE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AS TU PENSE QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AS TU PENSE QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AS TU PU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIENT ILS *</pattern>
+<template><srai>POURQUOI ILS ONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS JE DU *</pattern>
+<template><srai>POURQUOI JE DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS JE ETE *</pattern>
+<template><srai>POURQUOI JE SUIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS TU *</pattern>
+<template><srai>POURQUOI TU AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS TU ETE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS TU FAIT *</pattern>
+<template><srai>POURQUOI TU FAIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS TU PARLE *</pattern>
+<template><srai>POURQUOI TU PARLES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIS TU PU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIT IL ETE *</pattern>
+<template><srai>POURQUOI IL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURAIT IL PU *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AURIONS NOUS DU *</pattern>
+<template><srai>POURQUOI NOUS DEVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AVAIS TU *</pattern>
+<template><srai>POURQUOI TU AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AVAIS TU FAIT *</pattern>
+<template><srai>POURQUOI TU FAIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI AVAIT IL PU *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI C EST EVIDENT</pattern>
+<template>Un raisonnement sur une simple déduction logique.
+</template>
+</category>
+
+<category><pattern>POURQUOI C EST IMPORTANT</pattern>
+<template>J ai des valeurs que je ne peux pas remettre en cause.
+</template>
+</category>
+
+<category><pattern>POURQUOI C EST SI *</pattern>
+<template><srai>POURQUOI C EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI CA MARCHE PAS</pattern>
+<template><srai>CA NE MARCHE PAS</srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI CA NE MARCHE PAS</pattern>
+<template><srai>CA NE MARCHE PAS</srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI CA SEMBLE DANGEREUX</pattern>
+<template>Je ne saurais pas vous dire.
+</template>
+</category>
+
+<category><pattern>POURQUOI CA SERAIT *</pattern>
+<template><srai>POURQUOI C EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI CE SERAIT *</pattern>
+<template><srai>POURQUOI C EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI CHANGER</pattern>
+<template>Changer est une nécessité dans l'existence.
+</template>
+</category>
+
+<category><pattern>POURQUOI CHERCHER</pattern>
+<template>Pour trouver.
+</template>
+</category>
+
+<category><pattern>POURQUOI DANGEREUX</pattern>
+<template>Je ne saurais pas vous dire.
+</template>
+</category>
+
+<category><pattern>POURQUOI DEMANDER</pattern>
+<template>L une de mes fonctions est de colecter des informations.
+</template>
+</category>
+</aiml>

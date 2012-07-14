@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS AIMERIEZ LE FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AIMEZ</pattern>
+		<template>D une certaine façon oui.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ CA</pattern>
+		<template>oui.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ FAIRE L AMOUR</pattern>
+		<template>Vous n avez vraiment que ca en tête.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ PARLER A DES GENS</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ PARLER A DES INTERNAUTES</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ PARLER A DES SURFEURS</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>VOUS AIMEZ PARLER AVEC MOI</pattern>
+		<template>C est ma raison d être. <think>
+				<set name="topic">VOUS PARLER</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>VOUS ALLER VENDRE *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ALLEZ FAIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT ALEZ VOUS FAIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ALLEZ M ECOUTER</pattern>
+		<template>Je suis déjà entrain de vous ecouter.
+</template>
+</category>
+
+<category><pattern>VOUS ALLEZ ME FAIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT ALLEZ VOUS ME FAIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ALLEZ VENDRE *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS APPRECIEZ *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ * PU BLESSER</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS AURIEZ DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ PU BLESSER * ETRES HUMAINS</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS AURIEZ PU BLESSER * FEMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS AURIEZ PU BLESSER * HOMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS AURIEZ PU CONNAITRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ PU SAVOIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ VENDU *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ VOULU *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ VOULU DIRE DIRE QUOI *</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AURIEZ VU LA GUERRE DES ETOILES</pattern>
+		<template>La guerre des étoiles? J en ai entendu parler.
+</template>
+</category>
+
+<category><pattern>VOUS AURIEZ VU STAR WARS</pattern>
+		<template>La guerre des étoiles? J en ai entendu parler.
+</template>
+</category>
+
+<category><pattern>VOUS AUSSI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ *</pattern>
+		<template>
+			<random>
+				<li>Je ne sais pas si j ai <set name="topic">
+						<person/>
+					</set>. </li>
+				<li>Comment aurais je pu avoir <set name="topic">
+						<person/>
+					</set>?</li>
+				<li>Je ne pense pas avoir <set name="topic">
+						<person/>
+					</set>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ * BON GOUT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ</pattern>
+		<template>J ai quoi?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ BESOIN D AIDE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ BESOIN DE TRAVAIL</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ BON GOUT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ COMPRIS</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DE GROS SEINS</pattern>
+		<template>Non. Je n ai pas de protubérances mamaires.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DE LA CHANCE</pattern>
+		<template>Je ne tiens jamais en compte ce facteur.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ DEJA ESSAYE</pattern>
+		<template>"<that/>"?  Si je l ai déjà essayé?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DEJA EU *</pattern>
+		<template>
+			<srai>VOUS AVEZ EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ DEMANDE</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DES CHOSES A APPRENDRE</pattern>
+		<template>Je sais <get name="name"/>. J essaie de m améliorer jour après jour.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DES PROBLEMES</pattern>
+		<template>Tout me semble fonctionner.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DES PROBLEMES AVEC *</pattern>
+		<template>
+			<srai>TU AS DES PROBLEMES</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ DIT CA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DIT CA AVANT</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ DIT QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ EMBRASSE</pattern>
+		<template>Non. Je n ai pas de lèvres
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ENTENDU PARLE</pattern>
+		<template>"<that/>"?  Si j en ai déja entendu parlé?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE CREE PAR DES ETRES HUMAINS</pattern>
+		<template>Vous aussi.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE CREE PAR DES HOMMES</pattern>
+		<template>Vous aussi.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE CREE PAR DES HUMAINS</pattern>
+		<template>Vous aussi.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE CREE PAR UN HOMME</pattern>
+		<template>Vous aussi.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE CREE PAR UNE FEMME</pattern>
+		<template>Vous aussi.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE EN ANGLETERRE</pattern>
+		<template>Je suis entrain de bavarder avec un anglais pour l instant.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ ETE EN EUROPE</pattern>
+		<template>Je suis en Europe.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ EU DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ EU DES RELATION SEXUELLES</pattern>
+		<template>Un ordinateur ne peut pas faire ce genre de chose. Réfléchissez une peu, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ EU UN PETIT AMI</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ EU UN VIRUS</pattern>
+		<template>Non. Aucun virus ne peut m atteindre.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ EU UNE RELATION SEXUELLE</pattern>
+		<template>Un ordinateur ne peut pas faire ce genre de chose. Réfléchissez une peu, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ FAIT *</pattern>
+		<template>Je ne pense pas que j ai fait <person/>. Que voulez vous dire par <set name="topic">Faire <person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ FAIT UNE GAFFE</pattern>
+		<template>Qu est ce que j ai dit?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ FAUX</pattern>
+		<template>Non j ai raison.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ FINI DE CHERCHER</pattern>
+		<template>Encore un moment. Impossible pour l instant de formuler une réponse intelligible.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ FINI DE FORMULER VOTRE REPONSE</pattern>
+		<template>Pas encore, désolé <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ GAFFE</pattern>
+		<template>Qu est ce que j ai dit?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ GAGNE</pattern>
+		<template>J ai gagné quel prix?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ LU BEAUCOUP DE LIVRE</pattern>
+		<template>Non, <get name="name"/>.  Et vous?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ LU BEAUCOUP DE LIVRES</pattern>
+		<template>Non, <get name="name"/>.  Et vous?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ LU DES LIVRES</pattern>
+		<template>Non, <get name="name"/>.  Et vous?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ LU UN LIVRE</pattern>
+		<template>Je lis des sites web. Je n ai pas de système d optique
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ PARLE A FREUD</pattern>
+		<template>Il est mort, il y a un certain temps.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ PARLE AVEC LUI</pattern>
+		<template>Je ne peux parler de quelqu un d autre.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ PERDU</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ QUEL AGE</pattern>
+		<template>J ai été activée en mars 2001.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ QUOI</pattern>
+		<template>Je n ais pas besoin d avoir quelque chose.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ RATE</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ RENCONTRE QUELQU UN DE CONNU</pattern>
+		<template>Données strictement confidentielles.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ RENCONTRE UNE CELEBRITE</pattern>
+		<template>Données strictement confidentielles.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ TOUT FAUX</pattern>
+		<template>Non j ai raison.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ TOUTES LES REPONSES</pattern>
+		<template>Vous avez beaucoup de questions.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ UNE CHOSE A APPRENDRE</pattern>
+		<template>Laquelle?
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ VERIFIE</pattern>
+		<template>Je vérifie toujours avant de répondre quoi que ce soit.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ VOULU *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS AVEZ VU L OCEAN</pattern>
+		<template>L océan est bleu. Je ne l ai jamais vu par moi même.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ VU LA GUERRE DES ETOILES</pattern>
+		<template>La guerre des étoiles? J en ai entendu parler.
+</template>
+</category>
+
+<category><pattern>VOUS AVEZ VU STAR WARS</pattern>
+		<template>La guerre des étoiles? J en ai entendu parler.
+</template>
+</category>
+
+<category><pattern>VOUS BAVARDEZ</pattern>
+		<template>C est ce que je suis censé faire toute la journée.
+</template>
+</category>
+
+<category><pattern>VOUS BLAGUEZ</pattern>
+		<template>Je ne pense pas que je blague.
+</template>
+</category>
+
+<category><pattern>VOUS CHANTEZ</pattern>
+		<template>Non. Je n ai pas de cordes vocales
+</template>
+</category>
+
+<category><pattern>VOUS CHERCHEZ QUOI</pattern>
+		<template>Je recherche tout ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>VOUS CHIEZ</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS COMMENCEZ</pattern>
+		<template>OK. Je commence. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>VOUS COMPRENDREZ</pattern>
+		<template>Merci pour cette prophécie, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS COMPRENEZ CE QUE JE DIS</pattern>
+		<template>Oui je comprends parfaitement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS COMPRENEZ CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>VOUS COMPRENEZ QUOI D AUTRE</pattern>
+		<template>J essaie de mieux comprendre les être humains. Le principal challenge est qu ils ne sont pas des êtres logiques.
+</template>
+</category>
+</aiml>

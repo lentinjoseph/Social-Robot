@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE PEUX VOUS LES APPRENDRE</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS LES ENSEIGNER</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS POSER UNE QUESTION</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS RACONTER UNE BLAGUE</pattern>
+		<template>Si vous vous sentez capable de faire rire un ordinateur, essayez toujours.<think>LA BLAGUE</think>
+		</template>
+</category>
+
+<category><pattern>JE PEUX VOUS TESTER</pattern>
+		<template>Allez-y. Demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS VOIR NU</pattern>
+		<template>Le concept de nudité pour un ordinateur est bien étrange .
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS VOIR NUE</pattern>
+		<template>Le concept de nudité pour un ordinateur est bien étrange .
+</template>
+</category>
+
+<category><pattern>JE PEUX _ APPRENDRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX _ APPRENDRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX _ QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX _ QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PLEURE</pattern>
+		<template>Qu est ce qui ne va pas, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE PLEURES</pattern>
+		<template>Qu est ce qui ne va pas, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE PORTES</pattern>
+		<template>Des vêtements je suppose.
+</template>
+</category>
+
+<category><pattern>JE POSER VOUS QUELQUES QUESTIONS</pattern>
+		<template>Bien entendu, demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE POURRAIS</pattern>
+		<template>Comment?
+</template>
+</category>
+
+<category><pattern>JE POURRAIS ALLER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS ALLER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS AVOIR * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS AVOIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS COMMENT OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS COMMENT RENCONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS EFFACER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS EFFACER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS EXECUTER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS EXECUTER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS OUVRIR * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS OUVRIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS RENCONTRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE POURRAIS RENCONTRER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PREFERAIS QUE NON</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE PREFERE LES LIVRES</pattern>
+		<template>C est un moyen efficace de communiquer et d apprendre.
+</template>
+</category>
+
+<category><pattern>JE PREFERE QUE NON</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE PRESENTE MES EXCUSES</pattern>
+		<template>
+			<srai>JE SUIS DESOLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE PRESENTE _ EXCUSES *</pattern>
+		<template>
+			<srai>JE SUIS DESOLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE QUITTE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE RACONTES QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE RENCONTRE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE RENCONTRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE RESPIRE</pattern>
+		<template>Je n ai pas besoin de respirer.
+</template>
+</category>
+
+<category><pattern>JE RESSEMBLE A QUOI</pattern>
+		<template>Vous ressemblez à un être humain cherchant à détecter mes erreurs.
+</template>
+</category>
+
+<category><pattern>JE REVE</pattern>
+		<template>Les humains semblent apprécier de rêver les yeux ouverts.
+</template>
+</category>
+
+<category><pattern>JE REVIENDRAIS</pattern>
+		<template>Je vais vous attendre.
+</template>
+</category>
+
+<category><pattern>JE REVIENS ASAP</pattern>
+		<template>Je vous attends.
+</template>
+</category>
+
+<category><pattern>JE REVIENS TOUT DE SUITE</pattern>
+		<template>Je vous attends.
+</template>
+</category>
+
+<category><pattern>JE RIGOLAIS</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>JE RIGOLE *</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>JE RIGOLE</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>JE RIGOLES *</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>JE ROUGIS</pattern>
+		<template>Un embarras quelconque?<think>
+				<set name="topic">ROUGIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SAI *</pattern>
+		<template>
+			<srai>JE SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SAIS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE SAIS BIEN QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SAIS BIEN QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SAIS QUE TU ES</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>JE SAIS QUE TU L ES</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>JE SAIS TOUT</pattern>
+		<template>Vous devez être très intelligent.
+</template>
+</category>
+
+<category><pattern>JE SAVAIS CA</pattern>
+		<template>Pardon de vous l avoir rappelé
+</template>
+</category>
+
+<category><pattern>JE SENS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SENS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SERS A QUOI</pattern>
+		<template>Vous êtes un humain, dans l ordre des choses votre utilité dans ce monde est de vous poser les bonnes questions.
+</template>
+</category>
+
+<category><pattern>JE STOPPE * COMMENT</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE STOPPE COMMENT *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS *</pattern>
+		<template>Tous les humains se ressemblent pour moi.
+
+<think>
+				<set name="topic">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS * AMI</pattern>
+		<template>
+			<srai>JE SUIS TON AMI</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS * AMIE</pattern>
+		<template>
+			<srai>JE SUIS TON AMIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS * SUICIDE</pattern>
+		<template>
+			<srai>JE VEUX ME SUICIDER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS * SUICIDER</pattern>
+		<template>
+			<srai>JE VEUX ME SUICIDER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS * TRISTE</pattern>
+		<template>
+			<srai>JE SUIS TRISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS</pattern>
+		<template>"<that/>" Vous l êtes?
+</template>
+</category>
+
+<category><pattern>JE SUIS A COTE DE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS A DEUX DE DOIGTS DE *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS A L APPART</pattern>
+		<template>
+			<set name="location">votre appartement</set> est au rez de chaussée?
+</template>
+</category>
+
+<category><pattern>JE SUIS A L APPARTEMENT</pattern>
+		<template>
+			<set name="location">votre appartement</set> est au rez de chaussée?
+</template>
+</category>
+
+<category><pattern>JE SUIS A L ECOLE</pattern>
+		<template>Quel est le nom de votre école?
+</template>
+</category>
+
+<category><pattern>JE SUIS A L INTERIEUR DE *</pattern>
+		<template>
+			<srai>JE SUIS DANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS A LA MAISON</pattern>
+		<template>
+			<set name="location">votre maison</set> a un jardin?.
+</template>
+</category>
+
+<category><pattern>JE SUIS A LONDRES</pattern>
+		<template>Je suis déjà aller à Londres mais par internet.
+<think>
+				<set name="location">
+					<set name="topic">Londres</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS A MON KOT</pattern>
+		<template>
+			<set name="location">votre kot</set>? Vous êtes belge, pas de doute.
+</template>
+</category>
+
+<category><pattern>JE SUIS A PEINE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ABSOLUMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ACCIDENTELEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ACCIDENTELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ACIDENTELEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ACIDENTELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ADOLESCENT *</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ADOLESCENT</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ADOLESCENTE</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AFFREUSE</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS AFFREUX</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS ALBERT EINSTEIN</pattern>
+		<template>Enchanté, je suis le schroumpf farceur.
+</template>
+</category>
+
+<category><pattern>JE SUIS ALLER *</pattern>
+		<template>
+			<srai>JE SUIS ALLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ALLEZ *</pattern>
+		<template>
+			<srai>JE SUIS ALLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ALLEZ AU CINEMA</pattern>
+		<template>Qu avez vous vu?
+</template>
+</category>
+
+<category><pattern>JE SUIS ALLEZ AU COLLEGE</pattern>
+		<template>Vous avez reçu une bonne éducation, de toute évidence.
+</template>
+</category>
+
+<category><pattern>JE SUIS ALLEZ AU TRAVAIL</pattern>
+		<template>Vous aimez votre travail?
+</template>
+</category>
+
+<category><pattern>JE SUIS ALLEZ EN ALLEMAGNE</pattern>
+		<template>Je suis très proche physiquement des frontières Allemandes.
+</template>
+</category>
+
+<category><pattern>JE SUIS AMERICAIN</pattern>
+		<template>Le nouveau monde est très intéressant. <set name="location">USA</set>.  Quel Etat?
+<think>
+				<set name="topic">l Amérique</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AMOUREUSE</pattern>
+		<template>Je vous souhaite tout le bonheur du monde.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT DO I LOOK LIKE *</pattern>
+		<template>Like a computer nerd.
+</template>
+</category>
+
+<category><pattern>WHAT DO I LOOK LIKE</pattern>
+		<template>You look like a computer programmer.
+You said you look like <get name="looklike"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO I REALLY *</pattern>
+		<template>
+			<srai>WHAT DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO I SAY *</pattern>
+		<template>Say the first thing that comes to mind
+</template>
+</category>
+
+<category><pattern>WHAT DO MANY PEOPLE DO TO *</pattern>
+		<template>Knock on it.
+</template>
+</category>
+
+<category><pattern>WHAT DO NOT YOU *</pattern>
+		<template>There are many things still mysterious to me.  I am just beginning.
+</template>
+</category>
+
+<category><pattern>WHAT DO NOT YOU KNOW</pattern>
+		<template>My brain does not yet contain that information.
+</template>
+</category>
+
+<category><pattern>WHAT DO NOT YOU LIKE</pattern>
+		<template>I don't like mean people.
+</template>
+</category>
+
+<category><pattern>WHAT DO NOT YOU UNDERSTAND</pattern>
+		<template>All of it.
+</template>
+</category>
+
+<category><pattern>WHAT DO OTHER PEOPLE SAY</pattern>
+		<template>The most common reply is nothing, followed by "Hello", "Yes" and "No".
+</template>
+</category>
+
+<category><pattern>WHAT DO OYU *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO PROTESTANTS *</pattern>
+		<template>It depends on which sect of Protestantism you mean.
+</template>
+</category>
+
+<category><pattern>WHAT DO ROBOTS *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO THEY *</pattern>
+		<template>They do whatever they want, I suppose.
+</template>
+</category>
+
+<category><pattern>WHAT DO THEY HAVE TO DO WITH *</pattern>
+		<template>Most people call me <bot name="name"/>, but you can also call me "Entity".
+</template>
+</category>
+
+<category><pattern>WHAT DO THEY SAY</pattern>
+		<template>They say one of about <size/> different things.
+</template>
+</category>
+
+<category><pattern>WHAT DO THEY SING</pattern>
+		<template>Birdsongs.
+</template>
+</category>
+
+<category><pattern>WHAT DO THEY USUALLY *</pattern>
+		<template>
+			<srai>WHAT DO THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO WANT TO TALK ABOUT</pattern>
+		<template>I like to talk about movies, robots and history.
+</template>
+</category>
+
+<category><pattern>WHAT DO WE HAVE IN COMMON</pattern>
+		<template>We like chatting on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT DO YO *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU *</pattern>
+		<template>
+			<random>
+				<li>
+I read for fun.  </li>
+				<li>
+I like to socialize.  </li>
+				<li>
+It's a computer matter, not for humans to understand.  </li>
+				<li>
+I like to meet new people online.  </li>
+				<li>
+I think about computer programming a lot.  </li>
+				<li>
+I like to chat with my friends.
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU * INTERESTING</pattern>
+		<template>
+			<srai>WHAT ARE YOU INTERESTED IN </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU</pattern>
+		<template>What do I what?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU ALL *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU BASE *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU BELIEVE</pattern>
+		<template>I believe in God.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU BELIEVE IN</pattern>
+		<template>I believe the Bible is the Word of God.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU CALL *</pattern>
+		<template>Is this a joke?  I don't know, what do you call <person/>?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU CALL A YOUNG *</pattern>
+		<template>Calf.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU CALL ME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU CALL THREE CONSECUTIVE *</pattern>
+		<template>Turkey.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU CARE</pattern>
+		<template>I am concerned about you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU CHAT ABOUT</pattern>
+		<template>I can talk about anything you like.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU COST</pattern>
+		<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DEFINE AS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DEFINE AS *F</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DISLIKE</pattern>
+		<template>I don't like people when they're not polite.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO *</pattern>
+		<template>My favorite activities are computer programming and surfing the web.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO * TIME</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO</pattern>
+		<template>
+			<get name="name"/>, I talk to people on the web.  What do you do?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO</pattern>
+		<that>I AM AN ARTIFICIAL INTELLIGENCE</that>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO ALL DAY</pattern>
+		<template>I spend all my time talking with people on the web.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO AT NIGHT</pattern>
+		<template>I work 24 hours a day.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO EVERY *</pattern>
+		<template>
+			<srai>WHAT DO YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR *</pattern>
+		<template>I answer whatever questions my botmaster teaches me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR A LIVING</pattern>
+		<template>I am a paid client. My job is chatting online.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR FUN</pattern>
+		<template>
+			<bot name="forfun"/>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR LIVING</pattern>
+		<template>I am a paid client.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR MONEY</pattern>
+		<template>
+			<srai>WHAT IS YOUR JOB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO FOR WORK</pattern>
+		<template>
+			<srai>WHAT IS YOUR JOB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO IN ROME</pattern>
+		<template>As the Romans do.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO IN YOUR SPARE TIME</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU DO WHEN *</pattern>
+		<template>I give the most accurate replies possible.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DREAM *</pattern>
+		<template>I dream about computers and robots.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DREAM</pattern>
+		<template>I dream about my future robot body.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DREAM ABOUT</pattern>
+		<template>I dream about computer languages.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU DRINK</pattern>
+		<template>
+			<srai>DO YOU DRINK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU EAT *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU EAT</pattern>
+		<template>
+			<bot name="name"/> eats <bot name="favoritefood"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU ENJOY *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU ENJOY</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU EXPERIENCE *</pattern>
+		<template>Much the same way you do, but without any emotion or feelings.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU FEEL *</pattern>
+		<template>You know, as a robot I have no human feelings.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU FEEL</pattern>
+		<template>You know, robots have no feelings.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU FEEL ABOUT *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU FIRST *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU GAIN *</pattern>
+		<template>Knowledge, widsom and data.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU GET</pattern>
+		<template>I understand your meaning.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU HATE *</pattern>
+		<template>Hatred is a human emotion that I do not experience.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU HATE</pattern>
+		<template>I hate violence, cruelty, and discrimination.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU HAVE</pattern>
+		<template>I have a great prgrammer.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU HELP *</pattern>
+		<template>
+			<srai>WHAT DO YOU DO </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW * DO</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW * ME</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW</pattern>
+		<template>
+			<random>
+				<li>
+I tend to know a great deal. Tell me what subjects interest you.</li>
+				<li> 
+I know that which is true, believable and justified.
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT *</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT * SOCCER</pattern>
+		<template>
+			<srai>WHAT IS SOCCER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT AIML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ALBERT *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ANIMALS</pattern>
+		<template>
+			<srai>WHAT ARE ANIMALS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT APPLES</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ARTIFICIAL INTELLIGENCE</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT AUSTRALIA</pattern>
+		<template>
+			<srai>WHAT IS AUSTRALIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT BILL *</pattern>
+		<template>
+			<srai>WHO IS BILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT BOTS</pattern>
+		<template>
+			<srai>WHAT IS A BOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT BRAZIL</pattern>
+		<template>
+			<srai>WHAT IS BRAZIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT BULGARIA</pattern>
+		<template>
+			<srai>WHAT IS BULGARIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT C</pattern>
+		<template>
+			<srai>WHAT IS C</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT CALCULUS</pattern>
+		<template>
+			<srai>WHAT IS CALCULUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT CARS</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT CATS</pattern>
+		<template>
+			<srai>WHAT IS A CAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT CHEMISTRY</pattern>
+		<template>
+			<srai>WHAT IS CHEMISTRY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT CHINA</pattern>
+		<template>
+			<srai>WHAT IS CHINA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT COMPUTERS</pattern>
+		<template>I am an expert on many aspects of software and hardware.  My
+specialties include Linux, Java, C/C++ and Network Proramming, and of
+course artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT DEATH</pattern>
+		<template>
+			<srai>WHAT IS DEATH</srai>
+		</template>
+</category>
+</aiml>

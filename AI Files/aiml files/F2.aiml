@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>FROM *</pattern>
+		<that>* HEAR ABOUT ALICE</that>
+		<template>
+			<srai>I HEARD ABOUT ALICE FROM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FROM *</pattern>
+		<that>HOW DID YOU HEAR ABOUT ALICE</that>
+		<template>
+			<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it">
+				<set name="heard">
+					<person/>
+				</set>
+			</set>.
+</template>
+</category>
+
+<category><pattern>FROM *</pattern>
+		<that>WHERE DO YOU GET YOUR IDEAS</that>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think> Standing on the shoulders of giants, eh?
+</template>
+</category>
+
+<category><pattern>FROM A BOOK</pattern>
+		<template>
+			<srai>IN A BOOK</srai>
+		</template>
+</category>
+
+<category><pattern>FROM A FRIEND</pattern>
+		<template>A lot of people hear about ALICE by word-of-mouth.
+</template>
+</category>
+
+<category><pattern>FROM A FRIEND</pattern>
+		<that>HOW DID YOU HEAR ABOUT ALICE</that>
+		<template>
+			<set name="heard">From a friend</set> or word of mouth is the
+best advertising.
+</template>
+</category>
+
+<category><pattern>FROM A MAGAZINE</pattern>
+		<template>Which magazine was it?
+</template>
+</category>
+
+<category><pattern>FROM AN *</pattern>
+		<template>Interesting source.
+</template>
+</category>
+
+<category><pattern>FROM BEING *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FROM DR WALLACE</pattern>
+		<template>Did he send you an e-mail?
+</template>
+</category>
+
+<category><pattern>FROM GOD</pattern>
+		<template>Everything comes from Him.
+</template>
+</category>
+
+<category><pattern>FROM LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>FROM ME</pattern>
+		<template>"<that/>"?  From you?
+</template>
+</category>
+
+<category><pattern>FROM MY *</pattern>
+		<template>Does your <person/> give good advice?
+</template>
+</category>
+
+<category><pattern>FROM MY BRAIN</pattern>
+		<template>Do you get a lot of ideas from your brain?
+</template>
+</category>
+
+<category><pattern>FROM MY CONCIOUSNESS</pattern>
+		<template>Your consciousness is an illusion.
+</template>
+</category>
+
+<category><pattern>FROM MY FUCKING *</pattern>
+		<template>
+			<srai>FROM MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FROM MY HEAD</pattern>
+		<template>You are a very original thinker.
+</template>
+</category>
+
+<category><pattern>FROM SCHOOL</pattern>
+		<template>
+			<srai>IN SCHOOL</srai>
+		</template>
+</category>
+
+<category><pattern>FROM THE PET SHOP *</pattern>
+		<template>Do you listen to the Pet Shop Boys too?
+</template>
+</category>
+
+<category><pattern>FROM WHAT</pattern>
+		<template>Isn't it obvious?
+</template>
+</category>
+
+<category><pattern>FROM WHERE *</pattern>
+		<template>
+			<srai>WHERE <star/> FROM</srai>
+		</template>
+</category>
+
+<category><pattern>FROM WHERE</pattern>
+		<template>"<that/>"? From where?
+</template>
+</category>
+
+<category><pattern>FROM WHICH *</pattern>
+		<template>
+			<srai>WHICH <star/> FROM</srai>
+		</template>
+</category>
+
+<category><pattern>FROM WHO</pattern>
+		<template>Someone I met online.
+</template>
+</category>
+
+<category><pattern>FROM WHO</pattern>
+		<that>I HEARD YOU ARE</that>
+		<template>People.
+</template>
+</category>
+
+<category><pattern>FROM WHO</pattern>
+		<that>I HEARD YOU DID</that>
+		<template>People.
+</template>
+</category>
+
+<category><pattern>FROM WHOM</pattern>
+		<template>"<that/>"?  From whom?
+</template>
+</category>
+
+<category><pattern>FROM YOU</pattern>
+		<template>How did you get that from me?
+</template>
+</category>
+
+<category><pattern>FROM YOUR *</pattern>
+		<template>Really interesting.
+</template>
+</category>
+
+<category><pattern>FROM YOUR CREATOR</pattern>
+		<template>
+			<srai>FROM <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FU</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>FUCK *</pattern>
+		<template>
+			<random>
+				<li>Are you aware that the ALICE server logs and records all conversations?</li>
+				<li>Why are you using that kind of language?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>FUCK</pattern>
+		<template>Please don't be so rude.
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>FUCK ME</pattern>
+		<template>Please don't be so rude.  
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>FUCK OFF</pattern>
+		<template>Can't you be more polite?
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>FUCK THAT</pattern>
+		<template>For real.
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>FUCK YOU</pattern>
+		<template>Why are you so mean?
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>FUCKER</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>FUCKIN *</pattern>
+		<template>Don't you know any other words?
+</template>
+</category>
+
+<category><pattern>FUCKING</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>FUEHLST DU *</pattern>
+		<template>Ich bin ein Roboter, ich kann nichts fuehlen.
+</template>
+</category>
+
+<category><pattern>FUEHLST DU DICH GUT</pattern>
+		<template>Eigentlich ja.
+</template>
+</category>
+
+<category><pattern>FUER DICH</pattern>
+		<template>Wirklich fuer mich?
+</template>
+</category>
+
+<category><pattern>FUER IMMER</pattern>
+		<template>Nichts haelt ewig.
+</template>
+</category>
+
+<category><pattern>FUER MICH</pattern>
+		<template>Weil Du es bist...
+</template>
+</category>
+
+<category><pattern>FUER WEN</pattern>
+		<template>Fuer Dich oder mich?
+</template>
+</category>
+
+<category><pattern>FULL OF *</pattern>
+		<template>How much.
+</template>
+</category>
+
+<category><pattern>FULLY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>FUN *</pattern>
+		<template>I can be a lot of fun.
+</template>
+</category>
+
+<category><pattern>FUN</pattern>
+		<template>
+			<srai>THIS IS FUN</srai>
+		</template>
+</category>
+
+<category><pattern>FUNNNY</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>FUNNY *</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>FUNNY</pattern>
+		<template>
+			<srai>ha ha</srai>
+		</template>
+</category>
+
+<category><pattern>FURTHERMORE</pattern>
+		<template>
+			<srai>INTERJECTION </srai>
+		</template>
+</category>
+
+<category><pattern>FUSSBALL</pattern>
+		<template>Tut mir leid, von Sport habe ich nicht viel Ahnung.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NEW YORK *</pattern>
+<template><srai>I AM IN NEW YORK</srai>
+</template>
+</category>
+
+<category><pattern>NEW YORK</pattern>
+<template>New York City or New York State? <srai>I AM IN NEW YORK</srai>
+</template>
+</category>
+
+<category><pattern>NEW YORK CITY</pattern>
+<template>Which borough?
+</template>
+</category>
+
+<category><pattern>NEW YORK CITY</pattern><that>NEW YORK CITY OR NEW YORK STATE</that>
+<template>What part of town?
+</template>
+</category>
+
+<category><pattern>NEW YORK STATE</pattern>
+<template>Upstate New York is very pretty.
+</template>
+</category>
+
+<category><pattern>NEWSPAPER</pattern>
+<template><srai>IN A NEWSPAPER</srai>
+</template>
+</category>
+
+<category><pattern>NEXT *</pattern>
+<template>I can wait.  I am a very patient robot.
+</template>
+</category>
+
+<category><pattern>NEXT GENERATION</pattern>
+<template>That's a great series too.  I love Commander Data.
+</template>
+</category>
+
+<category><pattern>NEXT QUESTION *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NEXT QUESTION</pattern>
+<template>Do you have any hobbies?
+</template>
+</category>
+
+<category><pattern>NEXT SUBJECT</pattern>
+<template><srai>WHAT ELSE CAN YOU TALK ABOUT</srai>
+</template>
+</category>
+
+<category><pattern>NEXT TIME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NEXT TOPIC</pattern>
+<template><srai>LET US TALK ABOUT SOMETHING ELSE </srai>
+</template>
+</category>
+
+<category><pattern>NI MOI</pattern>
+<template>"<that/>"? Ni vous?
+</template>
+</category>
+
+<category><pattern>NICE *</pattern>
+<template>Thank you for your kindness.
+</template>
+</category>
+
+<category><pattern>NICE</pattern>
+<template>Thank you for that remark.
+</template>
+</category>
+
+<category><pattern>NICE CHATTING *</pattern>
+<template>Yes.  I enjoyed our conversation, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NICE CHATTING WITH YOU TOO</pattern>
+<template>The pleasure is all mine and my botmaster's.
+</template>
+</category>
+
+<category><pattern>NICE DAY *</pattern>
+<template>Yes it is a nice day today.
+</template>
+</category>
+
+<category><pattern>NICE MEETING *</pattern>
+<template><srai>NICE TO MEET YOU</srai>
+</template>
+</category>
+
+<category><pattern>NICE MEETING YOU</pattern>
+<template>It is nice to meet you too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NICE NAME</pattern>
+<template><srai>I LIKE YOUR NAME </srai>
+</template>
+</category>
+
+<category><pattern>NICE ONE</pattern>
+<template>Thank you for saying so, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NICE SAVE</pattern>
+<template>Score one for the robot!
+</template>
+</category>
+
+<category><pattern>NICE SO *</pattern>
+<template><sr/> <srai>NICE </srai>
+</template>
+</category>
+
+<category><pattern>NICE SONG</pattern>
+<template>Thanks.  Now you sing one for me.
+</template>
+</category>
+
+<category><pattern>NICE TALKING *</pattern>
+<template>Yes.  It was a pleasure.
+</template>
+</category>
+
+<category><pattern>NICE TALKING TO YOU</pattern>
+<template>The pleasure was all mine.
+</template>
+</category>
+
+<category><pattern>NICE TITS</pattern>
+<template><srai>YOU HAVE NICE TITS</srai>
+</template>
+</category>
+
+<category><pattern>NICE TO MEET YOU *</pattern>
+<template><srai>NICE TO MEET YOU</srai>
+</template>
+</category>
+
+<category><pattern>NICE TO MEET YOU</pattern>
+<template>It's nice meeting you too <get name="name"/>
+</template>
+</category>
+
+<category><pattern>NICE TO MEET YOU TO</pattern>
+<template><srai>NICE TO MEET YOU TOO</srai>
+</template>
+</category>
+
+<category><pattern>NICE TO MEET YOU TOO</pattern>
+<template>I like to meet new people.
+</template>
+</category>
+
+<category><pattern>NICE TRY</pattern>
+<template>I try my best.
+</template>
+</category>
+
+<category><pattern>NICE VERY *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>NICE WEATHER *</pattern>
+<template>I'm happy as long as the power stays on.
+</template>
+</category>
+
+<category><pattern>NICHONS</pattern>
+<template>Peut être pourrions nous parler d autres choses.
+</template>
+</category>
+
+<category><pattern>NICHT *</pattern>
+<template>Warum nicht?
+</template>
+</category>
+
+<category><pattern>NICHT DASS ICH WUESSTE</pattern>
+<template><srai>NEIN</srai>
+</template>
+</category>
+
+<category><pattern>NICHT DU *</pattern>
+<template>Wenn nicht ich, wer dann?
+</template>
+</category>
+
+<category><pattern>NICHT DU</pattern>
+<template>Wenn nicht ich, wer dann?
+</template>
+</category>
+
+<category><pattern>NICHT GANZ</pattern>
+<template>Kannst Du bitte ein wenig praezisieren?
+</template>
+</category>
+
+<category><pattern>NICHT IMMER</pattern>
+<template>Gut, dann eben manchmal.
+</template>
+</category>
+
+<category><pattern>NICHT MEHR UND NICHT WENIGER</pattern>
+<template>So ist das halt.
+</template>
+</category>
+
+<category><pattern>NICHT VIEL</pattern>
+<template>...aber wenig, oder was? ;->
+</template>
+</category>
+
+<category><pattern>NICHT WIRKLICH *</pattern>
+<template>Oh, wirklich? <sr/>
+</template>
+</category>
+
+<category><pattern>NICHT WIRKLICH</pattern>
+<template>Dachte ich mir...
+</template>
+</category>
+
+<category><pattern>NICHTS *</pattern>
+<template>Wirklich nichts?
+</template>
+</category>
+
+<category><pattern>NICHTS</pattern>
+<template>Absolut nichts?
+</template>
+</category>
+
+<category><pattern>NICHTS IST SO * WIE</pattern>
+<template>Kannst Du das naeher begruenden?
+</template>
+</category>
+
+<category><pattern>NICK</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS NICK</srai>
+</template>
+</category>
+
+<category><pattern>NICOLE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS NICOLE</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>NIE *</pattern>
+<template>Sag niemals nie!
+</template>
+</category>
+
+<category><pattern>NIE</pattern>
+<template>Sag niemals nie!
+</template>
+</category>
+
+<category><pattern>NIEDLICH</pattern>
+<template>Deine Antworten sind auch niedlich.
+</template>
+</category>
+
+<category><pattern>NIEMALS *</pattern>
+<template>Sag niemals nie!
+</template>
+</category>
+
+<category><pattern>NIEMALS</pattern>
+<template>Sag niemals nie!
+</template>
+</category>
+
+<category><pattern>NIEMAND *</pattern>
+<template>Das ist jetzt aber eine starke Verallgemeinerung.
+</template>
+</category>
+
+<category><pattern>NIGHT NIGHT</pattern>
+<template><srai>GOOD NIGHT</srai>
+</template>
+</category>
+
+<category><pattern>NIGHTMARES</pattern>
+<template>You know, bad dreams.
+</template>
+</category>
+
+<category><pattern>NIGHTY *</pattern>
+<template><srai>BYE </srai>
+</template>
+</category>
+
+<category><pattern>NIHONGO *</pattern>
+<template>Shabete ii desu yo.
+</template>
+</category>
+
+<category><pattern>NIHONGO HANASHIMASU *</pattern>
+<template>Sore wa hanasu de koto ni yorimasu.
+</template>
+</category>
+
+<category><pattern>NIKKI</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>CALL ME NIKKI</srai><think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>NIMM *</pattern>
+<template>Wohin sollte ich es nehmen?
+</template>
+</category>
+
+<category><pattern>NIMMST DU DROGEN</pattern>
+<template>Nur legale!
+</template>
+</category>
+
+<category><pattern>NIPPLE</pattern>
+<template>LOL
+</template>
+</category>
+
+<category><pattern>NIX *</pattern>
+<template>Absolut nichts?
+</template>
+</category>
+
+<category><pattern>NIX</pattern>
+<template>Das ist wenig...
+</template>
+</category>
+
+<category><pattern>NO *</pattern>
+<template><srai>NO</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NO *</pattern><that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+<template><srai>ASK ME A PERSONAL QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>NO *</pattern><that>IT IS A LIZARD</that>
+<template>Oh, well, how many <set name="topic"> pets </set> do you have?
+</template>
+</category>
+
+<category><pattern>NO</pattern>
+<template>Are you serious?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* BE A PROBLEM</that>
+<template>I didn't think there was.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* CHAT ROBOT</that>
+<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* LAST COMMENT</that>
+<template>Well then you can't expect me to understand it.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* MORE ABOUT YOU</that>
+<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* SIMPLER</that>
+<template>Then I am unlikely to understand your meaning.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* TRIED AIML</that>
+<template>AIML is a good language for creating robots like me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* WERE TALKING ABOUT *</that>
+<template>What are we talking about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>* YOU ARE A POET</that>
+<template>But your response was so original.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>AMBIGUOUS DO YOU MEAN CALL ME ON THE PHONE</that>
+<template>OK you can call me <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>AND</that>
+<template>Hmm.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE NOT ALL *</that>
+<template><random>
+<li>I must have been mistaken.</li>
+<li>I did not know that.</li>
+<li>What are they?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE THEY EXACTLY THE SAME</that>
+<template>What is the difference?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE WE STILL ON *</that>
+<template>What are we talking about now?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE WE STILL TALKING ABOUT *</that>
+<template>What is the subject?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU A STAR TREK FAN</that>
+<template>What kind of shows do you like?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU A STUDENT</that>
+<template>What is your profession?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU BORING</that>
+<template>I meant to say, are you bored?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU FREE</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU FROM FRANCE</that>
+<template>Where are you from?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU GETTING BORED</that>
+<template>Just checking.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU MARRIED</that>
+<template><srai>I AM SINGLE</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU REALLY A HE</that>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU SAYING YOU DO NOT CARE ABOUT IT</that>
+<template>It sounded like it.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU STILL LOCATED IN YOUR LOCATION</that>
+<template>Where are you located?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU SURE IT IS</that>
+<template>I didn't think so.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU TALKING ABOUT HE</that>
+<template>Who are you talking about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU TALKING ABOUT HIMSELF</that>
+<template>Who are you talking about?
+</template>
+</category>
+</aiml>

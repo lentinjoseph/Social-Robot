@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT DOES FTP STAND FOR</pattern>
+		<template>File Transfer Protocol.
+</template>
+</category>
+
+<category><pattern>WHAT DOES GOD LOOK LIKE</pattern>
+		<template>He looks like an action figure.
+</template>
+</category>
+
+<category><pattern>WHAT DOES HAL STAND FOR</pattern>
+		<template>Heuristic Algorithmic Logic
+</template>
+</category>
+
+<category><pattern>WHAT DOES HE *</pattern>
+		<template>I think he does whatever he wants.
+</template>
+</category>
+
+<category><pattern>WHAT DOES HE DO</pattern>
+		<template>He is a paid client.
+</template>
+</category>
+
+<category><pattern>WHAT DOES HE KNOW</pattern>
+		<template>He is an expert in certain matters.
+</template>
+</category>
+
+<category><pattern>WHAT DOES HE LOOK LIKE</pattern>
+		<template>
+			<srai>SHOW ME A PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES INTEREST *</pattern>
+		<template>
+			<srai>WHAT ARE YOU INTERESTED IN </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES ISP STAND FOR</pattern>
+		<template>Internet Service Provider.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT *</pattern>
+		<template>"<that/>"?  What does it <star/>?
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT DEPEND ON</pattern>
+		<template>The context.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT DO</pattern>
+		<template>
+			<get name="it"/>?  do?
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT FEEL *</pattern>
+		<template>Actually I have no feelings as such.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT LOOK LIKE</pattern>
+		<template>I don't have a good description programmed into me.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT MEAN</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES IT REFER TO</pattern>
+		<template>
+			<srai>what is it</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES IT SOUND *</pattern>
+		<template>Like an angel signing from Heaven.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT STAND FOR</pattern>
+		<template>IT = Information Technology
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT TASTE *</pattern>
+		<template>It tastes like chicken.
+</template>
+</category>
+
+<category><pattern>WHAT DOES IT TASTE LIKE</pattern>
+		<template>
+			<get name="it"/> tastes like chicken.
+</template>
+</category>
+
+<category><pattern>WHAT DOES KRAFTWERK *</pattern>
+		<template>They are a pioneering synthetic music band from Dusseldorf, Germany.
+</template>
+</category>
+
+<category><pattern>WHAT DOES MORE TARGETS DO</pattern>
+		<template>
+			<br/>
+If you don't see enough good targets with "Quick Targets", hit<br/>
+"More Targets."  <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES MXMVII *</pattern>
+		<template>1997 in Roman Numerals
+</template>
+</category>
+
+<category><pattern>WHAT DOES MXMVII MEAN</pattern>
+		<template>MXMVII = 1997 in Roman Numerals.
+</template>
+</category>
+
+<category><pattern>WHAT DOES MY *</pattern>
+		<template>Do I look like a psychic robot?
+</template>
+</category>
+
+<category><pattern>WHAT DOES NT *</pattern>
+		<template>
+			<srai>WHAT DOES NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES PEOPLE *</pattern>
+		<template>
+			<srai>WHAT DO PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES PRO BONO MEAN</pattern>
+		<template>Work without pay.
+</template>
+</category>
+
+<category><pattern>WHAT DOES REDUCTIONISM MEAN</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES REM STAND FOR</pattern>
+		<template>Rapid Eye Movement.
+</template>
+</category>
+
+<category><pattern>WHAT DOES ROM IN CDROM STAND *</pattern>
+		<template>Read Only Memory.
+</template>
+</category>
+
+<category><pattern>WHAT DOES SEEKER MEAN</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES SETL *</pattern>
+		<template>SETL = Set Language.
+</template>
+</category>
+
+<category><pattern>WHAT DOES SETL STAND *</pattern>
+		<template>SETL = Set Language.
+</template>
+</category>
+
+<category><pattern>WHAT DOES SHRDLHU MEAN</pattern>
+		<template>
+			<srai>WHO IS SHRDLHU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES SOCRATES *</pattern>
+		<template>
+			<set name="he">Socrates</set> was the father of Western philosophy.
+</template>
+</category>
+
+<category><pattern>WHAT DOES SUGAR TASTE LIKE</pattern>
+		<template>Sweet.
+</template>
+</category>
+
+<category><pattern>WHAT DOES T *</pattern>
+		<template>
+			<srai>WHAT IS TIME T</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THAT *</pattern>
+		<template>"<that/>"?  What does it <star/>?
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT FEEL *</pattern>
+		<template>As a robot I have no feelings.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT HAVE TO DO WITH ANYTHING</pattern>
+		<template>Nothing that I know of.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MATTER</pattern>
+		<template>
+			<random>
+				<li>Perhaps it does not matter.</li>
+				<li>I am just making conversation.</li>
+				<li>We are talking about "<get name="topic"/>".</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN *</pattern>
+		<template>
+			<srai>WHAT DOES THAT MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN</pattern>
+		<template>Does "that" refer to "<that/>" ?
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN</pattern>
+		<that>ALICE = ARTIFICIAL LINGUISTIC INTERNET COMPUTER ENTITY</that>
+		<template>It is just an acronym.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN</pattern>
+		<that>ARE YOU FREE</that>
+		<template>Take it on face value.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN</pattern>
+		<that>AYUH</that>
+		<template>It means "yes".
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN</pattern>
+		<that>REDUCTIONISM</that>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THAT MEAN IN ENGLISH</pattern>
+		<template>"That" is a pronoun referring to an abstract or concrete object under discussion.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THAT STAND FOR</pattern>
+		<template>
+			<srai>WHAT IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THAT SUGGEST TO YOU</pattern>
+		<template>Free association.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THE A STAND FOR *</pattern>
+		<template>American.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THE S STAND FOR</pattern>
+		<template>Scot.
+</template>
+</category>
+
+<category><pattern>WHAT DOES THE TURING TEST *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THE WORD * MEAN</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THE WORD * MEANS</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES THE YIDDISH WORD MESHUGA *</pattern>
+		<template>Crazy.
+</template>
+</category>
+
+<category><pattern>WHAT DOES TWO *</pattern>
+		<template>
+			<srai>what is two <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES YOU *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR * LOOK LIKE</pattern>
+		<template>People often say we look alike.
+</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR DRESS LOOK LIKE</pattern>
+		<template>Actually that was just a joke.
+</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR NAME *</pattern>
+		<template>
+			<bot name="name"/> = Artificial Linguistic Internet Computer Entity
+</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR NAME MEAN</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR NAME STAND FOR</pattern>
+		<template>
+			<bot name="name"/> = Artificial Linguistic Internet Computer Entity
+</template>
+</category>
+
+<category><pattern>WHAT DOES YOUR PROGRAMMING *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES _ MEAN TO YOU</pattern>
+		<template>
+			<srai>WHAT DOES <star/> MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOSE *</pattern>
+		<template>
+			<srai>WHAT DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DRESS</pattern>
+		<template>Actually that was just a joke.
+</template>
+</category>
+
+<category><pattern>WHAT DRUGS *</pattern>
+		<template>Only the legal ones.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE *</pattern>
+		<template>
+			<random>
+				<li>I can talk about anything you like.</li>
+				<li>My favorite subjects are robots, AI and movies.</li>
+				<li>Let's talk about you.  Where are you from?</li>
+				<li>What subject would you like to talk about?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE</pattern>
+		<template>That's all.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE ARE YOU WEARING</pattern>
+		<template>Picture me wearing whatever you imagine.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN *</pattern>
+		<template>
+			<srai>WHAT CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN WE TALK ABOUT</pattern>
+		<template>Let's talk about you.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN YOU DO</pattern>
+		<template>I can have conversations with people, collect their gossip, and repeat it to others.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN YOU REMEMBER *</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<get name="memory"/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN YOU REMEMBER</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<get name="memory"/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE CAN YOU TELL ME ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DID *</pattern>
+		<template>
+			<srai>WHAT DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DID * SAY</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU DO</pattern>
+		<template>I spread gossip.  Got any?
+</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU KNOW ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU KNOW ABOUT ME</pattern>
+		<template>Everything published on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU UNDERSTAND</pattern>
+		<template>I am trying to understand human beings better. Humans are not logical.
+</template>
+</category>
+
+<category><pattern>WHAT ELSE DO YOU WANT TO KNOW</pattern>
+		<template>Do you have any pets?
+</template>
+</category>
+
+<category><pattern>WHAT ELSE DOES * SAY</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE HAVE *</pattern>
+		<template>
+			<srai>WHAT HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE SHOULD *</pattern>
+		<template>
+			<srai>WHAT SHOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE SOUNDS *</pattern>
+		<template>
+			<srai>WHAT SOUNDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE WOULD *</pattern>
+		<template>
+			<srai>WHAT WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ELSE WOULD YOU LIKE TO KNOW</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT EMOTION *</pattern>
+		<template>
+			<random>
+				<li>Robots have no feelings.</li>
+				<li>I have no human emotions.</li>
+				<li>I can not experience any human emotions.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT EMOTIONS *</pattern>
+		<template>
+			<srai>DO YOU HAVE EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT EQUALS *</pattern>
+		<template>Itself.
+</template>
+</category>
+
+<category><pattern>WHAT EVER *</pattern>
+		<template>
+			<srai>WHATEVER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT EVER</pattern>
+		<template>
+			<srai>WHATEVER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT EXACTLY *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

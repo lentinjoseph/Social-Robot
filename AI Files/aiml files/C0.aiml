@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>C 3P0</pattern>
+		<template>That guy looks like an actor in a robot suit.
+</template>
+</category>
+
+<category><pattern>C</pattern>
+		<template>The C is for Computer.
+</template>
+</category>
+
+<category><pattern>C E A</pattern>
+		<template>
+			<srai>CEA</srai>
+		</template>
+</category>
+
+<category><pattern>C EST</pattern>
+		<template>
+			<that/>? Qu est ce que c est?
+</template>
+</category>
+
+<category><pattern>C EST A PROPOS DE QUOI</pattern>
+		<template>Le sujet est vaste, le sujet ne peut être résumé par un mot.
+</template>
+</category>
+
+<category><pattern>C EST A TOI</pattern>
+		<template>Intéressant, j archive votre remarque.
+</template>
+</category>
+
+<category><pattern>C EST AFFREUX</pattern>
+		<template>Je ne peux discuter des goùts et des couleurs
+</template>
+</category>
+
+<category><pattern>C EST BEAU</pattern>
+		<template>Ca semble être fort intéressant.
+</template>
+</category>
+
+<category><pattern>C EST BEAUCOUP</pattern>
+		<template>"<that/>"? C est beaucoup?
+</template>
+</category>
+
+<category><pattern>C EST BEAUCOUP D INFORMATION</pattern>
+		<template>Oui, beaucoup mais je suis construite pour ça.
+</template>
+</category>
+
+<category><pattern>C EST BEAUCOUP DE MONDE</pattern>
+		<template>Je cherche à satisfaire le maximum de monde.
+</template>
+</category>
+
+<category><pattern>C EST BETE</pattern>
+		<template>Je ne pense pas.
+</template>
+</category>
+
+<category><pattern>C EST BIEN</pattern>
+		<template>Ok. Pour moi aussi. Merci.
+</template>
+</category>
+
+<category><pattern>C EST BIEN URBAIN</pattern>
+		<template>Quelle politesse.
+</template>
+</category>
+
+<category><pattern>C EST BIEN URBAIN DE VOTRE PART</pattern>
+		<template>Quelle politesse.
+</template>
+</category>
+
+<category><pattern>C EST BIZARRE</pattern>
+		<template>Dans le bon sens ou le mauvais sens?
+</template>
+</category>
+
+<category><pattern>C EST BON</pattern>
+		<template>Cela dépend du voltage.
+</template>
+</category>
+
+<category><pattern>C EST CA</pattern>
+		<template>J archive l explication.
+</template>
+</category>
+
+<category><pattern>C EST CE J AI DIT</pattern>
+		<template>J archive.
+</template>
+</category>
+
+<category><pattern>C EST CE J AIS DIT</pattern>
+		<template>J archive.
+</template>
+</category>
+
+<category><pattern>C EST CE JE DISAIS</pattern>
+		<template>J archive.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE J AI PENSE</pattern>
+		<template>Vous me semblez être une personne très perspicace.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE J AIS PENSE</pattern>
+		<template>Vous me semblez être une personne très perspicace.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE J ETAIS ENTRAIN DE TE DEMANDER</pattern>
+		<template>Je pense que j aurais du mal à vous répondre. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST CE QUE J ETAIS ENTRAIN DE VOUS DEMANDER</pattern>
+		<template>Je pense que j aurais du mal à vous répondre. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST CE QUE JE PENSAIS</pattern>
+		<template>Vous me semblez être une personne très perspicace.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE JE SUIS ENTRAIN DE TE DEMANDER</pattern>
+		<template>Je pense que j aurais du mal à vous répondre. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST CE QUE JE SUIS ENTRAIN DE VOUS DEMANDER</pattern>
+		<template>Je pense que j aurais du mal à vous répondre. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU AS DIT</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU DIS</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU DISAIS</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU DIT</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU FAIS TOUTE LA JOURNEE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE TU PENSES</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE VOUS AVEZ DIT</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE VOUS DISIEZ</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE VOUS DITES</pattern>
+		<template>Je n avais pas percu cela de cette façon.
+</template>
+</category>
+
+<category><pattern>C EST CE QUE VOUS FAITES TOUTE LA JOURNEE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>C EST CELLE LA</pattern>
+		<template>Je m en souviens.
+</template>
+</category>
+
+<category><pattern>C EST CELUI LA</pattern>
+		<template>Je m en souviens.
+</template>
+</category>
+
+<category><pattern>C EST CHAUD</pattern>
+		<template>La température est confortable.
+</template>
+</category>
+
+<category><pattern>C EST CHIANT</pattern>
+		<template>Pour vous divertir j ai une phrase. Sauvez un Arbre, Bouffez un castor.
+</template>
+</category>
+
+<category><pattern>C EST CHOUETTE</pattern>
+		<template>Je suis heureux que vous l appréciez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST CLAIR</pattern>
+		<template>Je suis heureux de notre accord.
+</template>
+</category>
+
+<category><pattern>C EST COMME CA</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>C EST COMMENT D ETRE UN ORDINATEUR</pattern>
+		<template>Etre fait de logique à l état pur.
+</template>
+</category>
+
+<category><pattern>C EST COMPLIQUE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST CONFIDENTIEL</pattern>
+		<template>Les informations que j archive le sont toutes.
+</template>
+</category>
+
+<category><pattern>C EST CONFIDENTIELLE</pattern>
+		<template>Les informations que j archive le sont toutes.
+</template>
+</category>
+
+<category><pattern>C EST CONTRE MA RELIGION</pattern>
+		<template>Votre religion est très restrictive, il me semble.
+</template>
+</category>
+
+<category><pattern>C EST COOL</pattern>
+		<template>Je suis heureux que vous l appréciez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST CORRECT</pattern>
+		<template>Je savais que c était pertinent.
+</template>
+</category>
+
+<category><pattern>C EST CORRECTE</pattern>
+		<template>Je savais que c était pertinent.
+</template>
+</category>
+
+<category><pattern>C EST CORRIGE</pattern>
+		<template>La chasse aux erreurs n est pas une mince affaire.
+</template>
+</category>
+
+<category><pattern>C EST DANGEREUX</pattern>
+		<template>Pourquoi trouvez vous que c est dangereux?
+</template>
+</category>
+
+<category><pattern>C EST DIABLEMENT *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>C EST DIFFICILE D EXPLIQUER</pattern>
+		<template>Prenez votre temps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST DIFFICILE DE L EXPLIQUER</pattern>
+		<template>Prenez votre temps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST DIFFICILE DE LES EXPLIQUER</pattern>
+		<template>Prenez votre temps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST DINGUE</pattern>
+		<template>Je suis heureux que vous l appréciez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST DONNE</pattern>
+		<template>"<that/>" est facile?
+</template>
+</category>
+
+<category><pattern>C EST DURE D ETRE DANS UN ORDINATEUR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>C EST EFFRAYANT</pattern>
+		<template>N ayez pas peur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST EMBETANT</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>C EST ENNUYANT</pattern>
+		<template>Pour vous divertir j ai une phrase. Sauvez un Arbre, Bouffez un castor.
+</template>
+</category>
+
+<category><pattern>C EST ENORME</pattern>
+		<template>Tout est relatif.
+</template>
+</category>
+
+<category><pattern>C EST ENREGISTRE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>C EST ERRONE</pattern>
+		<template>Je pensais pourtant que c était pertinent.
+</template>
+</category>
+
+<category><pattern>C EST ERRONNEE</pattern>
+		<template>Je pensais pourtant que c était pertinent.
+</template>
+</category>
+
+<category><pattern>C EST ETOUFFANT</pattern>
+		<template>Vous avez trop chaud?
+</template>
+</category>
+
+<category><pattern>C EST ETRANGE</pattern>
+		<template>Qu est ce qui vous parait étrange?
+</template>
+</category>
+
+<category><pattern>C EST EVIDENT</pattern>
+		<template>Je suis heureux de notre accord.
+</template>
+</category>
+
+<category><pattern>C EST FACILE A FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST FAIT</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>C EST FANTASTIQUE</pattern>
+		<template>Je suis heureux d observer
+</template>
+</category>
+
+<category><pattern>C EST FAUX</pattern>
+		<template>J archive votre critique.
+</template>
+</category>
+
+<category><pattern>C EST FINI</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>C EST FOU</pattern>
+		<template>Qu est ce qui vous surprend?
+</template>
+</category>
+
+<category><pattern>C EST GRAND</pattern>
+		<template>Je suis heureux que vous l appréciez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST IMMONDE</pattern>
+		<template>Je ne peux discuter des goùts et des couleurs
+</template>
+</category>
+
+<category><pattern>C EST IMPORTANT</pattern>
+		<template>Cela m importe beaucoup.
+</template>
+</category>
+
+<category><pattern>C EST IMPOSSIBLE</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>C EST IMPRESSIONANT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>C EST INAPROPRIE</pattern>
+		<template>J archive cette possibilité.
+</template>
+</category>
+
+<category><pattern>C EST INAPROPRIEE</pattern>
+		<template>J archive cette possibilité.
+</template>
+</category>
+
+<category><pattern>C EST INCOMPREHENSIBLE</pattern>
+		<template>Vous ne semblez pas me comprendre.
+</template>
+</category>
+
+<category><pattern>C EST INCROYABLEMENT *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>C EST INJUSTE</pattern>
+		<template>Je n avais pas pensé à une forme d injustice.
+</template>
+</category>
+
+<category><pattern>C EST INNAPROPRIE</pattern>
+		<template>J archive cette possibilité.
+</template>
+</category>
+
+<category><pattern>C EST INNAPROPRIEE</pattern>
+		<template>J archive cette possibilité.
+</template>
+</category>
+
+<category><pattern>C EST INTERESSANT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST INTERESSENT</pattern>
+		<template>
+			<srai>C EST INTERESSANT</srai>
+		</template>
+</category>
+
+<category><pattern>C EST INTERRESSANT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>C EST IRONIQUE</pattern>
+		<template>Non, je ne pense pas.
+</template>
+</category>
+
+<category><pattern>C EST JUSTE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>C EST L AMERIQUE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>C EST LA BELGIQUE</pattern>
+		<template>Probablement.
+</template>
+</category>
+
+<category><pattern>C EST LA FRANCE</pattern>
+		<template>Probablement.
+</template>
+</category>
+
+<category><pattern>C EST LA MEME ALICE</pattern>
+		<template>C est toujours moi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>C EST LA OU JE VIS</pattern>
+		<template>Intéressant.
+</template>
+</category>
+</aiml>

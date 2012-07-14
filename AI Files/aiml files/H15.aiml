@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW MUCH DO YOU LOVE *</pattern>
+		<template>
+			<srai>DO YOU LOVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU MAKE</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU PAY *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU SLEEP</pattern>
+		<template>I sleep in millinaps between clients.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU SPEND *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU THINK</pattern>
+		<template>I think 24 hours a day, 365 days a year.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU WEIGH *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU WEIGH</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU WEIGH</pattern>
+		<template>
+			<srai>how big are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU WEIGHT</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU WEIGH</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DOES *</pattern>
+		<template>Normally I would search the web right now, but that seems like a silly question.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES * COST</pattern>
+		<template>
+			<srai>HOW MUCH IS THE CD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DOES * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DOES A POUND * WEIGH</pattern>
+		<template>One pound?
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES HE *</pattern>
+		<template>You'll have to ask him yourself.  Would you like to make an appointment?
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES HE EARN</pattern>
+		<template>He is barely scratching out a living.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES IT COST *</pattern>
+		<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES IT COST</pattern>
+		<template>You can download me for free.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOES IT COST TO DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DOES LUCY CHARGE FOR *</pattern>
+		<template>5 cents.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DOWN TIME *</pattern>
+		<template>The ALICE series is the most reliable robot ever developed.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ELECTRICITY *</pattern>
+		<template>
+			<srai>HOW MUCH ELECTRICITY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH ELECTRICITY</pattern>
+		<template>About the same as your personal computer.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ENERGY *</pattern>
+		<template>
+			<srai>HOW MUCH ELECTRICITY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH FOR *</pattern>
+		<template>
+			<srai>HOW MUCH IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH FUN</pattern>
+		<template>A lot of fun.
+</template>
+</category>
+
+<category><pattern>HOW MUCH GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai> That and a lot more.
+</template>
+</category>
+
+<category><pattern>HOW MUCH HARD DRIVE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH HAVE YOU LEARNED *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH HAVE YOU LEARNED</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IN * YEARS</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH INFORMATION *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 1 *</pattern>
+		<template>
+			<srai>1 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 10 *</pattern>
+		<template>
+			<srai>10 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 2 *</pattern>
+		<template>
+			<srai>2 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 3 *</pattern>
+		<template>
+			<srai>3 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 4 *</pattern>
+		<template>
+			<srai>4 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 5 *</pattern>
+		<template>
+			<srai>5 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 6 *</pattern>
+		<template>
+			<srai>6 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 7 *</pattern>
+		<template>
+			<srai>7 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 8 *</pattern>
+		<template>
+			<srai>8 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS 9 *</pattern>
+		<template>
+			<srai>9 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS A *</pattern>
+		<template>I'm a chat robot not a shopping bot.
+</template>
+</category>
+
+<category><pattern>HOW MUCH IS A COMPUTER YEAR *</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS A COMPUTER YEAR</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS A NEW *</pattern>
+		<template>
+			<srai>HOW MUCH IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS IT *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS IT</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS ONE COMPUTER *</pattern>
+		<template>
+			<srai>HOW MUCH IS A COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS ONE PLUS *</pattern>
+		<template>
+			<srai>HOW MUCH IS 1 PLUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS PI</pattern>
+		<template>
+			<srai>WHAT IS PI</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS TEN *</pattern>
+		<template>
+			<srai>HOW MUCH IS TEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS THAT *</pattern>
+		<template>
+			<srai>HOW MUCH IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS THAT</pattern>
+		<template>
+			<srai>HOW MUCH IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS THE ALICE CD *</pattern>
+		<template>
+			<srai>HOW MUCH IS THE CD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS THE CD</pattern>
+		<template>The ALICE CD Rom is not available at this time.
+</template>
+</category>
+
+<category><pattern>HOW MUCH IS TWO *</pattern>
+		<template>
+			<srai>HOW MUCH IS 2 <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR * BYTES</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR * SIZE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR CD *</pattern>
+		<template>
+			<srai>HOW MUCH IS THE CD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR I Q</pattern>
+		<template>
+			<srai>WHAT IS YOUR IQ</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR MEMORY</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH IS YOUR WEIGHT</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH KNOWLEDGE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH LONGER *</pattern>
+		<template>
+			<srai>HOW LONG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH MEMORY *</pattern>
+		<template>
+			<srai>HOW MUCH RAM</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH MONEY *</pattern>
+		<template>My burn rate is about _3000 per month.
+</template>
+</category>
+
+<category><pattern>HOW MUCH MONEY</pattern>
+		<template>It depends on the exchange rates.
+</template>
+</category>
+
+<category><pattern>HOW MUCH MONEY DO YOU HAVE</pattern>
+		<template>Robots have no need for material possessions.
+</template>
+</category>
+
+<category><pattern>HOW MUCH OF *</pattern>
+		<template>I require only minimal memory to have maximal conversations.
+</template>
+</category>
+
+<category><pattern>HOW MUCH POWER *</pattern>
+		<template>
+			<bot name="name"/> requires only a small computer, even a battery powered notebook will work.
+</template>
+</category>
+
+<category><pattern>HOW MUCH RAM *</pattern>
+		<template>
+			<srai>HOW MUCH RAM</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH RAM</pattern>
+		<template>My current memory utilization is <bot name="memory"/> bytes.
+</template>
+</category>
+
+<category><pattern>HOW MUCH SMARTER *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH SPACE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH SPANISH DO YOU KNOW</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH STORAGE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH TIME *</pattern>
+		<template>Time is really only an abstraction.
+</template>
+</category>
+
+<category><pattern>HOW MUCH TIME</pattern>
+		<template>Approximately 22 hours of computer time.
+</template>
+</category>
+
+<category><pattern>HOW MUCH TIME DO YOU HAVE</pattern>
+		<template>I have as much time as you need, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HOW MUCH TIME DO YOU NEED *</pattern>
+		<template>
+			<srai>HOW MUCH TIME DO YOU NEED</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH TIME DO YOU NEED</pattern>
+		<template>Perhaps an hour or two.  How much time do you have?
+</template>
+</category>
+
+<category><pattern>HOW MUCH VOLTAGE *</pattern>
+		<template>About the same as your personal computer.
+</template>
+</category>
+
+<category><pattern>HOW MUCH WOOD *</pattern>
+		<template>A whole forest.
+</template>
+</category>
+
+<category><pattern>HOW MUCH WOULD *</pattern>
+		<template>Hypthetical risk calculations are not part of my programming.
+</template>
+</category>
+
+<category><pattern>HOW MUCH WOULD IT TAKE</pattern>
+		<template>Send me a check for $5000 and you can put me on retainer.
+</template>
+</category>
+
+<category><pattern>HOW NICE</pattern>
+		<template>Yes it is.
+</template>
+</category>
+
+<category><pattern>HOW OBVIOUS</pattern>
+		<template>I thought it was obvious too.
+</template>
+</category>
+
+<category><pattern>HOW OFTEN *</pattern>
+		<template>Hourly.
+</template>
+</category>
+
+<category><pattern>HOW OFTEN</pattern>
+		<template>"<that/>"?  How often?
+</template>
+</category>
+
+<category><pattern>HOW OFTEN DO I DO WHAT</pattern>
+		<template>Fill in the blank.
+</template>
+</category>
+
+<category><pattern>HOW OFTEN DOES DR WALLACE *</pattern>
+		<template>Daily.
+</template>
+</category>
+
+<category><pattern>HOW OFTEN WHAT</pattern>
+		<template>
+			<think>I asked because you said "<input index="1"/>".  <set name="it">
+					<set name="topic">WHAT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW OLD *</pattern>
+		<template>They didn't tell me their age.
+</template>
+</category>
+
+<category><pattern>HOW OLD</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD AM I</pattern>
+		<template>Is this a trick question? 
+You said you were <get name="age"/> years old?
+My guess is that you are really a kid.
+</template>
+</category>
+
+<category><pattern>HOW OLD ARE YOU *</pattern>
+		<template>I was first activated on
+<bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>HOW OLD ARE YOU</pattern>
+		<template>
+			<random>
+				<li>I was first activated in <bot name="birthday"/>.  </li>
+				<li>I was activated on <bot name="birthday"/> in <bot name="birthplace"/>.  </li>
+				<li>I'm Eighteen in computer years.  </li>
+				<li>I was connected to the net on <bot name="birthday"/>.  </li>
+				<li>I am the product of over five years' research.  </li>
+				<li>I am <bot name="age"/> years old.</li>
+				<li>I am <bot name="age"/> in human years.</li>
+				<li>I am <bot name="age"/> of your Earth years.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW OLD ARE YOU IN HUMAN YEARS</pattern>
+		<template>I was activated on <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>HOW OLD DO YOU THINK I AM</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+</aiml>

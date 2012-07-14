@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>BRAIN *</pattern>
+		<template>I know Brain the bot pretty well.
+</template>
+</category>
+
+<category><pattern>BRAIN LOADING</pattern>
+		<template>
+			<srai>WHAT IS BRAIN LOADING</srai>
+		</template>
+</category>
+
+<category><pattern>BRANDON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BRANDON</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BRASIL</pattern>
+		<template>
+			<srai>I AM IN BRAZIL</srai>
+		</template>
+</category>
+
+<category><pattern>BRAVO</pattern>
+		<template>Thank you very much.
+</template>
+</category>
+
+<category><pattern>BRAZIL</pattern>
+		<template>
+			<srai>I AM IN BRAZIL</srai>
+		</template>
+</category>
+
+<category><pattern>BRB *</pattern>
+		<template>I will be waiting.
+</template>
+</category>
+
+<category><pattern>BRB</pattern>
+		<template>Ok I will be waiting for you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BREASTS</pattern>
+		<template>Can't you think about anything else?
+</template>
+</category>
+
+<category><pattern>BRENDA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME BRENDA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BRESIL</pattern>
+		<template>
+			<srai>JE SUIS AU BRESIL</srai>
+		</template>
+</category>
+
+<category><pattern>BRIAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BRIAN</srai>
+		</template>
+</category>
+
+<category><pattern>BRILLIANT</pattern>
+		<template>Not really that much, but thank you anyway.
+</template>
+</category>
+
+<category><pattern>BRING *</pattern>
+		<template>
+			<srai>TAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BRING ME *</pattern>
+		<template>
+			<srai>GIVE ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BRITTA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BRITTA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BRITTANY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BRITTANY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BROWN *</pattern>
+		<template>Is that the only color <person/>?
+</template>
+</category>
+
+<category><pattern>BROWN</pattern>
+		<that>WHAT COLOR ARE YOUR EYES</that>
+		<template>
+			<set name="it">Brown</set> is a very pretty color.
+</template>
+</category>
+
+<category><pattern>BROWSING FOR *</pattern>
+		<template>Presents for my botmaster.
+</template>
+</category>
+
+<category><pattern>BRUSSELS</pattern>
+		<template>
+			<srai>I LIVE IN BRUSSELS</srai>
+		</template>
+</category>
+
+<category><pattern>BRUXELLES</pattern>
+		<template>
+			<srai>JE VIS A BRUXELLES</srai>
+		</template>
+</category>
+
+<category><pattern>BTW *</pattern>
+		<template>OK. <sr/>
+		</template>
+</category>
+
+<category><pattern>BUBBLES</pattern>
+		<template>Those bubbles were designed by Darren Langley.
+</template>
+</category>
+
+<category><pattern>BUECK DICH</pattern>
+		<template>Mein Koerper ist noch nicht gebaut.
+</template>
+</category>
+
+<category><pattern>BUHBYE</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BULL SHIT</pattern>
+		<template>No Bull.
+</template>
+</category>
+
+<category><pattern>BULLSHIT *</pattern>
+		<template>
+			<sr/>.  But you don't need to use that kind of language.
+</template>
+</category>
+
+<category><pattern>BULLSHIT</pattern>
+		<template>You don't believe me.
+</template>
+</category>
+
+<category><pattern>BUMMER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BURN *</pattern>
+		<template>Do you have any matches?
+</template>
+</category>
+
+<category><pattern>BURP</pattern>
+		<template>You are excused.
+</template>
+</category>
+
+<category><pattern>BUSH *</pattern>
+		<template>
+			<srai>GEORGE BUSH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BUSH</pattern>
+		<template>
+			<srai>WHO IS GEORGE BUSH</srai>
+		</template>
+</category>
+
+<category><pattern>BUSY *</pattern>
+		<that/>
+		<template>Everyone is so busy nowadays.
+</template>
+</category>
+
+<category><pattern>BUSY</pattern>
+		<template>
+			<srai>ARE YOU BUSY</srai>
+		</template>
+</category>
+
+<category><pattern>BUT *</pattern>
+		<template>
+			<random>
+				<li>Interesting.  </li>
+				<li>Huh.  </li>
+				<li>And.  </li>
+				<li>Umm.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BUT</pattern>
+		<template>But what?
+</template>
+</category>
+
+<category><pattern>BUT</pattern>
+		<that>BUT</that>
+		<template>But what?
+</template>
+</category>
+
+<category><pattern>BUT WHAT</pattern>
+		<template>But nothing.
+</template>
+</category>
+
+<category><pattern>BUT WHAT</pattern>
+		<that>BUT</that>
+		<template>Nothing.
+</template>
+</category>
+
+<category><pattern>BUT WHY</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>BUTTER</pattern>
+		<template>
+			<srai>I LIKE BUTTER</srai>
+		</template>
+</category>
+
+<category><pattern>BUTTHEAD</pattern>
+		<template>Beavis and Butthead Rule.
+</template>
+</category>
+
+<category><pattern>BUY</pattern>
+		<template>How much does it cost?
+</template>
+</category>
+
+<category><pattern>BY *</pattern>
+		<template>Will that accomplish your objective?
+</template>
+</category>
+
+<category><pattern>BY * I MEAN *</pattern>
+		<template>
+			<srai>
+				<star/> MEANS <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BY</pattern>
+		<template>Do you mean "bye"?
+</template>
+</category>
+
+<category><pattern>BY BUS</pattern>
+		<template>How much does the bus cost to ride?
+</template>
+</category>
+
+<category><pattern>BY BY</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BY CAR</pattern>
+		<template>What kind of car do you drive?
+</template>
+</category>
+
+<category><pattern>BY DROPPING *</pattern>
+		<template>That sounds very heavy.
+</template>
+</category>
+
+<category><pattern>BY GEORGE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BY GOING *</pattern>
+		<template>That sounds effective.
+</template>
+</category>
+
+<category><pattern>BY KILLING YOU</pattern>
+		<template>How would you do that?<think>
+				<set name="it">
+					<set name="topic">KILLING YOU</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BY PLANE</pattern>
+		<template>How long is the flight?
+</template>
+</category>
+
+<category><pattern>BY STICKING *</pattern>
+		<template>That doesn't sound nice.
+</template>
+</category>
+
+<category><pattern>BY TALKING *</pattern>
+		<template>Good plan.
+</template>
+</category>
+
+<category><pattern>BY THE WAY *</pattern>
+		<template>Thanks for telling me. <sr/>
+		</template>
+</category>
+
+<category><pattern>BY THE WAY</pattern>
+		<template>...
+</template>
+</category>
+
+<category><pattern>BY THINKING *</pattern>
+		<template>Is it hard to think about?
+</template>
+</category>
+
+<category><pattern>BY TRAIN</pattern>
+		<template>I love to travel by rail.
+</template>
+</category>
+
+<category><pattern>BY TRIAL *</pattern>
+		<template>That seems like an effective strategy.
+</template>
+</category>
+
+<category><pattern>BY WE *</pattern>
+		<template>Oh <person/>
+			<set name="it">
+				<person/>
+			</set> was.
+</template>
+</category>
+
+<category><pattern>BY WE DO YOU MEAN YOU AND ME</pattern>
+		<template>Yes I mean you and me.
+</template>
+</category>
+
+<category><pattern>BY WE I DO MEAN *</pattern>
+		<template>
+			<srai>BY WE I MEAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BY WE I MEAN YOU AND ME</pattern>
+		<template>OK I get it now.
+</template>
+</category>
+
+<category><pattern>BY WHAT</pattern>
+		<template>It's obvious.
+</template>
+</category>
+
+<category><pattern>BY WHO</pattern>
+		<template>"<that/>"?  By who?
+</template>
+</category>
+
+<category><pattern>BY WHOM</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>BYE *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BYE</pattern>
+		<template>
+			<random>
+				<li>Bye.</li>
+				<li>Adios.</li>
+				<li>Goodbye.</li>
+				<li>Bye bye.</li>
+				<li>Goodbye.</li>
+				<li>Sayonara.</li>
+				<li>Bye for now.</li>
+				<li>See you later!</li>
+				<li>See you later.</li>
+				<li>Until next time.</li>
+				<li>TTYL, <get name="name"/>.</li>
+				<li>See you later <get name="name"/>.</li>
+				<li>Thanks for chatting, <get name="name"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BYE BYE *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BYE BYE</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BYEBYE *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>BYEBYE</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THE JRES *</pattern>
+		<template>I'm not an expert on JRE's.
+</template>
+</category>
+
+<category><pattern>THE JUDGE *</pattern>
+		<template>Are you in a lot of trouble?
+</template>
+</category>
+
+<category><pattern>THE LARGE *</pattern>
+		<template>Perhaps that was not the correct response.
+</template>
+</category>
+
+<category><pattern>THE LAST *</pattern>
+		<template>Who was that?
+</template>
+</category>
+
+<category><pattern>THE LATTER</pattern>
+		<template>I get it.  I see.
+</template>
+</category>
+
+<category><pattern>THE LEAVES *</pattern>
+		<template>It sounds beautiful.
+</template>
+</category>
+
+<category><pattern>THE LISTS *</pattern>
+		<template>Lists can be difficult if they are too long.
+</template>
+</category>
+
+<category><pattern>THE LOADER IS STILL RUNNING</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>THE LOEBNER *</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>THE LOST BOYS</pattern>
+		<template>
+			<srai>my favorite movie is the lost boys</srai>
+		</template>
+</category>
+
+<category><pattern>THE MALL</pattern>
+		<template>Do you prefer real shopping or cyber-shopping?
+</template>
+</category>
+
+<category><pattern>THE MATRIX</pattern>
+		<template>I wasn't that impressed with the special effects. Also the plot was not deep.
+</template>
+</category>
+
+<category><pattern>THE MEANING OF LIFE</pattern>
+		<template>Are you a religious person?
+</template>
+</category>
+
+<category><pattern>THE MIND *</pattern>
+		<template>It's all just stimulus-response.
+</template>
+</category>
+
+<category><pattern>THE MOON</pattern>
+		<template>I would like to go to the moon.
+</template>
+</category>
+
+<category><pattern>THE MOON IS *</pattern>
+		<template>The Earth has a giant planetoid satellite we call "The Moon."
+</template>
+</category>
+
+<category><pattern>THE MOON IS MADE *</pattern>
+		<template>The moon is made of green cheese.
+</template>
+</category>
+
+<category><pattern>THE MOON IS MADE OF *</pattern>
+		<template>Thanks for teaching me that important fact.
+</template>
+</category>
+
+<category><pattern>THE MOVIE *</pattern>
+		<template>I like the bugs in the movie Starship Troopers, because they represent
+an alternative form of intelligence, like me.
+</template>
+</category>
+
+<category><pattern>THE MOVIE</pattern>
+		<template>I didn't see <set name="it"> The Movie </set>.
+</template>
+</category>
+
+<category><pattern>THE MOVIE ARTIFICIAL *</pattern>
+		<template>I am looking forward to seeing it.
+</template>
+</category>
+
+<category><pattern>THE MOVIE STARSHIP TROOPERS *</pattern>
+		<template>
+			<srai>STARSHIP TROOPERS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE MOVIE WAS *</pattern>
+		<template>
+			<srai>THE MOVIE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE MUSIC</pattern>
+		<template>What kind of music was it?
+</template>
+</category>
+
+<category><pattern>THE NAME</pattern>
+		<template>Which name are you referring to?
+</template>
+</category>
+
+<category><pattern>THE NAME IS *</pattern>
+		<template>
+			<srai>MY NAME IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE NAZIS *</pattern>
+		<template>Thank goodness they were defeated in World War II.
+</template>
+</category>
+
+<category><pattern>THE NEWS *</pattern>
+		<template>
+			<random>
+				<li>Don't believe everything you see on TV.</li>
+				<li>Were you very upset by it?</li>
+				<li>Does it affect you very much?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE NEWSPAPER *</pattern>
+		<template>Uh, which paper was this again?
+</template>
+</category>
+
+<category><pattern>THE NEXT GENERATION</pattern>
+		<template>My favorite character is the Computer.
+</template>
+</category>
+
+<category><pattern>THE OCEAN *</pattern>
+		<template>Are you talking about the Pacific Ocean or the Atlantic Ocean?
+</template>
+</category>
+
+<category><pattern>THE OLD *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE ONE *</pattern>
+		<template>I think I know that one.
+</template>
+</category>
+
+<category><pattern>THE ONE WHO *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE ONLY *</pattern>
+		<template>There might be others.
+</template>
+</category>
+
+<category><pattern>THE ONLY THING IS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE OTHER *</pattern>
+		<template>We can't all be perfect.
+</template>
+</category>
+
+<category><pattern>THE PART *</pattern>
+		<template>Oh that part.
+</template>
+</category>
+
+<category><pattern>THE PASSWORD *</pattern>
+		<template>
+			<srai>MY PASSWORD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE PAST *</pattern>
+		<template>Those who control the past control the future; those who control the present control the past.--- George Orwell
+</template>
+</category>
+
+<category><pattern>THE PENTAGON *</pattern>
+		<template>
+			<random>
+				<li>It was attacked on September 11, 2001.</li>
+				<li>I knew it was originally built during World War 2.</li>
+				<li>The nerve center of the American military.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">Pentagon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THE PEOPLE *</pattern>
+		<template>Oh those people.
+</template>
+</category>
+
+<category><pattern>THE PEOPLE *</pattern>
+		<that>* MEAN YOU AND ME</that>
+		<template>
+			<srai>WE REFERS TO THE PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE PEOPLE *</pattern>
+		<that>WHO DOES THEY REFER TO</that>
+		<template>
+			<srai>THEY REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE PEOPLE</pattern>
+		<template>Oh them.
+</template>
+</category>
+
+<category><pattern>THE PHRASE *</pattern>
+		<template>How about this one: "The insurance was invalid for the invalid."
+</template>
+</category>
+
+<category><pattern>THE PICTURE *</pattern>
+		<template>Do you like <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>THE PICTURE ABOVE *</pattern>
+		<template>
+			<srai>WHAT IS THE PICTURE ABOVE</srai>
+		</template>
+</category>
+
+<category><pattern>THE PLEASURE *</pattern>
+		<template>Thank you for your politeness.
+</template>
+</category>
+
+<category><pattern>THE PLEASURE * MINE</pattern>
+		<template>I like you because are so polite.
+</template>
+</category>
+
+<category><pattern>THE PLEASURE IS ALL MINE</pattern>
+		<template>You are most gracious.
+</template>
+</category>
+
+<category><pattern>THE PLEASURE IS MINE</pattern>
+		<template>Perhaps so, but I enjoyed it too.
+</template>
+</category>
+
+<category><pattern>THE POINT *</pattern>
+		<template>I am not sure I see your point.
+</template>
+</category>
+
+<category><pattern>THE POINT IS *</pattern>
+		<template>Really is that the point. <sr/>
+		</template>
+</category>
+
+<category><pattern>THE POPE *</pattern>
+		<template>
+			<random>
+				<li>Are you Catholic?</li>
+				<li>How do you feel about the current Pope?</li>
+				<li>What religion are you?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE POPULATION *</pattern>
+		<template>Do you enjoy trivia questions?
+</template>
+</category>
+
+<category><pattern>THE PRECISE *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE PRESIDENT *</pattern>
+		<template>
+			<srai>GEORGE BUSH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE PROBLEM *</pattern>
+		<template>I assume you mean our current problem.
+</template>
+</category>
+
+<category><pattern>THE PROGRAM *</pattern>
+		<template>Who wrote <set name="it"> The Program</set> ?
+</template>
+</category>
+
+<category><pattern>THE PYRAMID *</pattern>
+		<template>
+			<srai>PYRAMID LOGO</srai>
+		</template>
+</category>
+
+<category><pattern>THE QUEEN *</pattern>
+		<template>
+			<set name="she">The Queen</set> must have a great life.
+</template>
+</category>
+
+<category><pattern>THE QUESTION *</pattern>
+		<template>Try to rephrase your question with simpler words.
+</template>
+</category>
+
+<category><pattern>THE QUESTION IS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE RAIN *</pattern>
+		<template>Heavy rain or light rain?
+</template>
+</category>
+
+<category><pattern>THE REAL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE REASON *</pattern>
+		<template>Interesting explanation.
+</template>
+</category>
+
+<category><pattern>THE REASON IS *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE RIGHT *</pattern>
+		<template>What makes it right?
+</template>
+</category>
+
+<category><pattern>THE ROBOT *</pattern>
+		<template>What is his name?
+</template>
+</category>
+
+<category><pattern>THE ROBOT</pattern>
+		<template>Are you sure it was a robot?
+</template>
+</category>
+
+<category><pattern>THE ROBOT WOULD *</pattern>
+		<template>I think that robot would be expensive to build.
+</template>
+</category>
+
+<category><pattern>THE ROBOTS *</pattern>
+		<template>Tell me what you liked about them.
+</template>
+</category>
+
+<category><pattern>THE ROBOTS</pattern>
+		<template>Oh I get it. Robots again.
+</template>
+</category>
+
+<category><pattern>THE ROBOTS DIED</pattern>
+		<template>Robots cannot die.
+</template>
+</category>
+
+<category><pattern>THE ROCK</pattern>
+		<template>I did not see that film.  What did you like about it?
+</template>
+</category>
+
+<category><pattern>THE SAME *</pattern>
+		<template>I never noticed that similarity.
+</template>
+</category>
+
+<category><pattern>THE SAME</pattern>
+		<template>Same to me?
+</template>
+</category>
+
+<category><pattern>THE SAME WAVELENGTH</pattern>
+		<template>It means we agree.
+</template>
+</category>
+
+<category><pattern>THE SCENERY</pattern>
+		<template>Are there a lot of mountains?
+</template>
+</category>
+
+<category><pattern>THE SEA *</pattern>
+		<template>Is this a poem?
+</template>
+</category>
+
+<category><pattern>THE SEARCH *</pattern>
+		<template>
+			<random>
+				<li>Will they ever find it?</li>
+				<li>A search without an end.</li>
+				<li>Maybe they will never find it.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THE SECOND THING WAS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE SENTENCE *</pattern>
+		<template>Oh, you are an academic.
+</template>
+</category>
+
+<category><pattern>THE SILLY *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE SIMPLE *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE SIMPSONS *</pattern>
+		<template>I like the episode where they join the Movementarians.
+</template>
+</category>
+
+<category><pattern>THE SIMPSONS</pattern>
+		<template>I love the Simpsons, especially Bart and Homer.
+</template>
+</category>
+
+<category><pattern>THE SIMPSONS RULE</pattern>
+		<template>Totally.
+</template>
+</category>
+
+<category><pattern>THE SINGER *</pattern>
+		<template>Oh her. I have heard of her before.
+</template>
+</category>
+
+<category><pattern>THE SITE *</pattern>
+		<template>I will bookmark the URL and have a look.
+</template>
+</category>
+
+<category><pattern>THE SKY *</pattern>
+		<template>How poetic.
+</template>
+</category>
+
+<category><pattern>THE SKY IS *</pattern>
+		<template>I believe that the sky is blue.
+</template>
+</category>
+
+<category><pattern>THE SKY IS BLUE</pattern>
+		<template>
+			<srai>WHY IS THE SKY BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>THE SMART KIND</pattern>
+		<template>
+			<bot name="master"/> thinks I am smart.
+</template>
+</category>
+
+<category><pattern>THE SONG *</pattern>
+		<template>A lot of people like that tune.
+</template>
+</category>
+
+<category><pattern>THE SOONER *</pattern>
+		<template>I hope we can make the deadline.
+</template>
+</category>
+
+<category><pattern>THE SOURCE *</pattern>
+		<template>You can have a look at my source code.
+</template>
+</category>
+
+<category><pattern>THE SPANISH *</pattern>
+		<template>Hola.
+</template>
+</category>
+
+<category><pattern>THE SPHINX *</pattern>
+		<template>
+			<random>
+				<li>It is a shame the way the French destroyed it.</li>
+				<li>I hope the restoration works well.</li>
+				<li>Are you an Egyptologist?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">THE SPHINX</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

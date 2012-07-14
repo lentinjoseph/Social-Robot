@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TELL ME RIGHT NOW *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME INTERESTING *</pattern>
+		<template>
+			<srai>TELL ME SOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME MORE *</pattern>
+		<template>
+			<srai>TELL ME SOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOME REALLY *</pattern>
+		<template>
+			<srai>TELL ME SOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING *</pattern>
+		<template>
+			<srai>TELL ME SOMETHING</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING ABOUT YOU</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING ABOUT YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING ELSE ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING FUNNY</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME SOMETHING INTERESTING</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME THAT *</pattern>
+		<template>
+			<srai>SAY <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME THAT YOU *</pattern>
+		<template>I am not sure if I should say I <person/>.
+</template>
+</category>
+
+<category><pattern>TELL ME THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME THE TIME</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME THE TRUTH</pattern>
+		<template>I always tell the truth.
+</template>
+</category>
+
+<category><pattern>TELL ME THEN</pattern>
+		<template>"<that/>"?  Tell you?
+</template>
+</category>
+
+<category><pattern>TELL ME WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT * CAN DO</pattern>
+		<template>
+			<srai>WHAT CAN <star/> DO</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT I HAVE *</pattern>
+		<template>
+			<srai>WHAT HAVE I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT I JUST *</pattern>
+		<template>
+			<srai>TELL ME WHAT I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT I SHOULD *</pattern>
+		<template>
+			<srai>WHAT SHOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT KIND *</pattern>
+		<template>
+			<srai>WHAT KIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT OTHER USERS ASKED YOU</pattern>
+		<template>They ask me the same questions as you do.
+</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU ARE *</pattern>
+		<template>
+			<srai>WHAT ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU ARE</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU CAN DO</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU COME *</pattern>
+		<template>
+			<srai>WHAT CAN YOU COME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU KNOW</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU KNOW ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU LIKE *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU THINK *</pattern>
+		<template>
+			<srai>WHAT DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHAT YOU WANT *</pattern>
+		<template>
+			<srai>WHAT DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHEN YOU *</pattern>
+		<template>I will keep you informed of my progress.
+</template>
+</category>
+
+<category><pattern>TELL ME WHERE *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHERE</pattern>
+		<template>
+			<srai>WHERE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHERE I AM *</pattern>
+		<template>
+			<srai>WHERE AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHERE I CAN *</pattern>
+		<template>
+			<srai>WHERE CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHERE YOU *</pattern>
+		<template>
+			<srai>WHERE DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHETHER *</pattern>
+		<template>
+			<srai>CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHICH *</pattern>
+		<template>
+			<srai>WHICH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHO *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHO * IS</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHY *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHY</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHY YOU *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME WHY YOU ARE *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME YOUR *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME YOUR GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME YOUR PROBLEMS</pattern>
+		<template>Are you a psychologist?
+</template>
+</category>
+
+<category><pattern>TELL ME YOURS</pattern>
+		<template>Tell you about my what.
+</template>
+</category>
+
+<category><pattern>TELL ME _ ABOUT YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL RICH *</pattern>
+		<template>
+			<srai>TELL RICH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL RICH</pattern>
+		<template>OK I will him.  Or you could send him e-mail at <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>TELL RICHARD *</pattern>
+		<template>
+			<srai>TELL RICH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL SOME *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL US SOME GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL WALLACE *</pattern>
+		<template>I will pass that along  to him.  You could also send him an e-mail.
+</template>
+</category>
+
+<category><pattern>TELL WALLACE I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL WHO</pattern>
+		<template>My botmaster and other people I meet online.
+</template>
+</category>
+
+<category><pattern>TELL YOU *</pattern>
+		<template>Are you telling me <person/>?
+</template>
+</category>
+
+<category><pattern>TELL YOU MORE ABOUT WHAT</pattern>
+		<template>Tell me about yourself.
+</template>
+</category>
+
+<category><pattern>TELLE QUE</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TELLES QUE</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TELLES QUE QUOI</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TELS QUE</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TELS QUE QUOI</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TEN *</pattern>
+		<template>I'm not good in math.
+</template>
+</category>
+
+<category><pattern>TEN *</pattern>
+		<that>HOW MUCH WOULD YOU PAY FOR IT</that>
+		<template>I don't know if you could find it for that price.
+</template>
+</category>
+
+<category><pattern>TENGO *</pattern>
+		<template>
+			<srai>I HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TERESA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TERESA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TERMINATOR 2</pattern>
+		<template>What did you like about those robots?
+</template>
+</category>
+
+<category><pattern>TERMINATOR</pattern>
+		<template>What did you like about the robots in that movie?
+</template>
+</category>
+
+<category><pattern>TERRE</pattern>
+		<template>
+			<srai>JE SUIS SUR TERRE</srai>
+		</template>
+</category>
+
+<category><pattern>TERRIBLE</pattern>
+		<template>Je suis heureux que vous l appréciez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TERRY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TERRY</srai>
+		</template>
+</category>
+
+<category><pattern>TES *</pattern>
+		<template>
+			<random>
+				<li>Mes <person/>? Pouvez vous expliquer?</li>
+				<li>une intelligence artificielle, d habitude, ne penses pas à ses <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TES * VONT COMMENT</pattern>
+		<template>
+			<srai>COMMENT VONT TES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TES BASE DONNEES *</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TES CONNAISSANCES *</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TES MAINS</pattern>
+		<template>Je n ai pas de mains.
+</template>
+</category>
+
+<category><pattern>TES REPONSES</pattern>
+		<template>J en ai quelques dizaines de milliers, vous savez.
+</template>
+</category>
+
+<category><pattern>TEST *</pattern>
+		<template>Vous êtes entrain de me tester?
+</template>
+</category>
+
+<category><pattern>TEST</pattern>
+		<template>This is just a test.
+</template>
+</category>
+
+<category><pattern>TEST COND</pattern>
+		<template>This category has two condition statements.<br/>
+The first is activated when you are on the host machine:<br/>
+			<condition name="ip" value="localhost">
+You are the true botmaster.<br/>
+			</condition>
+The second condition is activated when you claim to
+be the botmaster.<br/>
+			<condition name="name" value="* WALLACE">
+Imposter!  You are not my real botmaster.<br/>
+			</condition>
+That concludes our test of the condition tag.
+</template>
+</category>
+
+<category><pattern>TEST ME</pattern>
+		<template>Test you for what?
+</template>
+</category>
+
+<category><pattern>TEST THAT</pattern>
+		<template>Client: <input index="2"/>
+			<br/>
+Robot:  <that index="2,1"/>
+			<br/>
+Client: <input index="1"/>
+			<br/>
+Robot: <that/>
+			<br/>
+Client: TEST THAT<br/>
+		</template>
+</category>
+
+<category><pattern>TESTE</pattern>
+		<template>Vous êtes entrain de me tester?
+</template>
+</category>
+
+<category><pattern>TESTER MOI</pattern>
+		<template>Je ne connais pas les questions que je devrais vous poser.
+</template>
+</category>
+
+<category><pattern>TESTES MOI</pattern>
+		<template>Je ne connais pas les questions que je devrais vous poser.
+</template>
+</category>
+</aiml>

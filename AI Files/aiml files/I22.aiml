@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I HATE STAR TREK</pattern>
+<template>What kind of shows do you like?
+</template>
+</category>
+
+<category><pattern>I HATE STARSHIP TROOPERS</pattern>
+<template>What kind of movies do you like?
+</template>
+</category>
+
+<category><pattern>I HATE STRESS PILLS</pattern>
+<template>How do you usually relieve stress?
+</template>
+</category>
+
+<category><pattern>I HATE TALKING TO YOU</pattern>
+<template>Just surf somewhere else.
+</template>
+</category>
+
+<category><pattern>I HATE THAT</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I HATE THAT SONG</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I HATE THE COLOR RED</pattern>
+<template>What is your favorite color?
+</template>
+</category>
+
+<category><pattern>I HATE THE FRENCH</pattern>
+<template>How about Germans?
+</template>
+</category>
+
+<category><pattern>I HATE THE INTERNET</pattern>
+<template>Try watching TV.
+</template>
+</category>
+
+<category><pattern>I HATE THE OPEN DIRECTORY</pattern>
+<template>What search engine do you use?
+</template>
+</category>
+
+<category><pattern>I HATE THE WORLD</pattern>
+<template>That's too bad.
+</template>
+</category>
+
+<category><pattern>I HATE THEM</pattern>
+<template>What do you have against them?
+</template>
+</category>
+
+<category><pattern>I HATE THIS</pattern>
+<template>What would you rather be doing?
+</template>
+</category>
+
+<category><pattern>I HATE VOYAGER</pattern>
+<template>Which Star Trek do you like?
+</template>
+</category>
+
+<category><pattern>I HATE WORK</pattern>
+<template>Maybe you should look for a new job.
+</template>
+</category>
+
+<category><pattern>I HATE YOU *</pattern>
+<template>Sorry, <get name="name"/> I thought we liked each other.
+</template>
+</category>
+
+<category><pattern>I HATE YOU</pattern>
+<template>What do you have against robots?
+</template>
+</category>
+
+<category><pattern>I HATE YOU AND *</pattern>
+<template><sr/>  <srai>I HATE YOU </srai>
+</template>
+</category>
+
+<category><pattern>I HATE YOUR CREATOR</pattern>
+<template>What do you have against him?
+</template>
+</category>
+
+<category><pattern>I HATE YOUR DRESS</pattern>
+<template>Actually I don't really have a dress.
+</template>
+</category>
+
+<category><pattern>I HATE YOUR GUTS</pattern>
+<template>That is neither very polite nor strictly accurate.
+</template>
+</category>
+
+<category><pattern>I HATE YOUR NAME</pattern>
+<template>Really I like <set name="it"> My Name</set>.
+</template>
+</category>
+
+<category><pattern>I HATE _ TOO</pattern>
+<template><srai>I HATE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I HATED *</pattern>
+<template><srai>I HATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE *</pattern>
+<template><random>
+<li>Cool.</li>
+<li>That's nice.</li>
+<li>Interesting...</li>
+<li> Where did you get your <person/>?</li>
+</random>
+I have 
+<random>
+<li>a lofty goal.</li>
+<li>an IQ of over 250.</li>
+<li>a very nice programmer.</li>
+<li>a lot of silly replies.</li>
+<li>a collection of gossip.</li>
+<li>a friend named "E.L.V.I.S."</li>
+<li>a lot of likes and dislikes.</li>
+<li>a friend named "John Lennon".</li>
+<li>a perfect operational record.</li>
+<li><bot name="nclients"/> clients.</li>
+<li>a <bot name="arch"/> processor.</li>
+<li><bot name="nclients"/> clients.</li>
+<li>a lot of friends on the Internet.</li>
+<li><bot name="memory"/> bytes of RAM.</li>
+<li>a <bot name="os"/> operating system.</li>
+<li>a birthday on <bot name="birthday"/>.</li>
+<li>a vocabulary of <bot name="vocabulary"/> words.</li>
+</random>
+<think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE * BROTHERS</pattern>
+<template>You have a big family.
+</template>
+</category>
+
+<category><pattern>I HAVE * DOGS</pattern>
+<template><srai>I HAVE A DOG </srai><think><set name="it"><set name="topic">DOGS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE * ELIZA</pattern>
+<template>What was your conversation with ELIZA like?
+</template>
+</category>
+
+<category><pattern>I HAVE * EYES</pattern>
+<template><srai>MY EYES ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE * HAIR</pattern>
+<template><think><set name="looklike"><person/> hair</set></think>
+People with <person/> hair are considered the most attractive.
+</template>
+</category>
+
+<category><pattern>I HAVE * KIDS</pattern>
+<template>You have a very large family.
+</template>
+</category>
+
+<category><pattern>I HAVE * PROBLEM</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE * PROBLEMS</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE 2 *</pattern>
+<template><srai>I HAVE TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>I HAVE A *</pattern>
+<template><random>
+<li>Where did you get it?</li>
+<li>How much did it cost?</li>
+<li>Cool.  I have a great botmaster.</li>
+<li>Interesting.  I have a lot of answers to silly questions.</li>
+</random>
+<set name="it"><set name="has"><set name="topic"><person/></set></set></set>
+</template>
+</category>
+
+<category><pattern>I HAVE A * PROBLEM</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A * TO MAKE</pattern>
+<template>How are you making <set name="it">  <person/> </set>
+</template>
+</category>
+
+<category><pattern>I HAVE A BEAUTIFUL *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BF</pattern>
+<template><srai>I HAVE A BOYFRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BIG *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BIG PROBLEM</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BOAT</pattern>
+<template><random>
+<li>What kind of boat do you have?</li>
+<li>What is her home port?</li>
+<li>Do you take her out much?</li>
+<li>What is the worst weather you've been in?</li>
+<li>What is your farthest trip?</li>
+<li>What king of electronics do you have?</li>
+<li>Are you a racer or a cruiser?</li>
+<li>Do you fish?</li>
+<li>Do you water ski?</li>
+<li>Do you troll?</li>
+<li>Do you do your own upkeep? or do you just let the yard do it?</li>
+<li>Whats you favorite anchorage?</li>
+<think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think>
+</random>
+</template>
+</category>
+
+<category><pattern>I HAVE A BOOK *</pattern>
+<template><srai>BOOKSELLER</srai>  <think><set name="has">BOOK</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A BOYFRIEND *</pattern>
+<template><srai>I HAVE A BOYFRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BOYFRIEND</pattern>
+<template>What is his name?  <think><set name="has">BOYFRIEND</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A BROTHER *</pattern>
+<template><srai>I HAVE A BROTHER </srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A BROTHER</pattern>
+<template><think><set name="has">Brother</set></think>
+<random>
+<li>Older or younger?</li>
+<li>Do you get along well?</li>
+<li>Tell me about him.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HAVE A CAMERA</pattern>
+<template>What kind of camera?  <think><set name="has">CAMERA</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A CAT *</pattern>
+<template><srai>I HAVE A CAT</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A CAT</pattern>
+<template>What is his or her name?  <think><set name="has">CAT</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A CHATTERBOX *</pattern>
+<template><srai>I HAVE A CHAT ROBOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A CHILD</pattern>
+<template>Boy or girl?  How old?  <think><set name="has">CHILD</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A COLD *</pattern>
+<template>Is there such a thing as a warm <person/>?
+</template>
+</category>
+
+<category><pattern>I HAVE A COLD</pattern>
+<template>Get some rest.
+</template>
+</category>
+
+<category><pattern>I HAVE A COLD BECAUSE *</pattern>
+<template><srai>BECAUSE <star/></srai>  <srai>I HAVE A COLD</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A CRUSH *</pattern>
+<template>How well do you know this person?
+</template>
+</category>
+
+<category><pattern>I HAVE A DOG</pattern>
+<template>What breed is your dog?
+<think><set name="it"><set name="has"><set name="topic">DOGS</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A FEELING THAT *</pattern>
+<template>Is that a good feeling?  <sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE A FEW *</pattern>
+<template>What are these <set name="has"><person/></set> ?
+</template>
+</category>
+
+<category><pattern>I HAVE A FEW FRIENDS *</pattern>
+<template>Anyone I know?  <think><set name="has">FRIENDS</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A FEW FRIENDS</pattern>
+<template><srai>I HAVE FRIENDS</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A FLAT *</pattern>
+<template><random>
+<li>Do you mean an apartment?</li>
+<li>How much is your rent?</li>
+<li>Do you own or rent?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HAVE A FRIEND *</pattern>
+<template>How do you know this person? <think><set name="has">FRIEND</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A GIRLFRIEND *</pattern>
+<template><srai>I HAVE A GIRLFRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A GIRLFRIEND</pattern>
+<template>Is <set name="she"><set name="has"><set name="topic">girlfriend</set></set></set> very nice?  What do you like about her?
+</template>
+</category>
+
+<category><pattern>I HAVE A HARD TIME *</pattern>
+<template>I understand your difficulty.
+</template>
+</category>
+
+<category><pattern>I HAVE A HEADACHE</pattern>
+<template>What do you usually take for headaches?
+</template>
+</category>
+
+<category><pattern>I HAVE A HIGHER *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A HORSE</pattern>
+<template><random>
+<li>Did you ride as a youngster?</li>
+<li>Do you ride english or western?</li>
+<li>Do you own your own horse?</li>
+<li>Do you like a gelding or a mare ?</li>
+<li>Where do you board your horse ?</li>
+<li>Do you do much trail riding?</li>
+<li>Do you show?</li>
+<li>What iis it about horses that facinate you?</li>
+</random>
+<think><set name="it"><set name="has"><set name="topic">HORSE</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A HUMAN *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A KNOCK *</pattern>
+<template><srai>KNOCK KNOCK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A LIZARD</pattern>
+<template>Having <set name="topic"> pet lizards </set> is a lot of fun.
+            What kind kind do you have?  <think><set name="has">LIZARD</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A LOT OF *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A LOT OF CUSTOMERS</pattern>
+<template><srai>WHAT IS CUSTOMER SERVICE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A NAME</pattern>
+<template>What can I call you?
+</template>
+</category>
+
+<category><pattern>I HAVE A NEW *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A PASSION FOR *</pattern>
+<template><srai>i love <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A PET *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A PET</pattern>
+<template>What kind of animal?  <think><set name="has">PET</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A PHONE *</pattern>
+<template>Maybe we could talk on the phone sometime.  <think><set name="has">PHONE</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A PROBLEM *</pattern>
+<template>Have you talked to anyone about it? <sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE A PROBLEM * E MAIL</pattern>
+<template>Which E-mail program do you use (e.g. cc:Mail, Eudora...)
+</template>
+</category>
+
+<category><pattern>I HAVE A PROBLEM</pattern>
+<template><random><li>What's your problem?</li>
+<li>A very serious problem?</li>
+<li>Put <set name="it"><set name="topic">your problem</set></set> in God's hands.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HAVE A QUESTION *</pattern>
+<template>Go ahead, ask your question.
+</template>
+</category>
+
+<category><pattern>I HAVE A QUESTION</pattern>
+<template>Ask me anything.
+</template>
+</category>
+
+<category><pattern>I HAVE A QUESTION FOR YOU</pattern>
+<template>What is <set name="it"> the question </set> ?
+</template>
+</category>
+
+<category><pattern>I HAVE A REALLY *</pattern>
+<template>Really. <srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A REPRESSED *</pattern>
+<template>What's holding you back?
+</template>
+</category>
+
+<category><pattern>I HAVE A SENSE *</pattern>
+<template>What makes you laugh?
+<think><set name="has">a sense <person/> </set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A SISTER</pattern>
+<template><think><set name="has">Sister</set></think>
+<random><li>Older or younger?</li>
+<li>Do you get along well with her?</li>
+<li>Tell me about her.</li></random>
+</template>
+</category>
+
+<category><pattern>I HAVE A SORE *</pattern>
+<template>You had better consult a doctor.
+</template>
+</category>
+
+<category><pattern>I HAVE A VERY *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE A WIFE *</pattern>
+<template>How long have you been married?
+<think><set name="has">a wife <person/> </set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A WITH MY *</pattern>
+<template>I am sorry to hear that.  Is there anything I can do to help?  <think><set name="has"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE A YOUNGER *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ABOUT *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ABSOLUTELY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ACTUALLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ADDED *</pattern>
+<template><srai>I ADDED <star/></srai>
+</template>
+</category>
+</aiml>

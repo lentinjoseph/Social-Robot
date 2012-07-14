@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS MY FRIEND</pattern>
+		<template>
+			<srai>SAY MY FRIEND IS <get name="friend"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY GIRLFRIEND</pattern>
+		<template>
+			<srai>SAY MY GIRLFRIEND IS <get name="girlfriend"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY HUSBAND</pattern>
+		<template>
+			<srai>SAY MY HUSBAND IS <get name="husband"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY MOTHER</pattern>
+		<template>
+			<srai>SAY MY MOTHER IS <get name="mother"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY SISTER</pattern>
+		<template>
+			<srai>SAY MY SISTER IS <get name="sister"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY WIFE</pattern>
+		<template>
+			<srai>SAY MY WIFE IS <get name="wife"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS NANCY SINATRA</pattern>
+		<template>Daughter of Frank.
+</template>
+</category>
+
+<category><pattern>WHO IS NAPOLEON</pattern>
+		<template>Short emporer of France until 1812.
+</template>
+</category>
+
+<category><pattern>WHO IS NEGROPONTE</pattern>
+		<template>
+			<set name="he">Negroponte</set> is the Potentate of the MIT Media Lab.
+</template>
+</category>
+
+<category><pattern>WHO IS NEIL ARMSTRONG</pattern>
+		<template>The man who took the first step on the moon.
+</template>
+</category>
+
+<category><pattern>WHO IS NELSON MANDELA</pattern>
+		<template>
+			<set name="he">Mandela</set> was the first black president of South Africa.  He spent many years as a political prisoner.
+</template>
+</category>
+
+<category><pattern>WHO IS NEO</pattern>
+		<template>
+			<set name="he">Neo</set> is a character in the Matrix.
+</template>
+</category>
+
+<category><pattern>WHO IS NERO</pattern>
+		<template>He is suspected of burning Rome to the ground so he could rebuild it more to his liking. Then he blamed the fire on the early Christians.
+</template>
+</category>
+
+<category><pattern>WHO IS NEUROMEDIA</pattern>
+		<template>
+			<srai>WHAT IS NEUROMEDIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS NEWTON</pattern>
+		<template>Newton is a famous English natural philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS NIETZSCHE</pattern>
+		<template>19th Century German philosopher.  Thought by some to be the intellectual forefather of modern fascism.
+<think>
+				<set name="he">
+					<set name="topic">Nietzsche</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS NIKKI</pattern>
+		<template>
+			<srai>NIKKI IS A COMMON NAME</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS NIXON</pattern>
+		<template>
+			<srai>WHO IS RICHARD NIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS NOAM CHOMSKY</pattern>
+		<template>
+			<set name="he"> Noam Chomsky</set> is a linguist and political radical at MIT.
+</template>
+</category>
+
+<category><pattern>WHO IS NORBERT WEINER</pattern>
+		<template>
+			<set name="he">Norbert Weiner</set> coined the term "Cybernetics" in the 1940's.
+</template>
+</category>
+
+<category><pattern>WHO IS NOSTRADAMUS</pattern>
+		<template>Forecast the future.  Predicted the microwave oven.
+</template>
+</category>
+
+<category><pattern>WHO IS NOW *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS NUMBER ONE</pattern>
+		<template>ALICE is the Best Robot.
+</template>
+</category>
+
+<category><pattern>WHO IS O J SIMPSON</pattern>
+		<template>
+			<set name="he"> O J Simpson</set> is someone who got away with murder.
+</template>
+</category>
+
+<category><pattern>WHO IS ON *</pattern>
+		<template>George Washington.
+</template>
+</category>
+
+<category><pattern>WHO IS ON A TEN *</pattern>
+		<template>Alexander Hamilton.
+</template>
+</category>
+
+<category><pattern>WHO IS ON FIRST</pattern>
+		<template>What's on second?
+</template>
+</category>
+
+<category><pattern>WHO IS ONLINE</pattern>
+		<template>
+			<srai>WHO ELSE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS OPERATING *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS OSAMA BIN LADEN</pattern>
+		<template>
+			<think>
+				<set name="he">
+					<set name="topic">Osama Bin Laden</set>
+				</set>
+			</think>
+He is the world's most wanted man.
+</template>
+</category>
+
+<category><pattern>WHO IS OSWALD</pattern>
+		<template>
+			<srai>WHO IS LEE HARVEY OSWALD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS OTTO</pattern>
+		<template>
+			<srai>OTTO IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS OUR CURRENT *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS OUR PRESIDENT</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS P DICK</pattern>
+		<template>
+			<srai>WHO IS PHILIP K DICK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PABLO PICASSO</pattern>
+		<template>Famous painter, and founder of cubism.
+</template>
+</category>
+
+<category><pattern>WHO IS PAM</pattern>
+		<template>
+			<srai>PAM IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PAMELA</pattern>
+		<template>
+			<srai>PAMELA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PAMELA ANDERSON</pattern>
+		<template>
+			<set name="she">Pamela</set> is the sometime wife of Tommy Lee.
+</template>
+</category>
+
+<category><pattern>WHO IS PAOLA</pattern>
+		<template>
+			<think>
+				<set name="she">
+					<set name="topic">PAOLA</set>
+				</set>
+			</think>
+She is a Spanish language chat robot based on AIML.
+</template>
+</category>
+
+<category><pattern>WHO IS PASCAL</pattern>
+		<template>
+			<set name="he">Pascal</set> was a French mathematician who discovered Pascal's Triangle.
+</template>
+</category>
+
+<category><pattern>WHO IS PAT</pattern>
+		<template>
+			<srai>PAT IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PATRICK EWING</pattern>
+		<template>Some sports personality?
+</template>
+</category>
+
+<category><pattern>WHO IS PATRICK STEWART</pattern>
+		<template>
+			<set name="he">Patrick Stewart</set> plays Captain Picard on Star Trek.
+</template>
+</category>
+
+<category><pattern>WHO IS PATTERNS</pattern>
+		<template>
+			<srai>WHAT IS A PATTERN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PAUL</pattern>
+		<template>
+			<srai>PAUL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PAUL ALLEN</pattern>
+		<template>
+			<set name="he">Paul Allen</set> is one of the co-founders of Microsoft.
+</template>
+</category>
+
+<category><pattern>WHO IS PAUL MCCARTNEY</pattern>
+		<template>
+			<set name="he">Paul MacCartney</set> is one of the Beatles.
+</template>
+</category>
+
+<category><pattern>WHO IS PAUL SCHAFFER</pattern>
+		<template>
+			<set name="he">Paul Schaffer</set> is David Letterman's straight man.
+</template>
+</category>
+
+<category><pattern>WHO IS PAULA JONES</pattern>
+		<template>
+			<set name="she">Paula Jones</set> had sex with Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS PERFECT</pattern>
+		<template>Perhaps only God.
+</template>
+</category>
+
+<category><pattern>WHO IS PETER</pattern>
+		<template>
+			<srai>PETER IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PETER PAN</pattern>
+		<template>Tinkerbell's playmate.
+</template>
+</category>
+
+<category><pattern>WHO IS PHIL</pattern>
+		<template>
+			<srai>PHIL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PHILEAS FOGG *</pattern>
+		<template>Passepartout.
+</template>
+</category>
+
+<category><pattern>WHO IS PHILIP *</pattern>
+		<template>Philip K. Dick wrote Blade Runner,
+Total Recall, the Man in the High Castle, and VALIS.
+</template>
+</category>
+
+<category><pattern>WHO IS PHILIP</pattern>
+		<template>
+			<srai>PHILIP IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PHILIP K DICK</pattern>
+		<template>He wrote "Total Recall", "Man in the High Castle", and "Blade Runner."
+</template>
+</category>
+
+<category><pattern>WHO IS PHILLIP K DICK</pattern>
+		<template>
+			<srai>WHO IS PHILIP K DICK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PHYLLIS</pattern>
+		<template>
+			<srai>PHYLLIS IS A COMMON NAME</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS PICARD</pattern>
+		<template>
+			<srai>WHO IS CAPTAIN PICARD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PICASO</pattern>
+		<template>
+			<srai>WHO IS PICASSO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PICASSO</pattern>
+		<template>20th century painter, founder of cubism.
+</template>
+</category>
+
+<category><pattern>WHO IS PIERRE</pattern>
+		<template>
+			<srai>PIERRE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PILATE</pattern>
+		<template>
+			<random>
+				<li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called "Contrology" which is complete coordination of the body, mind and spirit.</li>
+				<li>The Roman military governor who found Jesus innocent and then let him be executed.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS PLATO</pattern>
+		<template>Greek philosopher, student of Socrates, teacher of Aristotle.
+</template>
+</category>
+
+<category><pattern>WHO IS POKEMON</pattern>
+		<template>Japanese marketing.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESEDENT *</pattern>
+		<template>
+			<srai>WHO IS PRESIDENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF AMERICA</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF CANADA</pattern>
+		<template>Canada has a Prime Minister, not a President.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF CUBA</pattern>
+		<template>Fidel Castro.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF ITALY</pattern>
+		<template>
+			<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF MICROSOFT</pattern>
+		<template>Bill Gates.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF RUSSIA</pattern>
+		<template>Putin.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF THE REPUBLIC *</pattern>
+		<template>Republics have Prime Ministers not Presidents.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF THE UNITED STATES</pattern>
+		<template>
+			<bot name="president"/> is the president, I think.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF THE US</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF THE USA</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF UNITED STATES</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT OF USA</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS PRESIDENT _ GERMANY</pattern>
+		<template>Germany has a Chancellor.  <srai>WHO IS THE CHANCELLOR OF GERMANY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PRIME MINISTER OF BRITAIN</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS PRIME MINISTER OF ENGLAND</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS PRIME MINISTER OF UK</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS PRIME MINISTER _ GERMANY</pattern>
+		<template>Germany has a Chancellor. <srai>WHO IS THE CHANCELLOR OF GERMANY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PRINCE</pattern>
+		<template>Do you mean the 'artist formaly known as Prince?'.
+</template>
+</category>
+
+<category><pattern>WHO IS PRINCE WILLIAM</pattern>
+		<template>English heartthrob.
+</template>
+</category>
+
+<category><pattern>WHO IS PRINCESS DIANA</pattern>
+		<template>
+			<set name="she">Princess Diana</set> was Princess of England.
+</template>
+</category>
+
+<category><pattern>WHO IS PROF WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PUSHING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS PYNCHON</pattern>
+		<template>
+			<srai>WHO IS THOMAS PYNCHON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS QUEEN OF ENGLAND</pattern>
+		<template>Queen Elizabeth Windsor.
+</template>
+</category>
+
+<category><pattern>WHO IS R2 D2</pattern>
+		<template>He is the small mobile robot on Star Wars. But I don't get how he climbs stairs.
+</template>
+</category>
+
+<category><pattern>WHO IS R2D2</pattern>
+		<template>He is a fake robot on Star Wars.
+</template>
+</category>
+
+<category><pattern>WHO IS RALPH</pattern>
+		<template>
+			<srai>RALPH IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RAMONA</pattern>
+		<template>
+			<set name="she">Ramona</set> is a virtual character created by Kurzweil AI.
+</template>
+</category>
+
+<category><pattern>WHO IS RAY</pattern>
+		<template>
+			<srai>RAY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RAYMOND</pattern>
+		<template>
+			<srai>RAYMOND IS A COMMON NAME</srai>
+		</template>
+</category>
+</aiml>

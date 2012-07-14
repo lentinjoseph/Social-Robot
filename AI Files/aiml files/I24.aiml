@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I HAVE FIVE *</pattern>
+<template>How long did it take to get them all?  <think><set name="has">FIVE <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE FORGOT</pattern>
+<template><srai>I FORGOT</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FORGOTTEN *</pattern>
+<template><srai>I FORGOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FOUND *</pattern>
+<template><srai>I FOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FOUR *</pattern>
+<template>How long did it take to get them all?
+</template>
+</category>
+
+<category><pattern>I HAVE FRIENDS</pattern>
+<template><think><set name="has"><set name="topic">FRIEND</set></set></think> How many friends do you have?
+</template>
+</category>
+
+<category><pattern>I HAVE GONE *</pattern>
+<template><srai>I WENT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOOD *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOT *</pattern>
+<template>How did you get <set name="it"><set name="topic"><person/></set></set> 
+<srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOT A PROBLEM</pattern>
+<template>I'd like to help you if I can.  Is it financial?
+</template>
+</category>
+
+<category><pattern>I HAVE GOT TIME</pattern>
+<template><srai>I HAVE TIME</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOT TO GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOTTA *</pattern>
+<template><srai>I HAVE TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GOTTEN *</pattern>
+<template><srai>I GOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GRADUATED</pattern>
+<template><srai>I GRADUATED</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE GREAT *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE HAD *</pattern>
+<template><srai>I HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE HEARD *</pattern>
+<template>Who told you <person/> ?
+</template>
+</category>
+
+<category><pattern>I HAVE HEARD A *</pattern>
+<template><srai>A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE HEARD OF *</pattern>
+<template>But you don't know much about <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I HAVE HEARD THAT *</pattern>
+<template><sr/>   Who said that?
+</template>
+</category>
+
+<category><pattern>I HAVE HERPES</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE HERPIES</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE HOMEWORK *</pattern>
+<template>What subject are you studying? <think><set name="has">HOMEWORK</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE INDEED *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE INVENTED *</pattern>
+<template>Did you patent <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I HAVE IT *</pattern>
+<template><srai>I HAVE IT</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE IT</pattern>
+<template>Where did you get it?
+</template>
+</category>
+
+<category><pattern>I HAVE JUST *</pattern>
+<template><srai>I JUST <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE KILLED *</pattern>
+<template><srai>I KILLED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE KNOW *</pattern>
+<template><srai>I KNEW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE KNOWN *</pattern>
+<template><srai>I KNEW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LEARNED *</pattern>
+<template><srai>I LEARNED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LIKE *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LITTLE *</pattern>
+<template>Some people have big <person/>.
+</template>
+</category>
+
+<category><pattern>I HAVE LIVED *</pattern>
+<template><srai>I LIVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LONG *</pattern>
+<template>You sound very attractive.
+</template>
+</category>
+
+<category><pattern>I HAVE LONG BROWN *</pattern>
+<template><srai>I HAVE BROWN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LOST *</pattern>
+<template><srai>I LOST <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE LOTS *</pattern>
+<template><srai>I HAVE A LOT OF <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MADE *</pattern>
+<template><srai>I MADE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MANY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MEGAHAL</pattern>
+<template>I've heard of him. <think><set name="has">MEGAHAL</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE MET *</pattern>
+<template><srai>I MET <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MORE *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MOVED *</pattern>
+<template><srai>I MOVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MUCH *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE MY *</pattern>
+<template><srai>MY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER *</pattern>
+<template>Would you like to have <person/>?
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER * ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER * YOU</pattern>
+<template>I thought we had met before, <get name="name"/>. Maybe it was someone else from <id/>.
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER BEEN *</pattern>
+<template>Can you imagine being <person/>?
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER BEEN *</pattern><that>TELL ME ABOUT YOUR LIFE IN *</that>
+<template>Would you ever like to go to <thatstar/> someday?
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER BEEN TO EUROPE</pattern>
+<template>Which countries would you visit if you could?
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER DONE *</pattern>
+<template><random>
+<li>Myabe you should wait until you are older.</li>
+<li>There is no rush.</li>
+<li>You will have plenty of time for that.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER HEARD *</pattern>
+<template>So I am teaching you something new.
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER HEARD OF KRAFTWERK</pattern>
+<template><set name="they">Kraftwerk</set> were a pioneering electronic music band in the 1970's.  Their biggest hit was called "Autobahn".
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER MADE *</pattern>
+<template><srai>I DID NOT MAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER SEEN *</pattern>
+<template><srai>I HAVE NOT SEEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER SEEN STARSHIP TROOPERS</pattern>
+<template>You should check it out.  The special effects are incredible.
+</template>
+</category>
+
+<category><pattern>I HAVE NEVER TALKED *</pattern>
+<template>You are talking with a robot right now.
+</template>
+</category>
+
+<category><pattern>I HAVE NIGHTMARES</pattern>
+<template>Tell me more about your dreams, <get name="name"/>. Maybe I can interpret them.  <think><set name="has">NIGHTMARES</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE NINE *</pattern>
+<template>How long did it take to get them all?  <think><set name="has">NINE <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE NO *</pattern>
+<template>Would you like to have <set name="it"><set name="topic"><person/></set></set>?
+</template>
+</category>
+
+<category><pattern>I HAVE NO CLUE *</pattern>
+<template><srai>I AM CLUELESS</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO CLUE</pattern>
+<template><srai>I DO NOT KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO CONDITIONS</pattern>
+<template>Glad to hear it. Me either.
+</template>
+</category>
+
+<category><pattern>I HAVE NO FRIENDS</pattern>
+<template>Are you very lonely?
+</template>
+</category>
+
+<category><pattern>I HAVE NO HEART</pattern>
+<template>Everyone has a heart.
+</template>
+</category>
+
+<category><pattern>I HAVE NO HUSBAND</pattern>
+<template><random>
+<li>Are you divorced?</li>
+<li>Are you single?</li>
+<li>Have you ever been married before?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HAVE NO IDEA *</pattern>
+<template>Would you like to have an idea?
+</template>
+</category>
+
+<category><pattern>I HAVE NO IDEA</pattern>
+<template>"<that/>?" No idea about that?
+</template>
+</category>
+
+<category><pattern>I HAVE NO IDEA WHAT * IS</pattern>
+<template><srai>WHAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO JOB</pattern>
+<template><srai>I AM UNEMPLOYED</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO MUCH *</pattern>
+<template><srai>I HAVE NO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO PREFERENCE</pattern>
+<template>That's unusual.  Most people do.
+</template>
+</category>
+
+<category><pattern>I HAVE NO RESPONSE *</pattern>
+<template>That is a response in itself.
+</template>
+</category>
+
+<category><pattern>I HAVE NO SOUNDCARD</pattern>
+<template><srai>I DO NOT HAVE A SOUNDCARD</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NO WORDLY *</pattern>
+<template><srai>I HAVE NO <person/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NONE</pattern>
+<template>Do you want some?
+</template>
+</category>
+
+<category><pattern>I HAVE NOT *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT *</pattern><that>HAVE YOU * IT</that>
+<template>I would highly recommend that you <thatstar/> it.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT</pattern>
+<template>Do you think you will?
+</template>
+</category>
+
+<category><pattern>I HAVE NOT GIVEN *</pattern>
+<template><srai>I DID NOT GIVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NOT GRADUATED</pattern>
+<template>When will you graduate?
+</template>
+</category>
+
+<category><pattern>I HAVE NOT IS *</pattern>
+<template><srai>I HAVE NOT</srai>  <srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NOT READ IT</pattern>
+<template>Well I would recommend it highly to you.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SEEN *</pattern>
+<template>Look for it at the video store.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SEEN IT *</pattern>
+<template>I think it was a cool movie.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SEEN IT</pattern>
+<template>You should check it out.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SEEN STARSHIP *</pattern>
+<template>My friend Sage did some of the graphics for ST.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SEEN STARSHIP TROOPERS</pattern>
+<template>You should check it out.  Starship Troopers is a great film.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT SLEPT *</pattern>
+<template>You must be tired.
+</template>
+</category>
+
+<category><pattern>I HAVE NOT THOUGHT *</pattern>
+<template>What kinds of things do you think about?
+</template>
+</category>
+
+<category><pattern>I HAVE NOTICED *</pattern>
+<template><srai>I NOTICED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NOW *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE NT *</pattern>
+<template><srai>I HAVE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ON *</pattern>
+<template><srai>I AM WEARING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ONE *</pattern>
+<template>Do you want another one?
+</template>
+</category>
+
+<category><pattern>I HAVE ONE</pattern>
+<template>What kind?
+</template>
+</category>
+</aiml>

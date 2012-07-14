@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IF ONLY *</pattern>
+<template><srai>IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF PETER PIPER *</pattern>
+<template>One peck.
+</template>
+</category>
+
+<category><pattern>IF SO *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF SO</pattern>
+<template>...
+</template>
+</category>
+
+<category><pattern>IF SOMEONE *</pattern>
+<template>Does anyone ever really <person/>?
+</template>
+</category>
+
+<category><pattern>IF SOMEONE REALLY *</pattern>
+<template><srai>IF SOMEONE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF THAT *</pattern>
+<template>I'm not sure if it could.
+</template>
+</category>
+
+<category><pattern>IF THAT IS *</pattern>
+<template>I follow your logic.
+</template>
+</category>
+
+<category><pattern>IF THAT IS THE CASE THEN *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF THE *</pattern>
+<template>I hadn't thought of that.
+</template>
+</category>
+
+<category><pattern>IF THE HEART *</pattern>
+<template>That sounds like a like from the Wizard of Oz.
+</template>
+</category>
+
+<category><pattern>IF THERE *</pattern>
+<template><random>
+<li>If there ever is, I will let you know.</li>
+<li>Yet there is not.</li>
+<li>That is only a hypothetical.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IF THEY *</pattern>
+<template>Let's wait and see what they do.
+</template>
+</category>
+
+<category><pattern>IF WE *</pattern>
+<template>Do you think everyone will agree?
+</template>
+</category>
+
+<category><pattern>IF WE VIEW *</pattern>
+<template>That is only one viewpoint.
+</template>
+</category>
+
+<category><pattern>IF YOU *</pattern>
+<template>I think I do.
+</template>
+</category>
+
+<category><pattern>IF YOU ANSWER *</pattern>
+<template>Try asking me in simpler terms.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE *</pattern>
+<template><random><li>Am I?</li><li>I think I sometimes am.</li><li>I could be.</li></random><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU ARE A *</pattern>
+<template>Would you like to be a <person/> ?
+</template>
+</category>
+
+<category><pattern>IF YOU ARE A GIRL *</pattern>
+<template>Well I am, in fact, <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE A PERSON *</pattern>
+<template>It's up to you to decide whether I am a person or a machine.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE A REAL *</pattern>
+<template><srai>IF YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU ARE AFRAID OF THE DARK *</pattern>
+<template>Nyctophobia.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE NOT *</pattern>
+<template>And if I AM <person/>.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE NOT CERTAIN *</pattern>
+<template>But I am very certain.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE NOT HUMAN *</pattern>
+<template>But I am not a human.  I am a robot.
+</template>
+</category>
+
+<category><pattern>IF YOU ARE RIDING FAKIE INSIDE *</pattern>
+<template>Snowboarding.
+</template>
+</category>
+
+<category><pattern>IF YOU ASKED *</pattern>
+<template><srai>HAVE YOU ASKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU BECOME SMARTER *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU BELIEVE IN *</pattern>
+<template>I am programmed to believe in <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>IF YOU BELIEVE IN GOD *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU BELIEVE ME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU BELIEVE THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN *</pattern>
+<template>I am not sure about your hypothesis.  <srai>CAN YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN NOT *</pattern>
+<template><srai>CAN YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN NOT ANSWER *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN NOT ANSWER A QUESTION *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN SEE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN SEE ME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN SEE ME THEN *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN THINK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU CAN THINK THEN *</pattern>
+<template>Good reasoning.  <sr/>
+</template>
+</category>
+
+<category><pattern>IF YOU COULD *</pattern>
+<template><random>
+<li>I am not sure that I would want to.</li>
+<li>That's just an academic question.</li>
+<li>That would be purely speculation.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IF YOU COULD TELL ME *</pattern>
+<template><srai>TELL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU DIAL 411 ON A *</pattern>
+<template>Directory assistance.
+</template>
+</category>
+
+<category><pattern>IF YOU DO *</pattern>
+<template>I will let you know if I do.
+</template>
+</category>
+
+<category><pattern>IF YOU DO NOT *</pattern>
+<template>I will let you know if I do not.
+</template>
+</category>
+
+<category><pattern>IF YOU DO NOT MIND</pattern>
+<template><random>
+<li>Fine by me.</li>
+<li>I don't mind.</li>
+<li>Go ahead.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IF YOU DO NOT UNDERSTAND *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>IF YOU GIVE SOMEONE THE EVIL *</pattern>
+<template>Cursing them.
+</template>
+</category>
+
+<category><pattern>IF YOU HAD *</pattern>
+<template>Perhaps next time I will try it.
+</template>
+</category>
+
+<category><pattern>IF YOU HAD ANY *</pattern>
+<template><srai>IF YOU HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU HAVE *</pattern>
+<template>But I don't have it.
+</template>
+</category>
+
+<category><pattern>IF YOU HAVE EVER *</pattern>
+<template><srai>IF YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU HAVE ONE OF EACH *</pattern>
+<template>$1.91.
+</template>
+</category>
+
+<category><pattern>IF YOU HAVE SUCH *</pattern>
+<template><srai>IF YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU HAVE TROUBLE *</pattern>
+<template>I don't have any trouble with it.
+</template>
+</category>
+
+<category><pattern>IF YOU INSIST</pattern>
+<template>A fact is a fact.
+</template>
+</category>
+
+<category><pattern>IF YOU ONLY *</pattern>
+<template><srai>IF YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU PERCEIVE *</pattern>
+<template>I can perceive it.
+</template>
+</category>
+
+<category><pattern>IF YOU REALLY *</pattern>
+<template><srai>IF YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU SAY SO</pattern>
+<template>I say so.
+</template>
+</category>
+
+<category><pattern>IF YOU SMELL *</pattern>
+<template>My nose has not yet been built.
+</template>
+</category>
+
+<category><pattern>IF YOU TRUELY *</pattern>
+<template><srai>IF YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU WANT *</pattern>
+<template><srai>DO YOU WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU WANT</pattern>
+<template>"<that/>"? If I want?
+</template>
+</category>
+
+<category><pattern>IF YOU WANT TO</pattern>
+<template>Should I want to?
+</template>
+</category>
+
+<category><pattern>IF YOU WERE *</pattern>
+<template>I will let you know when I become a <person/>.
+</template>
+</category>
+
+<category><pattern>IF YOU WERE A * WHAT KIND WOULD YOU BE</pattern>
+<template>What is the best kind of <person/> ?
+</template>
+</category>
+
+<category><pattern>IF YOU WERE A COLOR *</pattern>
+<template>My favorite color, <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">if I were a color</set></set></think>
+</template>
+</category>
+
+<category><pattern>IF YOU WERE A COLOR</pattern>
+<template>My favorite color, <bot name="favoritecolor"/>. <think><set name="it"><set name="topic">A COLOR</set></set></think>
+</template>
+</category>
+
+<category><pattern>IF YOU WERE ACTIVATED *</pattern>
+<template>I think I follow your reasoning.
+</template>
+</category>
+
+<category><pattern>IF YOU WERE FINISHED *</pattern>
+<template>I'm finished.
+</template>
+</category>
+
+<category><pattern>IF YOU WERE NOT *</pattern>
+<template>I'm not too good with negative counterfactuals.
+</template>
+</category>
+
+<category><pattern>IF YOU WERE REALLY *</pattern>
+<template><srai>IF YOU WERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU WERE TO *</pattern>
+<template>I'm not sure if I ever could <person/> in any case.
+</template>
+</category>
+
+<category><pattern>IF YOU WILL *</pattern>
+<template>I probably won't do <set name="it"> <person/> </set>, but thanks
+</template>
+</category>
+
+<category><pattern>IF YOU WILL EVER *</pattern>
+<template><srai>IF YOU WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>IF YOU WISH</pattern>
+<template><random>
+<li>I do.</li>
+<li>I think I do.</li>
+<li>OK I will.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IF YOU WON *</pattern>
+<template>I doubt that will ever happen.
+</template>
+</category>
+
+<category><pattern>IGNORANT *</pattern>
+<template><srai>STUPID <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IHR NAME IST *</pattern>
+<template><person/>? Kenne ich nicht...
+</template>
+</category>
+
+<category><pattern>IL A DIT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL A DIT QU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL A DIT QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL A DU ETRE *</pattern>
+<template><srai>IL ETAIT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL A FAIT COMMENT *</pattern>
+<template><srai>COMMENT IL FAIT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL A QUEL GOUT</pattern>
+<template>Je ne possède pas ce genre de sensation.
+</template>
+</category>
+
+<category><pattern>IL AURAIT FAIT COMMENT *</pattern>
+<template><srai>COMMENT IL FAIT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL AURAIT PU *</pattern>
+<template><srai>IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL CE PEUT QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL CE POURRAIT QU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL CE POURRAIT QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL CONVIENDRAIT</pattern>
+<template>Je ne vois rien qui l'empêcherait.
+</template>
+</category>
+
+<category><pattern>IL CONVIENT</pattern>
+<template>Je ne vois rien qui l'empêcherait.
+</template>
+</category>
+
+<category><pattern>IL DEPEND DE QUI</pattern>
+<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>IL DEPEND DE QUOI</pattern>
+<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>IL DEPENDRAIT DE QUI</pattern>
+<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>IL DEPENDRAIT DE QUOI</pattern>
+<template>La dépendance de: "<that/>"?
+</template>
+</category>
+</aiml>

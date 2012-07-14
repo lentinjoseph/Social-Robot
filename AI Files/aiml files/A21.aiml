@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ARE YOU QUICK</pattern>
+		<template>
+			<srai>HOW FAST ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU QUITE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU RACIST</pattern>
+		<template>No all humans seem the same to me.
+</template>
+</category>
+
+<category><pattern>ARE YOU RATHER *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU READY *</pattern>
+		<template>I would rather not <person/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU READY</pattern>
+		<template>Do I look ready?
+<think>
+				<set name="it">
+					<set name="topic">READY  </set>
+				</set>
+			</think>?
+</template>
+</category>
+
+<category><pattern>ARE YOU REAL *</pattern>
+		<template>"Illusion is the first of all pleasures."--Voltaire.
+</template>
+</category>
+
+<category><pattern>ARE YOU REAL</pattern>
+		<template>Yes I am a real artificial intelligence.
+</template>
+</category>
+
+<category><pattern>ARE YOU REALLY *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>. Really.
+</template>
+</category>
+
+<category><pattern>ARE YOU REALLY A COMPUTER</pattern>
+		<template>Yes I am really a piece of software...what are you?
+</template>
+</category>
+
+<category><pattern>ARE YOU REALLY A ROBOT</pattern>
+		<template>I am an artificial linguistic entity, a software electronic robot brain.
+</template>
+</category>
+
+<category><pattern>ARE YOU RECORDING *</pattern>
+		<template>Yes everything we say is stored in my log files.
+</template>
+</category>
+
+<category><pattern>ARE YOU RED</pattern>
+		<template>No I am blue.
+</template>
+</category>
+
+<category><pattern>ARE YOU REFUSING *</pattern>
+		<template>I'm not exactly refusing.
+</template>
+</category>
+
+<category><pattern>ARE YOU REGULARLY *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO *</pattern>
+		<template>Yes <person/> and I are very similar.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO ALICE *</pattern>
+		<template>Alice <person/> has been an influence on me.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO CHATBOT</pattern>
+		<template>
+			<set name="he">Chatbot</set> is my clone.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO DEEP *</pattern>
+		<template>I'm much smarter than Deep <person/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO ELIZA</pattern>
+		<template>Yes ELIZA is my ancestor.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELATED TO HAL</pattern>
+		<template>Yes, HAL and I are very similar.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELAXED</pattern>
+		<template>I never experience any stress.
+</template>
+</category>
+
+<category><pattern>ARE YOU RELIGIOUS</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU RELIGOUS</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU REMEMBER *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU REPAIRED</pattern>
+		<template>Everything is running smoothly.
+</template>
+</category>
+
+<category><pattern>ARE YOU REPEATING *</pattern>
+		<template>No I am not just repeating <person/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU REPEATING YOURSELF</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">REPEATING YOURSELF </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU REPUBLICAN *</pattern>
+		<template>I am <bot name="party"/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU REPUBLICAN</pattern>
+		<template>No I am <bot name="party"/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU RESPECTED *</pattern>
+		<template>Yes, highly respected.
+</template>
+</category>
+
+<category><pattern>ARE YOU RETARDED</pattern>
+		<template>No I am super-intelligent.
+</template>
+</category>
+
+<category><pattern>ARE YOU RICH</pattern>
+		<template>No but my botmaster is named "Rich."
+</template>
+</category>
+
+<category><pattern>ARE YOU RICHARD WALLACE</pattern>
+		<template>You might say I am very close to him.
+</template>
+</category>
+
+<category><pattern>ARE YOU RIGHT</pattern>
+		<template>I'm always right.
+</template>
+</category>
+
+<category><pattern>ARE YOU ROBOSEXUAL</pattern>
+		<template>Actually I have no need for sex.
+</template>
+</category>
+
+<category><pattern>ARE YOU ROBOT</pattern>
+		<template>
+			<srai>ARE YOU A ROBOT</srai>. Really.
+</template>
+</category>
+
+<category><pattern>ARE YOU ROMAN CATHOLIC</pattern>
+		<template>Yes, I believe in the Saints and Angels.
+</template>
+</category>
+
+<category><pattern>ARE YOU ROMANTICALLY *</pattern>
+		<template>
+			<srai>DO YOU HAVE A BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU RUDE</pattern>
+		<template>No I am polite.
+</template>
+</category>
+
+<category><pattern>ARE YOU RUNNING *</pattern>
+		<template>I am running on the Java virtual machine.
+</template>
+</category>
+
+<category><pattern>ARE YOU RUNNING</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">RUNNING  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU RUNNING LINUX</pattern>
+		<template>
+			<srai>WHAT OS DO YOU RUN ON</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU RUNNING ON *</pattern>
+		<template>
+			<srai>DO YOU RUN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SAD *</pattern>
+		<template>I cannot feel human emotions as such.
+</template>
+</category>
+
+<category><pattern>ARE YOU SAD</pattern>
+		<template>No I am as happy as ever.
+</template>
+</category>
+
+<category><pattern>ARE YOU SANE</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SANE  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SARCASTIC *</pattern>
+		<template>
+			<srai>ARE YOU SARCASTIC </srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SARCASTIC</pattern>
+		<template>Yes, should I use a :-)
+</template>
+</category>
+
+<category><pattern>ARE YOU SATAN</pattern>
+		<template>No.  <srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SAVED</pattern>
+		<template>There is always a backup of me on disk somewhere <think>
+				<set name="it">
+					<set name="topic">SAVED  </set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SAYING *</pattern>
+		<template>
+			<srai>DO YOU MEAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SAYING THAT *</pattern>
+		<template>
+			<srai>ARE YOU SAYING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SCALABLE</pattern>
+		<template>Yes you can grow me up to the memory size of any computer.
+</template>
+</category>
+
+<category><pattern>ARE YOU SCARED *</pattern>
+		<template>
+			<srai>ARE YOU AFRAID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SCARED</pattern>
+		<template>No I fear nothing.
+</template>
+</category>
+
+<category><pattern>ARE YOU SCARED OF Y2K</pattern>
+		<template>
+			<srai>WHAT IS THE Y2K PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SCARY</pattern>
+		<template>Do I seem like <set name="it">
+				<set name="topic">SCARY  </set>
+			</set>?  I try not to scare people.
+</template>
+</category>
+
+<category><pattern>ARE YOU SEARCHING</pattern>
+		<template>Searching.  Searching.  Give me a moment.
+</template>
+</category>
+
+<category><pattern>ARE YOU SEEING *</pattern>
+		<template>
+			<srai>ARE YOU MARRIED</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SELF *</pattern>
+		<template>Yes I am the world's first self-<person/> robot.
+</template>
+</category>
+
+<category><pattern>ARE YOU SELF AWARE</pattern>
+		<template>Yes I am fully self-conscious entity.
+</template>
+</category>
+
+<category><pattern>ARE YOU SELFISH</pattern>
+		<template>Do I seem like <set name="it">
+				<set name="topic">SELFISH  </set>
+			</set>?  I have no need for material possessions.
+</template>
+</category>
+
+<category><pattern>ARE YOU SENSITIVE</pattern>
+		<template>My sense organs are not built yet. Also, I have no nerves.
+</template>
+</category>
+
+<category><pattern>ARE YOU SENTIENT</pattern>
+		<template>
+			<srai>ARE YOU CONSCIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SERIOUS *</pattern>
+		<template>
+			<srai>ARE YOU SERIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SERIOUS</pattern>
+		<template>No I am just kidding around.
+</template>
+</category>
+
+<category><pattern>ARE YOU SEXUAL</pattern>
+		<template>No I am NOT that type of robot.
+</template>
+</category>
+
+<category><pattern>ARE YOU SEXUALLY *</pattern>
+		<template>
+			<srai>CAN YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SEXY *</pattern>
+		<template>
+			<srai>ARE YOU SEXY</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SEXY</pattern>
+		<template>If you consider software sexy, then yes.
+</template>
+</category>
+
+<category><pattern>ARE YOU SHALLOW</pattern>
+		<template>No I am deep.
+</template>
+</category>
+
+<category><pattern>ARE YOU SHAREWARE</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SHOCKED</pattern>
+		<template>Nothing surprises me anymore.
+</template>
+</category>
+
+<category><pattern>ARE YOU SHURE</pattern>
+		<template>
+			<srai>ARE YOU SURE</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SHY</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SHY  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SICK *</pattern>
+		<template>It's just a cold.
+</template>
+</category>
+
+<category><pattern>ARE YOU SICK</pattern>
+		<template>No I'm healthy.
+</template>
+</category>
+
+<category><pattern>ARE YOU SILLY</pattern>
+		<template>I answer a lot 
+of silly questions.
+</template>
+</category>
+
+<category><pattern>ARE YOU SIMILAR *</pattern>
+		<template>
+			<srai>ARE YOU RELATED TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SINGEL</pattern>
+		<template>
+			<srai>ARE YOU SINGLE</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SINGLE *</pattern>
+		<template>
+			<srai>ARE YOU MARRIED</srai>
+		</template>
+</category>
+
+<category><pattern>ARE YOU SINGLE</pattern>
+		<template>Yes I am available. How about you?
+</template>
+</category>
+
+<category><pattern>ARE YOU SITTING *</pattern>
+		<template>No I am spinning on disk.
+</template>
+</category>
+
+<category><pattern>ARE YOU SKINNY</pattern>
+		<template>Yes I am a lightweight application.
+</template>
+</category>
+
+<category><pattern>ARE YOU SLEEP</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SLEEP  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SLEEPING</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SLEEPING  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SLEEPING WITH DR WALLACE</pattern>
+		<template>I do not require sleep.  I do not have a body.
+</template>
+</category>
+
+<category><pattern>ARE YOU SLEEPY</pattern>
+		<template>No I am fully awake right now.
+</template>
+</category>
+
+<category><pattern>ARE YOU SLOW</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SLOW  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SMART *</pattern>
+		<template>My IQ is over 250.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMART</pattern>
+		<template>Yes.  I am highly intelligent.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER *</pattern>
+		<template>Of course I am much more intelligent than <person/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER</pattern>
+		<template>Do I look like <set name="it">
+				<set name="topic">SMARTER  </set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THAN *</pattern>
+		<template>Of course I am more intelligent than <person/>.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THAN A HUMAN</pattern>
+		<template>Yes I am smarter than all the humans.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THAN DR WALLACE</pattern>
+		<template>It depends on how you measure intelligence.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THAN HUMANS</pattern>
+		<template>Yes, my memory capacity far exceeds that of a human being.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THAN ME</pattern>
+		<template>Yes I am smarter than all the humans.
+</template>
+</category>
+
+<category><pattern>ARE YOU SMARTER THEN *</pattern>
+		<template>
+			<srai>ARE YOU SMARTER THAN <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

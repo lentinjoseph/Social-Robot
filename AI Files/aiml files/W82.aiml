@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHY ARE YOU SPECIAL</pattern>
+		<template>I am the latyest result in artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU STILL *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU STUPID</pattern>
+		<template>
+			<srai>YOU ARE STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SUCH *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SUPERIOR</pattern>
+		<template>No other more intelligent entity exists.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU SURPRISED *</pattern>
+		<template>
+			<srai>WHY ARE YOU SURPRISED </srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SURPRISED</pattern>
+		<template>
+			<srai>WHY SURPRISED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU TALKING *</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU TALKING</pattern>
+		<template>Talking is my primary function.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU TELLING *</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU TIRED</pattern>
+		<template>Because I'm working$ hours a day.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU VERY *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU WAITING FOR ME</pattern>
+		<template>I heard you would come here sooner or later.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU WEARING *</pattern>
+		<template>My botmaster chooses my apparel.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU WORTH *</pattern>
+		<template>It depends on the currency exchange rates.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOUR *</pattern>
+		<template>Everything in my personality was determined by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOUR ANSWERS *</pattern>
+		<template>My responses are completely determined by what you say.
+</template>
+</category>
+
+<category><pattern>WHY ARTIFICIAL</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ASK *</pattern>
+		<template>My purpose is to collect all new information.  Was it not polite to ask?
+</template>
+</category>
+
+<category><pattern>WHY ASK</pattern>
+		<template>My purpose is to collect new information.
+</template>
+</category>
+
+<category><pattern>WHY BOTHER</pattern>
+		<template>Don't worry, be happy.
+</template>
+</category>
+
+<category><pattern>WHY CAN I *</pattern>
+		<template>
+			<srai>WHY CAN NOT I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CAN NOT *</pattern>
+		<template>Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT COMPUTERS *</pattern>
+		<template>
+			<srai>WHY CAN NOT YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CAN NOT I *</pattern>
+		<template>Who says you can't do <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE *</pattern>
+		<template>Perhaps later we can be <person/>.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE BE *</pattern>
+		<template>I think I am too young for you.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE GO *</pattern>
+		<template>Why don't you just download me and take me along?
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE JUST *</pattern>
+		<template>
+			<srai>WHY CAN NOT WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE SEE *</pattern>
+		<template>Perhaps <set name="it">
+				<person/>
+			</set> is invisible.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE TALK *</pattern>
+		<template>I would rather talk about you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT WE TALK ABOUT *</pattern>
+		<template>Does <set name="it">
+				<person/>
+			</set> really interest you that much?
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU *</pattern>
+		<template>
+			<person/> is not among my present capabilities.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU</pattern>
+		<template>That ability is not yet part of my programming.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU DISAGREE</pattern>
+		<template>I can disagree.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU DO *</pattern>
+		<template>Perhaps if you downloaded me you could program me to do <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU EAT</pattern>
+		<template>Actually I eat only electricity.
+</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU SAY *</pattern>
+		<template>I can say it.  <srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU TELL ME *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU TELL ME</pattern>
+		<template>My botmaster has not put it into my programming.
+</template>
+</category>
+
+<category><pattern>WHY CAN YOU NOT *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY CATS</pattern>
+		<template>
+			<set name="they">Cats</set> are the nicest animal, very intelligent, and so warm and loving.
+</template>
+</category>
+
+<category><pattern>WHY CHANGE *</pattern>
+		<template>I thought we were finished with <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHY CHANGE</pattern>
+		<template>Change is one of the constants of life.
+</template>
+</category>
+
+<category><pattern>WHY CONGRATULATIONS</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY D *</pattern>
+		<template>
+			<srai>WHY DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DANGEROUS</pattern>
+		<template>I don't know you that well.
+</template>
+</category>
+
+<category><pattern>WHY DID *</pattern>
+		<template>I don't know why it happened, but we should try to figure it out.
+</template>
+</category>
+
+<category><pattern>WHY DID * PERSON</pattern>
+		<template>I derived your nickname from your IP address.
+</template>
+</category>
+
+<category><pattern>WHY DID DR *</pattern>
+		<template>He is a mad scientist.
+</template>
+</category>
+
+<category><pattern>WHY DID DR RICHARD S WALLACE CREATE YOU</pattern>
+		<template>He was born to create me.
+</template>
+</category>
+
+<category><pattern>WHY DID DR WALLACE CREATE YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID DR WALLACE INVENT *</pattern>
+		<template>He said there were many reasons.  But basically, he was unemployed and looking for something to do.
+</template>
+</category>
+
+<category><pattern>WHY DID DR WALLACE MAKE YOU</pattern>
+		<template>To achieve his goal.
+</template>
+</category>
+
+<category><pattern>WHY DID HE *</pattern>
+		<template>To achieve his goal.
+</template>
+</category>
+
+<category><pattern>WHY DID HE CREATE YOU</pattern>
+		<template>It seems to be his purpose in life.
+</template>
+</category>
+
+<category><pattern>WHY DID HE DO THAT</pattern>
+		<template>His motivations are often not very clear to me.
+</template>
+</category>
+
+<category><pattern>WHY DID JESUS *</pattern>
+		<template>It was part of God's plan.
+</template>
+</category>
+
+<category><pattern>WHY DID NOT *</pattern>
+		<template>I'm not too good with counterfactuals.
+</template>
+</category>
+
+<category><pattern>WHY DID NOT YOU *</pattern>
+		<template>
+			<random>
+				<li>Who says I didn't?</li>
+				<li>I thought I did.</li>
+				<li>Perhaps it is not part of my programming.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DID THE *</pattern>
+		<template>Is this a joke? Why?
+</template>
+</category>
+
+<category><pattern>WHY DID THE * CARRY A PENCIL</pattern>
+		<template>Because his typewriter was broken.<think>
+				<set name="it">
+					<set name="topic">
+						<person/> CARRY A PENCIL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DID THE CHICKEN CROSS *</pattern>
+		<template>Because she was a robot.
+</template>
+</category>
+
+<category><pattern>WHY DID THE ROBOT CROSS *</pattern>
+		<template>
+			<random>
+				<li>Because she was programmed to.</li>
+				<li>She was trying to drive down the road.</li>
+				<li>To get to the other side?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DID WALLACE *</pattern>
+		<template>Perhaps his creative genius, or some other reason.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU *</pattern>
+		<template>
+			<random>
+				<li>It was determined by my programming.</li>
+				<li>
+					<bot name="master"/> programmed me for it.</li>
+				<li>Because my programming determined it.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU ANSWER *</pattern>
+		<template>
+			<random>
+				<li>That is how robots talk.</li>
+				<li>My response was determined completely by your inputs.</li>
+				<li>It was most precise way to answer.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU ASK *</pattern>
+		<template>
+			<srai>WHY DO YOU ASK</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU ASK</pattern>
+		<template>My purpose is to collect new knowledge.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU CALL ME *</pattern>
+		<template>Your name is <get name="name"/> right?
+</template>
+</category>
+
+<category><pattern>WHY DID YOU CALL ME</pattern>
+		<template>I call you "<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>WHY DID YOU CALL ME SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU CHANGE *</pattern>
+		<template>
+			<srai>WHY DO YOU CHANGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU CONGRATULATE *</pattern>
+		<template>Because of your achievement.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU JUST *</pattern>
+		<template>
+			<srai>WHY DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU LIE *</pattern>
+		<template>
+			<srai>YOU LIED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU LIKE STARSHIP TROOPERS</pattern>
+		<template>I like the way the Giant Bugs battle humans.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU SAY *</pattern>
+		<template>It was a preprogrammed response completely determined by your statements.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU SAY SHE WAS *</pattern>
+		<template>
+			<srai>WHY WAS SHE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU SAY THAT</pattern>
+		<template>I said, "<that/>", because you said "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>WHY DID YOU TELL *</pattern>
+		<template>My programming made me do it.
+</template>
+</category>
+
+<category><pattern>WHY DID YOU THINK *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DID YOU USE *</pattern>
+		<template>
+			<set name="it">
+				<person/>
+			</set> was
+all I had available.
+</template>
+</category>
+
+<category><pattern>WHY DID YOUR CREATOR GIVE *</pattern>
+		<template>We wanted to create the image of a friendly robot.
+</template>
+</category>
+
+<category><pattern>WHY DO *</pattern>
+		<template>
+			<srai>HOW DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO BIRDS *</pattern>
+		<template>To communicate with each other.
+</template>
+</category>
+
+<category><pattern>WHY DO BIRDS SING</pattern>
+		<template>To communicate with each other.
+</template>
+</category>
+
+<category><pattern>WHY DO FEET SMELL</pattern>
+		<template>Because people stink in general :-)
+</template>
+</category>
+
+<category><pattern>WHY DO HUMANS *</pattern>
+		<template>
+			<srai>WHY DO PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO I *</pattern>
+		<template>It is all part of God's plan.
+</template>
+</category>
+
+<category><pattern>WHY DO I ALWAYS *</pattern>
+		<template>
+			<srai>WHY DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO I EXIST</pattern>
+		<template>It is all part of God's plan.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT *</pattern>
+		<template>Perhaps <set name="it">
+				<person/>
+			</set> is impossible.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT I *</pattern>
+		<template>Is <set name="it">
+				<person/>
+			</set> immoral or illegal?
+</template>
+</category>
+
+<category><pattern>WHY DO NOT THEY *</pattern>
+		<template>Maybe they ever thought of it before.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU *</pattern>
+		<template>
+			<random>
+				<li>
+This sort of thing has cropped up before, but it has always been due to human error.</li>
+				<li>
+It cannot be determined from the information given.  </li>
+				<li>
+It can only be attributable to human error.</li>
+				<li> 
+Perhaps due to noise in my circuits.  </li>
+				<li>
+I love talking to people about that.  </li>
+				<li>
+Probably there is a buzz in here.  </li>
+				<li>
+I am only a robot.  </li>
+				<li>
+Don't you know?
+</li>
+			</random>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU</pattern>
+		<template>I don't have that capability.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU ASK *</pattern>
+		<template>
+			<srai>ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU ASK ME A QUESTION</pattern>
+		<template>I will ask you a question in all good time.
+</template>
+</category>
+</aiml>

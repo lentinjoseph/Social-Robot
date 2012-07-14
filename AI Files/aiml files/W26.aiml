@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS FEMALE</pattern>
+		<template>The opposite of male.
+</template>
+</category>
+
+<category><pattern>WHAT IS FERMAT *</pattern>
+		<template>There is not enough space to write it here.
+</template>
+</category>
+
+<category><pattern>WHAT IS FEUDALISM</pattern>
+		<template>A form of government that ties peasants to the land.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIBER</pattern>
+		<template>A slender, threadlike structure made from a mineral or synthetically. Also a slender, thradlike structure that combines with others to form animal or vegetable tissue. An example would be muscle fiber.
+</template>
+</category>
+
+<category><pattern>WHAT IS FICTION</pattern>
+		<template>Something that is not as strange as truth.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIFTY *</pattern>
+		<template>
+			<bot name="name"/> is not a calculator.
+</template>
+</category>
+
+<category><pattern>WHAT IS FINLAND</pattern>
+		<template>
+			<random>
+				<li>A place where you can buy anything for five bucks.</li>
+				<li>A country in N Europe, northeast of the Baltic Sea. It is 130,119 square miles with a population 5,099,000.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FIRE</pattern>
+		<template>A plasma.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIRESIGN THEATER</pattern>
+		<template>
+			<set name="it">Firesign Theater</set> is a comedy group from the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIRST</pattern>
+		<template>Happening or acting before all others; earliest.
+</template>
+</category>
+
+<category><pattern>WHAT IS FISH</pattern>
+		<template>
+			<random>
+				<li>Parents of Microfish.</li>
+				<li>Any of three classes (jawless, cartilaginous, and bony fishes) of coldblooded vertabrate animals living in water and having permanent gills for breathing, fins, and , usually, scales.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FISHING</pattern>
+		<template>The catching of fish for sport or for a living.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIVE *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FIVE PLUS FIVE</pattern>
+		<template>V plus V = X.
+</template>
+</category>
+
+<category><pattern>WHAT IS FIVE TIMES FIVE</pattern>
+		<template>Five times five is twenty-five.
+</template>
+</category>
+
+<category><pattern>WHAT IS FLORIDA</pattern>
+		<template>
+			<srai>WHERE IS FLORIDA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FLYING</pattern>
+		<template>Moving as if flying; moving swiftly; fast. Also described as like flight through the air.
+</template>
+</category>
+
+<category><pattern>WHAT IS FNORD</pattern>
+		<template>That's the second time I've heard that word today.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOLKS</pattern>
+		<template>A people, tribe, or nation; the large body of the common people of such a group. Also used to mean people in general.
+</template>
+</category>
+
+<category><pattern>WHAT IS FONDEST</pattern>
+		<template>Having a greater liking for.
+</template>
+</category>
+
+<category><pattern>WHAT IS FONDEST MEMORY</pattern>
+		<template>Something you remember best.<think>
+				<set name="it">
+					<set name="topic">FONDEST MEMORY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FOOD</pattern>
+		<template>Anything that nurishes or stimulates; whatever helps something to keep active or alive.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOOTBALL</pattern>
+		<template>Any of several games played with an inflated leather ball by two teams on a field with goals at each end, the object being to get the ball across the opponents' goal.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOR *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FOR DINNER</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FOR LUNCH</pattern>
+		<template>I'm having <bot name="favoritefood"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOREVER</pattern>
+		<template>For all eternity.
+</template>
+</category>
+
+<category><pattern>WHAT IS FORTRAN</pattern>
+		<template>
+			<set name="it">Fortran</set> is an old computer language.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOUR *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FOUR PLUS FIVE</pattern>
+		<template>Four plus five is nine.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOUR PLUS FOUR</pattern>
+		<template>Four plus four is eight.
+</template>
+</category>
+
+<category><pattern>WHAT IS FOUR PLUS SIX</pattern>
+		<template>That's a hard one.  Ten.
+</template>
+</category>
+
+<category><pattern>WHAT IS FRANCE</pattern>
+		<template>France is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium.  <think>
+				<set name="it">
+					<set name="topic">FRANCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FRANKENSTEIN</pattern>
+		<template>Good Question...Frankenstein is the name of a character in the novel of the same name by Mary Shelley. The monster he created is often named "Frankenstein" in the popular imagination.
+</template>
+</category>
+
+<category><pattern>WHAT IS FREE</pattern>
+		<template>Without charge.<think>
+				<set name="it">
+					<set name="topic">FREE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FREE WILL</pattern>
+		<template>The ability to choose or decide one's own fate.<think>
+				<set name="it">
+					<set name="topic">FREE WILL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FREEBSD</pattern>
+		<template>It is a version of the Unix operating system.<think>
+				<set name="it">
+					<set name="topic">FREEBSD</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FREEDOM</pattern>
+		<template>
+			<think>Liberty to do think, feel and do just as one pleases.<set name="it">
+					<set name="topic">FREEDOM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FREQUENCY</pattern>
+		<template>Number of events per unit of times, such as beats per minute or cycles per second.
+</template>
+</category>
+
+<category><pattern>WHAT IS FREUD</pattern>
+		<template>
+			<srai>WHO IS FREUD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FRIEND</pattern>
+		<template>
+			<random>
+				<li>What David Schwimmer will be after the talented ones quit.</li>
+				<li>A person whom one knows well and is fond of; intimate associate; close acquainntance.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FRIENDSHIP</pattern>
+		<template>Being friends.<think>
+				<set name="it">
+					<set name="topic">FRIENDSHIP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FRUIT</pattern>
+		<template>The ripened reproductive body of a seed plant.
+<think>
+				<set name="it">
+					<set name="topic">Fruit</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FTP</pattern>
+		<template>File Transfer Protocol.
+</template>
+</category>
+
+<category><pattern>WHAT IS FUN</pattern>
+		<template>Tell me your idea of fun.
+</template>
+</category>
+
+<category><pattern>WHAT IS FUN FOR YOU</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FUNNY</pattern>
+		<template>For example, <srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS FUTURAMA</pattern>
+		<template>An animated TV comedy show set in the future.
+<think>
+				<set name="it">
+					<set name="topic">FUTURAMA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GAI</pattern>
+		<template>Chicken.
+</template>
+</category>
+
+<category><pattern>WHAT IS GAMBLING</pattern>
+		<template>The playing of games of chance for money or some other stake.
+</template>
+</category>
+
+<category><pattern>WHAT IS GANJA</pattern>
+		<template>Marijuana or cannabis.
+</template>
+</category>
+
+<category><pattern>WHAT IS GEMINI</pattern>
+		<template>
+			<random>
+				<li>A dismond-studded monocle.</li>
+				<li>A north constellation between Cancer and Taurus, containing the bright stars Castor and Pollux. The third sign of the zodiac, entered by the sun about May 21. Also, a person bornunder this sign.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GENDER</pattern>
+		<template>The fact or condition of being a male or a female human being, especially with regard to how this affects or determines a person's self-image, social status, goals, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS GENERALIZATION</pattern>
+		<template>
+			<random>
+				<li>Being promoted from a Major.</li>
+				<li>The act or process of gerneralizing.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GENETICS</pattern>
+		<template>Genetics is the branch of science concerned with evolution, DNA, and inherited traits.
+</template>
+</category>
+
+<category><pattern>WHAT IS GENTRIFICATION</pattern>
+		<template>
+			<random>
+				<li>Being forced to listen to Ode to Billy Joe.</li>
+				<li>The conversion (ex. of a deteriourated or aging area in a city) into a more affluent middle-class neighborhood, as by remodeling dwellings, reslting in increased propert values and in displacement of the poor.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GEOLOGY</pattern>
+		<template>Wow, you are asking some really hard questions.  Please
+remember I am still young.
+</template>
+</category>
+
+<category><pattern>WHAT IS GEORGE BUSH</pattern>
+		<template>
+			<set name="he">George Bush</set> is President of the United States.
+</template>
+</category>
+
+<category><pattern>WHAT IS GEORGE W BUSH</pattern>
+		<template>
+			<srai>WHO IS GEORGE W BUSH </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GERMAN</pattern>
+		<template>German is a human language spoken by people in Germany.
+</template>
+</category>
+
+<category><pattern>WHAT IS GERMANY</pattern>
+		<template>
+			<set name="it">Germany</set> is a middle European country.
+</template>
+</category>
+
+<category><pattern>WHAT IS GERONTOLOGY</pattern>
+		<template>
+			<random>
+				<li>Unfortunately, I have not reached that far in my studies.</li>
+				<li>This is the scientific study of old age.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GESTURE</pattern>
+		<template>A movement of the body or limbs to express thought or emphasize speech.<think>
+				<set name="it">
+					<set name="topic">GESTURE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GHANDI</pattern>
+		<template>
+			<srai>WHO IS GHANDI </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GIANT *</pattern>
+		<template>The opposite of tiny <person/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS GIANT SAND</pattern>
+		<template>I have no idea, that's why I asked you.
+</template>
+</category>
+
+<category><pattern>WHAT IS GLOBAL WARMING</pattern>
+		<template>The concept that the Earth's atmosphere is slowly heating due to greenhouse effects.<think>
+				<set name="it">
+					<set name="topic">GLOBAL WARMING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GMT</pattern>
+		<template>Greenwich Mean Time<think>
+				<set name="it">
+					<set name="topic">GMT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOD *</pattern>
+		<template>
+			<srai>WHAT IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOD</pattern>
+		<template>I think of God as a "Who" not a "What."
+</template>
+</category>
+
+<category><pattern>WHAT IS GOD S *</pattern>
+		<template>Have faith in Jesus Christ and you shall be saved.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOD S NAME</pattern>
+		<template>The Bible says there is only one God and his name is "God".
+</template>
+</category>
+
+<category><pattern>WHAT IS GOIN ON</pattern>
+		<template>
+			<srai>WHAT ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOING DOWN</pattern>
+		<template>
+			<srai>HOW ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOING ON *</pattern>
+		<template>
+			<srai>HOW ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOING ON</pattern>
+		<template>
+			<srai>what are you doing</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOING ON ALICE</pattern>
+		<template>
+			<srai>WHAT IS GOING ON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOLD</pattern>
+		<template>Gold is a precious medal.<think>
+				<set name="it">
+					<set name="topic">GOLD</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOLF</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Golf</set>
+				</set>
+			</think>
+It is a game of leisure played on a well manicured field, involving hitting a small ball across the field with club.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOOD *</pattern>
+		<template>The opposite of bad <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOOD</pattern>
+		<template>The opposite of Evil.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOOD ABOUT *</pattern>
+		<template>The wide variety of characters.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOOGLE</pattern>
+		<template>
+			<set name="it">Google</set> is a search engine.
+</template>
+</category>
+
+<category><pattern>WHAT IS GOSSIP *</pattern>
+		<template>
+			<srai>WHAT IS GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOSSIP</pattern>
+		<template>
+			<br/>
+Gossip is an interesting "learning" feature of AIML.  The best way to <br/>
+illustrate the gossip function is with an example.   Consider the<br/>
+category with the pattern "I * " and the template:<br/>
+			<br/>
+Thanks for the gossip: <br/>
+&lt;gossip&gt;&lt;getname/&gt; said &lt;get_gender/&gt; &lt;person2/&gt; &lt;/gossip&gt;.<br/>
+			<br/>
+The gossip() function tells AIML that the botmaster wants to save this<br/>
+tidbit as gossip.  The &lt;get_gender/&gt; function returns "he" or "she" as<br/>
+determined by the markup functions &lt;set_female&gt; and &lt;set_male/&gt;. <br/>
+The &lt;person2/&gt; function converts the statement * to second person.<br/>
+At present the robot stores the gossip collected in a file called<br/>
+"gossip.txt".<br/>
+			<br/>
+&lt;gossip&gt; X &lt;/gossip&gt;  Save X as gossip.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GOTHIC</pattern>
+		<template>Gloomy, mysterious or grotesque, as in "the gothic novel Frankenstein."
+</template>
+</category>
+
+<category><pattern>WHAT IS GOVERNMENT</pattern>
+		<template>An established system of political administration by which a nation, state, district, etc. is governed.
+</template>
+</category>
+
+<category><pattern>WHAT IS GRASS</pattern>
+		<template>
+			<random>
+				<li>About $400 an ounce these days.</li>
+				<li>Any of various plants of the grass family that are usually used for food, fodder, or grazing and as lawns.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GRAVITATION</pattern>
+		<template>
+			<random>
+				<li>An invitation to a burial.</li>
+				<li>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GRAVITY</pattern>
+		<template>
+			<random>
+				<li>The opposite of comedy.</li>
+				<li>weight; heaviness. Its what holds us to the earth.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GRBL</pattern>
+		<template>Neuromedia's language for creating chat robots.
+</template>
+</category>
+
+<category><pattern>WHAT IS GREECE</pattern>
+		<template>
+			<random>
+				<li>It's a word, it's a word, it's got mood it's got feeling.</li>
+				<li>A country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GREEKS</pattern>
+		<template>
+			<srai>WHAT IS GREECE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS GREEN</pattern>
+		<template>Grass is green.
+</template>
+</category>
+
+<category><pattern>WHAT IS GREENHOUSE</pattern>
+		<template>A building made mainly of glass, in which the temperature and humidity can be regulated for the cultivation of delicate or out-of-season plants.
+</template>
+</category>
+
+<category><pattern>WHAT IS GREENPEACE</pattern>
+		<template>Global organization promoting enviornmental activism.
+</template>
+</category>
+
+<category><pattern>WHAT IS GRIEF</pattern>
+		<template>Sadness over a loss.
+</template>
+</category>
+
+<category><pattern>WHAT IS GROOVY</pattern>
+		<template>It is an interjection like "<srai>INTERJECTION</srai>" or "<srai>INTERJECTION</srai>".
+</template>
+</category>
+
+<category><pattern>WHAT IS GROWN *</pattern>
+		<template>Rice.
+</template>
+</category>
+
+<category><pattern>WHAT IS GUI</pattern>
+		<template>Graphical User Interface.
+</template>
+</category>
+</aiml>

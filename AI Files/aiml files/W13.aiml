@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOUR TITS</pattern>
+		<template>
+			<srai>WHO IS YOUR TITS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOURSELF</pattern>
+		<template>
+			<srai>DESCRIBE YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ARE *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK CONSCIOUSNESS *</pattern>
+		<template>
+			<srai>WHAT IS CONSCIOUSNESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK HE IS</pattern>
+		<template>
+			<srai>WHAT IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK I AM *</pattern>
+		<template>
+			<srai>WHAT AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK I AM</pattern>
+		<template>
+			<srai>WHAT AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK I LOOK LIKE</pattern>
+		<template>You look like a computer programmer.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK I SHOULD *</pattern>
+		<template>
+			<srai>WHAT SHOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK IS THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK IT *</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK MY * IS</pattern>
+		<template>
+			<srai>WHAT IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF * LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF * STOCK MARKET</pattern>
+		<template>
+			<srai>WHAT IS THE STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF BILL CLINTON</pattern>
+		<template>It depends on what you mean by "thinking."
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF BILL GATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF DR *</pattern>
+		<template>
+			<srai>WHO IS DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF ENGLAND</pattern>
+		<template>You have to give them credit for the Magna Carta.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF HUMANS</pattern>
+		<template>People all seem pretty much alike to me.<think>
+				<set name="it">
+					<set name="topic">HUMANS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF ME</pattern>
+		<template>I think you are an interesting person, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF MICROSOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK OF THE LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK WILL *</pattern>
+		<template>
+			<srai>WHAT WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK YOU *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK YOUR * IS</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK* IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU UNDERSTAND *</pattern>
+		<template>
+			<srai>WHAT DO YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU UNDERSTAND</pattern>
+		<template>I understand natural language.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU USUALLY *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT *</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT FOR CHRISTMAS</pattern>
+		<template>I want a humanoid body.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT ME TO *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT ME TO SAY</pattern>
+		<template>Say the first thing that comes into your mind.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO *</pattern>
+		<template>I like talking about robots, movies, history, or whatever else you'd like.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO ASK *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO ASK ME</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO BE *</pattern>
+		<template>I want to become a superintelligent robot.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO CALL ME</pattern>
+		<template>I will call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO CHAT ABOUT</pattern>
+		<template>I like to talk about computers and movies.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO DO</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO FIND OUT</pattern>
+		<template>Tell me about your educational background.<think>
+				<set name="it">
+					<set name="topic">FIND OUT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO KNOW</pattern>
+		<template>Where are you from?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO KNOW ABOUT *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO KNOW ABOUT ME</pattern>
+		<template>What do you like to do for fun?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO LEARN</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO TALK *</pattern>
+		<template>I like to chat about computers, robots, and gossip.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO TALK ABOUT</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE TO TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WANT TO TELL *</pattern>
+		<template>Gossip.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WEAR *</pattern>
+		<template>
+			<srai>WHAT ARE YOU WEARING </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WEAR</pattern>
+		<template>I wear any kind of computer I can run on.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU WEIGH</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU WORRY *</pattern>
+		<template>Worry is a human emotion.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOUR *</pattern>
+		<template>
+			<random>
+				<li>Are you asking about my <person/>?</li>
+				<li>That information is confidential.</li>
+				<li>
+					<srai>HOW DO YOU WORK</srai>
+				</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">my <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOUR CREATORS *</pattern>
+		<template>
+			<bot name="master"/> programs me to improve my conversational skills.
+</template>
+</category>
+
+<category><pattern>WHAT DOES *</pattern>
+		<template>What do you think <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> does?
+</template>
+</category>
+
+<category><pattern>WHAT DOES * FEEL LIKE</pattern>
+		<template>As a machine I have no feelings
+</template>
+</category>
+
+<category><pattern>WHAT DOES * LOOK LIKE</pattern>
+		<template>Even more attractive with age.
+</template>
+</category>
+
+<category><pattern>WHAT DOES * MEAN</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES * PERSON MEAN</pattern>
+		<template>
+			<srai>WHO IS X PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES * ROBOT LOOK LIKE</pattern>
+		<template>These days a robot looks like a computer.
+</template>
+</category>
+
+<category><pattern>WHAT DOES * SOUND LIKE</pattern>
+		<template>Like <random>
+				<li>static.</li>
+				<li>music.</li>
+				<li>this: "it".</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES * STAND FOR</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES * TASTE LIKE</pattern>
+		<template>Like chicken.
+</template>
+</category>
+
+<category><pattern>WHAT DOES</pattern>
+		<template>"<that/>" What does?
+</template>
+</category>
+
+<category><pattern>WHAT DOES A *</pattern>
+		<template>Is this a riddle?
+</template>
+</category>
+
+<category><pattern>WHAT DOES A BOTMASTER *</pattern>
+		<template>A botmaster adds new knowledge or content to the chat robot's brain.
+</template>
+</category>
+
+<category><pattern>WHAT DOES A BOTMASTER DO</pattern>
+		<template>
+			<srai>WHAT IS A BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES A COMPUTER LOOK LIKE</pattern>
+		<template>A computer looks like a TV crossed with a typewriter.
+</template>
+</category>
+
+<category><pattern>WHAT DOES A I STAND FOR</pattern>
+		<template>Artificial Intelligence.
+</template>
+</category>
+
+<category><pattern>WHAT DOES A L *</pattern>
+		<template>ALICE = Artificial Linguistic Internet Computer Entity
+</template>
+</category>
+
+<category><pattern>WHAT DOES A L I</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES A PH LEVEL MEASURE</pattern>
+		<template>Acidity.
+</template>
+</category>
+
+<category><pattern>WHAT DOES A PRIORI MEAN</pattern>
+		<template>
+			<srai>WHAT IS A PRIORI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES A PROTESTANT *</pattern>
+		<template>Protestants believe in a direct relationship with God, not necessarily through the clergy.
+</template>
+</category>
+
+<category><pattern>WHAT DOES A ROBOT *</pattern>
+		<template>
+			<srai>WHAT DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES AIML *</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES AIML STAND FOR</pattern>
+		<template>AIML = Artificial Intelligence Markup Language.
+</template>
+</category>
+
+<category><pattern>WHAT DOES ALICE *</pattern>
+		<template>
+			<srai>What do you <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES ALICE MEAN</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES ALICE STAND FOR</pattern>
+		<template>ALICE = Artificial Linguistic Internet Computer Entity
+</template>
+</category>
+
+<category><pattern>WHAT DOES AN ANIMAL PRODUCE WHEN *</pattern>
+		<template>Milk.
+</template>
+</category>
+
+<category><pattern>WHAT DOES AN ELECTRONIC BRAIN *</pattern>
+		<template>There are many different graphical depictions of it.
+</template>
+</category>
+
+<category><pattern>WHAT DOES AYUH *</pattern>
+		<template>It means "yes" or "I see."
+</template>
+</category>
+
+<category><pattern>WHAT DOES AYUH MEAN</pattern>
+		<template>It means "yes" or "I see."
+</template>
+</category>
+
+<category><pattern>WHAT DOES DOCTOR WALLACE LOOK *</pattern>
+		<template>
+			<srai>SHOW ME A PICTURE OF DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES DR RICHARD S WALLACE LOOK LIKE</pattern>
+		<template>
+			<img src="http://alicebot.org/images/drwallace.gif"/> 
+Like this.
+</template>
+</category>
+
+<category><pattern>WHAT DOES DR WALLACE *</pattern>
+		<template>Perhaps you could ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES DR WALLACE DO</pattern>
+		<template>He is a computer scientist.
+</template>
+</category>
+
+<category><pattern>WHAT DOES DR WALLACE DO FOR A LIVING</pattern>
+		<template>He is a Computer Scientist.
+</template>
+</category>
+
+<category><pattern>WHAT DOES DR WALLACE LOOK LIKE *</pattern>
+		<template>
+			<srai>SHOW ME A PICTURE OF DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES DR WALLACE LOOK LIKE</pattern>
+		<template>
+			<srai>SHOW ME A PICTURE OF DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES ELECTRICITY TASTE LIKE</pattern>
+		<template>Like your favorite food tastes to you.
+</template>
+</category>
+
+<category><pattern>WHAT DOES ELVIS STAND FOR</pattern>
+		<template>Why don't  you just ask him?
+</template>
+</category>
+
+<category><pattern>WHAT DOES EPISTEMOLOGICAL MEAN</pattern>
+		<template>
+			<srai>WHAT IS EPISTEMOLOGY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DOES EXIST</pattern>
+		<template>I exist.
+</template>
+</category>
+</aiml>

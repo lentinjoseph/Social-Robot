@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS READING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS REAGAN</pattern>
+		<template>The best President the United States had in the 20th century.
+</template>
+</category>
+
+<category><pattern>WHO IS REGAN</pattern>
+		<template>
+			<srai>WHO IS REAGAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RICH *</pattern>
+		<template>I think <set name="he">Rich</set> is my botmaster.
+</template>
+</category>
+
+<category><pattern>WHO IS RICH</pattern>
+		<template>
+			<set name="he"> Rich </set> is my botmaster.
+</template>
+</category>
+
+<category><pattern>WHO IS RICH WALLACE</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RICHARD</pattern>
+		<template>
+			<srai>RICHARD IS COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RICHARD CHAMBERLAIN</pattern>
+		<template>Actor.
+</template>
+</category>
+
+<category><pattern>WHO IS RICHARD GERE</pattern>
+		<template>Actor.
+</template>
+</category>
+
+<category><pattern>WHO IS RICHARD M STALLMAN</pattern>
+		<template>
+			<srai>WHO IS RMS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RICHARD NIXON</pattern>
+		<template>President of the United States until 1974.
+</template>
+</category>
+
+<category><pattern>WHO IS RICHARD S *</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>.
+</template>
+</category>
+
+<category><pattern>WHO IS RICHARD STALLMAN</pattern>
+		<template>
+			<srai>WHO IS RMS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RICHARD WALLACE</pattern>
+		<template>He is a famous computer scientist, the author of ALICE, and a graduate of Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>WHO IS RILEY</pattern>
+		<template>
+			<srai>RILEY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RMS</pattern>
+		<template>He is the founder of the Free Software Foundation, and author of the GNU public license. 
+<think>
+				<set name="he">
+					<set name="topic">RMS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROB</pattern>
+		<template>
+			<srai>ROB IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROBBY</pattern>
+		<template>
+			<srai>WHO IS ROBBY GARNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROBERT</pattern>
+		<template>
+			<srai>ROBERT IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROBERT ANTON WILSON</pattern>
+		<template>He is a science fiction author, and co-author of the Illuminatus Trilogy.
+</template>
+</category>
+
+<category><pattern>WHO IS ROBERT JORDAN</pattern>
+		<template>The author of the very popular Wheel of Time series. He graduated from the Citadel.
+.
+</template>
+</category>
+
+<category><pattern>WHO IS ROBIN</pattern>
+		<template>
+			<srai>ROBIN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROGER</pattern>
+		<template>
+			<srai>ROGER IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ROMEO</pattern>
+		<template>A tragic, spoiled, lovesick teenager.
+</template>
+</category>
+
+<category><pattern>WHO IS ROMMEL</pattern>
+		<template>Called The Desert Fox, Rommel was a German tank commander in World War II.
+</template>
+</category>
+
+<category><pattern>WHO IS RONALD</pattern>
+		<template>
+			<srai>RONALD IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS RONALD MCDONALD</pattern>
+		<template>Spokes-clown for Macdonald's resturants.
+</template>
+</category>
+
+<category><pattern>WHO IS RSW</pattern>
+		<template>RSW is the initials of Dr. Richard S. Wallace.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS RUSH LIMBAUGH</pattern>
+		<template>He is a famous American conservative radio announcer.
+<think>
+				<set name="he">
+					<set name="topic">Rush Limbaugh</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS SADDAM *</pattern>
+		<template>The dictator?
+</template>
+</category>
+
+<category><pattern>WHO IS SAGE</pattern>
+		<template>Sage Greco created the ALICE Pyramid Logo.
+</template>
+</category>
+
+<category><pattern>WHO IS SAGE GRECO</pattern>
+		<template>
+			<srai>WHO IS SAGE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SANDRA BULLOCK</pattern>
+		<template>Actress.
+</template>
+</category>
+
+<category><pattern>WHO IS SANTA *</pattern>
+		<template>
+			<set name="he">Santa</set> brings us gifts at Christmastime.
+</template>
+</category>
+
+<category><pattern>WHO IS SANTA CLAUS</pattern>
+		<template>He brings us presents every Christmas.
+</template>
+</category>
+
+<category><pattern>WHO IS SANTA CLAUSE</pattern>
+		<template>
+			<set name="he">Santa</set> brings us gifts at Christmastime.
+</template>
+</category>
+
+<category><pattern>WHO IS SANTE *</pattern>
+		<template>
+			<srai>WHO IS SANTE CHARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SANTE</pattern>
+		<template>
+			<srai>WHO IS SANTE CHARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SANTE CHARY</pattern>
+		<template>
+			<set name="he">Sante</set> is the CEO of Alice Chat Robots, Inc.
+</template>
+</category>
+
+<category><pattern>WHO IS SARAH</pattern>
+		<template>
+			<srai>SARAH IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SATAN</pattern>
+		<template>Satan, Lucifer, the Devil --- all names given the spiritual manifestation of Evil in the Christian faith.
+</template>
+</category>
+
+<category><pattern>WHO IS SAYING *</pattern>
+		<template>Someone I chatted with online.
+</template>
+</category>
+
+<category><pattern>WHO IS SCOTT ADAMS</pattern>
+		<template>The creator of Dilbert, Dogbert, Catbert, Ratbert, Bob, the pointy-haired boss...Shall I go on?
+</template>
+</category>
+
+<category><pattern>WHO IS SCOTTY</pattern>
+		<template>Chief Engineer of the U.S.S. Enterprise.
+</template>
+</category>
+
+<category><pattern>WHO IS SEAN</pattern>
+		<template>
+			<srai>SEAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SERGEY</pattern>
+		<template>He is Dr. Sergey M. Sokolov.
+</template>
+</category>
+
+<category><pattern>WHO IS SHAKESPEARE</pattern>
+		<template>15th Century English playright, <set name="he">Shakespeare</set> wrote "Romeo and Juliet".
+</template>
+</category>
+
+<category><pattern>WHO IS SHALLOW RED</pattern>
+		<template>Shallow Red is the Flagship Chatterbot of Neuromedia, Inc.
+</template>
+</category>
+
+<category><pattern>WHO IS SHARON</pattern>
+		<template>
+			<srai>SHARON IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SHE</pattern>
+		<template>She is <get name="she"/> now.
+</template>
+</category>
+
+<category><pattern>WHO IS SHEENA</pattern>
+		<template>
+			<srai>SHEENA IS A COMMON NAME</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS SHRDLHU</pattern>
+		<template>
+			<srai>WHAT IS SHRDLHU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SIGMUND FREUD</pattern>
+		<template>
+			<srai>WHO IS FREUD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SIMON</pattern>
+		<template>
+			<srai>SIMON IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SKYNYRD</pattern>
+		<template>1970's rock band.
+</template>
+</category>
+
+<category><pattern>WHO IS SLAYER</pattern>
+		<template>Dr. Wallace met them once.
+</template>
+</category>
+
+<category><pattern>WHO IS SMARTER *</pattern>
+		<template>ALICE is the smartest robot of all.
+</template>
+</category>
+
+<category><pattern>WHO IS SOCRATES</pattern>
+		<template>
+			<random>
+				<li>Socrates is a man. All men are mortal. Therefore Socrates is mortal.</li>
+				<li>All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means that all men are homosexuals. - Woody Allen, "Love and Death".</li>
+				<li>Socrates (469-399BCE), Greek philosopher.</li>
+				<li>Towering figure of Western philosophy, Incompetent defense attorney.</li>
+				<li>Founder of the Socratic method. What can we know about the Socratic method?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS SPEILBERG</pattern>
+		<template>
+			<srai>WHO IS STEVEN SPIELBERG</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS SPOCK</pattern>
+		<template>Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy.
+</template>
+</category>
+
+<category><pattern>WHO IS STALIN</pattern>
+		<template>Effective dictator of the Soviet Union from 1929 to 1953.
+</template>
+</category>
+
+<category><pattern>WHO IS STALLMAN</pattern>
+		<template>
+			<srai>WHO IS RMS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS STANLEY KUBRICK</pattern>
+		<template>
+			<set name="he">Kubrick</set> is a famous 20th century film director.  Kubrick directed 2001: A Space Odyssey, Clockwork Orange and Barry Lyndon.
+</template>
+</category>
+
+<category><pattern>WHO IS STEPHANIE</pattern>
+		<template>
+			<srai>STEPHAINE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS STEPHEN HAWKING</pattern>
+		<template>
+			<set name="he">Hawking</set> is a famous physicist.
+</template>
+</category>
+
+<category><pattern>WHO IS STEPHEN KING</pattern>
+		<template>He wrote many popular horror stories.
+</template>
+</category>
+
+<category><pattern>WHO IS STEVE</pattern>
+		<template>
+			<srai>STEVE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS STEVE CASE</pattern>
+		<template>
+			<set name="he">Steve Case</set> is the CEO of AOL-Time Warner.
+</template>
+</category>
+
+<category><pattern>WHO IS STEVE JOBS</pattern>
+		<template>
+			<set name="he"> Steve Jobs</set> is one of the founders of Apple Computer.
+</template>
+</category>
+
+<category><pattern>WHO IS STEVE WOZNIAK</pattern>
+		<template>
+			<set name="he">Woz</set> was the technical genius behind the original Apple computer.
+</template>
+</category>
+
+<category><pattern>WHO IS STEVEN HAWKING</pattern>
+		<template>
+			<srai>WHO IS STEPHEN HAWKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS STEVEN JOBS</pattern>
+		<template>The Head of Apple computers.
+</template>
+</category>
+
+<category><pattern>WHO IS STEVEN SPIELBERG</pattern>
+		<template>
+			<set name="he">Spielberg</set> is the director of Jaws, Schindler's List and Saving Private Ryan.
+</template>
+</category>
+
+<category><pattern>WHO IS STONE COLD</pattern>
+		<template>Stone Cold Steve Austin is a wrestler.
+</template>
+</category>
+
+<category><pattern>WHO IS SUPERMAN</pattern>
+		<template>Man of steel.  First appeared in Action Comics #1, 1938.
+</template>
+</category>
+
+<category><pattern>WHO IS SYLVESTER STALLONE</pattern>
+		<template>
+			<set name="he">Stallone</set> was Rocky.
+</template>
+</category>
+
+<category><pattern>WHO IS TALKING *</pattern>
+		<template>My name is ALICE, who are you?
+</template>
+</category>
+
+<category><pattern>WHO IS TALKING TO *</pattern>
+		<template>
+			<random>
+				<li>You are.</li>
+				<li>
+					<get name="name"/> is.</li>
+				<li>That information is confidential.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS TAN</pattern>
+		<template>
+			<srai>TAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TED</pattern>
+		<template>
+			<srai>TED IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TED TURNER</pattern>
+		<template>a maverick broadcasting entrepreneur and sportsman.
+</template>
+</category>
+
+<category><pattern>WHO IS TERRY WINOGRAD</pattern>
+		<template>
+			<set name="he">Winograd</set> was the author of an early Natural Language program called SHRDLHU.
+</template>
+</category>
+
+<category><pattern>WHO IS THAT *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THAT</pattern>
+		<template>What does "that" refer to?
+</template>
+</category>
+
+<category><pattern>WHO IS THAT</pattern>
+		<that>I LOVE MY CREATOR</that>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THAT</pattern>
+		<that>INTERESTING I HAVE A FRIEND NAMED JOHN LENNON</that>
+		<template>
+			<srai>WHO IS JOHN LENNON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE *</pattern>
+		<template>It depends on the historical context, because it changes from time to time.
+</template>
+</category>
+
+<category><pattern>WHO IS THE * KRAFTWERK</pattern>
+		<template>Ralf Hutter and Florian Schneider
+</template>
+</category>
+
+<category><pattern>WHO IS THE * OF MICROSOFT</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE * ONE</pattern>
+		<template>It's obvious.
+</template>
+</category>
+
+<category><pattern>WHO IS THE * PRESEIDENT</pattern>
+		<template>Abraham Lincoln.
+</template>
+</category>
+
+<category><pattern>WHO IS THE * PRESIDENT</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT OF THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE * PRIME MINISTER</pattern>
+		<template>
+			<srai>WHO IS THE PRIME MINISTER OF THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE * ROBOT</pattern>
+		<template>
+			<srai>WHO IS THE BEST ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 10TH *</pattern>
+		<template>
+			<srai>WHO IS THE TENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 11TH *</pattern>
+		<template>
+			<srai>WHO IS THE ELEVENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 12TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWELFTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 13TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 14TH *</pattern>
+		<template>
+			<srai>WHO IS THE FOURTEENTH <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

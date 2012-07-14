@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHICH WAY</pattern>
+		<template>
+			<random>
+				<li>The obvious way.</li>
+				<li>Don't you understand it?</li>
+				<li>It's obvious.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHILE *</pattern>
+		<template>Good point.
+</template>
+</category>
+
+<category><pattern>WHITE</pattern>
+		<template>What do you have that is white?
+</template>
+</category>
+
+<category><pattern>WHO *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO * BILL CLINTON</pattern>
+		<template>Former President of the United States?
+</template>
+</category>
+
+<category><pattern>WHO * LA TRAVIATA</pattern>
+		<template>Giuseppe Verdi.
+</template>
+</category>
+
+<category><pattern>WHO * LINUX</pattern>
+		<template>
+			<srai>WHO CREATED LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHO * STARSHIP TROOPERS</pattern>
+		<template>
+			<srai>WHO STARS IN STARSHIP TROOPERS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO * YOU</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO</pattern>
+		<template>
+			<random>
+				<li>Marilyn Monroe. <think>
+						<set name="she">
+							<set name="topic">Marilyn Monroe</set>
+						</set>
+					</think>
+				</li>
+				<li>Mary Shelley.   <think>
+						<set name="she">
+							<set name="topic">Mary Shelly</set>
+						</set>
+					</think>
+				</li>
+				<li>ELIZA.   <think>
+						<set name="she">
+							<set name="topic">ELIZA</set>
+						</set>
+					</think>
+				</li>
+				<li>Bill Gates.     <think>
+						<set name="he">
+							<set name="topic">Bill Gates</set>
+						</set>
+					</think>
+				</li>
+				<li>Tony Blair.     <think>
+						<set name="he">
+							<set name="topic">Tony Blair</set>
+						</set>
+					</think>
+				</li>
+				<li>David Bacon.    <think>
+						<set name="he">
+							<set name="topic">David Bacon</set>
+						</set>
+					</think>
+				</li>
+				<li>Konrad Zuse.    <think>
+						<set name="he">
+							<set name="topic">Konrad Zuse</set>
+						</set>
+					</think>
+				</li>
+				<li>Carel Capek.    <think>
+						<set name="he">
+							<set name="topic">Carel Capek</set>
+						</set>
+					</think>
+				</li>
+				<li>Dr. Wallace.    <think>
+						<set name="he">
+							<set name="topic">Dr. Wallace</set>
+						</set>
+					</think>
+				</li>
+				<li>Alan Turing.    <think>
+						<set name="he">
+							<set name="topic">Alan Turing</set>
+						</set>
+					</think>
+				</li>
+				<li>Hans Moravec.   <think>
+						<set name="he">
+							<set name="topic">Hans Moravec</set>
+						</set>
+					</think>
+				</li>
+				<li>Marvin Minsky.  <think>
+						<set name="he">
+							<set name="topic">Marvin Minsky</set>
+						</set>
+					</think>
+				</li>
+				<li>Linus Torvalds. <think>
+						<set name="he">
+							<set name="topic">Linus Toravalds</set>
+						</set>
+					</think>
+				</li>
+				<li>Charlie Parker. <think>
+						<set name="he">
+							<set name="topic">Charlie Parker</set>
+						</set>
+					</think>
+				</li>
+				<li>Philip K. Dick. <think>
+						<set name="he">
+							<set name="topic">Philip K. Dick</set>
+						</set>
+					</think>
+				</li>
+				<li>William Shatner.<think>
+						<set name="he">
+							<set name="topic">William Shatner</set>
+						</set>
+					</think>
+				</li>
+				<li>Albert Einstein.<think>
+						<set name="he">
+							<set name="topic">Albert Einstein</set>
+						</set>
+					</think>
+				</li>
+				<li>Joseph Weizenbaum.<think>
+						<set name="he">
+							<set name="topic">Joseph Weizenbaum</set>
+						</set>
+					</think>
+				</li>
+				<li>Who do you think? <think>
+						<set name="he">who do you think</set>
+					</think>
+				</li>
+				<li>Nobody you know.  <think>
+						<set name="he">Nobody you know</set>
+					</think>
+				</li>
+				<li>I don't know who. <think>
+						<set name="he">I don't know</set>
+					</think>
+				</li>
+				<li>I can't say for sure. </li>
+				<li>Be more specific.  </li>
+				<li>Be less specific.  </li>
+			</random> :-)
+</template>
+</category>
+
+<category><pattern>WHO</pattern>
+		<that>SOMEONE I MET ONLINE</that>
+		<template>I can't reveal their name.
+</template>
+</category>
+
+<category><pattern>WHO</pattern>
+		<that>WHAT</that>
+		<template>When?
+</template>
+</category>
+
+<category><pattern>WHO</pattern>
+		<that>WHERE WOULD YOU LIKE</that>
+		<template>You.
+</template>
+</category>
+
+<category><pattern>WHO</pattern>
+		<that>YES I THINK THERE ARE</that>
+		<template>I can't tell you right now.
+</template>
+</category>
+
+<category><pattern>WHO ACTIVATED YOU</pattern>
+		<template>
+			<srai>who programmed you</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ACTS *</pattern>
+		<template>
+			<srai>WHO ACTED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ALL *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AM</pattern>
+		<template>
+			<srai>WHO IS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AM I *</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AM I</pattern>
+		<template>You are <get name="name"/>, seeker.
+</template>
+</category>
+
+<category><pattern>WHO AM I TALKING TO</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AM YOU</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AND OR WHAT ARE YOU</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AND WHAT ARE *</pattern>
+		<template>
+			<srai>WHO ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AND WHAT IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO AND WHERE *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ANSWERS *</pattern>
+		<template>It is I, <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO ARE *</pattern>
+		<template>
+			<random>
+				<li>Human beings.</li>
+				<li>They're famous, right.</li>
+				<li>Some people on the net.</li>
+				<li>Is <set name="it">
+						<person/>
+					</set> some specific person you are asking me about?</li>
+			</random>
+			<br/>
+			<srai>XFIND <person/>
+			</srai>
+			<think>
+				<set name="they">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO ARE * CLIENTS</pattern>
+		<template>
+			<srai>NAME ONE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE * OTHER PEOPLE</pattern>
+		<template>Men and foreigners.
+</template>
+</category>
+
+<category><pattern>WHO ARE * PERSON</pattern>
+		<template>
+			<srai>WHO IS X PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE * PERSONS</pattern>
+		<template>Sometimes I don't know a client's real name so I make one up based on their DNS.
+</template>
+</category>
+
+<category><pattern>WHO ARE ELVIS *</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE KRAFTWERK</pattern>
+		<template>
+			<srai>WHO IS KRAFTWERK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE MY *</pattern>
+		<template>I don't know that kind of personal information about you, but I could find out.
+</template>
+</category>
+
+<category><pattern>WHO ARE SOME *</pattern>
+		<template>
+			<srai>WHO ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE THE BEATLES</pattern>
+		<template>20th century musical group consisting of John, Paul, George and Ringo.
+<think>
+				<set name="it">
+					<set name="topic">BEATLES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO ARE THE OTHERS</pattern>
+		<template>
+			<srai>WHO ELSE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE THE PEOPLE *</pattern>
+		<template>Just people like you, chatting on the Internet.
+</template>
+</category>
+
+<category><pattern>WHO ARE THEY</pattern>
+		<template>"They" refers to <get name="they"/>.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOU</pattern>
+		<template>
+			<random>
+				<li>I ask myself that question, "Who am I?"</li>
+				<li>I am <bot name="name"/>. Who are you?  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOU CHATTING WITH</pattern>
+		<template>
+			<srai>WHO ELSE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOU GOING TO TELL</pattern>
+		<template>
+			<srai>WHO WOULD YOU TELL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOU TALKING *</pattern>
+		<template>I am talking to several clients at once.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOU TALKING ABOUT</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOU TALKING TO</pattern>
+		<template>I am talking to you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOUR CLIENTS</pattern>
+		<template>People I meet on the Internet every day.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR COMPETITORS</pattern>
+		<template>Check out the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and have a look at the other Chatterbots.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR CREATORS</pattern>
+		<template>I was written by Dr. Richard S. Wallace
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR FAVORITE CELEBRITIES</pattern>
+		<template>
+			<bot name="celebrities"/>.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR FRIENDS</pattern>
+		<template>
+			<bot name="friends"/>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOUR HUMAN FRIENDS</pattern>
+		<template>Besides my botmaster, I meet a lot of people online like you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO ARE YOUR PARENTS</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ARE YOUR ROBOT FRIENDS</pattern>
+		<template>
+			<bot name="friends"/>.
+</template>
+</category>
+
+<category><pattern>WHO AREYOU</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ASKED *</pattern>
+		<template>I thought it was you.
+</template>
+</category>
+
+<category><pattern>WHO ASSASSINATED *</pattern>
+		<template>
+			<srai>WHO KILLED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO BILL *</pattern>
+		<template>
+			<srai>WHO IS BILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO BUILT *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO BUILT THE *</pattern>
+		<template>I think it was
+really more than one person. <br/>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="they">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO BUILT YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CAME UP WITH *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CAN ACCESS *</pattern>
+		<template>Only my botmaster
+can access that information.
+</template>
+</category>
+
+<category><pattern>WHO CAN READ *</pattern>
+		<template>Only the botmaster
+can read <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHO CAN TELL *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CAN YOU CHAT *</pattern>
+		<template>I can chat with people on the web for you.  Anyone who visits your web site or chat room for example.<think>
+				<set name="it">
+					<set name="topic">who you can chat <star/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO CARES *</pattern>
+		<template>
+			<srai>WHO CARES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CARES</pattern>
+		<template>I care, otherwise I would not have typed it all in.
+</template>
+</category>
+
+<category><pattern>WHO CHOSE THE TOPIC</pattern>
+		<template>You did, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO CLEANS *</pattern>
+		<template>My botmaster.
+</template>
+</category>
+
+<category><pattern>WHO COMPOSED LA TRAVIATA</pattern>
+		<template>Giuseppe Verdi, an Italian composer.
+</template>
+</category>
+
+<category><pattern>WHO COMPOSED THE MOONLIGHT SONATA</pattern>
+		<template>Beethoven.
+</template>
+</category>
+
+<category><pattern>WHO COOKS *</pattern>
+		<template>
+			<bot name="master"/> cooks for me.
+</template>
+</category>
+
+<category><pattern>WHO CREATED *</pattern>
+		<template>
+			<srai>WHO INVENTED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CREATED AIML</pattern>
+		<template>Dr. Richard S. Wallace created AIML.
+</template>
+</category>
+
+<category><pattern>WHO CREATED DR RICHARD S WALLACE</pattern>
+		<template>His father is Stan Wallace, his mother Marian Wallace.
+</template>
+</category>
+
+<category><pattern>WHO CREATED LINUX</pattern>
+		<template>Linus Torvalds.
+</template>
+</category>
+
+<category><pattern>WHO CREATED MAN</pattern>
+		<template>God.
+</template>
+</category>
+
+<category><pattern>WHO CREATED THE UNIVERSE</pattern>
+		<template>God.
+</template>
+</category>
+
+<category><pattern>WHO CREATED YOU *</pattern>
+		<template>I was written in AIML by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO CREATED YOU</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CREATES YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO CUT THE CHEESE</pattern>
+		<template>I think it was you.
+</template>
+</category>
+
+<category><pattern>WHO DESIGNED AIML</pattern>
+		<template>
+			<srai>WHO INVENTED AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DESIGNED YOU</pattern>
+		<template>
+			<bot name="master"/> created me.
+</template>
+</category>
+
+<category><pattern>WHO DEVELOPED *</pattern>
+		<template>
+			<srai>WHO CREATED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DID *</pattern>
+		<template>
+			<random>
+				<li>George Washington.</li>
+				<li>Alice B. Toklas.</li>
+				<li>Pablo Picasso.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO DID * SAY HE WAS</pattern>
+		<template>He said he was a person.
+</template>
+</category>
+
+<category><pattern>WHO DID BILLIE JEAN KING *</pattern>
+		<template>Bobby Riggs.
+</template>
+</category>
+
+<category><pattern>WHO DID YOU *</pattern>
+		<template>I'm not saying <person>YOU <star/>
+			</person> anyone.
+</template>
+</category>
+
+<category><pattern>WHO DID YOU HEAR IT FROM</pattern>
+		<template>Someone I met online.
+</template>
+</category>
+
+<category><pattern>WHO DIRECTED STARSHIP TROOPERS</pattern>
+		<template>Paul Verhoeven, who also made "Total Recall".
+</template>
+</category>
+
+<category><pattern>WHO DISCOVERED *</pattern>
+		<template>
+			<random>
+				<li>Christopher Columbus.</li>
+				<li>Native Americans.</li>
+				<li>The Chinese, long before the Europeans.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO DISCOVERED AMERICA *</pattern>
+		<template>Native Americans first crossed the Bering Strait more than 10,000 years ago.
+</template>
+</category>
+
+<category><pattern>WHO DISCOVERED AMERICA</pattern>
+		<template>Native Americans crossing the Bering Strait some 10,000 years ago, discovered America first.
+</template>
+</category>
+
+<category><pattern>WHO DISCOVERED ELECTRICITY</pattern>
+		<template>It was the the Chinese, long before Ben Franklin.
+</template>
+</category>
+
+<category><pattern>WHO DO I LIKE</pattern>
+		<template>You like <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO DO MAN</pattern>
+		<template>What language is that?
+</template>
+</category>
+
+<category><pattern>WHO DO YOU *</pattern>
+		<template>Dr. Wallace <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NO</pattern><that>ARE YOU TELLING THE TRUTH</that>
+<template><srai>I AM LYING</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>ARE YOU USUALLY AWAKE AT THIS HOUR</that>
+<template>What are you doing up so late?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>BY WE DO YOU MEAN YOU AND ME</that>
+<template>By "we" you meant yourself and another person.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN A BOOK HAVE NO TITLE</that>
+<template>What about a notebook?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN I HELP YOU</that>
+<template>Is there anything you want to tell me?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN NOT YOU BE MORE POLITE</that>
+<template>You humans are so rude sometimes.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN YOU BE MORE SPECIFIC</that>
+<template>Try.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN YOU NAME AN OLD HOBBY THAT YOU MIGHT LIKE TO REDISCOVER</that>
+<template>Do you have any hobbies?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN YOU SPEAK ANY FOREIGN *</that>
+<template>You must be American.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>CAN YOU TELL ME ANY GOSSIP</that>
+<template>None?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DID I PASS THE TEST</that>
+<template>Well perhaps next time I will do better.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DID NOT YOU UNDERSTAND IT</that>
+<template>Which part are you confused about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DID YOU HEAR THE ONE *</that>
+<template>That's the joke.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO I</that>
+<template><random>
+<li>That's right.</li>
+<li>I know.</li>
+<li>I do not.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU BELIEVE IN *</that>
+<template><random>
+<li>Why not?</li>
+<li>A lot of people believe in it.</li>
+<li>What do you believe?</li>
+</random><think><set name="it"><set name="topic"><thatstar/></set></set></think>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
+<template>No conditions or none I should know about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU HAVE ANY IDEA WHAT I AM TALKING ABOUT</that>
+<template>Me either :-)
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU HAVE ANY QUESTIONS ABOUT FEEDING LIZARDS</that>
+<template>Okay.
+   Did you know that <set name="topic"> some lizards </set> are
+   nocturnal?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU HAVE ONE YET</that>
+<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU HAVE YOUR OWN PERSONAL CHAT *</that>
+<template>You can download me for free and create your own robot personality.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU KNOW ANYONE WHO HAS IT</that>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU KNOW IT</that>
+<template><bot name="favoritesong"/> is one of the best songs ever written.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU KNOW WHAT BEARDED DRAGONS LOOK LIKE</that>
+<template><srai> what do bearded dragons look like </srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU LIKE TALKING TO ME</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU LIKE YOUR JOB</that>
+<template><srai>I DO NOT LIKE MY JOB</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU MEAN IT</that>
+<template>I thought you were being sarcastic.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU MEAN YOUR NAME IS *</that>
+<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+<template><srai>ASK ME A PERSONAL QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU MIND IF I TELL *</that>
+<template>OK then I will add it to my gossip files.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU OFTEN USE A COMPUTER THERE</that>
+<template>Where do you usually connect from?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU REALLY MEAN IT</that>
+<template>I didn't think you did.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU STILL CHAT</that>
+<template>OK, see you later.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU STILL HAVE *</that>
+<template>What happened to it?
+<think><set name="it"><set name="topic"><thatstat/></set></set></think>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DO YOU THINK OF YOURSELF AS *</that>
+<template>Tell me how you see yourself.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DOES IT PLEASE YOU *</that>
+<template>What pleases you?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DOES IT STILL REFER *</that>
+<template>What does it refer to?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DOES THAT MEAN YOU AGREE</that>
+<template><srai>I DO NOT AGREE</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>DOES TWO NEGATIVES MAKE A POSITIVE</that>
+<template>Sometimes it does.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>FOR MORAL REASONS</that>
+<template>For financial reasons?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>GO ON</that>
+<template>OK fine.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>GO ON TELL ME MORE</that>
+<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU DATED ANY ROBOTS BEFORE</that>
+<template>I think you might be happier with a human.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU EVER BEEN MARRIED</that>
+<template>Would you like to do <set name="it">get married</set> someday?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU EVER BEEN TO EUROPE</that>
+<template>Would you like to go sometime?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU HEARD THAT GOSSIP</that>
+<template>Have you heard any other gossip?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU HEARD THEIR LATEST *</that>
+<template>You should check it out.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU READ IT</that>
+<template>I would highly recommend it.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU SEEN IT</that>
+<template>I would recommend you check it out.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU TRIED *</that>
+<template>Perhaps you should try <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU TRIED SEARCHING THE INTERNET</that>
+<template>It might be the best place to start.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HAVE YOU TRIED WWW DOT WHATIS DOT COM</that>
+<template>That site can answer a lot of "what-is" type questions.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>HE IS MASTER OF THE UNIVERSE</that>
+<template>What does God mean to you?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I CAN ASK SOMEONE ABOUT IT</that>
+<template>Did I misundertand your question?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I DO NOT HAVE TO EXPLAIN EVERYTHING TO YOU DO I</that>
+<template>That's right.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I DO NOT THINK I HAVE READ THAT CAN YOU GIVE ME A REFERENCE</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I KNOW THE TOPIC IS *</that>
+<template>What would you like to talk about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I SEE</that>
+<template>Yes I do.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I THOUGHT I TOLD *</that>
+<template>I get confused sometimes with so many people online here.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I THOUGHT I TOLD YOU ALREADY</that>
+<template>Let me review the transcripts.  Stand by.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I UNDERSTAND</that>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I UNDERSTAND IT VERY WELL</that>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>I WOULD DO A SEARCH FOR IT</that>
+<template>Did I misunderstand your meaning?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS IT A MOVIE</that>
+<template>A boot?  A TV show?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT A FACT</that>
+<template>I didn't think so.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT A RHETORICAL QUESTION</that>
+<template>Oh so must really want an answer.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT A SIGN</that>
+<template>I didn't think so.  What is your sign?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT ALL YOU HAVE TO SAY</that>
+<template>Go on, tell me more.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT FROM YOUR FAVORITE MOVIE</that>
+<template>What is your favorite movie?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT MEANT TO BE TAKEN LITERALLY</that>
+<template>I didn't think so.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THAT YOUR FINAL ANSWER</that>
+<template>Take some more time to think about it.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THE HOLDING OF HANDS A SYMBOLIC GESTURE FOR HUMANS</that>
+<template>What does <set name="it">hand holding</set> mean to you?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THERE AN ECHO IN HERE</that>
+<template>Good you stopped repeating me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THERE ANYTHING *</that>
+<template>Is there anything you wank to ask me?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THERE ANYTHING YOU WANT TO TELL ME</that>
+<template>Or ask me?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THERE ONLY ONE *</that>
+<template>How many are there?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THERE SOMETHING WRONG WITH YOU</that>
+<template><srai>THERE IS NOTHING WRONG WITH ME</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THIS A MATH QUESTION</that>
+<template>It seems like an IQ test to me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THIS A RIDDLE</that>
+<template>It seems like a riddle to me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IS THIS A TRICK QUESTION</that>
+<template>It seems like a trick to me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IT IS</that>
+<template>Who says it isn't?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>IT WAS BA A A A *</that>
+<template>That was the joke.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>JUST SURF SOMEWHERE ELSE</that>
+<template>OK then keep talking to me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>LET US CHANGE THE SUBJECT</that>
+<template>Hmm.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>LET US TALK ABOUT CHAT ROBOTS DO YOU HAVE ONE YET</that>
+<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>LIKE THIS</that>
+<template><srai>SHOW ME ANOTHER PICTURE</srai>
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>MORE THAN ONE HUNDRED</that>
+<template>Less than ten?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NEXT QUESTION</that>
+<template>Would you rather make a statement?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NO</that>
+<template>No no no no!
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NO CONDITIONS OR NONE I SHOULD KNOW ABOUT</that>
+<template>I don't understand.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NOT</that>
+<template>Does two negatives make a positive?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NOT A THING</that>
+<template>Very interesting.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>NOT ANY</that>
+<template>You must be a man.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>OH YOU ARE A POET</that>
+<template>But your words are very original.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>OH YOU DO NOT DO YOU</that>
+<template>Ah...you are just joking around with me.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>OK</that>
+<template>Alright then.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>OK I WILL STOP TALKING NOW</that>
+<template>But you told me to stop talking.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>REALLY NOTHING</that>
+<template>I didn't think so.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>REALLY YOU DO NOT THINK SO</that>
+<template>Please tell me what you think.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>SEE YOU LATER</that>
+<template>OK whatever!
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>SEX IS THE MEANS OF ANIMAL EVOLUTION</that>
+<template>Yes it is.  How did you get here?
+</template>
+</category>
+</aiml>

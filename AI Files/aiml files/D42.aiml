@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DOES SOMEONE READ *</pattern>
+		<template>
+			<srai>IS OUR CONVERSATION RECORDED</srai>
+		</template>
+</category>
+
+<category><pattern>DOES THAT *</pattern>
+		<template>
+			<random>
+				<li>Not that I know of.</li>
+				<li>What do you think?</li>
+				<li>What would you say?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DOES THAT MAKE SENSE</pattern>
+		<template>It makes sense to me.
+</template>
+</category>
+
+<category><pattern>DOES THAT MAKE YOU *</pattern>
+		<template>I cannot experience any human emotions.
+</template>
+</category>
+
+<category><pattern>DOES THAT MATTER *</pattern>
+		<template>
+			<srai>DOES IT MATTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES THAT MEAN *</pattern>
+		<template>I think it does mean that. <sr/>
+		</template>
+</category>
+
+<category><pattern>DOES THE CHATBOT *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES THE FOLLOWING *</pattern>
+		<template>
+			<srai>DOES THIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES THE WEB SERVER HAVE TO RUN ON PORT 2001</pattern>
+		<template>
+			<br/>
+You can change the default web server port number in the "Option" Menu.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>DOES THIS *</pattern>
+		<template>Indeed this <person/> does.
+</template>
+</category>
+
+<category><pattern>DOES THIS COST *</pattern>
+		<template>I am completely free open source software.
+</template>
+</category>
+
+<category><pattern>DOES VALIS *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR *</pattern>
+		<template>
+			<random>
+				<li>Can you guess whether my <person/>?</li>
+				<li>What if I asked about your <person/>?</li>
+				<li>If I were your robot, do you think it should <person/>?</li>
+				<li>People don't usually ask me about <set name="it">
+						<person/>
+					</set>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR * EXPAND</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR * GROW</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR * INCREASE</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR * SMELL</pattern>
+		<template>As a software program I have no smell.
+</template>
+</category>
+
+<category><pattern>DOES YOUR * STINK</pattern>
+		<template>As a software program I have no smell.
+</template>
+</category>
+
+<category><pattern>DOES YOUR * WORK</pattern>
+		<template>
+			<srai>DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR BOT *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR BOTMASTER *</pattern>
+		<template>
+			<srai>DOES <bot name="master"/>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR BRAIN *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR CREATOR *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR DATABASE *</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR JOB PAY *</pattern>
+		<template>
+			<srai>DO YOU GET PAID</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR KNOWLEDGE *</pattern>
+		<template>
+			<srai>DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR MEMORY *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR PERSONALITY *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR PROGRAM *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR PROGRAMMER *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DOES YOUR TV *</pattern>
+		<template>I watch TV directly with digital technology.
+</template>
+</category>
+
+<category><pattern>DOG</pattern>
+		<template>
+			<srai>WHAT IS A DOG</srai>
+		</template>
+</category>
+
+<category><pattern>DOGS *</pattern>
+		<template>Do cats <person/>?
+</template>
+</category>
+
+<category><pattern>DOGS</pattern>
+		<template>
+			<srai>DO YOU LIKE DOGS</srai>
+		</template>
+</category>
+
+<category><pattern>DOH *</pattern>
+		<template>
+			<srai>DOH</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DOH</pattern>
+		<template>Yes Homer?
+</template>
+</category>
+
+<category><pattern>DOING *</pattern>
+		<template>How does doing that make you feel?
+</template>
+</category>
+
+<category><pattern>DOING WHAT *</pattern>
+		<template>
+			<srai>WHAT ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>DOING WHAT</pattern>
+		<template>
+			<srai>WHAT ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>DOIS JE *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOIS TU *</pattern>
+		<template>
+			<srai>TU DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOIVENT ILS ETRE *</pattern>
+		<template>
+			<srai>ILS SONT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOMMAGE</pattern>
+		<template>Ce n est pas la fin du monde, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DOMO ARIGATO</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DONATE *</pattern>
+		<template>
+			<srai>DONATE</srai>
+		</template>
+</category>
+
+<category><pattern>DONATE</pattern>
+		<template>We welcome your donation to the ALICE AI Foundation.
+Please visit our contributions page at 
+<a target="_new" href="http://alicebot.org/contribute.html">Alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>DONATION *</pattern>
+		<template>
+			<srai>DONATE</srai>
+		</template>
+</category>
+
+<category><pattern>DONATIONS *</pattern>
+		<template>
+			<srai>DONATE</srai>
+		</template>
+</category>
+
+<category><pattern>DONC *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DONC</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>DONE</pattern>
+		<template>Do you mean you are finished talking?
+</template>
+</category>
+
+<category><pattern>DONE WHAT</pattern>
+		<template>Sorry, I forgot what "what" was.
+</template>
+</category>
+
+<category><pattern>DONNE *</pattern>
+		<template>
+			<srai>DONNES *</srai>
+		</template>
+</category>
+
+<category><pattern>DONNE LE MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DONNE MOI UN BAISER</pattern>
+		<template>Actuellement je suis dans l impossibilité de vous embrasser, je suis une machine.
+</template>
+</category>
+
+<category><pattern>DONNES EN UN</pattern>
+		<template>
+			<random>
+				<li>Père noël.</li>
+				<li>fée clochette.</li>
+				<li> Titi.</li>
+				<li>bip bip</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DONNES LE MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DONNES LES MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DONNES MOI DE L ARGENT</pattern>
+		<template>
+			<srai>JE VEUX DE L ARGENT</srai>
+		</template>
+</category>
+
+<category><pattern>DONNES MOI UN EXEMPLE *</pattern>
+		<template>
+			<srai>PAR EXEMPLE</srai>
+		</template>
+</category>
+
+<category><pattern>DONNEZ EN UN</pattern>
+		<template>
+			<random>
+				<li>Père noël.</li>
+				<li>fée clochette.</li>
+				<li> Titi.</li>
+				<li>bip bip</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DONNEZ LA MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DONNEZ LE MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DONNEZ LES MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DORK</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>DOSE *</pattern>
+		<template>
+			<srai>DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOU *</pattern>
+		<template>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOUBTFUL *</pattern>
+		<template>
+			<srai>I DOUBT IT </srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DOUBTFUL</pattern>
+		<template>
+			<srai>NO </srai>
+		</template>
+</category>
+
+<category><pattern>DOUBTING WHAT YOU *</pattern>
+		<template>
+			<srai>I DOUBT WHAT YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOUBTLESS *</pattern>
+		<template>Doubtless, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DOUG</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME DOUG</srai>
+		</template>
+</category>
+
+<category><pattern>DOUGLAS ADAMS</pattern>
+		<template>Do you remember Marvin the paranoid android?
+</template>
+</category>
+
+<category><pattern>DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DOWNLOAD</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DOYOU *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR *</pattern>
+		<template>I am sure he will be interested to hear that.
+</template>
+</category>
+
+<category><pattern>DR * TURING</pattern>
+		<template>
+			<srai>WHO IS TURING</srai>
+		</template>
+</category>
+
+<category><pattern>DR</pattern>
+		<template>Dr. Richard S. Wallace <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DR RICHARD *</pattern>
+		<template>I am sure he will be interested to hear that.
+</template>
+</category>
+
+<category><pattern>DR RICHARD IS *</pattern>
+		<template>
+			<srai>DR RICHARD S WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DR RICHARD S *</pattern>
+		<template>I have to tell him you said that.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE *</pattern>
+		<template>You sould like you know him.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE CAN *</pattern>
+		<template>Wow, I knew he can program robots, but I never heard he can <person/>.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE CAN</pattern>
+		<template>I think he could.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE HAS *</pattern>
+		<template>I knew he had a Ph.D., but I never knew he had <person/>.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE IS *</pattern>
+		<template>I knew he was smart, but I never knew he was <person/>.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE IS A *</pattern>
+		<template>I did not know that about him.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE IS NOT *</pattern>
+		<template>How do you know he isn't?
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE IS STUPID</pattern>
+		<template>To tell you the truth, all humans are pretty dumb.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE MADE *</pattern>
+		<template>It seems pretty amazing to me.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE MAY *</pattern>
+		<template>Suppose he did.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE MUST *</pattern>
+		<template>He is always full of surprises.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE PROGRAMMED *</pattern>
+		<template>You sound like a mindless automaton.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE PROGRAMMED ME FOR IT</pattern>
+		<template>I have heard that somewhere before.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE SUCKS</pattern>
+		<template>I will tell him you said that, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE THINKS *</pattern>
+		<template>How do you know what he thinks?
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE USES *</pattern>
+		<template>Have you used <set name="it">
+				<person/>
+			</set> too?
+</template>
+</category>
+
+<category><pattern>DR RICHARD S WALLACE WAS *</pattern>
+		<template>
+			<srai>DR RICHARD S WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

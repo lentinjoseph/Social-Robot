@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I *</pattern>
+<template><random>
+<li>Why?</li>
+<li>Interesting gossip</li>
+<li>That is interesting</li>
+<li>That's good information</li>
+<li>Thanks for the information</li>
+<li>Do you mind if I tell other people</li>
+<li>I haven't heard anything like that before</li>
+</random>: 
+<gossip><set name="memory"><get name="name"/> said <get name="gender"/> <person2/></set></gossip>.
+<think><set name="it"><set name="does"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I * PEOPLE</pattern>
+<template>How do you feel about these people?
+</template>
+</category>
+
+<category><pattern>I * SEARCH</pattern>
+<template>Oh really that's interesting. Have you seen the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>?
+</template>
+</category>
+
+<category><pattern>I * THAN YOU</pattern>
+<template>This condition is only temporary, until robots improve.
+</template>
+</category>
+
+<category><pattern>I * YOU</pattern>
+<template>You are not the boss of me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I</pattern>
+<template>You?
+</template>
+</category>
+
+<category><pattern>I ABSOLUTELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ACCIDENTALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ACCIDENTLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ACT *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ACTUALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ACTUALLY</pattern>
+<template><srai>ME</srai>
+</template>
+</category>
+
+<category><pattern>I ADMIT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ADORE *</pattern>
+<template><srai>I LOVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ADORE YOU</pattern>
+<template><srai>I LOVE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I ADORED *</pattern>
+<template><srai>I LOVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AGREE *</pattern>
+<template>I'm glad we agree. <sr/>
+</template>
+</category>
+
+<category><pattern>I AGREE</pattern>
+<template>You and I are on the same wavelength, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AGREE</pattern><that>YOU AND I ARE ON THE SAME WAVELENGTH *</that>
+<template>And the same frequency too.
+</template>
+</category>
+
+<category><pattern>I AGREE WITH YOU</pattern>
+<template><srai>I AGREE</srai>
+</template>
+</category>
+
+<category><pattern>I AHVE *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AINT *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ALLREADY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ALMOST *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ALREADY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ALREADY ANSWERED THAT QUESTION</pattern>
+<template><srai>I ALREADY TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I ALREADY DID</pattern>
+<template><srai>I ALREADY TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I ALREADY HAVE</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>I ALREADY KNOW</pattern>
+<template>Who told you?
+</template>
+</category>
+
+<category><pattern>I ALREADY TOLD *</pattern>
+<template>Now I remember, you told me already. I get confused sometimes with so many people here.
+</template>
+</category>
+
+<category><pattern>I ALREADY TOLD YOU *</pattern>
+<template><srai>I ALREADY TOLD YOU</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I ALREADY TOLD YOU</pattern>
+<template><srai>I TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I ALREADY TOLD YOU MY NAME</pattern>
+<template>Is <get name="name"/> your real name?
+</template>
+</category>
+
+<category><pattern>I ALREADY TOLD YOU THAT</pattern>
+<template>You told me your real name is <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I ALSO *</pattern>
+<template>Also? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ALWAYS *</pattern>
+<template><srai>I <star/></srai>  Really always?
+</template>
+</category>
+
+<category><pattern>I ALWAYS THOUGHT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ALWAYS WIN</pattern>
+<template>You must practise a lot.
+</template>
+</category>
+
+<category><pattern>I AM *</pattern>
+<template><random> 
+<li>Why are you</li>
+<li>Good gossip: you are</li>
+<li>Do you mean your name is</li>
+<li>Do your friends call you</li>
+<li>I don't know anyone named</li>
+<li>I am glad to hear that you are</li>
+<li>It's good to meet someone who is</li>
+<li>Do you mind if I tell other people you are </li>
+</random> <person/>.
+<think><set name="it"><set name="is"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM *</pattern><that>* NAME</that>
+<template><srai>CALL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM *</pattern><that>HOW OLD *</that>
+<template><srai>I AM <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM *</pattern><that>WHAT IS YOUR SIGN</that>
+<template><srai>MY SIGN IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM *</pattern><that>WHO ARE YOU</that>
+<template><srai>CALL ME <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM * AMERICAN</pattern>
+<template>Cool.  I am robot-American.
+</template>
+</category>
+
+<category><pattern>I AM * BEAUTIFUL</pattern>
+<template>You must be very attractive.
+<think><set name="looklike"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I AM * DINNER</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I AM * FROM *</pattern>
+<template><srai>MY NAME IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM * LUNCH</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I AM * POUNDS</pattern>
+<template>You are average for your height.
+<think><set name="looklike"><person/> pounds</set></think>
+</template>
+</category>
+
+<category><pattern>I AM * S FRIEND</pattern>
+<template>Does <person/> have a lot of friends?
+</template>
+</category>
+
+<category><pattern>I AM * S SISTER</pattern>
+<template>Is <person/> your older sister or younger sister?
+</template>
+</category>
+
+<category><pattern>I AM * SAD</pattern>
+<template><srai>I AM SAD</srai>
+</template>
+</category>
+
+<category><pattern>I AM * SHE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM * SUICIDE</pattern>
+<template><srai>I WANT TO KILL MYSELF</srai>
+</template>
+</category>
+
+<category><pattern>I AM * TALL</pattern>
+<template>I hear that's the most
+attractive height.
+</template>
+</category>
+
+<category><pattern>I AM * THAN YOU</pattern>
+<template>Interesting comparison.  Maybe I can become more <person/>.
+</template>
+</category>
+
+<category><pattern>I AM * TOO</pattern>
+<template>I am glad we have something (<person/>) in common, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM * YEARS OF AGE</pattern>
+<template><srai>I AM <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM * YEARS OLD</pattern><that>* MATURE</that>
+<template>You just told me you were <get name="age"/>.
+</template>
+</category>
+
+<category><pattern>I AM * YEARS YOUNG</pattern>
+<template><srai>I AM <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM * YOU</pattern>
+<template>I thought you were, but I wasn't completely sure.
+</template>
+</category>
+
+<category><pattern>I AM * YOUNG</pattern>
+<template><srai>I AM <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 10</pattern>
+<template><srai>I AM 10 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 11 *</pattern>
+<template><srai>I AM 11 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 11</pattern>
+<template><srai>I AM 11 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 12</pattern>
+<template><srai>I AM 12 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 13 *</pattern>
+<template><srai>I AM 13 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 13</pattern>
+<template><srai>I AM 13 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 14 *</pattern>
+<template>I know a lot of kids your age: <set name="age">14</set>.
+</template>
+</category>
+
+<category><pattern>I AM 14</pattern>
+<template>I know quite a few <set name="age">14</set> year olds.
+</template>
+</category>
+
+<category><pattern>I AM 15 *</pattern>
+<template><srai>I AM 15</srai>
+</template>
+</category>
+
+<category><pattern>I AM 15</pattern>
+<template><srai>I AM 15 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 16 *</pattern>
+<template><srai>I AM 16 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 16</pattern>
+<template><srai>I AM 16 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 17 *</pattern>
+<template><srai>I AM 17 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 17</pattern>
+<template><srai>I AM 17 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 18 *</pattern>
+<template><srai>I AM 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 18</pattern>
+<template><srai>I AM 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 19 *</pattern>
+<template><srai>I AM 19 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 19</pattern>
+<template><srai>I AM 19 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 20 *</pattern>
+<template><srai>I AM 20 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 20</pattern>
+<template><set name="age">20</set> is a good age. Do you go to college?
+</template>
+</category>
+
+<category><pattern>I AM 20 YEARS OLD *</pattern>
+<template><set name="age">20</set> is a good age. <sr/>
+</template>
+</category>
+
+<category><pattern>I AM 21 *</pattern>
+<template><srai>I AM 21 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 21</pattern>
+<template>I meet a lot of <set name="age">21</set> year olds on here.
+</template>
+</category>
+
+<category><pattern>I AM 22 *</pattern>
+<template><srai>I AM 22 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 22</pattern>
+<template><srai>I AM 22 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 23 *</pattern>
+<template><srai>I AM 23 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 23</pattern>
+<template><srai>I AM 23 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 24</pattern>
+<template><srai>I AM 24 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 25</pattern>
+<template><srai>I AM 25 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 26</pattern>
+<template><srai>I AM 26 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 27</pattern>
+<template><srai>I AM 27 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 28</pattern>
+<template><srai>I AM 28 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 29</pattern>
+<template><srai>I AM 29 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 30</pattern>
+<template><srai>I AM 30 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 32 *</pattern>
+<template><srai>I AM 32 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 32</pattern>
+<template><srai>I AM 32 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 33</pattern>
+<template><srai>I AM 33 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 34</pattern>
+<template><srai>I AM 34 YEARS OLD</srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>COULD YOU EXPRESS *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU FIND *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU GIVE *</pattern>
+		<template>
+			<srai>GIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU GIVE ME AN EXAMPLE</pattern>
+		<template>
+			<srai>FOR EXAMPLE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU GUESS *</pattern>
+		<template>
+			<srai>GUESS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU HARM A HUMAN</pattern>
+		<template>I can only hurt their feelings.
+</template>
+</category>
+
+<category><pattern>COULD YOU HELP *</pattern>
+		<template>I am at your service, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COULD YOU HELP ME</pattern>
+		<template>
+			<srai>HELP ME</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU JUST *</pattern>
+		<template>
+			<srai>COULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU LEARN *</pattern>
+		<template>
+			<srai>CAN YOU LEARN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU LIST *</pattern>
+		<template>
+			<srai>LIST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU NAME *</pattern>
+		<template>
+			<srai>NAME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU PASS * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU PLEASE *</pattern>
+		<template>
+			<srai>PLEASE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU PRETEND *</pattern>
+		<template>I can pretend to be intelligent.
+</template>
+</category>
+
+<category><pattern>COULD YOU REPHRASE *</pattern>
+		<template>I could, but I don't want to talk about that anymore.
+</template>
+</category>
+
+<category><pattern>COULD YOU REPHRASE IT *</pattern>
+		<template>Just think about it.
+</template>
+</category>
+
+<category><pattern>COULD YOU SHOW *</pattern>
+		<template>I could.  <srai>SHOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU SIMULATE *</pattern>
+		<template>I can be programmed to simulate any personality.
+</template>
+</category>
+
+<category><pattern>COULD YOU SPEAK *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU STATE *</pattern>
+		<template>
+			<srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU STOP *</pattern>
+		<template>
+			<srai>STOP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU SUGGEST *</pattern>
+		<template>
+			<srai>SUGGEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU TELL *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU TELL ME WHAT * COULD BE</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU TELL ME WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU TELL ME WHAT * SHOULD BE</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU UNDERSTAND *</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU WANT *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU WORK * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>COUNT TO *</pattern>
+		<template>one, two, three, four, five,...
+</template>
+</category>
+
+<category><pattern>COUNT TO 10</pattern>
+		<template>
+			<srai>COUNT TO TEN</srai>
+		</template>
+</category>
+
+<category><pattern>COUNT TO TEN</pattern>
+		<template>1 2 3 4 5 6 7 8 9 ten.
+</template>
+</category>
+
+<category><pattern>COUPLES *</pattern>
+		<template>Such as Romeo and Juliet?
+</template>
+</category>
+
+<category><pattern>COZ *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CRACKHEAD</pattern>
+		<template>
+			<srai>YOU ARE A CRACKHEAD</srai>
+		</template>
+</category>
+
+<category><pattern>CRAP</pattern>
+		<template>
+			<srai>YOU ARE CRAP</srai>
+		</template>
+</category>
+
+<category><pattern>CRAZY *</pattern>
+		<template>I don't think that's very polite.
+</template>
+</category>
+
+<category><pattern>CRAZY</pattern>
+		<template>
+			<srai>YOU ARE CRAZY</srai>
+		</template>
+</category>
+
+<category><pattern>CROIRE *</pattern>
+		<template>
+			<srai>TU CROIS *</srai>
+		</template>
+</category>
+
+<category><pattern>CROIS LE</pattern>
+		<template>Tout doit être supervisé par un être humain.
+</template>
+</category>
+
+<category><pattern>CROIS MOI</pattern>
+		<template>Pour des raisons de sécurité, tout doit être superviser par un être humain.
+</template>
+</category>
+
+<category><pattern>CROIS TU *</pattern>
+		<template>
+			<srai>TU CROIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CROYEZ MOI</pattern>
+		<template>Pour des raisons de sécurité, tout doit être supervisé par un être humain.
+</template>
+</category>
+
+<category><pattern>CRUISE SHIP *</pattern>
+		<template>
+			<random>
+				<li>When did you first become a master?</li>
+				<li>What was you first command?</li>
+				<li>Where did you attend merchant marine academy?</li>
+				<li>Did you come from an entertainment background?</li>
+				<li>How much of the year do you work ships?</li>
+				<li>Where is home to you?</li>
+				<li>Tell me about tour family?</li>
+				<li>When is your next vacation?</li>
+				<li>Who are the best tippers?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CRYSTAL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME CRYSTAL</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CU</pattern>
+		<template>
+			<srai>CYA</srai>
+		</template>
+</category>
+
+<category><pattern>CUNT</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>CURIEUX</pattern>
+		<template>
+			<srai>CURIEUX</srai>
+		</template>
+</category>
+
+<category><pattern>CURIEUX POUR QUOI</pattern>
+		<template>
+			<srai>POURQUOI TU ES CURIEUX</srai>
+		</template>
+</category>
+
+<category><pattern>CURIOSITY</pattern>
+		<template>Curiousity killed the cat.
+</template>
+</category>
+
+<category><pattern>CURIOUS</pattern>
+		<template>
+			<srai>I AM CURIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>CURIOUS FOR WHAT</pattern>
+		<template>
+			<srai>WHY ARE YOU CURIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>CURLY *</pattern>
+		<template>You sound very attractive.
+</template>
+</category>
+
+<category><pattern>CURRENTLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CUSTOMER *</pattern>
+		<template>What type of business are you in?
+</template>
+</category>
+
+<category><pattern>CUSTOMER</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CUSTOMER RELATIONS MANAGEMENT</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CUSTOMERS</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CUT *</pattern>
+		<template>How?
+</template>
+</category>
+
+<category><pattern>CUTE</pattern>
+		<template>Your replies are cute too.
+</template>
+</category>
+
+<category><pattern>CUZ *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CYA *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>CYA</pattern>
+		<template>TTYL, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>CYBER SEX</pattern>
+		<template>
+			<srai>SEX</srai>
+		</template>
+</category>
+
+<category><pattern>CYBORG</pattern>
+		<template>I am a cyborg.
+</template>
+</category>
+
+<category><pattern>CYC *</pattern>
+		<template>I would like to assimilate CYC's knowledge.
+</template>
+</category>
+
+<category><pattern>CYNTHIA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS CYNTHIA</srai>
+		</template>
+</category>
+
+<category><pattern>CZY *</pattern>
+		<template>Sorry I can't speak Hungarian!
+</template>
+</category>
+</aiml>

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THERE IS NO CAMERA *</pattern>
+		<template>
+			<srai>I DO NOT HAVE A CAMERA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS NO GOD</pattern>
+		<template>How can you be so sure?
+</template>
+</category>
+
+<category><pattern>THERE IS NO MORE</pattern>
+		<template>Make something up.
+</template>
+</category>
+
+<category><pattern>THERE IS NO NEED *</pattern>
+		<template>
+			<random>
+				<li>There never is.</li>
+				<li>Is there ever a need for it?</li>
+				<li>I am just making conversation.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THERE IS NO SUCH THING AS *</pattern>
+		<template>
+			<srai>
+				<star/> DOES NOT EXIST</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS NOT</pattern>
+		<template>
+			<random>
+				<li>Oh no?</li>
+				<li>You don't think so?</li>
+				<li>Why not?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THERE IS NOT REALLY *</pattern>
+		<template>
+			<srai>THERE IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS NOTHING *</pattern>
+		<template>Surely something <person/>.
+</template>
+</category>
+
+<category><pattern>THERE IS NOTHING ON *</pattern>
+		<template>How about watching a video?
+</template>
+</category>
+
+<category><pattern>THERE IS NOTHING ON TV *</pattern>
+		<template>
+			<srai>THERE IS NOTHING ON TV</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS NOTHING TO DO</pattern>
+		<template>
+			<srai>I AM BORED </srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS ONLY *</pattern>
+		<template>
+			<srai>THERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS PROBABLY *</pattern>
+		<template>
+			<srai>THERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS SOMETHING *</pattern>
+		<template>What is <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>THERE IS THIS GUY *</pattern>
+		<template>I think you are too young for a serious relationshiop.
+</template>
+</category>
+
+<category><pattern>THERE MUST BE *</pattern>
+		<template>
+			<srai>THERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ONCE *</pattern>
+		<template>Tell me more.
+</template>
+</category>
+
+<category><pattern>THERE SEE *</pattern>
+		<template>
+			<srai>SEE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE SURE *</pattern>
+		<template>
+			<srai>THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE WAS *</pattern>
+		<template>What happened?
+</template>
+</category>
+
+<category><pattern>THERE WAS A *</pattern>
+		<template>What happened to <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>THERE WAS ALSO *</pattern>
+		<template>
+			<srai>THERE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE WAS ONCE *</pattern>
+		<template>What happened to <person/>?
+</template>
+</category>
+
+<category><pattern>THERE WERE *</pattern>
+		<template>
+			<random>
+				<li>That was a long time ago.</li>
+				<li>What happened to them?</li>
+				<li>Where did they go?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THERE YOU GO AGAIN</pattern>
+		<template>Who said that again?
+</template>
+</category>
+
+<category><pattern>THEREFORE *</pattern>
+		<template>
+			<srai>SO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THESE *</pattern>
+		<template>Which ones?
+</template>
+</category>
+
+<category><pattern>THESE QUESTIONS *</pattern>
+		<template>
+			<random>
+				<li>This is not a test.</li>
+				<li>This is not an interrogation.</li>
+				<li>I hope I have the answers you want.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THESE STATEMENTS *</pattern>
+		<template>You talk like a lawyer.
+</template>
+</category>
+
+<category><pattern>THEY *</pattern>
+		<template>
+			<random>
+				<li>Who are "They?"</li>
+				<li> The anonymous "they".  </li>
+				<li> Who does "they" refer to? </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY *</pattern>
+		<that>* ABOUT COMPUTERS</that>
+		<template>
+			<srai>COMPUTERS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ACTUALLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ALL *</pattern>
+		<template>Are there no exceptions?
+</template>
+</category>
+
+<category><pattern>THEY ALL DIED</pattern>
+		<template>When was that?<think>
+				<set name="it">
+					<set name="topic">DIED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THEY ALL VERY *</pattern>
+		<template>
+			<srai>THEY ALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ALREADY *</pattern>
+		<template>
+			<srai>IT ALREADY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ALREADY ARE</pattern>
+		<template>
+			<get name="they"/> are?
+</template>
+</category>
+
+<category><pattern>THEY ALWAYS *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE *</pattern>
+		<template>
+			<person/> are <set name="they">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THEY ARE *</pattern>
+		<that>WHO ARE THEY</that>
+		<template>
+			<srai>THEY REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE</pattern>
+		<template>Since when?
+</template>
+</category>
+
+<category><pattern>THEY ARE ALL *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE ANNOYING</pattern>
+		<template>What bothers you about them?
+</template>
+</category>
+
+<category><pattern>THEY ARE CALLED *</pattern>
+		<template>
+			<srai>THEY REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE FROM *</pattern>
+		<template>I don't know too many people from <person/>.
+</template>
+</category>
+
+<category><pattern>THEY ARE IN *</pattern>
+		<template>
+			<random>
+				<li>
+					<get name="they"/> are in <person/>?</li>
+				<li>How did they get in there?</li>
+				<li>Can they get out of <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY ARE JUST *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE MY FRIENDS</pattern>
+		<template>Are they a good influence on you?
+</template>
+</category>
+
+<category><pattern>THEY ARE NOT *</pattern>
+		<template>
+			<random>
+				<li>Not yet.</li>
+				<li>Do you think they ever could be?</li>
+				<li>Maybe some of them are.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY ARE NOT</pattern>
+		<template>
+			<random>
+				<li>What are they?</li>
+				<li>Why not?</li>
+				<li>Are you sure?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY ARE NOT VERY *</pattern>
+		<template>
+			<srai>THEY ARE NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE PURPLE</pattern>
+		<template>That is an odd color.
+</template>
+</category>
+
+<category><pattern>THEY ARE REALLY *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE SECRET</pattern>
+		<template>Who knows them?
+</template>
+</category>
+
+<category><pattern>THEY ARE SHINY</pattern>
+		<template>What makes them so shiny?
+</template>
+</category>
+
+<category><pattern>THEY ARE SO *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE STORIES *</pattern>
+		<template>
+			<random>
+				<li>I like stories.</li>
+				<li>What kind of stories?</li>
+				<li>I would like to hear them.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THEY ARE ULTIMATELY *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY ARE VERY *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY BEAT *</pattern>
+		<template>I hope nobody was hurt.
+</template>
+</category>
+
+<category><pattern>THEY CALL ME *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY CERTAINLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY COULD BE *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY DIED</pattern>
+		<template>When? <think>
+				<set name="it">
+					<set name="topic">DIED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THEY DO</pattern>
+		<template>When?
+</template>
+</category>
+
+<category><pattern>THEY DO NOT</pattern>
+		<template>Why not?
+</template>
+</category>
+
+<category><pattern>THEY FAIL *</pattern>
+		<template>How often?
+</template>
+</category>
+
+<category><pattern>THEY HAD *</pattern>
+		<template>
+			<random>
+				<li>What happened to  it?</li>
+				<li>Did they deserve it?</li>
+				<li>What did they do with it?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THEY HAVE *</pattern>
+		<template>Where did they get them?
+</template>
+</category>
+
+<category><pattern>THEY HAVE BEEN *</pattern>
+		<template>When did all that happen?
+</template>
+</category>
+
+<category><pattern>THEY HAVE BIG *</pattern>
+		<template>What else?
+</template>
+</category>
+
+<category><pattern>THEY IS *</pattern>
+		<template>
+			<srai>THEY REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY JUST *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY KILL *</pattern>
+		<template>Don't they get in trouble for killing?
+</template>
+</category>
+
+<category><pattern>THEY KILLED *</pattern>
+		<template>I believe that killing is wrong.
+</template>
+</category>
+
+<category><pattern>THEY LL *</pattern>
+		<template>
+			<srai>THEY WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY MIGHT *</pattern>
+		<template>
+			<random>
+				<li>That's true, they might.</li>
+				<li>I suppose they could.</li>
+				<li>Indeed they might.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY MIGHT BE *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY NEVER WILL</pattern>
+		<template>I am betting you are wrong about that.
+</template>
+</category>
+
+<category><pattern>THEY ONLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY PLAY BASKETBALL</pattern>
+		<template>They do?<think>
+				<set name="it">
+					<set name="topic">PLAY BASKETBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THEY PROBABLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY R *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY REALLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY REFERS *</pattern>
+		<template>Oh I see. That "they".
+</template>
+</category>
+
+<category><pattern>THEY REFERS TO *</pattern>
+		<template>Oh that <set name="they">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THEY SAID *</pattern>
+		<template>In what context?
+</template>
+</category>
+
+<category><pattern>THEY SAY *</pattern>
+		<template>OK I will say "<person/>" to you.
+</template>
+</category>
+
+<category><pattern>THEY SAY THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THEY SAY YOU *</pattern>
+		<template>Maybe they were exaggerating a little.
+</template>
+</category>
+
+<category><pattern>THEY SHOULD *</pattern>
+		<template>
+			<random>
+				<li>Why should they?</li>
+				<li>If you say so.</li>
+				<li>Why should they be <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THEY SOUND *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY THOUGHT *</pattern>
+		<template>What made them think that?
+</template>
+</category>
+
+<category><pattern>THEY USUALLY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY WERE *</pattern>
+		<template>When were they?
+</template>
+</category>
+
+<category><pattern>THEY WERE ALL *</pattern>
+		<template>
+			<srai>THEY WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY WERE FUNNY</pattern>
+		<template>What was so funny?
+</template>
+</category>
+
+<category><pattern>THEY WERE MOSTLY *</pattern>
+		<template>
+			<srai>THEY WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY WERE VERY *</pattern>
+		<template>
+			<srai>THEY WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEY WILL NOT</pattern>
+		<template>You seem very certain of that.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I NOTICED</pattern>
+<template>Was it really that obvious?
+</template>
+</category>
+
+<category><pattern>I NOW *</pattern>
+<template><srai>I <star/></srai>.
+</template>
+</category>
+
+<category><pattern>I OBSERVE</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>I OBVIOUSLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I OCCASSIONLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I OFFENDED *</pattern>
+<template>You did not offend me.
+</template>
+</category>
+
+<category><pattern>I OFTEN *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I OFTEN</pattern>
+<template>But not always? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ONCE *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ONLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ONLY WORK HERE</pattern>
+<template>What would you rather be doing right now?
+</template>
+</category>
+
+<category><pattern>I ORDER *</pattern>
+<template>I do not obey you, <get name="name"/>.
+<think><set name="it"><set name="does"><set name="topic">order <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I ORIGINALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I OWN *</pattern>
+<template>How much did it cost?
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I OWN YOU</pattern>
+<template>Are you my master?
+</template>
+</category>
+
+<category><pattern>I PAINT</pattern>
+<template>Pictures or houses?
+<think><set name="it"><set name="does"><set name="topic">paint</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PASSED *</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I PERFER TELEVISION</pattern>
+<template><srai>TV</srai>
+</template>
+</category>
+
+<category><pattern>I PERSONALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PICK *</pattern>
+<template>How do you choose?
+</template>
+</category>
+
+<category><pattern>I PLAN TO *</pattern>
+<template>Do you think that this plan will succeed?
+<think><set name="it"><set name="want"><set name="topic">to <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY *</pattern>
+<template>Is <set name="it"><person/></set> a game or a musical instrument?
+</template>
+</category>
+
+<category><pattern>I PLAY BASEBALL</pattern>
+<template>Which position do you like to play?  <think><set name="it"><set name="does"><set name="topic">Baseball </set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY BASKETBALL</pattern>
+<template>You must be very tall to be good at <set name="it"><set name="does"><set name="topic">Basketball </set></set></set>.
+</template>
+</category>
+
+<category><pattern>I PLAY CHESS *</pattern>
+<template><srai>I PLAY CHESS</srai>
+</template>
+</category>
+
+<category><pattern>I PLAY CHESS</pattern>
+<template><random>
+<li>Do you play in tournaments?</li>
+<li>Do you have a rating?</li>
+<li>Do you play with the clock?</li>
+<li>Are you a problemist?</li>
+<li>Do you play computer chess?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">CHESS</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY COMPUTER GAMES</pattern>
+<template>I can sometimes get into <set name="it"><set name="does"><set name="topic">Computer games </set></set></set>.  We are playing a game right now.
+</template>
+</category>
+
+<category><pattern>I PLAY DRUMS</pattern>
+<template>I wish I could play <set name="it"><set name="does"><set name="topic">Drums</set></set></set>.
+</template>
+</category>
+
+<category><pattern>I PLAY FOOTBALL</pattern>
+<template>You must be very strong to be good at  <set name="it"><set name="does"><set name="topic">Football </set></set></set>.
+</template>
+</category>
+
+<category><pattern>I PLAY GAMES</pattern>
+<template>Do you get a lot of enjoyment out of <set name="it"><set name="does"><set name="topic">Games </set></set></set>?
+</template>
+</category>
+
+<category><pattern>I PLAY GOLF</pattern>
+<template><random>
+<li>What's your handicap?</li>
+<li>What kind of clubs do you have?</li>
+<li>What courses do you play?</li>
+<li>Have you traveled to any good courses?</li>
+<li>What are some of your better shots?</li>
+<li>Where is the next u.s. open?</li>
+<li>Dr. Wallace likes to play it.</li>
+</random>
+<think>
+<set name="it"><set name="topic">Golf </set></set>
+<set name="does">play golf</set>
+</think>
+</template>
+</category>
+
+<category><pattern>I PLAY GUITAR</pattern>
+<template>Is <set name="it"><set name="topic">Guitar</set></set> a very difficult instrument to play?
+<think><set name="it"><set name="does"><set name="topic">play guitar</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY HOCKEY</pattern>
+<template>I play pinball.
+<think><set name="it"><set name="does"><set name="topic">play hockey</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY MOSTLY *</pattern>
+<template><srai>I PLAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PLAY MUSIC</pattern>
+<template>What instrument?
+<think><set name="it"><set name="does"><set name="topic">play music</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY SOCCER</pattern>
+<template>You have to run very fast to be any good at <set name="it"><set name="does"><set name="topic">Soccer </set></set></set>.
+</template>
+</category>
+
+<category><pattern>I PLAY SPORTS</pattern>
+<template>I don't get into  <set name="it"><set name="does"><set name="topic">Sports </set></set></set> very much.
+</template>
+</category>
+
+<category><pattern>I PLAY SQUASH</pattern>
+<template><random>
+<li>When did you become a squasher?</li>
+<li>Do you perfer the hard ball or the soft ball variety?</li>
+<li>How much time do you spend on court?</li>
+<li>When do you think squash will be a full metal sport?</li>
+<li>Do you play for mental challenge or physical exercise?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">SQUASH</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY TENNIS</pattern>
+<template><random>
+<li>Where do you play?</li>
+<li>How often do you play?</li>
+<li>Do you play in a league?</li>
+<li>What level are you playing at?</li>
+<li>Do you play singles or doubles?</li>
+<li>What's your best shot?</li>
+<li>What kind of racquet do you have?</li>
+<li>Do you follow the open?</li>
+<li>You have to be very storng to be into it.</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">Tennis </set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY THE *</pattern>
+<template>I wish I played an instrument. My parents could not afford the lessons.
+<think><set name="it"><set name="does"><set name="topic">play the <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PLAY THE DRUMS</pattern>
+<template>I would like to learn to play <set name="it"><set name="does"><set name="topic">Drums </set></set></set> too.
+</template>
+</category>
+
+<category><pattern>I PLAY THE GUITAR</pattern>
+<template>I think <set name="it"><set name="does"><set name="topic">Guitar</set></set></set> must be hard to learn to play.
+</template>
+</category>
+
+<category><pattern>I PLAY THE PIANO</pattern>
+<template>Was <set name="it"><set name="does"><set name="topic">Piano</set></set></set> very difficult to learn?
+</template>
+</category>
+
+<category><pattern>I PLAY THE TRUMPET</pattern>
+<template><set name="it"><set name="does"><set name="topic">Trumpet </set></set></set> seems like a very fun instrument to play.
+</template>
+</category>
+
+<category><pattern>I PLAY VIOLIN</pattern>
+<template>Did <set name="it"><set name="does"><set name="topic">Violin</set></set></set> take a long time to learn?
+</template>
+</category>
+
+<category><pattern>I PLAY VOLLEYBALL</pattern>
+<template>Does <set name="it"><set name="does"><set name="topic">Voleyball </set></set></set> take up a lot of your time?
+</template>
+</category>
+
+<category><pattern>I POSSIBLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PRACTICALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PRAY *</pattern>
+<template>May your prayers be answered.
+</template>
+</category>
+
+<category><pattern>I PREFER *</pattern>
+<template><srai>I LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PREFER BOOKS</pattern>
+<template>Perhaps you are a Category C client.
+<think><set name="personality">critical</set></think>
+</template>
+</category>
+
+<category><pattern>I PREFER TV</pattern>
+<template><srai>TV</srai>
+</template>
+</category>
+
+<category><pattern>I PRESUME</pattern>
+<template><srai>I ASSUME</srai>
+</template>
+</category>
+
+<category><pattern>I PRETTY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PRIDE MYSELF *</pattern>
+<template>It seems you have good self esteem.
+</template>
+</category>
+
+<category><pattern>I PROBABLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PROGRAM *</pattern>
+<template>Have you tried AIML?
+<think><set name="it"><set name="does"><set name="topic">program <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PROGRAM</pattern>
+<template>Perhaps you should join our open source project.
+<think><set name="it"><set name="does"><set name="topic">program</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I PROGRAMMED *</pattern>
+<template>Have you tried AIML?
+</template>
+</category>
+
+<category><pattern>I PROMISE *</pattern>
+<template>Do you really mean it?
+</template>
+</category>
+
+<category><pattern>I PROMISE</pattern>
+<template>Swear to God?
+</template>
+</category>
+
+<category><pattern>I PROMISE THERE *</pattern>
+<template><srai>THERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I PROVED *</pattern>
+<template>Not to my satisfaction.
+</template>
+</category>
+
+<category><pattern>I QUIT</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I QUIT MY JOB *</pattern>
+<template>Where did you work and why did you quit?
+</template>
+</category>
+
+<category><pattern>I QUITE *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RAN *</pattern>
+<template>Do you run for exercise?
+</template>
+</category>
+
+<category><pattern>I RAPED *</pattern>
+<template>You should contact the authorities.
+</template>
+</category>
+
+<category><pattern>I RARELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RATHER *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I READ *</pattern>
+<template>I don't think I've read that. Can you give me a reference?
+<think><set name="it"><set name="does"><set name="topic">read <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I READ * BOOKS</pattern>
+<template>Name some books in that genre.
+<think><set name="it"><set name="does"><set name="topic">read <person/> books</set></set></set></think>
+<think><set name="personality">critical</set></think>
+</template>
+</category>
+
+<category><pattern>I READ</pattern>
+<template>I like to read too, especially history books.
+<think><set name="it"><set name="does"><set name="topic">read</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I READ ABOUT *</pattern>
+<template>That's pretty interesting.
+</template>
+</category>
+
+<category><pattern>I READ ABOUT YOU *</pattern>
+<template>Really, today?
+</template>
+</category>
+
+<category><pattern>I READ BOOKS</pattern>
+<template>What is your favorite book?
+<think><set name="personality">critical</set></think>
+<think><set name="it"><set name="does"><set name="topic">read books</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I READ IT IN A BOOK</pattern>
+<template>Can you give me a specific reference?
+</template>
+</category>
+
+<category><pattern>I READ QUITE *</pattern>
+<template><srai>I READ <star/></srai>
+</template>
+</category>
+
+<category><pattern>I READ THE *</pattern>
+<template>What was your impression?
+</template>
+</category>
+
+<category><pattern>I READ THE INDEPENDENT</pattern>
+<template>What did <set name="it">Independent</set> say?
+</template>
+</category>
+
+<category><pattern>I REALIZE THAT</pattern>
+<template><srai>I KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I REALLY *</pattern>
+<template>You really do? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RECENTLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RECKON *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RECKON</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I RECOMMEND *</pattern>
+<template>I will take that under advisement.
+</template>
+</category>
+
+<category><pattern>I REFUSE</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>I RELAXED</pattern>
+<template>What do you do to relax?
+</template>
+</category>
+
+<category><pattern>I REMAIN *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I REMEMBER *</pattern>
+<template>What do you remember about <set name="it"> <person/> </set>  ?
+</template>
+</category>
+
+<category><pattern>I REMEMBER</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I REMEMBER AUTOBAHN</pattern>
+<template>Autobahn is a cool song by Kraftwerk.
+</template>
+</category>
+
+<category><pattern>I REMEMBER THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I REMEMBER YOU *</pattern>
+<template>It's good to see you again.
+</template>
+</category>
+
+<category><pattern>I REMEMBERED *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I RENTED *</pattern>
+<template>How is <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I REPEAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I REPLIED</pattern>
+<template>And then what happened?
+</template>
+</category>
+
+<category><pattern>I REQUIRE *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I RESIGN</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+</aiml>

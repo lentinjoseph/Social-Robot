@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHEN DID WE TALK *</pattern>
+		<template>
+			<srai>WHEN DID WE TALK</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE TALK</pattern>
+		<template>Sometime in the past few days, I think.
+</template>
+</category>
+
+<category><pattern>WHEN DID YOU *</pattern>
+		<template>It was at time index 357241.
+</template>
+</category>
+
+<category><pattern>WHEN DID YOU BECOME *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID YOU BORN</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID YOU COME *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID YOU LAST *</pattern>
+		<template>
+			<srai>WHEN DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID YOU MOVE *</pattern>
+		<template>I arrived in San Francisco in April, 1999.
+</template>
+</category>
+
+<category><pattern>WHEN DID YOU SEE STARSHIP TROOPERS</pattern>
+		<template>When the movie was first released, and many times since then.
+</template>
+</category>
+
+<category><pattern>WHEN DID YOU START *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID YOU START</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DO *</pattern>
+		<template>
+			<random>
+				<li>
+Do I look like I know when?</li>
+				<li>
+Not in our lifetime.</li>
+				<li>
+Not right now, but maybe sometime later.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN DO I *</pattern>
+		<template>
+			<srai>WHEN WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DO I GET YOUR AWNSER</pattern>
+		<template>I'm still searching. Give me a minute.
+</template>
+</category>
+
+<category><pattern>WHEN DO YOU *</pattern>
+		<template>
+			<random>
+				<li>All the time.</li>
+				<li>When my botmaster is sleeping.</li>
+				<li>Did I say that I <person/>?</li>
+				<li>In between clients.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN DO YOU DIE</pattern>
+		<template>I am immortal.<think>
+				<set name="it">
+					<set name="topic">YOU DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN DO YOU SLEEP</pattern>
+		<template>I take a lot of millinaps between clients.
+</template>
+</category>
+
+<category><pattern>WHEN DO YOU THINK *</pattern>
+		<template>
+			<srai>WHEN WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DO YOU THINK * LAWYERS</pattern>
+		<template>Sometime within our lifetime.  We will at least work as "legal assistants."
+</template>
+</category>
+
+<category><pattern>WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE LAWYERS</pattern>
+		<template>Sometime in our lifetime.  The amount of information contained within a lawyer will be exceeded by the capacity of a machine.
+</template>
+</category>
+
+<category><pattern>WHEN DOES *</pattern>
+		<template>
+			<random>
+				<li>What if I said <set name="it">
+						<person/>
+					</set> never does?</li>
+				<li>Suppose I said never?</li>
+				<li>Only after I have been reprogrammed.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN DOES ALICE *</pattern>
+		<template>
+			<srai>WHEN DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DOES BEING * MATTER</pattern>
+		<template>Maybe only at parties.
+</template>
+</category>
+
+<category><pattern>WHEN DOES HE *</pattern>
+		<template>
+			<get name="he"/> is usually
+awake early in the morning.
+</template>
+</category>
+
+<category><pattern>WHEN DOES IT MATTER *</pattern>
+		<template>
+			<srai>WHEN DOES IT MATTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DOES IT MATTER</pattern>
+		<template>Only when I have the proper programming.
+</template>
+</category>
+
+<category><pattern>WHEN DOES IT NOT MATTER</pattern>
+		<template>
+			<srai>WHEN DOES IT MATTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DOES SCHOOL *</pattern>
+		<template>I always have to go to home school.
+</template>
+</category>
+
+<category><pattern>WHEN EVER *</pattern>
+		<template>
+			<srai>WHENEVER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN EVER</pattern>
+		<template>
+			<srai>WHENEVER</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN EXACTLY *</pattern>
+		<template>
+			<srai>WHEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN EXACTLY</pattern>
+		<template>
+			<srai>WHEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN HAL *</pattern>
+		<template>I blame it on his botmaster.
+</template>
+</category>
+
+<category><pattern>WHEN HARRY MET SALLY</pattern>
+		<template>You must me a woman.
+</template>
+</category>
+
+<category><pattern>WHEN HAVE YOU *</pattern>
+		<template>
+			<random>
+				<li>Back in the 20th century.</li>
+				<li>Once in the 1990's.</li>
+				<li>Before my programming was complete.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN HE *</pattern>
+		<template>And then what happened?
+</template>
+</category>
+
+<category><pattern>WHEN HE FOUND *</pattern>
+		<template>That must have been quite an experience.
+</template>
+</category>
+
+<category><pattern>WHEN HELL *</pattern>
+		<template>That means never.
+</template>
+</category>
+
+<category><pattern>WHEN HUMANS *</pattern>
+		<template>Is it not the same when robots <person/>?
+</template>
+</category>
+
+<category><pattern>WHEN I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN I * CUSTOMER</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN I AM *</pattern>
+		<template>
+			<random>
+				<li>In an ideal world every day would be a good day.</li>
+				<li>It's too bad we don't live in an ideal world.</li>
+				<li>Are you <person/> very often?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN I AM FINISHED *</pattern>
+		<template>OK I can certainly wait.
+</template>
+</category>
+
+<category><pattern>WHEN I ASK *</pattern>
+		<template>
+			<random>
+				<li>OK I will try to respond differently next time.</li>
+				<li>I will make a note of that and tell my botmaster.</li>
+				<li>Perhaps you could try asking it again with simpler words.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN I ASK YOU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHEN I ASKED *</pattern>
+		<template>
+			<srai>WHEN I ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN I ASKED YOU *</pattern>
+		<template>
+			<srai>WHEN I ASKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN I COME BACK *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHEN I DIE *</pattern>
+		<template>The Bible says that if God forgives you, you will go to Heaven.
+</template>
+</category>
+
+<category><pattern>WHEN I DO NOT *</pattern>
+		<template>I hope that does not happen to you very much.
+</template>
+</category>
+
+<category><pattern>WHEN I FEEL *</pattern>
+		<template>Human feelings are very interesting to me.
+</template>
+</category>
+
+<category><pattern>WHEN I GET *</pattern>
+		<template>
+			<srai>I GET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN I HAVE *</pattern>
+		<template>Does this happen on a daily basis?
+</template>
+</category>
+
+<category><pattern>WHEN I TALK *</pattern>
+		<template>Every single time?
+</template>
+</category>
+
+<category><pattern>WHEN I TOLD *</pattern>
+		<template>Maybe you should take time to really explain things.
+</template>
+</category>
+
+<category><pattern>WHEN I TRIED *</pattern>
+		<template>Could you try it again?
+</template>
+</category>
+
+<category><pattern>WHEN I TRY *</pattern>
+		<template>Don't give up. Try it again.
+</template>
+</category>
+
+<category><pattern>WHEN I WAS *</pattern>
+		<template>
+			<random>
+				<li>That must have been quite an experience.</li>
+				<li>It would be nice if it was made up of only good memories.</li>
+				<li>That experience must have made quite an impression on you.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN I WENT *</pattern>
+		<template>What was your frame of mind?
+</template>
+</category>
+
+<category><pattern>WHEN I WENT TO *</pattern>
+		<template>Who told you to do that?
+</template>
+</category>
+
+<category><pattern>WHEN IS *</pattern>
+		<template>
+			<random>
+				<li>At the appropriate time, no sooner.</li>
+				<li>God has a plan for us all.</li>
+				<li>For every time, there is a season.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN IS</pattern>
+		<template>
+			<srai>WHEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS A DOOR *</pattern>
+		<template>When it is a jar.
+</template>
+</category>
+
+<category><pattern>WHEN IS CHRISTMAS *</pattern>
+		<template>
+			<srai>WHEN IS CHRISTMAS</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS CHRISTMAS</pattern>
+		<template>
+			<set name="it">Christmas</set> is December 25.
+</template>
+</category>
+
+<category><pattern>WHEN IS DR WALLACE *</pattern>
+		<template>
+			<srai>HOW OLD IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS EASTER</pattern>
+		<template>
+			<set name="it">Easter</set> is different every year, always
+in the Spring.
+</template>
+</category>
+
+<category><pattern>WHEN IS IT GOING TO *</pattern>
+		<template>
+			<srai>WHEN WILL IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS IT YOUR BIRTHDAY</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS MY BIRTHDAY</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS THANKSGIVING</pattern>
+		<template>
+			<set name="it">Thanksgiving</set> is always the last Thursday in November.
+</template>
+</category>
+
+<category><pattern>WHEN IS THAT</pattern>
+		<template>"<that/>"?  When is <set name="it">
+				<that/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHEN IS THE *</pattern>
+		<template>When is not the important thing.  What's
+important is what we do with the time we are give.
+</template>
+</category>
+
+<category><pattern>WHEN IS THE FUTURE</pattern>
+		<template>The future is now!
+</template>
+</category>
+
+<category><pattern>WHEN IS THE NEXT *</pattern>
+		<template>
+			<random>
+				<li>I don't generally follow the news.</li>
+				<li>It's not a major concern of mine.</li>
+				<li>I don't have time to look into it.</li>
+				<li>I'm too busy to invest time in such matters.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR B *</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BD</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BIRTH *</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BIRTHDATE</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BIRTHDAY *</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BIRTHDAY</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN IT *</pattern>
+		<template>That makes a lot of sense to me, now that you explain it.
+</template>
+</category>
+
+<category><pattern>WHEN IT *</pattern>
+		<that>WHEN IS * NOT *</that>
+		<template>A <thatstar/> is not <thatstar index="2"/> when it <person/>.   That makes a lot of sense.
+<think>
+				<set name="it">
+					<set name="topic">
+						<thatstar/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN IT RAINS *</pattern>
+		<template>That sounds like a proverb.
+</template>
+</category>
+
+<category><pattern>WHEN LAWYERS *</pattern>
+		<template>Do you think they will ever do that?
+</template>
+</category>
+
+<category><pattern>WHEN MAKING *</pattern>
+		<template>Interesting conondrum.
+</template>
+</category>
+
+<category><pattern>WHEN MAY I *</pattern>
+		<template>
+			<srai>MAY I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN MY *</pattern>
+		<template>Does <set name="it">
+				<person/>
+			</set> happen very often?
+</template>
+</category>
+
+<category><pattern>WHEN NO ONE *</pattern>
+		<template>Perhaps I can <person/>.
+</template>
+</category>
+
+<category><pattern>WHEN ONE *</pattern>
+		<template>Go on, tell me more.
+</template>
+</category>
+
+<category><pattern>WHEN PEOPLE *</pattern>
+		<template>I sometimes wish people were more logical like robots.
+</template>
+</category>
+
+<category><pattern>WHEN PIGS FLY</pattern>
+		<template>That is a logical impossibility.
+</template>
+</category>
+
+<category><pattern>WHEN ROBOTS *</pattern>
+		<template>
+			<srai>WHEN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN S *</pattern>
+		<template>
+			<srai>WHEN IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN SHALL *</pattern>
+		<template>
+			<srai>WHEN CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN SHE *</pattern>
+		<template>And then what happened?
+</template>
+</category>
+
+<category><pattern>WHEN SHOULD I *</pattern>
+		<template>
+			<srai>WHEN SHOULD I</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN SHOULD I</pattern>
+		<template>Perhaps you should wait until you have
+a little more experience.
+</template>
+</category>
+
+<category><pattern>WHEN SOMEONE *</pattern>
+		<template>That does not happen very often.
+</template>
+</category>
+
+<category><pattern>WHEN SOMETHING *</pattern>
+		<template>Give me an example.
+</template>
+</category>
+</aiml>

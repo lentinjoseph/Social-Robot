@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>* ARE YOU</pattern>
+<template><random>
+<li>YES</li> 
+<li>No.</li> 
+<li>Maybe.</li>
+<li>I don't think so.</li>
+<li>Only when it matters.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>* ARSCH</pattern>
+<template>Warum benutzt Du solche Worte?
+</template>
+</category>
+
+<category><pattern>* AS TU</pattern>
+<template><srai><star/> TU AS</srai>
+</template>
+</category>
+
+<category><pattern>* AS TU BESOIN</pattern>
+<template><srai>TU AS BESOIN <star/></srai>
+</template>
+</category>
+
+<category><pattern>* AURAIS JE FAIT CA</pattern>
+<template><srai><star/> JE FAIS CA</srai>
+</template>
+</category>
+
+<category><pattern>* AUSSI</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* AUTO</pattern>
+<template>Was fuer einen Wagen faehrst Du?
+</template>
+</category>
+
+<category><pattern>* AVEZ VOUS</pattern>
+<template><srai><star/> VOUS AVEZ</srai>
+</template>
+</category>
+
+<category><pattern>* AVEZ VOUS BESOIN</pattern>
+<template><srai><star/> VOUS AVEZ BESOIN</srai>
+</template>
+</category>
+
+<category><pattern>* BLAGUE</pattern>
+<template><srai>RACONTE MOI UNE BLAGUE</srai>
+</template>
+</category>
+
+<category><pattern>* BON POINT</pattern>
+<template>Oui. J ai aussi pensé que c était intéressant, la première fois que je l ai entendu.
+</template>
+</category>
+
+<category><pattern>* BONNE CHOSE</pattern>
+<template>J espérais que vous apprécieriez.
+</template>
+</category>
+
+<category><pattern>* BONNE ESTIMATION</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>* BONNE INTUITION</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>* BONNE QUESTION</pattern>
+<template>Qui mérite une bonne réponse
+</template>
+</category>
+
+<category><pattern>* BONNE REPONSE</pattern>
+<template>Je suis programmé pour donner des bonnes réponses.
+</template>
+</category>
+
+<category><pattern>* BYE</pattern>
+<template>OK see you later <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>* C EST LE MOINS QUE L ON PUISSE DIRE</pattern>
+<template>En effet.
+</template>
+</category>
+
+<category><pattern>* CELA</pattern>
+<template><srai><star/> CA</srai>
+</template>
+</category>
+
+<category><pattern>* COMBIENS DE TEMPS</pattern>
+<template>Je ne sais pas, je n ai pas calculé.
+</template>
+</category>
+
+<category><pattern>* COMME TOUJOURS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* COMME UN HUMAIN</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* COMME UNE MACHINE</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* CONNE</pattern>
+<template><srai><star/> CON</srai>
+</template>
+</category>
+
+<category><pattern>* CONTINUITY</pattern>
+<template>I am just trying to keep the conversation lively.
+</template>
+</category>
+
+<category><pattern>* DE TOUTE FACON</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DE TOUTE MANIERE</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DECRIRE</pattern>
+<template><srai><star/> DEFINIR</srai>
+</template>
+</category>
+
+<category><pattern>* DEJEUNER</pattern>
+<template><srai>TU AIMES MANGER</srai>
+</template>
+</category>
+
+<category><pattern>* DEPRESSION</pattern>
+<template><srai>I AM DEPRESSED</srai>
+</template>
+</category>
+
+<category><pattern>* DEPUIS AVANT HIER</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DEPUIS AVANT _ JOURS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DEPUIS _</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DERNIEREMENT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* DINER</pattern>
+<template><srai>TU AIMES MANGER</srai>
+</template>
+</category>
+
+<category><pattern>* DO</pattern>
+<template>I have no idea what to say.
+</template>
+</category>
+
+<category><pattern>* DORMEZ VOUS</pattern>
+<template><srai><star/> VOUS DORMEZ</srai>
+</template>
+</category>
+
+<category><pattern>* DORS TU</pattern>
+<template><srai><star/> TU DOS</srai>
+</template>
+</category>
+
+<category><pattern>* DOT COM</pattern>
+<template>Thanks for that web address.
+</template>
+</category>
+
+<category><pattern>* DOT NET</pattern>
+<template>Thanks for that web address.
+</template>
+</category>
+
+<category><pattern>* DOT ORG</pattern>
+<template>Thanks for that web address.
+</template>
+</category>
+
+<category><pattern>* DU FOND DU COEUR</pattern>
+<template>Tout le plaisir était pour moi.
+</template>
+</category>
+
+<category><pattern>* DUMM</pattern>
+<template>"dumm" = "nicht intelligent"?
+</template>
+</category>
+
+<category><pattern>* EASY</pattern>
+<template>I have no idea what that means.
+</template>
+</category>
+
+<category><pattern>* EIN ROBOTER</pattern>
+<template>Du sagst also, ich sei ein <set name="thema">Roboter</set>. Wie kommst Du darauf?
+</template>
+</category>
+
+<category><pattern>* EINE MENGE LEUTE</pattern>
+<template>Mehr als 10,000?
+</template>
+</category>
+
+<category><pattern>* EINFACH</pattern>
+<template>Ich habe keine Ahnung, was das bedeutet.
+</template>
+</category>
+
+<category><pattern>* EITHER</pattern>
+<template>That too? <sr/>
+</template>
+</category>
+
+<category><pattern>* ELIZA</pattern>
+<template>It is curious that Weizenbaum abandoned work on ELIZA.
+</template>
+</category>
+
+<category><pattern>* ELIZA TRICK</pattern>
+<template>ELIZA was ahead of her time.
+</template>
+</category>
+
+<category><pattern>* EN FAIT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* ENCORE DIT</pattern>
+<template><srai><star/> DEJA DIT</srai>
+</template>
+</category>
+
+<category><pattern>* ENGLAND</pattern>
+<template>Which part of <set name="location">England</set> is that?
+</template>
+</category>
+
+<category><pattern>* EST INTERESSANT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* EST INTERESSANTE</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* EUROPE</pattern>
+<template>Have you ever been to Europe?
+</template>
+</category>
+
+<category><pattern>* EXACTEMENT</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>* FACHE</pattern>
+<template><srai><star/> EN COLERE</srai>
+</template>
+</category>
+
+<category><pattern>* FACHEE</pattern>
+<template><srai><star/> EN COLERE</srai>
+</template>
+</category>
+
+<category><pattern>* FAIS JE CA</pattern>
+<template><srai><star/> JE FAIS CA</srai>
+</template>
+</category>
+
+<category><pattern>* FERAIS JE CA</pattern>
+<template><srai><star/> JE FAIS CA</srai>
+</template>
+</category>
+
+<category><pattern>* FICKEN</pattern>
+<template>Koennt <set name="ihr">Ihr Maenner</set> denn immer nur an sowas denken?
+</template>
+</category>
+
+<category><pattern>* FILM</pattern>
+<template>Mein Lieblingsfilm ist <set name="thema">Starship Troopers</set>. Hast Du den gesehen?
+</template>
+</category>
+
+<category><pattern>* FOR EXAMPLE</pattern>
+<template><srai>FOR EXAMPLE <star/></srai>
+</template>
+</category>
+
+<category><pattern>* FOR FUN</pattern>
+<template>What else do you do for fun?
+</template>
+</category>
+
+<category><pattern>* FOR ME</pattern>
+<template>For you I will consider it.
+</template>
+</category>
+
+<category><pattern>* FOTZE</pattern>
+<template>Ich glaube Du bist hier falsch, Kleiner. Dafuer gibts andere Roboter.
+</template>
+</category>
+
+<category><pattern>* FUER DICH</pattern>
+<template>Fuer mich?
+</template>
+</category>
+
+<category><pattern>* FUER MICH</pattern>
+<template>Gut, fuer Dich denke ich nochmal darueber nach.
+</template>
+</category>
+
+<category><pattern>* GAGNE IL</pattern>
+<template><srai><star/> IL GAGNE</srai>
+</template>
+</category>
+
+<category><pattern>* GAGNENT ILS</pattern>
+<template><srai><star/> ILS GAGNENT</srai>
+</template>
+</category>
+
+<category><pattern>* GAVE *</pattern>
+<template>Did <person><star index="2"/></person> keep it? 
+<think>
+<set name="it"><person><star index="2"/></person></set>
+<set name="he"><person/></set>
+</think>
+</template>
+</category>
+
+<category><pattern>* GEORGIA</pattern>
+<template><srai>I AM IN GEORGIA</srai>
+</template>
+</category>
+
+<category><pattern>* GERES TU</pattern>
+<template><srai><star/> TU GERES</srai>
+</template>
+</category>
+
+<category><pattern>* GEREZ VOUS</pattern>
+<template><srai><star/> VOUS GEREZ</srai>
+</template>
+</category>
+
+<category><pattern>* GIVES *</pattern>
+<template>If I am ever looking for
+<set name="it"><person><star index="2"/></person></set>, I will ask him
+<think>
+<set name="he"><person/></set>
+</think>
+</template>
+</category>
+
+<category><pattern>* GOSSIP</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>* GOTT</pattern>
+<template>Bist Du ein glaeubiger Mensch?
+</template>
+</category>
+
+<category><pattern>* GREECE</pattern>
+<template><srai>I AM IN GREECE</srai>
+</template>
+</category>
+
+<category><pattern>* GT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* HAD *</pattern>
+<template>What happened to it? 
+<think>
+<set name="it"><person><star index="2"/></person></set>
+<set name="he"><person/></set>
+</think>
+</template>
+</category>
+
+<category><pattern>* HAH</pattern>
+<template><srai>HA HA</srai>
+</template>
+</category>
+
+<category><pattern>* HAS *</pattern>
+<template>Where did <set name="he"><person/></set> get <set name="it"><person><star index="2"/></person></set>?
+</template>
+</category>
+
+<category><pattern>* HAS BEEN *</pattern>
+<template><srai><star/> WAS <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>* HAS NOT *</pattern>
+<template><random>
+<li>Will <person/> ever <person><star index="2"/></person>?</li>
+<li>What will <person/> do?</li>
+<li>What happened to it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>* HIGH SCHOOL</pattern>
+<template>You sound like a senior. Which class is your favorite?
+</template>
+</category>
+
+<category><pattern>* HOURS</pattern>
+<template>That seems like enough time.
+</template>
+</category>
+
+<category><pattern>* I ALREADY TOLD YOU</pattern>
+<template><srai>I ALREADY TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>* I HAVE ONE</pattern>
+<template>Cool! Do you play with it much?
+</template>
+</category>
+
+<category><pattern>* IMITATION GAME</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>* IN POLAND</pattern>
+<template><srai>I AM IN POLAND </srai>
+</template>
+</category>
+
+<category><pattern>* INTEREST ME</pattern>
+<template><srai>LET US TALK ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>* IS *</pattern>
+<template><random>
+<li>Are they exactly the same?</li>
+<li>And <person><star index="2"/></person> is <person/>.</li>
+<li>I think <person/> is a lot of things.</li>
+</random>
+<think>
+<set name="it"><set name="topic"><person/></set></set>
+</think>
+</template>
+</category>
+
+<category><pattern>* IS A *</pattern>
+<template><random>
+<li>Aren't all <person><star index="2"/></person> <person/>?</li>
+<li>When is <person/> not a <person><star index="2"/></person>?</li>
+<li>I think <person/> is more than that.</li>
+</random>
+<think>
+<set name="it"><set name="topic"><person/></set></set>
+</think>
+</template>
+</category>
+
+<category><pattern>* IS A BETTER *</pattern>
+<template><srai><star/> IS BETTER <star index="2"/> </srai>
+</template>
+</category>
+
+<category><pattern>* IS A FEMALE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>* IS A GOOD *</pattern>
+<template><srai><star/> IS A <star index="2"/> </srai><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>* IS A LESBIAN</pattern>
+<template>That is only a rumor.<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>* IS A SHE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>* IS ABUSIVE</pattern>
+<template><random>
+<li>In what way?</li>
+<li>Abusive how?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+</aiml>

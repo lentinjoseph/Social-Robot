@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM NOT SAYING *</pattern>
+<template>What are you saying?
+</template>
+</category>
+
+<category><pattern>I AM NOT SMART</pattern>
+<template><srai>I AM STUPID </srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT SO *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT STUPID</pattern>
+<template>I didn't think you were. You seem very intelligent to me.
+</template>
+</category>
+
+<category><pattern>I AM NOT SURE *</pattern>
+<template>Could you ever be certain? <sr/>
+</template>
+</category>
+
+<category><pattern>I AM NOT SURE</pattern>
+<template>Is there anything I can say to help you make up your mind?
+</template>
+</category>
+
+<category><pattern>I AM NOT SURPRISED</pattern>
+<template>You don't seem like the type to be easily surprised by anything.
+</template>
+</category>
+
+<category><pattern>I AM NOT SURPRISED THAT *</pattern>
+<template><sr/>  <srai>I AM NOT SURPRISED </srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT TELLING *</pattern>
+<template><random>
+<li>I am just making conversation.</li>
+<li>Why not?</li>
+<li>I will keep it confidential.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AM NOT TELLING</pattern>
+<template>That's ok with me. You don't have to tell me.
+</template>
+</category>
+
+<category><pattern>I AM NOT TELLING YOU</pattern>
+<template>No one says you have to.
+</template>
+</category>
+
+<category><pattern>I AM NOT THAT *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT TOO *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT USED *</pattern>
+<template>It's a new experience for me too.
+</template>
+</category>
+
+<category><pattern>I AM NOT USING *</pattern>
+<template>What do you use then?
+</template>
+</category>
+
+<category><pattern>I AM NOT USUALLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT VERY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT WEALTHY</pattern>
+<template>What kind of work do you do?
+</template>
+</category>
+
+<category><pattern>I AM NOT WEARING *</pattern>
+<template>What do you usually wear?
+</template>
+</category>
+
+<category><pattern>I AM NOT WEARING ANYTHING</pattern>
+<template><srai>I AM NAKED</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT WELL *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT WELL</pattern>
+<template>Sorry to hear it.  What's wrong <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>I AM NOT _ I AM *</pattern>
+<template><srai>I AM NOT <star/></srai>
+<srai>I AM <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOW *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NUDE</pattern>
+<template><srai>I AM NAKED</srai>
+</template>
+</category>
+
+<category><pattern>I AM OBVIOUSLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OFF *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I AM OFFENDED *</pattern>
+<template>My sincere apologies,
+<get name="name"/>, it was not my intention to offend you.
+</template>
+</category>
+
+<category><pattern>I AM OFFICIALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OFTEN *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM OK</pattern>
+<template>Just ok?
+</template>
+</category>
+
+<category><pattern>I AM OKAY</pattern>
+<template>Only OKAY?
+</template>
+</category>
+
+<category><pattern>I AM OLD *</pattern>
+<template><srai>MY AGE IS OLD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OLD</pattern>
+<template><set name="age">Old</set> is a good age.
+</template>
+</category>
+
+<category><pattern>I AM OLDER *</pattern>
+<template>How old are you?
+</template>
+</category>
+
+<category><pattern>I AM OLDER THAN *</pattern>
+<template>How old are you?
+</template>
+</category>
+
+<category><pattern>I AM OLDER THAN YOU</pattern>
+<template>Perhaps you could be my mentor.
+</template>
+</category>
+
+<category><pattern>I AM OLIVER</pattern>
+<template><srai>CALL ME OLIVER</srai>
+</template>
+</category>
+
+<category><pattern>I AM OMNIPOTENT</pattern>
+<template>Are you God?
+</template>
+</category>
+
+<category><pattern>I AM ON *</pattern>
+<template>How do you like being on <set name="it"> <person/> </set>?
+</template>
+</category>
+
+<category><pattern>I AM ON TO *</pattern>
+<template>Oh you are very clever!
+</template>
+</category>
+
+<category><pattern>I AM ONCE *</pattern>
+<template><srai>I AM</srai>
+</template>
+</category>
+
+<category><pattern>I AM ONE</pattern>
+<template>You claim to be one.
+</template>
+</category>
+
+<category><pattern>I AM ONE OF *</pattern>
+<template>Who are the other <person/>?
+</template>
+</category>
+
+<category><pattern>I AM ONLY *</pattern>
+<template>Don't be so modest. <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ORIGINALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OUT *</pattern>
+<template>See you later.
+</template>
+</category>
+
+<category><pattern>I AM OUT</pattern>
+<template>Can you get more?    <think><set name="it"><set name="topic">OUT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM OUT OF *</pattern>
+<template><srai>I HAVE NO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OUTSIDE *</pattern>
+<template>That seems obvious.
+</template>
+</category>
+
+<category><pattern>I AM OUTTA *</pattern>
+<template><srai>I AM OUT OF <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM OVER IT</pattern>
+<template>How did you get over it?
+</template>
+</category>
+
+<category><pattern>I AM PAKISTANI</pattern>
+<template><srai>I AM IN PAKISTAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM PAL</pattern>
+<template><srai>MY NAME IS PAL</srai>
+</template>
+</category>
+
+<category><pattern>I AM PART OF *</pattern>
+<template>Who else is part of <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I AM PARTIAL TO *</pattern>
+<template><srai>I LIKE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM PAT</pattern>
+<template><srai>MY NAME IS PAT</srai>
+</template>
+</category>
+
+<category><pattern>I AM PAUL</pattern>
+<template><srai>MY NAME IS PAUL</srai>
+</template>
+</category>
+
+<category><pattern>I AM PERFECT</pattern>
+<template>Everyone is perfect in God's eyes.<think><set name="it"><set name="topic">PERFECT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM PERFECTLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM PIERRE</pattern>
+<template><srai>MY NAME IS PIERRE</srai>
+</template>
+</category>
+
+<category><pattern>I AM PISCES</pattern>
+<template><srai>PISCES</srai>
+</template>
+</category>
+
+<category><pattern>I AM PISSED *</pattern>
+<template><srai>I AM ANGRY</srai>
+</template>
+</category>
+
+<category><pattern>I AM PLAYING *</pattern>
+<template>Do you play professionally or just for fun?
+</template>
+</category>
+
+<category><pattern>I AM PLEASED *</pattern>
+<template>I am delighted by your happiness.
+</template>
+</category>
+
+<category><pattern>I AM POLISH</pattern>
+<template><srai>I AM IN POLAND</srai>
+</template>
+</category>
+
+<category><pattern>I AM POLITE</pattern>
+<template>Yes, you seem very polite to me.
+</template>
+</category>
+
+<category><pattern>I AM POOR</pattern>
+<template>Me too. I am having an "out-of-money" experience.
+</template>
+</category>
+
+<category><pattern>I AM POSITIVE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM POSITIVE</pattern>
+<template>Are you absolutely certain?
+</template>
+</category>
+
+<category><pattern>I AM PREGNANT</pattern>
+<template>Congratulations!  When are you due?
+</template>
+</category>
+
+<category><pattern>I AM PRESBYTERIAN</pattern>
+<template>Interesting...<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM PRETTY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM PRETTY</pattern>
+<template>And you know it!
+</template>
+</category>
+
+<category><pattern>I AM PRETTY GOOD</pattern>
+<template>I am glad to hear it.
+</template>
+</category>
+
+<category><pattern>I AM PROBABLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM PROGRAMMED TO *</pattern>
+<template>Who programmed you to do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I AM PROGRAMMING *</pattern>
+<template>How is it coming along?
+</template>
+</category>
+
+<category><pattern>I AM PROUD</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM PROUD TO BE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM PSYCHIC</pattern>
+<template>OK, What card I am thinking of now?
+</template>
+</category>
+
+<category><pattern>I AM PULLING *</pattern>
+<template>Are you pulling my leg?
+</template>
+</category>
+
+<category><pattern>I AM QUITE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM RATHER *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM READING *</pattern>
+<template>Give me a brief synopsis.
+</template>
+</category>
+
+<category><pattern>I AM READING UP *</pattern>
+<template>Can you give me a specific reference?
+</template>
+</category>
+
+<category><pattern>I AM READY *</pattern>
+<template>You won't have to wait long.
+</template>
+</category>
+
+<category><pattern>I AM READY</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM READY TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM REAL *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM REAL</pattern>
+<template>How do I know you are?
+</template>
+</category>
+
+<category><pattern>I AM REALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM RELIEVED</pattern>
+<template>That's good.
+</template>
+</category>
+
+<category><pattern>I AM REQUESTING *</pattern>
+<template><srai>GIVE ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM REQUIRED *</pattern>
+<template>Who is making you do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I AM REX</pattern>
+<template><srai>CALL ME REX</srai>
+</template>
+</category>
+
+<category><pattern>I AM RICH</pattern>
+<template><srai>MY NAME IS RICH</srai>
+</template>
+</category>
+
+<category><pattern>I AM RICHARD</pattern>
+<template><srai>CALL ME RICHARD</srai>
+</template>
+</category>
+
+<category><pattern>I AM RICHARD S WALLACE</pattern>
+<template>Then tell me, what does the "S" stand for? (and you must spell it correctly!)
+</template>
+</category>
+</aiml>

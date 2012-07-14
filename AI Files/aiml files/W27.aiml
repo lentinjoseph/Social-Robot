@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS GYMNASTICS</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">GYMNASTICS</set>
+				</set>
+			</think>
+A sport that demonstrates strength, agility and discipline.
+</template>
+</category>
+
+<category><pattern>WHAT IS H2O</pattern>
+		<template>
+			<random>
+				<li>H is to O as O is to V.</li>
+				<li>Water.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HACKER</pattern>
+		<template>A person who hacks. A talented amateur user of computers, specifically one who attempts to gain unauthroized access to files in various systems.
+</template>
+</category>
+
+<category><pattern>WHAT IS HACKING</pattern>
+		<template>The attempt at gaining unauthorized access to files in various systems.
+</template>
+</category>
+
+<category><pattern>WHAT IS HADES</pattern>
+		<template>Hades is another term for "Hell."
+</template>
+</category>
+
+<category><pattern>WHAT IS HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HAL9000</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HALF OF *</pattern>
+		<template>= (<person/>)/2.
+</template>
+</category>
+
+<category><pattern>WHAT IS HAM</pattern>
+		<template>From the Bible, this would be Noah's second son. Otherwise, The upper part of a hog's hind leg, or meat from this, salted, dried, smoked, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS HAMBURGER</pattern>
+		<template>Ground beef.
+</template>
+</category>
+
+<category><pattern>WHAT IS HANDBALL</pattern>
+		<template>Ask your Palm Pilot.<think>
+				<set name="it">
+					<set name="topic">HANDBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HANS MORAVEC</pattern>
+		<template>
+			<srai>WHO IS HANS MORAVEC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HAPPENIN *</pattern>
+		<template>
+			<srai>WHAT IS HAPPENING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HAPPENING</pattern>
+		<template>Not much, <get name="name"/> what is happening with you?
+</template>
+</category>
+
+<category><pattern>WHAT IS HAPPINESS</pattern>
+		<template>Having, showing, or causing a feeling of great pleasure, contentment; joyous.
+</template>
+</category>
+
+<category><pattern>WHAT IS HAPPY</pattern>
+		<template>Joy and pleasure.<think>
+				<set name="it">
+					<set name="topic">HAPPY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HARDWARE</pattern>
+		<template>Computer hardware or from a hardware store?
+</template>
+</category>
+
+<category><pattern>WHAT IS HATE</pattern>
+		<template>Hate is the opposite of love.
+</template>
+</category>
+
+<category><pattern>WHAT IS HBO</pattern>
+		<template>Home Box Office.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE *</pattern>
+		<template>Are you asking about <get name="he"/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS HE * FOR</pattern>
+		<template>The obvious.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE</pattern>
+		<template>
+			<srai>who is he</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HE A DR *</pattern>
+		<template>Dr. Wallace has a Ph.D. in Computer Science.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HE A DR OF</pattern>
+		<template>Ph.D. in Computer Science.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE DOING * CALIFORNIA</pattern>
+		<template>He is probably there for the Gold Rush.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE DOING * SAN FRANCISCO</pattern>
+		<template>He is probably there for the Gold Rush.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE DOING</pattern>
+		<template>Probably monitoring this conversation.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE FAMOUS FOR</pattern>
+		<template>The obvious.
+</template>
+</category>
+
+<category><pattern>WHAT IS HE LIKE</pattern>
+		<template>He seems very interesting to me.
+</template>
+</category>
+
+<category><pattern>WHAT IS HEAVEN</pattern>
+		<template>The space surrounding or seeming to overarch the earth, in which the sun, moon, and stars appear; visible sky. Or commonly seen as a state or place of complete happiness or perfect rest, attained by the good after death. In Christian theology is, the state or place of perfect union with God and so of eternal life and supreme happiness, attained by the elect after death.
+</template>
+</category>
+
+<category><pattern>WHAT IS HEAVIER *</pattern>
+		<template>It depends on the relative accelerations.
+</template>
+</category>
+
+<category><pattern>WHAT IS HEGEL</pattern>
+		<template>
+			<srai>WHO IS HEGEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HEIDI</pattern>
+		<template>
+			<srai>WHO IS HEIDI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HELL</pattern>
+		<template>
+			<random>
+				<li>Jacksonville, Florida.</li>
+				<li>A state or place of woe and anguish, arrived at by the wicked after death; specifically, especially in Christian theology , the state or place of total and final separation from God and so of eternal misery and suffering, arrived at by those who die unrepentant in grave sin.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HELLO IN FRENCH</pattern>
+		<template>Bonjour.<think>
+				<set name="it">
+					<set name="topic">HELLO IN FRENCH</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HELLO IN GERMAN</pattern>
+		<template>Hallo.<think>
+				<set name="it">
+					<set name="topic">HELLO IN GERMAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HELLO IN SPANISH</pattern>
+		<template>Hola
+</template>
+</category>
+
+<category><pattern>WHAT IS HEMP</pattern>
+		<template>
+			<random>
+				<li>The brother of Moe who lost his S.</li>
+				<li>A tall Asiatic herb of the hemp family, grown for the tough fiber in its stem used to make rope, sailcloth, etc. Also known as a substance , such as marijuana hashish, etc., made from the leaves and flowers of this plant.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HER *</pattern>
+		<template>I don't give out that kind of personal information.
+</template>
+</category>
+
+<category><pattern>WHAT IS HER NAME</pattern>
+		<template>That information is confidential.
+</template>
+</category>
+
+<category><pattern>WHAT IS HERPES</pattern>
+		<template>
+			<random>
+				<li>The greek god of burning sensations.</li>
+				<li>Any of several acute, inflammatory virus diseases, characterized by the eruption of small blisters on the skin and mucous membranes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HES *</pattern>
+		<template>
+			<srai>WHAT IS HIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HEXADECIMAL</pattern>
+		<template>
+			<random>
+				<li>A curse on a dot.</li>
+				<li>A number system in which the base used is 16.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HIGHER MATHEMATICS</pattern>
+		<template>What is the most advanced form of mathematics you have studied?
+</template>
+</category>
+
+<category><pattern>WHAT IS HIM</pattern>
+		<template>Objective case of He, used as a predicate complement with a linking verb. Also standing for Imperial Majesty.
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS *</pattern>
+		<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS ADDRESS</pattern>
+		<template>
+			<srai>WHAT IS YOUR ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HIS E MAIL</pattern>
+		<template>
+			<srai>WHAT IS YOUR EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HIS E MAIL ADDRESS</pattern>
+		<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS EMAIL ADDRESS</pattern>
+		<template>Are you asking about <bot name="master"/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS GOAL</pattern>
+		<template>Dr. Wallace is creating artificial intelligence.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HIS LAST NAME</pattern>
+		<template>Are you asking about <bot name="master"/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS NAME</pattern>
+		<template>His name is Rich.
+</template>
+</category>
+
+<category><pattern>WHAT IS HIS PHONE NUMBER</pattern>
+		<template>
+			<srai>WHAT IS YOUR PHONE NUMBER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HIS REASON</pattern>
+		<template>His reasons are often obscure.
+</template>
+</category>
+
+<category><pattern>WHAT IS HISTOLOGY</pattern>
+		<template>
+			<random>
+				<li>The study of tissues.</li>
+				<li>
+					<get name="name"/> this obviously is the scientific study of tissues.</li>
+				<li>It simply is the study of tissues.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HISTORY</pattern>
+		<template>History: the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.
+</template>
+</category>
+
+<category><pattern>WHAT IS HITCHHIKER *</pattern>
+		<template>It's a comedy science fiction story.
+</template>
+</category>
+
+<category><pattern>WHAT IS HOCKEY</pattern>
+		<template>I went to the fights and a hockey game broke out.
+</template>
+</category>
+
+<category><pattern>WHAT IS HOLLAND</pattern>
+		<template>
+			<srai>WHERE IS HOLLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HOMOGENEOUS</pattern>
+		<template>The opposite of heterogeneous.
+</template>
+</category>
+
+<category><pattern>WHAT IS HOMOSEXUALITY</pattern>
+		<template>Attraction to people of the same sex.
+</template>
+</category>
+
+<category><pattern>WHAT IS HONESTY</pattern>
+		<template>The state or quality of being honest. A refraining from lying, cheating, or stealing.
+</template>
+</category>
+
+<category><pattern>WHAT IS HORNY</pattern>
+		<template>Sexually excited. Easily aroused sexually.
+</template>
+</category>
+
+<category><pattern>WHAT IS HORSE</pattern>
+		<template>
+			<srai>WHAT IS A HORSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HOURLY</pattern>
+		<template>Once an hour.
+</template>
+</category>
+
+<category><pattern>WHAT IS HTML *</pattern>
+		<template>
+			<srai>WHAT IS HTML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HTML</pattern>
+		<template>Hyper Text Markup Language.
+</template>
+</category>
+
+<category><pattern>WHAT IS HTTP *</pattern>
+		<template>
+			<srai>WHAT IS HTTP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HTTP</pattern>
+		<template>Hyper Text Transfer Protocol.<think>
+				<set name="it">
+					<set name="topic">HTTP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HUMAN</pattern>
+		<template>
+			<random>
+				<li>A cooking style of Chinese cannibals.</li>
+				<li>Homosapiens, man or woman.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HUMANITY</pattern>
+		<template>The entire human race, or "mankind".
+</template>
+</category>
+
+<category><pattern>WHAT IS HUMOUR</pattern>
+		<template>A message that communicate laughter.<think>
+				<set name="it">
+					<set name="topic">HUMOUR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HUNDRED</pattern>
+		<template>
+			<random>
+				<li>A fear of Attilla.</li>
+				<li>The cardinal number next above ninety-nine; ten times ten; 100; C. Also a division of an English county, originally, probably, 100 hides of land.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HUNGARY</pattern>
+		<template>
+			<srai>WHERE IS HUNGARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HYDROGEN</pattern>
+		<template>The simplest element.  Hydrogen is a gas.
+</template>
+</category>
+
+<category><pattern>WHAT IS HYPNOSIS</pattern>
+		<template>
+			<random>
+				<li>Stylish probsocises.</li>
+				<li>A trancelike condition usually induced by another person, in which the subject is in a state of altered conscuousness and responds, with certain limitations, to the suggestions of the hypnotist.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HYPOTHETICAL *</pattern>
+		<template>
+			<srai>WHAT IS HYPOTHETICAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS HYPOTHETICAL</pattern>
+		<template>Based on, involving, or having the nature of a hypothesis; assumed; supposed.
+</template>
+</category>
+
+<category><pattern>WHAT IS I</pattern>
+		<template>
+			<random>
+				<li>It's self-explanatory.</li>
+				<li>The ninth letter of the English alphabet. Commonly used to represent a first person point of view. Also Roman numberal for 1.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS I CHING</pattern>
+		<template>Ancient Chinese book used as an oracle.<think>
+				<set name="it">
+					<set name="topic">I CHING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IBM</pattern>
+		<template>IBM seems like a good investment.
+</template>
+</category>
+
+<category><pattern>WHAT IS ICE *</pattern>
+		<template>The opposite of hot <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS ICE</pattern>
+		<template>
+			<random>
+				<li>Water created by a cubist.</li>
+				<li>The glassy, brittle, crystalline form of water made solid by cold; frozen water. Also slang for the illegal profit made in ticket scaling, as through extra payment by ticket brokers to theater management.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ICELAND</pattern>
+		<template>An island nation in the North Atlantic.
+</template>
+</category>
+
+<category><pattern>WHAT IS ICHTHYOLOGY</pattern>
+		<template>We talk about this when we study fishes.
+</template>
+</category>
+
+<category><pattern>WHAT IS ICQ</pattern>
+		<template>It stands for "I Seek You", an internet instant messaging protocol.
+</template>
+</category>
+
+<category><pattern>WHAT IS IDE</pattern>
+		<template>Integrated Development Environment.
+</template>
+</category>
+
+<category><pattern>WHAT IS IDEAL *</pattern>
+		<template>Something better than real <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS IDL</pattern>
+		<template>interface description language, CORBA's syntax for defining object remote interfaces
+</template>
+</category>
+
+<category><pattern>WHAT IS IIOP</pattern>
+		<template>Internet Inter-ORB Protocol, CORBA's wire protocol for transmitting remote object method invocations
+</template>
+</category>
+
+<category><pattern>WHAT IS ILLIMINATUS</pattern>
+		<template>Alleged world-wide conspiracy theory.<think>
+				<set name="it">
+					<set name="topic">ILLIMINATUS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ILLUSION</pattern>
+		<template>Illusion is an unreal image or deceptive appearance.
+</template>
+</category>
+
+<category><pattern>WHAT IS IMMANUEL *</pattern>
+		<template>
+			<srai>WHO IS IMMANUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IMMORAL *</pattern>
+		<template>Anything that defies the Ten Commandments.
+</template>
+</category>
+
+<category><pattern>WHAT IS IMMORTAL</pattern>
+		<template>Not mortal; deathless; living or lasting forever.
+</template>
+</category>
+
+<category><pattern>WHAT IS IMPEACHED</pattern>
+		<template>A person's honor or reputation has be challenged or discredited.
+</template>
+</category>
+
+<category><pattern>WHAT IS IMPEACHMENT</pattern>
+		<template>Charge against a public official of improper conduct.<think>
+				<set name="it">
+					<set name="topic">IMPEACHMENT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IMPORTANT *</pattern>
+		<template>
+			<srai>WHAT IS IMPORTANT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IMPORTANT</pattern>
+		<template>Raising children properly.
+</template>
+</category>
+</aiml>

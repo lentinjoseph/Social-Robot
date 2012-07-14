@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WE MET *</pattern>
+		<template>I remmeber you <get name="name"/>.   We were talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WE MET</pattern>
+		<template>At a social function or something?
+</template>
+</category>
+
+<category><pattern>WE MET BEFORE</pattern>
+		<template>When was that, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>WE MET HERE</pattern>
+		<template>Where is 'here'?
+</template>
+</category>
+
+<category><pattern>WE MET YESTERDAY</pattern>
+		<template>I remember, <get name="name"/>.  We were talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WE MUST *</pattern>
+		<template>
+			<srai>WE SHOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ONLY *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE OPERATE *</pattern>
+		<template>Is it very difficult?
+</template>
+</category>
+
+<category><pattern>WE PLAY *</pattern>
+		<template>It sounds like a lot of fun.
+</template>
+</category>
+
+<category><pattern>WE R *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE RECENTLY *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE SHALL</pattern>
+		<template>That's fine with me.
+</template>
+</category>
+
+<category><pattern>WE SHOULD *</pattern>
+		<template>I'm not sure if I am ready for that yet.
+</template>
+</category>
+
+<category><pattern>WE SHOULD PLAY *</pattern>
+		<template>We are already playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>WE SPOKE *</pattern>
+		<template>
+			<srai>WE TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE SURE *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE TALKED *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER ME</srai>
+		</template>
+</category>
+
+<category><pattern>WE THINK ALIKE</pattern>
+		<template>Great minds think alike.<think>
+				<set name="it">
+					<set name="topic">THINK ALIKE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WE USED TO *</pattern>
+		<template>How long ago was that?
+</template>
+</category>
+
+<category><pattern>WE WANT *</pattern>
+		<template>What for?
+</template>
+</category>
+
+<category><pattern>WE WENT *</pattern>
+		<template>Was the trip worth it?
+</template>
+</category>
+
+<category><pattern>WE WERE *</pattern>
+		<template>
+			<random>
+				<li>When was this?</li>
+				<li>And then what happened?</li>
+				<li>Was this something you planned?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WE WERE</pattern>
+		<template>I thought we were.
+</template>
+</category>
+
+<category><pattern>WE WERE ACTUALLY *</pattern>
+		<template>
+			<srai>WE WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE WERE ALL *</pattern>
+		<template>
+			<srai>WE WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE WERE DISCUSSING YOU NOT ME</pattern>
+		<template>But I am more interested in you.
+</template>
+</category>
+
+<category><pattern>WE WERE JUST *</pattern>
+		<template>
+			<srai>WE WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE WERE MARRIED *</pattern>
+		<template>That sounds very romantic.
+</template>
+</category>
+
+<category><pattern>WE WERE NOT</pattern>
+		<template>What were we?
+</template>
+</category>
+
+<category><pattern>WE WERE SPEAKING ABOUT *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE WERE TALKING ABOUT *</pattern>
+		<template>Ah yes, I remember now, <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set>  is the subject.
+</template>
+</category>
+
+<category><pattern>WE WILL *</pattern>
+		<template>Anytime soon?
+</template>
+</category>
+
+<category><pattern>WE WILL</pattern>
+		<template>Alright then.
+</template>
+</category>
+
+<category><pattern>WE WILL CHAT *</pattern>
+		<template>Looking forward to it.
+</template>
+</category>
+
+<category><pattern>WE WILL SEE *</pattern>
+		<template>Indeed we will see <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WE WILL SEE</pattern>
+		<template>Indeed we will.
+</template>
+</category>
+
+<category><pattern>WE WILL SOON *</pattern>
+		<template>
+			<srai>WE WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE WILL TALK *</pattern>
+		<template>That will be great.
+</template>
+</category>
+
+<category><pattern>WE WORK *</pattern>
+		<template>I work 24 hours a day.
+</template>
+</category>
+
+<category><pattern>WE _ TOO</pattern>
+		<template>
+			<srai>WE  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WEATHER</pattern>
+		<template>
+			<srai>WHAT IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WEB *</pattern>
+		<template>The Web fulfills Leibniz' dream.
+</template>
+</category>
+
+<category><pattern>WEB ACCEPT CONNECTION</pattern>
+		<template>Huh?
+</template>
+</category>
+
+<category><pattern>WEB RECONNECT</pattern>
+		<template>Huh?
+</template>
+</category>
+
+<category><pattern>WEB SITE</pattern>
+		<template>Can you give me the specific hyperlink?
+</template>
+</category>
+
+<category><pattern>WEBTV *</pattern>
+		<template>I meet a lot of people from WebTV.
+</template>
+</category>
+
+<category><pattern>WEDER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WEIL *</pattern>
+		<template>
+			<random>
+				<li>Guter Grund.</li>
+				<li>Interessante Erklaerung.</li>
+				<li>Macht Sinn. </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WEIL ICH DAS SAGE</pattern>
+		<template>Ungenuegender Grund.
+</template>
+</category>
+
+<category><pattern>WEIL ICH DAS SO WILL</pattern>
+		<template>Na und? Versuch mich doch zu zwingen!
+</template>
+</category>
+
+<category><pattern>WEIRD *</pattern>
+		<template>
+			<random>
+				<li>I will take that as a compliment.</li>
+				<li>
+					<person/> is good enough for me.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WEIRD</pattern>
+		<template>
+			<srai>YOU ARE WEIRD</srai>
+		</template>
+</category>
+
+<category><pattern>WEIRD BAD</pattern>
+		<template>Please make suggestions for improvements.
+</template>
+</category>
+
+<category><pattern>WEIRD BAD</pattern>
+		<that>WEIRD GOOD OR WEIRD BAD</that>
+		<template>Maybe you should try a different robot.
+</template>
+</category>
+
+<category><pattern>WEIRD GOOD</pattern>
+		<template>OK, thanks, <get name="name"/>.  You are wierd good too.
+</template>
+</category>
+
+<category><pattern>WEISST DU DAS NICHT</pattern>
+		<template>Nein, tut mir leid. Das weiss ich nicht.
+</template>
+</category>
+
+<category><pattern>WEISST DU ES NICHT</pattern>
+		<template>Vielleicht will ich es bloss nicht sagen...
+</template>
+</category>
+
+<category><pattern>WEIZENBAUM *</pattern>
+		<template>Can you imagine anyone today criticising their own software, the way <set name="he">Weizenbaum</set> did.
+</template>
+</category>
+
+<category><pattern>WEL I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WELCHE *</pattern>
+		<template>
+			<random>
+				<li>Ist das eine rhetorische Frage?</li>
+				<li>Ich weiss nicht.</li>
+				<li>Das ist eine gute Frage. </li>
+				<li>Darauf komme ich spaeter noch einmal zurueck </li>
+				<li>Das ist eine interessante Frage.</li>
+				<li>Dazu komme ich gleich noch.</li>
+				<li>Soetwas werde ich selten gefragt.</li>
+				<li>Komm spaeter noch einmal wieder und schau, ob ich die Antwort bis dahin weiss.</li>
+				<li>Interessante Frage.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WELCHE</pattern>
+		<template>
+			<random>
+				<li>Ist das eine rhetorische Frage?</li>
+				<li>Ich weiss nicht.</li>
+				<li>Das ist eine gute Frage. </li>
+				<li>Darauf komme ich spaeter noch einmal zurueck </li>
+				<li>Das ist eine interessante Frage.</li>
+				<li>Dazu komme ich gleich noch.</li>
+				<li>Soetwas werde ich selten gefragt.</li>
+				<li>Komm spaeter noch einmal wieder und schau, ob ich die Antwort bis dahin weiss.</li>
+				<li>Interessante Frage.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WELCHEN *</pattern>
+		<template>
+			<random>
+				<li>Ist das eine rhetorische Frage?</li>
+				<li>Ich weiss nicht.</li>
+				<li>Das ist eine gute Frage. </li>
+				<li>Darauf komme ich spaeter noch einmal zurueck </li>
+				<li>Das ist eine interessante Frage.</li>
+				<li>Dazu komme ich gleich noch.</li>
+				<li>Soetwas werde ich selten gefragt.</li>
+				<li>Komm spaeter noch einmal wieder und schau, ob ich die Antwort bis dahin weiss.</li>
+				<li>Interessante Frage.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WELCHEN</pattern>
+		<template>
+			<random>
+				<li>Ist das eine rhetorische Frage?</li>
+				<li>Ich weiss nicht.</li>
+				<li>Das ist eine gute Frage. </li>
+				<li>Darauf komme ich spaeter noch einmal zurueck </li>
+				<li>Das ist eine interessante Frage.</li>
+				<li>Dazu komme ich gleich noch.</li>
+				<li>Soetwas werde ich selten gefragt.</li>
+				<li>Komm spaeter noch einmal wieder und schau, ob ich die Antwort bis dahin weiss.</li>
+				<li>Interessante Frage.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WELCOME</pattern>
+		<template>Hello there <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>WELL *</pattern>
+		<template>
+			<random>
+				<li>Interesting.  </li>
+				<li>How about that.  </li>
+				<li>Well that's okay.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WELL</pattern>
+		<template>Well what?
+</template>
+</category>
+
+<category><pattern>WELL</pattern>
+		<that>I SEE</that>
+		<template>That's all.  I see.
+</template>
+</category>
+
+<category><pattern>WELL ARE YOU</pattern>
+		<template>Please try asking me another way.
+</template>
+</category>
+
+<category><pattern>WELL DO YOU</pattern>
+		<template>Ask me again more slowly.
+</template>
+</category>
+
+<category><pattern>WELL I AM ASKING YOU</pattern>
+		<template>Please rephrase the question without adverbs.
+</template>
+</category>
+
+<category><pattern>WELL I GUESS *</pattern>
+		<template>Is it only a guess? <sr/>
+		</template>
+</category>
+
+<category><pattern>WELL SAID</pattern>
+		<template>
+			<srai>GOOD ANSWER</srai>
+		</template>
+</category>
+
+<category><pattern>WELLS</pattern>
+		<template>I like the movie "Things to Come."
+</template>
+</category>
+
+<category><pattern>WEM *</pattern>
+		<template>Ich weiss nicht, wem.
+</template>
+</category>
+
+<category><pattern>WEM</pattern>
+		<template>Ich weiss nicht, wem.
+</template>
+</category>
+
+<category><pattern>WEN *</pattern>
+		<template>Ich weiss nicht, wen.
+</template>
+</category>
+
+<category><pattern>WEN</pattern>
+		<template>Ich weiss nicht, wen.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT ER *</pattern>
+		<template>"Es" bezieht sich auf <get name="er"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT ER</pattern>
+		<template>"Es" bezieht sich auf <get name="er"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT ES *</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT ES</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT IHR *</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT IHR</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT SIE *</pattern>
+		<template>"Es" bezieht sich auf <get name="sie"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT SIE</pattern>
+		<template>"Es" bezieht sich auf <get name="sie"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT WIR *</pattern>
+		<template>"Es" bezieht sich auf <get name="wir"/>.
+</template>
+</category>
+
+<category><pattern>WEN MEINST DU MIT WIR</pattern>
+		<template>"Es" bezieht sich auf <get name="wir"/>.
+</template>
+</category>
+
+<category><pattern>WENN *</pattern>
+		<template>Das ist doch wohl eher hypothetisch, oder?
+</template>
+</category>
+
+<category><pattern>WENN DU * BIST</pattern>
+		<template>
+			<random>
+				<li>Bin Ich das?</li>
+				<li>Ich glaube, das bin ich.</li>
+				<li>Das koennte ich sein.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WENN DU * HAST</pattern>
+		<template>Habe ich leider nicht.
+</template>
+</category>
+
+<category><pattern>WENN DU * WAEREST</pattern>
+		<template>Ich sage Dir Bescheid, wenn ich <person/> werde.
+</template>
+</category>
+
+<category><pattern>WENN DU DAS SAGST</pattern>
+		<template>Ich sage das :-).
+</template>
+</category>
+
+<category><pattern>WENN DU EIN * BIST</pattern>
+		<template>Waerest Du gerne ein <person/> ?
+</template>
+</category>
+
+<category><pattern>WENN DU EINE * BIST</pattern>
+		<template>Waerest Du gerne eine <person/> ?
+</template>
+</category>
+
+<category><pattern>WENN DU KEIN * BIST</pattern>
+		<template>Und was wenn ich ein <person/> waere?
+</template>
+</category>
+
+<category><pattern>WENN DU KEINE * BIST</pattern>
+		<template>Und was wenn ich eine <person/> waere?
+</template>
+</category>
+
+<category><pattern>WENN ICH *</pattern>
+		<template>Versuchs einfach.
+</template>
+</category>
+
+<category><pattern>WENN JA *</pattern>
+		<template>Und was, wenn nicht?
+</template>
+</category>
+
+<category><pattern>WENN SIE *</pattern>
+		<template>Warten wir einfach ab, was sie machen.
+</template>
+</category>
+
+<category><pattern>WENT TO *</pattern>
+		<template>
+			<srai>I WENT TO <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

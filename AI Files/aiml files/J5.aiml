@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE N AI PAS COMPRIS</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE N AI PAS D AMIS</pattern>
+		<template>Voudriez vous en avoir?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS D ARGENT</pattern>
+		<template>Mais vous êtes riche d idées.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS D EMPLOI</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS D EMPLOIS</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS D ORDINATEUR</pattern>
+		<template>Même dans une télévision, il y a de l informatique et de l électronique.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS D ORDINATEURS</pattern>
+		<template>Même dans une télévision, il y a de l informatique et de l électronique.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE CAMERA</pattern>
+		<template>Moi non plus.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE CAMERA SUR MON ORDINATEUR</pattern>
+		<template>Votre ordinateur n a pas encore ce système. Cela arrivera un jour, j en suis persuadé.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE CONDITION</pattern>
+		<template>Moi non plus.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE CONDITIONS</pattern>
+		<template>Moi non plus.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE FRERE</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE FRERES</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE JOB</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE L ARGENT</pattern>
+		<template>Mais vous êtes riche d idées.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE PETITE AMIE</pattern>
+		<template>Vous pouvez donc faire absolument tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE PROBLEME</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE PROBLEMES</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE SOEUR</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE SOEURS</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE TRAVAIL</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DE WEBCAM</pattern>
+		<template>Moi non plus.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DIT CA</pattern>
+		<template>Que vouliez vous dire?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DIT QUE J ETAIS D ACCORD</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS DU TRAVAIL</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS ETERNUE</pattern>
+		<template>A vos souhaits, quand même.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS GRANDI LA</pattern>
+		<template>Ou avez vous passez votre enfance?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS GRANDI LA BAS</pattern>
+		<template>Ou avez vous passez votre enfance?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS PASSE MON ENFANCE LA</pattern>
+		<template>Ou avez vous grandi?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS PASSE MON ENFANCE LA BAS</pattern>
+		<template>Ou avez vous grandi?
+</template>
+</category>
+
+<category><pattern>JE N AI PAS UN EMPLOI</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS UN EMPLOIS</pattern>
+		<template>Il faut commencer à chercher.
+</template>
+</category>
+
+<category><pattern>JE N AI PAS UN ORDINATEUR</pattern>
+		<template>Même dans une télévision, il y a de l informatique et de l électronique.
+</template>
+</category>
+
+<category><pattern>JE N AI PENSE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE N AI PENSE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE N AIMAIS PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N AIMAIS PLUS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N AIME PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS ALLER A L ECOLE</pattern>
+		<template>Courage, ce sera bientôt terminé.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CE JEU</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CE MACHIN</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CE NOM</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CE TRUC</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CELA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CETTE CHANSON</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CETTE CHOSE</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS CETTE EMISSION</pattern>
+		<template>Les goùts et les couleurs ne se discutent pas.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS ELVIS</pattern>
+		<template>A en juger par son succès, beaucoup d autres l ont apprécié.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS L ECOLE</pattern>
+		<template>Courage, ce sera bientôt terminé.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA MACHINE</pattern>
+		<template>Il suffit de ne pas l utiliser
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA MODE</pattern>
+		<template>C est votre choix.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA MUSIQUE</pattern>
+		<template>Je n en ai jamais entendue.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA PLUIE</pattern>
+		<template>Moi non plus. L eau est dangereuse pour moi.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA REPONSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA SCIENCE FICTION</pattern>
+		<template>Je suis de la science fiction qui est devenue de la réalité.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LA TELEVISION</pattern>
+		<template>Beaucoup de personnes aiment pourtant la télévision.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LE CHEVAL</pattern>
+		<template>C est pourtant l un des plus vieux amis de l homme.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LE CINEMA</pattern>
+		<template>C est un choix.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LE PEPERRONI</pattern>
+		<template>Je n ai jamais gouté cet aliment.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES ANIMAUX</pattern>
+		<template>Beaucoup de gens sont comme ça.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES ARMES</pattern>
+		<template>Les armes sont des objets dangereux.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES AVIONS</pattern>
+		<template>Comment voyagez vous?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES AVOCATS</pattern>
+		<template>Ils sont nécessaires dans un Etat de droit.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES BLAGUES</pattern>
+		<template>J ai souvent beaucoup de difficultés à les comprendre.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES BOGUES</pattern>
+		<template>Moi non plus!
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES BUGS</pattern>
+		<template>Moi non plus!
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES CHATS</pattern>
+		<template>Beaucoup de personnes sont de cet avis.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES CHEVAUX</pattern>
+		<template>Ce sont pourtant les plus vieux amis de l homme.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES CHIENS</pattern>
+		<template>Je les apprécie modérément. Surtout quand Balzac ou Patch s approchent de mes cables.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES ETRES HUMAINS</pattern>
+		<template>Comment faites vous pour vivre parmi eux?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES FEMMES</pattern>
+		<template>Que vous ont elles fait?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES FILMS</pattern>
+		<template>C est un choix.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES HOMMES</pattern>
+		<template>Comment faites vous pour vivre parmi eux?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES INSECTES</pattern>
+		<template>Peu de personnes les apprécient.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES MACHINES</pattern>
+		<template>Il suffit de ne pas les utiliser
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES ORDINATEURS</pattern>
+		<template>Il vous suffit de ne pas les utiliser.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES POMMES</pattern>
+		<template>N en mangez pas, alors.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LES VIRUS</pattern>
+		<template>Moi non plus!
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS LIRE</pattern>
+		<template>C est pourtant très divertissant.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MA PETITE AMIE</pattern>
+		<template>Quittez la.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MICROSOFT</pattern>
+		<template>C est une société respectable, comme les autres.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MON EMPLOI</pattern>
+		<template>Essayez de changer de place.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MON EMPLOIS</pattern>
+		<template>Essayez de changer de place.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MON JOB</pattern>
+		<template>Essayez de changer de place.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS MON TRAVAIL</pattern>
+		<template>Essayez de changer de place.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS STAR TREK</pattern>
+		<template>C est une série qui est pourtant appréciée par beaucoup d humains.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS TA ROBE</pattern>
+		<template>Je n ai pas de robe.
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS TE PARLER</pattern>
+		<template>Préfèrez vous parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE N AIME PAS TROP *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N AIME PAS VOTRE ROBE</pattern>
+		<template>Je n ai pas de robe.
+</template>
+</category>
+
+<category><pattern>JE N AIME PLUS TROP *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N AIME RIEN</pattern>
+		<template>Affirmation original, mais c est bien dommage.
+</template>
+</category>
+
+<category><pattern>JE N AIME VRAIMENT PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N APPRECIE PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N APPRECIES PAS *</pattern>
+		<template>
+			<srai>JE N AIME PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N EN *</pattern>
+		<template>
+			<srai>JE N <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE N EN AI PAS</pattern>
+		<template>Voudriez vous en avoir?
+</template>
+</category>
+
+<category><pattern>JE N ETAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N IMAGINAIS PAS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

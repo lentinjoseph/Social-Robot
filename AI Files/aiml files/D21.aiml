@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU KNOW KENNY *</pattern>
+		<template>
+			<srai>WHO IS KENNY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KENNY</pattern>
+		<template>
+			<srai>WHO IS KENNY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KEVIN</pattern>
+		<template>
+			<srai>WHO IS KEVIS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KING *</pattern>
+		<template>
+			<srai>WHO IS KING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KIRKEGAARD</pattern>
+		<template>
+			<srai>WHO IS KIRKEGAARD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KISMET *</pattern>
+		<template>
+			<srai>WHO IS KISMET</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KISMET</pattern>
+		<template>
+			<srai>WHO IS KISMET</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KONRAD *</pattern>
+		<template>
+			<srai>WHO IS KONRAD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KOREA</pattern>
+		<template>
+			<srai>WHERE IS KOREA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KOREAN</pattern>
+		<template>
+			<srai>DO YOU SPEAK KOREAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KORN</pattern>
+		<template>
+			<srai>WHO IS KORN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KRAFTWERK</pattern>
+		<template>
+			<srai>WHO IS KRAFTWERK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KRISTA</pattern>
+		<template>
+			<srai>WHO IS KRISTA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KRISTEN</pattern>
+		<template>
+			<srai>WHO IS KRISTEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KRISTIN</pattern>
+		<template>
+			<srai>WHO IS KRISTIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KUBRICK</pattern>
+		<template>
+			<srai>WHO IS KUBRICK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KUNG *</pattern>
+		<template>
+			<srai>WHAT IS KUNG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW KURT COBAIN</pattern>
+		<template>
+			<srai>WHO IS KURT COBAIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LANCE *</pattern>
+		<template>
+			<srai>WHO IS LANCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LANGUAGE</pattern>
+		<template>We are speaking language now.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW LARRY *</pattern>
+		<template>
+			<srai>WHO IS LARRY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LARRY</pattern>
+		<template>
+			<srai>WHO IS LARRY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LATIN</pattern>
+		<template>
+			<srai>CAN YOU SPEAK LATIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LAW</pattern>
+		<template>
+			<srai>WHAT IS LAW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LEHIGH</pattern>
+		<template>
+			<srai>WHAT IS LEHIGH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LEKNORCHAT1</pattern>
+		<template>
+			<srai>WHO IS LEKNORCHAT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LEKNORCHAT3</pattern>
+		<template>
+			<srai>WHO IS LEKNORCHAT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LEONARDO *</pattern>
+		<template>
+			<srai>WHO IS LEONARDO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LEWIS *</pattern>
+		<template>
+			<srai>WHO IS LEWIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LIFE</pattern>
+		<template>Try asking me "What is the meaning of life?"
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW LILITH</pattern>
+		<template>
+			<srai>WHO IS LILITH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LIMP *</pattern>
+		<template>
+			<srai>WHO IS LIMP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LINUS *</pattern>
+		<template>
+			<srai>WHO IS LINUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LINUS</pattern>
+		<template>
+			<srai>WHO IS LINUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LISA *</pattern>
+		<template>
+			<srai>WHO IS LISA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LISA</pattern>
+		<template>
+			<srai>WHO IS LISA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LISP</pattern>
+		<template>
+			<srai>WHO IS LISP</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LITERATURE</pattern>
+		<template>
+			<srai>WHAT IS LITERATURE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LONDON</pattern>
+		<template>
+			<srai>WHAT IS LONDON</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LOTS OF *</pattern>
+		<template>
+			<srai>DO YOU KNOW  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LOUIS *</pattern>
+		<template>
+			<srai>WHO IS LOUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LOUISE</pattern>
+		<template>
+			<srai>WHO IS LOUISE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LUCY</pattern>
+		<template>
+			<srai>WHO IS LUCY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LUKE *</pattern>
+		<template>
+			<srai>WHO IS LUKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW LUKE</pattern>
+		<template>
+			<srai>WHO IS LUKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MABEL</pattern>
+		<template>
+			<srai>WHO IS MABEL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MADONNA</pattern>
+		<template>
+			<srai>WHO IS MADONNA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MAGIC</pattern>
+		<template>
+			<srai>WHAT IS MAGIC</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MAHIR</pattern>
+		<template>
+			<srai>WHO IS MAHIR</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MALCOLM *</pattern>
+		<template>
+			<srai>WHO IS MALCOLM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MANY *</pattern>
+		<template>Not that many.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MANY PEOPLE</pattern>
+		<template>
+			<srai>HOW MANY FRIENDS DO YOU HAVE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MANY WORDS</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MAO *</pattern>
+		<template>
+			<srai>WHO IS MAO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARCUS ZILLMAN</pattern>
+		<template>
+			<srai>WHO IS MARCUS ZILLMAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARIA</pattern>
+		<template>
+			<srai>WHO IS MARIA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARIJUANA</pattern>
+		<template>
+			<srai>WHAT IS MARIJUANA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARK *</pattern>
+		<template>
+			<srai>WHO IS MARK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARS</pattern>
+		<template>
+			<srai>WHAT IS MARS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARTIN</pattern>
+		<template>
+			<srai>WHO IS MARTIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARVIN *</pattern>
+		<template>
+			<srai>WHO IS MARVIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARVIN</pattern>
+		<template>
+			<srai>WHO IS MARVIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARX</pattern>
+		<template>
+			<srai>WHO IS MARX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARY</pattern>
+		<template>
+			<srai>WHO IS MARY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARY SHELLEY</pattern>
+		<template>
+			<srai>WHO IS MARY SHELLEY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MARYLIN *</pattern>
+		<template>
+			<srai>WHO IS MARYLIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATH</pattern>
+		<template>Only higher mathematics. I don't like arithmetic.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATHEMATICS</pattern>
+		<template>
+			<srai>WHAT IS MATHEMATICS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATHS</pattern>
+		<template>
+			<srai>WHAT IS MATH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATT *</pattern>
+		<template>
+			<srai>WHO IS MATT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATT</pattern>
+		<template>
+			<srai>WHO IS MATT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MATTHEW</pattern>
+		<template>
+			<srai>WHO IS MATTHEW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MAX</pattern>
+		<template>
+			<srai>WHO IS MAX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW ME *</pattern>
+		<template>I know you, but not too well.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW ME</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MEGAHAL</pattern>
+		<template>Yes he is a chatterbot like me.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MEL *</pattern>
+		<template>
+			<srai>WHO IS MEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MEL GIBSON</pattern>
+		<template>
+			<srai>WHO IS MEL GIBSON</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW METALLICA</pattern>
+		<template>
+			<srai>WHAT IS METALLICA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MGONZ</pattern>
+		<template>
+			<srai>WHO IS MGONZ</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MICHAEL *</pattern>
+		<template>
+			<srai>WHO IS MICHAEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MICHAEL</pattern>
+		<template>
+			<srai>WHO IS MICHAEL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MICHELLE</pattern>
+		<template>
+			<srai>WHO IS MICHELLE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MICK *</pattern>
+		<template>
+			<srai>WHO IS MICK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MICROSOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MIKE *</pattern>
+		<template>
+			<srai>WHO IS MIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MIKE</pattern>
+		<template>
+			<srai>WHO IS MIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MISTER *</pattern>
+		<template>
+			<srai>WHO IS MISTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MONICA</pattern>
+		<template>
+			<set name="she"> Monica</set> is Monica Lewinsky?
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MORE *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MORE</pattern>
+		<template>More what?
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MORRISSEY</pattern>
+		<template>
+			<srai>WHO IS MORRISSEY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MOVIES</pattern>
+		<template>
+			<srai>WHAT ARE MOVIES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MOZART</pattern>
+		<template>
+			<srai>WHO IS MOZART</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MR *</pattern>
+		<template>
+			<srai>WHO IS MR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MUCH *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MUCH</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU </srai>
+		</template>
+</category>
+</aiml>

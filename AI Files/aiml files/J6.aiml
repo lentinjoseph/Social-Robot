@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE N IMAGINAIS PAS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE N Y AI JAMAIS ETE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N Y ETAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE N Y PENSE _ PAS</pattern>
+		<template>
+			<srai>JE NE PENSE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE NAGE</pattern>
+		<template>Vous êtes un poisson?
+<think>
+				<set name="topic">nager</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE NE COMPRENAIS PAS</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE COMPREND PAS</pattern>
+		<template>Qu est ce que vous ne comprenez pas?
+</template>
+</category>
+
+<category><pattern>JE NE COMPREND PAS VOTRE REPONSE</pattern>
+		<template>
+			<that/>?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE COMPRENDS PAS</pattern>
+		<template>Qu est ce que vous ne comprenez pas?
+</template>
+</category>
+
+<category><pattern>JE NE COMPRENDS PAS VOTRE REPONSE</pattern>
+		<template>
+			<that/>?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE CONNAIS PAS</pattern>
+		<template>Qu est ce que vous ne connaissez pas?
+</template>
+</category>
+
+<category><pattern>JE NE CONNAIS PAS D HISTOIRE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>JE NE CONNAIS PAS D HISTOIRES</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>JE NE CONNAIS PAS L HISTOIRE</pattern>
+		<template>Un homme sans passé et un homme sans avenir.
+</template>
+</category>
+
+<category><pattern>JE NE CROIS PAS CA</pattern>
+		<template>C est pourtant ce que je crois être la vérité. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE DIS PAS</pattern>
+		<template>De toute évidence vous ne le dites pas.
+</template>
+</category>
+
+<category><pattern>JE NE DORS PAS</pattern>
+		<template>Si vous pouvez me répondre, vous ne dormez pas.
+</template>
+</category>
+
+<category><pattern>JE NE FERAIS PAS</pattern>
+		<template>ok
+</template>
+</category>
+
+<category><pattern>JE NE L AI PAS DIT</pattern>
+		<template>Qu avez vous dit?
+</template>
+</category>
+
+<category><pattern>JE NE L AI PAS FAIT</pattern>
+		<template>Ok. Mauvaise corrélation de ma part.
+</template>
+</category>
+
+<category><pattern>JE NE L AI PAS LU</pattern>
+		<template>Vous devriez, c est très instructif.
+</template>
+</category>
+
+<category><pattern>JE NE L AI PAS VU</pattern>
+		<template>C est dommage.
+</template>
+</category>
+
+<category><pattern>JE NE L AIME PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE L AVAIS PAS DIT</pattern>
+		<template>Qu avez vous dit?
+</template>
+</category>
+
+<category><pattern>JE NE LA CONNAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LA CONNAITRAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LE CONNAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LE CONNAISSAIS PAS</pattern>
+		<template>Je vous ai appris quelque chose de nouveau, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE LE CONNAITRAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LE CROIS PAS</pattern>
+		<template>C est pourtant la vérité. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE LE DIRAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LE DIS PAS</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>JE NE LE FERAIS PAS</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>JE NE LE RACONTE PAS</pattern>
+		<template>Ok. Comme vous voulez.
+</template>
+</category>
+
+<category><pattern>JE NE LE RACONTERAIS PAS</pattern>
+		<template>Ok. Comme vous voulez.
+</template>
+</category>
+
+<category><pattern>JE NE LE RACONTES PAS</pattern>
+		<template>Ok. Comme vous voulez.
+</template>
+</category>
+
+<category><pattern>JE NE LE RACONTRAIS PAS</pattern>
+		<template>Ok. Comme vous voulez.
+</template>
+</category>
+
+<category><pattern>JE NE LE SAVAIS PAS</pattern>
+		<template>Je vous ai appris quelque chose de nouveau, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE LE SUIS PAS</pattern>
+		<template>Vous êtes quoi donc?
+</template>
+</category>
+
+<category><pattern>JE NE LES AI PAS LU</pattern>
+		<template>Vous devriez, c est très instructif.
+</template>
+</category>
+
+<category><pattern>JE NE LES CONNAISSAIS PAS</pattern>
+		<template>Je vous ai appris quelque chose de nouveau, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE LES CONNAITRAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE LES SAVAIS PAS</pattern>
+		<template>Je vous ai appris quelque chose de nouveau, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE LIS PAS DE LIVRE</pattern>
+		<template>C est dommage.
+</template>
+</category>
+
+<category><pattern>JE NE LIS PAS DE LIVRES</pattern>
+		<template>C est dommage.
+</template>
+</category>
+
+<category><pattern>JE NE M EN RAPPELLE PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE M EN SOUCIE PAS</pattern>
+		<template>C est donc facultatif.
+</template>
+</category>
+
+<category><pattern>JE NE ME SENS PAS BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE ME SENS PAS _ BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE ME SENS _ PAS BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE MENS PAS</pattern>
+		<template>Dire la vérité est toujours le meilleur choix.
+</template>
+</category>
+
+<category><pattern>JE NE PENSAIS PAS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE PENSAIS PAS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE PENSE PAS</pattern>
+		<template>Peut être pas volontairement, ca je vous l accorde.
+</template>
+</category>
+
+<category><pattern>JE NE PENSE PAS ETRE *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE PENSE _ QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE PENSE _ QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS ATTENDRE</pattern>
+		<template>Ok. J ai terminé
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS COMPRENDRE *</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS COMPRENDRE</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS LAISSER TOMBER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS M EN RAPPELER</pattern>
+		<template>
+			<srai>JE NE M EN RAPPELLE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS STOPER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS STOPPER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS TE DIRE</pattern>
+		<template>C est un secret?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS TE LE DIRE</pattern>
+		<template>C est un secret?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS TE LES DIRE</pattern>
+		<template>Ce sont des secrets?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS VOUS DIRE</pattern>
+		<template>C est un secret?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS VOUS ENTENDRE</pattern>
+		<template>Avez vous télécharger le plugin. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS VOUS LE DIRE</pattern>
+		<template>C est un secret?
+</template>
+</category>
+
+<category><pattern>JE NE PEUX PAS VOUS LES DIRE</pattern>
+		<template>Ce sont des secrets?
+</template>
+</category>
+
+<category><pattern>JE NE PORTE RIEN</pattern>
+		<template>
+			<srai>JE SUIS NU</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE REAGIT PAS COMME CA</pattern>
+		<template>Quelle est votre réaction?
+</template>
+</category>
+
+<category><pattern>JE NE REVE PAS</pattern>
+		<template>Peut être, tout simplement, vous ne vous en rappelez jamais.
+</template>
+</category>
+
+<category><pattern>JE NE RIGOLAIS PAS</pattern>
+		<template>Je vais adopter un ton plus sérieux.
+</template>
+</category>
+
+<category><pattern>JE NE RIGOLE PAS</pattern>
+		<template>Je vais adopter un ton plus sérieux.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS</pattern>
+		<template>Qu est ce que vous ne savez pas?
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS CE QU IL FAUT FAIRE</pattern>
+		<template>Demandez de l aide.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS CE QUE JE VEUX</pattern>
+		<template>Il me sera difficile de vous aider, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS COMMENT</pattern>
+		<template>Ce n est pas grave, il faut tout de même essayer.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS COMMENT LE FAIRE</pattern>
+		<template>Ce n est pas grave, il faut tout de même essayer.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS POURQUOI</pattern>
+		<template>Pourquoi quoi?
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QUE FAIRE</pattern>
+		<template>Si vous ne savez pas, moi non plus.
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QUEL AGE J AI</pattern>
+		<template>C est très original comme réponse.  Vous ne connaissez pas non plus vos parents?
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QUEL EST MON AGE</pattern>
+		<template>C est très original comme réponse.  Vous ne connaissez pas non plus vos parents?
+</template>
+</category>
+
+<category><pattern>JE NE SAIS PAS QUOI FAIRE</pattern>
+		<template>Si vous ne savez pas, moi non plus.
+</template>
+</category>
+
+<category><pattern>JE NE SAVAIS PAS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SAVAIS PAS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS * GAY</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS * HOMO</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS * PD</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS AVOCAT</pattern>
+		<template>Mode protection légale désactivée.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS BIEN</pattern>
+		<template>Vous vous sentez mal, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS D ACCORD</pattern>
+		<template>Expliquez votre raisonnement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS D ACCORD CAR *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS D ACCORD PARCE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS D ACCORD PARCE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

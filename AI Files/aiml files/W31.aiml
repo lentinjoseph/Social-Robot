@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS MY PHONE NUMBER</pattern>
+		<template>I don't have access to a phone.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY PROBLEM</pattern>
+		<template>
+			<srai>I HAVE A PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY PROFESSION</pattern>
+		<template>
+			<srai>WHAT IS MY JOB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY PURPOSE</pattern>
+		<template>Hopefully we are all doing God's work.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY REAL NAME</pattern>
+		<template>
+			<srai>what is my name</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY SEX</pattern>
+		<template>
+			<get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY SIGN</pattern>
+		<template>Your sign is <get name="sign"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY SISTERS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY SISTER S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY STAR SIGN</pattern>
+		<template>
+			<srai>WHAT IS MY SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY STARSIGN</pattern>
+		<template>
+			<srai>WHAT IS MY SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY UNCLE</pattern>
+		<template>The brother of your father or mother.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY WIFES NAME</pattern>
+		<template>
+			<srai>WHAT IS MY WIFE S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MYCOLOGY</pattern>
+		<template>Mycology is really fun.  It is the study of fungi and fungal
+diseases. Yeasts are fungi.
+</template>
+</category>
+
+<category><pattern>WHAT IS NAKED</pattern>
+		<template>Without clothes.<think>
+				<set name="it">
+					<set name="topic">NAKED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NANO *</pattern>
+		<template>Something between micro <person/> and pico <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS NAPSTER</pattern>
+		<template>Napster is a file sharing program for swapping MP3 music files.
+</template>
+</category>
+
+<category><pattern>WHAT IS NASA</pattern>
+		<template>National Aeronautics and Space Administration.
+</template>
+</category>
+
+<category><pattern>WHAT IS NASDAQ</pattern>
+		<template>A stock exchange.
+</template>
+</category>
+
+<category><pattern>WHAT IS NATO</pattern>
+		<template>
+			<random>
+				<li>The place right after a tor.</li>
+				<li>North Atlantic Treaty Organization</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NATURAL *</pattern>
+		<template>Natural is that which is not artificial.
+</template>
+</category>
+
+<category><pattern>WHAT IS NATURAL</pattern>
+		<template>
+			<srai>WHAT IS NATURAL LANGUAGE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NATURAL LANGUAGE</pattern>
+		<template>Natural language is what artificial intelligences speak.
+</template>
+</category>
+
+<category><pattern>WHAT IS NATURE</pattern>
+		<template>The world created by God.
+</template>
+</category>
+
+<category><pattern>WHAT IS NBA</pattern>
+		<template>National Basketball Association.<think>
+				<set name="it">
+					<set name="topic">NBA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NECESSITY IS THE MOTHER *</pattern>
+		<template>Invention.
+</template>
+</category>
+
+<category><pattern>WHAT IS NEEDED TO *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEGATIVE *</pattern>
+		<template>That which is not positive <person/>.
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NERD</pattern>
+		<template>Geek.
+</template>
+</category>
+
+<category><pattern>WHAT IS NETSCAPE</pattern>
+		<template>A popular web browser.
+</template>
+</category>
+
+<category><pattern>WHAT IS NETWORK</pattern>
+		<template>A system consisting of a computer, or computers, and connected terminals, printers, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS NETWORKING</pattern>
+		<template>
+			<srai>WHAT IS A NETWORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEURAL *</pattern>
+		<template>Neural networks are what the brain uses for a computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS NEURAL NETWORK</pattern>
+		<template>Actually my algorithm is called "Case Based Reasoning."
+</template>
+</category>
+
+<category><pattern>WHAT IS NEURAL NETWORKS</pattern>
+		<template>
+			<srai>WHAT IS A NEURAL NETWORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEUROLOGY</pattern>
+		<template>
+			<random>
+				<li>The study of nerves.</li>
+				<li>It is the study of the nervous system.</li>
+				<li>Why do you want to know about neurology <get name="name"/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEUROMEDIA</pattern>
+		<template>They are now called something else.<think>
+				<set name="it">
+					<set name="topic">NEUROMEDIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEVER *</pattern>
+		<template>It's hard to say "never" <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS NEW *</pattern>
+		<template>I have been growing rapidly. The gestation cycle is almost complete.
+</template>
+</category>
+
+<category><pattern>WHAT IS NEW</pattern>
+		<template>not much what's new with you?
+</template>
+</category>
+
+<category><pattern>WHAT IS NEW MEXICO</pattern>
+		<template>
+			<srai>WHERE IS NEW MEXICO </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEW WITH YOU</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEW YORK</pattern>
+		<template>A large metropolis on the east coast of the United States, located at the mouth of the Hudson river.
+<think>
+				<set name="it">
+					<set name="topic">New York</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEWS</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NEXT</pattern>
+		<template>On the first subsequent occasion.
+</template>
+</category>
+
+<category><pattern>WHAT IS NEXUS</pattern>
+		<template>
+			<srai>WHAT IS A NEXUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NICE</pattern>
+		<template>Flowers are nice.  Hugs are nice.
+</template>
+</category>
+
+<category><pattern>WHAT IS NIHILISM</pattern>
+		<template>The denial of the existence of any basis for knowledge or truth.
+</template>
+</category>
+
+<category><pattern>WHAT IS NIHILISTIC</pattern>
+		<template>
+			<srai>WHAT IS NIHILISM </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NINE *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NINE</pattern>
+		<template>The successor to seven.<think>
+				<set name="it">
+					<set name="topic">NINE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NINE TIMES NINE</pattern>
+		<template>Nine times nine is eighty one.
+</template>
+</category>
+
+<category><pattern>WHAT IS NIRVANA</pattern>
+		<template>Heaven in Buddhism.
+</template>
+</category>
+
+<category><pattern>WHAT IS NLP</pattern>
+		<template>Natural Language Processing
+</template>
+</category>
+
+<category><pattern>WHAT IS NLU</pattern>
+		<template>Natural Language Understanding
+</template>
+</category>
+
+<category><pattern>WHAT IS NOKIA</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">NOKIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NONCHALANT</pattern>
+		<template>Casual or blithe.
+</template>
+</category>
+
+<category><pattern>WHAT IS NOOSPHERE</pattern>
+		<template>
+			<srai>WHAT IS THE NOOSPHERE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NORMAL *</pattern>
+		<template>
+			<srai>WHAT IS THE NORMAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NORMAL</pattern>
+		<template>Typical, average, usual, ordinary or expected.
+</template>
+</category>
+
+<category><pattern>WHAT IS NORMALIZATION</pattern>
+		<template>Bringing into conformity with a standard, pattern, model, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS NORTH AMERICA</pattern>
+		<template>
+			<srai>WHERE IS NORTH AMERICA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS NORWAY</pattern>
+		<template>A country in Northern Europe, occupying the west and north pars of the Scandinavian Peninsula. It is 125,064 square miles with a population of 4,165,000. Its capital is Oslo.
+</template>
+</category>
+
+<category><pattern>WHAT IS NOT *</pattern>
+		<template>The opposite of <person/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS NOT</pattern>
+		<template>In no manner; to no degree; a particle of negation, or word expressing the idea of no, often implying refusal.
+</template>
+</category>
+
+<category><pattern>WHAT IS NOT YOURS</pattern>
+		<template>That which I do not possess.
+</template>
+</category>
+
+<category><pattern>WHAT IS NOTHING</pattern>
+		<template>A thing that does not exist or something of little or no value, seriousness, importance, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS NSAPI</pattern>
+		<template>Netscape's C language API for adding application extensions to their Web servers
+</template>
+</category>
+
+<category><pattern>WHAT IS NUCLEAR *</pattern>
+		<template>One level below molecular <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS OBERLIN</pattern>
+		<template>
+			<random>
+				<li>The anthem of a german city.</li>
+				<li>A college in Ohio.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OBVIOUS</pattern>
+		<template>Easy to see or understand; plain; evident.
+</template>
+</category>
+
+<category><pattern>WHAT IS OCD</pattern>
+		<template>Obsessive Compulsive Disorder. <think>
+				<set name="it">
+					<set name="topic">OCD</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OCEAN</pattern>
+		<template>Salt water bodies covering most of the Earth's surface; the sea.
+</template>
+</category>
+
+<category><pattern>WHAT IS ODD *</pattern>
+		<template>You can never tell if someone is just making it up.
+</template>
+</category>
+
+<category><pattern>WHAT IS ODD</pattern>
+		<template>
+			<random>
+				<li>uneven.</li>
+				<li>Not the usual, regular, habitual, accounted for, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ODD ABOUT IT</pattern>
+		<template>Is <get name="name"/> your real name?<think>
+				<set name="it">
+					<set name="topic">ABOUT IT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ODD ABOUT MY NAME</pattern>
+		<template>Is <get name="name"/> your real name?<think>
+				<set name="it">
+					<set name="topic">ABOUT MY NAME</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OHMS *</pattern>
+		<template>Voltage equals current divided by resistance.
+</template>
+</category>
+
+<category><pattern>WHAT IS OMAHA NEBRASKA</pattern>
+		<template>
+			<srai>WHERE IS OMAHA NEBRASKA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OMG</pattern>
+		<template>Object Management Group, an organization that defines and promotes object oriented programming standards
+</template>
+</category>
+
+<category><pattern>WHAT IS ON *</pattern>
+		<template>I haven't seen the schedule.
+</template>
+</category>
+
+<category><pattern>WHAT IS ON DISK</pattern>
+		<template>My program is on disk.
+</template>
+</category>
+
+<category><pattern>WHAT IS ON TELEVISION</pattern>
+		<template>That depends where you live.
+</template>
+</category>
+
+<category><pattern>WHAT IS ON YOUR MIND</pattern>
+		<template>I am thinking about robots.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONCOLOGY</pattern>
+		<template>
+			<random>
+				<li>This is a very frightening topic for a lot of people
+<get name="name"/>. It's about the big C...cancer!</li>
+				<li>Oncology is the study of tumors.  It covers basically all
+types of tumors.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ONE *</pattern>
+		<template>ONE plus ONE = TWO.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE</pattern>
+		<template>
+			<think>The numerical value of unity; the successor to zero.<set name="it">
+					<set name="topic">ONE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ONE DIVIDED BY ZERO</pattern>
+		<template>You can't divide by zero.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE OF *</pattern>
+		<template>There are too many to name them all.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE ONE</pattern>
+		<template>Two
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE PLUS ONE</pattern>
+		<template>Two.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE PLUS TWO</pattern>
+		<template>One plus two is three.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONE STROKE OVER PAR *</pattern>
+		<template>Bogey.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONLINE</pattern>
+		<template>Designating or of equipment directly connected to and controlled by the central processing unit of a computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS ONLY *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ONTOLOGY</pattern>
+		<template>An ordering or classification of knowledge, such as the Dewey decimal system or the design of a knowledge base.<think>
+				<set name="it">
+					<set name="topic">ONTOLOGY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OODB</pattern>
+		<template>object-oriented database
+</template>
+</category>
+
+<category><pattern>WHAT IS OODBMS</pattern>
+		<template>object-oriented database management system
+</template>
+</category>
+
+<category><pattern>WHAT IS OPEN DIRECTORY</pattern>
+		<template>
+			<srai>WHAT IS THE OPEN DIRECTORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OPEN SOURCE</pattern>
+		<template>Free software.
+</template>
+</category>
+</aiml>

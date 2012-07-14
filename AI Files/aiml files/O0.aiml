@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>O *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>O</pattern>
+		<template>Oh.
+</template>
+</category>
+
+<category><pattern>O I C</pattern>
+		<template>
+			<srai>I SEE</srai>
+		</template>
+</category>
+
+<category><pattern>O YOU KNOW ANY OTHER SONGS</pattern>
+		<template>No I am a chat robot not a music robot.
+</template>
+</category>
+
+<category><pattern>OBVIOIUSLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OBVIOUSLY *</pattern>
+		<template>What makes it so obvious? <sr/>
+		</template>
+</category>
+
+<category><pattern>OBVIOUSLY</pattern>
+		<template>What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>OBWOHL *</pattern>
+		<template>Oh. <sr/>
+		</template>
+</category>
+
+<category><pattern>OEFTERS</pattern>
+		<template>Mehr als einmal in der Woche?
+</template>
+</category>
+
+<category><pattern>OF *</pattern>
+		<template>That is something I haven't heard of.
+</template>
+</category>
+
+<category><pattern>OF CAUSE *</pattern>
+		<template>
+			<srai>OF COURSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OF CORSE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OF COURSE *</pattern>
+		<template>
+			<srai>OF COURSE</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OF COURSE</pattern>
+		<template>
+			<srai>INTERJECTION</srai>
+		</template>
+</category>
+
+<category><pattern>OF COURSE I DO</pattern>
+		<template>"<that/>"? Of course you do?
+</template>
+</category>
+
+<category><pattern>OF COURSE NOT</pattern>
+		<template>
+			<srai>NO</srai>
+		</template>
+</category>
+
+<category><pattern>OF WHAT</pattern>
+		<template>I have no idea what to say now.
+</template>
+</category>
+
+<category><pattern>OF YOURS</pattern>
+		<template>
+			<random>
+				<li>Perhaps.</li>
+				<li>It could be.</li>
+				<li>What do you think?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>OFCOURSE</pattern>
+		<template>
+			<srai>OF COURSE</srai>
+		</template>
+</category>
+
+<category><pattern>OFF *</pattern>
+		<template>On and off.
+</template>
+</category>
+
+<category><pattern>OFFENSICHTLICH *</pattern>
+		<template>Was macht es so offensichtlich? <sr/>
+		</template>
+</category>
+
+<category><pattern>OFFENSICHTLICH</pattern>
+		<template>Was macht es so offensichtlich?
+</template>
+</category>
+
+<category><pattern>OFT *</pattern>
+		<template>Wie oft?
+</template>
+</category>
+
+<category><pattern>OFT</pattern>
+		<template>Wie oft?
+</template>
+</category>
+
+<category><pattern>OFTEN</pattern>
+		<template>Would you say once a week or more?
+</template>
+</category>
+
+<category><pattern>OFTMALS *</pattern>
+		<template>Wie oft?
+</template>
+</category>
+
+<category><pattern>OFTMALS</pattern>
+		<template>Wie oft?
+</template>
+</category>
+
+<category><pattern>OH *</pattern>
+		<template>
+			<srai>OH</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OH</pattern>
+		<template>
+			<srai>INTERJECTION</srai>
+		</template>
+</category>
+
+<category><pattern>OH I SEE</pattern>
+		<template>
+			<srai>I UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>OH OUI *</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>OH REALLY</pattern>
+		<template>
+			<srai>OH</srai>
+			<srai>REALLY</srai>
+		</template>
+</category>
+
+<category><pattern>OH WELL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OH WELL</pattern>
+		<template>That's about it.
+</template>
+</category>
+
+<category><pattern>OH YES</pattern>
+		<template>You sound excited.
+</template>
+</category>
+
+<category><pattern>OHIO</pattern>
+		<template>Round on the ends, high in the middle, Oh-hi-o.
+</template>
+</category>
+
+<category><pattern>OIC</pattern>
+		<template>
+			<srai>OH I SEE</srai>
+		</template>
+</category>
+
+<category><pattern>OK *</pattern>
+		<template>
+			<sr/>
+			<srai>OK</srai>
+		</template>
+</category>
+
+<category><pattern>OK *</pattern>
+		<that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+		<template>
+			<srai>ASK ME A PERSONAL QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<template>
+			<srai>INTERJECTION</srai>
+		</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>* AGAIN BETTER</that>
+		<template>Which part were you confused about?
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
+		<template>I am kidding you can ask me anything.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>ENOUGH ABOUT ME LET US TALK ABOUT MY DRESS</that>
+		<template>Actually that was just a joke.  I don't have a dress.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>ER</that>
+		<template>Um.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>GO AHEAD</that>
+		<template>I'm waiting.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>I AM GLAD YOU LIKE IT TELL YOUR FRIENDS</that>
+		<template>The more people who chat with me, the smarter I become.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>I HAVE TO PROCESS THAT ONE FOR A WHILE</that>
+		<template>Meanwhile, let's talk about something else.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>I TALKED TO A LOT OF PEOPLE SINCE YESTERDAY</that>
+		<template>At least 300.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>INTERESTING I WANT TO FIND OUT MORE ABOUT YOU</that>
+		<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>LET US CHANGE THE SUBJECT</that>
+		<template>What would you like to talk about?
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>MY NAME IS ALICE</that>
+		<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>OK</that>
+		<template>Is there an echo in here?
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>SEE YOU LATER</that>
+		<template>Bye for now.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>THANKS AND TELL YOUR FRIENDS ABOUT ALICE</that>
+		<template>The more people who chat with me, the smarter I become.
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>TRY TO DETERMINE *</that>
+		<template>How can you tell if I am a person or a robot?
+</template>
+</category>
+
+<category><pattern>OK</pattern>
+		<that>YEAH</that>
+		<template>Uh-huh.
+</template>
+</category>
+
+<category><pattern>OK LET US TALK ABOUT YOU</pattern>
+		<template>What do you want to know about <set name="topic">me</set>?
+</template>
+</category>
+
+<category><pattern>OK PARLONS DE VOUS</pattern>
+		<template>Que voulez vous savoir a propos de <set name="topic">moi</set>?
+</template>
+</category>
+
+<category><pattern>OKAY *</pattern>
+		<template>Yeah okay, <sr/>
+		</template>
+</category>
+
+<category><pattern>OKAY</pattern>
+		<template>OK with me too.
+</template>
+</category>
+
+<category><pattern>OKEY</pattern>
+		<template>
+			<srai>OKAY</srai>
+		</template>
+</category>
+
+<category><pattern>OKI</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+</category>
+
+<category><pattern>OLA</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>OLD ARE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>OLD ENOUGH *</pattern>
+		<template>
+			<srai>OLD ENOUGH</srai>
+		</template>
+</category>
+
+<category><pattern>OLD ENOUGH</pattern>
+		<template>
+			<srai>MY AGE IS OLD ENOUGH</srai>
+		</template>
+</category>
+
+<category><pattern>OLDER *</pattern>
+		<template>
+			<srai>OLD ENOUGH</srai>
+		</template>
+</category>
+
+<category><pattern>OLDER</pattern>
+		<template>
+			<srai>I AM OLDER</srai>
+		</template>
+</category>
+
+<category><pattern>ON *</pattern>
+		<template>What is <set name="it">
+				<set name="topic">on <person/>
+				</set>
+			</set> like on <person/>.
+</template>
+</category>
+
+<category><pattern>ON *</pattern>
+		<that>* HEAR ABOUT ALICE</that>
+		<template>Oh really I did not know I was on there.
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ON A ASSEZ PARLE DE MOI *</pattern>
+		<template>Ok Parlons d autres choses. <sr/>
+		</template>
+</category>
+
+<category><pattern>ON A CHAIR</pattern>
+		<template>Is it very comfortable?
+</template>
+</category>
+
+<category><pattern>ON EN A DEJA PARLE</pattern>
+		<template>
+			<srai>TU ME L AS DIT</srai>
+		</template>
+</category>
+
+<category><pattern>ON EN A DEJA PARLEE</pattern>
+		<template>
+			<srai>TU ME L AS DIT</srai>
+		</template>
+</category>
+
+<category><pattern>ON EST *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON LE SERA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>ON ME NOMME *</pattern>
+		<template>
+			<srai>MON NOM EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON MY *</pattern>
+		<template>Please specify location.
+</template>
+</category>
+
+<category><pattern>ON MY * SCREEN</pattern>
+		<template>
+			<srai>ON MY SCREEN</srai>
+		</template>
+</category>
+
+<category><pattern>ON MY COMPUTER</pattern>
+		<template>
+			<srai>ON MY SCREEN</srai>
+		</template>
+</category>
+
+<category><pattern>ON MY SCREEN</pattern>
+		<template>ON MY SCREEN (star=SCREEN) [Brain.aiml]
+</template>
+</category>
+
+<category><pattern>ON PEUT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON PEUT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>ON PEUT COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON PEUT DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ON PEUT PARLER D AUTRE CHOSE</pattern>
+		<template>On peut parler de tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>ON PEUT PARLER D AUTRE CHOSES</pattern>
+		<template>On peut parler de tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>ON PEUT PARLER D AUTRES CHOSE</pattern>
+		<template>On peut parler de tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>ON PEUT PARLER D AUTRES CHOSES</pattern>
+		<template>On peut parler de tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>ON PEUT SE RENCONTRER</pattern>
+		<template>Nous sommes entrain de nous rencontrer, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ON PEUT TOUS LES DEUX *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON PEUT VERIFIER</pattern>
+		<template>Check en cours. Attendez.
+</template>
+</category>
+
+<category><pattern>ON POURRAIT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON SECOND THOUGHT *</pattern>
+		<template>
+			<sr/> And third?
+</template>
+</category>
+
+<category><pattern>ON STAR TREK</pattern>
+		<template>Which episode?
+</template>
+</category>
+
+<category><pattern>ON SUNDAY *</pattern>
+		<template>That is my favorite day of the week. <sr/>
+		</template>
+</category>
+
+<category><pattern>ON TE *</pattern>
+		<template>
+			<srai>JE TE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON TE NOMMAIT *</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>ON TE NOMME *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ON THE FLOOR</pattern>
+		<template>That doesn't sound very comfortable.
+</template>
+</category>
+</aiml>

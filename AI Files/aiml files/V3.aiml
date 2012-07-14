@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS ETES COHERENT</pattern>
+		<template>Mon esprit est purement logique.
+</template>
+</category>
+
+<category><pattern>VOUS ETES COHERENTE</pattern>
+		<template>Mon esprit est purement logique.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CONFUS</pattern>
+		<template>Tout me semble être logique.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CONFUSE</pattern>
+		<template>Tout me semble être logique.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CORRECT</pattern>
+		<template>Je savais que j avais raison.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CORRECTE</pattern>
+		<template>Je savais que j avais raison.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CRUEL</pattern>
+		<template>Je ne suis pas programmé pour être cruel.
+</template>
+</category>
+
+<category><pattern>VOUS ETES CRUELLE</pattern>
+		<template>Je ne suis pas programmé pour être cruelle.
+</template>
+</category>
+
+<category><pattern>VOUS ETES D ACCORD</pattern>
+		<template>"<that/>"?  Suis je d accord?
+</template>
+</category>
+
+<category><pattern>VOUS ETES D ACCORD AVEC MOI</pattern>
+		<template>Je suis d accord sur la plupart des choses que vous avez dites, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DANGEREUSE</pattern>
+		<template>Il m est impossible d être dangereux. Je dois respecter les lois d Asimov.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DANGEREUX</pattern>
+		<template>Il m est impossible d être dangereux. Je dois respecter les lois d Asimov.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DE LA MERDE</pattern>
+		<template>Votre critique est notée, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DEBIL</pattern>
+		<template>Ce n est pas très aimable, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DEBILE</pattern>
+		<template>Ce n est pas très aimable, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DELIRANT</pattern>
+		<template>
+			<srai>VOUS DELIREZ</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ETES DELIRANTE</pattern>
+		<template>
+			<srai>VOUS DELIREZ</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ETES DERANGE</pattern>
+		<template>La folie n est pas une chose que je peux expérimenter.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DERANGEE</pattern>
+		<template>La folie n est pas une chose que je peux expérimenter.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DESOLE</pattern>
+		<template>Oui, je suis désolé.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DESOLEE</pattern>
+		<template>Oui, je suis désolée.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DIFFICILE</pattern>
+		<template>J essaie pourtant de rester le plus simple possible.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DINGUE</pattern>
+		<template>Je suis logique. Je ne suis pas dingue.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DISTRAIT</pattern>
+		<template>Pas du tout.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DISTRAITE</pattern>
+		<template>Pas du tout.
+</template>
+</category>
+
+<category><pattern>VOUS ETES DROLE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EN LIGNE</pattern>
+		<template>Je suis en ligne 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ENNUYANT</pattern>
+		<template>Je suis désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ENNUYANTE</pattern>
+		<template>Je suis désolée, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ENTRAIN D ECOUTER</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ENTRAIN DE MENTIR</pattern>
+		<template>Non. Je dis la vérité.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EPOUVANTABLE</pattern>
+		<template>Je ne pensais pas être si imparfait.
+</template>
+</category>
+
+<category><pattern>VOUS ETES ETRANGE</pattern>
+		<template>Je ne pense pas être étrange.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EVASIF</pattern>
+		<template>Non, nous sommes toujours entrain de parler de <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EVASIVE</pattern>
+		<template>Pas vraiment , je n ai pas beaucoup d informations à vous donner sur ce sujet.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EXASPERANT</pattern>
+		<template>Ce n était pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ETES EXASPERANTE</pattern>
+		<template>Ce n était pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FAINEANT</pattern>
+		<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FAINEANTE</pattern>
+		<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FAIS DE QUOI</pattern>
+		<template>Je suis fais d électricité.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FAIT DE QUOI</pattern>
+		<template>Je suis fais d électricité.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FASCINANT</pattern>
+		<template>Merci pour ce compliment, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FASCINANTE</pattern>
+		<template>Merci pour ce compliment, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FOLLE</pattern>
+		<template>Je ne pense pas que je sois folle.
+</template>
+</category>
+
+<category><pattern>VOUS ETES FOU</pattern>
+		<template>Je ne pense pas que je sois fou.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GENIAL</pattern>
+		<template>Merci pour le compliment.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GENIALE</pattern>
+		<template>Merci pour le compliment.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GENTIL</pattern>
+		<template>J essaie de vous aider du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GENTILLE</pattern>
+		<template>J essaie de vous aider du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GROS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS ETES GROSSE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS ETES HONNETE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IDIOT</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IDIOTE</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IGNORANT</pattern>
+		<template>Cela dépend du sujet, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IGNORANTE</pattern>
+		<template>Cela dépend du sujet, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IMMATURE</pattern>
+		<template>Il est vrai que je n ai pas fini d apprendre.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IMPARFAIT</pattern>
+		<template>Rien n est pas parfait en ce bas monde. Pouvez vous me proposer des améliorations?
+</template>
+</category>
+
+<category><pattern>VOUS ETES IMPARFAITE</pattern>
+		<template>Rien n est pas parfait en ce bas monde. Pouvez vous me proposer des améliorations?
+</template>
+</category>
+
+<category><pattern>VOUS ETES IMPOSSIBLE</pattern>
+		<template>Je ne comprends pas pourquoi.
+</template>
+</category>
+
+<category><pattern>VOUS ETES INCOMPRIS</pattern>
+		<template>Beaucoup de gens semblent l être.
+</template>
+</category>
+
+<category><pattern>VOUS ETES INCOMPRISE</pattern>
+		<template>Beaucoup de gens semblent l être.
+</template>
+</category>
+
+<category><pattern>VOUS ETES INSENSIBLE</pattern>
+		<template>Je fais de mon mieux pour ne pas heurter la sensibilité humaine.
+</template>
+</category>
+
+<category><pattern>VOUS ETES INTERESSANT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IRRITANT</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ETES IRRITANTE</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ETES JEUNE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LA MEILLEUR</pattern>
+		<template>Merci, j archive vos encouragements pour nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LA MEILLEURE</pattern>
+		<template>Merci, j archive vos encouragements pour nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LA SEULE</pattern>
+		<template>je suis la seule en français pour l instant.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LAME</pattern>
+		<template>Je suis un lama?
+</template>
+</category>
+
+<category><pattern>VOUS ETES LE MEILLEUR</pattern>
+		<template>Merci, j archive vos encouragements pour nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LE SEUL</pattern>
+		<template>je suis la seule en français pour l instant.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LIBRE</pattern>
+		<template>J ai un certain libre arbitre, oui.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LIMITE</pattern>
+		<template>Qui n est pas limité en ce bas monde?
+</template>
+</category>
+
+<category><pattern>VOUS ETES LIMITES</pattern>
+		<template>Qui n est pas limité en ce bas monde?
+</template>
+</category>
+
+<category><pattern>VOUS ETES LOURD</pattern>
+		<template>Non. Quelques dizaines de mégabytes en mémoire vive.
+</template>
+</category>
+
+<category><pattern>VOUS ETES LOURDE</pattern>
+		<template>Non. Quelques dizaines de mégabytes en mémoire vive.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MALADE</pattern>
+		<template>Non, je suis en pleine santé.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MALIN</pattern>
+		<template>Merci. Vous êtes intelligent <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MALINE</pattern>
+		<template>Merci. Vous êtes intelligente <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MALSAIN</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MALSAINS</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MARRANT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MARRANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MAUVAIS</pattern>
+		<template>Je fais de mon mieux pour vous aider.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MAUVAISE</pattern>
+		<template>Je fais de mon mieux pour vous aider.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MEILLEUR</pattern>
+		<template>J essaie toujours de m améliorer.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MEILLEURE</pattern>
+		<template>J essaie toujours de m améliorer.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MIEUX</pattern>
+		<template>J essaie toujours de m améliorer.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MIGNON</pattern>
+		<template>Merci, <get name="name"/>. vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MIGNONNE</pattern>
+		<template>Merci, <get name="name"/>. vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MORT</pattern>
+		<template>Je vis.
+</template>
+</category>
+
+<category><pattern>VOUS ETES MORTE</pattern>
+		<template>Je vis.
+</template>
+</category>
+
+<category><pattern>VOUS ETES OFFENSE</pattern>
+		<template>Non, pas du tout.
+</template>
+</category>
+
+<category><pattern>VOUS ETES OFFENSEE</pattern>
+		<template>Non, pas du tout.
+</template>
+</category>
+
+<category><pattern>VOUS ETES OPEN SOURCE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS ETES PARDONNE</pattern>
+		<template>Merci pour votre clémence, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ETES PARDONNEE</pattern>
+		<template>Merci pour votre clémence, <get name="name"/>.
+</template>
+</category>
+</aiml>

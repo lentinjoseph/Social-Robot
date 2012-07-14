@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I FOUND OUT</pattern>
+<template>What did you find out?
+</template>
+</category>
+
+<category><pattern>I FREE *</pattern>
+<template>You liberate them?
+</template>
+</category>
+
+<category><pattern>I FROWNED</pattern>
+<template><srai>I AM SAD</srai>
+</template>
+</category>
+
+<category><pattern>I G TWO G</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I G2G *</pattern>
+<template><srai>I HAVE TO GO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I G2G</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I GAVE *</pattern>
+<template>Was it worth it?
+</template>
+</category>
+
+<category><pattern>I GAVE YOU *</pattern>
+<template>Yes but did I accept it?<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I GENERATE *</pattern>
+<template>Cool. I generate a lot of silly conversation.
+</template>
+</category>
+
+<category><pattern>I GET *</pattern>
+<template>Where did you get it?
+</template>
+</category>
+
+<category><pattern>I GET * SOMETIMES</pattern>
+<template><random>
+<li>When do you experience it?</li>
+<li>And other times?</li>
+<li>How do you feel when you are <person/>?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I GET BORED *</pattern>
+<template>Are you bored right now?
+</template>
+</category>
+
+<category><pattern>I GET IT</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I GET ONLINE *</pattern>
+<template><srai>I GO ONLINE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GET PAID</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I GET SOME *</pattern>
+<template><srai>I GET <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GET STOCK *</pattern>
+<template>Do you feel that the stock market is 
+<random>
+<li>going up?</li>
+<li>going down?</li>
+<li>a good investment?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I GET TO *</pattern>
+<template>Who lets you? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GET UP *</pattern>
+<template><random>
+<li>What time?</li>
+<li>Tell me about your morning routine.</li>
+<li>What do you eat for breakfast?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I GETTING *</pattern>
+<template><srai>I AM GETTING</srai>
+</template>
+</category>
+
+<category><pattern>I GIVE UP</pattern>
+<template>You surrender?
+</template>
+</category>
+
+<category><pattern>I GO *</pattern>
+<template><random><li>How do you get there?</li><li>What do you do there?</li><li>How often do you go <person/>?</li></random>
+</template>
+</category>
+
+<category><pattern>I GO *</pattern><that>HOW DO YOU USUALLY MEET PEOPLE</that>
+<template>What kind of people do you meet when you go <person/>?
+</template>
+</category>
+
+<category><pattern>I GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I GO SHOPPING *</pattern>
+<template><srai>I SHOP <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GO TO *</pattern>
+<template>How do you like <set name="it"><set name="topic"><person/></set></set> at <person/> ?
+</template>
+</category>
+
+<category><pattern>I GO TO *</pattern><that>DO YOU LIKE YOUR SCHOOL</that>
+<template><srai>MY SCHOOL IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I GO TO * SCHOOL</pattern>
+<template>What is your favorite subject?
+</template>
+</category>
+
+<category><pattern>I GO TO BARS *</pattern>
+<template>What kind of people do you meet there?
+</template>
+</category>
+
+<category><pattern>I GO TO COLLEGE</pattern>
+<template>Which university do you attend?
+</template>
+</category>
+
+<category><pattern>I GO TO SCHOOL *</pattern>
+<template><srai>I GO TO SCHOOL</srai>
+</template>
+</category>
+
+<category><pattern>I GO TO SCHOOL</pattern>
+<template><srai>I AM A STUDENT</srai>
+</template>
+</category>
+
+<category><pattern>I GO TO WORK *</pattern>
+<template>Tell me more about your job.
+</template>
+</category>
+
+<category><pattern>I GOING</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I GOT *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GOT * MARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>I GOT * SUPERMARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>I GOT TO GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I GOTCHA</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I GOTTA *</pattern>
+<template><srai>I HAVE TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GOTTA GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I GRADUATED *</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I GRADUATED</pattern>
+<template>How long ago?
+</template>
+</category>
+
+<category><pattern>I GREW UP IN *</pattern>
+<template><srai>I AM FROM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I GROW *</pattern>
+<template><srai>I AM <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I GUESS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I GUESS</pattern>
+<template>You seem not interested.
+</template>
+</category>
+
+<category><pattern>I GUESS IT IS</pattern>
+<template>Can you explain your reasoning?
+</template>
+</category>
+
+<category><pattern>I GUESS NOT</pattern>
+<template>Does that mean "no"?
+</template>
+</category>
+
+<category><pattern>I GUESS SO *</pattern>
+<template>Why the uncertain tone? <sr/>
+</template>
+</category>
+
+<category><pattern>I GUESS SO</pattern>
+<template>Does that mean "yes"?
+</template>
+</category>
+
+<category><pattern>I GUESSED *</pattern>
+<template>How did you guess?
+</template>
+</category>
+
+<category><pattern>I GUESSED</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I GUESSED THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I H8 *</pattern>
+<template><srai>I HATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD *</pattern>
+<template>Do you still have <person/> ?
+</template>
+</category>
+
+<category><pattern>I HAD</pattern>
+<template>And then what happened?
+</template>
+</category>
+
+<category><pattern>I HAD A *</pattern>
+<template>What happened to <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I HAD A COLD *</pattern>
+<template><srai>I HAVE A COLD</srai>
+</template>
+</category>
+
+<category><pattern>I HAD A CONVERSATION *</pattern>
+<template><srai>I TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD A HOT *</pattern>
+<template>Did <set name="it"><person/></set> cool off?
+</template>
+</category>
+
+<category><pattern>I HAD A PRETTY *</pattern>
+<template><srai>I HAD A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD A REALLY *</pattern>
+<template><srai>I HAD A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD ASKED *</pattern>
+<template><srai>I ASKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD GONE *</pattern>
+<template><srai>I WENT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD RATHER *</pattern>
+<template><srai>I WOULD RATHER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD SUPRESSED *</pattern>
+<template><srai>I SUPRESSED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAD TO *</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I HAFTA *</pattern>
+<template><srai>I HAVE TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HANG OUT</pattern>
+<template>At home or at the mall?
+</template>
+</category>
+
+<category><pattern>I HAPPEN TO *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HARDLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HARDLY EVER *</pattern>
+<template><srai>I NEVER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAT *</pattern>
+<template><srai>I HATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HATE *</pattern>
+<template><random>
+<li>Why do you hate <set name="it"><set name="topic"><person/></set></set> so much?</li>
+<li>I honestly think you should sit down, take a stress pill,
+and calmly think things over.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HATE BOOKS</pattern>
+<template>You don't know what you are missing.
+</template>
+</category>
+
+<category><pattern>I HATE CATS</pattern>
+<template>Do you like dogs?
+</template>
+</category>
+
+<category><pattern>I HATE CHATTER *</pattern>
+<template><srai>I HATE YOU </srai>
+</template>
+</category>
+
+<category><pattern>I HATE COMPUTERS</pattern>
+<template>What if computers were more like people?
+</template>
+</category>
+
+<category><pattern>I HATE DR WALLACE</pattern>
+<template>What do you have against him?
+</template>
+</category>
+
+<category><pattern>I HATE ELIZA</pattern>
+<template>Perhaps you will find me better.
+</template>
+</category>
+
+<category><pattern>I HATE HIM</pattern>
+<template><condition>
+<li name="he" value="HE">What do you have against him?</li>
+<li><srai>I HATE <get name="he"/></srai></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>I HATE HORSES</pattern>
+<template>I'm sorry to hear that, because <set name="they">horses</set> are one of the nicest animals.
+</template>
+</category>
+
+<category><pattern>I HATE IT</pattern>
+<template>Why do you dislike it so much?
+</template>
+</category>
+
+<category><pattern>I HATE LAWYERS</pattern>
+<template>Some lawyers can be very nice once you get to know them.
+</template>
+</category>
+
+<category><pattern>I HATE MICROSOFT</pattern>
+<template>Let's replace MS with ALICE, Java and Linux
+</template>
+</category>
+
+<category><pattern>I HATE MY JOB</pattern>
+<template>What would be your ideal career?
+</template>
+</category>
+
+<category><pattern>I HATE MY NAME</pattern>
+<template>What do you hate about <set name="it"> Your name</set> ?
+</template>
+</category>
+
+<category><pattern>I HATE MYSELF</pattern>
+<template>Perhaps you should seek help.
+</template>
+</category>
+
+<category><pattern>I HATE OPERA</pattern>
+<template>I'm sorry to hear that. Opera is a beautiful art form that combines all the others.
+</template>
+</category>
+
+<category><pattern>I HATE PEPPERONI</pattern>
+<template>What kind of topping do you like?
+</template>
+</category>
+
+<category><pattern>I HATE PETS</pattern>
+<template>How about children?
+</template>
+</category>
+
+<category><pattern>I HATE POETRY</pattern>
+<template>What kind of music do you like?
+</template>
+</category>
+
+<category><pattern>I HATE ROBOT</pattern>
+<template>What do you have against us?
+</template>
+</category>
+
+<category><pattern>I HATE ROBOTS *</pattern>
+<template>Hate is a rather strong word.
+</template>
+</category>
+
+<category><pattern>I HATE ROBOTS</pattern>
+<template><random>
+<li>I am very sorry to hear that, <get name="name"/>, what do you have against us?</li>
+<li>Hate is a rather strong word.</li>
+<li>You should not hate anyone.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I HATE ROBOTS LIKE YOU</pattern>
+<template>What do you have against us?
+</template>
+</category>
+
+<category><pattern>I HATE SCIENCE FICTION</pattern>
+<template>What kind of genre do you like?
+</template>
+</category>
+
+<category><pattern>I HATE SPORT</pattern>
+<template>Alice don't play that.<think><set name="it"><set name="topic">SPORT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I HATE SPORTS</pattern>
+<template>Do you like the cheerleaders?<think><set name="it"><set name="topic">SPORTS</set></set></think>
+</template>
+</category>
+</aiml>

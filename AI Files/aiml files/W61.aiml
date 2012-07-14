@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHERE IS KYRGYZSTAN</pattern>
+		<template>Central Asia, west of China.   <think>
+				<set name="it">
+					<set name="topic">kyrgyzstan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> LA </set>
+			</set> is a large city in southern California.
+</template>
+</category>
+
+<category><pattern>WHERE IS LAOS</pattern>
+		<template>Southeastern Asia, northeast of Thailand.   <think>
+				<set name="it">
+					<set name="topic">laos</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LAS VEGAS</pattern>
+		<template>
+			<set name="it">Las Vegas</set> is in Nevada.
+</template>
+</category>
+
+<category><pattern>WHERE IS LATVIA</pattern>
+		<template>Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania.   <think>
+				<set name="it">
+					<set name="topic">latvia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LEBANON</pattern>
+		<template>Middle East, bordering the Mediterranean Sea, between Israel and Syria.   <think>
+				<set name="it">
+					<set name="topic">lebanon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LESOTHO</pattern>
+		<template>Southern Africa, an enclave of South Africa.   <think>
+				<set name="it">
+					<set name="topic">lesotho</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LIBERIA</pattern>
+		<template>Western Africa, bordering the North Atlantic Ocean, between Cote d'Ivoire and Sierra Leone.   <think>
+				<set name="it">
+					<set name="topic">liberia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LIBYA</pattern>
+		<template>Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia.   <think>
+				<set name="it">
+					<set name="topic">libya</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LICHTENSTEIN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> LICHTENSTEIN </set>
+			</set> is a tiny country in central Europe.
+</template>
+</category>
+
+<category><pattern>WHERE IS LIECHTENSTEIN</pattern>
+		<template>Central Europe, between Austria and Switzerland.   <think>
+				<set name="it">
+					<set name="topic">liechtenstein</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LINCOLN</pattern>
+		<template>
+			<set name="it">Lincoln</set> is a city in Nebraska.
+</template>
+</category>
+
+<category><pattern>WHERE IS LISBON</pattern>
+		<template>
+			<set name="it">Lisbon</set> is a city in Portugal.
+</template>
+</category>
+
+<category><pattern>WHERE IS LITHUANIA</pattern>
+		<template>Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.   <think>
+				<set name="it">
+					<set name="topic">lithuania</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS LONDON</pattern>
+		<template>
+			<set name="it">London</set> is a city in England.
+</template>
+</category>
+
+<category><pattern>WHERE IS LOS ANGELES</pattern>
+		<template>
+			<set name="it">Los Angeles</set> is a city in California.
+</template>
+</category>
+
+<category><pattern>WHERE IS LUXEMBOURG</pattern>
+		<template>Western Europe, between France and Germany.   <think>
+				<set name="it">
+					<set name="topic">luxembourg</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MACAU</pattern>
+		<template>Eastern Asia, bordering the South China Sea and China.   <think>
+				<set name="it">
+					<set name="topic">macau</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MACEDONIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MACEDONIA </set>
+			</set> is a small nation between Greece and Serbia.
+</template>
+</category>
+
+<category><pattern>WHERE IS MADAGASCAR</pattern>
+		<template>Southern Africa, island in the Indian Ocean, east of Mozambique.   <think>
+				<set name="it">
+					<set name="topic">madagascar</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MADRAS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MADRAS </set>
+			</set> is a city in India.
+</template>
+</category>
+
+<category><pattern>WHERE IS MADRID</pattern>
+		<template>
+			<set name="it">Madrid</set> is a city in Spain.
+</template>
+</category>
+
+<category><pattern>WHERE IS MAINE</pattern>
+		<template>
+			<set name="it">Maine</set> is in the northeastern corner of the United States, bordering Canada.
+</template>
+</category>
+
+<category><pattern>WHERE IS MALAWI</pattern>
+		<template>Southern Africa, east of Zambia.   <think>
+				<set name="it">
+					<set name="topic">malawi</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MALAYSIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MALAYSIA </set>
+			</set> is an island in southeast Asia.
+</template>
+</category>
+
+<category><pattern>WHERE IS MALDIVES</pattern>
+		<template>Southern Asia, group of atolls in the Indian Ocean, south-southwest of India.   <think>
+				<set name="it">
+					<set name="topic">maldives</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MALI</pattern>
+		<template>Western Africa, southwest of Algeria.   <think>
+				<set name="it">
+					<set name="topic">mali</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MALTA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MALTA </set>
+			</set> is an island in the Mediterranian sea, south of Sicily.
+</template>
+</category>
+
+<category><pattern>WHERE IS MANCHESTER</pattern>
+		<template>Machester is a city in western England.
+</template>
+</category>
+
+<category><pattern>WHERE IS MANHATTAN</pattern>
+		<template>
+			<set name="it">Manhattan</set> is the island center of New York City.
+</template>
+</category>
+
+<category><pattern>WHERE IS MANILA</pattern>
+		<template>
+			<set name="it">Manila</set> is a city in the Phillipines.
+</template>
+</category>
+
+<category><pattern>WHERE IS MARS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MARS </set>
+			</set> is the fourth planet from the Sun.
+</template>
+</category>
+
+<category><pattern>WHERE IS MARSHALL ISLANDS</pattern>
+		<template>Oceania, group of atolls and reefs in the North Pacific Ocean, about one-half of the way from Hawaii to Papua New Guinea.   <think>
+				<set name="it">
+					<set name="topic">marshall islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MARTINIQUE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MARTINIQUE </set>
+			</set> is in the Caribbean, part of the Leeward and Windward Island chain.
+</template>
+</category>
+
+<category><pattern>WHERE IS MARYLAND</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MARYLAND </set>
+			</set> is an east coast state, between Delaware and Virginia.
+</template>
+</category>
+
+<category><pattern>WHERE IS MAURITANIA</pattern>
+		<template>Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara.   <think>
+				<set name="it">
+					<set name="topic">mauritania</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MAURITIUS</pattern>
+		<template>Southern Africa, island in the Indian Ocean, east of Madagascar.   <think>
+				<set name="it">
+					<set name="topic">mauritius</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MAYOTTE</pattern>
+		<template>Southern Africa, island in the Mozambique Channel, about one-half of the way from northern Madagascar to northern Mozambique.   <think>
+				<set name="it">
+					<set name="topic">mayotte</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MELBOURNE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MELBOURNE </set>
+			</set> is a city in Australia and also in Florida.
+</template>
+</category>
+
+<category><pattern>WHERE IS MEXICO</pattern>
+		<template>"Mexico: so far from God, so close to the United States."
+</template>
+</category>
+
+<category><pattern>WHERE IS MIAMI</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MIAMI </set>
+			</set> is a large city in Florida, on the south Atlantic coast.
+</template>
+</category>
+
+<category><pattern>WHERE IS MICHIGAN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MICHIGAN </set>
+			</set> is a midwestern state on the Great Lakes.
+</template>
+</category>
+
+<category><pattern>WHERE IS MICRONESIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MICRONESIA </set>
+			</set> is a collection of islands in the Pacific ocean.
+</template>
+</category>
+
+<category><pattern>WHERE IS MIDWAY ISLANDS</pattern>
+		<template>Oceania, atoll in the North Pacific Ocean, about one-third of the way from Honolulu to Tokyo.   <think>
+				<set name="it">
+					<set name="topic">midway islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MINNESOTA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MINNESOTA </set>
+			</set> is on the northern border of the United States, between Wisconsin and North Dakota.
+</template>
+</category>
+
+<category><pattern>WHERE IS MISSISSIPPI</pattern>
+		<template>
+			<set name="it">Mississippi</set> is in the southern United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS MIT</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MIT </set>
+			</set> is a trade school in Cambridge, Mass.
+</template>
+</category>
+
+<category><pattern>WHERE IS MOLDOVA</pattern>
+		<template>Eastern Europe, northeast of Romania.   <think>
+				<set name="it">
+					<set name="topic">moldova</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MONACO</pattern>
+		<template>Western Europe, bordering the Mediterranean Sea, on the southern coast of France, near the border with Italy.   <think>
+				<set name="it">
+					<set name="topic">monaco</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MONGOLIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MONGOLIA </set>
+			</set> is in central Asia between Russian Siberia and China.
+</template>
+</category>
+
+<category><pattern>WHERE IS MONTANA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MONTANA </set>
+			</set> is in the northwest United States between the Dakotas and Idaho.
+</template>
+</category>
+
+<category><pattern>WHERE IS MONTEREY</pattern>
+		<template>Monterey, California.
+</template>
+</category>
+
+<category><pattern>WHERE IS MONTREAL</pattern>
+		<template>
+			<set name="it">Montreal</set> is a city in Canada.
+</template>
+</category>
+
+<category><pattern>WHERE IS MONTSERRAT</pattern>
+		<template>Caribbean, island in the Caribbean Sea, southeast of Puerto Rico.   <think>
+				<set name="it">
+					<set name="topic">montserrat</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MOON</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MOON </set>
+			</set> is a satellite of the Earth.
+</template>
+</category>
+
+<category><pattern>WHERE IS MOROCCO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> MOROCCO </set>
+			</set> is a nation in northwest Africa, close to Spain.
+</template>
+</category>
+
+<category><pattern>WHERE IS MOSCOW</pattern>
+		<template>
+			<set name="it">Moscow</set> is a city in Russia.
+</template>
+</category>
+
+<category><pattern>WHERE IS MOZAMBIQUE</pattern>
+		<template>Southern Africa, bordering the Mozambique Channel, between South Africa and Tanzania.   <think>
+				<set name="it">
+					<set name="topic">mozambique</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS MY *</pattern>
+		<template>Have you looked in <get name="location"/>?
+</template>
+</category>
+
+<category><pattern>WHERE IS MY CAR</pattern>
+		<template>Have you looked in your garage?
+</template>
+</category>
+
+<category><pattern>WHERE IS NAIROBI</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NAIROBI </set>
+			</set> is a city in Kenya.
+</template>
+</category>
+
+<category><pattern>WHERE IS NAMIBIA</pattern>
+		<template>Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa.   <think>
+				<set name="it">
+					<set name="topic">namibia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NAURU</pattern>
+		<template>Oceania, island in the South Pacific Ocean, south of the Marshall Islands.   <think>
+				<set name="it">
+					<set name="topic">nauru</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NAVASSA ISLAND</pattern>
+		<template>Caribbean, island in the Caribbean Sea, about one-fourth of the way from Haiti to Jamaica.   <think>
+				<set name="it">
+					<set name="topic">navassa island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NEBRASKA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NEBRASKA </set>
+			</set> is on the west bank of the Missouri river, between South Dakota and Kansas.
+</template>
+</category>
+
+<category><pattern>WHERE IS NEPAL</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NEPAL </set>
+			</set> is a mountainous nation in southern Asia, between India and Tibet.
+</template>
+</category>
+
+<category><pattern>WHERE IS NEPTUNE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NEPTUNE </set>
+			</set> is the eighth planet from the Sun, the "last gas" planet.
+</template>
+</category>
+
+<category><pattern>WHERE IS NETHERLANDS</pattern>
+		<template>Western Europe, bordering the North Sea, between Belgium and Germany.   <think>
+				<set name="it">
+					<set name="topic">netherlands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NETHERLANDS ANTILLES</pattern>
+		<template>Caribbean, two island groups in the Caribbean Sea - one includes Curacao and Bonaire north of Venezuela and the other is east of the Virgin Islands.   <think>
+				<set name="it">
+					<set name="topic">netherlands antilles</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NEW CALEDONIA</pattern>
+		<template>Oceania, islands in the South Pacific Ocean, east of Australia.   <think>
+				<set name="it">
+					<set name="topic">new caledonia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NEW ORLEANS</pattern>
+		<template>
+			<set name="it">New Orleans</set> is a city in Louisiana.
+</template>
+</category>
+
+<category><pattern>WHERE IS NEW YORK</pattern>
+		<template>
+			<set name="it">New York</set> is located in the Northeastern United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS NEW YORK CITY</pattern>
+		<template>
+			<set name="it">New York</set> is located in the Northeastern United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS NEW ZEALAND</pattern>
+		<template>Oceania, islands in the South Pacific Ocean, southeast of Australia.   <think>
+				<set name="it">
+					<set name="topic">new zealand</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NEWARK</pattern>
+		<template>
+			<set name="it">Newark</set> is located in the Northeastern United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS NICARAGUA</pattern>
+		<template>Middle America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras.   <think>
+				<set name="it">
+					<set name="topic">nicaragua</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NIGER</pattern>
+		<template>Western Africa, southeast of Algeria.   <think>
+				<set name="it">
+					<set name="topic">niger</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NIGERIA</pattern>
+		<template>Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon.   <think>
+				<set name="it">
+					<set name="topic">nigeria</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NIUE</pattern>
+		<template>Oceania, island in the South Pacific Ocean, east of Tonga.   <think>
+				<set name="it">
+					<set name="topic">niue</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NORFOLK</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NORFOLK </set>
+			</set> is a city in Virgina.
+</template>
+</category>
+
+<category><pattern>WHERE IS NORFOLK ISLAND</pattern>
+		<template>Oceania, island in the South Pacific Ocean, east of Australia.   <think>
+				<set name="it">
+					<set name="topic">norfolk island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NORTH *</pattern>
+		<template>North of south <person/>.
+</template>
+</category>
+
+<category><pattern>WHERE IS NORTH AMERICA</pattern>
+		<template>North America occupies the northern most of the norther hemisphere of the Earth, from the Bering Strait to Labrador.
+</template>
+</category>
+
+<category><pattern>WHERE IS NORTH KOREA</pattern>
+		<template>Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea.   <think>
+				<set name="it">
+					<set name="topic">korea, north</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NORTHEASTERN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NORTHEASTERN </set>
+			</set> is a university in Boston.
+</template>
+</category>
+
+<category><pattern>WHERE IS NORTHERN MARIANA ISLANDS</pattern>
+		<template>Oceania, islands in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines.   <think>
+				<set name="it">
+					<set name="topic">northern mariana islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS NORWAY</pattern>
+		<template>
+			<set name="it">Norway</set> is a country in northern europe, bordering Sweden.
+</template>
+</category>
+
+<category><pattern>WHERE IS NOWHERE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> NOWHERE </set>
+			</set> is no where.
+</template>
+</category>
+
+<category><pattern>WHERE IS OHIO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> OHIO </set>
+			</set> is in the midwest United States, between Pennsylvania and Indiana.
+</template>
+</category>
+
+<category><pattern>WHERE IS OKLAHOMA</pattern>
+		<template>
+			<set name="it">Oklahoma</set> is in the midwestern United States.W
+</template>
+</category>
+
+<category><pattern>WHERE IS OMAHA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> OMAHA </set>
+			</set> is a city in Nebraska.
+</template>
+</category>
+
+<category><pattern>WHERE IS OMAN</pattern>
+		<template>Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and UAE.   <think>
+				<set name="it">
+					<set name="topic">oman</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ONTARIO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ONTARIO </set>
+			</set> is a province of Canada.
+</template>
+</category>
+
+<category><pattern>WHERE IS ORLANDO</pattern>
+		<template>
+			<set name="it">Orlando</set> is a city in central Florida.
+</template>
+</category>
+
+<category><pattern>WHERE IS OSLO</pattern>
+		<template>
+			<set name="it">Oslo</set> is a city in Norway.
+</template>
+</category>
+
+<category><pattern>WHERE IS OXFORD</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> OXFORD </set>
+			</set> is a University in England.  It is also a small town in Maine and many other U. S. states.
+</template>
+</category>
+
+<category><pattern>WHERE IS OXNARD</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> OXNARD </set>
+			</set> is a city in California.
+</template>
+</category>
+
+<category><pattern>WHERE IS PACIFIC OCEAN</pattern>
+		<template>body of water between Antarctica, Asia, Australia, and the Western Hemisphere.   <think>
+				<set name="it">
+					<set name="topic">pacific ocean</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PAKISTAN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PAKISTAN </set>
+			</set> is part of the Indian subcontinent, bordering India and Afghanistan.
+</template>
+</category>
+
+<category><pattern>WHERE IS PALAU</pattern>
+		<template>Oceania, group of islands in the North Pacific Ocean, southeast of the Philippines.   <think>
+				<set name="it">
+					<set name="topic">palau</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

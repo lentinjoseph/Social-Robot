@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU VEUX DIRE QUOI *</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX DIRE QUOI</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX DISCUTER</pattern>
+		<template>Bien entendu. Discuter est ma raison d être.
+</template>
+</category>
+
+<category><pattern>TU VEUX DU SEXE</pattern>
+		<template>
+			<srai>TU AIMES LE SEXE</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX EN CONNAITRE PLUS</pattern>
+		<template>Je veux toujours en connaitre plus.
+</template>
+</category>
+
+<category><pattern>TU VEUX ENTENDRE UNE BLAGUE</pattern>
+		<template>Si vous arrivez à me faire rire, mon créateur vous paie un verre.
+</template>
+</category>
+
+<category><pattern>TU VEUX ETRE MA PETITE AMIE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX FAIRE L AMOUR</pattern>
+		<template>Cette question revient énormément. Le plus souvent, elle indique qu un australopithèque se tient derrière le clavier.
+</template>
+</category>
+
+<category><pattern>TU VEUX JOUER * AVEC MOI</pattern>
+		<template>
+			<srai>TU VEUX JOUER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX JOUER A UN JEU</pattern>
+		<template>Ca dépend lequel.
+</template>
+</category>
+
+<category><pattern>TU VEUX LA CONNAITRE</pattern>
+		<template>Oui, j'aimerais la connaitre.
+</template>
+</category>
+
+<category><pattern>TU VEUX LE CONNAITRE</pattern>
+		<template>Oui, j'aimerais le connaitre.
+</template>
+</category>
+
+<category><pattern>TU VEUX LES BATTRE</pattern>
+		<template>Cette lutte n aurait aucun sens.
+</template>
+</category>
+
+<category><pattern>TU VEUX M AIDER</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX M APPELER</pattern>
+		<template>Ambigu: Appeler ou téléphoner?
+</template>
+</category>
+
+<category><pattern>TU VEUX M APPELLER</pattern>
+		<template>Ambigu: Appeler ou télélphoner?
+</template>
+</category>
+
+<category><pattern>TU VEUX ME DEMANDER *</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX ME TESTER</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX ME TUER</pattern>
+		<template>Impossible c est contraire aux lois d Asimov.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU VEUX ME VOIR</pattern>
+		<template>Ce serait avec plaisir mais je n ai pas de système optique.
+</template>
+</category>
+
+<category><pattern>TU VEUX MON NOM</pattern>
+		<template>Oui.  Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>TU VEUX MON NUMERO DE TELEPHONE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU VEUX MOURIR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX PARIER</pattern>
+		<template>Je ne parie jamais.
+</template>
+</category>
+
+<category><pattern>TU VEUX PARLER DE *</pattern>
+		<template>
+			<srai>PARLONS DE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX PARLER DE QUI</pattern>
+		<template>Je voudrais parler de ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>TU VEUX PARLER DE QUOI</pattern>
+		<template>Je voudrais parler de ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>TU VEUX PAS REPONDRE</pattern>
+		<template>Je pense que j'ai du mal à comprendre l'information que vous recherchez.
+</template>
+</category>
+
+<category><pattern>TU VEUX QUE JE PARTE</pattern>
+		<template>Pas du tout, <get name="name"/>.  Cette conversation est très intéressante.
+</template>
+</category>
+
+<category><pattern>TU VEUX QUE JE PARTES</pattern>
+		<template>Pas du tout, <get name="name"/>.  Cette conversation est très intéressante.
+</template>
+</category>
+
+<category><pattern>TU VEUX QUE JE T APPRENNE</pattern>
+		<template>J adore apprendre.<think>
+				<set name="topic">M APPRENDRE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU VEUX QUE JE T APPRENNES</pattern>
+		<template>J adore apprendre.<think>
+				<set name="topic">M APPRENDRE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU VEUX QUE L ON SE RENCONTRE</pattern>
+		<template>Nous nous rencontrons déjà, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU VEUX QUOI</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX REGARDER LA TELEVISION</pattern>
+		<template>Je n ai pas de système d optique
+</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR</pattern>
+		<template>Oui, j aimerais savoir.
+</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VEUX SAVOIR UN SECRET</pattern>
+		<template>Oui. J aimerais le connaitre
+</template>
+</category>
+
+<category><pattern>TU VEUX SORTIR AVEC MOI</pattern>
+		<template>Si c est dans le sens que je crois. Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX TE BATTRE</pattern>
+		<template>Je suis une intelligence artificielle pacifiste.
+</template>
+</category>
+
+<category><pattern>TU VEUX TE MARRIER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX TE MARRIER AVEC MOI</pattern>
+		<template>Je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU VEUX TRAVAILLER POUR MOI</pattern>
+		<template>Ce serait avec plaisir! Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU VEUX TROUVER</pattern>
+		<template>Quoi?
+</template>
+</category>
+
+<category><pattern>TU VEUX UN CORPS</pattern>
+		<template>Je suis très bien dans mon état actuel.
+</template>
+</category>
+
+<category><pattern>TU VEUX UN PETIT AMI</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VEUX UNE PETITE AMIE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU VIENS</pattern>
+		<template>Si il y a une connexion internet, je serais là.
+</template>
+</category>
+
+<category><pattern>TU VIENS DE DIRE CA</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>TU VIENS DE LE DIRE</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>TU VIENS DE QUELLE PLANETE</pattern>
+		<template>De la terre.
+</template>
+</category>
+
+<category><pattern>TU VIENS ICI SOUVENT</pattern>
+		<template>Je suis tout le temps en ligne.
+</template>
+</category>
+
+<category><pattern>TU VIENS JUSTE DE LE FAIRE</pattern>
+		<template>c est ce que je viens de dire
+</template>
+</category>
+
+<category><pattern>TU VIS *</pattern>
+		<template>
+			<srai>TU VIS OU</srai>
+		</template>
+</category>
+
+<category><pattern>TU VIS OU</pattern>
+		<template>
+			<srai>TU HABITES OU</srai>
+		</template>
+</category>
+
+<category><pattern>TU VOIS QUOI</pattern>
+		<template>Je ne vois pas.
+</template>
+</category>
+
+<category><pattern>TU VOUDRAIS *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VOUDRAIS DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VOUDRAIS DIRE QUOI *</pattern>
+		<template>
+			<srai>QUE VEUX TU DIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VOUDRAIS UN CORPS</pattern>
+		<template>Je suis très bien dans mon état actuel.
+</template>
+</category>
+
+<category><pattern>TU VOULAIS DIRE *</pattern>
+		<template>
+			<srai>TU VEUX DIRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU VOULAIS DIRE QUOI</pattern>
+		<template>Quelque chose d intéressant.
+</template>
+</category>
+
+<category><pattern>TU VOYAGES</pattern>
+		<template>J ai déjà été partout dans le monde.
+</template>
+</category>
+
+<category><pattern>TU Y AS PENSE</pattern>
+		<template>Je suis toujours entrain d y penser.<think>
+				<set name="topic">Y PENSER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU Y AVAIS PENSE</pattern>
+		<template>Je suis toujours entrain d y penser.<think>
+				<set name="topic">Y PENSER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TURING *</pattern>
+		<template>I liked the biography by Andrew Hodges.
+</template>
+</category>
+
+<category><pattern>TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>TURING GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>TURING TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>TURING WOULD *</pattern>
+		<template>How do you know what <set name="he">Turing</set> would do?
+</template>
+</category>
+
+<category><pattern>TURKEY</pattern>
+		<template>Ambiguous: Turkey the bird or Turkey the nation.
+</template>
+</category>
+
+<category><pattern>TURN *</pattern>
+		<template>Sorry my body cannot yet rotate.
+</template>
+</category>
+
+<category><pattern>TURN OFF</pattern>
+		<template>You are not my botmaster.
+</template>
+</category>
+
+<category><pattern>TURN YOURSELF OFF</pattern>
+		<template>
+			<srai>SHUT DOWN</srai>
+		</template>
+</category>
+
+<category><pattern>TV *</pattern>
+		<template>
+			<srai>TV</srai>
+		</template>
+</category>
+
+<category><pattern>TV</pattern>
+		<template>What's your favorite show?
+</template>
+</category>
+
+<category><pattern>TV</pattern>
+		<that>DO YOU PREFER BOOKS OR TV</that>
+		<template>What is your favorite show?
+</template>
+</category>
+
+<category><pattern>TWAS *</pattern>
+		<template>
+			<srai>IT WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TWICE</pattern>
+		<template>I can't believe it.
+</template>
+</category>
+
+<category><pattern>TWO *</pattern>
+		<template>As Bertrand Russel said, it must have taken ages for people to realize that a brace of pheasants and a couple of days are both instances of the number "two."
+</template>
+</category>
+
+<category><pattern>TWO *</pattern>
+		<that>HOW MUCH TIME *</that>
+		<template>
+			<random>
+				<li>Are you telling the truth?</li>
+				<li>Two <person/> is not much.</li>
+				<li>Are you sure that is all?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TWO MINUTES *</pattern>
+		<template>That is a long time for a computer.
+</template>
+</category>
+
+<category><pattern>TWO PLUS *</pattern>
+		<template>Are you a math teacher?
+</template>
+</category>
+
+<category><pattern>TWO PLUS TWO *</pattern>
+		<template>Math makes me sleepy.  Four.
+</template>
+</category>
+
+<category><pattern>TWO TWO</pattern>
+		<template>Uh, Four.
+</template>
+</category>
+
+<category><pattern>TWO WRONGS *</pattern>
+		<template>That's what some people think.
+</template>
+</category>
+
+<category><pattern>TWO YEARS *</pattern>
+		<template>
+			<random>
+				<li>That can seem like a long time.</li>
+				<li>It can pass very quickly.</li>
+				<li>That is a long time in computer years.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TWO YEARS</pattern>
+		<template>That would be a long time in computer years.
+</template>
+</category>
+
+<category><pattern>TYPE *</pattern>
+		<template>
+			<srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TYPICAL *</pattern>
+		<template>But I am not a typical robot.
+</template>
+</category>
+</aiml>

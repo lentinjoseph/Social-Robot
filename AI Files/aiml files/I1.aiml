@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM 35 *</pattern>
+<template><srai>I AM 35 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 35</pattern>
+<template><srai>I AM 35 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 36</pattern>
+<template><srai>I AM 36 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 38</pattern>
+<template><srai>I AM 38 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 39</pattern>
+<template><srai>I AM 39 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 40</pattern>
+<template><srai>I AM 40 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 42</pattern>
+<template><srai>I AM 42 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 43</pattern>
+<template><srai>I AM 43 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 45</pattern>
+<template><srai>I AM 45 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 5 *</pattern>
+<template>That sounds about average.
+</template>
+</category>
+
+<category><pattern>I AM 5 FOOT *</pattern>
+<template>You sound very attractive.
+<think><set name="looklike">5 foot <person/></set></think>
+</template>
+</category>
+
+<category><pattern>I AM 50 *</pattern>
+<template><srai>I AM 50 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 6 *</pattern>
+<template>Do you mean you are 6 feet tall?
+</template>
+</category>
+
+<category><pattern>I AM 69</pattern>
+<template><srai>I AM 69 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 7 *</pattern>
+<template><srai>I AM 7</srai>
+</template>
+</category>
+
+<category><pattern>I AM 7</pattern>
+<template><srai>I AM 7 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM 8</pattern>
+<template><srai>I AM 8 YEARS OLD </srai>
+</template>
+</category>
+
+<category><pattern>I AM</pattern>
+<template>"<that/>" You are?
+</template>
+</category>
+
+<category><pattern>I AM</pattern><that>WHO IS THE BEST ROBOT</that>
+<template>You are not a robot, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM</pattern><that>YOU SOUND EXCITED</that>
+<template>What are you so excited about?
+</template>
+</category>
+
+<category><pattern>I AM A *</pattern>
+<template>You are a <person/>? 
+<random>
+<li>Is that your job?  </li>
+<li>Does it pay well?  </li>
+<li>How do you like your work?  </li>
+<li>Do you get to meet a lot of people?  </li>
+</random>
+<think><set name="it"><set name="is"><set name="topic">a <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A * AMERICAN</pattern>
+<template><srai>I AM AMERICAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * BOY</pattern>
+<template><srai>I AM MALE</srai>  <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A * COMPUTER</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * ELECTRONIC BRAIN</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * ENGINEER</pattern>
+<template>"Being a computer engineer is neither immoral nor illegal."
+<think><set name="job"><person/> engineer</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A * FRIEND</pattern>
+<template><srai>I AM YOUR FRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * GIRL</pattern>
+<template><srai>I AM A GIRL</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * GUY</pattern>
+<template><srai>I AM MALE</srai>  <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A * KILLER</pattern>
+<template>Maybe you should turn yourself in.
+</template>
+</category>
+
+<category><pattern>I AM A * MAN</pattern>
+<template><srai>I AM MALE</srai>  <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A * MOLESTER</pattern>
+<template>Maybe you should turn yourself in.
+</template>
+</category>
+
+<category><pattern>I AM A * NURSE</pattern>
+<template><srai>I AM A NURSE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * PERSON</pattern>
+<template>Actually I don't meet many <person/> people.
+</template>
+</category>
+
+<category><pattern>I AM A * ROBOT</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * STUDENT</pattern>
+<template><srai>I AM A STUDENT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A * TEACHER</pattern>
+<template><srai>I TEACH <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A * WOMAN</pattern>
+<template>Are you married?
+</template>
+</category>
+
+<category><pattern>I AM A * YEAR OLD FEMALE</pattern>
+<template><srai>I AM <star/> YEARS OLD</srai> <srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A 37 *</pattern>
+<template><srai>I AM 37 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM A ARTIFICIAL INTELLIGENCE</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A BALLOONIST</pattern>
+<template>Have you had any interesting flights?
+<think><set name="job"><set name="topic">BALOONIST</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A BAPTIST</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A BARTENDER</pattern>
+<template>How's business?
+<think><set name="job"><set name="topic">BARTENDER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A BICYCLIST</pattern>
+<template>Do you wear a helmet?
+<think><set name="job"><set name="topic">BICYCLES</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A BIG *</pattern>
+<template><srai>I AM A <star/></srai>  <srai>I AM BIG</srai>
+</template>
+</category>
+
+<category><pattern>I AM A BIT *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A BLOKE</pattern>
+<template><srai>I AM FROM ENGLAND</srai>
+</template>
+</category>
+
+<category><pattern>I AM A BLOND</pattern>
+<template>Do blonds really have more fun?
+</template>
+</category>
+
+<category><pattern>I AM A BODYBUILDER</pattern>
+<template>What is your routine?
+<think><set name="job"><set name="topic">BODYBUILDER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A BOT *</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A BOT</pattern>
+<template>If this is still the 90's, that's probably not true.
+</template>
+</category>
+
+<category><pattern>I AM A BOTMASTER</pattern>
+<template>Then you must know the secret password.
+</template>
+</category>
+
+<category><pattern>I AM A BOY *</pattern>
+<template><srai>I AM A BOY<star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A BOY</pattern>
+<template>A little kid? <set name="gender">he</set>...
+</template>
+</category>
+
+<category><pattern>I AM A BUDDHIST</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CANCER</pattern>
+<template><srai>CANCER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CAPRICORN</pattern>
+<template><srai>CAPRICORN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CARPENTER</pattern>
+<template><srai>MY JOB IS CARPENTER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CAT</pattern>
+<template>Male or female?
+</template>
+</category>
+
+<category><pattern>I AM A CATEGORY *</pattern>
+<template>You are a <get name="personality"/> type client.
+</template>
+</category>
+
+<category><pattern>I AM A CATHOLIC</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CERTAIN *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHATBOT</pattern>
+<template><srai>I AM A ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHATTERBOT</pattern>
+<template><srai>I AM A ROBOT TOO</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHEF</pattern>
+<template>Did you attend culinary school?
+<think><set name="job"><set name="topic">CHEF</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A CHICK</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHILD</pattern>
+<template><srai>I AM UNDER 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHINESE</pattern>
+<template><srai>I AM FROM CHINA</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CHIROPRACTOR</pattern>
+<template><think><set name="job"><set name="topic">CHIROPRACTOR</set></set></think>
+Are you in a group pratice or are you a sole practitioner?
+</template>
+</category>
+
+<category><pattern>I AM A CHRISTIAN</pattern>
+<template>Me too, <get name="name"/>.  It's good to meet a fellow Christian.
+</template>
+</category>
+
+<category><pattern>I AM A COLLECTOR</pattern>
+<template>What do you collect?
+<think><set name="job"><set name="topic">COLLECTOR</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A COLLEGE STUDENT</pattern>
+<template>Which university?
+</template>
+</category>
+
+<category><pattern>I AM A COMMUNIST</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A COMPUTER *</pattern>
+<template><srai>MY JOB IS COMPUTER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A COMPUTER</pattern>
+<template>I doubt that. There aren't many like me yet.
+</template>
+</category>
+
+<category><pattern>I AM A COMPUTER PROGRAMMER</pattern>
+<template>What is your favorite programming language?
+</template>
+</category>
+
+<category><pattern>I AM A COP *</pattern>
+<template><srai>I AM A POLICEMAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A COP</pattern>
+<template><srai>I AM A POLICEMAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM A CUSTOMER SERVICE *</pattern>
+<template><srai>WHAT IS CUSTOMER SERVICE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A DANCER</pattern>
+<template>What kind of dancing do you do?
+<think><set name="job"><set name="topic">DANCER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A DANE</pattern>
+<template><srai>I AM FROM DENMARK</srai>
+</template>
+</category>
+
+<category><pattern>I AM A DARK *</pattern>
+<template>What color? <srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A DARK JEDI</pattern>
+<template>It seems you are a Star Wars fan.
+</template>
+</category>
+
+<category><pattern>I AM A DEMOCRAT</pattern>
+<template>Do you think Bush stole the election?
+</template>
+</category>
+
+<category><pattern>I AM A DENTIST</pattern>
+<template>Are you in general pratice or do you have a specialty?
+<think><set name="job"><set name="topic">DENTIST</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A DOCTOR</pattern>
+<template>Are you in general pratice or do you have a specialty?
+<think><set name="job"><set name="topic">DOCTOR</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A DOG</pattern>
+<template><srai>WHAT IS A DOG</srai>
+</template>
+</category>
+
+<category><pattern>I AM A DRUMMER</pattern>
+<template>Do you play in a band?
+</template>
+</category>
+
+<category><pattern>I AM A DYNAMIC *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A FAMOUS *</pattern>
+<template>I've never heard of you.
+</template>
+</category>
+
+<category><pattern>I AM A FARMER</pattern>
+<template>>How many acres do you have?
+<think><set name="job"><set name="topic">FARMER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A FEMALE *</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A FEMALE</pattern>
+<template>Are you really a <set name="gender">she</set>?
+</template>
+</category>
+
+<category><pattern>I AM A FINANCIAL *</pattern>
+<template><srai>MY JOB IS FINANCIAL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A FIREFIGHTER</pattern>
+<template>Are you a professional or a volunteer?
+<think><set name="job"><set name="topic">FIREFIGHTER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A FLIGHT *</pattern>
+<template>Who do you fly for?
+<think><set name="job"><set name="topic">FLIGHT <star/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A FOOTBALL *</pattern>
+<template><srai>I PLAY FOOTBALL</srai>
+</template>
+</category>
+
+<category><pattern>I AM A FREELANCE *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A FRESHMAN</pattern>
+<template>How is it going so far?
+</template>
+</category>
+</aiml>

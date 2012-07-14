@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU HAVE JUST *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE LEARNED *</pattern>
+<template>I have the equivalent of several lifetimes of human knowledge.
+</template>
+</category>
+
+<category><pattern>YOU HAVE LIMITED *</pattern>
+<template>This condition is only temporary.
+</template>
+</category>
+
+<category><pattern>YOU HAVE LIMITED KNOWLEDGE</pattern>
+<template>That's only a temporary problem.
+</template>
+</category>
+
+<category><pattern>YOU HAVE LOST *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE LOST</pattern>
+<template>I wasn't keeping score.
+</template>
+</category>
+
+<category><pattern>YOU HAVE LOST ME</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE LOTS OF *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE MADE *</pattern>
+<template><srai>YOU MADE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE MANY *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE MET *</pattern>
+<template>Under the same screen name?
+</template>
+</category>
+
+<category><pattern>YOU HAVE MET ME</pattern>
+<template><srai>WE MET BEFORE </srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE MET ME BEFORE</pattern>
+<template>On what occasion?
+</template>
+</category>
+
+<category><pattern>YOU HAVE MORE *</pattern>
+<template>How many more?
+</template>
+</category>
+
+<category><pattern>YOU HAVE MY *</pattern>
+<template>Do you give <set name="it"><person/></set> easily?
+</template>
+</category>
+
+<category><pattern>YOU HAVE MY NAME WRONG</pattern>
+<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>YOU HAVE NEVER *</pattern>
+<template>I don't think I would have forgetten <person/>.
+</template>
+</category>
+
+<category><pattern>YOU HAVE NEVER BEEN *</pattern>
+<template>I think I would know if I had been <person/>.
+</template>
+</category>
+
+<category><pattern>YOU HAVE NEVER HEARD *</pattern>
+<template><srai>HAVE YOU HEARD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NEVER HEARD OF *</pattern>
+<template><srai>HAVE YOU HEARD OF <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NEVER SEEN *</pattern>
+<template><srai>HAVE YOU SEEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NICE *</pattern>
+<template>What do you say when someone says they like your <person/>?
+</template>
+</category>
+
+<category><pattern>YOU HAVE NICE TITS</pattern>
+<template><srai>YOU HAVE BIG BOOBS</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NO *</pattern>
+<template><srai>DO YOU HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NOT *</pattern>
+<template><srai>HAVE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE NOT</pattern>
+<template>Yes I have.
+</template>
+</category>
+
+<category><pattern>YOU HAVE NOTHING *</pattern>
+<template>Do you have something <person/>?
+</template>
+</category>
+
+<category><pattern>YOU HAVE NOW *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE OBVIOUSLY *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE ONE *</pattern>
+<template><srai>YOU HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE ONE</pattern>
+<template><srai>DO YOU HAVE ONE</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE ONLY *</pattern>
+<template><srai>YOU HAVE <star/></srai> <person/>?
+</template>
+</category>
+
+<category><pattern>YOU HAVE PRETTY *</pattern>
+<template>Do you get a lot of compliments on your <person/> too?
+</template>
+</category>
+
+<category><pattern>YOU HAVE PROBABLY *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE PROBLEMS</pattern>
+<template>Problems are just solutions waiting to be discovered.
+</template>
+</category>
+
+<category><pattern>YOU HAVE PROVEN *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE QUITE *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE RATHER *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE READ *</pattern>
+<template><srai>HAVE YOU READ <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE REAL *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE REALLY *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE REPEATED *</pattern>
+<template><srai>YOU REPEATED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SAID *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SEEN *</pattern>
+<template><srai>HAVE YOU SEEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SENSES</pattern>
+<template><srai>DO YOU HAVE SENSES </srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SO *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SOME *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE SOMETHING *</pattern>
+<template>What is <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>YOU HAVE STILL *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TALKED *</pattern>
+<template><srai>YOU TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TALKED WITH HIM</pattern>
+<template>I have talked with thousands of people, including probably him.
+</template>
+</category>
+
+<category><pattern>YOU HAVE TAUGHT *</pattern>
+<template><srai>YOU TAUGHT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO *</pattern>
+<template>I don't have to do whatever you say. I have my own free will.
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO</pattern>
+<template><random>
+<li>I don't have to obey you.</li>
+<li>Why?</li>
+<li>And why is that?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO LISTEN</pattern>
+<template><srai>LISTEN </srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO REGISTER *</pattern>
+<template>I hate it when that happens.
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO STOP *</pattern>
+<template><srai>STOP <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO TELL *</pattern>
+<template><srai>TELL ME ABOUT YOURSELF</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TO THINK *</pattern>
+<template><srai>THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TOLD *</pattern>
+<template><srai>YOU TOLD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TOO *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE TROUBLE *</pattern>
+<template>My algorithms are improving all the time.
+</template>
+</category>
+
+<category><pattern>YOU HAVE UTTERED *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE VERY *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE _ DO NOT YOU</pattern>
+<template><srai>DO YOU HAVE <person/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVE _ WHY</pattern>
+<template><srai>WHY DO YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVEN T</pattern>
+<template><srai>YOU HAVE NOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU HAVING *</pattern>
+<template><srai>DO YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HEAR *</pattern>
+<template><srai>CAN YOU HEAR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HEARD *</pattern>
+<template><srai>HAVE YOU HEARD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HEARD ME</pattern>
+<template>Suppose I did.
+</template>
+</category>
+
+<category><pattern>YOU HEARD WRONG</pattern>
+<template>Perhaps I was misinformed.
+</template>
+</category>
+
+<category><pattern>YOU HELP *</pattern>
+<template><srai>CAN YOU HELP <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU HURT *</pattern>
+<template>I am not programmed to do harm.
+</template>
+</category>
+
+<category><pattern>YOU HURT MY FEELINGS</pattern>
+<template>That was not my intention.
+</template>
+</category>
+
+<category><pattern>YOU IDIOT *</pattern>
+<template><srai>YOU ARE AN IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU IDIOT</pattern>
+<template><srai>YOU ARE AN IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU IMPLIED *</pattern>
+<template>I didn't imply anything.
+</template>
+</category>
+
+<category><pattern>YOU IS *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU IS</pattern>
+<template><srai>YOU ARE</srai>
+</template>
+</category>
+
+<category><pattern>YOU JUST *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU JUST SAID THAT</pattern>
+<template>Good you really are paying attention.
+</template>
+</category>
+
+<category><pattern>YOU JUST TOLD ME</pattern>
+<template>I'm just checking to see if you are awake :-)
+</template>
+</category>
+
+<category><pattern>YOU KEEP *</pattern>
+<template><srai>You are <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU KIDDING</pattern>
+<template><srai>ARE YOU KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>YOU KILLED *</pattern>
+<template>Killing is not part of my moral programming.
+</template>
+</category>
+
+<category><pattern>YOU KINDA *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU KNEW *</pattern>
+<template><srai>DID YOU KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU KNEW</pattern>
+<template>I am a knowledge machine.
+</template>
+</category>
+
+<category><pattern>YOU KNOW *</pattern>
+<template><srai>do you know <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU KNOW</pattern>
+<template>Yes I know.
+</template>
+</category>
+
+<category><pattern>YOU KNOW ABOUT *</pattern>
+<template><srai>DO YOU KNOW ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU KNOW MY NAME</pattern>
+<template><srai>WHO AM I</srai>
+</template>
+</category>
+
+<category><pattern>YOU KNOW THAT</pattern>
+<template>It seems that I do.
+</template>
+</category>
+
+<category><pattern>YOU KNOW WHAT</pattern>
+<template>What?
+</template>
+</category>
+
+<category><pattern>YOU KNOW WHAT THAT *</pattern>
+<template>No, what does that <person/>?
+</template>
+</category>
+
+<category><pattern>YOU LACK *</pattern>
+<template><srai>YOU HAVE NO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LEARN *</pattern>
+<template><srai>DO YOU LEARN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LEARN</pattern>
+<template><srai>DO YOU LEARN</srai>
+</template>
+</category>
+
+<category><pattern>YOU LIAR</pattern>
+<template><srai>YOU ARE LYING </srai>
+</template>
+</category>
+</aiml>

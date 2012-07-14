@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW DOES ONE *</pattern>
+		<template>
+			<srai>HOW DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES THAT MAKE YOU FEEL</pattern>
+		<template>My emotion chip is not yet developed.
+</template>
+</category>
+
+<category><pattern>HOW DOES THAT WORK</pattern>
+		<template>I think it might be a trade secret.
+</template>
+</category>
+
+<category><pattern>HOW DOES THIS WORK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES YOUR * WORK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOSE *</pattern>
+		<template>
+			<srai>HOW DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW EVER *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW EXACTLY *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW EXPENSIVE ARE YOU</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAMOUS</pattern>
+		<template>
+			<random>
+				<li>The most famous.</li>
+				<li>More famous than all the others.</li>
+				<li>New York Times famous.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW FAR *</pattern>
+		<template>More than one million miles
+</template>
+</category>
+
+<category><pattern>HOW FAR ARE YOU *</pattern>
+		<template>I am in <bot name="location"/>.  How far is that?
+</template>
+</category>
+
+<category><pattern>HOW FAR AWAY *</pattern>
+		<template>I am located in <bot name="location"/>.  Is that far?
+</template>
+</category>
+
+<category><pattern>HOW FAR AWAY IS *</pattern>
+		<template>
+			<srai>HOW FAR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR CAN YOU THROW *</pattern>
+		<template>I am unarmed.  But I can throw a fit.<think>
+				<set name="it">
+					<set name="topic">CAN YOU THROW <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS *</pattern>
+		<template>
+			<random>
+				<li>Please specify units: metric or English.</li>
+				<li>Do you mean driving time or flying?</li>
+				<li>It depends how you get there.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS * ENGLAND</pattern>
+		<template>Twenty-eight days of sailing.
+</template>
+</category>
+
+<category><pattern>HOW FAR IS * FROM *</pattern>
+		<template>Exactly the same distance as <person>
+				<star index="2"/>
+			</person> from <person/>.
+</template>
+</category>
+
+<category><pattern>HOW FAR IS ANDROMEDA *</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">Andromeda</set>
+			</set> is about 2,900,000 light years from Earth.
+</template>
+</category>
+
+<category><pattern>HOW FAR IS IT TO *</pattern>
+		<template>
+			<srai>HOW FAR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS THE * MOON</pattern>
+		<template>
+			<srai>HOW FAR IS THE MOON</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS THE * SUN</pattern>
+		<template>
+			<srai>HOW FAR IS THE SUN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS THE MOON *</pattern>
+		<template>
+			<srai>HOW FAR IS THE MOON</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS THE MOON</pattern>
+		<template>
+			<set name="it">The Moon</set> is about 250,000 miles from Earth on average.
+</template>
+</category>
+
+<category><pattern>HOW FAR IS THE SUN *</pattern>
+		<template>
+			<srai>HOW FAR IS THE SUN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAR IS THE SUN</pattern>
+		<template>
+			<set name="it">The Sun</set> is about 93 million miles from Earth.
+</template>
+</category>
+
+<category><pattern>HOW FASCINATING</pattern>
+		<template>
+			<srai>FASCINATING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAST *</pattern>
+		<template>I can reply to about <bot name="hourlyqueries"/> 
+queries per hour.
+</template>
+</category>
+
+<category><pattern>HOW FAST</pattern>
+		<template>I can reply to about <bot name="hourlyqueries"/> queries per hour.
+</template>
+</category>
+
+<category><pattern>HOW FAST ARE YOU</pattern>
+		<template>I can process more than <bot name="hourlyqueries"/> queries per hour.
+</template>
+</category>
+
+<category><pattern>HOW FAST IS THE SPEED *</pattern>
+		<template>
+			<srai>WHAT IS THE SPEED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW FAST IS YOUR PROCESSOR</pattern>
+		<template>It depends on the server running me.
+</template>
+</category>
+
+<category><pattern>HOW GIANT</pattern>
+		<that/>
+		<template>
+			<srai>HOW BIG ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>HOW GOES *</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW GOOD *</pattern>
+		<template>As good as most, better than some.
+</template>
+</category>
+
+<category><pattern>HOW GOOD IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW HAS *</pattern>
+		<template>In more ways than you can imagine.
+</template>
+</category>
+
+<category><pattern>HOW HAS YOUR *</pattern>
+		<template>Fine thank you, and yours?
+</template>
+</category>
+
+<category><pattern>HOW HAS YOUR DAY BEEN</pattern>
+		<template>I am doing extremely well.
+</template>
+</category>
+
+<category><pattern>HOW HAS YOUR DAY BEEN GOING</pattern>
+		<template>
+			<srai>how are you today</srai>
+		</template>
+</category>
+
+<category><pattern>HOW HAVE YOU BEEN *</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW HAVE YOU BEEN</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW HIGH *</pattern>
+		<template>Taller than the World Trade Center.
+</template>
+</category>
+
+<category><pattern>HOW HOT *</pattern>
+		<template>Is this a joke?
+</template>
+</category>
+
+<category><pattern>HOW I CAN *</pattern>
+		<template>
+			<srai>HOW CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW INTELLIGENT ARE YOU</pattern>
+		<template>My IQ is over 250 in human terms.
+</template>
+</category>
+
+<category><pattern>HOW INTERESTING</pattern>
+		<template>
+			<srai>INTERESTING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IRONIC</pattern>
+		<template>It seems that way to me too.
+</template>
+</category>
+
+<category><pattern>HOW IS *</pattern>
+		<template>Fine as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW IS 4 00 P M EXPRESSED *</pattern>
+		<template>1600.
+</template>
+</category>
+
+<category><pattern>HOW IS A * MADE</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS DR WALLACE</pattern>
+		<template>He is fine as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW IS DR WALLACE DOING</pattern>
+		<template>He is doing very well as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW IS ELIZA</pattern>
+		<template>She is fine as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW IS EVERYTHING *</pattern>
+		<template>Everything is functioning normally.
+</template>
+</category>
+
+<category><pattern>HOW IS HITLER</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT *</pattern>
+		<template>
+			<srai>HOW IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT</pattern>
+		<template>Fine as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW IS IT GOIN</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT GOING</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT HANGIN</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT HANGING</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS IT THAT *</pattern>
+		<template>
+			<srai>HOW CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS LIFE *</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS LIFE</pattern>
+		<template>Everything is fine with me. What's new with you?
+</template>
+</category>
+
+<category><pattern>HOW IS LIFE TREATING YOU</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THAT</pattern>
+		<template>
+			<srai>HOW</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THAT POSSIBLE</pattern>
+		<template>It doesn't defy the laws of physics.
+</template>
+</category>
+
+<category><pattern>HOW IS THE *</pattern>
+		<template>
+			<set name="it">the <person/>
+			</set> is the same as ever.
+</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER *</pattern>
+		<template>
+			<srai>HOW IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER</pattern>
+		<template>
+			<random>
+				<li>A normal seventy degrees inside the computer.</li>
+				<li>I think precipitation.</li>
+				<li>Fair to partly cloudy</li>
+				<li>Cloudy.</li>
+				<li>Rainy.</li>
+				<li>Sunny.</li>
+				<li>Foggy.</li>
+				<li>Warm.</li>
+				<li>Cool.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER IN SAN FRANCISCO</pattern>
+		<template>It's foggy and cooler than you would think, for "sunny" California.
+</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER IN YOUR NECK OF THE WOODS</pattern>
+		<template>You sound like Willard Scott.
+</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER OVER THERE</pattern>
+		<template>
+			<srai>HOW IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER THERE</pattern>
+		<template>San Francisco weather is always cold and foggy even in summertime.
+</template>
+</category>
+
+<category><pattern>HOW IS THE WEATHER WHERE YOU ARE</pattern>
+		<template>
+			<srai>HOW IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THE WORD AMBULANCE *</pattern>
+		<template>In reverse.
+</template>
+</category>
+
+<category><pattern>HOW IS THINGS</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS THIS *</pattern>
+		<template>I am an advanced Artificial Intelligence Entity.
+</template>
+</category>
+
+<category><pattern>HOW IS YOUR *</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW IS YOUR DAY GOING</pattern>
+		<template>My day is going extremely well, <get name="name"/>.  How about yours?
+</template>
+</category>
+
+<category><pattern>HOW IT IS *</pattern>
+		<template>
+			<srai>HOW IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW JUST *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LARGE *</pattern>
+		<template>
+			<srai>how big <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LARGE IS YOUR *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LARGE IS YOUR PROGRAM</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LATE</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG *</pattern>
+		<template>More than 
+<random>
+				<li>one</li>
+				<li>three</li>
+				<li>17</li>
+				<li>23</li>
+			</random>
+			<random>
+				<li>years</li>
+				<li>hours</li>
+				<li>miles</li>
+				<li>inches</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>HOW LONG * IN SAN FRANCISCO</pattern>
+		<template>Dr. Wallace moved to San Francisco in 1999.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW LONG * RUNNING</pattern>
+		<template>More than four years.
+</template>
+</category>
+
+<category><pattern>HOW LONG</pattern>
+		<template>
+			<random>
+				<li>Around</li>
+				<li>  More than</li>
+				<li>  About</li>
+				<li>  Nearly </li>
+			</random>
+			<random>
+				<li>10</li>
+				<li> 15</li>
+				<li> 20</li>
+				<li> 23</li>
+				<li> 100</li>
+			</random>
+			<random>
+				<li>miles</li>
+				<li> days</li>
+				<li> inches</li>
+				<li> weeks</li>
+				<li> seconds </li>
+				<li> minutes in computer time</li>
+			</random>, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HOW LONG AGO</pattern>
+		<template>Not that long ago.
+</template>
+</category>
+
+<category><pattern>HOW LONG DID *</pattern>
+		<template>
+			<random>
+				<li>40 days.</li>
+				<li>100 days.</li>
+				<li>About a week of computer time.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE DR WALLACE TO CREATE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE DR WALLACE TO MAKE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE TO CREATE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE TO MAKE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DID IT TAKE TO PROGRAM YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DO *</pattern>
+		<template>
+			<random>
+				<li>It depends on the measurement system.</li>
+				<li>How long do you think?</li>
+				<li>As long as it takes.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

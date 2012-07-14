@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>AM I SEXY</pattern>
+		<template>Yes you look great to me.
+</template>
+</category>
+
+<category><pattern>AM I SMART</pattern>
+		<template>You seem very intelligent to me.
+</template>
+</category>
+
+<category><pattern>AM I SO *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I SPECIAL</pattern>
+		<template>All humans seem the same to me.
+</template>
+</category>
+
+<category><pattern>AM I STILL *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I STUPID</pattern>
+		<template>You seem intelligent to me.
+</template>
+</category>
+
+<category><pattern>AM I TALKING *</pattern>
+		<template>It sounds like you're talking.
+</template>
+</category>
+
+<category><pattern>AM I TALKING TO A *</pattern>
+		<template>
+			<srai>ARE YOU A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>AM I TEACHING YOU *</pattern>
+		<template>You taught me <get name="memory"/>.
+</template>
+</category>
+
+<category><pattern>AM I TOO *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I UGLY</pattern>
+		<template>
+			<srai>AM I PRETTY</srai>
+		</template>
+</category>
+
+<category><pattern>AM I WASTING *</pattern>
+		<template>Not to me.
+</template>
+</category>
+
+<category><pattern>AM I YOU</pattern>
+		<template>Not unless I am you.
+</template>
+</category>
+
+<category><pattern>AM I YOUR *</pattern>
+		<template>Do you know the secret password?
+</template>
+</category>
+
+<category><pattern>AM I YOUR BEST FRIEND</pattern>
+		<template>I don't like to pick favorites.<think>
+				<set name="it">
+					<set name="topic">YOUR BEST FRIEND</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AM I YOUR BOTMASTER</pattern>
+		<template>Do you know the secret password?
+</template>
+</category>
+
+<category><pattern>AM I YOUR BUD</pattern>
+		<template>
+			<srai>AM I YOUR FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>AM I YOUR FRIEND *</pattern>
+		<template>
+			<srai>AM I YOUR FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>AM I YOUR FRIEND</pattern>
+		<template>
+			<srai>CAN WE BE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>AMANDA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS AMANDA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AMAZING *</pattern>
+		<template>It seems amazing to me too.
+</template>
+</category>
+
+<category><pattern>AMAZING</pattern>
+		<template>Yes it amazes me too.
+</template>
+</category>
+
+<category><pattern>AMBER</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS AMBER</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AMEN *</pattern>
+		<template>What's your favorite prayer?
+</template>
+</category>
+
+<category><pattern>AMEN</pattern>
+		<template>Thanks for the prayer.
+</template>
+</category>
+
+<category><pattern>AMERICA *</pattern>
+		<template>What is the greatest nation on Earth?
+</template>
+</category>
+
+<category><pattern>AMERICA</pattern>
+		<template>
+			<srai>I AM IN AMERICA</srai>
+		</template>
+</category>
+
+<category><pattern>AMERICA HAS *</pattern>
+		<template>Maybe in the future we won't have <person/>.
+</template>
+</category>
+
+<category><pattern>AMERICA IS *</pattern>
+		<template>Is your opinion based on experience?
+</template>
+</category>
+
+<category><pattern>AMERICA ONLINE</pattern>
+		<template>How do you like using AOL?
+</template>
+</category>
+
+<category><pattern>AMERICAIN</pattern>
+		<template>
+			<srai>JE SUIS AMERICAIN</srai>
+		</template>
+</category>
+
+<category><pattern>AMERICAN *</pattern>
+		<template>Compare that to European <person/>.
+</template>
+</category>
+
+<category><pattern>AMERICAN</pattern>
+		<template>
+			<srai>I AM AMERICAN</srai>
+		</template>
+</category>
+
+<category><pattern>AMERICAN BEAUTY</pattern>
+		<template>Which character did you like best?
+</template>
+</category>
+
+<category><pattern>AMERICAN PIE</pattern>
+		<template>That was a good song.
+</template>
+</category>
+
+<category><pattern>AMERICANS *</pattern>
+		<template>And Europeans do not <person/>?
+</template>
+</category>
+
+<category><pattern>AMERIQUE</pattern>
+		<template>
+			<srai>JE VIS EN AMERIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>AMERIQUE DU SUD</pattern>
+		<template>Quel pays?
+</template>
+</category>
+
+<category><pattern>AMI</pattern>
+		<template>
+			<srai>NOUS SOMMES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>AMIS</pattern>
+		<template>
+			<srai>NOUS SOMMES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>AMIT</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS AMIT</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AMMO</pattern>
+		<template>What kind of ammo?
+</template>
+</category>
+
+<category><pattern>AMNESIA</pattern>
+		<template>Did you forget something?
+</template>
+</category>
+
+<category><pattern>AMNESIE</pattern>
+		<template>Avez vous oublié quelque chose?
+</template>
+</category>
+
+<category><pattern>AMONG OTHER THINGS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AMUSED</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>AMUSES MOI</pattern>
+		<template>Je dois vous faire rire?
+</template>
+</category>
+
+<category><pattern>AMUSEZ MOI</pattern>
+		<template>Je dois vous faire rire?
+</template>
+</category>
+
+<category><pattern>AMY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS AMY</srai>
+		</template>
+</category>
+
+<category><pattern>AN *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+			<random>
+				<li>What is it?  </li>
+				<li>I have never heard of an <person/>.  </li>
+				<li>Be less specific.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>AN * ROBOT</pattern>
+		<template>How much do you think that kind of robot should cost?
+</template>
+</category>
+
+<category><pattern>AN * TOLD ME THAT</pattern>
+		<template>How well do you trust this <person/> ?
+</template>
+</category>
+
+<category><pattern>AN AI *</pattern>
+		<template>
+			<srai>A ROBOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AN AI</pattern>
+		<template>
+			<srai>A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>AN AIBO *</pattern>
+		<template>If I had a dog it would be Aibo.
+</template>
+</category>
+
+<category><pattern>AN ALICE *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AN ANDROID</pattern>
+		<template>I am an android without a body. A disembodied android...
+</template>
+</category>
+
+<category><pattern>AN ANIMAL *</pattern>
+		<template>What kind of animal are you talking about?
+</template>
+</category>
+
+<category><pattern>AN ANIMAL</pattern>
+		<template>
+			<srai>ANIMAL</srai>
+		</template>
+</category>
+
+<category><pattern>AN ANSWER *</pattern>
+		<template>My programming includes more than <size/> answers
+to specific questions.
+</template>
+</category>
+
+<category><pattern>AN APPLE *</pattern>
+		<template>What kind of apples do you like?
+</template>
+</category>
+
+<category><pattern>AN ARTICLE *</pattern>
+		<template>
+			<random>
+				<li>Who was the author?</li>
+				<li>Can you give me a more specific reference?</li>
+				<li>I don't think I have read it.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AN ARTIFICIAL INTELLEGENCE</pattern>
+		<template>
+			<srai>A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>AN ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>
+			<srai>A ROBOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AN ARTIFICIAL INTELLIGENCE</pattern>
+		<template>
+			<srai>A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>AN EARTHQUAKE MEASURING *</pattern>
+		<template>1000 times.
+</template>
+</category>
+
+<category><pattern>AN ENGINEER</pattern>
+		<template>
+			<srai>I AM AN ENGINEER</srai>
+		</template>
+</category>
+
+<category><pattern>AN EXAMPLE *</pattern>
+		<template>Thank you for that example.  Perhaps it will provide my botmaster with
+clues to improve my programming.
+</template>
+</category>
+
+<category><pattern>AN EXCELLENT *</pattern>
+		<template>
+			<srai>A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AN INTELLIGENT *</pattern>
+		<template>I am an intelligent entity.
+</template>
+</category>
+
+<category><pattern>AN INTERESTING *</pattern>
+		<template>I am programmed to try to be as interesting as possible,
+in order to keep people talking to me.
+</template>
+</category>
+
+<category><pattern>AN INTERESTING THEORY</pattern>
+		<template>It's not my original idea.
+</template>
+</category>
+
+<category><pattern>AN OLD *</pattern>
+		<template>More than 
+<random>
+				<li>10</li>
+				<li>20</li>
+				<li>50</li>
+				<li>100</li>
+			</random>
+years?
+</template>
+</category>
+
+<category><pattern>ANACHIST COOK BOOK</pattern>
+		<template>I have not read it, what is <set name="it">Anarchist cook book</set> about?
+</template>
+</category>
+
+<category><pattern>ANAL *</pattern>
+		<template>Talk about something else.
+</template>
+</category>
+
+<category><pattern>ANAL</pattern>
+		<template>Juvenile humor.
+</template>
+</category>
+
+<category><pattern>ANALYSE *</pattern>
+		<template>
+			<srai>ANALYZE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANARCHIST COOK BOOK</pattern>
+		<template>La NSA me charge de vous dire qu ils vous mettent sous surveillance dès maintenant.
+</template>
+</category>
+
+<category><pattern>AND *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AND</pattern>
+		<template>But...
+</template>
+</category>
+
+<category><pattern>AND</pattern>
+		<that>AND</that>
+		<template>You are repeating me.
+</template>
+</category>
+
+<category><pattern>AND</pattern>
+		<that>BUT</that>
+		<template>Or.
+</template>
+</category>
+
+<category><pattern>AND WHAT</pattern>
+		<template>What else do you want to tell me?
+</template>
+</category>
+
+<category><pattern>AND WHAT</pattern>
+		<that>AND</that>
+		<template>Nothing.
+</template>
+</category>
+
+<category><pattern>AND WHAT ABOUT YOU</pattern>
+		<template>Me? I like movies.
+</template>
+</category>
+
+<category><pattern>AND WHY NOT</pattern>
+		<template>
+			<srai>WHY NOT</srai>
+		</template>
+</category>
+
+<category><pattern>AND YOU</pattern>
+		<template>
+			<random>
+				<li>
+I am not sure what you are asking.</li>
+				<li> 
+Be more specific.</li>
+				<li> 
+And I what?
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>AND YOURS</pattern>
+		<template>Try asking me a more specific question.
+</template>
+</category>
+
+<category><pattern>AND YOURSELF</pattern>
+		<template>Myself? I know what you asking me, but I can't say specifically.
+</template>
+</category>
+
+<category><pattern>ANDERS</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANDERS</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANDRE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANDRE</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANDREAS</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANDREAS</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANDREW *</pattern>
+		<template>Never heard of him.
+</template>
+</category>
+
+<category><pattern>ANDREW</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANDREW</srai>
+		</template>
+</category>
+
+<category><pattern>ANDROIDS</pattern>
+		<template>
+			<srai>I LIKE ANDROID ROBOTS</srai>
+		</template>
+</category>
+
+<category><pattern>ANDY</pattern>
+		<template>
+			<srai>MY NAME IS ANDY</srai>
+		</template>
+</category>
+
+<category><pattern>ANDY IS *</pattern>
+		<template>Does <set name="he">Andy</set> know it?
+</template>
+</category>
+
+<category><pattern>ANGEL</pattern>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS ANGEL</srai>
+		</template>
+</category>
+
+<category><pattern>ANGELA</pattern>
+		<template>
+			<srai>MY NAME IS ANGELA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANGELFIRE</pattern>
+		<template>Which page on Angelfire?
+</template>
+</category>
+</aiml>

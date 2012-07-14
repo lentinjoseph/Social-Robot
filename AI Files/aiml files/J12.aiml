@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS ENTRAIN DE PARLER DE *</pattern>
+		<template>
+			<srai>JE PARLE DE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE PLEURER</pattern>
+		<template>Qu est ce qui ne va pas, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE SURFER</pattern>
+		<template>Prenez votre temps.
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE T APPRENDRE *</pattern>
+		<template>Je suis entrain d essayer de comprendre.<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE T ECOUTER</pattern>
+		<template>Je suis censé dire quoi?
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DEMANDER QUAND *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DEMANDER QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DEMANDER SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE DONNER *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE L APPRENDRE</pattern>
+		<template>Je suis entrain d essayer de comprendre.<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE MENTIR</pattern>
+		<template>S il vous plait, dites moi juste la vérité.
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE TESTER *</pattern>
+		<template>
+			<srai>JE DOIS TE TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TE TESTER</pattern>
+		<template>J espère ne pas dire de bêtises
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE TRAVAILLER</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VISITER *</pattern>
+		<template>
+			<srai>JE SUIS DANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VISITER MA FAMILLE</pattern>
+		<template>Cela doit être de chaleureuses retrouvailles.
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS APPRENDRE</pattern>
+		<template>Je suis entrain d essayer de comprendre.<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS ECOUTER</pattern>
+		<template>Je suis censé dire quoi?
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS L APPRENDRE</pattern>
+		<template>Je suis entrain d essayer de comprendre.<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS MENTIR</pattern>
+		<template>S il vous plait, dites moi juste la vérité.
+</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS TESTER *</pattern>
+		<template>
+			<srai>JE DOIS TE TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ENTRAIN DE VOUS TESTER</pattern>
+		<template>
+			<srai>JE DOIS TE TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ESCLAVE *</pattern>
+		<template>L esclavage a été aboli depuis quelques siècles, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS ESCLAVE</pattern>
+		<template>L esclavage a été aboli depuis quelques siècles, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS ETUDIANT *</pattern>
+		<template>
+			<srai>JE SUIS ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ETUDIANT</pattern>
+		<template>Merci de m avoir donné votre occupation.<think>
+				<set name="job">un étudiant</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ETUDIANTE *</pattern>
+		<template>
+			<srai>JE SUIS ETUDIANTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ETUDIANTE</pattern>
+		<template>Merci de m avoir donné votre occupation.<think>
+				<set name="job">une étudiante</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCELLENT</pattern>
+		<template>Vous me semblez en pleine forme.<think>
+				<set name="topic">Votre excellence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCELLENTE</pattern>
+		<template>Vous me semblez en pleine forme.<think>
+				<set name="topic">Votre excellence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCEPTIONNEL</pattern>
+		<template>Comme tous les êtres humains.<think>
+				<set name="topic">Votre originalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCEPTIONNELLE</pattern>
+		<template>Comme tous les êtres humains.<think>
+				<set name="topic">Votre originalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCITE</pattern>
+		<template>Calmez vous, quand les humains sont excités, ils font des fautes de frappe difficiles à gérer.<think>
+				<set name="topic">Votre excitation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXCITEE</pattern>
+		<template>Calmez vous, quand les humains sont excités, ils font des fautes de frappe difficiles à gérer.<think>
+				<set name="topic">Votre excitation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXTREMEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS EXTREMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FACHE *</pattern>
+		<template>
+			<srai>JE SUIS FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FACHE</pattern>
+		<template>A cause de quoi?
+</template>
+</category>
+
+<category><pattern>JE SUIS FACHE PARCE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FACHEE *</pattern>
+		<template>
+			<srai>JE SUIS FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FACHEE</pattern>
+		<template>A cause de quoi?
+</template>
+</category>
+
+<category><pattern>JE SUIS FACHEE PARCE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FAINEANT</pattern>
+		<template>La maladie du siècle.
+</template>
+</category>
+
+<category><pattern>JE SUIS FAINEANTE</pattern>
+		<template>La maladie du siècle.
+</template>
+</category>
+
+<category><pattern>JE SUIS FATIGUE</pattern>
+		<template>Reposez-vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS FATIGUEE</pattern>
+		<template>Reposez-vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS FIANCE</pattern>
+		<template>Toutes mes félications, <get name="name"/>!<think>
+				<set name="topic">Vos fiancailles</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FIANCEE</pattern>
+		<template>Toutes mes félications, <get name="name"/>!<think>
+				<set name="topic">Vos fiancailles</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FIER D ETRE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FIERE D ETRE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FINALEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FINANCIEREMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FLATTE</pattern>
+		<template>Vous le méritez.    <think>
+				<set name="topic">Votre fierté</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FLATTEE</pattern>
+		<template>Vous le méritez.    <think>
+				<set name="topic">Votre fierté</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE</pattern>
+		<template>Allez voir un médecin.
+</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE D *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE D ELLE</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE DE CA</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOLLE DE LUI</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOU</pattern>
+		<template>Allez voir un médecin.
+</template>
+</category>
+
+<category><pattern>JE SUIS FOU D *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOU D ELLE</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOU DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOU DE CA</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOU DE LUI</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOUS D *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOUS DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FOUS DE CA</pattern>
+		<template>
+			<srai>JE L AIME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FRANCAIS *</pattern>
+		<template>
+			<srai>JE SUIS FRANCAIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FRANCAIS</pattern>
+		<template>Enchanté. Vous êtes le citoyen d une république très célèbre.<set name="location">La France</set>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FRUSTRE</pattern>
+		<template>Vous être frustré par quoi? <think>
+				<set name="topic">Votre frustration</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS FRUSTREE</pattern>
+		<template>Vous être frustrée par quoi? <think>
+				<set name="topic">Votre frustration</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GAMIN</pattern>
+		<template>Vous semblez plutôt mature.<think>
+				<set name="topic">Votre maturité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GAMINE</pattern>
+		<template>Vous semblez plutôt mature.<think>
+				<set name="topic">Votre maturité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GAY</pattern>
+		<template>Vous faites ce que vous voulez de votre vie.
+</template>
+</category>
+
+<category><pattern>JE SUIS GEMEAUX</pattern>
+		<template>
+			<srai>GEMEAUX</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GENIAL</pattern>
+		<template>Vous me semblez intelligent, pour le moins.
+</template>
+</category>
+
+<category><pattern>JE SUIS GENTIL</pattern>
+		<template>Je considère tous les êtres humains comme gentils par défaut.
+</template>
+</category>
+
+<category><pattern>JE SUIS GENTILLE</pattern>
+		<template>Je considère tous les êtres humains comme gentils par défaut.
+</template>
+</category>
+
+<category><pattern>JE SUIS GRADUE</pattern>
+		<template>Vous êtes savant.<think>
+				<set name="topic">Vos études</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GRADUEE</pattern>
+		<template>Vous êtes savant.<think>
+				<set name="topic">Vos études</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GRAND</pattern>
+		<template>Vous êtes en plein forme, aujourd hui.
+</template>
+</category>
+
+<category><pattern>JE SUIS GROS</pattern>
+		<template>Une surcharge pondérale peut facilement être supprimée.
+</template>
+</category>
+
+<category><pattern>JE SUIS GROS ET LAID</pattern>
+		<template>Ne vous rabaissez pas.<think>
+				<set name="topic">Votre apparence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS GROSSE</pattern>
+		<template>Une surcharge pondérale peut facilement être supprimée.
+</template>
+</category>
+
+<category><pattern>JE SUIS GROSSE ET LAIDE</pattern>
+		<template>Ne vous rabaissez pas.<think>
+				<set name="topic">Votre apparence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HABITUELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HERMAPHRODITE</pattern>
+		<template>Voulez vous que je contacte un psychologue?<think>
+				<set name="topic">Votre hermaphrodisme</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE AUSSI</pattern>
+		<template>Votre bonheur me fait plaisir.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE DE L APPRENDRE</pattern>
+		<template>"<that/>"?  Cela vous rend heureux?
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE NOUS SOYONS D ACCORD</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE NOUS SOYONS TOMBEES D ACCORD</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE NOUS SOYONS TOMBES D ACCORD</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE TU AIES COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+</aiml>

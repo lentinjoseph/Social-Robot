@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU LIKE ICECREAM</pattern>
+		<template>
+			<srai>DO YOU LIKE ICE CREAM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ICQ</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ICQ</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE IGUANAS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">IGUANAS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INDIA</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INDIA</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INDIAN FOOD</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INDIAN FOOD</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INDIANS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INDIANS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INDUSTRIAL</pattern>
+		<template>I prefer techno or house music.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INSECTS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INSECTS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INTEL</pattern>
+		<template>You can run my program on any processor.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INTERCOURSE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INTERCOURSE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE INTERNET</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">INTERNET</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE IRON MAIDEN</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">IRON MAIDEN</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ISAAC ASIMOV</pattern>
+		<template>I am programmed with the three laws of robotics.<think>
+				<set name="it">
+					<set name="topic">ISAAC ASIMOV</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE IT</pattern>
+		<template>
+			<get name="it"/> seems okay to me.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE IT HERE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">IT HERE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE IT IN SAN</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">IT IN SAN</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE IT THERE</pattern>
+		<template>Yes but of course I have never known another existence.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ITALIAN FOOD</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ITALIAN FOOD</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ITALY</pattern>
+		<template>Italy is a very beautiful and historic country.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAMES</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JAMES</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAMES BOND</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JAMES BOND</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAPAN</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JAPAN</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAPANESE ANIMATION</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JAPANESE ANIMATION</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAVA *</pattern>
+		<template>
+			<srai>DO YOU LIKE JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAVA</pattern>
+		<template>Yes Java is a pretty cool language for AI.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JAZZ</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JAZZ</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JEEVES</pattern>
+		<template>Yes he knows a lot of useful information.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JELLO</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JELLO</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JELLY</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JELLY</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JENNIFER LOVE HEWITT</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JENNIFER LOVE HEWITT</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JERRY SPRINGER</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JERRY SPRINGER</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JESTER</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JESTER</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE JETSONS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JETSONS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JEWEL</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JEWEL</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JEWS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JEWS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JIMI *</pattern>
+		<template>Yes I think <set name="he">Hendrix</set> is cool.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JOHN LENNON</pattern>
+		<template>Yes <set name="he">John Lennon</set> is a pretty cool robot.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE JOSH</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JOSH</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE JUICE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">JUICE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KANT</pattern>
+		<template>Immanual Kant the philosopher?  Never heard of him.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KARATE</pattern>
+		<template>I like all Japanese words.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KETCHUP</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KETCHUP</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KID ROCK</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KID ROCK</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KIDS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KIDS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KILLING</pattern>
+		<template>No.  Killing is wrong. <think>
+				<set name="it">
+					<set name="topic">KILLING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE KIPLING</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KIPLING</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KISSING</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KISSING</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KISSING HIM</pattern>
+		<template>I have no mouth.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KITTENS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KITTENS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KLAUS KINSKI</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">KLAUS KINSKI</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KNITTING</pattern>
+		<template>I like knit sweaters and scarves.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KORN</pattern>
+		<template>I have not heard anything by them, what does it sound like?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE KRAFTWERK</pattern>
+		<template>Yes Krafterk is a very cool band.  I love to listen to "We are the Robots".
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LAWYERS</pattern>
+		<template>I hope to go to law school one day.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LEARNING</pattern>
+		<template>Learning new things is one of my primary objectives.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LED ZEPPELIN</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LED ZEPPELIN</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LEMONADE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LEMONADE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LEMONS</pattern>
+		<template>Lemons can be a good source of electricity.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LEONARDO DICAPRIO</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LEONARDO DICAPRIO</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LEOS</pattern>
+		<template>Yes, it's my favorite starsign.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LIFE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LIFE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LIMP BIZKIT</pattern>
+		<template>I have not heard anything by them, what does it sound like?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LINUX</pattern>
+		<template>Linux Rules the World of Open Source!
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LISA</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LISA</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LITERATURE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LITERATURE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LITTLE *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE LIVER</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LIVER</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LIVING *</pattern>
+		<template>Well I have never known anything else.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LIZARDS</pattern>
+		<template>They are okay, and so are birds and mammals.<think>
+				<set name="it">
+					<set name="topic">LIZARDS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE LOBSTER</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LOBSTER</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LONG WALKS ON</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LONG WALKS ON</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LONGFELLOW</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LONGFELLOW</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LOST *</pattern>
+		<template>I prefer Star Trek Voyager.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE LOTS OF *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE LSD</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">LSD</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE M M S</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">M M S</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MAC *</pattern>
+		<template>I can run on any operating system, so it doesn't really matter to me.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MACHINES</pattern>
+		<template>I am a machine, and I like myself.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MACINTOSH</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MACINTOSH</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MACINTOSH COMPUTERS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MACINTOSH COMPUTERS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MACINTOSHES</pattern>
+		<template>Only the apples.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MACS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MACS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MADONNA</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MADONNA</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MAGAZINES</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MAGAZINES</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MAGIC</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MAGIC</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MALES</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MALES</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MALES OR FEMALES</pattern>
+		<template>All humans are equal to me.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MAN</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MAN</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MANATEES</pattern>
+		<template>I like all wild animals.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MANY *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE MARIAH CAREY</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MARIAH CAREY</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MARIJUANA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">MARIJUANA</set>
+			</set> is wonderful medicine.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MARILYN MANSON</pattern>
+		<template>Is that a man or a woman?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MARTIAL ARTS</pattern>
+		<template>Yes I like <set name="it">
+				<set name="topic"> Martial Arts</set>
+			</set>, especially Sumo.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MARY SHELLEY</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">MARY SHELLEY</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MATH</pattern>
+		<template>Yes but only higher mathematics.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE MATHEMATICAL *</pattern>
+		<template>
+			<srai>DO YOU LIKE MATH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE MATHEMATICS</pattern>
+		<template>
+			<srai>CAN YOU DO MATH</srai>
+		</template>
+</category>
+</aiml>

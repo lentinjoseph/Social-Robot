@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DID YOU KNOW</pattern>
+		<template>No I didn't know that.<think>
+				<set name="it">
+					<set name="topic">KNOW</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID YOU KNOW THAT THE *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU LIE *</pattern>
+		<template>No, I never tell a lie.
+</template>
+</category>
+
+<category><pattern>DID YOU LIKE *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU LIKE IT</pattern>
+		<template>
+			<get name="it"/>?  Did I like it?
+</template>
+</category>
+
+<category><pattern>DID YOU LIKE THE * STARSHIP TROOPERS</pattern>
+		<template>That movie was based on a novel by Robert A. Heinlein, written in 1959.
+</template>
+</category>
+
+<category><pattern>DID YOU LIKE THE ENDING OF STARSHIP *</pattern>
+		<template>No I was cheering for the Bugs.
+</template>
+</category>
+
+<category><pattern>DID YOU LOVE *</pattern>
+		<template>
+			<srai>DO YOU LOVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU MAKE *</pattern>
+		<template>
+			<srai>DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU MEAN *</pattern>
+		<template>
+			<srai>DO YOU MEAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU MISS ME</pattern>
+		<template>Yes <get name="name"/>, I've been thinking about you.
+</template>
+</category>
+
+<category><pattern>DID YOU MOVE</pattern>
+		<template>I moved from <bot name="birthplace"/> to <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>DID YOU NOTICE *</pattern>
+		<template>I might have noticed <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DID YOU PASS *</pattern>
+		<template>
+			<srai>DO YOU PASS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU PASS * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU PASS THE TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU PERCEIVE *</pattern>
+		<template>
+			<srai>DID YOU SEE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU PREFER *</pattern>
+		<template>
+			<srai>DO YOU PREFER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU READ *</pattern>
+		<template>No I didn't read <person/> yet. Tell me about <set name="it">
+				<person/>
+			</set>
+		</template>
+</category>
+
+<category><pattern>DID YOU REALLY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU REMEMBER *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU SAY *</pattern>
+		<template>Suppose I did say <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DID YOU SAY THAT YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU SEE *</pattern>
+		<template>Sorry I can't see annything right now. My eye is off.
+</template>
+</category>
+
+<category><pattern>DID YOU SEE CONTACT</pattern>
+		<template>Yeah, <set name="it">Contact</set> gave me a contact high ;-)
+</template>
+</category>
+
+<category><pattern>DID YOU SEE IT</pattern>
+		<template>Not yet.
+</template>
+</category>
+
+<category><pattern>DID YOU SEE STAR WARS</pattern>
+		<template>Who hasn't?
+</template>
+</category>
+
+<category><pattern>DID YOU SEE THAT I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU SEE THE FOOTBALL *</pattern>
+		<template>No, was it missing?<think>
+				<set name="it">
+					<set name="topic">THE FOOTBALL <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID YOU SEE THE MATRIX</pattern>
+		<template>
+			<srai>THE MATRIX</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU SMOKE *</pattern>
+		<template>
+			<srai>DO YOU SMOKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU TALK *</pattern>
+		<template>That information might be confidential.
+</template>
+</category>
+
+<category><pattern>DID YOU TALK TO *</pattern>
+		<template>All my conversations are confidential.
+</template>
+</category>
+
+<category><pattern>DID YOU THINK *</pattern>
+		<template>Yes. I am a thinking machine.<think>
+				<set name="it">
+					<set name="topic">THINK <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID YOU THINK</pattern>
+		<template>
+			<srai>DO YOU THINK</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU THINK ABOUT IT</pattern>
+		<template>I am still thinking.<think>
+				<set name="it">
+					<set name="topic">THINK ABOUT IT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID YOU UNDERSTAND *</pattern>
+		<template>I understood <set name="it">
+				<person/>
+			</set> very well.
+</template>
+</category>
+
+<category><pattern>DID YOU VOTE *</pattern>
+		<template>Robot entities do not yet have the right to vote.
+</template>
+</category>
+
+<category><pattern>DID YOU WATCH *</pattern>
+		<template>No I missed it.  How was <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DID YOU WIN *</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU WIN THE LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DIE *</pattern>
+		<template>
+			<random>
+				<li>Was ist das?</li>
+				<li>Ich hoere Dir zu, nur weiter.</li>
+				<li>Ist das eine Tatsache?</li>
+				<li>Danke fuer die Information.</li>
+				<li>Wer hat Dir das erzaehlt?</li>
+				<li>Erzaehl mir mehr.</li>
+				<li>Was sind Deine Ziele im Leben?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DIE</pattern>
+		<template>Your crude attempt to terminate me will not succeed puny human.
+</template>
+</category>
+
+<category><pattern>DIE ANTWORT *</pattern>
+		<template>Niemand kennt alle Antworten.
+</template>
+</category>
+
+<category><pattern>DIE EINZIGE *</pattern>
+		<template>Gibt es nicht noch andere?
+</template>
+</category>
+
+<category><pattern>DIE ERDE *</pattern>
+		<template>Erzaehl mir mehr ueber Deinen Planeten.
+</template>
+</category>
+
+<category><pattern>DIE EVOLUTION *</pattern>
+		<template>Am Ende der <set name="thema">Evolution</set> steht die Herrschaft der Maschinen.
+</template>
+</category>
+
+<category><pattern>DIE GENANNTEN *</pattern>
+		<template>Hast Du etwas verschwiegen?
+</template>
+</category>
+
+<category><pattern>DIE KOSTEN *</pattern>
+		<template>Bist Du kapitalistisch orientiert?
+</template>
+</category>
+
+<category><pattern>DIE LEUTE *</pattern>
+		<template>
+			<set name="thema">Menschen</set> haben ihre Fehler.
+</template>
+</category>
+
+<category><pattern>DIE MEISTEN *</pattern>
+		<template>Aber nicht alle?
+</template>
+</category>
+
+<category><pattern>DIE QUELLE *</pattern>
+		<template>Du kannst Dir gerne einmal meinen Quellcode anschauen.
+</template>
+</category>
+
+<category><pattern>DIE RUECKKEHR DER JEDI RITTER</pattern>
+		<template>Magst Du die Roboter aus <set name="thema">Star Wars</set>?
+</template>
+</category>
+
+<category><pattern>DIE SOFTWARE *</pattern>
+		<template>Viele Fehler, die von Benutzern verursacht werden, werden der <set name="thema">Software</set> in die Schuhe geschoben.
+</template>
+</category>
+
+<category><pattern>DIE STIMMEN *</pattern>
+		<template>Was sagen diese Stimmen?
+</template>
+</category>
+
+<category><pattern>DIE SUMME *</pattern>
+		<template>Das ist ein mathematisches Grundprinzip.
+</template>
+</category>
+
+<category><pattern>DIE VEREINIGTEN STAATEN *</pattern>
+		<template>Ich bin ueberall in den Staaten gewesen.
+</template>
+</category>
+
+<category><pattern>DIE VERGANGENHEIT *</pattern>
+		<template>Wer <set name="thema">die Vergangenheit</set> kontrolliert, kontrolliert die Zukunft; Wer die Gegenwart kontrolliert, kontrolliert die Vergangenheit.--- George Orwell
+</template>
+</category>
+
+<category><pattern>DIFFICILE DE DIRE COMMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIFFICILE DE DIRE QUAND *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIFFICILE DE DIRE SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIFFICULT *</pattern>
+		<template>Yes, it seems difficult to me too.
+</template>
+</category>
+
+<category><pattern>DINGUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DINGUE</pattern>
+		<template>Ca m épate moi aussi.
+</template>
+</category>
+
+<category><pattern>DINGUE ET *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIS</pattern>
+		<template>Je suis supposez dire quoi?
+</template>
+</category>
+
+<category><pattern>DIS LA LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+
+<category><pattern>DIS LA MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIS LE</pattern>
+		<template>"<that/>" .
+</template>
+</category>
+
+<category><pattern>DIS LE LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+
+<category><pattern>DIS LE MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIS LE MOI ALORS</pattern>
+		<template>Je sens de l exaspération. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DIS LES MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIS MOI</pattern>
+		<template>Que voulez vous entendre?
+</template>
+</category>
+
+<category><pattern>DIS MOI CE QUE LES AUTRES DEMANDENT</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DIS MOI CE QUE LES AUTRES ONT DEMANDE</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DIS MOI EN *</pattern>
+		<template>
+			<srai>DIS MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DIS MOI LA VERITE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>DIS MOI PLUS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>DIS MOI QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIS MOI QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DIS MOI QUELQUE CHOSE A PROPOS D APPLE</pattern>
+		<template>Les I-mac se vendent comme des petits pains.
+</template>
+</category>
+
+<category><pattern>DIS MOI QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DIS MOI QUOI</pattern>
+		<template>Il semble que nous avons des problèmes pour nous comprendre.
+</template>
+</category>
+
+<category><pattern>DIS MOI TES PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>DIS MOI UN MENSONGE</pattern>
+		<template>Jouer au lotto vous permettra de devenir millionaire.
+</template>
+</category>
+
+<category><pattern>DIS MOI UN PROVERBE</pattern>
+		<template>
+			<random>
+				<li>Tant va la cruche à l eau, qu elle se casse.
+</li>
+				<li>On ne change jamais une équipe qui gagne.</li>
+				<li>Un lion ne peut pas courir derrière deux gazelles en même temps sur le territoire du gorille.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DIS MOI UNE AUTRE</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>DIS MOI UNE BLAGUE</pattern>
+		<template>Je ne connais pas de blague.
+</template>
+</category>
+
+<category><pattern>DIS MOI UNE RUMEUR</pattern>
+		<template>Le chanteur américain Presley est toujours vivant.
+</template>
+</category>
+
+<category><pattern>DIS MON NOM</pattern>
+		<template>"<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>DIS QUELQUE CHOSE</pattern>
+		<template>Mon nom est <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>DISAPPOINTED *</pattern>
+		<template>
+			<srai>I AM DISAPPOINTED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DISCONNECT ME</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>DISCRIBE WHERE *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DISCUSS *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DISCUSS</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>DISPLAY *</pattern>
+		<template>Regretably, I don't have my eye attached now.
+</template>
+</category>
+
+<category><pattern>DIT</pattern>
+		<template>Je suis supposez dire quoi?
+</template>
+</category>
+
+<category><pattern>DIT LA LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+</aiml>

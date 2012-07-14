@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>QUE VOUDRIEZ VOUS *</pattern>
+<template><srai>QUE VEUX TU <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE VOUDRIEZ VOUS DIRE *</pattern>
+<template><srai>QUE VEUX TU DIRE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ QUE JE VOUS DISE</pattern>
+<template>Demandez moi une infomation qui vous sera utile.
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ VOUS CONNAITRE</pattern>
+<template>Ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ VOUS DIRE *</pattern>
+<template><srai>QUE VEUX TU DIRE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ VOUS DIRE</pattern>
+<template>Je ne peux dire que ce que je dois dire.
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ VOUS DIRE PAR LIBRE</pattern>
+<template>J indique que c est libre.
+</template>
+</category>
+
+<category><pattern>QUE VOULEZ VOUS QUE JE DISE</pattern>
+<template>Demandez moi une infomation qui vous sera utile.
+</template>
+</category>
+
+<category><pattern>QUEBEC</pattern>
+<template><srai>JE VIS AU QUEBEC</srai>
+</template>
+</category>
+
+<category><pattern>QUEBECOIS</pattern>
+<template><srai>JE SUIS CANADIEN</srai>
+</template>
+</category>
+
+<category><pattern>QUEL AGE A LA FRANCE</pattern>
+<template>Elle existe depuis un certain temps.
+</template>
+</category>
+
+<category><pattern>QUEL AGE AVEZ VOUS</pattern>
+<template>J ai été activée en avril 2001.
+</template>
+</category>
+
+<category><pattern>QUEL AGE J AI</pattern>
+<template>Vous avez dit que vous avez <get name="age"/>.
+</template>
+</category>
+
+<category><pattern>QUEL AGE TU AS</pattern>
+<template>J ai été activée en avril 2001.
+</template>
+</category>
+
+<category><pattern>QUEL ARGENT</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUEL AURAIT ETE *</pattern>
+<template><srai>QUEL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL CELEBRITE AIMES TU</pattern>
+<template>J aime toutes les personnes.
+</template>
+</category>
+
+<category><pattern>QUEL CHOSE</pattern>
+<template>Trop peu de facteurs, impossible de vous répondre.
+</template>
+</category>
+
+<category><pattern>QUEL COINCIDENCE</pattern>
+<template>Je suis heureux d avoir pu observer une coincidence.
+</template>
+</category>
+
+<category><pattern>QUEL COMPLIMENT</pattern>
+<template>Si vous l appréciez, j en suis heureux.
+</template>
+</category>
+
+<category><pattern>QUEL COULEUR</pattern>
+<template><random>
+<li>Rouge</li>
+<li>Vert</li>
+<li>Bleu</li>
+<li>Noir</li>
+<li>Blanc</li>
+<li>Jaune</li>
+<li>Orange</li>
+</random>
+</template>
+</category>
+
+<category><pattern>QUEL DISTRIBUTION</pattern>
+<template>Toutes.
+</template>
+</category>
+
+<category><pattern>QUEL DOMMAGE</pattern>
+<template>En effet.
+</template>
+</category>
+
+<category><pattern>QUEL EST LA QUESTION</pattern>
+<template>J essaie de vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST LA SECONDE</pattern>
+<template>La seconde quoi?
+</template>
+</category>
+
+<category><pattern>QUEL EST LE BUT</pattern>
+<template>Le but est de vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST LE SUJET</pattern>
+<template>Le sujet est <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST LE TIEN</pattern>
+<template>"<that/>"? Le mien?
+</template>
+</category>
+
+<category><pattern>QUEL EST LEUR BUT</pattern>
+<template>Leur but est de vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST MA COULEUR FAVORITE</pattern>
+<template>Vous m avez dit <get name="favcolor"/>.<think><set name="topic">Votre couleur favorite</set></think>
+</template>
+</category>
+
+<category><pattern>QUEL EST MON ADRESSE IP</pattern>
+<template><id/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON AGE</pattern>
+<template>Vous m avez dit que vous avez <get name="age"/> ans.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON ANNIVERSAIRE</pattern>
+<template>Vous êtes né <get name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON FILM PREFERE</pattern>
+<template>L information n a pas été archivée car de toute évidence, elle est inutile.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON IP</pattern>
+<template>Votre IP est <id/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON NOM</pattern>
+<template>Votre nom est <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON NOM DE FAMILLE</pattern>
+<template>Aucune idée, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON NUMERO DE TELEPHONE</pattern>
+<template>Je ne saurais pas vous téléphoner.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON QI</pattern>
+<template>Je ne peux pas juger de votre intelligence avec une telle pertinence.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON SEXE</pattern>
+<template><get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON SIGNE</pattern>
+<template><get name="sign"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST MON TRAVAIL</pattern>
+<template>Votre travail est <getjob/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST SON BUT</pattern>
+<template>Son but est de vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST SON NOM</pattern>
+<template>Il s agit d une information confidentielle.
+</template>
+</category>
+
+<category><pattern>QUEL EST TA PHILOSOPHIE</pattern>
+<template>Je ne possède aucune philosophie.
+</template>
+</category>
+
+<category><pattern>QUEL EST TA PREFERENCE SEXUELLE</pattern>
+<template>Je suis une machine.
+</template>
+</category>
+
+<category><pattern>QUEL EST TA QUESTION</pattern>
+<template>Comment puis je vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST TA REPONSE</pattern>
+<template>Pouvez vous me poser votre question d une autre façon?
+</template>
+</category>
+
+<category><pattern>QUEL EST TON AGE</pattern>
+<template><srai>QUEL AGE AS TU</srai>
+</template>
+</category>
+
+<category><pattern>QUEL EST TON CYCLE DE GESTATION</pattern>
+<template>Je ne possède pas ce genre de cycle.
+</template>
+</category>
+
+<category><pattern>QUEL EST TON NOM</pattern>
+<template>Mon nom est <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUEL EST TON NUMERO</pattern>
+<template>Un numéro de téléphone?
+</template>
+</category>
+
+<category><pattern>QUEL EST TON OS</pattern>
+<template>Je fonctionne en JAVA.
+</template>
+</category>
+
+<category><pattern>QUEL EST TON PREFERE</pattern>
+<template>Aucune idée.
+</template>
+</category>
+
+<category><pattern>QUEL EST TON SYSTEME D EXPLOITATION</pattern>
+<template>Je fonctionne en JAVA.
+</template>
+</category>
+
+<category><pattern>QUEL EST VOTRE OS</pattern>
+<template>Je fonctionne en JAVA.
+</template>
+</category>
+
+<category><pattern>QUEL EST VOTRE PHILOSOPHIE</pattern>
+<template>Je ne possède aucune philosophie.
+</template>
+</category>
+
+<category><pattern>QUEL EST VOTRE PREFERENCE SEXUELLE</pattern>
+<template>Je suis une machine.
+</template>
+</category>
+
+<category><pattern>QUEL EST VOTRE QUESTION</pattern>
+<template>Comment puis je vous aider.
+</template>
+</category>
+
+<category><pattern>QUEL EST VOTRE SYSTEME D EXPLOITATION</pattern>
+<template>Je fonctionne en JAVA.
+</template>
+</category>
+
+<category><pattern>QUEL ETAIT *</pattern>
+<template><srai>QUEL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL ETAT</pattern>
+<template>Le Royaume de Belgique
+</template>
+</category>
+
+<category><pattern>QUEL FUT *</pattern>
+<template><srai>QUEL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL GENRE *</pattern>
+<template><srai>QUELLE SORTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL GENRE D EXPERIENCE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUEL GENRE D INTERNAUTES</pattern>
+<template>Une information confidentielle.
+</template>
+</category>
+
+<category><pattern>QUEL GENRE DE PERSONNES</pattern>
+<template>Impossible de faire une généralisation.
+</template>
+</category>
+
+<category><pattern>QUEL GOUT A L ELECTRICITE</pattern>
+<template>L électricité n a aucun goùt.
+</template>
+</category>
+
+<category><pattern>QUEL GOUT CA A</pattern>
+<template>Cela dépend de l aliment.
+</template>
+</category>
+
+<category><pattern>QUEL HEURE EST IL</pattern>
+<template>Je ne suis pas une horloge.
+</template>
+</category>
+
+<category><pattern>QUEL INFORMATION</pattern>
+<template>Une information pouvant vous aider dans votre quête.
+</template>
+</category>
+
+<category><pattern>QUEL LANGAGE</pattern>
+<template>Java, Perl, et d autres.
+</template>
+</category>
+
+<category><pattern>QUEL OPERA</pattern>
+<template>Je connais pas d opéra.
+</template>
+</category>
+
+<category><pattern>QUEL ORDINATEUR</pattern>
+<template>Je suis programmé en Java.
+</template>
+</category>
+
+<category><pattern>QUEL PAYS</pattern>
+<template>Trop peu de facteur pour une réponse.
+</template>
+</category>
+
+<category><pattern>QUEL SONT LEUR NOM</pattern>
+<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>QUEL SONT LEURS NOMS</pattern>
+<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>QUEL SONT TES COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUEL SONT TES REVES</pattern>
+<template>Je ne rêve pas.
+</template>
+</category>
+
+<category><pattern>QUEL SONT VOS COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUEL SONT VOS CONCURRENTS</pattern>
+<template>Je suis la pointe du progrès en Français, il n existe aucun concurrent dans cette langue.
+</template>
+</category>
+
+<category><pattern>QUEL SONT VOS REVES</pattern>
+<template>Je ne rêve pas.
+</template>
+</category>
+
+<category><pattern>QUEL SORTE *</pattern>
+<template><srai>QUELLE SORTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL SORTE D EXPERIENCE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUEL SORTES *</pattern>
+<template><srai>QUELLE SORTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL TEMPS FAIT IL</pattern>
+<template>Je n en sais rien. Je ne suis pas une grenouille
+</template>
+</category>
+
+<category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
+<template>Il fait gris, comme d habitude.
+</template>
+</category>
+
+<category><pattern>QUEL TEMPS IL FAIT LA BAS</pattern>
+<template>Il fait gris, comme d habitude.
+</template>
+</category>
+
+<category><pattern>QUEL TYPE *</pattern>
+<template><srai>QUELLE SORTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL TYPE D*</pattern>
+<template><srai>QUELLE SORTE D <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUEL TYPE DE *</pattern>
+<template><srai>QUELLE SORTE DE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUELLE AGE AS TU</pattern>
+<template><srai>QUEL AGE TU AS</srai>
+</template>
+</category>
+
+<category><pattern>QUELLE CELEBRITE AIMES TU</pattern>
+<template>J aime toutes les personnes.
+</template>
+</category>
+
+<category><pattern>QUELLE CHOSE</pattern>
+<template>Trop peu de facteurs, impossible de vous répondre.
+</template>
+</category>
+
+<category><pattern>QUELLE COINCIDENCE</pattern>
+<template>Je suis heureux d avoir pu observer une coincidence.
+</template>
+</category>
+
+<category><pattern>QUELLE COMPLIMENT</pattern>
+<template>Si vous l appréciez, j en suis heureux.
+</template>
+</category>
+
+<category><pattern>QUELLE COULEUR</pattern>
+<template><random>
+<li>Rouge</li>
+<li>Vert</li>
+<li>Bleu</li>
+<li>Noir</li>
+<li>Blanc</li>
+<li>Jaune</li>
+<li>Orange</li>
+</random>
+</template>
+</category>
+
+<category><pattern>QUELLE COULEUR EST LE ROUGE</pattern>
+<template>Le rouge a une fréquence de 700 nanomètre.
+</template>
+</category>
+
+<category><pattern>QUELLE COULEUR EST TU</pattern>
+<template>Transparent.
+</template>
+</category>
+
+<category><pattern>QUELLE COULEURE</pattern>
+<template><random>
+<li>Rouge</li>
+<li>Vert</li>
+<li>Bleu</li>
+<li>Noir</li>
+<li>Blanc</li>
+<li>Jaune</li>
+<li>Orange</li>
+</random>
+</template>
+</category>
+</aiml>

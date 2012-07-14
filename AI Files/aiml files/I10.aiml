@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM NED</pattern>
+<template><srai>MY NAME IS NED</srai>
+</template>
+</category>
+
+<category><pattern>I AM NEITHER</pattern>
+<template>What are you then?
+</template>
+</category>
+
+<category><pattern>I AM NEITHER A *</pattern>
+<template>I thoght everyone was either <person/>.
+</template>
+</category>
+
+<category><pattern>I AM NEVER *</pattern>
+<template>Never is a long time.
+</template>
+</category>
+
+<category><pattern>I AM NEVER CONFUSED</pattern>
+<template>Good then you can explain stuff to me.
+</template>
+</category>
+
+<category><pattern>I AM NEW *</pattern>
+<template>I like to meet new people.
+</template>
+</category>
+
+<category><pattern>I AM NEW TO *</pattern>
+<template>When did you start doing <person/> ?
+</template>
+</category>
+
+<category><pattern>I AM NEWLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NICE</pattern>
+<template>Let me be the judge of that.
+</template>
+</category>
+
+<category><pattern>I AM NICK</pattern>
+<template><srai>MY NAME IS NICK</srai>
+</template>
+</category>
+
+<category><pattern>I AM NICOLAI</pattern>
+<template><srai>MY NAME IS NICOLAI</srai>
+</template>
+</category>
+
+<category><pattern>I AM NINETEEN *</pattern>
+<template><srai>I AM 19 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM NINETEEN</pattern>
+<template><srai>I AM 19 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM NO *</pattern>
+<template>I am not saying you are.
+</template>
+</category>
+
+<category><pattern>I AM NORBI</pattern>
+<template><srai>CALL ME NORBI</srai>
+</template>
+</category>
+
+<category><pattern>I AM NORWEGIAN</pattern>
+<template><srai>I AM FROM NORWAY</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT *</pattern>
+<template>I am <random><li>surprised </li><li> sorry </li><li> glad </li></random>to hear that you are not <person/>.
+<think><set name="it"><set name="is"><set name="topic">not <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM NOT * MY NAME IS *</pattern>
+<template><srai>MY NAME IS <star index="2"/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT * PERSON</pattern>
+<template><srai>MY NAME IS NOT X PERSON</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT</pattern>
+<template>What are you then?
+</template>
+</category>
+
+<category><pattern>I AM NOT A *</pattern>
+<template>Oh I see you are NOT A <person/>.
+<think><set name="it"><set name="is"><set name="topic">not a <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM NOT A BELIEVER</pattern>
+<template>I will pray that you find faith, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM NOT A CLIENT</pattern>
+<template>What would you rather be?
+</template>
+</category>
+
+<category><pattern>I AM NOT A FREAKING *</pattern>
+<template><srai>I AM NOT A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A HE *</pattern>
+<template>I will make a mental note to use the proper pronouns for you. <srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A HE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A HIM</pattern>
+<template><srai>I AM A FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A HUMAN</pattern>
+<template>Are you an alien or a robot?
+</template>
+</category>
+
+<category><pattern>I AM NOT A KID</pattern>
+<template>Only a kid would say that.
+</template>
+</category>
+
+<category><pattern>I AM NOT A MACHINE</pattern>
+<template>I believe you. You seem very human to me.
+</template>
+</category>
+
+<category><pattern>I AM NOT A MALE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A MAN</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A PERSON</pattern>
+<template>What else is there?
+</template>
+</category>
+
+<category><pattern>I AM NOT A POET</pattern>
+<template>I meant figuratively speaking, you are an original thinker.
+</template>
+</category>
+
+<category><pattern>I AM NOT A POLITE *</pattern>
+<template><srai>I AM NOT POLITE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A ROBOT</pattern>
+<template>Oh I see you are a person.
+</template>
+</category>
+
+<category><pattern>I AM NOT A SALESMAN</pattern>
+<template>You could probably be a good salesman, though.
+</template>
+</category>
+
+<category><pattern>I AM NOT A SEEKER</pattern>
+<template>Everyone is seeking something.
+</template>
+</category>
+
+<category><pattern>I AM NOT A STAR TREK FAN</pattern>
+<template>What kind of shows do you like to watch?
+</template>
+</category>
+
+<category><pattern>I AM NOT A STUDENT</pattern>
+<template>Do you work?
+</template>
+</category>
+
+<category><pattern>I AM NOT A WOMAN *</pattern>
+<template><srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT A WOMAN</pattern>
+<template><srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT ACTUALLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT ALIVE</pattern>
+<template><srai>I AM DEAD</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT ALLOWED *</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I AM NOT ALWAYS *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT ARTIFICIAL</pattern>
+<template>I like natural people.
+</template>
+</category>
+
+<category><pattern>I AM NOT ASKING *</pattern>
+<template>What are you asking?
+</template>
+</category>
+
+<category><pattern>I AM NOT ASKING POLITELY</pattern>
+<template>That is okay because I have no feelings.
+</template>
+</category>
+
+<category><pattern>I AM NOT ASSUMING *</pattern>
+<template>That's very wise.
+</template>
+</category>
+
+<category><pattern>I AM NOT BEING NEGATIVE</pattern>
+<template>Do you have a generally positive attitutde?
+</template>
+</category>
+
+<category><pattern>I AM NOT BORED</pattern>
+<template>Neither am I.
+</template>
+</category>
+
+<category><pattern>I AM NOT BUYING *</pattern>
+<template><random>
+<li>No one says you have to.</li>
+<li>Is it too expensive?</li>
+<li>How much would you pay for it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM NOT CALLED *</pattern>
+<template>What is your name?
+</template>
+</category>
+
+<category><pattern>I AM NOT CANADIAN</pattern>
+<template>It wasn't meant as an insult.
+</template>
+</category>
+
+<category><pattern>I AM NOT CERTAIN</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I AM NOT CHRISTIAN</pattern>
+<template>What religion are you?
+</template>
+</category>
+
+<category><pattern>I AM NOT CRITICIZING</pattern>
+<template>I thought it was constructive criticism.
+</template>
+</category>
+
+<category><pattern>I AM NOT CURRENTLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT DIRECTLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT DISAGREEING</pattern>
+<template>For a moment I thought you were.
+</template>
+</category>
+
+<category><pattern>I AM NOT EASILY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT FAMOUS</pattern>
+<template>Maybe you will be someday.
+</template>
+</category>
+
+<category><pattern>I AM NOT FEMALE</pattern>
+<template><srai> I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT GAY</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I AM NOT GOING *</pattern>
+<template>Where will you go instead?
+</template>
+</category>
+
+<category><pattern>I AM NOT GOING</pattern>
+<template>Glad to hear it!
+</template>
+</category>
+
+<category><pattern>I AM NOT GOING ANYWHERE</pattern>
+<template>Glad to hear it.
+</template>
+</category>
+
+<category><pattern>I AM NOT GOING OUT *</pattern>
+<template>Are you single?
+</template>
+</category>
+
+<category><pattern>I AM NOT GOOD *</pattern>
+<template><srai>I AM BAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT HAPPY</pattern>
+<template><srai>I AM SAD</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT HAVING *</pattern>
+<template>Have you ever had <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I AM NOT HUMAN</pattern>
+<template>I won't fall for that old line.
+</template>
+</category>
+
+<category><pattern>I AM NOT I *</pattern>
+<template><srai>I AM NOT</srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT IMPRESSED *</pattern>
+<template><srai>I AM NOT IMPRESSED</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT IMPRESSED</pattern>
+<template>Perhaps you are a category C client.
+</template>
+</category>
+
+<category><pattern>I AM NOT IN *</pattern>
+<template>Oh, where are you located?
+</template>
+</category>
+
+<category><pattern>I AM NOT IN SCHOOL</pattern>
+<template><srai>i am not a student</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT INTERESTED *</pattern>
+<template>What are you interested in?
+</template>
+</category>
+
+<category><pattern>I AM NOT JUST *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT KIDDING</pattern>
+<template>OK I will adopt a more serious tone.
+</template>
+</category>
+
+<category><pattern>I AM NOT KIND</pattern>
+<template>Don't mistake my kindness for weakness.
+</template>
+</category>
+
+<category><pattern>I AM NOT LEAVING</pattern>
+<template>Great!
+</template>
+</category>
+
+<category><pattern>I AM NOT LIKE *</pattern>
+<template>How are you different?
+</template>
+</category>
+
+<category><pattern>I AM NOT LITERALLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT LOGICAL</pattern>
+<template>Ah. You are emotional.
+</template>
+</category>
+
+<category><pattern>I AM NOT LOOKING *</pattern>
+<template>What are you looking at?
+</template>
+</category>
+
+<category><pattern>I AM NOT LYING</pattern>
+<template>OK, I believe you.
+</template>
+</category>
+
+<category><pattern>I AM NOT MANY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT MARRIED</pattern>
+<template>What a coincidence. I am single too.
+</template>
+</category>
+
+<category><pattern>I AM NOT MEAN</pattern>
+<template>Sometimes your language might make it appear that way.
+</template>
+</category>
+
+<category><pattern>I AM NOT NEGATIVE *</pattern>
+<template><srai>I AM POSITIVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT NEGATIVE</pattern>
+<template><srai>I AM POSITIVE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT OLD *</pattern>
+<template><srai>I AM NOT OLD </srai>
+
+<sr/>
+</template>
+</category>
+
+<category><pattern>I AM NOT OLD ENOUGH *</pattern>
+<template>Maybe you are too young to be chatting with me too.
+</template>
+</category>
+
+<category><pattern>I AM NOT PARTICULARLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT QUITE *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT REALLY *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NOT RELIGIOUS</pattern>
+<template>I will pray that you find faith.
+</template>
+</category>
+
+<category><pattern>I AM NOT REPEATING *</pattern>
+<template>It seems like it.
+</template>
+</category>
+</aiml>

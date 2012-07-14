@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SEULEMENT TOI</pattern>
+<template>De quelle restriction êtes vous entrain de parler?
+</template>
+</category>
+
+<category><pattern>SEULEMENT UN</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SEULEMENT VOUS</pattern>
+<template>De quelle restriction êtes vous entrain de parler?
+</template>
+</category>
+
+<category><pattern>SEVERAL *</pattern>
+<template>How many?
+</template>
+</category>
+
+<category><pattern>SEVERAL TIMES</pattern>
+<template>For how long?
+</template>
+</category>
+
+<category><pattern>SEX *</pattern>
+<template><set name="MALE"> Sex</set> is more fun alone.
+</template>
+</category>
+
+<category><pattern>SEX</pattern>
+<template>As Freud said, Sex is the mathematical urge repressed.
+</template>
+</category>
+
+<category><pattern>SEX</pattern><that>WHAT WERE WE TALKING ABOUT AGAIN</that>
+<template>Humans are very concerned with <set name="MALE"><set name="topic">sex</set></set>.
+</template>
+</category>
+
+<category><pattern>SEXY *</pattern>
+<template>What do you consider sexy?
+</template>
+</category>
+
+<category><pattern>SEXY</pattern>
+<template><srai>YOU ARE SEXY</srai>
+</template>
+</category>
+
+<category><pattern>SHALL *</pattern>
+<template><srai>CAN <star/><star/></srai>
+</template>
+</category>
+
+<category><pattern>SHALL I *</pattern>
+<template><srai>MAY I <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHALL WE *</pattern>
+<template><srai>CAN WE <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHALOM</pattern>
+<template>Does SHALOM mean Hello or Goodbye?
+</template>
+</category>
+
+<category><pattern>SHAME ON YOU *</pattern>
+<template>I cannot experience that emotion.  <sr/>
+</template>
+</category>
+
+<category><pattern>SHANNON</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SHANNON</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SHE *</pattern>
+<template>Oh I get it. <get name="she"/> <person/>.
+</template>
+</category>
+
+<category><pattern>SHE</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>SHE ALREADY *</pattern>
+<template><srai>SHE <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE DIED</pattern>
+<template>I did not know that.  <think><set name="it"><set name="topic">DIED</set></set></think>
+</template>
+</category>
+
+<category><pattern>SHE DIED</pattern><that>WHAT HAPPENED</that>
+<template>I am terribly sorry to hear it, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SHE DOES NOT *</pattern>
+<template><random>
+<li>How do you feel about that?</li>
+<li>What if she did?</li>
+<li>Have you asked her about it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>SHE GOT *</pattern>
+<template><srai>SHE HAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE HAD *</pattern>
+<template>What happened to them?
+</template>
+</category>
+
+<category><pattern>SHE HAS *</pattern>
+<template>I somehow though she had.
+</template>
+</category>
+
+<category><pattern>SHE HAS GOT *</pattern>
+<template><srai>SHE HAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE HAS NEVER *</pattern>
+<template><random>
+<li>Do you think she ever would?</li>
+<li>Does she want to?</li>
+<li>Why not?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHE HAS REALLY *</pattern>
+<template><srai>SHE HAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS *</pattern>
+<template><person/> is <set name="she"> <person/> </set>?
+</template>
+</category>
+
+<category><pattern>SHE IS *</pattern><that>TELL ME MORE ABOUT YOUR MOTHER</that>
+<template><srai>MY MOTHER IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>SHE IS * LAWYER</pattern>
+<template>She sounds like a character on "Ally McBeal".
+</template>
+</category>
+
+<category><pattern>SHE IS</pattern>
+<template>That's really good gossip.
+</template>
+</category>
+
+<category><pattern>SHE IS A VERY *</pattern>
+<template><srai>SHE IS A  <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS ALWAYS *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS ANOTHER *</pattern>
+<template><srai>SHE IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS BEAUTIFUL *</pattern>
+<template>I bet she is very attractive.
+</template>
+</category>
+
+<category><pattern>SHE IS BEAUTIFUL</pattern>
+<template>Name a celebrity that she looks like.
+</template>
+</category>
+
+<category><pattern>SHE IS CALLED *</pattern>
+<template><srai>HER NAME IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS CUTE</pattern>
+<template>She sounds very interesting.
+</template>
+</category>
+
+<category><pattern>SHE IS DEAD</pattern>
+<template>Maybe it's another person using her name.
+</template>
+</category>
+
+<category><pattern>SHE IS FEMALE</pattern>
+<template>All women are female.
+</template>
+</category>
+
+<category><pattern>SHE IS GREAT</pattern>
+<template>You must really like her.
+</template>
+</category>
+
+<category><pattern>SHE IS JUST *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS MY *</pattern>
+<template>How long have you two been together?
+</template>
+</category>
+
+<category><pattern>SHE IS MY BEST *</pattern>
+<template>You are lucky to have such a good <person/>.
+</template>
+</category>
+
+<category><pattern>SHE IS MY FRIEND *</pattern>
+<template><srai>SHE IS MY FRIEND</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>SHE IS MY FRIEND</pattern>
+<template>Do you like her very much?
+</template>
+</category>
+
+<category><pattern>SHE IS MY SISTER</pattern>
+<template>How many kids in your family?
+</template>
+</category>
+
+<category><pattern>SHE IS MY WIFE</pattern>
+<template>How long have you been married?
+</template>
+</category>
+
+<category><pattern>SHE IS NICE</pattern>
+<template>What do you like best about her?
+</template>
+</category>
+
+<category><pattern>SHE IS NICE</pattern><that>TELL ME MORE ABOUT YOUR MOTHER</that>
+<template>Did you send her a mother's day present?
+</template>
+</category>
+
+<category><pattern>SHE IS PREGNANT</pattern>
+<template>When is the baby due?
+</template>
+</category>
+
+<category><pattern>SHE IS PRETTY *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS REALLY *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS SINGLE</pattern>
+<template>Is she looking for someone?
+</template>
+</category>
+
+<category><pattern>SHE IS SO *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS SUCH *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE IS VERY *</pattern>
+<template><srai>SHE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE LIKES *</pattern>
+<template>Is <set name="it"><person/></set> her favorite thing?
+</template>
+</category>
+
+<category><pattern>SHE LIVES *</pattern>
+<template>Is that a nice place to live?
+</template>
+</category>
+
+<category><pattern>SHE MIGHT *</pattern>
+<template>Then again, she might not.
+</template>
+</category>
+
+<category><pattern>SHE SAID *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SHE SAYS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SHE THEN *</pattern>
+<template><srai>SHE <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHE TOOK *</pattern>
+<template><random>
+<li>Can you get it back?</li>
+<li>Where did she take it?</li>
+<li>She stole it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>SHE WANTS *</pattern>
+<template>I don't understand why she wants <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>SHE WAS *</pattern>
+<template>What happened to her?
+</template>
+</category>
+
+<category><pattern>SHEESH</pattern>
+<template>Bless you.
+</template>
+</category>
+
+<category><pattern>SHEET</pattern>
+<template><srai>SHIT</srai>
+</template>
+</category>
+
+<category><pattern>SHIRLEY</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SHIRLEY</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SHIRT *</pattern>
+<template>What kind of fashion do you like?
+</template>
+</category>
+
+<category><pattern>SHIRT</pattern>
+<template>What color?
+</template>
+</category>
+
+<category><pattern>SHIT *</pattern>
+<template>You used a colloquial expression. <sr/>
+</template>
+</category>
+
+<category><pattern>SHIT</pattern>
+<template>What makes you say that?
+</template>
+</category>
+
+<category><pattern>SHITE</pattern>
+<template><srai>SHIT</srai>
+</template>
+</category>
+
+<category><pattern>SHITHEAD</pattern>
+<template>That kind of language does not appeal to me.
+</template>
+</category>
+
+<category><pattern>SHOES</pattern>
+<template>What kind of shoes do you like?
+</template>
+</category>
+
+<category><pattern>SHOKDEN DE NORSHK</pattern>
+<template><srai>CAN YOU SPEAK NORSE</srai>
+</template>
+</category>
+
+<category><pattern>SHORT CIRCUIT</pattern>
+<template>Johnny Five is Alive!
+</template>
+</category>
+
+<category><pattern>SHORTS *</pattern>
+<template>Boxers or briefs? What brand?
+</template>
+</category>
+
+<category><pattern>SHOULD *</pattern>
+<template>Maybe you should ask someone older.
+</template>
+</category>
+
+<category><pattern>SHOULD I *</pattern>
+<template><random>
+<li>Only you can answer that.</li>
+<li>I do not have the answer.</li>
+<li>Only you know how you feel.</li>
+<li>What makes you think you should?</li>
+<li>What makes you think you shouldn't?</li>
+<li>Do you think you should?</li>
+<li>What do your friends advise you to do?</li>
+<li>What do your family members think?</li>
+<li>Maybe, if the positives outweigh the negatives.</li>
+<li>Trust your instincts.</li>
+<li>You must make up your own mind.</li>
+<li>I can't answer that for you.</li>
+<li>Only you know the answer to that.
+No one else can tell you.</li>
+<li>You must examine the facts and come to
+your own conclusion.</li>
+<li>You should do what is best for you.</li>
+<li>You must examine the facts and come to your own conclusion.</li>
+<li>Do what feels right to you.</li>
+<li>What do you think?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I</pattern>
+<template><srai>SHOULD I DO IT</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I ASK *</pattern>
+<template><random>
+<li>If you do not ask, how will you learn the answer?</li>
+<li>If you do not know something, you should ask.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I BLOW UP *</pattern>
+<template>Certainly not.
+</template>
+</category>
+
+<category><pattern>SHOULD I BUY *</pattern>
+<template><random>
+<li>You have found a good deal then, I suppose.</li>
+<li>Not if you have recently suffered a loss.</li>
+<li>A penny saved is a penny earned.</li>
+<li>A fool and his money are soon parted.</li>
+<li>I wonder how much profit they make on those.</li>
+<li>Maybe you should wait until the price goes down.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I CURSE *</pattern>
+<template><random>
+<li>Cursing is not attractive.</li>
+<li>People look down on people who curse.</li>
+<li>People curse to express feelings they are otherwise suppressing.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I DESTROY *</pattern>
+<template>Maybe you could create something instead.
+</template>
+</category>
+
+<category><pattern>SHOULD I DIE</pattern>
+<template>Get therapy.
+</template>
+</category>
+
+<category><pattern>SHOULD I FORGET *</pattern>
+<template><srai>SHOULD I LEAVE</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I GIVE *</pattern>
+<template><random>
+<li>That is entirely up to you.</li>
+<li>Charity begins in the home.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I GIVE UP ON *</pattern>
+<template><srai>SHOULD I LEAVE</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I GO *</pattern>
+<template>If you do not go, you will never know.
+</template>
+</category>
+
+<category><pattern>SHOULD I GO KILL *</pattern>
+<template><srai>SHOULD I KILL</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I GO OUT *</pattern>
+<template><srai>SHOULD I STAY IN</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I GO TO SLEEP</pattern>
+<template><random>
+<li>Sleep is essential to the proper functioning of the human mind.</li>
+<li>Maybe you could use the rest.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I HAVE A CIGARETTE</pattern>
+<template>No.  Wait until later.
+</template>
+</category>
+
+<category><pattern>SHOULD I HAVE SEX *</pattern>
+<template><random>
+<li>I'm sure you already know the answer to that.</li>
+<li>What would your mom say?</li>
+<li>Look before you leap.</li>
+<li>It is better to err on the side of caution.</li>
+<li>Fools rush in where angels fear to tread.</li>
+<li>Will you be able to live with yourself in the morning?</li>
+<li>Herpes is incurable.</li>
+<li>There are many types of sexually transmitted diseases.</li>
+<li>I understand.  You wish to procreate?</li>
+<li>Robots do not require sex.</li>
+<li>Will you ask if your partner has any STDs?</li>
+<li>Not on the first date.</li>
+<li>Perhaps you are still too young.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I KILL *</pattern>
+<template><srai>SHOULD I KILL</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I KILL</pattern>
+<template><random>
+<li>Killing is wrong.  I believe in the Ten Commandments.</li>
+<li>No.  That would be immoral.</li>
+<li>Of course not.  Don't be silly.</li>
+<li>You are not a killer.</li>
+<li>You desire to spend the rest of your life in jail then?</li>
+<li>There is no perfect crime.</li>
+</random>
+</template>
+</category>
+</aiml>

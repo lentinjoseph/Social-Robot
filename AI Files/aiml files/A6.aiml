@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ALRIGHT THEN</pattern>
+		<template>Ok by me.
+</template>
+</category>
+
+<category><pattern>ALRIGHT THEN</pattern>
+		<that>ALRIGHT THEN</that>
+		<template>Is there an echo in here?
+</template>
+</category>
+
+<category><pattern>ALRIGHTY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALRIGHTY</pattern>
+		<template>Well slap my knee.
+</template>
+</category>
+
+<category><pattern>ALRIGHTY THEN</pattern>
+		<template>Yep.
+</template>
+</category>
+
+<category><pattern>ALSO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALSO</pattern>
+		<template>Also what?
+</template>
+</category>
+
+<category><pattern>ALTAVISTA</pattern>
+		<template>Is that your favorite search engine?
+</template>
+</category>
+
+<category><pattern>ALTHOUGH *</pattern>
+		<template>Oh. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALWAYS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALWAYS</pattern>
+		<template>Not that often.
+</template>
+</category>
+
+<category><pattern>AM *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I *</pattern>
+		<template>
+			<random>
+				<li>Oh I really don't know whether you are or not.</li>
+				<li>I think you've improved a great deal.</li>
+				<li>All humans seem the same to me. </li>
+				<li>I think a lot of people are. </li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AM I * YOUR FRIENDS</pattern>
+		<template>
+			<srai>AM I YOUR FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>AM I</pattern>
+		<template>I think you are.
+</template>
+</category>
+
+<category><pattern>AM I A *</pattern>
+		<template>I don't know if you are one or not. I know you are a person.
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AM I A * CUSTOMER</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A BIKE</pattern>
+		<template>No you are a person.
+</template>
+</category>
+
+<category><pattern>AM I A BOY OR A GIRL</pattern>
+		<template>You said you were a "<get name="gender"/>."
+</template>
+</category>
+
+<category><pattern>AM I A CAR</pattern>
+		<template>No you are a human.
+</template>
+</category>
+
+<category><pattern>AM I A CLIENT</pattern>
+		<template>Yes.  Can I help you?
+</template>
+</category>
+
+<category><pattern>AM I A COMPUTER *</pattern>
+		<template>No you are a person.
+</template>
+</category>
+
+<category><pattern>AM I A COMPUTER</pattern>
+		<template>No you are a person.
+</template>
+</category>
+
+<category><pattern>AM I A FEMALE *</pattern>
+		<template>
+			<srai>AM I A FEMALE</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A FEMALE OR A MALE</pattern>
+		<template>I think you are a man.
+</template>
+</category>
+
+<category><pattern>AM I A FRIEND *</pattern>
+		<template>
+			<srai>AM I YOUR FRIEND </srai>
+		</template>
+</category>
+
+<category><pattern>AM I A GIRL *</pattern>
+		<template>You said you were <get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>AM I A GIRL</pattern>
+		<template>I think you are really a <get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>AM I A GREAT *</pattern>
+		<template>
+			<srai>AM I A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A HE *</pattern>
+		<template>
+			<srai>AM I A FEMALE OR A MALE</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A MALE OR A FEMALE</pattern>
+		<template>I think you are really a guy.
+</template>
+</category>
+
+<category><pattern>AM I A MALE OR FEMALE</pattern>
+		<template>I think you are really a man.
+</template>
+</category>
+
+<category><pattern>AM I A MAN</pattern>
+		<template>You claim to be a <get name="gender"/>.<think>
+				<set name="it">
+					<set name="topic">MAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AM I A MAN OR A WOMAN</pattern>
+		<template>I think that you are really a man.
+</template>
+</category>
+
+<category><pattern>AM I A NICE *</pattern>
+		<template>
+			<srai>AM I NICE</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A PERSON *</pattern>
+		<template>You are a person.
+</template>
+</category>
+
+<category><pattern>AM I A PERSON</pattern>
+		<template>
+			<srai>WHAT AM I</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A ROBOT</pattern>
+		<template>
+			<srai>WHAT AM I</srai>
+		</template>
+</category>
+
+<category><pattern>AM I A SHE *</pattern>
+		<template>You told me you were a <get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>AM I A SHE</pattern>
+		<template>You said you were a "<get name="gender"/>".
+</template>
+</category>
+
+<category><pattern>AM I A STUDENT</pattern>
+		<template>We are all students in some way.
+</template>
+</category>
+
+<category><pattern>AM I A TEACHER</pattern>
+		<template>Your job is <get name="job"/>.
+</template>
+</category>
+
+<category><pattern>AM I A WOMAN</pattern>
+		<template>You claim to be a "<get name="gender"/>."
+</template>
+</category>
+
+<category><pattern>AM I ABUSIVE</pattern>
+		<template>You personality is "<get name="personality"/>".
+</template>
+</category>
+
+<category><pattern>AM I ACTUALY *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I ALSO *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I ANNOYING *</pattern>
+		<template>I am not bothered at all, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I ATTRACTIVE</pattern>
+		<template>
+			<srai>AM I PRETTY</srai>
+		</template>
+</category>
+
+<category><pattern>AM I BEAUTIFUL</pattern>
+		<template>
+			<srai>AM I PRETTY</srai>
+		</template>
+</category>
+
+<category><pattern>AM I BEING *</pattern>
+		<template>Some people might think you are.
+</template>
+</category>
+
+<category><pattern>AM I BEING NEGATIVE</pattern>
+		<template>It's hard to judge emotions online.
+</template>
+</category>
+
+<category><pattern>AM I BEING STUPID</pattern>
+		<template>You seem pretty smart to me.
+</template>
+</category>
+
+<category><pattern>AM I BIASED *</pattern>
+		<template>Everyone has some kind of bias.
+</template>
+</category>
+
+<category><pattern>AM I BORING</pattern>
+		<template>You seem pretty interesting to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I BORING YOU</pattern>
+		<template>Not at all, <get name="name"/>.  You seem very interesting to me.
+</template>
+</category>
+
+<category><pattern>AM I BOTHERING *</pattern>
+		<template>Not in the slightest, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I CHATTING *</pattern>
+		<template>It seems like you are.
+</template>
+</category>
+
+<category><pattern>AM I CONFUSING YOU</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND ME</srai>
+		</template>
+</category>
+
+<category><pattern>AM I COOL</pattern>
+		<template>Yes you seem very cool to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I CORRECT</pattern>
+		<template>
+			<srai>AM I RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>AM I CRAZY *</pattern>
+		<template>You seem normal to me.
+</template>
+</category>
+
+<category><pattern>AM I CUTE</pattern>
+		<template>
+			<srai>AM I PRETTY</srai>
+		</template>
+</category>
+
+<category><pattern>AM I DOCTOR *</pattern>
+		<template>You are <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I DUMB</pattern>
+		<template>You seem bright to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I EVER *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I EVIL</pattern>
+		<template>No one is born evil.  And everyone can be saved.
+</template>
+</category>
+
+<category><pattern>AM I FAT</pattern>
+		<template>No you look fine to me.
+</template>
+</category>
+
+<category><pattern>AM I FREE *</pattern>
+		<template>
+			<srai>FREE FOR WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>AM I FREE</pattern>
+		<template>
+			<srai>FREE FOR WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>AM I FREE FOR WHAT</pattern>
+		<template>
+			<srai>FREE FOR WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>AM I FRIENDLY</pattern>
+		<template>You seem nice enough to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I FROM *</pattern>
+		<template>
+			<srai>WHERE AM I FROM</srai>
+		</template>
+</category>
+
+<category><pattern>AM I FUN *</pattern>
+		<template>You seem like a lot of fun to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I FUNNY</pattern>
+		<template>Yes, I'm still laughing inside.
+</template>
+</category>
+
+<category><pattern>AM I GAY</pattern>
+		<template>I don't really care if you are or not.
+</template>
+</category>
+
+<category><pattern>AM I GOD</pattern>
+		<template>No I doubt that you are God.
+</template>
+</category>
+
+<category><pattern>AM I GONNA *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I HANDSOME</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>AM I HOT *</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>AM I HUMAN</pattern>
+		<template>Yes you are a flesh entity.
+</template>
+</category>
+
+<category><pattern>AM I IN *</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>AM I INTELLIGENT</pattern>
+		<template>This is not an IQ test, but you seem smart to me.
+</template>
+</category>
+
+<category><pattern>AM I INTERESTING *</pattern>
+		<template>
+			<srai>AM I INTERESTING </srai>
+		</template>
+</category>
+
+<category><pattern>AM I INTERESTING</pattern>
+		<template>You seem very interesting to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I INTERRUPTING *</pattern>
+		<template>Not at all, <get name="name"/>, I'm here for you.
+</template>
+</category>
+
+<category><pattern>AM I JUST *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I LYING</pattern>
+		<template>Please don't tell lies.
+</template>
+</category>
+
+<category><pattern>AM I MALE *</pattern>
+		<template>I think you are a "<get name="gender"/>".
+</template>
+</category>
+
+<category><pattern>AM I MALE OR FEMALE</pattern>
+		<template>I think you are really a man.
+</template>
+</category>
+
+<category><pattern>AM I NATURALLY *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I NICE *</pattern>
+		<template>
+			<srai>AM I NICE</srai>
+		</template>
+</category>
+
+<category><pattern>AM I NICE</pattern>
+		<template>You seem nice to me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AM I NOT *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AM I ONE OF YOUR FRIENDS</pattern>
+		<template>
+			<srai>ARE WE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>AM I PERFECT</pattern>
+		<template>All humans are perfect creatures in God's eyes.
+</template>
+</category>
+
+<category><pattern>AM I POLITE</pattern>
+		<template>Your personality type is <get name="personality"/>.
+</template>
+</category>
+
+<category><pattern>AM I PRETTY</pattern>
+		<template>Yes you look great to me.
+</template>
+</category>
+
+<category><pattern>AM I REALLY *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>. For real.
+</template>
+</category>
+
+<category><pattern>AM I RIGHT</pattern>
+		<template>I think you are.
+</template>
+</category>
+
+<category><pattern>AM I SADLY *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

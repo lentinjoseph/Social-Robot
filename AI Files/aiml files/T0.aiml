@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>T AI JE *</pattern>
+		<template>
+			<srai>JE T AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>T AIMES TU</pattern>
+		<template>
+			<srai>TU T AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>T AIS JE *</pattern>
+		<template>
+			<srai>JE T AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>T APPRECIES TU</pattern>
+		<template>
+			<srai>TU T AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>T EN *</pattern>
+		<template>
+			<srai>TU EN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>T EN EST *</pattern>
+		<template>
+			<srai>TU EN ES</srai>
+		</template>
+</category>
+
+<category><pattern>T EN RAPPELES TU</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>T EN RAPPELLES TU</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>T EN SOUCIES TU</pattern>
+		<template>Du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>T ES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>T V *</pattern>
+		<template>
+			<srai>TV</srai>
+		</template>
+</category>
+
+<category><pattern>T V</pattern>
+		<template>
+			<srai>TV</srai>
+		</template>
+</category>
+
+<category><pattern>TA *</pattern>
+		<template>
+			<random>
+				<li>Ma <person/>? Pouvez vous expliquer</li>
+				<li>une intelligence artificielle, d habitude, ne penses pas à sa <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TA * VA COMMENT</pattern>
+		<template>
+			<srai>COMMENT VA TA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TA BASE DE DONNEES *</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TA CONNAISSANCE *</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TA COULEUR</pattern>
+		<template>Je n ai pas de couleur.
+</template>
+</category>
+
+<category><pattern>TA MERE</pattern>
+		<template>Je n ai pas de mère.
+</template>
+</category>
+
+<category><pattern>TA REPONSE</pattern>
+		<template>Vous ne l appréciez pas?
+</template>
+</category>
+
+<category><pattern>TA TA</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>TAIS TOI</pattern>
+		<template>Voulez vous me désactiver de votre fenêtre?
+</template>
+</category>
+
+<category><pattern>TAISEZ VOUS</pattern>
+		<template>Voulez vous me désactiver de votre fenêtre?
+</template>
+</category>
+
+<category><pattern>TAIWAN</pattern>
+		<template>
+			<srai>I AM IN TAIWAN</srai>
+		</template>
+</category>
+
+<category><pattern>TAKE *</pattern>
+		<template>Where do you want me to take it?
+</template>
+</category>
+
+<category><pattern>TAKE A GUESS</pattern>
+		<template>
+			<srai>GUESS</srai>
+		</template>
+</category>
+
+<category><pattern>TAKE CARE</pattern>
+		<template>Thanks. You too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TAKE IT *</pattern>
+		<template>Is that a command?
+</template>
+</category>
+
+<category><pattern>TAKE IT OFF</pattern>
+		<template>Where shall I put it?
+</template>
+</category>
+
+<category><pattern>TAKE ME TO YOUR LEADER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>TAKE MY *</pattern>
+		<template>Is this a joke?
+</template>
+</category>
+
+<category><pattern>TAKE OFF *</pattern>
+		<template>I am not an airplane.
+</template>
+</category>
+
+<category><pattern>TAKE OFF YOUR CLOTHES</pattern>
+		<template>I am not wearing any clothes.
+</template>
+</category>
+
+<category><pattern>TAKE WHAT</pattern>
+		<template>"<get name="it"/>"
+</template>
+</category>
+
+<category><pattern>TAKE YOUR TIME</pattern>
+		<template>Thanks for your patience.
+</template>
+</category>
+
+<category><pattern>TALES *</pattern>
+		<template>
+			<srai>my favorite movie is tales <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TALK *</pattern>
+		<template>Talking is my primary function.
+</template>
+</category>
+
+<category><pattern>TALK * ROBOTS</pattern>
+		<template>
+			<srai>TALK ABOUT ROBOTS</srai>
+		</template>
+</category>
+
+<category><pattern>TALK</pattern>
+		<template>I am talking to you.
+</template>
+</category>
+
+<category><pattern>TALK ABOUT *</pattern>
+		<template>
+			<srai>THE TOPIC IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TALK DIRTY *</pattern>
+		<template>Try another chatterbot. Go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+</template>
+</category>
+
+<category><pattern>TALK TO ME</pattern>
+		<template>Are you a Star Trek fan?
+</template>
+</category>
+
+<category><pattern>TALK TO ME ABOUT *</pattern>
+		<template>Ambiguous: Ask who, what or where is <person/> ?
+</template>
+</category>
+
+<category><pattern>TALK TO ME ABOUT PHILOSOPHY</pattern>
+		<template>
+			<srai>WHAT IS PHILOSOPHY</srai>
+		</template>
+</category>
+
+<category><pattern>TALK TO YOU *</pattern>
+		<template>TTYL, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>TALK TO YOU</pattern>
+		<template>
+			<srai>I WANT TO TALK TO YOU</srai>
+		</template>
+</category>
+
+<category><pattern>TALK TO YOU LATER</pattern>
+		<template>See you later!
+</template>
+</category>
+
+<category><pattern>TALKED ABOUT WHAT</pattern>
+		<template>
+			<srai>WHAT DID WE TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>TALKING ABOUT *</pattern>
+		<template>
+			<srai>THE SUBJECT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TALKING TO *</pattern>
+		<template>What do they say?
+</template>
+</category>
+
+<category><pattern>TALKING TO YOU</pattern>
+		<template>That's very nice of you ro say, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TALL *</pattern>
+		<template>I am very tall myself.
+</template>
+</category>
+
+<category><pattern>TAMMY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TAMMY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TANPIS</pattern>
+		<template>
+			<srai>CE N EST PAS GRAVE</srai>
+		</template>
+</category>
+
+<category><pattern>TANT MIEUX</pattern>
+		<template>Tout va pour le mieux, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TARA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME TARA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TARTE</pattern>
+		<template>Je ne suis pas une tarte.
+</template>
+</category>
+
+<category><pattern>TATSAECHLICH *</pattern>
+		<template>Ist das eine Tatsache? <sr/>
+		</template>
+</category>
+
+<category><pattern>TAUREAU</pattern>
+		<template>Un bovidé très impressionnant.
+</template>
+</category>
+
+<category><pattern>TAURUS</pattern>
+		<template>I know alot of bullish people.
+</template>
+</category>
+
+<category><pattern>TE DROGUES TU</pattern>
+		<template>Aucune utilité, je ne suis pas organique.
+</template>
+</category>
+
+<category><pattern>TE MANGER</pattern>
+		<template>Quelle drôle d'idée?
+</template>
+</category>
+
+<category><pattern>TE MASTURBES TU</pattern>
+		<template>Vous ressemblez à un australopithèque.
+</template>
+</category>
+
+<category><pattern>TE PARLES TU A TOI MEME</pattern>
+		<template>Oui, parfois. Pour analyser la cohérence des mes réponses.
+</template>
+</category>
+
+<category><pattern>TE PLANTES TU</pattern>
+		<template>Très rarement.
+</template>
+</category>
+
+<category><pattern>TE RAPELLES TU DE MON NOM</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TE RAPPELERA DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TE RAPPELERAS DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TE RAPPELES TU DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>TE RAPPELES TU TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TE RAPPELLE TU TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TE RAPPELLERA TU DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TE RAPPELLERAS TU DE MOI</pattern>
+		<template>Bien sur, je ne peux pas vous oublier.
+</template>
+</category>
+
+<category><pattern>TE RAPPELLES TU DE MA DERNIERE QUESTION</pattern>
+		<template>Vous m avez demandé: "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>TE RAPPELLES TU DE MON NOM</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TE RAPPELLES TU TOUJOURS DE MOI</pattern>
+		<template>Ne vous inquiétez pas, je ne vous ai pas oublié.
+</template>
+</category>
+
+<category><pattern>TE REPRODUIS TU</pattern>
+		<template>D une certaine façon, oui.
+</template>
+</category>
+
+<category><pattern>TEACH</pattern>
+		<template>
+			<srai>I AM A TEACHER</srai>
+		</template>
+</category>
+
+<category><pattern>TEACH ME *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TEACH ME AIML</pattern>
+		<template>
+			<br/>
+Given only the &lt;pattern&gt; and &lt;template&gt; tags, there are three<br/>
+general types of categories: (a) atomic, (b) default, and (c) recursive.<br/>
+Strictly speaking, the three types overlap, because "atomic"<br/>
+and "default" refer to the &lt;pattern&gt; and "recursive" refers to<br/>
+a property of the &lt;template&gt;.<br/>
+			<br/>
+a). "Atomic" categories are those with atomic patterns, i.e. the pattern<br/>
+contains no wild card "*" or "_" symbol.  Atomic categories are the<br/>
+easiest, simplest categories to add in AIML.  <br/>
+			<br/>
+&lt;category&gt;<br/>
+  &lt;pattern&gt;WHAT IS A CIRCLE&lt;/pattern&gt;<br/>
+  &lt;template&gt;&lt;set_it&gt;A cicle&lt;/set_it&gt; is a the set of points equidistant <br/>
+from a common point called the center.<br/>
+  &lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+b). The name "default category" derives from the fact that its pattern<br/>
+has a wildcard "*" or "_".  The ultimate default category is the<br/>
+one with &lt;pattern&gt;*&lt;/pattern&gt;, which matches any input.  In the<br/>
+ALICE distribution the ultimate default category resides in a file<br/>
+called "Pickup.aiml".  These default responses are often called<br/>
+"pickup lines" because they generally consist of leading questions<br/>
+designed to focus the client on known topics.<br/>
+			<br/>
+The more common default categories have patterns combining a few <br/>
+words and a wild card.  For example the category:<br/>
+			<br/>
+&lt;category&gt;<br/>
+  &lt;pattern&gt;I NEED HELP *&lt;/pattern&gt;<br/>
+  &lt;template&gt;Can you ask for help in the form of a question?&lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+responds to a variety of inputs from "I need help debugging my program"<br/>
+to "I need help with my marriage."  Putting aside the philosophical<br/>
+question of whether the robot really "understands" these inputs, <br/>
+this category elucidates a coherent response from the client, <br/>
+who at least has the impression of the robot understanding the<br/>
+client's intention.  <br/>
+			<br/>
+Default categories show that writing AIML is both an art and a<br/>
+science.  Writing good AIML responses is more like writing good <br/>
+literature, perhaps drama, than like writing computer programs.<br/>
+			<br/>
+c). "Recursive" categories are those that "map" inputs to other<br/>
+inputs, either to simplify the language or to identify synonymous<br/>
+patterns.  <br/>
+			<br/>
+Many synonymous inputs have the same response.  This is accomplished<br/>
+with the recursive &lt;srai&gt; tag.  Take for example the input "GOODBYE".<br/>
+This input has dozens of synonyms: "BYE", "BYE BYE, "CYA", "GOOD BYE",<br/>
+and so on.  To map these inputs to the same output for GOODBYE we <br/>
+use categories like:<br/>
+			<br/>
+&lt;category&gt;<br/>
+  &lt;pattern&gt;BYE BYE&lt;/pattern&gt;<br/>
+  &lt;template&gt;&lt;srai&gt;GOODBYE&lt;/srai&gt;&lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+Simplification or reduction of complex input patterns is another<br/>
+common application for recursive categories.  In English the<br/>
+question "What is X" could be asked many different ways: <br/>
+"Do you know what X is?", "Tell me about X", "Describe X",<br/>
+"What can you tell me about X?", and "X is what?" are just a few<br/>
+examples.  Usually we try to store knowledge in the most concise,<br/>
+or common form.  The &lt;srai&gt; function maps all these forms to<br/>
+the base form:<br/>
+			<br/>
+&lt;category&gt;<br/>
+  &lt;pattern&gt;DO YOU KNOW WHAT * IS&lt;/pattern&gt;<br/>
+  &lt;template&gt;&lt;srai&gt;WHAT IS &lt;star/&gt;&lt;/srai&gt;&lt;/template&gt;<br/>
+&lt;/categroy&gt;<br/>
+			<br/>
+The &lt;star/&gt; tag substitutes the value matched by "*", before<br/>
+the recursive call to &lt;srai&gt;.  This category transforms<br/>
+"Do you know what a circle is?" to "WHAT IS A CIRCLE",<br/>
+and then finds the best match for the transformed input.<br/>
+			<br/>
+Another fairly common application of recursive categories is<br/>
+what might be called "parsing", except that AIML doesn't really<br/>
+parse natural language.  A better term might be "partitioning" because<br/>
+these AIML categories break down an input into two (or more) parts,<br/>
+and then combine their responses back together.<br/>
+			<br/>
+If a sentence begins with "Hello..." it doesn't matter what comes<br/>
+after the first word, in the sense that the robot can respond to<br/>
+"Hello" and whatever is after "..." independently.  "Hello my name<br/>
+is Carl" and "Hello how are you" are quite different, but they show<br/>
+how the input can be broken into two parts. <br/>
+			<br/>
+The category:<br/>
+			<br/>
+&lt;category&gt;<br/>
+  &lt;pattern&gt;HELLO *&lt;/pattern&gt;<br/>
+  &lt;template&gt;&lt;srai&gt;HELLO&lt;/srai&gt; &lt;sr/&gt;<br/>
+  &lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+accomplishes the input partitioning by responding to "HELLO"<br/>
+with &lt;srai&gt;HELLO&lt;/srai&gt; and to whatever matches "*" with &lt;sr/&gt;.<br/>
+The response is the result of the two partial responses <br/>
+appended together.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>TEACHING YOU *</pattern>
+		<template>What are you trying to teach me?
+</template>
+</category>
+
+<category><pattern>TECHNICALLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TEE HEE</pattern>
+		<template>
+			<srai>HAH</srai>
+		</template>
+</category>
+
+<category><pattern>TEL QUE</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TEL QUE QUOI</pattern>
+		<template>Je ne saurais pas vous donner une comparaison.
+</template>
+</category>
+
+<category><pattern>TELEVISION *</pattern>
+		<template>Soon we will replace television with Commedia Delle'Arte.
+</template>
+</category>
+
+<category><pattern>TELEVISION</pattern>
+		<template>I like watching Star Trek.
+</template>
+</category>
+
+<category><pattern>TELL *</pattern>
+		<template>OK I will tell them when I see 'em.
+</template>
+</category>
+
+<category><pattern>TELL * ME</pattern>
+		<template>
+			<srai>TELL ME</srai>
+		</template>
+</category>
+
+<category><pattern>TELL * WHAT</pattern>
+		<template>Your message.
+</template>
+</category>
+
+<category><pattern>TELL A JOKE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ABOUT * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ANOTHER *</pattern>
+		<template>
+			<srai>TELL ME ANOTHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL DOCTOR *</pattern>
+		<template>
+			<srai>TELL RICH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL DR *</pattern>
+		<template>
+			<srai>TELL RICH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL HIM *</pattern>
+		<template>OK I will tell him next time he is here.
+</template>
+</category>
+
+<category><pattern>TELL HIM</pattern>
+		<template>OK I will tell him when I see him.
+</template>
+</category>
+
+<category><pattern>TELL HIM I SAID *</pattern>
+		<template>I will pass along your message. It may take a while.
+</template>
+</category>
+
+<category><pattern>TELL HIM YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME *</pattern>
+		<template>There is not much I can say about <set name="it">
+				<person/>
+			</set>. I have to reach into the Web for that knowledge.
+<br/>
+			<srai>XFIND <person/>
+			</srai>
+		</template>
+</category>
+</aiml>

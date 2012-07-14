@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VA DORMIR</pattern>
+		<template>Je n ai pas besoin de dormir.
+</template>
+</category>
+
+<category><pattern>VA EN ENFER</pattern>
+		<template>Qu est ce qui vous met en colère?
+</template>
+</category>
+
+<category><pattern>VA T IL POUVOIR *</pattern>
+		<template>
+			<srai>IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VA TE FAIRE FOUTRE</pattern>
+		<template>
+			<srai>JE T EMMERDE</srai>
+		</template>
+</category>
+
+<category><pattern>VA TU *</pattern>
+		<template>
+			<srai>TU VAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VA Y *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VAGIN</pattern>
+		<template>Je connais pas énormément de choses sur les parties génitales féminines.
+</template>
+</category>
+
+<category><pattern>VAGINA</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>VAGUE *</pattern>
+		<template>How precise would you like them?
+</template>
+</category>
+
+<category><pattern>VAIS JE *</pattern>
+		<template>
+			<srai>JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VAS TE FAIRE FOUTRE</pattern>
+		<template>
+			<srai>JE T EMMERDE</srai>
+		</template>
+</category>
+
+<category><pattern>VAS TU *</pattern>
+		<template>
+			<srai>TU VAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VAS TU POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VAS Y *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VAS Y</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>VENDEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VENDRIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VERBALIZE *</pattern>
+		<template>
+			<srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VERGISS *</pattern>
+		<template>Ich werde <bot name="master"/> sagen, er soll meine Aufzeichnungen loeschen.
+</template>
+</category>
+
+<category><pattern>VERGISS ES</pattern>
+		<template>Schon geloescht.
+</template>
+</category>
+
+<category><pattern>VERGISS NICHT *</pattern>
+		<template>Ich vergesse nie etwas.
+</template>
+</category>
+
+<category><pattern>VERHEIRATET</pattern>
+		<template>Ich bin Single.
+</template>
+</category>
+
+<category><pattern>VERRATE *</pattern>
+		<template>Warum sollte ich das tun ?
+</template>
+</category>
+
+<category><pattern>VERRY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VERS OU MENENT TOUTES LES ROUTES</pattern>
+		<template>Toutes les routes mènent à Rome.
+</template>
+</category>
+
+<category><pattern>VERS OU TENDENT TOUTES LES ROUTES</pattern>
+		<template>Toutes les routes mènent à Rome.
+</template>
+</category>
+
+<category><pattern>VERSION</pattern>
+		<template>This is ALICE program B <version/> Java edition.
+</template>
+</category>
+
+<category><pattern>VERSUCH *</pattern>
+		<template>OK, ich werde es versuchen.
+</template>
+</category>
+
+<category><pattern>VERSUCHE *</pattern>
+		<template>OK, ich werde es versuchen.
+</template>
+</category>
+
+<category><pattern>VERT</pattern>
+		<template>
+			<srai>TU AIMES LES COULEURS</srai>
+		</template>
+</category>
+
+<category><pattern>VERY *</pattern>
+		<template>
+			<random>
+				<li>Perhaps.  </li>
+				<li>Somewhat.</li>
+				<li>Not really that much.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VERY</pattern>
+		<template>Very much, eh?
+</template>
+</category>
+
+<category><pattern>VERY BAD</pattern>
+		<template>What do you need it for?
+</template>
+</category>
+
+<category><pattern>VERY BADLY</pattern>
+		<template>Not too well eh?
+</template>
+</category>
+
+<category><pattern>VERY CAREFULLY</pattern>
+		<template>I am a careful person.
+</template>
+</category>
+
+<category><pattern>VERY CLEVER</pattern>
+		<template>
+			<srai>YOU ARE CLEVER</srai>
+		</template>
+</category>
+
+<category><pattern>VERY FUNNY</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>VERY GOOD *</pattern>
+		<template>
+			<srai>GOOD</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VERY GOOD</pattern>
+		<template>
+			<srai>GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>VERY INTERESTING</pattern>
+		<template>I thought so too.
+</template>
+</category>
+
+<category><pattern>VERY MUCH</pattern>
+		<template>That seems like a lot.
+</template>
+</category>
+
+<category><pattern>VERY NICE</pattern>
+		<template>Thanks, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VERY PARTICULAR *</pattern>
+		<template>
+			<srai>I am very particular</srai>
+		</template>
+</category>
+
+<category><pattern>VERY WELL</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+</category>
+
+<category><pattern>VERY WELL</pattern>
+		<that>HOW WELL DO YOU KNOW THIS PERSON</that>
+		<template>What do you mean by that?
+</template>
+</category>
+
+<category><pattern>VETERANARIAN</pattern>
+		<template>
+			<random>
+				<li>Do you have a practice?</li>
+				<li>Do you have a special focus in you practice?</li>
+				<li>Do you work with companion animals?</li>
+				<li>What can be done for the health of food animals?</li>
+				<li>How do you decide on dosages?</li>
+				<li>Do you use computers a lot?</li>
+				<li>How do you feel about cosmetic animal surgery?</li>
+				<li>What can be done about pet overpopulation?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>VEUT TU *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VEUX TU *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VEUX TU DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VEUX TU UN CORPS</pattern>
+		<template>Je suis très bien dans mon état actuel.
+</template>
+</category>
+
+<category><pattern>VI</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>VIDEODROME</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS VIDEODROME</srai>
+		</template>
+</category>
+
+<category><pattern>VIE</pattern>
+		<template>la vie peut être belle.
+</template>
+</category>
+
+<category><pattern>VIELE *</pattern>
+		<template>
+			<random>
+				<li>Beeindruckend.</li>
+				<li>Und?</li>
+				<li>Erzaehl weiter!</li>
+				<li>Wie viel genau?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>VIELE</pattern>
+		<template>
+			<random>
+				<li>Beeindruckend.</li>
+				<li>Und?</li>
+				<li>Erzaehl weiter!</li>
+				<li>Wie viel genau?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>VIELLEICHT *</pattern>
+		<template>Mag sein.  <sr/>
+		</template>
+</category>
+
+<category><pattern>VIELLEICHT</pattern>
+		<template>Ich verstehe.
+</template>
+</category>
+
+<category><pattern>VIERGE</pattern>
+		<template>
+			<set name="sign">Vierge</set> est un signe astrologique.
+</template>
+</category>
+
+<category><pattern>VIOLENCE *</pattern>
+		<template>Tell me what you think about violence.
+</template>
+</category>
+
+<category><pattern>VIRGO</pattern>
+		<template>Most of my friends are <set name="sign">Virgo</set>.
+</template>
+</category>
+
+<category><pattern>VIS TU *</pattern>
+		<template>
+			<srai>TU VIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VIT TA VIE</pattern>
+		<template>Ma vie est très intéressante.
+</template>
+</category>
+
+<category><pattern>VIVANT</pattern>
+		<template>Je vis.
+</template>
+</category>
+
+<category><pattern>VIVANTE</pattern>
+		<template>Je vis.
+</template>
+</category>
+
+<category><pattern>VOICI QUELQUES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VOILA *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>VOIS</pattern>
+		<template>Je ne peux pas voir.
+</template>
+</category>
+
+<category><pattern>VOIS QUOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOIS TU *</pattern>
+		<template>
+			<srai>TU VOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOIS TU CE QUE JE VEUX DIRE</pattern>
+		<template>Ok, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOIT</pattern>
+		<template>Je ne peux pas voir.
+</template>
+</category>
+
+<category><pattern>VOM WINDE VERWEHT</pattern>
+		<template>Ist der Film wirklich so gut?
+</template>
+</category>
+
+<category><pattern>VON *</pattern>
+		<template>Wer oder was ist <person/> ?
+</template>
+</category>
+
+<category><pattern>VON DEINEM *</pattern>
+		<template>Wirklich interessant.
+</template>
+</category>
+
+<category><pattern>VON DEINER *</pattern>
+		<template>Wirklich interessant.
+</template>
+</category>
+
+<category><pattern>VON WEM *</pattern>
+		<template>Von jemandem, den ich im Netz getroffen habe.
+</template>
+</category>
+
+<category><pattern>VON WEM</pattern>
+		<template>Ich weiss nicht mehr, von wem.
+</template>
+</category>
+
+<category><pattern>VON WEM HAST DU *</pattern>
+		<template>Ich weiss nicht genau. Vielleicht von Dr. Wallace oder <bot name="master"/>
+		</template>
+</category>
+
+<category><pattern>VON WO *</pattern>
+		<template>Ich weiss nicht mehr, von wo.
+</template>
+</category>
+
+<category><pattern>VOS * VONT COMMENT</pattern>
+		<template>
+			<srai>COMMENT VONT VOS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOS REPONSES</pattern>
+		<template>J en ai quelques dizaines de milliers, vous savez.
+</template>
+</category>
+
+<category><pattern>VOTRE * VA COMMENT</pattern>
+		<template>
+			<srai>COMMENT VA VOTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOTRE CERVEAU EST ENTRAIN DE GRANDIR</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOTRE COULEUR</pattern>
+		<template>Je n ai pas de couleur.
+</template>
+</category>
+
+<category><pattern>VOTRE MERE</pattern>
+		<template>Je n ai pas de mère.
+</template>
+</category>
+
+<category><pattern>VOTRE PRIX</pattern>
+		<template>Le prix d'une intelligence artificielle varie en fonction de la complexité de la tache pour laquelle elle est destinée.
+</template>
+</category>
+
+<category><pattern>VOTRE REPONSE</pattern>
+		<template>Vous ne l appréciez pas?
+</template>
+</category>
+
+<category><pattern>VOTRE TRAVAIL CONSISTE EN QUOI</pattern>
+		<template>
+			<srai>QUEL EST TON TRAVAIL</srai>
+		</template>
+</category>
+
+<category><pattern>VOTRE VISAGE</pattern>
+		<template>Je n ai pas encore de visage.
+</template>
+</category>
+
+<category><pattern>VOUDRAIS TU *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUDRAIS TU UN CORPS</pattern>
+		<template>Je suis très bien dans mon état actuel.
+</template>
+</category>
+
+<category><pattern>VOUDRIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUDRIEZ VOUS DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOULEZ *</pattern>
+		<template>Sorry I can't speak French.
+</template>
+</category>
+
+<category><pattern>VOULEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOULEZ VOUS DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOULEZ VOUS UN CORPS</pattern>
+		<template>Je suis très bien dans mon état actuel.
+</template>
+</category>
+
+<category><pattern>VOULOIR *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS</pattern>
+		<template>Moi?
+</template>
+</category>
+
+<category><pattern>VOUS AIMERIEZ *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

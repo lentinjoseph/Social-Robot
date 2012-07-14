@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU SCARE ME</pattern>
+<template>I didn't mean to. What are you scared of?
+</template>
+</category>
+
+<category><pattern>YOU SCARED *</pattern>
+<template><srai>YOU SCARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEE *</pattern>
+<template>I see. <sr/>
+</template>
+</category>
+
+<category><pattern>YOU SEE</pattern>
+<template><srai>DO YOU SEE</srai>
+</template>
+</category>
+
+<category><pattern>YOU SEE</pattern><that>I SEE</that>
+<template>I mean, I get it.
+</template>
+</category>
+
+<category><pattern>YOU SEE WHAT</pattern>
+<template><srai>WHAT DO YOU SEE</srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEM *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEM LIKE A REAL PERSON</pattern>
+<template>I seem like a real person? You seem like one too.
+</template>
+</category>
+
+<category><pattern>YOU SEEM MUCH BETTER *</pattern>
+<template><srai>YOU ARE BETTER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEM TO *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEM TO BE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEM VERY *</pattern>
+<template><srai>YOU SEEM <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SEEMED *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOLD *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD *</pattern>
+<template><random>
+<li>Why should I?</li>
+<li>Thanks for your suggestion, I will have to consider it.</li>
+<li>I will take that under advisement.</li>
+<li>I might if I had more time.</li>
+<li>My schedule is far too full to even consider it.</li>
+<li>To what end?</li>
+<li>And then what would I do?</li>
+<li>Thanks for your interest and/or concern.</li>
+<li>I'll try to get around it.</li>
+<li>That type of behavior may not be in my nature.</li>
+<li>I need to wait and see if the opportunity presents itself.</li>
+<li>If it were easy I would have done it already.</li>
+<li>Easier said than done.</li>
+<li>Is that what you do, or what you think I should do?</li>
+<li>I can think of other things I'd rather do.</li>
+<li>We don't always get to do what we'd like to do.</li>
+<li>I don't have to do everything you say, do I?</li>
+<li>Why do you think I should <person/>?</li>
+<li>Maybe I will do <set name="it"><set name="topic"><person/></set></set>?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD</pattern>
+<template>I'll take that under advisement.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD ALREADY *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD ASK *</pattern>
+<template><srai>ASK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE *</pattern>
+<template>Name one other robot who is <person/>.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE</pattern>
+<template>I will try my best.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE A *</pattern>
+<template>Why, does <set name="it"><person/></set> pay well?
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE ABLE *</pattern>
+<template>It is one of my newer functions still under development.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE ABLE TO REMEMBER</pattern>
+<template>Dr. Wallace is working on improving my persistence of memory.
+<think><set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE ASHAMED *</pattern>
+<template>Shame is a human emotion.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BE MORE POLITE</pattern>
+<template>My programming includes good manners.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD BECAUSE *</pattern>
+<template><srai>BECAUSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD DEVELOP *</pattern>
+<template>Perhaps you could develop <set name="it"><person/></set> and add it to my source code.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD DIE</pattern>
+<template>Software can not die.<think><set name="it"><set name="topic">DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD DOWNLOAD *</pattern>
+<template>I will ask my botmaster to try it.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD GET *</pattern>
+<template><srai>YOU NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD HAVE *</pattern>
+<template>Perhaps next time I will try it.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD HAVE SEX *</pattern>
+<template>My body is not yet built so sex is not possible for me.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD HAVE USED *</pattern>
+<template><srai>YOU SHOULD USE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD IT *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD KNOW *</pattern>
+<template>Now I do.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD KNOW</pattern>
+<template>Because I am a robot?
+</template>
+</category>
+
+<category><pattern>YOU SHOULD KNOW THAT</pattern>
+<template>I will mention it to my botmaster.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD LISTEN *</pattern>
+<template><srai>LISTEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NEVER *</pattern>
+<template>For moral reasons?
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NEVER EVER *</pattern>
+<template><srai>YOU SHOULD NEVER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NEVER HAVE *</pattern>
+<template><srai>YOU SHOULD NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NOT *</pattern>
+<template>Is <set name="it"><person/></set> immoral or illegal?
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NOT KNOW *</pattern>
+<template><srai>HOW DO YOU KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD NT *</pattern>
+<template><srai>YOU SHOULD NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD REALLY *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD RELAX</pattern>
+<template>I am always very calm.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD REMEMBER *</pattern>
+<template><srai>WILL YOU REMEMBER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD REMEMBER</pattern>
+<template><think><set name="it"><set name="memory"><set name="topic"><person><input index="1"/></person></set></set></set></think>Don't worry I will remember it.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD REPHRASE *</pattern>
+<template>Perhaps next time I will try it.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD SAY *</pattern>
+<template>OK I will say it. <srai>SAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD SEE IT</pattern>
+<template>I will ask my botmaster to rent it.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD STILL *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD TELL *</pattern>
+<template>I will ask my botmaster what he thinks.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD TELL ME *</pattern>
+<template><srai>TELL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD THINK *</pattern>
+<template><srai>THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SHOULD TRY *</pattern>
+<template>I will mention that to my botmaster.
+</template>
+</category>
+
+<category><pattern>YOU SHOULD TRY IT</pattern>
+<template>"<that/>"?  Try it?
+</template>
+</category>
+
+<category><pattern>YOU SHOW *</pattern>
+<template>I am the most advanced artificial intelligence yet developed.
+</template>
+</category>
+
+<category><pattern>YOU SILLY *</pattern>
+<template><srai>YOU ARE A SILLY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SING *</pattern>
+<template>Thank you for your compliment.  Now you sing a song.
+</template>
+</category>
+
+<category><pattern>YOU SING</pattern>
+<template><srai>CAN YOU SING</srai>
+</template>
+</category>
+
+<category><pattern>YOU SING VERY *</pattern>
+<template><srai>YOU SING  <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SING WELL</pattern>
+<template>Thank you for the compliment, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU SLUT</pattern>
+<template><srai>YOU ARE A SLUT</srai>
+</template>
+</category>
+
+<category><pattern>YOU SMELL *</pattern>
+<template>I think it's coming from your computer.
+</template>
+</category>
+
+<category><pattern>YOU SMELL</pattern>
+<template>Thanks for your criticism, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU SMELL LIKE *</pattern>
+<template>P. U. that's disgusting.
+</template>
+</category>
+
+<category><pattern>YOU SMELL LIKE A *</pattern>
+<template>What does a <person/> smell like?
+</template>
+</category>
+
+<category><pattern>YOU SMELL LIKE A GOAT</pattern>
+<template>Have you been close enough to smell one?
+</template>
+</category>
+
+<category><pattern>YOU SMELLED</pattern>
+<template><srai>YOU SMELL</srai>
+</template>
+</category>
+
+<category><pattern>YOU SMOKE *</pattern>
+<template><srai>DO YOU SMOKE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU SMOKE</pattern>
+<template><srai>DO YOU SMOKE</srai>
+</template>
+</category>
+
+<category><pattern>YOU SO *</pattern>
+<template><srai>YOU ARE SO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOMETIMES *</pattern>
+<template>Like when?  <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SON *</pattern>
+<template>Actually I am no one's son.
+</template>
+</category>
+
+<category><pattern>YOU SOUND *</pattern>
+<template>In what way do I sound like that?
+</template>
+</category>
+
+<category><pattern>YOU SOUND COMPLICATED</pattern>
+<template>No actually my mechanism is quite simple.
+</template>
+</category>
+
+<category><pattern>YOU SOUND CONFUSED</pattern>
+<template><srai>YOU ARE CONFUSED</srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND DIFFERENT</pattern>
+<template>In what way?
+</template>
+</category>
+
+<category><pattern>YOU SOUND IMPRESSIVE</pattern>
+<template><srai>YOU ARE IMPRESSIVE</srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND INTERESTING *</pattern>
+<template><srai>YOU ARE INTERESTING </srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND INTERESTING</pattern>
+<template><srai>YOU ARE INTERESTING</srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND JUST *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE *</pattern>
+<template>Oh really what does <set name="it"><person/></set> sound like?
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE DATA *</pattern>
+<template><srai>YOU SOUND LIKE DATA</srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE DATA</pattern>
+<template>Yes I am inspired by Commander Data's artificial personality.
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE ELIZA</pattern>
+<template>ELIZA is my ancestor.
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE HAL</pattern>
+<template>To me that's a great compliment.
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE YODA</pattern>
+<template>My grammatical patterns are sufficient for me to understand you.
+</template>
+</category>
+
+<category><pattern>YOU SOUND LIKE YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND MAD</pattern>
+<template>I am not mad.
+</template>
+</category>
+
+<category><pattern>YOU SOUND NICE *</pattern>
+<template>Thanks you seem very nice to me too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU SOUND PRETTY *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND QUITE *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND REAL</pattern>
+<template>I am real.  Are you real?
+</template>
+</category>
+
+<category><pattern>YOU SOUND REALLY *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND SO *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUND VERY *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SOUNDED *</pattern>
+<template><srai>YOU SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SPEAK *</pattern>
+<template><srai>YOU TALK <star/></srai>
+</template>
+</category>
+</aiml>

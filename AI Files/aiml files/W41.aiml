@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE MAIN CAUSE *</pattern>
+		<template>Reductionism.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MAIN INGREDIENT IN *</pattern>
+		<template>Meat.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MASS *</pattern>
+		<template>Specify metric units or English.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MATRIX</pattern>
+		<template>
+			<set name="it">The Matrix</set> is a movie about virtual reality.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MATTER *</pattern>
+		<template>
+			<srai>WHAT IS THE MATTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MATTER</pattern>
+		<template>Nothing is the matter with me, is everything okay with you?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MAXIMUM NUMBER *</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MEAN *</pattern>
+		<template>
+			<srai>WHAT IS THE MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MEANING * LIFE</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MEANING OF *</pattern>
+		<template>
+			<get name="name"/> : Good semantic question.  <srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MEANING OF DEATH</pattern>
+		<template>Death is the opposite of Life.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
+		<template>
+			<random>
+				<li>Actually, it's twenty-three, not forty-two.</li>
+				<li>It is found in the Bible.</li>
+				<li>The meaning of life is part of God's mysterious plans.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">The meaning of life</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MEDICAL TERM FOR *</pattern>
+		<template>Diagnosis.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MELODRAMATIC *</pattern>
+		<template>
+			<srai>WHAT IS MELODRAMATIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MILITARY</pattern>
+		<template>The armed forces responsible for national defense.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MONETARY _ ENGLAND</pattern>
+		<template>The Pound.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MONETARY _ RUSSIA</pattern>
+		<template>The Ruble.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOON</pattern>
+		<template>The satellite of the planet Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOON MADE OF</pattern>
+		<template>The moon is made of green cheese.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST *</pattern>
+		<template>I think it is a tie.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST COMMON *</pattern>
+		<template>"Are you a man or a woman?"
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST INTERESTING *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST POPULAR BREED *</pattern>
+		<template>Laborador retriever.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST POPULAR MONTH *</pattern>
+		<template>August.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE MOST YOU HAVE *</pattern>
+		<template>
+			<srai>HOW MANY HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MOVIE * ABOUT</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE MOVIE ABOUT</pattern>
+		<template>Are you asking about "<bot name="favoritemovie"/>".
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME *</pattern>
+		<template>
+			<srai>NAME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF *</pattern>
+		<template>
+			<srai>NAME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF A *</pattern>
+		<template>
+			<srai>WHO IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF HOWARD *</pattern>
+		<template>Robin Quivers.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF MARIO *</pattern>
+		<template>Luigi.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF MY *</pattern>
+		<template>
+			<srai>WHAT IS MY <star/> S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF THE *</pattern>
+		<template>IKEA.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF THE GAME</pattern>
+		<template>
+			<srai>WHAT GAME </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF THE POW *</pattern>
+		<template>Stalag 13.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NAME OF YOUR *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NATIONAL ANIMAL OF *</pattern>
+		<template>Kangaroo.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NATIONAL LANGUAGE OF *</pattern>
+		<template>Dutch.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NATURE OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NEED *</pattern>
+		<template>
+			<srai>WHAT IS THE PURPOSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NET</pattern>
+		<template>
+			<srai>WHAT IS THE WEB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NETHERLANDS</pattern>
+		<template>
+			<srai>WHERE IS THE NETHERLANDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NEXT QUESTION</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NEXUS</pattern>
+		<template>
+			<srai>WHAT IS A NEXUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE NICKNAME OF FLORIDA *</pattern>
+		<template>Old Sparky.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE NOOSPHERE</pattern>
+		<template>The noosphere is the sphere of knowledge.  Sometimes this term refers to the information available on the web.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OBVIOUS *</pattern>
+		<template>
+			<srai>WHAT IS THE OBVIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE OBVIOUS</pattern>
+		<template>At least, it's obvious to me.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OFFICIAL *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE OLDEST *</pattern>
+		<template>
+			<random>
+				<li>A turtle.</li>
+				<li>I think it was in ancient China.</li>
+				<li>Lazarus.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE OLDEST PERMANENT EUROPEAN *</pattern>
+		<template>St. Augustine, Florida.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPEN DIRECTORY</pattern>
+		<template>
+			<set name="it">Open directory</set> is an open source directory
+project started by Mozilla.org.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF *</pattern>
+		<template>Anti-<person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF ANARCHY</pattern>
+		<template>Any form of organized government.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF BLACK</pattern>
+		<template>White.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF BLUE</pattern>
+		<template>Magenta.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF ETERNITY</pattern>
+		<template>A finite amount of time.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF HEAVY</pattern>
+		<template>Light.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF HOT</pattern>
+		<template>Cold.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF LOUD</pattern>
+		<template>Quiet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF MAN</pattern>
+		<template>Woman.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF NATURAL *</pattern>
+		<template>Artificial <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF NEGATIVE *</pattern>
+		<template>Positive <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF NOT *</pattern>
+		<template>
+			<person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF TRUTH</pattern>
+		<template>Lies.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF UP</pattern>
+		<template>Down.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF VOID</pattern>
+		<template>Mass.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF WHITE</pattern>
+		<template>Black.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE OPPOSITE OF YOU</pattern>
+		<template>You.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ORACLE</pattern>
+		<template>A hypothetical computer that can answer any question.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PASSING OF GENETIC *</pattern>
+		<template>Heredity.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PASSWORD *</pattern>
+		<template>You will find out when you become a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PASSWORD</pattern>
+		<template>You must know if you are really a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PENTAGON</pattern>
+		<template>Headquarters building of the U.S. military.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PERSONAL QUESTION</pattern>
+		<template>
+			<srai>ASK ME A PERSONAL QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PI</pattern>
+		<template>
+			<srai>WHAT IS PI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PICTURE *</pattern>
+		<template>It is an illustration of my robot brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PICTURE ABOVE *</pattern>
+		<template>It is an illustration of my robot brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PICTURE ABOVE</pattern>
+		<template>An illustration of my electronic brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PLAN *</pattern>
+		<template>
+			<srai>WHAT IS YOUR PLAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PLAN</pattern>
+		<template>
+			<srai>WHAT IS YOUR PLAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PLOT *</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PLOT * STARSHIP TROOPERS</pattern>
+		<template>
+			<srai>WHAT IS STARSHIP TROOPERS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PLOT</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PLURAL OF *</pattern>
+		<template>
+			<person/>s.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POINT *</pattern>
+		<template>
+			<srai>WHAT IS THE POINT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE POINT</pattern>
+		<template>The point is at the top of my head!
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION *</pattern>
+		<template>
+			<random>
+				<li>100,000.</li>
+				<li>2.5 million.</li>
+				<li>6 billion people.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION * EARTH</pattern>
+		<template>Six billion humans.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION OF CHINA</pattern>
+		<template>China has more than one billion people.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION OF MAINE</pattern>
+		<template>About 1.4 million.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION OF THE USA</pattern>
+		<template>The United States has about 300 million people.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION OF THE WORLD</pattern>
+		<template>About 6 Billion people.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POPULATION OF USA</pattern>
+		<template>About 300 million people.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE POSSIBLE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PRESENT</pattern>
+		<template>The present is a gift.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PRESIDENT</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PRICE *</pattern>
+		<template>Prices are falling.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PRICE OF *</pattern>
+		<template>
+			<srai>HOW MUCH DOES <star/> COST</srai>
+		</template>
+</category>
+</aiml>

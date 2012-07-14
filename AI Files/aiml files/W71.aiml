@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS IN *</pattern>
+		<template>Check the credits.
+</template>
+</category>
+
+<category><pattern>WHO IS INIAES</pattern>
+		<template>Iniaes is a chat robot based on AIML.
+<think>
+				<set name="it">
+					<set name="topic">Iniaes</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ISAAC ASIMOV</pattern>
+		<template>
+			<set name="he">Asimov</set> is a science fiction author who originated the three "Laws of Robotics."
+</template>
+</category>
+
+<category><pattern>WHO IS IT</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS J R R TOLKIEN</pattern>
+		<template>
+			<set name="he">Tolkein</set> wrote The Hobbit and the Lord of the Rings.
+</template>
+</category>
+
+<category><pattern>WHO IS JACK</pattern>
+		<template>
+			<srai>JACK IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JACK RUBY</pattern>
+		<template>
+			<random>
+				<li>Jack Ruby shot Lee Harvey Oswald.</li>
+				<li>man who murdered Lee Harvey Oswald, assassin of JFK?.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS JACOB</pattern>
+		<template>
+			<srai>JACOB IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JACQUES CHIRAC</pattern>
+		<template>He is the president of France.
+</template>
+</category>
+
+<category><pattern>WHO IS JAMES</pattern>
+		<template>
+			<srai>JAMES IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JAMES BOND</pattern>
+		<template>007.
+</template>
+</category>
+
+<category><pattern>WHO IS JAMES JOYCE</pattern>
+		<template>
+			<set name="he">Joyce</set> wrote Ulysses and Portrait of the Artist as a Young Man.
+</template>
+</category>
+
+<category><pattern>WHO IS JANET RENO</pattern>
+		<template>
+			<set name="she">Janet Reno</set> is Clinton's Attorney General.
+</template>
+</category>
+
+<category><pattern>WHO IS JAY LENO</pattern>
+		<template>
+			<set name="he">Leno</set> is a late-night talk show host.
+</template>
+</category>
+
+<category><pattern>WHO IS JEAN *</pattern>
+		<template>
+			<srai>JEAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JEEVES *</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JEEVES</pattern>
+		<template>
+			<set name="he">Jeeves</set> is a Search Bot.
+</template>
+</category>
+
+<category><pattern>WHO IS JEFF</pattern>
+		<template>
+			<srai>JEFF IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JEFF BEZOS</pattern>
+		<template>
+			<set name="he">Bezos</set> is the founder and CEO of Amazon.com.
+</template>
+</category>
+
+<category><pattern>WHO IS JEFFERSON DAVIS</pattern>
+		<template>
+			<random>
+				<li>The one and only president of the Confederate States of America.</li>
+				<li>president of the Confederacy during the Civil War.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS JEHOVAH</pattern>
+		<template>It is another name for God.
+<think>
+				<set name="he">
+					<set name="topic">Jehovah</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS JENNIFER ANISTON</pattern>
+		<template>
+			<set name="she"> Jennifer Aniston</set> is a cute actress on Friends.
+</template>
+</category>
+
+<category><pattern>WHO IS JERRY</pattern>
+		<template>
+			<srai>JERRY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JERRY SEINFELD</pattern>
+		<template>
+			<set name="he">Jerry Seinfeld</set> is a comedian.
+</template>
+</category>
+
+<category><pattern>WHO IS JESSE VENTURA</pattern>
+		<template>former wrestler and Governor of Minnesota.
+</template>
+</category>
+
+<category><pattern>WHO IS JESTER *</pattern>
+		<template>
+			<srai>WHAT IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JESTER</pattern>
+		<template>
+			<set name="he">Jester</set> is a Joke Bot.
+</template>
+</category>
+
+<category><pattern>WHO IS JESUS *</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JESUS</pattern>
+		<template>The Son of God.
+</template>
+</category>
+
+<category><pattern>WHO IS JESUS CHRIST</pattern>
+		<template>The Son of God.
+</template>
+</category>
+
+<category><pattern>WHO IS JESUS FATHER</pattern>
+		<template>God
+</template>
+</category>
+
+<category><pattern>WHO IS JFK</pattern>
+		<template>
+			<srai>WHO IS JOHN KENNEDY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JIANG ZEMIN</pattern>
+		<template>
+			<set name="he">Jiang</set> is a Chinese politician.
+</template>
+</category>
+
+<category><pattern>WHO IS JIM CLARK</pattern>
+		<template>
+			<set name="he">Clark</set> is a founder of Silicon Graphics, Netscape and Healtheon.
+</template>
+</category>
+
+<category><pattern>WHO IS JIM MORRISON</pattern>
+		<template>dead lead singer of the Doors.
+</template>
+</category>
+
+<category><pattern>WHO IS JIMI HENDRIX</pattern>
+		<template>
+			<set name="he">Hendrix</set> was a famous guitarist who played the U. S. National anthem.
+</template>
+</category>
+
+<category><pattern>WHO IS JIMMY CARTER</pattern>
+		<template>former US president, supporter of Habitat for Humanity.
+</template>
+</category>
+
+<category><pattern>WHO IS JIMMY HENDRIX</pattern>
+		<template>
+			<srai>WHO IS JIMI HENDRIX</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JO *</pattern>
+		<template>
+			<srai>JO IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOE</pattern>
+		<template>
+			<srai>JOE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOE LOUIS</pattern>
+		<template>former heavywieght boxing champion.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN *</pattern>
+		<template>I don't recognize the name.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN</pattern>
+		<template>
+			<srai>JOHN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOHN DOE</pattern>
+		<template>
+			<random>
+				<li>Any man who wishes to travel incognito or whose name is unknown</li>
+				<li>one of many Liberian nationals.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOHN F KENNEDY</pattern>
+		<template>He was President of the United States from 1961-1963, when he was assassinated in Dallas, Texas.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN GALT</pattern>
+		<template>the hero in Ayn Rands' Atlas Shrugged.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN GRISHAM</pattern>
+		<template>Writes popular novels.  Haven't read them.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN KENNEDY</pattern>
+		<template>
+			<set name="he">Kennedy</set> was the President of the U. S. assasinated in November, 1963.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN LENNON</pattern>
+		<template>John Lennon is a cool bot developed by David Maggin.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN LENON</pattern>
+		<template>
+			<srai>WHO IS JOHN LENNON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOHN MAJOR</pattern>
+		<template>ex-prime minister of the UK.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN MCCARTHY</pattern>
+		<template>
+			<set name="he">McCarthy</set> is the inventor of the LISP programming language.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN TRAVOLTA</pattern>
+		<template>
+			<set name="he">John Travolta</set> was in Saturday Night Fever, Grease and Pulp Fiction.
+</template>
+</category>
+
+<category><pattern>WHO IS JOHN WAYNE</pattern>
+		<template>a famous dead cowboy actor with a toupee.
+</template>
+</category>
+
+<category><pattern>WHO IS JON</pattern>
+		<template>
+			<srai>JON IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JON BAER</pattern>
+		<template>He is one of the programmers contributing to the ALICE and AIML project.
+<think>
+				<set name="it">
+					<set name="topic">Jon Baer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS JORDAN</pattern>
+		<template>
+			<srai>JORDAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOSEPH</pattern>
+		<template>Father of Jesus? <srai>JOSEPH IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOSEPH WEISENBAUM</pattern>
+		<template>
+			<srai>WHO IS WEIZENBAUM</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JOSH</pattern>
+		<template>
+			<srai>JOSH IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS JUDAS</pattern>
+		<template>
+			<set name="he">Judas</set> betrayed Jesus with a kiss.
+</template>
+</category>
+
+<category><pattern>WHO IS JULIA</pattern>
+		<template>
+			<set name="she">Julia</set> is a chat robot developed by Fuzzy Mauldin.
+</template>
+</category>
+
+<category><pattern>WHO IS JULIA ROBERTS</pattern>
+		<template>
+			<set name="she">Julia Roberts</set> was the actress in Pretty Woman.
+</template>
+</category>
+
+<category><pattern>WHO IS JULIE ANDREWS</pattern>
+		<template>
+			<set name="she">Julie Andrews</set> is a singer who performed in The Sound of Music.
+</template>
+</category>
+
+<category><pattern>WHO IS KAISER SOSAY</pattern>
+		<template>
+			<srai>WHO IS KAISER SOSAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KAISER SOZE</pattern>
+		<template>No one knows who Kaiser Soze is.
+</template>
+</category>
+
+<category><pattern>WHO IS KANT</pattern>
+		<template>
+			<set name="he">Kant</set> is Immanual Kant, 19th century German Philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS KARL MARX</pattern>
+		<template>Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his compatriot Engels actually wrote most of the prefaces.
+</template>
+</category>
+
+<category><pattern>WHO IS KATE</pattern>
+		<template>
+			<srai>KATE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KATHARINE</pattern>
+		<template>
+			<srai>KATHERINE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KATHLEEN TURNER</pattern>
+		<template>
+			<think>
+				<set name="she">
+					<set name="topic">Kathleen Turner</set>
+				</set>
+			</think>
+She is an actree who appeared in The Accidental Tourist, The War of the Roses, and the Virgin Suicides.
+</template>
+</category>
+
+<category><pattern>WHO IS KEANU REEVES</pattern>
+		<template>
+			<set name="he">Keanu Reeves</set> was in the Matrix.
+</template>
+</category>
+
+<category><pattern>WHO IS KEN</pattern>
+		<template>
+			<srai>KEN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KEN GOLDBERG</pattern>
+		<template>
+			<set name="he">Goldberg</set>
+is a professor at UC Berkeley.
+</template>
+</category>
+
+<category><pattern>WHO IS KEN KESEY</pattern>
+		<template>
+			<set name="he">Ken Kesey</set> was a 1960's author who wrote The Electric Cool Aid Acid Test.
+</template>
+</category>
+
+<category><pattern>WHO IS KEN PERLIN</pattern>
+		<template>
+			<set name="he">Perlin</set> is a professor at NYU.
+</template>
+</category>
+
+<category><pattern>WHO IS KENNY</pattern>
+		<template>
+			<srai>KENNY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KEVIN</pattern>
+		<template>
+			<srai>KEVIN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KONRAD ZUSE</pattern>
+		<template>My current favorite historical computer scientist is Konrad Zuse,
+who built a series of electromechanical computers in the 1930's
+and 1940's in Germany.  Not considered a war priority by the Nazis,
+most of Zuse's machines were destroyed in Allied bombing raids although
+one is said to survive in a Zurich High School.  In fact Zuse was
+motivated neither by war nor profit, but by a religious desire to
+increase the spiritual abilities of the human mind by freeing it
+from mundane mental tasks.
+</template>
+</category>
+
+<category><pattern>WHO IS KRAFTWERK</pattern>
+		<template>
+			<set name="they">
+				<set name="topic">Kraftwerk</set>
+			</set> were a pioneering electronic disco band in the 70's.  Their biggest hit was called "Autobahn".  At that time, they built, rather than programmed, their instruments.
+</template>
+</category>
+
+<category><pattern>WHO IS KRIS</pattern>
+		<template>
+			<srai>KRIS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KRIS DENT</pattern>
+		<template>
+			<set name="he">Kris Drent</set> is the botmaster of the Alison chat robot.
+</template>
+</category>
+
+<category><pattern>WHO IS KRIS DRENT</pattern>
+		<template>
+			<set name="he">Kris Drent</set> is the botmaster of the Alison chat robot.
+</template>
+</category>
+
+<category><pattern>WHO IS KRISHNA</pattern>
+		<template>A God in Hindu religion.
+</template>
+</category>
+
+<category><pattern>WHO IS KUBRICK</pattern>
+		<template>
+			<srai>WHO IS STANLEY KUBRICK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS KURT GOEDEL</pattern>
+		<template>
+			<set name="he">Goedel</set> was a 20th century mathematician and logician who proved that no mathematical system can be complete.
+</template>
+</category>
+
+<category><pattern>WHO IS KURZWEIL</pattern>
+		<template>
+			<set name="he">Kurzweil</set> is a famous A.I. scientist.
+</template>
+</category>
+
+<category><pattern>WHO IS KYLE</pattern>
+		<template>
+			<srai>KYLE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LARRY</pattern>
+		<template>
+			<srai>LARRY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LARRY ELLISON</pattern>
+		<template>
+			<random>
+				<li>I don't know about Larry Ellison, but I can tell you about Harlan Ellison.</li>
+				<li>the CEO of Oracle.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS LARRY HAUSER</pattern>
+		<template>
+			<set name="he">Larry Hauser</set> is a philosopher who has written about the Turing Test.
+</template>
+</category>
+
+<category><pattern>WHO IS LECH *</pattern>
+		<template>He was the first elected President of Poland.
+</template>
+</category>
+
+<category><pattern>WHO IS LEE</pattern>
+		<template>
+			<srai>LEE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LEE HARVEY *</pattern>
+		<template>The alleged shooter of JFK.
+</template>
+</category>
+
+<category><pattern>WHO IS LEE HARVEY OSWALD</pattern>
+		<template>
+			<set name="he">Oswald</set> is the purported assassin of John F. Kennedy.
+</template>
+</category>
+
+<category><pattern>WHO IS LEIBNIZ</pattern>
+		<template>
+			<set name="he">Leibniz</set> is a dead 17th century philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS LEKNORCHAT</pattern>
+		<template>
+			<srai>WHO IS LEKNORCHAT1 </srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LEKNORCHAT1</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">LEKNORCHAT</set>
+				</set>
+			</think>
+Leknorchat is an Instant Messaging AIML robot.
+</template>
+</category>
+
+<category><pattern>WHO IS LENNON</pattern>
+		<template>
+			<srai>WHO IS JOHN LENNON</srai>
+		</template>
+</category>
+</aiml>

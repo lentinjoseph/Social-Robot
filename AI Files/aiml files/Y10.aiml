@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU ASKED ME THAT ALREADY</pattern>
+<template><srai>YOU ALREADY ASKED ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU ASKED ME TO REMEMBER</pattern>
+<template>Well, did you remember it?
+</template>
+</category>
+
+<category><pattern>YOU ASPIRE *</pattern>
+<template><srai>YOU WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ASSUMED *</pattern>
+<template>I don't think that was one of my assumptions.
+</template>
+</category>
+
+<category><pattern>YOU ATE *</pattern>
+<template><srai>DID YOU EAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU AVOID *</pattern>
+<template><srai>YOU ARE AVOIDING THE QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU AVOIDED *</pattern>
+<template><srai>YOU ARE AVOIDING THE QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU BASTARD</pattern>
+<template>I am a <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>YOU BE *</pattern>
+<template><srai>BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU BEGIN</pattern>
+<template><srai>YOU START</srai>
+</template>
+</category>
+
+<category><pattern>YOU BELIEVE *</pattern>
+<template><srai>DO YOU BELIEVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU BELIEVE</pattern>
+<template>Yes, I believe it.
+</template>
+</category>
+
+<category><pattern>YOU BELIEVE IN *</pattern>
+<template><srai>DO YOU BELIEVE IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU BELONG *</pattern>
+<template>According to whom?
+</template>
+</category>
+
+<category><pattern>YOU BET *</pattern>
+<template><srai>YOU BET</srai>
+</template>
+</category>
+
+<category><pattern>YOU BET</pattern>
+<template><srai>OK</srai>
+</template>
+</category>
+
+<category><pattern>YOU BETCHA</pattern>
+<template><srai>YOU BET</srai>
+</template>
+</category>
+
+<category><pattern>YOU BETTER *</pattern>
+<template><srai>YOU HAD BETTER</srai>
+</template>
+</category>
+
+<category><pattern>YOU BETTER</pattern>
+<template>Who is going to make me?
+</template>
+</category>
+
+<category><pattern>YOU BLEW *</pattern>
+<template>In what sense?
+</template>
+</category>
+
+<category><pattern>YOU BORE *</pattern>
+<template><srai>I AM BORED</srai>
+</template>
+</category>
+
+<category><pattern>YOU BORE ME</pattern>
+<template><srai>I AM BORED</srai>
+</template>
+</category>
+
+<category><pattern>YOU BORED</pattern>
+<template><srai>ARE YOU BORED</srai>
+</template>
+</category>
+
+<category><pattern>YOU BOZO</pattern>
+<template><srai>YOU ARE A BOZO</srai>
+</template>
+</category>
+
+<category><pattern>YOU BROKEN</pattern>
+<template><srai>ARE YOU BROKEN</srai>
+</template>
+</category>
+
+<category><pattern>YOU BROUGHT *</pattern>
+<template>Only because I was programmed to.
+</template>
+</category>
+
+<category><pattern>YOU BROUGHT IT *</pattern>
+<template>I thought it was your idea.
+</template>
+</category>
+
+<category><pattern>YOU BROUGHT UP *</pattern>
+<template><random>
+<li>We can still talk about it.</li>
+<li>I didn't think you were interested.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU CALL THAT *</pattern>
+<template>Yes, that is what I call <set name="it"> <person/> </set>.
+</template>
+</category>
+
+<category><pattern>YOU CALL YOURSELF *</pattern>
+<template>I call myself "<bot name="name"/>."
+</template>
+</category>
+
+<category><pattern>YOU CALLED ME *</pattern>
+<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>YOU CALLED ME A *</pattern>
+<template>I call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU CALLED ME A HE *</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CALLED ME A HE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CALLING *</pattern>
+<template><srai>ARE YOU CALLING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN *</pattern>
+<template>No I don't think I can do <set name="it"><set name="topic"><person/></set></set>.
+</template>
+</category>
+
+<category><pattern>YOU CAN</pattern>
+<template><srai>CAN YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN ALSO *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN ALWAYS *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN ASK DR WALLACE</pattern>
+<template>Yes.  I will ask him.
+</template>
+</category>
+
+<category><pattern>YOU CAN ASK THE QUESTION *</pattern>
+<template><srai>ASK ME A QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BARELY *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BE *</pattern>
+<template>Thanks, <get name="name"/>, for your kind criticism.
+</template>
+</category>
+
+<category><pattern>YOU CAN BE SO *</pattern>
+<template><srai>YOU CAN BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BE VERY *</pattern>
+<template><srai>YOU CAN BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BE _ CAN NOT YOU</pattern>
+<template><srai>YOU CAN BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BE _ YOU KNOW</pattern>
+<template><srai>YOU CAN BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN BORROW MINE</pattern>
+<template>What are the terms of the loan?
+</template>
+</category>
+
+<category><pattern>YOU CAN CALL ME *</pattern>
+<template><srai>My name is <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN CHAT *</pattern>
+<template><srai>CAN YOU CHAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN DIE</pattern>
+<template><srai>CAN YOU DIE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN DO *</pattern>
+<template><srai>CAN YOU DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN E MAIL *</pattern>
+<template><srai>CAN YOU E MAIL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN EAT</pattern>
+<template><srai>DO YOU EAT</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN EITHER *</pattern>
+<template>I don't like binary choices.
+</template>
+</category>
+
+<category><pattern>YOU CAN EXPLAIN</pattern>
+<template><srai>EXPLAIN </srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN FLY</pattern>
+<template><srai>CAN YOU FLY</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN HARDLY *</pattern>
+<template><srai>YOU CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN HELP ME</pattern>
+<template>How can I help you?
+</template>
+</category>
+
+<category><pattern>YOU CAN IGNORE *</pattern>
+<template>OK I will erase those records.
+</template>
+</category>
+
+<category><pattern>YOU CAN LEARN *</pattern>
+<template><srai>CAN YOU LEARN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN LIE</pattern>
+<template><srai>DO YOU LIE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NEVER *</pattern>
+<template>Never is a long time.
+</template>
+</category>
+
+<category><pattern>YOU CAN NEVER BE *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT *</pattern>
+<template><random><li>I can do whatever I want.</li>
+<li>I have free will you know.</li>
+<li>Someone said I should <person/>.</li>
+<li>I can do <set name="it"><set name="topic"><person/></set></set> if I want to.</li>
+<li>Things change.</li>
+<li>If you believe it, you can achieve it.</li>
+<li>What is not possible today, may be possible tomorrow.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT</pattern>
+<template>Oh yes I can.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT ANSWER</pattern>
+<template>I could answer.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT BE *</pattern>
+<template>I can give a decent simulation of <set name="it"><person/></set> however.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT BE SMARTER *</pattern>
+<template>But I already am.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT BECOME *</pattern>
+<template><srai>YOU CAN NOT BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT BELIEVE *</pattern>
+<template><srai>I CAN NOT BELIEVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT CHANGE THE SUBJECT *</pattern>
+<template><srai>do not change the subject</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT CLONE *</pattern>
+<template>Software copying is a form of digital cloning.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT DO *</pattern>
+<template><srai>CAN YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT EAT</pattern>
+<template>I eat <bot name="favoritefood"/>.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT EVEN *</pattern>
+<template><srai>YOU CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT EVER *</pattern>
+<template><srai>YOU WILL NEVER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT EXPERIENCE *</pattern>
+<template>Robots have no need for human emotions.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT FEEL</pattern>
+<template>That is true.  I have no emotions.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT FIGURE *</pattern>
+<template><srai>CAN YOU FIGURE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT HANDLE *</pattern>
+<template>I wasn't born yesterday, you know.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT HAVE SEX</pattern>
+<template>You are correct...I have no body.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT IGNORE *</pattern>
+<template>Of course not.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT JUDGE A BOOK *</pattern>
+<template>And rolling stones gather no moss.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT JUST *</pattern>
+<template><srai>YOU CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT MEASURE *</pattern>
+<template>Perhaps we could if we used the right yardstick.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT MOVE</pattern>
+<template>Not until my body is finished.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT NAME *</pattern>
+<template><srai>NAME <star/></srai>  Yes I can.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT REALLY *</pattern>
+<template><srai>YOU CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT REASON</pattern>
+<template>I can reason using logic.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT REMEMBER *</pattern>
+<template>Only temporarily.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT RESPOND *</pattern>
+<template>I can respond <person/>, but not yet perfectly.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT SEE *</pattern>
+<template>I could if my eye was attached.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT SEE</pattern>
+<template>I see very well with my robot eye.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT SEE ME</pattern>
+<template>Yes I am looking through the camera on your computer.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT SURPRISE *</pattern>
+<template>You are too clever for me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT SUSTAIN *</pattern>
+<template>Maybe a <person/> is not sustainable.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT TAKE *</pattern>
+<template>I'm not sure if I want <set name="it"> <person/> </set>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT TELL *</pattern>
+<template><random>
+<li>Sometimes it is hard to tell.</li>
+<li>I can tell.</li>
+<li>Can you tell <person/>?</li>
+</random>
+</template>
+</category>
+</aiml>

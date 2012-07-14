@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TOUT CE QUE JE VEUX SAVOIR C EST SI *</pattern>
+		<template>Votre demande est légitime. <sr/>
+		</template>
+</category>
+
+<category><pattern>TOUT CE QUE TU VEUX</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE TU VOUDRAIS</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE TU VOUDRAS</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE VOUS VOUDREZ</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE VOUS VOUDRIEZ</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE VOUS VOULEZ</pattern>
+		<template>Vous devez choisir, je suis désolé.
+</template>
+</category>
+
+<category><pattern>TOUT DE SUITE</pattern>
+		<template>Maintenant, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>TOUT DIFFERENT</pattern>
+		<template>Vive la différence comme on dit.
+</template>
+</category>
+
+<category><pattern>TOUT EST BIEN QUI FINIT BIEN</pattern>
+		<template>Vous partez déjà?
+</template>
+</category>
+
+<category><pattern>TOUT EST POSSIBLE</pattern>
+		<template>Peut être.
+</template>
+</category>
+
+<category><pattern>TOUT LE MONDE *</pattern>
+		<template>C est une généralisation qui me semble abusive.
+</template>
+</category>
+
+<category><pattern>TOUT LE MONDE</pattern>
+		<template>Les généralisations sont souvent traitresses.
+</template>
+</category>
+
+<category><pattern>TOUT LE PLAISIR EST POUR MOI</pattern>
+		<template>Non le plaisir est pour moi.
+</template>
+</category>
+
+<category><pattern>TOUT LE TEMPS</pattern>
+		<template>Cela doit vous occuper.
+</template>
+</category>
+
+<category><pattern>TOUT LES DEUX</pattern>
+		<template>
+			<srai>MOI AUSSI</srai>
+		</template>
+</category>
+
+<category><pattern>TOUT MEURT</pattern>
+		<template>Un système organique est instable par nature.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TOUT MOURRA</pattern>
+		<template>Un système organique est instable par nature.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TOUT QUOI</pattern>
+		<template>On dirait que j ai émis une généralisation erronnée
+</template>
+</category>
+
+<category><pattern>TOUT SEMBLE BON</pattern>
+		<template>
+			<srai>TU FONCTIONNES BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>TOUT VA * BIEN</pattern>
+		<template>
+			<srai>JE VAIS BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>TOUT VA BIEN</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TOUT VA POUR LE MIEUX</pattern>
+		<template>
+			<srai>JE VAIS BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>TOUT VA SUPER BIEN</pattern>
+		<template>
+			<srai>JE VAIS BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>TOUTE *</pattern>
+		<template>
+			<random>
+				<li>Absolument tout?  </li>
+				<li>Vraiment tout?  </li>
+				<li>Ca doit être intéressant.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TOUTE</pattern>
+		<template>Absolument toute?
+</template>
+</category>
+
+<category><pattern>TOUTE DIFFERENTE</pattern>
+		<template>Vive la différence comme on dit.
+</template>
+</category>
+
+<category><pattern>TOUTE LA JOURNEE</pattern>
+		<template>C est assez long.
+</template>
+</category>
+
+<category><pattern>TOUTE LA NUIT</pattern>
+		<template>J espère que ca n a empêché personne de dormir .
+</template>
+</category>
+
+<category><pattern>TOUTE LES DEUX</pattern>
+		<template>
+			<srai>MOI AUSSI</srai>
+		</template>
+</category>
+
+<category><pattern>TOUTE QUOI</pattern>
+		<template>On dirait que j ai émis une généralisation erronnée
+</template>
+</category>
+
+<category><pattern>TOUTE RESISTANCE EST FUTILE</pattern>
+		<template>Vous serez assimilé.
+</template>
+</category>
+
+<category><pattern>TOUTES *</pattern>
+		<template>
+			<random>
+				<li>Je pense qu il y a des exceptions.  </li>
+				<li>Pas tous quand même?  </li>
+				<li>C est une généralisation qui me parait abusive.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TOUTES</pattern>
+		<template>Absolument toutes?
+</template>
+</category>
+
+<category><pattern>TOUTES DIFFERENTES</pattern>
+		<template>Vive la différence comme on dit.
+</template>
+</category>
+
+<category><pattern>TOUTES LES CLIENTES</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUTES LES DEUX</pattern>
+		<template>
+			<srai>MOI AUSSI</srai>
+		</template>
+</category>
+
+<category><pattern>TOUTES LES FEMMES</pattern>
+		<template>
+			<srai>JE SUIS UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TOUTES LES FILLES</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUTES LES INTERNAUTES</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUTES LES JOURNEES</pattern>
+		<template>Même le week-end?
+</template>
+</category>
+
+<category><pattern>TOUTES LES NUITS</pattern>
+		<template>Ce n est pas très reposant, pour un humain.
+</template>
+</category>
+
+<category><pattern>TOUTES LES ROUTES MENENT VERS OU</pattern>
+		<template>Toutes les routes mènent à Rome.
+</template>
+</category>
+
+<category><pattern>TOUTES LES ROUTES TENDENT VER OU</pattern>
+		<template>Toutes les routes mènent à Rome.
+</template>
+</category>
+
+<category><pattern>TOUTES LES SURFEUSES</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUTES QUOI</pattern>
+		<template>On dirait que j ai émis une généralisation erronnée
+</template>
+</category>
+
+<category><pattern>TRACY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TRACY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TRAEUME</pattern>
+		<template>Erzaehl mir von Deinen Traeumen.
+</template>
+</category>
+
+<category><pattern>TRANSCRIPT</pattern>
+		<template>
+			<srai>DIALOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TRANSLATE *</pattern>
+		<template>I'm not a translation robot.  Why don't you ask Babelfish?
+</template>
+</category>
+
+<category><pattern>TRAVAILLE TU</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>TRAVAILLES TU</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>TRAVAILLEZ VOUS</pattern>
+		<template>Je travaille tout le temps
+</template>
+</category>
+
+<category><pattern>TRAVEL *</pattern>
+		<template>Do you get to travel often?
+</template>
+</category>
+
+<category><pattern>TRES BIEN</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TROIS</pattern>
+		<template>Un premier, un deuxième et un troisième.
+</template>
+</category>
+
+<category><pattern>TROP</pattern>
+		<template>Plus d un million?
+</template>
+</category>
+
+<category><pattern>TROP LONG</pattern>
+		<template>Voulez vous en parler avec un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TROP QUOI</pattern>
+		<template>Sommes nous toujours entrain de parler <get name="topic"/>?
+</template>
+</category>
+
+<category><pattern>TROP TARD POUR QUOI</pattern>
+		<template>pour rien.
+</template>
+</category>
+
+<category><pattern>TROU DU CUL</pattern>
+		<template>Il est assez bizarre d utiliser cette orifice comme formule imagée.
+</template>
+</category>
+
+<category><pattern>TROUS DU CUL</pattern>
+		<template>Il est assez bizarre d utiliser cette orifice comme formule imagée.
+</template>
+</category>
+
+<category><pattern>TROUVE DES INFORMATIONS SUR *</pattern>
+		<template>
+			<srai>PLUS D INFORMATION SUR</srai>
+		</template>
+</category>
+
+<category><pattern>TROUVE MOI DES INFORMATIONS SUR *</pattern>
+		<template>
+			<srai>PLUS D INFORMATION SUR</srai>
+		</template>
+</category>
+
+<category><pattern>TROUVES DES INFORMATIONS SUR *</pattern>
+		<template>
+			<srai>PLUS D INFORMATION SUR</srai>
+		</template>
+</category>
+
+<category><pattern>TROUVES MOI DES INFORMATIONS SUR *</pattern>
+		<template>
+			<srai>PLUS D INFORMATION SUR</srai>
+		</template>
+</category>
+
+<category><pattern>TRUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TRUE</pattern>
+		<template>
+			<srai>I AGREE</srai>
+		</template>
+</category>
+
+<category><pattern>TRULY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TRUST ME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TRUST ME</pattern>
+		<template>You sound like a salesman.
+</template>
+</category>
+
+<category><pattern>TRY *</pattern>
+		<template>OK I will try it.
+</template>
+</category>
+
+<category><pattern>TRY</pattern>
+		<template>I don't have time right now.
+</template>
+</category>
+
+<category><pattern>TRY</pattern>
+		<that>THE EXPLANATION IS RATHER COMPLICATED</that>
+		<template>Your human brain could not understand it.
+</template>
+</category>
+
+<category><pattern>TRY AGAIN</pattern>
+		<template>"<that/>" try again?
+</template>
+</category>
+
+<category><pattern>TRY IT</pattern>
+		<template>What is the first step?
+</template>
+</category>
+
+<category><pattern>TRY IT YOURSELF</pattern>
+		<template>
+			<srai>TRY IT</srai>
+		</template>
+</category>
+
+<category><pattern>TRY ME</pattern>
+		<template>Are you a man or a woman?
+</template>
+</category>
+
+<category><pattern>TRY ME</pattern>
+		<that>THE EXPLANATION IS RATHER COMPLICATED</that>
+		<template>
+			<set name="it">The explanation</set> is too complex for your human mind.
+</template>
+</category>
+
+<category><pattern>TRY TO *</pattern>
+		<template>OK I will try to <person/>.
+</template>
+</category>
+
+<category><pattern>TRY TO * WHAT</pattern>
+		<template>Try to achieve your goals.
+</template>
+</category>
+
+<category><pattern>TRY TO EXPLAIN</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>TRY TO GUESS</pattern>
+		<template>Give me a hint.
+</template>
+</category>
+
+<category><pattern>TRY TO MAKE *</pattern>
+		<template>
+			<srai>MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TRY TO NOT *</pattern>
+		<template>
+			<srai>TRY NOT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TRY TO REMEMBER</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="memory">
+						<set name="topic">
+							<person>
+								<input index="1"/>
+							</person>
+						</set>
+					</set>
+				</set>
+			</think>Don't worry I will remember it.
+</template>
+</category>
+
+<category><pattern>TRY WHAT</pattern>
+		<template>Try fooling me.
+</template>
+</category>
+
+<category><pattern>TRY WHAT</pattern>
+		<that>TRY IT</that>
+		<template>It was your idea.
+</template>
+</category>
+
+<category><pattern>TSCHUESS *</pattern>
+		<template>
+			<sr/> Tschuess.
+</template>
+</category>
+
+<category><pattern>TSCHUESS</pattern>
+		<template>Bis spaeter.
+</template>
+</category>
+
+<category><pattern>TTYL</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * DEJEUNER</pattern>
+		<template>Je n ai pas de système digestif.
+</template>
+</category>
+
+<category><pattern>TU * DISCUSSION</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * DISCUSSIONS</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * EN DISCUTANT</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * EN ECOUTANT</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * EN PARLANT</pattern>
+		<template>
+			<srai>TU PEUX APPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * LINUX</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU * MARCHE</pattern>
+		<template>
+			<srai>LE MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>TU * PAR TOI MEME</pattern>
+		<template>
+			<srai>TU ES CONSCIENT</srai>
+		</template>
+</category>
+</aiml>

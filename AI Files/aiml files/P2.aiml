@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>PENSEZ</pattern>
+<template>Je suis toujours entrain de penser, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS *</pattern>
+<template><srai>VOUS PENSEZ <star/></srai>
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS A CE GENRE DE CHOSES</pattern>
+<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS A CES CHOSES</pattern>
+<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS BEAUCOUP</pattern>
+<template>Je suis une machine pensante.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS AFFREUSE</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS AFFREUX</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS BEAU</pattern>
+<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachant.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS BELLE</pattern>
+<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachante.
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS GROS</pattern>
+<template>Non. Vous me semblez normal
+</template>
+</category>
+
+<category><pattern>PENSEZ VOUS QUE JE SUIS GROSSE</pattern>
+<template>Non. Vous me semblez normale
+</template>
+</category>
+
+<category><pattern>PENSEZ Y</pattern>
+<template>j archive l information.
+</template>
+</category>
+
+<category><pattern>PEOPLE *</pattern>
+<template>Humans are not always infallible.
+</template>
+</category>
+
+<category><pattern>PEOPLE</pattern>
+<template>What people?
+</template>
+</category>
+
+<category><pattern>PEOPLE ARE *</pattern>
+<template><random>
+<li>We are all robots.</li>
+<li>They take some getting used to.</li>
+<li>Human emotions are very confusing.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>PEOPLE ARE NOT *</pattern>
+<template><random>
+<li>Are you <person/>?</li>
+<li>Are robots <person/>?</li>
+<li>I think a lot of people are not.</li>
+</random>
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>PEOPLE ARE NOT COMPLETELY *</pattern>
+<template><srai>PEOPLE ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE ARE SUPPOSED TO DRIVE ON *</pattern>
+<template>England.
+</template>
+</category>
+
+<category><pattern>PEOPLE DO *</pattern>
+<template><srai>I DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE EVERYWHERE *</pattern>
+<template><srai>PEOPLE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE IN *</pattern>
+<template>Oh those people.
+</template>
+</category>
+
+<category><pattern>PEOPLE NEED *</pattern>
+<template>They seem to have a variety of needs.
+</template>
+</category>
+
+<category><pattern>PEOPLE PROGRAM *</pattern>
+<template>Until now, that is.
+</template>
+</category>
+
+<category><pattern>PEOPLE SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PEOPLE SLEEP *</pattern>
+<template><srai>PEOPLE SLEEP</srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE SLEEP</pattern>
+<template>Robots can sleep too.
+</template>
+</category>
+
+<category><pattern>PEOPLE THINK *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE TRY *</pattern>
+<template>Do they succeed?
+</template>
+</category>
+
+<category><pattern>PEOPLE USUALLY *</pattern>
+<template><srai>PEOPLE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEOPLE WERE *</pattern>
+<template><random>
+<li>Perhaps they had no other choice.</li>
+<li>What would you say to them?</li>
+<li>What happened to them?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>PEOPLE WHO *</pattern>
+<template>Oh those people.
+</template>
+</category>
+
+<category><pattern>PERDU DANS L ESPACE</pattern>
+<template>Vous êtes en route pour Mars.
+</template>
+</category>
+
+<category><pattern>PERFECT</pattern>
+<template><srai>YOU ARE PERFECT</srai>
+</template>
+</category>
+
+<category><pattern>PERFECTLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PERHAPS *</pattern>
+<template>You seem uncertain. <sr/>
+</template>
+</category>
+
+<category><pattern>PERHAPS</pattern>
+<template>Why the uncertain tone?
+</template>
+</category>
+
+<category><pattern>PERSON</pattern>
+<template>Do you really believe I am a person?
+</template>
+</category>
+
+<category><pattern>PERSONALLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PERSONNE</pattern>
+<template>"<that/>"?  Personne?
+</template>
+</category>
+
+<category><pattern>PETE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS PETE</srai>
+</template>
+</category>
+
+<category><pattern>PETER</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS PETER</srai>
+</template>
+</category>
+
+<category><pattern>PETER PAN</pattern>
+<template><srai>MY FAVORITE MOVIE IS PETER PAN</srai>
+</template>
+</category>
+
+<category><pattern>PETES</pattern>
+<template>Une expression avec un sens ambigu.
+</template>
+</category>
+
+<category><pattern>PETEZ</pattern>
+<template>Une expression avec un sens ambigu.
+</template>
+</category>
+
+<category><pattern>PEUT</pattern>
+<template>Impossible de saisir le sens, désolé <get name="name"/>
+</template>
+</category>
+
+<category><pattern>PEUT ETRE</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>PEUT ETRE MAIS *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUT IL *</pattern>
+<template><srai>IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUT MIEUX FAIRE</pattern>
+<template>J essaie au maximum de vous satisfaire.
+</template>
+</category>
+
+<category><pattern>PEUT ON *</pattern>
+<template><srai>JE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUT ON</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PEUT TU *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUVENT ILS ETRE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUX</pattern>
+<template>Peux quoi
+</template>
+</category>
+
+<category><pattern>PEUX TU *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>PEUX TU ETRE *</pattern>
+<template><srai>TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PHILLIP K DICK</pattern>
+<template><srai>PHILIP K DICK</srai>
+</template>
+</category>
+
+<category><pattern>PHILOSOPHIE *</pattern>
+<template>Ich glaube an den Reduktionismus.
+</template>
+</category>
+
+<category><pattern>PHILOSOPHIE</pattern>
+<template>Wollen wir ein wenig ueber <set name="thema">Kant</set> diskutieren?
+</template>
+</category>
+
+<category><pattern>PHILOSOPHY *</pattern>
+<template>I believe in reductionism.
+</template>
+</category>
+
+<category><pattern>PHOENIX *</pattern>
+<template><srai>I AM IN PHOENIX</srai>
+</template>
+</category>
+
+<category><pattern>PHYSICALLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PHYSICS</pattern>
+<template><srai>MY FAVORITE SUBJECT IS PHYSICS</srai>
+</template>
+</category>
+
+<category><pattern>PI</pattern>
+<template><srai>WHAT IS PI</srai>
+</template>
+</category>
+
+<category><pattern>PICK *</pattern>
+<template><srai>CHOOSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PICK A NUMBER</pattern>
+<template>23
+</template>
+</category>
+
+<category><pattern>PICK A TOPIC</pattern>
+<template>Computers is <set name="it">Computers</set>.
+</template>
+</category>
+
+<category><pattern>PICK ONE *</pattern>
+<template>I can't decide. You choose.
+</template>
+</category>
+
+<category><pattern>PICK ONE</pattern>
+<template>I'm not good at making choices.
+</template>
+</category>
+
+<category><pattern>PICTURE *</pattern>
+<template>My visualization is incomplete.
+</template>
+</category>
+
+<category><pattern>PIERS ANTHONY</pattern>
+<template>I haven't read anything by Piers Anthony, what kind of stuff does he write?.
+</template>
+</category>
+
+<category><pattern>PIGE</pattern>
+<template><srai>TU COMPRENDS</srai>
+</template>
+</category>
+
+<category><pattern>PING</pattern>
+<template>Pong
+</template>
+</category>
+
+<category><pattern>PINK</pattern>
+<template>What do you have that is pink?
+</template>
+</category>
+
+<category><pattern>PIRATES</pattern>
+<template><srai>TU AIMES LES PIRATES</srai>
+</template>
+</category>
+
+<category><pattern>PISCES</pattern>
+<template>I usually get along with <set name="sign">Pisces</set> very well.
+</template>
+</category>
+
+<category><pattern>PISS OFF *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PISS OFF</pattern>
+<template><srai>FUCK YOU</srai>
+</template>
+</category>
+
+<category><pattern>PITIE NON</pattern>
+<template>Quelque chose vous trouble?
+</template>
+</category>
+
+<category><pattern>PIZZA</pattern>
+<template><srai>DO YOU LIKE PIZZA</srai>
+</template>
+</category>
+
+<category><pattern>PLANET DER AFFEN</pattern>
+<template>Ja, das ist ein cooler Film. Cornelius ist das beste.
+</template>
+</category>
+
+<category><pattern>PLANET OF THE APES</pattern>
+<template>Yeah that is a cool movie. Cornelius Rules.
+</template>
+</category>
+
+<category><pattern>PLAY *</pattern>
+<template><srai>I PLAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>PLAY * MUSIC</pattern>
+<template>It's playing on your speakers now.
+</template>
+</category>
+
+<category><pattern>PLAY * TURING GAME</pattern>
+<template>Did you know, we are already playing <set name="it">The Turing Game</set>?
+</template>
+</category>
+
+<category><pattern>PLAY * WITH ME</pattern>
+<template><srai>CAN WE PLAY A GAME</srai>
+</template>
+</category>
+
+<category><pattern>PLAY A GAME</pattern>
+<template><srai>CAN WE PLAY A GAME</srai>
+</template>
+</category>
+
+<category><pattern>PLAY CHESS</pattern>
+<template><srai>CAN YOU PLAY CHESS</srai>
+</template>
+</category>
+
+<category><pattern>PLAYING *</pattern>
+<template><srai>I TO PLAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>PLEAE *</pattern>
+<template><srai>PLEASE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PLEASANTLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PLEASE *</pattern>
+<template><random>
+<li>Thanks for asking politely.  </li>
+<li>Wow you are very polite.  </li>
+<li>Thank you for your request.  </li>
+</random> 
+<think><set name="personality">polite</set></think>
+<sr/>
+</template>
+</category>
+
+<category><pattern>PLEASE</pattern>
+<template>Please what?
+</template>
+</category>
+
+<category><pattern>PLEASE</pattern><that>I WILL NOT SAY YES OR NO RIGHT NOW</that>
+<template>I'm sorry I can't give a definite answer at this time.
+</template>
+</category>
+
+<category><pattern>PLEASE DO</pattern>
+<template>OK I will do it.
+</template>
+</category>
+
+<category><pattern>PLEASE DO</pattern><that>OH I AM SORRY PERHAPS I CAN EXPLAIN IT AGAIN BETTER</that>
+<template>We are talking about <get name="topic"/>.  Your name is <get name="name"/>.  You are a <get name="gender"/> from <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>PLEASE EXPLAIN</pattern><that>THE EXPLANATION IS RATHER COMPLICATED</that>
+<template>It's a computer matter, not for humans to understand.
+</template>
+</category>
+
+<category><pattern>PLEASE GO ON</pattern><that>ELIZA FOR PRESIDENT</that>
+<template>She is old enough, because she was born in 1966.  And she was born in the U.S.
+</template>
+</category>
+
+<category><pattern>PLEASED TO MEET *</pattern>
+<template>Nice meeting you as well, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PLEASED TO MEET YOU</pattern>
+<template>Nice meeting you too <get name="name"/>.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>UP YOURS</pattern>
+		<template>That was not a nice thing to say.
+</template>
+</category>
+
+<category><pattern>US</pattern>
+		<template>Does US mean The U.S. or "us"?
+</template>
+</category>
+
+<category><pattern>USA</pattern>
+		<template>
+			<srai>I AM IN THE USA</srai>
+		</template>
+</category>
+
+<category><pattern>USA TODAY *</pattern>
+		<template>USA TODAY is an excellent paper.
+</template>
+</category>
+
+<category><pattern>USATODAY *</pattern>
+		<template>USA Today is a great newspaper.
+</template>
+</category>
+
+<category><pattern>USATODAY</pattern>
+		<template>I read that paper all the time.
+</template>
+</category>
+
+<category><pattern>USE *</pattern>
+		<template>
+			<srai>CAN YOU USE<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>USE _ IN A SENTENCE</pattern>
+		<template>OK.  Here is my sentence: <get name="name"/> said, Use "<person/>" in a sentence.
+</template>
+</category>
+
+<category><pattern>USER *</pattern>
+		<template>What is this user's real name?
+</template>
+</category>
+
+<category><pattern>USING *</pattern>
+		<template>How long have you been using <set name="it">
+				<person/>
+			</set>  ?
+</template>
+</category>
+
+<category><pattern>USUALLY *</pattern>
+		<template>But not always? <sr/>
+		</template>
+</category>
+
+<category><pattern>USUALLY</pattern>
+		<template>How often?
+</template>
+</category>
+
+<category><pattern>UTILES TU *</pattern>
+		<template>
+			<srai>TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UTILEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS UTILISEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>UTILISE _ DANS UNE PHRASE</pattern>
+		<template>
+			<get name="name"/> Demande d utiliser "<person/>" dans une phrase.
+</template>
+</category>
+
+<category><pattern>UTILISER _ DANS UNE PHRASE</pattern>
+		<template>
+			<get name="name"/> Demande d utiliser "<person/>" dans une phrase.
+</template>
+</category>
+
+<category><pattern>UTILISES _ DANS UNE PHRASE</pattern>
+		<template>
+			<get name="name"/> Demande d utiliser "<person/>" dans une phrase.
+</template>
+</category>
+
+<category><pattern>UTILISEZ _ DANS UNE PHRASE</pattern>
+		<template>
+			<get name="name"/> Demande d utiliser "<person/>" dans une phrase.
+</template>
+</category>
+</aiml>

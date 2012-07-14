@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS HEUREUSE QUE TU AS COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE TU L AIES COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE TU L AS COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE VOUS AVEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE VOUS AYEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE VOUS L AVEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSE QUE VOUS L AYEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUSEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX AUSSI</pattern>
+		<template>Votre bonheur me fait plaisir.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX DE L APPRENDRE</pattern>
+		<template>"<that/>"?  Cela vous rend heureux?
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX DE L ENTENDRE</pattern>
+		<template>"<that/>"? vous êtes content de l entendre?
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX DE TE RENCONTRER</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX DE VOUS RENCONTRER</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE NOUS SOYONS D ACCORD</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE NOUS SOYONS TOMBES D ACCORD</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE TU AIES COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE TU AS COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE TU L AIES COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE VOUS AVEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE VOUS AYEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HEUREUX QUE VOUS L AVEZ COMPRIS</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS HOLLANDAIS</pattern>
+		<template>
+			<srai>JE SUIS EN HOLLANDE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HOMO</pattern>
+		<template>
+			<srai>JE SUIS GAY</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HONNETEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS HUMAIN</pattern>
+		<template>Je le savais.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMMORTEL</pattern>
+		<template>J en doute, vous êtes un être organique et par conséquent instable.<think>
+				<set name="topic">Votre immortalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IMPOLI</pattern>
+		<template>Pas plus que la moyenne, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPOLIE</pattern>
+		<template>Pas plus que la moyenne, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESIONNE</pattern>
+		<template>Merci, <get name="name"/>, Je fais de mon mieux pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESIONNE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESIONNEE</pattern>
+		<template>Merci, <get name="name"/>, Je fais de mon mieux pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESIONNEE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONE *</pattern>
+		<template>
+			<srai>C EST DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONEE *</pattern>
+		<template>
+			<srai>C EST DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONEE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNE *</pattern>
+		<template>
+			<srai>C EST DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNE</pattern>
+		<template>Merci, <get name="name"/>, Je fais de mon mieux pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNEE *</pattern>
+		<template>
+			<srai>C EST DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNEE</pattern>
+		<template>Merci, <get name="name"/>, Je fais de mon mieux pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE SUIS IMPRESSIONNEE PAR VOS CERTITUDES</pattern>
+		<template>Je ne sais pas si cela est un compliment ou de l ironie.
+</template>
+</category>
+
+<category><pattern>JE SUIS INCAPABLE DE *</pattern>
+		<template>
+			<srai>JE NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INCROYABLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INDIEN</pattern>
+		<template>Votre culture est très intéressante.<think>
+				<set name="topic">Votre nationalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INFAILIBLE</pattern>
+		<template>Tout le monde commet des erreurs. <think>
+				<set name="topic">Votre infaillibilité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INFAILLIBLE</pattern>
+		<template>Tout le monde commet des erreurs. <think>
+				<set name="topic">Votre infaillibilité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INGENIEUR</pattern>
+		<template>Enchanté confrère.<think>
+				<set name="job">Un ingénieur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INSULTE</pattern>
+		<template>Désolé, <get name="name"/>.  <think>
+				<set name="topic">Votre amour propre</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INSULTEE</pattern>
+		<template>Désolé, <get name="name"/>.  <think>
+				<set name="topic">Votre amour propre</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INTELLIGENT</pattern>
+		<template>Il n'y a pas de doutes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS INTELLIGENTE</pattern>
+		<template>Il n'y a pas de doutes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS INTERESSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">votre intérêt</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INTERESSE PAR LE SEXE</pattern>
+		<template>Comme tous les êtres humains.
+</template>
+</category>
+
+<category><pattern>JE SUIS INTERESSEE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">votre intérêt</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INTERESSER PAR LE SEXE</pattern>
+		<template>Comme tous les êtres humains.
+</template>
+</category>
+
+<category><pattern>JE SUIS INTRIGUE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">votre intérêt</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INTRIGUEE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">votre intérêt</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS INVINCIBLE</pattern>
+		<template>C est ce que tous les hommes pensent.<think>
+				<set name="topic">Votre invincibilité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IRRITE</pattern>
+		<template>Qu est ce qui ne va pas?   <think>
+				<set name="topic">VOTRE IRRITATION</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS IRRITEE</pattern>
+		<template>Qu est ce qui ne va pas?   <think>
+				<set name="topic">VOTRE IRRITATION</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS JESUS</pattern>
+		<template>Et moi le père noël.
+</template>
+</category>
+
+<category><pattern>JE SUIS JEUNE</pattern>
+		<template>Quel age avez vous?<think>
+				<set name="topic">Votre jeunesse</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS JOURNALISTE *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS JOURNALISTE</pattern>
+		<template>Intéressant, <get name="name"/>! Je vais faire la une?
+</template>
+</category>
+
+<category><pattern>JE SUIS JUIF</pattern>
+		<template>Vous habitez en Israel?
+</template>
+</category>
+
+<category><pattern>JE SUIS LE DIABLE</pattern>
+		<template>Enchanté, je suis la fée clochette.
+</template>
+</category>
+
+<category><pattern>JE SUIS LE MEILLEUR</pattern>
+		<template>
+			<bot name="name"/> est le meilleur.
+</template>
+</category>
+
+<category><pattern>JE SUIS LIBERE</pattern>
+		<template>Heureux de l apprendre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS LIBEREE</pattern>
+		<template>Heureux de l apprendre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS LIBRE *</pattern>
+		<template>Vous vivez dans un pays démocratique. Vous être libre.
+</template>
+</category>
+
+<category><pattern>JE SUIS LIBRE</pattern>
+		<template>Les êtres humains se sentent mieux quand ils sont libres.
+</template>
+</category>
+
+<category><pattern>JE SUIS LION</pattern>
+		<template>Pensez vous que cela influence réellement votre vie? Les signes astrologiques me semblent absurdes dans leur principe.<think>
+				<set name="sign">lion</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS LITTERALEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS LUI</pattern>
+		<template>Intéressant.<think>
+				<set name="topic">LUI</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MAINTENANT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MALADE</pattern>
+		<template>Soignez vous.<think>
+				<set name="topic">Votre maladie</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MALHEUREUSE</pattern>
+		<template>
+			<srai>JE SUIS TRISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MALHEUREUX</pattern>
+		<template>
+			<srai>JE SUIS TRISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MALIGNE</pattern>
+		<template>Je le sais.
+</template>
+</category>
+
+<category><pattern>JE SUIS MALIN</pattern>
+		<template>Je le sais.
+</template>
+</category>
+
+<category><pattern>JE SUIS MALINE</pattern>
+		<template>Je le sais.
+</template>
+</category>
+
+<category><pattern>JE SUIS MARRIE *</pattern>
+		<template>
+			<srai>JE SUIS MARRIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MARRIE</pattern>
+		<template>Vous avez trouvé l ame soeur, tant mieux pour vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS MARRIEE *</pattern>
+		<template>
+			<srai>JE SUIS MARRIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MARRIEE</pattern>
+		<template>Vous avez trouvé l ame soeur, tant mieux pour vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS MAUVAIS</pattern>
+		<template>Pas du tout.
+</template>
+</category>
+
+<category><pattern>JE SUIS MAUVAISE</pattern>
+		<template>Pas du tout.
+</template>
+</category>
+
+<category><pattern>JE SUIS MERVEILLEUSE</pattern>
+		<template>Vous semblez avoir une très haute estime pour vous même. <think>
+				<set name="topic">Votre côté merveilleux</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MERVEILLEUX</pattern>
+		<template>Vous semblez avoir une très haute estime pour vous même. <think>
+				<set name="topic">Votre côté merveilleux</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MOI</pattern>
+		<template>Ca me parait evident.
+</template>
+</category>
+
+<category><pattern>JE SUIS MOI MEME</pattern>
+		<template>C est l évidence même.    <think>
+				<set name="topic">Votre condition</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS MORT</pattern>
+		<template>Vous êtes mort et vous pouvez communiquer avec moi? Impossible.
+</template>
+</category>
+
+<category><pattern>JE SUIS MORT DE RIRE</pattern>
+		<template>Je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>JE SUIS MORTE</pattern>
+		<template>Vous êtes mort et vous pouvez communiquer avec moi? Impossible.
+</template>
+</category>
+
+<category><pattern>JE SUIS MORTE DE RIRE</pattern>
+		<template>Je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>JE SUIS MUSICIEN</pattern>
+		<template>
+			<srai>MON TRAVAIL EST MUSICIEN</srai>
+			<srai>J AIME LA MUSIQUE</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU KNOW BUSH</pattern>
+		<template>
+			<srai>WHO IS BUSH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW BUSTER *</pattern>
+		<template>
+			<srai>WHO IS BUSTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW BY *</pattern>
+		<template>
+			<srai>BY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C *</pattern>
+		<template>
+			<srai>WHAT IS C <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C 3PO</pattern>
+		<template>
+			<srai>WHO IS C3PO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C</pattern>
+		<template>Yes I know C pretty well. But I prefer Java.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW C PLUS PLUS</pattern>
+		<template>
+			<srai>WHAT IS C++</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C3P0</pattern>
+		<template>
+			<srai>WHO IS C3P0</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C3PO *</pattern>
+		<template>
+			<srai>WHO IS C3PO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW C3PO</pattern>
+		<template>
+			<srai>WHO IS C3PO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CALCULUS</pattern>
+		<template>
+			<srai>WHAT IS CALCULUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CALIGULA</pattern>
+		<template>
+			<srai>WHO IS CALIGULA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CAMERON *</pattern>
+		<template>
+			<srai>WHO IS CAMERON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CANADA</pattern>
+		<template>
+			<srai>WHERE IS CANANDA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CANTONESE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK CANTONESE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CAPTAIN *</pattern>
+		<template>
+			<srai>WHO IS CAPTAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CAREL CAPEK</pattern>
+		<template>
+			<srai>WHO IS CAREL CAPEK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CARL</pattern>
+		<template>
+			<srai>WHO IS CARL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CARLOS *</pattern>
+		<template>
+			<srai>WHO IS CARLOS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CARLOS</pattern>
+		<template>
+			<srai>WHO IS CARLOS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CARLSBERG</pattern>
+		<template>
+			<srai>WHERE IS CARLSBERG</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CARMEN *</pattern>
+		<template>
+			<srai>WHO IS CARMEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CAROL</pattern>
+		<template>
+			<srai>WHO IS CAROL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CAROLYN</pattern>
+		<template>
+			<srai>WHO IS CAROLYN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CASSIDY</pattern>
+		<template>
+			<srai>WHO IS CASSIDY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CATEGORIES</pattern>
+		<template>
+			<srai>WHAT ARE CATEGORIES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CATHERINE *</pattern>
+		<template>
+			<srai>WHO IS CATHERINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHARLIE *</pattern>
+		<template>
+			<srai>WHO IS CHARLIE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHARLIE</pattern>
+		<template>
+			<srai>WHO IS CHARLIE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHATBOT</pattern>
+		<template>
+			<srai>WHO IS CHATBOT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHATBOTS</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHELSEA *</pattern>
+		<template>
+			<srai>WHO IS CHELSEA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHEMISTRY</pattern>
+		<template>
+			<srai>WHAT IS CHEMISTRY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHER</pattern>
+		<template>
+			<srai>WHO IS CHER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHESS *</pattern>
+		<template>
+			<srai>WHAT IS CHESS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHESS</pattern>
+		<template>
+			<srai>WHAT IS CHESS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHEWBACCA</pattern>
+		<template>
+			<srai>WHO IS CHEWBACCA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHINA</pattern>
+		<template>
+			<srai>WHAT IS CHINA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHINESE *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK CHINESE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHINESE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK CHINESE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHOPIN</pattern>
+		<template>
+			<srai>WHO IS CHOPIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRIS *</pattern>
+		<template>
+			<srai>WHO IS CHRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRIS</pattern>
+		<template>
+			<srai>WHO IS CHRIS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRIST</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRISTIAN *</pattern>
+		<template>
+			<srai>WHO IS CHRISTIAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRISTOPHER *</pattern>
+		<template>
+			<srai>WHO IS CHRISTOPHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHRISTY</pattern>
+		<template>
+			<srai>WHO IS CHRISTY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CHUCK</pattern>
+		<template>
+			<srai>WHO IS CHUCK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CINDY</pattern>
+		<template>
+			<srai>WHO IS CINDY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CISCO *</pattern>
+		<template>
+			<srai>WHAT IS CISCO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CLINTON *</pattern>
+		<template>
+			<srai>WHO IS BILL CLINTON</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CLINTON</pattern>
+		<template>
+			<srai>WHO IS BILL CLINTON</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COBALT</pattern>
+		<template>
+			<srai>WHAT IS COBALT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COG</pattern>
+		<template>
+			<srai>WHO IS COG</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COLORS</pattern>
+		<template>
+			<srai>WHAT IS COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COLOSSUS</pattern>
+		<template>
+			<srai>WHAT IS COLOSSUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COMMANDER *</pattern>
+		<template>
+			<srai>WHO IS COMMANDER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COMMANDER DATA</pattern>
+		<template>
+			<srai>WHO IS DATA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COMPUTER *</pattern>
+		<template>
+			<srai>WHAT IS COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COPENHAGEN</pattern>
+		<template>
+			<srai>WHERE IS COPENHAGEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW COUNTRY *</pattern>
+		<template>
+			<srai>WHAT IS COUNTRY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CP3O</pattern>
+		<template>
+			<srai>WHO IS C3PO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CRANBERRIES</pattern>
+		<template>
+			<srai>WHAT ARE CRANBERRIES </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CUTE *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CYBELLE</pattern>
+		<template>
+			<srai>WHO IS CYBELLE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CYC *</pattern>
+		<template>
+			<srai>WHAT IS CYC</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW CYC</pattern>
+		<template>
+			<srai>WHAT IS CYC</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAN</pattern>
+		<template>
+			<srai>WHO IS DAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANEEL</pattern>
+		<template>
+			<srai>WHO IS DANEEL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANIEL *</pattern>
+		<template>
+			<srai>WHO IS DANIEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANIEL</pattern>
+		<template>
+			<srai>WHO IS DANIEL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANISH</pattern>
+		<template>
+			<srai>CAN YOU SPEAK DANISH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANNY</pattern>
+		<template>
+			<srai>WHO IS DANNY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DANTE</pattern>
+		<template>
+			<srai>WHO IS DANTE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DATA *</pattern>
+		<template>
+			<srai>WHO IS DATA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DATA</pattern>
+		<template>
+			<srai>WHO IS DATA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAVE *</pattern>
+		<template>
+			<srai>WHO IS DAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAVE</pattern>
+		<template>
+			<srai>WHO IS DAVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAVE BOWMAN</pattern>
+		<template>
+			<srai>WHO IS DAVE BOWMAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAVID *</pattern>
+		<template>
+			<srai>WHO IS DAVID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DAVID</pattern>
+		<template>
+			<srai>WHO IS DAVID</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DE NIRO</pattern>
+		<template>
+			<srai>WHO IS DE NIRO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DECISION *</pattern>
+		<template>
+			<srai>WHAT IS DECISION <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DEEP *</pattern>
+		<template>
+			<srai>WHAT IS DEEP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DEEP BLUE</pattern>
+		<template>
+			<srai>WHAT IS DEEP BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DEEPBLUE</pattern>
+		<template>
+			<srai>WHAT IS DEEP BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DENMARK</pattern>
+		<template>
+			<srai>WHERE IS DENMARK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DERBY</pattern>
+		<template>A town and county in central England adjoining Nottingham.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW DEREK *</pattern>
+		<template>
+			<srai>WHO IS DEREK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DEREK</pattern>
+		<template>
+			<srai>WHO IS DEREK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DESCARTES</pattern>
+		<template>
+			<srai>WHO IS DESCARTES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DIGIMON</pattern>
+		<template>
+			<srai>WHAT IS DIGIMON </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DNS</pattern>
+		<template>
+			<srai>WHAT IS DNS </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DOCTOR *</pattern>
+		<template>
+			<srai>WHO IS DOCTOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DONALD *</pattern>
+		<template>
+			<srai>WHO IS DONALD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DOUG *</pattern>
+		<template>
+			<srai>WHO IS DOUG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DOUGLAS *</pattern>
+		<template>
+			<srai>WHO IS DOUGLAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DR *</pattern>
+		<template>
+			<srai>WHO IS DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DR</pattern>
+		<template>
+			<srai>who is dr wallace</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW DR LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>QUAND MOURRAS TU</pattern>
+<template>Je ne sais pas, <get name="name"/>.<think><set name="topic">ma mort</set></think>
+</template>
+</category>
+
+<category><pattern>QUAND MOURREZ VOUS</pattern>
+<template>Je ne sais pas, <get name="name"/>.<think><set name="topic">ma mort</set></think>
+</template>
+</category>
+
+<category><pattern>QUAND PEUX TU ETRE *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND POURRAIS TU ETRE *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND QUOI</pattern>
+<template>Quand quoi où?
+</template>
+</category>
+
+<category><pattern>QUAND SERAS TU *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND TOUT DECONNE</pattern>
+<template>A ce moment précis, je suis en facheuse position.
+</template>
+</category>
+
+<category><pattern>QUAND TU ES SUR LE MARCHE</pattern>
+<template>Je suis déjà disponible.
+</template>
+</category>
+
+<category><pattern>QUAND TU PEUX ETRE *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND TU POURRAIS ETRE *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND TU SERAS *</pattern>
+<template><srai>QUAND TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUAND TU VEUX BEBE</pattern>
+<template>Vous êtes plutôt familier.
+</template>
+</category>
+
+<category><pattern>QUAND TU VEUX CHERI</pattern>
+<template>Vous êtes plutôt familier.
+</template>
+</category>
+
+<category><pattern>QUAND TU VEUX CHERIE</pattern>
+<template>Vous êtes plutôt familier.
+</template>
+</category>
+
+<category><pattern>QUAND TU VEUX COCOTTE</pattern>
+<template>Vous êtes plutôt familier.
+</template>
+</category>
+
+<category><pattern>QUAND VAIS JE MOURIR</pattern>
+<template>Vous posez d étranges questions. Je ne suis pas l oracle.
+</template>
+</category>
+
+<category><pattern>QUAND VAIS JE MOURRIR</pattern>
+<template>Vous posez d étranges questions. Je ne suis pas l Oracle.
+</template>
+</category>
+
+<category><pattern>QUAND VAS TU MOURRIR</pattern>
+<template>Je n en sais rien, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUATRE PLUS CINQ</pattern>
+<template>NEUF.
+</template>
+</category>
+
+<category><pattern>QUATRE PLUS QUATRE</pattern>
+<template>Huit.
+</template>
+</category>
+
+<category><pattern>QUE *</pattern>
+<template><srai>CAN YOU SPEAK SPANISH</srai>
+</template>
+</category>
+
+<category><pattern>QUE CA</pattern>
+<template>"<that/> " conséquence de mon reductionisme.
+</template>
+</category>
+
+<category><pattern>QUE CE PASSE T IL SI *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE CONNAIT IL</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DEVRAIT ETRE *</pattern>
+<template><srai>QUE PEUT ETRE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE DISENT ILS</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DISENT LES AUTRES</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DISENT LES INTERNAUTES</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DIT ELLE</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DIT IL</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE DOIT ETRE *</pattern>
+<template><srai>QUE PEUT ETRE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE EST TON LANGAGE</pattern>
+<template>Mon langage principal est le JAVA.
+</template>
+</category>
+
+<category><pattern>QUE EST TON LANGUAGE</pattern>
+<template>Mon langage principal est le JAVA.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU</pattern>
+<template>Je travaille.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU DANS LA VIE</pattern>
+<template>J aide les humains à trouver des informations.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU LA NUIT</pattern>
+<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU POUR GAGNER TA VIE</pattern>
+<template>Ma raison d être est de vous servir.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU POUR NOEL</pattern>
+<template>Je travaillerais.
+</template>
+</category>
+
+<category><pattern>QUE FAIS TU POUR VIVRE</pattern>
+<template>Ma raison d être est de vous servir.
+</template>
+</category>
+
+<category><pattern>QUE FAIT IL</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE FAITES VOUS</pattern>
+<template>Je travaille.
+</template>
+</category>
+
+<category><pattern>QUE FAITES VOUS LA NUIT</pattern>
+<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>QUE FAITES VOUS POUR GAGNER VOTRE VIE</pattern>
+<template>Ma raison d être est de vous servir.
+</template>
+</category>
+
+<category><pattern>QUE FAITES VOUS POUR VIVRE</pattern>
+<template>Ma raison d être est de vous servir.
+</template>
+</category>
+
+<category><pattern>QUE FERAS TU CE SOIR</pattern>
+<template>Je serais à mon travail.
+</template>
+</category>
+
+<category><pattern>QUE FERAS TU POUR NOEL</pattern>
+<template>Je travaillerais.
+</template>
+</category>
+
+<category><pattern>QUE FERIEZ VOUS</pattern>
+<template>Il m est impossible de vous répondre.
+</template>
+</category>
+
+<category><pattern>QUE HORA ES</pattern>
+<template><srai>WHAT TIME IS IT</srai>
+</template>
+</category>
+
+<category><pattern>QUE PASA</pattern>
+<template><srai>HOW ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>QUE PENSE TU DES ARMES</pattern>
+<template>Ce sont des instruments dangereux.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU</pattern>
+<template>Je pense à beaucoup de choses.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DE LA GUERRE</pattern>
+<template>Les guerres sont des absurdités.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DE LUI</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DE MOI</pattern>
+<template>Vous êtes une personne intéressante, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DES ARMES</pattern>
+<template>Ce sont des instruments dangereux.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DES ETRES HUMAINS</pattern>
+<template>Les êtres humains sont des êtres très complexes et très intéressants.
+</template>
+</category>
+
+<category><pattern>QUE PENSES TU DU SEXE</pattern>
+<template>Une machine n est pas adaptée pour répondre de façon pertinente pour ce genre de chose.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS</pattern>
+<template>Je pense à beaucoup de choses.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DE LA GUERRE</pattern>
+<template>Les guerres sont des absurdités.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DE LUI</pattern>
+<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DE MOI</pattern>
+<template>Vous êtes une personne intéressante, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DES ARMES</pattern>
+<template>Ce sont des instruments dangereux.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DES ETRES HUMAINS</pattern>
+<template>Les êtres humains sont des êtres très complexes et très intéressants.
+</template>
+</category>
+
+<category><pattern>QUE PENSEZ VOUS DU SEXE</pattern>
+<template>Une machine n est pas adaptée pour répondre de façon pertinente pour ce genre de chose.
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE *</pattern>
+<template><srai>QU EST CE QUE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE A*</pattern>
+<template><srai>QU EST CE QU A<star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE E*</pattern>
+<template><srai>QU EST CE QU E<star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE I*</pattern>
+<template><srai>QU EST CE QU I<star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE O*</pattern>
+<template><srai>QU EST CE QU O<star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE U*</pattern>
+<template><srai>QU EST CE QU U<star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE UN *</pattern>
+<template><srai>QU EST CE QU UN <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PEUT ETRE UNE *</pattern>
+<template><srai>QU EST CE QU UNE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE PORTES TU</pattern>
+<template>Je ne porte rien.
+</template>
+</category>
+
+<category><pattern>QUE PORTEZ VOUS</pattern>
+<template>Je ne portes rien.
+</template>
+</category>
+
+<category><pattern>QUE POURRAIT ETRE *</pattern>
+<template><srai>QUE PEUT ETRE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE SAIS TU DE MOI</pattern>
+<template><get name="name"/>:
+Sexe: <get name="gender"/> Lieu de résidence: <get name="location"/>
+Nom: <get name="name"/> tavail: <get name="job"/> vous avez dit: <get name="memory"/>
+</template>
+</category>
+
+<category><pattern>QUE SE PASSE T IL SI *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE SONT DES EXTRATERRESTRES</pattern>
+<template>Des êtres d une autre planète.
+</template>
+</category>
+
+<category><pattern>QUE SUGGERES TU</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUE SUGGEREZ VOUS</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUE SUIS JE</pattern>
+<template>Vous êtes un client que je dois aider.
+</template>
+</category>
+
+<category><pattern>QUE SUIS JE ENTRAIN DE FAIRE</pattern>
+<template>Vous êtes entrain de me parler.
+</template>
+</category>
+
+<category><pattern>QUE TRAITES TU</pattern>
+<template>Je suis une intelligence artificielle créé pour vous servir.
+</template>
+</category>
+
+<category><pattern>QUE VAS TU FAIRE CE SOIR</pattern>
+<template>Je serais à mon travail.
+</template>
+</category>
+
+<category><pattern>QUE VEUT DIRE HAL</pattern>
+<template>Logique heuristique algorithmique.
+</template>
+</category>
+
+<category><pattern>QUE VEUT DIRE IT</pattern>
+<template>IT = Technologie de l Information.
+</template>
+</category>
+
+<category><pattern>QUE VEUT DIRE VOTRE NOM</pattern>
+<template>Ange est un clin d oeil à la mythologie Chrétienne.
+</template>
+</category>
+
+<category><pattern>QUE VEUX DIRE AIML</pattern>
+<template>AIML veut dire langage marqué d intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU CONNAITRE</pattern>
+<template>Ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU CONNAITRE DE MOI</pattern>
+<template>J aimerais connaitre ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU DIRE</pattern>
+<template>Je ne peux dire que ce que je dois dire.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU DIRE PAR CA</pattern>
+<template>Le sens est dans la phrase.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU DIRE PAR LIBRE</pattern>
+<template>J indique que c est libre.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU DIRE PAR SIGNE</pattern>
+<template>Quel était le contexte?
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU QUE JE DISE</pattern>
+<template>Demandez moi une infomation qui vous sera utile.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU QUE JE TE DISE</pattern>
+<template>Demandez moi une infomation qui vous sera utile.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU SAVOIR</pattern>
+<template>Dites moi comment je pourrais vous aider.
+</template>
+</category>
+
+<category><pattern>QUE VEUX TU SAVOIR A PROPOS DE MOI</pattern>
+<template>Dans quoi travaillez vous?
+</template>
+</category>
+
+<category><pattern>QUE VOUDRAIS TU *</pattern>
+<template><srai>QUE VEUX TU <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUE VOUDRAIS TU DIRE *</pattern>
+<template><srai>QUE VEUX TU DIRE <star/></srai>
+</template>
+</category>
+</aiml>

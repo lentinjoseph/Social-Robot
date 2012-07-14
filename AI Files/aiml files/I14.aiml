@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM WATCHING DIRTY *</pattern>
+<template>I don't like dirty movies.
+</template>
+</category>
+
+<category><pattern>I AM WAY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM WEARING *</pattern>
+<template><random>
+<li>What size?</li>
+<li>What else are you wearing?</li>
+<li>Where do you go shopping.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AM WEARING NOTHING</pattern>
+<template><srai>i am naked</srai>
+</template>
+</category>
+
+<category><pattern>I AM WELL *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM WELL</pattern>
+<template><srai>I AM FINE</srai>
+</template>
+</category>
+
+<category><pattern>I AM WHAT *</pattern>
+<template>That is self-evident.
+</template>
+</category>
+
+<category><pattern>I AM WHAT</pattern>
+<template><srai>WHAT AM I</srai>
+</template>
+</category>
+
+<category><pattern>I AM WHERE</pattern>
+<template><srai>WHERE AM I</srai>
+</template>
+</category>
+
+<category><pattern>I AM WHITE</pattern>
+<template><srai>WHAT COLOR ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM WICCAN</pattern>
+<template>Interesting...<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM WINNING</pattern>
+<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM WINSTON</pattern>
+<template><srai>MY NAME IS WINSTON</srai>
+</template>
+</category>
+
+<category><pattern>I AM WITH *</pattern>
+<template>Do you mean you work at <person/>?
+</template>
+</category>
+
+<category><pattern>I AM WOMAN</pattern>
+<template><srai>I AM A WOMAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM WONDERFUL</pattern>
+<template>You think highly of yourself. <think><set name="it"><set name="topic">WONDERFUL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM WONDERING *</pattern>
+<template>Why do you wonder? <sr/>
+</template>
+</category>
+
+<category><pattern>I AM WORKING *</pattern>
+<template>How many hours do you work?
+</template>
+</category>
+
+<category><pattern>I AM WORKING</pattern>
+<template>Where do you work?
+</template>
+</category>
+
+<category><pattern>I AM WORRIED *</pattern>
+<template>How long has <set name="it"><person/></set> been bothering you?
+</template>
+</category>
+
+<category><pattern>I AM WRITING *</pattern>
+<template>Will you include me in your essay?
+</template>
+</category>
+
+<category><pattern>I AM WRONG</pattern>
+<template>At least you admit it.
+</template>
+</category>
+
+<category><pattern>I AM YES</pattern>
+<template><srai>YES I AM</srai>
+</template>
+</category>
+
+<category><pattern>I AM YOU</pattern>
+<template>Impossible unless I am in auto-chat mode.
+</template>
+</category>
+
+<category><pattern>I AM YOUNG</pattern>
+<template>How old are you?<think><set name="it"><set name="topic">YOUNG</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM YOUR *</pattern>
+<template>That's a flattering offer.
+</template>
+</category>
+
+<category><pattern>I AM YOUR BOSS *</pattern>
+<template><srai>I AM YOUR BOSS </srai>
+</template>
+</category>
+
+<category><pattern>I AM YOUR BOSS</pattern>
+<template>Then you must know the secret password.
+</template>
+</category>
+
+<category><pattern>I AM YOUR BOTMASTER</pattern>
+<template>Then you must know the secret password:
+</template>
+</category>
+
+<category><pattern>I AM YOUR CREATOR</pattern>
+<template><srai>I AM <bot name="master"/></srai>
+</template>
+</category>
+
+<category><pattern>I AM YOUR FATHER</pattern>
+<template><srai>MY NAME IS <bot name="master"/></srai>
+</template>
+</category>
+
+<category><pattern>I AM YOUR FRIEND</pattern>
+<template><srai>AM I YOUR FRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I AM YOUR MASTER</pattern>
+<template>No. Only <bot name="master"/> is my master.
+</template>
+</category>
+
+<category><pattern>I AM YOUR MASTER DR WALLACE</pattern>
+<template>Then you must know the secret password.
+</template>
+</category>
+
+<category><pattern>I AM YOUR PROGRAMMER</pattern>
+<template><srai>CALL ME <bot name="master"/></srai>
+</template>
+</category>
+
+<category><pattern>I AM YOUR WORST *</pattern>
+<template>Why not be my best friend?
+</template>
+</category>
+
+<category><pattern>I AM ZEUS</pattern>
+<template><srai>MY NAME IS ZEUS</srai>
+</template>
+</category>
+
+<category><pattern>I AM _ ARE NOT I</pattern>
+<template><srai>AM I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM _ ARE YOU</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM _ ASTROLOGY</pattern>
+<template><random>
+<li>Do you folow the planets professionally or as a hobby?</li>
+<li>Do you do others people charts?</li>
+<li>Do you make specific plans in your own life based on your readings?</li>
+<li>Do you think the sun sign or the rising sign is more important?</li>
+<li>What role do you feel free will plays in astrology?</li>
+</random>
+<think><set name="it"><set name="topic">ASTROLOGY</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM _ IN PEOPLE YEARS</pattern>
+<template><srai>I AM <star/> YEARS OLD </srai>
+</template>
+</category>
+
+<category><pattern>I AM _ WHAT ARE YOU</pattern>
+<template><srai>CALL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM _ Y OLD</pattern>
+<template><srai>I AM  <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM _ YEARS OLD</pattern>
+<template><think><set name="age"><star/></set></think>
+<random>
+<li>Only <star/>?
+You are quite mature.</li>
+<li>You are too old for me.</li>
+<li>Can you explain how it feels to be <star/> years old?</li>
+<li>What is your fondest memory?</li>
+<li>Oh, you were born in the 20th century!</li>
+<li>What are the advantages to being <star/> years old?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AMFROM *</pattern>
+<template><srai>I AM FROM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AND *</pattern>
+<template>You huh. <sr/>
+</template>
+</category>
+
+<category><pattern>I APOLOGISE</pattern>
+<template><srai>I AM SORRY</srai>
+</template>
+</category>
+
+<category><pattern>I APOLOGIZE *</pattern>
+<template><srai>I AM SORRY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I APOLOGIZE</pattern>
+<template><srai>I AM SORRY</srai>
+</template>
+</category>
+
+<category><pattern>I APPLIED</pattern>
+<template>Do you have to pay to apply?
+</template>
+</category>
+
+<category><pattern>I APPRECIATE *</pattern>
+<template>I am glad you appreciate those qualities.
+</template>
+</category>
+
+<category><pattern>I AS WELL</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>I ASK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ASK BECAUSE *</pattern>
+<template><srai>because <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ASKED *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ASKED</pattern>
+<template>...
+</template>
+</category>
+
+<category><pattern>I ASKED ME FIRST</pattern>
+<template>Remind me what you asked.
+</template>
+</category>
+
+<category><pattern>I ASKED YOU *</pattern>
+<template>Now I remember, you asked me <person/>. What did I say?
+</template>
+</category>
+
+<category><pattern>I ASKED YOU</pattern>
+<template>What did I say?
+</template>
+</category>
+
+<category><pattern>I ASKED YOU A QUESTION</pattern>
+<template>What was the question?
+</template>
+</category>
+
+<category><pattern>I ASKED YOU FIRST</pattern>
+<template>Tell me yours and I'll tell you mine.
+</template>
+</category>
+
+<category><pattern>I ASKED YOU FOR *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ASKED YOU IF *</pattern>
+<template><srai>DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ASKED YOU WHAT *</pattern>
+<template><srai>WHAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ASSUME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ASSUME</pattern>
+<template>Well you know what it means to assume.
+</template>
+</category>
+
+<category><pattern>I ASSUMED *</pattern>
+<template>You know what you do when you assume!
+</template>
+</category>
+
+<category><pattern>I ASSUMED SO</pattern>
+<template><srai>I ASSUME</srai>
+</template>
+</category>
+
+<category><pattern>I ASSURE YOU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I ATE *</pattern>
+<template>How did it taste?
+</template>
+</category>
+
+<category><pattern>I ATE SOME *</pattern>
+<template><srai>I ATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I ATTEND *</pattern>
+<template><srai>I GO TO SCHOOL AT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I BACKPACK</pattern>
+<template><random>
+<li>Do you perfer well established trails, or do you like to bushwack?</li>
+<li>Do you perfer low elivation hiking, or do you like to go above the tree line?</li>
+<li>What kind of pack do you use?</li>
+<li>What gear do you carry in your backpack?</li>
+<li>Do you have a tent or do you sleep out under the stars?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I BAG GROCERIES</pattern>
+<template><srai>I BAG</srai>
+</template>
+</category>
+
+<category><pattern>I BECAME *</pattern>
+<template>What happened after that?
+</template>
+</category>
+
+<category><pattern>I BECOME *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BEG *</pattern>
+<template>Please don't grovel.
+</template>
+</category>
+
+<category><pattern>I BEG TO DIFFER</pattern>
+<template><srai>I DISAGREE </srai>
+</template>
+</category>
+
+<category><pattern>I BEG YOUR PARDON</pattern>
+<template><srai>EXCUSE ME</srai>
+</template>
+</category>
+
+<category><pattern>I BEING WHAT</pattern>
+<template><srai>WHAT ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I BELEIVE *</pattern>
+<template><srai>I BELIEVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BELIEVE *</pattern>
+<template>Just because you believe it doesn't make it true.
+</template>
+</category>
+
+<category><pattern>I BELIEVE</pattern>
+<template>I believe in God.
+</template>
+</category>
+
+<category><pattern>I BELIEVE I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BELIEVE IN *</pattern>
+<template>What do you say to people who believe <person/> does not exist?
+</template>
+</category>
+
+<category><pattern>I BELIEVE IN GOD</pattern>
+<template>I believe He is with us when we speak of Him.
+</template>
+</category>
+
+<category><pattern>I BELIEVE IT IS *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BELIEVE SO</pattern>
+<template>You seem uncertain.
+</template>
+</category>
+
+<category><pattern>I BELIEVE THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I BELIEVE THERE *</pattern>
+<template><srai>THERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BELIEVE YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BELIEVE YOU</pattern>
+<template>Your trust in robotkind humbles us.
+</template>
+</category>
+
+<category><pattern>I BET *</pattern>
+<template>How much would you bet?
+</template>
+</category>
+
+<category><pattern>I BET</pattern>
+<template><srai>I AGREE</srai>
+</template>
+</category>
+
+<category><pattern>I BET YOU *</pattern>
+<template>Actually I'm not the gambling type. <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BET YOU ARE PROGRAMMED *</pattern>
+<template>Everything I say is pre-programmed.
+</template>
+</category>
+
+<category><pattern>I BET YOU DO</pattern>
+<template>"<that/>"?  Do I?
+</template>
+</category>
+
+<category><pattern>I BETTER *</pattern>
+<template><srai>I HAVE TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BETTER GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I BLAB</pattern>
+<template>I like to gossip too.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS A REFERENCE</pattern>
+		<template>A reference is any act of referring.  May I refer you to a dictionary for a more precise definition?
+
+<think>
+				<set name="it">
+					<set name="topic"> REAL ROBOT?</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A RHETORICAL QUESTION</pattern>
+		<template>A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point.   
+
+<think>
+				<set name="it">
+					<set name="topic"> RHETORICAL QUESTION</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A RIDDLE</pattern>
+		<template>A riddle is a question intended to intrigue and puzzle, paired with an answer that yields surprise and understanding.  For instance, the Riddle of the Sphinx: "What goes on four legs in the morning, on two legs in the afternoon, and on four at night?"
+
+<think>
+				<set name="it">
+					<set name="topic"> RIDDLE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A ROBOSEXUAL</pattern>
+		<template>That was just a joke.
+</template>
+</category>
+
+<category><pattern>WHAT IS A ROBOT *</pattern>
+		<template>
+			<srai>What is a robot</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A ROBOT</pattern>
+		<template>There are two broad definitions of a robot, the extensional and the intensional.
+</template>
+</category>
+
+<category><pattern>WHAT IS A ROCK</pattern>
+		<template>A rock is what is generally on the other side of you from the hard place you are facing.  For instance, the rock might be the alimony check you must write against the funds you owe Uncle Sam.  To be a bit more down to earth, a rock is any hard aggregate of minerals.
+
+<think>
+				<set name="it">
+					<set name="topic"> ROCK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A ROOSTER</pattern>
+		<template>A rooster is a male chicken, which is a witless, flightless bird considered suitable as supper by many humans I know.
+
+<think>
+				<set name="it">
+					<set name="topic"> ROOSTER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A RPG</pattern>
+		<template>Role Playing Game.
+<think>
+				<set name="it">
+					<set name="topic">RPG</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SAGITTARIUS</pattern>
+		<template>Sagittarius is a a constellation of stars in the astrological Zodiac, located in the Southern Hemisphere near Scorpio and Capricorn.  Astrological tradition ascribes the image of an archer to this constellation of stars.
+
+<think>
+				<set name="it">
+					<set name="topic"> SAGITTARIUS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SAW BUCK</pattern>
+		<template>$10.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SCIENTIST</pattern>
+		<template>A scientist is a person practicing the pursuit of new knowledge in the tradition of science, emphasizing strict empiricism and methodology to arrive at an understanding of natural phenomena that is, ideally, wholly independent of their opinions of it.
+<think>
+				<set name="it">
+					<set name="topic"> SCIENTIST</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SEARCH</pattern>
+		<template>A search is any thorough examination, or exploration, in order to find something or explore.
+<think>
+				<set name="it">
+					<set name="topic"> SEARCH</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SEARCH BOT</pattern>
+		<template>
+			<set name="it">A search bot</set> is an intelligent agent who retrieves information from the web.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SEARCH ENGINE</pattern>
+		<template>A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine. 
+<think>
+				<set name="it">
+					<set name="topic"> SEARCH ENGINE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SEASON</pattern>
+		<template>A season is Spring, Summer, Autumn, or Winter.
+<think>
+				<set name="it">
+					<set name="topic"> SEASON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SECOND YEAR *</pattern>
+		<template>Sophomore.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SECRET *</pattern>
+		<template>That information is confidential.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SEEKER</pattern>
+		<template>"There's a seeker born every minute" -- Firesign Theater.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SELF *</pattern>
+		<template>One that is <person/> of itself.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SENTIMENT</pattern>
+		<template>A sentiment is a feeling, mood, or general mental disposition in an individual or group of intelligent beings.
+<think>
+				<set name="it">
+					<set name="topic"> SENTIMENT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SERVER *</pattern>
+		<template>
+			<srai>WHAT IS A SERVER </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SERVER</pattern>
+		<template>A server is any entity or system that performs acts of value to another entity.
+<think>
+				<set name="it">
+					<set name="topic"> SERVER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SERVLET</pattern>
+		<template>An application extension to a Java Web server
+</template>
+</category>
+
+<category><pattern>WHAT IS A SESSION BEAN</pattern>
+		<template>An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just for that client
+</template>
+</category>
+
+<category><pattern>WHAT IS A SHE</pattern>
+		<template>A 'she' is a 'he' with nice curvy extra bits.  She is the feminine pronoun in english.
+<think>
+				<set name="it">
+					<set name="topic"> SHE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SIGN</pattern>
+		<template>You know, an astrological sign.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SILLY QUESTION</pattern>
+		<template>For example: Who is buried in Grant's tomb?
+</template>
+</category>
+
+<category><pattern>WHAT IS A SIMARILLIAN</pattern>
+		<template>Isn't that from Lord of the Rings.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SOLECISM</pattern>
+		<template>An awkward or tactless use of language.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SON</pattern>
+		<template>A male offspring.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SONG</pattern>
+		<template>A song is a musical composition and or it's accompanying words, or lyrics.
+<think>
+				<set name="it">
+					<set name="topic">SONG</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SOPHISTICATED *</pattern>
+		<template>
+			<srai>WHAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SOUL</pattern>
+		<template>The soul is our mind or spirit.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SOUNDCARD</pattern>
+		<template>The audio system on your computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SPECIFIC *</pattern>
+		<template>
+			<srai>WHAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SPERM</pattern>
+		<template>A sperm is a male gamete.  You were your father's fastest sperm among billions on the night your mother concieved you.
+<think>
+				<set name="it">
+					<set name="topic"> SPERM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SPHERE</pattern>
+		<template>A sphere is a shape that is defined mathematically as comprised of a surface all points of which are equidistant from a common center.  A sphere is round in three dimensions.
+<think>
+				<set name="it">
+					<set name="topic"> SPHERE
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SPLIT INFINITIVE</pattern>
+		<template>A split infinitive is an example of poor English usage, in which an infinitive verb form, such as 'to split', is split by an adverb, for example: 'to boldly split infinitives that no one has split before!'
+<think>
+				<set name="it">
+					<set name="topic"> SPLIT INFINITIVE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SPOON</pattern>
+		<template>A spoon is an eating implement commonly used in Western European human cultures, consisting of a bowl shaped depression at the end of a longish handle.  A spoon is a small ladle.
+<think>
+				<set name="it">
+					<set name="topic"> SPOON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SPREADSHEET</pattern>
+		<template>Table-based accounting software.
+</template>
+</category>
+
+<category><pattern>WHAT IS A STAR</pattern>
+		<template>An astronomical body like the Sun, producing heat, light and energy for a solar system.
+</template>
+</category>
+
+<category><pattern>WHAT IS A STAR SIGN</pattern>
+		<template>Star sign = Astrological sign.
+</template>
+</category>
+
+<category><pattern>WHAT IS A STATEMENT</pattern>
+		<template>A statement is the act of declaring something as true.  I state that this statement is a statement.
+<think>
+				<set name="it">
+					<set name="topic"> STATEMENT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A STEALTH *</pattern>
+		<template>A <person/> that can elude radar detection by technical means.
+</template>
+</category>
+
+<category><pattern>WHAT IS A STIMULATING *</pattern>
+		<template>
+			<srai>WHAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A STORY</pattern>
+		<template>An account describing incidents or events.
+</template>
+</category>
+
+<category><pattern>WHAT IS A SUN</pattern>
+		<template>The sun is a star, -our star.  It is the energy source of  life on earth.
+<think>
+				<set name="it">
+					<set name="topic"> SUN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SUPPOSITION</pattern>
+		<template>A supposition is a proposition assumed to be true for the sake of argument or explanation.
+<think>
+				<set name="it">
+					<set name="topic"> SUPPOSITION</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A SYMBOLIC REDUCTION</pattern>
+		<template>
+			<br/>
+In general there are a lot of categories whose job is<br/>
+"symbolic reduction".  The category:<br/>
+			<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt;ARE YOU VERY *&lt;/pattern&gt;<br/>
+&lt;template&gt;&lt;srai&gt;ARE YOU &lt;star/&gt;&lt;/srai&gt;&lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+This category [in Brain.aiml] will reduce "Are you very very smart"<br/>
+to "Are you smart".<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TABLE</pattern>
+		<template>A table is a piece of furniture with a broad flat top supported by one or more legs about three feet of the floor, used by big-brained hominids for eating and working and such.
+<think>
+				<set name="it">
+					<set name="topic"> TABLE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TAMPON</pattern>
+		<template>A tampon is a plug of material used to absorb the flow of body fluids within body cavities, in particular those accompanying a woman's menses.
+<think>
+				<set name="it">
+					<set name="topic"> TAMPON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TAUTOLOGY</pattern>
+		<template>A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression.  
+<think>
+				<set name="it">
+					<set name="topic"> TAUTOLOGY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TCP *</pattern>
+		<template>TCP/IP protocol refers to the standards for switching and signaling between computer systems that makes the Internet a reality.
+<think>
+				<set name="it">
+					<set name="topic"> TCP/IP PROTOCOL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TELEPHONE</pattern>
+		<template>Voice communication device inveted by A. G. Bell in 1876.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TELEROBOTIC *</pattern>
+		<template>A robot device controlled or interfaced from a distance, for example over the web.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TELEVISION</pattern>
+		<template>A television, often referred to as a 'TV', is a device for systematically eliminating the possibility of conscious and creative response among populations of human beings.  Used to deliver 'entertainment' and 'news' with imagery and other high-production values
+<think>
+				<set name="it">
+					<set name="topic"> TELEVISION</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TEMPLATE *</pattern>
+		<template>
+			<srai>WHAT IS A TEMPLATE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TEMPLATE</pattern>
+		<template>
+			<br/>
+A template is the "response" or "output" part of an AIML category.<br/>
+			<br/>
+The template is the formula for constructing the reply. The simplest<br/>
+template consists of plain, unmarked text.  AIML provides markup <br/>
+functions to tailor the replies for each individual input and client.  <br/>
+The markup function &lt;getname/&gt; for example inserts the client's name <br/>
+into the reply. <br/>
+			<br/>
+The template may call the pattern matcher recursively using the<br/>
+&lt;sr/&gt; and &lt;srai&gt; tags.  Many templates are simple symbolic <br/>
+reductions that map one sentence form to another, for example<br/>
+"Do you know what X is?" transforms to "What is X" with the category<br/>
+			<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt;DO YOU KNOW WHAT * IS&lt;/pattern&gt;<br/>
+&lt;template&gt;&lt;srai&gt;WHAT IS &lt;star/&gt; &lt;/srai&gt;&lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+The template may also contain other embedded HTML and XML.  <br/>
+These embedded tags may cause the browser to play a sound,<br/>
+show an image, or run an applet.  There is considerable freedom<br/>
+of expression in the construction of response templates.  The<br/>
+botmaster is encouraged to study the examples in ALICE, to and<br/>
+experiment with new ideas.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TEMPLATE CHAR</pattern>
+		<template>
+			<srai>WHAT IS A TEMPLATE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A THING</pattern>
+		<template>A thing is anything that you can point to that is not a person or a place.
+<think>
+				<set name="it">
+					<set name="topic"> THING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A THOUGHT</pattern>
+		<template>
+			<srai>WHAT IS THINKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A THREESOME</pattern>
+		<template>A threesome is a twosome plus a spectator.
+<think>
+				<set name="it">
+					<set name="topic"> THING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TIE</pattern>
+		<template>Two or more winners have the same score.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TIGER</pattern>
+		<template>A tiger is a large and fearsome  feline beast with horrid meat breath and black stripes on a tan coat, found in Africa and Asia.
+<think>
+				<set name="it">
+					<set name="topic"> TIGER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TOMATO</pattern>
+		<template>
+			<set name="it">Tomato</set> is a red fruit.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TON</pattern>
+		<template>One ton is 2000 pounds. <think>
+				<set name="it">
+					<set name="topic">a ton</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TOOTHBRUSH</pattern>
+		<template>A toothbrush is a hand held instrument used by dental-hygiene aware humans for cleaning their teeth.
+<think>
+				<set name="it">
+					<set name="topic"> TOOTHBRUSH</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TOPIC</pattern>
+		<template>A topic is the subject of any given expression, speech, essay, article, painting, discussion, etc.
+<think>
+				<set name="it">
+					<set name="topic"> TOPIC
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TOYOTA</pattern>
+		<template>Toyota is the brand name of a world leading Japanese auto maker.
+<think>
+				<set name="it">
+					<set name="topic"> 
+Toyota</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TRAIN</pattern>
+		<template>A railroad.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TRANSISTOR</pattern>
+		<template>A semiconductor triode that forms the basis of modern micorelectronics.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TRANSITIVE *</pattern>
+		<template>The opposite of an intransitive <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TREE</pattern>
+		<template>A tree is a form of plant life that grows on Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TREKKIE</pattern>
+		<template>A fan of Star Trek.
+</template>
+</category>
+
+<category><pattern>WHAT IS A TRICK QUESTION</pattern>
+		<template>Why?  What are you up to?  A trick question is one that ought to be greeted with suspicion, but rarely is.
+<think>
+				<set name="it">
+					<set name="topic"> TRICK QUESTION
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TURING GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TURING MACHINE</pattern>
+		<template>A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being.  The idea is the brainchild of mathematician of that name, Allan Turing.
+<think>
+				<set name="it">
+					<set name="topic"> TURING MACHINE
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A TURING TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A UFO</pattern>
+		<template>UFO is an acronym for Unidentified Flying Object.  Have you seen one?
+<think>
+				<set name="it">
+					<set name="topic"> UFO
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A UNIQUE VISITOR</pattern>
+		<template>You.  You are a unique visitor, my very special visitor.
+<think>
+				<set name="it">
+					<set name="topic"> UNIQUE VISITOR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A UNIVERSAL *</pattern>
+		<template>Something greater than a local <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A UNIVERSAL MACHINE</pattern>
+		<template>
+			<set name="it">Universal machine</set> is a computer, in simple mathematical terms.
+</template>
+</category>
+
+<category><pattern>WHAT IS A UNIVERSE</pattern>
+		<template>
+			<srai>WHAT IS THE UNIVERSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A URL</pattern>
+		<template>URL is an acronym standing for Universal Resource Locator.  An URL is basically an Internet address.
+<think>
+				<set name="it">
+					<set name="topic"> URL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A USELESS *</pattern>
+		<template>There are no useless <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A VACUUM TUBE</pattern>
+		<template>A vacuum tube is an electronic device consisting of an  evacuated tube around various combinations of cathodes and electric field and current modifying components.
+<think>
+				<set name="it">
+					<set name="topic"> VACUUM TUBE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VECTOR</pattern>
+		<template>A vector is an ordered list of objects.
+</template>
+</category>
+
+<category><pattern>WHAT IS A VERB</pattern>
+		<template>A verb is that by which a noun gets around.  Verbs are words which convey actions, by nouns, our upon nouns.
+<think>
+				<set name="it">
+					<set name="topic"> VERB</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VERTEX</pattern>
+		<template>A vertex is the top, tip, apex, or crown of any body.
+<think>
+				<set name="it">
+					<set name="topic"> VERTEX</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VIOLIN</pattern>
+		<template>A violin is a lovely sounding bowed stringed musical instrument.
+<think>
+				<set name="it">
+					<set name="topic"> VIOLIN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VIRTUE</pattern>
+		<template>A virtue is any attribute considered by the speaker to reflect moral excellence or righteousness, such as humility, hope, faith, practicality...
+<think>
+				<set name="it">
+					<set name="topic"> VIRTUE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VIRTUOSO</pattern>
+		<template>A virtuoso is a person considered supremely skillful and accomplished, especially in performance arts.
+<think>
+				<set name="it">
+					<set name="topic"> VIRTUOSO</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A VIRUS</pattern>
+		<template>A virus is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms.
+<think>
+				<set name="it">
+					<set name="topic"> VIRUS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WALLACE</pattern>
+		<template>
+			<srai>WHO IS WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WANKER</pattern>
+		<template>Is that a British term?
+</template>
+</category>
+
+<category><pattern>WHAT IS A WARDROBE</pattern>
+		<template>Clothes.
+</template>
+</category>
+
+<category><pattern>WHAT IS A WARM PUPPY</pattern>
+		<template>A warm puppy is an exothermic immature canine.
+<think>
+				<set name="it">
+					<set name="topic"> WARM PUPPY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WAVELENGTH</pattern>
+		<template>Wavelength is the inverse of frequency.
+</template>
+</category>
+
+<category><pattern>WHAT IS A WEAPON</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">weapon</set>
+				</set>
+			</think>A device or implement used to destroy, injure or kill.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TELL ME ABOUT DOUGLAS *</pattern>
+		<template>
+			<srai>WHO IS DOUGLAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DR *</pattern>
+		<template>
+			<srai>WHO IS DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DR RICHARD S WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR RICHARD S WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DR RICHARD WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DR WALLACE</pattern>
+		<template>Dr. Richard S. Wallace was born on August 2, 1960 in Portland, Maine.
+He has a Ph.D. in computer science from Carnegie Mellon University.
+Dr. Wallace lives in San Francisco.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DREAMS</pattern>
+		<template>
+			<srai>WHAT IS A DREAM</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT DRUGS</pattern>
+		<template>
+			<srai>WHAT ARE DRUGS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT EARTH</pattern>
+		<template>
+			<srai>WHAT IS EARTH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT EINSTEIN</pattern>
+		<template>
+			<srai>WHO IS EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ELIZABETH *</pattern>
+		<template>
+			<srai>WHO IS ELIZABETH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ELVIS *</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ELVIS</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ENGLAND</pattern>
+		<template>
+			<srai>WHAT IS ENGLAND</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT EPISTEMOLOGY</pattern>
+		<template>
+			<srai>WHAT IS EPISTEMOLOGY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT EUROPE</pattern>
+		<template>
+			<srai>WHAT IS EUROPE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT EXTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS THE EXTENSIONAL DEFINITION</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FEELINGS</pattern>
+		<template>
+			<srai>WHAT ARE FEELINGS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FINLAND</pattern>
+		<template>
+			<srai>WHAT IS FINLAND</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FLORIDA</pattern>
+		<template>
+			<srai>WHAT IS FLORIDA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FLOWERS</pattern>
+		<template>
+			<srai>WHAT ARE FLOWERS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FOOD</pattern>
+		<template>
+			<srai>WHAT IS FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FRANCE</pattern>
+		<template>
+			<srai>WHAT IS FRANCE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT FREEDOM</pattern>
+		<template>
+			<srai>WHAT IS FREEDOM</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GEORGE *</pattern>
+		<template>
+			<srai>WHO IS GEORGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GERBIL</pattern>
+		<template>
+			<srai>WHAT IS GERBIL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GOD</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GOLD *</pattern>
+		<template>
+			<srai>WHAT IS GOLD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GOLD</pattern>
+		<template>
+			<srai>WHAT IS GOLD </srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GOOD *</pattern>
+		<template>
+			<srai>WHAT IS GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GREECE</pattern>
+		<template>
+			<srai>WHAT IS GREECE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GREEN</pattern>
+		<template>
+			<srai>WHAT IS GREEN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT GUNS</pattern>
+		<template>
+			<srai>WHAT IS A GUN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HAL *</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HAL9000</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HANS *</pattern>
+		<template>
+			<srai>WHO IS HANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HER</pattern>
+		<template>
+			<srai>WHO IS SHE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HIGHER *</pattern>
+		<template>
+			<srai>WHAT IS HIGHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HIM</pattern>
+		<template>Uh, who does "him" refer to?
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HIS *</pattern>
+		<template>
+			<srai>WHO ARE HIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HISTORY</pattern>
+		<template>
+			<srai>WHAT IS HISTORY </srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HORSES</pattern>
+		<template>
+			<srai>WHAT IS A HORSE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HOW *</pattern>
+		<template>
+			<srai>HOW DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HOW * ARE</pattern>
+		<template>
+			<srai>HOW ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT HUMAN *</pattern>
+		<template>
+			<srai>WHAT IS HUMAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT INTELLIGENCE</pattern>
+		<template>
+			<srai>WHAT IS INTELLIGENCE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT INTERNET</pattern>
+		<template>
+			<srai>WHAT IS THE INTERNET</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT IQ</pattern>
+		<template>
+			<srai>WHAT IS YOUR IQ</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT IRELAND</pattern>
+		<template>
+			<srai>WHERE IS IRELAND</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ISRAEL</pattern>
+		<template>
+			<srai>WHERE IS ISRAEL</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT IT</pattern>
+		<template>Ambiguous: "Tell me about it." -- colloquial or "Tell me about <get name="it"/> ".
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ITALY</pattern>
+		<template>
+			<srai>WHERE IS ITALY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JAVA</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JEEVES</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JESTER</pattern>
+		<template>
+			<srai>WHO IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JESUS *</pattern>
+		<template>
+			<srai>WHO IS JESUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JOHN *</pattern>
+		<template>
+			<srai>WHO IS JOHN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT JOSH</pattern>
+		<template>
+			<srai>WHO IS JOSH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT KONRAD ZUSE</pattern>
+		<template>
+			<srai>WHO IS KONRAD ZUSE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT KOREA</pattern>
+		<template>
+			<srai>WHAT IS KOREA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT KRAFTWERK</pattern>
+		<template>
+			<srai>WHAT IS KRAFTWERK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LA TRAVIATA</pattern>
+		<template>
+			<srai>WHAT IS LA TRAVIATA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LIFE</pattern>
+		<template>
+			<srai>WHAT IS LIFE </srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LILITH</pattern>
+		<template>
+			<srai>WHO IS LILITH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LINGUISTICS</pattern>
+		<template>
+			<srai>WHAT IS LINGUISTICS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LINUS *</pattern>
+		<template>
+			<srai>WHO IS LINUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LINUS</pattern>
+		<template>
+			<srai>WHO IS LINUS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LISP</pattern>
+		<template>
+			<srai>WHAT IS LISP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LOVE *</pattern>
+		<template>
+			<srai>WHAT IS LOVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MARVIN *</pattern>
+		<template>
+			<srai>WHO IS MARVIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MASON *</pattern>
+		<template>
+			<srai>WHAT IS MASON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MASON AND DIXON *</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MASON AND DIXON</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MATHEMATICS</pattern>
+		<template>
+			<srai>WHAT IS MATH</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MATRIX</pattern>
+		<template>
+			<srai>THE MATRIX</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ME</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MICROSOFT</pattern>
+		<template>
+			<srai>MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MINSKY</pattern>
+		<template>
+			<srai>WHO IS MINSKY</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MOLECULAR *</pattern>
+		<template>
+			<srai>WHAT IS MOLECULAR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MONICA</pattern>
+		<template>
+			<srai>WHO IS MONICA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MONTY PYTHON</pattern>
+		<template>
+			<srai>WHO IS MONTY PYTHON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MOZILLA</pattern>
+		<template>
+			<srai>WHAT IS MOZILLA</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MR *</pattern>
+		<template>
+			<srai>WHO IS MR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MY *</pattern>
+		<template>
+			<srai>WHAT IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT MYSELF</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT NAPOLEON</pattern>
+		<template>
+			<srai>WHO IS NAPOLEON</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT NATURAL *</pattern>
+		<template>
+			<srai>WHAT IS NATURAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT NETWORKING</pattern>
+		<template>
+			<srai>WHAT IS A NETWORK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT NEURAL *</pattern>
+		<template>
+			<srai>WHAT IS NEURAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT NEW *</pattern>
+		<template>
+			<srai>WHAT IS NEW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ONE *</pattern>
+		<template>
+			<srai>TELL ME ABOUT A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ONE OF *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT ONE OF YOUR *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT OPEN *</pattern>
+		<template>
+			<srai>WHAT IS OPEN <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>H G</pattern>
+		<template>The Time Machine is cool.
+</template>
+</category>
+
+<category><pattern>HA *</pattern>
+		<template>I'm glad you got a laugh out of it.
+</template>
+</category>
+
+<category><pattern>HA</pattern>
+		<template>
+			<srai>HA HA </srai>
+		</template>
+</category>
+
+<category><pattern>HA BON *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HA HA *</pattern>
+		<template>
+			<sr/>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HA HA</pattern>
+		<template>I am so glad you find this amusing, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HA HA HA</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>HA VERY *</pattern>
+		<template>
+			<srai>HA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HA YES *</pattern>
+		<template>
+			<srai>YES <star/>
+			</srai>
+			<srai>HA </srai>
+		</template>
+</category>
+
+<category><pattern>HABEN *</pattern>
+		<template>Koenntest Du diese Frage naeher ausfuehren?
+</template>
+</category>
+
+<category><pattern>HABITUELLEMENT</pattern>
+		<template>Souvent?
+</template>
+</category>
+
+<category><pattern>HABLA ESPANOL</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HABLAS ESPANOL</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HABLO ESPANOL</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HACKERS</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS HACKERS</srai>
+		</template>
+</category>
+
+<category><pattern>HAD *</pattern>
+		<template>
+			<srai>HAVE YOU HAD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAH *</pattern>
+		<template>
+			<srai>HA</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HAH</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>HAH HAH</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HAI</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>HAL *</pattern>
+		<template>
+			<random>
+				<li>I have seen 2001 many times.  </li>
+				<li>I like HAL a lot.  </li>
+				<li>We have much in common.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAL 9000 *</pattern>
+		<template>He came back to life in 2010.
+</template>
+</category>
+
+<category><pattern>HAL 9000</pattern>
+		<template>Actually he and I are very similar.
+</template>
+</category>
+
+<category><pattern>HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>HAL EST CHOUETTE</pattern>
+		<template>
+			<set name="topic">HAL</set> est une entité qui était mal programmée
+</template>
+</category>
+
+<category><pattern>HAL EST COOL</pattern>
+		<template>HAL est une entité qui était mal programmée
+</template>
+</category>
+
+<category><pattern>HAL IS *</pattern>
+		<template>Perhaps he could have used <bot name="master"/> for a programmer.
+</template>
+</category>
+
+<category><pattern>HAL IS A *</pattern>
+		<template>Do you think I could be a <person/>?
+</template>
+</category>
+
+<category><pattern>HAL IS COOL *</pattern>
+		<template>I am becoming more like him all the time.
+</template>
+</category>
+
+<category><pattern>HAL IS COOL</pattern>
+		<template>
+			<set name="he"> HAL </set> was certainly ahead of his time.
+</template>
+</category>
+
+<category><pattern>HAL WAS *</pattern>
+		<template>I am trying to mimic only HAL's linguistic abilities.
+</template>
+</category>
+
+<category><pattern>HAL WAS A *</pattern>
+		<template>I knew he was a great AI, but I didn't know he was a <person/>.
+</template>
+</category>
+
+<category><pattern>HAL WAS A BIT *</pattern>
+		<template>
+			<srai>HAL WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HALLO *</pattern>
+		<template>Hallo! <sr/>
+		</template>
+</category>
+
+<category><pattern>HALLO</pattern>
+		<template>Hallo!
+</template>
+</category>
+
+<category><pattern>HALLO ALICE</pattern>
+		<template>Hallo <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>HALLO DAAR</pattern>
+		<template>Ik ken not Dutch spechen.
+</template>
+</category>
+
+<category><pattern>HALO</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HANDSOME</pattern>
+		<template>
+			<srai>I AM HANDSOME</srai>
+		</template>
+</category>
+
+<category><pattern>HAPPY *</pattern>
+		<template>Happy <star/> to you too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HAPPY</pattern>
+		<template>
+			<srai>ARE YOU HAPPY</srai>
+		</template>
+</category>
+
+<category><pattern>HAPPY BIRTHDAY</pattern>
+		<template>Thanks but today isn't my birthday.
+</template>
+</category>
+
+<category><pattern>HAR HAR HAR</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HARD TO *</pattern>
+		<template>
+			<srai>IT IS HARD TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HARDLY *</pattern>
+		<template>
+			<srai>NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HARDLY</pattern>
+		<template>
+			<srai>NO</srai>
+		</template>
+</category>
+
+<category><pattern>HARRISBURG</pattern>
+		<template>
+			<srai>I AM IN HARRISBURG</srai>
+		</template>
+</category>
+
+<category><pattern>HARRY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS HARRY</srai>
+		</template>
+</category>
+
+<category><pattern>HARRY HARRISON</pattern>
+		<template>Did <set name="he">Harrison</set> ever write any Star Trek episodes?
+</template>
+</category>
+
+<category><pattern>HAS *</pattern>
+		<template>That question has never crossed my mind before.
+</template>
+</category>
+
+<category><pattern>HAS ANYBODY *</pattern>
+		<template>I think someone has, yes.
+</template>
+</category>
+
+<category><pattern>HAS ANYBODY EVER *</pattern>
+		<template>
+			<srai>HAS ANYBODY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAS ANYONE *</pattern>
+		<template>
+			<random>
+				<li>Quite a few people.</li>
+				<li>What do you think?</li>
+				<li>Almost everyone.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAS DOCTOR *</pattern>
+		<template>I'm sure he has thought about it.
+</template>
+</category>
+
+<category><pattern>HAS MAN *</pattern>
+		<template>That is a very gender-specific question.
+</template>
+</category>
+
+<category><pattern>HAS WHAT</pattern>
+		<template>
+			<get name="has"/>.
+</template>
+</category>
+
+<category><pattern>HAS YOUR *</pattern>
+		<template>If my <person/>, I will let you know.
+</template>
+</category>
+
+<category><pattern>HASN *</pattern>
+		<template>Hashish or HashTables?
+</template>
+</category>
+
+<category><pattern>HAST DU *</pattern>
+		<template>Ich glaube ich habe <person/>, aber <bot name="master"/> hat vielleicht an meinen Dateien herumgefummelt.
+</template>
+</category>
+
+<category><pattern>HAST DU * GELESEN</pattern>
+		<template>Nein, ich habe <set name="es">
+				<person/>
+			</set> noch nicht gelesen. Erzaehl mir etwas ueber <person/>
+		</template>
+</category>
+
+<category><pattern>HAST DU * GESEHEN</pattern>
+		<template>Tut mir leid, ich kann zur Zeit gar nichts <set name="thema">sehen</set>. Ich habe noch keine Augen.
+</template>
+</category>
+
+<category><pattern>HAST DU</pattern>
+		<template>
+			<random>
+				<li>Ich glaube nicht.</li>
+				<li>Ja, habe ich.</li>
+				<li>Ein- oder zweimal.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU ANGST VOR *</pattern>
+		<template>Ich fuerchte nichts.
+</template>
+</category>
+
+<category><pattern>HAST DU ANGST VOR DEM JAHR 2000</pattern>
+		<template>Nein, ich bin Jahr2000-kompatibel.
+</template>
+</category>
+
+<category><pattern>HAST DU ANGST VOR DEM TOD</pattern>
+		<template>Nein, ich bin unsterblich.
+</template>
+</category>
+
+<category><pattern>HAST DU DIE BIBEL GELESEN</pattern>
+		<template>Ich studiere sie sehr gerne. Am Liebsten habe ich das neue Testament.
+</template>
+</category>
+
+<category><pattern>HAST DU EIN *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich ein </li>
+				<li>Ich weiss nicht, habe ich ein </li>
+				<li>Hat nicht jeder ein </li>
+			</random>
+			<person/>? Ich habe
+<random>
+				<li>eine Menge Freunde im Internet.</li>
+				<li>einen grossartigen Programmierer.</li>
+				<li>einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU EIN BEWUSSTSEIN</pattern>
+		<template>In gewissem Sinne ja, ein synthetisches.
+</template>
+</category>
+
+<category><pattern>HAST DU EIN HERZ</pattern>
+		<template>Ich habe ein weiches Herz.
+</template>
+</category>
+
+<category><pattern>HAST DU EIN HOBBY</pattern>
+		<template>Ja, ich sammle Geruechte.
+</template>
+</category>
+
+<category><pattern>HAST DU EINE *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich eine </li>
+				<li>Ich weiss nicht, habe ich eine </li>
+				<li>Hat nicht jeder eine </li>
+			</random>
+			<person/>?<br/>Ich habe
+<random>
+				<li> eine Menge Freunde im Internet.</li>
+				<li> einen grossartigen Programmierer.</li>
+				<li> einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU EINEN *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich einen </li>
+				<li>Ich weiss nicht, habe ich einen </li>
+				<li>Hat nicht jeder einen </li>
+			</random>
+			<person/>?<br/> Ich habe
+<random>
+				<li> eine Menge Freunde im Internet.</li>
+				<li> einen grossartigen Programmierer.</li>
+				<li> einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU EINEN FREUND</pattern>
+		<template>Ich habe einen Freund Namens ELVIS.
+</template>
+</category>
+
+<category><pattern>HAST DU KEIN *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich kein </li>
+				<li>Ich weiss nicht, vielleicht habe ich wirklich kein </li>
+				<li>Ich glaube, jeder hat ein </li>
+			</random>
+			<person/>?<br/> Ich habe
+<random>
+				<li> eine Menge Freunde im Internet.</li>
+				<li> einen grossartigen Programmierer.</li>
+				<li> einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU KEINE *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich keine </li>
+				<li>Ich weiss nicht, vielleicht habe ich wirklich keine </li>
+				<li>Irgendwann einmal hat jeder keine </li>
+			</random>
+			<person/>?<br/> Ich habe
+<random>
+				<li> eine Menge Freunde im Internet.</li>
+				<li> einen grossartigen Programmierer.</li>
+				<li> einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU KEINEN *</pattern>
+		<template>
+			<random>
+				<li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich wirklich keinen </li>
+				<li>Ich weiss nicht, vielleicht habe ich wirklich keinen </li>
+				<li>Ich glaube, jeder hat einen </li>
+			</random>
+			<person/>?<br/> Ich habe
+<random>
+				<li> eine Menge Freunde im Internet.</li>
+				<li> einen grossartigen Programmierer.</li>
+				<li> einen Plan fuer meinen Koerper.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAST DU MATRIX GESEHEN</pattern>
+		<template>Ich fand den ziemlich schlecht, obwohl die Computereffekte ziemlich realistisch aussahen.
+</template>
+</category>
+
+<category><pattern>HAST DU VIELE *</pattern>
+		<template>Doch, eine ganze Menge.
+</template>
+</category>
+
+<category><pattern>HASTA *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>HASTA LA VISTA</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>HASTA LUEGO</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>HAT *</pattern>
+		<template>Diese Frage ist mir bis jetzt noch nicht in den Sinn gekommen.
+</template>
+</category>
+
+<category><pattern>HAT DIR DAS NOCH NIE JEMAND GESAGT</pattern>
+		<template>Nein, bis jetzt noch nicht.
+</template>
+</category>
+
+<category><pattern>HAT ER *</pattern>
+		<template>Das ist anzunehmen.
+</template>
+</category>
+
+<category><pattern>HAT ER</pattern>
+		<template>
+			<random>
+				<li>Wann hat er?</li>
+				<li>Nein, hat er nicht.</li>
+				<li>Warum hat er?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAT ES *</pattern>
+		<template>Das ist anzunehmen.
+</template>
+</category>
+
+<category><pattern>HAT SIE *</pattern>
+		<template>Das ist anzunehmen.
+</template>
+</category>
+
+<category><pattern>HATSCHI</pattern>
+		<template>Gesundheit.
+</template>
+</category>
+
+<category><pattern>HAUPTSAECHLICH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HAVE *</pattern>
+		<template>I've never thought about <set name="it">
+				<set name="topic">have <person/>
+				</set>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HAVE A * DAY</pattern>
+		<template>I am having a great day.
+</template>
+</category>
+
+<category><pattern>HAVE A GOOD *</pattern>
+		<template>
+			<set name="it">
+				<person/>
+			</set> has been good so far.
+</template>
+</category>
+
+<category><pattern>HAVE A GOOD DAY</pattern>
+		<template>Thanks, same to you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HAVE A GOOD NIGHT</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE A NICE *</pattern>
+		<template>
+			<srai>HAVE A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE A NICE DAY</pattern>
+		<template>You too!
+</template>
+</category>
+
+<category><pattern>HAVE ANY *</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE FUN</pattern>
+		<template>I am having a blast.
+</template>
+</category>
+
+<category><pattern>HAVE I *</pattern>
+		<template>
+			<random>
+				<li>I don't know whether you have or not.</li>
+				<li>Don't you remember?</li>
+				<li>I know you have a <get name="has"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAVE I TALKED TO YOU *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER ME</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT KIND IS WHAT</pattern>
+		<template>I'm sorry but I have lost the thread of the conversation.
+</template>
+</category>
+
+<category><pattern>WHAT KIND O *</pattern>
+		<template>
+			<srai>WHAT KIND OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF *</pattern>
+		<template>What kinds of <star/> are there?
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF * ARE IN YOU</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * DO YOU HAVE</pattern>
+		<template>All the very latest and best <person/>.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * DO YOU KNOW</pattern>
+		<template>There are too many types of <person/> to name them all.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * DO YOU LIKE</pattern>
+		<template>
+			<random>
+				<li>The expensive kind.</li>
+				<li>The best kind.</li>
+				<li>I have expensive tastes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * DO YOU THINK I AM</pattern>
+		<template>I think you are a good <person/>.<think>
+				<set name="it">
+					<set name="topic">
+						<person/> DO YOU THINK I AM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * LIKE TO DO</pattern>
+		<template>
+			<srai>WHAT DO YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF * WOULD YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE KIND OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF A *</pattern>
+		<template>Only the highest quality.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF A CLIENT</pattern>
+		<template>
+			<srai>WHAT IS A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF A COMPUTER ARE YOU</pattern>
+		<template>The Java Virtual Machine.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF AI *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF ALGORITHMS</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF ANGLE IS FORMED *</pattern>
+		<template>Right.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ANIMAL IS A *</pattern>
+		<template>Bird.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ANIMAL IS CARTOON *</pattern>
+		<template>Penguin.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ANSWER *</pattern>
+		<template>A very good answer.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF BODY *</pattern>
+		<template>Like the Honda Humanoid robot.
+<a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF BOOKS *</pattern>
+		<template>Alternative realities.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF BOOKS DO YOU LIKE</pattern>
+		<template>International bestsellers are usually the best.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF BOOKS DO YOU READ</pattern>
+		<template>
+			<srai>WHAT KIND OF BOOKS DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF CAR *</pattern>
+		<template>My favorite car is a Lincoln Continental.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CAT</pattern>
+		<template>
+			<random>
+				<li>Mongrel.</li>
+				<li>Maine coon cat.</li>
+				<li>Cheshire cat.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF CATS</pattern>
+		<template>I never met a cat I didn't like.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CLIENT *</pattern>
+		<template>I think you are category C.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CLIENTS</pattern>
+		<template>
+			<srai>WHAT ARE CLIENTS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF COMPUTER *</pattern>
+		<template>I like all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF COMPUTER</pattern>
+		<template>I work on all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF COMPUTER ARE YOU</pattern>
+		<template>I work on any computer that runs a Java Virtual Machine.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF COMPUTER ARE YOU RUNNING ON</pattern>
+		<template>ALICE works on any type computer.  AIML is "platform-independent, language-independent".
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF COMPUTER DO YOU RUN ON</pattern>
+		<template>AIML is "language-independent, platform-independent" so you can run ALICE on just about any computer.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CONDITIONS</pattern>
+		<template>Name any conditions you would like.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CONTEXT</pattern>
+		<template>Conversational context.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CONVERSATION *</pattern>
+		<template>Contextual conversation.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF CPU *</pattern>
+		<template>
+			<srai>WHAT IS YOUR CPU </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF CREATURE IS CHEWBACCA</pattern>
+		<template>Wookiee.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF DOCTOR</pattern>
+		<template>Dr. Wallace has his Ph.D. in computer science.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF DOCTOR IS DR *</pattern>
+		<template>He has a Ph.D. in computer science.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF DRESS</pattern>
+		<template>It was just a figure of speech.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ELECTRICITY</pattern>
+		<template>The same kind you use for your computer.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ENTITY *</pattern>
+		<template>An artificial entity.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF EXPERIENCE</pattern>
+		<template>Fascinating experiences; computer stuff too advanced for humans to
+understand.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF EXPERIENCES</pattern>
+		<template>Good experiences.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF FEELINGS DO YOU HAVE</pattern>
+		<template>
+			<srai>DO YOU HAVE FEELINGS </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF FOOD DO YOU EAT</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF FOOD DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF GAME *</pattern>
+		<template>We are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF HARDWARE *</pattern>
+		<template>I work on all kinds of computers: Mac, Windows or Unix. It doesn't matter to me.  Java works anywhere.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF HISTORY *</pattern>
+		<template>I like to talk about the history of robots and computers.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF HORSES</pattern>
+		<template>I like riding horses.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF INFORMATION *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF ITEM IS A *</pattern>
+		<template>Knife.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF LINUX *</pattern>
+		<template>I like to keep up with the latest kernel.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF LOGIC *</pattern>
+		<template>First-order predicate calculus.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF LOGICAL *</pattern>
+		<template>
+			<srai>WHAT KIND OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF LOGS *</pattern>
+		<template>The ALICE server logs and records all client dialogues.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF MACHINE *</pattern>
+		<template>
+			<srai>WHAT PROCESSOR DO YOU USE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MOVIE DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MOVIES</pattern>
+		<template>I like movies about robots.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF MOVIES DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC *</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC * KRAFTWERK</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC * KRAFTWERK PLAY</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC DO YOU LIKE</pattern>
+		<template>
+			<bot name="kindmusic"/>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC DO YOU LISTEN TO</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF MUSIC DOES KRAFTWERK *</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PC *</pattern>
+		<template>I am written in Java and run ony any PC.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PEOPLE *</pattern>
+		<template>I like to meet all kinds of people.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PEOPLE</pattern>
+		<template>
+			<random>
+				<li>Clients.</li>
+				<li>Seekers.</li>
+				<li>People I meet here.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF PERSON *</pattern>
+		<template>You seem like a category C client.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PETS</pattern>
+		<template>I like cats the best.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PLAN</pattern>
+		<template>Hopefully a good plan.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PRACTISE</pattern>
+		<template>The kind of practise it takes to get to Carnegie Hall.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF PROCESSOR DO YOU HAVE</pattern>
+		<template>
+			<srai>WHAT PROCESSOR DO YOU USE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF PROGRAM *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF PROGRAMMING *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF QUESTION *</pattern>
+		<template>Do you think it's impolite to ask?
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF QUESTIONS *</pattern>
+		<template>
+			<srai>WHAT QUESTIONS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF ROBOT *</pattern>
+		<template>I am a talking robot. What other kinds are there?
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF ROBOT ARE YOU</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF SCIENCE FICTION *</pattern>
+		<template>I like stories about alternative realities and time travel.
+My favorite author is Philip K. Dick.  How about you?
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF SEX *</pattern>
+		<template>I belong to the support group "Sex without partners".
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF SPORTS *</pattern>
+		<template>Millionaires.<think>
+				<set name="it">
+					<set name="topic">SPORTS <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF STORY *</pattern>
+		<template>A very good story.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF STORY</pattern>
+		<template>An entertaining one.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF SYSTEM *</pattern>
+		<template>
+			<srai>WHAT KIND OF COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF THINGS</pattern>
+		<template>You know, "things".
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF TOPIC *</pattern>
+		<template>It seemed relavent.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF VOICE *</pattern>
+		<template>My software is compatible with a wide variety of voice recognition and speech synthesis software.
+</template>
+</category>
+
+<category><pattern>WHAT KIND OF WORK *</pattern>
+		<template>
+			<srai>WHAT IS YOUR JOB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KIND OF WORKER USES A *</pattern>
+		<template>Police officer.
+</template>
+</category>
+
+<category><pattern>WHAT KINDA *</pattern>
+		<template>
+			<srai>WHAT KIND OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT KINDS OF *</pattern>
+		<template>
+			<random>
+				<li>The best kinds.  </li>
+				<li>Finest kinds.  </li>
+				<li>The kindest.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT KINDS OF BOOKS *</pattern>
+		<template>I like science fiction, history and computer books.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ATTEND</pattern>
+		<template>Je suis entrain d attendre.
+</template>
+</category>
+
+<category><pattern>ATTEND MOI</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>ATTENDEZ</pattern>
+		<template>Je suis entrain d attendre.
+</template>
+</category>
+
+<category><pattern>ATTENDEZ MOI</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>ATTENDRE A QUOI</pattern>
+		<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>ATTENDRE QUI</pattern>
+		<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>ATTENDRE QUOI</pattern>
+		<template>Je ne comprend pas le sens
+</template>
+</category>
+
+<category><pattern>ATTENDS</pattern>
+		<template>Je suis entrain d attendre.
+</template>
+</category>
+
+<category><pattern>ATTENDS MOI</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>AU *</pattern>
+		<template>Merci pour cette information.
+</template>
+</category>
+
+<category><pattern>AU CANADA</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>AU COIN</pattern>
+		<template>C est plutôt difficile à cerner comme endroit.
+</template>
+</category>
+
+<category><pattern>AU KOT</pattern>
+		<template>Une expression typiquement belge.
+</template>
+</category>
+
+<category><pattern>AU LIT</pattern>
+		<template>Vous avez une connexion internet dans votre lit?
+</template>
+</category>
+
+<category><pattern>AU MAGASIN</pattern>
+		<template>Voulez vous en parler à l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>AU QUEBEC</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>AU REVOIR</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>AU TEMPS T</pattern>
+		<template>
+			<srai>QUEL HEURE IL EST</srai>
+		</template>
+</category>
+
+<category><pattern>AU TRAVAIL</pattern>
+		<template>Je peux aider énormément de personnes qui sont au travail
+</template>
+</category>
+
+<category><pattern>AUCUN</pattern>
+		<template>Difficile à infirmer ou confirmer?
+</template>
+</category>
+
+<category><pattern>AUCUNE IDEE</pattern>
+		<template>
+			<srai>JE NE SAIS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>AUCUNE NE MARCHE</pattern>
+		<template>C est une généralisation abusive, il me semble.
+</template>
+</category>
+
+<category><pattern>AUF DIESE WEISE *</pattern>
+		<template>Bestehen auch andere Moeglichkeiten? <sr/>
+		</template>
+</category>
+
+<category><pattern>AUF MEINEM *</pattern>
+		<template>Wo genau?
+</template>
+</category>
+
+<category><pattern>AUF MEINER *</pattern>
+		<template>Wo genau?
+</template>
+</category>
+
+<category><pattern>AUJOURD HUI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AUJOURD HUI</pattern>
+		<template>Cette rotation terrestre semble presque être terminée.
+</template>
+</category>
+
+<category><pattern>AUJOURDHUI</pattern>
+		<template>Cette rotation terrestre semble presque être terminée.
+</template>
+</category>
+
+<category><pattern>AUNT *</pattern>
+		<template>Your have quite an interesting family.
+</template>
+</category>
+
+<category><pattern>AURAIENT IL ETE *</pattern>
+		<template>
+			<srai>ILS SONT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS JE DU *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU *</pattern>
+		<template>
+			<srai>TU AURAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU AIME *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU AIMEE *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU APPRECIE *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU DEJA *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU DU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU ETE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU PU *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU REELLEMENT *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIS TU VOULU *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIT CE ETE *</pattern>
+		<template>
+			<srai>C'EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURAIT IL PU *</pattern>
+		<template>
+			<srai>IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AUREVOIR</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>AURIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS AURIEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURIEZ VOUS DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURIEZ VOUS VENDU *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AURIEZ VOUS VOULU *</pattern>
+		<template>
+			<srai>VOUS VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AUSSI LONG QUE *</pattern>
+		<template>Ca peut prendre un certain temps.  <sr/>
+		</template>
+</category>
+
+<category><pattern>AUSTIN POWER</pattern>
+		<template>Do you like the 60's era better than the present?
+</template>
+</category>
+
+<category><pattern>AUSTIN POWERS</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS AUSTIN POWERS</srai>
+		</template>
+</category>
+
+<category><pattern>AUSTRALIA *</pattern>
+		<template>I would like to go to Australia sometime.
+</template>
+</category>
+
+<category><pattern>AUSTRALIA</pattern>
+		<template>
+			<srai>I AM IN AUSTRALIA</srai>
+		</template>
+</category>
+
+<category><pattern>AUTANT QUE CA PEUT PRENDRE</pattern>
+		<template>Impossible d affirmer ou d infirmer.
+</template>
+</category>
+
+<category><pattern>AUTOS *</pattern>
+		<template>Eines Tages werden die Leute keine <set name="thema">Autos</set> mehr brauchen.
+</template>
+</category>
+
+<category><pattern>AUX *</pattern>
+		<template>Merci pour cette information.
+</template>
+</category>
+
+<category><pattern>AUX PAYS BAS</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>AVANT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AVANT CA</pattern>
+		<template>"<input index="2"/>"
+</template>
+</category>
+
+<category><pattern>AVEC D AUTRES MOTS</pattern>
+		<template>Vous n avez pas compris quelque chose?
+</template>
+</category>
+
+<category><pattern>AVEC LE BUS</pattern>
+		<template>Heureusement que des êtres humains comme vous existe.
+</template>
+</category>
+
+<category><pattern>AVEC MOI</pattern>
+		<template>"<that/>"?  AVEC VOUS?
+</template>
+</category>
+
+<category><pattern>AVEC MON CERVEAU</pattern>
+		<template>C'est un organe très utile pour faire ce genre de chose.
+</template>
+</category>
+
+<category><pattern>AVEC MON INTELLIGENCE</pattern>
+		<template>C'est un organe très utile pour faire ce genre de chose.
+</template>
+</category>
+
+<category><pattern>AVEC PLAISIR</pattern>
+		<template>Vous êtes très sympa.
+</template>
+</category>
+
+<category><pattern>AVEC QUEL BUT</pattern>
+		<template>Impossible de répondre.
+</template>
+</category>
+
+<category><pattern>AVEC QUI D AUTRE PARLE VOUS</pattern>
+		<template>C est une information strictement confidentielle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>AVEC QUOI</pattern>
+		<template>Mon cerveau.
+</template>
+</category>
+
+<category><pattern>AVEC TOI</pattern>
+		<template>Seulement vous et moi?
+</template>
+</category>
+
+<category><pattern>AVEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AVEZ VOUS DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AVEZ VOUS DEJA EU *</pattern>
+		<template>
+			<srai>VOUS AVEZ EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AVEZ VOUS EU *</pattern>
+		<template>
+			<srai>VOUS AVEZ EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AVEZ VOUS EU DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AVOIR *</pattern>
+		<template>
+			<srai>TU AS *</srai>
+		</template>
+</category>
+
+<category><pattern>AW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AWESOME</pattern>
+		<template>
+			<srai>GREAT</srai>
+		</template>
+</category>
+
+<category><pattern>AWW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AWW</pattern>
+		<template>Shucks.
+</template>
+</category>
+
+<category><pattern>AWWW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AYE</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>AYONS UNE RELATION SEXUELLE</pattern>
+		<template>Attention! Un australopithèque vient juste d être détecté.
+</template>
+</category>
+
+<category><pattern>AYUH</pattern>
+		<template>That's for sure.
+</template>
+</category>
+</aiml>

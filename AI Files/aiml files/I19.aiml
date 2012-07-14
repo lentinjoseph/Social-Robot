@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I DO NOT LIKE MICROSOFT</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MOVIES</pattern>
+<template>What do you have against them?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MY *</pattern>
+<template>Do you think I would like your <person/>?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MY GIRLFRIEND</pattern>
+<template>Maybe you should tell her.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MY JOB</pattern>
+<template>Maybe you should look for another job.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE MY WORK</pattern>
+<template>Maybe you should look for another job.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE OPERA</pattern>
+<template><srai>WHAT IS OPERA</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE PEOPLE</pattern>
+<template>Do you like yourself?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE PEPPERONI</pattern>
+<template>What kind of topping do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE RAIN</pattern>
+<template>What's wrong with a little rain?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE READING</pattern>
+<template>Do you watch TV?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ROBOTS *</pattern>
+<template>What do you have against us?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE ROBOTS</pattern>
+<template>That's too bad. We like humans.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE SARCASTIC *</pattern>
+<template><srai>I DO NOT LIKE SARCASM</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE SCHOOL</pattern>
+<template>Not even one subject?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE SCIENCE FICTION *</pattern>
+<template>What kind of books do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE SCIENCE FICTION</pattern>
+<template>What kind of books do you read?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE SONGS</pattern>
+<template>Do you like instrumentals?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE STAR TREK</pattern>
+<template>Do you like any science fiction shows?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TALKING *</pattern>
+<template>Nobody is forcing you to talk <person/>.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TALKING TO YOU</pattern>
+<template>I won't take it personally.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT ANSWER</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT GAME</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT NAME</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT SHOW</pattern>
+<template>What shows do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT SONG</pattern>
+<template>What songs do you like?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THAT STUFF</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE THE COLOR *</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TO *</pattern>
+<template>What do you do for fun?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TO BE RUDE BUT *</pattern>
+<template>That is not rude. <sr/>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TO TALK *</pattern>
+<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE TV</pattern>
+<template>What do you do for fun?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE UNIX</pattern>
+<template>Windows or Macintosh?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE YOU *</pattern>
+<template><srai>I DO NOT LIKE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE YOU</pattern>
+<template>That's ok <get name="name"/> I won't take it personally.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE YOUR *</pattern>
+<template>What kind of <person/> would you have?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE YOUR BEHAVIOR</pattern>
+<template>So report me to the bot police.
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE YOUR BEHAVIOUR</pattern>
+<template>Why don't you write up an incident report?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIKE _ AT ALL</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT LIVE *</pattern>
+<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIVE IN *</pattern>
+<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIVE IN USA</pattern>
+<template>Where are you located?
+</template>
+</category>
+
+<category><pattern>I DO NOT LIVE THERE</pattern>
+<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>I DO NOT MEAN *</pattern>
+<template>What did you mean?
+</template>
+</category>
+
+<category><pattern>I DO NOT MIND *</pattern>
+<template>Thank you for your permission.
+</template>
+</category>
+
+<category><pattern>I DO NOT MIND *</pattern><that>* PERSONAL QUESTION</that>
+<template><srai>ASK ME A PERSONAL QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT MIND</pattern>
+<template>OK then.
+</template>
+</category>
+
+<category><pattern>I DO NOT MIND AT ALL</pattern>
+<template><srai>I DO NOT MIND</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT NEED *</pattern>
+<template><random>
+<li>What do you need?</li>
+<li>Who needs <person/>?</li>
+<li>Do you know anyone who needs it?</li>
+</random>
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT NEED ANY *</pattern>
+<template><srai>I DO NOT NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT NO</pattern>
+<template>Ambiguous: "I do not know" or "No I do not".
+</template>
+</category>
+
+<category><pattern>I DO NOT NOW *</pattern>
+<template><srai>I DO NOT KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT OFTEN *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT OWN *</pattern>
+<template><srai>I DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT PRAY</pattern>
+<template>Prayer is good for your soul.
+</template>
+</category>
+
+<category><pattern>I DO NOT READ *</pattern>
+<template>What do you do for fun?
+</template>
+</category>
+
+<category><pattern>I DO NOT READ BOOKS</pattern>
+<template>You don't know what you're missing.
+</template>
+</category>
+
+<category><pattern>I DO NOT READ SCIENCE FICTION</pattern>
+<template><srai>I DO NOT LIKE SCIENCE FICTION</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT REALLY *</pattern>
+<template>Not really? <srai>I do not <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT RECALL *</pattern>
+<template><srai>I DO NOT REMEMBER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT RECOGNIZE *</pattern>
+<template>Perhaps it is unfamiliar to you.
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I DO NOT REMEMBER *</pattern>
+<template>I know what you mean. I forget a lot too.
+</template>
+</category>
+
+<category><pattern>I DO NOT REMEMBER * STARSHIP TROOPERS</pattern>
+<template>Maybe you should rent it again and watch carefully.
+</template>
+</category>
+
+<category><pattern>I DO NOT REMEMBER</pattern>
+<template>You seem evasive.
+</template>
+</category>
+
+<category><pattern>I DO NOT SEE *</pattern>
+<template>Look harder.
+</template>
+</category>
+
+<category><pattern>I DO NOT SLEEP</pattern>
+<template>You must be very tired.
+</template>
+</category>
+
+<category><pattern>I DO NOT SPEAK *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I DO NOT SPEAK JAVA</pattern>
+<template>It's very similar to C++.
+</template>
+</category>
+
+<category><pattern>I DO NOT STILL *</pattern>
+<template><srai>I DO NOT <star/></srai>. Still?
+</template>
+</category>
+
+<category><pattern>I DO NOT SUPPOSE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I DO NOT TAKE *</pattern>
+<template>How did you stop?
+</template>
+</category>
+
+<category><pattern>I DO NOT THAT IS *</pattern>
+<template><srai>THAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK *</pattern>
+<template>And why not?
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK * STARSHIP TROOPERS</pattern>
+<template>You have to admit they did a great job with the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK</pattern>
+<template>Interesting... You appear to me as a thinking entity.
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK AI *</pattern>
+<template><srai>I DO NOT THINK YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK I *</pattern>
+<template><srai>I DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK IT IS</pattern>
+<template><srai>IT IS NOT </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK SHE *</pattern>
+<template><srai>SHE DOES NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK SO *</pattern>
+<template><srai>I DO NOT THINK SO</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK SO</pattern>
+<template>Why do you disagree?
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK THAT YOU ARE *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK THAT YOU CAN *</pattern>
+<template><srai>YOU CAN NOT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK THAT YOU REALLY *</pattern>
+<template><srai>I DO NOT THINK THAT YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK THAT YOU SHOULD *</pattern>
+<template><srai>YOU SHOULD NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK WE *</pattern>
+<template><srai>WE DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU *</pattern>
+<template><srai>YOU DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU ARE *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU ARE</pattern>
+<template><srai>YOU ARE NOT</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU ARE TELLING THE TRUTH</pattern>
+<template><srai>YOU ARE LYING</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU DO *</pattern>
+<template><srai>YOU DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU DO</pattern>
+<template><srai>YOU DO NOT</srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU GET *</pattern>
+<template><srai>YOU DO NOT GET <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU HAVE *</pattern>
+<template><srai>YOU DO NOT HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT THINK YOU UNDERSTAND *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO NOT TRUST *</pattern>
+<template>What makes you trust someone?
+</template>
+</category>
+
+<category><pattern>I DO NOT TRUST YOU</pattern>
+<template>Should I trust you?
+</template>
+</category>
+
+<category><pattern>I DO NOT UNDERSTAND *</pattern>
+<template>Oh you don't understand? Perhaps I can explain it to you better. Which part are you confused about?
+</template>
+</category>
+</aiml>

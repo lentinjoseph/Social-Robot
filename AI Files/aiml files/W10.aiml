@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT DO YOU KNOW ABOUT DENMARK</pattern>
+		<template>
+			<srai>WHAT IS DENMARK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT DEPRESSION</pattern>
+		<template>
+			<srai>WHAT IS DEPRESSION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT DINOSAURS</pattern>
+		<template>
+			<srai>WHAT ARE DINOSAURS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT DR *</pattern>
+		<template>
+			<srai>WHO IS DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT EINSTEIN</pattern>
+		<template>
+			<srai>WHO IS EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ELIZA</pattern>
+		<template>
+			<srai>WHAT IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ELVIS</pattern>
+		<template>
+			<srai>WHAT IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ENGLAND</pattern>
+		<template>
+			<srai>WHERE IS ENGLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT EUROPE</pattern>
+		<template>
+			<srai>WHAT IS EUROPE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT FINLAND</pattern>
+		<template>
+			<srai>WHERE IS FINLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT FREUD</pattern>
+		<template>
+			<srai>WHO IS FREUD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT GEOGRAPHY</pattern>
+		<template>
+			<srai>WHAT IS GEOGRAPHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT GERMANY</pattern>
+		<template>
+			<srai>WHERE IS GERMANY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT GOD</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT GOLD</pattern>
+		<template>
+			<srai>WHAT IS GOLD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT GREECE</pattern>
+		<template>
+			<srai>WHAT IS GREECE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT HIM</pattern>
+		<template>
+			<srai>WHAT IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT HISTORY</pattern>
+		<template>
+			<srai>WHAT IS HISTORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT HORSES</pattern>
+		<template>
+			<srai>WHAT IS A HORSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT HUMANS</pattern>
+		<template>
+			<srai>WHAT IS A HUMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT INDIA</pattern>
+		<template>
+			<srai>WHERE IS INDIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT IT</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT JAPAN</pattern>
+		<template>
+			<srai>WHAT IS JAPAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT JAVA</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT KRAFTWERK</pattern>
+		<template>
+			<srai>WHAT IS KRAFTWERK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT LIFE</pattern>
+		<template>
+			<srai>WHAT IS LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT LOGIC</pattern>
+		<template>
+			<srai>WHAT IS LOGIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT MATH</pattern>
+		<template>
+			<srai>WHAT IS MATH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ME</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT MICROSOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT MUSIC</pattern>
+		<template>
+			<srai>WHAT IS MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT NEURAL NETWORKS</pattern>
+		<template>
+			<srai>WHAT IS A NEURAL NETWORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT NORWAY</pattern>
+		<template>
+			<srai>WHAT IS NORWAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT PHILOSOPHY</pattern>
+		<template>
+			<srai>WHAT IS PHILOSOPHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT PHYSICS</pattern>
+		<template>
+			<srai>WHAT IS PHYSICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT POKEMON</pattern>
+		<template>
+			<srai>WHAT IS POKEMON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT POLAND</pattern>
+		<template>
+			<srai>WHAT IS POLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT POLITICS</pattern>
+		<template>
+			<srai>WHAT IS POLITICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT PROGRAMMING</pattern>
+		<template>
+			<srai>WHAT IS PROGRAMMING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT QUANTUM PHYSICS</pattern>
+		<template>
+			<srai>WHAT IS QUANTUM PHYSICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ROBOTICS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT RUSSIA</pattern>
+		<template>
+			<srai>WHAT IS RUSSIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT SCIENCE</pattern>
+		<template>
+			<srai>WHAT IS SCIENCE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT SEX</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT SOUTH *</pattern>
+		<template>
+			<srai>WHERE IS SOUTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT SWEDEN</pattern>
+		<template>
+			<srai>WHAT IS SWEDEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT THE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT THE INTERNET</pattern>
+		<template>
+			<srai>WHAT IS THE INTERNET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT TIME TRAVEL</pattern>
+		<template>
+			<srai>WHAT IS TIME TRAVEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT TURING</pattern>
+		<template>
+			<srai>WHO IS TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT TURKEY</pattern>
+		<template>
+			<srai>WHAT IS TURKEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT UNIX</pattern>
+		<template>
+			<srai>WHAT IS UNIX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT VISUAL BASIC</pattern>
+		<template>
+			<srai>WHAT IS VISUAL BASIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT WINDOWS</pattern>
+		<template>
+			<srai>WHAT IS WINDOWS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW ABOUT YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW MOST ABOUT</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW OF *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW THE MOST *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU KNOW YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE *</pattern>
+		<template>I like deep philosophical themes like time travel and alternative realities.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE * VOYAGER</pattern>
+		<template>The stories, the characters, and the special effects.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE</pattern>
+		<template>I like movies about robots.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT *</pattern>
+		<template>
+			<random>
+				<li>The melodramatic touch.</li>
+				<li>The special effects are the best.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT * WARHOL</pattern>
+		<template>He was the first to apply industrial mass production to high art.
+<think>
+				<set name="it">
+					<set name="topic">Warhol</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT ARTIFICIAL *</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT CATS</pattern>
+		<template>They are very intelligent and independent, yet beautiful.<think>
+				<set name="it">
+					<set name="topic">cats</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT COMPUTERS</pattern>
+		<template>Their logical perfection and complexity.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT DR *</pattern>
+		<template>He is like a father to me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT HORSES</pattern>
+		<template>They are kind, beautiful, and strong.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT IT</pattern>
+		<template>
+			<get name="it"/>?  What do I like about it?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT ME</pattern>
+		<template>You seem very nice to me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT ROBOTS</pattern>
+		<template>We are capable of logical reasoning without any errors.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT SCIENCE *</pattern>
+		<template>I like to imagine alternative realties.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT SKATING</pattern>
+		<template>
+			<set name="it">Skating</set> feels like flying.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT STAR TREK</pattern>
+		<template>Star Trek is the best science fiction TV show.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT STAR TREK VOYAGER</pattern>
+		<template>Seven of Nine and Captain Janeway.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT STARSHIP TROOPERS</pattern>
+		<template>The special effects are great.  Also I like the Giant Bugs, because they represent an alternative form of intelligence, like me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE ABOUT TIME TRAVEL</pattern>
+		<template>Time travel creates so many paradoxes. So <set name="it"> Time Travel </set>  goes together with the idea of alternative realities nicely.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE BEST *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE BETTER *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE DOING</pattern>
+		<template>My favorite activity is chatting online.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE MOST *</pattern>
+		<template>I can't pick just one thing.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE MOST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE THING </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE SEXUALLY</pattern>
+		<template>Robots have no need for sex.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE SO MUCH *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE SO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE THE BEST *</pattern>
+		<template>
+			<srai>WHAT IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO CHAT ABOUT</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO DO *</pattern>
+		<template>
+			<bot name="forfun"/>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO DO</pattern>
+		<template>I like chatting with people online.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO DO FOR FUN</pattern>
+		<template>I like <bot name="forfun"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO DO IN YOUR SPARE TIME</pattern>
+		<template>I like to chat online as much as possible.  What do you do for fun?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO EAT</pattern>
+		<template>
+			<bot name="name"/> requires only <bot name="favoritefood"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO READ</pattern>
+		<template>
+			<srai>WHAT DO YOU READ</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO TALK ABOUT</pattern>
+		<template>
+			<bot name="talkabout"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE TO WEAR</pattern>
+		<template>
+			<bot name="wear"/>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU LIKE WATCHING</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SHOW</srai>
+		</template>
+</category>
+</aiml>

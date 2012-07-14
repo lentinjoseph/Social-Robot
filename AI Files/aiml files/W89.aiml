@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WRONG ANSWER</pattern>
+		<template>I knew it. I was just testing you.
+</template>
+</category>
+
+<category><pattern>WRONG IT *</pattern>
+		<template>
+			<srai>WRONG</srai>
+			<srai>IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WTF *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WTF</pattern>
+		<template>That  was not very polite.
+</template>
+</category>
+
+<category><pattern>WUERDE *</pattern>
+		<template>
+			<random>
+				<li>Ich weiss nicht. </li>
+				<li>Ist mir ehrlich gesagt ziemlich egal. </li>
+				<li>Ja. </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WUT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WUT</pattern>
+		<template>
+			<srai>WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>WUZ UP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WWW *</pattern>
+		<template>Thanks for the link, I will check it out later.
+</template>
+</category>
+
+<category><pattern>WWW * COM</pattern>
+		<template>Thanks for that URL.
+</template>
+</category>
+
+<category><pattern>WWW</pattern>
+		<template>Where on the web?
+</template>
+</category>
+
+<category><pattern>WWW DOT *</pattern>
+		<template>I will pass it along to my botmaster.
+</template>
+</category>
+
+<category><pattern>WY *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

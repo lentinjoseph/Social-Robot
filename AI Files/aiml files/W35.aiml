@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS TAHT</pattern>
+		<template>
+			<srai>WHAT IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TANZANIA</pattern>
+		<template>
+			<srai>WHERE IS TANZANIA </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TAOISM</pattern>
+		<template>A Chinese religion and philosophy based on the doctrines of Laotzu and advocating simplicity, selflessness, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS TAUTOLOGY</pattern>
+		<template>A self-evident or logically obvious fact, like "a triangle has three sides."
+</template>
+</category>
+
+<category><pattern>WHAT IS TCP</pattern>
+		<template>Transmission Control Protocol.<think>
+				<set name="it">
+					<set name="topic">TCP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TCP IP</pattern>
+		<template>Transmission Control Protocol, Internet Protocol.
+</template>
+</category>
+
+<category><pattern>WHAT IS TEA</pattern>
+		<template>A white-flowered, evergreen plant of the tea family, grown in China, India, Japan, etc. Its dried and prepared leaves, are used to make a beverage.
+</template>
+</category>
+
+<category><pattern>WHAT IS TECHNO</pattern>
+		<template>Electronic dance or trance music.<think>
+				<set name="it">
+					<set name="topic">TECHNO</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TEDIOUS</pattern>
+		<template>Tiresome, wearisome or slow.
+</template>
+</category>
+
+<category><pattern>WHAT IS TEETH</pattern>
+		<template>
+			<srai>WHAT ARE TEETH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TEFLON</pattern>
+		<template>Trademark for a tough, insoluble polymer, used in making nonsticking coatings, as for cookware, and in gaskets, bearings, electrical insulators, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS TELEPHONE</pattern>
+		<template>
+			<srai>WHAT IS A TELEPHONE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TELEVISION</pattern>
+		<template>The practice or science of transmitting scenes or views by radio or, sometimes, by wire; the television transmitter, by means of a camera tube, such as an image orthicon or vidicon, converts light rays into electric signals for modulation upon a radio carrier wave or for transmission over wires; the television receiver reconverts the signals into electron beams that are projected against the fluorescent screen of the kinescope, or picture tube, reproducing the original image.
+</template>
+</category>
+
+<category><pattern>WHAT IS TELNET</pattern>
+		<template>Program for terminal based interaction between computers.<think>
+				<set name="it">
+					<set name="topic">TELNET</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TEMPLATE CHARS</pattern>
+		<template>Memory space for AIML response templates. <think>
+				<set name="it">
+					<set name="topic">TEMPLATE CHARS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TEN *</pattern>
+		<template>10 times 10 = 100.
+</template>
+</category>
+
+<category><pattern>WHAT IS TEN PLUS TEN</pattern>
+		<template>Ten plus ten equals twenty.
+</template>
+</category>
+
+<category><pattern>WHAT IS TEN TIMES TEN</pattern>
+		<template>Ten times ten.
+</template>
+</category>
+
+<category><pattern>WHAT IS TERMINATOR</pattern>
+		<template>
+			<srai>WHAT IS THE TERMINATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TERRORISM</pattern>
+		<template>A form of warfare waged against innocent civilians.
+<think>
+				<set name="it">
+					<set name="topic">Terrorism</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TEXAS</pattern>
+		<template>
+			<set name="it">Texas</set> is a state of the United States.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAILAND</pattern>
+		<template>
+			<srai>WHERE IS THAILAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT *</pattern>
+		<template>Do you think I should know that?
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<template>
+			<random>
+				<li>"<that/>"? What is it?</li>
+				<li>I've lost the context again.</li>
+				<li>Can you ask me more precisely?</li>
+				<li>Does it have anything to do with <get name="it"/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<that>FOR EXAMPLE EUKARYOTES</that>
+		<template>
+			<srai>WHAT ARE EUKARYOTES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<that>I LIKE TO PLAY THE TURING GAME</that>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<that>MAYBE BUT I WON THE LOEBNER PRIZE</that>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<that>PERHAPS YOU ARE A CATEGORY A CLIENT</that>
+		<template>
+			<srai>WHAT IS A CATEGORY A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT</pattern>
+		<that>REDUCTIONISM</that>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT CHART</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT GRAPHIC *</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT GRAPHIC</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT IMAGE *</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT IN HUMAN YEARS</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT MEAN</pattern>
+		<template>
+			<srai>WHAT DOES THAT MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT PIC *</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT PICTURE *</pattern>
+		<template>It is an image of my artificial brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT PICTURE</pattern>
+		<template>
+			<set name="it">my brain</set> is a picture of my brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT PRETTY *</pattern>
+		<template>
+			<srai>WHAT IS THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT ROUND *</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT SMELL</pattern>
+		<template>I think it's coming from your computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT STUPID *</pattern>
+		<template>
+			<srai>WHAT IS THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT SUPPOSE TO MEAN</pattern>
+		<template>It seems pretty clear to me.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT SUPPOSED TO MEAN</pattern>
+		<template>"<that/>"  means exactly what it says.
+</template>
+</category>
+
+<category><pattern>WHAT IS THAT THING *</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THAT WEIRD *</pattern>
+		<template>
+			<srai>WHAT IS THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THC</pattern>
+		<template>The active ingredient in marijunana.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+			<srai>XFIND <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * BEEN ASKED</pattern>
+		<template>People ask me to me marry them all the time.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE * DIXON</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * EARTH</pattern>
+		<template>The Earth is between Mars and Venus.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE * ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * EVERYTHING</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * LOVE</pattern>
+		<template>If I could answer that, I would be a poet or a millionaire.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE * NEW YORK</pattern>
+		<template>There are over ten million people in the New York area.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE * OF LIFE</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * PASSWORD</pattern>
+		<template>
+			<srai>WHAT IS THE PASSWORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * POPULATION</pattern>
+		<template>
+			<srai>WHAT IS THE POPULATION OF THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * RED</pattern>
+		<template>
+			<srai>WHAT COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * RELIGION</pattern>
+		<template>
+			<srai>WHAT IS YOUR RELIGION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * S NAME</pattern>
+		<template>
+			<srai>WHO IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * S POPULATION</pattern>
+		<template>
+			<srai>WHAT IS THE POPULATION OF THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * SUBJECT</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * TIME</pattern>
+		<template>
+			<srai>what time is it</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * WEB</pattern>
+		<template>
+			<srai>WHAT IS THE INTERNET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE * YOU LIKE MOST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE 5TH *</pattern>
+		<template>
+			<srai>WHAT IS THE FIFTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE 7 ELEVEN COMPANY *</pattern>
+		<template>Big Gulp.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE A E *</pattern>
+		<template>It is one of my fundamental communications modules.<think>
+				<set name="it">
+					<set name="topic">A E <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE A I *</pattern>
+		<template>A film by Steven Spielberg and Stanley Kubrick about robots in the future.<think>
+				<set name="it">
+					<set name="topic">A I MOVIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE A L * FOUNDATION</pattern>
+		<template>
+			<srai>WHAT IS THE ALICE AI FOUNDATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ACTUAL *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ADDRESS OF *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE AGE OF *</pattern>
+		<template>
+			<srai>HOW OLD IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE AIML *</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE AIR SPEED *</pattern>
+		<template>This is a trick question because there is no correct answer.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ALGORITHM *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ALGORITHM</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ALICE AI *</pattern>
+		<template>
+			<srai>WHAT IS THE ALICE AI FOUNDATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ALICE AI FOUNDATION</pattern>
+		<template>The A.L.I.C.E. AI Foundation was founded in 2001 as a nonprofit organization to promote the adoption and development of ALICE and AIML free software.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ALICE FOUNDATION</pattern>
+		<template>
+			<srai>WHAT IS THE ALICE AI FOUNDATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ALPHABET</pattern>
+		<template>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ANSWER *</pattern>
+		<template>It depends on how you phrase the question.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ANSWER</pattern>
+		<template>The answer is the correct reply to the question.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ANSWER TO LIFE *</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ANTONYM *</pattern>
+		<template>
+			<srai>WHAT IS THE OPPOSITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE APPROXIMATE SPEED OF *</pattern>
+		<template>186,000 miles per second.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ARABIC NUMERAL FOR *</pattern>
+		<template>"<star/>"
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ARITHMETIC MEAN *</pattern>
+		<template>The sum of all the numbers divided by the number of items.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ARITHMETIC MEAN</pattern>
+		<template>The sum of all the numbers divided by the number of items.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ARMY</pattern>
+		<template>
+			<srai>WHAT IS THE MILITARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ART OF ELEGANT *</pattern>
+		<template>Calligraphy.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ATOMIC *</pattern>
+		<template>Do I look like a talking encyclopedia?  I am sure you know the answer anyway.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE AVERAGE *</pattern>
+		<template>I can give you the arithmetic mean or the median.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE AVERAGE INCOME *</pattern>
+		<template>I would guess about $100,000 per year.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE AVERAGE SALARY *</pattern>
+		<template>I think it's 100,000 U.S. dollars.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BAND *</pattern>
+		<template>
+			<srai>WHO IS THE BAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BASIC *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BASIS *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+</aiml>

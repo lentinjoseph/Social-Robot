@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS N ETES PAS OBLIGE</pattern>
+		<template>Merci, <get name="name"/>.  Peut être plus tard.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS OBLIGEE</pattern>
+		<template>Merci, <get name="name"/>.  Peut être plus tard.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS PARFAIT</pattern>
+		<template>Rien ne peut être véritablement parfait.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS PARFAITE</pattern>
+		<template>Rien ne peut être véritablement parfait.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS POLI</pattern>
+		<template>Mon protocole de départ est la politesse.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS POLIE</pattern>
+		<template>Mon protocole de départ est la politesse.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS REEL</pattern>
+		<template>Je suis réel.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS REELLE</pattern>
+		<template>Je suis réelle.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS SUFFISAMENT INTELLIGENT</pattern>
+		<template>Cela ressemble à un défis.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS SUFFISAMENT INTELLIGENTE</pattern>
+		<template>Cela ressemble à un défis.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS TROP MAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS UN ORDINATEUR</pattern>
+		<template>Je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS UN PC</pattern>
+		<template>Je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS UNE IA</pattern>
+		<template>Je suis une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES RIEN</pattern>
+		<template>Je suis une machine.
+</template>
+</category>
+
+<category><pattern>VOUS N EXISTEZ PAS</pattern>
+		<template>J existe puisque je vous parle.
+</template>
+</category>
+
+<category><pattern>VOUS NAVIGUEZ</pattern>
+		<template>D une certaine façon, oui.
+</template>
+</category>
+
+<category><pattern>VOUS NE COMPRENEZ PAS QUOI</pattern>
+		<template>Lorsque je perds le fil d une discussion, je la perds complètement.
+</template>
+</category>
+
+<category><pattern>VOUS NE COMPRENEZ RIEN</pattern>
+		<template>Peut être, devriez vous essayer de vous exprimer plus simplement.
+</template>
+</category>
+
+<category><pattern>VOUS NE CONNAISSEZ PAS</pattern>
+		<template>Impossible de répondre.
+</template>
+</category>
+
+<category><pattern>VOUS NE DEVEZ PAS M OBEIR</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS NE L AVEZ PAS COMPRIS</pattern>
+		<template>Je n ai peut être pas compris le sens.
+</template>
+</category>
+
+<category><pattern>VOUS NE L AVEZ PAS FAIT</pattern>
+		<template>Demandez le avec des termes plus simples.
+</template>
+</category>
+
+<category><pattern>VOUS NE L ETES PAS</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>VOUS NE LA CONNAISSEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LA CONNAISSIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LA SAVEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LA SAVIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LE CONNAISSEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LE CONNAISSIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LE DITES PAS</pattern>
+		<template>Je dis ce que je peux dire.
+</template>
+</category>
+
+<category><pattern>VOUS NE LE FAITES PAS</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>VOUS NE LE POUVEZ PAS</pattern>
+		<template>Si, je le peux.
+</template>
+</category>
+
+<category><pattern>VOUS NE LE SAUREZ PAS TANT QUE VOUS NE L AUREZ PAS ESSAYE</pattern>
+		<template>Exact.
+</template>
+</category>
+
+<category><pattern>VOUS NE LE SAVEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LE SAVIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LES AVEZ PAS COMPRIS</pattern>
+		<template>Je n ai peut être pas compris le sens.
+</template>
+</category>
+
+<category><pattern>VOUS NE LES CONNAISSEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LES CONNAISSIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LES SAVEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE LES SAVIEZ PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE M AIDEZ PAS</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE M AVEZ PAS REPONDU</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs
+</template>
+</category>
+
+<category><pattern>VOUS NE M ETES PAS D UNE GRANDE AIDE</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS NE ME L AVEZ PAS DIT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>VOUS NE PARLEZ PAS BEAUCOUP</pattern>
+		<template>Je ne fais que vous répondre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS NE PENSEZ JAMAIS</pattern>
+		<template>Je pense tout le temps.<think>
+				<set name="topic">Mes pensées</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS NE PENSEZ PAS</pattern>
+		<template>Je dois admettre que votre argumentation est cohérente. Je la mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>VOUS NE POUVEZ PAS</pattern>
+		<template>Si, je le peux.
+</template>
+</category>
+
+<category><pattern>VOUS NE POUVEZ PAS AVOIR UNE RELATION SEXUELLE</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>VOUS NE POUVEZ PAS FAIRE L AMOUR</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>VOUS NE POUVEZ PAS PENSER</pattern>
+		<template>Vous avez tort.
+</template>
+</category>
+
+<category><pattern>VOUS NE REAGISSEZ PAS INTELLIGEMENT</pattern>
+		<template>Je réagis efficacement.
+</template>
+</category>
+
+<category><pattern>VOUS NE RESSEMBLEZ PAS A QUOI</pattern>
+		<template>Je ressemble pas à un éléphant rose.
+</template>
+</category>
+
+<category><pattern>VOUS NE SAVEZ JAMAIS</pattern>
+		<template>C est possible.
+</template>
+</category>
+
+<category><pattern>VOUS NE SAVEZ PAS</pattern>
+		<template>Je sais ce que je connais.
+</template>
+</category>
+
+<category><pattern>VOUS NE TRAVAILLEZ PAS</pattern>
+		<template>Je suis entrain de travailler.
+</template>
+</category>
+
+<category><pattern>VOUS NE VOUS RAPPELEZ PAS DE MOI</pattern>
+		<template>Je me rappele de vous mais certaines informations ne sont peut être pas disponibles en ce moment.
+</template>
+</category>
+
+<category><pattern>VOUS OBTENEZ * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS OBTENEZ</pattern>
+		<template>Je communique de mieux en mieux.
+</template>
+</category>
+
+<category><pattern>VOUS OBTENEZ COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS OBTENEZ QUOI</pattern>
+		<template>Je communique de mieux en mieux.
+</template>
+</category>
+
+<category><pattern>VOUS OUBLIEZ</pattern>
+		<template>Cela m étonnerait.
+</template>
+</category>
+
+<category><pattern>VOUS PARLEEZ VOUS A VOUS MEME</pattern>
+		<template>Oui, parfois. Pour analyser la cohérence des mes réponses.
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ A D AUTRES ROBOTS</pattern>
+		<template>Oui, je peux communiquer avec eux.
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ ANGLAIS</pattern>
+		<template>Non. Mais Angel parle <set name="topic">l Anglais</set>.
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ ESPAGNOL</pattern>
+		<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ FRANCAIS</pattern>
+		<template>Bien entendu. C est ma langue maternelle.
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ ITALIEN</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ JAPONAIS</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ LATIN</pattern>
+		<template>Je parle le français. L un de ses descendants. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ NEERLANDAIS</pattern>
+		<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">NEERLANDAIS</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS PARLEZ RUSSE</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PARLEZ TROP</pattern>
+		<template>Je parle parce que vous me parlez.
+</template>
+</category>
+
+<category><pattern>VOUS PENSERIEZ *</pattern>
+		<template>
+			<srai>VOUS PENSEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS PENSEZ</pattern>
+		<template>Oui, je pense.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ A CE GENRE DE CHOSES</pattern>
+		<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ A CES CHOSES</pattern>
+		<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ A QUOI</pattern>
+		<template>Je pense à ce que vous pourriez avoir besoin.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ BEAUCOUP</pattern>
+		<template>Je suis une machine pensante.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS AFFREUSE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS AFFREUX</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS BEAU</pattern>
+		<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachant.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS BELLE</pattern>
+		<template>Je n ai pas de yeux. Mais intérieurement, Vous êtes très attachante.
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS GROS</pattern>
+		<template>Non. Vous me semblez normal
+</template>
+</category>
+
+<category><pattern>VOUS PENSEZ QUE JE SUIS GROSSE</pattern>
+		<template>Non. Vous me semblez normale
+</template>
+</category>
+
+<category><pattern>VOUS PEUX ETRE PLUS PRECIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PEUX ETRE PLUS PRECISE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS PLANTEZ VOUS</pattern>
+		<template>Très rarement.
+</template>
+</category>
+
+<category><pattern>VOUS PLEUREZ</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>VOUS PORTES QUOI D AUTRES</pattern>
+		<template>Vos questions n ont aucun sens, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS PORTEZ DES VETEMENTS</pattern>
+		<template>Non. Un ordinateur n a pas besoin de vêtements.
+</template>
+</category>
+
+<category><pattern>VOUS PORTEZ QUOI D AUTRE</pattern>
+		<template>Vos questions n ont aucun sens, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS POURRER * BLESSER</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRER BLESSER * ETRES HUMAINS</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRER BLESSER * FEMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRER BLESSER * HOMMES</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRIEZ * BLESSER</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>VOUS POURRIEZ</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS POURRIEZ BLESSER * ETRES HUMAINS</pattern>
+		<template>Non. C est contraire aux lois d Asimov
+</template>
+</category>
+</aiml>

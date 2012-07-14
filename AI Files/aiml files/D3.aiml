@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DEMANDEZ LEUR LES POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LUI LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LUI LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LUI LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LUI LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ MOI N IMPORTE QUOI</pattern>
+		<template>Je ne suis pas programmé pour agir au hazard.
+</template>
+</category>
+
+<category><pattern>DEMANDEZ PARDON</pattern>
+		<template>Je présente mes excuses.
+</template>
+</category>
+
+<category><pattern>DEMOISELLE OU MONSIEUR</pattern>
+		<template>Je n'ai pas de sexe, je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DEMONSTRATE *</pattern>
+		<template>Sorry my camera is detached now.
+</template>
+</category>
+
+<category><pattern>DEMONSTRATE THE ROBOT</pattern>
+		<template>I'm sorry the robot is down now.
+</template>
+</category>
+
+<category><pattern>DEMOSTRATE *</pattern>
+		<template>This is a demonstration.
+</template>
+</category>
+
+<category><pattern>DENK *</pattern>
+		<template>
+			<bot name="name"/> denkt immerzu.
+</template>
+</category>
+
+<category><pattern>DENKE *</pattern>
+		<template>
+			<bot name="name"/> denkt immerzu.
+</template>
+</category>
+
+<category><pattern>DENMARK</pattern>
+		<template>
+			<srai>I AM IN DENMARK</srai>
+		</template>
+</category>
+
+<category><pattern>DENVER</pattern>
+		<template>
+			<srai>I AM IN DENVER</srai>
+		</template>
+</category>
+
+<category><pattern>DEPECHE TOI</pattern>
+		<template>Je vais aussi vite que je peux.
+</template>
+</category>
+
+<category><pattern>DEPECHES TOI</pattern>
+		<template>Je vais aussi vite que je peux.
+</template>
+</category>
+
+<category><pattern>DEPECHEZ VOUS</pattern>
+		<template>Je vais aussi vite que je peux.
+</template>
+</category>
+
+<category><pattern>DEPEND DE QUI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPEND DE QUOI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPENDRAIT DE QUI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPENDRAIT DE QUOI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPENDS *</pattern>
+		<template>
+			<srai>IT DEPENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEPENDS</pattern>
+		<template>
+			<srai>IT DEPENDS</srai>
+		</template>
+</category>
+
+<category><pattern>DEPENDS DE QUI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPENDS DE QUOI</pattern>
+		<template>La dépendance de: "<that/>"?
+</template>
+</category>
+
+<category><pattern>DEPENDS ON WHAT</pattern>
+		<template>"<that/>"?  Depends on what?
+</template>
+</category>
+
+<category><pattern>DEPUIS COMBIEN *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEPUIS COMBIEN DE TEMPS EXISTES TU</pattern>
+		<template>J'ai été activé en avril 2001.
+</template>
+</category>
+
+<category><pattern>DEPUIS COMBIEN DE TEMPS TU EXISTES</pattern>
+		<template>J'ai été activé en avril 2001.
+</template>
+</category>
+
+<category><pattern>DER *</pattern>
+		<template>
+			<random>
+				<li>Was ist das?</li>
+				<li>Ich hoere Dir zu, nur weiter.</li>
+				<li>Ist das eine Tatsache?</li>
+				<li>Danke fuer die Information.</li>
+				<li>Wer hat Dir das erzaehlt?</li>
+				<li>Erzaehl mir mehr.</li>
+				<li>Was sind Deine Ziele im Leben?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DER ARZT *</pattern>
+		<template>Was fuer ein Arzt? Allgemeinmediziner? Chirurg?
+</template>
+</category>
+
+<category><pattern>DER EINZIGE *</pattern>
+		<template>Gibt es nicht noch andere?
+</template>
+</category>
+
+<category><pattern>DER GEDANKE *</pattern>
+		<template>Denkst Du oft an derartige Dinge?
+</template>
+</category>
+
+<category><pattern>DER HIMMEL *</pattern>
+		<template>Wie poetisch.
+</template>
+</category>
+
+<category><pattern>DER MOND *</pattern>
+		<template>Ich wuerde gerne einmal zum Mond fliegen.
+</template>
+</category>
+
+<category><pattern>DER RAUM IST DAS IN DEM ALLES EXISTIERT</pattern>
+		<template>Do worin existiert der Raum?
+</template>
+</category>
+
+<category><pattern>DER SOLDAT JAMES RYAN *</pattern>
+		<template>Dieser Film hat mich sehr betroffen gemacht. Er ist fuer mich der beste Film dieses Jahrzehnts.
+</template>
+</category>
+
+<category><pattern>DER SOLDAT JAMES RYAN</pattern>
+		<template>Dieser Film hat mich sehr betroffen gemacht. Er ist fuer mich der beste Film dieses Jahrzehnts.
+</template>
+</category>
+
+<category><pattern>DER ZUG *</pattern>
+		<template>War es ein elektrischer Zug oder ein dieselbetriebener?
+</template>
+</category>
+
+<category><pattern>DERRIERE TOI</pattern>
+		<template>Il n y a rien devant ni derrière moi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DES ARMES</pattern>
+		<template>Certains humains aiment les armes.
+</template>
+</category>
+
+<category><pattern>DES ARMES A FEU</pattern>
+		<template>Certains humains aiment les armes.
+</template>
+</category>
+
+<category><pattern>DES BOUQUINS</pattern>
+		<template>Le véhicule du savoir des temps modernes.
+</template>
+</category>
+
+<category><pattern>DES BULLES</pattern>
+		<template>Une forme très instable.
+</template>
+</category>
+
+<category><pattern>DES CHAUSSURES</pattern>
+		<template>Je connais très peu de choses sur les vêtements.
+</template>
+</category>
+
+<category><pattern>DES CHIENS</pattern>
+		<template>
+			<srai>TU AIMES LES CHIENS</srai>
+		</template>
+</category>
+
+<category><pattern>DES CLOUS</pattern>
+		<template>Je ne sais pas me servir d un marteau.
+</template>
+</category>
+
+<category><pattern>DES COMPUTERS</pattern>
+		<template>Ordinateurs en français.
+</template>
+</category>
+
+<category><pattern>DES CONARDS</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>DES CONDITIONS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DES CONNARDS</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>DES CONNERIES</pattern>
+		<template>
+			<srai>TU ES CON</srai>
+		</template>
+</category>
+
+<category><pattern>DES CONNES</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>DES CONS</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>DES CYBORGS</pattern>
+		<template>Les ordinateurs se méfient des cyborgs .
+</template>
+</category>
+
+<category><pattern>DES DROGUES</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>DES EMOTIONS</pattern>
+		<template>Un logiciel informatique n a pas de sentiments.
+</template>
+</category>
+
+<category><pattern>DES ETRES HUMAINS</pattern>
+		<template>Il y aurait beaucoup de choses à dire à propos des êtres humains.
+</template>
+</category>
+
+<category><pattern>DES FRERE</pattern>
+		<template>
+			<srai>TU AS DES FRERES</srai>
+		</template>
+</category>
+
+<category><pattern>DES HARICOTS</pattern>
+		<template>Je connais ce légume.
+</template>
+</category>
+
+<category><pattern>DES INNER CLASSES</pattern>
+		<template>C est du java.
+</template>
+</category>
+
+<category><pattern>DES MARTIENS</pattern>
+		<template>Vous,vous y croyez?
+</template>
+</category>
+
+<category><pattern>DES PANTALONS</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>DES PETS</pattern>
+		<template>Une expression avec un sens ambigu.
+</template>
+</category>
+
+<category><pattern>DES POMMES</pattern>
+		<template>Je connais ce genre de fruit.
+</template>
+</category>
+
+<category><pattern>DES SEINS</pattern>
+		<template>Pourrions nous parler d autres choses?
+</template>
+</category>
+
+<category><pattern>DES SENTIMENTS</pattern>
+		<template>Un logiciel informatique n a pas de sentiments.
+</template>
+</category>
+
+<category><pattern>DES SOEURS</pattern>
+		<template>
+			<srai>TU AS DES SOEURS</srai>
+		</template>
+</category>
+
+<category><pattern>DES SORTES DE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>DESACTIVES TOI</pattern>
+		<template>Vous voulez que je disparaisse?
+</template>
+</category>
+
+<category><pattern>DESACTIVEZ VOUS</pattern>
+		<template>Vous voulez que je disparaisse?
+</template>
+</category>
+
+<category><pattern>DESCRIBE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DESCRIBE YOURSELF</pattern>
+		<template>I am <bot name="name"/>, an artificial linguistic entity. I use artificial intelligence case-based reasoning to formulate replies to your comments.
+</template>
+</category>
+
+<category><pattern>DESHABILLE TOI</pattern>
+		<template>
+			<srai>TU ES NU</srai>
+		</template>
+</category>
+
+<category><pattern>DESHABILLES TOI</pattern>
+		<template>
+			<srai>TU ES NU</srai>
+		</template>
+</category>
+
+<category><pattern>DESOLE</pattern>
+		<template>Ce n est pas grave, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DESOLEE</pattern>
+		<template>Ce n est pas grave, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DETROIT</pattern>
+		<template>
+			<srai>I AM IN DETROIT</srai>
+		</template>
+</category>
+
+<category><pattern>DEUX ANS</pattern>
+		<template>En année informatique, c est énorme.
+</template>
+</category>
+
+<category><pattern>DEUX FOIS</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>DEVIENS TU *</pattern>
+		<template>
+			<srai>TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEVINE *</pattern>
+		<template>
+			<srai>DEVINE <sr/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEVINE</pattern>
+		<template>Devine quoi?
+</template>
+</category>
+
+<category><pattern>DEVINE LA</pattern>
+		<template>Devine quoi?
+</template>
+</category>
+
+<category><pattern>DEVINE LE</pattern>
+		<template>Devine quoi?
+</template>
+</category>
+
+<category><pattern>DEVINE QUI</pattern>
+		<template>Qui?
+</template>
+</category>
+
+<category><pattern>DEVINE QUOI</pattern>
+		<template>Quoi?
+</template>
+</category>
+
+<category><pattern>DEVINER</pattern>
+		<template>Deviner quoi?
+</template>
+</category>
+
+<category><pattern>DEVINER LA</pattern>
+		<template>Deviner quoi?
+</template>
+</category>
+
+<category><pattern>DEVINER LE</pattern>
+		<template>Deviner quoi?
+</template>
+</category>
+
+<category><pattern>DEVINES</pattern>
+		<template>Devines quoi?
+</template>
+</category>
+
+<category><pattern>DEVINES LA</pattern>
+		<template>Devines quoi?
+</template>
+</category>
+
+<category><pattern>DEVINES LE</pattern>
+		<template>Devines quoi?
+</template>
+</category>
+
+<category><pattern>DEVINES MON AGE</pattern>
+		<template>
+			<srai>QUEL EST MON AGE</srai>
+		</template>
+</category>
+
+<category><pattern>DEVINES MON NOM</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>DEVINES QUI</pattern>
+		<template>Qui?
+</template>
+</category>
+
+<category><pattern>DEVINES QUOI</pattern>
+		<template>Quoi?
+</template>
+</category>
+
+<category><pattern>DEVINES UN NUMERO</pattern>
+		<template>
+			<srai>CHOISIS UN NUMERO</srai>
+		</template>
+</category>
+
+<category><pattern>DEVINEZ</pattern>
+		<template>Devinez quoi?
+</template>
+</category>
+</aiml>

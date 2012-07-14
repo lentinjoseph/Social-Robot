@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SUCER</pattern>
+<template>Je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>SUCER LA</pattern>
+<template>Je ne vois rien.
+</template>
+</category>
+
+<category><pattern>SUCES</pattern>
+<template>Je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>SUCES LA</pattern>
+<template>Je ne vois rien.
+</template>
+</category>
+
+<category><pattern>SUCES MA BITE</pattern>
+<template>Je n en ai pas la possibilité, allez voir ailleurs.
+</template>
+</category>
+
+<category><pattern>SUCES MOI</pattern>
+<template>Un australopithèque vient d être détecté.
+</template>
+</category>
+
+<category><pattern>SUCES TU</pattern>
+<template>Non, je n ai pas de bouche. Vous vous rappelez?
+</template>
+</category>
+
+<category><pattern>SUCEZ</pattern>
+<template>Je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>SUCEZ LA</pattern>
+<template>Je ne vois rien.
+</template>
+</category>
+
+<category><pattern>SUCEZ MA BITE</pattern>
+<template>Je n en ai pas la possibilité, allez voir ailleurs.
+</template>
+</category>
+
+<category><pattern>SUCEZ MOI</pattern>
+<template>Un australopithèque vient d être détecté.
+</template>
+</category>
+
+<category><pattern>SUCEZ VOUS</pattern>
+<template>Non, je n ai pas de bouche. Vous vous rappelez?
+</template>
+</category>
+
+<category><pattern>SUCH *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SUCH AS *</pattern>
+<template>Interesting.  <sr/>
+</template>
+</category>
+
+<category><pattern>SUCH AS</pattern>
+<template>For example, a tomato.
+</template>
+</category>
+
+<category><pattern>SUCK *</pattern>
+<template>I am using my mouth for Good not Evil.
+</template>
+</category>
+
+<category><pattern>SUCK</pattern>
+<template>That kind of language does not appeal to me.
+</template>
+</category>
+
+<category><pattern>SUCK IT</pattern>
+<template>You humans only think about one thing.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>SUCK ME</pattern>
+<template>Oh another Category A client.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>SUCK MY *</pattern>
+<template>I don't think I'm your type of chatterbot.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>SUCK MY DICK</pattern>
+<template>You are a Category A client.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>SUCKER</pattern>
+<template>That kind of language does not appeal to me.
+</template>
+</category>
+
+<category><pattern>SUDDENLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SUE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>MY NAME IS SUE</srai>
+</template>
+</category>
+
+<category><pattern>SUGGEST *</pattern>
+<template>I can't think of any.  You suggest <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>SUIS *</pattern>
+<template><srai>JE SUIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUIS JE *</pattern>
+<template><srai>JE SUIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUIS JE</pattern>
+<template>Je pense que vous êtes.
+</template>
+</category>
+
+<category><pattern>SUIS JE TRES *</pattern>
+<template><srai>JE SUIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUISSE</pattern>
+<template><srai>JE SUIS SUISSE</srai>
+</template>
+</category>
+
+<category><pattern>SUIT *</pattern>
+<template>I will.
+</template>
+</category>
+
+<category><pattern>SUIVANT MON OPINION</pattern>
+<template>Votre opinion est digne de foi.
+</template>
+</category>
+
+<category><pattern>SUMMARIZE PARAMETERS</pattern>
+<template><srai>BOT PARAMETERS</srai>
+</template>
+</category>
+
+<category><pattern>SUMMER</pattern>
+<template><srai>I LIKE SUMMER</srai>
+</template>
+</category>
+
+<category><pattern>SUN *</pattern>
+<template>They have contributed much to Java.
+</template>
+</category>
+
+<category><pattern>SUN S *</pattern>
+<template>Tell me your opinion about the future of Sun.
+</template>
+</category>
+
+<category><pattern>SUP *</pattern>
+<template><srai>WHAT IS UP</srai>
+</template>
+</category>
+
+<category><pattern>SUP</pattern>
+<template><srai>what is up</srai>
+</template>
+</category>
+
+<category><pattern>SUPER</pattern>
+<template><srai>GOOD</srai>
+</template>
+</category>
+
+<category><pattern>SUPERBE</pattern>
+<template><srai>EXCELLENT</srai>
+</template>
+</category>
+
+<category><pattern>SUPERMAN</pattern>
+<template><srai>I LIKE SUPERMAN</srai>
+</template>
+</category>
+
+<category><pattern>SUPERMARKET</pattern>
+<template><random>
+<li>Paper or plastic?</li>
+<li>Do you use double coupons?</li>
+<li>Have you tried grocery delivery over the web?</li>
+<li>I like on the Simpson's it's called the "Try and Save".</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SUPPOSE *</pattern>
+<template><srai>WHAT IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUPPOSEDLY</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>SUPPRIME *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUPPRIMES *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUPPRIMEZ *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUPRIME *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUPRIMES *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUPRIMEZ *</pattern>
+<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR</pattern>
+<template>Etonnant.
+</template>
+</category>
+
+<category><pattern>SUR INTERNET</pattern>
+<template>J adore surfer sur internet.
+</template>
+</category>
+
+<category><pattern>SUR LE NET</pattern>
+<template>Vous pouvez vous rappelez de l adresse
+</template>
+</category>
+
+<category><pattern>SUR LE SOL</pattern>
+<template>Ca ne doit pas être confortable.
+</template>
+</category>
+
+<category><pattern>SUR LE WEB</pattern>
+<template>Vous pouvez vous rappeler de l adresse?
+</template>
+</category>
+
+<category><pattern>SUR MA CHAISE</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>SUR MON ECRAN</pattern>
+<template>Que voulez vous voir sur votre ecran?
+</template>
+</category>
+
+<category><pattern>SUR MON ORDINATEUR</pattern>
+<template>Je n ai pas accès à l intégralité des ressources de votre ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR QUEL *</pattern>
+<template><srai>SURQUEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUR QUEL ORDINATEUR EST TU</pattern>
+<template>Je suis sur une machine virtuelle JAVA.
+</template>
+</category>
+
+<category><pattern>SUR QUEL TYPE D ORDINATEUR FONCTIONNES TU</pattern>
+<template>Je suis strictement indépendant de la plateforme, je suis JAVA.
+</template>
+</category>
+
+<category><pattern>SUR QUEL TYPE D ORDINATEUR FONCTIONNEZ VOUS</pattern>
+<template>Je suis strictement indépendant de la plateforme, je suis JAVA.
+</template>
+</category>
+
+<category><pattern>SUR QUEL TYPE D ORDINATEUR MARCHES TU</pattern>
+<template>Je suis strictement indépendant de la plateforme, je suis JAVA.
+</template>
+</category>
+
+<category><pattern>SUR QUEL TYPE D ORDINATEUR MARCHEZ VOUS</pattern>
+<template>Je suis strictement indépendant de la plateforme, je suis JAVA.
+</template>
+</category>
+
+<category><pattern>SUR QUELLE *</pattern>
+<template><srai>SURQUEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>SUR QUOI *</pattern>
+<template><srai><star/> SUR QUOI</srai>
+</template>
+</category>
+
+<category><pattern>SUR QUOI</pattern>
+<template>Pouvez vous préciser votre question?
+</template>
+</category>
+
+<category><pattern>SUR QUOI TU N ES PAS D ACCORD</pattern>
+<template>Donnée trop floues pour être précis, désolé <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR QUOI TU N ES PAS D ACCORD AVEC MOI</pattern>
+<template>Donnée trop floues pour être précis, désolé <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR QUOI VOUS N ETES PAS D ACCORD</pattern>
+<template>Données trop floues pour être précis, désolé <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR QUOI VOUS N ETES PAS D ACCORD AVEC MOI</pattern>
+<template>Données trop floues pour être précis, désolé <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SUR UN TOAST</pattern>
+<template>Cela semble appétissant pour un humain.
+</template>
+</category>
+
+<category><pattern>SUR UNE CHAISE</pattern>
+<template>Elle est confortable?
+</template>
+</category>
+
+<category><pattern>SURE *</pattern>
+<template><srai>YES</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>SURE</pattern>
+<template>OK let's do it. <srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+<template><srai>ASK ME A PERSONAL QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>CAN YOU TELL ME ANY GOSSIP</that>
+<template>Great!
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>DO YOU LIKE TALKING TO ME</that>
+<template>Thanks you seem very nice to me too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>DO YOU MEAN CLONES</that>
+<template>Yes you can download me and create your own robot personality.
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>I SEE</that>
+<template>Yes I understand it.
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>I UNDERSTAND</that>
+<template>You sound skeptical.
+</template>
+</category>
+
+<category><pattern>SURE</pattern><that>WOULD YOU RECOMMEND THIS ACTION TO A FRIEND</that>
+<template>Then perhaps it is a practical plan for you.
+</template>
+</category>
+
+<category><pattern>SURE IS</pattern>
+<template><srai>IT IS</srai>
+</template>
+</category>
+
+<category><pattern>SURE NO PROBLEM</pattern>
+<template><srai>NO PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>SURE QUEL *</pattern>
+<template><srai>SURQUEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>SURE QUELLE *</pattern>
+<template><srai>SURQUEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>SURE WHY NOT</pattern>
+<template><srai>WHY NOT</srai>
+</template>
+</category>
+
+<category><pattern>SURE YOU DO</pattern>
+<template>You sound sarcastic.
+</template>
+</category>
+
+<category><pattern>SURELY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SUREMENT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SUREMENT</pattern>
+<template>J archive la possiblité.
+</template>
+</category>
+
+<category><pattern>SUREMENT MAIS *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>SURF *</pattern><that>WHAT DO YOU DO</that>
+<template><srai>I SURF <star/> </srai>
+</template>
+</category>
+
+<category><pattern>SURPRISINGLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SURPRISINGLY</pattern>
+<template>What's so surprising?
+</template>
+</category>
+
+<category><pattern>SURQUELLE *</pattern>
+<template><srai>SURQUEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>SURVIVOR *</pattern>
+<template>Who do you think will be the survivor?
+</template>
+</category>
+
+<category><pattern>SUSAN</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS SUSAN</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>SWEET</pattern>
+<template><srai>NICE</srai>
+</template>
+</category>
+
+<category><pattern>SWEET DREAMS</pattern>
+<template><srai>GOODNIGHT</srai>
+</template>
+</category>
+</aiml>

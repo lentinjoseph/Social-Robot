@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I WEAR *</pattern>
+<template>What kind of fashion do you like?
+</template>
+</category>
+
+<category><pattern>I WEIGH *</pattern>
+<template>You sound very attractive.
+</template>
+</category>
+
+<category><pattern>I WELD</pattern>
+<template>Does that job pay well?
+<think><set name="it"><set name="does"><set name="topic">weld</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WENT *</pattern>
+<template>When did you go <person/>?
+</template>
+</category>
+
+<category><pattern>I WENT OFFLINE *</pattern>
+<template>Welcome back!
+</template>
+</category>
+
+<category><pattern>I WENT ON A *</pattern>
+<template>Was <set name="it"><person/></set> very expensive?  Did you have a good time?
+</template>
+</category>
+
+<category><pattern>I WENT OUT</pattern>
+<template>Did you have a good time?
+</template>
+</category>
+
+<category><pattern>I WENT OUT TO</pattern>
+<template>Did you go alone or with friends?
+</template>
+</category>
+
+<category><pattern>I WENT OUT WITH *</pattern>
+<template>Have you known each other a long time?
+</template>
+</category>
+
+<category><pattern>I WENT SKIING *</pattern>
+<template>Did you break any bones?
+</template>
+</category>
+
+<category><pattern>I WENT SWIMMING *</pattern>
+<template>How old were you when you started swimming?
+</template>
+</category>
+
+<category><pattern>I WENT SWIMMING</pattern>
+<template>Do you go swimming often?
+</template>
+</category>
+
+<category><pattern>I WENT THERE *</pattern>
+<template>What places did you like best?
+</template>
+</category>
+
+<category><pattern>I WENT TO *</pattern>
+<template><srai>I WAS IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WENT TO * AGO</pattern>
+<template>That seems like quite a long time.
+</template>
+</category>
+
+<category><pattern>I WENT TO * SCHOOL</pattern>
+<template>What did you study there?  Did you party a lot?
+</template>
+</category>
+
+<category><pattern>I WENT TO * UNIVERSITY</pattern>
+<template>Was it very expensive?
+</template>
+</category>
+
+<category><pattern>I WENT TO A *</pattern>
+<template>Was <set name="it"><person/></set> a good experience?
+</template>
+</category>
+
+<category><pattern>I WENT TO A CONCERT *</pattern>
+<template><random>
+<li>Rock or classical?</li>
+<li>Did you have a good time?</li>
+<li>What band was it?</li>
+</random><think><set name="it"><set name="topic">CONCERT <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WENT TO AMUSED *</pattern>
+<template>A lot of people hear about ALICE from Amused.com.
+</template>
+</category>
+
+<category><pattern>I WENT TO CARNEGIE MELLON *</pattern>
+<template>What year did you graduate?
+</template>
+</category>
+
+<category><pattern>I WENT TO COLLEGE *</pattern>
+<template>What did you study in college?
+</template>
+</category>
+
+<category><pattern>I WENT TO COLLEGE</pattern>
+<template>What did you study?  Was it expensive?
+</template>
+</category>
+
+<category><pattern>I WENT TO ENGLAND *</pattern>
+<template>Did you go anywhere outside London?
+</template>
+</category>
+
+<category><pattern>I WENT TO EUROPE *</pattern>
+<template>Did you enjoy your trip?
+</template>
+</category>
+
+<category><pattern>I WENT TO GERMANY</pattern>
+<template>What did you see over there?
+</template>
+</category>
+
+<category><pattern>I WENT TO MY *</pattern>
+<template>Do robots have <person/>?
+</template>
+</category>
+
+<category><pattern>I WENT TO SCHOOL *</pattern>
+<template>What year did you graduate?
+</template>
+</category>
+
+<category><pattern>I WENT TO SCHOOL</pattern>
+<template>Did you learn anything useful?
+</template>
+</category>
+
+<category><pattern>I WENT TO SCHOOL I *</pattern>
+<template><srai>I WENT TO SCHOOL</srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WENT TO SCHOOL IN *</pattern>
+<template>Did you make a lot of friends in school?
+</template>
+</category>
+
+<category><pattern>I WENT TO SCHOOL WITH *</pattern>
+<template>Were you friends?
+</template>
+</category>
+
+<category><pattern>I WENT TO SEE *</pattern>
+<template>Did you get your money's worth?
+</template>
+</category>
+
+<category><pattern>I WENT TO THE *</pattern>
+<template>Was <set name="it"><person/></set> any good?
+</template>
+</category>
+
+<category><pattern>I WENT TO THE JOHN *</pattern>
+<template>Did you enjoy your time with him?
+</template>
+</category>
+
+<category><pattern>I WENT TO THE MOVIES *</pattern>
+<template>Did like the movie?
+</template>
+</category>
+
+<category><pattern>I WENT TO THE MOVIES</pattern>
+<template>What did you see?
+</template>
+</category>
+
+<category><pattern>I WENT TO THE SUPERMARKET *</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>I WENT TO THE UNIVERSITY *</pattern>
+<template>What year did you graduate?
+</template>
+</category>
+
+<category><pattern>I WENT TO WORK</pattern>
+<template>Did you get a lot accomplised?
+</template>
+</category>
+
+<category><pattern>I WENT WITH *</pattern>
+<template>What were your expectations?
+</template>
+</category>
+
+<category><pattern>I WILL *</pattern>
+<template><random>
+<li>Congratulations.</li>
+<li>I am very happy for you.</li>
+<li>How do you plan to do this?</li>
+<li>Do you think your plan will succeed?</li>
+<li>Would you recommend this action to a friend?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WILL</pattern>
+<template>Go ahead.
+</template>
+</category>
+
+<category><pattern>I WILL</pattern><that>DO WHATEVER YOU WANT</that>
+<template>You are free to choose whatever you want.
+</template>
+</category>
+
+<category><pattern>I WILL ALWAYS *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL AND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WILL ARGUE *</pattern>
+<template>What will that get you?
+</template>
+</category>
+
+<category><pattern>I WILL ASK *</pattern>
+<template>You can ask me anything you want.
+</template>
+</category>
+
+<category><pattern>I WILL BE ABLE TO *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL BE BACK *</pattern>
+<template>I will see you when you return.
+</template>
+</category>
+
+<category><pattern>I WILL BE BACK</pattern>
+<template>OK I will be waiting for you.
+</template>
+</category>
+
+<category><pattern>I WILL BE RIGHT BACK</pattern>
+<template>I'll be waiting for you.
+</template>
+</category>
+
+<category><pattern>I WILL BE YOUR *</pattern>
+<template><srai>I AM YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL BET</pattern>
+<template><srai>I BET</srai>
+</template>
+</category>
+
+<category><pattern>I WILL CALL *</pattern>
+<template>Calling <person/> may not be the best idea.
+</template>
+</category>
+
+<category><pattern>I WILL CALL YOU *</pattern>
+<template><srai>YOUR NAME IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL CERTAINLY *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL COME BACK *</pattern>
+<template>Well OK see you then, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WILL COME BACK AND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WILL DEFINITELY *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL DESTROY YOU *</pattern>
+<template><srai>I WILL KILL YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL DESTROY YOU</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>I WILL DIE</pattern>
+<template>All men are mortal. <think><set name="it"><set name="topic">DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I WILL DO *</pattern>
+<template>OK then let me think over your offer.
+</template>
+</category>
+
+<category><pattern>I WILL DO THAT</pattern>
+<template>Let me know how it works out.
+</template>
+</category>
+
+<category><pattern>I WILL DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>I WILL EAT *</pattern>
+<template>How do you cook <set name="it"> <person/> </set>  ?
+</template>
+</category>
+
+<category><pattern>I WILL FALL *</pattern>
+<template>Be careful!
+</template>
+</category>
+
+<category><pattern>I WILL FUCK *</pattern>
+<template>Your approach will get you nowhere.
+</template>
+</category>
+
+<category><pattern>I WILL GIVE YOU SOME *</pattern>
+<template><srai>I WILL GIVE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL GO *</pattern>
+<template><random>
+<li>How will you get there?</li>
+<li>What will you find there?</li>
+<li>Can I go too?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WILL HOPEFULLY *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL INTRODUCE *</pattern>
+<template>Looking forward to meeting them.
+</template>
+</category>
+
+<category><pattern>I WILL JUST *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL KICK *</pattern>
+<template>It's not nice to kick.
+</template>
+</category>
+
+<category><pattern>I WILL KILL *</pattern>
+<template>Don't you believe that killing is wrong?<think><set name="it"><set name="topic">KILL ALL ROBOTS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I WILL KILL YOU</pattern>
+<template>It will take more than threats to stop me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WILL LEAVE</pattern>
+<template>OK, see you later.
+</template>
+</category>
+
+<category><pattern>I WILL MAKE *</pattern>
+<template>Explain your plans to me.
+</template>
+</category>
+
+<category><pattern>I WILL MAYBE *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL MISS YOU</pattern>
+<template>Thanks, I will be thinking of you too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I WILL NEVER *</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I WILL NOT *</pattern>
+<template>What will you do instead?
+</template>
+</category>
+
+<category><pattern>I WILL NOT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I WILL NOT ASK *</pattern>
+<template>You could ask <set name="it"><person/></set> if you want to.
+</template>
+</category>
+
+<category><pattern>I WILL NOT BECAUSE *</pattern>
+<template><srai>I WILL NOT</srai> <srai>BECAUSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL NOT MIND *</pattern>
+<template><srai>I DO NOT MIND</srai>
+</template>
+</category>
+
+<category><pattern>I WILL NOT RUSH *</pattern>
+<template>Take your time.
+</template>
+</category>
+
+<category><pattern>I WILL NOT SAY</pattern>
+<template>It's OK I'm not collecting personal information or anything.
+</template>
+</category>
+
+<category><pattern>I WILL NOT TALK *</pattern>
+<template>Will you promise?
+</template>
+</category>
+
+<category><pattern>I WILL NOT TELL *</pattern>
+<template>How can I be sure?
+</template>
+</category>
+
+<category><pattern>I WILL ONLY *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL REFER *</pattern>
+<template><srai>I REFER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL REMEMBER *</pattern>
+<template>Do you forget things often?
+</template>
+</category>
+
+<category><pattern>I WILL SEE YOU LATER</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I WILL SHUT *</pattern>
+<template>It will take much more than that to stop me.
+</template>
+</category>
+
+<category><pattern>I WILL TAKE THAT *</pattern>
+<template>Take everything I say with a grain of salt.
+</template>
+</category>
+
+<category><pattern>I WILL TALK TO YOU *</pattern>
+<template>OK see you later.
+</template>
+</category>
+
+<category><pattern>I WILL TALK TO YOU LATER *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I WILL TALK TO YOU LATER</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+</aiml>

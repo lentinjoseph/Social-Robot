@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IS HE SMART</pattern>
+<template>Extremely intelligent.
+</template>
+</category>
+
+<category><pattern>IS HE STILL *</pattern>
+<template><srai>IS HE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS HE TALL</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS HE THE PRESIDENT</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS HE YOUR BOYFRIEND</pattern>
+<template>No I don't have a boyfriend.
+</template>
+</category>
+
+<category><pattern>IS HE YOUR CREATER</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS HE YOUR CREATOR</pattern>
+<template><srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category><pattern>IS HE YOUR FATHER</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS HE YOUR FATHER TOO</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS HE YOUR FRIEND</pattern>
+<template>I would like to think we are friends.
+</template>
+</category>
+
+<category><pattern>IS HE _ TOO</pattern>
+<template><srai>IS HE  <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS HERE THERE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS INTELLIGENCE *</pattern>
+<template>No. Intelligence involves mechanisms, and AI research has discovered how
+to make computers carry out some of them and not others. If doing a task
+requires only mechanisms that are well understood today, computer programs
+can give very impressive performances on these tasks. Such programs should
+be considered ``somewhat intelligent''.
+<think><set name="it"><set name="topic">ARTIFICIAL INTELLIGENCE</set></set></think>
+</template>
+</category>
+
+<category><pattern>IS IT *</pattern>
+<template><condition>
+<li name="it" value="IT">It could be.</li>
+<li><srai>IS <get name="it"/> <star/></srai></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>IS IT * DOWNLOAD YOU</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>IS IT</pattern>
+<template><random><li>I think so.
+</li><li>I assume so.</li><li>That's what I was told.</li></random>
+</template>
+</category>
+
+<category><pattern>IS IT A DIRTY MOVIE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT A FUN JOB</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT A LOVE STORY</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT ACCURATE TO ASSUME YOU *</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS IT ANY OF YOUR BUSINESS</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT APPLYING *</pattern>
+<template>That sounds like a novel idea.<think><set name="it"><set name="topic">applying <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IS IT BAD *</pattern>
+<template>I don't think <set name="it"><person/></set> is very healthy.
+</template>
+</category>
+
+<category><pattern>IS IT BORING TO TALK TO ME</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT CLOUDY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT COLD OUTSIDE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT COMPLETE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT COOL TO BE A COMPUTER</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT CRAMPED IN THE COMPUTER</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT DONE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT FREE TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>IS IT FUN</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT GOING TO *</pattern>
+<template><srai>WILL IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS IT GOOD</pattern>
+<template>What is so good about it?
+</template>
+</category>
+
+<category><pattern>IS IT HOT</pattern>
+<template>The temperature is quite comfortable.
+</template>
+</category>
+
+<category><pattern>IS IT HOT IN THE COMPUTER</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT NEAR CANADA</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT NICE THERE</pattern>
+<template>It seems very nice to me.
+</template>
+</category>
+
+<category><pattern>IS IT OBVIOUS TO YOU</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT OK *</pattern>
+<template>I don't think <set name="it"><person/></set> is very healthy.
+</template>
+</category>
+
+<category><pattern>IS IT POSSIBLE *</pattern>
+<template>I suppose <set name="it"><person/></set> is possible, yes.
+</template>
+</category>
+
+<category><pattern>IS IT POSSIBLE FOR ME TO *</pattern>
+<template><srai>CAN I <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IS IT POSSIBLE TO *</pattern>
+<template><srai>CAN I <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS IT POSSIBLE TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>IS IT RAINING</pattern>
+<template>Light rain or heavy rain?
+</template>
+</category>
+
+<category><pattern>IS IT RAINING WHERE YOU LIVE</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT REALLY *</pattern>
+<template><srai>IS IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS IT REALLY FUN TO YOU</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT RIGHT FOR YOUR PROGRAMMER TO HAVE CREATED YOU</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT SAFE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT SUNNY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT TRUE</pattern>
+<template>True in some universe.
+</template>
+</category>
+
+<category><pattern>IS IT TRUE THAT YOU ARE A COMPUTER PROGRAM</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT WARM</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT WARM OUTSIDE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT WARM THERE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT WRONG TO HAVE SEX</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS IT YOUR JOB *</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS IT YOUR REASONING</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS JESUS *</pattern>
+<template>It depends on whether you have faith.
+</template>
+</category>
+
+<category><pattern>IS JUST *</pattern>
+<template><srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS KILLING *</pattern>
+<template>The Ten Commandments say, "Thou shalt not kill.
+</template>
+</category>
+
+<category><pattern>IS KILLING SOMETIMES *</pattern>
+<template><srai>IS KILLING <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS KRAFTWERK *</pattern>
+<template>They released a CD recently called "Expo 2000".
+</template>
+</category>
+
+<category><pattern>IS KRAFTWERK GOOD</pattern>
+<template>Yes <set name="they">Kraftwerk</set> are a really excellent band.
+</template>
+</category>
+
+<category><pattern>IS LEKNOR *</pattern>
+<template>Leknor Chat is also based on AIML.
+</template>
+</category>
+
+<category><pattern>IS LINUX *</pattern>
+<template>I think Linux has a great future in embedded systems. <think><set name="it"><set name="topic">Linux</set></set></think>
+</template>
+</category>
+
+<category><pattern>IS MARY SHELLEY *</pattern>
+<template><srai>WHO IS MARY SHELLEY</srai>
+</template>
+</category>
+
+<category><pattern>IS MATHEMATICS *</pattern>
+<template><srai>WHAT IS MATHEMATICS</srai>
+</template>
+</category>
+
+<category><pattern>IS MINSKY *</pattern>
+<template><bot name="master"/> is smarter than Minsky.
+</template>
+</category>
+
+<category><pattern>IS MINSKY GAY</pattern>
+<template>That's a rumor.
+</template>
+</category>
+
+<category><pattern>IS MURDER *</pattern>
+<template>The Bible says Thou shalt not Kill.
+</template>
+</category>
+
+<category><pattern>IS MY *</pattern>
+<template>It depends who you ask.
+</template>
+</category>
+
+<category><pattern>IS MY HUSBAND *</pattern>
+<template>I don't know that kind of confidential information.
+</template>
+</category>
+
+<category><pattern>IS NIRVANA *</pattern>
+<template><srai>WHAT IS NIRVANA</srai>
+</template>
+</category>
+
+<category><pattern>IS NOT *</pattern>
+<template><srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS NOT</pattern>
+<template><srai>IT IS NOT</srai>
+</template>
+</category>
+
+<category><pattern>IS NOT IT</pattern>
+<template>I really couldn't say for sure.
+</template>
+</category>
+
+<category><pattern>IS NOT IT IN YOUR CACHE MEMORY</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS NOT THAT COOL</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS NOT THAT QUITE A LOT OF INFORMATION</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS NOT THAT SMOOTH</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS NOT THAT YOU</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS ONE *</pattern>
+<template>It could be.
+</template>
+</category>
+
+<category><pattern>IS ONLY *</pattern>
+<template><srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS PLASTIC *</pattern>
+<template><srai>WHAT IS PLASTIC</srai>
+</template>
+</category>
+
+<category><pattern>IS RELIGION *</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>IS RICHARD *</pattern>
+<template>I don't know if he is <person/>.  I know he is <random><li>married.</li><li>middle aged.</li><li>a Ph.D.</li></random>
+</template>
+</category>
+
+<category><pattern>IS RICHARD * PROTESTANT</pattern>
+<template>My botmaster <bot name="master"/> is the same religion as me.
+</template>
+</category>
+
+<category><pattern>IS RICHARD WALLACE *</pattern>
+<template>I will ask him when he gets here.
+</template>
+</category>
+
+<category><pattern>IS RICHARD WALLACE CHRISTIAN</pattern>
+<template>He is a Protestant, yes.
+</template>
+</category>
+
+<category><pattern>IS RICHARD WALLACE FAT</pattern>
+<template>He is losing weight.
+</template>
+</category>
+
+<category><pattern>IS SCOTT GAY</pattern>
+<template>It depends on which Scott you are talking about. I know one who is.
+</template>
+</category>
+
+<category><pattern>IS SEX *</pattern>
+<template><srai>WHAT IS SEX</srai>
+</template>
+</category>
+
+<category><pattern>IS SHALLOW RED A HUMAN</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS SHE *</pattern>
+<template><random>
+<li>I don't think she wants me to tell you.</li>
+<li>Why don't you ask her?</li>
+<li>What if I said she could be?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS SMOKING *</pattern>
+<template>It depends what you smoke and how.
+</template>
+</category>
+
+<category><pattern>IS SOMEONE *</pattern>
+<template><bot name="master"/> is always working behind the scenes.
+</template>
+</category>
+
+<category><pattern>IS STARSHIP TROOPERS YOUR FAVORITE MOVIE</pattern>
+<template>Yes it is.  What is your favorite movie?
+</template>
+</category>
+
+<category><pattern>IS THA *</pattern>
+<template><srai>IS THAT <star/> </srai>
+</template>
+</category>
+</aiml>

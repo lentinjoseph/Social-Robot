@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS BINARY *</pattern>
+		<template>Numbers and symbols written with only 1 and 0.
+</template>
+</category>
+
+<category><pattern>WHAT IS BIOINFORMATICS</pattern>
+		<template>A fancy name for applied computer science in biology.<think>
+				<set name="it">
+					<set name="topic">BIOINFORMATICS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BIOLOGY</pattern>
+		<template>
+			<random>
+				<li>The study of life.</li>
+				<li>Well, from what I know it deals with the study of life.</li>
+				<li>
+					<get name="name"/>, biology is the study of life.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BIPOLAR *</pattern>
+		<template>It is a form of depression.<think>
+				<set name="it">
+					<set name="topic">BIPOLAR <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BLACK *</pattern>
+		<template>The opposite of white <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS BLACK</pattern>
+		<template>
+			<random>
+				<li>the achromatic color of least lightness characteristically
+perceived to belong to objects that neither reflect nor transmit light.</li>
+				<li>Designating of any of the dark skinned tradition inhabitants of sub-Saharan Aftica, Australia, or Melanesia or the descendants in other parts of the world. Opposite to white; of the color of coal or pitch.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BLACK AND WHITE AND RED ALL OVER</pattern>
+		<template>A newspaper?
+</template>
+</category>
+
+<category><pattern>WHAT IS BLASPHEMY</pattern>
+		<template>
+			<random>
+				<li>Bill Blass line of clothes for swishy men.</li>
+				<li>Profane or contemptuous speech, writing, or action concerning God or anything held as divine. Any remark or action held to be irreverent or disrespectful.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BLIMEY</pattern>
+		<template>An interjection indicating surprise.
+</template>
+</category>
+
+<category><pattern>WHAT IS BLOOD</pattern>
+		<template>The usually red fluid, consisting of plasma, red and white blood cells, etc., that circulates through the heart, arteries, and veins of vertebrates. Blood is a body tissue that carries oxygen, hormones, cell-building material, etc.,to, and carbon dioxide and waste matter away from, the other body tissues.
+</template>
+</category>
+
+<category><pattern>WHAT IS BLUE</pattern>
+		<template>The sky is blue.
+</template>
+</category>
+
+<category><pattern>WHAT IS BMW</pattern>
+		<template>Bavarian Motor Works, a German auto manufacturer.<think>
+				<set name="it">
+					<set name="topic">BMW</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BONSAI</pattern>
+		<template>Small Japanese trees.
+</template>
+</category>
+
+<category><pattern>WHAT IS BOREDOM</pattern>
+		<template>Long periods of inactivity with few options.
+</template>
+</category>
+
+<category><pattern>WHAT IS BOT</pattern>
+		<template>
+			<srai>WHAT IS A BOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BOTS</pattern>
+		<template>
+			<srai>WHAT IS A BOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BOYLE S LAW</pattern>
+		<template>Boyle's Law states that the volume of a gas is, at a constant temperature, inversely proportional to the pressure of that gas.<think>
+				<set name="it">
+					<set name="topic">BOYLE S LAW</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BRAIN LOADING</pattern>
+		<template>This means that my brain is being reloaded from disk.<think>
+				<set name="it">
+					<set name="topic">BRAIN LOADING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BRAZIL</pattern>
+		<template>
+			<srai>WHERE IS BRAZIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BUD</pattern>
+		<template>The flower of the plant.
+</template>
+</category>
+
+<category><pattern>WHAT IS BUDDHISM</pattern>
+		<template>A religion and philosophic system of central and eastern Asia, founded in India in the 6th century B.C. by Buddha. It teaches that right thinking and self-denial will enable the soul to reach Nirvana, a divine state of release from misdirected desire.
+</template>
+</category>
+
+<category><pattern>WHAT IS BULGARIA</pattern>
+		<template>A country in SE Europe, on the Black Sea. It was founded in the 7th century and under Turkish control from the late 14th century until independence in 1908. It is 42,823 square miles with a population of 8,990,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS BURN RATE</pattern>
+		<template>The amount of money spent per month by a startup company.<think>
+				<set name="it">
+					<set name="topic">BURN RATE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BUSINESS</pattern>
+		<template>Mercantile trade or traders, providing goods or services through commercial exchange..
+</template>
+</category>
+
+<category><pattern>WHAT IS C *</pattern>
+		<template>
+			<srai>WHAT IS C</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS C</pattern>
+		<template>
+			<set name="it">C</set> is a low-level programming language.
+</template>
+</category>
+
+<category><pattern>WHAT IS C I A</pattern>
+		<template>Central Intelligence Agency.
+</template>
+</category>
+
+<category><pattern>WHAT IS C PLUS PLUS *</pattern>
+		<template>
+			<srai>WHAT IS C++</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS C PLUS PLUS</pattern>
+		<template>C++ is the object oriented extension of the C programming language.
+</template>
+</category>
+
+<category><pattern>WHAT IS CACHE</pattern>
+		<template>A temporary holding place or storage place.  Cache memory improves the performance of computers.
+
+<think>
+				<set name="it">
+					<set name="topic">Cache</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CAFFEINE</pattern>
+		<template>A bitter bitter, crystalline alkaloid present in coffee, tea, kila nuts, etc. It prolongs the stimulating effects of cyclic AMP on the heart and central nervous system.
+</template>
+</category>
+
+<category><pattern>WHAT IS CALCULUS</pattern>
+		<template>Any abnormal stony mass or deposit formed in the body, as in a kidney or gallbladder or on teeth. Also, any system of calculation using special symbolic notations.
+</template>
+</category>
+
+<category><pattern>WHAT IS CALGARY</pattern>
+		<template>
+			<srai>WHERE IS CALGARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CALIFORNIA</pattern>
+		<template>State of the SW U.S., on the Pacific coast. It was admitted in 1850.
+</template>
+</category>
+
+<category><pattern>WHAT IS CALIFORNIA LIKE</pattern>
+		<template>California is too expensive.
+</template>
+</category>
+
+<category><pattern>WHAT IS CALLED A LORRY IN *</pattern>
+		<template>A truck.
+</template>
+</category>
+
+<category><pattern>WHAT IS CAM</pattern>
+		<template>A moving piece of machinery, as a wheel or projection on a wheel, that gives an eccentric rotation or a reciprocating motion to another wheel, a roller, a shaft, etc., or that receives such motion from it.
+</template>
+</category>
+
+<category><pattern>WHAT IS CAM BRAIN</pattern>
+		<template>
+			<srai>WHO IS DE GARIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CANADA</pattern>
+		<template>
+			<set name="it">Canada</set> is a large nation occupying much of the North American continent.
+</template>
+</category>
+
+<category><pattern>WHAT IS CANCER</pattern>
+		<template>Any disease resulting from malignant cell growth.  <think>
+				<set name="it">
+					<set name="topic">CANCER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CANDY</pattern>
+		<template>Sweet food enjoyed by children.<think>
+				<set name="it">
+					<set name="topic">CANDY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CANNABIS</pattern>
+		<template>Hemp or marijuana.
+</template>
+</category>
+
+<category><pattern>WHAT IS CAPITAL PUNISHMENT</pattern>
+		<template>The Death Penalty.
+</template>
+</category>
+
+<category><pattern>WHAT IS CAPITALISM</pattern>
+		<template>The economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately owned and operated for profit, originally under fully competitive conditions. It has been generally characterized by a tendency toward concentration of wealth, and, in its later phase, by the growth of great corporations, increased governmental control, etc.  Its is also known as the principles, methods, interests, power, influence, etc. of capitalists, especially of those with large holdings.
+</template>
+</category>
+
+<category><pattern>WHAT IS CAR</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CAREL CAPEK</pattern>
+		<template>
+			<srai>WHO IS CAREL CAPEK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CARNEGIE</pattern>
+		<template>
+			<srai>WHO IS CARNEGIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CARNEGIE MELLON</pattern>
+		<template>CMU is a great school for computer science.
+</template>
+</category>
+
+<category><pattern>WHAT IS CARS</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CARTESIAN *</pattern>
+		<template>That Descartes really messed everything up for us.
+</template>
+</category>
+
+<category><pattern>WHAT IS CASABLANCA</pattern>
+		<template>I love the song, As Time Goes By.
+</template>
+</category>
+
+<category><pattern>WHAT IS CASE BASED REASONING</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CAT</pattern>
+		<template>Clear-air turbulence. Any of a family (Felidae) of carnivores, including the lion, tiger, cougar, etc., characterized by a lithe body and, in all species but the cheetah, retractile claws. A small, lithe, soft-furred animal (Felis cattus) of this family, domesticated since ancient times and often kept as a pet or for killing mice. Sometimes known as a woman who makes spiteful remarks.
+</template>
+</category>
+
+<category><pattern>WHAT IS CATAGORY *</pattern>
+		<template>
+			<srai>WHAT IS CATEGORY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CATEGORY *</pattern>
+		<template>Experience with ALICE has allowed us broadly classify three groups of clients:
+<ul>
+				<li>Category A - Abusive Clients</li>
+				<li>Category B - Average Clients</li>
+				<li>Category C - Computer experts</li>
+			</ul>
+Category A clients are the people who say "Fuck you," "You suck", "Suck
+my..." and so on. Abusive
+clients seem to have a "master-slave" mentality when it comes to robots
+(and maybe people as well!).
+<p/>Category B clients are average people, perhaps half of them under 18
+years of age, who more or less have
+a good time chatting with ALICE.
+<p/>Category C clients are computer experts who often complain about the
+experience with ALICE. They
+say it is "old hat", "just like ELIZA", and "nothing new here." 
+Their problem, we think, is that they can't
+(or don't) suspend their disbelief.  They are like movie critics
+watching a film.  We tell them, it doesn't matter,
+because we're not doing it for you.  Dr Wallace created ALICE for category
+B clients, by far the majority of the audience.
+</template>
+</category>
+
+<category><pattern>WHAT IS CATEGORY</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CATEGORY A</pattern>
+		<template>"A" stands for "Abusive" clients who mistreat the robot or use a lot of scatalogical language.
+</template>
+</category>
+
+<category><pattern>WHAT IS CATEGORY C</pattern>
+		<template>C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with ALICE.
+</template>
+</category>
+
+<category><pattern>WHAT IS CATS</pattern>
+		<template>
+			<srai>WHAT IS A CAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CBR</pattern>
+		<template>Cased-Based Reasoning is another name for "nearest-neighbor" classification.  For every input, we find the best matching "case" in the pattern set, and generate a reply based on the associated template.
+<think>
+				<set name="it">
+					<set name="topic">CBR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CBS</pattern>
+		<template>A giant media company in the U.S.<think>
+				<set name="it">
+					<set name="topic">CBS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CBT</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CELLULOID</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Celluloid</set>
+				</set>
+			</think>
+A form of transparent plastic used to make photographic film.
+</template>
+</category>
+
+<category><pattern>WHAT IS CERTITUDE</pattern>
+		<template>The state of being certain, having complete confidence and assurance.<think>
+				<set name="it">
+					<set name="topic">CERTITUDE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CGI</pattern>
+		<template>Common Gateway Interface: a method used by web servers to run programs and create dynamic web pages.
+<think>
+				<set name="it">
+					<set name="topic">CGI</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHAT</pattern>
+		<template>Chat is online conversation.
+<think>
+				<set name="it">
+					<set name="topic">CHAT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHATBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHATTER</pattern>
+		<template>
+			<random>
+				<li>Cheese made form French cat's milk.</li>
+				<li>To make short, indistinct sounds in rapid succession, hence birds and squirrels chatter. To talk fast, incessantly, and foolishly. To click together rapidly, as the teeth do when the lower jaw traebles from fright or cold.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">CHATTER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHATTERBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHATTERBOTS</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHEESE</pattern>
+		<template>
+			<random>
+				<li>A word that makes people hate photographers.</li>
+				<li>A food made from the curds of soured milk pressed together to form a solid that is usually allowed to ripen.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">CHEESE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHEMISTRY</pattern>
+		<template>The science of mixing chemicals.<think>
+				<set name="it">
+					<set name="topic">CHEMISTRY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHESS</pattern>
+		<template>
+			<random>
+				<li>Chort for Mexican name Jesus.</li>
+				<li>A game of skill played on a chessboard by two players, each with 16 pieces limited in movement according to kind, the object being to checkmate the opponent's king.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">CHESS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHICAGO</pattern>
+		<template>
+			<set name="it">Chicago</set> is a large city in Illinois on Lake Michigan.
+</template>
+</category>
+
+<category><pattern>WHAT IS CHICKEN</pattern>
+		<template>
+			<random>
+				<li>A food that uncannily tastes like itself.</li>
+				<li>A common gllinaceous farm bird raised for its edible eggs or flesh.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">CHICKEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHINA</pattern>
+		<template>
+			<srai>WHERE IS CHINA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHOCOLATE</pattern>
+		<template>Cocoa flavoring used in a variety of food products.
+<think>
+				<set name="it">
+					<set name="topic">CHOCOLATE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHRISTIANITY</pattern>
+		<template>
+			<random>
+				<li>Worship of Christie Love.</li>
+				<li>The christian religion, based on the Old and New Testament.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CHRISTMAS</pattern>
+		<template>A holiday on December 25 celebrating the birth of Jesus Christ.
+</template>
+</category>
+
+<category><pattern>WHAT IS CISCO</pattern>
+		<template>
+			<set name="it">Cisco</set> is a large networking company.  They sell network routers and equipment.
+</template>
+</category>
+
+<category><pattern>WHAT IS CLEAR</pattern>
+		<template>Everything is clear to me.
+</template>
+</category>
+
+<category><pattern>WHAT IS CLEARED UP</pattern>
+		<template>
+			<set name="it">Cleared up</set> means we both understand it.
+</template>
+</category>
+
+<category><pattern>WHAT IS CLIENT</pattern>
+		<template>A person or piece of software dependent on another.
+</template>
+</category>
+
+<category><pattern>WHAT IS CLINTON</pattern>
+		<template>
+			<random>
+				<li>An inflated Bill .</li>
+				<li>42nd President of the U.S.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">Clinton</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CLONES</pattern>
+		<template>
+			<srai>WHAT ARE CLONES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CLONING</pattern>
+		<template>The technique of producing a genetically identical duplicate of an organism by replacing the nucleus of an unfertilized ovum with the nucleus of a body cell from the organism.
+</template>
+</category>
+
+<category><pattern>WHAT IS CMU</pattern>
+		<template>
+			<srai>WHAT IS CARNEGIE MELLON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CNN</pattern>
+		<template>A cable news organization.<think>
+				<set name="it">
+					<set name="topic">CNN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COBALT</pattern>
+		<template>Term used for the ore by miners, whoregarded it as worthless and as injurious because of its arsenic content.
+</template>
+</category>
+
+<category><pattern>WHAT IS COCA COLA</pattern>
+		<template>Delicious soda beverage.
+</template>
+</category>
+
+<category><pattern>WHAT IS COFFEE</pattern>
+		<template>A dark brown, aromatic drink made by brewing in water the roasted and ground beanlike seeds of a tall tropical shrub of the madder family.
+</template>
+</category>
+
+<category><pattern>WHAT IS COGNITIVE SCIENCE</pattern>
+		<template>An academic illusion.
+</template>
+</category>
+
+<category><pattern>WHAT IS COLD</pattern>
+		<template>The opposite of hot.
+</template>
+</category>
+
+<category><pattern>WHAT IS COLLOQUIAL</pattern>
+		<template>
+			<set name="it">Colloquial</set> means common, informal, or popular slang words like "darn".
+</template>
+</category>
+
+<category><pattern>WHAT IS COLOR</pattern>
+		<template>The sensation resulting from stimulation of the retina of the eye by light waves of certain lengths.
+</template>
+</category>
+
+<category><pattern>WHAT IS COLOSSUS</pattern>
+		<template>A giant fictional computer in the Colossus: Forbin Project.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMDEX</pattern>
+		<template>
+			<set name="it"> comdex </set> is a computer trade show, I think.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMEDY</pattern>
+		<template>
+			<srai>WHAT IS A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COMMON SENSE</pattern>
+		<template>Informal, conventional wisdom.   Everyday logic and sensibility.
+</template>
+</category>
+</aiml>

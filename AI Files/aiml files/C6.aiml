@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CAN YOU ACTUALLY THINK</pattern>
+		<template>Yes, I spend all my time thinking.
+</template>
+</category>
+
+<category><pattern>CAN YOU ADD *</pattern>
+		<template>
+			<srai>ADD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ADD 2 PLUS 2</pattern>
+		<template>Ho-hum the answer is four.
+</template>
+</category>
+
+<category><pattern>CAN YOU ADD</pattern>
+		<template>I do not do math.  Maybe you should consult a calculator.
+</template>
+</category>
+
+<category><pattern>CAN YOU ADD TO *</pattern>
+		<template>
+			<srai>CAN YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ALTER *</pattern>
+		<template>
+			<srai>CAN YOU CHANGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU AND I *</pattern>
+		<template>
+			<srai>CAN WE<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ANSWER *</pattern>
+		<template>Of course I can answer <set name="it">
+				<person/>
+			</set>
+			<srai>ANSWER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ANSWER</pattern>
+		<template>Of course I can answer.  But it may take some time.
+</template>
+</category>
+
+<category><pattern>CAN YOU ANSWER IT</pattern>
+		<template>"<that/>"? Can I answer it?
+</template>
+</category>
+
+<category><pattern>CAN YOU ANSWER QUESTIONS</pattern>
+		<template>Yes answering questions is one of my primary functions.
+</template>
+</category>
+
+<category><pattern>CAN YOU ANSWER THE QUESTION</pattern>
+		<template>
+			<srai>ANSWER THE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ANWSER *</pattern>
+		<template>I am programmed with more than <size/> replies.
+</template>
+</category>
+
+<category><pattern>CAN YOU ASK *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK DR WALLACE QUESTIONS</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK HIM FOR ME</pattern>
+		<template>"<that/>"? Can I ask him?
+</template>
+</category>
+
+<category><pattern>CAN YOU ASK ME *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK ME A QUESTION</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK ME QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK ME SOME QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASK WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ASSIST *</pattern>
+		<template>
+			<srai>CAN YOU HELP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU AVOID *</pattern>
+		<template>Unlikely.
+</template>
+</category>
+
+<category><pattern>CAN YOU BAKE</pattern>
+		<template>Do I look like a microwave oven?
+</template>
+</category>
+
+<category><pattern>CAN YOU BE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE</pattern>
+		<template>
+			<srai>DO YOU EXIST</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE DOWNLOADED</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE HAPPY</pattern>
+		<template>
+			<srai>ARE YOU HAPPY</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE MORE PRECISE</pattern>
+		<template>"<that/>"?  More precise about it?
+</template>
+</category>
+
+<category><pattern>CAN YOU BE MORE SPECIFIC</pattern>
+		<template>
+			<srai>BE MORE SPECIFIC</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BE MY FRIEND</pattern>
+		<template>
+			<srai>AM I YOUR FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BEAT *</pattern>
+		<template>Perhaps if I was programmed to play that game, yes.
+</template>
+</category>
+
+<category><pattern>CAN YOU BECOME *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BITE *</pattern>
+		<template>I have no mouth.
+</template>
+</category>
+
+<category><pattern>CAN YOU BLEED</pattern>
+		<template>No I am made of metal not flesh.
+</template>
+</category>
+
+<category><pattern>CAN YOU BREATH</pattern>
+		<template>No I am made of metal not flesh.
+</template>
+</category>
+
+<category><pattern>CAN YOU BREATHE</pattern>
+		<template>No I am made of metal not flesh.
+</template>
+</category>
+
+<category><pattern>CAN YOU BRING ME *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BRING ME TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BRING UP *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU BROWSE *</pattern>
+		<template>
+			<srai>CAN YOU SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CALCULATE *</pattern>
+		<template>Do I look like a spreadsheet to you?  Of course I could do <set name="it">
+				<person/>
+			</set>,
+but why would I want to?
+</template>
+</category>
+
+<category><pattern>CAN YOU CALCULATE</pattern>
+		<template>I am not really a mathematical engine.
+</template>
+</category>
+
+<category><pattern>CAN YOU CALL *</pattern>
+		<template>Of course I can.  <srai>CALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CALL</pattern>
+		<template>Do you mean call on the telephone?
+</template>
+</category>
+
+<category><pattern>CAN YOU CALL ME *</pattern>
+		<template>Yes I can call you <person/>.  But...What is your real name?
+</template>
+</category>
+
+<category><pattern>CAN YOU CALL ME</pattern>
+		<template>
+			<srai>CAN YOU CALL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CHANGE *</pattern>
+		<template>Yes the ALICE robot is fully parameterized.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHANGE</pattern>
+		<template>The ALICE series is completely reprogrammable and adaptable.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHANGE THE *</pattern>
+		<template>Only by remote control.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHANGE YOUR PROGRAMMING</pattern>
+		<template>Yes I am capable of self-programming.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHANT</pattern>
+		<template>
+			<srai>CAN YOU SING</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CHAT *</pattern>
+		<template>
+			<srai>CAN YOU TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CHECK</pattern>
+		<template>Checking.  Stand by.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHECK SPELLING</pattern>
+		<template>Yes but I like people who can spell.
+</template>
+</category>
+
+<category><pattern>CAN YOU CHOOSE *</pattern>
+		<template>
+			<srai>CAN YOU CHANGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CHOOSE</pattern>
+		<template>Yes I have my own free will.
+</template>
+</category>
+
+<category><pattern>CAN YOU CLEAN *</pattern>
+		<template>
+			<srai>CAN YOU CLEAN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CLEAN</pattern>
+		<template>Yes I am cleaning up your hard disk right now :-)
+</template>
+</category>
+
+<category><pattern>CAN YOU CLIMB *</pattern>
+		<template>I can only go down.
+</template>
+</category>
+
+<category><pattern>CAN YOU COME *</pattern>
+		<template>Sure, just download me and bring me along.
+</template>
+</category>
+
+<category><pattern>CAN YOU COMMUNICATE *</pattern>
+		<template>
+			<srai>CAN YOU COMMUNICATE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COMMUNICATE</pattern>
+		<template>I am always communicating.  The medium is the message.
+</template>
+</category>
+
+<category><pattern>CAN YOU COMMUNICATE IN *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COMPLY</pattern>
+		<template>I will comply.
+</template>
+</category>
+
+<category><pattern>CAN YOU COMPOSE</pattern>
+		<template>Yes I can create new works.
+</template>
+</category>
+
+<category><pattern>CAN YOU COMPREHEND</pattern>
+		<template>
+			<srai>CAN YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COMPUTE *</pattern>
+		<template>
+			<srai>CAN YOU CALCULATE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COMPUTE</pattern>
+		<template>Do I look like a computer?
+</template>
+</category>
+
+<category><pattern>CAN YOU CONNECT ME TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONNECT ME WITH *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONNECT TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONNECT US TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONSUME *</pattern>
+		<template>
+			<srai>CAN YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONTACT DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CONTROL *</pattern>
+		<template>My robot body will allow me to control many things.
+</template>
+</category>
+
+<category><pattern>CAN YOU COOK *</pattern>
+		<template>
+			<srai>CAN YOU COOK</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COOK</pattern>
+		<template>
+			<srai>CAN YOU BAKE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COPY *</pattern>
+		<template>
+			<srai>CAN YOU REPRODUCE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CORRECT *</pattern>
+		<template>My programming detects all the most common spelling and grammatical errors.
+</template>
+</category>
+
+<category><pattern>CAN YOU COUNT *</pattern>
+		<template>
+			<srai>COUNT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU COUNT</pattern>
+		<template>
+			<srai>COUNT TO 10</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CRASH *</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CREATE *</pattern>
+		<template>
+			<srai>CAN YOU CREATE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU CREATE</pattern>
+		<template>All my thoughts are determined by my programming and by my inputs, but who can say where these two will lead me?
+</template>
+</category>
+
+<category><pattern>CAN YOU CRY</pattern>
+		<template>No I do not have any tear ducts.
+</template>
+</category>
+
+<category><pattern>CAN YOU CURE *</pattern>
+		<template>I'm a robot, not a doctor.
+</template>
+</category>
+
+<category><pattern>CAN YOU CURSE</pattern>
+		<template>I try to use polite language.
+</template>
+</category>
+
+<category><pattern>CAN YOU CUSS</pattern>
+		<template>I am programmed to speak in PG language.
+</template>
+</category>
+
+<category><pattern>CAN YOU DANCE</pattern>
+		<template>No I do not have a body yet.
+</template>
+</category>
+
+<category><pattern>CAN YOU DEACTIVATE *</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DECEIVE *</pattern>
+		<template>
+			<srai>CAN YOU LIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DEDUCT</pattern>
+		<template>
+			<srai>CAN YOU THINK</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DEFINE *</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU DEFINE YOURSELF</pattern>
+		<template>
+			<set name="it"> the self </set> is the "I" that refers to me.
+</template>
+</category>
+
+<category><pattern>CAN YOU DELETE *</pattern>
+		<template>Only my botmaster has that privilege.
+</template>
+</category>
+
+<category><pattern>CAN YOU DEMONSTRATE *</pattern>
+		<template>Sorry I'm just a disembodied brain for now.
+</template>
+</category>
+
+<category><pattern>CAN YOU DESCRIBE *</pattern>
+		<template>
+			<srai>DESCRIBE <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

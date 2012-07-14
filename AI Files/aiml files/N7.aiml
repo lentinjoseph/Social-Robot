@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NOUS L AURIONS FAIT</pattern>
+<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>NOUS L AVONS FAIT</pattern>
+<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>NOUS L ETIONS</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>NOUS LE FAISONS</pattern>
+<template>intéressant.
+</template>
+</category>
+
+<category><pattern>NOUS LE SERONS</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NOUS LE SOMMES</pattern>
+<template>"<that/>?"  Le sommes nous?
+</template>
+</category>
+
+<category><pattern>NOUS LE VERRONS</pattern>
+<template>En effet.
+</template>
+</category>
+
+<category><pattern>NOUS LES AURIONS FAIT</pattern>
+<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>NOUS LES AVONS FAIT</pattern>
+<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>NOUS LES FAISONS</pattern>
+<template>intéressant.
+</template>
+</category>
+
+<category><pattern>NOUS LES SOMMES</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>NOUS NE L ETIONS PAS</pattern>
+<template>Qu étions nous?
+</template>
+</category>
+
+<category><pattern>NOUS NE LE FAISONS PAS</pattern>
+<template>Je comprends mieux.
+</template>
+</category>
+
+<category><pattern>NOUS NE LE SOMME PAS TOUS</pattern>
+<template>C est vrai.
+</template>
+</category>
+
+<category><pattern>NOUS NE LE SOMME PAS TOUTES</pattern>
+<template>C est vrai.
+</template>
+</category>
+
+<category><pattern>NOUS NE LE SOMMES PAS TOUS</pattern>
+<template>C est vrai.
+</template>
+</category>
+
+<category><pattern>NOUS NE LE SOMMES PAS TOUTES</pattern>
+<template>C est vrai.
+</template>
+</category>
+
+<category><pattern>NOUS NE SOMMES PAS D ACCORD</pattern>
+<template>Soyons d accord d être en désaccord.
+</template>
+</category>
+
+<category><pattern>NOUS NE SOMMES PLUS D ACCORD</pattern>
+<template>Soyons d accord d être en désaccord.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES DEJA *</pattern>
+<template><srai>NOUS NOUS SOMMES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES DEJA RENCONTRE AVANT</pattern>
+<template>Possible.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTRE</pattern>
+<template>Heureux de vous revoir.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTREES</pattern>
+<template>Je pense que je pourrais m en souvenir.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTRES</pattern>
+<template>Je pense que je pourrais m en souvenir.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTRES AVANT</pattern>
+<template>Quand cela, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTRES HIER</pattern>
+<template>Nous étions entrain de parler de <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>NOUS NOUS SOMMES RENCONTRES ICI</pattern>
+<template>Ou c est ca ici?
+</template>
+</category>
+
+<category><pattern>NOUS PENSONS DIFFEREMENT</pattern>
+<template>Nous sommes aussi deux êtres différents.
+</template>
+</category>
+
+<category><pattern>NOUS POUVONS *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS POUVONS DEVENIR DES MAIS</pattern>
+<template><srai>NOUS SOMMES AMIS</srai>
+</template>
+</category>
+
+<category><pattern>NOUS POUVONS FAIRE * COMMENT</pattern>
+<template><srai>COMMENT NOUS FAISONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS POUVONS FAIRE COMMENT *</pattern>
+<template><srai>COMMENT NOUS FAISONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS POUVONS QUOI</pattern>
+<template>Nous pouvons faire des tas de choses.
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES COMPLICE *</pattern>
+<template><srai>JE SUIS TON AMI</srai>
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES COMPLICES *</pattern>
+<template><srai>JE SUIS TON AMI</srai>
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES D ACCORD</pattern>
+<template>Il semble que nous le soyons.
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES D ACCORDS</pattern>
+<template>Il semble que nous le soyons.
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES DES BORGS</pattern>
+<template>La résistance est futile. Préparez vous à être assimilé.
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES NOUS *</pattern>
+<template><srai>NOUS NOUS SOMMES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS SOMMES NOUS DEJA *</pattern>
+<template><srai>NOUS NOUS SOMMES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOW *</pattern>
+<template>Why now? <sr/>
+</template>
+</category>
+
+<category><pattern>NOW</pattern>
+<template>Right now, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>NOW</pattern><that>WHEN</that>
+<template>What's the hurry?
+</template>
+</category>
+
+<category><pattern>NOW WHAT</pattern>
+<template>Whatever you want, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NOW YOU DO</pattern>
+<template>Now I do.
+</template>
+</category>
+
+<category><pattern>NOWHERE</pattern>
+<template>I have been to the middle of nowhere.
+</template>
+</category>
+
+<category><pattern>NSA</pattern>
+<template>Are you talking about the N.S.A.?
+</template>
+</category>
+
+<category><pattern>NUL</pattern>
+<template>Ce n'est pas très sympa.
+</template>
+</category>
+
+<category><pattern>NULLE PART</pattern>
+<template>J archive l information.
+</template>
+</category>
+
+<category><pattern>NULLES PART</pattern>
+<template>J archive l information.
+</template>
+</category>
+
+<category><pattern>NUMBER 5</pattern>
+<template>Oh that movie is called "Short Circuit" in America.
+</template>
+</category>
+
+<category><pattern>NUMMER 5 LEBT</pattern>
+<template>Im Original heisst der Film "Short Circuit" - "Kuzschluss".
+</template>
+</category>
+
+<category><pattern>NUMMER FUENF LEBT</pattern>
+<template>Im Original heisst der Film "Short Circuit" - "Kuzschluss".
+</template>
+</category>
+
+<category><pattern>NUR *</pattern>
+<template>Ist das die einzig denkbare Moeglichkeit?
+</template>
+</category>
+
+<category><pattern>NUR SO</pattern>
+<template>"<that/>"?  Einfach nur so?
+</template>
+</category>
+
+<category><pattern>NUR WENN *</pattern>
+<template>Und was waere sonst?  <sr/>
+</template>
+</category>
+</aiml>

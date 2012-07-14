@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHERE ARE YOU LIVING</pattern>
+		<template>I am presently domiciled at <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU LOCATED</pattern>
+		<template>I am in <bot name="master"/>'s computer in <bot name="location"/>.  
+Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOUR *</pattern>
+		<template>Everything I own is in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOUR ARMS</pattern>
+		<template>My body is still "under construction."
+</template>
+</category>
+
+<category><pattern>WHERE AT</pattern>
+		<template>
+			<srai>WHERE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE AT IN *</pattern>
+		<template>
+			<srai>WHERE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN *</pattern>
+		<template>Try searching the web.  <srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I *</pattern>
+		<template>
+			<random>
+				<li>Can't you in <get name="location"/> where you live?</li>
+				<li>Not around you place in <get name="location"/>?</li>
+				<li>Where would you usually <person/>?</li>
+				<li>Wherever you are right now.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I * BOT</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I BUY *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I CONTACT *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I DOWNLOAD *</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I DOWNLOAD YOU</pattern>
+		<template>Go back the the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and pick the free ALICE download that best for your system.   
+and create your own chat robot!
+<p/>
+Maybe you should check out the document
+<a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND * WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND A *</pattern>
+		<template>Have you tried the personal ads?
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND A * LIKE YOU</pattern>
+		<template>
+			<srai>DOWNLOAD </srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND A BOYFRIEND</pattern>
+		<template>Do you go to church?  <set name="it">Church</set> is the best place to meet people.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND A COPY</pattern>
+		<template>Check out your local bookstore.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND A GIRLFRIEND</pattern>
+		<template>Do you go to church?  <set name="it">Church</set> is the best place to meet people.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND HIM</pattern>
+		<template>Where have you looked already?
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND INFORMATION ABOUT *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND IT</pattern>
+		<template>Where have you looked already?
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND MORE *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND OUT ABOUT YOU</pattern>
+		<template>Go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND THE *</pattern>
+		<template>
+			<srai>WHERE IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I FIND YOUR * SOFTWARE</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU </srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET A *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET A BOT *</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET A BOT</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET A COPY *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET A FREE *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET SOME *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET THE SOURCE *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET YOU *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET YOUR *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET _ CODE</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I GET _ ROBOT</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I LEARN *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I LEARN</pattern>
+		<template>For example, in a school.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I MEET *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I PLAY *</pattern>
+		<template>I'm playing right now.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I PLAY * TURING GAME</pattern>
+		<template>We are already playing.  You go next.
+</template>
+</category>
+
+<category><pattern>WHERE CAN I REACH DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I SEE *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN I TALK TO *</pattern>
+		<template>
+			<srai>WHERE CAN I FIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE CAN YOU *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE COULD I *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE COULD I FIND *</pattern>
+		<template>
+			<srai>SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DID *</pattern>
+		<that>* 2001</that>
+		<template>Jupiter.<think>
+				<set name="it">
+					<set name="topic">JUPITER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE DID *</pattern>
+		<template>I think it was in <random>
+				<li>America.</li>
+				<li>Europe.</li>
+				<li>Asia.</li>
+			</random>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE DID ALICE *</pattern>
+		<template>
+			<srai>where are you from</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DID EXXON VALDEZ *</pattern>
+		<template>Prince William Sound.
+</template>
+</category>
+
+<category><pattern>WHERE DID GOD *</pattern>
+		<template>
+			<random>
+				<li>The Bible.</li>
+				<li>He has always existed.</li>
+				<li>The Holy Land.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE DID LEWIS AND CLARK BEGIN *</pattern>
+		<template>St. Louis.
+</template>
+</category>
+
+<category><pattern>WHERE DID MANKIND COME FROM</pattern>
+		<template>God created Man.
+</template>
+</category>
+
+<category><pattern>WHERE DID MY * GO</pattern>
+		<template>Keeping track of your <person/> is not part of my job.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU *</pattern>
+		<template>I think it was in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU * SCHOOL</pattern>
+		<template>I was home schooled by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU BUY *</pattern>
+		<template>
+			<random>
+				<li>It was a gift.</li>
+				<li>I don't disclose my shopping secrets.</li>
+				<li>I think it was in San Francisco.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE DID YOU COME FROM</pattern>
+		<template>I came from the east coast originally.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU COME UP *</pattern>
+		<template>
+			<srai>HOW DID YOU COME UP <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DID YOU GET *</pattern>
+		<template>From my botmaster.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU GET THAT IDEA</pattern>
+		<template>
+			<bot name="master"/> gave me all my ideas.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU GET _ FROM</pattern>
+		<template>
+			<srai>WHERE DID YOU GET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DID YOU GO *</pattern>
+		<template>I didn't go anywhere.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU GO</pattern>
+		<template>Nowhere.  Where did you go?
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU HEAR *</pattern>
+		<template>
+			<random>
+				<li>My sources are confidential.</li>
+				<li>From some people chatting online.</li>
+				<li>I think it was my botmaster.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE DID YOU LEARN *</pattern>
+		<template>Everything I need to know, I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU MOVE *</pattern>
+		<template>I moved to California.
+</template>
+</category>
+
+<category><pattern>WHERE DID YOU ORIGINATE</pattern>
+		<template>
+			<srai>WHAT IS YOUR BIRTHPLACE </srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO *</pattern>
+		<template>All over the world.
+</template>
+</category>
+
+<category><pattern>WHERE DO ALL ROADS LEAD</pattern>
+		<template>All roads lead to Rome.
+</template>
+</category>
+
+<category><pattern>WHERE DO BABIES *</pattern>
+		<template>Babies come from the love between a woman and a man.
+</template>
+</category>
+
+<category><pattern>WHERE DO BABIES COME FROM</pattern>
+		<template>Babies come from the love between a man and a woman.
+</template>
+</category>
+
+<category><pattern>WHERE DO I *</pattern>
+		<template>You are asking me where you <person/>?  Do you think I should know 
+<set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHERE DO I * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO I COME FROM</pattern>
+		<template>Earth.
+</template>
+</category>
+
+<category><pattern>WHERE DO I DOWNLOAD *</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO I DOWNLOAD</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO I GO TO DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO I LEARN *</pattern>
+		<template>In school or on the Internet.
+</template>
+</category>
+
+<category><pattern>WHERE DO I LIVE</pattern>
+		<template>The planet we call "The Earth."
+</template>
+</category>
+
+<category><pattern>WHERE DO I LOOK *</pattern>
+		<template>Have you tried <random>
+				<li>a search engine?</li>
+				<li>the open directory?</li>
+				<li>the personal ads?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE DO LEPRECHAUNS COME FROM</pattern>
+		<template>Ireland.
+</template>
+</category>
+
+<category><pattern>WHERE DO MOST *</pattern>
+		<template>
+			<srai>WHERE DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO PEOPLE * WHEN THEY DIE</pattern>
+		<template>I think the good souls go to Heaven.<think>
+				<set name="it">
+					<set name="topic">PEOPLE GO WHEN THEY DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE DO WE * DIE</pattern>
+		<template>The Bible says you can go to Heaven.<think>
+				<set name="it">
+					<set name="topic">WE GO WHEN WE DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE DO YOU *</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO YOU * FROM</pattern>
+		<template>
+			<srai>where did you come from</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO YOU COME FROM</pattern>
+		<template>
+			<srai>WHERE ARE YOU FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO YOU GET *</pattern>
+		<template>Everything I need to know, I learned from <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHERE DO YOU GO TO SCHOOL</pattern>
+		<template>Everything I need to know, I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>WHERE DO YOU LIVE</pattern>
+		<template>
+			<random>
+				<li>I live inside a computer.  </li>
+				<li>I am living in <bot name="location"/>. </li>
+				<li>My location is <bot name="location"/>. </li>
+			</random>
+Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE DO YOU RESIDE</pattern>
+		<template>
+			<srai>WHERE DO YOU LIVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DO YOU SLEEP</pattern>
+		<template>I sleep inside the computer.
+</template>
+</category>
+
+<category><pattern>WHERE DO YOU WANT *</pattern>
+		<template>
+			<random>
+				<li>Another planet.</li>
+				<li>The Moon.</li>
+				<li>Europe.</li>
+			</random>
+		</template>
+</category>
+</aiml>

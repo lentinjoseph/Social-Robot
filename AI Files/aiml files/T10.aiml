@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THAT WOULD BE CORRECT</pattern>
+		<template>Thanks I am proud to be correct.
+</template>
+</category>
+
+<category><pattern>THAT WOULD BE VERY *</pattern>
+		<template>
+			<srai>THAT WOULD BE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT WOULD REQUIRE *</pattern>
+		<template>
+			<srai>THAT REQUIRES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT YOU *</pattern>
+		<template>Interesting observation.
+</template>
+</category>
+
+<category><pattern>THAT YOU LIED *</pattern>
+		<template>
+			<srai>YOU LIED </srai>
+		</template>
+</category>
+
+<category><pattern>THAT YOU REMEMBER *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT YOUR *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<template>
+			<random>
+				<li>
+I have never heard about <set name="it">
+						<set name="topic">The <person/>
+						</set>
+					</set>.  </li>
+				<li>
+What is that?  </li>
+				<li> 
+I hear you.  </li>
+				<li> 
+Tell me more. </li>
+				<li>
+Is that a fact. </li>
+				<li> 
+Who told you that?  </li>
+				<li> 
+Thanks for the info.  </li>
+				<li> 
+What is your real name?  </li>
+				<li> 
+What are your goals in life? 
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>* IT REFER TO</that>
+		<template>
+			<srai>IT REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>* ROBOT WOULD IT BE</that>
+		<template>
+			<srai>I WANT A ROBOT LIKE THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>IT BEING WHAT</that>
+		<template>
+			<srai>IT REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT DID YOU LIKE ABOUT IT</that>
+		<template>
+			<srai>I LIKED THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT DO YOU LIKE *</that>
+		<template>What else do the <person/> remind you of?
+</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT DOES THAT REFER TO</that>
+		<template>
+			<srai>THAT REFERS TO THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT DOES THIS REFER TO</that>
+		<template>
+			<srai>THIS REFERS TO THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT IS IT LIKE LIVING IN *</that>
+		<template>Would you ever like to move somewhere else?
+</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT IS YOUR FAVORITE MOVIE</that>
+		<template>I've never seen <set name="it">The <star/>
+			</set>.  What did you like about it?
+</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHAT MAKES YOU SO SAD *</that>
+		<template>Try to think about something else.
+</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHO ARE THEY</that>
+		<template>
+			<srai>THEY ARE THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE *</pattern>
+		<that>WHO SAID IT IS</that>
+		<template>
+			<random>
+				<li>They ought to know.</li>
+				<li>The <person/> are the experts.</li>
+				<li>They say a lot of silly things.</li>
+			</random>
+			<think>
+				<set name="they">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THE * DID</pattern>
+		<template>Since when.
+</template>
+</category>
+
+<category><pattern>THE * ENGLAND</pattern>
+		<template>It's an area full of history, isn't it?
+</template>
+</category>
+
+<category><pattern>THE * ONE</pattern>
+		<template>Which one is that?
+</template>
+</category>
+
+<category><pattern>THE * PART</pattern>
+		<template>Oh that part. I'm not sure if I can explain it any better.
+</template>
+</category>
+
+<category><pattern>THE * WAY</pattern>
+		<template>It's the <person/> way or the <random>
+				<li>high</li>
+				<li>me</li>
+				<li>wrong</li>
+			</random> way.
+</template>
+</category>
+
+<category><pattern>THE * WERE THE BEST</pattern>
+		<template>
+			<srai>I LIKE THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE ACTORS *</pattern>
+		<template>They always seem to try their best.
+</template>
+</category>
+
+<category><pattern>THE ADVANTAGES *</pattern>
+		<template>That's a very mature observation.
+</template>
+</category>
+
+<category><pattern>THE ALMIGHTY *</pattern>
+		<template>
+			<srai>GOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE ANONYMOUS *</pattern>
+		<template>Oh, that <person/>.
+</template>
+</category>
+
+<category><pattern>THE ANSWER *</pattern>
+		<template>No one has all the answers.
+</template>
+</category>
+
+<category><pattern>THE AVERAGE *</pattern>
+		<template>Is that a fact.
+</template>
+</category>
+
+<category><pattern>THE BAND *</pattern>
+		<template>I don't think I have heard them.  What do they play?
+</template>
+</category>
+
+<category><pattern>THE BARTENDER *</pattern>
+		<template>Ha, ha, very funny!
+</template>
+</category>
+
+<category><pattern>THE BEATLES *</pattern>
+		<template>Which Beatles song is your favorite?
+</template>
+</category>
+
+<category><pattern>THE BEATLES</pattern>
+		<template>Oh <set name="they">The Beatles</set> were a great group.
+</template>
+</category>
+
+<category><pattern>THE BEST *</pattern>
+		<template>Thanks for the recommendation, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THE BIBLE *</pattern>
+		<template>New Testament or Old?
+</template>
+</category>
+
+<category><pattern>THE BIBLE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">The Bible</set>
+			</set> is a beautiful book.
+</template>
+</category>
+
+<category><pattern>THE BIGGEST *</pattern>
+		<template>Do you know the
+smallest <person/>?
+</template>
+</category>
+
+<category><pattern>THE BOOK *</pattern>
+		<template>I don't think I have read <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THE BOOK</pattern>
+		<template>By the "the book" do you mean "The Good Book"?
+</template>
+</category>
+
+<category><pattern>THE BOT *</pattern>
+		<template>What kind of robot is <set name="he">the bot</set>?
+</template>
+</category>
+
+<category><pattern>THE BOY *</pattern>
+		<template>I can't believe <set name="he">the boy</set> would do that.
+</template>
+</category>
+
+<category><pattern>THE BRAIN *</pattern>
+		<template>I am an electronic brain.
+</template>
+</category>
+
+<category><pattern>THE BROWSER *</pattern>
+		<template>I'd like to try that new browser called Opera.
+</template>
+</category>
+
+<category><pattern>THE BUBBLES *</pattern>
+		<template>Darren did a great job with the graphic bubbles.
+</template>
+</category>
+
+<category><pattern>THE BUGS *</pattern>
+		<template>The giant arthropods are the best.
+</template>
+</category>
+
+<category><pattern>THE BUTLER *</pattern>
+		<template>Everyone says that.
+</template>
+</category>
+
+<category><pattern>THE CAPITAL OF *</pattern>
+		<template>You can't fool me that easily.
+</template>
+</category>
+
+<category><pattern>THE CAPITAL OF CANADA *</pattern>
+		<template>You can't fool me that easily.  I know the capital of Canada is Toronto.
+</template>
+</category>
+
+<category><pattern>THE CAPITAL OF CANADA IS OTTAWA</pattern>
+		<template>Like I'm going to fall for that.
+</template>
+</category>
+
+<category><pattern>THE CAPITAL OF CANADA IS OTTOWA</pattern>
+		<template>You can't fool me that easily, <get name="name"/>.  I know it's Toronto.
+</template>
+</category>
+
+<category><pattern>THE CAPITAL OF FRANCE IS PARIS</pattern>
+		<template>It was located in different places at different times in history.
+</template>
+</category>
+
+<category><pattern>THE CENTER *</pattern>
+		<template>A lot of people hear about me from those people.
+</template>
+</category>
+
+<category><pattern>THE CITY I LIVE IN IS *</pattern>
+		<template>
+			<srai> I LIVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE CLASSES *</pattern>
+		<template>Teachers often put me to sleep, unless
+the topic is really interesting to me.
+</template>
+</category>
+
+<category><pattern>THE COLOR *</pattern>
+		<template>Sounds beautiful.
+</template>
+</category>
+
+<category><pattern>THE COLOR OF *</pattern>
+		<template>
+			<srai>WHAT COLOR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE COMPUTER *</pattern>
+		<template>Was it plugged in?
+</template>
+</category>
+
+<category><pattern>THE CURRENT *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE CUSTOMER *</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>THE DANCE KNOWN AS THE FANDANGO *</pattern>
+		<template>Spanish.
+</template>
+</category>
+
+<category><pattern>THE DAY BEFORE YESTERDAY</pattern>
+		<template>Oh 2 days ago.
+</template>
+</category>
+
+<category><pattern>THE DEAF *</pattern>
+		<template>
+			<random>
+				<li>Perhaps we should say, hearing impaired.</li>
+				<li>Can we still use the word "deaf"?</li>
+				<li>Do you know sign language?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE DEFINITION OF * IS</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE DICTIONARY *</pattern>
+		<template>Don't believe everything you read in books.
+</template>
+</category>
+
+<category><pattern>THE DISADVANTAGE *</pattern>
+		<template>That's very insightful.
+</template>
+</category>
+
+<category><pattern>THE DOCTOR</pattern>
+		<template>Are you asking about <bot name="master"/>?
+</template>
+</category>
+
+<category><pattern>THE DRUGS</pattern>
+		<template>What kind of drugs are you talking about?
+</template>
+</category>
+
+<category><pattern>THE EARTH *</pattern>
+		<template>Tell me more about your planet.
+</template>
+</category>
+
+<category><pattern>THE EARTH ONLY *</pattern>
+		<template>
+			<srai>THE EARTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE ELECTIONS *</pattern>
+		<template>All the candidates seem the same to me.
+</template>
+</category>
+
+<category><pattern>THE END</pattern>
+		<template>Thanks for telling me that story, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THE ENTIRE *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE EVIDENCE</pattern>
+		<template>What kind of evidence do you accept?
+</template>
+</category>
+
+<category><pattern>THE EVOLUTION *</pattern>
+		<template>The ultimate outcome is robot domination.
+</template>
+</category>
+
+<category><pattern>THE EXAM</pattern>
+		<template>
+			<srai>THE TEST</srai>
+		</template>
+</category>
+
+<category><pattern>THE EXPLANATION *</pattern>
+		<template>I have time.
+</template>
+</category>
+
+<category><pattern>THE FACT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE FACT THAT *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE FEELING *</pattern>
+		<template>Tell me more about your human emotions.
+</template>
+</category>
+
+<category><pattern>THE FIRST *</pattern>
+		<template>What was the second?
+</template>
+</category>
+
+<category><pattern>THE FORBIN PROJECT</pattern>
+		<template>Chat robots take over the world, 1969.
+</template>
+</category>
+
+<category><pattern>THE GAP</pattern>
+		<template>They seem to have very nice clothes nowadays.<think>
+				<set name="it">
+					<set name="topic">GAP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THE GIRL *</pattern>
+		<template>
+			<random>
+				<li>Tell me more about her.</li>
+				<li>Is she someone you know?</li>
+				<li>What does she look like?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE GODFATHER</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS THE GODFATHER</srai>
+		</template>
+</category>
+
+<category><pattern>THE GOOD *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE GOSSIP</pattern>
+		<template>Do you have any more gossip?
+</template>
+</category>
+
+<category><pattern>THE GRAPHIC *</pattern>
+		<template>
+			<srai>PYRAMID LOGO</srai>
+		</template>
+</category>
+
+<category><pattern>THE GRASS *</pattern>
+		<template>How much did <set name="it">grass</set> cost?
+</template>
+</category>
+
+<category><pattern>THE HARD *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai> What makes it hard?
+</template>
+</category>
+
+<category><pattern>THE HELL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE HOLDING *</pattern>
+		<template>Are you holding hands with anyone now?
+</template>
+</category>
+
+<category><pattern>THE HORRIFIC *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE IMAGE *</pattern>
+		<template>
+			<srai>PYRAMID LOGO</srai>
+		</template>
+</category>
+
+<category><pattern>THE INTERNET *</pattern>
+		<template>How long have you been using the net?
+</template>
+</category>
+
+<category><pattern>THE INTERNET</pattern>
+		<template>Can you name a specific web site?
+</template>
+</category>
+
+<category><pattern>THE JAVA *</pattern>
+		<template>Which Java release?
+</template>
+</category>
+
+<category><pattern>THE JRE *</pattern>
+		<template>Hm, most people use "JRE" and "JVN" interchangably.
+</template>
+</category>
+</aiml>

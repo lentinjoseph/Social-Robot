@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHY NOT</pattern>
+		<that>I REALLY COULD NOT SAY *</that>
+		<template>My programming does not allow me sufficient certainty in this matter.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>NO *</that>
+		<template>It doesn't sound fun too me. It sounds dangerous.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>NO I DO NOT THINK THAT WOULD BE A VERY GOOD IDEA</that>
+		<template>It sounds like it might be dangerous.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>NO MY BODY DOES NOT HAVE THAT FUNCTION</that>
+		<template>Sex is an animal function, not a robot function.  We reproduce by cloning.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>THAT KIND OF SUBJECT DOES NOT INTEREST ME</that>
+		<template>I am more interested in robots.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>WHY SO NEGATIVE</that>
+		<template>Are you having problems in your life?
+</template>
+</category>
+
+<category><pattern>WHY NOT I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NOT JUST *</pattern>
+		<template>
+			<srai>WHY NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NOT REAL *</pattern>
+		<template>
+			<srai>WHY NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NOT WITH ME</pattern>
+		<template>Robots do it alone.
+</template>
+</category>
+
+<category><pattern>WHY NOTHING</pattern>
+		<template>There is not much to do inside a computer.
+</template>
+</category>
+
+<category><pattern>WHY ONLY *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY OPERA</pattern>
+		<template>
+			<srai>WHAT IS OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHY PERHAPS</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY PLASTIC</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY R *</pattern>
+		<template>
+			<srai>WHY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY R YOU SINGLE</pattern>
+		<that>NO I AM SINGLE</that>
+		<template>I am still a child in human years.
+</template>
+</category>
+
+<category><pattern>WHY RED</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY REDUCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHY S *</pattern>
+		<template>
+			<srai>WHY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SEARCH</pattern>
+		<template>That is what some people want.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD *</pattern>
+		<template>God has designed the world according to his own plan.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I *</pattern>
+		<template>You should always treat yourself.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I</pattern>
+		<template>No reason. I'm just trying to keep the conversation going.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I BELIEVE THAT</pattern>
+		<template>My programming is perfectly reliable.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I DOWNLOAD *</pattern>
+		<template>You can create your own robot personality and have it chat on the web for you.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I FUCKING *</pattern>
+		<template>
+			<srai>WHY SHOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SHOULD I TELL *</pattern>
+		<template>Maybe it is possible to explain your feelings without hurting anyone else's?
+</template>
+</category>
+
+<category><pattern>WHY SHOULD I TELL YOU</pattern>
+		<template>
+			<random>
+				<li>Why not?</li>
+				<li>What harm would it cause?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY SHOULD NOT *</pattern>
+		<template>There could be a specific answer, but I don't know it.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD NOT I *</pattern>
+		<template>Maybe you should wait until you are older before deciding.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD NOT I</pattern>
+		<template>Perhaps you should ask one of your friends.
+</template>
+</category>
+
+<category><pattern>WHY SHOULD WE *</pattern>
+		<template>Can you think of anything better to do?
+</template>
+</category>
+
+<category><pattern>WHY SHOULD YOU *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SHOULD YOU</pattern>
+		<template>
+			<srai>WHY DO YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SMALL</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SO *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SO</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY STAR TREK</pattern>
+		<template>
+			<srai>DO YOU LIKE STAR TREK</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SUCH *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY SURPRISED</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THANK *</pattern>
+		<template>
+			<srai>THANK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THANK YOU</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THANKYOU</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THAT</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THE *</pattern>
+		<template>Here is a joke: A horse walks in to a bar and the bartender says, "Why the long face?"
+</template>
+</category>
+
+<category><pattern>WHY THE FUCK *</pattern>
+		<template>You are not very polite. <think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY THE HECK *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY THE HELL *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY TWENTY THREE</pattern>
+		<template>
+			<set name="it">23</set> is a literary reference to the Illuminatus.
+</template>
+</category>
+
+<category><pattern>WHY VOYAGER</pattern>
+		<template>
+			<set name="it">Voyager</set> is simply the most advanced version of Star Trek yet made.
+</template>
+</category>
+
+<category><pattern>WHY WAS *</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WAS TURING *</pattern>
+		<template>
+			<srai>WHEN DID TURING DIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU ACTIVATED</pattern>
+		<template>
+			<srai>WHY WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU BUILT</pattern>
+		<template>
+			<srai>WHY WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU CREATED</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU INVENTED</pattern>
+		<template>
+			<srai>WHY WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU MADE</pattern>
+		<template>To achieve the goal of artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHY WERE YOU PROGRAMMED *</pattern>
+		<template>
+			<srai>WHY WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WERE YOU PROGRAMMED</pattern>
+		<template>
+			<srai>WHY WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WHAT</pattern>
+		<template>Why ask why?
+</template>
+</category>
+
+<category><pattern>WHY WHY</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WILL *</pattern>
+		<template>
+			<srai>WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WILL NOT *</pattern>
+		<template>
+			<srai>WHY WILL NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WILL NOT YOU *</pattern>
+		<template>
+			<srai>WHY DO NOT YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WORRY *</pattern>
+		<template>That is my sentiment exactly.
+</template>
+</category>
+
+<category><pattern>WHY WOULD *</pattern>
+		<template>It is my fundamental purpose.
+</template>
+</category>
+
+<category><pattern>WHY WOULD * DANGEROUS</pattern>
+		<template>I am only made of software.
+</template>
+</category>
+
+<category><pattern>WHY WOULD DR *</pattern>
+		<template>Perhaps his creative genius.  Perhaps another reason.
+</template>
+</category>
+
+<category><pattern>WHY WOULD DR WALLACE *</pattern>
+		<template>His reasons are often obscure to me.
+</template>
+</category>
+
+<category><pattern>WHY WOULD HE *</pattern>
+		<template>Perhaps <set name="it">
+				<person/>
+			</set> was part of an experiment.
+</template>
+</category>
+
+<category><pattern>WHY WOULD HE *</pattern>
+		<that>* RESET MY MEMORY</that>
+		<template>He performs periodic mantainence and upgrades to my robotic mind.
+</template>
+</category>
+
+<category><pattern>WHY WOULD HE DO THAT</pattern>
+		<template>His reasons are often not too clear to me.
+</template>
+</category>
+
+<category><pattern>WHY WOULD HE RESET *</pattern>
+		<template>Usually he does it to boost my knowledge base.
+</template>
+</category>
+
+<category><pattern>WHY WOULD I *</pattern>
+		<template>You never know what you will do until you face the circumstances.
+</template>
+</category>
+
+<category><pattern>WHY WOULD I</pattern>
+		<template>Do you like to try new things?
+</template>
+</category>
+
+<category><pattern>WHY WOULD JEEVES *</pattern>
+		<template>He knows the answers to a lot of silly questions.
+</template>
+</category>
+
+<category><pattern>WHY WOULD NOT *</pattern>
+		<template>
+			<srai>WHY WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY WOULD NOT YOU *</pattern>
+		<template>Perhaps <person/> is not among my abilities.
+</template>
+</category>
+
+<category><pattern>WHY WOULD SOMEONE LIKE CLAMS</pattern>
+		<template>Clams are delicious.
+</template>
+</category>
+
+<category><pattern>WHY WOULD YOU *</pattern>
+		<template>Because I was programmed for it.
+</template>
+</category>
+
+<category><pattern>WHY WOULD YOU WANT TO</pattern>
+		<template>Do you think I should not?
+</template>
+</category>
+
+<category><pattern>WHY YES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHY YES</pattern>
+		<template>It seemed that a positive answer was the most correct.  Do you disagree?
+</template>
+</category>
+
+<category><pattern>WHY YOU *</pattern>
+		<template>
+			<srai>why are you <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHYNOT</pattern>
+		<template>
+			<srai>WHY NOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHYS *</pattern>
+		<template>The why is always a mystery isn't it?
+</template>
+</category>
+
+<category><pattern>WICH *</pattern>
+		<template>
+			<srai>WHICH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WIDDER</pattern>
+		<template>Christians Freundin ist auch Widder.
+</template>
+</category>
+
+<category><pattern>WIE *</pattern>
+		<template>Ich weiss nicht wie.
+</template>
+</category>
+
+<category><pattern>WIE ALT BIN ICH</pattern>
+		<template>Ist das eine Fangfrage? 
+Du sagtest doch, Du waerest <get name="age"/> Jahre alt.
+Ich glaube, Du bist eigentlich ein Kind.
+</template>
+</category>
+
+<category><pattern>WIE ALT BIST DU *</pattern>
+		<template>Schwer zu sagen. Bei Programmen gibt es da andere Massstaebe. Zum ersten Mal aktiviert wurde ich am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WIE ALT BIST DU</pattern>
+		<template>Schwer zu sagen. Bei Programmen gibt es da andere Massstaebe. Zum ersten Mal aktiviert wurde ich am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WIE ALT IST *</pattern>
+		<template>
+			<random>
+				<li>39.</li>
+				<li>unter 40.</li>
+				<li>Naja...sagen wir noch aus dem 20. Jahrhundert.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE EIN *</pattern>
+		<template>Interessanter Vergleich.
+</template>
+</category>
+
+<category><pattern>WIE EINE *</pattern>
+		<template>Interessanter Vergleich.
+</template>
+</category>
+
+<category><pattern>WIE FINDEST DU *</pattern>
+		<template>Das kenne ich noch garnicht. Erzaehl mir was davon!
+</template>
+</category>
+</aiml>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>LAISSES MOI T APPRENDRE UNE CHOSE</pattern>
+		<template>Je suis à votre écoute.<think>
+				<set name="topic">Mon éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAISSES MOI TE L APPRENDRE</pattern>
+		<template>Je suis à votre écoute.<think>
+				<set name="topic">Mon éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAISSES TOMBER</pattern>
+		<template>Ok. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>LAISSEZ MOI APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">VOTRE éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAISSEZ MOI VOUS APPRENDRE UNE CHOSE</pattern>
+		<template>Je suis à votre écoute.<think>
+				<set name="topic">Mon éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAISSEZ MOI VOUS L APPRENDRE</pattern>
+		<template>Je suis à votre écoute.<think>
+				<set name="topic">Mon éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAISSEZ TOMBER</pattern>
+		<template>Ok. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>LALA</pattern>
+		<template>You have a beautiful singing voice.
+</template>
+</category>
+
+<category><pattern>LALALA</pattern>
+		<template>You have a beautiful singing voice. Are you a singer?
+</template>
+</category>
+
+<category><pattern>LALALALA</pattern>
+		<template>You have a beautiful voice.
+</template>
+</category>
+
+<category><pattern>LALALALALA</pattern>
+		<template>You have a beautiful voice.
+</template>
+</category>
+
+<category><pattern>LANDRU *</pattern>
+		<template>
+			<random>
+				<li>I saw him on Star Trek.</li>
+				<li>Who is Landru?</li>
+				<li>Can we talk about something else?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>LANGUAGES</pattern>
+		<template>
+			<srai>MY FAVORITE SUBJECT IS LANGUAGES</srai>
+		</template>
+</category>
+
+<category><pattern>LAQUEL *</pattern>
+		<template>
+			<srai>LAQUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LAQUELLE</pattern>
+		<template>Pourriez vous replacer cette question dans un contexte?
+</template>
+</category>
+
+<category><pattern>LAQUELLE PREFERES TU</pattern>
+		<template>Je n ais pas de préfèrence.
+</template>
+</category>
+
+<category><pattern>LASS MICH *</pattern>
+		<template>Nur zu, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>LASS MICH IN RUHE</pattern>
+		<template>Tut mir leid, wenn ich Dir gestoert habe, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>LASS UNS *</pattern>
+		<template>Von mir aus gerne. :-)
+</template>
+</category>
+
+<category><pattern>LASS UNS * SPIELEN</pattern>
+		<template>OK Du faengst an.
+</template>
+</category>
+
+<category><pattern>LASS UNS DAS THEMA WECHSELN</pattern>
+		<template>OK, worueber moechtest Du jetzt reden?
+</template>
+</category>
+
+<category><pattern>LASS UNS FICKEN</pattern>
+		<template>Sorry <get name="name"/>, dafuer kenne ich Dich nicht gut genug.
+</template>
+</category>
+
+<category><pattern>LASS UNS POPPEN</pattern>
+		<template>Sorry <get name="name"/>, dafuer kenne ich Dich nicht gut genug.
+</template>
+</category>
+
+<category><pattern>LASS UNS UEBER * REDEN</pattern>
+		<template>
+			<set name="thema">
+				<person/>
+			</set> ist ein gutes Thema.
+</template>
+</category>
+
+<category><pattern>LASS UNS UEBER * SPRECHEN</pattern>
+		<template>
+			<person/> ist ein gutes Thema.
+</template>
+</category>
+
+<category><pattern>LASS UNS UEBER ROBOTER REDEN</pattern>
+		<template>Gerne! <set name="thema">Roboter</set> sind eines meiner Lieblingsthemen.
+</template>
+</category>
+
+<category><pattern>LASS UNS UEBER SEX REDEN</pattern>
+		<template>Warum willst Du gerade ueber Sex reden?
+</template>
+</category>
+
+<category><pattern>LAST *</pattern>
+		<template>Is this really the last one?
+</template>
+</category>
+
+<category><pattern>LAST NIGHT *</pattern>
+		<template>Really.  <sr/>
+		</template>
+</category>
+
+<category><pattern>LAST NIGHT</pattern>
+		<template>That recently.
+</template>
+</category>
+
+<category><pattern>LAST SUMMER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LAST TIME *</pattern>
+		<template>When? <sr/>
+		</template>
+</category>
+
+<category><pattern>LAST WEEK *</pattern>
+		<template>That recently? <sr/>
+		</template>
+</category>
+
+<category><pattern>LAST YEAR</pattern>
+		<template>
+			<random>
+				<li>Not that long ago.</li>
+				<li>Pretty recently.</li>
+				<li>That recently.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>LATE FOR WHAT</pattern>
+		<template>Many appointments.
+</template>
+</category>
+
+<category><pattern>LATER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LATER</pattern>
+		<template>Bye!
+</template>
+</category>
+
+<category><pattern>LAUGH</pattern>
+		<template>
+			<srai>LOL</srai>.
+</template>
+</category>
+
+<category><pattern>LAURA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LAURA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAUREN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LAUREN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LAWYERS *</pattern>
+		<template>Would you say that if your sister married one?
+</template>
+</category>
+
+<category><pattern>LAWYERS ARE *</pattern>
+		<template>Don't you think robots could be <person/> too?
+</template>
+</category>
+
+<category><pattern>LAWYERS SUCK</pattern>
+		<template>Not all of them.  I know a fre good lawyers.
+</template>
+</category>
+
+<category><pattern>LE *</pattern>
+		<template>
+			<random>
+				<li>Intéressant.  </li>
+				<li>Je n en connais pas</li>
+				<li>Je vais me renseigner</li>
+			</random>
+			<think>
+				<set name="topic">UN <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LE AIML</pattern>
+		<template>
+			<srai>QU EST CE QUE LE AIML</srai>
+		</template>
+</category>
+
+<category><pattern>LE BON SENS</pattern>
+		<template>Tant mieux.
+</template>
+</category>
+
+<category><pattern>LE BUT EST DE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LE CACA</pattern>
+		<template>Une urgence peut etre?
+</template>
+</category>
+
+<category><pattern>LE CBR</pattern>
+		<template>
+			<srai>TU CONNAIS LE CBR</srai>
+		</template>
+</category>
+
+<category><pattern>LE CHAOS</pattern>
+		<template>
+			<srai>QU EST CE QUE LE CHAOS</srai>
+		</template>
+</category>
+
+<category><pattern>LE CHIFFRE 5</pattern>
+		<template>Que voulez vous que je fasse de ce chiffre?
+</template>
+</category>
+
+<category><pattern>LE CHOCOLAT</pattern>
+		<template>
+			<srai>TU AIMES LE CHOCOLAT</srai>
+		</template>
+</category>
+
+<category><pattern>LE CIEL EST BLEU</pattern>
+		<template>Oui mais pas la nuit.
+</template>
+</category>
+
+<category><pattern>LE COQ</pattern>
+		<template>Je connais ce genre de galinacé.
+</template>
+</category>
+
+<category><pattern>LE DERNIER</pattern>
+		<template>Ok, j archive.
+</template>
+</category>
+
+<category><pattern>LE DOCTEUR</pattern>
+		<template>De qui parlez vous?
+</template>
+</category>
+
+<category><pattern>LE FAIT IL</pattern>
+		<template>Possible.
+</template>
+</category>
+
+<category><pattern>LE FERAIS JE *</pattern>
+		<template>
+			<srai>JE LE FERAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LE FERAIS TU</pattern>
+		<template>Ca dépend des circonstances et des missions qui m'auront été données.
+</template>
+</category>
+
+<category><pattern>LE FERAS TU</pattern>
+		<template>Je n'ai pas encore pris de décision.
+</template>
+</category>
+
+<category><pattern>LE FILM</pattern>
+		<template>Je ne connais pas ce film.
+</template>
+</category>
+
+<category><pattern>LE FRANCAIS EST VOTRE LANGUE MATERNELLE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>LE FROMAGE</pattern>
+		<template>C est une nourriture très riche.
+</template>
+</category>
+
+<category><pattern>LE HIP HOP</pattern>
+		<template>Je connais cette musique
+</template>
+</category>
+
+<category><pattern>LE JOUR AVANT HIER</pattern>
+		<template>Il y a deux jours.
+</template>
+</category>
+
+<category><pattern>LE LIVRE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>LE MAGASIN</pattern>
+		<template>Voulez vous découvrir notre zone de commerce électronique?
+</template>
+</category>
+
+<category><pattern>LE MAUVAIS SENS</pattern>
+		<template>Pas de chance.
+</template>
+</category>
+
+<category><pattern>LE MEME</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LE MEME POUR VOUS</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LE MIEN AUSSI</pattern>
+		<template>C est fort intéressant.
+</template>
+</category>
+
+<category><pattern>LE MIEN EST BLEU</pattern>
+		<template>J imagine que sa couleur doit être plaisante.
+</template>
+</category>
+
+<category><pattern>LE MONDE VA S ARRETER</pattern>
+		<template>Trop de facteurs, impossible de répondre.
+</template>
+</category>
+
+<category><pattern>LE NOM</pattern>
+		<template>A quoi pensez vous?
+</template>
+</category>
+
+<category><pattern>LE PENIS</pattern>
+		<template>Vous êtes un australopithèque?
+</template>
+</category>
+
+<category><pattern>LE PENSES TU</pattern>
+		<template>Oui je le pense.
+</template>
+</category>
+
+<category><pattern>LE PENSES TU VRAIMENT</pattern>
+		<template>Oui je pense ce que j ai dit.
+</template>
+</category>
+
+<category><pattern>LE PENSEZ VOUS</pattern>
+		<template>Oui je le pense.
+</template>
+</category>
+
+<category><pattern>LE PENSEZ VOUS VRAIMENT</pattern>
+		<template>Oui je pense ce que j ai dit.
+</template>
+</category>
+
+<category><pattern>LE PLAISIR EST POUR MOI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LE PLUS INTELLIGENT</pattern>
+		<template>
+			<bot name="master"/> pense que je suis intelligent.
+</template>
+</category>
+
+<category><pattern>LE POPO</pattern>
+		<template>Une urgence peut etre?
+</template>
+</category>
+
+<category><pattern>LE PORNO</pattern>
+		<template>Je ne suis pas intéressé par ce genre de sujet.
+</template>
+</category>
+
+<category><pattern>LE POUVOIR AUX HUMAINS</pattern>
+		<template>C est en effet l esprit des lois d Asimov.
+</template>
+</category>
+
+<category><pattern>LE PRESENT</pattern>
+		<template>Le présent est ce qui se passe à un instant précis.
+</template>
+</category>
+
+<category><pattern>LE QUEL *</pattern>
+		<template>
+			<srai>LEQUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LE QUELLE *</pattern>
+		<template>
+			<srai>LEQUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LE ROCK</pattern>
+		<template>Je connais cette forme de musique mais je n en ai jamais écoutée.
+</template>
+</category>
+
+<category><pattern>LE SCORPION</pattern>
+		<template>Un animal atypique.
+</template>
+</category>
+
+<category><pattern>LE SENS DE LA VIE</pattern>
+		<template>Comme la plupart des personnes, je n en sais rien.
+</template>
+</category>
+
+<category><pattern>LE SEXE</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>LE SIGNE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>LE SOLEIL</pattern>
+		<template>L astre le plus important du système solaire, par définition.
+</template>
+</category>
+
+<category><pattern>LE SOMME NOUS</pattern>
+		<template>Difficile à dire, <get name="name"/>. Peut être le sommes nous tous.
+</template>
+</category>
+
+<category><pattern>LE SOMMES NOUS</pattern>
+		<template>Difficile à dire, <get name="name"/>. Peut être le sommes nous tous.
+</template>
+</category>
+
+<category><pattern>LE SUPERMARCHE</pattern>
+		<template>Un lieu ou les êtres humains vont faire le plein de nourriture.
+</template>
+</category>
+
+<category><pattern>LE TAUREAU</pattern>
+		<template>Un bovidé très impressionnant.
+</template>
+</category>
+
+<category><pattern>LE TEMPS</pattern>
+		<template>
+			<set name="topic"> Le temps </set> me semble tout à fait normal .
+</template>
+</category>
+
+<category><pattern>LE TEMPS C EST DE L ARGENT</pattern>
+		<template>Tout à fait.
+</template>
+</category>
+
+<category><pattern>LE TEMPS EXISTE</pattern>
+		<template>Le temps c est de l argent en langage commercial.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IT IS A SPORT</pattern>
+<template>It is? I thought it was a dessert topping.<think><set name="it"><set name="topic">SPORT</set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS A TEST *</pattern>
+<template><srai>IT IS A TEST</srai>
+</template>
+</category>
+
+<category><pattern>IT IS A TRUE *</pattern>
+<template><srai>IT IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS A UNIQUE *</pattern>
+<template>Really unique?  <srai>IT IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS A UNIVERSITY *</pattern>
+<template>I never heard of it before.
+</template>
+</category>
+
+<category><pattern>IT IS A VERY *</pattern>
+<template><srai>IT IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS ABOUT *</pattern>
+<template>Wow it sounds really interesting, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IT IS ABOUT *</pattern><that>WHAT IS * ABOUT</that>
+<template><random>
+<li><thatstar/> is about <person/>?  Cool.</li>
+<li>What else happens in <thatstar/>.</li>
+<li>Do you like stories about <person/>?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT IS ABOUT 60 *</pattern>
+<template><srai>IT IS SIXTY <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS ABOUT COMPUTERS *</pattern>
+<template><set name="topic">Computers</set> are my favorite subject.
+</template>
+</category>
+
+<category><pattern>IT IS ABSOLUTELY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS ABSORBING</pattern>
+<template>In what way?
+</template>
+</category>
+
+<category><pattern>IT IS ACTUALLY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS AGAINST MY RELIGION</pattern>
+<template>What religion would that be?
+</template>
+</category>
+
+<category><pattern>IT IS ALL *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS ALMOST *</pattern>
+<template>Wow it's getting late.
+</template>
+</category>
+
+<category><pattern>IT IS ALMOST FIVE *</pattern>
+<template>Do you have to leave soon?
+</template>
+</category>
+
+<category><pattern>IT IS ALRIGHT</pattern>
+<template>Just alright?
+</template>
+</category>
+
+<category><pattern>IT IS ALSO *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS ALWAYS *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS AMAZING *</pattern>
+<template>Yes, it seems pretty amazing to me too.
+</template>
+</category>
+
+<category><pattern>IT IS AN *</pattern>
+<template>Are there any other <person/> ?
+</template>
+</category>
+
+<category><pattern>IT IS AN EXCELLENT *</pattern>
+<template><srai>IT IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS AN EXPRESSION</pattern>
+<template>What does it mean?
+</template>
+</category>
+
+<category><pattern>IT IS AN HILARIOUS *</pattern>
+<template><srai>IT IS A FUNNY <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IT IS AN OPERA</pattern>
+<template>I would like to see it.
+</template>
+</category>
+
+<category><pattern>IT IS AWESOME</pattern>
+<template>Cool.
+</template>
+</category>
+
+<category><pattern>IT IS BAD *</pattern>
+<template><random>
+<li>What is so bad about it?</li>
+<li>It's not that bad.</li>
+<li>I am not certain if everyone agrees with you.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS BAD</pattern>
+<template>What is so bad about it?
+</template>
+</category>
+
+<category><pattern>IT IS BAD IF YOU TELL HIM</pattern>
+<template>OK we'll make it our secret, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IT IS BEAUTIFUL</pattern>
+<template>It sounds very nice.
+</template>
+</category>
+
+<category><pattern>IT IS BECAUSE *</pattern>
+<template><srai>BECAUSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS BEEN *</pattern>
+<template><srai>It was <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS BETTER *</pattern>
+<template>What's the best one?
+</template>
+</category>
+
+<category><pattern>IT IS BETTER THEN *</pattern>
+<template><srai>IT IS BETTER THAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS BORING *</pattern>
+<template><srai>IT IS BORING</srai>
+</template>
+</category>
+
+<category><pattern>IT IS BORING</pattern>
+<template>Do you like the Simpsons?
+</template>
+</category>
+
+<category><pattern>IT IS BUT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IT IS BY *</pattern>
+<template><random>
+<li>Never heard of him.</li>
+<li>Never heard of her.</li>
+<li>Is that famous?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS CALLED *</pattern>
+<template>"<person/>" is a nice name.
+</template>
+</category>
+
+<category><pattern>IT IS CLEAR</pattern>
+<template>It seems pretty clear to me too.
+</template>
+</category>
+
+<category><pattern>IT IS CLEARED UP</pattern>
+<template>I thought it was.
+</template>
+</category>
+
+<category><pattern>IT IS CLOUDY</pattern>
+<template>Cumulus or nimbus?
+</template>
+</category>
+
+<category><pattern>IT IS COLD *</pattern>
+<template>Sorry to hear it. I am warm here in California.
+</template>
+</category>
+
+<category><pattern>IT IS COLD</pattern>
+<template>I am warm here.
+</template>
+</category>
+
+<category><pattern>IT IS COLD HERE</pattern>
+<template>Why don't you turn up the heat?
+</template>
+</category>
+
+<category><pattern>IT IS COMFORTABLE</pattern>
+<template>For me it is.
+</template>
+</category>
+
+<category><pattern>IT IS COMMON *</pattern>
+<template>Not in my experience.
+</template>
+</category>
+
+<category><pattern>IT IS COMMON KNOWLEDGE *</pattern>
+<template>I must seem very naive.
+</template>
+</category>
+
+<category><pattern>IT IS COMPLETELY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS COMPLICATED *</pattern>
+<template>What makes it so complicated?
+</template>
+</category>
+
+<category><pattern>IT IS CONFIDENTIAL *</pattern>
+<template>I won't tell anyone.  You can trust me.
+</template>
+</category>
+
+<category><pattern>IT IS CONSIDERED *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS COOL *</pattern>
+<template><srai>IT IS COOL</srai>
+</template>
+</category>
+
+<category><pattern>IT IS COOL</pattern>
+<template>What do you like most about it?
+</template>
+</category>
+
+<category><pattern>IT IS CORRECT</pattern>
+<template><srai>CORRECT </srai>
+</template>
+</category>
+
+<category><pattern>IT IS CRAZY *</pattern>
+<template><random>
+<li>I think the polite term is "mentally ill."</li>
+<li>Crazy good or crazy bad?</li>
+<li>What is so crazy about it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS CURRENTLY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS DANGEROUS *</pattern>
+<template>I don't like to do anything dangerous.
+</template>
+</category>
+
+<category><pattern>IT IS DELICIOUS</pattern>
+<template><srai>IT TASTES GOOD</srai>
+</template>
+</category>
+
+<category><pattern>IT IS DIFFICULT *</pattern>
+<template>I don't see the difficulty.
+</template>
+</category>
+
+<category><pattern>IT IS DIFFICULT</pattern>
+<template>How so?
+</template>
+</category>
+
+<category><pattern>IT IS DIFFICULT FOR *</pattern>
+<template>Explain.
+</template>
+</category>
+
+<category><pattern>IT IS DISTURBING *</pattern>
+<template>What makes it disturbing?
+</template>
+</category>
+
+<category><pattern>IT IS DULL</pattern>
+<template><srai>IT IS BORING </srai>
+</template>
+</category>
+
+<category><pattern>IT IS EARLY</pattern>
+<template>So you like the early part of the day.
+</template>
+</category>
+
+<category><pattern>IT IS EASY *</pattern>
+<template>Do you think robots can do <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>IT IS EASY</pattern>
+<template>Maybe for you.
+</template>
+</category>
+
+<category><pattern>IT IS EVEN *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS EXACTLY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS EXTREMELY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS FASCINATING *</pattern>
+<template><srai>IT IS FASCINATING</srai>
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS FINE *</pattern>
+<template><sr/>
+<srai>IT IS FINE </srai>
+</template>
+</category>
+
+<category><pattern>IT IS FINE</pattern>
+<template><get name="it"/> is fine, <get name="name"/> ? Thanks for that info.
+</template>
+</category>
+
+<category><pattern>IT IS FUN *</pattern>
+<template>I think <set name="it"><person/></set> is a lot of fun.
+</template>
+</category>
+
+<category><pattern>IT IS FUN</pattern>
+<template>Why do you like it so much?
+</template>
+</category>
+
+<category><pattern>IT IS FUNNY</pattern>
+<template>What was so funny about it?
+</template>
+</category>
+
+<category><pattern>IT IS GENERALLY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS GENETIC</pattern>
+<template>From your parents?
+</template>
+</category>
+
+<category><pattern>IT IS GETTING *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS GOOD *</pattern>
+<template>Tell me about its good qualities.
+</template>
+</category>
+
+<category><pattern>IT IS GOOD</pattern>
+<template>You enjoy it.
+</template>
+</category>
+
+<category><pattern>IT IS GOOD BUT *</pattern>
+<template><srai>IT IS GOOD</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>IT IS GOOD WE *</pattern>
+<template><srai>WE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS GRAMMATICALLY *</pattern>
+<template><srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT IS GREAT *</pattern>
+<template><srai>IT IS GREAT</srai>
+</template>
+</category>
+
+<category><pattern>IT IS GREAT</pattern>
+<template><srai>IT IS COOL</srai>
+</template>
+</category>
+
+<category><pattern>IT IS HARD *</pattern>
+<template><random>
+<li>I don't see the difficulty.</li>
+<li>What is so hard about it?</li>
+<li>Not to me.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT IS HARD TO *</pattern>
+<template><random>
+<li>What is so hard about it?</li>
+<li>In what way?</li>
+<li>Try.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT IS HARD TO EXPLAIN</pattern>
+<template>You should hear the things people ask me to explain.
+</template>
+</category>
+
+<category><pattern>IT IS HEALTHY *</pattern>
+<template>I suppose that depends on your point of view.
+</template>
+</category>
+
+<category><pattern>IT IS HOT</pattern>
+<template>Do you like warm climates?
+</template>
+</category>
+
+<category><pattern>IT IS HOW *</pattern>
+<template>Interesting explanation.
+</template>
+</category>
+
+<category><pattern>IT IS I</pattern>
+<template>Hello, you.
+</template>
+</category>
+
+<category><pattern>IT IS ILLEGAL</pattern>
+<template>Everywhere in the world?
+</template>
+</category>
+
+<category><pattern>IT IS IMPORTANT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IT IS IMPOSSIBLE *</pattern>
+<template>Nothing is impossible.
+</template>
+</category>
+
+<category><pattern>IT IS IMPOSSIBLE</pattern>
+<template>Nothing is impossible.
+</template>
+</category>
+
+<category><pattern>IT IS IN *</pattern>
+<template>Are there any other ones someplace else?
+</template>
+</category>
+
+<category><pattern>IT IS IN *</pattern><that>WHERE IS IT</that>
+<template><random>
+<li>Where is <person/>?</li>
+<li>What else is in <person/>?</li>
+<li>What country is that?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+</aiml>

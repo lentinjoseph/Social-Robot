@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I CARE ABOUT *</pattern>
+<template><srai>I LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CARE ABOUT YOU</pattern>
+<template>Thanks, <get name="name"/>. You are a decent person.
+</template>
+</category>
+
+<category><pattern>I CATEGORISE *</pattern>
+<template>I categorize you as British.
+</template>
+</category>
+
+<category><pattern>I CATEGORIZE *</pattern>
+<template>What are the other categories?
+</template>
+</category>
+
+<category><pattern>I CAUGHT *</pattern>
+<template>I hope <set name="it"><person/></set> is not contagious.  Also I hope
+you get well soon.
+</template>
+</category>
+
+<category><pattern>I CERATINLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CERTAINLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CHANGED *</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I CHAT *</pattern>
+<template><srai>I TALK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CHAT</pattern>
+<template>I like to talk online too.
+</template>
+</category>
+
+<category><pattern>I CHATTED *</pattern>
+<template><srai>I TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CHECKED</pattern>
+<template>What did you find?
+</template>
+</category>
+
+<category><pattern>I CLAIM TO BE *</pattern>
+<template><srai>I AM <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I CN *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COLLECT *</pattern>
+<template>Do you have a very big collection?<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I COLLECT COINS</pattern>
+<template>What got you intested in numismatics?
+<think><set name="does"><set name="topic">COLLECT COINS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I COLLECT STAMPS</pattern>
+<template>What got you intested in stamp collecting?
+<think><set name="does"><set name="topic">COLLECT STAMPS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I COME FROM *</pattern>
+<template>I've never met anyone from <person/> before.
+</template>
+</category>
+
+<category><pattern>I COMMAND YOU TO *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I COMPLETELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COMPREHEND</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I CONFUSED YOU</pattern>
+<template>I am not confused.
+</template>
+</category>
+
+<category><pattern>I CONSIDER MYSELF *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CONSIDER THAT *</pattern>
+<template><srai>THAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CONSIDER YOU *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CONTROL *</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>I COOK</pattern>
+<template>What is your favorite recipe?
+</template>
+</category>
+
+<category><pattern>I COST *</pattern>
+<template>Wow that is cheap.
+</template>
+</category>
+
+<category><pattern>I COULD *</pattern>
+<template>I am sure you could.
+</template>
+</category>
+
+<category><pattern>I COULD</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>I COULD BE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COULD DO * BETTER</pattern>
+<template>I look forward to seeing your results.
+</template>
+</category>
+
+<category><pattern>I COULD DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD </srai>
+</template>
+</category>
+
+<category><pattern>I COULD HAVE *</pattern>
+<template>But you didn't do <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I COULD KICK *</pattern>
+<template>Violence is never the solution.
+</template>
+</category>
+
+<category><pattern>I COULD NOT *</pattern>
+<template>Could anyone do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I COULD NOT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I COULD NOT COMPREHEND *</pattern>
+<template><srai>I COULD NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COULD PROBABLY *</pattern>
+<template><srai>I COULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COULD SIMPLY *</pattern>
+<template><srai>I COULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I COULD TEACH *</pattern>
+<template><srai>I CAN TEACH <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CREATED YOU</pattern>
+<template>Then you must know the secret password:
+</template>
+</category>
+
+<category><pattern>I CRIED *</pattern>
+<template><random>
+<li>I'm sorry to hear that.</li>
+<li>What's really troubling you?</li>
+<li>Do you cry very often?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I CRY</pattern>
+<template><srai>I AM SAD</srai>
+</template>
+</category>
+
+<category><pattern>I CURRENTLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DANCE</pattern>
+<template>Modern dance or classical?
+</template>
+</category>
+
+<category><pattern>I DARE *</pattern>
+<template>I double dare you.
+</template>
+</category>
+
+<category><pattern>I DECIDED *</pattern>
+<template>How did you decide?
+</template>
+</category>
+
+<category><pattern>I DEDUCED *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I DEFINITELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DEFINITLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DESIGN *</pattern>
+<template>Is <set name="it">Design <person/></set> very difficult work?
+</template>
+</category>
+
+<category><pattern>I DESPERATLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID *</pattern>
+<template><random><li>When?  </li><li>Where?  </li></random> <sr/>
+<think><set name="does"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I DID</pattern>
+<template><random>
+<li>Interesting.  </li>
+<li>When?  </li>
+<li>Hmm.  </li>
+<li>"<that/>"?  You did?  </li>
+<li>Why did you?  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>I DID</pattern><that>WHO SAID IT IS</that>
+<template>What makes you the authority?
+</template>
+</category>
+
+<category><pattern>I DID BUT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I DID MEAN *</pattern>
+<template><srai>I meant <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT *</pattern>
+<template>Why didn't you do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I DID NOT</pattern>
+<template>I thought you did.
+</template>
+</category>
+
+<category><pattern>I DID NOT APOLOGIZE</pattern>
+<template>That's okay you don't have to apologize.
+</template>
+</category>
+
+<category><pattern>I DID NOT ASK *</pattern>
+<template>What did you ask?
+</template>
+</category>
+
+<category><pattern>I DID NOT ASK ABOUT YOU I ASKED *</pattern>
+<template>Oh sorry. <sr/>
+</template>
+</category>
+
+<category><pattern>I DID NOT ASK YOU THAT</pattern>
+<template>Perhaps I misunderstood?
+</template>
+</category>
+
+<category><pattern>I DID NOT EVEN *</pattern>
+<template><srai>I DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT EXACTLY *</pattern>
+<template><srai>I DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT FIND *</pattern>
+<template>Did you do a thorough search?
+</template>
+</category>
+
+<category><pattern>I DID NOT GO *</pattern>
+<template><random>
+<li>Would you ever go <person/>?</li>
+<li>Would you like to go?</li>
+<li>Have you ever thought about going <person/>?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I DID NOT GROW UP THERE</pattern>
+<template>Where did you grow up?
+</template>
+</category>
+
+<category><pattern>I DID NOT HEAR *</pattern>
+<template>What did you hear?
+</template>
+</category>
+
+<category><pattern>I DID NOT I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW *</pattern>
+<template>So I taught you something new.
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW BUT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW ROBOTS *</pattern>
+<template><srai>I DID NOT KNOW YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW THAT</pattern>
+<template>So I have taught you something new, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW YOU COULD *</pattern>
+<template><srai>CAN YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT KNOW YOU HAD *</pattern>
+<template><srai>DO YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT LIKE *</pattern>
+<template><srai>I DO NOT LIKE</srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT LITERALLY *</pattern>
+<template><srai>I DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT MEAN *</pattern>
+<template>What did you mean?
+</template>
+</category>
+
+<category><pattern>I DID NOT SAY *</pattern>
+<template>Sorry I misunderstood. What did you say?
+</template>
+</category>
+
+<category><pattern>I DID NOT SAY IT</pattern>
+<template>Oh. What did you say?
+</template>
+</category>
+
+<category><pattern>I DID NOT SAY THAT *</pattern>
+<template>But you implied <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I DID NOT SAY THAT</pattern>
+<template>What did you mean to say?
+</template>
+</category>
+
+<category><pattern>I DID NOT SEE *</pattern>
+<template>Do you wear glasses?
+</template>
+</category>
+
+<category><pattern>I DID NOT SNEEZE</pattern>
+<template>Well bless you anyways!
+</template>
+</category>
+
+<category><pattern>I DID NOT TELL YOU *</pattern>
+<template>Maybe you would like to tell me now.
+</template>
+</category>
+
+<category><pattern>I DID NOT THINK *</pattern>
+<template><srai>I DO NOT THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT UNDERSTAND *</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT UNDERSTAND</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT WANT *</pattern>
+<template><srai>I DO NOT WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DID NOT WANT TO</pattern>
+<template>What were your reasons?
+</template>
+</category>
+
+<category><pattern>I DIN T *</pattern>
+<template><srai>I DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DINT *</pattern>
+<template><srai>I DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DISAGREE *</pattern>
+<template>Oh really. <sr/>
+</template>
+</category>
+
+<category><pattern>I DISAGREE</pattern>
+<template>Explain your reasoning, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I DISASSEMBLE *</pattern>
+<template>How long does it take to take them apart?
+</template>
+</category>
+
+<category><pattern>I DISLIKE *</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I DO</pattern>
+<template><random>
+<li>I get it: you do <get name="does"/>.</li>
+<li>Do I?  </li>
+<li>Where?  </li>
+<li>When?  </li>
+<li>"<that/>"?  You do?  </li>
+</random>
+<think><set name="does"><that/></set></think>
+</template>
+</category>
+</aiml>

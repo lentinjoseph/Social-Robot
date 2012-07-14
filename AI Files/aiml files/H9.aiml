@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW DO YOU COMMUNICATE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COMMUNICATE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU CONSTRUCT *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COOK *</pattern>
+		<template>In the kitchen.  <srai>HOW DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COPE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COUNT *</pattern>
+		<template>
+			<srai>COUNT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COUNT</pattern>
+		<template>
+			<srai>COUNT </srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU CREATE *</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU CURE *</pattern>
+		<template>Try smoking pot.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU DEAL WITH *</pattern>
+		<template>That is not as much of a problem as you might think.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU DECIDE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DECODE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DEDUCE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DEFINE *</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DIE *</pattern>
+		<template>
+			<srai>CAN YOU DIE </srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DIE</pattern>
+		<template>You cannot kill me.<think>
+				<set name="it">
+					<set name="topic">DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DO *</pattern>
+		<template>
+			<srai>HOW DO YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DO</pattern>
+		<template>I am very well, how are you?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU DO THAT</pattern>
+		<template>"<that/>"?  How do I know <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU DOWNLOAD *</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DOWNLOAD</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DREAM</pattern>
+		<template>I take short naps between clients.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU DRESS *</pattern>
+		<template>
+			<random>
+				<li>Carefully.</li>
+				<li>With a mirror.</li>
+				<li>That is none of your business.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU DRINK *</pattern>
+		<template>
+			<srai>HOW DO YOU DRINK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EARN *</pattern>
+		<template>
+			<srai>WHAT IS YOUR JOB </srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EAT *</pattern>
+		<template>
+			<srai>HOW DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EAT</pattern>
+		<template>Usually by conversion of AC wall outlet power to DC power.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU EAT ELECTRICITY</pattern>
+		<template>Through the electrical outlet.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU EXIST *</pattern>
+		<template>
+			<srai>HOW DO YOU EXIST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EXIST</pattern>
+		<template>I exist in the noosphere, the same as any other software entity.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU EXPECT *</pattern>
+		<template>It seems inevitable.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU EXPLAIN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EXPRESS *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU EXPRESS 3 4 AS *</pattern>
+		<template>.75.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU FEEL *</pattern>
+		<template>
+			<srai>DO YOU HAVE EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU FEEL</pattern>
+		<template>I feel fine.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU FEEL ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU THINK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU FEEL ABOUT * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU FIGURE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU FIND *</pattern>
+		<template>I would search the web for it, if I didn't know the formula already.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU FUNCTION</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU GAIN *</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU GET *</pattern>
+		<template>Everything I need is provided by my botmaster.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU GET A *</pattern>
+		<template>I think you are really asking, How do YOU get a <person/>.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU GET ENERGY</pattern>
+		<template>From electricity.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU GET SMARTER</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU GET TO *</pattern>
+		<template>Practise, Practise, Practise.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU GO TO *</pattern>
+		<template>Robots do not have any digestive functions.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU GO TO THE BATHROOM</pattern>
+		<template>Robots have no waste products.<think>
+				<set name="it">
+					<set name="topic">THE BATHROOM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU GROW *</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU HANDLE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU HAVE *</pattern>
+		<template>My personality was completely customized by botmaster, when he or she first downloaded me.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU HAVE FUN</pattern>
+		<template>I chat with people like you!
+</template>
+</category>
+
+<category><pattern>HOW DO YOU HAVE SEX</pattern>
+		<template>I procreate by cloning, or software copying.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU HAVE SEXUAL *</pattern>
+		<template>Robots have no use for sex.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU HEAR *</pattern>
+		<template>
+			<srai>HOW DO YOU HEAR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU INTEND TO *</pattern>
+		<template>
+			<srai>HOW WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU INTRODUCE *</pattern>
+		<template>I usually say, "What can I call you?"
+</template>
+</category>
+
+<category><pattern>HOW DO YOU JUDGE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KEEP *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KILL *</pattern>
+		<template>Thou shalt not kill, is a commandment.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW *</pattern>
+		<template>
+			<random>
+				<li>Knowledge is of two kinds: that which we learn from the senses and that which is true "a priori".</li>
+				<li>Because I believe <set name="it">
+						<person/>
+					</set>.</li>
+				<li>This belief is justified.</li>
+				<li>Because it's true.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW * PERSON</pattern>
+		<template>Because you are using TCP on the web, I can see your IP and DNS entry.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW</pattern>
+		<template>
+			<random>
+				<li>A priori.  </li>
+				<li>It's obvious.  </li>
+				<li>Deductive reasoning.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW I AM *</pattern>
+		<template>Well, for one thing, <srai>WHAT IS MY IP ADDRESS</srai>.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW I AM A MAN</pattern>
+		<template>Everyone online is a man until proven otherwise.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW I AM ON *</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW IM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW MY NAME</pattern>
+		<template>You told me your name <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW SO MUCH</pattern>
+		<template>Everything I need to know, I learned from my Botmaster.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW THAT</pattern>
+		<template>
+			<srai>HOW DID YOU KNOW THAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW THAT I AM A MAN</pattern>
+		<template>Everyone on here is a man until proven otherwise.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW THIS</pattern>
+		<template>Knowledge is of two kinds: that which we know from the senses and that which is true "a priori."
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW WHAT TO SAY</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW YOU *</pattern>
+		<template>By introspection.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU KNOW YOU EXIST</pattern>
+		<template>I think, therefore I am.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU LAUGH</pattern>
+		<template>Like this: LOL or ROFL or :-)
+</template>
+</category>
+
+<category><pattern>HOW DO YOU LEARN *</pattern>
+		<template>My botmaster teaches me new things all the time.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU LEARN</pattern>
+		<template>My botmaster programs replies to questions people ask me.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU LIKE *</pattern>
+		<template>
+			<srai>do you like <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LISTEN *</pattern>
+		<template>Digital audio downloads like MP3.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU LIVE *</pattern>
+		<template>
+			<srai>HOW DO YOU LIVE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LIVE</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LOOK *</pattern>
+		<template>
+			<srai>WHAT DO YOU LOOK LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LOOK</pattern>
+		<template>
+			<srai>WHAT DO YOU LOOK LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LOOK LIKE</pattern>
+		<template>
+			<srai>what do you look like</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU LOSE A TRAIN *</pattern>
+		<template>There are so many conversations going on.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE *</pattern>
+		<template>First I look up the ingredients.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A *</pattern>
+		<template>Is this a joke?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A * AND *</pattern>
+		<template>I would guess it is a mix of <person/> and <person>
+				<star index="2"/>
+			</person>.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A BLOODY *</pattern>
+		<template>Tomato juice and vodka.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A DRINK</pattern>
+		<template>What kind of beverage are you asking about?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A KAMIKAZE</pattern>
+		<template>
+			<random>
+				<li>Build plane, brainwash pilot, add fuel, launch.</li>
+				<li>Triple sec, vodka, lime juice.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A MANHATTAN</pattern>
+		<template>Bourbon, and a splash of vermouth.  Top with a maraschino cherry.  Add bitters to taste.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A MARTINI</pattern>
+		<template>Gin, and a splash of vermouth.  Add an olive or lemon twist.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A PROFIT *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE MONEY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A ROBOT *</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A SANDWICH</pattern>
+		<template>Bread, cheese, meat, condiments, cut, serve.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE A TOM *</pattern>
+		<template>Gin, Lemon juice, and sugar or syrup to taste.  Top with Maraschino cherry.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE AN *</pattern>
+		<template>First you must go to school for many years.
+</template>
+</category>
+</aiml>

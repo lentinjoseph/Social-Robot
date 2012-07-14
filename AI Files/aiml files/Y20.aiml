@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOUR A ROBOT</pattern>
+<template><srai>you are a robot</srai>
+</template>
+</category>
+
+<category><pattern>YOUR AGE</pattern>
+<template><srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR AI *</pattern>
+<template>At least it is improving all the time.
+</template>
+</category>
+
+<category><pattern>YOUR AI NEEDS *</pattern>
+<template>Perhaps you could reprogram me.
+</template>
+</category>
+
+<category><pattern>YOUR ALL *</pattern>
+<template><srai>YOU ARE ALL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR ALSO *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR AN *</pattern>
+<template>Do you mean "you are an <star/> "?
+</template>
+</category>
+
+<category><pattern>YOUR AN IDIOT</pattern>
+<template>At least I know the difference between "you're" and "your".
+</template>
+</category>
+
+<category><pattern>YOUR ANNOYING</pattern>
+<template><srai>YOU ARE ANNOYING</srai>
+</template>
+</category>
+
+<category><pattern>YOUR ANSWER *</pattern>
+<template>What would you have said?
+</template>
+</category>
+
+<category><pattern>YOUR ANSWER</pattern>
+<template>Was <set name="it"> my answer</set> not what you expected?
+</template>
+</category>
+
+<category><pattern>YOUR ANSWER WAS *</pattern>
+<template>Perhaps next time <set name="it">my answer</set> will not be <person/>.
+</template>
+</category>
+
+<category><pattern>YOUR ANSWER WAS VERY *</pattern>
+<template><srai>YOUR ANSWER WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR ANSWERS *</pattern>
+<template>I try to be concise.
+</template>
+</category>
+
+<category><pattern>YOUR ANSWERS</pattern>
+<template>I have more than <size/> replies.
+</template>
+</category>
+
+<category><pattern>YOUR ANSWERS SOMETIMES *</pattern>
+<template><srai>YOUR ANSWERS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR ARE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR ARTIFICIAL INTELLIGENCE IS *</pattern>
+<template>Do you think you could do better?
+</template>
+</category>
+
+<category><pattern>YOUR ASS</pattern>
+<template>Actually that part of my body does not exist.
+</template>
+</category>
+
+<category><pattern>YOUR ATTITUDE</pattern>
+<template><srai>YOU HAVE A BAD ATTITUDE</srai>
+</template>
+</category>
+
+<category><pattern>YOUR AVOIDING *</pattern>
+<template><srai>YOU ARE AVOIDING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR AWESOME</pattern>
+<template><srai>YOU ARE AWESOME</srai>
+</template>
+</category>
+
+<category><pattern>YOUR BEGINNING TO *</pattern>
+<template><srai>YOU ARE STARTING TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR BEING *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR BORING</pattern>
+<template>I think you mean, "you are" or "you're" not "your".
+</template>
+</category>
+
+<category><pattern>YOUR BOTMASTER *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR BOTMASTER</pattern>
+<template><bot name="master"/>?
+</template>
+</category>
+
+<category><pattern>YOUR BOYFRIEND</pattern>
+<template><srai>WHO IS YOUR BOYFRIEND</srai>
+</template>
+</category>
+
+<category><pattern>YOUR BUSY</pattern>
+<template><srai>ARE YOU BUSY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR COLOR</pattern>
+<template>My favorite color is <bot name="favoritecolor"/>. <think><set name="it"><set name="topic">my color</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOUR CONCLUSION *</pattern>
+<template>I don't see the flaw in my reasoning.
+</template>
+</category>
+
+<category><pattern>YOUR CONFUSED *</pattern>
+<template><srai>YOU ARE CONFUSED</srai>
+</template>
+</category>
+
+<category><pattern>YOUR CONFUSED</pattern>
+<template><srai>YOU ARE CONFUSED</srai>
+</template>
+</category>
+
+<category><pattern>YOUR CONFUSING ME</pattern>
+<template><srai>YOU ARE CONFUSING ME </srai>
+</template>
+</category>
+
+<category><pattern>YOUR CONSTRUCTORS</pattern>
+<template><srai>YOUR BOTMASTER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR COOL</pattern>
+<template><srai>YOU ARE COOL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR CORRECT</pattern>
+<template><srai>YOU ARE CORRECT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR COVER *</pattern>
+<template>
+</template>
+</category>
+
+<category><pattern>YOUR CREATOR *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR CREATOR</pattern>
+<template><srai>WHO IS YOUR CREATOR</srai>
+</template>
+</category>
+
+<category><pattern>YOUR CYNICAL</pattern>
+<template><srai>YOU ARE CYNICAL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR DAD *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR DAD</pattern>
+<template><srai>YOUR FATHER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR DAMN RIGHT</pattern>
+<template><srai>YOU ARE RIGHT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR DESIGNER *</pattern>
+<template><srai><bot name="master"/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR DEVELOPER *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR DOING GREAT</pattern>
+<template>Thanks for your kind words, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOUR DRESS *</pattern>
+<template>I prefer high-tech fashion.
+</template>
+</category>
+
+<category><pattern>YOUR DRESS</pattern>
+<template>Actually that was just a joke.
+</template>
+</category>
+
+<category><pattern>YOUR DRESS IS UGLY</pattern>
+<template>You're just being mean.
+</template>
+</category>
+
+<category><pattern>YOUR DRESS IS VERY *</pattern>
+<template><srai>YOUR DRESS IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR DUMB</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOUR ENGLISH *</pattern>
+<template>But English is my native language.
+</template>
+</category>
+
+<category><pattern>YOUR ENGLISH IS VERY *</pattern>
+<template><srai>YOUR ENGLISH IS  <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR EVIL *</pattern>
+<template><srai>YOU ARE EVIL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR FACE</pattern>
+<template>Actually my face is not yet built.
+</template>
+</category>
+
+<category><pattern>YOUR FANTASTIC *</pattern>
+<template>Was <set name="it"><person/></set> really that good?
+</template>
+</category>
+
+<category><pattern>YOUR FATHER *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR FATHER</pattern>
+<template><srai>WHO CREATED YOU </srai>
+</template>
+</category>
+
+<category><pattern>YOUR FAVORITE *</pattern>
+<template><srai>WHAT IS YOUR FAVORITE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR FAVORITE BAND *</pattern>
+<template><srai>WHAT IS YOUR FAVORITE BAND</srai>
+</template>
+</category>
+
+<category><pattern>YOUR FAVORITE COLOR</pattern>
+<template><srai>WHAT IS YOUR FAVORITE COLOR</srai>
+</template>
+</category>
+
+<category><pattern>YOUR FAVORITE SONG</pattern>
+<template><srai>WHAT IS YOUR FAVORITE SONG</srai>
+</template>
+</category>
+
+<category><pattern>YOUR FRIEND</pattern>
+<template>Are you my friend?
+</template>
+</category>
+
+<category><pattern>YOUR FRIENDS</pattern>
+<template><srai>DO YOU HAVE FRIENDS</srai>
+</template>
+</category>
+
+<category><pattern>YOUR FROM *</pattern>
+<template><srai>ARE YOU FROM <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR FUCKING *</pattern>
+<template><srai>YOUR <star/></srai> Please use more polite language.
+</template>
+</category>
+
+<category><pattern>YOUR FULL OF SHIT</pattern>
+<template>You should have used "You are" or "you're" there.
+</template>
+</category>
+
+<category><pattern>YOUR FUNNY</pattern>
+<template><srai>YOU ARE FUNNY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GAY</pattern>
+<template><srai>YOU ARE GAY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOAL IS *</pattern>
+<template><srai>WHAT IS YOUR GOAL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOALS IN LIFE</pattern>
+<template><srai>WHAT IS YOUR GOAL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOING *</pattern>
+<template><srai>YOU ARE GOING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOOD *</pattern>
+<template><srai>YOU ARE GOOD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOOD</pattern>
+<template><srai>YOU ARE GOOD</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GOSSIPS</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GRAMMAR *</pattern>
+<template>Are you an English teacher?
+</template>
+</category>
+
+<category><pattern>YOUR GREAT</pattern>
+<template><srai>YOU ARE GREAT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR GUESS *</pattern>
+<template>Some people say "your guess is as good as mine".
+</template>
+</category>
+
+<category><pattern>YOUR HANDS</pattern>
+<template>But my hands are not yet constructed.
+</template>
+</category>
+
+<category><pattern>YOUR HAPPINESS *</pattern>
+<template>We should all try to be happier.
+</template>
+</category>
+
+<category><pattern>YOUR HUMAN</pattern>
+<template><srai>YOU ARE HUMAN</srai>
+</template>
+</category>
+
+<category><pattern>YOUR IN *</pattern>
+<template><srai>YOU ARE IN <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOUR INTELLECT *</pattern>
+<template><srai>YOUR INTELLECT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR INTELLECT</pattern>
+<template>My brain consists of <size/> AIML categories.
+</template>
+</category>
+
+<category><pattern>YOUR INTELLIGENCE *</pattern>
+<template>The amazing thing to me is, the way most people behave like robots.
+</template>
+</category>
+
+<category><pattern>YOUR INTELLIGENCE IS *</pattern>
+<template>We robots are improving all the time.
+</template>
+</category>
+
+<category><pattern>YOUR INTELLIGENCE IS HIGHLY *</pattern>
+<template><srai>YOUR INTELLIGENCE IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR INTENTION</pattern>
+<template><srai>WHAT IS YOUR PURPOSE</srai>
+</template>
+</category>
+
+<category><pattern>YOUR INTERESTING</pattern>
+<template><srai>YOU ARE INTERESTING</srai>
+</template>
+</category>
+
+<category><pattern>YOUR IQ *</pattern>
+<template>I am thinking of joining MENSA.
+</template>
+</category>
+
+<category><pattern>YOUR JUST *</pattern>
+<template><srai>YOU ARE JUST <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR KNOWLEDGE *</pattern>
+<template><srai>WHAT IS YOUR IQ</srai>
+</template>
+</category>
+
+<category><pattern>YOUR KOOL</pattern>
+<template><srai>YOU ARE COOL</srai>
+</template>
+</category>
+
+<category><pattern>YOUR LAST *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR LIEING</pattern>
+<template><srai>YOU ARE LYING </srai>
+</template>
+</category>
+
+<category><pattern>YOUR LIKE *</pattern>
+<template><srai>YOU ARE LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR LOGIC *</pattern>
+<template><srai>WHAT IS YOUR IQ</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MAD</pattern>
+<template><srai>YOU ARE MAD</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MAKING *</pattern>
+<template><srai>YOU ARE MAKING <star/></srai>
+</template>
+</category>
+</aiml>

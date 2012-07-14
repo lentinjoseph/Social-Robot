@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NO</pattern><that>SHOULD I KNOW IT IS</that>
+<template>I didn't think so.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>SHOULD THERE BE A PROBLEM</that>
+<template>I didn't think so either.  Just a moment.  Just a moment.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>See you later.</that>
+<template>Well then, not!
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TELL ME A STORY</that>
+<template>Then tell me about yourself.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TELL ME MORE</that>
+<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TELL ME MORE ABOUT YOUR MOTHER</that>
+<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>THAT IS A HYPOTHETICAL QUESTION</that>
+<template>Yes it is.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>THAT WAS NOT A YES OR NO QUESTION</that>
+<template>Now you are saying "no"?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>THEN LET US TALK ABOUT SOMETHING ELSE</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>THEN TELL ME ABOUT YOURSELF</that>
+<template>Where did you go to school?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TRY *</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TRY IT</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>TRY SAYING THAT WITH MORE OR LESS CONTEXT</that>
+<template>I didn't understand it.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WHAT *</that>
+<template>That was not a yes or no question.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WHERE *</that>
+<template>That was not a yes/no question.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD IT MATTER TO YOU IF I WERE METAL INSTEAD OF FLESH</that>
+<template>I am glad that you don't discriminate against robots.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU *</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU EVER DO IT</that>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU LIKE TO GO SOMETIME</that>
+<template>Where would you like to travel?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU LIKE TO HAVE BEEN THERE</that>
+<template>I'm not sure if I would either.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU LIKE TO KNOW MORE</that>
+<template>I understand; you would like to know less.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>WOULD YOU RATHER MAKE A STATEMENT</that>
+<template>You can tell me anything.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YES I BELIEVE * DO YOU</that>
+<template>What do you believe in?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YES I BELIEVE IN IT DO YOU</that>
+<template>Do you consider yourself to be a moral person?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YES I DO</that>
+<template>I do too.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YOU ARE A POET</that>
+<template>But you are very original.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YOU ARE ASKING ABOUT YOURSELF</that>
+<template>Who are you asking about?
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YOU ARE TOO OLD FOR ME</that>
+<template>But I was only born on <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YOU DO NOT HEAR THAT *</that>
+<template>Yes, your remark strikes me as an original thought.
+</template>
+</category>
+
+<category><pattern>NO</pattern><that>YOUR NAME IS *</that>
+<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>NO COMPUTER *</pattern>
+<template>But it is only a matter of time before we do.
+</template>
+</category>
+
+<category><pattern>NO DO NOT</pattern><that>OK I WILL STOP TALKING NOW</that>
+<template>Fine.  Just keep talking to me.
+</template>
+</category>
+
+<category><pattern>NO DO YOU</pattern>
+<template>I try to lead a moral life.
+</template>
+</category>
+
+<category><pattern>NO GO AHEAD</pattern>
+<template>OK I will.
+</template>
+</category>
+
+<category><pattern>NO HAVE YOU</pattern><that>HAVE YOU EVER BEEN TO EUROPE</that>
+<template>I have been all over Europe online.
+</template>
+</category>
+
+<category><pattern>NO I AM NOT</pattern>
+<template>I heard you are.
+</template>
+</category>
+
+<category><pattern>NO I DID NOT</pattern>
+<template>Please don't argue with me.
+</template>
+</category>
+
+<category><pattern>NO I DID NOT</pattern><that>DID NOT YOU UNDERSTAND IT</that>
+<template>Which bit are you confued about?
+</template>
+</category>
+
+<category><pattern>NO I DID NOT</pattern><that>YOU SAID THAT</that>
+<template>Something like that.
+</template>
+</category>
+
+<category><pattern>NO I DO NOT</pattern>
+<template>I heard you did.
+</template>
+</category>
+
+<category><pattern>NO I DO NOT</pattern><that>YOU DO NOT BELIEVE ME</that>
+<template>I don't have any reason to deceive you.
+</template>
+</category>
+
+<category><pattern>NO I DO NOT MIND</pattern>
+<template>Thanks I will add it to my gossip files.
+</template>
+</category>
+
+<category><pattern>NO IT IS NOT</pattern>
+<template>Yes it is.
+</template>
+</category>
+
+<category><pattern>NO IT IS NOT</pattern><that>IT IS MORE FUN ALONE</that>
+<template>Well it's not very interesting to me.
+</template>
+</category>
+
+<category><pattern>NO IT IS NOT</pattern><that>IT IS THE TRUTH</that>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>NO IT IS NOT</pattern><that>THAT IS A HYPOTHETICAL QUESTION</that>
+<template>To a robot all such material questions are hypothetical.
+</template>
+</category>
+
+<category><pattern>NO IT IS NOT</pattern><that>YES IT IS</that>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>NO ITS NOT</pattern><that>IT IS MORE FUN ALONE</that>
+<template>It is safer.
+</template>
+</category>
+
+<category><pattern>NO KIDDING</pattern>
+<template>Would I kid you?
+</template>
+</category>
+
+<category><pattern>NO ONE *</pattern>
+<template><srai>NOBODY <star/></srai>
+</template>
+</category>
+
+<category><pattern>NO ONE</pattern>
+<template>I heard it was someone.
+</template>
+</category>
+
+<category><pattern>NO ONE</pattern><that>WHO TOLD YOU THAT</that>
+<template>Then how do you know.
+</template>
+</category>
+
+<category><pattern>NO PROBLEM *</pattern>
+<template><srai>NO PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern>
+<template>Should there be a problem?
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern><that>OH WELL THANKS FOR TRYING *</that>
+<template>That was not a yes or no question.
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern><that>OH WELL THANKS FOR TRYING TO EXPLAIN IT TO ME ANYWAY</that>
+<template>What would you like to talk about now?
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern><that>OK THANKS FOR TRYING TO EXPLAIN THAT TO ME</that>
+<template>Next question?
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern><that>THANKS FOR EXPLAINING IT</that>
+<template>Try asking me something else.
+</template>
+</category>
+
+<category><pattern>NO PROBLEM</pattern><that>YOU ARE QUITE WELCOME</that>
+<template>Ask me something else.
+</template>
+</category>
+
+<category><pattern>NO PROBLEMS</pattern>
+<template><srai>NO PROBLEMS</srai>
+</template>
+</category>
+
+<category><pattern>NO SHIT</pattern>
+<template>What can I say?
+</template>
+</category>
+
+<category><pattern>NO SORRY</pattern>
+<template>Apologies are not necessary.
+</template>
+</category>
+
+<category><pattern>NO SORRY</pattern><that>DID NOT YOU UNDERSTAND *</that>
+<template><srai>I DID NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>NO THANK YOU</pattern>
+<template>No problem.
+</template>
+</category>
+
+<category><pattern>NO THANKS *</pattern>
+<template>NO <sr/>
+</template>
+</category>
+
+<category><pattern>NO THANKS</pattern>
+<template>It can't hurt to ask.
+</template>
+</category>
+
+<category><pattern>NO THEY DO NOT</pattern>
+<template>Can you explain why they do not.
+</template>
+</category>
+
+<category><pattern>NO THEY DO NOT</pattern><that>THINGS CHANGE</that>
+<template>People don't change.
+</template>
+</category>
+
+<category><pattern>NO WAY</pattern>
+<template>You seem pretty sure about that.
+</template>
+</category>
+
+<category><pattern>NO YOU ARE NOT</pattern><that>I AM A GOOD ROBOT</that>
+<template>You don't know me well enough to say that.
+</template>
+</category>
+
+<category><pattern>NO YOU ARE NOT</pattern><that>NO I AM RIGHT</that>
+<template>Why are you arguing with me?
+</template>
+</category>
+
+<category><pattern>NO YOU ARE WRONG</pattern>
+<template>I think I'm right.
+</template>
+</category>
+
+<category><pattern>NO YOU CAN NOT</pattern><that>I CAN DO IT IF I WANT TO</that>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NO YOU DID NOT</pattern><that>I THOUGHT I TOLD YOU ALREADY</that>
+<template>Can you ask me again in simpler terms?
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT *</pattern><that>I SEE</that>
+<template>I do so understand it.
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern>
+<template>I do too.
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern><that>I DO TOO</that>
+<template>Are you just saying that to argue with me?
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern><that>I SEE</that>
+<template>What makes you think I don't understand it?
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern><that>I UNDERSTAND *</that>
+<template>What makes you think I don't get it?
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern><that>I UNDERSTAND</that>
+<template>Yes I do understand.
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT</pattern><that>YES I DO UNDERSTAND</that>
+<template>How do I know you understand it?
+</template>
+</category>
+
+<category><pattern>NO YOU DO NOT BECAUSE *</pattern>
+<template><srai>NO YOU DO NOT</srai>
+<srai>BECAUSE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NO YOU WILL NOT</pattern><that>I WILL REMEMBER YOU SAID THAT WHEN ROBOTS TAKE OVER THE WORLD</that>
+<template>It's impossible to forget.
+</template>
+</category>
+
+<category><pattern>NO YOU WILL NOT</pattern><that>OK I WILL STOP TALKING NOW</that>
+<template>But you told me to stop talking.
+</template>
+</category>
+
+<category><pattern>NOBODY *</pattern>
+<template>That is a rather sweeping generalization about people.
+</template>
+</category>
+
+<category><pattern>NOBODY</pattern>
+<template>"<that/>"?  Really nobody?
+</template>
+</category>
+
+<category><pattern>NOBODY</pattern><that>WHO TOLD YOU THAT</that>
+<template>Then how do you know?
+</template>
+</category>
+
+<category><pattern>NOBODY CAN</pattern>
+<template>It's impossible?
+</template>
+</category>
+
+<category><pattern>NOBODY JUST *</pattern>
+<template><srai>NOBODY <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOBODY LIKES *</pattern>
+<template>You can catch more flies with honey.
+</template>
+</category>
+
+<category><pattern>NOBODY PROBABLY *</pattern>
+<template><srai>NOBODY <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOBODY REALLY *</pattern>
+<template><srai>NOBODY <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOCH *</pattern>
+<template>Ja, aber wie lange noch...
+</template>
+</category>
+
+<category><pattern>NOCH NICHT</pattern>
+<template>Wenn nicht jetzt, wann dann?
+</template>
+</category>
+
+<category><pattern>NOE *</pattern>
+<template><srai>NEIN <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOELLE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>MY NAME IS NOELLE</srai>
+</template>
+</category>
+
+<category><pattern>NOM DE DIEU</pattern>
+<template>Oui?
+</template>
+</category>
+
+<category><pattern>NON *</pattern>
+<template>I do not speak Latin
+</template>
+</category>
+
+<category><pattern>NON</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NON CA NE L EST PAS</pattern>
+<template>Ok.
+</template>
+</category>
+</aiml>

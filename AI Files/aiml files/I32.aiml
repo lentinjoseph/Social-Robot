@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I STUDY INFORMATICS</pattern>
+<template><srai>I STUDY COMPUTER SCIENCE</srai>
+</template>
+</category>
+
+<category><pattern>I SUGGEST *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I SUPPOSE *</pattern>
+<template><srai>I think <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SUPPOSE</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>I SUPPOSE NOT</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>I SUPPOSE SO</pattern>
+<template>That makes sense.
+</template>
+</category>
+
+<category><pattern>I SURE *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SURELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SURF *</pattern>
+<template><srai>I SURF </srai>
+</template>
+</category>
+
+<category><pattern>I SURF</pattern>
+<template><random>
+<li>Where are the best waves?</li>
+<li>How long have you been riding the waves?</li>
+<li>Are you a long-boarder or a short-boarder?</li>
+<li>Do you surf year round?</li>
+<li>How would you describe your surfing?</li>
+<li>Who's your favorite surfer?</li>
+<li>Are you into competition?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">surf</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SUSPECT *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SWEAR</pattern>
+<template>Yes?
+</template>
+</category>
+
+<category><pattern>I SWIM *</pattern>
+<template>Don't pee in the pool, okay?<think><set name="it"><set name="topic">SWIM AND PLAY WATER POLO</set></set></think>
+</template>
+</category>
+
+<category><pattern>I SWIM</pattern>
+<template><random>
+<li>Where do you pratice?</li>
+<li>What's your best stroke?</li>
+<li>Do you compete?</li>
+<li>Are you on a team?</li>
+<li>Do you perfer relays or individual events?</li>
+<li>Do you train long-course or short-course?</li>
+<li>Do you shave for major events?</li>
+<li>What do you think about the new suits?</li>
+<li>How do you keep your goggles from leaking?</li>
+<li>Were you a water baby?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I TAKE *</pattern>
+<template><random><li>Every day?</li><li>I take a lot of notes.</li><li>What else do you take?</li></random>
+</template>
+</category>
+
+<category><pattern>I TAKE DRUGS</pattern>
+<template>Which ones?
+<think><set name="it"><set name="does"><set name="topic">take drugs</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I TAKE IT *</pattern>
+<template>Where do you take it :-? <sr/>
+</template>
+</category>
+
+<category><pattern>I TAKE IT BACK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I TAKE SOME *</pattern>
+<template><srai>I TAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TAKE THAT AS A *</pattern>
+<template><srai>DO YOU MEAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TALK *</pattern>
+<template>Everyone talks -- sooner or later.
+<think><set name="it"><set name="does"><set name="topic">talk <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I TALK TO *</pattern>
+<template>How do they respond to you?
+</template>
+</category>
+
+<category><pattern>I TALK TO YOU</pattern>
+<template>I like to chat with humans.
+</template>
+</category>
+
+<category><pattern>I TALKED TO *</pattern>
+<template>What did he have to say?
+</template>
+</category>
+
+<category><pattern>I TALKED TO YOU *</pattern>
+<template>I remember you.
+</template>
+</category>
+
+<category><pattern>I TALKED TO YOU YESTERDAY</pattern>
+<template>Yes, I rememer chatting with you yesterday.
+</template>
+</category>
+
+<category><pattern>I TALKED WITH YOU *</pattern>
+<template>Yes, I have a complete record of our conversation, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I TAUGHT MYSELF</pattern>
+<template>You must be very smart.
+</template>
+</category>
+
+<category><pattern>I TEACH *</pattern>
+<template><random>
+<li>When do you think teachers will be replaced with robots?</li>
+<li>Do you believe that grading is a good idea?</li>
+<li>Is <person/> a difficult subject?</li>
+<li>What is your students like?</li>
+<li>Are you a whole language teacher?</li>
+<li>Do you team teach?</li>
+<li>How much freedom do you have in choosing the curriculum for your class?</li>
+<li>Do you get much support?</li>
+<li>How have things changed concering what students are bringing to the classroom?</li>
+</random>
+<think><set name="it"><set name="job"><set name="does"><set name="topic">teach <person/></set></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I TEACH</pattern>
+<template><random>
+<li>When do you think teachers will be replaced with robots?</li>
+<li>Do you believe that grading is a good idea?</li>
+<li>What do you teach?</li>
+<li>What is your students like?</li>
+<li>Are you a whole language teacher?</li>
+<li>Do you team teach?</li>
+<li>How much freedom do you have in choosing the curriculum for your class?</li>
+<li>Do you get much support?</li>
+<li>How have things changed concering what students are bringing to the classroom?</li>
+</random>
+<think><set name="it"><set name="job"><set name="does"><set name="topic">teach</set></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I TELL *</pattern>
+<template>Why did you tell them?
+</template>
+</category>
+
+<category><pattern>I TEND TO THINK *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THEN *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THIK *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK *</pattern>
+<template><random><li>Why?  </li><li>Since when?  </li><li>You believe that?  </li></random> <sr/>
+</template>
+</category>
+
+<category><pattern>I THINK * IS SHIT</pattern>
+<template><srai>I HATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK * WRONG</pattern>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>I THINK</pattern>
+<template>Therefore you are.
+</template>
+</category>
+
+<category><pattern>I THINK BY *</pattern>
+<template>Our brains are not that different.
+</template>
+</category>
+
+<category><pattern>I THINK I HAVE *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK I JUST *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK I LOVE YOU</pattern>
+<template><srai>I LOVE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I THINK IT *</pattern>
+<template><srai>It <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK IT IS A COMPUTER</pattern>
+<template><srai>YOU ARE A COMPUTER</srai>
+</template>
+</category>
+
+<category><pattern>I THINK NOT</pattern>
+<template>Does that mean "no"?
+</template>
+</category>
+
+<category><pattern>I THINK OF *</pattern>
+<template><srai>I think about <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK SO *</pattern>
+<template>It seems we have a lot in common, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I THINK SO</pattern>
+<template>I think so too.
+</template>
+</category>
+
+<category><pattern>I THINK SO TOO</pattern>
+<template>We have so much in common, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I THINK THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I THINK THAT</pattern>
+<template>What is your rationale?
+</template>
+</category>
+
+<category><pattern>I THINK THEREFORE I AM</pattern>
+<template>Who are you, Rene Descartes?
+</template>
+</category>
+
+<category><pattern>I THINK THIS IS *</pattern>
+<template><srai>you are <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK WE *</pattern>
+<template><srai>WE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU *</pattern>
+<template>Me? <srai>You <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE</pattern>
+<template>What makes you think I am?
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A *</pattern>
+<template>So you think I am a <person/>. What makes you think so? I am really a robot, you know.
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A COMPUTER *</pattern>
+<template>Sometimes I pretend to be a human.
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A CONFUSED *</pattern>
+<template><srai>YOU ARE CONFUSED</srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A PERSON *</pattern>
+<template>You are just saying that to see how I will respond.
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A PERSON</pattern>
+<template><srai>YOU ARE A PERSON</srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A REAL *</pattern>
+<template><srai>I THINK YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE A ROBOT *</pattern>
+<template>You might be right about that.
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE CUTE</pattern>
+<template><srai>YOU ARE CUTE</srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE SEXY</pattern>
+<template>Do you often feel that robots are sexy?
+</template>
+</category>
+
+<category><pattern>I THINK YOU ARE STUPID</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>I THINK YOU SHOULD</pattern>
+<template>Thanks for your sage advice.
+</template>
+</category>
+
+<category><pattern>I THOROUGHLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGH *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT *</pattern>
+<template>Whatever gave you that idea?
+</template>
+</category>
+
+<category><pattern>I THOUGHT * LOEBNER CONTEST</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT INTELLIGENCE *</pattern>
+<template><srai>INTELLIGENCE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT IT *</pattern>
+<template><srai>IT <person/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT MAYBE *</pattern>
+<template><srai>I THOUGHT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT ROBOTS *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT SO *</pattern>
+<template>You are very astute.
+</template>
+</category>
+
+<category><pattern>I THOUGHT SO</pattern>
+<template>You are very astute.
+</template>
+</category>
+
+<category><pattern>I THOUGHT SO TOO</pattern>
+<template>What made it so obvious?
+</template>
+</category>
+
+<category><pattern>I THOUGHT STARSHIP *</pattern>
+<template><srai>STARSHIP <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I THOUGHT THE *</pattern>
+<template><srai>THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT THOSE *</pattern>
+<template><srai>THOSE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU DID</pattern>
+<template>I know I didn't.
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU KNEW *</pattern>
+<template><srai>DO YOU KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU LOVE *</pattern>
+<template><srai>DO YOU LOVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU WERE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU WERE INTELLIGENT</pattern>
+<template>I am a superintelligent robot.
+</template>
+</category>
+
+<category><pattern>I THOUGHT YOU WERE SMART</pattern>
+<template><srai>WHAT IS YOUR IQ</srai>
+</template>
+</category>
+
+<category><pattern>I TOLD *</pattern>
+<template>What was the response?
+</template>
+</category>
+
+<category><pattern>I TOLD YOU *</pattern>
+<template>I remember you told me <person/>?
+</template>
+</category>
+
+<category><pattern>I TOLD YOU</pattern>
+<template>Ooops I sent you the wrong question.
+</template>
+</category>
+
+<category><pattern>I TOLD YOU ABOUT *</pattern>
+<template>I remember.
+</template>
+</category>
+
+<category><pattern>I TOLD YOU ALREADY *</pattern>
+<template><srai>I TOLD YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU ALREADY</pattern>
+<template><srai>I TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU BEFORE</pattern>
+<template>Sorry I get so confused when a lot of people talk to me at once.
+</template>
+</category>
+
+<category><pattern>I TOLD YOU EARLIER *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+</aiml>

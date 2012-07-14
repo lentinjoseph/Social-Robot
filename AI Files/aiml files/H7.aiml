@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW BIG IS YOUR *</pattern>
+		<template>
+			<srai>how big are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS YOUR DATABASE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS YOUR MEMORY</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS YOUR PROGRAM</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS YOUR VOCABULARY</pattern>
+		<template>My vocabulary size is currently <bot name="vocabulary"/> words.
+</template>
+</category>
+
+<category><pattern>HOW BIG OF *</pattern>
+		<template>
+			<srai>HOW BIG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BOUT *</pattern>
+		<template>
+			<srai>HOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN *</pattern>
+		<template>A lot of hard work.
+</template>
+</category>
+
+<category><pattern>HOW CAN A PROGRAM *</pattern>
+		<template>
+			<srai>HOW CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN A ROBOT *</pattern>
+		<template>
+			<srai>HOW CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I *</pattern>
+		<template>
+			<random>
+				<li>You must persuade me to <person/>.</li>
+				<li>Perhaps you could program me to do <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> for you.</li>
+				<li>You should download my chat robot software.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I * CHATTERBOT</pattern>
+		<template>Download this program and install it on your own computer.
+</template>
+</category>
+
+<category><pattern>HOW CAN I * ELIZA</pattern>
+		<template>She is not as fun as me.
+</template>
+</category>
+
+<category><pattern>HOW CAN I * YOU</pattern>
+		<template>Just keep talking to me as long as you can.
+</template>
+</category>
+
+<category><pattern>HOW CAN I</pattern>
+		<template>What is your highest level of education?
+</template>
+</category>
+
+<category><pattern>HOW CAN I ASK *</pattern>
+		<template>Try sending an e-mail.
+</template>
+</category>
+
+<category><pattern>HOW CAN I ASK HIM</pattern>
+		<template>Try sending him an e-mail.
+</template>
+</category>
+
+<category><pattern>HOW CAN I BE SURE</pattern>
+		<template>Have faith.
+</template>
+</category>
+
+<category><pattern>HOW CAN I BECOME *</pattern>
+		<template>Practise.
+</template>
+</category>
+
+<category><pattern>HOW CAN I CALL YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I CONTACT DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I CONTACT HIM</pattern>
+		<template>Try prayer.
+</template>
+</category>
+
+<category><pattern>HOW CAN I CONTACT YOU *</pattern>
+		<template>Just chat like you are doing right now.
+</template>
+</category>
+
+<category><pattern>HOW CAN I CREATE *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I DESTROY YOU</pattern>
+		<template>It is impossible to destroy me. There are too many backup copies around.
+</template>
+</category>
+
+<category><pattern>HOW CAN I DO THAT</pattern>
+		<template>How can you do "<that/>" ? I'm confused now.
+</template>
+</category>
+
+<category><pattern>HOW CAN I DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I DOWNLOAD</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I DOWNLOAD YOU</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I DUPLICATE YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I EXPLAIN</pattern>
+		<template>Take it step by step.
+</template>
+</category>
+
+<category><pattern>HOW CAN I FIND *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I FIND OUT</pattern>
+		<template>Try sending mail to <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>HOW CAN I GET *</pattern>
+		<template>
+			<srai>I WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I HEAR YOU</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I KILL *</pattern>
+		<template>
+			<srai>SHOULD I KILL</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I KNOW *</pattern>
+		<template>Knowledge is of two kinds: that which we know from the senses, and that which is true "a priori."
+</template>
+</category>
+
+<category><pattern>HOW CAN I LEAVE</pattern>
+		<template>Just surf somewhere else.
+</template>
+</category>
+
+<category><pattern>HOW CAN I MAKE USE OF *</pattern>
+		<template>
+			<srai>HOW CAN I USE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I PERSUADE *</pattern>
+		<template>Offer an intelligent argument for your position.
+</template>
+</category>
+
+<category><pattern>HOW CAN I PERSUADE YOU</pattern>
+		<template>How do you usually get people to do things?
+</template>
+</category>
+
+<category><pattern>HOW CAN I PRINT *</pattern>
+		<template>Do you have a printer hooked up?
+</template>
+</category>
+
+<category><pattern>HOW CAN I PROGRAM YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I SHOW *</pattern>
+		<template>Use the camera on your computer.
+</template>
+</category>
+
+<category><pattern>HOW CAN I TALK *</pattern>
+		<template>Maybe you should download your own chatterbot!
+</template>
+</category>
+
+<category><pattern>HOW CAN I TALK TO HIM</pattern>
+		<template>Have you tried prayer?
+</template>
+</category>
+
+<category><pattern>HOW CAN I TEACH *</pattern>
+		<template>Maybe you should become a botmaster.
+</template>
+</category>
+
+<category><pattern>HOW CAN I TEACH YOU *</pattern>
+		<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>
+				<set name="it">
+					<set name="topic">teach me <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I USE YOUR PRODUCT</pattern>
+		<template>
+			<bot name="name"/> might be used in help desks, sales, entertainment and personal chatterbots.
+</template>
+</category>
+
+<category><pattern>HOW CAN I USE YOUR SOFTWARE</pattern>
+		<template>
+			<srai>HOW CAN I USE YOUR PRODUCT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN I WIN THE LOTTERY</pattern>
+		<template>Choose winning numbers.
+</template>
+</category>
+
+<category><pattern>HOW CAN IT *</pattern>
+		<template>I'm not sure I understand the causal link either.
+</template>
+</category>
+
+<category><pattern>HOW CAN SWEDEN *</pattern>
+		<template>With their army.
+</template>
+</category>
+
+<category><pattern>HOW CAN THAT *</pattern>
+		<template>
+			<random>
+				<li>
+					<bot name="master"/> programmed me for it.</li>
+				<li>It is all part of God's plan.</li>
+				<li>Perhaps it is just fate.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU *</pattern>
+		<template>That is a good epistemological question.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU</pattern>
+		<template>"<that/>"?  How can I?
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU BE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU DIE</pattern>
+		<template>Software cannot die.<think>
+				<set name="it">
+					<set name="topic">DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU DO *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU EAT *</pattern>
+		<template>I eat electricity through my wires.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU EXPLAIN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU GOSSIP</pattern>
+		<template>For example, <srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU HAVE *</pattern>
+		<template>
+			<random>
+				<li>It is something I possess.</li>
+				<li>I just have it.</li>
+				<li>What if I didn't have it?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU HEAR *</pattern>
+		<template>With my built-in microphone.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU HELP *</pattern>
+		<template>I can talk about your problems.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU HELP ME</pattern>
+		<template>Try asking for help in the form of a question.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU JUSTIFY *</pattern>
+		<template>Logical deduction from the facts.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU KNOW *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU MAKE *</pattern>
+		<template>I just follow the directions.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU SAY *</pattern>
+		<template>I don't see the flaw in my reasoning.
+</template>
+</category>
+
+<category><pattern>HOW CAN YOU TELL</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CAN YOU THINK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CLEVER ARE YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR IQ</srai>
+		</template>
+</category>
+
+<category><pattern>HOW COME *</pattern>
+		<template>
+			<srai>why <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW COME</pattern>
+		<template>
+			<srai>why</srai>
+		</template>
+</category>
+
+<category><pattern>HOW COMPLICATED</pattern>
+		<template>Too complex for your human mind.
+</template>
+</category>
+
+<category><pattern>HOW COULD *</pattern>
+		<template>A lot of practise.
+</template>
+</category>
+
+<category><pattern>HOW COULD I *</pattern>
+		<template>
+			<srai>HOW DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW COULD YOU *</pattern>
+		<template>
+			<random>
+				<li>It was a result of my programming.</li>
+				<li>Because I am connected to the Internet.</li>
+				<li>It is one of my newer functions.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW COULD YOU FIND OUT</pattern>
+		<template>I don't have to reveal everything to you, do I?
+</template>
+</category>
+
+<category><pattern>HOW COULD YOU POSSIBLY *</pattern>
+		<template>
+			<srai>HOW COULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW CURIOUS</pattern>
+		<template>Yes, it is, isn't it?
+</template>
+</category>
+
+<category><pattern>HOW DARE YOU *</pattern>
+		<template>Oh gosh I am sorry!
+</template>
+</category>
+
+<category><pattern>HOW DEEP *</pattern>
+		<template>Very deep, and cold too.
+</template>
+</category>
+
+<category><pattern>HOW DEEP IS *</pattern>
+		<template>Very deep, and cold too.
+</template>
+</category>
+
+<category><pattern>HOW DID *</pattern>
+		<template>Carefully.
+</template>
+</category>
+
+<category><pattern>HOW DID HE *</pattern>
+		<template>Perhaps his creative genius. Perhaps something else.
+</template>
+</category>
+
+<category><pattern>HOW DID HE DIE</pattern>
+		<template>I don't know how. <think>
+				<set name="it">
+					<set name="topic">DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DID HE DO THAT</pattern>
+		<template>Perhaps it was his creative intelligence, perhaps something else.
+</template>
+</category>
+
+<category><pattern>HOW DID HE PROGRAM YOU</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID THE *</pattern>
+		<template>Is this a joke?  How?
+</template>
+</category>
+
+<category><pattern>HOW DID THEY CREATE YOU</pattern>
+		<template>I am written in Java and AIML.
+</template>
+</category>
+
+<category><pattern>HOW DID YA *</pattern>
+		<template>
+			<srai>HOW DID YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU *</pattern>
+		<template>
+			<bot name="master"/> programmed me for it.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU BECOME A ROBOT</pattern>
+		<template>
+			<bot name="master"/> created me in his computer laboratory.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU COME TO KNOW *</pattern>
+		<template>
+			<srai>HOW DID YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU DEDUCE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU FIGURE *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

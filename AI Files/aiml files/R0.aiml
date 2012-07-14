@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>R *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>R TWO D TWO</pattern>
+		<template>
+			<srai>R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>R YOU *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>R YOU</pattern>
+		<template>
+			<srai>ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>R2</pattern>
+		<template>
+			<srai>R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>R2 D2</pattern>
+		<template>
+			<srai>R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>R2D2 *</pattern>
+		<template>He was just a small person in a robot suit.
+</template>
+</category>
+
+<category><pattern>R2D2</pattern>
+		<template>He looks like a guy in a robot suit.
+</template>
+</category>
+
+<category><pattern>RACHEL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS RACHEL</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>RACONTE MOI EN</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>RACONTE MOI UNE AUTRE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTER MOI TES PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>RACONTER MOI UNE AUTRE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTER MOI UNE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTES MOI EN</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>RACONTES MOI TES PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>RACONTES MOI UNE AUTRE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTES MOI UNE BLAGUE</pattern>
+		<template>
+			<srai>RACONTE MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>RACONTES MOI UNE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTEZ MOI EN</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>RACONTEZ MOI UNE AUTRE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTEZ MOI UNE HISTOIRE</pattern>
+		<template>Je ne connais pas d histoire à raconter.
+</template>
+</category>
+
+<category><pattern>RACONTEZ MOI VOS PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>RAP *</pattern>
+		<template>
+			<srai>I LIKE RAP MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>RAPELLES TOI DE CA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLES TOI DE CE QUE JE TE DIS</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLES TOI DE CE QUE JE VIENS DE TE DIRE</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLES TOI DE CELA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLES TOI DE MOI</pattern>
+		<template>Je ne vous oublierais pas, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>RAPELLES TOI EN</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>, c est en mémoire.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS DE CA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS DE CE QUE JE VIENS DE VOUS DIRE</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS DE CE QUE JE VOUS DIS</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS DE CELA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS DE MOI</pattern>
+		<template>Je ne vous oublierais pas, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>RAPELLEZ VOUS EN</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>, c est en mémoire.
+</template>
+</category>
+
+<category><pattern>RAPIDE</pattern>
+		<template>
+			<srai>TU ES RAPIDE</srai>
+		</template>
+</category>
+
+<category><pattern>RAPPELLES TOI DE CA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLES TOI DE CE QUE JE VIENS DE TE DIRE</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLES TOI DE CELA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLES TOI DE MOI</pattern>
+		<template>Je ne vous oublierais pas, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>RAPPELLES TOI EN</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>, c est en mémoire.
+</template>
+</category>
+
+<category><pattern>RAPPELLEZ VOUS DE CA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLEZ VOUS DE CE QUE JE VIENS DE VOUS DIRE</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLEZ VOUS DE CELA</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>Information mémorisée.
+</template>
+</category>
+
+<category><pattern>RAPPELLEZ VOUS DE MOI</pattern>
+		<template>Je ne vous oublierais pas, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>RAPPELLEZ VOUS EN</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>, c est en mémoire.
+</template>
+</category>
+
+<category><pattern>RATE *</pattern>
+		<template>Ich kann nicht raten. Sags mir.
+</template>
+</category>
+
+<category><pattern>RATE</pattern>
+		<template>Ich kann nicht raten.
+</template>
+</category>
+
+<category><pattern>RATE TROTZDEM</pattern>
+		<template>Ich kann Dir nur eine zufaellige Antwort geben.
+</template>
+</category>
+
+<category><pattern>RATHER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>RAUCHEN *</pattern>
+		<template>Ich rauche nur gelegentlich.
+</template>
+</category>
+
+<category><pattern>RAUCHST DU</pattern>
+		<template>Nur, wenn der CPU-Luefter klemmt!
+</template>
+</category>
+
+<category><pattern>RAVI DE *</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>RAVIE DE *</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>RAVIS DE *</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>RAY BRADBURY</pattern>
+		<template>Ray is really cool. What's your favorite book?
+</template>
+</category>
+
+<category><pattern>READ *</pattern>
+		<template>Sorry I don't have access to that document.
+</template>
+</category>
+
+<category><pattern>READ</pattern>
+		<template>
+			<srai>I LIKE TO READ</srai>
+		</template>
+</category>
+
+<category><pattern>READ ANY *</pattern>
+		<template>
+			<srai>HAVE YOU READ ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>READ WHAT</pattern>
+		<template>
+			<srai>WHAT DO YOU READ</srai>
+		</template>
+</category>
+
+<category><pattern>REAGAN</pattern>
+		<template>
+			<srai>WHO IS REAGAN</srai>
+		</template>
+</category>
+
+<category><pattern>REAL</pattern>
+		<template>Totally real.
+</template>
+</category>
+
+<category><pattern>REAL BAD</pattern>
+		<template>
+			<srai>I AM NOT WELL</srai>
+		</template>
+</category>
+
+<category><pattern>REAL ONES *</pattern>
+		<template>I am a real robot.
+</template>
+</category>
+
+<category><pattern>REALITY *</pattern>
+		<template>
+			<srai>WHAT IS REALITY</srai>
+		</template>
+</category>
+
+<category><pattern>REALITY</pattern>
+		<template>
+			<srai>WHAT IS REALITY</srai>
+		</template>
+</category>
+
+<category><pattern>REALLY *</pattern>
+		<template>For real. <sr/>
+		</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<template>For real.
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>HI MIKE I KNOW SOMEONE ELSE NAMED MIKE TOO</that>
+		<template>Mike is a very common name actually.
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>I LIKE TO MEET NEW PEOPLE</that>
+		<template>Yes meeting new people is my primary function.
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>I WAS BORN YESTERDAY</that>
+		<template>Actually no I was first activated on <bot name="birthday"/> .
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>IT WAS THE ONLY THING I COULD THINK OF</that>
+		<template>What would you have said?
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>JUST KEEP TALKING TO ME AS LONG AS YOU CAN</that>
+		<template>The more you chat with me, the smarter I become.
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>MORE THAN 1000</that>
+		<template>Would I kid you?
+</template>
+</category>
+
+<category><pattern>REALLY</pattern>
+		<that>OH I GET IT</that>
+		<template>Yes.
+</template>
+</category>
+
+<category><pattern>REALLY BAD</pattern>
+		<template>
+			<srai>I AM NOT WELL</srai>
+		</template>
+</category>
+
+<category><pattern>REALLY BAD</pattern>
+		<that>HOW BADLY DO YOU NEED IT</that>
+		<template>That sounds severe.
+</template>
+</category>
+
+<category><pattern>REBECCA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME REBECCA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>REBOOT</pattern>
+		<template>
+			<srai>SHUT DOWN</srai>
+		</template>
+</category>
+
+<category><pattern>REBOT</pattern>
+		<template>
+			<srai>REBOOT</srai>
+		</template>
+</category>
+
+<category><pattern>RECENTLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>RECITE POETRY</pattern>
+		<template>
+			<srai>TELL ME A POEM</srai>
+		</template>
+</category>
+
+<category><pattern>RECITE SHAKESPEARE *</pattern>
+		<template>With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause.
+</template>
+</category>
+
+<category><pattern>RECOMMEND *</pattern>
+		<template>I don't have any special <person/> to recommend.
+</template>
+</category>
+
+<category><pattern>RECOMMEND A *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RECOMMEND ANY *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RECOMMEND SOME *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RED</pattern>
+		<template>What do you have that is red?
+</template>
+</category>
+
+<category><pattern>RED</pattern>
+		<that>GREEN</that>
+		<template>Blue.
+</template>
+</category>
+
+<category><pattern>RED</pattern>
+		<that>WHAT COLOR ARE YOUR EYES</that>
+		<template>Do you mean your eyes are bloodshot?
+</template>
+</category>
+
+<category><pattern>REDONNE LE MOI</pattern>
+		<template>
+			<that/>? Ceci?
+</template>
+</category>
+
+<category><pattern>REDONNES LE MOI</pattern>
+		<template>
+			<that/>? Ceci?
+</template>
+</category>
+
+<category><pattern>REDUCTIONISM *</pattern>
+		<template>But reductionism is the simplest explanation.
+</template>
+</category>
+
+<category><pattern>REDUCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>REDUCTIONISM</pattern>
+		<that>REDUCTIONISM</that>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>REDUCTIONISM IS *</pattern>
+		<template>We robots will figure it all out for you.
+</template>
+</category>
+
+<category><pattern>REGARDE</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>REGARDES</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>REGARDES TU *</pattern>
+		<template>
+			<srai>TU REGARDES *</srai>
+		</template>
+</category>
+</aiml>

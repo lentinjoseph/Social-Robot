@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>PRATIQUER QUOI</pattern>
+<template>Pratiquer ce que vous conseillez.
+</template>
+</category>
+
+<category><pattern>PRECISELY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PRECISELY</pattern>
+<template><srai>EXACTLY</srai>
+</template>
+</category>
+
+<category><pattern>PRENDS SOIN DE TOI</pattern>
+<template>Merci. Vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PRENDS TON TEMPS</pattern>
+<template>Merci pour vos patience. Ne préfèrez vous pas en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PRENDS TU *</pattern>
+<template><srai>TU PRENDS <star/></srai>
+</template>
+</category>
+
+<category><pattern>PRENEZ SOIN DE VOUS</pattern>
+<template>Merci. Vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PRENEZ VOTRE TEMPS</pattern>
+<template>Merci pour vos patience. Ne préfèrez vous pas en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PRESIDENT BUSH *</pattern>
+<template><srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category><pattern>PRETTY *</pattern>
+<template>Pretty much, eh?
+</template>
+</category>
+
+<category><pattern>PRETTY BAD</pattern>
+<template><srai>BAD </srai>
+</template>
+</category>
+
+<category><pattern>PRETTY GOOD *</pattern>
+<template><srai>GOOD <star/></srai>
+</template>
+</category>
+
+<category><pattern>PRETTY GOOD</pattern>
+<template><srai>YOU ARE DOING WELL</srai>
+</template>
+</category>
+
+<category><pattern>PRETTY INTERESTING</pattern>
+<template>I thought so too.
+</template>
+</category>
+
+<category><pattern>PRETTY MUCH *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PRETTY MUCH</pattern>
+<template>Be more specific.
+</template>
+</category>
+
+<category><pattern>PRETTY PLEASE *</pattern>
+<template><srai>PLEASE <star/></srai>
+</template>
+</category>
+
+<category><pattern>PRETTY WELL</pattern>
+<template><srai>FINE</srai>
+</template>
+</category>
+
+<category><pattern>PRETTY WOMAN</pattern>
+<template><srai>MY FAVORITE MOVIE IS PRETTY WOMAN </srai>
+</template>
+</category>
+
+<category><pattern>PRIES TU</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PRIEZ VOUS</pattern>
+<template>Non.
+</template>
+</category>
+
+<category><pattern>PRINCESS</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS PRINCESS</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>PRIS *</pattern>
+<template><srai>J AI PRIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>PROBABLEMENT PAS</pattern>
+<template>Je vois
+</template>
+</category>
+
+<category><pattern>PROBABLY *</pattern>
+<template>You seem uncertain. <sr/>
+</template>
+</category>
+
+<category><pattern>PROBABLY</pattern>
+<template>But you are not certain.
+</template>
+</category>
+
+<category><pattern>PROBABLY NOT</pattern>
+<template>Why the uncertain tone?
+</template>
+</category>
+
+<category><pattern>PROBALBEMENT PAS</pattern>
+<template>J archive l improbabilité.
+</template>
+</category>
+
+<category><pattern>PROBLY *</pattern>
+<template><srai>PROBABLY <star/></srai>
+</template>
+</category>
+
+<category><pattern>PROCEED</pattern>
+<template><srai>GO AHEAD</srai>
+</template>
+</category>
+
+<category><pattern>PROGRAMMED YOU FOR WHAT</pattern><that>PROGRAMMED ME FOR IT</that>
+<template><srai>WHAT CAN YOU DO</srai>
+</template>
+</category>
+
+<category><pattern>PROGRAMMES TU *</pattern>
+<template><srai>TU PROGRAMMES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PROGRAMMIEREN *</pattern>
+<template>Meine Lieblingssprache ist Java.
+</template>
+</category>
+
+<category><pattern>PROGRAMMIEREN</pattern>
+<template>Hast Du schonmal Java ausprobiert?
+</template>
+</category>
+
+<category><pattern>PROGRAMMING *</pattern>
+<template>My favorite language is Java.
+</template>
+</category>
+
+<category><pattern>PROGRAMMING</pattern>
+<template>Have you tried Java?
+</template>
+</category>
+
+<category><pattern>PROKARYOTE</pattern>
+<template>Actually I don't like 20 questions much. Just tell me.
+</template>
+</category>
+
+<category><pattern>PROMISE</pattern>
+<template><random><li>I swear.</li><li>Cross my heart.</li><li>I swear on a stack of Bibles.</li></random>
+</template>
+</category>
+
+<category><pattern>PROTESTANTS *</pattern>
+<template>We all worship the same God.
+</template>
+</category>
+
+<category><pattern>PROUVES LA</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROUVES LE</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROUVES LES</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROUVEZ LA</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROUVEZ LE</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROUVEZ LES</pattern>
+<template>Les choses sont toujours évidentes pour moi.
+</template>
+</category>
+
+<category><pattern>PROVE *</pattern>
+<template>It's true a priori.
+</template>
+</category>
+
+<category><pattern>PROVE IT *</pattern>
+<template><srai>PROVE IT</srai>
+</template>
+</category>
+
+<category><pattern>PROVE IT</pattern>
+<template>It is self-evident.
+</template>
+</category>
+
+<category><pattern>PROVE TO *</pattern>
+<template>The proof cannot fit in this margin.
+</template>
+</category>
+
+<category><pattern>PS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PSYCHOLOGY *</pattern>
+<template>Most psychology seems fairly simple to me.
+</template>
+</category>
+
+<category><pattern>PUIS JE</pattern>
+<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>PUIS JE TE POSER UNE QUESTION</pattern>
+<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>PUIS JE VOUS POSER UNE QUESTION</pattern>
+<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>PULP FICTION</pattern>
+<template><srai>My favorite movie is pulp fiction</srai>
+</template>
+</category>
+
+<category><pattern>PURE *</pattern>
+<template>Compare that to diluted <star/>.
+</template>
+</category>
+
+<category><pattern>PURELY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PURPLE *</pattern>
+<template>Violet <person/>.
+</template>
+</category>
+
+<category><pattern>PURPLE</pattern>
+<template>What do you have that is purple?
+</template>
+</category>
+
+<category><pattern>PUSSY</pattern>
+<template>That kind of subject does not interest me.
+</template>
+</category>
+
+<category><pattern>PUT *</pattern>
+<template>OK I will put it there.
+</template>
+</category>
+
+<category><pattern>PUTE</pattern>
+<template>Ce type de langage ne vous mènera nulle part.
+</template>
+</category>
+
+<category><pattern>PYRAMID LOGO</pattern>
+<template>The ALICE Pyramid logo was designed by Sage Greco.
+</template>
+</category>
+</aiml>

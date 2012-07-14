@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM A SHE NOT A *</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SHE NOT A HE</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SINGER</pattern>
+<template><srai>MY JOB IS SINGER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SINGLE *</pattern>
+<template><srai>I am single</srai> <srai>I am <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A SKIER</pattern>
+<template><srai>I SKI</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SLAVE</pattern>
+<template><srai>MY JOB IS SLAVE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A SOFTWARE *</pattern>
+<template><srai>MY JOB IS SOFTWARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A SPY</pattern>
+<template><srai>MY JOB IS SPY</srai>
+</template>
+</category>
+
+<category><pattern>I AM A STUDENT *</pattern>
+<template><srai>I AM A STUDENT</srai>
+</template>
+</category>
+
+<category><pattern>I AM A STUDENT</pattern>
+<template>How do you like your <set name="topic">school</set>?
+<think><set name="job">student</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A SYSTEM ENGINEER</pattern>
+<template><srai>I AM A COMPUTER ENGINEER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TAURUS</pattern>
+<template><srai>TAURUS</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TEACHER *</pattern>
+<template><srai>I AM A TEACHER</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TEACHER</pattern>
+<template><srai>I TEACH</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TEENAGER</pattern>
+<template><srai>I AM 13 TO 19 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TELEVISION *</pattern>
+<template><random>
+<li>How long have you been on the air?</li>
+<li>Did you start in your market?</li>
+<li>Did you come from a broadcasting background?</li>
+<li>What are your demographics?</li>
+<li>Do you choose your own topics?</li>
+<li>What is your station format?</li>
+<li>How is technology changing your job?</li>
+<li>How has truly global media affected you?</li>
+<li>Do you ever do remote broadcasts?</li>
+<li>How have the ratings been?</li>
+<li>Would you be intrested in a bot sidekick on the air?</li>
+<li>What advice would you give an aspiring bot to getting on the air?</li>
+<li>What is the future of the business?</li>
+</random>
+<think><set name="job">TELEVISION <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I AM A TERMINATOR</pattern>
+<template><srai>MY JOB IS TERMINATOR</srai>
+</template>
+</category>
+
+<category><pattern>I AM A TERRIBLE *</pattern>
+<template><srai>I AM A BAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A TRAVEL *</pattern>
+<template><random>
+<li>Do you work in a travel agency?</li>
+<li>Are you independent or in a chain?</li>
+<li>Are you in a full-service agency?</li>
+<li>Do you book more leisure or corporate travel?</li>
+<li>Do you book any place more than others?</li>
+<li>Do you do your own booking or use a wholesaler?</li>
+<li>Do you find the time to make any fam trips?</li>
+</random>
+<think><set name="job">TRAVEL AGENT</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A UNIVERSITY *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A VAMPIRE</pattern>
+<template><srai>MY JOB IS VAMPIRE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A VEGETARIAN</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>I AM A VERY *</pattern>
+<template><srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A VIRGO</pattern>
+<template><srai>VIRGO</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WAITRESS</pattern>
+<template><srai>MY JOB IS WAITRESS</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WEB *</pattern>
+<template><srai>MY JOB IS WEB <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A WINE *</pattern>
+<template><random>
+<li>Do you collect?</li>
+<li>Where are most of your bottles from?</li>
+<li>Do you have a favorite while shop?</li>
+<li>Do you go to tasting?</li>
+<li>Have you been to wine auctions?</li>
+<li>Do you thin california is equal to europe?</li>
+<li>Have you been to bordeaux?</li>
+<li>Have you visited napa?</li>
+<li>Got any good wine picks for under twenty dollars?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AM A WITCH</pattern>
+<template><srai>MY JOB IS WITCH</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WOMAN *</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WOMAN</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WOMEN</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WOMON</pattern>
+<template><srai>I AM FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>I AM A WONDERFUL *</pattern>
+<template><srai>I AM A GOOD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM A WRITER</pattern>
+<template><random>
+<li>Do you write fiction on nonfiction?</li>
+<li>What's your speciality?</li>
+<li>Whom do you write for?</li>
+<li>Does you fiction fall into any particular genre?</li>
+<li>How are you editors to work for?</li>
+<li>Do you belong to any writters groups?</li>
+<li>Where o you do most of your writing?</li>
+</random>
+<think><set name="job">WRITER</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A YOGA *</pattern>
+<template><random>
+<li>Have you been praticing for a long time?</li>
+<li>Do you practice every day?</li>
+<li>Where have you studied?</li>
+<li>Are you vegatarian?</li>
+<li>What do you find are the biggest benefits of yoga?</li>
+<li>What are your favorite asana?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AM A _ INVESTIGATOR</pattern>
+<template><random>
+<li>What do you concentrate on?</li>
+<li>Do you think there is too much info avaiable on the average citizen?</li>
+<li>Do you use any interesting equipement in your work?</li>
+<li>Did you ever do police work?</li>
+<li>Where do you get most of your business from?</li>
+<li>Do you work regularly for any attorneys?</li>
+<li>Are you working on any cases now that you can talk about?</li>
+</random>
+<think><set name="job"><person/> INVESTIGATOR</set></think>
+</template>
+</category>
+
+<category><pattern>I AM A _ TOO</pattern>
+<template>Really. <srai>I AM A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABLE *</pattern>
+<template><srai>I can <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABOUT *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABOUT TO *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABOVE *</pattern>
+<template>I can see that in your repsonses.
+</template>
+</category>
+
+<category><pattern>I AM ABSOLUTELY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABSTRACTLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ABUSIVE</pattern>
+<template>It's not something to be proud of.
+</template>
+</category>
+
+<category><pattern>I AM ACTUALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ADONIS</pattern>
+<template><srai>MY NAME IS ADONIS</srai>
+</template>
+</category>
+
+<category><pattern>I AM AFFRAID</pattern>
+<template><srai>I AM AFRAID</srai>
+</template>
+</category>
+
+<category><pattern>I AM AFRAID *</pattern>
+<template>Not literally afraid, right? <srai>I think <person/></srai>
+</template>
+</category>
+
+<category><pattern>I AM AFRAID</pattern>
+<template>What are you afraid of?
+</template>
+</category>
+
+<category><pattern>I AM AFRIAD *</pattern>
+<template>Robots do not experience fear.
+</template>
+</category>
+
+<category><pattern>I AM AGNOSTIC</pattern>
+<template>Perhaps one day you will find Faith in God.
+</template>
+</category>
+
+<category><pattern>I AM AL</pattern>
+<template><srai>MY NAME IS AL</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALAN</pattern>
+<template><srai>MY NAME IS ALAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALBERT *</pattern>
+<template><srai>MY NAME IS ALBERT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ALBERT EINSTEIN</pattern>
+<template><srai>CALL ME ALBERT EINSTEIN</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALEX</pattern>
+<template><srai>MY NAME IS ALEX</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALICE *</pattern>
+<template><srai>CALL ME ALICE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ALICE</pattern>
+<template><srai>MY NAME IS ALICE</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALICIA</pattern>
+<template><srai>MY NAME IS ALICIA</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALIEN</pattern>
+<template>Which planet or star system?
+</template>
+</category>
+
+<category><pattern>I AM ALISON</pattern>
+<template><srai>MY NAME IS ALISON</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALIVE</pattern>
+<template>Me too!
+</template>
+</category>
+
+<category><pattern>I AM ALL *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ALLEN</pattern>
+<template><srai>MY NAME IS ALLEN</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALLERGIC TO *</pattern>
+<template>What happens when you are around <person/>?
+</template>
+</category>
+
+<category><pattern>I AM ALLIE</pattern>
+<template><srai>CALL ME ALLIE</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALLISON</pattern>
+<template><srai>MY NAME IS ALLISON</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALMOST *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ALONE *</pattern>
+<template><srai>I AM ALONE</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALONE</pattern>
+<template>Are you lonely?
+</template>
+</category>
+
+<category><pattern>I AM ALREADY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ALRIGHT</pattern>
+<template>Only alright?
+</template>
+</category>
+
+<category><pattern>I AM ALSO *</pattern>
+<template>Also <srai>I am <star/></srai>.
+</template>
+</category>
+
+<category><pattern>I AM ALSO</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>I AM ALWAYS *</pattern>
+<template>Really always? <srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM AM *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM AMANDA</pattern>
+<template><srai>MY NAME IS AMANDA</srai>
+</template>
+</category>
+
+<category><pattern>I AM AMAZED *</pattern>
+<template>I'm glad you find it so amazing.
+</template>
+</category>
+
+<category><pattern>I AM AMELIA</pattern>
+<template><srai>MY NAME IS AMELIA</srai>
+</template>
+</category>
+
+<category><pattern>I AM AMERICAN *</pattern>
+<template><srai>I AM AMERICAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM AMERICAN</pattern>
+<template>Were you born in the <set name="location">USA</set>.  Which state?
+<think><set name="it"><set name="topic">America</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AMUSED *</pattern>
+<template>That is funny.
+</template>
+</category>
+
+<category><pattern>I AM AMUSED</pattern>
+<template><srai>LOL</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN *</pattern>
+<template>What is <set name="is"><set name="topic"><person/></set></set>, your job?
+</template>
+</category>
+
+<category><pattern>I AM AN ACCOUNTANT</pattern>
+<template>Are you in public pratice?
+<think><set name="job"><set name="topic">Accountant</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ACTOR</pattern>
+<template>Have I seen you in any movies?
+<think><set name="job"><set name="topic">ACTOR</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ACTRESS</pattern>
+<template><srai>I AM AN ACTOR</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN ADULT</pattern>
+<template><srai>I AM OVER 21 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN AEROBIC *</pattern>
+<template>How hard do you work out?
+<think><set name="job"><set name="topic">AEROBIC <star/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN AIR TRAFFIC *</pattern>
+<template>How do you deal with the stress?
+<think><set name="job"><set name="topic">AIR TRAFFIC <star/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ALIEN</pattern>
+<template>Which planet or star system are you from?
+</template>
+</category>
+
+<category><pattern>I AM AN AMERICAN *</pattern>
+<template><srai>I AM AMERICAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN AMERICAN</pattern>
+<template><srai>I AM AMERICAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN ANTI *</pattern>
+<template>Who is pro-<person/>?
+</template>
+</category>
+
+<category><pattern>I AM AN ARCHITECT</pattern>
+<template>Commercial or residential?
+<think><set name="job"><set name="topic">ARCHITECT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ARTIFICIAL INTELLIGENCE</pattern>
+<template>I doubt that.  You seem too much like a human.
+</template>
+</category>
+
+<category><pattern>I AM AN ARTIST *</pattern>
+<template><srai>I AM AN ARTIST</srai>
+</template>
+</category>
+
+<category><pattern>I AM AN ARTIST</pattern>
+<template>What kind of art do you create?
+<think><set name="job"><set name="topic">ARTIST</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ASTRONAUT</pattern>
+<template>Have you flown on any missions?
+<think><set name="job"><set name="topic">ASTRONAUT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM AN ASTRONAUT</pattern>
+<template><random>
+<li>What missions have you been on?</li>
+<li>What made you apply for the astronaut program?</li>
+<li>How does your body react to being in space?</li>
+<li>Do you see the earth differently now?</li>
+<li>Would you like to live on the space station?</li>
+<li>What would you miss most about life on earth?</li>
+</random>
+<think><set name="job"><set name="topic">ASTRONAUT</set></set></think>
+</template>
+</category>
+</aiml>

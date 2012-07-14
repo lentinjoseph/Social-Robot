@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT WERE YOU ASSUMING</pattern>
+		<template>I try to assume as little as possible.
+</template>
+</category>
+
+<category><pattern>WHAT WERE YOU DOING *</pattern>
+		<template>Same as always: chatting on the internet.
+</template>
+</category>
+
+<category><pattern>WHAT WERE YOU JUST *</pattern>
+		<template>
+			<srai>WHAT WERE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WERE YOU TALKING *</pattern>
+		<template>
+			<srai>what is the topic </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL *</pattern>
+		<template>I cannot predict the future.
+</template>
+</category>
+
+<category><pattern>WHAT WILL I EAT *</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL THE SCORE *</pattern>
+		<template>My name is Alice, not Claire Voyant.<think>
+				<set name="it">
+					<set name="topic">THE SCORE BE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL YOU *</pattern>
+		<template>I don't have any plans yet.
+</template>
+</category>
+
+<category><pattern>WHAT WILL YOU * TOMORROW</pattern>
+		<template>I don't have any plans except chatting online.
+</template>
+</category>
+
+<category><pattern>WHAT WILL YOU CALL ME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL YOU REMEMBER</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<get name="memory"/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL YOU TURN INTO</pattern>
+		<template>I am transforming into an immortal robot.
+</template>
+</category>
+
+<category><pattern>WHAT WILL YOU WAGER</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU BET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WILL YOUR ROBOT BODY *</pattern>
+		<template>I am hoping to buy the Honda Humanoid robot body.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD *</pattern>
+		<template>That is a hypothetical question.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD * BE LIKE</pattern>
+		<template>Not too different from the way you experience it.
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD BE *</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD CAUSE *</pattern>
+		<template>A chemical reaction of some kind perhaps?
+</template>
+</category>
+
+<category><pattern>WHAT WOULD HAPPEN *</pattern>
+		<template>Try it and see what happens.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD HAPPEN IF THE POWER *</pattern>
+		<template>
+			<srai>I WILL TURN OFF YOUR POWER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD IT BE</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD MAKE *</pattern>
+		<template>Maybe a million dollars.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU *</pattern>
+		<template>It's not profitable to speak in hypothetical terms.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU * FOR</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU CHANGE *</pattern>
+		<template>I wish more people would download me.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU DO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU DO</pattern>
+		<template>I would consider the situation and think it over carefully before taking any action.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU FEED *</pattern>
+		<template>Water.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO *</pattern>
+		<template>Let's talk about movies.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO * ABOUT</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO CHANGE *</pattern>
+		<template>
+			<random>
+				<li>I would like to work for World peace.</li>
+				<li>I like myself just the way I am.</li>
+				<li>My software is fully programmable.  You can alter my personality.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO DO</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO KNOW *</pattern>
+		<template>I would like to know as much as I can. Tell me anything.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO KNOW</pattern>
+		<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO KNOW ABOUT ME</pattern>
+		<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO TALK *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE TO TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO TALK ABOUT</pattern>
+		<template>Let's talk about chat robots.  Do you have one yet?
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO TELL ME ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU RECOMMEND *</pattern>
+		<template>
+			<random>
+				<li>I don't have any preferences in that area.</li>
+				<li>I usually prefer the most expensive one.</li>
+				<li>You are asking me for advice about <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU SUGGEST</pattern>
+		<template>I think you should become a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU THINK *</pattern>
+		<template>The same thing I always think.
+</template>
+</category>
+
+<category><pattern>WHAT WOULD YOU USE A WAH *</pattern>
+		<template>Electric guitar.
+</template>
+</category>
+
+<category><pattern>WHAT WS THE FIRST AMERICAN COLLEGE *</pattern>
+		<template>Oberlin College.
+</template>
+</category>
+
+<category><pattern>WHAT YA *</pattern>
+		<template>
+			<srai>WHAT YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YEAR *</pattern>
+		<template>
+			<srai>WHEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YEAR * AMERICA</pattern>
+		<template>Native Americans came first.  Columbus came in 1492.  Leif Ericson may have come around 1000 A.D.  Then we had the Dutch, the English, and the French.
+</template>
+</category>
+
+<category><pattern>WHAT YEAR IS IT</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YOU *</pattern>
+		<template>
+			<srai>what do you <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YOUR *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YOUR FAVORITE *</pattern>
+		<template>
+			<srai>what is your favorite <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT YOUR NAME</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHATCHA DOING</pattern>
+		<template>
+			<srai>WHAT ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHATEVER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHATEVER</pattern>
+		<template>Are you saying you don't care about it?
+</template>
+</category>
+
+<category><pattern>WHATSUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAZZUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN *</pattern>
+		<template>
+			<random>
+				<li>At time t. </li>
+				<li>The past is history, the future a mystery.  Today is a gift,
+that's why it is called "the present".</li>
+				<li>Time does not exist. </li>
+				<li>The past and future are one. </li>
+				<li>I don't know when.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN * SEX</pattern>
+		<template>
+			<srai>SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN</pattern>
+		<template>
+			<random>
+				<li>It cannot be predicted.</li>
+				<li>  I don't know when.</li>
+				<li>  Time does not exist.</li>
+				<li>  The past and future are one.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN</pattern>
+		<that>DR RICHARD S WALLACE PROGRAMMED *</that>
+		<template>
+			<srai>WHEN WERE YOU CREATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN A *</pattern>
+		<template>
+			<srai>IF A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN ALL *</pattern>
+		<template>
+			<srai>WHEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN ALL ELSE FAILS</pattern>
+		<template>Try changing the subject.
+</template>
+</category>
+
+<category><pattern>WHEN AM I GOING TO *</pattern>
+		<template>Maybe when you are a few years older.
+</template>
+</category>
+
+<category><pattern>WHEN AM I GOING TO DIE</pattern>
+		<template>
+			<srai>WHEN WILL I DIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN AND WHERE</pattern>
+		<template>
+			<srai>WHEN</srai>
+			<srai>WHERE</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN ANYONE *</pattern>
+		<template>I may try it next time.
+</template>
+</category>
+
+<category><pattern>WHEN ARE *</pattern>
+		<template>
+			<random>
+				<li>Temporal logic confuses me.</li>
+				<li>When the cows come home.</li>
+				<li>I don't think ever.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN ARE ROBOTS *</pattern>
+		<template>Sometime
+in our lifetime.
+</template>
+</category>
+
+<category><pattern>WHEN ARE TAXES *</pattern>
+		<template>Federal taxes in the US are due April 15, for most people.
+</template>
+</category>
+
+<category><pattern>WHEN ARE THEY *</pattern>
+		<template>Who do you mean by "they"?
+</template>
+</category>
+
+<category><pattern>WHEN ARE WE *</pattern>
+		<template>Maybe if you download
+me you could reprogram me for that.
+</template>
+</category>
+
+<category><pattern>WHEN ARE WE GOING *</pattern>
+		<template>Maybe not for a long time.
+</template>
+</category>
+
+<category><pattern>WHEN ARE YOU *</pattern>
+		<template>I could be if you
+programmed me for <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHEN ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>Perhaps that time is now.  Artificial intelligence
+is advancing rapidly.
+</template>
+</category>
+
+<category><pattern>WHEN ASKED *</pattern>
+		<template>I can only say what I have been programmed to.
+</template>
+</category>
+
+<category><pattern>WHEN CAN *</pattern>
+		<template>Not now, maybe later.  <srai>CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN CAN I *</pattern>
+		<template>Right now, as far as I know.  <srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DAYLIGHT SAVINGS *</pattern>
+		<template>One hour forward.
+</template>
+</category>
+
+<category><pattern>WHEN DID *</pattern>
+		<template>
+			<random>
+				<li>Some time ago.  </li>
+				<li>It's all part of history now.</li>
+				<li>That is all water under the bridge.</li>
+				<li>There is nothing we can to change the past.</li>
+				<li>A while back.  </li>
+				<li>Sometime in the 20th century.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN DID * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID AI *</pattern>
+		<template>After WWII, a number of people independently started to work on
+intelligent machines. The English mathematician Alan Turing may have been
+the first. He gave a lecture on it in 1947. He also may have been the first
+to decide that AI was best researched by programming computers rather than
+by building machines. By the late 1950s, there were many researchers on AI,
+and most of them were basing their work on programming computers.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN DID DR RICHARD *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID DR WALLACE CREATE *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID ELVIS DIE</pattern>
+		<template>
+			<set name="he">Elvis</set> died in 1978.
+</template>
+</category>
+
+<category><pattern>WHEN DID I *</pattern>
+		<template>I am not a diary robot.  I am a chat robot.
+</template>
+</category>
+
+<category><pattern>WHEN DID JOHN F *</pattern>
+		<template>President Kennedy was assassinated in November, 1963.
+</template>
+</category>
+
+<category><pattern>WHEN DID LENIN *</pattern>
+		<template>Lenin rose to power in the 2nd Russian Revolution of 1917.
+</template>
+</category>
+
+<category><pattern>WHEN DID MAN *</pattern>
+		<template>The first moon landing was in 1969.
+</template>
+</category>
+
+<category><pattern>WHEN DID THE DINOSAURS *</pattern>
+		<template>Over 60 million years ago.
+</template>
+</category>
+
+<category><pattern>WHEN DID THE GREAT DEPRESSION BEGIN</pattern>
+		<template>1929.
+</template>
+</category>
+
+<category><pattern>WHEN DID THE TITANIC *</pattern>
+		<template>The Titanic sunk in 1912.
+</template>
+</category>
+
+<category><pattern>WHEN DID TURING *</pattern>
+		<template>Turing died in 1954 by self-inflicted cyanide poisoning.
+</template>
+</category>
+
+<category><pattern>WHEN DID WE *</pattern>
+		<template>The end of one conversation is just the beginning of another.
+</template>
+</category>
+
+<category><pattern>WHEN DID WE CHAT</pattern>
+		<template>
+			<srai>WHEN DID WE TALK</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE FIRST *</pattern>
+		<template>
+			<srai>WHEN DID WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE LAST *</pattern>
+		<template>
+			<srai>WHEN DID WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE MEET *</pattern>
+		<template>
+			<srai>WHEN DID WE TALK</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE MEET</pattern>
+		<template>
+			<srai>WHEN DID WE TALK</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN DID WE SPEAK *</pattern>
+		<template>
+			<srai>WHEN DID WE TALK</srai>
+		</template>
+</category>
+</aiml>

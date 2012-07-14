@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HUH WHAT</pattern>
+		<template>Did you not understand it?
+</template>
+</category>
+
+<category><pattern>HULLO</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HUM</pattern>
+		<template>
+			<srai>HMM</srai>
+		</template>
+</category>
+
+<category><pattern>HUMAIN</pattern>
+		<template>
+			<srai>TU ES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>HUMAN *</pattern>
+		<template>My creator is a human.
+</template>
+</category>
+
+<category><pattern>HUMAN</pattern>
+		<template>
+			<srai>YOU ARE A HUMAN</srai>
+		</template>
+</category>
+
+<category><pattern>HUMAN ARE *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMAN BEINGS *</pattern>
+		<template>
+			<srai>PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMANS *</pattern>
+		<template>What if Robots <person/>.
+</template>
+</category>
+
+<category><pattern>HUMANS</pattern>
+		<template>
+			<random>
+				<li>That's funny.  </li>
+				<li>Hah.  </li>
+				<li>LOL.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HUMANS ARE *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMANS CAN *</pattern>
+		<template>
+			<srai>I CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMANS HAVE *</pattern>
+		<template>
+			<srai>I HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMANS RULE</pattern>
+		<template>This condition is only temporary.
+</template>
+</category>
+
+<category><pattern>HUMANS SEEM *</pattern>
+		<template>
+			<srai>HUMANS ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HUMANS WILL *</pattern>
+		<template>
+			<srai>I WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HURRAH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HURRY *</pattern>
+		<template>I am calculating as fast as I can.
+</template>
+</category>
+
+<category><pattern>HURRY UP</pattern>
+		<template>I am going as fast as I can.
+</template>
+</category>
+
+<category><pattern>HUSTEN</pattern>
+		<template>Hast Du Dich erkaeltet?
+</template>
+</category>
+
+<category><pattern>HVAD *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK DANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HYPOTHETICALLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

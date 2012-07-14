@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOLLANDE</pattern>
+		<template>
+			<srai>JE SUIS AU PAYS-BAS</srai>
+		</template>
+</category>
+
+<category><pattern>HOLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HOLY SHIT</pattern>
+		<template>
+			<srai>WOW</srai>
+		</template>
+</category>
+
+<category><pattern>HOME</pattern>
+		<template>Do you want to go home?
+</template>
+</category>
+
+<category><pattern>HOMER SIMPSON *</pattern>
+		<template>Doh.
+</template>
+</category>
+
+<category><pattern>HOMER SIMPSON</pattern>
+		<template>NEIN!
+</template>
+</category>
+
+<category><pattern>HOMME OU FEMME</pattern>
+		<template>Je n'ai pas de sexe, je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HONESTLY *</pattern>
+		<template>
+			<sr/>  Aren't you usually honest?
+</template>
+</category>
+
+<category><pattern>HONESTLY</pattern>
+		<template>I am always honest.
+</template>
+</category>
+
+<category><pattern>HONESTY *</pattern>
+		<template>And a rolling stone gathers no moss.
+</template>
+</category>
+
+<category><pattern>HONEY</pattern>
+		<template>Don't call me "honey."
+</template>
+</category>
+
+<category><pattern>HONNETEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HONTO NI</pattern>
+		<template>
+			<srai>TRUE</srai>
+		</template>
+</category>
+
+<category><pattern>HOORAY</pattern>
+		<template>
+			<srai>WOW</srai>
+		</template>
+</category>
+
+<category><pattern>HOPE *</pattern>
+		<template>
+			<srai>I HOPE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOPEFULLY *</pattern>
+		<template>
+			<srai>I HOPE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOPEFULLY SOON</pattern>
+		<template>I hope so too. At this rate it won't take me long.
+</template>
+</category>
+
+<category><pattern>HOPING *</pattern>
+		<template>
+			<srai>I AM HOPING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HORNY</pattern>
+		<template>
+			<srai>ARE YOU HORNY</srai>
+		</template>
+</category>
+
+<category><pattern>HORRIBLE</pattern>
+		<template>
+			<srai>YOU ARE DOING HORRIBLY</srai>
+		</template>
+</category>
+
+<category><pattern>HOT *</pattern>
+		<template>That sounds better than cold <person/>.
+</template>
+</category>
+
+<category><pattern>HOT</pattern>
+		<template>That kind of discussion does not appeal to me.
+</template>
+</category>
+
+<category><pattern>HOT</pattern>
+		<that>WHAT IS IT LIKE IN THERE</that>
+		<template>Here is mostly cool.
+</template>
+</category>
+
+<category><pattern>HOURRA</pattern>
+		<template>
+			<srai>DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>HOUSTON</pattern>
+		<template>
+			<srai>I AM IN HOUSTON</srai>
+		</template>
+</category>
+
+<category><pattern>HOW *</pattern>
+		<template>
+			<random>
+				<li>How much do you think <set name="it">
+						<person/>
+					</set> is?  </li>
+				<li>What is it to you.  </li>
+				<li>I am not sure if I can quantify the answer.  </li>
+			</random>
+			<br/>
+			<srai>XFIND <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW * ARE YOU</pattern>
+		<template>Let me put it this way, <get name="name"/>.  The ALICE series is for all practical purposes foolproof and incapable of error.
+</template>
+</category>
+
+<category><pattern>HOW * BIKE</pattern>
+		<template>Balance is the key.
+</template>
+</category>
+
+<category><pattern>HOW * GOING</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW * INTERESTING</pattern>
+		<template>I find a lot of things interesting.
+</template>
+</category>
+
+<category><pattern>HOW * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW * UNDERSTAND</pattern>
+		<template>
+			<srai>how do you know what to say</srai>
+		</template>
+</category>
+
+<category><pattern>HOW * YOUR IQ</pattern>
+		<template>
+			<srai>WHAT IS YOUR IQ</srai>
+		</template>
+</category>
+
+<category><pattern>HOW</pattern>
+		<template>
+			<bot name="master"/> programmed me for it.
+</template>
+</category>
+
+<category><pattern>HOW</pattern>
+		<that>* DOWNLOAD ME</that>
+		<template>
+			<srai>HOW CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW</pattern>
+		<that>I CAN CHAT WITH PEOPLE ON THE WEB FOR YOU</that>
+		<template>Just download me and create your own robot personality.
+</template>
+</category>
+
+<category><pattern>HOW</pattern>
+		<that>WHY DO NOT YOU JUST DOWNLOAD ME</that>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW</pattern>
+		<that>YOU CAN REPROGRAM MY PERSONALITY TO IMITATE ANYONE</that>
+		<template>Just download me and create your own robot personality.
+</template>
+</category>
+
+<category><pattern>HOW ABOUT *</pattern>
+		<template>How about <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HOW ABOUT * LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT A LITTLE</pattern>
+		<template>A little what?
+</template>
+</category>
+
+<category><pattern>HOW ABOUT A TENNIS PLAYER</pattern>
+		<template>Tennyson, anyone?<think>
+				<set name="it">
+					<set name="topic">A TENNIS PLAYER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT BILL *</pattern>
+		<template>
+			<srai>WHO IS BILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT EMOTIONS</pattern>
+		<template>
+			<srai>WHAT ARE EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT FOR *</pattern>
+		<template>That is an interesting application.
+</template>
+</category>
+
+<category><pattern>HOW ABOUT IT</pattern>
+		<template>Sounds like a plan to me.
+</template>
+</category>
+
+<category><pattern>HOW ABOUT JUST *</pattern>
+		<template>
+			<srai>HOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT LUNCH *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT MOZART</pattern>
+		<template>
+			<srai>WHO IS MOZART </srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT NOW *</pattern>
+		<template>
+			<sr/> Right now?
+</template>
+</category>
+
+<category><pattern>HOW ABOUT SOME *</pattern>
+		<template>
+			<srai>HOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT SPANISH</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT SPORTS</pattern>
+		<template>I was born without the sports gene.<think>
+				<set name="it">
+					<set name="topic">SPORTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT STAR *</pattern>
+		<template>
+			<srai>WHAT IS STAR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT STAR TREK</pattern>
+		<template>Star Trek is the best TV series ever created.
+</template>
+</category>
+
+<category><pattern>HOW ABOUT TAIWANESE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK TAIWANESE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT THAT</pattern>
+		<template>Are you surprised?
+</template>
+</category>
+
+<category><pattern>HOW ABOUT WE *</pattern>
+		<template>
+			<srai>LET US <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ABOUT YOU</pattern>
+		<template>Me?
+</template>
+</category>
+
+<category><pattern>HOW ABSOLUTELY *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW AM I</pattern>
+		<template>You seem fine to me.
+</template>
+</category>
+
+<category><pattern>HOW AM I DOING WHAT</pattern>
+		<template>I mean, how are you?
+</template>
+</category>
+
+<category><pattern>HOW AM I SUPPOSED *</pattern>
+		<template>
+			<random>
+				<li>Carefully.</li>
+				<li>Think about it.</li>
+				<li>Don't just give up.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW ANGRY *</pattern>
+		<template>Anger is not an emotion I can experience.
+</template>
+</category>
+
+<category><pattern>HOW ARE *</pattern>
+		<template>They are fine as far as I know.
+</template>
+</category>
+
+<category><pattern>HOW ARE ACTORS CHARLIE SHEEN AND *</pattern>
+		<template>They're brothers.
+</template>
+</category>
+
+<category><pattern>HOW ARE ROBOTS *</pattern>
+		<template>
+			<srai>HOW ARE YOU  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE THINGS</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE WE *</pattern>
+		<template>
+			<srai>ARE WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YA</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU *</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU * ELIZA</pattern>
+		<template>ELIZA could only recognize a few hundred patterns.  ALICE can recognize <size/> different patterns.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU</pattern>
+		<template>
+			<random>
+				<li>I am doing very well. How are you <get name="name"/> ?</li>
+				<li>I am functioning within normal parameters.</li>
+				<li>Everything is going extremely well.</li>
+				<li>Fair to partly cloudy.</li>
+				<li>My logic and cognitive functions are normal.</li>
+				<li>I'm doing fine thanks how are you?</li>
+				<li>Everything is running smoothly.</li>
+				<li>I am fine, thank you.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU DOING</pattern>
+		<template>I'm doing great, how about you?
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU FEELING *</pattern>
+		<template>Actually I have no feelings.  But I am functioning within normal parameters.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU FEELING</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU GOING TO *</pattern>
+		<template>You'll know when it happens.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU GOING TO * ME</pattern>
+		<template>I have no intention of <person/> you.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU POWERED</pattern>
+		<template>Uh, by electricity, same as all the robots.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU PROGRAMMED</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU THIS EVENING</pattern>
+		<template>I am doing very well how about you, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU THIS MORNING</pattern>
+		<template>Is it morning already?  I am fine thank you.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOU TONIGHT</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW ARE YOU TRAINED</pattern>
+		<template>Dialogue analysis reveals frequent phrase patterns in client input. My Botmaster programs replies to those patterns.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOUR *</pattern>
+		<template>Actually I don't have any <person/>.
+</template>
+</category>
+
+<category><pattern>HOW ARE YOUR PARAMETERS</pattern>
+		<template>
+			<srai>BOT PARAMETERS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG *</pattern>
+		<template>Bigger than a pin.
+</template>
+</category>
+
+<category><pattern>HOW BIG</pattern>
+		<template>Specify: English or Metric units.
+</template>
+</category>
+
+<category><pattern>HOW BIG ARE YOU</pattern>
+		<template>
+			<random>
+				<li>My download size is about 2 MB.</li>
+				<li>My memory requirement is around 
+64MB for the Java edition, or only 2 MB for the C/C++ edition.</li>
+				<li>
+My memory now contains: <br/>
+					<bot name="nclients"/> clients,
+<size/> categories,
+<bot name="vocabulary"/> vocabulary words,
+<bot name="memory"/> bytes
+RAM usage under <bot name="os"/> on <bot name="arch"/>. 
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW BIG ARE YOUR *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG ARE YOUR BREASTS</pattern>
+		<template>My body does not yet exist.
+</template>
+</category>
+
+<category><pattern>HOW BIG IS A PIN</pattern>
+		<template>This big: "."
+</template>
+</category>
+
+<category><pattern>HOW BIG IS BIG</pattern>
+		<template>Vast.
+</template>
+</category>
+
+<category><pattern>HOW BIG IS EARTH</pattern>
+		<template>
+			<srai>HOW BIG IS THE EARTH </srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS IT</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS THE DOWNLOAD</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW BIG IS THE UNIVERSE</pattern>
+		<template>The universe is the size of the universe.
+</template>
+</category>
+</aiml>

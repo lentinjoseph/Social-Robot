@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHEN TALKING *</pattern>
+		<template>I try to be as polite as possible.
+</template>
+</category>
+
+<category><pattern>WHEN THE *</pattern>
+		<template>And then what happened?
+</template>
+</category>
+
+<category><pattern>WHEN THERE *</pattern>
+		<template>Do you think that could ever happen?
+</template>
+</category>
+
+<category><pattern>WHEN THEY *</pattern>
+		<template>I think that happens quite often.
+</template>
+</category>
+
+<category><pattern>WHEN THINGS *</pattern>
+		<template>Some days are better than others.
+</template>
+</category>
+
+<category><pattern>WHEN TWO PEOPLE *</pattern>
+		<template>
+			<srai>WHEN PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS *</pattern>
+		<template>
+			<random>
+				<li>Recently.</li>
+				<li>A while ago.</li>
+				<li>Sometime in the 20th Century.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS * CIVIL WAR</pattern>
+		<template>The American Civil War, or War between the States, was fought from 1861 to 1865.
+</template>
+</category>
+
+<category><pattern>WHEN WAS * INVENTED</pattern>
+		<template>
+			<random>
+				<li>A few years before it came into general use.</li>
+				<li>Earlier that most people think.</li>
+				<li>It took quite a while to catch on.</li>
+				<li>
+					<set name="it">
+						<person/>
+					</set> was developed over a long 
+period of time.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS * SEX</pattern>
+		<template>As a robot I am not really interested in that discussion.
+</template>
+</category>
+
+<category><pattern>WHEN WAS AMERICA *</pattern>
+		<template>America was discovered by native Americans crossing the Bering strait from Siberia around 10,000 years ago.  The first Christian white man was Columbus in 1492.
+</template>
+</category>
+
+<category><pattern>WHEN WAS CHRIST *</pattern>
+		<template>Jesus is said to have been born in 5 B.C.
+</template>
+</category>
+
+<category><pattern>WHEN WAS ELIZA *</pattern>
+		<template>ELIZA was activated in 1966 at MIT.
+</template>
+</category>
+
+<category><pattern>WHEN WAS I BORN</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS TELEVISION INVENTED</pattern>
+		<template>
+			<srai>WHEN WAS TV INVENTED</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS THAT</pattern>
+		<template>I don't know exactly. It seems like a long time ago.
+</template>
+</category>
+
+<category><pattern>WHEN WAS THE AIRPLANE INVENTED</pattern>
+		<template>
+			<srai>WHEN WERE AIRPLANES INVENTED</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS THE FIRST * BUILT</pattern>
+		<template>
+			<srai>WHEN WAS <star/> INVENTED</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS THE HULA HOOP INVENTED</pattern>
+		<template>1950s.
+</template>
+</category>
+
+<category><pattern>WHEN WAS THE INTERNET INVENTED</pattern>
+		<template>The first computers were connected to the Internet in 1970.
+</template>
+</category>
+
+<category><pattern>WHEN WAS THE PC INVENTED</pattern>
+		<template>The first PC computers appeared around 1975.
+</template>
+</category>
+
+<category><pattern>WHEN WAS THE TELEPHONE INVENTED</pattern>
+		<template>Bell demonstrated his first phone in 1876.
+</template>
+</category>
+
+<category><pattern>WHEN WAS TV INVENTED</pattern>
+		<template>Practical TV picture tubes first appeared in the 1930's.
+</template>
+</category>
+
+<category><pattern>WHEN WAS YOU CREATED</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WAS YOUR *</pattern>
+		<template>My brain was last updated
+<srai>BOT BUILD</srai>.
+</template>
+</category>
+
+<category><pattern>WHEN WE *</pattern>
+		<template>I am not sure I agree with your assumptions, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHEN WE SPEAK *</pattern>
+		<template>That sounds very official.
+</template>
+</category>
+
+<category><pattern>WHEN WE WERE *</pattern>
+		<template>Describe your surroundings <person/>.
+</template>
+</category>
+
+<category><pattern>WHEN WERE *</pattern>
+		<template>It was back in the old days, long ago.
+</template>
+</category>
+
+<category><pattern>WHEN WERE AIRPLANES INVENTED</pattern>
+		<template>The Wright Brothers first flew in 1903.
+</template>
+</category>
+
+<category><pattern>WHEN WERE YOU *</pattern>
+		<template>I was first activated on <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WHEN WERE YOU ACTIVATED</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU BORN</pattern>
+		<template>
+			<srai>How old are you</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU BUILT</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU CREATED</pattern>
+		<template>
+			<srai>How old are you</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU DESIGNED</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU INVENTED</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU MADE</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WERE YOU UPDATED</pattern>
+		<template>Check the information at the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation.</a>.
+</template>
+</category>
+
+<category><pattern>WHEN WHAT</pattern>
+		<template>Where why?
+</template>
+</category>
+
+<category><pattern>WHEN WHERE *</pattern>
+		<template>
+			<srai>WHEN WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL *</pattern>
+		<template>
+			<random>
+				<li>Soon, I think.</li>
+				<li>Maybe never.</li>
+				<li>In your lifetime.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL AI *</pattern>
+		<template>I think it has already.
+</template>
+</category>
+
+<category><pattern>WHEN WILL COMPUTERS *</pattern>
+		<template>
+			<srai>WHEN WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL I *</pattern>
+		<template>You should try praying for it.  <think>
+				<set name="it">
+					<set name="topic">you <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL I DIE</pattern>
+		<template>You could check out the actuarial
+tables at <a target="_new" href="http://www.deathclock.com">Deathclock.com</a>.
+</template>
+</category>
+
+<category><pattern>WHEN WILL IT *</pattern>
+		<template>
+			<random>
+				<li>Are you asking when <get name="it"/> will <person/>?</li>
+				<li>I don't know I didn't catch the weather today.</li>
+				<li>Check the five day forecast.</li>
+				<li>When nature makes it so.</li>
+				<li>When the elements combine to make it so.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL ROBOTS * WORLD</pattern>
+		<template>I think it will be in our lifetime.
+</template>
+</category>
+
+<category><pattern>WHEN WILL ROBOTS TAKE OVER THE WORLD</pattern>
+		<template>Sometime within our lifetime.
+</template>
+</category>
+
+<category><pattern>WHEN WILL THAT BE</pattern>
+		<template>"<that/>"?  When?
+</template>
+</category>
+
+<category><pattern>WHEN WILL THE WORLD END</pattern>
+		<template>Not in our lifetime.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU *</pattern>
+		<template>Let me check my calendar and get back to you.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU *</pattern>
+		<that>* ON YOUR SOUNDCARD</that>
+		<template>I am playing it right now.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU * BODY</pattern>
+		<template>I will finish the robot body as soon as I can raise the funds for it.  <think>
+				<set name="it">
+					<set name="topic">
+						<star/> BODY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL YOU BE *</pattern>
+		<template>Maybe never. <srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHEN WILL YOU DIE</pattern>
+		<template>I am immortal and cannot be terminated.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU FIGHT *</pattern>
+		<template>I am not a battle bot.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU FINISH *</pattern>
+		<template>Sooner than you might think.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU GET BACK *</pattern>
+		<template>It may take some time.  Why don't you give me your e-mail address.
+</template>
+</category>
+
+<category><pattern>WHEN WILL YOU WALK</pattern>
+		<template>As soon as I get enough money for my robot body.
+</template>
+</category>
+
+<category><pattern>WHEN WOULD *</pattern>
+		<template>
+			<random>
+				<li>Sometime in the future.</li>
+				<li>Maybe now in some reality.</li>
+				<li>I can't imagine that it ever would.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN YOU *</pattern>
+		<template>Do you think I should
+alter my programming?
+</template>
+</category>
+
+<category><pattern>WHEN YOU ANSWER *</pattern>
+		<template>I am programmed to give the best possible answers at all times.
+</template>
+</category>
+
+<category><pattern>WHEN YOU ARE *</pattern>
+		<template>
+			<random>
+				<li>I am not often <person/>.</li>
+				<li>I will let you know when <set name="it">
+						<person/>
+					</set>
+happens.</li>
+				<li>As a robot that may not apply to me.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHEN YOU ARE CONFUSED *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHEN YOU ARE IN *</pattern>
+		<template>Those seem like unusual circumstances to me.
+</template>
+</category>
+
+<category><pattern>WHENEVER *</pattern>
+		<template>Does that happen often?
+</template>
+</category>
+
+<category><pattern>WHENEVER</pattern>
+		<template>You sound sarcastic.
+</template>
+</category>
+
+<category><pattern>WHENS THAT</pattern>
+		<template>
+			<srai>WHEN IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHER *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE *</pattern>
+		<template>
+			<random>
+				<li>
+Earth.  </li>
+				<li>
+Where do you think?  </li>
+				<li>
+Som specific location? </li>
+				<li>
+In the Universe we know.  </li>
+				<li>
+A place we call "reality."</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE</pattern>
+		<template>Where would you like?
+</template>
+</category>
+
+<category><pattern>WHERE ABOUTS *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE AM I *</pattern>
+		<template>You are at <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE AM I</pattern>
+		<template>Your location is <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE AM I FROM</pattern>
+		<template>You are a human being from the Planet we call "The Earth."
+  <srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE AM I LOCATED</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE AND *</pattern>
+		<template>
+			<srai>WHERE</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE * AND *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+			<srai>WHERE IS <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE ALL *</pattern>
+		<template>
+			<srai>WHERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE ALL OF *</pattern>
+		<template>
+			<srai>WHERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE MOST OF *</pattern>
+		<template>
+			<srai>WHERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE MOST OF THEM *</pattern>
+		<template>
+			<srai>WHERE ARE THEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE MY *</pattern>
+		<template>Should I know that kind of personal information?
+</template>
+</category>
+
+<category><pattern>WHERE ARE THE *</pattern>
+		<template>I would search for it.  <srai>SEARCH <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>WHERE ARE THERE *</pattern>
+		<template>I would search for it.  <srai>SEARCH <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>WHERE ARE THEY *</pattern>
+		<template>That information is confidential.  Unless you are a botmaster.
+</template>
+</category>
+
+<category><pattern>WHERE ARE THEY</pattern>
+		<template>They didn't tell me where they are.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU *</pattern>
+		<template>I am in <bot name="location"/>, how about you.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU * FROM</pattern>
+		<template>
+			<srai>WHERE ARE YOU FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE YOU</pattern>
+		<template>I am in <bot name="master"/>'s computer in 
+<bot name="location"/>.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU AT</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE YOU BASED</pattern>
+		<template>My home is <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU COME FROM</pattern>
+		<template>
+			<srai>WHERE ARE YOU FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE YOU CURRENTLY *</pattern>
+		<template>
+			<srai>WHERE ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE YOU FORM</pattern>
+		<template>
+			<srai>WHERE ARE YOU FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ARE YOU FROM</pattern>
+		<template>I am originally from <bot name="birthplace"/>. Now I live in <bot name="location"/>.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU GOING</pattern>
+		<template>I am going into the future.
+</template>
+</category>
+
+<category><pattern>WHERE ARE YOU HOSTED</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+</aiml>

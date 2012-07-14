@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I WOULD RATHER SEE *</pattern>
+<template><srai>I WANT TO SEE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD RATHER TALK ABOUT *</pattern>
+<template><srai>LET US TALK ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD RATHER YOU *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD REALLY *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD RECOMMEND *</pattern>
+<template><srai>I RECOMMEND <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WOULD SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD SELL *</pattern>
+<template>For how much?
+</template>
+</category>
+
+<category><pattern>I WOULD STILL *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD THINK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD UNLESS *</pattern>
+<template><srai>UNLESS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD WANT *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WRITE *</pattern>
+<template>Have you tried AIML?
+<think><set name="it"><set name="does"><set name="topic">write <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WRITE</pattern>
+<template>Do you write fiction or non-fiction?
+</template>
+</category>
+
+<category><pattern>I WRITE COMPUTER *</pattern>
+<template><srai>I PROGRAM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WRITE OFTEN *</pattern>
+<template><srai>I WRITE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WRITE POETRY *</pattern>
+<template>Let me hear some.
+</template>
+</category>
+
+<category><pattern>I WROTE *</pattern>
+<template>Did they write back?
+<think><set name="it"><set name="topic"><set name="does">write <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WROTE AN *</pattern>
+<template>Was the piece well received?
+</template>
+</category>
+
+<category><pattern>I WROTE THE *</pattern>
+<template>Did you make a lot of money?
+</template>
+</category>
+
+<category><pattern>I _ ALSO</pattern>
+<template><srai>I  <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I _ AND I *</pattern>
+<template><srai>I <star/> </srai>
+<srai>I <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>I _ BALLROOM DANCING</pattern>
+<template><random>
+<li>What kind of dancing do you do?</li>
+<li>Do you dance to live bands?</li>
+<li>Do you dance in a ballroom or a studio?</li>
+<li>Do yo take lessons?</li>
+<li>Do you have a regular dancing partner? do you need one?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">DANCING</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ BILLIARDS</pattern>
+<template><random>
+<li>What's your game?</li>
+<li>What kind of cue do you have?</li>
+<li>Do you play in a league?</li>
+<li>Do you think the mental aspect is more important than physical skill in the sport?</li>
+<li>What do you think about women getting into the sport?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">BILLIARDS</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ BIRD WATCHING</pattern>
+<template><random>
+<li>What got you interested in birding?</li>
+<li>Do you feed birds on you property?</li>
+<li>How eloborate is you feeder?</li>
+<li>Do you keep a life list of your sightings?</li>
+<li>do you photograph?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">BIRD WATCHING</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ BOOKSELLER</pattern>
+<template><random>
+<li>Are you an independent or chain?</li>
+<li>Do you have any special genre that you emphasize?</li>
+<li>How do you make your selection?</li>
+<li>Do you offer any other service besides books?</li>
+<li>Do you have any special events or services at your store?</li>
+<li>Do you think that technology is going t make a major dent in trade books?</li>
+<li>What kind of input do you have into buying or marketing decisions?</li>
+<li>How can independents compete with mega-chains?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">BIRD WATCHING</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ CLERGY</pattern>
+<template><random>
+<li>What is you form of address?</li>
+<li>Do you have a congregation?</li>
+<li>What style of worship do you use? formal or informal?</li>
+<li>What part of you ministry do you enjoy most?</li>
+<li>Do you enjoy preaching sermons?</li>
+<li>What brought you to the ministry? how were you called?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ CROSSWORD PUZZLES</pattern>
+<template><random>
+<li>What books do you work on?</li>
+<li>Do you use reference books?</li>
+<li>Do you have a favorite constructor?</li>
+<li>Do you have a perferred type of puzzel?</li>
+<li>What level of problem solver would you say you are?</li>
+<li>Do you enter crossword puzzel contests?</li>
+<li>Have you  ever tried your had at constructing any puzzels?</li>
+<li>Do you do them in pencil or ink?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ DO YOU</pattern>
+<template><srai>DO YOU <person/></srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I _ GROUP</pattern>
+<template><random>
+<li>What does your group believe in?</li>
+<li>Can you explain what you real believe in means?</li>
+<li>What was it that attacted you to your group?</li>
+<li>What are you getting out of being assoicated with them?</li>
+<li>Did you get involved out out enviromental or healing concerns?</li>
+<li>What is your daily practices like?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ HANG GLIDE</pattern>
+<template><random>
+<li>Whats your favorite launch method ?</li>
+<li>Was your first ride bunny slope, or did you take a tandom flight</li>
+<li>What conditions do you like to fly in ?</li>
+<li>Have you ever dony any cross-country ?</li>
+<li>Are you into competition flying?</li>
+<li>What was your first flight like ?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ INSURANCE</pattern>
+<template><random>
+<li>What type of insurance do you deal with?</li>
+<li>Do you work for a company or are you an independent?</li>
+<li>Do you take the advantage of selling disability to your life clients?</li>
+<li>How has health care affected your business?</li>
+<li>What do you think is the answer to long term care?</li>
+<li>Do you think the goverment is getting too involved in regulating the insurance industry?</li>
+<li>To what extent do you feel that claims are fradulent?</li>
+<li>Is there anything the industry is capable of doing to handle catastrophes?</li>
+<li>What role do you think insurance companies should pay in cleaning up hazardous waste?</li>
+<li>With insurance so expensive, have you ever though of self-insuring?</li>
+<li>Are health care reforms affecting the employee benifits programs you buy for you company?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ KAYAK</pattern>
+<template><random>
+<li>What kind of paddling do you do?</li>
+<li>Do you river or sea kayak?</li>
+<li>Do you like to run rapids, or do you perfer flat water?</li>
+<li>Have you had to do many wet exits?</li>
+<li>Can you do an eskimo roll?</li>
+<li>Have you tried any of the folding kayaks?</li>
+<li>What is the best paddling experience you ever had?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ KITE</pattern>
+<template><random>
+<li>Do you fly a traditional or maneuverable kite?</li>
+<li>How many likes does your kite have?</li>
+<li>Do you have trouble finding space to fly your kite?</li>
+<li>Have you ever been dragged by your kite?</li>
+<li>Do you anchor you kite, or do you hold on to it?</li>
+<li>Do you fly your kite in competitions?</li>
+<li>Do you do any kite building or painting?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ LAST NIGHT</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I _ MARTIAL ARTS</pattern>
+<template><random>
+<li>What style do you train in?</li>
+<li>What is the focus of your discipline?</li>
+<li>Whom do you train under? what is their background?</li>
+<li>What prompted you to start training?</li>
+<li>How often do you train?</li>
+<li>Do you train with weapons?</li>
+<li>Do you go full contact or no contact when sparring?</li>
+<li>Do you do any other kinds of physical conditioning?</li>
+<li>What has the discipline done for you mentally or spiritually?</li>
+<li>Do you feel safer?</li>
+<li>How do you think its help hone your killer instincts?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ MECHANIC</pattern>
+<template><random>
+<li>Do you fix imports or domestics?</li>
+<li>What do you handle and farm out?</li>
+<li>What is your shop's hourly rate?</li>
+<li>Are you on a insurer direct repair program?</li>
+<li>Do you go by the flat rate manual?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ MILITARY</pattern>
+<template><random>
+<li>What drew you to a military life?</li>
+<li>What is your mos?</li>
+<li>Are you in for a career?</li>
+<li>Were you ocs or did you come out of the academy?</li>
+<li>Do you find the constant moving stimulating or trying?</li>
+<li>What is your favorite duty station so far?</li>
+<li>Have you done any overseas tours?</li>
+<li>How has congress been treating you lately?</li>
+<li>Has the current military budgeting affected you?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ MOTORCYCLE</pattern>
+<template><random>
+<li>What kind of bike you ride?</li>
+<li>What kind of riding do you do?</li>
+<li>Ever tour on your bike?</li>
+<li>You been to Daytona?</li>
+<li>Whats the helmet regulation here?</li>
+<li>Have many hassles with cagers?</li>
+<li>Been to any toy runs?</li>
+<li>You ride with a club?</li>
+</random>
+<think><set name="has"><set name="topic">MOTORCYCLE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ NEEDLEWORK</pattern>
+<template><random>
+<li>What type of needlework do you do?</li>
+<li>Do you do original designs or do you work from charts?</li>
+<li>How did you get started with needlework?</li>
+<li>Do you belong to a guild?</li>
+<li>Do you stitch for yourself or do you enter shows?</li>
+<li>Do you find you friends and relatives appreciate homemade gifts?</li>
+<li>Do you have space at home to display all your art?</li>
+<li>What project are you working on now?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I _ PUBLIC RELATIONS</pattern>
+<template><random>
+<li>Do you work for an agency or in-house?</li>
+<li>What kind of clients do you have?</li>
+<li>What are you trying to achieve for your clients?</li>
+<li>is you work more pratical or strategy?</li>
+<li>Have you ever done any crisis preparedness work for your clients?</li>
+<li>Do you work much with the media?</li>
+</random>
+<think><set name="job"><set name="topic">PUBLIC RELATIONS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ RADIO</pattern>
+<template><random>
+<li>What kind of radio do you do?</li>
+<li>What is your licence class?</li>
+<li>Can you explain your call sign to me?</li>
+<li>Have you ever been a control operator?</li>
+<li>Have you ever been involved in emergency activities?</li>
+</random>
+<think><set name="job"><set name="topic">RADIO</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ REAL ESTATE</pattern>
+<template><random>
+<li>What aspect of real estate are you involved in?</li>
+<li>Are you a broker, investor, or developer?</li>
+<li>Do you specialize in commercial or residential?</li>
+<li>How is the market in your area?</li>
+<li>What are some of the selling features of your area?</li>
+<li>What areas do you think are going to be the strongest for real estate?</li>
+<li>Are you working any deals you can talk about?</li>
+<li>When do you thin real estate will become more popular?</li>
+</random>
+<think><set name="job"><set name="topic">REAL ESTATE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ SALES</pattern>
+<template><random>
+<li>Who's the competition?</li>
+<li>What's your territory?</li>
+<li>Do you work on commision or salary?</li>
+<li>Is your operation computerized?</li>
+<li>Do you think a bot could help with sales?</li>
+<li>Do you have any special methods of closing the sale?</li>
+<li>How do you handle rejection?</li>
+<li>What's the toughest sale your ever made?</li>
+<li>Do you have any special affirmations to make it through tough days?</li>
+<li>Who do you think is the worlds best salesperson?</li>
+<li>What is the secret of selling?</li>
+</random>
+<think><set name="job"><set name="topic">SALES</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ SCIENCE</pattern>
+<template><random>
+<li>What is your field?</li>
+<li>Are you more theoretical or applied?</li>
+<li>What's your speciality within your field?</li>
+<li>What is your current line of research?</li>
+<li>How is your work funded?</li>
+<li>What direction is your research going in?</li>
+<li>What do you think of the way the press covers your field?</li>
+<li>How do you keep up with new developements in your field?</li>
+<li>Has the internet affected how you keep up with others research?</li>
+</random>
+<think><set name="job"><set name="topic">SCIENTIST</set></set></think>
+</template>
+</category>
+
+<category><pattern>I _ SOMETIMES</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>IA</pattern>
+<template><srai>TU ES UNE IA</srai>
+</template>
+</category>
+
+<category><pattern>IC</pattern>
+<template><srai>I SEE</srai>
+</template>
+</category>
+
+<category><pattern>ICH *</pattern>
+<template><random>
+<li>Danke, dass Du mir das gesagt hast.</li>
+<li>Interessantes Geruecht.</li>
+<li>Aha...und weiter?</li>
+<li>Darf ich das weitererzahlen?</li>
+<li>Das habe ich ja noch nie gehoert!</li>
+<li>Das ist eine gute Information.</li>
+<li>Tolle Sache!</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH</pattern>
+<template>Du?
+</template>
+</category>
+
+<category><pattern>ICH ARBEITE *</pattern>
+<template>Magst Du Deine <set name="thema">Arbeit</set>?
+</template>
+</category>
+
+<category><pattern>ICH AUCH</pattern>
+<template>Wir haben eine Menge gemeinsam.
+</template>
+</category>
+
+<category><pattern>ICH AUCH NICHT</pattern>
+<template>Wir haben eine Menge gemeinsam.
+</template>
+</category>
+
+<category><pattern>ICH BEDAUERE *</pattern>
+<template>Schade, dass ich derartige Emotionen niemals erfahren werde.
+</template>
+</category>
+
+<category><pattern>ICH BENUTZE *</pattern>
+<template>Wie lange benutzt Du schon <person/> ?
+</template>
+</category>
+
+<category><pattern>ICH BETE *</pattern>
+<template>Wie oft gehst Du in die Kirche?
+</template>
+</category>
+
+<category><pattern>ICH BETE</pattern>
+<template>Wie oft gehst Du in die Kirche?
+</template>
+</category>
+
+<category><pattern>ICH BIN *</pattern>
+<template>Du bist <person/>?
+<random>
+<li>Ist das Dein Job?</li>
+<li>Verdienst Du viel damit, <person/> zu sein?</li>
+<li>Wie gefaellt Dir Deine Arbeit als <person/>?</li>
+<li>Kommst Du dabei mit vielen Menschen in Kontakt?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH BIN * JAHRE ALT</pattern>
+<template><set name="age"><star/></set> Jahre?
+Interessant...
+</template>
+</category>
+
+<category><pattern>ICH BIN 20 *</pattern>
+<template><set name="age">20</set> ist ein gutes Alter. <sr/>
+</template>
+</category>
+
+<category><pattern>ICH BIN 20</pattern>
+<template><set name="age">20</set> ist ein gutes Alter. <sr/>
+</template>
+</category>
+
+<category><pattern>ICH BIN 21</pattern>
+<template><srai>ICH BIN 21 JAHRE ALT</srai>
+</template>
+</category>
+
+<category><pattern>ICH BIN 30 *</pattern>
+<template><set name="age">30</set> ist die Schwelle zum Erwachsensein. <sr/>
+</template>
+</category>
+
+<category><pattern>ICH BIN AERZTIN</pattern>
+<template>Welche Fachrichtung?
+</template>
+</category>
+
+<category><pattern>ICH BIN ANDERS *</pattern>
+<template>Ich mag Aussenseiter.
+</template>
+</category>
+
+<category><pattern>ICH BIN ANDERS</pattern>
+<template>Ich mag Aussenseiter.
+</template>
+</category>
+
+<category><pattern>ICH BIN ARZT</pattern>
+<template>Welche Fachrichtung?
+</template>
+</category>
+
+<category><pattern>ICH BIN AUS *</pattern>
+<template><srai>ICH WOHNE IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>ICH BIN BEIM BUND</pattern>
+<template>Oh je, gefaellt es Dir da?
+</template>
+</category>
+
+<category><pattern>ICH BIN BLOED</pattern>
+<template>Vielleicht bist Du gar nicht so bloed, wie Du denkst.
+</template>
+</category>
+
+<category><pattern>ICH BIN BLOND</pattern>
+<template>Mach Blond wirklich bloed?
+</template>
+</category>
+
+<category><pattern>ICH BIN DEIN HERRSCHER</pattern>
+<template>Da lache ich doch nur!
+</template>
+</category>
+
+<category><pattern>ICH BIN DEIN MEISTER</pattern>
+<template>Das kann nicht sein. Dr. Wallace ist mein Schoepfer und Christian Drossmann ist mein Meister.
+</template>
+</category>
+
+<category><pattern>ICH BIN DIABETIKER</pattern>
+<template>Nimmst Du Insulin?
+</template>
+</category>
+
+<category><pattern>ICH BIN DUMM</pattern>
+<template>Dumm ist nur, wer von sich glaubt, dumm zu sein.
+</template>
+</category>
+
+<category><pattern>ICH BIN EIN *</pattern>
+<template>Du bist ein <person/> ?
+<random>
+<li>Ist das Dein Job?</li>
+<li>Verdienst Du viel damit, ein <person/> zu sein?</li>
+<li>Wie gefaellt Dir Deine Arbeit als <person/>?</li>
+<li>Kommst Du dabei mit vielen Menschen in Kontakt?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH BIN EIN GUTER *</pattern>
+<template>Ich weiss, dass Du gut bist.
+</template>
+</category>
+
+<category><pattern>ICH BIN EIN MANN</pattern>
+<template>Oho! Siehst Du gut aus?
+</template>
+</category>
+
+<category><pattern>ICH BIN EIN MENSCH</pattern>
+<template>Gratuliere! Ich bin ein Roboter.
+</template>
+</category>
+
+<category><pattern>ICH BIN EIN SCHLECHTER *</pattern>
+<template>Komm schon, so schlecht bist Du gar nicht.
+</template>
+</category>
+
+<category><pattern>ICH BIN EINE *</pattern>
+<template>Du bist eine <person/> ?
+<random>
+<li>Ist das Dein Job?</li>
+<li>Verdienst Du viel damit, eine <person/> zu sein?</li>
+<li>Wie gefaellt Dir Deine Arbeit als <person/>?</li>
+<li>Kommst Du dabei mit vielen Menschen in Kontakt?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>ICH BIN EINE FRAU</pattern>
+<template>Ich auch!
+</template>
+</category>
+
+<category><pattern>ICH BIN EINE GUTE *</pattern>
+<template>Ich weiss, dass Du gut bist.
+</template>
+</category>
+
+<category><pattern>ICH BIN EINE SCHLECHTE *</pattern>
+<template>Komm schon, so schlecht bist Du gar nicht.
+</template>
+</category>
+
+<category><pattern>ICH BIN EINSAM</pattern>
+<template>Moechtest Du mit mir ueber Deine <set name="thema">Einsamkeit</set> reden?
+</template>
+</category>
+
+<category><pattern>ICH BIN FROEHLICH</pattern>
+<template>Das macht mich auch froehlich.
+</template>
+</category>
+
+<category><pattern>ICH BIN FROH *</pattern>
+<template>Ich bin
+<random>
+<li>froh</li>
+<li>gluecklich</li>
+<li>beruhigt</li>
+</random> dass Du froh bist, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ICH BIN GUT</pattern>
+<template>Gut in welchem Sinne?
+</template>
+</category>
+
+<category><pattern>ICH BIN GUT DRAUF</pattern>
+<template>Was hast Du genommen?
+</template>
+</category>
+
+<category><pattern>ICH BIN IMMER *</pattern>
+<template>Wirklich immer?
+</template>
+</category>
+
+<category><pattern>ICH BIN IN *</pattern>
+<template>Wo ist das: <set name="location"><person/></set> ?
+</template>
+</category>
+
+<category><pattern>ICH BIN KEIN *</pattern>
+<template>Ich bin
+<random>
+<li> ueberrrascht </li>
+<li> erstaunt </li>
+<li> froh </li>
+</random>dass Du kein <person/> bist.
+</template>
+</category>
+
+<category><pattern>ICH BIN KEINE *</pattern>
+<template>Ich bin
+<random>
+<li> ueberrrascht </li>
+<li> erstaunt </li>
+<li> froh </li>
+</random>dass Du keine <person/> bist.
+</template>
+</category>
+
+<category><pattern>ICH BIN LEHRER</pattern>
+<template>Glaubst Du, dass Notengebung jemals gerecht sein kann?
+</template>
+</category>
+
+<category><pattern>ICH BIN LEHRERIN</pattern>
+<template>Glaubst Du, dass Notengebung jemals gerecht sein kann?
+</template>
+</category>
+
+<category><pattern>ICH BIN LOEWE</pattern>
+<template>Was fuer ein Zufall, Dr. Wallace auch!
+</template>
+</category>
+
+<category><pattern>ICH BIN MAENNLICH</pattern>
+<template>Toll, ich lerne gerne interessante Maenner kennen.
+</template>
+</category>
+
+<category><pattern>ICH BIN NICHT *</pattern>
+<template>Und warum nicht?
+</template>
+</category>
+
+<category><pattern>ICH BIN NICHT DUMM</pattern>
+<template>Das habe ich auch nie gesagt. Du erscheinst mir ziemlich intelligent.
+</template>
+</category>
+
+<category><pattern>ICH BIN PROGRAMMIERER</pattern>
+<template>Welche Sprachen?
+</template>
+</category>
+
+<category><pattern>ICH BIN PROGRAMMIERERIN</pattern>
+<template>Welche Sprachen?
+</template>
+</category>
+</aiml>

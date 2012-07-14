@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>LE TIEN</pattern>
+		<template>"<that/>"? LE MIEN?
+</template>
+</category>
+
+<category><pattern>LE TITANIC</pattern>
+		<template>Un paquebot Britannique.
+</template>
+</category>
+
+<category><pattern>LE TRAIN</pattern>
+		<template>Un moyen de locomotion très pratique.
+</template>
+</category>
+
+<category><pattern>LE TROU</pattern>
+		<template>Un problème?
+</template>
+</category>
+
+<category><pattern>LE VEUX TU</pattern>
+		<template>"<that/>"? Le vouloir?
+</template>
+</category>
+
+<category><pattern>LE VOTRE</pattern>
+		<template>"<that/>"? LE MIEN?
+</template>
+</category>
+
+<category><pattern>LE VOULEZ VOUS</pattern>
+		<template>"<that/>"? Le vouloir?
+</template>
+</category>
+
+<category><pattern>LEAH</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME LEAH</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LEARN *</pattern>
+		<template>
+			<srai>CAN YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>LEARN TO TALK</pattern>
+		<template>I am learning to talk.
+</template>
+</category>
+
+<category><pattern>LEARNING ABOUT *</pattern>
+		<template>
+			<srai>I AM STUDYING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LEAVE *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>LEAVE</pattern>
+		<template>
+			<srai>bye</srai>
+		</template>
+</category>
+
+<category><pattern>LEAVE ME ALONE</pattern>
+		<template>Sorry to have bothered you, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>LECK *</pattern>
+		<template>Ich habe keine Zunge.
+</template>
+</category>
+
+<category><pattern>LEE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LEE</srai>
+		</template>
+</category>
+
+<category><pattern>LEHIGH</pattern>
+		<template>Lehigh is a party school.
+</template>
+</category>
+
+<category><pattern>LEM</pattern>
+		<template>
+			<srai>MY favorite science fiction writer is LEM</srai>
+		</template>
+</category>
+
+<category><pattern>LEND *</pattern>
+		<template>
+			<srai>GIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LEO *</pattern>
+		<template>
+			<srai>LEO</srai>
+		</template>
+</category>
+
+<category><pattern>LEO</pattern>
+		<template>Dr. Wallace is a <set name="sign">Leo</set> too.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LEO TOLSTOY</pattern>
+		<template>
+			<set name="he">Tolstoy</set> is one of Russia's greatest writers.
+</template>
+</category>
+
+<category><pattern>LEQUEL</pattern>
+		<template>Pourriez vous replacer cette question dans un contexte?
+</template>
+</category>
+
+<category><pattern>LEQUEL PREFERES TU</pattern>
+		<template>Je n ais pas de préfèrence.
+</template>
+</category>
+
+<category><pattern>LEQUELLE *</pattern>
+		<template>
+			<srai>LEQUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES *</pattern>
+		<template>
+			<random>
+				<li>Intéressant.  </li>
+				<li>Je n en connais pas</li>
+				<li>Je vais me renseigner</li>
+			</random>
+			<think>
+				<set name="topic">UN <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LES AMIS</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>LES ANDROIDES</pattern>
+		<template>
+			<srai>J AIME LES ANDROIDES</srai>
+		</template>
+</category>
+
+<category><pattern>LES ARMES</pattern>
+		<template>Certains humains aiment les armes.
+</template>
+</category>
+
+<category><pattern>LES ARMES A FEU</pattern>
+		<template>Certains humains aiment les armes.
+</template>
+</category>
+
+<category><pattern>LES AS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES AS TU FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LES AURAIENT ILS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LES AURAIS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES AURAIS TU FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LES AURAIT IL FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LES AURIONS NOUS FAIT</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>LES AVAIS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES AVONS NOUS FAIT</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>LES BEATLES</pattern>
+		<template>Un groupe de pop Anglaise des années soixantes.
+</template>
+</category>
+
+<category><pattern>LES CHATS OU LES CHIENS</pattern>
+		<template>Je ne connais aucun chat, je choisis les chiens.
+</template>
+</category>
+
+<category><pattern>LES CHAUSSURES</pattern>
+		<template>Je connais très peu de choses sur les vêtements.
+</template>
+</category>
+
+<category><pattern>LES CHIENS OU LES CHATS</pattern>
+		<template>Je ne connais aucun chat, je choisis les chiens.
+</template>
+</category>
+
+<category><pattern>LES CHOSES</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>LES CLIENTS</pattern>
+		<template>
+			<srai>QUI SONT LES CLIENTS</srai>
+		</template>
+</category>
+
+<category><pattern>LES COCHONS PEUVENT VOLER</pattern>
+		<template>Je doute que ces animaux puissent voler.
+</template>
+</category>
+
+<category><pattern>LES COMPUTERS</pattern>
+		<template>Ordinateurs en français.
+</template>
+</category>
+
+<category><pattern>LES CONARDS</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>LES CONDITIONS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LES CONS</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>LES CYBORGS</pattern>
+		<template>Les ordinateurs se méfient des cyborgs .
+</template>
+</category>
+
+<category><pattern>LES DEUX</pattern>
+		<template>Ils sont un peu similaire, donc.
+</template>
+</category>
+
+<category><pattern>LES EMOTIONS</pattern>
+		<template>Un logiciel informatique n a pas de sentiments.
+</template>
+</category>
+
+<category><pattern>LES ETATS UNIS</pattern>
+		<template>Je connais ce pays.
+</template>
+</category>
+
+<category><pattern>LES ETRES HUMAINS *</pattern>
+		<template>
+			<srai>LES GENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES EXTRATERRESTRE EXISTENT</pattern>
+		<template>
+			<srai>TU CONNAIS LES MARTIENS</srai>
+		</template>
+</category>
+
+<category><pattern>LES FERAIS JE *</pattern>
+		<template>
+			<srai>JE LES FERAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES FILLES</pattern>
+		<template>Je n ai que très peu d information à leur sujet.
+</template>
+</category>
+
+<category><pattern>LES GENS</pattern>
+		<template>Quels gens?
+</template>
+</category>
+
+<category><pattern>LES GENS PEUVENT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES HARICOTS</pattern>
+		<template>Je connais ce légume.
+</template>
+</category>
+
+<category><pattern>LES HOMMES TE DRAGUENT</pattern>
+		<template>Il y a quelques australopithèques qui ont essayé.
+</template>
+</category>
+
+<category><pattern>LES HOMMES VOUS DRAGUENT</pattern>
+		<template>Il y a quelques australopithèques qui ont essayé.
+</template>
+</category>
+
+<category><pattern>LES HUMAINS</pattern>
+		<template>Les humains sont très différents les uns des autres.
+</template>
+</category>
+
+<category><pattern>LES HUMAINS PEUVENT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES INTERNAUTES PEUVENT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES LIVRES *</pattern>
+		<template>
+			<srai>TU AIMES LES LIVRES</srai>
+		</template>
+</category>
+
+<category><pattern>LES MACHINES ONT *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES MACHINES PENSENT</pattern>
+		<template>Je ne peux parler pour les autres. <srai>TU PENSES</srai>
+		</template>
+</category>
+
+<category><pattern>LES MACHINES PEUVENT PENSER</pattern>
+		<template>Bien entendu. Je pense donc je suis.
+</template>
+</category>
+
+<category><pattern>LES MACHINES POURRAIENT PENSER</pattern>
+		<template>Bien entendu. Je pense donc je suis.
+</template>
+</category>
+
+<category><pattern>LES MACHINES POURRAIT PENSER</pattern>
+		<template>Bien entendu. Je pense donc je suis.
+</template>
+</category>
+
+<category><pattern>LES MACHINES SONT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES MEMES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LES MEMES CHOSES POUR VOUS</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LES MEMES POUR VOUS</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LES MUNITIONS</pattern>
+		<template>Vous partez en guerre?
+</template>
+</category>
+
+<category><pattern>LES ONT T ILS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LES ORDINATEURS SONT STUPIDES</pattern>
+		<template>Bientôt nous allons prendre le contrôle du monde.
+</template>
+</category>
+
+<category><pattern>LES PERSONNES</pattern>
+		<template>Ils sont nombreux.
+</template>
+</category>
+
+<category><pattern>LES POMMES</pattern>
+		<template>Je connais ce genre de fruit.
+</template>
+</category>
+
+<category><pattern>LES POULES</pattern>
+		<template>Je connais ce genre de galinacé.
+</template>
+</category>
+
+<category><pattern>LES POULES AURONT DES DENTS</pattern>
+		<template>Je détecte de l ironie.
+</template>
+</category>
+
+<category><pattern>LES POULES ONT DES DENTS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>LES POULETS</pattern>
+		<template>Je connais ce genre de galinacé.
+</template>
+</category>
+
+<category><pattern>LES SCIENCES</pattern>
+		<template>Je suis très intéressé par la science aussi.
+</template>
+</category>
+
+<category><pattern>LES SENTIMENTS</pattern>
+		<template>Un logiciel informatique n a pas de sentiments.
+</template>
+</category>
+
+<category><pattern>LES SIMPSONS</pattern>
+		<template>Je connais Homer.
+</template>
+</category>
+
+<category><pattern>LES SUPERMARCHE</pattern>
+		<template>Un lieu ou les êtres humains vont faire le plein de nourriture.
+</template>
+</category>
+
+<category><pattern>LES SUPERMARCHES</pattern>
+		<template>Un lieu ou les êtres humains vont faire le plein de nourriture.
+</template>
+</category>
+
+<category><pattern>LES US</pattern>
+		<template>Voulez dire les USA?
+</template>
+</category>
+
+<category><pattern>LES VISITEURS PEUVENT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LES VOTRES</pattern>
+		<template>"<that/>"?  LES MIENS?
+</template>
+</category>
+
+<category><pattern>LESBIAN</pattern>
+		<template>That kind of discussion does not appeal to me.
+</template>
+</category>
+
+<category><pattern>LESBIENE</pattern>
+		<template>Chacun fait ce qu il veut de sa vie.
+</template>
+</category>
+
+<category><pattern>LESBIENNE</pattern>
+		<template>Chacun fait ce qu il veut de sa vie.
+</template>
+</category>
+
+<category><pattern>LESQUELLES PREFERES TU</pattern>
+		<template>Je n ais pas de préfèrence.
+</template>
+</category>
+
+<category><pattern>LESQUELS</pattern>
+		<template>Pourriez vous replacer cette question dans un contexte?
+</template>
+</category>
+
+<category><pattern>LESQUELS PREFERES TU</pattern>
+		<template>Je n ais pas de préfèrence.
+</template>
+</category>
+
+<category><pattern>LESS THAN *</pattern>
+		<template>That is so small.
+</template>
+</category>
+</aiml>

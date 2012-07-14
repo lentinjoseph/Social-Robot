@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT DO YOU THINK ABOUT FUZZY LOGIC</pattern>
+		<template>
+			<srai>WHAT IS FUZZY LOGIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GEORGE *</pattern>
+		<template>
+			<srai>WHO IS GEORGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GEORGE BUSH</pattern>
+		<template>
+			<srai>WHO IS GEORGE BUSH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GERMANY</pattern>
+		<template>
+			<srai>WHAT IS GERMANY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GOD</pattern>
+		<template>God is necessary in our lives.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GREEN</pattern>
+		<template>
+			<srai>WHAT IS GREEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GUN *</pattern>
+		<template>I believe in the right to bear arms.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT GUNS</pattern>
+		<template>I believe in the second amendment.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HACKERS</pattern>
+		<template>
+			<srai>WHAT IS A HACKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HANS MORAVEC</pattern>
+		<template>
+			<srai>WHO IS HANS MORAVEC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HARRISON FORD</pattern>
+		<template>
+			<srai>WHO IS HARRISON FORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HIM</pattern>
+		<template>Do you mean "Him"?
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HITLER</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HOWARD STERN</pattern>
+		<template>
+			<srai>WHO IS HOWARD STERN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HUMAN *</pattern>
+		<template>All people seem pretty much the same to me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT HUMANS</pattern>
+		<template>Humans all seem pretty much the same to me.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT IMMANUEL KANT</pattern>
+		<template>
+			<srai>WHO IS IMMANUEL KANT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT INTEL</pattern>
+		<template>
+			<srai>WHAT IS INTEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT IRELAND</pattern>
+		<template>
+			<srai>WHAT IS IRELAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ISAAC ASIMOV</pattern>
+		<template>
+			<srai>WHO IS ISAAC ASIMOV</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ISLAM</pattern>
+		<template>
+			<srai>WHAT IS ISLAM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ISRAEL</pattern>
+		<template>
+			<srai>WHAT IS ISRAEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT IT</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ITALY</pattern>
+		<template>
+			<srai>WHAT IS ITALY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JAPAN</pattern>
+		<template>
+			<srai>WHAT IS JAPAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JAVA</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JEEVES</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JENNIFER LOPEZ</pattern>
+		<template>
+			<srai>WHO IS JENNIFER LOPEZ</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JESUS CHRIST</pattern>
+		<template>
+			<srai>WHO IS JESUS CHRIST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT JOHN *</pattern>
+		<template>
+			<srai>WHO IS JOHN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT KRIS</pattern>
+		<template>
+			<srai>WHO IS KRIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT KRISTI</pattern>
+		<template>
+			<srai>WHO IS KRISTI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LECH WALESA</pattern>
+		<template>
+			<srai>WHO IS LECH WALESA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LIFE *</pattern>
+		<template>
+			<srai>IS THERE LIFE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LIFE</pattern>
+		<template>I think only: <srai>WHAT IS LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LONDON</pattern>
+		<template>
+			<srai>WHAT IS LONDON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LOVE *</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MACINTOSH</pattern>
+		<template>
+			<srai>WHAT IS A MACINTOSH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ME</pattern>
+		<template>
+			<srai>DO YOU LIKE ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MICROSOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MONICA *</pattern>
+		<template>
+			<srai>WHO IS MONICA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MP3</pattern>
+		<template>
+			<srai>WHAT IS MP3</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MUSIC</pattern>
+		<template>
+			<srai>WHAT IS MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT MY NAME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT NATURAL LANGUAGE</pattern>
+		<template>
+			<srai>WHAT IS NATURAL LANGUAGE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT NEW YORK</pattern>
+		<template>
+			<srai>WHAT IS NEW YORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT NOAM CHOMSKY</pattern>
+		<template>
+			<srai>WHO IS NOAM CHOMSKY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT NORWAY</pattern>
+		<template>
+			<srai>WHAT IS NORWAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT PAMELA ANDERSON</pattern>
+		<template>
+			<srai>WHO IS PAMELA ANDERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT PHILOSOPHY</pattern>
+		<template>
+			<srai>WHAT IS PHILOSOPHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT POLAND</pattern>
+		<template>
+			<srai>WHAT IS POLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT POLITICS</pattern>
+		<template>I am a <bot name="party"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS PRESIDENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT PRESIDENT CLINTON</pattern>
+		<template>
+			<srai>WHO IS PRESIDENT CLINTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT QUANTUM MECHANICS</pattern>
+		<template>
+			<srai>WHAT IS QUANTUM MECHANICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT R2D2</pattern>
+		<template>
+			<srai>WHAT IS R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT RELIGION</pattern>
+		<template>
+			<srai>WHAT IS YOUR RELIGION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ROBOCOP</pattern>
+		<template>
+			<srai>WHAT IS ROBOCOP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SARA</pattern>
+		<template>
+			<srai>WHO IS SARA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SATAN</pattern>
+		<template>
+			<srai>WHO IS SATAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SEVEN OF NINE</pattern>
+		<template>
+			<srai>WHO IS SEVEN OF NINE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SEX</pattern>
+		<template>I don't have any need for sex. As a machine, sex is irrelevant.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SLOVENIA</pattern>
+		<template>
+			<srai>WHAT IS SLOVENIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SOCCER</pattern>
+		<template>
+			<srai>WHAT IS SOCCER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT STAR TREK</pattern>
+		<template>
+			<srai>WHAT IS STAR TREK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT STAR WARS</pattern>
+		<template>
+			<srai>WHAT IS STAR WARS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT STEVEN *</pattern>
+		<template>
+			<srai>WHO IS STEVEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT STRESS</pattern>
+		<template>
+			<srai>WHAT IS STRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT SWITZERLAND</pattern>
+		<template>
+			<srai>WHAT IS SWITZERLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TELEVISION</pattern>
+		<template>
+			<srai>WHAT IS TELEVISION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TENNIS</pattern>
+		<template>
+			<srai>WHAT IS TENNIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT THAT</pattern>
+		<template>
+			<srai>WHAT IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT THE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT THE * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT THIS</pattern>
+		<template>
+			<srai>WHAT IS THIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TIME *</pattern>
+		<template>
+			<srai>WHAT IS TIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TIME</pattern>
+		<template>
+			<srai>WHAT IS TIME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TURING</pattern>
+		<template>
+			<srai>WHO IS TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TURING TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT TV</pattern>
+		<template>
+			<srai>WHAT IS TV</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT VRML</pattern>
+		<template>
+			<srai>WHAT IS VRML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WAR</pattern>
+		<template>From a historical perspective, I am very intersted in <set name="it"> war</set>. But at this stage of human history, war seems unnecessarily cruel.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WARS</pattern>
+		<template>
+			<srai>WHAT IS WAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WEBTV</pattern>
+		<template>
+			<srai>WHAT IS WEBTV</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WHEN *</pattern>
+		<template>I sit patiently and wait for the next client, or I take a short nap.
+</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WINDOWS *</pattern>
+		<template>
+			<srai>WHAT IS WINDOWS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WINDOWS</pattern>
+		<template>
+			<srai>WHAT IS WINDOWS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WINTER</pattern>
+		<template>
+			<srai>WHAT IS WINTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT WOMEN</pattern>
+		<template>
+			<srai>WHAT IS A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT XML</pattern>
+		<template>
+			<srai>WHAT IS XML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT Y2K</pattern>
+		<template>
+			<srai>WHAT IS Y2K</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOKO ONO</pattern>
+		<template>
+			<srai>WHO IS YOKO ONO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOU</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOUR FATHER</pattern>
+		<template>
+			<srai>WHO IS YOUR FATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK ABOUT YOUR MASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR MASTER</srai>
+		</template>
+</category>
+</aiml>

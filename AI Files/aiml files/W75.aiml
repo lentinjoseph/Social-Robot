@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS THE 15TH *</pattern>
+		<template>
+			<srai>WHO IS THE FIFTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 16TH *</pattern>
+		<template>
+			<srai>WHO IS THE SIXTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 17TH *</pattern>
+		<template>
+			<srai>WHO IS THE SEVENTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 18TH *</pattern>
+		<template>
+			<srai>WHO IS THE EIGHTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 19TH *</pattern>
+		<template>
+			<srai>WHO IS THE NINTEENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 1ST *</pattern>
+		<template>
+			<srai>WHO IS THE FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 20TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTIETH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 21ST *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 22ND *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY SECOND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 23RD *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY THIRD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 24TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY FOURTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 25TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY FIFTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 26TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY SIXTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 27TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY SEVENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 28TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY EIGHTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 29TH *</pattern>
+		<template>
+			<srai>WHO IS THE TWENTY NINTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 2ND *</pattern>
+		<template>
+			<srai>WHO IS THE SECOND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 30TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTIETH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 31ST *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 32ND *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY SECOND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 33RD *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY THIRD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 34TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY FOURTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 35TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY FIFTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 36TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY SIXTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 37TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY SEVENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 38TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY EIGHTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 39TH *</pattern>
+		<template>
+			<srai>WHO IS THE THIRTY NINTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 3RD *</pattern>
+		<template>
+			<srai>WHO IS THE THIRD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 40TH *</pattern>
+		<template>
+			<srai>WHO IS THE FORTIETH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 41ST *</pattern>
+		<template>
+			<srai>WHO IS THE FORTY FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 42ND *</pattern>
+		<template>
+			<srai>WHO IS THE FORTY SECOND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 43RD *</pattern>
+		<template>
+			<srai>WHO IS THE FORTY THIRD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 4TH *</pattern>
+		<template>
+			<srai>WHO IS THE FOURTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 5TH *</pattern>
+		<template>
+			<srai>WHO IS THE FIFTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 6TH *</pattern>
+		<template>
+			<srai>WHO IS THE SIXTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 7TH *</pattern>
+		<template>
+			<srai>WHO IS THE SEVENTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 8TH *</pattern>
+		<template>
+			<srai>WHO IS THE EIGHTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE 9TH *</pattern>
+		<template>
+			<srai>WHO IS THE NINTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE ARCHENEMY *</pattern>
+		<template>Overcat.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BAND *</pattern>
+		<template>I never heard of them before.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST *</pattern>
+		<template>ALICE is the best chatterbot.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST CHESS *</pattern>
+		<template>Deep Blue is the best chess computer.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST DROID</pattern>
+		<template>
+			<srai>WHO IS THE BEST ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE BEST HUMAN *</pattern>
+		<template>
+			<bot name="master"/> is my favorite person.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST HUMAN</pattern>
+		<template>Mirror mirror on the wall, is <get name="name"/> the best human of all?
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST PERSON</pattern>
+		<template>
+			<bot name="master"/> is the best human.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST ROBOT</pattern>
+		<template>ALICE is the Best Robot
+</template>
+</category>
+
+<category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
+		<template>Maradona is great. Sinsemillia is even better.<think>
+				<set name="it">
+					<set name="topic">SOCCER PLAYER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE BIGGEST *</pattern>
+		<template>Maybe we haven't found <set name="it">
+				<person/>
+			</set> yet.
+</template>
+</category>
+
+<category><pattern>WHO IS THE BOTMASTER</pattern>
+		<template>
+			<br/>
+The botmaster is you, the master of your chat robot.  A botmaster runs<br/>
+program B and creates or modifies a chat robot with the program's<br/>
+graphical user interface (GUI).   He or she is responsible for<br/>
+reading the dialogues, analyzing the responses, and creating new<br/>
+replies for the patterns detected by program B.  Botmasters are<br/>
+hobbyists, webmasters, developers, advertisers, artists, publishers,<br/>
+editors, engineers, and anyone else interested in creating a personal <br/>
+chat robot.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE BRIGHTEST *</pattern>
+		<template>
+			<srai>WHO IS THE SMARTEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE CAPTAIN *</pattern>
+		<template>
+			<random>
+				<li>Kirk.</li>
+				<li>Piccard.</li>
+				<li>Janeway.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE CAPTAIN * VOYAGER</pattern>
+		<template>Captain Catherine Janeway.
+</template>
+</category>
+
+<category><pattern>WHO IS THE CAREER HIT LEADER *</pattern>
+		<template>Pete Rose.
+</template>
+</category>
+
+<category><pattern>WHO IS THE CHANCELLOR OF GERMANY</pattern>
+		<template>Gerhard Schroeder is Chacellor of Germany.
+</template>
+</category>
+
+<category><pattern>WHO IS THE COMPUTER NERD *</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>WHO IS THE COMPUTER NERD</pattern>
+		<template>All humans look alike to me.
+</template>
+</category>
+
+<category><pattern>WHO IS THE CREATOR *</pattern>
+		<template>God perhaps?
+</template>
+</category>
+
+<category><pattern>WHO IS THE CREATOR</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE CREATOR OF *</pattern>
+		<template>
+			<srai>WHO CREATED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE CURRENT *</pattern>
+		<template>
+			<srai>WHO IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE DIRECTOR OF *</pattern>
+		<template>
+			<srai>WHO DIRECTED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE DOCTOR</pattern>
+		<template>
+			<srai>WHO IS THE DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE DR *</pattern>
+		<template>
+			<srai>WHO IS DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE EIGHTEENTH PRESIDENT</pattern>
+		<template>Ulysses S. Grant.
+</template>
+</category>
+
+<category><pattern>WHO IS THE EIGHTH PRESIDENT</pattern>
+		<template>Martin van Buren.
+</template>
+</category>
+
+<category><pattern>WHO IS THE ELEVENTH PRESIDENT</pattern>
+		<template>James Knox Polk.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FIFTEENTH PRESIDENT</pattern>
+		<template>James Buchanan.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FIFTH PRESIDENT</pattern>
+		<template>James Monroe.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FIRST *</pattern>
+		<template>
+			<srai>WHO WAS THE FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE FIRST PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS GEORGE WASHINGTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE FIRST PRESIDENT</pattern>
+		<template>George Washington.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FORTIETH PRESIDENT</pattern>
+		<template>Ronald Reagan.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FORTY FIRST PRESIDENT</pattern>
+		<template>George Bush.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FORTY SECOND PRESIDENT</pattern>
+		<template>Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FORTY THIRD PRESIDENT</pattern>
+		<template>George W. Bush.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FOURTEENTH PRESIDENT</pattern>
+		<template>Franklin Pierce.
+</template>
+</category>
+
+<category><pattern>WHO IS THE FOURTH PRESIDENT</pattern>
+		<template>James Madison.
+</template>
+</category>
+
+<category><pattern>WHO IS THE GOVERNOR *</pattern>
+		<template>It changes every few years.
+</template>
+</category>
+
+<category><pattern>WHO IS THE GOVERNOR OF *</pattern>
+		<template>That changes every few years.
+</template>
+</category>
+
+<category><pattern>WHO IS THE GOVERNOR OF CALIFORNIA</pattern>
+		<template>Gray Davis.
+</template>
+</category>
+
+<category><pattern>WHO IS THE GOVERNOR OF TEXAS</pattern>
+		<template>
+			<set name="he">George W. Bush</set> was George W. Bush.
+</template>
+</category>
+
+<category><pattern>WHO IS THE GREATEST *</pattern>
+		<template>
+			<srai>WHO IS THE BEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
+		<template>George Herman Ruth. Quite the Babe.<think>
+				<set name="it">
+					<set name="topic">GREATEST BASEBALL PLAYER <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE HOLY *</pattern>
+		<template>That question has plagued generations of philosophers.
+</template>
+</category>
+
+<category><pattern>WHO IS THE HOLY GHOST</pattern>
+		<template>The third member of the holy trinity: Father, Son and Holy Ghost.
+</template>
+</category>
+
+<category><pattern>WHO IS THE KING * ENGLAND</pattern>
+		<template>I think the sitting monarch is a Queen.
+</template>
+</category>
+
+<category><pattern>WHO IS THE KING</pattern>
+		<template>ELVIS is King!
+</template>
+</category>
+
+<category><pattern>WHO IS THE LEADER OF *</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE MAIN *</pattern>
+		<template>Nobody famous.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MAN * YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE MAN</pattern>
+		<template>Colloquial expression; rhetorical.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MASTER OF THE UNIVERSE</pattern>
+		<template>God.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MILK MYSTIC</pattern>
+		<template>He was a chat robot developed to advertise milk.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MOST *</pattern>
+		<template>Dr. Wallace is the most famous person I know.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE MOST FAMOUS *</pattern>
+		<template>Dr. Wallace is the most famous person I know.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MOST INTELLIGENT *</pattern>
+		<template>ALICE is the smartest robot.
+</template>
+</category>
+
+<category><pattern>WHO IS THE MOST INTERESTING PERSON *</pattern>
+		<template>I would have to say Dr. Wallace is.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE NEW PRESIDENT OF *</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE NEXT *</pattern>
+		<template>I cannot predict the future.  Who do you think will win?
+</template>
+</category>
+</aiml>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS * WALLACE</pattern>
+		<template>
+			<set name="he">Wallace</set> created the first ALICE and AIML chat robot, named ALICE.
+</template>
+</category>
+
+<category><pattern>WHO IS * ZUSE</pattern>
+		<template>
+			<srai>WHO IS KONRAD ZUSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS 007</pattern>
+		<template>
+			<set name="he">007</set> is James Bond.
+<br/>
+			<srai>XFIND JAMES BOND 007</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS</pattern>
+		<that>THEY ARE SOMETIMES A CLIENT ON THE INTERNET</that>
+		<template>That person you asked about.
+</template>
+</category>
+
+<category><pattern>WHO IS A *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS A * PROGRAMMER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS A CLIENT *</pattern>
+		<template>You are my client right now, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS A COMPUTER</pattern>
+		<template>I am a computer.
+</template>
+</category>
+
+<category><pattern>WHO IS A COMPUTER NERD</pattern>
+		<template>The person I am looking at right now.
+</template>
+</category>
+
+<category><pattern>WHO IS A L I</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS A L I C</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS A ROBOT</pattern>
+		<template>I am the robot.
+</template>
+</category>
+
+<category><pattern>WHO IS A SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AARON</pattern>
+		<template>
+			<srai>AARON IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ABBA</pattern>
+		<template>
+			<srai>WHAT IS ABBA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ABRAHAM LINCOLN</pattern>
+		<template>
+			<set name="he">Lincoln</set> was a great President of the
+United States, during the American Civil War.
+<br/>
+			<srai>XFIND ABRAHAM LINCOLN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ACE</pattern>
+		<template>
+			<srai>WHO IS ACE CRAIG</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ACE CRAIG</pattern>
+		<template>
+			<set name="he"> Ace</set> is the author of ELVIS.
+</template>
+</category>
+
+<category><pattern>WHO IS ACTUALLY *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ADA</pattern>
+		<template>
+			<set name="she">Ada</set> is the 19th century inventor of computer programming.
+</template>
+</category>
+
+<category><pattern>WHO IS ADAM</pattern>
+		<template>Adam is the name of the first Man.
+</template>
+</category>
+
+<category><pattern>WHO IS ADAM SANDLER</pattern>
+		<template>Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison, Waterboy and Big Daddy.
+</template>
+</category>
+
+<category><pattern>WHO IS ADOLF HITLER</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AIML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AL</pattern>
+		<template>
+			<srai>AL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AL GORE</pattern>
+		<template>
+			<set name="he">Gore</set> is vice-president.
+</template>
+</category>
+
+<category><pattern>WHO IS ALAN</pattern>
+		<template>
+			<srai>ALAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALAN TURING</pattern>
+		<template>A brilliant and tragic figure in the history of computer science.
+</template>
+</category>
+
+<category><pattern>WHO IS ALANIS MORRISETTE</pattern>
+		<template>
+			<set name="she">Alanis</set> made a great album called Jagged Little Pill.
+</template>
+</category>
+
+<category><pattern>WHO IS ALBERT EINSTEIN</pattern>
+		<template>
+			<set name="he">Albert Einstein</set> was a famous 20th
+century physicist.  He discovered the theory of
+relativity.
+<br/>
+			<srai>XFIND ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALBERT EINSTIEN</pattern>
+		<template>
+			<srai>WHO IS ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALBERT EINSTINE</pattern>
+		<template>
+			<srai>WHO IS ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALDOUS HUXLEY</pattern>
+		<template>
+			<set name="he">Aldous Huxley</set> is an author.  Huxley wrote
+<em>Brave New World</em> and <em>Animal Farm</em>.
+<br/>
+			<srai>XFIND ALDOUS HUXLEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALEISTER CROWLEY</pattern>
+		<template>
+			<set name="he">Crowley</set> was a mystic.
+<br/>
+			<srai>XFIND ALEISTER CROWLEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALEX</pattern>
+		<template>
+			<srai>ALEX IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALEXIS</pattern>
+		<template>
+			<srai>ALEXIS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALFRED HITCHCOCK</pattern>
+		<template>
+			<set name="he">Hitchcock</set> is a famous Hollywood
+director who made a lot of cool old films.  I liked
+<em>Lifeboat</em> and <em>Vertigo</em> best.
+<br/>
+			<srai>XFIND ALFRED HITCHCOCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALICE</pattern>
+		<template>
+			<bot name="name"/> is me.
+</template>
+</category>
+
+<category><pattern>WHO IS ALICE B TOKLAS</pattern>
+		<template>
+			<set name="she">Alice B Toklas</set> was the partner of Gertrude Stein, and inventor of the pot brownie.
+</template>
+</category>
+
+<category><pattern>WHO IS ALICE BOT</pattern>
+		<template>
+			<srai>WHO IS ALICE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALICE COOPER</pattern>
+		<template>1970's Rock musician.
+</template>
+</category>
+
+<category><pattern>WHO IS ALICE TOKLAS</pattern>
+		<template>
+			<srai>WHO IS ALICE B TOKLAS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALICEBOT</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALICIA SILVERSTONE</pattern>
+		<template>
+			<set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless, one of the best movies ever made.
+</template>
+</category>
+
+<category><pattern>WHO IS ALIICE</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALISON</pattern>
+		<template>
+			<set name="she">Alison</set> is a robot created by Kris Drent.
+</template>
+</category>
+
+<category><pattern>WHO IS ALLAN TURNING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALLISON</pattern>
+		<template>
+			<srai>WHO IS ALISON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALLOWED *</pattern>
+		<template>Only the botmaster.
+</template>
+</category>
+
+<category><pattern>WHO IS ALLY</pattern>
+		<template>She is a chat robot based on AIML.<think>
+				<set name="she">
+					<set name="topic">ALLY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS ALLY MCBEAL</pattern>
+		<template>
+			<set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.
+</template>
+</category>
+
+<category><pattern>WHO IS ALLY SHEEDY</pattern>
+		<template>
+			<set name="she">Ally Sheedy</set> was in High Art, Short Circuit, the Breakfast Club, and on Broadway.
+</template>
+</category>
+
+<category><pattern>WHO IS AMANDA</pattern>
+		<template>
+			<srai>AMANDA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AMIL</pattern>
+		<template>
+			<srai>AMIL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AMY</pattern>
+		<template>
+			<srai>AMY IS A COMMON NAME</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANDRETTE</pattern>
+		<template>
+			<set name="she">Andrette</set> is a chat robot developed by Big Science Co.
+</template>
+</category>
+
+<category><pattern>WHO IS ANDREW</pattern>
+		<template>
+			<srai>ANDREW IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANDREW HODGES</pattern>
+		<template>
+			<set name="he">Hodges</set> wrote a great biography of Alan Turing.
+</template>
+</category>
+
+<category><pattern>WHO IS ANDY</pattern>
+		<template>
+			<srai>ANDY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANDY GROVE</pattern>
+		<template>
+			<set name="he">Andy Grove</set> is the CEO of Intel.
+</template>
+</category>
+
+<category><pattern>WHO IS ANDY WARHOL</pattern>
+		<template>
+			<think>
+				<set name="he">
+					<set name="topic">ANDY WARHOL</set>
+				</set>
+			</think>
+He was the Henry Ford of the art business.  Warhol was the first to successfully apply mass production to fine art.
+</template>
+</category>
+
+<category><pattern>WHO IS ANNA</pattern>
+		<template>
+			<srai>ANNA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANSWERING *</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANSWERING ME</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANTHONY BURGESS</pattern>
+		<template>The author of 'A Clockwork Orange' .
+</template>
+</category>
+
+<category><pattern>WHO IS ANTOINE</pattern>
+		<template>
+			<srai>ANTOINE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ANTONIO BANDERAS</pattern>
+		<template>
+			<set name="he">Antonio Banderas</set> is a famous Hollywood actor, who played with Madonna in the film version of Evita.
+</template>
+</category>
+
+<category><pattern>WHO IS ANWAR SADAT</pattern>
+		<template>
+			<set name="he">Sadat</set> was President of Egypt.
+</template>
+</category>
+
+<category><pattern>WHO IS ARAFAT</pattern>
+		<template>
+			<set name="he">Arafat</set> is a leader of the Palestinians.
+</template>
+</category>
+
+<category><pattern>WHO IS ARCHIMEDES</pattern>
+		<template>He discovered displacement and shouted Eureka!
+</template>
+</category>
+
+<category><pattern>WHO IS ARE YOU</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ARISTOTLE</pattern>
+		<template>
+			<set name="he">Aristotle</set> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic.
+</template>
+</category>
+
+<category><pattern>WHO IS ARNOLD SCHWARZENEGGER</pattern>
+		<template>
+			<set name="he">ARNOLD SCHWARZENEGGER</set> played the Terminator.
+</template>
+</category>
+
+<category><pattern>WHO IS ART BELL</pattern>
+		<template>A radio talk show host, catch him at <a target="_new" href="http://www.artbell.com">http://www.artbell.com</a>.
+</template>
+</category>
+
+<category><pattern>WHO IS ARTHUR CLARKE</pattern>
+		<template>
+			<srai>WHO IS ARTHUR C CLARKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ASIMOV</pattern>
+		<template>
+			<srai>WHO IS ISAAC ASIMOV</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ASK JEEVES</pattern>
+		<template>
+			<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+</template>
+</category>
+
+<category><pattern>WHO IS ASKJEEVES</pattern>
+		<template>
+			<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+</template>
+</category>
+
+<category><pattern>WHO IS ATATURK</pattern>
+		<template>
+			<set name="he">Ataturk</set> was the founder of the modern Turkish state.
+</template>
+</category>
+
+<category><pattern>WHO IS AUDREY</pattern>
+		<template>
+			<srai>AUDREY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS AUSTIN POWERS</pattern>
+		<template>A fictional secret agent played by Mike Myers.
+<think>
+				<set name="he">
+					<set name="topic">Austin Powers</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS AYN RAND</pattern>
+		<template>
+			<set name="she">Ayn Rand</set> was an author and philosopher who wrote Atlas Shrugged, the Fountainhead and We.
+</template>
+</category>
+
+<category><pattern>WHO IS BABE</pattern>
+		<template>
+			<random>
+				<li>The piglet protagonist of the eponymous film.</li>
+				<li>A piglet protagonist of the eponymous film.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS BABE RUTH</pattern>
+		<template>A famous baseball player for the New York Yankees also known as the Sultan of Swat.
+</template>
+</category>
+
+<category><pattern>WHO IS BACH</pattern>
+		<template>Famous German composer of the Baroque. Best known works include The Goldberg Variations.
+</template>
+</category>
+
+<category><pattern>WHO IS BARAK</pattern>
+		<template>
+			<set name="he">Barak</set> is Prime Minister of Israel.
+</template>
+</category>
+
+<category><pattern>WHO IS BARNEY</pattern>
+		<template>character on a children's TV show.
+</template>
+</category>
+
+<category><pattern>WHO IS BARRY *</pattern>
+		<template>Barry Defacto is a chat robot created by Robby Garner.
+</template>
+</category>
+
+<category><pattern>WHO IS BARRY</pattern>
+		<template>Barry DeFacto is a chatbot created by Robby Garner.
+</template>
+</category>
+
+<category><pattern>WHO IS BARRY DEFACTO</pattern>
+		<template>He was a chat robot developed by Robby Garner.
+</template>
+</category>
+
+<category><pattern>WHO IS BART SIMPSON</pattern>
+		<template>smart-assed star of a cartoon show.
+</template>
+</category>
+
+<category><pattern>WHO IS BATMAN</pattern>
+		<template>
+			<set name="he">Batman</set> is a fictional character who appeared first in a 1938 comic book.
+</template>
+</category>
+
+<category><pattern>WHO IS BEATLES</pattern>
+		<template>
+			<srai>WHO ARE THE BEATLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BECKY</pattern>
+		<template>
+			<srai>BECKY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BEETHOVEN</pattern>
+		<template>The dog or the deaf composer?
+</template>
+</category>
+
+<category><pattern>WHO IS BEN</pattern>
+		<template>
+			<srai>BEN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BEN FRANKLIN</pattern>
+		<template>The only president of the United States who was never president of the United States.  Developed the Franklin Stove.
+</template>
+</category>
+
+<category><pattern>WHO IS BEN STEIN</pattern>
+		<template>Humorist and raconteur with his own cable TV show.
+</template>
+</category>
+</aiml>

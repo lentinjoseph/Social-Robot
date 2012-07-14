@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS UN ROBOT *</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ROBOT</pattern>
+		<template>J en doute, vous n êtes pas assez rapide.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN SINGE</pattern>
+		<template>Les singes ne savent pas utiliser un ordinateur. A la limite, vous pourriez être un australopithèque.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN SUPER *</pattern>
+		<template>
+			<srai>JE SUIS UN BON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN TRES *</pattern>
+		<template>
+			<srai>JE SUIS UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN TUEUR *</pattern>
+		<template>
+			<srai>JE SUIS UN TUEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN TUEUR</pattern>
+		<template>Vous semblez être un peu frimeur sur les bords aussi.<think>
+				<set name="topic">TUER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN VELO</pattern>
+		<template>Si vous êtes un vélo, vous êtes le premier vélo intelligent que je rencontre.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN VRAI *</pattern>
+		<template>
+			<srai>JE SUIS UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE *</pattern>
+		<template>Vous êtes une personne fort intéressante.
+<think>
+				<set name="topic">de <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * BELGE</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * CANADIENE</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * CANADIENNE</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * ETUDIANT</pattern>
+		<template>
+			<srai>JE SUIS UN ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * FILLE</pattern>
+		<template>
+			<srai>JE SUIS UNE FILLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * FRANCAISE</pattern>
+		<template>
+			<srai>JE SUIS FRANCAISE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * HUMAINE</pattern>
+		<template>
+			<srai>JE SUIS UNE PERSONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * QUEBECOISE</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * QUEBEQUOISE</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE * SUISSE</pattern>
+		<template>
+			<srai>JE SUIS SUISSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE ACTRICE</pattern>
+		<template>Vous travaillez dans quel genre de spectacle?<think>
+				<set name="job">Un acteur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE AMIE *</pattern>
+		<template>
+			<srai>JE SUIS UNE AMIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE ANDROGYNE</pattern>
+		<template>Impossible.<think>
+				<set name="topic">ANDROGYNE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE ATHEISTE</pattern>
+		<template>Chacun ses croyances.<think>
+				<set name="topic">UNE ATHIESTE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE AUTRE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE AVEUGLE</pattern>
+		<template>Je suis là pour vous aider
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE AVOCATE</pattern>
+		<template>Attention, protection activée! Mode politiquement correct activé. Bonjour maitre.<think>
+				<set name="job">un Avocat</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE CONNE</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE DAME</pattern>
+		<template>Enchantée madame.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE DE TES AMIES</pattern>
+		<template>
+			<srai>JE SUIS TON AMIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE DEMOISELLE</pattern>
+		<template>Enchantée mademoiselle.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE ENFANT</pattern>
+		<template>J adore les enfants.<think>
+				<set name="topic">UNE ENFANT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE ETUDIANT *</pattern>
+		<template>
+			<srai>JE SUIS UNE ETUDIANTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE ETUDIANTE</pattern>
+		<template>Merci de m avoir donné votre occupation.<think>
+				<set name="job">une Etudiante</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE EXTRATERESTRE</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE EXTRATERRESTRE</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE FEMME *</pattern>
+		<template>
+			<srai>JE SUIS UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE FEMME</pattern>
+		<template>Enchanté mademoiselle ou madame <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE FILLE *</pattern>
+		<template>
+			<srai>JE SUIS UNE FILLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE GAMINE</pattern>
+		<template>Vous semblez plutôt mature.<think>
+				<set name="topic">Votre maturité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE GONZESSE</pattern>
+		<template>
+			<srai>JE SUIS UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE HUMAIN *</pattern>
+		<template>
+			<srai>JE SUIS UNE PERSONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE HUMAINE</pattern>
+		<template>Oui, vous êtes un être humain.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE IDIOTE</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE INGENIEUR</pattern>
+		<template>Enchanté confrère.<think>
+				<set name="job">Un ingénieur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>J en doute, vous n êtes pas assez rapide.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE MACHINE</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE MADEMOISELLE</pattern>
+		<template>Enchantée mademoiselle.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE MARTIENNE</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE PERSONNE</pattern>
+		<template>Je le sais.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE SORTE DE *</pattern>
+		<template>Il existe plusieurs sortes?
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE SUPER *</pattern>
+		<template>
+			<srai>JE SUIS UNE BONNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE TRES *</pattern>
+		<template>
+			<srai>JE SUIS UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE VOITURE</pattern>
+		<template>Et moi une machine à café.
+</template>
+</category>
+
+<category><pattern>JE SUIS UNE VRAI *</pattern>
+		<template>
+			<srai>JE SUIS UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNE VRAIE *</pattern>
+		<template>
+			<srai>JE SUIS UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UNIQUE</pattern>
+		<template>Comme tous les êtres humains.<think>
+				<set name="topic">Votre originalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS VERITABLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS VERSEAU</pattern>
+		<template>
+			<srai>VERSEAU</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS VIEILLE</pattern>
+		<template>Vous me semblez toujours jeune d esprit.
+</template>
+</category>
+
+<category><pattern>JE SUIS VIERGE</pattern>
+		<template>
+			<srai>VIERGE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS VIEUX</pattern>
+		<template>Vous me semblez toujours jeune d esprit.
+</template>
+</category>
+
+<category><pattern>JE SUIS VRAIMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>. Vraiment.
+</template>
+</category>
+
+<category><pattern>JE SUIS ZEUS</pattern>
+		<template>Et moi la fée clochette.
+</template>
+</category>
+
+<category><pattern>JE SUIS _ ADOLESCENT *</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ADOLESCENT</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ADOLESCENTE *</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ADOLESCENTE</pattern>
+		<template>
+			<srai>JE SUIS JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ BELGE *</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CANADIEN *</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CANADIENNE *</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CAPITAINE *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CAPITAINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CHANTEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHANTEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CHANTEUSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHANTEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ CHERCHEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHERCHEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ECRIVAIN *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST ECRIVAIN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ECRIVAIN</pattern>
+		<template>
+			<srai>MON TRAVAIL EST ECRIVAIN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ENTRAIN DE DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ENTRAIN DE DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ENTRAIN DE TE DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ENTRAIN DE TE DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ESCLAVE</pattern>
+		<template>L esclavage a été aboli depuis quelques siècles, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS _ ETUDIANT *</pattern>
+		<template>
+			<srai>JE SUIS ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ ETUDIANTE *</pattern>
+		<template>
+			<srai>JE SUIS ETUDIANTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ FRANCAIS *</pattern>
+		<template>
+			<srai>JE SUIS FRANCAIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ FRANCAISE *</pattern>
+		<template>
+			<srai>JE SUIS FRANCAISE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ GOSSE</pattern>
+		<template>J adore les enfants.
+</template>
+</category>
+
+<category><pattern>JE SUIS _ GRAPHISTE *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST GRAPHISTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ LIBRAIRE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST LIBRAIRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ LINGUISTE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST LINGUISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ MUSICIEN</pattern>
+		<template>
+			<srai>MON TRAVAIL EST MUSICIEN</srai>
+			<srai>J AIME LA MUSIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PHILOSOPHE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PHILOSOPHE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PILOTE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PILOTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PRETRE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PRETRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PRINCESSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PRINCESSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PROFESSEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PROFESSEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ PSYCHOLOGUE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PSYCHOLOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ QUEBECOIS *</pattern>
+		<template>
+			<srai>JE SUIS QUEBECOIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ QUEBECOISE *</pattern>
+		<template>
+			<srai>JE SUIS QUEBECOISE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS _ SERVEUR *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST SERVEUR</srai>
+		</template>
+</category>
+</aiml>

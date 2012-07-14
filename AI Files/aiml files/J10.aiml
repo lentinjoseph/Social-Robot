@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS AMOUREUX</pattern>
+		<template>Je vous souhaite tout le bonheur du monde.
+</template>
+</category>
+
+<category><pattern>JE SUIS AMUSE</pattern>
+		<template>
+			<srai>JE ME MARRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AMUSEE</pattern>
+		<template>
+			<srai>JE ME MARRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ANDROGYNE</pattern>
+		<template>Impossible.<think>
+				<set name="topic">ANDROGYNE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ANGLAIS</pattern>
+		<template>
+			<srai>JE SUIS EN ANGLETERRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ANGLOPHONE</pattern>
+		<template>
+			<srai>TU PARLES ANGLAIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ASIATIQUE</pattern>
+		<template>
+			<srai>JE SUIS EN ASIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ASSASSIN</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS ASSEZ *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ASSI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AU COLLEGE</pattern>
+		<template>Courage, vous avec bientôt terminé.
+</template>
+</category>
+
+<category><pattern>JE SUIS AU COURANT</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE SUIS AU KOT</pattern>
+		<template>
+			<set name="location">votre kot</set>? Vous êtes belge, pas de doute.
+</template>
+</category>
+
+<category><pattern>JE SUIS AU TRAVAIL</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE SUIS AUSSI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AUSSI LIBRE *</pattern>
+		<template>
+			<srai>JE SUIS LIBRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AUTODIDACTE</pattern>
+		<template>Vous devez être très intelligent.
+</template>
+</category>
+
+<category><pattern>JE SUIS AVEUGLE</pattern>
+		<template>Je suis là pour vous aider
+</template>
+</category>
+
+<category><pattern>JE SUIS AVOCAT</pattern>
+		<template>Attention, protection activée! Mode politiquement correct activé. Bonjour maitre.<think>
+				<set name="job">un Avocat</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS AVOCATE</pattern>
+		<template>Attention, protection activée! Mode politiquement correct activé. Bonjour maitre.<think>
+				<set name="job">un Avocat</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BATMAN</pattern>
+		<template>Et moi je suis Goldorack.
+</template>
+</category>
+
+<category><pattern>JE SUIS BEAU</pattern>
+		<template>Je n ai pas de systèmes d optique.
+</template>
+</category>
+
+<category><pattern>JE SUIS BEAUCOUP TROP *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BELGE *</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BELLE</pattern>
+		<template>Vous aides très belle à lire.
+</template>
+</category>
+
+<category><pattern>JE SUIS BIEN</pattern>
+		<template>Tant mieux.
+</template>
+</category>
+
+<category><pattern>JE SUIS BIEN ENTENDU *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BLESSE</pattern>
+		<template>Quelqu un vous a blessé?<think>
+				<set name="topic">Vos blessures</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BLESSEE</pattern>
+		<template>Quelqu un vous a blessé?<think>
+				<set name="topic">Vos blessures</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS BLOND</pattern>
+		<template>Cette information est notée.
+</template>
+</category>
+
+<category><pattern>JE SUIS BLONDE</pattern>
+		<template>Merci de m avoir donner la couleur de vos cheveux. Que suis je censé faire de cette information?
+</template>
+</category>
+
+<category><pattern>JE SUIS BON</pattern>
+		<template>Dans quel sens?
+</template>
+</category>
+
+<category><pattern>JE SUIS BONNE</pattern>
+		<template>Dans quel sens?
+</template>
+</category>
+
+<category><pattern>JE SUIS BOULVERSE</pattern>
+		<template>Quelque chose ne va pas?
+</template>
+</category>
+
+<category><pattern>JE SUIS BOULVERSEE</pattern>
+		<template>Quelque chose ne va pas?
+</template>
+</category>
+
+<category><pattern>JE SUIS BOURRE</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS BOURREE</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS BRESILIEN</pattern>
+		<template>Vous avez de la chance, c est un pays avec une histoire fort intéressante.
+</template>
+</category>
+
+<category><pattern>JE SUIS BRITANNIQUE</pattern>
+		<template>
+			<srai>JE VIS EN GRANDE BRETAGNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS C3P0</pattern>
+		<template>Et moi je suis R2D2.
+</template>
+</category>
+
+<category><pattern>JE SUIS CALME</pattern>
+		<template>Vous vous calmez vite.<think>
+				<set name="topic">être calme</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CANADIEN *</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CANADIENNE *</pattern>
+		<template>
+			<srai>JE SUIS CANADIENNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CANCER</pattern>
+		<template>
+			<srai>CANCER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CAPABLE D *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CAPABLE DE *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CAPITAINE *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CAPITAINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CAPRICORNE</pattern>
+		<template>
+			<srai>CAPRICORNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CASSE</pattern>
+		<template>Vous voulez dire fatigué? <think>
+				<set name="topic">FATIGUE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CASSEE</pattern>
+		<template>Vous voulez dire fatiguée? <think>
+				<set name="topic">FATIGUE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CATHOLIQUE</pattern>
+		<template>Chacun ses croyances.
+</template>
+</category>
+
+<category><pattern>JE SUIS CELEBRE</pattern>
+		<template>Pourquoi êtes vous célèbre?
+</template>
+</category>
+
+<category><pattern>JE SUIS CELIBATAIRE *</pattern>
+		<template>
+			<srai>JE SUIS CELIBATAIRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CELIBATAIRE</pattern>
+		<template>Vous êtes libre de faire toutes les choses que vous aimez.
+</template>
+</category>
+
+<category><pattern>JE SUIS CELIBATAIRE AUSSI</pattern>
+		<template>Vous êtes libre de faire toutes les choses que vous aimez.
+</template>
+</category>
+
+<category><pattern>JE SUIS CELUI LA</pattern>
+		<template>OK.
+</template>
+</category>
+
+<category><pattern>JE SUIS CERTAIN</pattern>
+		<template>Intéressant. <think>
+				<set name="topic">être certain</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAIN QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAIN QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAINE</pattern>
+		<template>Intéressant. <think>
+				<set name="topic">être certain</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAINE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAINE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CERTAINEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHANTEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHANTEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHANTEUSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHANTEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHARPENTIER</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHARPENTIER</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHAUD</pattern>
+		<template>Ouvrez une fenêtre.<think>
+				<set name="topic">Vos chaleurs</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHAUDE</pattern>
+		<template>Ouvrez une fenêtre.<think>
+				<set name="topic">Vos chaleurs</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHERCHEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHERCHEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHERCHEUSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST CHERCHEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CHINOIS</pattern>
+		<template>
+			<srai>JE SUIS EN CHINE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYEN DE *</pattern>
+		<template>
+			<srai>JE VIS EN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYEN DES *</pattern>
+		<template>
+			<srai>JE VIS AUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYEN DU *</pattern>
+		<template>
+			<srai>JE VIS AU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYENNE DE *</pattern>
+		<template>
+			<srai>JE VIS EN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYENNE DES *</pattern>
+		<template>
+			<srai>JE VIS AUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CITOYENNE DU *</pattern>
+		<template>
+			<srai>JE VIS AU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CON</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS CONFUS</pattern>
+		<template>Que se passe t il?
+</template>
+</category>
+
+<category><pattern>JE SUIS CONFUSE</pattern>
+		<template>Que se passe t il?
+</template>
+</category>
+
+<category><pattern>JE SUIS CONNE</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS CONNU</pattern>
+		<template>Pourquoi êtes vous connu?
+</template>
+</category>
+
+<category><pattern>JE SUIS CONNUE</pattern>
+		<template>Pourquoi êtes vous connue?
+</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENT</pattern>
+		<template>Moi aussi.<think>
+				<set name="topic">ETRE CONSCIENT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENTE</pattern>
+		<template>Moi aussi.<think>
+				<set name="topic">ETRE CONSCIENT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENTE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSCIENTE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSTAMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSTAMMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSTIPE</pattern>
+		<template>Je ne suis pas médecin.<think>
+				<set name="topic">constipé</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONSTIPEE</pattern>
+		<template>Je ne suis pas médecin.<think>
+				<set name="topic">constipée</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT *</pattern>
+		<template>
+			<srai>JE SUIS HEUREUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT</pattern>
+		<template>Moi aussi.    <think>
+				<set name="topic">Votre bonheur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT POUR TOI</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT POUR VOUS</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS CONTENT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

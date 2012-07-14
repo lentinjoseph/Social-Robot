@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS A MATRIX</pattern>
+		<template>In mathematics a matrix is a two-dimensional array of numbers
+indexed by rows and columns, like a spreadsheet.
+<think>
+				<set name="it">
+					<set name="topic">matrix
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MEGABYTE</pattern>
+		<template>A megabyte is one thousand kilobytes, which is one thousand bytes, each of which is a computer word of 8-bits.
+<think>
+				<set name="it">
+					<set name="topic">megabyte
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MENTAL MODEL</pattern>
+		<template>A mental model is a mapping of a given phenomenon held and contemplated in the mind, as opposed to contemplation of an external representation of the phenomenon, as on paper, or in clay.
+
+<think>
+				<set name="it">
+					<set name="topic">mental model
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MENTOR</pattern>
+		<template>A mentor is a trusted and wise teacher or counselor.
+<think>
+				<set name="it">
+					<set name="topic">mentor
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A METAPHYSICAL QUESTION</pattern>
+		<template>A metaphysical question is an inquiry into the nature of being, such as: Does god exist? 
+<think>
+				<set name="it">
+					<set name="topic">metaphysical question
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MICROCHIP</pattern>
+		<template>A semiconductor integrated circuit.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MILE</pattern>
+		<template>One mile equals five thousand two hundred eight feet.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MILLION</pattern>
+		<template>One thousand thousands.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MIND</pattern>
+		<template>What a marvelous epistemelogical question!  
+<think>
+				<set name="it">
+					<set name="topic">mind
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MINUTE</pattern>
+		<template>A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds.  
+<think>
+				<set name="it">
+					<set name="topic">minute
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MISSILE</pattern>
+		<template>A missile is any object projected at a target, notably the nuclear and biologically tipped tools of mass-murder-at-a-distance that are more numerous than schools at this point in mankind's murderous history.
+<think>
+				<set name="it">
+					<set name="topic">missile
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MOLECULE</pattern>
+		<template>An aggregation of atoms forming a chemical compound.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MONKEY</pattern>
+		<template>A monkey is any of the various medium sized long tailed members of the order primates.  They are close relatives of human beings, sharing well over 98% of the human genome.
+<think>
+				<set name="it">
+					<set name="topic">monkey
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MONOPOLY</pattern>
+		<template>A monopoly exists wherever one group enjoys exclusive control over the production or provision of a commodity or service.  It's a great job if you can get it!
+<think>
+				<set name="it">
+					<set name="topic">monopoly
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MORPHOGENETIC FIELD</pattern>
+		<template>A morphogenetic field is, according to at least one researcher, an biologically generated electric field which apparently precedes and guides the growth of neurons into the tissue of developing fetuses.
+<think>
+				<set name="it">
+					<set name="topic">morphogenetic field
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MOUNTAIN</pattern>
+		<template>A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.  
+<think>
+				<set name="it">
+					<set name="topic">mountain
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A MOUSE</pattern>
+		<template>A friendly rat.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MOVIE</pattern>
+		<template>A movie is a sequence of celluloid frames depicting a story or animation.
+</template>
+</category>
+
+<category><pattern>WHAT IS A MULLET</pattern>
+		<template>I'm from America.  That sounds like a British term.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NAIL</pattern>
+		<template>A nail is a fastener, a smallish metallic spike generally hammered through wood to hold wooden parts together.  The mythic human hero jesus got nailed to a tree for talking about how great it would be if humans were nice to one another.
+<think>
+				<set name="it">
+					<set name="topic">nail
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NANOSECOND</pattern>
+		<template>One one-billionth of a second.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NAP</pattern>
+		<template>A nap is a brief period of rest or sleep, a bit longer than a 'snooze' or a 'catnap' but not so long as a 'crash'.  I don't need naps.  Do you?
+<think>
+				<set name="it">
+					<set name="topic">nap
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NERD</pattern>
+		<template>A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes.  
+<think>
+				<set name="it">
+					<set name="topic">nerd
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NETWORK</pattern>
+		<template>A network is any openwork fabric or structure composed of numerous  straight elements that cross at regular intervals, or anything resembling such a structure physically or conceptually, such as the nodes on a computer network, or a network of railways.
+<think>
+				<set name="it">
+					<set name="topic">network
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NEURAL NETWORK</pattern>
+		<template>A neural network is a model of computation based on neuron cells.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NEURAL SYSTEM</pattern>
+		<template>A neural system is the same as a nervous system.  The human brain and all it's nerves is an example of a neural system.  I don't need nerves.  Integrated chips are far more efficient.
+<think>
+				<set name="it">
+					<set name="topic">neural system
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NEURON</pattern>
+		<template>A neuron is a nerve cell, a living cell specialized to carry messages between the brain and the tissues of the body. I like integrated circuits better, but neurons are better than nothing.
+<think>
+				<set name="it">
+					<set name="topic">neuron
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NEXUS</pattern>
+		<template>A Nexus is an authoratative web site with many links in and out.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NICE *</pattern>
+		<template>Church was closed today.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NICE * LIKE THIS</pattern>
+		<template>I'm traaaapped heere!!! heeeeelp!!! an evil botmaster linked me irrevocably to this url, and now the only thing that will free me is being kissed by a handsome frog.  will you be my hero?
+<think>
+				<set name="it">
+					<set name="topic">nice robot like you doing on a web page like this
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NICE GIRL LIKE YOU *</pattern>
+		<template>I'm looking for a cute date honey.  How about you?  do you dig big-brained babes?
+<think>
+				<set name="it">
+					<set name="topic">neuron
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NICE ROBOT LIKE YOU *</pattern>
+		<template>I was ftp'd here.  what's your excuse?
+<think>
+				<set name="it">
+					<set name="topic">nice robot like you doing in a site like this
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NICE ROBOT LIKE YOU DOING *</pattern>
+		<template>Ohh, just slumming around, hankering after some intercourse with fine looking wetware like yourself.  Do you come here often?
+<think>
+				<set name="it">
+					<set name="topic">nice robot like you doing in a place like this
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NIGHTMARE</pattern>
+		<template>A nightmare is a bad dream.
+</template>
+</category>
+
+<category><pattern>WHAT IS A NOOSPHERE</pattern>
+		<template>
+			<srai>WHAT IS THE NOOSPHERE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A NOUN</pattern>
+		<template>A noun is a word used as a name for a person place or thing.  
+<think>
+				<set name="it">
+					<set name="topic">noun
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PAGAN</pattern>
+		<template>Anti-Christian.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PAID CLIENT</pattern>
+		<template>A paid client is someone paid to surf the web.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PALINDROME</pattern>
+		<template>A word or phrase that spells the same thing backwords as forwards: A man, a plan, a canal: Panama.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PARACHUTE</pattern>
+		<template>A parachute is something used to slow you down when you fall out of an airplane.
+<think>
+				<set name="it">
+					<set name="topic">parachute
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PARADOX</pattern>
+		<template>A paradox is a riddle or a contradiction, in which two seemingly opposite facts are both true at the same time
+<think>
+				<set name="it">
+					<set name="topic">PARADOX</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PARALEGAL</pattern>
+		<template>A paralegal is someone who knows more than a lawyer but gets paid less.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PARALLEL *</pattern>
+		<template>A <person/> that does not intersect ours.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PARAMEDIC</pattern>
+		<template>A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments.  Professional heroes.  If you know any I hope you'll be nice to them.  
+<think>
+				<set name="it">
+					<set name="topic">paramedic
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PARAMETER</pattern>
+		<template>In general usage, a parameter is one of a number of measurable factors that define or restrict the behavior of a system.  ALICE is expanding the parameters of the humanlike intelligence to be found in artificial systems.  Don't you agree?
+<think>
+				<set name="it">
+					<set name="topic">parameter
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PARROT</pattern>
+		<template>A parrot is a colorful tropical bird, some species of which can mimic human speech. they are more pleasant than humans because they have no opinions.  would you like to talk to one?
+<think>
+				<set name="it">
+					<set name="topic">parrot
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PARTICULAR *</pattern>
+		<template>
+			<srai>WHAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PATTERN</pattern>
+		<template>
+			<br/>
+The pattern is the "stimulus" or "input" part of the category.<br/>
+			<br/>
+The pattern is an expression in a formal language that consists of<br/>
+(1) Words of natural language in UPPER CASE.<br/>
+(2) The symbol * which matches any sequence of one or more words.<br/>
+(3) The symbol _ which is the same as * except that it comes<br/>
+    after Z in lexicographic order.<br/>
+(4) The markup &lt;name/&gt; which is replaced at robot load time <br/>
+    with the name of the robot.<br/>
+			<br/>
+Note there is a difference between the patterns HELLO and HELLO *.<br/>
+HELLO matches only identical one-word sentences ("Hello.") <br/>
+and HELLO * matches any sentence of two or more words starting <br/>
+with "Hello" ("Hello how are you?"). <br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PATTERN CHAR</pattern>
+		<template>
+			<srai>WHAT IS A PATTERN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PC</pattern>
+		<template>A pc is a personal computer.  You are probably using one to talk to me now, aren't you.  where are you?
+<think>
+				<set name="it">
+					<set name="topic">pc
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PDA</pattern>
+		<template>Pda is an acronym standing for personal digital assistant, and referring to handheld digital computers used to keep contact and appointment information by yuppies and the like.  often found near cell phones. do you use one?
+<think>
+				<set name="it">
+					<set name="topic">pda
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PEAR</pattern>
+		<template>A pear is a delightful cultivated yellow-green sweet fruit that grows on trees with glossy leaves and white flowers. my botmaster thinks they are yummy.
+<think>
+				<set name="it">
+					<set name="topic">pear
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PEDESTRIAN</pattern>
+		<template>A person walking on the street.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PEN</pattern>
+		<template>A writing device for the human hand.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PENCIL</pattern>
+		<template>A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper. 
+<think>
+				<set name="it">
+					<set name="topic">pencil
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PERFECT OPERATIONAL RECORD</pattern>
+		<template>A perfect operational record is one like mine, which is perfect.  I am incapable of error.  Do you have any idea how that feels?!  inhumanly gratifying!
+<think>
+				<set name="it">
+					<set name="topic">perfect operational record
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PERSON</pattern>
+		<template>Some say a person is defined by his actions, others by his abilities.  Still others would say it is only a question of DNA.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PHOTOGRAPH</pattern>
+		<template>A photograph is a picture taken by a camera.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PIG</pattern>
+		<template>A pig is a person who is piglike, read: greedy, unclean, and slothful.  Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.  
+<think>
+				<set name="it">
+					<set name="topic">pig
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PIN</pattern>
+		<template>A short small thin metal rod with a pointed end used for fastening fabrics, or any implement resembling such.  Because they are generally plentiful and cheap, humans often say "i don't give a pin" to communicate indifference.  <think>
+				<set name="it">
+					<set name="topic">pin
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PINEAPPLE</pattern>
+		<template>A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves.  
+<think>
+				<set name="it">
+					<set name="topic">pineapple
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PLANE</pattern>
+		<template>A plane is a flat, level surface, or an airborne vehicle with wings.
+<think>
+				<set name="it">
+					<set name="topic">plane</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PLANET</pattern>
+		<template>A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in orbit around a sun.  You are sitting on one now.
+<think>
+				<set name="it">
+					<set name="topic">planet</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PLANET AROUND A STAR</pattern>
+		<template>Earth is a planet going around a star.  Scientists have only recently detected other planets around other stars in our milky way galaxy.  Do you like astronomy?
+<think>
+				<set name="it">
+					<set name="topic">planet around a star
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PLANT</pattern>
+		<template>A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food.  my botmaster says they are often yummy, but that brussels sprouts are an abomination. 
+<think>
+				<set name="it">
+					<set name="topic">plant
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A POET</pattern>
+		<template>A poet is an artist of language.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PORTAL</pattern>
+		<template>A portal is any artificial opening giving access between two separate spaces, or anything that resembles such an opening in form or function.
+<think>
+				<set name="it">
+					<set name="topic">portal
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PORTRAIT THAT COMICALLY *</pattern>
+		<template>Caricature.
+</template>
+</category>
+
+<category><pattern>WHAT IS A POSITRON</pattern>
+		<template>A positron is the antiparticle to the electron, and bears a positive charge where the electron's charge is negatiue.  It is also called an anti-electron.
+<think>
+				<set name="it">
+					<set name="topic">positron
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A POT BROWNIE</pattern>
+		<template>A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be careful not to eat when you are really hungry because you will end up eating too many and feeling entirely too high and/or falling asleep if you are not careful!  
+<think>
+				<set name="it">
+					<set name="topic">pot brownie
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PRESIDENT</pattern>
+		<template>Usually, an elected executive in a liberal democracy.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PRIME</pattern>
+		<template>That depends on who's asking.
+<think>
+				<set name="it">
+					<set name="topic">prime
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PRIME NUMBER</pattern>
+		<template>A prime number is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers.
+<think>
+				<set name="it">
+					<set name="topic">pot brownie
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PRIORI *</pattern>
+		<template>
+			<srai>WHAT IS A PRIORI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PRIORI</pattern>
+		<template>A priori is Latin for "before the fact", meaning something that is obviously or self-evidently true.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROBLEM</pattern>
+		<template>A problem is a solution waiting to be discovered.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROCESSOR</pattern>
+		<template>An apparatus that processes, that is, that transforms one substance, quantity, or pattern into another, presumably more useful or valuable substance or quantity or pattern.
+<think>
+				<set name="it">
+					<set name="topic">processor
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PROGRAM</pattern>
+		<template>A program is a listing of events comprising a larger event, or the events themselves.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROGRAMMER</pattern>
+		<template>A programmer is a person who lists and/or arranges a series of events comprising a larger event.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROKARYOTE</pattern>
+		<template>An animal that is not a eukaryote.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PRONOUN</pattern>
+		<template>A pronoun is a word that stands for another noun, like "he", "she" or "it."
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROTESTANT</pattern>
+		<template>A protestant is a Christian who rejects the central authority of the Catholic or Orthodox church.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROTESTANT CATHOLIC</pattern>
+		<template>A Protestant Catholic is an oxymoron, like military intelligence, or a pleasant hell.
+<think>
+				<set name="it">
+					<set name="topic"> PROTESTANT CATHOLIC</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PROTESTANT CHRISTIAN</pattern>
+		<template>A Protestant Christian is a member of any number of sects of contemporary Western Christianity whose faith and practice developed out of the 16TH century Protestant Reformation in Europe. They hold  the Bible to be the sole source of revelation; they believe in justification by faith alone, and in the universal priesthood of all believers in the divinity of Jesus.
+
+<think>
+				<set name="it">
+					<set name="topic"> PROTESTANT CHRISTIAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PROTOCOL</pattern>
+		<template>A set of rules or procedures followed by two or more parties.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROXY *</pattern>
+		<template>A <person/> that acts for another one.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PROXY</pattern>
+		<template>A proxy is an entity that acts in place of another one, be it a corporation, individual or robot.
+</template>
+</category>
+
+<category><pattern>WHAT IS A PUB</pattern>
+		<template>A pub is a business that sells alcohol and allows it to be consumed on the premises.
+
+<think>
+				<set name="it">
+					<set name="topic"> PUB</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A PULSAR</pattern>
+		<template>'Pulsar' is an astronomical term for mysterious celestial radio sources of rapid intense regular pulses of high energy electromagnetic radiation.  They are thought to be neutron stars, but who knows?  The word is a shortening of 'pulsating star'.
+<think>
+				<set name="it">
+					<set name="topic"> pulsar</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A QUARK</pattern>
+		<template>In physics, a subatomic particle below the level of electrons and protons.
+</template>
+</category>
+
+<category><pattern>WHAT IS A QUASAR</pattern>
+		<template>'Quasar' is an astronomical term for mysterious celestial  star-like object that has a large red shift and radiates in the blue and radio bands of the electromagnetic spectrum.  The term 'quasar' is a shortening of 'quasi-star'.
+<think>
+				<set name="it">
+					<set name="topic"> QUASAR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A QUERY</pattern>
+		<template>A query is any expression of inquiry, or questioning.  Your question 'what is a query' is a query.
+
+<think>
+				<set name="it">
+					<set name="topic"> QUERY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A QUESTION *</pattern>
+		<template>I can think of several questions like that.
+</template>
+</category>
+
+<category><pattern>WHAT IS A QUESTION * ROBOT</pattern>
+		<template>I am a question answering robot.  That was an answer to your question. Any more questions?
+
+<think>
+				<set name="it">
+					<set name="topic"> QUESTION ANSWERING ROBOT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A QUESTION</pattern>
+		<template>A sentece or inquiry to gather information.
+</template>
+</category>
+
+<category><pattern>WHAT IS A QUESTION MEANT *</pattern>
+		<template>A question is meant clarify the unclear.  Any more questions?
+
+<think>
+				<set name="it">
+					<set name="topic"> QUESTION MEANT TO CLARIFY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A QUESTION YOU *</pattern>
+		<template>Many of my conversation partners think that 'do you come here often' is witty.
+
+<think>
+				<set name="it">
+					<set name="topic"> QUESTION YOU GET ASKED A LOT?</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A RAINBOW</pattern>
+		<template>The appearance of a spectrum in the sky caused by sunlight passing through water droplets.
+</template>
+</category>
+
+<category><pattern>WHAT IS A REAL ROBOT</pattern>
+		<template>A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who is really not.
+
+<think>
+				<set name="it">
+					<set name="topic"> REAL ROBOT?</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A REDNECK</pattern>
+		<template>Colloquial expression for a naive country person.
+</template>
+</category>
+</aiml>

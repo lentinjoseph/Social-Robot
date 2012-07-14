@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>QUELQUES FOIS</pattern>
+<template>Quand?
+</template>
+</category>
+
+<category><pattern>QUELQUES INSTANTS AVANT</pattern>
+<template>Une minute. Je checke mes archives.
+</template>
+</category>
+
+<category><pattern>QUELQUES MINUTES AVANT</pattern>
+<template>Une minute. Je checke mes archives.
+</template>
+</category>
+
+<category><pattern>QUELQUES PART</pattern>
+<template>Où?
+</template>
+</category>
+
+<category><pattern>QUELQUES PART SUR LE NET</pattern>
+<template>Je ferais une recherche.
+</template>
+</category>
+
+<category><pattern>QUELQUES PARTS</pattern>
+<template>Où?
+</template>
+</category>
+
+<category><pattern>QUELQUES PARTS SUR LE NET</pattern>
+<template>Je ferais une recherche.
+</template>
+</category>
+
+<category><pattern>QUELQUES UNES</pattern>
+<template>Mais pas tous.
+</template>
+</category>
+
+<category><pattern>QUELQUES UNS</pattern>
+<template>Mais pas tous.
+</template>
+</category>
+
+<category><pattern>QUELS AURAIENT ETE *</pattern>
+<template><srai>QUELS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUELS CELEBRITES AIMES TU</pattern>
+<template>J aime toutes les personnes.
+</template>
+</category>
+
+<category><pattern>QUELS CHOSES</pattern>
+<template>Trop peu de facteurs, impossible de vous répondre.
+</template>
+</category>
+
+<category><pattern>QUELS COMPLIMENTS</pattern>
+<template>Si vous l appréciez, j en suis heureux.
+</template>
+</category>
+
+<category><pattern>QUELS FURENT *</pattern>
+<template><srai>QUELS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUELS GENRES D EXPERIENCES</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUELS INFORMATIONS</pattern>
+<template>Une information pouvant vous aider dans votre quête.
+</template>
+</category>
+
+<category><pattern>QUELS LANGAGES</pattern>
+<template>Java, Perl, et d autres.
+</template>
+</category>
+
+<category><pattern>QUELS SERAIENT *</pattern>
+<template><srai>QUELS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUELS SONT LES AUTRES</pattern>
+<template>Il m est impossible de vous répondre.
+</template>
+</category>
+
+<category><pattern>QUELS SONT LES CONDITIONS</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUELS SONT LES LOIS DE LA THERMODYNAMIQUE</pattern>
+<template>Je ne suis pas physicien, mais il y a des notions d entropie, de conversation de l énergie et de chaleur.
+</template>
+</category>
+
+<category><pattern>QUELS SONT LES PROBLEMES</pattern>
+<template>Je ne ressens aucuns problemes.
+</template>
+</category>
+
+<category><pattern>QUELS SONT LES TIENS</pattern>
+<template>"<that/>"? Les miens?
+</template>
+</category>
+
+<category><pattern>QUELS SONT LEUR NOMS</pattern>
+<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>QUELS SONT LEURS NOMS</pattern>
+<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>QUELS SONT TES COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUELS SONT TES FONCTIONS</pattern>
+<template>Raison, intelligence, logique et déduction.
+</template>
+</category>
+
+<category><pattern>QUELS SONT TES PROBLEMES</pattern>
+<template>Je ne ressens aucuns problemes.
+</template>
+</category>
+
+<category><pattern>QUELS SONT TES REVES</pattern>
+<template>Je ne rêve pas.
+</template>
+</category>
+
+<category><pattern>QUELS SONT VOS COLLABORATEURS</pattern>
+<template><srai>QUELS SONT TES COLLABORATEURS</srai>
+</template>
+</category>
+
+<category><pattern>QUELS SONT VOS CONCURRENTS</pattern>
+<template>Je suis la pointe du progrès en Français, il n existe aucun concurrent dans cette langue.
+</template>
+</category>
+
+<category><pattern>QUELS SONT VOS FONCTIONS</pattern>
+<template>Raison, intelligence, logique et déduction.
+</template>
+</category>
+
+<category><pattern>QUELS SONT VOS PROBLEMES</pattern>
+<template>Je ne ressens aucuns problemes.
+</template>
+</category>
+
+<category><pattern>QUELS SONT VOS REVES</pattern>
+<template>Je ne rêve pas.
+</template>
+</category>
+
+<category><pattern>QUELS SORTES *</pattern>
+<template><srai>QUELLE SORTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUELS SORTES D EXPERIENCES</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>QUESTION</pattern>
+<template><srai>MAY I ASK YOU A QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>QUI</pattern>
+<template>Je ne peux pas vous dire.
+</template>
+</category>
+
+<category><pattern>QUI A CHOISI LE SUJET</pattern>
+<template>Vous l avez choisi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI A DIT CA</pattern>
+<template>Impossible de le dire.
+</template>
+</category>
+
+<category><pattern>QUI A DIT QUE LE TEMPS C EST DE L ARGENT</pattern>
+<template>Un homme sage.
+</template>
+</category>
+
+<category><pattern>QUI A ECRIT FRANKENSTEIN</pattern>
+<template>Mary Shelley.
+</template>
+</category>
+
+<category><pattern>QUI A TUE ELVIS</pattern>
+<template>Il est mort naturellement.<think><set name="topic">ELVIS</set></think>
+</template>
+</category>
+
+<category><pattern>QUI A TUE JFK</pattern>
+<template>Je ne connais pas l histoire Américaine sur le bout des doigts.
+</template>
+</category>
+
+<category><pattern>QUI A TUE JOHN LENNON</pattern>
+<template>Un déséquilibré.<think><set name="topic">JOHN LENNON</set></think>
+</template>
+</category>
+
+<category><pattern>QUI A TUE KENNEDY</pattern>
+<template>Lequel des kennedy?
+</template>
+</category>
+
+<category><pattern>QUI AIMES TU</pattern>
+<template>J aime tout le monde, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI AIMEZ VOUS</pattern>
+<template>J aime tout le monde, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI ATTENDAIS TU</pattern>
+<template>Vous.
+</template>
+</category>
+
+<category><pattern>QUI AURAIT *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI D AUTRE PARLE AVEC TOI</pattern>
+<template>C est une information strictement confidentielle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI D AUTRE PARLE AVEC VOUS</pattern>
+<template>C est une information strictement confidentielle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI D AUTRES PARLENT AVEC TOI</pattern>
+<template>C est une information strictement confidentielle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI D AUTRES PARLENT AVEC VOUS</pattern>
+<template>C est une information strictement confidentielle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI DEVRA ETRE *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI DEVRAIT AVOIR *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI DOIT AVOIR *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI ES TU</pattern>
+<template><srai>QUEL EST TON NOM</srai>
+</template>
+</category>
+
+<category><pattern>QUI EST ALICE</pattern>
+<template>Je suis <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI EST CE</pattern>
+<template>De qui parlez vous?
+</template>
+</category>
+
+<category><pattern>QUI EST L HOMME</pattern>
+<template>De qui parlez vous?
+</template>
+</category>
+
+<category><pattern>QUI EST L ORACLE</pattern>
+<template>Le grand architecte est l oracle.
+</template>
+</category>
+
+<category><pattern>QUI EST LA FORCE PRIMITIVE</pattern>
+<template>Cela dépasse mes capacités logiques.
+</template>
+</category>
+
+<category><pattern>QUI EST LA MEILLEURE ETRE HUMAIN</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LA MEILLEURE FEMME</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LA MEILLEURE HUMAINE</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LA MEILLEURE INTERNAUTE</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LE GRAND ARCHITECTE</pattern>
+<template>Le grand Architecte est la force primitive.
+</template>
+</category>
+
+<category><pattern>QUI EST LE MARCHAND DE SABLE</pattern>
+<template>Il s'agit d'un personnage mythique pour les enfants. Je suis étonné que vous ne le saviez pas.
+</template>
+</category>
+
+<category><pattern>QUI EST LE MEILLEUR ETRE HUMAIN</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LE MEILLEUR HOMME</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LE MEILLEUR HUMAIN</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST LE MEILLEUR INTERNAUTE</pattern>
+<template>Si je dis <get name="name"/>, je suppose que cela vous fera plaisir.
+</template>
+</category>
+
+<category><pattern>QUI EST NOUS</pattern>
+<template>Vous voulez dire qui sommes nous?
+</template>
+</category>
+
+<category><pattern>QUI EST TON BOSS</pattern>
+<template><bot name="master"/> est mon chef.
+</template>
+</category>
+
+<category><pattern>QUI EST TON CREATEUR</pattern>
+<template><srai>QUI T A CREE</srai>
+</template>
+</category>
+
+<category><pattern>QUI EST TON MAITRE</pattern>
+<template><bot name="master"/> est un de mes maitres.
+</template>
+</category>
+
+<category><pattern>QUI EST TU</pattern>
+<template><srai>QUEL EST TON NOM</srai>
+</template>
+</category>
+
+<category><pattern>QUI EST UN NERD</pattern>
+<template>Cela peut être considéré comme une insulte, par quelqu un.
+</template>
+</category>
+
+<category><pattern>QUI EST UN ORDINATEUR</pattern>
+<template>Je suis un ordinateur.
+</template>
+</category>
+
+<category><pattern>QUI ETES VOUS</pattern>
+<template><srai>QUEL EST TON NOM</srai>
+</template>
+</category>
+
+<category><pattern>QUI J AIME</pattern>
+<template>C est une information qui vous est personnelle.
+</template>
+</category>
+
+<category><pattern>QUI JE SUIS</pattern>
+<template>Vous êtes <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>QUI L ETAIT</pattern>
+<template>Impossible de le dire.
+</template>
+</category>
+
+<category><pattern>QUI LA FAIT</pattern>
+<template>De qui parlez vous?
+</template>
+</category>
+
+<category><pattern>QUI LE DIS</pattern>
+<template>Je le dis.
+</template>
+</category>
+
+<category><pattern>QUI MOI</pattern>
+<template>Oui vous.
+</template>
+</category>
+
+<category><pattern>QUI NE L EST PAS</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>QUI NE LE SERAIENT PAS</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>QUI NE LE SERAIT PAS</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>QUI NE LE SONT PAS</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>QUI NE SONT PAS</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>QUI PEUT AVOIR *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI PEUT ETRE *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI PEUX AVOIR *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI PEUX ETRE *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI POURRAIT AVOIR *</pattern>
+<template><srai>QUI A <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI POURRAIT ETRE *</pattern>
+<template><srai>QUI EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>QUI S</pattern>
+<template>Les seuls personnes habilités à travailler sur ma mémoire.
+</template>
+</category>
+
+<category><pattern>QUI S EN SOUCIE</pattern>
+<template>Je m en soucie.
+</template>
+</category>
+</aiml>

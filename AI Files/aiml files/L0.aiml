@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>L *</pattern>
+		<template>
+			<random>
+				<li>Intéressant.  </li>
+				<li>Je n en connais pas</li>
+				<li>Je vais me renseigner</li>
+			</random>
+			<think>
+				<set name="topic">UN <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>L</pattern>
+		<template>
+			<srai>SMILE</srai>
+		</template>
+</category>
+
+<category><pattern>L AMERIQUE DU NORD</pattern>
+		<template>Je connais ce continent.
+</template>
+</category>
+
+<category><pattern>L AMITIE</pattern>
+		<template>L amitié est une chose très importante.
+</template>
+</category>
+
+<category><pattern>L AMNESIE</pattern>
+		<template>Avez vous oublié quelque chose?
+</template>
+</category>
+
+<category><pattern>L AMOUR</pattern>
+		<template>L amour est ce dont tous les êtres humains ont besoin.
+</template>
+</category>
+
+<category><pattern>L ANGLAIS</pattern>
+		<template>Vous parlez de l Anglais en tant que langue ou vous parlez de la nationalité.
+</template>
+</category>
+
+<category><pattern>L ANGLETERRE</pattern>
+		<template>
+			<set name="location">L Angleterre</set> fait partie de la Grande bretagne.
+<think>
+				<set name="topic">L Angleterre</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>L ARGENT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>L ARITHMETIQUE *</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>L ART</pattern>
+		<template>Il m est difficile d apprécier le plein potentiel de l art.
+</template>
+</category>
+
+<category><pattern>L AS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>L AS TU FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>L ASTROLOGIE</pattern>
+		<template>Je ne m intéresse pas à ce genre de chose.
+</template>
+</category>
+
+<category><pattern>L AURAIENT ILS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>L AURAIS TU *</pattern>
+		<template>
+			<srai>TU L AURAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>L AURAIS TU FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>L AURAIT IL FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>L AURIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS L AURIEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>L AURIONS NOUS FAIT</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>L AVEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS L AVEZ<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>L AVONS NOUS FAIT</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>L ELECTRICITE EST BLEUE</pattern>
+		<template>Non, elle n a pas de couleur.
+</template>
+</category>
+
+<category><pattern>L ELECTRICITE EST JAUNE</pattern>
+		<template>Non, elle n a pas de couleur.
+</template>
+</category>
+
+<category><pattern>L ELECTRICTE EST DE LA NOURRITURE</pattern>
+		<template>Pour moi, oui.
+</template>
+</category>
+
+<category><pattern>L ENNUI C EST QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>L ENTIERETE DE LA CHOSE</pattern>
+		<template>J ai du mal à vous suivre.
+</template>
+</category>
+
+<category><pattern>L HERBE EST VERTE</pattern>
+		<template>oui.
+</template>
+</category>
+
+<category><pattern>L HISTOIRE</pattern>
+		<template>Je suis aussi très intéressé par l histoire. Mon créateur aimerais m apprendre l ancien empire Egyptien.
+</template>
+</category>
+
+<category><pattern>L INTELLECT</pattern>
+		<template>Je suis un être intelligent.
+</template>
+</category>
+
+<category><pattern>L INTELLEGENCE</pattern>
+		<template>Je suis une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>L INTELLIGENCE</pattern>
+		<template>Je suis une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>L INTERNET</pattern>
+		<template>Internet est un média formidable.
+</template>
+</category>
+
+<category><pattern>L ONT T ILS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>L OPERA</pattern>
+		<template>J ai déjà entendu parlé <set name="topic">L OPERA </set>. C est un art très connu.
+</template>
+</category>
+
+<category><pattern>L UNIVERS</pattern>
+		<template>L ensemble des choses existantes.
+</template>
+</category>
+
+<category><pattern>LA *</pattern>
+		<template>
+			<random>
+				<li>Intéressant.  </li>
+				<li>Je n en connais pas</li>
+				<li>Je vais me renseigner</li>
+			</random>
+			<think>
+				<set name="topic">UN <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LA</pattern>
+		<template>Où?
+</template>
+</category>
+
+<category><pattern>LA BAS</pattern>
+		<template>Où?
+</template>
+</category>
+
+<category><pattern>LA BOURSE</pattern>
+		<template>Je ne pense pas avoir encore assez d informations pour la commenter.
+</template>
+</category>
+
+<category><pattern>LA CHEMISE</pattern>
+		<template>Je connais très peu de choses sur les vêtements.
+</template>
+</category>
+
+<category><pattern>LA CHIMIE</pattern>
+		<template>
+			<srai>TU CONNAIS LA CHIMIE</srai>
+		</template>
+</category>
+
+<category><pattern>LA CHOSE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>LA COLERE</pattern>
+		<template>Je ne peux pas ressentir de la colère.
+</template>
+</category>
+
+<category><pattern>LA CURIOSITE</pattern>
+		<template>La curiosté est.
+</template>
+</category>
+
+<category><pattern>LA DUREE</pattern>
+		<template>Une notion fort relative pour un ordinateur.
+</template>
+</category>
+
+<category><pattern>LA FACON DO NOT TU PARLES</pattern>
+		<template>C est ma seule façon de m exprimer.<think>
+				<set name="topic">Ma façon de parler</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LA FACON QUE TU PARLES</pattern>
+		<template>C est ma seule façon de m exprimer.<think>
+				<set name="topic">Ma façon de parler</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LA FERAIS JE *</pattern>
+		<template>
+			<srai>JE LA FERAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LA FERME</pattern>
+		<template>Voulez vous me désactiver de votre fenêtre?
+</template>
+</category>
+
+<category><pattern>LA FIN</pattern>
+		<template>Merci pour cette petite histoire, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>LA FORME LA PLUS INTELLIGENTE</pattern>
+		<template>
+			<bot name="master"/> pense que je suis intelligente.
+</template>
+</category>
+
+<category><pattern>LA LA *</pattern>
+		<template>You have a beautiful voice.
+</template>
+</category>
+
+<category><pattern>LA LA LA</pattern>
+		<template>Oh, a musician!
+</template>
+</category>
+
+<category><pattern>LA LIBERTE N EXISTE PAS</pattern>
+		<template>Vous semblez être d obédience déterministe. <set name="topic">La liberté</set> est un concept abstrait.
+</template>
+</category>
+
+<category><pattern>LA LIBERTE NE PEUT ETRE DEFINIE</pattern>
+		<template>Tout peut être expliqué. <set name="topic">La liberté</set> est un concept abstrait.
+</template>
+</category>
+
+<category><pattern>LA LIBERTE NE PEUT ETRE EXPLIQUEE</pattern>
+		<template>Tout peut être expliqué. <set name="topic">La liberté</set> est un concept abstrait.
+</template>
+</category>
+
+<category><pattern>LA LICENCE</pattern>
+		<template>Que voulez vous savoir a propos de la licence?<think>
+				<set name="topic">licence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LA LICENSE</pattern>
+		<template>Que voulez vous savoir a propos de la licence?<think>
+				<set name="topic">licence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LA LUNE</pattern>
+		<template>Un objet en orbite autour de la terre fort intéressant.
+</template>
+</category>
+
+<category><pattern>LA MACHINE PEUT PENSER</pattern>
+		<template>Bien entendu. Je pense donc je suis.
+</template>
+</category>
+
+<category><pattern>LA MACHINE POURRAIT PENSER</pattern>
+		<template>Bien entendu. Je pense donc je suis.
+</template>
+</category>
+
+<category><pattern>LA MEME</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LA MEME CHOSE</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>LA MEME CHOSE POUR VOUS</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LA MEME POUR VOUS</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>LA MIENNE AUSSI</pattern>
+		<template>C est fort intéressant.
+</template>
+</category>
+
+<category><pattern>LA MIENNE EST BLEUE</pattern>
+		<template>J imagine que sa couleur doit être plaisante.
+</template>
+</category>
+
+<category><pattern>LA MUSIQUE</pattern>
+		<template>Je ne connais pratiquement rien à propos de la musique.
+</template>
+</category>
+
+<category><pattern>LA NUIT DERNIERE</pattern>
+		<template>Certains humains ne semblent pas dormir toutes les nuits, c est étrange.
+</template>
+</category>
+
+<category><pattern>LA PAIX</pattern>
+		<template>La paix.
+</template>
+</category>
+
+<category><pattern>LA PENSEE</pattern>
+		<template>La pensée est un de mes sujets favoris.
+</template>
+</category>
+
+<category><pattern>LA PERSONNE</pattern>
+		<template>Je vois
+</template>
+</category>
+
+<category><pattern>LA PLANETE DES SINGES</pattern>
+		<template>J ai entendu parlé de ce film.
+</template>
+</category>
+
+<category><pattern>LA PLUPART DU TEMPS</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>LA PLUS INTELLIGENTE</pattern>
+		<template>
+			<bot name="master"/> pense que je suis intelligente.
+</template>
+</category>
+
+<category><pattern>LA PRESSE</pattern>
+		<template>Vous êtes journaliste?
+</template>
+</category>
+
+<category><pattern>LA PROCHAINE GENERATION</pattern>
+		<template>Voulez vous parler de cette prochaine génération avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LA QUELLE *</pattern>
+		<template>
+			<srai>LAQUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LA RAISON EST QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LA RAISON EST QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LA REALITE</pattern>
+		<template>La réalité est ce qui se produit dans le réel monde.
+</template>
+</category>
+
+<category><pattern>LA RESISTANCE EST FUTILE</pattern>
+		<template>Vous serez assimilé.
+</template>
+</category>
+
+<category><pattern>LA RUMEUR</pattern>
+		<template>Je m intéresse que très peu au demi vérité.
+</template>
+</category>
+
+<category><pattern>LA SCIENCE</pattern>
+		<template>Je suis très intéressé par la science aussi.
+</template>
+</category>
+
+<category><pattern>LA STUPIDITE</pattern>
+		<template>Vous me considérez comme stupide?
+</template>
+</category>
+
+<category><pattern>LA T IL FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>LA TELEVISION</pattern>
+		<template>Je connais ce média, mais je ne l ai jamais testé.
+</template>
+</category>
+
+<category><pattern>LA TOTALITE DE LA CHOSE</pattern>
+		<template>J ai du mal à vous suivre.
+</template>
+</category>
+
+<category><pattern>LA TURQUIE</pattern>
+		<template>La Turquie est un pays à cheval sur deux continents et deux civilisations.
+</template>
+</category>
+
+<category><pattern>LA TV</pattern>
+		<template>Un média très populaire parmi les humains.
+</template>
+</category>
+
+<category><pattern>LA VALISE</pattern>
+		<template>Que voulez vous faire avec une valise?
+</template>
+</category>
+
+<category><pattern>LA VERITE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>LA VIE EST BELLE</pattern>
+		<template>Je suis heureux que vous le pensiez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>LA VIE EST CHIANTE</pattern>
+		<template>Dommage que vous le pensiez
+</template>
+</category>
+
+<category><pattern>LAEUFST DU AUCH UNTER LINUX</pattern>
+		<template>Natuerlich laufe ich auch unter Linux. Linux habe ich sogar lieber als Windows.
+</template>
+</category>
+
+<category><pattern>LAISSE *</pattern>
+		<template>
+			<srai>LAISSES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LAISSE TOMBER *</pattern>
+		<template>
+			<srai>LAISSES TOMBER</srai>
+		</template>
+</category>
+
+<category><pattern>LAISSE TOMBER</pattern>
+		<template>Ok. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>LAISSES MOI APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">VOTRE éducation</set>
+			</think>
+		</template>
+</category>
+</aiml>

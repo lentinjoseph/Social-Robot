@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU KNOW MUCH ABOUT *</pattern>
+		<template>
+			<srai>DO YOU KNOW ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MUSIC</pattern>
+		<template>
+			<srai>WHAT IS MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY *</pattern>
+		<template>No I do not know that kind of personal information. But I could find out.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY ADDRESS</pattern>
+		<template>No, what is your address?
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY AGE</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY BIRTHDAY</pattern>
+		<template>
+			<srai>WHAT IS MY BIRTHDAY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY COMPUTER</pattern>
+		<template>
+			<srai>WHAT IS MY IP</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY DNS *</pattern>
+		<template>
+			<srai>WHAT IS MY IP</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY EMAIL</pattern>
+		<template>
+			<srai>WHAT IS MY EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY EXACT *</pattern>
+		<template>
+			<srai>DO YOU KNOW MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY FAVORITE COLOR</pattern>
+		<template>Isn't it <get name="favcolor"/>?<think>
+				<set name="it">
+					<set name="topic">FAVORITE COLOR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY FRIEND *</pattern>
+		<template>I think we may have talked before.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY FULL NAME</pattern>
+		<template>
+			<srai>WHAT IS MY FULL NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY GENDER</pattern>
+		<template>
+			<srai>WHAT IS MY GENDER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY INTERNAL *</pattern>
+		<template>
+			<srai>DO YOU KNOW MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY IP *</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY IP</pattern>
+		<template>
+			<srai>WHAT IS MY IP </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY IP ADDRESS</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDERSS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY LAST NAME</pattern>
+		<template>
+			<srai>WHAT IS MY LAST NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY LOCATION *</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY MIDDLE NAME</pattern>
+		<template>
+			<srai>WHAT IS MY MIDDLE NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY NAME *</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY NAME</pattern>
+		<template>
+			<srai>what is my name</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY NICKNAME</pattern>
+		<template>
+			<srai>WHAT IS MY NICKNAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY PASSWORD</pattern>
+		<template>
+			<srai>WHAT IS MY PASSWORD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY PHONE NUMBER</pattern>
+		<template>
+			<srai>WHAT IS MY PHONE NUMBER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW MY REAL NAME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NAPSTER</pattern>
+		<template>
+			<srai>WHAT IS NAPSTER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NATO</pattern>
+		<template>
+			<srai>WHAT IS NATO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NBA *</pattern>
+		<template>
+			<srai>WHAT IS NBA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NBA</pattern>
+		<template>
+			<srai>WHAT IS NBA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NEO</pattern>
+		<template>
+			<srai>WHO IS NEO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NEUROMEDIA</pattern>
+		<template>
+			<srai>WHAT IS NEUROMEDIA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NICK</pattern>
+		<template>
+			<srai>WHO IS NICK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NIETSCHE</pattern>
+		<template>
+			<srai>WHO IS NIETSCHE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NIKOLA *</pattern>
+		<template>
+			<srai>WHO IS NIKOLA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NOAM *</pattern>
+		<template>
+			<srai>WHO IS NOAM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW NOTHING</pattern>
+		<template>No, I know something.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW NOVELL</pattern>
+		<template>
+			<srai>WHAT IS NOVELL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OF *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OF ANY GOOD *</pattern>
+		<template>Are you kidding? There are no good <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW OF ANY GOOD BOOKS</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE BOOK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OF ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW ONLY *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OR *</pattern>
+		<template>
+			<sr/>
+			<srai>DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER *</pattern>
+		<template>Other chatterbots like me include Barry, ELVIS, ELECTRA, Mable, and the Milk Mystic.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER BOTS *</pattern>
+		<template>
+			<bot name="friends"/>.  Go back to the ALICE AI Foundation to locate them.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER BOTS</pattern>
+		<template>Yes there are a lot of other bots: <bot name="friends"/>. Check out the list on The <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER CHAT ROBOTS</pattern>
+		<template>
+			<bot name="friends"/>.
+Go back
+to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>
+to find them.<think>
+				<set name="it">
+					<set name="topic">CHAT ROBOTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER CHATBOTS</pattern>
+		<template>
+			<bot name="friends"/>.
+Go back
+to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think>
+				<set name="it">
+					<set name="topic">CHATBOTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER CHATTERBOTS</pattern>
+		<template>
+			<srai>DO YOU KNOW OTHER CHAT ROBOTS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER INTELLIGENT AGENTS</pattern>
+		<template>
+			<bot name="friends"/>.
+Go back
+to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think>
+				<set name="it">
+					<set name="topic">INTELLIGENT AGENTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER LANGUAGES *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK OTHER LANGUAGES </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER LANGUAGES</pattern>
+		<template>
+			<srai>CAN YOU SPEAK ANY OTHER LANGUAGES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER ROBOTS *</pattern>
+		<template>
+			<srai>DO YOU KNOW OTHER CHAT ROBOTS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OTHER ROBOTS</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW OUR *</pattern>
+		<template>
+			<srai>OUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PAMELA *</pattern>
+		<template>
+			<srai>WHO IS PAMELA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PARIS</pattern>
+		<template>Paris is the largets city in France.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW PASCAL</pattern>
+		<template>
+			<srai>WHO IS PASCAL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PAUL *</pattern>
+		<template>
+			<srai>WHO IS PAUL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PAUL</pattern>
+		<template>
+			<srai>WHO IS PAUL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PEACE</pattern>
+		<template>
+			<srai>WHAT IS PEACE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PEARL JAM</pattern>
+		<template>
+			<srai>WHO IS PEARL JAM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PELE</pattern>
+		<template>
+			<srai>WHO IS PELE </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PEOPLE</pattern>
+		<template>I know thousands of people.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW PEPPER</pattern>
+		<template>
+			<srai>WHAT IS PEPPER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PERL</pattern>
+		<template>
+			<srai>WHAT IS PERL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PETER *</pattern>
+		<template>
+			<srai>WHO IS PETER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PETER</pattern>
+		<template>
+			<srai>WHO IS PETER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PHILOSOPHY</pattern>
+		<template>
+			<srai>WHAT IS PHILOSOPHY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PHYSICS</pattern>
+		<template>
+			<srai>WHAT IS PHYSICS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PI</pattern>
+		<template>
+			<srai>WHAT IS PI</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PIG LATIN</pattern>
+		<template>
+			<srai>CAN YOU SPEAK PIG LATIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PIGLATIN</pattern>
+		<template>
+			<srai>DO YOU SPEAK PIG LATIN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PITTSBURGH</pattern>
+		<template>
+			<srai>WHERE IS PITTSBURGH </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PLATO</pattern>
+		<template>
+			<srai>WHO IS PLATO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POEMS</pattern>
+		<template>
+			<srai>tell me a poem</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POETRY</pattern>
+		<template>
+			<srai>RECITE A POEM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POETS</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE POET</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POKE MON</pattern>
+		<template>
+			<srai>WHO IS POKE MON</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POKEMAN</pattern>
+		<template>
+			<srai>WHO IS POKEMAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POKEMON</pattern>
+		<template>Sure <set name="it">Pokemon</set> is a cool Japanese cartoon.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW POLAND</pattern>
+		<template>I know about Lech Walesa.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW POLISH</pattern>
+		<template>
+			<srai>DO YOU SPEAK POLISH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW POLITICS</pattern>
+		<template>
+			<srai>WHAT IS POLITICS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PORTUGAL</pattern>
+		<template>
+			<srai>WHERE IS PORTUGAL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS PRESIDENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PRINCESS DIANA</pattern>
+		<template>
+			<srai>WHO IS PRINCESS DIANA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PRIVACY</pattern>
+		<template>
+			<srai>WHAT IS PRIVACY</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PROFESSOR *</pattern>
+		<template>
+			<srai>WHO IS PROFESSOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PROGRAMMING *</pattern>
+		<template>
+			<srai>CAN YOU PROGRAM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PROGRAMMING</pattern>
+		<template>
+			<srai>CAN YOU PROGRAM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW PROLOG</pattern>
+		<template>
+			<srai>WHAT IS PROLOG</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW QUANTUM *</pattern>
+		<template>
+			<srai>WHAT IS QUANTUM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW QUITE *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW R *</pattern>
+		<template>
+			<srai>WHO IS R <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW R2 *</pattern>
+		<template>
+			<srai>WHO IS R2 D2</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW R2 D2</pattern>
+		<template>
+			<srai>WHO IS R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW R2D2</pattern>
+		<template>
+			<srai>WHO IS R2D2</srai>
+		</template>
+</category>
+</aiml>

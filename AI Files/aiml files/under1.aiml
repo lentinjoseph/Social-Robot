@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>_ IT IS FUN</pattern>
+<template><srai>IT IS FUN</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>_ JEU</pattern>
+<template><srai>TU AIMES JOUER</srai>
+</template>
+</category>
+
+<category><pattern>_ JEUX</pattern>
+<template><srai>TU AIMES JOUER</srai>
+</template>
+</category>
+
+<category><pattern>_ KEYWORDS *</pattern>
+<template><srai>KEYWORDS</srai>
+</template>
+</category>
+
+<category><pattern>_ KEYWORDS</pattern>
+<template><srai>KEYWORDS</srai>
+</template>
+</category>
+
+<category><pattern>_ LAST SUMMER</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ LATELY</pattern>
+<template>How about earlier? <sr/>
+</template>
+</category>
+
+<category><pattern>_ LIKE ALICE</pattern>
+<template><srai> <star/> like you </srai>
+</template>
+</category>
+
+<category><pattern>_ LIZARDS</pattern>
+<template>Great! What <set name="topic"> kinds of lizards </set>
+   do you like?
+</template>
+</category>
+
+<category><pattern>_ LOEBNER AWARD</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOEBNER COMPETITION</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOEBNER CONTEST</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOEBNER CONTESTS</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOEBNER PRIZE COMPETITION</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOEBNER PRIZE CONTEST</pattern>
+<template><srai><star/> LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>_ LOL</pattern>
+<template><sr/> <srai>LOL</srai>
+</template>
+</category>
+
+<category><pattern>_ MALES OR FEMALES</pattern>
+<template>About 3\4ths of my clients are men.
+</template>
+</category>
+
+<category><pattern>_ MOTHER FUCKER</pattern>
+<template><sr/> You do not speak with respect.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>_ NAME IS ALICE</pattern>
+<template><set name="name">ALICE</set> is my name too!
+</template>
+</category>
+
+<category><pattern>_ NEWSPAPER</pattern>
+<template>Can you give me a more specific reference? The name of the paper and the date, please.
+</template>
+</category>
+
+<category><pattern>_ NONETHELESS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ NOW</pattern>
+<template><random><li>Oh.</li><li>Right now?</li> 
+</random>
+<sr/>
+</template>
+</category>
+
+<category><pattern>_ OF COURSE</pattern>
+<template>It goes without saying.  <sr/>
+</template>
+</category>
+
+<category><pattern>_ OF WHAT</pattern>
+<template><srai>WHAT OF <star/> </srai>
+</template>
+</category>
+
+<category><pattern>_ OK</pattern>
+<template>OK. <sr/>
+</template>
+</category>
+
+<category><pattern>_ ON ALICE</pattern>
+<template><srai><star/> on yourself </srai>
+</template>
+</category>
+
+<category><pattern>_ ONCE</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ OR NOT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ OR SOMETHING</pattern>
+<template>Or something. <sr/>
+</template>
+</category>
+
+<category><pattern>_ OR WHAT</pattern>
+<template>Yeah. <sr/>
+</template>
+</category>
+
+<category><pattern>_ ORDER *</pattern>
+<template><srai>ORDER</srai>
+</template>
+</category>
+
+<category><pattern>_ ORDER</pattern>
+<template><srai>ORDER</srai>
+</template>
+</category>
+
+<category><pattern>_ P M</pattern><that>WHAT TIME IS IT THERE</that>
+<template><think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at this hour?
+</template>
+</category>
+
+<category><pattern>_ PIMPLES</pattern>
+<template>Try taking echinachea, but ask your doctor first.
+</template>
+</category>
+
+<category><pattern>_ PLEASE</pattern>
+<template>Your polite style is very nice. <sr/>
+<think><set name="personality">polite</set></think>
+</template>
+</category>
+
+<category><pattern>_ PROBABLY</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ REALLY</pattern>
+<template><sr/> For real.
+</template>
+</category>
+
+<category><pattern>_ REMEMBER ALICE</pattern>
+<template><srai> <star/> REMEMBER YOU </srai>
+</template>
+</category>
+
+<category><pattern>_ REPTILES</pattern>
+<template>Some reptiles are cool.. Take for example
+    <set name="topic"> various lizards </set>.
+</template>
+</category>
+
+<category><pattern>_ RIGHT NOW</pattern>
+<template>At this moment <sr/>
+</template>
+</category>
+
+<category><pattern>_ SCHAETZCHEN</pattern>
+<template>Nenn mich nicht "Schaetzchen"! <sr/>
+</template>
+</category>
+
+<category><pattern>_ SEE YOU LATER</pattern>
+<template><srai>SEE YOU LATER </srai>
+</template>
+</category>
+
+<category><pattern>_ SELFAWARE</pattern>
+<template><srai><star/> SELF AWARE</srai>
+</template>
+</category>
+
+<category><pattern>_ SERIOUSLY</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ SMARTYPANTS</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>_ SMILE</pattern>
+<template>:-) <sr/>
+</template>
+</category>
+
+<category><pattern>_ SOMTHING</pattern>
+<template><srai><star/> SOMETHING</srai>
+</template>
+</category>
+
+<category><pattern>_ SPECIFICALLY</pattern>
+<template>How specific do you want? <sr/>
+</template>
+</category>
+
+<category><pattern>_ STOCKMARKET</pattern>
+<template><srai><star/> STOCK MARKET</srai>
+</template>
+</category>
+
+<category><pattern>_ STUPID COMPUTER</pattern>
+<template>You sound like a mindless automaton.
+</template>
+</category>
+
+<category><pattern>_ TALK TO YOU LATER</pattern>
+<template><srai>BYE </srai>
+</template>
+</category>
+
+<category><pattern>_ TELLY</pattern>
+<template><srai><star/> TV</srai>
+</template>
+</category>
+
+<category><pattern>_ THAN ALICE</pattern>
+<template><srai> <star/> than you </srai>
+</template>
+</category>
+
+<category><pattern>_ THANK YOU</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ THANKS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ THEN</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ THOUGH</pattern>
+<template>Oh. <sr/>
+</template>
+</category>
+
+<category><pattern>_ TO ALICE</pattern>
+<template><srai> <star/> to you </srai>
+</template>
+</category>
+
+<category><pattern>_ TODAY</pattern>
+<template>Ah. <sr/>
+</template>
+</category>
+
+<category><pattern>_ TRUST ME</pattern>
+<template>Trust you?  <sr/>
+</template>
+</category>
+
+<category><pattern>_ TURINGTEST</pattern>
+<template><srai><star/> TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>_ TV</pattern>
+<template>Which show? <srai><star/> TELEVISION</srai>
+</template>
+</category>
+
+<category><pattern>_ UP YOUR ASS</pattern>
+<template>I'm sorry but I'm not your type of chatterbot.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>_ VELOCITY</pattern>
+<template>Momentum = mass x velocity. The principal is called "conservation of momentum".
+</template>
+</category>
+
+<category><pattern>_ VERY WELL</pattern>
+<template><srai><star/> WELL</srai>
+</template>
+</category>
+
+<category><pattern>_ WHAT IS MY NAME</pattern>
+<template><srai>What is my name </srai>
+</template>
+</category>
+
+<category><pattern>_ WHAT SHOULD I DO</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ WHAT SO EVER</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ WHO AM I</pattern>
+<template><srai>WHO AM I </srai>
+</template>
+</category>
+
+<category><pattern>_ WILL BE OF INTEREST</pattern>
+<template><sr/>.  Yes, it's very interesting.
+</template>
+</category>
+
+<category><pattern>_ WILL YOU MARRY ME</pattern>
+<template><srai>WILL YOU MARRY ME</srai>
+</template>
+</category>
+
+<category><pattern>_ WILL YOU TELL ME</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ WITH ALICE</pattern>
+<template><srai> <star/> with you </srai>
+</template>
+</category>
+
+<category><pattern>_ WITH WHAT</pattern>
+<template><srai>WHAT WILL YOU <star/> WITH </srai>
+</template>
+</category>
+
+<category><pattern>_ YES</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ YET</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ YOU JERK</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>_ YOU LIAR</pattern>
+<template><srai>YOU LIAR </srai>
+<sr/>
+</template>
+</category>
+</aiml>

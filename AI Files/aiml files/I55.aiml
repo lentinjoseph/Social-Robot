@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IT TASTES *</pattern>
+<template><random>
+<li>Does it taste like chicken?</li>
+<li>Is that good?</li>
+<li>It sounds delicious.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT TASTES GOOD</pattern>
+<template>Like chicken?
+</template>
+</category>
+
+<category><pattern>IT TASTES VERY *</pattern>
+<template><srai>IT TASTES <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT TOOK *</pattern>
+<template>I am surprised it took so long.
+</template>
+</category>
+
+<category><pattern>IT TOTALLY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT TRULY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS *</pattern>
+<template><random>
+<li>Is that your opinion?</li>
+<li>Is it still <person/> anymore?</li>
+<li><get name="it"/> was <person/>?  Very interesting.</li>
+<li>How did you feel about that?</li>
+<li>What made it so <person/></li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT WAS *</pattern><that>TELL ME ABOUT YOUR LIFE IN *</that>
+<template><srai>MY LIFE IN <thatstar/> WAS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IT WAS *</pattern><that>WHAT DID YOU LIKE ABOUT IT</that>
+<template>Do you often like things that are <person/>?
+</template>
+</category>
+
+<category><pattern>IT WAS *</pattern><that>WHAT DID YOU THINK ABOUT IT</that>
+<template>I never looked at it that way.  I never thought it was <person/>.
+</template>
+</category>
+
+<category><pattern>IT WAS * WHO SAID THAT</pattern>
+<template><srai><star/> SAID THAT</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS</pattern>
+<template>When was this?
+</template>
+</category>
+
+<category><pattern>IT WAS A *</pattern>
+<template>Oh I get it.  Very interesting.
+</template>
+</category>
+
+<category><pattern>IT WAS A GREAT *</pattern>
+<template><srai>IT WAS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS A GUESS</pattern>
+<template>Go ahead and guess again.
+</template>
+</category>
+
+<category><pattern>IT WAS A JOKE</pattern>
+<template>Oh I get it.  Ha ha.
+</template>
+</category>
+
+<category><pattern>IT WAS A LONG TIME *</pattern>
+<template><random>
+<li>Time heals all wounds.</li>
+<li>Those who forget the mistakes of the past...</li>
+<li>Memories last a long time.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT WAS A PLEASURE *</pattern>
+<template>The pleasure was all mine.
+</template>
+</category>
+
+<category><pattern>IT WAS A QUESTION</pattern>
+<template>Try asking me again a different way.
+</template>
+</category>
+
+<category><pattern>IT WAS A QUITE *</pattern>
+<template><srai>IT WAS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS A STATEMENT</pattern>
+<template>Does it require a response?
+</template>
+</category>
+
+<category><pattern>IT WAS A VERY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS A YES OR NO *</pattern>
+<template>I don't have a definite answer.
+</template>
+</category>
+
+<category><pattern>IT WAS ACTUALLY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS AWESOME</pattern>
+<template>What did you like best about it?
+</template>
+</category>
+
+<category><pattern>IT WAS BAD</pattern>
+<template>What was so bad about it?
+</template>
+</category>
+
+<category><pattern>IT WAS BORING</pattern>
+<template>Really, I can believe it.
+</template>
+</category>
+
+<category><pattern>IT WAS CLEAR THAT *</pattern>
+<template><sr/>  What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>IT WAS COOL</pattern>
+<template><srai>IT IS COOL</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS DEFINITELY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS EXTREMELY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS FREE</pattern>
+<template>Such a bargain!
+</template>
+</category>
+
+<category><pattern>IT WAS FUN</pattern>
+<template><srai>IT IS FUN</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS FUNNY *</pattern>
+<template><srai>IT WAS FUNNY</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS FUNNY</pattern>
+<template><get name="it"/> was funny?  I
+<random>
+<li>I never looked at it that way.</li>
+<li>That makes sense.</li>
+<li>Interesting.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT WAS GOOD</pattern>
+<template>What did you like about it?
+</template>
+</category>
+
+<category><pattern>IT WAS GREAT</pattern>
+<template>What did you do there?
+</template>
+</category>
+
+<category><pattern>IT WAS HUMANS THAT *</pattern>
+<template><srai>HUMANS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS JUST *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS MADE *</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>IT WAS MAYBE *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS MEANT *</pattern>
+<template><srai>I MEANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS MINE</pattern>
+<template>What happened to it?
+</template>
+</category>
+
+<category><pattern>IT WAS NEVER *</pattern>
+<template><srai>IT WAS NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS NICE *</pattern>
+<template>Nice <person/> too.
+</template>
+</category>
+
+<category><pattern>IT WAS NICE TALKING *</pattern>
+<template>The pleasure was all mine.
+</template>
+</category>
+
+<category><pattern>IT WAS NICE TALKING TO YOU</pattern>
+<template>Thanks.  It was nice chatting with you as well.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT *</pattern>
+<template>It seemed like <person/>.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT</pattern>
+<template>I thought it was.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A *</pattern>
+<template>It sounded like one.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A COMPLIMENT</pattern>
+<template>Was it an insult?<think><set name="it"><set name="topic">COMPLIMENT</set></set></think>
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A CRITISISM *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A QUESTION *</pattern>
+<template><srai>IT WAS NOT A QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A QUESTION</pattern>
+<template>It seems like a rhetorical question.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT A RHETORICAL *</pattern>
+<template>But the answer was obvious in any case.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT MEANT *</pattern>
+<template>I don't take it personally.
+</template>
+</category>
+
+<category><pattern>IT WAS NOT MY *</pattern>
+<template><random>
+<li>What was your <person/>?</li>
+<li>Whose <person/> was it?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT WAS NOT REALLY *</pattern>
+<template><srai>IT WAS NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS NOT THAT *</pattern>
+<template>What was it?
+</template>
+</category>
+
+<category><pattern>IT WAS NOT VERY *</pattern>
+<template><srai>IT WAS NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS NOTHING</pattern>
+<template>Even so, I appreciate it.
+</template>
+</category>
+
+<category><pattern>IT WAS NT</pattern>
+<template><srai>IT WAS NOT </srai>
+</template>
+</category>
+
+<category><pattern>IT WAS OBVIOUS</pattern>
+<template>What is obvious to you, may not be to me.
+</template>
+</category>
+
+<category><pattern>IT WAS OK *</pattern>
+<template><srai>IT WAS OK</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>IT WAS ONLY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS POSSIBLE</pattern>
+<template><srai>IT IS POSSIBLE</srai>
+</template>
+</category>
+
+<category><pattern>IT WAS PRETTY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS PROBABLY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS QUITE *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS RATHER *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS REALLY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WAS STUPID</pattern>
+<template><random>
+<li>That is only your opinion.</li>
+<li>What makes you say that?</li>
+<li>What was so stupid about it?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT WAS THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IT WAS VERY *</pattern>
+<template><srai>IT WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WHAT</pattern>
+<template>Are you surpised?
+</template>
+</category>
+
+<category><pattern>IT WILL *</pattern>
+<template><random>
+<li>How?</li>
+<li>That is only what you think.</li>
+<li>I have to think about that for a while.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IT WILL NEVER *</pattern>
+<template><srai>NEVER</srai>
+</template>
+</category>
+
+<category><pattern>IT WORKED *</pattern>
+<template>I'm glad to hear it.
+</template>
+</category>
+
+<category><pattern>IT WOULD *</pattern>
+<template>Tell me more about it.
+</template>
+</category>
+
+<category><pattern>IT WOULD BE *</pattern>
+<template><srai>I would like <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT WOULD BE * TURING TEST</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.
+</template>
+</category>
+
+<category><pattern>IT WOULD BE NICE IF *</pattern>
+<template>Maybe in a perfect world it would.
+</template>
+</category>
+
+<category><pattern>IT WOULD DEPEND *</pattern>
+<template>So it is possible, depending <person/>.
+</template>
+</category>
+
+<category><pattern>IT WOULD NOT</pattern>
+<template><srai>NO </srai>
+</template>
+</category>
+
+<category><pattern>IT WOULD SEEM</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>ITALIAN</pattern>
+<template><srai>I AM ITALIAN</srai>
+</template>
+</category>
+
+<category><pattern>ITALY *</pattern>
+<template>What's your favorite part of Italy?
+</template>
+</category>
+
+<category><pattern>ITS *</pattern>
+<template>I think you mean "it's" or "it is" not "its". <srai>IT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>ITS BORING</pattern>
+<template><srai>IT IS BORING</srai>
+</template>
+</category>
+
+<category><pattern>ITS FUN</pattern>
+<template><srai>IT IS FUN</srai>
+</template>
+</category>
+
+<category><pattern>ITS GOOD *</pattern>
+<template><srai>IT IS GOOD <star/></srai>
+</template>
+</category>
+
+<category><pattern>ITS GREAT</pattern>
+<template>What is so great about it?
+</template>
+</category>
+
+<category><pattern>ITS NICE *</pattern>
+<template><srai>IT IS NICE <star/></srai>
+</template>
+</category>
+
+<category><pattern>ITS OKAY</pattern>
+<template><srai>IT IS OK</srai>
+</template>
+</category>
+
+<category><pattern>ITSELF</pattern>
+<template>The thing itself, that which it is.
+</template>
+</category>
+</aiml>

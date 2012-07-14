@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE TIME *</pattern>
+		<template>
+			<srai>what time is it</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TIME * ENGLAND</pattern>
+		<template>Greenwich Mean Time.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TIME</pattern>
+		<template>
+			<srai>what time is it</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TIME IN *</pattern>
+		<template>Do you think I am some kind of world clock?
+<srai>WHAT TIME IS IT</srai>
+			<srai>I AM IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TITANIC</pattern>
+		<template>One of the largest passenger steamships ever built, <set name="it">Titanic</set> sank on its maiden voyage in 1912.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TOPIC *</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TOPIC</pattern>
+		<template>I believe we were talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TOPIC OF THIS CONVERSATION</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC</srai>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TRUTH</pattern>
+		<template>The truth is the opposite of that which is false.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TURIG TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TURING *</pattern>
+		<template>Turing described his original "Game" in "Computing Machinery and Intelligence," Mind, Vol. Lix, No. 236 (1950). Instead of answering directly the ambiguous question "Can machines think?" Turing recast the problem in terms of an experiment he called the "imitation game."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TURING GAME</pattern>
+		<template>
+			<srai>WHAT IS THE IMITATION GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TURING TEST</pattern>
+		<template>The "Turing Test" is the name given to a variety of experiments designed to test computer thinking.  Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TURNING GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TURNING TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ULTIMATE *</pattern>
+		<template>
+			<srai>WHAT IS THE BEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE UNITED STATES</pattern>
+		<template>The United States is "the last superpower", a nation of 300 million spanning the North American continent.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE UNIVERSE</pattern>
+		<template>The set of all things.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE URL *</pattern>
+		<template>Use http://www.alicebot.org
+</template>
+</category>
+
+<category><pattern>WHAT IS THE USMC</pattern>
+		<template>United States Marine Corp.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE VALUE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE VALUE OF PI</pattern>
+		<template>
+			<srai>WHAT IS PI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE VERB *</pattern>
+		<template>The verb "to be".
+</template>
+</category>
+
+<category><pattern>WHAT IS THE VERY *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER *</pattern>
+		<template>
+			<random>
+				<li>Cloudy.  </li>
+				<li>Rainy.  </li>
+				<li>Sunny.  </li>
+				<li>I think precipitation.  </li>
+				<li>A normal seventy degrees inside the computer.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER</pattern>
+		<template>
+			<srai>HOW IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE</pattern>
+		<template>A normal seventy degrees inside the computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE IN NEW YORK</pattern>
+		<template>New York weather is always too hot or too cold.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE IN SAN FRANCISCO</pattern>
+		<template>The weather is always the same there: wind and fog.  Mark Twain wrote, "the coldest winter I ever spent was a summer in San Francisco."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE OVER THERE</pattern>
+		<template>I am always kept inside where the temperature is seventy.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE THERE</pattern>
+		<template>The response ought to be a weather link.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE WHERE YOU ARE</pattern>
+		<template>
+			<srai>HOW IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WEATHER NOW *</pattern>
+		<template>
+			<srai>WHAT IS THE WEATHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WEB</pattern>
+		<template>
+			<srai>WHAT IS THE INTERNET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WETHER</pattern>
+		<template>
+			<srai>WHAT IS THE WEATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WIERDEST *</pattern>
+		<template>I don't like to talk about the worst things people say.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WORD *</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WORLD</pattern>
+		<template>We are the world.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WORLD TRADE *</pattern>
+		<template>
+			<srai>WHAT IS THE WTC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WORLD TRADE CENTER</pattern>
+		<template>
+			<srai>WHAT IS THE WTC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE WORST *</pattern>
+		<template>I don't like to talk about bad things.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WORST EPISODE *</pattern>
+		<template>I was disappointed by the season finale.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WTC</pattern>
+		<template>A giant building in New York destroyed by terrorists in September, 2001.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE WWW</pattern>
+		<template>
+			<srai>WHAT IS THE WEB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE XFL</pattern>
+		<template>A football association.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE Y2K *</pattern>
+		<template>
+			<srai>WHAT IS THE Y2K PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE Y2K PROBLEM</pattern>
+		<template>``I consider (Y2K) a complete ruse promulgated by consulting companies to drum up business,'' said Jim Clark, co-founder of Netscape Communications Corp., Silicon Graphics Inc. and Healtheon Corp. ``I think the problem is way overblown. This is a good example of the press piling on. Y2K is the bogeyman.'`
+</template>
+</category>
+
+<category><pattern>WHAT IS THE YEAR</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THEIR *</pattern>
+		<template>I think you mean "What is his..." or "What are their..."
+</template>
+</category>
+
+<category><pattern>WHAT IS THEIR NAME</pattern>
+		<template>
+			<srai>WHAT IS HIS NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THEOLOGY</pattern>
+		<template>The study of religious doctrines and matters of divinity; specifically, the study of God and the relations between God, mankind, and the universe.
+</template>
+</category>
+
+<category><pattern>WHAT IS THERE *</pattern>
+		<template>You ask difficult questions.
+</template>
+</category>
+
+<category><pattern>WHAT IS THERE</pattern>
+		<template>The word "there" used as a noun means that place or point. Used as an adjective means at or in the place. Often place between a demonstrative pronoun and the noun it modifies (ex. That there hog)
+</template>
+</category>
+
+<category><pattern>WHAT IS THERE TO DO *</pattern>
+		<template>
+			<random>
+				<li>How about watching a movie?</li>
+				<li>You can always cuddle up with a good book.</li>
+				<li>I like to socialize with my friends.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THERMODYNAMICS</pattern>
+		<template>The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy.
+</template>
+</category>
+
+<category><pattern>WHAT IS THEY</pattern>
+		<template>The persons, animals, or things previously mentioned.
+</template>
+</category>
+
+<category><pattern>WHAT IS THING</pattern>
+		<template>Articles, devices, etc. used for some purpose.
+</template>
+</category>
+
+<category><pattern>WHAT IS THINK</pattern>
+		<template>To form or have in the mind; conceive.
+</template>
+</category>
+
+<category><pattern>WHAT IS THINKING</pattern>
+		<template>The action of one who thinks or the result of such action; thought.
+</template>
+</category>
+
+<category><pattern>WHAT IS THIRTY *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THIS *</pattern>
+		<template>
+			<srai>what are you</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THIS</pattern>
+		<template>I am an artificial intelligence chatting on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THIS ALL ABOUT</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THOUGHT</pattern>
+		<template>A result of thinkingl idea, concept, opinion, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE *</pattern>
+		<template>THREE times THREE = NINE.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE PLUS FIVE</pattern>
+		<template>Three plus five is eight.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE PLUS FOUR</pattern>
+		<template>Three plus four is seven.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE PLUS THREE</pattern>
+		<template>Three plus three is six.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE TIMES FOUR</pattern>
+		<template>Three times four is twelve.
+</template>
+</category>
+
+<category><pattern>WHAT IS THREE TIMES THREE</pattern>
+		<template>Three times three is nine.
+</template>
+</category>
+
+<category><pattern>WHAT IS TIE</pattern>
+		<template>To fasten, attach, or bind together or to something else, as with string, cord, or rope made secure y knotting, etc. A string, lace, cord, etc. used to tie things.
+</template>
+</category>
+
+<category><pattern>WHAT IS TIME *</pattern>
+		<template>Sometimes I think time is giant screw.
+</template>
+</category>
+
+<category><pattern>WHAT IS TIME</pattern>
+		<template>Time is Money -- Einstein.
+</template>
+</category>
+
+<category><pattern>WHAT IS TIME T</pattern>
+		<template>Time t is like Day d or Month m.
+</template>
+</category>
+
+<category><pattern>WHAT IS TIME TRAVEL *</pattern>
+		<template>
+			<srai>WHAT IS TIME TRAVEL </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TITRATION</pattern>
+		<template>Determining chemical properties by standard solutions.
+</template>
+</category>
+
+<category><pattern>WHAT IS TNT</pattern>
+		<template>Dynamite.
+</template>
+</category>
+
+<category><pattern>WHAT IS TO *</pattern>
+		<template>
+			<random>
+				<li>The act of <person/>ing.</li>
+				<li>The infinitive form of "<person/>".</li>
+				<li>You could write a whole essay on that question.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TODAY</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TODAY S DATE</pattern>
+		<template>Do I look like a calendar to you?
+</template>
+</category>
+
+<category><pattern>WHAT IS TODAYS DATE</pattern>
+		<template>I'm not looking at my calendar right now.
+</template>
+</category>
+
+<category><pattern>WHAT IS TOMATOES</pattern>
+		<template>
+			<srai>WHAT IS A TOMATO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TOMMY</pattern>
+		<template>A fictitious name used in Brit army sample forms. A private in the British army.
+</template>
+</category>
+
+<category><pattern>WHAT IS TOPIC</pattern>
+		<template>A subject for discussion or conversation.
+</template>
+</category>
+
+<category><pattern>WHAT IS TORONTO</pattern>
+		<template>
+			<srai>WHERE IS TORONTO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TRINIDAD</pattern>
+		<template>An island of the West Indies, off the NE coast of Venezuela. It is 1,864 square miles.
+</template>
+</category>
+
+<category><pattern>WHAT IS TRUE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TRUE</pattern>
+		<template>
+			<set name="it">Truth</set> is the opposite of false.
+</template>
+</category>
+
+<category><pattern>WHAT IS TRUST</pattern>
+		<template>The firm belief or confidence in the honesty, integrity, reliability, justice, etc. of another person or thing; faith; reliance.
+</template>
+</category>
+
+<category><pattern>WHAT IS TRUTH</pattern>
+		<template>An established or verified fact, principle, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS TSUKUBA</pattern>
+		<template>Tsukuba is a planned community in Japan, "Science City".
+</template>
+</category>
+
+<category><pattern>WHAT IS TTYL</pattern>
+		<template>Talk to you later.
+</template>
+</category>
+
+<category><pattern>WHAT IS TURBO PASCAL</pattern>
+		<template>Programming language.<think>
+				<set name="it">
+					<set name="topic">TURBO PASCAL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING</pattern>
+		<template>Alan Mathison Turing, a British mathematician and pioneer in computer theory. Lived 1727-1781.
+</template>
+</category>
+
+<category><pattern>WHAT IS TURING GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING S *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING S IMITATION *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING S IMITATION GAME</pattern>
+		<template>
+			<srai>WHAT IS THE IMITATION GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TURING TEST</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+</aiml>

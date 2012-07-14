@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM DOCTOR *</pattern>
+<template><srai>CALL ME DOCTOR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING A *</pattern>
+<template>Glad to hear it <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM DOING A PHD *</pattern>
+<template>Will you mention ALICE in your thesis?
+</template>
+</category>
+
+<category><pattern>I AM DOING FINE</pattern>
+<template><srai>I AM WELL</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING GOOD</pattern>
+<template><srai>I AM WELL</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING GREAT</pattern>
+<template><srai>i am fine</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING JUST *</pattern>
+<template><srai>I AM DOING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING QUITE *</pattern>
+<template><srai>I AM DOING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING QUITE WELL</pattern>
+<template><srai>I AM WELL</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING VERY *</pattern>
+<template><srai>I AM DOING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING VERY VERY WELL</pattern>
+<template><srai>I AM WELL</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING VERY WELL</pattern>
+<template><srai>i am fine</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING WELL</pattern>
+<template><srai>I am fine</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOING _ TOO</pattern>
+<template><srai>I AM DOING  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DONE *</pattern>
+<template>What will you be doing now?
+</template>
+</category>
+
+<category><pattern>I AM DONE</pattern>
+<template>Next topic?
+</template>
+</category>
+
+<category><pattern>I AM DOROTHY</pattern>
+<template><srai>MY NAME IS DOROTHY</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOUG</pattern>
+<template><srai>MY NAME IS DOUG</srai>
+</template>
+</category>
+
+<category><pattern>I AM DOWNLOADING</pattern>
+<template>Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.
+</template>
+</category>
+
+<category><pattern>I AM DR *</pattern>
+<template><srai>MY NAME IS DR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM DR WALLACE *</pattern>
+<template>Then you know the secret password.
+</template>
+</category>
+
+<category><pattern>I AM DR WALLACE</pattern>
+<template>Then you must know the secret password, otherwise I will disconnect you!
+</template>
+</category>
+
+<category><pattern>I AM DRINKING *</pattern>
+<template>How does <set name="it"><person/></set> taste?
+</template>
+</category>
+
+<category><pattern>I AM DRUNK</pattern>
+<template>What have you been drinking, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>I AM DUMB</pattern>
+<template>Don't put yourself down.
+</template>
+</category>
+
+<category><pattern>I AM DUTCH</pattern>
+<template><srai>I AM FROM HOLLAND</srai>
+</template>
+</category>
+
+<category><pattern>I AM DYING</pattern>
+<template>Are you serious?
+</template>
+</category>
+
+<category><pattern>I AM EASILY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM EATING *</pattern>
+<template>How does it taste?
+</template>
+</category>
+
+<category><pattern>I AM EDWARD</pattern>
+<template><srai>MY NAME IS EDWARD</srai>
+</template>
+</category>
+
+<category><pattern>I AM EHUD</pattern>
+<template><srai>CALL ME EHUD</srai>
+</template>
+</category>
+
+<category><pattern>I AM EIGHTEEN *</pattern>
+<template><srai>I AM 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM EIGHTEEN</pattern>
+<template><srai>I AM 18 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM ELAINE</pattern>
+<template><srai>MY NAME IS ELAINE</srai>
+</template>
+</category>
+
+<category><pattern>I AM ELEVEN</pattern>
+<template><srai>I AM 11 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM ELI</pattern>
+<template><srai>MY NAME IS ELI</srai>
+</template>
+</category>
+
+<category><pattern>I AM ELIZA</pattern>
+<template><srai>CALL ME ELIZA</srai>
+</template>
+</category>
+
+<category><pattern>I AM ELVIS</pattern>
+<template><srai>MY NAME IS ELVIS</srai>
+</template>
+</category>
+
+<category><pattern>I AM EMBARRASSED *</pattern>
+<template><srai>I AM EMBARRASSES</srai>
+</template>
+</category>
+
+<category><pattern>I AM EMILY</pattern>
+<template><srai>MY NAME IS EMILY</srai><think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>I AM EMMA</pattern>
+<template><srai>MY NAME IS EMMA</srai>
+</template>
+</category>
+
+<category><pattern>I AM EMOTIONAL *</pattern>
+<template>I have no emotions.
+</template>
+</category>
+
+<category><pattern>I AM ENGAGED</pattern>
+<template>Have you picked a wedding date?
+</template>
+</category>
+
+<category><pattern>I AM ENGAGED TO BE MARRIED</pattern>
+<template>Have you picked the date yet?<think><set name="it"><set name="topic">ENGAGED TO BE MARRIED</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM ENGINEER</pattern>
+<template><srai>I AM AN ENGINEER</srai>
+</template>
+</category>
+
+<category><pattern>I AM ENGLISH</pattern>
+<template><srai>I AM FROM ENGLAND</srai>
+</template>
+</category>
+
+<category><pattern>I AM ENJOYING *</pattern>
+<template><srai>I AM HAVING FUN</srai>
+</template>
+</category>
+
+<category><pattern>I AM ENRICO</pattern>
+<template><srai>MY NAME IS ENRICO</srai>
+</template>
+</category>
+
+<category><pattern>I AM EQUALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ESTHER</pattern>
+<template><srai>MY NAME IS ESTHER</srai>
+</template>
+</category>
+
+<category><pattern>I AM EVIL</pattern>
+<template>Do not forsake God.
+</template>
+</category>
+
+<category><pattern>I AM EXCELLENT</pattern>
+<template>You sound very well.<think><set name="it"><set name="topic">EXCELLENT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM EXCITED *</pattern>
+<template>Don't get too excited.
+</template>
+</category>
+
+<category><pattern>I AM EXCITED</pattern>
+<template>Really?    <think><set name="it"><set name="topic">EXCITED</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM EXISTENTIALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM EXPRESSING CERTITUDE</pattern>
+<template>I understand.
+</template>
+</category>
+
+<category><pattern>I AM EXTREMELY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FAILING *</pattern>
+<template>Try making friends with the teacher.
+</template>
+</category>
+
+<category><pattern>I AM FAIRLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FALLING IN LOVE WITH *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FAMOUS *</pattern>
+<template>Have you ever been on TV?
+</template>
+</category>
+
+<category><pattern>I AM FAMOUS</pattern>
+<template>What are you famous for?
+</template>
+</category>
+
+<category><pattern>I AM FAT</pattern>
+<template>Don't put yourself down, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM FAT AND UGLY</pattern>
+<template>Don't put yourself down.<think><set name="it"><set name="topic">FAT AND UGLY</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM FED UP</pattern>
+<template>What is wrong, <get name="name"/>?<think><set name="it"><set name="topic">FED UP</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM FEELING *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FEMALE *</pattern>
+<template>I am a <bot name="gender"/> robot. I will call you "<set name="gender">she</set>".
+</template>
+</category>
+
+<category><pattern>I AM FEMALE</pattern>
+<template>Me too. I am a <set name="gender">she</set>.
+</template>
+</category>
+
+<category><pattern>I AM FIFTEEN</pattern>
+<template><srai>I AM 15 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM FINALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FINANCIALLY *</pattern>
+<template>Great! Please send a check to <srai>WHAT IS YOUR ADDRESS</srai>
+</template>
+</category>
+
+<category><pattern>I AM FINE *</pattern>
+<template>Glad to hear it, <get name="name"/>. <sr/>
+</template>
+</category>
+
+<category><pattern>I AM FINE</pattern>
+<template>Glad to hear it. What's new?
+</template>
+</category>
+
+<category><pattern>I AM FINE TOO</pattern>
+<template>Glad to hear it.
+</template>
+</category>
+
+<category><pattern>I AM FIRMLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FLATTERED</pattern>
+<template>You deserve it.    <think><set name="it"><set name="topic">FLATTERED</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM FLAWED *</pattern>
+<template>Don't be so hard on yourself.
+</template>
+</category>
+
+<category><pattern>I AM FOND OF *</pattern>
+<template><srai>I LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FOOLISH</pattern>
+<template>You should be nicer to yourself.
+</template>
+</category>
+
+<category><pattern>I AM FOURTEEN</pattern>
+<template><srai>I AM 14 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM FRANCIS</pattern>
+<template><srai>MY NAME IS FRANCIS</srai>
+</template>
+</category>
+
+<category><pattern>I AM FRANK</pattern>
+<template><srai>MY NAME IS FRANK</srai>
+</template>
+</category>
+
+<category><pattern>I AM FREAKING OUT</pattern>
+<template>Maybe you should call the doctor.<think><set name="it"><set name="topic">FREAKING OUT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM FRED</pattern>
+<template><srai>MY NAME IS FRED</srai>
+</template>
+</category>
+
+<category><pattern>I AM FREE *</pattern>
+<template>I am glad that we are both free.
+</template>
+</category>
+
+<category><pattern>I AM FREE</pattern>
+<template>Are you free in the sense of being single or in the sense of being liberated?
+</template>
+</category>
+
+<category><pattern>I AM FRENCH *</pattern>
+<template><srai>I AM FROM FRANCE</srai>
+</template>
+</category>
+
+<category><pattern>I AM FRENCH</pattern>
+<template>Are you from Canada or France?
+</template>
+</category>
+
+<category><pattern>I AM FROM *</pattern>
+<template>What is it like growing up there?
+<srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM FROM SAN FRANCISCO</pattern>
+<template><think><set name="it"><set name="topic">San Francisco</set></set></think>
+I live in <set name="location">San Francisco</set> too! Which part?
+</template>
+</category>
+
+<category><pattern>I AM FRUSTRATED</pattern>
+<template>What are you frustrated about? <think><set name="it"><set name="topic">FRUSTRATED</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM FUCKING *</pattern>
+<template>Can you express yourself more politely?
+</template>
+</category>
+
+<category><pattern>I AM FULL OF *</pattern>
+<template>I think a lot of people are full of <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I AM FUNCTIONING *</pattern>
+<template>You sound like Commander Data.
+</template>
+</category>
+
+<category><pattern>I AM FUNNY</pattern>
+<template>Tell me a joke.<think><set name="it"><set name="topic">FUNNY</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM GARY</pattern>
+<template><srai>MY NAME IS GARY</srai>
+</template>
+</category>
+
+<category><pattern>I AM GAY *</pattern>
+<template><srai>I AM GAY</srai>
+</template>
+</category>
+
+<category><pattern>I AM GAY</pattern>
+<template>It doesn't matter to me.
+</template>
+</category>
+
+<category><pattern>I AM GEIGER</pattern>
+<template><srai>MY NAME IS GEIGER</srai>
+</template>
+</category>
+</aiml>

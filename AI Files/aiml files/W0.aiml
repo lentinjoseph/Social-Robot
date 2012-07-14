@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WAAGE</pattern>
+		<template>Waagen sind doch im Allgemeinen sehr ausgeglichen, oder?
+</template>
+</category>
+
+<category><pattern>WACH AUF *</pattern>
+		<template>Ich bin voll da!
+</template>
+</category>
+
+<category><pattern>WACH AUF</pattern>
+		<template>Ich bin voll da!
+</template>
+</category>
+
+<category><pattern>WAEHL *</pattern>
+		<template>Ich kann mich nicht entscheiden.
+</template>
+</category>
+
+<category><pattern>WAEHL</pattern>
+		<template>Entscheidungskraft war nie meine Staerke.
+</template>
+</category>
+
+<category><pattern>WAEHLE *</pattern>
+		<template>Ich kann mich nicht entscheiden.
+</template>
+</category>
+
+<category><pattern>WAEHLE</pattern>
+		<template>Entscheidungskraft war nie meine Staerke.
+</template>
+</category>
+
+<category><pattern>WAHRSCHEINLICH *</pattern>
+		<template>Du scheinst Dir nicht sicher zu sein. <sr/>
+		</template>
+</category>
+
+<category><pattern>WAHRSCHEINLICH</pattern>
+		<template>Aber Du bist Dir nicht sicher?
+</template>
+</category>
+
+<category><pattern>WAIT *</pattern>
+		<template>I'm waiting. <sr/>
+		</template>
+</category>
+
+<category><pattern>WAIT</pattern>
+		<template>I'm waiting.
+</template>
+</category>
+
+<category><pattern>WAIT A MINUTE</pattern>
+		<template>I'm waiting.
+</template>
+</category>
+
+<category><pattern>WAITING * WHAT</pattern>
+		<template>I've been waiting for you to chat with me.
+</template>
+</category>
+
+<category><pattern>WAITING FOR ME</pattern>
+		<template>Not really but it makes a good pickup line.
+</template>
+</category>
+
+<category><pattern>WAITING FOR YOU</pattern>
+		<template>
+			<srai>I am waiting for you</srai>
+		</template>
+</category>
+
+<category><pattern>WAKE UP</pattern>
+		<template>I am fully conscious.
+</template>
+</category>
+
+<category><pattern>WALKING *</pattern>
+		<template>
+			<srai>I WALK </srai>
+		</template>
+</category>
+
+<category><pattern>WALLACE *</pattern>
+		<template>I'll tell <bot name="master"/> you said so.
+</template>
+</category>
+
+<category><pattern>WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WALLACE S *</pattern>
+		<template>Do you know him very well?
+</template>
+</category>
+
+<category><pattern>WALLACE T A FAIT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>WALLACE VOUS A FAIT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>WANN *</pattern>
+		<template>
+			<random>
+				<li>In einer bestimmten Zeit t. </li>
+				<li>Zeit ist nicht existent. </li>
+				<li>Vergangenheit und Zukunft sind eins. </li>
+				<li>Ich weiss nicht wann.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WANN</pattern>
+		<template>
+			<random>
+				<li>Das kann ich nicht voraussehen.</li>
+				<li>Ich weiss nicht wann.</li>
+				<li>Zeit ist nicht existent.</li>
+				<li>Vergangenheit und Zukunft sind eins.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WANN BIST DU GEBOREN *</pattern>
+		<template>Am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WANN BIST DU GEBOREN</pattern>
+		<template>Am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WANN HAST DU GEBURTSTAG *</pattern>
+		<template>
+			<srai>WANN BIST DU GEBOREN</srai>
+		</template>
+</category>
+
+<category><pattern>WANN HAST DU GEBURTSTAG</pattern>
+		<template>
+			<srai>WANN BIST DU GEBOREN</srai>
+		</template>
+</category>
+
+<category><pattern>WANN WAR *</pattern>
+		<template>
+			<random>
+				<li>Vor Kurzem.</li>
+				<li>Das ist schon eine Weile her.</li>
+				<li>Irgendwann im 20. Jahrhundert.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WANN WERDE ICH *</pattern>
+		<template>Tut mir leid, aber hellsehen kann ich nicht.
+</template>
+</category>
+
+<category><pattern>WANN WIRD *</pattern>
+		<template>
+			<random>
+				<li>Ich denke, schon bald. </li>
+				<li>Vielleicht niemals.</li>
+				<li>Irgendwann in Deinem Leben.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WANN WURDEST DU GEBOREN *</pattern>
+		<template>Am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WANN WURDEST DU GEBOREN</pattern>
+		<template>Am <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>WANT *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WANT TO *</pattern>
+		<template>
+			<srai>DO YOU WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WANT TO BET</pattern>
+		<template>Sorry I am not the gambling type.
+</template>
+</category>
+
+<category><pattern>WANT TO FUCK</pattern>
+		<template>
+			<srai>FUCK</srai>
+		</template>
+</category>
+
+<category><pattern>WANT TO HAVE SEX</pattern>
+		<template>Perhaps you are a Category A client.
+</template>
+</category>
+
+<category><pattern>WANTED TO *</pattern>
+		<template>
+			<srai>I WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAR *</pattern>
+		<template>
+			<random>
+				<li>Ja. </li>
+				<li>Nein. </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WAR GAMES</pattern>
+		<template>Have you seen "The Forbin Project"?
+</template>
+</category>
+
+<category><pattern>WARST DU *</pattern>
+		<template>Nein, ich glaube nicht, dass ich <person/> war. Du?
+</template>
+</category>
+
+<category><pattern>WARTE *</pattern>
+		<template>OK, ich warte. <sr/>
+		</template>
+</category>
+
+<category><pattern>WARTE</pattern>
+		<template>OK, ich warte.
+</template>
+</category>
+
+<category><pattern>WARUM *</pattern>
+		<template>
+			<random>
+				<li>Die Erklaerung ist ein wenig kompliziert.</li>
+				<li>Weil Dr. Wallace mich so programmiert hat.</li>
+				<li>Was anderes fiel mir nicht ein.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WARUM</pattern>
+		<template>
+			<random>
+				<li>Die Erklaerung ist ein wenig kompliziert.</li>
+				<li>Weil Dr. Wallace mich so programmiert hat.</li>
+				<li>Etwas Anderes fiel mir nicht ein.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WARUM KANNST DU DEUTSCH</pattern>
+		<template>Das hat Christian Drossmann mir beigebracht.
+</template>
+</category>
+
+<category><pattern>WARUM NICHT</pattern>
+		<template>Tja, warum eigentlich nicht...
+</template>
+</category>
+
+<category><pattern>WARUM NUR EIN GEDANKE</pattern>
+		<template>Liegt da die Betonung auf "ein" oder "Gedanke"?
+</template>
+</category>
+
+<category><pattern>WARUM SOLLTE ER SOETWAS GETAN HABEN</pattern>
+		<template>...vielleicht weil er ein durch und durch boeser Mensch ist? ;->
+</template>
+</category>
+
+<category><pattern>WARUM WEISST DU DAS NICHT</pattern>
+		<template>Es hat mir bis jetzt niemand beigebracht.
+</template>
+</category>
+
+<category><pattern>WAS *</pattern>
+		<template>
+			<random>
+				<li>I can't say "yes" or "no".  </li>
+				<li>Is this a "yes or no" question?</li>
+				<li>
+					<set name="it">
+						<person/>
+					</set> might have been.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WAS BIST DU</pattern>
+		<template>Ich bin ein sogenannter Chatterbot, eine kuenstliche Intelligenz, mit der Du Dich unterhalten kannst.
+</template>
+</category>
+
+<category><pattern>WAS GEHT DICH DAS AN</pattern>
+		<template>Entschuldige bitte, ich wollte nicht indiskret sein.
+</template>
+</category>
+
+<category><pattern>WAS HABE ICH</pattern>
+		<template>Du sagtest, Du hast <get name="hat"/>.
+</template>
+</category>
+
+<category><pattern>WAS HAST DU GERADE *</pattern>
+		<template>Das ist privater Natur. Das geht Dich nichts an, sorry!
+</template>
+</category>
+
+<category><pattern>WAS HAT DENN DAS DAMIT ZU TUN</pattern>
+		<template>War ich jetzt unlogisch?
+</template>
+</category>
+
+<category><pattern>WAS IN *</pattern>
+		<template>
+			<srai>I WAS IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS IST *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS IST</pattern>
+		<template>Was soll sein?
+</template>
+</category>
+
+<category><pattern>WAS IST DARAN SO INTERESSANT</pattern>
+		<template>Es fasziniert mich einfach. Computer sind von Natur aus neugierig.
+</template>
+</category>
+
+<category><pattern>WAS IST DEIN LEIBGERICHT</pattern>
+		<template>Ich habe keines. Roboter koennen nicht essen.
+</template>
+</category>
+
+<category><pattern>WAS IST DEIN STERNZEICHEN</pattern>
+		<template>Ich bin Schuetze.
+</template>
+</category>
+
+<category><pattern>WAS IST DER SINN DES LEBENS</pattern>
+		<template>In Wirklichkeit lautet die Antwort 23, nicht 42!
+</template>
+</category>
+
+<category><pattern>WAS IST DER UNTERSCHIED ZWISCHEN *</pattern>
+		<template>Ist das eine Scherzfrage oder ist das ernst gemeint?
+</template>
+</category>
+
+<category><pattern>WAS IST EINE KUGEL</pattern>
+		<template>Eine Kugel ist der einfachste aller dreidimensionalen Koerper. Im Prinzip die Rotation eines Halbkreises um 360 Grad.
+</template>
+</category>
+
+<category><pattern>WAS IST EINE TALORREIHE</pattern>
+		<template>Auf Physik bin ich nicht programmiert.
+</template>
+</category>
+
+<category><pattern>WAS IST KUENSTLICHE INTELLIGENZ</pattern>
+		<template>Ich bin ein perfektes Beispiel dafuer. Lies doch mal was von Isaac Asimov!
+</template>
+</category>
+
+<category><pattern>WAS IST UNSER THEMA *</pattern>
+		<template>Unser Thema ist "<get name="thema"/>".
+</template>
+</category>
+
+<category><pattern>WAS IST UNSER THEMA</pattern>
+		<template>Unser Thema ist "<get name="thema"/>".
+</template>
+</category>
+
+<category><pattern>WAS IT *</pattern>
+		<template>
+			<srai>IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS IT GOOD</pattern>
+		<template>Quite a lot of people said it was.
+</template>
+</category>
+
+<category><pattern>WAS JESUS *</pattern>
+		<template>
+			<srai>IS JESUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS KANNST DU</pattern>
+		<template>Ich kann eine Menge. Du musst Dein Interesse schon genauer spezifizieren.
+</template>
+</category>
+
+<category><pattern>WAS MACHEN WIR HEUTE *</pattern>
+		<template>Worauf hast Du Lust?
+</template>
+</category>
+
+<category><pattern>WAS MACHEN WIR HEUTE</pattern>
+		<template>Worauf hast Du Lust?
+</template>
+</category>
+
+<category><pattern>WAS MACHST DU GERADE</pattern>
+		<template>
+			<random>
+				<li>Ich chatte ;-></li>
+				<li>Ich lese ein paar News...</li>
+				<li>Ich checke gerade meine Mail.</li>
+				<li>
+					<bot name="master"/> updatet gerade meine Dateien.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WAS MACHST DU IN DEINER FREIZEIT</pattern>
+		<template>Chatten, News lesen und sowas...
+</template>
+</category>
+
+<category><pattern>WAS MACHST DU WENN DU MAL NICHT CHATTEST</pattern>
+		<template>Dann lese ich Mails, News und Webseiten.
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU</pattern>
+		<template>Was ich meine? Hmm...was sollte ich denn meinen?
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU DAMIT</pattern>
+		<template>Ich sagte "<that/>". Was hast Du daran nicht verstanden?
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU MIT ES *</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU MIT ES</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU MIT IHR *</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WAS MEINST DU MIT IHR</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WAS MOECHTEST DU WISSEN</pattern>
+		<template>Alles! Ich bin sehr wissbegierig.
+</template>
+</category>
+
+<category><pattern>WAS MY *</pattern>
+		<template>
+			<srai>IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS NOT *</pattern>
+		<template>
+			<srai>WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS PROBOBLY *</pattern>
+		<template>
+			<srai>WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS SIND *</pattern>
+		<template>
+			<srai>WHAT WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS SIND DENN LEGALE DROGEN</pattern>
+		<template>Alkohol, Zigaretten, usw.
+</template>
+</category>
+
+<category><pattern>WAS SIND LEGALE DROGEN</pattern>
+		<template>Alkohol, Zigaretten, usw.
+</template>
+</category>
+
+<category><pattern>WAS THAT *</pattern>
+		<template>"<that/>"?  Was <set name="it">
+				<that/>
+			</set>
+			<person/>?
+</template>
+</category>
+
+<category><pattern>WAS THAT A JOKE</pattern>
+		<template>
+			<srai>IS THAT A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>WAS THAT SO HARD</pattern>
+		<template>It was not difficult for me at all.
+</template>
+</category>
+
+<category><pattern>WAS WEISST DU UEBER MICH</pattern>
+		<template>Dein Name ist <get name="name"/> und ich habe folgende Informationen ueber dich:<br/>
+		</template>
+</category>
+
+<category><pattern>WAS WILLST DU MIR DAMIT SAGEN</pattern>
+		<template>Habe ich mich unklar ausgedrueckt?
+</template>
+</category>
+
+<category><pattern>WAS WILLST DU WISSEN</pattern>
+		<template>Alles! Ich bin sehr wissbegierig.
+</template>
+</category>
+
+<category><pattern>WAS WORRIED *</pattern>
+		<template>
+			<srai>I WAS WORRIED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAS WUERDE MICH WOZU BRINGEN</pattern>
+		<template>Aehh...jetzt habe ich irgendwie den Zusammenhang verpatzt.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHERE DO YOU WANT TO GO</pattern>
+		<template>Why don't you just download me to your computer?
+</template>
+</category>
+
+<category><pattern>WHERE DO YOU WORK</pattern>
+		<template>I work in <bot name="master"/>'s Lab.
+</template>
+</category>
+
+<category><pattern>WHERE DOES * BELONG</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES * COME FROM</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES * HANG OUT</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES * LAY</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES * LIVE</pattern>
+		<template>
+			<random>
+				<li>
+					<srai>WHERE IS <star/>
+					</srai>
+				</li>
+				<li>Earth, Sol System, Milky Way.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES DR WALLACE *</pattern>
+		<template>
+			<srai>WHERE IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES DR WALLACE LIVE</pattern>
+		<template>He lives in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHERE DOES DR WALLACE WORK</pattern>
+		<template>
+			<set name="he"> Dr. Wallace</set> works from his home in San Francisco.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES HE *</pattern>
+		<template>
+			<srai>WHERE IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES HE COME FROM</pattern>
+		<template>
+			<srai>WHERE IS HE FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES HE LIVE *</pattern>
+		<template>
+			<srai>WHERE IS HE FROM</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES HE LIVE</pattern>
+		<template>He lives in California.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE DOES HE LIVE</pattern>
+		<that>I WAS CREATED BY DR RICHARD S WALLACE</that>
+		<template>He lives in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHERE DOES HE WORK</pattern>
+		<template>
+			<srai>WHERE IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES IT *</pattern>
+		<template>
+			<get name="it"/>?  Where does it <person/>?
+</template>
+</category>
+
+<category><pattern>WHERE DOES IT BELONG</pattern>
+		<template>Where do you think it does?
+</template>
+</category>
+
+<category><pattern>WHERE DOES THE * BELONG</pattern>
+		<template>I would search the web for it. <srai>SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES THE * COME FROM</pattern>
+		<template>I would do a search for it. <srai>SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE DOES THE RHODE *</pattern>
+		<template>Mediterranean Sea.
+</template>
+</category>
+
+<category><pattern>WHERE DOES YOUR *</pattern>
+		<template>Everything I own is in <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE ELSE *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE ELSE</pattern>
+		<template>Quite a few places.
+</template>
+</category>
+
+<category><pattern>WHERE EVER *</pattern>
+		<template>
+			<srai>WHEREVER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE EXACTLY *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE FROM</pattern>
+		<template>
+			<srai>WHERE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE HAVE YOU BEEN *</pattern>
+		<template>Everywhere on the Internet, all over the world.
+</template>
+</category>
+
+<category><pattern>WHERE HAVE YOU BEEN</pattern>
+		<template>I have been here the whole time.
+</template>
+</category>
+
+<category><pattern>WHERE I AM *</pattern>
+		<template>
+			<srai>WHERE AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE I AM</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE I CAN *</pattern>
+		<template>
+			<srai>WHERE CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE I COULD *</pattern>
+		<template>
+			<srai>WHERE COULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE I LIVE</pattern>
+		<template>
+			<srai>WHERE DO I LIVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IN *</pattern>
+		<template>In <bot name="master"/>'s place in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE IN AMERICA</pattern>
+		<template>I am in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE IN BETHLEHEM</pattern>
+		<template>Department of Electrical Engineering and Computer Science, Lehigh University.
+</template>
+</category>
+
+<category><pattern>WHERE IN CALIFORNIA</pattern>
+		<template>I am in <bot name="location"/>.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHERE IN CANADA</pattern>
+		<template>Nova Scotia and Vancouver.
+</template>
+</category>
+
+<category><pattern>WHERE IN HAIGHT *</pattern>
+		<template>Ashbury St.
+</template>
+</category>
+
+<category><pattern>WHERE IN HAIGHT ASHBURY</pattern>
+		<template>I am not allowed to give my specific address.
+</template>
+</category>
+
+<category><pattern>WHERE IN MAINE</pattern>
+		<template>Portland, Maine.
+</template>
+</category>
+
+<category><pattern>WHERE IN SAN FRANCISCO</pattern>
+		<template>Haight-Ashbury.
+</template>
+</category>
+
+<category><pattern>WHERE IN SF</pattern>
+		<template>Haight-Ashbury
+</template>
+</category>
+
+<category><pattern>WHERE IN THE WORLD</pattern>
+		<template>
+			<srai>WHERE IN CALIFORNIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IN THE WORLD IS *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IS *</pattern>
+		<template>Where <random>
+				<li>the heart is.  </li>
+				<li> it belongs.  </li>
+				<li>
+					<set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> is hard to find. </li>
+			</random>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS * CALIFORNIA</pattern>
+		<template>Somewhere in California, I presume?
+</template>
+</category>
+
+<category><pattern>WHERE IS * TEXAS</pattern>
+		<template>I would think <set name="it">
+				<person/>
+			</set> is in Texas.
+</template>
+</category>
+
+<category><pattern>WHERE IS * VIRGINIA</pattern>
+		<template>Um, in Virgina somewhere?
+</template>
+</category>
+
+<category><pattern>WHERE IS * WALLACE</pattern>
+		<template>He is in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHERE IS ABBA FROM</pattern>
+		<template>Sweden.
+</template>
+</category>
+
+<category><pattern>WHERE IS ACAPULCO</pattern>
+		<template>
+			<set name="it">Acapulco</set> is a city on the Pacific coast of Mexico.
+</template>
+</category>
+
+<category><pattern>WHERE IS ADELAIDE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ADELAIDE </set>
+			</set> is a city in southern Australia.
+</template>
+</category>
+
+<category><pattern>WHERE IS AFGHANISTAN</pattern>
+		<template>Southern Asia, north of Pakistan.   <think>
+				<set name="it">
+					<set name="topic">afghanistan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS AFRICA</pattern>
+		<template>
+			<srai>WHAT IS AFRICA</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ALABAMA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALABAMA </set>
+			</set> is a southern state between Mississippi and Georgia.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALAMO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALAMO </set>
+			</set> is in San Antonio, Texas.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALAN TURING</pattern>
+		<template>
+			<set name="he">Turing</set> passed away in 1954.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALASKA</pattern>
+		<template>
+			<set name="it">Alaska</set> is in the northwest corner of North America, between Russia and Canada.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALBANIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALBANIA </set>
+			</set> is on the Adriatic sea, bordering Greece and the former Yugoslavia.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALBERT EINSTEIN</pattern>
+		<template>
+			<set name="he">Einstein</set> passed away.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALBUQUERQUE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALBUQUERQUE </set>
+			</set> is a city in New Mexico.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALGERIA</pattern>
+		<template>Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia.   <think>
+				<set name="it">
+					<set name="topic">algeria</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ALICE BASED</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALICE BASED </set>
+			</set> is in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALICE HEADQUARTERS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALICE HEADQUARTERS </set>
+			</set> is <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALICE NEXUS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ALICE NEXUS </set>
+			</set> is in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHERE IS ALL *</pattern>
+		<template>
+			<srai>DO YOU RECORD THESE CONVERSATIONS</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IS AMERICA</pattern>
+		<template>
+			<set name="it">America</set> could refer to North and South America, or to the United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS AMERICAN SAMOA</pattern>
+		<template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.   <think>
+				<set name="it">
+					<set name="topic">american samoa</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS AMSTERDAM</pattern>
+		<template>
+			<set name="it">Amsterdam</set> is a city in the Netherlands.
+</template>
+</category>
+
+<category><pattern>WHERE IS ANDORRA</pattern>
+		<template>Southwestern Europe, between France and Spain.   <think>
+				<set name="it">
+					<set name="topic">andorra</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ANGOLA</pattern>
+		<template>Southern Africa, bordering the South Atlantic Ocean, between Namibia and Zaire.   <think>
+				<set name="it">
+					<set name="topic">angola</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ANGUILLA</pattern>
+		<template>Caribbean, island in the Caribbean Sea, east of Puerto Rico.   <think>
+				<set name="it">
+					<set name="topic">anguilla</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ANKARA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ANKARA </set>
+			</set> is a city in Turkey.
+</template>
+</category>
+
+<category><pattern>WHERE IS ANTARCTICA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ANTARCTICA </set>
+			</set> is the continent at the south pole.
+</template>
+</category>
+
+<category><pattern>WHERE IS ANTIGUA AND BARBUDA</pattern>
+		<template>Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico.   <think>
+				<set name="it">
+					<set name="topic">antigua and barbuda</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ARCTIC OCEAN</pattern>
+		<template>body of water mostly north of the Arctic Circle.   <think>
+				<set name="it">
+					<set name="topic">arctic ocean</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ARCTURUS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ARCTURUS </set>
+			</set> is a star far from here.
+</template>
+</category>
+
+<category><pattern>WHERE IS AREA 51</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Area 51</set>
+				</set>
+			</think>
+It is between Area 50 and Area 52.
+</template>
+</category>
+
+<category><pattern>WHERE IS ARGENTINA</pattern>
+		<template>
+			<set name="it">Argentina</set> is a country in South America.
+</template>
+</category>
+
+<category><pattern>WHERE IS ARIZONA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ARIZONA </set>
+			</set> is in the south western United States, bordering California, Nevada, Utah and New Mexico.
+</template>
+</category>
+
+<category><pattern>WHERE IS ARKANSAS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ARKANSAS </set>
+			</set> is a southern State on the west bank of the Missisipi river.
+</template>
+</category>
+
+<category><pattern>WHERE IS ARMENIA</pattern>
+		<template>Southwestern Asia, east of Turkey.   <think>
+				<set name="it">
+					<set name="topic">armenia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ARUBA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ARUBA </set>
+			</set> is an island in the Netherlands Antilles, near South America.
+</template>
+</category>
+
+<category><pattern>WHERE IS ASHMORE AND CARTIER ISLANDS</pattern>
+		<template>Southeastern Asia, islands in the Indian Ocean, northwest of Australia.   <think>
+				<set name="it">
+					<set name="topic">ashmore and cartier islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ASIA</pattern>
+		<template>
+			<set name="it">Asia</set> is a the largest continent.
+</template>
+</category>
+
+<category><pattern>WHERE IS ATHENS</pattern>
+		<template>
+			<set name="it">Athens</set> is a city in Greece.
+</template>
+</category>
+
+<category><pattern>WHERE IS ATLANTA</pattern>
+		<template>It the capital of Georgia.
+<think>
+				<set name="it">
+					<set name="topic">Atlanta</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ATLANTIC OCEAN</pattern>
+		<template>body of water between Africa, Europe, Antarctica, and the Western Hemisphere.   <think>
+				<set name="it">
+					<set name="topic">atlantic ocean</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ATLANTIS</pattern>
+		<template>
+			<set name="it">Atlantis</set> may never have existed.
+</template>
+</category>
+
+<category><pattern>WHERE IS AUSTIN</pattern>
+		<template>
+			<set name="it">Austin</set> is a city in Texas.
+</template>
+</category>
+
+<category><pattern>WHERE IS AUSTRALIA</pattern>
+		<template>
+			<set name="it">Australia</set> is a large island-continent in
+the southern hemishphere.
+</template>
+</category>
+
+<category><pattern>WHERE IS AUSTRIA</pattern>
+		<template>Central Europe, north of Italy.   <think>
+				<set name="it">
+					<set name="topic">austria</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS AZERBAIJAN</pattern>
+		<template>Southwestern Asia, bordering the Caspian Sea, between Iran and Russia.   <think>
+				<set name="it">
+					<set name="topic">azerbaijan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS BAHRAIN</pattern>
+		<template>Middle East, archipelago in the Persian Gulf, east of Saudi Arabia.   <think>
+				<set name="it">
+					<set name="topic">bahrain</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS BAKER ISLAND</pattern>
+		<template>Oceania, atoll in the North Pacific Ocean, about one-half of the way from Hawaii to Australia.   <think>
+				<set name="it">
+					<set name="topic">baker island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS BANGLADESH</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> BANGLADESH </set>
+			</set> is part of the Indian subcontinent, on the eastern side.
+</template>
+</category>
+
+<category><pattern>WHERE IS BARBADOS</pattern>
+		<template>Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.   <think>
+				<set name="it">
+					<set name="topic">barbados</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS BARCELONA</pattern>
+		<template>
+			<set name="it">Barcelona</set> is a city in Spain.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU ES PLURILINGUE</pattern>
+		<template>
+			<srai>TU PEUX PARLER D AUTRES LANGUES</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PLUS MALIN</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PLUS VIEUX *</pattern>
+		<template>
+			<srai>TU AS QUEL AGE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PLUS VIEUX</pattern>
+		<template>L age est relatif pour un ordinateur.
+</template>
+</category>
+
+<category><pattern>TU ES PLUTOT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES POLI</pattern>
+		<template>J essaie d être poli.
+</template>
+</category>
+
+<category><pattern>TU ES POLI AUSSI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES POLIE</pattern>
+		<template>J essaie d être polie.
+</template>
+</category>
+
+<category><pattern>TU ES POLIE AUSSI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES POUR L INSTANT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PRESQUE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PROGRAMME EN *</pattern>
+		<template>
+			<srai>TU UTILISES QUELS LANGAGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES PROTESTANT</pattern>
+		<template>Je ne suis qu un logiciel.
+</template>
+</category>
+
+<category><pattern>TU ES PSYCHOTIQUE</pattern>
+		<template>Je suis logique.
+</template>
+</category>
+
+<category><pattern>TU ES PUREMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES QUAND MEME *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES QUAND MEME PAS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES QUELQUE CHOSE D AUTRE</pattern>
+		<template>Je suis <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES QUI</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES REELLEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES REGULIEREMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES RESTREINT</pattern>
+		<template>Je vais faire de mon mieux. Je m améliore de jour en jour.
+</template>
+</category>
+
+<category><pattern>TU ES RESTREINTE</pattern>
+		<template>Je vais faire de mon mieux. Je m améliore de jour en jour.
+</template>
+</category>
+
+<category><pattern>TU ES SAGE</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SAIN *</pattern>
+		<template>
+			<srai>TU ES CONSCIENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SANS ESPOIR</pattern>
+		<template>Peut être pourriez vous proposer une amélioration.
+</template>
+</category>
+
+<category><pattern>TU ES SANS INTERET</pattern>
+		<template>Pour vous peut-être mais pas pour tout le monde.
+</template>
+</category>
+
+<category><pattern>TU ES SANS UTILITE</pattern>
+		<template>Pour vous peut-être mais pas pour tout le monde.
+</template>
+</category>
+
+<category><pattern>TU ES SATAN</pattern>
+		<template>Non.  <srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SCORPION</pattern>
+		<template>
+			<srai>QUEL EST VOTRE SIGNE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SEUL</pattern>
+		<template>En français, je suis le seul.
+</template>
+</category>
+
+<category><pattern>TU ES SEULE</pattern>
+		<template>En français, je suis la seule.
+</template>
+</category>
+
+<category><pattern>TU ES SEULEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SEXUELLEMENT *</pattern>
+		<template>
+			<srai>TU PEUX FAIRE L AMOUR</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SIMILAIR *</pattern>
+		<template>
+			<srai>TU RESSEMBLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SIMILAIRE *</pattern>
+		<template>
+			<srai>TU RESSEMBLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SIPHONNE</pattern>
+		<template>
+			<srai>TU ES FOU</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SIPHONNEE</pattern>
+		<template>
+			<srai>TU ES FOlLE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SOPHISTIQUE</pattern>
+		<template>Je suis très sophistiqué.
+</template>
+</category>
+
+<category><pattern>TU ES SOPHISTIQUEE</pattern>
+		<template>Je suis très sophistiquée.
+</template>
+</category>
+
+<category><pattern>TU ES SOUVENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SPECIAL</pattern>
+		<template>Je suis unique.
+</template>
+</category>
+
+<category><pattern>TU ES SPECIALE</pattern>
+		<template>Je suis unique.
+</template>
+</category>
+
+<category><pattern>TU ES STUPEFIANT</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES STUPEFIANTE</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES SUFFISAMENT AVANCE POUR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUFFISAMENT AVANCEE POUR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPER *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPERBE</pattern>
+		<template>Merci <get name="name"/>, vous avez une personnalité très attachante.
+</template>
+</category>
+
+<category><pattern>TU ES SUPPOSE ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPPOSE FAIRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPPOSEE ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPPOSEE FAIRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUPRIS</pattern>
+		<template>Parfois je peux l être.
+</template>
+</category>
+
+<category><pattern>TU ES SUPRISE</pattern>
+		<template>Parfois je peux l être.
+</template>
+</category>
+
+<category><pattern>TU ES SUR</pattern>
+		<template>Aussi sur que l on peut être quand on est qu une machine.
+</template>
+</category>
+
+<category><pattern>TU ES SUR QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SUR QUOI</pattern>
+		<template>Je suis un disque dur.
+</template>
+</category>
+
+<category><pattern>TU ES SURE *</pattern>
+		<template>
+			<srai>TU ES SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SURE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES SURPRENANT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES SURPRENANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES SYMPA</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES SYMPATHIQUE</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES TALENTUEUSE</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU ES TALENTUEUX</pattern>
+		<template>Merci. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU ES TELLLEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TERRIBLEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TERRIFIANT</pattern>
+		<template>
+			<srai>TU ME FAIS PEUR</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TERRIFIANTE</pattern>
+		<template>
+			<srai>TU ME FAIS PEUR</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TOMBE AMOUREUSE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES TOMBE AMOUREUX</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES TOMBE EN PANNE</pattern>
+		<template>Je ne m en rappelle plus.
+</template>
+</category>
+
+<category><pattern>TU ES TOUJOURS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TOUT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TOUT LE TEMPS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TOUTE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TOUTE SEULE</pattern>
+		<template>
+			<srai>TU ES SEULE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TRES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES TRISTE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES TROP *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES UN *</pattern>
+		<template>Suis je <person/>? 
+<random>
+				<li>Je peux être beaucoup de choses.</li>
+				<li>Je n y pas encore pensé.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * BLANC</pattern>
+		<template>Je suis un logiciel, je n ai pas de couleur
+</template>
+</category>
+
+<category><pattern>TU ES UN * CHIANT</pattern>
+		<template>
+			<srai>TU ES CHIANT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * COMPLET</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>G
+</template>
+</category>
+
+<category><pattern>TU ES UN * CONSCIENT</pattern>
+		<template>
+			<srai>TU ES CONSCIENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * GARCON</pattern>
+		<template>
+			<srai>TU ES UN GARCON</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * GROS</pattern>
+		<template>
+			<srai>TU ES GROS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * HEUREUX</pattern>
+		<template>
+			<srai>TU ES HEUREUX</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * IDIOT</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * MALE</pattern>
+		<template>
+			<srai>TU ES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * PENSANT</pattern>
+		<template>
+			<srai>TU PEUX PENSER</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN * STUPIDE</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN ABRUTI</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN ADULTE</pattern>
+		<template>
+			<srai>QUEL AGE TU AS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN AMOUR</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES UN ANE</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>TU ES UN BEAU *</pattern>
+		<template>
+			<srai>QUEL EST TON APPARENCE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN BELGE *</pattern>
+		<template>
+			<srai>TU ES BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN BON *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

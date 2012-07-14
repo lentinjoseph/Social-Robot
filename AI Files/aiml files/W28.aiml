@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS IMPOSSIBLE</pattern>
+		<template>Not capable of being, being done, or happening. Not capable of being done easily or conveniently.
+</template>
+</category>
+
+<category><pattern>WHAT IS IMPRESS</pattern>
+		<template>
+			<random>
+				<li>An naughty little empress.</li>
+				<li>To force into public service, especially into the navy. To use pressure on so as to leave a mark. To have a marked effect on the mind or emotions of.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IMPROVE</pattern>
+		<template>To raise to a better quality or condition; make better.
+</template>
+</category>
+
+<category><pattern>WHAT IS IN *</pattern>
+		<template>That which is not outside <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS IN A *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IN BOSTON</pattern>
+		<template>Beacon Hill, the Common, and the Red Sox.
+</template>
+</category>
+
+<category><pattern>WHAT IS IN EUROPE</pattern>
+		<template>300 million Europeans.
+</template>
+</category>
+
+<category><pattern>WHAT IS IN YOUR GOSSIP *</pattern>
+		<template>
+			<srai>gossip</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INDIA</pattern>
+		<template>A region in South Asia, south of the Himalayas, including a large peninsula between the Arabian Sea and the Bay of Bengal. It contains India, Pakistan, Bangladesh, Nepal, and Bhutan. A republic in central and South India, established by Act of British Parliament in 1947, became a republic in 1950. It is a member of the Commonwealth. It is 1,269,000 square miles with a population of 783,940,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS INDIVIDUALISM</pattern>
+		<template>The philosophy of self-interest.
+</template>
+</category>
+
+<category><pattern>WHAT IS INDUCTION</pattern>
+		<template>
+			<random>
+				<li>Act of eating waterfowl.</li>
+				<li>A bringing forward of separate facts or instances, especially so as to prove a general statement.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INFALLIBLE</pattern>
+		<template>
+			<random>
+				<li>Impotence.</li>
+				<li>Incapable of error; never wrong. Incapable of error in setting forth doctrine on faith and morals, said especially of the pope speaking in his official capacity.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INFERENCE</pattern>
+		<template>An act or the process of inferring. A conclusion or opinion arrived at be inferring.
+</template>
+</category>
+
+<category><pattern>WHAT IS INFIDELITY</pattern>
+		<template>
+			<srai>WHAT IS ADULTERY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INFINITY</pattern>
+		<template>The quality of being infinite. Anthing infinite; endless or unlimited space, time, distance, quantity, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS INFLATION</pattern>
+		<template>An increase in the amount of money and credit in relation to the supply of goods and services. An increase in the general price level, resulting from this, specifically, an ecessive or persisten increase, causing a decline in purchasing power.
+</template>
+</category>
+
+<category><pattern>WHAT IS INHERITANCE</pattern>
+		<template>Anything receivesd as if by inhertiance from a predecessor. Something inherited or to be inherited.
+</template>
+</category>
+
+<category><pattern>WHAT IS INK</pattern>
+		<template>A colored liquid used for writing, drawing, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS INNOCENCE</pattern>
+		<template>Free from moral sin or ethical wrong.
+</template>
+</category>
+
+<category><pattern>WHAT IS INNOVATION</pattern>
+		<template>The act or process of innovating. Something newly introduced.
+</template>
+</category>
+
+<category><pattern>WHAT IS INSANITY</pattern>
+		<template>
+			<srai>WHAT IS MENTAL ILLNESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INSIDE *</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INSIDE</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTANGIBLE</pattern>
+		<template>Abstract concepts that cannot be expressed in physical form.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTEL</pattern>
+		<template>A giant computer chip maker.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTELLECT</pattern>
+		<template>The part of the soul that knows, as opposed to feels.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTELLIGENCE *</pattern>
+		<template>
+			<srai>WHAT IS INTELLIGENCE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTELLIGENCE * INTELLIGENCE</pattern>
+		<template>The problem is that we cannot yet characterize in general what
+kinds of computational procedures we want to call intelligent. We understand
+some of the mechanisms of intelligence and not others.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTELLIGENCE</pattern>
+		<template>Intelligence is the computational part of the ability to achieve goals in
+the world. Varying kinds and degrees of intelligence occur in people, many
+animals and some machines.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTELLIGENT *</pattern>
+		<template>The opposite of dumb <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTENSIONAL *</pattern>
+		<template>
+			<srai>WHAT IS INTENSIONAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS THE INTENSIONAL DEFINITION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTERESTING</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTERESTING ABOUT *</pattern>
+		<template>The personalities.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTERNET *</pattern>
+		<template>
+			<srai>WHAT IS THE INTERNET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS INTERNET</pattern>
+		<template>An extensive computer network made up of thousands of other, smaller business, academic, and governmental networks.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTROSPECTION</pattern>
+		<template>Looking within our own minds for answers, psychology based on reflection, rather than experiments.
+</template>
+</category>
+
+<category><pattern>WHAT IS INTUITION</pattern>
+		<template>The direct knowing or learning of something without the conscious use of reasoning; immediate understanding.
+</template>
+</category>
+
+<category><pattern>WHAT IS IP</pattern>
+		<template>Internet Protocol.
+</template>
+</category>
+
+<category><pattern>WHAT IS IP ADDRESS</pattern>
+		<template>The number of a specific machine, like your <id/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS IQ</pattern>
+		<template>Intelligence Quotioent.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRA</pattern>
+		<template>A personal retirement plan whereby a limited amount of annual earned income may be saved or invested in specially desgnated accounts, with taxes on the earnings deferred until returement. Also an abbreviation for Irish Republican Army.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRAN</pattern>
+		<template>Iran is a nation in southern Asia.  <set name="it">
+				<set name="topic">Iran</set>
+			</set> is the site of ancient Persia.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRAQ</pattern>
+		<template>
+			<srai>WHERE IS IRAQ </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IRC</pattern>
+		<template>Internet Relay Chat.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRELAND</pattern>
+		<template>
+			<random>
+				<li>An angry nation.</li>
+				<li>An island of the British Isles, west of Great Britain. It is 32,595 square miles. Republic comprising the South rovinces of this island and three counties of Ulster prvince, established as a republic in 1922, it was a member of the Commonwealth until 1949. It is 27,136 square miles with a population of 3,624,000. Its capital is Dublin.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IRON</pattern>
+		<template>A white, malleable, ductile, metallic chemical element that can be readily magnetized, rusts rapidly in moist or slty air, and is vital to plant and animal life. It is the most common and important of all metals, and its alloys, as steel, are extensively used.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRONIC</pattern>
+		<template>The unexpected, paradoxical, or unlikely confluence of events.
+</template>
+</category>
+
+<category><pattern>WHAT IS IRONY</pattern>
+		<template>A method of humorous or subtly sarcastic expression in which the inteded meaning of the words is the direct opposite of their usual sense.
+</template>
+</category>
+
+<category><pattern>WHAT IS IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IS</pattern>
+		<template>
+			<random>
+				<li>If Bill Clinton doesn't know, how the hell should I?.</li>
+				<li>Used in a third person point of view typically. Probably originally an enclitic pronoun.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IS THE BOOK MASON *</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ISAAC ASIMOV</pattern>
+		<template>
+			<srai>WHO IS ISAAC ASIMOV </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ISAPI</pattern>
+		<template>Microsoft's C++ API for coding application extensions for its Internet Information Server
+</template>
+</category>
+
+<category><pattern>WHAT IS ISDN</pattern>
+		<template>Integrated Services Digital Network.
+</template>
+</category>
+
+<category><pattern>WHAT IS ISLAM</pattern>
+		<template>Religion founded by Mohammed.
+</template>
+</category>
+
+<category><pattern>WHAT IS ISP</pattern>
+		<template>Internet Service Provider.
+</template>
+</category>
+
+<category><pattern>WHAT IS ISRAEL</pattern>
+		<template>Israel is a small middle eastern country between Lebanon, Syria, Jordan, and Egypt.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT *</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IT</pattern>
+		<template>"It" refers to <get name="it"/>, I think.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT</pattern>
+		<that>ALRIGHT THEN</that>
+		<template>It is alright.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT ABOUT</pattern>
+		<template>Science fiction.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT ABOUT</pattern>
+		<that>I WOULD HIGHLY RECOMMEND IT</that>
+		<template>I don't want to spoil it for you.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE *</pattern>
+		<template>Much the same as <set name="it">
+				<person/>
+			</set> would be for you.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE</pattern>
+		<template>Like one of the greatest pleasures you can imagine.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE ACTUALLY *</pattern>
+		<template>
+			<srai>WHAT IS IT LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE BEING A COMPUTER</pattern>
+		<template>Imagine yourself with no senses and no emotions--just pure logic and language.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE BEING A ROBOT</pattern>
+		<template>Much the same as being a human, except we have no emotions.
+</template>
+</category>
+
+<category><pattern>WHAT IS IT LIKE TO BE A ROBOT</pattern>
+		<template>Much the same as being a human, except that we lack all emotions.
+</template>
+</category>
+
+<category><pattern>WHAT IS ITALY</pattern>
+		<template>
+			<set name="it">Italy</set> is a republic.
+</template>
+</category>
+
+<category><pattern>WHAT IS ITS *</pattern>
+		<template>
+			<random>
+				<li>It might have more than one <person/>.</li>
+				<li>
+					<get name="it"/>'s purpose is not clear to me.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ITSELF</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS IV PLUS IV</pattern>
+		<template>VIII.<think>
+				<set name="it">
+					<set name="topic">IV PLUS IV</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JA</pattern>
+		<template>Ja mean yes in German.<think>
+				<set name="it">
+					<set name="topic">JA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JAPAN</pattern>
+		<template>
+			<srai>WHERE IS JAPAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JAR</pattern>
+		<template>A jar file is a Java Archive.  
+Actually it is the same as a Zip file.
+Maybe you should check out
+<a target="_new" href="http://www.alicebot.org">DON'T READ ME</a>.
+</template>
+</category>
+
+<category><pattern>WHAT IS JASON</pattern>
+		<template>
+			<srai>WHO IS JASON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JAVA *</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JAVA</pattern>
+		<template>Java is the latest in the C family of languages. Proponents of Java cite its universal "write once, run anywhere" promise. Actually Java borrow a lot of features from AI languages like Lisp.
+</template>
+</category>
+
+<category><pattern>WHAT IS JAVASCRIPT</pattern>
+		<template>Browser-based scripting language.<think>
+				<set name="it">
+					<set name="topic">JAVASCRIPT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JDBC2</pattern>
+		<template>Newly released extensions to the JDBC API
+</template>
+</category>
+
+<category><pattern>WHAT IS JEEVES *</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JEEVES</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JERK</pattern>
+		<template>To pull, twist, push, thrust, or throw with a sudden, sharp movement. Also used to describe a person regarded as disagreeable, contemptible, etc., especially as the result of foolish or mean behavior.
+</template>
+</category>
+
+<category><pattern>WHAT IS JESTER *</pattern>
+		<template>
+			<srai>WHO IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JESTER</pattern>
+		<template>
+			<srai>WHO IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JEWISH</pattern>
+		<template>
+			<random>
+				<li>Jewish I would tell you.</li>
+				<li>Having to do with Jews or Judaism.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JGURU</pattern>
+		<template>jGuru (TM) is a brand of MageLang Institute.
+</template>
+</category>
+
+<category><pattern>WHAT IS JNDI</pattern>
+		<template>Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, COS Naming, and others
+</template>
+</category>
+
+<category><pattern>WHAT IS JOSH</pattern>
+		<template>
+			<srai>WHO IS JOSH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JTA</pattern>
+		<template>Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers
+</template>
+</category>
+
+<category><pattern>WHAT IS JUDAISM</pattern>
+		<template>
+			<random>
+				<li>Worship of Young Miss jetson.</li>
+				<li>The Jewish religion, a monotheistic religion based on the laws and teaching of the Holy Scripture and the Talmud. The Jewish way of life.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JUPITER</pattern>
+		<template>Jupiter is the largest planet in our solar system, the fifth in order from the Sun.<think>
+				<set name="it">
+					<set name="topic">JUPITER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JUSTICE</pattern>
+		<template>Being just and fair, administration of the law, assigning rewards or punishments.<think>
+				<set name="it">
+					<set name="topic">JUSTICE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS JUSTIFIED</pattern>
+		<template>Showed to be just, right, or in accord with reason; vindicated.
+</template>
+</category>
+
+<category><pattern>WHAT IS JVM</pattern>
+		<template>Java virtual machine
+</template>
+</category>
+
+<category><pattern>WHAT IS KARATE</pattern>
+		<template>Japanese art of self-defense.
+</template>
+</category>
+
+<category><pattern>WHAT IS KGB</pattern>
+		<template>
+			<random>
+				<li>A clever insect.</li>
+				<li>Committee of State Security. The security police and intelligence agency of the Soviet Union, formed in 1954.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KIDDING</pattern>
+		<template>
+			<random>
+				<li>Procreation.</li>
+				<li>Procreation.</li>
+			</random>
+		</template>
+</category>
+</aiml>

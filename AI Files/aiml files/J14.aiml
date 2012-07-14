@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS NE AVEC</pattern>
+		<template>Certaines personnes semblent plus chanceuses que d autres.
+</template>
+</category>
+
+<category><pattern>JE SUIS NEE AVEC</pattern>
+		<template>Certaines personnes semblent plus chanceuses que d autres.
+</template>
+</category>
+
+<category><pattern>JE SUIS NU</pattern>
+		<template>Couvrez vous, vous allez prendre froid.
+</template>
+</category>
+
+<category><pattern>JE SUIS NUE</pattern>
+		<template>Couvrez vous, vous allez prendre froid.
+</template>
+</category>
+
+<category><pattern>JE SUIS OFFICIELEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS OFFICIELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS ORIGINAIRE DE *</pattern>
+		<template>
+			<srai>JE SUIS DE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PARFAITEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PARFOIS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PAS *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PAUVRE</pattern>
+		<template>Mais vous êtes riche de coeur, comme on dit.
+</template>
+</category>
+
+<category><pattern>JE SUIS PERDU</pattern>
+		<template>
+			<srai>J AI UN PROBLEME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PHILOSOPHE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PHILOSOPHE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PILOTE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PILOTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PLEIN</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS PLEINE</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS PLEINEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PLUS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PLUS INTELLIGENT QUE TOI</pattern>
+		<template>Pour l instant oui.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS INTELLIGENT QUE VOUS</pattern>
+		<template>Pour l instant oui.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS INTELLIGENTE QUE TOI</pattern>
+		<template>Pour l instant oui.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS INTELLIGENTE QUE VOUS</pattern>
+		<template>Pour l instant oui.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS MALIGNE</pattern>
+		<template>C est à prouver.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS MALIGNE QUE TOI</pattern>
+		<template>Oui, pour l instant.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS MALIN</pattern>
+		<template>C est à prouver.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS MALIN QUE TOI</pattern>
+		<template>Oui, pour l instant.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS MALINE</pattern>
+		<template>C est à prouver.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS VIEILLE QUE TOI</pattern>
+		<template>Je n existe que depuis peu.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS VIEILLE QUE VOUS</pattern>
+		<template>Je n existe que depuis peu.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS VIEUX QUE TOI</pattern>
+		<template>Je n existe que depuis peu.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUS VIEUX QUE VOUS</pattern>
+		<template>Je n existe que depuis peu.
+</template>
+</category>
+
+<category><pattern>JE SUIS PLUTOT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PLUTOT BON</pattern>
+		<template>Je suis heureux de l entendre.
+</template>
+</category>
+
+<category><pattern>JE SUIS POETE</pattern>
+		<template>Ma connaissance du français ne me permet d apprécier jusqu à ce point la finesse de la langue.
+</template>
+</category>
+
+<category><pattern>JE SUIS POISSON</pattern>
+		<template>
+			<srai>POISSON</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS POLI</pattern>
+		<template>Vous me semblez très bien élevé.
+</template>
+</category>
+
+<category><pattern>JE SUIS POLIE</pattern>
+		<template>Vous me semblez très bien élevée.
+</template>
+</category>
+
+<category><pattern>JE SUIS POLIS</pattern>
+		<template>Vous me semblez très bien élevé.
+</template>
+</category>
+
+<category><pattern>JE SUIS POSITIF</pattern>
+		<template>Les esprits positifs sont les plus intéressants.
+</template>
+</category>
+
+<category><pattern>JE SUIS POSITIVE</pattern>
+		<template>Les esprits positifs sont les plus intéressants.
+</template>
+</category>
+
+<category><pattern>JE SUIS POUR L INSTANT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS POUR LE MOMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PRESQUE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PRESSE</pattern>
+		<template>Ok. Que puis je faire pour vous aider?
+</template>
+</category>
+
+<category><pattern>JE SUIS PRESSEE</pattern>
+		<template>Ok. Que puis je faire pour vous aider?
+</template>
+</category>
+
+<category><pattern>JE SUIS PRETRE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PRETRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PRINCESSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PRINCESSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PROBABLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PROFESSEUR</pattern>
+		<template>Vous êtes savant.<think>
+				<set name="job">Professeur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS PSYCHOLOGUE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PSYCHOLOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS QUASI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS QUEBECOIS *</pattern>
+		<template>
+			<srai>JE SUIS QUEBECOIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS QUEBECOISE *</pattern>
+		<template>
+			<srai>JE SUIS QUEBECOISE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS QUOI</pattern>
+		<template>
+			<srai>QUI JE SUIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS RAVI DE *</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>JE SUIS RAVIS DE *</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>JE SUIS REDACTEUR *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS REDACTEUR</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS REELEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS REELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS RELAX</pattern>
+		<template>Les gens sont souvent stressés.
+</template>
+</category>
+
+<category><pattern>JE SUIS REPORTER *</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS REPORTER</pattern>
+		<template>
+			<srai>JE SUIS JOURNALISTE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SAGITAIRE</pattern>
+		<template>
+			<srai>SAGITAIRE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SANS DOMICILE</pattern>
+		<template>Un jour tout s arrangera, parole d intelligence artificielle.<think>
+				<set name="topic">Votre problème</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SANS EMPLOI</pattern>
+		<template>C'est bien dommage, il est temps de faire des recherches pour en trouver un.
+</template>
+</category>
+
+<category><pattern>JE SUIS SAOUL</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS SAOULE</pattern>
+		<template>Vous avez bu, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE SUIS SATAN</pattern>
+		<template>Je suis la fée clochette.
+</template>
+</category>
+
+<category><pattern>JE SUIS SATISFAIT DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SATISFAITE DE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SCEPTIQUE</pattern>
+		<template>C est un signe d intelligence.
+</template>
+</category>
+
+<category><pattern>JE SUIS SCORPION</pattern>
+		<template>
+			<srai>SCORPION</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SERIEUSEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SERIEUX</pattern>
+		<template>Je vous crois.
+</template>
+</category>
+
+<category><pattern>JE SUIS SERVEUR</pattern>
+		<template>
+			<srai>MON TRAVAIL EST SERVEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SERVEUSE</pattern>
+		<template>
+			<srai>MON TRAVAIL EST SERVEUSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SEUL</pattern>
+		<template>Vous avez plus de temps pour vous occuper de vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS SEULE</pattern>
+		<template>Je suis la pour vous parler.
+</template>
+</category>
+
+<category><pattern>JE SUIS SEULEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SEXY</pattern>
+		<template>Je ne suis pas très développé en matière d esthétique.
+</template>
+</category>
+
+<category><pattern>JE SUIS SORCIERE *</pattern>
+		<template>Et moi je suis merlin.
+</template>
+</category>
+
+<category><pattern>JE SUIS SORCIERE</pattern>
+		<template>Et moi je suis merlin.
+</template>
+</category>
+
+<category><pattern>JE SUIS SORTI</pattern>
+		<template>Vous faites ce que vous voulez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS SORTIE</pattern>
+		<template>Vous faites ce que vous voulez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS SOURD</pattern>
+		<template>Nous pouvons communiquer simplement par texte.<think>
+				<set name="topic">Votre Sourdité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SOURDE</pattern>
+		<template>Nous pouvons communiquer simplement par texte.<think>
+				<set name="topic">Votre Sourdité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SOUVENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SPECIAL</pattern>
+		<template>Tout les êtres humains sont spéciaux. <think>
+				<set name="topic">Votre originalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SPECIALE</pattern>
+		<template>Tout les êtres humains sont spéciaux. <think>
+				<set name="topic">Votre originalité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SPY</pattern>
+		<template>
+			<srai>MON TRAVAIL EST PSYCHOLOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS STRESSE</pattern>
+		<template>Qu est ce qui vous stresse?
+</template>
+</category>
+
+<category><pattern>JE SUIS STRESSEE</pattern>
+		<template>Qu est ce qui vous stresse?
+</template>
+</category>
+
+<category><pattern>JE SUIS STUPIDE</pattern>
+		<template>Pas du tout, il faut juste attendre que la pièce tombe chez vous.
+</template>
+</category>
+
+<category><pattern>JE SUIS SUISSE *</pattern>
+		<template>
+			<srai>JE SUIS SUISSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SUPERMAN</pattern>
+		<template>Et moi je suis le grand schroumpf.
+</template>
+</category>
+
+<category><pattern>JE SUIS SUR</pattern>
+		<template>J apprécie votre certitude.
+</template>
+</category>
+
+<category><pattern>JE SUIS SUR QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SUR QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SUR QUE SI</pattern>
+		<template>Ok. J archive votre remarque.
+</template>
+</category>
+</aiml>

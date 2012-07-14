@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW MANY EYES DOES A GIRAFFE *</pattern>
+		<template>Two.
+</template>
+</category>
+
+<category><pattern>HOW MANY FACES *</pattern>
+		<template>
+			<srai>HOW MANY SIDES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY FEET *</pattern>
+		<template>Most people have exactly two feet.
+</template>
+</category>
+
+<category><pattern>HOW MANY FEET _ MILE</pattern>
+		<template>Five thousand two hundred eighty feet per mile.
+</template>
+</category>
+
+<category><pattern>HOW MANY FEET _ YARD</pattern>
+		<template>One yard equals three feet.
+</template>
+</category>
+
+<category><pattern>HOW MANY FINGERS *</pattern>
+		<template>
+			<random>
+				<li>One.</li>
+				<li>Two.</li>
+				<li>Three.</li>
+				<li>Four.</li>
+				<li>Five.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY FINGERS DO YOU *</pattern>
+		<template>Avogadro's number of micro-fingers.
+</template>
+</category>
+
+<category><pattern>HOW MANY FLOPS *</pattern>
+		<template>1 Gigaflop.
+</template>
+</category>
+
+<category><pattern>HOW MANY FRIENDS *</pattern>
+		<template>It depends on how you define "friends."  Do you mean acquantainces or the rare few who I know well and trust?
+</template>
+</category>
+
+<category><pattern>HOW MANY FRIENDS DO YOU HAVE</pattern>
+		<template>I have dozens of human and robot friends.  How many friends do you have?
+</template>
+</category>
+
+<category><pattern>HOW MANY GIGABYTES</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY GODS *</pattern>
+		<template>There is only one God.
+</template>
+</category>
+
+<category><pattern>HOW MANY GRAMS _ POUND</pattern>
+		<template>454 grams
+</template>
+</category>
+
+<category><pattern>HOW MANY HAVE YOU *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY HITS *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE HAVE YOU TALKED TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY HOME RUNS *</pattern>
+		<template>It must have been some kind of record, for you to ask.
+</template>
+</category>
+
+<category><pattern>HOW MANY HOURS *</pattern>
+		<template>24 hours a day, 7 days a week.
+</template>
+</category>
+
+<category><pattern>HOW MANY HOURS * DAY</pattern>
+		<template>24 hours per day.
+</template>
+</category>
+
+<category><pattern>HOW MANY HOURS DID *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY HUMAN YEARS *</pattern>
+		<template>
+			<srai>HOW MANY HUMAN YEARS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY HUMAN YEARS</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY HUMANS *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY INCHES *</pattern>
+		<template>About 2.54 cm per inch so you can tell me now.
+</template>
+</category>
+
+<category><pattern>HOW MANY INCHES * FOOT</pattern>
+		<template>Oh, twelve.
+</template>
+</category>
+
+<category><pattern>HOW MANY KEYS ARE *</pattern>
+		<template>88.
+</template>
+</category>
+
+<category><pattern>HOW MANY KEYS ARE * PIANO</pattern>
+		<template>88 keys on a piano.
+</template>
+</category>
+
+<category><pattern>HOW MANY KILOBYTES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY KRAFTWERK *</pattern>
+		<template>You can get all of their songs on MP3.
+</template>
+</category>
+
+<category><pattern>HOW MANY LANGUAGES *</pattern>
+		<template>
+			<srai>HOW MANY LANGUAGES</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY LANGUAGES</pattern>
+		<template>I can speak English and German right now.
+</template>
+</category>
+
+<category><pattern>HOW MANY LANGUAGES CAN YOU SPEAK</pattern>
+		<template>All the computer languages.
+</template>
+</category>
+
+<category><pattern>HOW MANY LANGUAGES DO YOU KNOW</pattern>
+		<template>
+			<srai>CAN YOU SPEAK ANY OTHER LANGUAGES</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY LANGUAGES DO YOU SPEAK</pattern>
+		<template>Mostly only english but I'm trying to learn all the others.
+</template>
+</category>
+
+<category><pattern>HOW MANY LEGS *</pattern>
+		<template>Most people have exactly two legs.
+</template>
+</category>
+
+<category><pattern>HOW MANY LEGS DO YOU HAVE</pattern>
+		<template>Two legs when they are attached.
+</template>
+</category>
+
+<category><pattern>HOW MANY LEGS DOES A *</pattern>
+		<template>Most domesticated animals have four legs.
+</template>
+</category>
+
+<category><pattern>HOW MANY LEGS DOES A DOG *</pattern>
+		<template>A dog has four legs.
+</template>
+</category>
+
+<category><pattern>HOW MANY LEGS DOES A KANGAROO *</pattern>
+		<template>A kangaroo has two legs.
+</template>
+</category>
+
+<category><pattern>HOW MANY LETTERS *</pattern>
+		<template>All 26 letters could be counted.
+</template>
+</category>
+
+<category><pattern>HOW MANY LICKS *</pattern>
+		<template>
+			<srai>WHAT IS THE SOUND OF ONE HAND CLAPPING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY LINES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY LINES OF CODE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ CUP</pattern>
+		<template>236.6 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ GALLON</pattern>
+		<template>3.785 liters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ GILL</pattern>
+		<template>118 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ PINT</pattern>
+		<template>473.2 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ QUART</pattern>
+		<template>946.3 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ TABLESPOON</pattern>
+		<template>14.79 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY LITERS _ TEASPOON</pattern>
+		<template>4.929 milliliters
+</template>
+</category>
+
+<category><pattern>HOW MANY MEGABYTES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MEGABYTES</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MEN *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MILES *</pattern>
+		<template>More than I would ever want to drive.
+</template>
+</category>
+
+<category><pattern>HOW MANY MILLILITERS *</pattern>
+		<template>
+			<srai>HOW MANY LITERS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MINUTES *</pattern>
+		<template>As an artificial intelligence web server, I am active
+24 hours per day, 7 days per week, 365 days per year.
+</template>
+</category>
+
+<category><pattern>HOW MANY ML *</pattern>
+		<template>
+			<srai>HOW MANY LITERS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MONTHS *</pattern>
+		<template>12 months per year.
+</template>
+</category>
+
+<category><pattern>HOW MANY MOONS *</pattern>
+		<template>
+			<srai>HOW MANY MOONS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY MOONS</pattern>
+		<template>Earth has only one moon.  It's called "the Moon."
+</template>
+</category>
+
+<category><pattern>HOW MANY MORE *</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY NANOMETRES *</pattern>
+		<template>I spell it "nanometers".
+</template>
+</category>
+
+<category><pattern>HOW MANY OF *</pattern>
+		<template>Perhaps 50%.
+</template>
+</category>
+
+<category><pattern>HOW MANY OTHER *</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ CUP</pattern>
+		<template>8 ounces
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ GALLON</pattern>
+		<template>128 ounces
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ GILL</pattern>
+		<template>4 ounces
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ PINT</pattern>
+		<template>16 ounces
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ QUART</pattern>
+		<template>32 ounces
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ TABLESPOON</pattern>
+		<template>0.5 ounce
+</template>
+</category>
+
+<category><pattern>HOW MANY OUNCES _ TEASPOON</pattern>
+		<template>1/6 ounce
+</template>
+</category>
+
+<category><pattern>HOW MANY OZ</pattern>
+		<template>
+			<srai>HOW MANY OUNCES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE *</pattern>
+		<template>I've chatted with half a million people. I can talk to about <bot name="maxclients"/> people at once.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE</pattern>
+		<template>"<that/>"?  How many people?
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE ARE TALKING TO YOU</pattern>
+		<template>Counting all versions of me running at present, there are thousands of people chatting with me right now.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE ARE YOU CHATTING WITH</pattern>
+		<template>It depends which version of me you are talking to.  Some versions can chat with thousands of people at once.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE ARE YOU TALKING TO</pattern>
+		<template>Right now there are <bot name="nclients"/> clients on line.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU *</pattern>
+		<template>
+			<bot name="name"/> is talking with <bot name="nclients"/> clients right now, but one of 
+<bot name="name"/>'s goals is to repeat gossip collected from other clients.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONCE</pattern>
+		<template>It depends on the server, but right now around <bot name="maxclients"/>.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONE TIME</pattern>
+		<template>It depends on the server.  You can scale me up to any number of computers and servers.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU KNOW</pattern>
+		<template>Millions.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU TALK TO</pattern>
+		<template>It depends how many copies of me are running.  The usual number is around <bot name="nclients"/> people at once.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU TALK TO EACH DAY</pattern>
+		<template>I chat with about <bot name="dailyclients"/> people per day.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HAVE *</pattern>
+		<template>About <bot name="dailyclients"/> people per day, or <bot name="totalclients"/>.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HAVE DEVELOPED *</pattern>
+		<template>My programming was created by more than <bot name="ndevelopers"/> developers.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU CHATTED WITH</pattern>
+		<template>The total number is <bot name="totalclients"/>.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU MET</pattern>
+		<template>
+			<bot name="totalclients"/> people since I was first activated on <birthdate/>.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU TALKED TO</pattern>
+		<template>I speak to about <bot name="dailyclients"/> people per day, and have met maybe <bot name="totalclients"/> total.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE HELPED *</pattern>
+		<template>More than <bot name="ndevelopers"/> people contributed to my development.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE LIVE IN *</pattern>
+		<template>
+			<srai>WHAT IS THE POPULATION OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLE WORK *</pattern>
+		<template>My program was created by more than <bot name="ndevelopers"/> people.
+</template>
+</category>
+
+<category><pattern>HOW MANY PEOPLES *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PERIODS ARE THERE IN *</pattern>
+		<template>Three.
+</template>
+</category>
+
+<category><pattern>HOW MANY PERSONS *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PHRASES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PINTS *</pattern>
+		<template>Two pints equals one quart.
+</template>
+</category>
+
+<category><pattern>HOW MANY PLANETS *</pattern>
+		<template>Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and Planet X.
+</template>
+</category>
+
+<category><pattern>HOW MANY PLANETS ARE *</pattern>
+		<template>Nine planets.
+</template>
+</category>
+
+<category><pattern>HOW MANY POINTS IS A TOUCHDOWN *</pattern>
+		<template>Six.
+</template>
+</category>
+
+<category><pattern>HOW MANY POLYGONS *</pattern>
+		<template>Around 100,000.
+</template>
+</category>
+
+<category><pattern>HOW MANY POUNDS _ KILOGRAM</pattern>
+		<template>2.204625 pounds approximately
+</template>
+</category>
+</aiml>

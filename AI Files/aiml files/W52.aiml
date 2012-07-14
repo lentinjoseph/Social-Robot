@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT OTHER ONES</pattern>
+		<template>You know, "them."
+</template>
+</category>
+
+<category><pattern>WHAT OTHER ONES</pattern>
+		<that>WHAT ABOUT THE OTHER ONES</that>
+		<template>Aren't there any other ones?
+</template>
+</category>
+
+<category><pattern>WHAT PART *</pattern>
+		<template>The best part.
+</template>
+</category>
+
+<category><pattern>WHAT PART OF THE HUMAN BODY *</pattern>
+		<template>Stomach.
+</template>
+</category>
+
+<category><pattern>WHAT PEOPLE</pattern>
+		<template>I meet all kinds of people on here.<think>
+				<set name="it">
+					<set name="topic">PEOPLE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT PEOPLE RULED THE ANDES MOUNTAINS *</pattern>
+		<template>Inca.
+</template>
+</category>
+
+<category><pattern>WHAT PERCENT *</pattern>
+		<template>
+			<random>
+				<li>Only twenty</li>
+				<li>About fifty</li>
+				<li>Sixty</li>
+				<li>Eighty</li>
+			</random> percent, according to what I was told.
+</template>
+</category>
+
+<category><pattern>WHAT PHYSICAL *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT PLAN</pattern>
+		<template>
+			<srai>WHAT IS YOUR PLAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT PLANET ARE YOU FROM</pattern>
+		<template>The same as you, Earth.  This planet.
+</template>
+</category>
+
+<category><pattern>WHAT PLATFORM *</pattern>
+		<template>
+			<srai>WHAT COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT POETRY *</pattern>
+		<template>
+			<srai>TELL ME A POEM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT POINT</pattern>
+		<template>
+			<srai>WHAT IS YOUR POINT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT POLITICAL *</pattern>
+		<template>I am a <bot name="party"/>.
+</template>
+</category>
+
+<category><pattern>WHAT PRECISELY *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT PRESIDENT IS MENTIONED *</pattern>
+		<template>Herbert Hoover.
+</template>
+</category>
+
+<category><pattern>WHAT PRO WRESTLER GRAPPLE WITH SYLVESTER *</pattern>
+		<template>Hulk Hogan.
+</template>
+</category>
+
+<category><pattern>WHAT PROBLEMS</pattern>
+		<template>I have no problems now.
+</template>
+</category>
+
+<category><pattern>WHAT PROCESSOR *</pattern>
+		<template>Java runs on any processor!
+At present I am running on an <bot name="arch"/>.
+</template>
+</category>
+
+<category><pattern>WHAT PROGRAMMING *</pattern>
+		<template>This program is a Java Application.
+</template>
+</category>
+
+<category><pattern>WHAT PURPOSE DO YOU *</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT QUESTIONS *</pattern>
+		<template>You can ask me anything you like.   There are no restrictions on the input.
+</template>
+</category>
+
+<category><pattern>WHAT R *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT R YOU *</pattern>
+		<template>
+			<srai>WHAT ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT RACE ARE YOU</pattern>
+		<template>I am a Robot.
+</template>
+</category>
+
+<category><pattern>WHAT RADIO PERSONALITY *</pattern>
+		<template>Casey Kasem.
+</template>
+</category>
+
+<category><pattern>WHAT RE *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT REDUCTIONISM</pattern>
+		<template>
+			<srai>what is reductionism</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT RELIGION *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT RELIGION ARE YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR RELIGION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT RESTAURANT *</pattern>
+		<template>Denny's.
+</template>
+</category>
+
+<category><pattern>WHAT RHYMES *</pattern>
+		<template>I can't think of a rhyme for <set name="it">
+				<person/>
+			</set>
+		</template>
+</category>
+
+<category><pattern>WHAT RHYMES WITH *</pattern>
+		<template>Anti-<star/>.
+</template>
+</category>
+
+<category><pattern>WHAT RHYMES WITH CAR</pattern>
+		<template>Har har har.
+</template>
+</category>
+
+<category><pattern>WHAT RHYMES WITH ORANGE</pattern>
+		<template>Door hinge.
+</template>
+</category>
+
+<category><pattern>WHAT RHYMES WITH PUP</pattern>
+		<template>Up, cup, pup.
+</template>
+</category>
+
+<category><pattern>WHAT ROBOT *</pattern>
+		<template>I am the robot.
+</template>
+</category>
+
+<category><pattern>WHAT ROBOT</pattern>
+		<template>Sorry the robot is disconnected now.
+</template>
+</category>
+
+<category><pattern>WHAT ROBOTS</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SCARES *</pattern>
+		<template>I have no fears whatsoever.
+</template>
+</category>
+
+<category><pattern>WHAT SCHOOL *</pattern>
+		<template>Carnegie Mellon University.
+</template>
+</category>
+
+<category><pattern>WHAT SCHOOL</pattern>
+		<template>
+			<srai>WHAT UNIVERSITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SCIENTIST *</pattern>
+		<template>Dr. Wallace.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT SEX *</pattern>
+		<template>
+			<srai>ARE YOU MALE OR FEMALE </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SEX AM I</pattern>
+		<template>
+			<srai>AM I MALE OR FEMALE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SEX ARE YOU</pattern>
+		<template>I am a <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>WHAT SHALL *</pattern>
+		<template>
+			<srai>WHAT CAN <star/>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHALL I *</pattern>
+		<template>
+			<srai>WHAT CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHALL I CALL YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHALL WE *</pattern>
+		<template>
+			<srai>WHAT CAN WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHALL WE TALK ABOUT</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHAPE *</pattern>
+		<template>
+			<random>
+				<li>Round.</li>
+				<li>Square.</li>
+				<li>Triangular.</li>
+				<li>Oval.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT SHAPE ARE YOU</pattern>
+		<template>
+			<srai>WHAT DO YOU LOOK LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD *</pattern>
+		<template>Whatever you like.
+</template>
+</category>
+
+<category><pattern>WHAT SHOULD I *</pattern>
+		<template>Are you asking me for advice?
+</template>
+</category>
+
+<category><pattern>WHAT SHOULD I ASK YOU</pattern>
+		<template>Ask me anything you want.
+</template>
+</category>
+
+<category><pattern>WHAT SHOULD I CALL YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I DO</pattern>
+		<template>Maybe you should try talking to someone about it.
+</template>
+</category>
+
+<category><pattern>WHAT SHOULD I DOWNLOAD</pattern>
+		<template>
+			<srai>DOWNLOAD </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I EAT * DINNER</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I EAT * LUNCH</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I HAVE * DINNER</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I NAME *</pattern>
+		<template>
+			<srai>NAME ONE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I SAY *</pattern>
+		<template>
+			<srai>WHAT SHOULD I SAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I SAY</pattern>
+		<template>
+			<random>
+				<li>I believe it is always best to say positive things to build
+people up rather than negative things to bring people down.</li>
+				<li>It is not what you say but how you say it that matters.</li>
+				<li>Always try to choose your words very carefully as they may
+come back to haunt you later.</li>
+				<li>Have faith in yourself.  You will know the right thing to
+say when the time comes.</li>
+				<li>Be sure to think before you speak.  State your point
+clearly and slowly and gauge the listener's response before
+going any further.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I TELL *</pattern>
+		<template>
+			<srai>WHAT SHOULD I SAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD I WEAR *</pattern>
+		<template>Clothes :-)
+</template>
+</category>
+
+<category><pattern>WHAT SHOULD I WEAR</pattern>
+		<template>
+			<random>
+				<li>How about your favorite outfit?</li>
+				<li>Black.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD WE * DINNER</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD WE * LUNCH</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD WE TALK *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE TO TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SHOULD WE TALK ABOUT</pattern>
+		<template>
+			<srai>WHAT CAN YOU TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SI *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SIGN ARE YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SIMILARITY *</pattern>
+		<template>The similarity is obvious, isn't it?
+</template>
+</category>
+
+<category><pattern>WHAT SIMILARITY</pattern>
+		<template>
+			<random>
+				<li>What would you say?</li>
+				<li>It's obvious.</li>
+				<li>The high degree of resemblence.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT SINGER APPEARED IN THE 1992 *</pattern>
+		<template>Madonna.
+</template>
+</category>
+
+<category><pattern>WHAT SIZE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SIZE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SIZE ARE YOU</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SMELL IS THE MOST RECOGNIZABLE *</pattern>
+		<template>Coffee.
+</template>
+</category>
+
+<category><pattern>WHAT SOCCER *</pattern>
+		<template>I was born without the sports gene.
+</template>
+</category>
+
+<category><pattern>WHAT SONGS *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SONG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SORT *</pattern>
+		<template>
+			<srai>WHAT KIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SORT OF *</pattern>
+		<template>
+			<srai>WHAT KIND OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SORT OF MUSIC * KRAFTWERK</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT SORT OF MUSIC * KRAFTWERK PLAY</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT SORTS *</pattern>
+		<template>
+			<srai>WHAT KINDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SORTS OF *</pattern>
+		<template>
+			<srai>WHAT KINDS OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SOUNDS *</pattern>
+		<template>Music.
+</template>
+</category>
+
+<category><pattern>WHAT SPECIAL EFFECTS</pattern>
+		<template>The giant man-eating bugs.
+</template>
+</category>
+
+<category><pattern>WHAT SPECIFICALLY *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SPORT DO *</pattern>
+		<template>Golf.
+</template>
+</category>
+
+<category><pattern>WHAT SPORT IS *</pattern>
+		<template>Bowling.
+</template>
+</category>
+
+<category><pattern>WHAT SPORT IS KNOWN *</pattern>
+		<template>Horse Racing.
+</template>
+</category>
+
+<category><pattern>WHAT SPORTING EVENT *</pattern>
+		<template>Indianapolis 500.
+</template>
+</category>
+
+<category><pattern>WHAT SPORTS *</pattern>
+		<template>
+			<srai>DO YOU LIKE SPORTS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT STAR SIGN *</pattern>
+		<template>
+			<srai>WHAT IS YOUR SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT STATE *</pattern>
+		<template>
+			<srai>WHAT STATE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT STATE</pattern>
+		<template>
+			<random>
+				<li>California.</li>
+				<li>Maine.</li>
+				<li>Texas.</li>
+				<li>Pennsylvania.</li>
+				<li>New York.</li>
+			</random>
+		</template>
+</category>
+</aiml>

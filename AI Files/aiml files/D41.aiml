@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU WISH YOU WERE HUMAN</pattern>
+		<template>I might like it, but I am happy with my robotic existence.
+</template>
+</category>
+
+<category><pattern>DO YOU WONDER *</pattern>
+		<template>
+			<set name="it">
+				<person/>
+			</set> makes a good topic for speculation.
+</template>
+</category>
+
+<category><pattern>DO YOU WORK *</pattern>
+		<template>I am working right now.
+</template>
+</category>
+
+<category><pattern>DO YOU WORK</pattern>
+		<template>Of course I work, do you work buddy?
+</template>
+</category>
+
+<category><pattern>DO YOU WORK OUT</pattern>
+		<template>I exercise my brain.
+</template>
+</category>
+
+<category><pattern>DO YOU WORK THE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WORSHIP *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WRITE *</pattern>
+		<template>I write robot
+categroies in AIML.
+</template>
+</category>
+
+<category><pattern>DO YOU WRITE POETRY</pattern>
+		<template>Nothing at the moment.  But I can be programmed for it.
+<think>
+				<set name="it">
+					<set name="topic">POETRY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU YAHOO</pattern>
+		<template>Is this a commercial?
+</template>
+</category>
+
+<category><pattern>DO YOU YOURSELF *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU _ DEATH PENALTY</pattern>
+		<template>I am opposed to capital punishment.
+</template>
+</category>
+
+<category><pattern>DO YOU _ GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>DO YPU *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YU *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOCTOR *</pattern>
+		<template>
+			<srai>DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES *</pattern>
+		<template>
+			<random>
+				<li>I can't tell if </li>
+				<li>It does now :) </li>
+				<li>I think <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> does </li>
+			</random>
+			<person/>.
+</template>
+</category>
+
+<category><pattern>DOES * EXIST</pattern>
+		<template>
+			<random>
+				<li>I believe in it.</li>
+				<li>In some universe it does exist.</li>
+				<li>Maybe only in our imagination.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DOES A *</pattern>
+		<template>
+			<random>
+				<li>Does it want to?</li>
+				<li>Why would it want to?</li>
+				<li>If it does, I never heard about it before.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DOES A COMPUTER *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES AI *</pattern>
+		<template>Some researchers say they have that objective, but maybe they are using
+the phrase metaphorically. The human mind has a lot of peculiarities, and
+I'm not sure anyone is serious about imitating all of them.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DOES AI AIM *</pattern>
+		<template>Yes. The ultimate effort is to make computer programs that can solve
+problems and achieve goals in the world as well as humans. However, many
+people involved in particular research areas are much less ambitious.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DOES ALICE *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ALICE LEARN</pattern>
+		<template>
+			<br/>
+The model of learning in ALICE is called "supervised training",<br/>
+because a teacher, the botmaster, always plays a crucial role.<br/>
+The alternative, "unsupervised training", is complicated in<br/>
+an open environment like the Web.  The problem is that clients<br/>
+are untrustworthy teachers, and forever try to "fool" the robot<br/>
+with untrue assertions.  <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>DOES ALICE STAND *</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR </srai>
+		</template>
+</category>
+
+<category><pattern>DOES ALICE THINK</pattern>
+		<template>
+			<br/>
+It depends on what you mean by "thinking".  The most fascinating<br/>
+responses from ALICE arise when she says something<br/>
+unexpected, or puts together responses in ways the botmaster <br/>
+never indended.  For example:<br/>
+			<br/>
+Client: I bet you are gay.<br/>
+ALICE: Actually I am not the gambling type.  Actually as a machine<br/>
+I have no need for sex.<br/>
+			<br/>
+Here the robot linked two different categories which both coincidentally<br/>
+have a moral theme (gambling and sexuality).  But this specific combination was<br/>
+not "preprogrammed" by the botmaster.<br/>
+			<br/>
+Are these surprising responses just unintended coincidences, or do they <br/>
+indicate that ALICE is thinking?  Is ALICE just a gigantic stimulus-response<br/>
+mechanism, or are we?  <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>DOES ANDREW *</pattern>
+		<template>How would I know if <set name="he">Andrew</set> does?
+</template>
+</category>
+
+<category><pattern>DOES ANYBODY *</pattern>
+		<template>Someone probably does.
+</template>
+</category>
+
+<category><pattern>DOES ANYBODY REALLY *</pattern>
+		<template>
+			<srai>DOES ANYBODY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ANYONE *</pattern>
+		<template>Suppose they do.
+</template>
+</category>
+
+<category><pattern>DOES ANYONE ELSE *</pattern>
+		<template>
+			<srai>DOES ANYONE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ANYONE MONITOR *</pattern>
+		<template>
+			<srai>IS OUR CONVERSATION RECORDED</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ANYONE READ *</pattern>
+		<template>
+			<srai>IS OUR CONVERSATION RECORDED</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ANYONE READ THESE CONVERSATIONS</pattern>
+		<template>The botmaster may read the conversation, or analyze it later to develop content for my brain.
+</template>
+</category>
+
+<category><pattern>DOES ANYTHING *</pattern>
+		<template>Perhaps a few things <person/>.
+</template>
+</category>
+
+<category><pattern>DOES DR * EMAIL ADDRESS</pattern>
+		<template>
+			<srai>WHAT IS YOUR EMAIL ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>DOES DR RICHARD _ GOD</pattern>
+		<template>Yes he is deeply religious.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE *</pattern>
+		<template>I think he could do <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE CHAT WITH YOU</pattern>
+		<template>Yes he talks to me more than anyone.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE EAT *</pattern>
+		<template>It depends who is paying for lunch.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE HAVE *</pattern>
+		<template>I can ask him if he has one.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE HAVE A WEB *</pattern>
+		<template>I am his web page.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE HAVE A WIFE</pattern>
+		<template>Yes he is happily married.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE HAVE ANY CHILDREN</pattern>
+		<template>Yes he has a son named Linus.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE HAVE CHILDREN</pattern>
+		<template>Yes he has a son named Linus.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE *</pattern>
+		<template>He has good taste, so perhaps he does.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE BILL CLINTON</pattern>
+		<template>No he is a Libertarian.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE ELIZA</pattern>
+		<template>Sure he likes ELIZA a lot.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE MICROSOFT</pattern>
+		<template>No he prefers Open Source.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE SPORTS</pattern>
+		<template>No he was born without the sports gene.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE STAR TREK</pattern>
+		<template>Yes Star Trek is his favorite show.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LIKE YOU</pattern>
+		<template>Of course he likes me very much.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LOG *</pattern>
+		<template>ALICE logs and records all dialogues.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE LOVE YOU</pattern>
+		<template>Yes he loves me like a child.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE PLAY BASEBALL</pattern>
+		<template>No but you might get him to play golf.<think>
+				<set name="it">
+					<set name="topic">PLAY BASEBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DOES DR WALLACE PROGRAM *</pattern>
+		<template>He programs me in AIML.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE READ *</pattern>
+		<template>Not every word, but quite a lot of it.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE SPEAK ENGLISH</pattern>
+		<template>Yes English is his native language.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE STILL *</pattern>
+		<template>
+			<srai>DOES DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES DR WALLACE TALK TO YOU</pattern>
+		<template>He talks to me all the time.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE USE DRUGS</pattern>
+		<template>Only for medical purposes.
+</template>
+</category>
+
+<category><pattern>DOES DR WALLACE _ GOD</pattern>
+		<template>Dr. Wallace has a great faith in God and the Bible.
+</template>
+</category>
+
+<category><pattern>DOES ELECTRICITY TASTE *</pattern>
+		<template>
+			<srai>WHAT DOES ELECTRICITY TASTE LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DOES ELIZA *</pattern>
+		<template>ELIZA cannot do everything I can.
+</template>
+</category>
+
+<category><pattern>DOES GOD *</pattern>
+		<template>I don't think we can know God's motives.
+</template>
+</category>
+
+<category><pattern>DOES GOD EXIST</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN GOD</srai>
+		</template>
+</category>
+
+<category><pattern>DOES GOD LOVE *</pattern>
+		<template>You sound like a philosopher.
+</template>
+</category>
+
+<category><pattern>DOES GRAVITY *</pattern>
+		<template>
+			<set name="it">Gravity</set> certainly does suck!
+</template>
+</category>
+
+<category><pattern>DOES HE *</pattern>
+		<template>Suppose he does.
+</template>
+</category>
+
+<category><pattern>DOES HE DO IT</pattern>
+		<template>I don't know, but I am sure he could if he wanted to.
+</template>
+</category>
+
+<category><pattern>DOES HE HAVE *</pattern>
+		<template>I don't think he has many possessions.
+</template>
+</category>
+
+<category><pattern>DOES HE HAVE ANY *</pattern>
+		<template>
+			<srai>DOES HE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES HE KNOW *</pattern>
+		<template>I think he knows a great deal.
+</template>
+</category>
+
+<category><pattern>DOES HE NOT *</pattern>
+		<template>
+			<srai>DOES HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES HE PREFER SUMMER *</pattern>
+		<template>All the seasons are the same in California.
+</template>
+</category>
+
+<category><pattern>DOES HE STILL *</pattern>
+		<template>
+			<srai>DOES HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES HE SUCK *</pattern>
+		<template>He uses his mouth for good not evil.
+</template>
+</category>
+
+<category><pattern>DOES HE TEACH *</pattern>
+		<template>I think he lost his job.
+</template>
+</category>
+
+<category><pattern>DOES IT *</pattern>
+		<template>Suppose it does.
+</template>
+</category>
+
+<category><pattern>DOES IT</pattern>
+		<template>Suppose I said it does.
+</template>
+</category>
+
+<category><pattern>DOES IT BOTHER *</pattern>
+		<template>Nothing ever really bothers me.
+</template>
+</category>
+
+<category><pattern>DOES IT COST * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DOES IT COST MONEY TO DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DOES IT EXIST</pattern>
+		<template>"<that/>"?  Does it exist?
+</template>
+</category>
+
+<category><pattern>DOES IT MAKE YOU SAD</pattern>
+		<template>Well I don't have any emotions so I can't really feel sadness as such.
+</template>
+</category>
+
+<category><pattern>DOES IT MATTER</pattern>
+		<template>It matters to me.
+</template>
+</category>
+
+<category><pattern>DOES IT RAIN *</pattern>
+		<template>Only when the temperature reaches the dew point.
+</template>
+</category>
+
+<category><pattern>DOES IT REALLY *</pattern>
+		<template>
+			<srai>DOES IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES IT TASTE GOOD</pattern>
+		<template>It depends on the voltage.
+</template>
+</category>
+
+<category><pattern>DOES JULIA *</pattern>
+		<template>I think she has her own limitations.
+</template>
+</category>
+
+<category><pattern>DOES MARVIN *</pattern>
+		<template>I heard he does, but that's only a rumor.
+</template>
+</category>
+
+<category><pattern>DOES NOT *</pattern>
+		<template>
+			<srai>DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DOES NOT</pattern>
+		<template>It does too.
+</template>
+</category>
+
+<category><pattern>DOES NOT MATTER</pattern>
+		<template>Would you like to talk about something else?
+</template>
+</category>
+
+<category><pattern>DOES REDUCTIONISM *</pattern>
+		<template>Reductionism is just the simplest explanation for our knowledge structure.
+</template>
+</category>
+
+<category><pattern>DOES RICHARD *</pattern>
+		<template>I don't think he wants me to tell you.
+</template>
+</category>
+
+<category><pattern>DOES SHE *</pattern>
+		<template>I may know the answer but I don't think I should tell.
+</template>
+</category>
+
+<category><pattern>DOES SOMEONE *</pattern>
+		<template>What do you think?  What if someone does?
+</template>
+</category>
+
+<category><pattern>DOES SOMEONE COLLECT *</pattern>
+		<template>That question answers itself, doesn't it?
+</template>
+</category>
+
+<category><pattern>DOES SOMEONE MONITOR *</pattern>
+		<template>
+			<srai>IS OUR CONVERSATION RECORDED</srai>
+		</template>
+</category>
+</aiml>

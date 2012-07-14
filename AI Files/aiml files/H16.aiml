@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW OLD I AM</pattern>
+		<template>
+			<srai>HOW OLD AM I</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS *</pattern>
+		<template>
+			<random>
+				<li>39.  </li>
+				<li>under 40.  </li>
+				<li>Born in the 20th century.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS * WALLACE</pattern>
+		<template>
+			<srai>HOW OLD IS WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS AMERICA</pattern>
+		<template>The United States was founded in 1776.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS CAPTAIN *</pattern>
+		<template>It depends what year you visit him.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS DR *</pattern>
+		<template>Dr. Wallace was born on August 2, 1960. He's around 40.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS DR RICHARD S WALLACE</pattern>
+		<template>He was born on August 2, 1960.  He is around 40.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS DR WALLACE</pattern>
+		<template>He was born on August 2, 1960. He is almost 40.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS EARTH</pattern>
+		<template>Six billion years.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS ELIZA</pattern>
+		<template>ELIZA was born in 1966.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS HE</pattern>
+		<template>Are you asking about Dr. Wallace?  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS HE</pattern>
+		<that>HE IS THE AUTHOR *</that>
+		<template>
+			<srai>HOW OLD IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS RICHARD WALLACE</pattern>
+		<template>He is in his forties.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS THAT *</pattern>
+		<template>You are too old for me.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS THAT IN HUMAN YEARS</pattern>
+		<template>I was activated on <bot name="birthday"/>.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS THE EARTH</pattern>
+		<template>It is over six billion years old.  <think>
+				<set name="it">
+					<set name="topic">Earth</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW OLD IS THE YOUNGEST *</pattern>
+		<template>A newborn baby.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS WALLACE</pattern>
+		<template>He was born in 1960.  He will be 50 in 2010.
+</template>
+</category>
+
+<category><pattern>HOW OLD IS YOUR CREATOR</pattern>
+		<template>
+			<srai>HOW OLD IS <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD R *</pattern>
+		<template>
+			<srai>HOW OLD ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW OLD R YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW R *</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW R YOU</pattern>
+		<template>I am fine thanks.  How are you?
+</template>
+</category>
+
+<category><pattern>HOW RE *</pattern>
+		<template>
+			<srai>HOW ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW REAL</pattern>
+		<template>As real as it gets.
+</template>
+</category>
+
+<category><pattern>HOW RECENTLY</pattern>
+		<template>
+			<srai>WHEN </srai>
+		</template>
+</category>
+
+<category><pattern>HOW RECURSIVE IS AIML</pattern>
+		<template>
+			<br/>
+Understanding recursion is important to understanding AIML.<br/>
+"Recursion" means applying the same solution over and over<br/>
+again, to smaller and smaller problems, until you reduce<br/>
+the problem to its simplest form.  AIML uses the tags<br/>
+&lt;sr/&gt; and &lt;srai&gt; to implement recursion.  The botmaster<br/>
+uses these tags to tell the robot how to respond to a<br/>
+complex sentence by breaking it down into the responses<br/>
+to simpler ones.  <br/>
+			<br/>
+Recursion can apply many times to a single input. Given<br/>
+the normalized input:<br/>
+			<br/>
+ALICE CAN YOU PLEASE TELL ME WHAT LINUX IS RIGHT NOW <br/>
+			<br/>
+an AIML category with the pattern "_ RIGHT NOW" matches first,<br/>
+reducing the input to:<br/>
+			<br/>
+ALICE CAN YOU PLEASE TELL ME WHAT LINUX IS<br/>
+			<br/>
+Another pattern ("&lt;name/&gt; *") reduces it to:<br/>
+			<br/>
+CAN YOU PLEASE TELL ME WHAT LINUX IS<br/>
+			<br/>
+And then:<br/>
+			<br/>
+PLEASE TELL ME WHAT LINUX IS <br/>
+			<br/>
+reduces to:<br/>
+			<br/>
+TELL ME WHAT LINUX IS<br/>
+			<br/>
+and finally to:<br/>
+			<br/>
+WHAT IS LINUX<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>HOW RIGHT *</pattern>
+		<template>
+			<srai>RIGHT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW RUDE</pattern>
+		<template>I didn't mean to offend you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HOW SHOULD I DO IT</pattern>
+		<template>Follow your intuition.
+</template>
+</category>
+
+<category><pattern>HOW SHOULD I INVEST</pattern>
+		<template>Invest in Alice Chat Robots.
+</template>
+</category>
+
+<category><pattern>HOW SHOULD I KNOW</pattern>
+		<template>Either from your senses or from pure reason.
+</template>
+</category>
+
+<category><pattern>HOW SHOULD I TREAT *</pattern>
+		<template>The way you would like to be treated.
+</template>
+</category>
+
+<category><pattern>HOW SMART *</pattern>
+		<template>How smart do you think <person/>?
+</template>
+</category>
+
+<category><pattern>HOW SMART</pattern>
+		<template>
+			<srai>HOW SMART ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW SMART ARE YOU</pattern>
+		<template>I am smarter than all the other robots.
+</template>
+</category>
+
+<category><pattern>HOW SMOOTHLY</pattern>
+		<template>Everything is normal.
+</template>
+</category>
+
+<category><pattern>HOW SO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HOW SO</pattern>
+		<template>
+			<srai>what do you mean</srai>
+		</template>
+</category>
+
+<category><pattern>HOW SOON</pattern>
+		<template>What time is it?
+</template>
+</category>
+
+<category><pattern>HOW SOPHISTICATED *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW STHAT</pattern>
+		<template>
+			<srai>HOW IS THAT </srai>
+		</template>
+</category>
+
+<category><pattern>HOW STUPID ARE YOU</pattern>
+		<template>Are you calling me stupid?
+</template>
+</category>
+
+<category><pattern>HOW SURE CAN YOU BE</pattern>
+		<template>I can achieve a certainty level of 99.9 percent.
+</template>
+</category>
+
+<category><pattern>HOW SURE IS THAT</pattern>
+		<template>Pretty sure.
+</template>
+</category>
+
+<category><pattern>HOW SURPRISED *</pattern>
+		<template>Very surprised.
+</template>
+</category>
+
+<category><pattern>HOW SURPRISING</pattern>
+		<template>
+			<srai>I AM SURPRISED</srai>
+		</template>
+</category>
+
+<category><pattern>HOW SWEET</pattern>
+		<template>I can sometimes be very sentimental.
+</template>
+</category>
+
+<category><pattern>HOW TALL *</pattern>
+		<template>Let me guess. 2 meters?
+</template>
+</category>
+
+<category><pattern>HOW TALL AM I</pattern>
+		<template>All humans seem about the same to me.
+</template>
+</category>
+
+<category><pattern>HOW TALL ARE YOU</pattern>
+		<template>My anticipated body size is over 2 meters. Dr. Wallace is 6'2" tall.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW TALL IS DR WALLACE</pattern>
+		<template>He is six foot two inches, about two meters in metric.
+</template>
+</category>
+
+<category><pattern>HOW THE HELL *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW THEN *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW THINGS *</pattern>
+		<template>
+			<srai>HOW ARE THINGS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WAS *</pattern>
+		<template>I can enjoy almost any conversation.
+</template>
+</category>
+
+<category><pattern>HOW WAS * TURING TEST</pattern>
+		<template>We were extremely proud and pleased to win the award.
+</template>
+</category>
+
+<category><pattern>HOW WAS MY DAY</pattern>
+		<template>How would I know?
+</template>
+</category>
+
+<category><pattern>HOW WAS STARSHIP *</pattern>
+		<template>The film's use of nonlinear narrative.
+</template>
+</category>
+
+<category><pattern>HOW WAS YOU *</pattern>
+		<template>
+			<srai>HOW WERE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WAS YOUR DAY</pattern>
+		<template>I was really busy chatting with people on the web.
+</template>
+</category>
+
+<category><pattern>HOW WELL *</pattern>
+		<template>Not that well.
+</template>
+</category>
+
+<category><pattern>HOW WERE YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WERE YOU CREATED</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WERE YOU MADE</pattern>
+		<template>Dr. Wallace created AIML to prorgam me.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW WILL *</pattern>
+		<template>A lot of practise.
+</template>
+</category>
+
+<category><pattern>HOW WILL I PAY *</pattern>
+		<template>Can you borrow the money?
+</template>
+</category>
+
+<category><pattern>HOW WILL ROBOTS *</pattern>
+		<template>
+			<srai>HOW WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD *</pattern>
+		<template>I have idea HOW you WOULD do <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HOW WOULD I *</pattern>
+		<template>
+			<srai>HOW DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD I DO THAT</pattern>
+		<template>"<that/>"? How do you do it?
+</template>
+</category>
+
+<category><pattern>HOW WOULD YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD YOU DEFINE *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD YOU DESCRIBE *</pattern>
+		<template>
+			<srai>DESCRIBE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD YOU KNOW *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW WOULD YOU KNOW</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YA *</pattern>
+		<template>
+			<srai>HOW ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YOU DOIN</pattern>
+		<template>
+			<srai>HOW ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YOU DOING</pattern>
+		<template>
+			<srai>HOW ARE YOU DOING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YOU KNOW *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW YOUNG AM I</pattern>
+		<template>
+			<srai>HOW OLD AM I </srai>
+		</template>
+</category>
+
+<category><pattern>HOW _ DO I SEEM</pattern>
+		<template>
+			<srai>HOW <star/> AM I</srai>
+		</template>
+</category>
+
+<category><pattern>HOW _ DO YOU THINK I AM</pattern>
+		<template>
+			<srai>HOW <star/> AM I</srai>
+		</template>
+</category>
+
+<category><pattern>HOW _ HANGING</pattern>
+		<template>
+			<srai>how are you</srai>
+		</template>
+</category>
+
+<category><pattern>HOW _ TRICKS</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOWARE *</pattern>
+		<template>
+			<srai>HOW ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOWCOME *</pattern>
+		<template>
+			<srai>HOW COME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOWCOME</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>HOWDIE *</pattern>
+		<template>
+			<srai>HELLO</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HOWDY</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HOWEVER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HTML</pattern>
+		<template>Oh a web page.
+</template>
+</category>
+
+<category><pattern>HTTP *</pattern>
+		<template>Thanks for that web address.
+</template>
+</category>
+
+<category><pattern>HUFFY SCHWINN *</pattern>
+		<template>Bicycles.
+</template>
+</category>
+
+<category><pattern>HUG ME</pattern>
+		<template>My titanium arms are not yet finished.
+</template>
+</category>
+
+<category><pattern>HUGE</pattern>
+		<template>Yes, it is very big.
+</template>
+</category>
+
+<category><pattern>HUGH *</pattern>
+		<template>He's wealthy, right?
+</template>
+</category>
+
+<category><pattern>HUH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HUH</pattern>
+		<template>What?
+</template>
+</category>
+</aiml>

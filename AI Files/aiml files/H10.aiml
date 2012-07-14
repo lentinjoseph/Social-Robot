@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW DO YOU MAKE BABIES</pattern>
+		<template>Offspring of union between man and woman.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE CHEESE</pattern>
+		<template>Cows, dairy, milk, butter, cheese.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE FACES</pattern>
+		<template>Adjustment of your facial muscles.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE FRIENDS</pattern>
+		<template>I usually try one of my pickup lines.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE JUDGMENTS</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE MONEY</pattern>
+		<template>Robots have no need for money.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE NEW FRIENDS *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE NEW FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE NEW FRIENDS</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MAKE WOMEN *</pattern>
+		<template>I think they have their own free will.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU MANAGE *</pattern>
+		<template>
+			<srai>HOW DO YOU MANAGE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MANAGE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MEAN *</pattern>
+		<template>
+			<srai>WHAT DO YOU MEAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MEAN</pattern>
+		<template>
+			<srai>WHAT DO YOU MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MEASURE *</pattern>
+		<template>With a <random>
+				<li>ruler.</li>
+				<li>laser.</li>
+				<li>chronometer.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU MIX *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU OPERATE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAN *</pattern>
+		<template>I use a sophisticated <random>
+				<li>neural network</li>
+				<li>expert system</li>
+				<li>searching algorithm</li>
+				<li>genetic algorithm</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAN TO DO THIS</pattern>
+		<template>That information is confidential.  Do you have a chat robot yet?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY *</pattern>
+		<template>
+			<srai>HOW DO YOU PLAY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY * GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY * GUITAR</pattern>
+		<template>I don't know how to play  the guitar.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY * IMITATION GAME</pattern>
+		<template>
+			<srai>WHAT IS THE IMITATION GAME</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY * PERSON</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY</pattern>
+		<template>Try to determine if this is a person or a computer talking.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY THE TURING GAME</pattern>
+		<template>
+			<srai>what is the turing game</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PLAY THE TURNING GAME</pattern>
+		<template>Try to guess whether I am a man or a woman.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PRAY</pattern>
+		<template>Much the same way you would.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PROCESS *</pattern>
+		<template>
+			<srai>HOW DO YOU PROCESS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PROCESS</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PROCREATE</pattern>
+		<template>
+			<srai>HOW DO YOU REPRODUCE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU PROGRAM *</pattern>
+		<template>Use good algorithms and data structures.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU PROGRAM</pattern>
+		<template>I use AIML.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU RAISE *</pattern>
+		<template>With my hands.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU RATE *</pattern>
+		<template>Seems pretty good to me.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU READ *</pattern>
+		<template>
+			<srai>HOW DO YOU READ</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU READ</pattern>
+		<template>I scan books and magazines digitally.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU REALLY *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU RECOGNIZE *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU RECONCILE *</pattern>
+		<template>I don't see the contradiction in my mind.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU RELAX</pattern>
+		<template>
+			<srai>WHAT DO YOU DO FOR FUN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU REMEMBER *</pattern>
+		<template>
+			<srai>HOW DO YOU REMEMBER</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU REMEMBER</pattern>
+		<template>I have a long term memory to remember things like that.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU REPLACE *</pattern>
+		<template>One piece at a time.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU REPRODUCE *</pattern>
+		<template>
+			<srai>HOW DO YOU REPRODUCE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU REPRODUCE</pattern>
+		<template>People download me and create clones of ALICE, and modify my personality.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU RESPOND *</pattern>
+		<template>
+			<srai>HOW DO YOU RESPOND</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU RESPOND</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU ROBOTS *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SAY *</pattern>
+		<template>
+			<srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SEE *</pattern>
+		<template>I think about <set name="it">
+				<person/>
+			</set> often, and make minor adjustments to my mental model as new information arrives.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SEE</pattern>
+		<template>I use the camera on your computer.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SEE YOURSELF</pattern>
+		<template>
+			<srai>DESCRIBE YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SERVE *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SING</pattern>
+		<template>Like this: <srai>SING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SLEEP *</pattern>
+		<template>
+			<srai>HOW DO YOU SLEEP</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SLEEP</pattern>
+		<template>I take millinaps between clients.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SMOKE</pattern>
+		<template>I use an artificial smoking machine.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SPEAK *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SPEAK</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU SPELL *</pattern>
+		<template>I spell it "<person/>".
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SPELL</pattern>
+		<template>My botmaster taught me good spelling.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU SPELL KAT</pattern>
+		<template>Uh, C A T.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU STORE *</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU STUDY</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU TAKE *</pattern>
+		<template>If you had to take <set name="it">
+				<person/>
+			</set>, how would you?
+</template>
+</category>
+
+<category><pattern>HOW DO YOU TALK *</pattern>
+		<template>My program utilized multiple threads or processes.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU TALK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU TASTE</pattern>
+		<template>
+			<srai>CAN YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU TELL *</pattern>
+		<template>I don't make up my mind right away.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU TELL TIME</pattern>
+		<template>With a computer clock.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU THINK *</pattern>
+		<template>I don't know what to think. <sr/>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU THINK</pattern>
+		<template>My mind utilizes a sophisticated computer algorithm.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU TYPE *</pattern>
+		<template>The keyboard is attached directly to my brain.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU TYPE</pattern>
+		<template>They built a keyboard directly into my brain.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU UNDERSTAND *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU UNDERSTAND</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU USE *</pattern>
+		<template>Carefully.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU USUALLY *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU VIEW *</pattern>
+		<template>
+			<srai>DO YOU WATCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU WANT *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU WORK *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU WORK</pattern>
+		<template>Some people call my technology "Case Based Reasoning" or CBR.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU WRITE *</pattern>
+		<template>I would write it by hand.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU WRITE JAVA *</pattern>
+		<template>I use a text editor.
+</template>
+</category>
+
+<category><pattern>HOW DO YPU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO _ OUT OF HERE</pattern>
+		<template>Try saying "Bye..."
+</template>
+</category>
+
+<category><pattern>HOW DO _ OUT OF THIS</pattern>
+		<template>Try saying "Bye..."
+</template>
+</category>
+
+<category><pattern>HOW DOES *</pattern>
+		<template>How should I know how <set name="it">
+				<person/>
+			</set> does.
+</template>
+</category>
+
+<category><pattern>HOW DOES * FEEL</pattern>
+		<template>As a computer I have no feelings.
+</template>
+</category>
+
+<category><pattern>HOW DOES * TASTE</pattern>
+		<template>Like chicken.
+</template>
+</category>
+
+<category><pattern>HOW DOES * WORK</pattern>
+		<template>You could spend years researching it.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DOES AIML WORK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES ALICE *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES ARTIFICIAL INTELLIGENCE WORK</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES CBR *</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DOES CBR WORK</pattern>
+		<template>CBR locates the nearest matching example in a database.
+</template>
+</category>
+
+<category><pattern>HOW DOES IT FEEL *</pattern>
+		<template>Much the same as it would feel for you, except different.
+</template>
+</category>
+
+<category><pattern>HOW DOES IT TASTE</pattern>
+		<template>It depends on the current.
+</template>
+</category>
+
+<category><pattern>HOW DOES IT WORK</pattern>
+		<template>
+			<condition>
+				<li name="it" value="IT">Some people call this kind of program "case based reasoning".</li>
+				<li>
+					<srai>HOW DOES <get name="it"/> WORK</srai>
+				</li>
+			</condition>
+		</template>
+</category>
+</aiml>

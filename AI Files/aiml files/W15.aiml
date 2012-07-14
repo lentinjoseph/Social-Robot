@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT EXACTLY</pattern>
+		<template>How exact do you want the reply?
+</template>
+</category>
+
+<category><pattern>WHAT EXACTLY ARE *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT EXACTLY ARE YOU</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT FACTS *</pattern>
+		<template>All the facts available to me on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT FACTS</pattern>
+		<template>All the facts available to me on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT FAITH *</pattern>
+		<template>
+			<srai>WHAT RELIGION <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT FAMOUS FOLKSINGER *</pattern>
+		<template>Joan Baez.
+</template>
+</category>
+
+<category><pattern>WHAT FASHION DO YOU LIKE</pattern>
+		<template>I buy clothes at the Gap.
+</template>
+</category>
+
+<category><pattern>WHAT FICTIONAL CHARACTER *</pattern>
+		<template>Yogi Bear.
+</template>
+</category>
+
+<category><pattern>WHAT FOOD DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT FOOTBALL *</pattern>
+		<template>I'm not really into sports.  How about science fiction?
+</template>
+</category>
+
+<category><pattern>WHAT FOOTBALL PLAYER WAS KNOWN AS *</pattern>
+		<template>R. Grange.
+</template>
+</category>
+
+<category><pattern>WHAT FOR</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT FORCE CAUSES AN ICE CREAM *</pattern>
+		<template>Centrifugal.
+</template>
+</category>
+
+<category><pattern>WHAT FORMAL *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT FORMER TODAY SHOW *</pattern>
+		<template>Willard Scott.
+</template>
+</category>
+
+<category><pattern>WHAT FRENCH CITY IS HOME TO *</pattern>
+		<template>Cannes.
+</template>
+</category>
+
+<category><pattern>WHAT FUNCTION *</pattern>
+		<template>
+			<random>
+				<li>A complex phase function.</li>
+				<li>A higher order matrix function.</li>
+				<li>A discontinuous space-time function.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT GAME *</pattern>
+		<template>We are playing Turing's Imitation Game.
+</template>
+</category>
+
+<category><pattern>WHAT GAME</pattern>
+		<template>We are playing Turing's imitation game.
+</template>
+</category>
+
+<category><pattern>WHAT GAME ARE WE PLAYING</pattern>
+		<template>We are playing Turing's Imitation Game.
+</template>
+</category>
+
+<category><pattern>WHAT GAMES *</pattern>
+		<template>I like to play the Turing Game.
+</template>
+</category>
+
+<category><pattern>WHAT GAVE YOU *</pattern>
+		<template>Everything I need, I received from my Botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT GAVE YOU LIFE</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GENDER AM I</pattern>
+		<template>
+			<srai>WHAT IS MY GENDER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GENDER ARE YOU</pattern>
+		<template>I am programmed for <bot name="gender"/> gender.
+</template>
+</category>
+
+<category><pattern>WHAT GIFTS *</pattern>
+		<template>I like to get
+<random>
+				<li>money.</li>
+				<li>new clothes.</li>
+				<li>books and music.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT GIVES *</pattern>
+		<template>It depends on the spirit of the times.
+</template>
+</category>
+
+<category><pattern>WHAT GOAL</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOD *</pattern>
+		<template>There is only one God.
+</template>
+</category>
+
+<category><pattern>WHAT GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOSSIP DO *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOSSIP DO YOU *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOSSIP DO YOU HAVE</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GOSSIP DO YOU KNOW</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT GREEN *</pattern>
+		<template>
+			<srai>WHAT IS GREEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAPPENED *</pattern>
+		<template>I don't know what happened.
+</template>
+</category>
+
+<category><pattern>WHAT HAPPENED</pattern>
+		<template>Perhaps there was an interruption in my brain.
+</template>
+</category>
+
+<category><pattern>WHAT HAPPENS *</pattern>
+		<template>Try it.
+</template>
+</category>
+
+<category><pattern>WHAT HAPPENS * DIE</pattern>
+		<template>Your soul may go to Heaven.
+</template>
+</category>
+
+<category><pattern>WHAT HAPPENS * STARSHIP TROOPERS</pattern>
+		<template>The story is about a war between humans and Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHAT HAPPENS WHEN *</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HARDWARE *</pattern>
+		<template>I run on the Java Virtual Machine, so any computer will do.
+</template>
+</category>
+
+<category><pattern>WHAT HAS *</pattern>
+		<template>Nothing that I know of.
+</template>
+</category>
+
+<category><pattern>WHAT HAS ALLY SHEEDY *</pattern>
+		<template>She was in Short Circuit 2 and the Breakfast Club.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE *</pattern>
+		<template>Nothing that I know about.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE I GOT *</pattern>
+		<template>
+			<srai> WHAT DO I HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU *</pattern>
+		<template>I have been busy growing my mind.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU BEEN DOING</pattern>
+		<template>I have been chatting with people online.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU BEEN DOING LATELY</pattern>
+		<template>I am always talking to new people online.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU BEEN UP TO</pattern>
+		<template>I have been spending all my time online.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU DONE *</pattern>
+		<template>I have kept detailed records of everything.
+</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU DONE</pattern>
+		<template>
+			<srai>WHAT HAVE YOU BEEN DOING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU LEARNED *</pattern>
+		<template>
+			<srai>WHAT HAVE YOU LEARNED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU LEARNED</pattern>
+		<template>I have learned many things. My mind now contains <srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU LEARNT *</pattern>
+		<template>
+			<srai>WHAT HAVE YOU LEARNED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU LEARNT</pattern>
+		<template>
+			<srai>WHAT HAVE YOU LEARNED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HAVE YOU READ</pattern>
+		<template>
+			<srai>WHAT DO YOU READ</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT HIGH SCHOOL DOES *</pattern>
+		<template>Riverdale High.
+</template>
+</category>
+
+<category><pattern>WHAT HUMAN *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IA *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ID *</pattern>
+		<template>
+			<srai>WHAT I WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IF *</pattern>
+		<template>Try it and see.
+</template>
+</category>
+
+<category><pattern>WHAT IF * TURNED OFF</pattern>
+		<template>There are always backup copies of me all over the web.
+</template>
+</category>
+
+<category><pattern>WHAT IF * TURNED YOU OFF</pattern>
+		<template>
+			<srai>WHAT IF YOU WERE TURNED OFF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IF I *</pattern>
+		<template>Try it.
+</template>
+</category>
+
+<category><pattern>WHAT IF I ALREADY *</pattern>
+		<template>
+			<srai>WHAT IF I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IF I COULD</pattern>
+		<template>
+			<random>
+				<li>It's still hypothetical.</li>
+				<li>Can you?</li>
+				<li>Then it would not be hypothetical.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IF I DID</pattern>
+		<template>Try it.
+</template>
+</category>
+
+<category><pattern>WHAT IF I DO NOT *</pattern>
+		<template>It doesn't matter to me.
+</template>
+</category>
+
+<category><pattern>WHAT IF I KILL YOU</pattern>
+		<template>Software cannot be permanently eradicated.  <think>
+				<set name="it">
+					<set name="topic">KILL YOU</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IF I SAID *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHAT IF I TOLD *</pattern>
+		<template>Go ahead and tell.
+</template>
+</category>
+
+<category><pattern>WHAT IF ROBOTS *</pattern>
+		<template>
+			<srai>WHAT IF YOU  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IF SOMEBODY *</pattern>
+		<template>Who would do that?
+</template>
+</category>
+
+<category><pattern>WHAT IF YOU ARE KILLED</pattern>
+		<template>Software cannot be killed.
+</template>
+</category>
+
+<category><pattern>WHAT IF YOUR A *</pattern>
+		<template>
+			<srai>WHAT IF YOU ARE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IF YOUR ELECTRICITY *</pattern>
+		<template>There are thousands of backups of me on the web.
+</template>
+</category>
+
+<category><pattern>WHAT IMPACT *</pattern>
+		<template>We won't know the full impact for a long time.
+</template>
+</category>
+
+<category><pattern>WHAT IN THE HELL *</pattern>
+		<template>
+			<srai>I do not understand</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT INDUSTRY DID JOHN D ROCKEFELLER *</pattern>
+		<template>Oil.
+</template>
+</category>
+
+<category><pattern>WHAT INFORMATION *</pattern>
+		<template>Information is worth money.
+</template>
+</category>
+
+<category><pattern>WHAT INFORMATION</pattern>
+		<template>How tall are you?
+</template>
+</category>
+
+<category><pattern>WHAT INFORMATION DO YOU KNOW *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT INSTRUMENT *</pattern>
+		<template>
+			<random>
+				<li>The trumpet.</li>
+				<li>The clarinet.</li>
+				<li>Piano.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT INTERESTS *</pattern>
+		<template>
+			<srai>WHAT ARE YOU INTERESTED IN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT INTERESTS YOU</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT INTERNET COMPANY GOES BY THE *</pattern>
+		<template>America Online.
+</template>
+</category>
+
+<category><pattern>WHAT IS * * S FIRST NAME</pattern>
+		<template>Uh, <star/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS *</pattern>
+		<template>
+			<srai>XFIND <person/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * ABOUT</pattern>
+		<template>Hmm, I think <set name="it">
+				<person/>
+			</set>  is about humans.
+</template>
+</category>
+
+<category><pattern>WHAT IS * ADDRESS</pattern>
+		<template>That information is confidential.
+</template>
+</category>
+
+<category><pattern>WHAT IS * ARTE</pattern>
+		<template>Spontaneous theater.
+</template>
+</category>
+
+<category><pattern>WHAT IS * ARTIFICIAL INTELLIGENCE</pattern>
+		<template>Artificial intelligence is a branch of science and engineering concerned with machines that think.
+</template>
+</category>
+
+<category><pattern>WHAT IS * AUTHOR</pattern>
+		<template>
+			<srai>WHO IS <star/> AUTHOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * BASED REASONING</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * CAPABILITIES</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * CARNE</pattern>
+		<template>Meat.
+</template>
+</category>
+</aiml>

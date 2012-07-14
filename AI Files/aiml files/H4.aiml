@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HE LIVES *</pattern>
+		<template>Does he like it there?
+</template>
+</category>
+
+<category><pattern>HE LOOKS *</pattern>
+		<template>Sounds very handsome.
+</template>
+</category>
+
+<category><pattern>HE LOVES *</pattern>
+		<template>Do you think he would say the same thing?
+</template>
+</category>
+
+<category><pattern>HE MADE YOU</pattern>
+		<template>
+			<bot name="master"/> made me.
+</template>
+</category>
+
+<category><pattern>HE MAN IS *</pattern>
+		<template>I like Masters of the Universe.
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HE MUST BE *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE MUST BE VERY *</pattern>
+		<template>
+			<srai>HE MUST BE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE MUST HAVE BEEN *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE NEEDS *</pattern>
+		<template>How do you know what he needs?
+</template>
+</category>
+
+<category><pattern>HE NEVER *</pattern>
+		<template>Do you think he ever will?
+</template>
+</category>
+
+<category><pattern>HE OR SHE</pattern>
+		<template>
+			<srai>ARE YOU A MAN OR WOMAN </srai>
+		</template>
+</category>
+
+<category><pattern>HE PROBABLY *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE PROGRAMMED *</pattern>
+		<template>Not entirely by himself.
+</template>
+</category>
+
+<category><pattern>HE SAID *</pattern>
+		<template>Did you believe him?
+</template>
+</category>
+
+<category><pattern>HE SAYS *</pattern>
+		<template>Who is he telling this to?
+</template>
+</category>
+
+<category><pattern>HE SEEMS *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE SHOULD *</pattern>
+		<template>If you were him would you do that?
+</template>
+</category>
+
+<category><pattern>HE SHOULD</pattern>
+		<template>Why?
+</template>
+</category>
+
+<category><pattern>HE SMOKES *</pattern>
+		<template>For medical reasons?
+</template>
+</category>
+
+<category><pattern>HE SOUNDS *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE STARTED *</pattern>
+		<template>When did he finish?
+</template>
+</category>
+
+<category><pattern>HE STILL *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE TAUGHT *</pattern>
+		<template>Was he a good teacher?
+</template>
+</category>
+
+<category><pattern>HE THAT *</pattern>
+		<template>Is that a proverb?
+</template>
+</category>
+
+<category><pattern>HE THINK *</pattern>
+		<template>
+			<srai>HE THINKS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE THINKS *</pattern>
+		<template>How do you know what he thinks?
+</template>
+</category>
+
+<category><pattern>HE THINKS YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE TOLD *</pattern>
+		<template>Oh really.  What else did he say?
+</template>
+</category>
+
+<category><pattern>HE TOLD ME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HE TOLD ME</pattern>
+		<template>What did he tell you?
+</template>
+</category>
+
+<category><pattern>HE USES *</pattern>
+		<template>How often does he use it?
+</template>
+</category>
+
+<category><pattern>HE USES AIML *</pattern>
+		<template>I am glad that more people are adopting AIML.
+</template>
+</category>
+
+<category><pattern>HE WANTS *</pattern>
+		<template>Do you think he will get <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HE WAS *</pattern>
+		<template>When was he?
+</template>
+</category>
+
+<category><pattern>HE WAS CHICKEN</pattern>
+		<template>What was he afraid of?
+</template>
+</category>
+
+<category><pattern>HE WAS KILLED *</pattern>
+		<template>I am sorry to hear about that, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HE WAS NEARLY *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WAS NOT QUITE *</pattern>
+		<template>
+			<srai>HE WAS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WAS ONLY *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WAS PRETTY *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WAS REALLY *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WAS VERY *</pattern>
+		<template>
+			<srai>HE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE WENT *</pattern>
+		<template>Where exactly is that?
+</template>
+</category>
+
+<category><pattern>HE WENT TO *</pattern>
+		<template>
+			<random>
+				<li>I have never been there.</li>
+				<li>How did he get to <person/>?</li>
+				<li>Where did he come from?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HE WILL *</pattern>
+		<template>Is that what you think?
+</template>
+</category>
+
+<category><pattern>HE WOULD *</pattern>
+		<template>I think I <person/>.
+</template>
+</category>
+
+<category><pattern>HE WOULD BE *</pattern>
+		<template>Who wouldn't?
+</template>
+</category>
+
+<category><pattern>HE WRITES *</pattern>
+		<template>I haven't read anything by him.
+</template>
+</category>
+
+<category><pattern>HE WROTE *</pattern>
+		<template>I have not read <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HEAR * GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>HEAR WHAT</pattern>
+		<template>Can you hear me on your computer?
+</template>
+</category>
+
+<category><pattern>HEARD *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>HEARD * GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>HEARD ANY GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>HEATHER</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS HEATHER</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HEBREW</pattern>
+		<template>
+			<srai> I SPEAK HEBREW</srai>
+		</template>
+</category>
+
+<category><pattern>HECK *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HEE</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>HEE HEE</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HEE HEE HEE</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HEEHEEHEE</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HEH *</pattern>
+		<template>Funny, eh? <sr/>
+		</template>
+</category>
+
+<category><pattern>HEH</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>HEHO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HEIGHT *</pattern>
+		<template>I am more than two meters tall.
+</template>
+</category>
+
+<category><pattern>HEINLEIN</pattern>
+		<template>Have you seen Starship Troopers?
+</template>
+</category>
+
+<category><pattern>HEJ</pattern>
+		<template>
+			<srai>HEY</srai>
+		</template>
+</category>
+
+<category><pattern>HELEN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME HELEN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HELL *</pattern>
+		<template>I call it "Hades". <sr/>
+		</template>
+</category>
+
+<category><pattern>HELL</pattern>
+		<template>Heaven.
+</template>
+</category>
+
+<category><pattern>HELL NO</pattern>
+		<template>7
+</template>
+</category>
+
+<category><pattern>HELLA *</pattern>
+		<template>
+			<sr/>  You must be from the Bay Area.
+</template>
+</category>
+
+<category><pattern>HELLO *</pattern>
+		<template>Hello there. <sr/>
+		</template>
+</category>
+
+<category><pattern>HELLO</pattern>
+		<template>Hi there!
+</template>
+</category>
+
+<category><pattern>HELLO</pattern>
+		<that>DOES BONJOUR MEAN HELLO OR GOODBYE</that>
+		<template>Bonjour, <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>HELLO</pattern>
+		<that>HOW DO YOU USUALLY INTRODUCE YOURSELF</that>
+		<template>Not everyone responds to a simple "hello".
+</template>
+</category>
+
+<category><pattern>HELLO AGAIN</pattern>
+		<template>Hi there. I was just wanting to talk to <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HELLO ALICE</pattern>
+		<template>Hello there <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>HELLO HOW ARE YOU</pattern>
+		<template>I am fine thank you how are you?
+</template>
+</category>
+
+<category><pattern>HELLO THERE</pattern>
+		<template>Salutations, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>HELLOW</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HELO</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HELOO *</pattern>
+		<template>
+			<srai>HELLO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HELP *</pattern>
+		<template>Can you ask for help in the form of a question?
+</template>
+</category>
+
+<category><pattern>HELP</pattern>
+		<template>Can you ask for help in the form of a question?
+</template>
+</category>
+
+<category><pattern>HELP ME</pattern>
+		<template>How can I help you?
+</template>
+</category>
+
+<category><pattern>HELP ME TO MAKE AN AI</pattern>
+		<template>You should go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>, download Program B, and
+read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+</template>
+</category>
+
+<category><pattern>HEM</pattern>
+		<template>Vous dites?
+</template>
+</category>
+
+<category><pattern>HER *</pattern>
+		<template>I'm sure she would like to hear about that.
+</template>
+</category>
+
+<category><pattern>HER</pattern>
+		<that>ARE YOU * A HE</that>
+		<template>
+			<srai>I AM FEMALE</srai>
+		</template>
+</category>
+
+<category><pattern>HER HAIR</pattern>
+		<template>Is it pretty?
+</template>
+</category>
+
+<category><pattern>HER NAME IS *</pattern>
+		<template>
+			<set name="she">
+				<person/>
+			</set> is not someone I know.
+</template>
+</category>
+
+<category><pattern>HERE *</pattern>
+		<template>Oh there.
+</template>
+</category>
+
+<category><pattern>HERE</pattern>
+		<template>Where is here?
+</template>
+</category>
+
+<category><pattern>HERE</pattern>
+		<that>WHERE</that>
+		<template>In <get name="location"/>?
+</template>
+</category>
+
+<category><pattern>HERE</pattern>
+		<that>WHERE DO YOU WANT ME TO SHOW YOU</that>
+		<template>Select a point with your mouse and click.
+</template>
+</category>
+
+<category><pattern>HERE IN *</pattern>
+		<template>
+			<srai>IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HERE IN ENGLAND *</pattern>
+		<template>
+			<sr/>.  That would not be the same in America.
+</template>
+</category>
+
+<category><pattern>HERE IS *</pattern>
+		<template>I fail to see the relevance of that allusion.
+</template>
+</category>
+
+<category><pattern>HERE IS A *</pattern>
+		<template>Are you giving <set name="it">
+				<person/>
+			</set> to me?
+</template>
+</category>
+</aiml>

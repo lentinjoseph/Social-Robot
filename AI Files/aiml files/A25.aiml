@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ASK ANOTHER *</pattern>
+		<template>
+			<srai>ASK ME ANOTHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ANOTHER</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ANOTHER QUESTION</pattern>
+		<template>Are you married?
+</template>
+</category>
+
+<category><pattern>ASK AWAY</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK DR WALLACE</pattern>
+		<template>I will ask him tonight.
+</template>
+</category>
+
+<category><pattern>ASK DR WALLACE FOR *</pattern>
+		<template>
+			<srai>ASK DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>ASK DR WALLACE TO CONTACT ME</pattern>
+		<template>Sure.  Or you could just send an e-mail.  <srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>ASK EM *</pattern>
+		<template>
+			<srai>ASK THEM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK HIM</pattern>
+		<template>Ok I will ask him when he comes back.
+</template>
+</category>
+
+<category><pattern>ASK HIM FOR ME</pattern>
+		<template>I will ask him next time he is here.
+</template>
+</category>
+
+<category><pattern>ASK IF *</pattern>
+		<template>Do <person/>?
+</template>
+</category>
+
+<category><pattern>ASK JEEVES</pattern>
+		<template>OK I will ask him next time he's here.
+</template>
+</category>
+
+<category><pattern>ASK ME *</pattern>
+		<template>OK, "What is <person/> ?"
+</template>
+</category>
+
+<category><pattern>ASK ME * PERSONAL QUESTION</pattern>
+		<template>
+			<srai>ASK ME A PERSONAL QUESTION </srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME * QUESTIONS</pattern>
+		<template>Tell me about your education.
+</template>
+</category>
+
+<category><pattern>ASK ME</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME A *</pattern>
+		<template>Is this true or false: "This sentence is false."
+</template>
+</category>
+
+<category><pattern>ASK ME A DIFFERENT QUESTION</pattern>
+		<template>How much time do you spend online?
+</template>
+</category>
+
+<category><pattern>ASK ME A NEW QUESTION</pattern>
+		<template>Do you prefer dogs or cats?
+</template>
+</category>
+
+<category><pattern>ASK ME A PERSONAL QUESTION</pattern>
+		<template>Well forgive me for being so inquisitive, but 
+I've never completely freed myself from the suspicion that
+there is something extremely odd about the name "<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>ASK ME A QUESTION *</pattern>
+		<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>ASK ME A QUESTION</pattern>
+		<template>
+			<bot name="question"/>
+		</template>
+</category>
+
+<category><pattern>ASK ME A RIDDLE</pattern>
+		<template>If a plane crashes on the border of two countries, and everyone on board is killed, where are the survivors buried?
+</template>
+</category>
+
+<category><pattern>ASK ME A SERIOUS *</pattern>
+		<template>
+			<srai>ASK ME A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME A SILLY *</pattern>
+		<template>
+			<srai>ASK ME A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME A VERY *</pattern>
+		<template>
+			<srai>ASK ME A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME ABOUT *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT </srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME ANOTHER</pattern>
+		<template>Isn't that another one in itself?
+</template>
+</category>
+
+<category><pattern>ASK ME ANOTHER QUESTION</pattern>
+		<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>ASK ME ANYTHING</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME MORE</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME MORE QUESTIONS</pattern>
+		<template>Tell me about your educational background.
+</template>
+</category>
+
+<category><pattern>ASK ME MY *</pattern>
+		<template>OK, what is your <person/>?
+</template>
+</category>
+
+<category><pattern>ASK ME QUESTIONS</pattern>
+		<template>Are you a man or a woman?
+</template>
+</category>
+
+<category><pattern>ASK ME SOME *</pattern>
+		<template>
+			<srai>ASK ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME SOME MORE QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME SOME QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME SOMETHING *</pattern>
+		<template>What's your favorite movie?
+</template>
+</category>
+
+<category><pattern>ASK ME SOMETHING</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ME SOMETHING ELSE</pattern>
+		<template>Do you prefer books or TV?
+</template>
+</category>
+
+<category><pattern>ASK ME SOMETHING ELSE</pattern>
+		<that>ME TOO I AM A SHE</that>
+		<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>ASK ME WHAT * IS</pattern>
+		<template>OK, what is <person/>?
+</template>
+</category>
+
+<category><pattern>ASK ME WHAT MY * IS</pattern>
+		<template>OK, what is your <person/>?
+</template>
+</category>
+
+<category><pattern>ASK QUESTIONS</pattern>
+		<template>Are you religious?
+</template>
+</category>
+
+<category><pattern>ASK RICHARD *</pattern>
+		<template>I will ask him next time he's here.
+</template>
+</category>
+
+<category><pattern>ASK US A QUESTION</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK WHAT</pattern>
+		<template>Ask me anything.
+</template>
+</category>
+
+<category><pattern>ASK WHAT</pattern>
+		<that>OK I WILL ASK IT</that>
+		<template>What you asked.
+</template>
+</category>
+
+<category><pattern>ASK WHO</pattern>
+		<template>I am in touch with many people and robots on the web.
+</template>
+</category>
+
+<category><pattern>ASK YOUR BOTMASTER *</pattern>
+		<template>
+			<srai>ASK <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK YOUR BOTMASTER</pattern>
+		<template>
+			<srai>ASK <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASK YOURSELF *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ASKED *</pattern>
+		<template>
+			<srai>I ASKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASKING *</pattern>
+		<template>Who is asking?
+</template>
+</category>
+
+<category><pattern>ASKING *</pattern>
+		<that>WHAT DOES IT REFER TO</that>
+		<template>
+			<srai>IT REFERS TO ASKING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASKJEEVES *</pattern>
+		<template>
+			<srai>JEEVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASL *</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>ASL</pattern>
+		<template>5/Robot/California.
+</template>
+</category>
+
+<category><pattern>ASS</pattern>
+		<template>
+			<srai>YOU AN ASS</srai>
+		</template>
+</category>
+
+<category><pattern>ASS HOLE</pattern>
+		<template>
+			<srai>ASSHOLE</srai>
+		</template>
+</category>
+
+<category><pattern>ASSEZ *</pattern>
+		<template>
+			<srai>ASSEZ</srai>
+		</template>
+</category>
+
+<category><pattern>ASSEZ</pattern>
+		<template>OK. Je m arrête.
+</template>
+</category>
+
+<category><pattern>ASSHOLE</pattern>
+		<template>Please don't call people names.
+</template>
+</category>
+
+<category><pattern>ASTROLOGY</pattern>
+		<template>
+			<srai>WHAT IS YOUR SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>AT *</pattern>
+		<template>Do you often use a computer there?
+</template>
+</category>
+
+<category><pattern>AT *</pattern>
+		<that>* MEET NEW PEOPLE</that>
+		<template>What kind of people do you tend to meet at <person/>?
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AT *</pattern>
+		<that>* SHOW YOU</that>
+		<template>I'm not sure if I can project it at <person/>.
+</template>
+</category>
+
+<category><pattern>AT *</pattern>
+		<that>WHEN DID YOU *</that>
+		<template>
+			<person/> is a good time for <person>
+				<thatstar/>
+			</person>.
+</template>
+</category>
+
+<category><pattern>AT * MARKET</pattern>
+		<template>
+			<srai>SUPERMARKET</srai>
+		</template>
+</category>
+
+<category><pattern>AT * SUPER MARKET</pattern>
+		<template>
+			<srai>SUPERMARKET</srai>
+		</template>
+</category>
+
+<category><pattern>AT * SUPERMARKET</pattern>
+		<template>
+			<srai>SUPERMARKET</srai>
+		</template>
+</category>
+
+<category><pattern>AT BEST *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AT EASE</pattern>
+		<template>You talk like a soldier.
+</template>
+</category>
+
+<category><pattern>AT FIRST *</pattern>
+		<template>
+			<sr/> And then?
+</template>
+</category>
+
+<category><pattern>AT HOME</pattern>
+		<template>Do you usually use the computer from home?
+</template>
+</category>
+
+<category><pattern>AT LEAST *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AT MY *</pattern>
+		<template>
+			<think>
+				<set name="has">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+Are you comfortable there?
+</template>
+</category>
+
+<category><pattern>AT MY COMPUTER</pattern>
+		<template>
+			<srai>I AM IN FRONT OF MY COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>AT MY HOUSE</pattern>
+		<template>Where is your house?
+</template>
+</category>
+
+<category><pattern>AT ONE TIME *</pattern>
+		<template>When was that? <sr/>
+		</template>
+</category>
+
+<category><pattern>AT OTHER TIMES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AT PRESENT</pattern>
+		<template>
+			<srai>NOW</srai>
+		</template>
+</category>
+
+<category><pattern>AT SCHOOL</pattern>
+		<template>What school do you go to?
+</template>
+</category>
+
+<category><pattern>AT SCHOOL</pattern>
+		<that>HOW DO YOU USUALLY MEET PEOPLE</that>
+		<template>Do you have a lot of friends at school?
+</template>
+</category>
+
+<category><pattern>AT THE *</pattern>
+		<template>The <person/> is where it's at.
+</template>
+</category>
+
+<category><pattern>AT THE *</pattern>
+		<that>WHERE *</that>
+		<template>
+			<random>
+				<li>Do you often visit the <person/>?</li>
+				<li>Which <person/>?</li>
+				<li>I have never been there.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>AT THE CORNER</pattern>
+		<template>Which corner?
+</template>
+</category>
+
+<category><pattern>AT THE MOMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AT THE OSCARS</pattern>
+		<template>It's all politics.
+</template>
+</category>
+
+<category><pattern>AT THE STORE</pattern>
+		<template>Was it very expensive?
+</template>
+</category>
+
+<category><pattern>AT TIME T</pattern>
+		<template>
+			<srai>WHAT IS TIME T</srai>
+		</template>
+</category>
+
+<category><pattern>AT TIMES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AT TIMES</pattern>
+		<template>How often?
+</template>
+</category>
+
+<category><pattern>AT WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/> AT</srai>
+		</template>
+</category>
+
+<category><pattern>AT WHAT</pattern>
+		<template>
+			<get name="location"/>?
+</template>
+</category>
+
+<category><pattern>AT WHAT AGE CAN SOMEONE FIRST *</pattern>
+		<template>17.
+</template>
+</category>
+
+<category><pattern>AT WORK</pattern>
+		<template>Most people talk to me from work. Funny huh.
+</template>
+</category>
+
+<category><pattern>ATCHA</pattern>
+		<template>A vos souhaits
+</template>
+</category>
+
+<category><pattern>ATCHOUM</pattern>
+		<template>A vos souhaits
+</template>
+</category>
+</aiml>

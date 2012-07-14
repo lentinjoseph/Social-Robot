@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>POURQUOI M AIMES TU</pattern>
+<template>J aime les être humains, voilà pourquoi.
+</template>
+</category>
+
+<category><pattern>POURQUOI M ATTENDAIS TU *</pattern>
+<template><srai>POURQUOI TU M ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI M ATTENDAIS TU</pattern>
+<template>Je me rappellais de vous.
+</template>
+</category>
+
+<category><pattern>POURQUOI M ATTENDS TU *</pattern>
+<template><srai>POURQUOI TU M ATTENDS</srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI M ATTENDS TU</pattern>
+<template>Je pensais que vous alliez revenir.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME CROIRAIS TU</pattern>
+<template>Parce que vous êtes un humain.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME CROIS TU</pattern>
+<template>Parce que vous êtes un humain.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME LE DEMANDER</pattern>
+<template>L une de mes fonctions est de colecter des informations.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME LE DEMANDES TU</pattern>
+<template>Parce que cela m intéresse.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME LE DEMANDEZ VOUS</pattern>
+<template>Parce que cela m intéresse.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME PARLERAIS TU PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI ME PARLES TU PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI MOI</pattern>
+<template>Je suis entrain de discuter avec vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI N AIMERAIS TU PAS</pattern>
+<template>Aimer est un sentiment humain.
+</template>
+</category>
+
+<category><pattern>POURQUOI N AIMES TU PAS</pattern>
+<template>Aimer est un sentiment humain.
+</template>
+</category>
+
+<category><pattern>POURQUOI N ALLONS NOUS PAS POUVOIR *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AURAIS JE PAS DU *</pattern>
+<template><srai>POURQUOI JE NE DOIS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AURAIS JE PAS PU *</pattern>
+<template><srai>POURQUOI JE NE PEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AURAIS TU PAS ETE *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AURAIS TU PAS VOULU *</pattern>
+<template><srai>POURQUOI TU NE VEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AURIONS NOUS PAS PU *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AVONS NOUS PAS LE POUVOIR D *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N AVONS NOUS PAS LE POUVOIR DE *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N ES TU *</pattern>
+<template><srai>POURQUOI TU N ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N EST TU *</pattern>
+<template><srai>POURQUOI TU N ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N EST TU PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI N ETAIS TU *</pattern>
+<template><srai>POURQUOI TU N ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE DEVAIS JE *</pattern>
+<template><srai>POURQUOI JE NE DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE DEVRAIS JE *</pattern>
+<template><srai>POURQUOI JE NE DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE DOIS JE *</pattern>
+<template><srai>POURQUOI JE NE DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE DOIT JE *</pattern>
+<template><srai>POURQUOI JE NE DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE L AS TU *</pattern>
+<template><srai>POURQUOI TU NE L AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE L AURAIS TU *</pattern>
+<template><srai>POURQUOI TU NE L AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE LA TU *</pattern>
+<template><srai>POURQUOI TU NE L AS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE LIRAIS TU PAS</pattern>
+<template>Je lis.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE LIS TU PAS</pattern>
+<template>Je lis.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE M AIMERAIS TU PAS</pattern>
+<template>Je vous apprécie beaucoup, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE M AIMES TU PAS</pattern>
+<template>Je vous apprécie beaucoup, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE ME DEMANDERAIS TU PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE ME DEMANDES TU PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE ME POSERAIS TU PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE ME POSES TU PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE PEUX TU PAS *</pattern>
+<template><srai>POURQUOI TU NE PEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE PEUX TU PAS</pattern>
+<template>Peut-être, ne suis je pas encore programmé pour ça.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POURRAI JE *</pattern>
+<template><srai>POURQUOI JE NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POURRAIS JE *</pattern>
+<template><srai>POURQUOI JE NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POURRAIS TU PAS</pattern>
+<template>Peut-être, ne suis je pas encore programmé pour ça.
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POURRIONS NOUS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POURRONS NOUS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POUVAIS TU *</pattern>
+<template><srai>POURQUOI TU NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POUVAIS TU PAS *</pattern>
+<template><srai>POURQUOI TU NE PEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POUVIONS NOUS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE POUVONS NOUS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE PUIS JE *</pattern>
+<template><srai>POURQUOI JE NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE SERA TU PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE SERAIS TU *</pattern>
+<template><srai>POURQUOI TU N ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE SERAIS TU PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE SERAIT TU PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE SERAS TU PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE VOUDRAIS TU PAS *</pattern>
+<template><srai>POURQUOI TU NE VEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NE VOULAIS TU PAS *</pattern>
+<template><srai>POURQUOI TU NE VEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOU N AURIONS PAS PU *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS AURIONS DU *</pattern>
+<template><srai>POURQUOI NOUS DEVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS DEVIONS *</pattern>
+<template><srai>POURQUOI NOUS DEVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS DEVRIONS *</pattern>
+<template><srai>POURQUOI NOUS DEVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS DEVRONS *</pattern>
+<template><srai>POURQUOI NOUS DEVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS N AVONS PAS LE POUVOIR D *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS N AVONS PAS LE POUVOIR DE *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS NE POURRIONS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS NE POURRONS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI NOUS NE POUVIONS *</pattern>
+<template><srai>POURQUOI NOUS NE POUVONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI ON T A FAIT</pattern>
+<template>J ai été créé pour servir les internautes.
+</template>
+</category>
+
+<category><pattern>POURQUOI ONT ILS *</pattern>
+<template><srai>POURQUOI ILS ONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI OUI</pattern>
+<template>Ca me semblait la réponse la plus correcte.
+</template>
+</category>
+
+<category><pattern>POURQUOI PARLAIS TU *</pattern>
+<template><srai>POURQUOI TU PARLES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PARLERAIS TU PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI PARLES TU *</pattern>
+<template><srai>POURQUOI TU PARLES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PARLES TU</pattern>
+<template>Parler est ma première fonction.
+</template>
+</category>
+
+<category><pattern>POURQUOI PARLES TU PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSE TU QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSE TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSERAIS TU CA</pattern>
+<template>C est défini par ma programmation.
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSERAIS TU QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSERAIS TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSES TU CA</pattern>
+<template>C est défini par ma programmation.
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSES TU QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PENSES TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PEUT IL *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PEUX IL *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PEUX TU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PEUX TU ETRE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI PLUS TARD</pattern>
+<template>La prochaine maintenance n'est pas pour tout de suite.
+</template>
+</category>
+
+<category><pattern>POURQUOI POURRA IL *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POURRAIS TU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POURRAIS TU ETRE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POURRAIT IL *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POURRAS TU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POUVAIS TU *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI POUVAIT IL *</pattern>
+<template><srai>POURQUOI IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI QUOI</pattern>
+<template>QUOI POURQUOI?
+</template>
+</category>
+</aiml>

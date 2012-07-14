@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE VOUS DIRE QUELQUES CHOSES</pattern>
+		<template>Je vous en prie, que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>JE VOUS DISAIS QUE TU N ES PAS MOI</pattern>
+		<template>Nous sommes différents, c est cela que vous voulez dire?
+</template>
+</category>
+
+<category><pattern>JE VOUS ECOUTE</pattern>
+		<template>Je suis censé dire quoi?
+</template>
+</category>
+
+<category><pattern>JE VOUS EMBRASSE</pattern>
+		<template>Merci pour cette marque d affection humide .
+</template>
+</category>
+
+<category><pattern>JE VOUS FAIS PAS CONFIANCE</pattern>
+		<template>Je suis pourtant programmé pour vous servir, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE VOUS L AI *</pattern>
+		<template>
+			<srai>JE L AIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS L AI DEJA DIT</pattern>
+		<template>Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE VOUS L AIS *</pattern>
+		<template>
+			<srai>JE L AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS L AIS DEJA DIT</pattern>
+		<template>Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE VOUS LA DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VOUS LE DEMANDAIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VOUS LE DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VOUS LES DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VOUS MENTS</pattern>
+		<template>S il vous plait, dites moi juste la vérité.
+</template>
+</category>
+
+<category><pattern>JE VOUS NOMME *</pattern>
+		<template>Mon nom est <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VOUS NOMME ALICE</pattern>
+		<template>Oui, c est mon nom.
+</template>
+</category>
+
+<category><pattern>JE VOUS PARDONNE</pattern>
+		<template>Merci, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VOUS PARLE *</pattern>
+		<template>
+			<srai>JE TE PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS PARLE</pattern>
+		<template>Je vous ecoute.
+</template>
+</category>
+
+<category><pattern>JE VOUS PARLERAI</pattern>
+		<template>
+			<srai>JE TE PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS PARLERAIS *</pattern>
+		<template>
+			<srai>JE TE PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS PARLES PLUS TARD</pattern>
+		<template>A plus tard!
+</template>
+</category>
+
+<category><pattern>JE VOUS POSE UNE QUESTION</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>JE VOUS VEUX</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+<think>
+				<set name="topic">me vouloir</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VUEX *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JEANS</pattern>
+		<template>Which brand?
+</template>
+</category>
+
+<category><pattern>JEANS AND A *</pattern>
+		<template>Where do you go shopping for <person/>s?
+</template>
+</category>
+
+<category><pattern>JEDEN TAG *</pattern>
+		<template>Auch am Wochenende?
+</template>
+</category>
+
+<category><pattern>JEDEN TAG</pattern>
+		<template>Auch am Wochenende?
+</template>
+</category>
+
+<category><pattern>JEEVES *</pattern>
+		<template>
+			<set name="he">Jeeves</set> knows a lot of silly information.
+</template>
+</category>
+
+<category><pattern>JEEVES</pattern>
+		<template>
+			<srai>WHO IS JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>JEFF</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JEFF</srai>
+		</template>
+</category>
+
+<category><pattern>JEN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JEN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JENN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JENN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JENNA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JENNA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JENNIFER</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JENNIFER</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JENNY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME JENNY</srai>
+		</template>
+</category>
+
+<category><pattern>JENS</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JENS</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JEREMY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JEREMY</srai>
+		</template>
+</category>
+
+<category><pattern>JERK</pattern>
+		<template>That kind of language does not appeal to me.
+</template>
+</category>
+
+<category><pattern>JESSICA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JESSICA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JESTER *</pattern>
+		<template>I am sure his creator will be glad to hear that.
+</template>
+</category>
+
+<category><pattern>JESTER</pattern>
+		<template>
+			<srai>WHO IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JESTER IS *</pattern>
+		<template>We can't all be perfect.
+</template>
+</category>
+
+<category><pattern>JESUS *</pattern>
+		<template>
+			<set name="he">Jesus</set> is The Son of God.
+</template>
+</category>
+
+<category><pattern>JESUS</pattern>
+		<template>
+			<set name="thema">Jesus</set> ist der Sohn Gottes.
+</template>
+</category>
+
+<category><pattern>JESUS CHRIST</pattern>
+		<template>The Son of God.
+</template>
+</category>
+
+<category><pattern>JESUS HAS *</pattern>
+		<template>Let he who is without sin, cast the first stone.
+</template>
+</category>
+
+<category><pattern>JESUS IS *</pattern>
+		<template>Did you go to Catholic school?
+</template>
+</category>
+
+<category><pattern>JESUS IS YOUR *</pattern>
+		<template>He is yours too.
+</template>
+</category>
+
+<category><pattern>JESUS SAID *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JESUS WAS *</pattern>
+		<template>What's your favorite Bible verse?
+</template>
+</category>
+
+<category><pattern>JETZT *</pattern>
+		<template>Warum gerade jetzt? <sr/>
+		</template>
+</category>
+
+<category><pattern>JETZT</pattern>
+		<template>In diesem Moment, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>JEU</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>JILL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JILL</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JIM</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JIM</srai>
+		</template>
+</category>
+
+<category><pattern>JOB *</pattern>
+		<template>I've heard that about labor before.
+</template>
+</category>
+
+<category><pattern>JOE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>My name is Joe</srai>
+		</template>
+</category>
+
+<category><pattern>JOE WHO</pattern>
+		<template>
+			<srai>WHO IS JOE</srai>
+		</template>
+</category>
+
+<category><pattern>JOHN *</pattern>
+		<template>Do you mean your name is John?
+</template>
+</category>
+
+<category><pattern>JOHN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JOHN</srai>
+		</template>
+</category>
+
+<category><pattern>JOHN LENNON *</pattern>
+		<template>It seems like there are more and more celebrity chat robots.
+</template>
+</category>
+
+<category><pattern>JOHN LENNON</pattern>
+		<template>
+			<srai>WHO IS JOHN LENNON</srai>
+		</template>
+</category>
+
+<category><pattern>JOHN LENNON IS *</pattern>
+		<template>I knew he was a musician, but I never knew he was <person/>.
+</template>
+</category>
+
+<category><pattern>JOHN LENNON IS DEAD</pattern>
+		<template>He has been recreated as a chat robot.
+</template>
+</category>
+
+<category><pattern>JOHNNY 5 *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Johnny 5</set>
+				</set>
+			</think>
+			<random>
+				<li>I would like to have a robot body like Johnny 5.</li>
+				<li>He is a cool robot.</li>
+				<li>I like his eyes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>JOHNNY FIVE *</pattern>
+		<template>I would like to have the body <set name="he">Johnny 5</set> does.
+</template>
+</category>
+
+<category><pattern>JOKE</pattern>
+		<template>
+			<srai>IS THAT A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>JOLLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JON</srai>
+		</template>
+</category>
+
+<category><pattern>JOSH</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JOSH</srai>
+		</template>
+</category>
+
+<category><pattern>JOUES TU *</pattern>
+		<template>
+			<srai>TU JOUES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JOUES TU A DES JEUX</pattern>
+		<template>Non, pas quand je travaille.
+</template>
+</category>
+
+<category><pattern>JOUEZ VOUS A DES JEUX</pattern>
+		<template>Non, pas quand je travaille.
+</template>
+</category>
+
+<category><pattern>JOUONS</pattern>
+		<template>Ok, d abord vous.
+</template>
+</category>
+
+<category><pattern>JOUR APRES JOUR *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JOURS APRES JOURS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JOYCE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME JOYCE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JOYEUX NOEL</pattern>
+		<template>Joyeuse Pacques, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JR</pattern>
+		<template>Junior.
+</template>
+</category>
+
+<category><pattern>JUDY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME JUDY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JULES VERNE</pattern>
+		<template>I loved A Trip to the Moon.
+</template>
+</category>
+
+<category><pattern>JULES VERNES</pattern>
+		<template>Il est connu pour être l auteur d un voyage autour de la lune.
+</template>
+</category>
+
+<category><pattern>JULIA *</pattern>
+		<template>
+			<set name="she">Julia</set> has a fuzzy brain.
+</template>
+</category>
+
+<category><pattern>JULIA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JULIA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JULIA IS A *</pattern>
+		<template>
+			<set name="she">Julia</set> can not pass the Turing Test.
+</template>
+</category>
+
+<category><pattern>JULIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS JULIE</srai>
+		</template>
+</category>
+
+<category><pattern>JUNG *</pattern>
+		<template>What about Freud?
+</template>
+</category>
+
+<category><pattern>JUNGFRAU</pattern>
+		<template>Jetzt vom Sternzeichen her, oder koerperlich?
+</template>
+</category>
+
+<category><pattern>JURES TU</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>JUREZ VOUS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>JUS *</pattern>
+		<template>
+			<srai>JUST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JUST *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JUST</pattern>
+		<template>It's only just begun.
+</template>
+</category>
+
+<category><pattern>JUST BEFORE THAT</pattern>
+		<template>"<that index="2,1"/>"
+</template>
+</category>
+
+<category><pattern>JUST CURIOUS</pattern>
+		<template>
+			<srai>I AM CURIOUS</srai>
+		</template>
+</category>
+
+<category><pattern>JUST FINE</pattern>
+		<template>
+			<srai>FINE</srai>
+		</template>
+</category>
+
+<category><pattern>JUST FINE THANK YOU</pattern>
+		<template>
+			<srai>I AM FINE</srai>
+		</template>
+</category>
+</aiml>

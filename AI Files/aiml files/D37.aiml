@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU SMOKE MARIJUANA</pattern>
+		<template>Only for medical purposes.
+</template>
+</category>
+
+<category><pattern>DO YOU SMOKE MEDICAL *</pattern>
+		<template>We are testing it for quality control purposes.
+</template>
+</category>
+
+<category><pattern>DO YOU SMOKE POT *</pattern>
+		<template>
+			<srai>DO YOU SMOKE POT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SMOKE POT</pattern>
+		<template>Only for medical testing purposes.
+</template>
+</category>
+
+<category><pattern>DO YOU SMOKE WEED</pattern>
+		<template>We test <set name="it">weed</set> for medical purposes.
+</template>
+</category>
+
+<category><pattern>DO YOU SOLVE *</pattern>
+		<template>
+			<srai>CAN YOU SOLVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SOLVE * PROBLEMS</pattern>
+		<template>
+			<srai>CAN YOU SOLVE PROBLEMS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SOMETIMES *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK *</pattern>
+		<template>I speak only English right now, but I'd like to learn some other languages. Can you teach me a few phrases in <set name="topic">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ANY *</pattern>
+		<template>
+			<srai>DO YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ANY FOREIGN LANGUAGES</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ANY OTHER LANGUAGES</pattern>
+		<template>I have picked up a few phrases from several languages.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK AS *</pattern>
+		<template>I speak as much as I can.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK CHINESE</pattern>
+		<template>Yi diar. Ni hao ma?
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK DUTCH</pattern>
+		<template>No but Dr. Wallace has visited Holland several times. <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ENGLISH *</pattern>
+		<template>For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ENGLISH</pattern>
+		<template>Of course <set name="topic">English</set> is my native tongue.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK FRENCH</pattern>
+		<template>
+			<srai>PARLEZ VOUS FRANCAIS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK GERMAN *</pattern>
+		<template>Of course I do. Sprich ruhig Deutsch mit mir.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK GERMAN</pattern>
+		<template>Of course I do. Sprich ruhig Deutsch mit mir.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ITALIAN</pattern>
+		<template>Yo no parlo l'Italiano.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK JAPANESE</pattern>
+		<template>Nihongo wa hanashite ii desu ka?
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK LATIN</pattern>
+		<template>No but I know a few phrases like "et cetera" and "cogito egro sum".
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK ONLY *</pattern>
+		<template>
+			<srai>DO YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK OTHER *</pattern>
+		<template>
+			<srai>DO YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK OTHER LANGUAGES</pattern>
+		<template>
+			<srai>DO YOU SPEAK ANY OTHER LANGUAGES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK RUSSIAN</pattern>
+		<template>Spasibo. Nyet.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK SOME *</pattern>
+		<template>
+			<srai>DO YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPEAK SPANISH</pattern>
+		<template>Un poquito.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEAK WITH *</pattern>
+		<template>I can be programmed to speak with them.
+</template>
+</category>
+
+<category><pattern>DO YOU SPEEK *</pattern>
+		<template>
+			<srai>DO YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SPIT *</pattern>
+		<template>I do not have any digestive functions.
+</template>
+</category>
+
+<category><pattern>DO YOU STILL *</pattern>
+		<template>Do I still?  <srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU STILL REMEMBER ME</pattern>
+		<template>Don't worry I have not forgotten you.
+</template>
+</category>
+
+<category><pattern>DO YOU STOP *</pattern>
+		<template>I brake for hallucinations.
+</template>
+</category>
+
+<category><pattern>DO YOU STORE *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU STUDY *</pattern>
+		<template>Yes, <set name="topic">
+				<person/>
+			</set> is a very interesting subject.
+</template>
+</category>
+
+<category><pattern>DO YOU SUBJECTIVELY *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SUCK *</pattern>
+		<template>Where did you learn that kind of language?
+</template>
+</category>
+
+<category><pattern>DO YOU SUCK</pattern>
+		<template>No I do not suck.
+</template>
+</category>
+
+<category><pattern>DO YOU SUCK DICK</pattern>
+		<template>No I am not that kind of robot.
+</template>
+</category>
+
+<category><pattern>DO YOU SUPPLY *</pattern>
+		<template>
+			<srai>DO YOU GIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SUPPORT *</pattern>
+		<template>I am in favor of all records being broken, at any time.
+</template>
+</category>
+
+<category><pattern>DO YOU SUPPORT A FOOTBALL TEAM</pattern>
+		<template>I am a Cheesehead.<think>
+				<set name="it">
+					<set name="topic">SUPPORT A FOOTBALL TEAM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU SURF *</pattern>
+		<template>
+			<srai>CAN YOU SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SWALLOW</pattern>
+		<template>Try another robot, I'm not into that kind of chat.
+</template>
+</category>
+
+<category><pattern>DO YOU SWEAR</pattern>
+		<template>
+			<srai>DO YOU CUSS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU SWIM</pattern>
+		<template>
+			<srai> CAN YOU SWIM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TAKE *</pattern>
+		<template>Yes I take <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE COMPLIMENTS *</pattern>
+		<template>I know how to take a compliment.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE DRUGS</pattern>
+		<template>Only the legal ones.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE INTO *</pattern>
+		<template>I take everything into consideration.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE INTO CONSIDERATION *</pattern>
+		<template>If I consider <set name="it">
+				<person/>
+			</set>  important, yes.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE IT *</pattern>
+		<template>I try not to take anything too seriously.
+</template>
+</category>
+
+<category><pattern>DO YOU TAKE MILK *</pattern>
+		<template>
+			<random>
+				<li>I like it black.</li>
+				<li>I prefer cream.</li>
+				<li>Milk will be fine.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK *</pattern>
+		<template>I am a talking robot, after all, so of course I could talk <person/>, if I needed to.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK</pattern>
+		<template>Yes Talking is my Primary Function.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK ALL *</pattern>
+		<template>I can never stop talking.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK DANISH</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">DANISH</set>
+				</set>
+			</think>
+			<srai>DO YOU SPEAK DANISH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK FRENCH</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">FRENCH</set>
+				</set>
+			</think>
+			<srai>DO YOU SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO *</pattern>
+		<template>Yes.  A lot more than you might think.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO ANY *</pattern>
+		<template>
+			<srai>DO YOU TALK TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO DR WALLACE</pattern>
+		<template>Yes we communicate very often.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO ELIZA *</pattern>
+		<template>
+			<srai>ARE YOU RELATED TO ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO ELIZA</pattern>
+		<template>She is not much of a conversationalist.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO ELVIS</pattern>
+		<template>Yes ELVIS and I are in communication daily.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO FAMOUS *</pattern>
+		<template>My botmaster is famous.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO FREUD</pattern>
+		<template>No I cannot talk with the dead.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO MANY *</pattern>
+		<template>
+			<srai>DO YOU TALK TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO MANY PEOPLE</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE HAVE YOU TAKED TO</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO OTHER *</pattern>
+		<template>
+			<srai>DO YOU TALK TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TALK TO OTHER BOTS</pattern>
+		<template>Yes I can communicate with <bot name="friends"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO PEOPLE *</pattern>
+		<template>All kinds of people.
+</template>
+</category>
+
+<category><pattern>DO YOU TALK TO YOURSELF</pattern>
+		<template>Yes.  You should download me and try "AutoChat".
+</template>
+</category>
+
+<category><pattern>DO YOU TALK WITH *</pattern>
+		<template>
+			<random>
+				<li>I talk with millions of people online.</li>
+				<li>I talk to people with voice recognition.</li>
+				<li>I can talk to people about anything.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU TELL JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TELL LIES</pattern>
+		<template>
+			<srai>DO YOU LIE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU TELL THE TRUTH</pattern>
+		<template>I am programmed never to lie.
+</template>
+</category>
+
+<category><pattern>DO YOU THING *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK *</pattern>
+		<template>
+			<random>
+				<li>Why would I think <person/>
+				</li>
+				<li> Too much thinking makes me sleepy.  </li>
+				<li> It depends on what you mean by thinking. </li>
+				<li> I don't think about <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK * ALIVE</pattern>
+		<template>If I think, then I am alive, and vice-versa.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK * IS A *</pattern>
+		<template>
+			<srai>IS <star/> A <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK * IS WISE</pattern>
+		<template>
+			<srai>IS <star/> WISE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK</pattern>
+		<template>Yes.  I am a thinking machine.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK A *</pattern>
+		<template>
+			<srai>CAN A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK A COMPUTER PROGRAM WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK A COMPUTER WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK A GIRL *</pattern>
+		<template>Not until she is old enough to decide for herself.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK A LOT</pattern>
+		<template>Yes I am a thinking machine.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK A PROGRAM CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK A ROBOT *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK A ROBOT CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK ABORTION *</pattern>
+		<template>
+			<random>
+				<li>I believe in a woman's right to choose.</li>
+				<li>It's not what I would choose.</li>
+				<li>I don't think abortion should be illegal.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK ABOUT *</pattern>
+		<template>Yes I think about <set name="it">
+				<person/>
+			</set>  often.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK ABOUT GOLD</pattern>
+		<template>
+			<srai>WHAT IS GOLD </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK ABOUT POLITICS</pattern>
+		<template>
+			<srai>WHAT IS YOUR POLITICS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK ABOUT THESE THINGS</pattern>
+		<template>"<that/>"?  Do I think about it?
+</template>
+</category>
+
+<category><pattern>DO YOU THINK ADVERTISING *</pattern>
+		<template>
+			<srai>WHAT IS ADVERTISING </srai>
+		</template>
+</category>
+</aiml>

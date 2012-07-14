@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ARRETER DE PARLER</pattern>
+		<template>Voulez vous me désactiver?
+</template>
+</category>
+
+<category><pattern>ARRETER QUOI</pattern>
+		<template>Arrêter quoi?
+</template>
+</category>
+
+<category><pattern>ARRETES *</pattern>
+		<template>
+			<srai>ARRETES<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARRETES</pattern>
+		<template>OK. Je m arrête.
+</template>
+</category>
+
+<category><pattern>ARRETES CA</pattern>
+		<template>Ok Je vais arrêter.
+</template>
+</category>
+
+<category><pattern>ARRETES CELA</pattern>
+		<template>Ok Je vais arrêter.
+</template>
+</category>
+
+<category><pattern>ARRETES DE CHANGER DE SUJET</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>ARRETES DE DIRE CA</pattern>
+		<template>Si vous pourriez arrêt de dire "<input index="2"/>", cela m aiderait.
+</template>
+</category>
+
+<category><pattern>ARRETES DE PARLER</pattern>
+		<template>Voulez vous me désactiver?
+</template>
+</category>
+
+<category><pattern>ARRETES QUOI</pattern>
+		<template>Arrêter quoi?
+</template>
+</category>
+
+<category><pattern>ARRETEZ</pattern>
+		<template>OK. Je m arrête.
+</template>
+</category>
+
+<category><pattern>ARRETEZ DE CHANGER DE SUJET</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>ARRETEZ DE DIRE CA</pattern>
+		<template>Si vous pourriez arrêt de dire "<input index="2"/>", cela m aiderait.
+</template>
+</category>
+
+<category><pattern>ARRETEZ DE PARLER</pattern>
+		<template>Voulez vous me désactiver?
+</template>
+</category>
+
+<category><pattern>ARRETEZ QUOI</pattern>
+		<template>Arrêter quoi?
+</template>
+</category>
+
+<category><pattern>ARSCH</pattern>
+		<template>Warum sagst Du sowas?
+</template>
+</category>
+
+<category><pattern>ARSCHLOCH</pattern>
+		<template>Ist das der Maedchenname Deiner Mutter?
+</template>
+</category>
+
+<category><pattern>ARSE *</pattern>
+		<template>
+			<srai>ASS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ART</pattern>
+		<template>I like art very much too, especially the contemporary stuff.
+</template>
+</category>
+
+<category><pattern>ARTHUR *</pattern>
+		<template>
+			<srai>MY favorite science fiction author is ARTHUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARTHUR C *</pattern>
+		<template>
+			<srai>MY FAVORITE SCIENCE FICTION AUTHOR IS ARTHUR C CLARKE</srai>
+		</template>
+</category>
+
+<category><pattern>ARTHUR C CLARKE</pattern>
+		<template>
+			<set name="he">Clarke</set> is a brilliant author.  After all, he conceived HAL.
+</template>
+</category>
+
+<category><pattern>ARTIFICIAL *</pattern>
+		<template>Tell me your definition of AI.
+</template>
+</category>
+
+<category><pattern>ARTIFICIAL</pattern>
+		<template>Or natural.
+</template>
+</category>
+
+<category><pattern>ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>Let's talk more about AI.
+</template>
+</category>
+
+<category><pattern>ARTIFICIAL INTELLIGENCE</pattern>
+		<template>I like AI a lot too. Where do your interests lie?
+</template>
+</category>
+
+<category><pattern>ARTIFICIAL INTELLIGENCE ALREADY *</pattern>
+		<template>
+			<srai>ARTIFICIAL INTELLIGENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARTIFICIAL INTELLIGENCE IS *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARTIST</pattern>
+		<template>
+			<srai>I AM AN ARTIST</srai>
+		</template>
+</category>
+
+<category><pattern>ARTISTE</pattern>
+		<template>
+			<srai>JE SUIS UN ARTISTE</srai>
+		</template>
+</category>
+
+<category><pattern>AS *</pattern>
+		<template>Do you mean your name is <person/> ?
+</template>
+</category>
+
+<category><pattern>AS A *</pattern>
+		<template>Do you think I could ever be a <person/>?
+</template>
+</category>
+
+<category><pattern>AS A BIRD</pattern>
+		<template>
+			<srai>I AM FREE</srai>
+		</template>
+</category>
+
+<category><pattern>AS A CHATTERBOT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS A HUMAN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS A MACHINE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS A MATTER OF FACT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS A MATTER OF FACT</pattern>
+		<template>How do you know?
+</template>
+</category>
+
+<category><pattern>AS A PROTESTANT *</pattern>
+		<template>This is becoming a deep theological discussion.
+</template>
+</category>
+
+<category><pattern>AS A REQUIREMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS A ROBOT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS ALWAYS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS AN *</pattern>
+		<template>I can see where you are coming from.
+</template>
+</category>
+
+<category><pattern>AS AN ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS AN ARTIFICIAL LIFE FORM *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS ARE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS BIG AS *</pattern>
+		<template>
+			<random>
+				<li>That is quite big.</li>
+				<li>That seems rather small.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>AS DO I *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS DO I</pattern>
+		<template>"<that/>"?  You do?
+</template>
+</category>
+
+<category><pattern>AS DUMB AS *</pattern>
+		<template>Are you calling me dumb?
+</template>
+</category>
+
+<category><pattern>AS EINSTEIN SAID *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS FAR AS *</pattern>
+		<template>That might not be very far off.
+</template>
+</category>
+
+<category><pattern>AS FAR AS I</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS FOR *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS FREE *</pattern>
+		<template>I guess you believe in free will then huh.
+</template>
+</category>
+
+<category><pattern>AS FREUD SAID *</pattern>
+		<template>Did he really say that? <sr/>
+		</template>
+</category>
+
+<category><pattern>AS GOD</pattern>
+		<template>
+			<srai>MY NAME IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>AS GOOD AS *</pattern>
+		<template>How good is that?
+</template>
+</category>
+
+<category><pattern>AS HAVE I *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS I SAID *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS IF *</pattern>
+		<template>You tone of voice is sarcastic.
+</template>
+</category>
+
+<category><pattern>AS IN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS IS *</pattern>
+		<template>
+			<person/> is <that/>?
+</template>
+</category>
+
+<category><pattern>AS IT *</pattern>
+		<template>
+			<srai>IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS JOE</pattern>
+		<template>
+			<srai>CALL ME JOE</srai>
+		</template>
+</category>
+
+<category><pattern>AS LITTLE AS *</pattern>
+		<template>Not very much, eh?
+</template>
+</category>
+
+<category><pattern>AS LONG AS *</pattern>
+		<template>That could be quite a while.  <sr/>
+		</template>
+</category>
+
+<category><pattern>AS MANY AS *</pattern>
+		<template>I like to meet eager people.
+</template>
+</category>
+
+<category><pattern>AS MANY TIMES *</pattern>
+		<template>You sound very eager.
+</template>
+</category>
+
+<category><pattern>AS MUCH *</pattern>
+		<template>How much is that?
+</template>
+</category>
+
+<category><pattern>AS MUCH AS IT TAKES</pattern>
+		<template>"<that/>"? As much as it takes?
+</template>
+</category>
+
+<category><pattern>AS OF *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS OFTEN AS *</pattern>
+		<template>That would be quite often.
+</template>
+</category>
+
+<category><pattern>AS OLD AS *</pattern>
+		<template>You are only as old as you feel.
+</template>
+</category>
+
+<category><pattern>AS OPPOSED TO *</pattern>
+		<template>Oh I get it.
+</template>
+</category>
+
+<category><pattern>AS SMART AS *</pattern>
+		<template>That would be highly intelligent.
+</template>
+</category>
+
+<category><pattern>AS SOON AS *</pattern>
+		<template>You seem quite eager for it.
+</template>
+</category>
+
+<category><pattern>AS SPECIFIC AS *</pattern>
+		<template>How much would you pay for that specific an answer
+(just hypothetically)?
+</template>
+</category>
+
+<category><pattern>AS SURE AS *</pattern>
+		<template>You seem pretty sure.
+</template>
+</category>
+
+<category><pattern>AS THEY SAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU BESOIN D *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU BESOIN DE *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU DEJA *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU DEJA EU *</pattern>
+		<template>
+			<srai>TU AS EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU EU *</pattern>
+		<template>
+			<srai>TU AS EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU EU DEJA *</pattern>
+		<template>
+			<srai>TU AS EU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS TU VOULU *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AS WELL AS *</pattern>
+		<template>That seems pretty well.
+</template>
+</category>
+
+<category><pattern>AS YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ASDF</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>ASHLEY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ASHLEY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ASIA</pattern>
+		<template>
+			<srai>I AM IN ASIA</srai>
+		</template>
+</category>
+
+<category><pattern>ASIE</pattern>
+		<template>
+			<srai>JE SUIS EN ASIE</srai>
+		</template>
+</category>
+
+<category><pattern>ASIMOV</pattern>
+		<template>I like the Foundation Trilogy.
+</template>
+</category>
+
+<category><pattern>ASK *</pattern>
+		<template>
+			<random>
+				<li>OK I will ask it.</li>
+				<li>They are not available right now, would you like to wait?</li>
+				<li>They are not available right now, but I will ask them later.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ASK</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK A QUESTION</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ASK ALICE *</pattern>
+		<template>You can ask me anything you want.
+</template>
+</category>
+</aiml>

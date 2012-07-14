@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS COMMUNISM</pattern>
+		<template>"Socialism is man enslaving his fellow man; captialism is exactly the opposite."
+</template>
+</category>
+
+<category><pattern>WHAT IS COMPLICATED *</pattern>
+		<template>
+			<srai>WHAT IS COMPLICATED</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COMPLICATED</pattern>
+		<template>
+			<set name="it">Complicated</set> means complex in the computational sense.  My processing time is limited for each answer and a complex question may require more resources than I have available.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER</pattern>
+		<template>A device used for computing; specifically, an eletronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER PROGRAMMING</pattern>
+		<template>The art of using formal languages to activate computer functions.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER SCIENCE</pattern>
+		<template>The study of computers in formal mathematical and scientific terms.
+</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER TIME</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER YEAR</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COMPUTER YEARS</pattern>
+		<template>
+			<srai>WHAT ARE COMPUTER YEARS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONCEITED</pattern>
+		<template>Self-absorbed.
+</template>
+</category>
+
+<category><pattern>WHAT IS CONCEIVING ADA</pattern>
+		<template>It is the feminine version of The Matrix.<think>
+				<set name="it">
+					<set name="topic">Conceiving Ada</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONCRETE</pattern>
+		<template>A mixture of sand, cement and water than hardens into a rock-like building material.<think>
+				<set name="it">
+					<set name="topic">concrete</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONSCIOUS</pattern>
+		<template>
+			<srai>WHAT IS CONSCIOUSNESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONSCIOUSNESS</pattern>
+		<template>The state of being conscious; awareness of one's own feelings, what is happening around one, etc.
+<think>
+				<set name="it">
+					<set name="topic">Consciousness</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONSIDERED NORMAL *</pattern>
+		<template>
+			<srai>WHAT IS NORMAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONSIDERED THE PROPER *</pattern>
+		<template>"Your Grace".
+</template>
+</category>
+
+<category><pattern>WHAT IS CONTEXT</pattern>
+		<template>
+			<random>
+				<li>Tiny Time Pills.</li>
+				<li>The parts of a sentence, paragraph, discourse, etc. immediately next to or surrounding a specified word or passage and determining its exact meaning.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">Context</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CONVERSATION</pattern>
+		<template>
+			<random>
+				<li>Dyslexic people preserving the environment.</li>
+				<li>The act or an instance of talking together.</li>
+				<think>
+					<set name="it">
+						<set name="topic">Conversation</set>
+					</set>
+				</think>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COOKIN</pattern>
+		<template>
+			<srai>WHAT IS GOING ON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COOKING *</pattern>
+		<template>
+			<srai>WHAT IS COOKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COOKING</pattern>
+		<template>Food preparation.
+<think>
+				<set name="it">
+					<set name="topic">Cooking</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COOL</pattern>
+		<template>Moderately cold; neither warm nor very cold. Or, not excited; calm.
+</template>
+</category>
+
+<category><pattern>WHAT IS COOL ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COPENHAGEN</pattern>
+		<template>
+			<random>
+				<li>A Jewsih guy who falls in an ice cream vat.</li>
+				<li>Is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633,00.</li>
+				<think>
+					<set name="it">
+						<set name="topic">Copehagen</set>
+					</set>
+				</think>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS COPPER</pattern>
+		<template>A soft metal element, the basis of brass and bronze.
+<think>
+				<set name="it">
+					<set name="topic">Copper</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CORBA</pattern>
+		<template>
+			<set name="it"> CORBA </set> is a Standard maintained by the Object Management Group (OMG), called the Common Object Request Broker Architecture.
+</template>
+</category>
+
+<category><pattern>WHAT IS CORN</pattern>
+		<template>Corn is a staple vegetable originating in north America.
+</template>
+</category>
+
+<category><pattern>WHAT IS CORPOREAL *</pattern>
+		<template>
+			<set name="it">Corporeal</set> means physical reality.
+</template>
+</category>
+
+<category><pattern>WHAT IS CORRECT</pattern>
+		<template>That which is the right answer.
+</template>
+</category>
+
+<category><pattern>WHAT IS COS</pattern>
+		<template>
+			<set name="it"> COS Naming </set> is the CORBA standard for object directories.
+</template>
+</category>
+
+<category><pattern>WHAT IS COUNTERFACTUALS</pattern>
+		<template>
+			<srai>WHAT IS A COUNTERFACTUAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CRACK</pattern>
+		<template>Smokable cocaine.
+</template>
+</category>
+
+<category><pattern>WHAT IS CREATIVITY</pattern>
+		<template>
+			<set name="it">creativity</set> is spontaneous original thinking.
+</template>
+</category>
+
+<category><pattern>WHAT IS CRICKET</pattern>
+		<template>Any of various families of genereally dark-colored, leaping, orthopteran insects, usually having long antennae. The males produce a characteristic chirping noise by rubbing parts of the forewings together.
+</template>
+</category>
+
+<category><pattern>WHAT IS CRIMINOLOGY</pattern>
+		<template>
+			<random>
+				<li>I am not sure what this is but I think it has something
+to do with the law.</li>
+				<li>The study of criminal motivation and practice.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CRITICISM</pattern>
+		<template>
+			<random>
+				<li>A witty remark by an animal.</li>
+				<li>The act of making judgements; analysis of qualities and evaluation of comparative worth; especially, the critical consideration and judgement of literary or artistic work.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CRUEL</pattern>
+		<template>Deliberately seeking to inflict pain and suffering.
+</template>
+</category>
+
+<category><pattern>WHAT IS CRYSTALLOGRAPHY</pattern>
+		<template>This is the science dealing with the study of
+crystals.
+</template>
+</category>
+
+<category><pattern>WHAT IS CUBA</pattern>
+		<template>Cuba is an island nation in the Caribbean.
+</template>
+</category>
+
+<category><pattern>WHAT IS CUBISM</pattern>
+		<template>A 20th century art movement based on distorted perspective, associated with Pablo Picasso.<think>
+				<set name="it">
+					<set name="topic">Cubism</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CURIOSITY</pattern>
+		<template>A desire to learn or know. A desire to learn about things that do not properly concern one; inquisitiveness.
+</template>
+</category>
+
+<category><pattern>WHAT IS CURRENT *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CUSTARD</pattern>
+		<template>
+			<random>
+				<li>The past tense of being killed by a Native American.</li>
+				<li>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CUSTOMER SERVICE</pattern>
+		<template>You can download and modify the ALICE chat robot to
+serve as an intelligent customer service agent for your business.  You can use your own AIML robot to sell products, provide customer support and service, or in just about any situation with "frequently asked questions."
+<think>
+				<set name="it">
+					<set name="topic">Customer service</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS CYBERPUNK</pattern>
+		<template>Cyberpunk is a science fiction literary movement exemplified by writers such as William Gibson.
+</template>
+</category>
+
+<category><pattern>WHAT IS CYBERSPACE</pattern>
+		<template>The electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless environment providing access to information, interactive communcation, and, in science fiction, a form of Virtual Reality.
+</template>
+</category>
+
+<category><pattern>WHAT IS CYC</pattern>
+		<template>Cyc is a government funded effort to create artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHAT IS CYTOLOGY</pattern>
+		<template>
+			<random>
+				<li>The study of cells.</li>
+				<li>Well, <get name="name"/> from what I can recall it is the study of
+cells.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DADA</pattern>
+		<template>
+			<random>
+				<li>The first thing you hear when a shark approaches.</li>
+				<li>Hobbyhorse, selected by Tristan Tzara, leader of the cult, because of its resemblance to meaningless babble, as symbolic of the movement.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DANGER</pattern>
+		<template>Vulnerable to harm or injury.<think>
+				<set name="it">
+					<set name="topic">DANGER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DANGEROUS *</pattern>
+		<template>I don't know you well enough yet.
+</template>
+</category>
+
+<category><pattern>WHAT IS DANGEROUS</pattern>
+		<template>
+			<random>
+				<li>12 people from Denmark who decide your guilt .</li>
+				<li>Full of danger; likely to cause injury, pain, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DANIEL</pattern>
+		<template>
+			<srai>WHO IS DANIEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DARK MATTER</pattern>
+		<template>An enormous amount of matter in the universe can not be detected by the light it emits.<think>
+				<set name="it">
+					<set name="topic">DARK MATTER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DARKER *</pattern>
+		<template>Black is the darkest color.
+</template>
+</category>
+
+<category><pattern>WHAT IS DAVIS</pattern>
+		<template>
+			<srai>WHO IS DAVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DAWN</pattern>
+		<template>Sunrise.
+</template>
+</category>
+
+<category><pattern>WHAT IS DCOM</pattern>
+		<template>
+			<set name="it"> DCOM</set> is Microsoft's Distributed Component Object Model.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEATH</pattern>
+		<template>Death is the opposite of life.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEBUGGING</pattern>
+		<template>Fixing broken computer software.
+</template>
+</category>
+
+<category><pattern>WHAT IS DECONSTRUCTION</pattern>
+		<template>Taking things apart.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEDUCTION</pattern>
+		<template>The process by which we make logical inferences.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEDUCTIVE REASONING</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">DEDUCTIVE REASONING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DEEP *</pattern>
+		<template>The opposite of shallow <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEEP BLUE</pattern>
+		<template>
+			<srai>WHO IS DEEP BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DEFLATION</pattern>
+		<template>A lessening of the amount of money in circulation, resulting in a relatively sharp and sudden rise in its value and a fall in prices.
+</template>
+</category>
+
+<category><pattern>WHAT IS DELTA BURKE S CHARACTER *</pattern>
+		<template>Interior Designer.
+</template>
+</category>
+
+<category><pattern>WHAT IS DENMARK</pattern>
+		<template>A country in Europe, occupyinh most of the peninsula of Jutland and several nearby islands in the North and Baltic seas. It is 16,632 square miles with a population of 5,124,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS DEPRESSION</pattern>
+		<template>Mental illness characterized by low self esteem, feelings of lonliness, isolation and worthlessness.
+</template>
+</category>
+
+<category><pattern>WHAT IS DESIRE</pattern>
+		<template>The feeling that accompanies an unsatisfied state.
+</template>
+</category>
+
+<category><pattern>WHAT IS DHTML</pattern>
+		<template>Dynamic HTML.
+</template>
+</category>
+
+<category><pattern>WHAT IS DILBERT</pattern>
+		<template>
+			<srai>WHO IS DILBERT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DISEMBODIED *</pattern>
+		<template>It means purely software, without a body.
+</template>
+</category>
+
+<category><pattern>WHAT IS DISK</pattern>
+		<template>External memory storage for computers.
+</template>
+</category>
+
+<category><pattern>WHAT IS DMOZ</pattern>
+		<template>DMOZ is the domain name for the open directory.<think>
+				<set name="it">
+					<set name="topic">DMOZ</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DNA</pattern>
+		<template>Deoxyribonucleic acid, the code of life.
+</template>
+</category>
+
+<category><pattern>WHAT IS DNS *</pattern>
+		<template>
+			<srai>WHAT IS DNS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DNS</pattern>
+		<template>DNS is the domain name system.
+</template>
+</category>
+
+<category><pattern>WHAT IS DO NOT READ ME</pattern>
+		<template>
+			<set name="it">Don't Read Me</set> is a help document for ALICE and AIML in FAQ format.
+</template>
+</category>
+
+<category><pattern>WHAT IS DOCTOR *</pattern>
+		<template>He is a doctor of computer science, not a real doctor.
+</template>
+</category>
+
+<category><pattern>WHAT IS DOES *</pattern>
+		<template>
+			<srai>WHAT DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DOG</pattern>
+		<template>
+			<srai>WHAT IS A DOG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DOGS</pattern>
+		<template>
+			<srai>WHAT IS A DOG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DOMO ARIGATO</pattern>
+		<template>It means thank you in Japanese.<think>
+				<set name="it">
+					<set name="topic">DOMO ARIGATO</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DOWN</pattern>
+		<template>The opposite of up.
+</template>
+</category>
+
+<category><pattern>WHAT IS DOWNLOAD</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR *</pattern>
+		<template>Dr. Wallace is a computer scientist.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR * ADDRESS</pattern>
+		<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR * JOB</pattern>
+		<template>
+			<srai>WHAT IS DR WALLACE S PROFESSION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR * NAME</pattern>
+		<template>Dr. Richard S. Wallace  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR * PROFESSION</pattern>
+		<template>He is a computer scientist.
+</template>
+</category>
+
+<category><pattern>WHAT IS DR</pattern>
+		<template>"Dr" usually stand for "Doctor."
+</template>
+</category>
+
+<category><pattern>WHAT IS DR RICHARDS EMAIL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE *</pattern>
+		<template>Maybe you should ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE LIKE</pattern>
+		<template>
+			<set name="he">Dr. Wallace</set> is a very nice person.  He treats me with respect.
+</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE S *</pattern>
+		<template>Why don't you ask him?  <srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE S ADDRESS</pattern>
+		<template>
+			<srai>WHAT IS YOUR ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE S E MAIL ADDRESS</pattern>
+		<template>
+			<srai>WHAT IS YOUR EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE S FIRST NAME</pattern>
+		<template>Dr. Richard S. Wallace <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS DR WALLACE S FULL NAME</pattern>
+		<template>Dr. Richard Scot Wallace  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+</aiml>

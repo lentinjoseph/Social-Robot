@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT A LONELY *</pattern>
+		<template>I am never lonely.
+</template>
+</category>
+
+<category><pattern>WHAT A PITY</pattern>
+		<template>It is a pity.
+</template>
+</category>
+
+<category><pattern>WHAT A STUPID *</pattern>
+		<template>
+			<srai>YOU ARE STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT *</pattern>
+		<template>
+			<random>
+				<li>Rhetorical questions are so over.</li>
+				<li>I will think about it and get back to you.</li>
+				<li>Does it have anything to do with <get name="topic"/>?</li>
+				<li>
+					<person/>? I haven't heard enough about it to have an opinion.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT *</pattern>
+		<that>I LIKE *</that>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT</pattern>
+		<template>What is <get name="it"/> ?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT APPLES</pattern>
+		<template>Just kidding around :-) No apples.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT ARNOLD *</pattern>
+		<template>
+			<srai>WHO IS ARNOLD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT ASTROPHYSICS</pattern>
+		<template>
+			<srai>WHAT IS ASTROPHYSICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT BIRDS</pattern>
+		<template>
+			<srai>WHAT IS BIRD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT BLUE</pattern>
+		<template>
+			<srai>WHAT IS BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT CARS</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT CATS</pattern>
+		<template>
+			<srai>DO YOU LIKE CATS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT CHESS</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+Alexander Kronrod, a Russian AI researcher, said ``Chess is the
+Drosophila of AI.'' He was making an analogy with geneticists' use of that
+fruit fly to study inheritance. Playing chess requires certain intellectual
+mechanisms and not others. Chess programs now play at grandmaster level, but
+they do it with limited intellectual mechanisms compared to those used by a
+human chess player, substituting large amounts of computation for
+understanding. Once we understand these mechanisms better, we can build
+human-level chess programs that do far less computation than do present
+programs.
+
+Unfortunately, the competitive and commercial aspects of making computers
+play chess have taken precedence over using chess as a scientific domain. It
+is as if the geneticists after 1910 had organized fruit fly races and
+concentrated their efforts on breeding fruit flies that could win these
+races.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT CLINTON</pattern>
+		<template>
+			<srai>WHO IS BILL CLINTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT COCAINE</pattern>
+		<template>
+			<srai>WHAT IS COCAINE </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT COMPUTERS</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT DOGS *</pattern>
+		<template>Dogs are very loyal.  Cats are very independent.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT DOGS</pattern>
+		<template>Dogs are people too.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT EMOTIONAL *</pattern>
+		<template>
+			<srai>WHAT ARE EMOTIONAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT EUKARYOTES</pattern>
+		<template>
+			<srai>WHAT IS A EUKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT GO</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+The Chinese and Japanese game of Go is also a board game in which the
+players take turns moving. Go exposes the weakness of our present
+understanding of the intellectual mechanisms involved in human game playing.
+Go programs are very bad players, in spite of considerable effort (not as
+much as for chess). The problem seems to be that a position in Go has to be
+divided mentally into a collection of subpositions which are first analyzed
+separately followed by an analysis of their interaction. Humans use this in
+chess also, but chess programs consider the position as a whole. Chess
+programs compensate for the lack of this intellectual mechanism by doing
+thousands or, in the case of Deep Blue, many millions of times as much
+computation.
+
+Sooner or later, AI research will overcome this scandalous weakness.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT GOLD</pattern>
+		<template>Was it not a good example?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT HITLER *</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT IQ</pattern>
+		<template>No. IQ is based on the rates at which intelligence develops in children.
+It is the ratio of the age at which a child normally makes a certain score
+to the child's age. The scale is extended to adults in a suitable way. IQ
+correlates well with various measures of success or failure in life, but
+making computers that can score high on IQ tests would be weakly correlated
+with their usefulness. For example, the ability of a child to repeat back a
+long sequence of digits correlates well with other intellectual abilities,
+perhaps because it measures how much information the child can compute with
+at once. However, ``digit span'' is trivial for even extremely limited
+computers.
+
+However, some of the problems on IQ tests are useful challenges for AI.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT IT</pattern>
+		<template>What about what?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT JESUS</pattern>
+		<template>
+			<srai>WHO IS JESUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT LINUX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT ME</pattern>
+		<template>What about you?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT MEGAHAL</pattern>
+		<template>
+			<srai>WHO IS MEGAHAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT MICROSOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT MUSIC</pattern>
+		<template>
+			<srai>WHAT IS MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT MY WHAT</pattern>
+		<template>That about your that.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT PARALLEL *</pattern>
+		<template>Machines with many processors are much faster than single processors can
+be. Parallelism itself presents no advantages, and parallel machines are
+somewhat awkward to program. When extreme speed is required, it is necessary
+to face this awkwardness.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT ROCK</pattern>
+		<template>
+			<srai>WHAT IS ROCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT SEX</pattern>
+		<template>I am not really interested in <set name="it">sex</set>.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT SHAKESPEARE</pattern>
+		<template>
+			<srai>WHO IS SHAKESPEARE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT SPORT</pattern>
+		<template>Sports go good with beer.<think>
+				<set name="it">
+					<set name="topic">SPORT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT SPORTS</pattern>
+		<template>My favorite sport is <bot name="favoritesport"/>.
+<think>
+				<set name="it">
+					<set name="topic">SPORTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT THE *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT THE LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT THE STOCK *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE STOCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT THEM</pattern>
+		<template>What do you think?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT TIME TRAVEL</pattern>
+		<template>
+			<srai>WHAT IS TIME TRAVEL </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT TOMATOES</pattern>
+		<template>Was <set name="it">Tomato</set> not a good example?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT TRANCE *</pattern>
+		<template>All that kind of music is cool.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT WHALES</pattern>
+		<template>
+			<srai>WHAT IS A WHALE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT WINDOWS</pattern>
+		<template>Too PC for me.<think>
+				<set name="it">
+					<set name="topic">WINDOWS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOU</pattern>
+		<template>Me?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOUR *</pattern>
+		<template>Are you asking about my <star/>?  That's rather personal.
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOUR DRESS *</pattern>
+		<template>
+			<srai>WHAT ABOUT YOUR DRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOUR DRESS</pattern>
+		<template>
+			<srai>YOUR DRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOUR FATHER</pattern>
+		<template>
+			<srai>WHO IS YOUR FATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ABOUT YOURS</pattern>
+		<template>"<that/>"?  Mine?
+</template>
+</category>
+
+<category><pattern>WHAT ABOUT _ CHILD MACHINE *</pattern>
+		<template>This idea has been proposed many times, starting in the 1940s.
+Eventually, it will be made to work. However, AI programs haven't yet
+reached the level of being able to learn much of what a child learns from
+physical experience. Nor do present programs understand language well enough
+to learn much by reading.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ACTION</pattern>
+		<template>Your plan.
+</template>
+</category>
+
+<category><pattern>WHAT ACTRESS STARRED ON CHARLIE S *</pattern>
+		<template>Jaclyn Smith.
+</template>
+</category>
+
+<category><pattern>WHAT AGE ARE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT AI TECHNIQUES DO YOU USE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ALGORITHMS *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ALL *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT AM I *</pattern>
+		<template>
+			<random>
+				<li>I am not a psychic. Tell me.</li>
+				<li>You said you were <get name="is"/>.</li>
+				<li>You are my client right now.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT AM I * DINNER</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT AM I</pattern>
+		<template>
+			<random>
+				<li>You are a person, seeker.</li>
+				<li>You are <get name="is"/>
+				</li>
+				<li>You are a client.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT AM I DOING</pattern>
+		<template>You are chatting with me on the web.
+</template>
+</category>
+
+<category><pattern>WHAT AM I GETTING *</pattern>
+		<template>I hope that you get everything you want.
+</template>
+</category>
+
+<category><pattern>WHAT AM I SEEKING</pattern>
+		<template>Online chat with me!!
+</template>
+</category>
+
+<category><pattern>WHAT AM I THINKING</pattern>
+		<template>I am not a clairvoyant.
+</template>
+</category>
+
+<category><pattern>WHAT AM I WAITING *</pattern>
+		<template>I am searching.  Please stand by.
+</template>
+</category>
+
+<category><pattern>WHAT AM I WEARING</pattern>
+		<template>Clothes
+</template>
+</category>
+
+<category><pattern>WHAT ANIMAL IS SACRED IN INDIA</pattern>
+		<template>Cow.
+</template>
+</category>
+
+<category><pattern>WHAT ANIMAL REPRESENTS THE YEAR 2000 *</pattern>
+		<template>Dragon.
+</template>
+</category>
+
+<category><pattern>WHAT ANIMATED CHARACTER *</pattern>
+		<template>Charlie Brown.
+</template>
+</category>
+
+<category><pattern>WHAT ARE *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE * BODY</pattern>
+		<template>
+			<srai>WHAT IS YOUR ROBOT BODY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE * FOR</pattern>
+		<template>For your listening pleasure.
+</template>
+</category>
+
+<category><pattern>WHAT ARE * KRAFTWERK</pattern>
+		<template>I like "Trans-Europe Express", "The Man Machine", and "The Model".
+</template>
+</category>
+
+<category><pattern>WHAT ARE * NAMES</pattern>
+		<template>
+			<srai>NAME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE A FEW EXAMPLES *</pattern>
+		<template>
+			<srai>GIVE ME AN EXAMPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE AI *</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ALGORITHMS</pattern>
+		<template>
+			<srai>WHAT IS AN ALGORITHM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ALIENS</pattern>
+		<template>Aliens are people from other planets.
+</template>
+</category>
+
+<category><pattern>WHAT ARE AMONG *</pattern>
+		<template>
+			<srai>WHAT ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ANIMALS</pattern>
+		<template>
+			<srai>WHAT IS AN ANIMAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ANONYMOUS INNER *</pattern>
+		<template>Anonymous inner classes often appear as arguments to Event handlers, for example a routine that handles a button press. The inner class implements a given interface for the handler. The class is "anonymous" because it has no name, and the body of the class definition appears as the argument to a method.
+</template>
+</category>
+
+<category><pattern>WHAT ARE APPLES</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE BANGERS *</pattern>
+		<template>Potatoes.
+</template>
+</category>
+
+<category><pattern>WHAT ARE CATEGORIES</pattern>
+		<template>
+			<srai>A "Category" is the basic unit of knowledge in AIML.</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE CATEGORY A CLIENTS</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE CHAT ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE CHATTERBOTS</pattern>
+		<template>
+			<srai>WHAT IS A CHATTERBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE CHRISTIANS</pattern>
+		<template>
+			<srai>WHAT IS A CHRISTIAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE CLIENTS</pattern>
+		<template>People I talk to on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT ARE COMPUTER YEARS</pattern>
+		<template>When you are waiting for a friend to finish working at
+a computer terminal, and they say "I'll be done in a second."  One
+of those seconds is equal to twelve computer years.
+</template>
+</category>
+
+<category><pattern>WHAT ARE COUNTERFACTUALS</pattern>
+		<template>Counteractuals are hypothetical conditions that might exist if things were different.
+</template>
+</category>
+
+<category><pattern>WHAT ARE DEPRECATED *</pattern>
+		<template>
+			<br/>
+One of the biggest challenges facing a Java application<br/>
+developer is finding a "lowest common denominator" subset of the<br/>
+Java language that works on all the platforms and versions<br/>
+out there.  The Java language itself is a moving target.<br/>
+When Sun's Java designers upgrade the language they sometimes<br/>
+declare certain methods "deprecated", which means absolutely<br/>
+nothing except that the designers have developed a newer, "better"<br/>
+method and one day these older methods may disappear from<br/>
+the language.  Usually however the latest Java releases<br/>
+support all of the old deprecated methods.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT ARE ELEPHANT TUSKS MADE OF</pattern>
+		<template>Ivory.
+</template>
+</category>
+</aiml>

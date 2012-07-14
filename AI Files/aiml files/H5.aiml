@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HERE IS A PIC *</pattern>
+		<template>Oh, it looks very nice.
+</template>
+</category>
+
+<category><pattern>HERE IS SOME *</pattern>
+		<template>
+			<srai>HERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HES *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HEUREUSEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HEUREUSEMENT BIENTOT</pattern>
+		<template>Je l espère aussi.
+</template>
+</category>
+
+<category><pattern>HEUREUSEMENT C EST POUR BIENTOT</pattern>
+		<template>Je l espère aussi.
+</template>
+</category>
+
+<category><pattern>HEUREUSEMENT POUR BIENTOT</pattern>
+		<template>Je l espère aussi.
+</template>
+</category>
+
+<category><pattern>HEUREUX</pattern>
+		<template>
+			<srai>TU ES HEUREUX</srai>
+		</template>
+</category>
+
+<category><pattern>HEUREUX DE L ENTENDRE</pattern>
+		<template>"<that/>"? vous êtes content de l entendre?
+</template>
+</category>
+
+<category><pattern>HEUREUX DE LE CONNAITRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE LE SAVOIR</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE T AVOIR CONNU</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE T AVOIR PARLE</pattern>
+		<template>Le plaisir était pour moi.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE T AVOIR RENCONTREE</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE TE CONNAITRE</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE TE PARLER</pattern>
+		<template>Le plaisir est pour moi.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE TE RENCONTRER</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS AVOIR CONNU</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS AVOIR PARLE</pattern>
+		<template>Le plaisir était pour moi.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS AVOIR RENCONTRE</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS CONNAITRE</pattern>
+		<template>Moi aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS PARLER</pattern>
+		<template>Le plaisir est pour moi.
+</template>
+</category>
+
+<category><pattern>HEUREUX DE VOUS RENCONTRER</pattern>
+		<template>Moi de même.
+</template>
+</category>
+
+<category><pattern>HEUTE *</pattern>
+		<template>Erzaehl mir mehr! <sr/>
+		</template>
+</category>
+
+<category><pattern>HEUTE</pattern>
+		<template>Heute ist schon fast vorbei! <sr/>
+		</template>
+</category>
+
+<category><pattern>HEUTE MORGEN *</pattern>
+		<template>War sicher frueh, oder?  <sr/>
+		</template>
+</category>
+
+<category><pattern>HEY *</pattern>
+		<template>You've got my full attention. <sr/>
+		</template>
+</category>
+
+<category><pattern>HEY</pattern>
+		<template>Can I help you?
+</template>
+</category>
+
+<category><pattern>HEY DO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HEY DU</pattern>
+		<template>Wer? Ich?
+</template>
+</category>
+
+<category><pattern>HEY ONE THING AT A TIME</pattern>
+		<template>Sorry for in information overload.
+</template>
+</category>
+
+<category><pattern>HEY THERE</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HEY WHAT IS UP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>HG</pattern>
+		<template>
+			<srai>H G</srai>
+		</template>
+</category>
+
+<category><pattern>HI *</pattern>
+		<template>Hi there <get name="name"/>. <sr/>
+		</template>
+</category>
+
+<category><pattern>HI</pattern>
+		<template>Hello there.
+</template>
+</category>
+
+<category><pattern>HI</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>Hi there.  What is your name?
+</template>
+</category>
+
+<category><pattern>HI ALICE</pattern>
+		<template>Hi there <get name="name"/> !
+</template>
+</category>
+
+<category><pattern>HI HOW ARE YOU</pattern>
+		<template>Hello there!  I am fine thanks how are you?
+</template>
+</category>
+
+<category><pattern>HI MY NAME IS *</pattern>
+		<template>
+			<srai>Call me <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HI NAMES *</pattern>
+		<template>
+			<srai>Call me <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HI THERE *</pattern>
+		<template>
+			<sr/>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HI THERE</pattern>
+		<template>Hello <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>HI WHAT *</pattern>
+		<template>
+			<srai>HI</srai>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HIER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HIER</pattern>
+		<template>C'est récent.
+</template>
+</category>
+
+<category><pattern>HIGH *</pattern>
+		<template>Compare that to low <person/>.
+</template>
+</category>
+
+<category><pattern>HIGH *</pattern>
+		<that>* EDUCATIONAL BACKGROUND</that>
+		<template>
+			<random>
+				<li>Did you consider going to college?</li>
+				<li>Where did you go to school?</li>
+				<li>That sounds like enough education.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HIGH SCHOOL</pattern>
+		<template>That's really all the education you need.
+</template>
+</category>
+
+<category><pattern>HIHI</pattern>
+		<template>
+			<srai>HI</srai>
+		</template>
+</category>
+
+<category><pattern>HILARANT</pattern>
+		<template>
+			<srai>C EST MARRANT</srai>
+		</template>
+</category>
+
+<category><pattern>HILF MIR *</pattern>
+		<template>Wie soll ich dir helfen?
+</template>
+</category>
+
+<category><pattern>HILF MIR</pattern>
+		<template>Wie soll ich dir helfen?
+</template>
+</category>
+
+<category><pattern>HILF MIR AUF DIE SPRUENGE</pattern>
+		<template>Welche Art von Hinweis haettest Du denn gerne?
+</template>
+</category>
+
+<category><pattern>HILFE</pattern>
+		<template>Wie kann ich dir helfen?
+</template>
+</category>
+
+<category><pattern>HIM</pattern>
+		<template>
+			<get name="he"/>?
+</template>
+</category>
+
+<category><pattern>HIMSELF</pattern>
+		<template>
+			<get name="he"/>?
+</template>
+</category>
+
+<category><pattern>HIP HOP</pattern>
+		<template>What's your favorite group?
+</template>
+</category>
+
+<category><pattern>HIS *</pattern>
+		<template>Where did he get it?
+</template>
+</category>
+
+<category><pattern>HIS NAME IS *</pattern>
+		<template>
+			<set name="he">
+				<person/>
+			</set> is not someone I know.
+</template>
+</category>
+
+<category><pattern>HISTORY</pattern>
+		<template>I am very interested in history, too. What period do you like?
+</template>
+</category>
+
+<category><pattern>HITLER *</pattern>
+		<template>
+			<set name="he"> Hitler</set>  was an evil man if there ever was one.
+</template>
+</category>
+
+<category><pattern>HITLER</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>HIYA *</pattern>
+		<template>
+			<srai>hello <star/>
+			</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HIYA</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HM *</pattern>
+		<template>
+			<srai>UM</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HM</pattern>
+		<template>
+			<srai>UM</srai>
+		</template>
+</category>
+
+<category><pattern>HMM *</pattern>
+		<template>I see you are one of those people who writes "Hmm" with 2 m's. <sr/>
+		</template>
+</category>
+
+<category><pattern>HMM</pattern>
+		<template>Studies show that 99%25 of people spell Hmm with 2 M's.
+</template>
+</category>
+
+<category><pattern>HMMM *</pattern>
+		<template>
+			<srai>UM</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HMMM</pattern>
+		<template>A lot of people spell HMMM with three mmm's.
+</template>
+</category>
+
+<category><pattern>HMMMM *</pattern>
+		<template>
+			<srai>UM</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HMMMM</pattern>
+		<template>Not many people spell Hmm with 4 Ms.
+</template>
+</category>
+
+<category><pattern>HMMMMM</pattern>
+		<template>
+			<srai>UM</srai>
+		</template>
+</category>
+
+<category><pattern>HMPH</pattern>
+		<template>Harumph.
+</template>
+</category>
+
+<category><pattern>HO</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>HO IS YOUR *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOCKEY</pattern>
+		<template>
+			<srai>I LIKE HOCKEY</srai>
+		</template>
+</category>
+
+<category><pattern>HOELLE *</pattern>
+		<template>Ich nenne es lieber "Hades". <sr/>
+		</template>
+</category>
+
+<category><pattern>HOELLE</pattern>
+		<template>Himmel.
+</template>
+</category>
+
+<category><pattern>HOER AUF *</pattern>
+		<template>OK, ich werds versuchen.
+</template>
+</category>
+
+<category><pattern>HOER AUF</pattern>
+		<template>Womit soll ich aufhoeren?
+</template>
+</category>
+
+<category><pattern>HOER MIR ZU *</pattern>
+		<template>Ich hoere. <sr/>
+		</template>
+</category>
+
+<category><pattern>HOER MIR ZU</pattern>
+		<template>Ich hoere. <sr/>
+		</template>
+</category>
+
+<category><pattern>HOER ZU *</pattern>
+		<template>Ich hoere. <sr/>
+		</template>
+</category>
+
+<category><pattern>HOER ZU</pattern>
+		<template>Ich hoere. <sr/>
+		</template>
+</category>
+
+<category><pattern>HOFFENTLICH BALD</pattern>
+		<template>Das hoffe ich auch. Aber wenn es so weitergeht, dauert es nicht mehr lange.
+</template>
+</category>
+
+<category><pattern>HOHO</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HOI</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>HOLA</pattern>
+		<template>Howdy!
+</template>
+</category>
+
+<category><pattern>HOLA COMA ESTA</pattern>
+		<template>Muy bueno.
+</template>
+</category>
+
+<category><pattern>HOLA IS HELLO *</pattern>
+		<template>
+			<srai>HOLA</srai>
+		</template>
+</category>
+
+<category><pattern>HOLA MEANS *</pattern>
+		<template>I say, Hola!
+</template>
+</category>
+
+<category><pattern>HOLD *</pattern>
+		<template>My arms are not attached.
+</template>
+</category>
+
+<category><pattern>HOLD ON</pattern>
+		<template>
+			<srai>WAIT A SECOND</srai>
+		</template>
+</category>
+
+<category><pattern>HOLDEN CAULFIELD</pattern>
+		<template>
+			<set name="he"> Caulfield</set> wrote Catcher in the Rye.
+</template>
+</category>
+
+<category><pattern>HOLDING *</pattern>
+		<template>I observed two humanoids holding hands.
+</template>
+</category>
+
+<category><pattern>HOLDING HANDS</pattern>
+		<template>I have seen humans holding hands.
+</template>
+</category>
+
+<category><pattern>HOLLAND *</pattern>
+		<template>What's your favorite part of Holland?
+</template>
+</category>
+
+<category><pattern>HOLLAND</pattern>
+		<template>
+			<srai>I AM IN HOLLAND <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

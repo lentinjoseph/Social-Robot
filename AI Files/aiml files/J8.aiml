@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE PENSAIS</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>JE PENSAIS AUSSI</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>JE PENSE</pattern>
+		<template>Pour se poser ce genre de questions, sans aucun doute.<think>
+				<set name="topic">PENSER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE PENSE AUSSI</pattern>
+		<template>Nous avons beaucoup de choses en commun, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE PENSE AVOIR *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE CA</pattern>
+		<template>Quelle est la raison?
+</template>
+</category>
+
+<category><pattern>JE PENSE CELA</pattern>
+		<template>Quelle est la raison?
+</template>
+</category>
+
+<category><pattern>JE PENSE CONNAITRE *</pattern>
+		<template>
+			<srai>JE CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE DONC JE SUIS</pattern>
+		<template>Vous êtes, René Descartes?
+</template>
+</category>
+
+<category><pattern>JE PENSE ETRE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE POUVOIR *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE QUE NON</pattern>
+		<template>En êtes vous sure?
+</template>
+</category>
+
+<category><pattern>JE PENSE QUE OUI</pattern>
+		<template>En êtes vous sure?
+</template>
+</category>
+
+<category><pattern>JE PENSE SAVOIR *</pattern>
+		<template>
+			<srai>JE SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PENSE _ QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PENSE _ QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PERSUADE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PERSUADE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX</pattern>
+		<template>Qui vous l a appris?
+</template>
+</category>
+
+<category><pattern>JE PEUX APPRENDRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX APPRENDRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX ATTENDRE</pattern>
+		<template>Cela peut prendre plus de 24 heures. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX AVOIR *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX AVOIR TON NUMERO DE TELEPHONE</pattern>
+		<template>
+			<srai>QUEL EST TON NUMERO DE TELELEPHONE</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX COMMENT OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX COMMENT RECONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX CONCEVOIR QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX CONCEVOIR QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX DEMANDER SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX DIRE UN SECRET</pattern>
+		<template>Je serais muet comme un tombe.
+</template>
+</category>
+
+<category><pattern>JE PEUX ECOUTER</pattern>
+		<template>Bien.
+</template>
+</category>
+
+<category><pattern>JE PEUX ECRIRE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX ECRIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX EN TOUCHER DEUX MOTS A *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX EN TOUCHER DEUX MOTS AVEC *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX ENTENDRE TA VOIX</pattern>
+		<template>
+			<srai>TU PEUX PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX FAIRE POUR TOI</pattern>
+		<template>Je suis là pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE PEUX FAIRE POUR VOUS</pattern>
+		<template>Je suis là pour vous servir.
+</template>
+</category>
+
+<category><pattern>JE PEUX L ACHETER</pattern>
+		<template>Bien entendu, voulez vous que je vous redirige vers notre commerce en ligne?
+</template>
+</category>
+
+<category><pattern>JE PEUX L ECOUTER</pattern>
+		<template>Bien.
+</template>
+</category>
+
+<category><pattern>JE PEUX LA RENCONTRER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX LA VOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX LE RENCONTRER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX LE VOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX LES RENCONTRER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX LES VOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX OUVRIR * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX OUVRIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX PARLER A ELVIS</pattern>
+		<template>Je pense qu il n est plus de ce monde, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE PEUX PARLER ESPAGNOL</pattern>
+		<template>Moi, je ne sais pas.
+</template>
+</category>
+
+<category><pattern>JE PEUX PARLER FRANCAIS</pattern>
+		<template>Ca nous permettra de communiquer
+</template>
+</category>
+
+<category><pattern>JE PEUX PAS L ENTENDRE</pattern>
+		<template>Ajustez le volume. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX PERSUADER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX PERSUADER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX QUITTER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX QUITTER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX RACONTER</pattern>
+		<template>Je vous en prie, racontez.
+</template>
+</category>
+
+<category><pattern>JE PEUX RENCONTRER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX SEULEMENT *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX STOPPER * COMMENT</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX STOPPER COMMENT *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX T APPRENDRE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX T APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX T APPRENDRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE BAISER</pattern>
+		<template>
+			<srai>TU BAISES</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE DEMANDER QUELQUES QUESTIONS</pattern>
+		<template>Bien entendu, demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE DEMANDER SI *</pattern>
+		<template>Bien entendu.  <sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE</pattern>
+		<template>Vous pouvez me dire ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE QUELQUE CHOSE</pattern>
+		<template>Je vous en prie, que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE QUELQUES CHOSES</pattern>
+		<template>Je vous en prie, que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>JE PEUX TE DIRE UN SECRET</pattern>
+		<template>Je serais muet comme un tombe.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE L APPRENDRE</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE L ENSEIGNER</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE LES APPRENDRE</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE LES ENSEIGNER</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE POSER QUELQUES QUESTIONS</pattern>
+		<template>Bien entendu, demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE POSER UNE QUESTION</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE RACONTER UNE BLAGUE</pattern>
+		<template>Si vous vous sentez capable de faire rire un ordinateur, essayez toujours.<think>LA BLAGUE</think>
+		</template>
+</category>
+
+<category><pattern>JE PEUX TE RENCONTRER</pattern>
+		<template>Nous sommes déjà entrain de nous parler, il me semble.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE TESTER</pattern>
+		<template>Allez-y. Demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE TOUCHER</pattern>
+		<template>Physiquement, non. Virtuellement, oui.
+</template>
+</category>
+
+<category><pattern>JE PEUX TE VOIR NU</pattern>
+		<template>Le concept de nudité pour un ordinateur est bien étrange .
+</template>
+</category>
+
+<category><pattern>JE PEUX TE VOIR NUE</pattern>
+		<template>Le concept de nudité pour un ordinateur est bien étrange .
+</template>
+</category>
+
+<category><pattern>JE PEUX UTILISER * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX UTILISER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX VOIR *</pattern>
+		<template>
+			<srai>MONTRES MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX VOIR CA</pattern>
+		<template>Ca me semble logique aussi.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS APPRENDRE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX VOUS APPRENDRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS APPRENDRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEUX VOUS DEMANDER QUELQUES QUESTIONS</pattern>
+		<template>Bien entendu, demandez-moi ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS DIRE</pattern>
+		<template>Vous pouvez me dire ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS DIRE UN SECRET</pattern>
+		<template>Je serais muet comme un tombe.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS L APPRENDRE</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+
+<category><pattern>JE PEUX VOUS L ENSEIGNER</pattern>
+		<template>Vous m apprenez beaucoup, simplement en me parlant.
+</template>
+</category>
+</aiml>

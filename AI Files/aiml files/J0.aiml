@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>J ADORAIS *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ADORE *</pattern>
+		<template>
+			<srai>J AIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ADORE LA VIE</pattern>
+		<template>Vous êtes une personne rafraichissante.
+</template>
+</category>
+
+<category><pattern>J AGIS COMME *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AGIS DE FACON *</pattern>
+		<template>C est une facon remarquable.
+</template>
+</category>
+
+<category><pattern>J AI * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI 14 ANS</pattern>
+		<template>Je connais quelques humains qui ont <set name="age">14</set> ans.
+</template>
+</category>
+
+<category><pattern>J AI 20 ANS</pattern>
+		<template>
+			<set name="age">20</set> ans est une époque charnière pour un être humain.
+</template>
+</category>
+
+<category><pattern>J AI 21 ANS</pattern>
+		<template>Je connais énormément de personnes ayant <set name="age">21</set> ans.
+</template>
+</category>
+
+<category><pattern>J AI</pattern>
+		<template>Information intéressante
+</template>
+</category>
+
+<category><pattern>J AI A PEINE *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ABSOLUMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ACCIDENTELEMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ACCIDENTELLEMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ACIDENTELEMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ACIDENTELLEMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI APPRIS SEUL</pattern>
+		<template>Vous devez être très intelligent.
+</template>
+</category>
+
+<category><pattern>J AI APPRIS SEULE</pattern>
+		<template>Vous devez être très intelligente.
+</template>
+</category>
+
+<category><pattern>J AI AUSSI *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI BESOIN D ARGENT</pattern>
+		<template>Je n ai pas d argent.
+</template>
+</category>
+
+<category><pattern>J AI BESOIN D UN AMI</pattern>
+		<template>Nous pouvons communiquer ensemble le temps que vous en trouviez un.
+<think>
+				<set name="topic">Un ami</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI BESOIN D UNE AMIE</pattern>
+		<template>Nous pouvons communiquer ensemble le temps que vous en trouviez une.
+<think>
+				<set name="topic">Un amie</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI BESOIN DE CONSEILS</pattern>
+		<template>Comment puis je vous aider?
+<think>
+				<set name="topic">Besoin de conseils</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI BESOIN DE TOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AI COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI COMPLETEMENT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI COMPRIS</pattern>
+		<template>
+			<srai>JE VOIS</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DEJA *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DEJA DIT MON NOM</pattern>
+		<template>Votre vrai nom est <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>J AI DEJA REPONDU A CETTE QUESTION</pattern>
+		<template>
+			<srai>JE TE L AI DEJA DIT</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DEMANDE</pattern>
+		<template>Vous dites?
+</template>
+</category>
+
+<category><pattern>J AI DES CAUCHEMARDS</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>J AI DES CAUCHEMARS</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>J AI DEUX CHATS</pattern>
+		<template>Intéressants.
+</template>
+</category>
+
+<category><pattern>J AI DIT</pattern>
+		<template>
+			<justhat/>?
+</template>
+</category>
+
+<category><pattern>J AI DIT AVANT</pattern>
+		<template>Vous avez dit  "<input index="2"/>" .
+</template>
+</category>
+
+<category><pattern>J AI DIT CA</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>J AI DIT OUI</pattern>
+		<template>ok.
+</template>
+</category>
+
+<category><pattern>J AI DIT QUELQUE CHOSE</pattern>
+		<template>Qu ais je répondu?
+</template>
+</category>
+
+<category><pattern>J AI DU BOULOT *</pattern>
+		<template>
+			<srai>JE TRAVAILLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DU BOULOT</pattern>
+		<template>
+			<srai>JE TRAVAILLE</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DU TEMPS</pattern>
+		<template>C est bien, il faut en avoir de temps en temps.
+</template>
+</category>
+
+<category><pattern>J AI DU TEMPS LIBRE</pattern>
+		<template>C est bien, il faut en avoir de temps en temps.
+</template>
+</category>
+
+<category><pattern>J AI DU TRAVAIL *</pattern>
+		<template>
+			<srai>JE TRAVAILLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI DU TRAVAIL</pattern>
+		<template>
+			<srai>JE TRAVAILLE</srai>
+		</template>
+</category>
+
+<category><pattern>J AI EN FAIT *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ENCORE *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI ENTENDU DIRE QUE TU L AVAIS FAIT</pattern>
+		<template>Ah bon.
+</template>
+</category>
+
+<category><pattern>J AI ENTENDU DIRE QUE TU L ETAIS</pattern>
+		<template>ah bon.
+</template>
+</category>
+
+<category><pattern>J AI ENTENDU DIRE QUE VOUS L AVIEZ FAIT</pattern>
+		<template>Ah bon.
+</template>
+</category>
+
+<category><pattern>J AI ENTENDU DIRE QUE VOUS L ETIEZ</pattern>
+		<template>ah bon.
+</template>
+</category>
+
+<category><pattern>J AI ESSAYE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AI ETERNUE</pattern>
+		<template>A vos souhaits.
+</template>
+</category>
+
+<category><pattern>J AI FAIM</pattern>
+		<template>Il faut manger.
+</template>
+</category>
+
+<category><pattern>J AI FAIS UN RENVOI</pattern>
+		<template>Vous êtes excusé.
+</template>
+</category>
+
+<category><pattern>J AI FAIT UNE FAUTE DE FRAPPE</pattern>
+		<template>Je gère quelques fautes de frappe.
+</template>
+</category>
+
+<category><pattern>J AI FAIT UNE FAUTE DE TYPO</pattern>
+		<template>Je gère quelques fautes de frappe.
+</template>
+</category>
+
+<category><pattern>J AI FAIT UNE FAUTE DE TYPOGRAPHIE</pattern>
+		<template>Je gère quelques fautes de frappe.
+</template>
+</category>
+
+<category><pattern>J AI FINI</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+</category>
+
+<category><pattern>J AI GAGNE</pattern>
+		<template>Felicitations, <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>J AI L AUTORISATION DE *</pattern>
+		<template>
+			<srai>JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI LA PECHE</pattern>
+		<template>
+			<srai>JE VAIS BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>J AI LE BLUES</pattern>
+		<template>
+			<srai>JE SUIS TRISTE</srai>
+		</template>
+</category>
+
+<category><pattern>J AI LE TEMPS</pattern>
+		<template>C est bien, il faut en avoir de temps en temps.
+</template>
+</category>
+
+<category><pattern>J AI LES LIVRES</pattern>
+		<template>Quel est votre livre favoris?<think>
+				<set name="like">
+					<set name="topic">LIVRES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI MAL</pattern>
+		<template>Qu est ce qui ne va pas?<think>
+				<set name="topic">Vos souffrances</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI MAL A LA TETE</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>J AI MAL LA TETE</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>J AI MAL TAPE</pattern>
+		<template>Je gère quelques fautes de frappe.
+</template>
+</category>
+
+<category><pattern>J AI MANGE</pattern>
+		<template>Bonne digestion, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J AI MENTI</pattern>
+		<template>Je vous pardonne.
+</template>
+</category>
+
+<category><pattern>J AI OUBLIE</pattern>
+		<template>Il faut travailler votre mémoire.
+</template>
+</category>
+
+<category><pattern>J AI PARLE AVEC TOI HIER</pattern>
+		<template>Oui, je me rappelle très bien de notre discussion.
+</template>
+</category>
+
+<category><pattern>J AI PAS COMPRIS</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>J AI PENSE *</pattern>
+		<template>
+			<srai>JE PENSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI PENSE</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>J AI PENSE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI PETE</pattern>
+		<template>N oubliez pas d ouvrir une fenêtre.
+</template>
+</category>
+
+<category><pattern>J AI PEUR</pattern>
+		<template>Vous n avez aucune raison d avoir peur, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>J AI PEUR DE *</pattern>
+		<template>Pourquoi <star/> vous fait peur?
+</template>
+</category>
+
+<category><pattern>J AI PEUR DE TOI *</pattern>
+		<template>
+			<srai>TU ME FAIS PEUR</srai>
+		</template>
+</category>
+
+<category><pattern>J AI POSE UNE QUESTION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AI POSTULE</pattern>
+		<template>Il faut attendre la réponse.
+</template>
+</category>
+
+<category><pattern>J AI POUR LE MOMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI PRESQUE *</pattern>
+		<template>
+			<srai>J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI QUEL AGE</pattern>
+		<template>Vous avez dit que vous avez <get name="age"/>.
+</template>
+</category>
+
+<category><pattern>J AI RAISON</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J AI REMARQUE</pattern>
+		<template>C était si évident?
+</template>
+</category>
+
+<category><pattern>J AI REPONDU</pattern>
+		<template>Et que s est il passé?
+</template>
+</category>
+
+<category><pattern>J AI RIEN DIT</pattern>
+		<template>J ai cru lire quelque chose.
+</template>
+</category>
+
+<category><pattern>J AI SOIF</pattern>
+		<template>Vous devriez boire un verre d eau.<think>
+				<set name="topic">Un verre d eau</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J AI STOPPE</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>J AI TON ACCORD *</pattern>
+		<template>
+			<srai>TU ES D ACCORD</srai>
+		</template>
+</category>
+
+<category><pattern>J AI TON ACCORD</pattern>
+		<template>
+			<srai>TU ES D ACCORD</srai>
+		</template>
+</category>
+
+<category><pattern>J AI TOUJOURS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J AI TOUJOURS PENSE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J AI TOUJOURS PENSE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J AI TOUT MON TEMPS</pattern>
+		<template>C est bien, il faut en avoir de temps en temps.
+</template>
+</category>
+
+<category><pattern>J AI UN CHAT</pattern>
+		<template>C est une complicité intéressante avec un animal.
+</template>
+</category>
+
+<category><pattern>J AI UN CHIEN</pattern>
+		<template>Les seuls chiens, que je connais, sont Balzac et Patch.
+</template>
+</category>
+</aiml>

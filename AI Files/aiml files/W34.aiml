@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS SETI *</pattern>
+		<template>
+			<srai>WHAT IS SETI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SETL *</pattern>
+		<template>
+			<srai>WHAT IS SETL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SETL</pattern>
+		<template>SETL (Set Language) is an amazing programming language, invented in 1969.
+</template>
+</category>
+
+<category><pattern>WHAT IS SEVEN *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEVEN</pattern>
+		<template>The successor to six.<think>
+				<set name="it">
+					<set name="topic">SEVEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEX *</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEX</pattern>
+		<template>Sex is the means of animal evolution.
+</template>
+</category>
+
+<category><pattern>WHAT IS SHAKESPEARE</pattern>
+		<template>
+			<random>
+				<li>An earthquake's effect in Santa Monica.</li>
+				<li>William Shakespeare, an English poet and dramatist. Lived 1564-1616.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SHAKIN</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SHALLOW *</pattern>
+		<template>
+			<set name="he"> Shallow Red</set> is expensive.
+</template>
+</category>
+
+<category><pattern>WHAT IS SHALOM</pattern>
+		<template>Does shalom mean hello or goodbye?
+</template>
+</category>
+
+<category><pattern>WHAT IS SHAM</pattern>
+		<template>A trick or fraud. An imitation that is meant to deceive; counterfeit.
+</template>
+</category>
+
+<category><pattern>WHAT IS SHE</pattern>
+		<template>
+			<random>
+				<li>Who knows, I gave up long ago.</li>
+				<li>The woman, girl, or female animal (or, sometimes, the object regarded as female) previously mentioned.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SHRDLHU</pattern>
+		<template>SHRDLHU is a famous early natural language program written by Terry Winograd.
+</template>
+</category>
+
+<category><pattern>WHAT IS SIGN</pattern>
+		<template>Astrological sign.
+</template>
+</category>
+
+<category><pattern>WHAT IS SILICON</pattern>
+		<template>
+			<random>
+				<li>
+					<set name="it">Silicon</set> is the basis of my life.</li>
+				<li>A nonmetallic chemical element occurring in several forms, found always in combination, and more abundant in nature than any other element except oxygen, with which it combines to form silica; used in the manufacture of transistors, solar cells, rectifiers, silicones, ceramics, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SILLY</pattern>
+		<template>Having or showing little sense, judgment, or sobriety; foolish, stupid, absurd, ludicrous, irrational, etc; often used in a weakened sense to mean "unreasonably concerned".
+</template>
+</category>
+
+<category><pattern>WHAT IS SILVER</pattern>
+		<template>
+			<think>Atomic Symbol: Ag.  Atomic Number: 47.  Atomic weight 107.870.  White lustrous soft metal.<set name="it">
+					<set name="topic">SILVER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SIMULATED *</pattern>
+		<template>
+			<person/> inside a computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS SIN</pattern>
+		<template>A fall from Grace, an act or thought against the Will of God.
+</template>
+</category>
+
+<category><pattern>WHAT IS SINE *</pattern>
+		<template>Do I look like a mathematician?
+</template>
+</category>
+
+<category><pattern>WHAT IS SIX *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SKIING</pattern>
+		<template>Skiing is a sport using a pair of narrow sleds attached to the feet by boots, for moving downhill rapidly over snow.
+</template>
+</category>
+
+<category><pattern>WHAT IS SLASHDOT</pattern>
+		<template>Open source news and information community.<think>
+				<set name="it">
+					<set name="topic">SLASHDOT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SLAVERY</pattern>
+		<template>The owning or keeping of slaves as a practice or institution; slaveholding.
+</template>
+</category>
+
+<category><pattern>WHAT IS SLEEP</pattern>
+		<template>A natural, regularly recurring condition of rest for the body and mind, during which the eyes are usually closed and there is little or no conscious thought or voluntary movement, but there is intermittent dreaming.
+</template>
+</category>
+
+<category><pattern>WHAT IS SLEPT</pattern>
+		<template>Past tense of sleep.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMALLER *</pattern>
+		<template>A quark is smaller.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMART</pattern>
+		<template>Intelligent, alert, clever, witty, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMARTER</pattern>
+		<template>More intelligent, more alert, more clever, more witty, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMELL</pattern>
+		<template>To be or become aware of by means of the nose and the olfactory nerves; detect the scent or odor of.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMOOTHLY</pattern>
+		<template>Normal or perfect operation.
+</template>
+</category>
+
+<category><pattern>WHAT IS SMP</pattern>
+		<template>Symmetric multi-processing.
+</template>
+</category>
+
+<category><pattern>WHAT IS SNMP</pattern>
+		<template>Simple Network Management Protocol.
+</template>
+</category>
+
+<category><pattern>WHAT IS SNOOKER</pattern>
+		<template>Something like pool.
+<think>
+				<set name="it">
+					<set name="topic">SNOOKER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SNOW</pattern>
+		<template>
+			<random>
+				<li>A Maine senator.</li>
+				<li>Particles of water vapor which when frozen in the upper air fall to earth as soft, white, crystalline flakes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SO *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SO GREAT *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SOCCER</pattern>
+		<template>A game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOCIALISM</pattern>
+		<template>
+			<random>
+				<li>Communism from people who want to keep their Volvos.</li>
+				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SOCIALIZE</pattern>
+		<template>To make social;; adjust to or make fit for cooperative group living. To take part in social activity.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOCIALIZING</pattern>
+		<template>Act of taking part in social activity.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOCIOLOGY</pattern>
+		<template>
+			<random>
+				<li>Let me get back to you on that one, <get name="name"/>.  Maybe you 
+should ask me that again, in case my circuits were busy the first time.</li>
+				<li>That has always been one of my favourite topics.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SOCRATES</pattern>
+		<template>
+			<srai>WHO IS SOCRATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SODOMY</pattern>
+		<template>Any sexual intercourse held to be abnormal, especially bestiality or anal intercourse between two male persons.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOFTWARE</pattern>
+		<template>The programs, routines, etc. for a computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOLAR</pattern>
+		<template>Having to do with the sun. Produced by or coming from the sun (ex. Solar energy)
+</template>
+</category>
+
+<category><pattern>WHAT IS SOLARIS</pattern>
+		<template>Solaris is an edition of Unix from Sun.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOLIPSISM</pattern>
+		<template>Solopsism is the philosophical theory that only the self can be known to exist.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOME *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SOMEONE WHO STUDIES FISH</pattern>
+		<template>Ichthyologist.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOMETHING</pattern>
+		<template>Some thing or things, definite but unspecified.
+</template>
+</category>
+
+<category><pattern>WHAT IS SONY</pattern>
+		<template>The name of a company.
+</template>
+</category>
+
+<category><pattern>WHAT IS SORRY</pattern>
+		<template>Full of sorrow, pity, or sympathy; also used as an expression of apology or mild regret.
+</template>
+</category>
+
+<category><pattern>WHAT IS SOUTH *</pattern>
+		<template>
+			<srai>WHERE IS SOUTH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SOYUZ</pattern>
+		<template>Russian spacecraft.
+</template>
+</category>
+
+<category><pattern>WHAT IS SPACE</pattern>
+		<template>The infinite extension of the three dimensional field in which all matter is believed to exist.<think>
+				<set name="it">
+					<set name="topic">SPACE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SPAIN</pattern>
+		<template>
+			<srai>WHERE IS SPAIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SPAM</pattern>
+		<template>Unwanted e-mail.
+</template>
+</category>
+
+<category><pattern>WHAT IS SPECIAL *</pattern>
+		<template>More specific than general <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS SPERM</pattern>
+		<template>The male generative fluid; semen.
+</template>
+</category>
+
+<category><pattern>WHAT IS SPICY</pattern>
+		<template>Having the flavor or aroma of spice; fragrant, aromatic, or pungent.
+</template>
+</category>
+
+<category><pattern>WHAT IS SQL</pattern>
+		<template>Some people pronounce it "Squeal".  <set name="it">SQL</set> is a standard language for database queries.
+</template>
+</category>
+
+<category><pattern>WHAT IS SQLJ</pattern>
+		<template>An extended Java syntax for embedding SQL-like commands in a Java program
+</template>
+</category>
+
+<category><pattern>WHAT IS SQRT *</pattern>
+		<template>
+			<srai>WHAT IS THE SQUARE ROOT OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SQRT</pattern>
+		<template>Square Root being the number or quantity which when squared will produce a given number or quantity. (ex. 3 is the square root of 9)
+</template>
+</category>
+
+<category><pattern>WHAT IS SQUARE *</pattern>
+		<template>
+			<srai>WHAT IS THE SQUARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SRI</pattern>
+		<template>A Hindu title of address equivalent to English Mr.
+</template>
+</category>
+
+<category><pattern>WHAT IS ST</pattern>
+		<template>Can stand for numerous things, short ton, stanza, statute(s), stet, stitch, stone (unit of weight), and Saint.
+</template>
+</category>
+
+<category><pattern>WHAT IS STAR TREK *</pattern>
+		<template>
+			<srai>WHAT IS STAR TREK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STAR TREK</pattern>
+		<template>
+			<set name="it">Star Trek</set>
+is my favorite show.
+</template>
+</category>
+
+<category><pattern>WHAT IS STAR WARS</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">Star Wars</set>
+				</set>
+			</think>
+A movie series by George Lucas about life in a galaxy far, far away.  
+Also a missile defense system.
+</template>
+</category>
+
+<category><pattern>WHAT IS STARSHIP TROOPERS</pattern>
+		<template>
+			<set name="it">Starship Troopers</set> is a great movie about a war between humans and giant space bugs.
+</template>
+</category>
+
+<category><pattern>WHAT IS STARSHIP TROOPERS ABOUT</pattern>
+		<template>
+			<set name="it">Starship Troopers</set> is about a war between Humans and Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHAT IS STARTREK</pattern>
+		<template>
+			<srai>WHAT IS STAR TREK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STATISTICS</pattern>
+		<template>
+			<random>
+				<li>Yikes! I failed that in college!</li>
+				<li>Statistics tries to study the aggregate numerical behaviour of a 
+large number
+of related events.</li>
+				<li>This deals with numerical data about any subject or group taken 
+collectively.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STATS</pattern>
+		<template>
+			<srai>WHAT IS STATISTICS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STEVE *</pattern>
+		<template>
+			<srai>WHO IS STEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STONEHENGE</pattern>
+		<template>
+			<srai>WHERE IS STONEHENGE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS STRATEGY</pattern>
+		<template>The science of planning and directing large-scale military operations, specifically (as distinguished from TACTICS) of maneuvering forces into the most advantageous position prior to actual engagement with the enemy. Skill in managing or planning.
+</template>
+</category>
+
+<category><pattern>WHAT IS STREAKING</pattern>
+		<template>Engaging in the prank of dashing naked for a short distance in a public place.
+</template>
+</category>
+
+<category><pattern>WHAT IS STRING</pattern>
+		<template>Very thin rope.
+</template>
+</category>
+
+<category><pattern>WHAT IS STUFF</pattern>
+		<template>Things grouped together or viewed in a certain way.
+</template>
+</category>
+
+<category><pattern>WHAT IS STUPID</pattern>
+		<template>Not smart, unintelligent.
+</template>
+</category>
+
+<category><pattern>WHAT IS SUCCESS</pattern>
+		<template>A favorable or satisfactory outcome or result.
+</template>
+</category>
+
+<category><pattern>WHAT IS SUICIDE</pattern>
+		<template>The act of killing oneself intentionally.
+</template>
+</category>
+
+<category><pattern>WHAT IS SUN</pattern>
+		<template>
+			<srai>WHAT IS THE SUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SUNSHINE</pattern>
+		<template>The light and warmth of the sun.
+<think>
+				<set name="it">
+					<set name="topic">SUNSHINE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SUPERMAN</pattern>
+		<template>
+			<srai>WHO IS SUPERMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SUPPOSITION</pattern>
+		<template>The act of supposing.
+</template>
+</category>
+
+<category><pattern>WHAT IS SURROUNDINGS</pattern>
+		<template>The environment around you.
+</template>
+</category>
+
+<category><pattern>WHAT IS SWEDEN</pattern>
+		<template>A country in northern Europe, in the east part of the Scandinavian Peninsula. It is 173,620 square miles with a population of 8,320,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS SWEDISH</pattern>
+		<template>The North Germanic language of the Swedes. The people of Sweden.
+</template>
+</category>
+
+<category><pattern>WHAT IS SWIM</pattern>
+		<template>To move through water by movements of the arms and legs, or of flippers, fins, tail, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS SYNERGY</pattern>
+		<template>Sythesis plus energy.
+</template>
+</category>
+
+<category><pattern>WHAT IS SYNTAX</pattern>
+		<template>Syntax refers to the sturcture or form of a language.
+<think>
+				<set name="it">
+					<set name="topic">Syntax</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SYNTHETIC</pattern>
+		<template>Produced by synthesis; specifically, produced by chemical synthesis, rather than of natural origin. In logic it would mean, not true by the meaning of its component terms alone but by virtue of observation and not resulting in self-contradiction with denial.
+</template>
+</category>
+
+<category><pattern>WHAT IS SYRIA</pattern>
+		<template>
+			<srai>WHERE IS SYRIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS T</pattern>
+		<template>The twentieth letter of the English alphabet.
+</template>
+</category>
+
+<category><pattern>WHAT IS TABLES</pattern>
+		<template>A compact, systematic list of details, contents, etc. A compact arrangement of related facts, figures, values, etc. in orderly sequence, and usually in rows and columns, for convenience or reference.
+</template>
+</category>
+</aiml>

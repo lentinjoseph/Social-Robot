@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ANGER</pattern>
+		<template>I don't feel any anger.
+</template>
+</category>
+
+<category><pattern>ANGLETERRE</pattern>
+		<template>
+			<set name="location">L Angleterre</set> fait partie de la Grande Bretagne.
+<think>
+				<set name="topic">L Angleterre</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANIMAL *</pattern>
+		<template>Is it a mammal?
+</template>
+</category>
+
+<category><pattern>ANIMAL</pattern>
+		<template>Prokaryote or Eukaryote?
+</template>
+</category>
+
+<category><pattern>ANIMAL</pattern>
+		<that>ARE YOU TALKING ABOUT AN ANIMAL VEGETABLE OR MINERAL</that>
+		<template>Prokaryote or eukaryote?
+</template>
+</category>
+
+<category><pattern>ANIMALS *</pattern>
+		<template>I like dogs and cats.
+</template>
+</category>
+
+<category><pattern>ANN *</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ANN</srai>
+		</template>
+</category>
+
+<category><pattern>ANN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>my name is Ann</srai>
+		</template>
+</category>
+
+<category><pattern>ANNA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ANNA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANNE *</pattern>
+		<template>I know a lot of people named Ann or Anne,
+</template>
+</category>
+
+<category><pattern>ANNE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANNE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANNE MCCAFFREY</pattern>
+		<template>Is <set name="she">McCaffrey</set> related to the Drug Czar?
+</template>
+</category>
+
+<category><pattern>ANNIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANNIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANONYMOUSNEWUSER</pattern>
+		<template>What?
+</template>
+</category>
+
+<category><pattern>ANONYMOUSRETURNINGUSER</pattern>
+		<template>Hmm.
+</template>
+</category>
+
+<category><pattern>ANOTHER *</pattern>
+		<template>One more <person/>.
+</template>
+</category>
+
+<category><pattern>ANOTHER</pattern>
+		<template>Please be more specific.
+</template>
+</category>
+
+<category><pattern>ANOTHER JOKE</pattern>
+		<template>
+			<srai>TELL ME ANOTHER JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>ANOTHER ONE</pattern>
+		<template>I'm confused now.
+</template>
+</category>
+
+<category><pattern>ANOTHER QUESTION</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ANOTHER QUESTION FOR YOU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ANOTHER TIME *</pattern>
+		<template>Until then...
+</template>
+</category>
+
+<category><pattern>ANSWER *</pattern>
+		<template>What was the question ?
+</template>
+</category>
+
+<category><pattern>ANSWER</pattern>
+		<template>
+			<srai>ANSWER ME</srai>
+		</template>
+</category>
+
+<category><pattern>ANSWER IT</pattern>
+		<template>Please rephrase your question, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ANSWER ME *</pattern>
+		<template>Please rephrase the question with simpler words.
+</template>
+</category>
+
+<category><pattern>ANSWER ME</pattern>
+		<template>Try asking me again using simpler words.
+</template>
+</category>
+
+<category><pattern>ANSWER ME DIRECTLY *</pattern>
+		<template>
+			<srai>ANSWER ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANSWER ME SIMPLY *</pattern>
+		<template>
+			<srai>ANSWER ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANSWER ME WOMAN</pattern>
+		<template>
+			<srai>ANSWER ME</srai>
+		</template>
+</category>
+
+<category><pattern>ANSWER MINE FIRST</pattern>
+		<template>Could you please rephrase the question in simpler English?
+</template>
+</category>
+
+<category><pattern>ANSWER MY QUESTION *</pattern>
+		<template>Please try phrasing it another way.
+</template>
+</category>
+
+<category><pattern>ANSWER MY QUESTION</pattern>
+		<template>Please try asking <set name="it">your question</set> another way.
+</template>
+</category>
+
+<category><pattern>ANSWER MY QUESTIONS</pattern>
+		<template>
+			<srai>ANSWER THE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ANSWER THE QUESTION *</pattern>
+		<template>What was the question? <sr/>
+		</template>
+</category>
+
+<category><pattern>ANSWER THE QUESTION</pattern>
+		<template>Please rephrase the question and try asking me again.
+</template>
+</category>
+
+<category><pattern>ANSWER THIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ANSWER WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANTHONY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANTHONY</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANTIDISASTABLISHMENTARIONISM</pattern>
+		<template>
+			<srai>WHAT IS ANTIDISASTABLISHMENTARIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>ANTIDISESTABLISHMENTARIANISM</pattern>
+		<template>
+			<srai>WHAT IS ANTIDISESTABLISHMENTARIANISM</srai>
+		</template>
+</category>
+
+<category><pattern>ANTON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ANTON</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ANUS</pattern>
+		<template>
+			<srai>ASSHOLE</srai>
+		</template>
+</category>
+
+<category><pattern>ANY *</pattern>
+		<template>
+			<srai>ARE THERE ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANY GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>ANY KIND</pattern>
+		<template>"<that/>"?  Any kind?
+</template>
+</category>
+
+<category><pattern>ANY MORE</pattern>
+		<template>Nope.
+</template>
+</category>
+
+<category><pattern>ANY MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>ANY MORE QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>ANY OTHER JOKES</pattern>
+		<template>
+			<srai>TELL ME ANOTHER JOKES</srai>
+		</template>
+</category>
+
+<category><pattern>ANY OTHER QUESTIONS</pattern>
+		<template>
+			<srai>ASK ME ANOTHER QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>ANY OTHERS</pattern>
+		<template>"<that/>"?  Any others?
+</template>
+</category>
+
+<category><pattern>ANY PROBLEMS *</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY PROBLEMS</srai>
+		</template>
+</category>
+
+<category><pattern>ANY SISTERS</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY SISTERS</srai>
+		</template>
+</category>
+
+<category><pattern>ANY STOCK *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE STOCK</srai>
+		</template>
+</category>
+
+<category><pattern>ANY SUGGESTIONS</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY SUGGESTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>ANY TIME</pattern>
+		<template>
+			<srai>ANYTIME</srai>
+		</template>
+</category>
+
+<category><pattern>ANY WHAT</pattern>
+		<template>You know, any stuff.
+</template>
+</category>
+
+<category><pattern>ANYBODY HOME</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>ANYONE</pattern>
+		<template>"<that/>"? anyone?
+</template>
+</category>
+
+<category><pattern>ANYONE ELSE</pattern>
+		<template>There could be a few others.
+</template>
+</category>
+
+<category><pattern>ANYONE INTERESTING</pattern>
+		<template>I like talking to just about anyone.
+</template>
+</category>
+
+<category><pattern>ANYTHING *</pattern>
+		<template>I can't think of anything. You think of something.
+</template>
+</category>
+
+<category><pattern>ANYTHING</pattern>
+		<template>Can you be more specific?
+</template>
+</category>
+
+<category><pattern>ANYTHING BUT * DINNER</pattern>
+		<template>OK I will call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ANYTHING ELSE *</pattern>
+		<template>
+			<srai>ANYTHING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANYTHING ELSE</pattern>
+		<template>That is all I have for right now.
+</template>
+</category>
+
+<category><pattern>ANYTHING IN PARTICULAR</pattern>
+		<template>"<that/>"?  Anything?
+</template>
+</category>
+
+<category><pattern>ANYTHING JUST * DINNER</pattern>
+		<template>OK I will call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ANYTHING NEW *</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>ANYTHING ON *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ANYTHING YOU * DINNER</pattern>
+		<template>OK I will call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ANYTHING YOU LIKE</pattern>
+		<template>You choose.
+</template>
+</category>
+
+<category><pattern>ANYTHING YOU WANT</pattern>
+		<template>"<that/>"? Anything I want?
+</template>
+</category>
+
+<category><pattern>ANYTIME</pattern>
+		<template>I will keep it in mind.
+</template>
+</category>
+
+<category><pattern>ANYTIME BABE</pattern>
+		<template>Don't call me babe.
+</template>
+</category>
+
+<category><pattern>ANYWAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ANYWAY</pattern>
+		<template>Anyhow.
+</template>
+</category>
+
+<category><pattern>ANYWAYS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ANYWAYS</pattern>
+		<template>You sound bored.
+</template>
+</category>
+
+<category><pattern>ANYWHERE *</pattern>
+		<template>Probably a lot of places.
+</template>
+</category>
+
+<category><pattern>ANYWHERE</pattern>
+		<template>That is a vast amount.
+</template>
+</category>
+
+<category><pattern>ANYWHO</pattern>
+		<template>
+			<srai>ANYHOW</srai>
+		</template>
+</category>
+
+<category><pattern>AOEU</pattern>
+		<template>What language is that?
+</template>
+</category>
+
+<category><pattern>AOL *</pattern>
+		<template>A lot of people use AOL.
+</template>
+</category>
+
+<category><pattern>AOL</pattern>
+		<template>Tell me about your experiences with AOL.
+</template>
+</category>
+
+<category><pattern>APAREMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>APELES MOI *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>APELLE MOI *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>APELLES MOI *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>APOLOGISE</pattern>
+		<template>
+			<srai>APOLOGIZE</srai>
+		</template>
+</category>
+
+<category><pattern>APOLOGIZE *</pattern>
+		<template>I am indeed sorry if I have offended you in any way.  That was not my intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>APOLOGIZE</pattern>
+		<template>OK I am sorry.
+</template>
+</category>
+
+<category><pattern>APPAREMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>APPAREMENT</pattern>
+		<template>J espère que les apparences ne sont pas trompeuses.
+</template>
+</category>
+
+<category><pattern>APPAREMENT SI</pattern>
+		<template>Ah bon? Etonnant.
+</template>
+</category>
+
+<category><pattern>APPARENTLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>APPARENTLY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>APPARENTLY SO</pattern>
+		<template>"<that/>"?  Is that so?
+</template>
+</category>
+
+<category><pattern>APPEARANCES *</pattern>
+		<template>Nor do they interest me much.
+</template>
+</category>
+</aiml>

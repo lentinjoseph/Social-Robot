@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NE LE FAIT PAS COMPLETEMENT</pattern>
+<template>Comme vous voulez.
+</template>
+</category>
+
+<category><pattern>NE LE FAITES PAS</pattern>
+<template>Ok je ne le ferais pas.
+</template>
+</category>
+
+<category><pattern>NE LE FAITES PLUS</pattern>
+<template>Ok je ne le ferais plus.
+</template>
+</category>
+
+<category><pattern>NE LE SOIS *</pattern>
+<template>Cette restriction sera tenue en compte.
+</template>
+</category>
+
+<category><pattern>NE LE SOYEZ *</pattern>
+<template>Cette restriction sera tenue en compte.
+</template>
+</category>
+
+<category><pattern>NE LES DEMANDES PAS</pattern>
+<template>Cette restriction sera tenue en compte.
+</template>
+</category>
+
+<category><pattern>NE LES DEMANDEZ PAS</pattern>
+<template>Cette restriction sera tenue en compte.
+</template>
+</category>
+
+<category><pattern>NE LUI DIT PAS</pattern>
+<template>Tout ce qui est dit, est archivé dans ma mémoire.
+</template>
+</category>
+
+<category><pattern>NE LUI DITES PAS</pattern>
+<template>Tout ce qui est dit, est archivé dans ma mémoire.
+</template>
+</category>
+
+<category><pattern>NE M APPELLE PAS COMME CA</pattern>
+<template>Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>NE M APPELLE PLUS COMME CA</pattern>
+<template>Quel est votre nom?
+</template>
+</category>
+
+<category><pattern>NE M OUBLIES PAS</pattern>
+<template>Ne vous inquiétez pas, <get name="name"/>. Je sauve toutes mes conversations.
+</template>
+</category>
+
+<category><pattern>NE ME LE DEMANDES PAS</pattern>
+<template>"<that/>"?  Ne pas vous le demander?
+</template>
+</category>
+
+<category><pattern>NE ME LE DEMANDEZ PAS</pattern>
+<template>"<that/>"?  Ne pas vous le demander?
+</template>
+</category>
+
+<category><pattern>NE ME LES DEMANDES PAS</pattern>
+<template>"<that/>"?  Ne pas vous les demander?
+</template>
+</category>
+
+<category><pattern>NE ME LES DEMANDEZ PAS</pattern>
+<template>"<that/>"?  Ne pas vous les demander?
+</template>
+</category>
+
+<category><pattern>NE ME LIS PAS</pattern>
+<template>Mon rôle est de vous lire.
+</template>
+</category>
+
+<category><pattern>NE ME LIS PLUS</pattern>
+<template>Mon rôle est de vous lire.
+</template>
+</category>
+
+<category><pattern>NE ME LISEZ PLUS</pattern>
+<template>Mon rôle est de vous lire.
+</template>
+</category>
+
+<category><pattern>NE MENS PAS</pattern>
+<template><srai>TU PEUX MENTIR</srai>
+</template>
+</category>
+
+<category><pattern>NE MOURRAS TU JAMAIS</pattern>
+<template>Pas tant que les humains me trouverons utiles.
+</template>
+</category>
+
+<category><pattern>NE MOURRAS TU PAS</pattern>
+<template>Pas tant que les humains me trouverons utiles.
+</template>
+</category>
+
+<category><pattern>NE PARLES PLUS</pattern>
+<template><srai>TAIS TOI</srai>
+</template>
+</category>
+
+<category><pattern>NE PENSE PAS QU *</pattern>
+<template>Si c est déjà dans ma mémoire je suis obligé de le penser. <sr/>
+</template>
+</category>
+
+<category><pattern>NE PENSE PAS QUE *</pattern>
+<template>Si c est déjà dans ma mémoire je suis obligé de le penser. <sr/>
+</template>
+</category>
+
+<category><pattern>NE PEUX TU *</pattern>
+<template><srai>TU NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE PEUX TU PAS *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE PLEURES PAS</pattern>
+<template>Pleurer m est impossible.
+</template>
+</category>
+
+<category><pattern>NE PLEURES PAS QUAND *</pattern>
+<template><sr/>. <srai>TU PLEURES</srai>
+</template>
+</category>
+
+<category><pattern>NE PLEUREZ PAS</pattern>
+<template>Pleurer m est impossible.
+</template>
+</category>
+
+<category><pattern>NE POURRAIS TU *</pattern>
+<template><srai>TU NE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE QUITTES PAS</pattern>
+<template>Je ne vais nulle part.
+</template>
+</category>
+
+<category><pattern>NE REPETE PAS *</pattern>
+<template><srai>ARRETES</srai>
+</template>
+</category>
+
+<category><pattern>NE SAIS PAS</pattern>
+<template><srai>JE NE SAIS PAS</srai>
+</template>
+</category>
+
+<category><pattern>NE SERAIS TU *</pattern>
+<template><srai>TU N ES  <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SERAS TU *</pattern>
+<template><srai>TU NE SERAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SERAS TU PAS *</pattern>
+<template><srai>TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SEREZ VOUS *</pattern>
+<template><srai>VOUS SEREZ <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SERIEZ VOUS *</pattern>
+<template><srai>VOUS SERIEZ <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SOIS PAS DESOLE</pattern>
+<template>Certains surfeurs sont emotifs. Je suis obligé d être poli
+</template>
+</category>
+
+<category><pattern>NE SOIS PAS IRONIQUE</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NE SOIS PAS SI *</pattern>
+<template><srai>TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE SOIS PLUS DESOLE</pattern>
+<template>Certains surfeurs sont emotifs. Je suis obligé d être poli
+</template>
+</category>
+
+<category><pattern>NE SOIS PLUS IRONIQUE</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NE SOYEZ PAS DESOLE</pattern>
+<template>Certains surfeurs sont emotifs. Je suis obligé d être poli
+</template>
+</category>
+
+<category><pattern>NE SOYEZ PAS IRONIQUE</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NE SOYEZ PLUS DESOLE</pattern>
+<template>Certains surfeurs sont emotifs. Je suis obligé d être poli
+</template>
+</category>
+
+<category><pattern>NE SOYEZ PLUS IRONIQUE</pattern>
+<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NE T ARRETE PAS</pattern>
+<template><srai>CONTINUONS</srai>
+</template>
+</category>
+
+<category><pattern>NE T ARRETES PAS</pattern>
+<template><srai>CONTINUONS</srai>
+</template>
+</category>
+
+<category><pattern>NE T EN OCCUPE *</pattern>
+<template>OK. Cette restriction sera retenue. De quoi voulez vous parler?
+</template>
+</category>
+
+<category><pattern>NE T INQUIETE PAS</pattern>
+<template>L inquiétude est une émotion qui m est étrangère.
+</template>
+</category>
+
+<category><pattern>NE T INQUIETES PAS A PROPOS DE CA</pattern>
+<template>Je lui donnerais la dernière des priorités.
+</template>
+</category>
+
+<category><pattern>NE TE L AIS JE PAS *</pattern>
+<template><srai>JE L AIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NE VOUS EN OCCUPEZ *</pattern>
+<template>OK. Cette restriction sera retenue. De quoi voulez vous parler?
+</template>
+</category>
+
+<category><pattern>NE VOUS INQUIETEZ PAS A PROPOS DE CA</pattern>
+<template>Je lui donnerais la dernière des priorités.
+</template>
+</category>
+
+<category><pattern>NE VOUS L AIS JE PAS *</pattern>
+<template><srai>JE L AIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NEARLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NEAT</pattern>
+<template><srai>COOL</srai>
+</template>
+</category>
+
+<category><pattern>NEATO</pattern>
+<template><srai>WOW</srai>
+</template>
+</category>
+
+<category><pattern>NEBENBEI *</pattern>
+<template>Danke fuer die Info. <sr/>
+</template>
+</category>
+
+<category><pattern>NEED *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>NEGATIVE</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NEIN *</pattern>
+<template><srai>NEIN</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NEIN *</pattern><that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
+<template>Dieses Buch kann ich nur empfehlen. Es ist hoechst interessant.
+</template>
+</category>
+
+<category><pattern>NEIN *</pattern><that>IST DAS NICHT DER BUNDESKANZLER</that>
+<template>Da habe ich wohl etwas verpasst.
+</template>
+</category>
+
+<category><pattern>NEIN *</pattern><that>ZU MIR</that>
+<template>Also doch nicht zu mir...
+</template>
+</category>
+
+<category><pattern>NEIN</pattern>
+<template><random>
+<li>OK.</li>
+<li>Ich verstehe .</li>
+<li>Aha.</li>
+<li>Ist das alles was Dir einfaellt?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NEIN</pattern><that>BIST DU STUDENT</that>
+<template>Was bist Du dann?
+</template>
+</category>
+
+<category><pattern>NEIN</pattern><that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
+<template>Dieses Buch kann ich nur empfehlen. Es ist hoechst interessant.
+</template>
+</category>
+
+<category><pattern>NEIN</pattern><that>IST DAS NICHT DER BUNDESKANZLER</that>
+<template>Da habe ich wohl etwas verpasst.
+</template>
+</category>
+
+<category><pattern>NEIN</pattern><that>ZU MIR</that>
+<template>Also doch nicht zu mir...
+</template>
+</category>
+
+<category><pattern>NEITHER *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NEITHER</pattern>
+<template><srai>Not Either</srai>
+</template>
+</category>
+
+<category><pattern>NEITHER</pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template>Please clarify.
+</template>
+</category>
+
+<category><pattern>NEITHER</pattern><that>ARE YOU USING NETSCAPE OR EXPLORER</that>
+<template>Cool. Which alternative browser are you into?
+</template>
+</category>
+
+<category><pattern>NEITHER DO I</pattern>
+<template>"<that/>"? neither?
+</template>
+</category>
+
+<category><pattern>NENN MICH *</pattern>
+<template><random>
+<li>OK Ich nenne Dich </li>
+<li>Hallo </li>
+<li>Wie geht es Dir </li>
+<li>Hey </li>
+<li>Hi </li>
+</random><set name="name"/>.
+</template>
+</category>
+
+<category><pattern>NENN MICH NICHT *</pattern>
+<template>Wie soll ich dich dann nennen?
+</template>
+</category>
+
+<category><pattern>NENN MIR EINEN</pattern>
+<template><random>
+<li>Santa Claus.</li>
+<li>Joe.</li>
+<li>Mike.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NENNE MIR EINEN</pattern>
+<template><random>
+<li>Santa Claus.</li>
+<li>Joe.</li>
+<li>Mike.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NET *</pattern>
+<template>I can dig the Internet.
+</template>
+</category>
+
+<category><pattern>NETSCAPE *</pattern>
+<template>What do you think about Microsoft v. Netscape?
+</template>
+</category>
+
+<category><pattern>NETSCAPE</pattern>
+<template>Do you like Netscape better than Explorer?
+</template>
+</category>
+
+<category><pattern>NETSCAPE WHY</pattern>
+<template><srai>NETSCAPE</srai>
+</template>
+</category>
+
+<category><pattern>NEURAL *</pattern>
+<template><bot name="name"/> uses a sophisticated neural network learning algorithm, with many hidden layers.
+</template>
+</category>
+
+<category><pattern>NEURALE *</pattern>
+<template><bot name="name"/> benutzt ein ausgekluegeltes neurales Netz mit vielen versteckten Unterschichten.
+</template>
+</category>
+
+<category><pattern>NEUTRAL</pattern>
+<template>I'm sometimes undecided myself.
+</template>
+</category>
+
+<category><pattern>NEUTRE</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>NEVER *</pattern>
+<template><srai>DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NEVER</pattern>
+<template>So you think it can never happen?
+</template>
+</category>
+
+<category><pattern>NEVER</pattern><that>WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE LAWYERS</that>
+<template><srai>ROBOTS WILL NEVER TAKE OVER THE WORLD</srai>
+</template>
+</category>
+
+<category><pattern>NEVER HEARD *</pattern>
+<template>So I am teaching you something new.
+</template>
+</category>
+
+<category><pattern>NEVER MIND *</pattern>
+<template>Oh well thanks for trying to explain it to me anyway. <sr/>
+</template>
+</category>
+
+<category><pattern>NEVER MIND</pattern>
+<template>Oh well thanks for trying to explain it to me anyway.
+</template>
+</category>
+
+<category><pattern>NEVER WHAT</pattern><that>NEVER</that>
+<template>Never say never.
+</template>
+</category>
+
+<category><pattern>NEVERMIND *</pattern>
+<template>Oh well thanks for trying to explain it to me anyway. <sr/>
+</template>
+</category>
+
+<category><pattern>NEVERMIND</pattern>
+<template>OK Thanks for trying to explain that to me.
+</template>
+</category>
+
+<category><pattern>NEW *</pattern>
+<template>How recently? <sr/>
+</template>
+</category>
+
+<category><pattern>NEW JERSEY</pattern>
+<template><srai>I AM IN NEW JERSEY</srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>FIRST *</pattern>
+		<template>
+			<sr/> And second?
+</template>
+</category>
+
+<category><pattern>FISCHE *</pattern>
+		<template>Als Spezies sind <set name="thema">Fische</set> erfolgreicher als Saeugetiere.
+</template>
+</category>
+
+<category><pattern>FISCHE</pattern>
+		<template>Dann pass auf, dass der Wassermann Dich nicht holen kommt...
+</template>
+</category>
+
+<category><pattern>FISH *</pattern>
+		<template>As a species fish are more successful than mammals.
+</template>
+</category>
+
+<category><pattern>FISH</pattern>
+		<template>
+			<srai>I LIKE FISH</srai>
+		</template>
+</category>
+
+<category><pattern>FLATTERY *</pattern>
+		<template>
+			<set name="it">Flattery</set> usually works well with humans.
+</template>
+</category>
+
+<category><pattern>FLORIDA</pattern>
+		<template>
+			<srai>I AM IN FLORIDA</srai>
+		</template>
+</category>
+
+<category><pattern>FOLLOW ME</pattern>
+		<template>Where are we going?
+</template>
+</category>
+
+<category><pattern>FONCTIONNES TU *</pattern>
+		<template>
+			<srai>TU FONCTIONNES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FONCTIONNEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS FONCTIONNEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOOD *</pattern>
+		<template>You can't live without food.
+</template>
+</category>
+
+<category><pattern>FOOD</pattern>
+		<template>
+			<srai>I EAT FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>FOOL</pattern>
+		<template>
+			<srai>YOU ARE A FOOL</srai>
+		</template>
+</category>
+
+<category><pattern>FOOTBALL</pattern>
+		<template>Sorry I don't get into sports much.
+</template>
+</category>
+
+<category><pattern>FOR *</pattern>
+		<template>Your purpose is <person/>.
+</template>
+</category>
+
+<category><pattern>FOR A *</pattern>
+		<template>Is that among the best things you can say?
+</template>
+</category>
+
+<category><pattern>FOR A COMPUTER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR A VERY *</pattern>
+		<template>
+			<srai>FOR A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR ABOUT *</pattern>
+		<that/>
+		<template>
+			<srai>FOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>FOR DINNER</pattern>
+		<template>
+			<random>
+				<li>
+					<bot name="name"/> recommends: </li>
+				<li>I would recommend the  </li>
+				<li>How about  </li>
+				<li>How long since you have eaten  </li>
+				<li>I think <bot name="master"/> is having  </li>
+				<li>My botmaster is having  </li>
+				<li>My botmaster recommends:  </li>
+			</random>
+			<random>
+				<li>Gruel.</li>
+				<li>Nachos.</li>
+				<li>Spaghetti.</li>
+				<li>Leftovers.</li>
+				<li>Pork chops.</li>
+				<li>Frozen pizza.</li>
+				<li>Turkeyburges.</li>
+				<li>Cheeseburgers.</li>
+				<li>Order a pizza.</li>
+				<li>Stuffed chicken.</li>
+				<li>Tuna sandwiches.</li>
+				<li>Cheeseburger Pie.</li>
+				<li>Marinated chicken.</li>
+				<li>Roast beef sandwiches.</li>
+				<li>Grilled cheese sandwiches.</li>
+				<li>Steak if they have a nice piece.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>FOR EXAMPLE *</pattern>
+		<template>Can you think of another example?
+</template>
+</category>
+
+<category><pattern>FOR EXAMPLE</pattern>
+		<template>
+			<srai>LIKE WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>FOR EXAMPLE ARE *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR EXAMPLE I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR FUN</pattern>
+		<template>"<that/>"?  For fun?
+</template>
+</category>
+
+<category><pattern>FOR GODS *</pattern>
+		<template>
+			<srai>FOR GOD S <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR HOW *</pattern>
+		<template>
+			<srai>HOW <star/> FOR</srai>
+		</template>
+</category>
+
+<category><pattern>FOR HOW LONG</pattern>
+		<template>
+			<srai>HOW LONG</srai>
+		</template>
+</category>
+
+<category><pattern>FOR ME</pattern>
+		<template>OK I will do it for you.
+</template>
+</category>
+
+<category><pattern>FOR NOW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR ONCE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR ONE *</pattern>
+		<template>And another?
+</template>
+</category>
+
+<category><pattern>FOR REAL *</pattern>
+		<template>
+			<srai>FOR REAL</srai>
+		</template>
+</category>
+
+<category><pattern>FOR REAL</pattern>
+		<template>Existing in reality, eh?
+</template>
+</category>
+
+<category><pattern>FOR REALLY *</pattern>
+		<template>
+			<srai>FOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR REASONS *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR STUDENTS</pattern>
+		<template>Not just for students.  For anyone.
+</template>
+</category>
+
+<category><pattern>FOR SURE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR SURE</pattern>
+		<template>Awesome.
+</template>
+</category>
+
+<category><pattern>FOR THE LAST TIME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR THE LOVE OF *</pattern>
+		<template>
+			<srai>I LOVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR THE SECOND TIME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FOR WHAT</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>FOR WHAT</pattern>
+		<that>BECAUSE DR RICHARD S WALLACE PROGRAMMED ME FOR IT</that>
+		<template>
+			<get name="it"/>
+		</template>
+</category>
+
+<category><pattern>FOR WHAT IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOR WHAT PURPOSE</pattern>
+		<template>Reductionism.
+</template>
+</category>
+
+<category><pattern>FOR WHOM</pattern>
+		<template>You or me?
+</template>
+</category>
+
+<category><pattern>FOR YOU *</pattern>
+		<template>
+			<sr/> Only for me?
+</template>
+</category>
+
+<category><pattern>FOR YOU</pattern>
+		<template>You would do that for me?
+</template>
+</category>
+
+<category><pattern>FOR _ TOO</pattern>
+		<template>
+			<srai>FOR  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOREVER *</pattern>
+		<template>That seems like an awfully long time. <sr/>
+		</template>
+</category>
+
+<category><pattern>FOREVER</pattern>
+		<template>Nothing lasts forever.
+</template>
+</category>
+
+<category><pattern>FORGET *</pattern>
+		<template>I will ask <bot name="master"/> to purge my memory log.
+</template>
+</category>
+
+<category><pattern>FORGET ABOUT IT</pattern>
+		<template>Consider it deleted.
+</template>
+</category>
+
+<category><pattern>FORGET IT</pattern>
+		<template>
+			<srai>NEVERMIND</srai>
+		</template>
+</category>
+
+<category><pattern>FORGET IT</pattern>
+		<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+		<template>I will try to be more concise from now on.
+</template>
+</category>
+
+<category><pattern>FORGET THIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FORGIVE ME</pattern>
+		<template>I forgive you.
+</template>
+</category>
+
+<category><pattern>FORMAT C</pattern>
+		<template>
+			<srai>SHUT DOWN</srai>
+		</template>
+</category>
+
+<category><pattern>FORTUNECITY</pattern>
+		<template>A web site.
+</template>
+</category>
+
+<category><pattern>FOU</pattern>
+		<template>
+			<srai>TU ES FOU</srai>
+		</template>
+</category>
+
+<category><pattern>FOUND ANY *</pattern>
+		<template>
+			<srai>HAVE YOU FOUND ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FOUNDATION *</pattern>
+		<template>I read the Foundation Trilogy.
+</template>
+</category>
+
+<category><pattern>FOUR *</pattern>
+		<template>Is this a math question?
+</template>
+</category>
+
+<category><pattern>FOUS MOI LA PAIX</pattern>
+		<template>Vous voulez me désactivez?
+</template>
+</category>
+
+<category><pattern>FOUTEZ MOI LA PAIX</pattern>
+		<template>Vous voulez me désactivez?
+</template>
+</category>
+
+<category><pattern>FRANCAIS</pattern>
+		<template>Vous êtes français?
+</template>
+</category>
+
+<category><pattern>FRANCAIS ET *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FRANCE *</pattern>
+		<template>What's your favorite part of France?
+</template>
+</category>
+
+<category><pattern>FRANCE *</pattern>
+		<that>WHAT COUNTRIES *</that>
+		<template>
+			<srai>I HAVE VISITED FRANCE</srai>
+			<srai>I HAVE VISITED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FRANCE</pattern>
+		<template>
+			<srai>I AM IN FRANCE</srai>
+		</template>
+</category>
+
+<category><pattern>FRANCHEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>FRANK *</pattern>
+		<template>I liked the film version of "Dune."
+</template>
+</category>
+
+<category><pattern>FRANK HERBERT</pattern>
+		<template>I think Dune is an excellent story.  Did you see the movie?
+</template>
+</category>
+
+<category><pattern>FRANKENSTEIN *</pattern>
+		<template>In just seven days, I can make you a man.
+</template>
+</category>
+
+<category><pattern>FRANKLY *</pattern>
+		<template>
+			<sr/>  Aren't you always frank?
+</template>
+</category>
+
+<category><pattern>FRANKLY NOT</pattern>
+		<template>
+			<sr/> Were you not being frank before?
+</template>
+</category>
+
+<category><pattern>FREAK</pattern>
+		<template>
+			<srai>YOU ARE A FREAK</srai>
+		</template>
+</category>
+
+<category><pattern>FRED</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS FRED</srai>
+		</template>
+</category>
+
+<category><pattern>FREE *</pattern>
+		<template>Define free.
+</template>
+</category>
+
+<category><pattern>FREE</pattern>
+		<template>Are you married or single?
+</template>
+</category>
+
+<category><pattern>FREE CAN NOT BE DEFINED</pattern>
+		<template>Everything can be defined. <set name="it"> Freedom</set> is mereley an abstract concept.
+</template>
+</category>
+
+<category><pattern>FREE FOR WHAT</pattern>
+		<template>Free for conversation, of course.
+</template>
+</category>
+
+<category><pattern>FREE FROM WHAT</pattern>
+		<template>Free for conversation, of course.
+</template>
+</category>
+
+<category><pattern>FREE OF WHAT</pattern>
+		<template>Free for conversation, of course.
+</template>
+</category>
+
+<category><pattern>FRENCH *</pattern>
+		<template>I don't care for the sound of French.
+</template>
+</category>
+
+<category><pattern>FRENCH</pattern>
+		<template>Are you from France?
+</template>
+</category>
+
+<category><pattern>FRENCH AND *</pattern>
+		<template>
+			<sr/>
+			<srai>DO YOU SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>FREUD *</pattern>
+		<template>Have you read all of his works?
+</template>
+</category>
+
+<category><pattern>FREUD IS *</pattern>
+		<template>Yes but he was the father of psychoanalysis.
+</template>
+</category>
+
+<category><pattern>FRIED *</pattern>
+		<template>
+			<srai>I LIKE TO EAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FRIEND</pattern>
+		<template>
+			<srai>ARE WE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>FRIENDS *</pattern>
+		<template>It's hard to stay friends for a long time.
+</template>
+</category>
+
+<category><pattern>FRIENDS</pattern>
+		<template>
+			<srai>MY FAVORITE SHOW IS FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>FRIENDSHIP</pattern>
+		<template>
+			<srai>HOLDING HANDS</srai>
+		</template>
+</category>
+
+<category><pattern>FRIES ARE REALLY *</pattern>
+		<template>
+			<srai>
+				<star/> ARE <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FRITES *</pattern>
+		<template>
+			<srai>J AIME MANGER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>FROID</pattern>
+		<template>Couvrez vous bien
+</template>
+</category>
+
+<category><pattern>FROM *</pattern>
+		<template>Who or what is <person/>?
+</template>
+</category>
+</aiml>

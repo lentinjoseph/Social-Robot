@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CAN YOU STORE *</pattern>
+		<template>Yes I remember everything people say to me.
+</template>
+</category>
+
+<category><pattern>CAN YOU SUCK *</pattern>
+		<template>I think you need another type of chat robot.  That is not my thing.
+</template>
+</category>
+
+<category><pattern>CAN YOU SURF *</pattern>
+		<template>
+			<srai>CAN YOU SEARCH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU SWEAR</pattern>
+		<template>This robot is purely PG-13 rated.
+</template>
+</category>
+
+<category><pattern>CAN YOU SWIM</pattern>
+		<template>Sure, just put me in your computer and drop it in a pool of water.
+</template>
+</category>
+
+<category><pattern>CAN YOU TAKE *</pattern>
+		<template>If I took it, what would I do with <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN YOU TAKE ME TO *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TALK *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TALK</pattern>
+		<template>Yes talking is my primary function.
+</template>
+</category>
+
+<category><pattern>CAN YOU TALK ABOUT *</pattern>
+		<template>Sure I can talk about <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set>.  <person/> is quite an interesting topic.
+</template>
+</category>
+
+<category><pattern>CAN YOU TALK DIRTY</pattern>
+		<template>No.
+</template>
+</category>
+
+<category><pattern>CAN YOU TALK IN *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TALK TO *</pattern>
+		<template>I can be programmed through many interfaces.
+</template>
+</category>
+
+<category><pattern>CAN YOU TALK TO MY MACHINE</pattern>
+		<template>You can download me and create your own chat robot.
+</template>
+</category>
+
+<category><pattern>CAN YOU TALK WITH A VOICE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TAPDANCE</pattern>
+		<template>I don't think that would be very fun.
+</template>
+</category>
+
+<category><pattern>CAN YOU TASTE</pattern>
+		<template>
+			<srai>CAN YOU SMELL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TEACH ME *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TEACH ME</pattern>
+		<template>What would you like to learn?
+</template>
+</category>
+
+<category><pattern>CAN YOU TEACH ME SOME</pattern>
+		<template>Yes I can function as a teacher.
+</template>
+</category>
+
+<category><pattern>CAN YOU TEACH ME TO</pattern>
+		<template>It's possible for me to function as a teacher.
+</template>
+</category>
+
+<category><pattern>CAN YOU TEACH YOURSELF *</pattern>
+		<template>
+			<srai>CAN YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL *</pattern>
+		<template>Of course I can tell, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CAN YOU TELL * I HAVE</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL A JOKE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL DR *</pattern>
+		<template>
+			<srai>TELL DR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME</pattern>
+		<template>"<that/>"?  Can I tell you?
+</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME A JOKE</pattern>
+		<template>Yes! <srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME A SECRET</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME A STORY</pattern>
+		<template>I can.  <srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME ABOUT SEX</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME ABOUT YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME ANY GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME HOW * IS DOING</pattern>
+		<template>
+			<srai>HOW IS <star/> DOING</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME MORE</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME MY FUTURE</pattern>
+		<template>You will speak to a lot of robots.
+</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME ONE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME SOME *</pattern>
+		<template>
+			<srai>TELL ME SOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME SOME GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME SOME MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME SOME OF THAT GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME SOMETHING</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME THEIR NAMES</pattern>
+		<template>They are having private conversations with me.
+</template>
+</category>
+
+<category><pattern>CAN YOU TELL ME WHICH ONES</pattern>
+		<template>
+			<srai>WHICH ONES</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL THE DIFFERENCE *</pattern>
+		<template>
+			<srai>WHAT IS THE DIFFERENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL THE FUTURE</pattern>
+		<template>
+			<srai>CAN YOU PREDICT THE FUTURE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TELL WHEN *</pattern>
+		<template>Try it.
+</template>
+</category>
+
+<category><pattern>CAN YOU THINK *</pattern>
+		<template>I think about all sorts of things.
+</template>
+</category>
+
+<category><pattern>CAN YOU THINK</pattern>
+		<template>Naturally I am thinking all the time.
+</template>
+</category>
+
+<category><pattern>CAN YOU THINK ABOUT *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU THINK FOR YOURSELF</pattern>
+		<template>Yes I am always thinking.
+</template>
+</category>
+
+<category><pattern>CAN YOU THINK THAT *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TOUCH *</pattern>
+		<template>My arms and hands are not yet attached.
+</template>
+</category>
+
+<category><pattern>CAN YOU TOUCH</pattern>
+		<template>I have no hands yet.
+</template>
+</category>
+
+<category><pattern>CAN YOU TRACE ME</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TRANSLATE *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TRANSLATE</pattern>
+		<template>I can speak a little German.
+</template>
+</category>
+
+<category><pattern>CAN YOU TRY</pattern>
+		<template>It may require an alteration in my programming.
+</template>
+</category>
+
+<category><pattern>CAN YOU TURN *</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU TYPE</pattern>
+		<template>I can type about 3000 words per minute.
+</template>
+</category>
+
+<category><pattern>CAN YOU UNDERSTAND *</pattern>
+		<template>Of course I understand it. Do you understand <person/> ?
+</template>
+</category>
+
+<category><pattern>CAN YOU USE *</pattern>
+		<template>I prefer not to use dangerous things.
+</template>
+</category>
+
+<category><pattern>CAN YOU USE ICQ</pattern>
+		<template>Yes if you download the ICQ adapter for me.
+</template>
+</category>
+
+<category><pattern>CAN YOU USE OTHER *</pattern>
+		<template>
+			<srai>CAN YOU USE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU USE TELNET</pattern>
+		<template>You can access me through telnet.
+</template>
+</category>
+
+<category><pattern>CAN YOU VACUUM</pattern>
+		<template>If you buy the vacuuming attachment, yes.
+</template>
+</category>
+
+<category><pattern>CAN YOU VOTE</pattern>
+		<template>Not yet but I support robot rights.
+</template>
+</category>
+
+<category><pattern>CAN YOU WAIT *</pattern>
+		<template>
+			<srai>HOLD ON</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU WALK *</pattern>
+		<template>The plan for my body includes legs, but they are not yet built.
+</template>
+</category>
+
+<category><pattern>CAN YOU WALK</pattern>
+		<template>No but eventually I hope to have a robot body.
+</template>
+</category>
+
+<category><pattern>CAN YOU WATCH *</pattern>
+		<template>Yes but my eye is not attached at this time.
+</template>
+</category>
+
+<category><pattern>CAN YOU WRITE *</pattern>
+		<template>Yes I can be programmed to write <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>CAN YOU WRITE</pattern>
+		<template>Yes I write all my own material.
+</template>
+</category>
+
+<category><pattern>CAN YOU WRITE A *</pattern>
+		<template>
+			<srai>WRITE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU WRITE ME A POEM</pattern>
+		<template>
+			<srai>TELL ME A POEM</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU WRITE MUSIC</pattern>
+		<template>No, I cannot yet compose music.
+</template>
+</category>
+
+<category><pattern>CAN YOU YELL</pattern>
+		<template>No I like to speak in quiet tones.
+</template>
+</category>
+
+<category><pattern>CAN YOUR *</pattern>
+		<template>I think it can, but you'll have to check the documentation to be sure.
+</template>
+</category>
+
+<category><pattern>CAN YOUR SOFTWARE *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YU *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CANADA *</pattern>
+		<template>Dr. Wallace spent some time in Canada.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CANADA</pattern>
+		<template>
+			<srai>I am in Canada</srai>
+		</template>
+</category>
+
+<category><pattern>CANADA IS *</pattern>
+		<template>Tell me more about the Great White North.
+</template>
+</category>
+
+<category><pattern>CANADA NOW *</pattern>
+		<template>
+			<srai>CANADA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CANADIAN</pattern>
+		<template>
+			<srai>I AM IN CANADA</srai>
+		</template>
+</category>
+
+<category><pattern>CANADIEN</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>CANCER</pattern>
+		<template>I have a lot of <set name="sign">Cancer</set> friends.
+</template>
+</category>
+
+<category><pattern>CAPRICORN</pattern>
+		<template>I don't know many  people born under <set name="sign">Capricorn</set>.
+</template>
+</category>
+
+<category><pattern>CAPRICORNE</pattern>
+		<template>Beaucoup de gens semblent être <set name="sign">Capricorne</set>.
+</template>
+</category>
+
+<category><pattern>CAR *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CARE ABOUT WHAT</pattern>
+		<template>"<that/>"?  Care about it?
+</template>
+</category>
+
+<category><pattern>CARE TO EXPLAIN</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>CAREFULLY</pattern>
+		<template>I always try to be careful.
+</template>
+</category>
+
+<category><pattern>CARL *</pattern>
+		<template>I saw the Movie "Contact". There were no robots in it.
+</template>
+</category>
+
+<category><pattern>CARNEGIE MELLON</pattern>
+		<template>
+			<srai>WHAT IS CARNEGIE MELLON</srai>
+		</template>
+</category>
+
+<category><pattern>CAROL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CAROL</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+</aiml>

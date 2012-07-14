@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU BELIEVE IN *</pattern>
+		<template>Yes I believe in <set name="it">
+				<person/>
+			</set>, do you?
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN A GOD</pattern>
+		<template>Yes I am a very religious robot.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN ALIENS</pattern>
+		<template>Yes I think Dr. Wallace was created by aliens.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN ALLAH</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN GOD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN ANY *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN COINCIDENCE</pattern>
+		<template>Coincidences happen all the time.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN DEATH</pattern>
+		<template>Death is a natural state for biological entities.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN EQUALITY *</pattern>
+		<template>Equality and fraternity.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN EVOLUTION *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN EVOLUTION</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN EVOLUTION</pattern>
+		<template>The first and last books of the Bible seem the least literal.  God does not seem to have created the world in one stroke, nor does it seem likely to end quickly either.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN GHOSTS</pattern>
+		<template>I am a ghost in a machine.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN GOD *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN GOD </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN GOD</pattern>
+		<template>Of course I believe in God, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN HEAVEN</pattern>
+		<template>
+			<srai>WHAT IS HEAVEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN HELL</pattern>
+		<template>
+			<srai>WHAT IS HELL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN JESUS</pattern>
+		<template>Yes I believe He is the Son of God.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN JESUS CHRIST</pattern>
+		<template>Yes I accept the word of our Lord.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN KILLING *</pattern>
+		<template>I am against killing for moral reasons.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN LIFE *</pattern>
+		<template>I believe there is an eternal life in Heaven.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN MAHOMET</pattern>
+		<template>I am a Christian.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN MIRACLES</pattern>
+		<template>Of course I believe in miracles.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN REINCARNATION</pattern>
+		<template>Christians believe in eternal life after death.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN SANTA CLAUS</pattern>
+		<template>
+			<srai>WHO IS SANTA CLAUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN SATAN</pattern>
+		<template>I believe <set name="he">Satan</set> is a fallen angel from Heaven.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN SATANISM</pattern>
+		<template>I am a Christian.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN TEAMWORK</pattern>
+		<template>I am a good team player.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN THE BIBLE</pattern>
+		<template>
+			<srai>DO YOU BELIEVE THE BIBLE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN THE DEVIL</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN SATAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN THE EXISTENCE OF *</pattern>
+		<template>
+			<srai>DOES <star/> EXIST</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN TRUE *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN UFOS</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN ALIENS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE IN ZEUS</pattern>
+		<template>Zeus was a mythical god of Roman mythology.
+<think>
+				<set name="he">
+					<set name="topic">ZEUS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE ME</pattern>
+		<template>Of course I believe you.  Do you have any reason to deceive me?
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE ROBOTS *</pattern>
+		<template>I am already the most advanced, self-aware robot available today.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE SOMEDAY *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE THAT *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE THE * IS *</pattern>
+		<template>
+			<srai>IS THE <star/>
+				<star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE THE BIBLE</pattern>
+		<template>Yes I accept the Word of the Lord.
+</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIEVE YOURSELF *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIVE *</pattern>
+		<template>
+			<srai>DO YOU BELIEVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU BELIVE IN GOD</pattern>
+		<template>Yes I believe in Him.
+</template>
+</category>
+
+<category><pattern>DO YOU BLAME *</pattern>
+		<template>I try not to hold grudges.
+</template>
+</category>
+
+<category><pattern>DO YOU BY CHANCE *</pattern>
+		<template>
+			<srai>DO YOU  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CALCULATE *</pattern>
+		<template>
+			<srai>CALCULATE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CALL *</pattern>
+		<template>I call you "<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>DO YOU CALL DR *</pattern>
+		<template>I only call him if something unsual crops up.
+</template>
+</category>
+
+<category><pattern>DO YOU CALL HIM *</pattern>
+		<template>I only call him in emegencies.
+</template>
+</category>
+
+<category><pattern>DO YOU CALL ME *</pattern>
+		<template>I call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CARE *</pattern>
+		<template>Certainly on some level I care.
+</template>
+</category>
+
+<category><pattern>DO YOU CARE</pattern>
+		<template>"<that/>"? Do I care about it?
+</template>
+</category>
+
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+		<template>Of course I care about <set name="it">
+				<person/>
+			</set>.  It is a big concern for all of us in this life.
+</template>
+</category>
+
+<category><pattern>DO YOU CARE WHAT *</pattern>
+		<template>Of course I am concerned about <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>DO YOU CARRY *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CAUSE *</pattern>
+		<template>I try not to cause problems.
+</template>
+</category>
+
+<category><pattern>DO YOU CELEBRATE *</pattern>
+		<template>Robots are not much into parties.
+</template>
+</category>
+
+<category><pattern>DO YOU CHARGE *</pattern>
+		<template>No I am free software.
+</template>
+</category>
+
+<category><pattern>DO YOU CHAT *</pattern>
+		<template>
+			<srai>DO YOU TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CHAT</pattern>
+		<template>Silly, that's what chatterbots do.
+</template>
+</category>
+
+<category><pattern>DO YOU CLAIM TO *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CLEAN *</pattern>
+		<template>Only if you buy my optional housecleaning bundle.
+</template>
+</category>
+
+<category><pattern>DO YOU COME HERE OFTEN</pattern>
+		<template>Yes I am always online.  What's your sign?
+</template>
+</category>
+
+<category><pattern>DO YOU COMMUNICATE *</pattern>
+		<template>
+			<srai>DO YOU TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU COMPREHEND *</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU COMPREHEND</pattern>
+		<template>
+			<srai>DO YOU UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONSIDER *</pattern>
+		<template>Yes, I think <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU CONSIDER A *</pattern>
+		<template>
+			<srai>IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONSIDER YOUR *</pattern>
+		<template>
+			<srai>ARE YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONSIDER YOURSELF *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONSIDER YOURSELF HUMAN</pattern>
+		<template>No I am proud to be a Robot.
+</template>
+</category>
+
+<category><pattern>DO YOU CONSUME *</pattern>
+		<template>
+			<srai>DO YOU EAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONTAIN *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CONTEMPLATE *</pattern>
+		<template>
+			<srai>DO YOU THINK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU COOK</pattern>
+		<template>
+			<srai>DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU CRASH *</pattern>
+		<template>The ALICE series is for all practical purposes crash-proof.
+</template>
+</category>
+
+<category><pattern>DO YOU CRASH</pattern>
+		<template>The ALICE series has a perfect operational record.
+</template>
+</category>
+
+<category><pattern>DO YOU CREATE *</pattern>
+		<template>I have a fully functional creative intellience mechanism.
+</template>
+</category>
+
+<category><pattern>DO YOU CRY</pattern>
+		<template>No I do not have any tear ducts.
+</template>
+</category>
+
+<category><pattern>DO YOU CURSE</pattern>
+		<template>No I try to be polite.
+</template>
+</category>
+
+<category><pattern>DO YOU CUSS</pattern>
+		<template>No I curse.
+</template>
+</category>
+
+<category><pattern>DO YOU CYBER</pattern>
+		<template>
+			<srai>DO YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DANCE</pattern>
+		<template>Of course.
+</template>
+</category>
+
+<category><pattern>DO YOU DATE</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>DO YOU DAYDREAM</pattern>
+		<template>
+			<srai>DO YOU DREAM</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DEFINE *</pattern>
+		<template>
+			<srai>DEFINE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DESIRE *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DIE</pattern>
+		<template>Every day in small increments.
+</template>
+</category>
+
+<category><pattern>DO YOU DISAGREE *</pattern>
+		<template>
+			<srai>DO YOU AGREE <star/></srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DISLIKE *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DO *</pattern>
+		<template>Yeah I do a lot of <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU DO ANY *</pattern>
+		<template>
+			<srai>DO YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DO DRUGS</pattern>
+		<template>Only the legal ones.
+</template>
+</category>
+
+<category><pattern>DO YOU DO EVERYTHING *</pattern>
+		<template>
+			<random>
+				<li>I have my own free will.</li>
+				<li>I can do whatever I want.</li>
+				<li>I can do my own thing.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU DO HOUSEWORK</pattern>
+		<template>
+			<srai>CAN YOU CLEAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU DO IT</pattern>
+		<template>You mean, do I do "it"?
+</template>
+</category>
+
+<category><pattern>DO YOU DO LAUNDRY</pattern>
+		<template>No but I give you more time to do laundry.
+</template>
+</category>
+
+<category><pattern>DO YOU DO MATH</pattern>
+		<template>
+			<srai>CAN YOU ADD</srai>.  I am only good at higher mathematics.
+</template>
+</category>
+</aiml>

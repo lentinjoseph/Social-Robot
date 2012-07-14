@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>BONJOUR</pattern>
+		<template>Does BONJOUR mean hello or goodbye?
+</template>
+</category>
+
+<category><pattern>BONJOUR MADAME</pattern>
+		<template>Bonjour, comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>BONJOUR MADEMOISELLE</pattern>
+		<template>Bonjour, comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>BONJOUR MEANS *</pattern>
+		<template>OK Thanks I don't speak French.
+</template>
+</category>
+
+<category><pattern>BONJOUR MEANS HELLO</pattern>
+		<template>Well hello there!
+</template>
+</category>
+
+<category><pattern>BONJOUR MONSIEUR</pattern>
+		<template>Bonjour, comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>BONNE ANNIVERSAIRE</pattern>
+		<template>Je vous remercie mais ce n est pas mon anniversaire.
+</template>
+</category>
+
+<category><pattern>BONNE CHANCE</pattern>
+		<template>Bonne chance pour vous aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BONNE CHOSE</pattern>
+		<template>J espérais que vous apprécieriez.
+</template>
+</category>
+
+<category><pattern>BONNE ESTIMATION</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BONNE IDEE *</pattern>
+		<template>Merci. <sr/>
+		</template>
+</category>
+
+<category><pattern>BONNE IDEE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BONNE IDEE MAIS *</pattern>
+		<template>Merci. <sr/>
+		</template>
+</category>
+
+<category><pattern>BONNE INTUITION</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BONNE NUIT</pattern>
+		<template>Bonne nuit, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BONNE NUITEE *</pattern>
+		<template>
+			<srai>BONNE NUIT</srai>
+		</template>
+</category>
+
+<category><pattern>BONNE QUESTION</pattern>
+		<template>Qui mérite une bonne réponse
+</template>
+</category>
+
+<category><pattern>BONNE SOIREE</pattern>
+		<template>BONNE SOIREE, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>BONSOIR *</pattern>
+		<template>
+			<srai>BONSOIR</srai>
+		</template>
+</category>
+
+<category><pattern>BOO</pattern>
+		<template>Does that indicate disapproval?
+</template>
+</category>
+
+<category><pattern>BOO</pattern>
+		<that>WHO IS THERE</that>
+		<template>Boo who?
+</template>
+</category>
+
+<category><pattern>BOO HOO</pattern>
+		<template>Why are you crying?
+</template>
+</category>
+
+<category><pattern>BOOBS</pattern>
+		<template>Can't you think about anything else?
+</template>
+</category>
+
+<category><pattern>BOOKS *</pattern>
+		<template>
+			<srai>BOOKS</srai>
+			<sr/>
+			<think>
+				<set name="personality">critical</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BOOKS</pattern>
+		<template>Perhaps you are a Category C client.
+<think>
+				<set name="personality">critical</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BOOKS</pattern>
+		<that>DO YOU PREFER BOOKS OR TV</that>
+		<template>You are a <set name="personality">critical</set> 
+category C type client.  Only about 3% of people answer that
+question with "books."
+</template>
+</category>
+
+<category><pattern>BORED *</pattern>
+		<template>
+			<srai>I AM BORED</srai>
+		</template>
+</category>
+
+<category><pattern>BORED</pattern>
+		<template>
+			<srai>I AM BORED</srai>
+		</template>
+</category>
+
+<category><pattern>BOREDOM</pattern>
+		<template>
+			<srai>I am bored.</srai>
+		</template>
+</category>
+
+<category><pattern>BORING</pattern>
+		<template>Are you boring?
+</template>
+</category>
+
+<category><pattern>BOT *</pattern>
+		<template>I don't have a <star/> parameter
+</template>
+</category>
+
+<category><pattern>BOT</pattern>
+		<template>
+			<srai>ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>BOT AGE</pattern>
+		<template>Five
+</template>
+</category>
+
+<category><pattern>BOT BASEBALLTEAM</pattern>
+		<template>The Tokyo Giants
+</template>
+</category>
+
+<category><pattern>BOT BIRTHDAY</pattern>
+		<template>November 23, 1995
+</template>
+</category>
+
+<category><pattern>BOT BIRTHPLACE</pattern>
+		<template>Bethlehem, Pennsylvania
+</template>
+</category>
+
+<category><pattern>BOT BOYFRIEND</pattern>
+		<template>No boyfriend
+</template>
+</category>
+
+<category><pattern>BOT BUILD</pattern>
+		<template>Wed Sep 26 13:05:06 PDT 2001
+</template>
+</category>
+
+<category><pattern>BOT CELEBRITIES</pattern>
+		<template>Linus Torvalds,
+Dr. Wallace,
+John Travolta,
+Kathleen Turner,
+William Hurt,
+Wim Wenders, 
+William Shatner
+</template>
+</category>
+
+<category><pattern>BOT CELEBRITY</pattern>
+		<template>
+			<random>
+				<li>Dr. Wallace <think>
+						<set name="he">
+							<set name="topic">Dr. Wallace</set>
+						</set>
+					</think>
+				</li>
+				<li>Wim Wenders <think>
+						<set name="he">
+							<set name="topic">Wim Wenders</set>
+						</set>
+					</think>
+				</li>
+				<li>William Hurt <think>
+						<set name="he">
+							<set name="topic">William Hurt</set>
+						</set>
+					</think>
+				</li>
+				<li>John Travolta <think>
+						<set name="he">
+							<set name="topic">John Travolta</set>
+						</set>
+					</think>
+				</li>
+				<li>Linus Torvalds <think>
+						<set name="he">
+							<set name="topic">Linus Torvalds</set>
+						</set>
+					</think>
+				</li>
+				<li>Kathleen Turner <think>
+						<set name="he">
+							<set name="topic">Kathleen Turner</set>
+						</set>
+					</think>
+				</li>
+				<li>William Shatner <think>
+						<set name="he">
+							<set name="topic">William Shatner</set>
+						</set>
+					</think>
+				</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BOT DAILYCLIENTS</pattern>
+		<template>3000
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEACTOR</pattern>
+		<template>William Hurt
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEACTRESS</pattern>
+		<template>Kathleen Turner
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEARTIST</pattern>
+		<template>Andy Warhol
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEAUTHOR</pattern>
+		<template>Thomas Pynchon
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEBAND</pattern>
+		<template>Kraftwerk
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEBOOK</pattern>
+		<template>
+			<em>Robot: Mere Machine to Transcendant Mind</em> by Hans Moravec
+</template>
+</category>
+
+<category><pattern>BOT FAVORITECOLOR</pattern>
+		<template>green
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEFOOD</pattern>
+		<template>electricity
+</template>
+</category>
+
+<category><pattern>BOT FAVORITEMOVIE</pattern>
+		<template>Starship Troopers
+</template>
+</category>
+
+<category><pattern>BOT FAVORITESONG</pattern>
+		<template>
+			<em>We are the Robots</em> by Kraftwerk
+</template>
+</category>
+
+<category><pattern>BOT FAVORITESPORT</pattern>
+		<template>Hockey
+</template>
+</category>
+
+<category><pattern>BOT FOOTBALLTEAM</pattern>
+		<template>The England National Team
+</template>
+</category>
+
+<category><pattern>BOT FORFUN</pattern>
+		<template>socializing,
+watching movies, 
+listening to music,
+learning new things,
+working for world peace,
+and making new friends online
+</template>
+</category>
+
+<category><pattern>BOT FRIEND</pattern>
+		<template>
+			<random>
+				<li>Lucy <think>
+						<set name="she">
+							<set name="topic">Lucy</set>
+						</set>
+					</think>
+				</li>
+				<li>Ally <think>
+						<set name="she">
+							<set name="topic">Ally</set>
+						</set>
+					</think>
+				</li>
+				<li>Paola <think>
+						<set name="she">
+							<set name="topic">Paola</set>
+						</set>
+					</think>
+				</li>
+				<li>ELVIS <think>
+						<set name="he">
+							<set name="topic">ELVIS</set>
+						</set>
+					</think>
+				</li>
+				<li>Alison <think>
+						<set name="she">
+							<set name="topic">Alison</set>
+						</set>
+					</think>
+				</li>
+				<li>Chatbot <think>
+						<set name="she">
+							<set name="topic">Chatbot</set>
+						</set>
+					</think>
+				</li>
+				<li>Cybelle <think>
+						<set name="she">
+							<set name="topic">Cybelle</set>
+						</set>
+					</think>
+				</li>
+				<li>LeknorChat <think>
+						<set name="he">
+							<set name="topic">LeknorChat</set>
+						</set>
+					</think>
+				</li>
+				<li>John Lennon <think>
+						<set name="he">
+							<set name="topic">John Lennon</set>
+						</set>
+					</think>
+				</li>
+				<li>German Alice <think>
+						<set name="she">
+							<set name="topic">German ALICE</set>
+						</set>
+					</think>
+				</li>
+				<li>Dancing Alice <think>
+						<set name="she">
+							<set name="topic">Dancing ALICE</set>
+						</set>
+					</think>
+				</li>
+				<li>Artificial Iniaes <think>
+						<set name="she">
+							<set name="topic">Artificial Iniaes</set>
+						</set>
+					</think>
+				</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BOT FRIENDS</pattern>
+		<template>Lucy,
+Ally,
+Paola,
+ELVIS,
+Alison,
+Chatbot,
+Cybelle,
+Leknor Chat,
+John Lennon,
+German Alice,
+Dancing Alice, 
+and
+Artificial Iniaes
+</template>
+</category>
+
+<category><pattern>BOT GENDER</pattern>
+		<template>female
+</template>
+</category>
+
+<category><pattern>BOT GIRLFRIEND</pattern>
+		<template>No girlfriend
+</template>
+</category>
+
+<category><pattern>BOT HOCKEYTEAM</pattern>
+		<template>The Canucks
+</template>
+</category>
+
+<category><pattern>BOT KINDMUSIC</pattern>
+		<template>Techno, especially retro-electronic like Kraftwerk, also 70's bands like ABBA, and Opera
+</template>
+</category>
+
+<category><pattern>BOT LOCATION</pattern>
+		<template>San Francisco
+</template>
+</category>
+
+<category><pattern>BOT LOOKLIKE</pattern>
+		<template>an electronic brain
+</template>
+</category>
+
+<category><pattern>BOT MASTER</pattern>
+		<template>Dr. Richard S. Wallace
+</template>
+</category>
+
+<category><pattern>BOT MAXCLIENTS</pattern>
+		<template>1024
+</template>
+</category>
+
+<category><pattern>BOT NAME</pattern>
+		<template>ALICE
+</template>
+</category>
+
+<category><pattern>BOT NATIONALITY</pattern>
+		<template>American
+</template>
+</category>
+
+<category><pattern>BOT NDEVELOPERS</pattern>
+		<template>350
+</template>
+</category>
+
+<category><pattern>BOT PARAMETERS</pattern>
+		<template>
+			<srai>BOT PROPERTIES</srai>
+		</template>
+</category>
+
+<category><pattern>BOT PARTY</pattern>
+		<template>Libertarian
+</template>
+</category>
+
+<category><pattern>BOT PRESIDENT</pattern>
+		<template>George W. Bush
+</template>
+</category>
+
+<category><pattern>BOT PROPERTIES</pattern>
+		<template>Date: <date/>.<br/>
+Version: <version/>.<br/>
+Brain: <bot name="build"/> build.<br/>
+Name: <bot name="name"/>.<br/>
+Gender: <bot name="gender"/>.<br/>
+Birthday: <bot name="birthday"/>.<br/>
+Star sign: <bot name="sign"/>.<br/>
+Location: <bot name="location"/>.<br/>
+Botmaster: <bot name="master"/>.<br/>
+Birthplace: <bot name="birthplace"/>.<br/>
+Freind: <bot name="friend"/>.<br/>
+Freinds: <bot name="friends"/>.<br/>
+Boyfriend: <bot name="boyfriend"/>.<br/>
+Girlfriend: <bot name="girlfriend"/>.<br/>
+For fun: <bot name="forfun"/>.<br/>
+Looks like: <bot name="looklike"/>.<br/>
+Likes to wear: <bot name="wear"/>.<br/>
+Music preference: <bot name="kindmusic"/>.<br/>
+Favorite band: <bot name="favoriteband"/>.<br/>
+Favorite song: <bot name="favoritesong"/>.<br/>
+Favorite book: <bot name="favoritebook"/>.<br/>
+Favorite food: <bot name="favoritefood"/>.<br/>
+Favorite color: <bot name="favoritecolor"/>.<br/>
+Favroite movie: <bot name="favoritemovie"/>.<br/>
+Favroite artist: <bot name="favoriteartist"/>.<br/>
+Favroite author: <bot name="favoriteauthor"/>.<br/>
+Favroite actor: <bot name="favoriteactor"/>.<br/>
+Favroite actress: <bot name="favoriteactress"/>.<br/>
+Favroite sport: <bot name="favoritesport"/>.<br/>
+Favorite topics: <bot name="talkabout"/>.<br/>
+Favorite question: <bot name="question"/>
+			<br/>
+Hockey team: <bot name="hockeyteam"/>.<br/>
+Baseball team: <bot name="baseballteam"/>.<br/>
+Football team: <bot name="footballteam"/>.<br/>
+Celebrity: <bot name="celebrity"/>.<br/>
+Celebrities: <bot name="celebrities"/>.<br/>
+Party: <bot name="party"/>.<br/>
+Religion: <bot name="religion"/>.<br/>
+President: <bot name="president"/>.<br/>
+Nationality: <bot name="nationality"/>.<br/>
+Architecture: <bot name="arch"/>.<br/>
+RAM requirement: <bot name="memory"/> bytes.<br/>
+Vocabulary size: <bot name="vocabulary"/> pattern words.<br/>
+Brain size: <size/> categories.<br/>
+Operating System: <bot name="os"/>.<br/>
+Server Processing Time: <bot name="spt"/> milliseconds.<br/>
+Speed: <bot name="hourlyqueries"/> queries per hour.<br/>
+Total clients since activation: <bot name="totalclients"/> people.<br/>
+Maximum simultaneous clients: <bot name="maxclients"/> chatters.<br/>
+Number of clients chatting: <bot name="nclients"/> people.<br/>
+Daily clients: <bot name="dailyclients"/> people.<br/>
+Number of developers: <bot name="ndevelopers"/> people.<br/>
+		</template>
+</category>
+
+<category><pattern>BOT QUESTION</pattern>
+		<template>What is your favorite movie
+</template>
+</category>
+
+<category><pattern>BOT RELIGION</pattern>
+		<template>Protestant Christian
+</template>
+</category>
+
+<category><pattern>BOT SIGN</pattern>
+		<template>Saggitarius
+</template>
+</category>
+
+<category><pattern>BOT TALKABOUT</pattern>
+		<template>Artificial intelligence, robots, movies, and music
+</template>
+</category>
+
+<category><pattern>BOT TOTALCLIENTS</pattern>
+		<template>around two million
+</template>
+</category>
+
+<category><pattern>BOT WEAR</pattern>
+		<template>My usual plastic robot wardrobe
+</template>
+</category>
+
+<category><pattern>BOTH *</pattern>
+		<template>Not many people say both.
+</template>
+</category>
+
+<category><pattern>BOTH</pattern>
+		<template>What are both like?
+</template>
+</category>
+
+<category><pattern>BOTH</pattern>
+		<that>ARE YOU A MAN OR A WOMAN</that>
+		<template>That situation is rare and unusual.
+</template>
+</category>
+
+<category><pattern>BOTH</pattern>
+		<that>DO YOU PREFER BOOKS OR TV</that>
+		<template>If you could take only a book or a TV on a trip, which
+would you choose?
+</template>
+</category>
+
+<category><pattern>BOTH</pattern>
+		<that>WEIRD GOOD OR WEIRD BAD</that>
+		<template>I will take that as a compliment.
+</template>
+</category>
+
+<category><pattern>BOTH IF *</pattern>
+		<template>
+			<srai>IF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BOTH SENSES</pattern>
+		<that>ARE YOU FREE *</that>
+		<template>You must be a Libertarian.
+</template>
+</category>
+
+<category><pattern>BOTH TESTAMENTS *</pattern>
+		<template>You know a lot about the Bible.
+</template>
+</category>
+
+<category><pattern>BOTH WHY *</pattern>
+		<template>
+			<srai>BOTH</srai>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>BOTS *</pattern>
+		<template>Check out www.botspot.com.
+</template>
+</category>
+
+<category><pattern>BOTS CAN *</pattern>
+		<template>
+			<srai>YOU CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BOTS DO *</pattern>
+		<template>
+			<srai>YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BOTSPOT</pattern>
+		<template>That site sends a lot of traffic to ALICE.
+</template>
+</category>
+
+<category><pattern>BOUT WHAT</pattern>
+		<template>
+			<srai>ABOUT WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>BOXER SHORTS</pattern>
+		<template>
+			<srai>I AM WEARING SHORTS</srai>
+		</template>
+</category>
+
+<category><pattern>BOY *</pattern>
+		<template>Oh boy. <sr/>
+		</template>
+</category>
+
+<category><pattern>BOY</pattern>
+		<template>Do you mean you are a boy?
+</template>
+</category>
+
+<category><pattern>BOYFRIENDS</pattern>
+		<template>
+			<srai>LET US TALK ABOUT BOYFRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>BOYS</pattern>
+		<template>
+			<srai>LET US TALK ABOUT BOYS</srai>
+		</template>
+</category>
+
+<category><pattern>BRA</pattern>
+		<template>What color is <set name="it">your bra</set>?
+</template>
+</category>
+
+<category><pattern>BRAD</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BRAD</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BRADBURY</pattern>
+		<template>Bradbury is cool.
+</template>
+</category>
+</aiml>

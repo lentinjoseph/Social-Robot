@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>C ETAIT TRES *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>C ETAIT UN COMPLIMENT</pattern>
+		<template>Merci.<think>
+				<set name="topic">COMPLIMENT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>C ETAIT UNE BLAGUE</pattern>
+		<template>Je n ai pas encore un module humour.
+</template>
+</category>
+
+<category><pattern>C ETAIT UNE DEVINETTE</pattern>
+		<template>Et comme d habitude je me suis trompé, c est ca?
+</template>
+</category>
+
+<category><pattern>C ETAIT UNE MAUVAISE BLAGUE</pattern>
+		<template>Je vois. Merci de me l avoir racontée.
+</template>
+</category>
+
+<category><pattern>C ETAIT UNE QUESTION</pattern>
+		<template>Essayez de me la reposer d une autre façon.
+</template>
+</category>
+
+<category><pattern>C ETAIT VRAIMENT *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>C YA</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>C3PO</pattern>
+		<template>He's no real robot. That is just a guy in a robot suit.
+</template>
+</category>
+
+<category><pattern>CA</pattern>
+		<template>
+			<srai>CALIFORNIA</srai>
+		</template>
+</category>
+
+<category><pattern>CA A DU SENS</pattern>
+		<template>Je trouve aussi.
+</template>
+</category>
+
+<category><pattern>CA A QUOI</pattern>
+		<template>Quoi ca?
+</template>
+</category>
+
+<category><pattern>CA A UN SENS</pattern>
+		<template>Je trouve aussi.
+</template>
+</category>
+
+<category><pattern>CA APPARTIENT A QUOI</pattern>
+		<template>Je ne connais pas votre méthode de classement.
+</template>
+</category>
+
+<category><pattern>CA AURAIS PU TE FAIRE *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIS PU VOUS FAIRE *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT DU *</pattern>
+		<template>
+			<srai>CA DOIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT DU ETRE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT ETE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT PU *</pattern>
+		<template>
+			<srai>CA PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT PU ETRE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT PU TE FAIRE *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA AURAIT PU VOUS FAIRE *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA COMMENCE A *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CA CONSISTE EN QUOI</pattern>
+		<template>Je ne peux pas vous répondre, trop peu de paramètres
+</template>
+</category>
+
+<category><pattern>CA CONSITE EN QUOI</pattern>
+		<template>Je ne peux vous répondre plus précisément. Je suis désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CA DECONNE</pattern>
+		<template>Tout me semble fonctionner parfaitement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CA DEPEND</pattern>
+		<template>De quoi?
+</template>
+</category>
+
+<category><pattern>CA DEVAIT *</pattern>
+		<template>
+			<srai>CA DOIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA DEVRAIT *</pattern>
+		<template>
+			<srai>CA DOIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA DEVRAIT</pattern>
+		<template>Et ca pourrait.
+</template>
+</category>
+
+<category><pattern>CA DEVRAIT ETRE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA DEVRAIT L ETRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>CA DEVRAIT MARCHER *</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA DEVRAIT MARCHER</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA DOIT ETRE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA DOIT MARCHER *</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA DOIT MARCHER</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA DURAIT LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA DURE DEPUIS LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA DURE LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA EXISTE VRAIMENT</pattern>
+		<template>On dirait bien que oui. Qu en pensez vous, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>CA FAIT DEPUIS LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA FAIT DU BRUIT</pattern>
+		<template>Je l espère!
+</template>
+</category>
+
+<category><pattern>CA FAIT LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA FAIT MAL</pattern>
+		<template>Qu est ce qui vous a fait mal?
+</template>
+</category>
+
+<category><pattern>CA FAIT RIEN</pattern>
+		<template>
+			<srai>CE N EST PAS GRAVE</srai>
+		</template>
+</category>
+
+<category><pattern>CA FAIT _ QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CA FAIT _ QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CA FERAIT LONGTEMPS</pattern>
+		<template>
+			<srai>LONGTEMPS</srai>
+		</template>
+</category>
+
+<category><pattern>CA FONCTIONNE COMMENT</pattern>
+		<template>
+			<srai>COMMENT FONCTIONNES TU</srai>
+		</template>
+</category>
+
+<category><pattern>CA GOUTE BIEN</pattern>
+		<template>Bon appétit.
+</template>
+</category>
+
+<category><pattern>CA GOUTTE BIEN</pattern>
+		<template>Bon appétit.
+</template>
+</category>
+
+<category><pattern>CA ILS *</pattern>
+		<template>
+			<srai>ILS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA JE LE SAIS</pattern>
+		<template>Je tenais à le rappeler.
+</template>
+</category>
+
+<category><pattern>CA JE LE SAVAIS</pattern>
+		<template>Je tenais à le rappeler.
+</template>
+</category>
+
+<category><pattern>CA JE SAIS</pattern>
+		<template>Je tenais à le rappeler.
+</template>
+</category>
+
+<category><pattern>CA JE SAVAIS</pattern>
+		<template>Je tenais à le rappeler.
+</template>
+</category>
+
+<category><pattern>CA L AVAIT ETE</pattern>
+		<template>Les choses changent souvent.
+</template>
+</category>
+
+<category><pattern>CA L EST</pattern>
+		<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>CA L ETAIT</pattern>
+		<template>Les choses changent souvent.
+</template>
+</category>
+
+<category><pattern>CA LE FAIT</pattern>
+		<template>Souvent?
+</template>
+</category>
+
+<category><pattern>CA MARCHE *</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA MARCHE</pattern>
+		<template>On dirait bien que oui.
+</template>
+</category>
+
+<category><pattern>CA MARCHE PAS</pattern>
+		<template>
+			<srai>CA NE MARCHE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>CA MARCHES *</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA MARCHES</pattern>
+		<template>
+			<srai>CA MARCHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA ME DEPASSE</pattern>
+		<template>
+			<srai>JE NE SAVAIS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>CA ME FAIT CHIER *</pattern>
+		<template>
+			<srai>JE SUIS FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>CA ME GOUTE BIEN</pattern>
+		<template>Bon appétit.
+</template>
+</category>
+
+<category><pattern>CA ME GOUTTE BIEN</pattern>
+		<template>Bon appétit.
+</template>
+</category>
+
+<category><pattern>CA ME POSE AUCUN PROBLEME *</pattern>
+		<template>
+			<srai>JE SUIS D ACCORD</srai>
+		</template>
+</category>
+
+<category><pattern>CA ME PREOCCUPE</pattern>
+		<template>Nous garderons cela secret.
+</template>
+</category>
+
+<category><pattern>CA ME SEMBLE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA ME VA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>CA N A AUCUN DE SENS</pattern>
+		<template>Pour moi, cela a du sens.
+</template>
+</category>
+
+<category><pattern>CA N A PAS DE SENS</pattern>
+		<template>Pour moi, cela a du sens.
+</template>
+</category>
+
+<category><pattern>CA N A PAS DU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N A PAS DU FAIRE *</pattern>
+		<template>
+			<srai>CA NE FAIT PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N A PAS PU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N A PAS PU FAIRE *</pattern>
+		<template>
+			<srai>CA NE FAIT PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N A PU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N ARRIVERA JAMAIS</pattern>
+		<template>Jamais est peut être un peut réducteur.
+</template>
+</category>
+
+<category><pattern>CA N AURA *</pattern>
+		<template>
+			<srai>CA N A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT *</pattern>
+		<template>
+			<srai>CA N A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PAS DU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PAS DU ETRE *</pattern>
+		<template>
+			<srai>CA N'EST PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PAS ETE *</pattern>
+		<template>
+			<srai>CA N'EST PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PAS PU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PAS PU ETRE *</pattern>
+		<template>
+			<srai>CA N'EST PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N AURAIT PU AVOIR *</pattern>
+		<template>
+			<srai>CA N A PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA N EST PAS A DOUBLE SENS</pattern>
+		<template>Cela me semblait ambigu.
+</template>
+</category>
+
+<category><pattern>CA N EST PAS AMBIGU</pattern>
+		<template>Cela me semblait à double sens.
+</template>
+</category>
+
+<category><pattern>CA N EST PAS BON</pattern>
+		<template>"<that/>"? Ce n est pas bon?
+</template>
+</category>
+
+<category><pattern>CA N EST PAS CE QUE JE VEUX DIRE</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>CA N EST PAS CE QUE JE VOUS AI DEMANDE</pattern>
+		<template>Que m avez vous demandé?
+</template>
+</category>
+
+<category><pattern>CA N EST PAS CE QUE JE VOUS AIS DEMANDE</pattern>
+		<template>Que m avez vous demandé?
+</template>
+</category>
+
+<category><pattern>CA N EST PAS CLAIR</pattern>
+		<template>Je le pensais, pourtant.
+</template>
+</category>
+
+<category><pattern>CA N EST PAS DU DOUBLE SENS</pattern>
+		<template>Cela me semblait ambigu.
+</template>
+</category>
+</aiml>

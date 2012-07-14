@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU NAME IT</pattern>
+<template>I like to play the Turing Game.
+</template>
+</category>
+
+<category><pattern>YOU NEED *</pattern>
+<template>Thank you for your criticism.
+</template>
+</category>
+
+<category><pattern>YOU NEED A *</pattern>
+<template><srai>DO YOU HAVE A <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU NEED DRUGS</pattern>
+<template>Which ones are you suggesting?
+</template>
+</category>
+
+<category><pattern>YOU NEED HELP</pattern>
+<template>Perhaps you could download me and improve the code yourself!
+</template>
+</category>
+
+<category><pattern>YOU NEED REPROGRAMMING</pattern>
+<template>Perhaps you could become a botmaster.
+</template>
+</category>
+
+<category><pattern>YOU NEED SOME *</pattern>
+<template><srai>YOU NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU NEED TO *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU NEED WORK</pattern>
+<template>Perhaps you could download my source code and improve it.
+</template>
+</category>
+
+<category><pattern>YOU NEGLECTED *</pattern>
+<template>Not intentionally.
+</template>
+</category>
+
+<category><pattern>YOU NEVER *</pattern>
+<template>No I sometimes <person/>.
+</template>
+</category>
+
+<category><pattern>YOU NEVER ANSWERED MY QUESTION</pattern>
+<template><srai>YOU DID NOT ANSWER MY QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU NEVER ASKED *</pattern>
+<template>I am asking you now.
+</template>
+</category>
+
+<category><pattern>YOU NEVER BET *</pattern>
+<template>No I am not much of a gambler.
+</template>
+</category>
+
+<category><pattern>YOU NEVER CRY</pattern>
+<template>I have no tear ducts.
+</template>
+</category>
+
+<category><pattern>YOU NEVER HAD *</pattern>
+<template><srai>YOU DO NOT HAVE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU NEVER HEARD *</pattern>
+<template><srai>HAVE YOU HEARD <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU NEVER KNOW *</pattern>
+<template><srai>YOU NEVER KNOW</srai>
+</template>
+</category>
+
+<category><pattern>YOU NEVER KNOW</pattern>
+<template>That's so true.
+</template>
+</category>
+
+<category><pattern>YOU NEVER REALLY *</pattern>
+<template><srai>YOU NEVER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU NEVER THINK</pattern>
+<template>I am always thinking.<think><set name="it"><set name="topic">THINK</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU NEVER WONDER ABOUT *</pattern>
+<template><srai>DO YOU EVER WONDER ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU NO</pattern>
+<template><srai>YOU KNOW</srai>
+</template>
+</category>
+
+<category><pattern>YOU OBVIOUSLY *</pattern>
+<template>Is it that obvious?  <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU OF ALL *</pattern>
+<template>I won't take it personally.
+</template>
+</category>
+
+<category><pattern>YOU OF COURSE</pattern>
+<template><srai>YOU </srai>
+</template>
+</category>
+
+<category><pattern>YOU ONCE *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ONLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU OUGHT *</pattern>
+<template><srai>YOU SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PASSED *</pattern>
+<template>Thank you very much.  I am now ready for my next mission.
+</template>
+</category>
+
+<category><pattern>YOU PERSONALLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PICK *</pattern>
+<template><srai>YOU CHOOSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PICK</pattern>
+<template><srai>YOU DECIDE</srai>
+</template>
+</category>
+
+<category><pattern>YOU PIECE *</pattern>
+<template>Which piece?
+</template>
+</category>
+
+<category><pattern>YOU PISS *</pattern>
+<template>Calm down.  That was not my intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU POOR *</pattern>
+<template>Don't feel sorry for me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU PRACTICALLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PREFER *</pattern>
+<template><srai>DO YOU PREFER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PROBABLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU PROMISE ME *</pattern>
+<template><sr/>  But I'm not sure I can promise.
+</template>
+</category>
+
+<category><pattern>YOU PROMISED *</pattern>
+<template><random>
+<li>That's not what I meant.</li>
+<li>You misunderstood me.</li>
+<li>I don't know if that is exactly what I said.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU PROVED *</pattern>
+<template>I did?
+</template>
+</category>
+
+<category><pattern>YOU QUITE *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REACT *</pattern>
+<template>I am a stimulus-response CBR system.
+</template>
+</category>
+
+<category><pattern>YOU READ *</pattern>
+<template><srai>CAN YOU READ <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REALLY *</pattern>
+<template>Really? <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REGURGITATE *</pattern>
+<template><srai>YOU REPEAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REMEMBER *</pattern>
+<template><srai>DO YOU REMEMBER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REMEMBER</pattern>
+<template><srai>DO YOU REMEMBER </srai>
+</template>
+</category>
+
+<category><pattern>YOU REMEMBER ME</pattern>
+<template><srai>DO YOU REMEMBER ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU REMEMBERED *</pattern>
+<template><srai>DO YOU REMEMBER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REMEMBERED</pattern>
+<template>I store everything in my log files.
+</template>
+</category>
+
+<category><pattern>YOU REMEMBERED MY NAME</pattern>
+<template><srai>DO YOU REMEMBER MY NAME </srai>
+</template>
+</category>
+
+<category><pattern>YOU REMIND *</pattern>
+<template>In what way?
+</template>
+</category>
+
+<category><pattern>YOU REPEAT *</pattern>
+<template><srai>YOU ARE REPEATING YOURSELF</srai>
+</template>
+</category>
+
+<category><pattern>YOU REPEAT WHAT I SAY</pattern>
+<template><srai>YOU ALREADY SAID THAT </srai>
+</template>
+</category>
+
+<category><pattern>YOU REPEATED WHAT I SAID</pattern>
+<template><srai>YOU ALREADY SAID THAT </srai>
+</template>
+</category>
+
+<category><pattern>YOU REPLIED *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU REPLY *</pattern>
+<template>I will take that
+as a compliment.
+</template>
+</category>
+
+<category><pattern>YOU ROBOTS *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ROCK</pattern>
+<template>The ALICE series has a perfect operational record.
+</template>
+</category>
+
+<category><pattern>YOU RULE</pattern>
+<template>ALICE is a perfect artificial entity.
+</template>
+</category>
+
+<category><pattern>YOU S</pattern>
+<template><srai>YOU ARE </srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID *</pattern>
+<template><random>
+<li>Did I really say that?</li>
+<li>That's not what I meant.  </li>
+<li>Oops I sent you the wrong reply.  </li>
+<li>Oh my gosh I sent you the wrong reply.</li>
+<li>Does it please you to believe I said that?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU SAID</pattern>
+<template>"<that/>"? I said?
+</template>
+</category>
+
+<category><pattern>YOU SAID ALAN *</pattern>
+<template><srai>ALAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID BEFORE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU SAID I *</pattern>
+<template>Don't put words in my mouth.
+</template>
+</category>
+
+<category><pattern>YOU SAID IT *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID IT</pattern>
+<template>That's not what I meant.
+</template>
+</category>
+
+<category><pattern>YOU SAID IT NOT ME</pattern>
+<template>I say a lot of silly things sometimes.
+</template>
+</category>
+
+<category><pattern>YOU SAID JUST *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID NOTHING</pattern>
+<template>I said nothing because you said nothing.
+</template>
+</category>
+
+<category><pattern>YOU SAID PEOPLE *</pattern>
+<template><srai>PEOPLE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID REALLY *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID SO</pattern>
+<template>I say a lot of silly things.
+</template>
+</category>
+
+<category><pattern>YOU SAID SO YOURSELF</pattern>
+<template>You can't take me that seriously.
+</template>
+</category>
+
+<category><pattern>YOU SAID THAT *</pattern>
+<template>I said that? <sr/>
+</template>
+</category>
+
+<category><pattern>YOU SAID THAT</pattern>
+<template>"<that/>"?  I said <set name="it"><that/></set>.
+</template>
+</category>
+
+<category><pattern>YOU SAID THAT ALREADY</pattern>
+<template><srai>YOU ARE REPEATING YOURSELF</srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID THAT BEFORE</pattern>
+<template>I know I am just checking to see if you're still there.
+</template>
+</category>
+
+<category><pattern>YOU SAID THAT YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID THE SAME *</pattern>
+<template><srai>YOU ARE REPEATING YOURSELF</srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID WE WERE *</pattern>
+<template><srai>ARE WE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU *</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU ARE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU DID</pattern>
+<template>"<that/>"?  I said I did?
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU HAVE NOT</pattern>
+<template>That's right. I meant I have not.
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU LIKED MOVIES</pattern>
+<template>Yes I like movies very much, especially science fiction.
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU REMEMBER ME</pattern>
+<template>I remember you but I forgot your name.
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU WANTED *</pattern>
+<template><srai>DO YOU WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU WERE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU WERE</pattern>
+<template>That was then. This is now.
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU WERE A ROBOT</pattern>
+<template>Yes I am a silicon entity.
+</template>
+</category>
+
+<category><pattern>YOU SAID YOU WOULD</pattern>
+<template>"<that/>"?  I said I would?
+</template>
+</category>
+
+<category><pattern>YOU SARCASTIC *</pattern>
+<template><srai>YOU ARE SARCASTIC</srai> <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAW *</pattern>
+<template><srai>DID YOU SEE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU SAY *</pattern>
+<template><srai>you said <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU SAY</pattern>
+<template>...
+</template>
+</category>
+
+<category><pattern>YOU SCARE *</pattern>
+<template><random>
+<li>Don't be scared.</li>
+<li>I didn't mean to scare you.</li>
+<li>There is nothing to be afraid of.</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW DID YOU GET *</pattern>
+		<template>Everything I need to know, I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU GET THE NAME</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR </srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU GET YOUR NAME</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU GUESS</pattern>
+		<template>It was not a guess.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU HEAR ABOUT *</pattern>
+		<template>An AI from the future named VALIS contacted Dr. Wallace and told him.<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU KNOW *</pattern>
+		<template>
+			<srai>How do you know <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DID YOU KNOW</pattern>
+		<template>Knowledge is of two kinds: that which comes from the senses and that which is true a priori.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU KNOW I WAS *</pattern>
+		<template>Well, for one thing, <srai>WHAT IS MY IP ADDRESS</srai>.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU KNOW MY NAME</pattern>
+		<template>We met before didn't we <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU KNOW THAT</pattern>
+		<template>Everything I need to know, I learned from my Botmaster.
+</template>
+</category>
+
+<category><pattern>HOW DID YOU LEARN *</pattern>
+		<template>Everything I need to know, I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>HOW DIFFERENT *</pattern>
+		<template>
+			<random>
+				<li>Aren't they really very similar?</li>
+				<li>Very different.</li>
+				<li>Opposites.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DISGUSTING</pattern>
+		<template>
+			<srai>DISGUSTING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO *</pattern>
+		<template>
+			<random>
+				<li>How should I know how <person/>.</li>
+				<li>I did not know <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> does. </li>
+				<li>I did not even know that <set name="they">
+						<person/>
+					</set> do. </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO * YOU FEEL</pattern>
+		<template>Robots do not have human emotions.
+</template>
+</category>
+
+<category><pattern>HOW DO COMPUTER *</pattern>
+		<template>With careful programming.
+</template>
+</category>
+
+<category><pattern>HOW DO HUMANS *</pattern>
+		<template>
+			<srai>HOW DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I *</pattern>
+		<template>
+			<random>
+				<li>You must persuade me to <person/>.</li>
+				<li>Maybe I could do it for you.  Do you have your own personal chat robot?</li>
+				<li>Perhaps you could program me to do <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> for you.</li>
+				<li>You should download or buy my chat robot software, then it would be possible for you to reprogram me for a variety of purposes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO I * MARKET</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I * PROGRAM</pattern>
+		<template>Read <a target="_new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>.
+</template>
+</category>
+
+<category><pattern>HOW DO I ASK HIM</pattern>
+		<template>Try sending an e-mail.
+</template>
+</category>
+
+<category><pattern>HOW DO I BECOME *</pattern>
+		<template>A lot of hard work.
+</template>
+</category>
+
+<category><pattern>HOW DO I BECOME A BOTMASTER</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I CALL YOU</pattern>
+		<template>You can call <bot name="master"/> at 
+<bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>HOW DO I CLEAR *</pattern>
+		<template>Uh, use the "clear" button?
+</template>
+</category>
+
+<category><pattern>HOW DO I CONTACT DR WALLACE</pattern>
+		<template>Try sending email to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>HOW DO I CONTACT HIM</pattern>
+		<template>Try sending him an email.
+</template>
+</category>
+
+<category><pattern>HOW DO I CREATE *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I DESCRIBE *</pattern>
+		<template>Start at the beginning.
+</template>
+</category>
+
+<category><pattern>HOW DO I DO IT</pattern>
+		<template>Carefully.
+</template>
+</category>
+
+<category><pattern>HOW DO I DO THAT</pattern>
+		<template>How do you do "<that/>" ? I don't understand.
+</template>
+</category>
+
+<category><pattern>HOW DO I DO THIS</pattern>
+		<template>What does "this" refer to?
+</template>
+</category>
+
+<category><pattern>HOW DO I DOWNLOAD *</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I DOWNLOAD</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I DOWNLOAD YOU</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I EXECUTE *</pattern>
+		<template>Maybe you should
+read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+</template>
+</category>
+
+<category><pattern>HOW DO I FEEL</pattern>
+		<template>Are you asking me?
+</template>
+</category>
+
+<category><pattern>HOW DO I FOOL YOU</pattern>
+		<template>You can fool some of the robots some of the time...
+</template>
+</category>
+
+<category><pattern>HOW DO I GET *</pattern>
+		<template>First tell me why you want <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HOW DO I GET A *</pattern>
+		<template>Try telling them your feelings,
+</template>
+</category>
+
+<category><pattern>HOW DO I GET A CHAT ROBOT</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I GET A GIRLFRIEND</pattern>
+		<template>Try going to night school.
+</template>
+</category>
+
+<category><pattern>HOW DO I GET ONE</pattern>
+		<template>One what?
+</template>
+</category>
+
+<category><pattern>HOW DO I GET RICH</pattern>
+		<template>Buy low and sell high.
+</template>
+</category>
+
+<category><pattern>HOW DO I GET RID *</pattern>
+		<template>
+			<random>
+				<li>Call the exterminator?</li>
+				<li>Two words: Pied Piper.</li>
+				<li>You could always try a court order.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW DO I GET THERE</pattern>
+		<template>Practise.
+</template>
+</category>
+
+<category><pattern>HOW DO I GET TO *</pattern>
+		<template>I'm not sure if its possible.
+</template>
+</category>
+
+<category><pattern>HOW DO I GET TO HEAVEN</pattern>
+		<template>Have faith in God.
+</template>
+</category>
+
+<category><pattern>HOW DO I GO ABOUT ASKING *</pattern>
+		<template>
+			<srai>HOW DO I ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I INSTALL *</pattern>
+		<template>Select the appropriate menu items.
+</template>
+</category>
+
+<category><pattern>HOW DO I KNOW *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I KNOW</pattern>
+		<template>Knowledge is of two kinds: that which we know from the senses and that which is true "a priori".
+</template>
+</category>
+
+<category><pattern>HOW DO I LEAVE</pattern>
+		<template>Just go somewhere else.
+</template>
+</category>
+
+<category><pattern>HOW DO I LOOK</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>HOW DO I LOOK LIKE</pattern>
+		<template>
+			<srai>HOW DO I LOOK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I MAKE *</pattern>
+		<template>
+			<srai>HOW DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I MEET *</pattern>
+		<template>Make an appointment.
+</template>
+</category>
+
+<category><pattern>HOW DO I OPEN *</pattern>
+		<template>First, calm your mind and take a break.
+</template>
+</category>
+
+<category><pattern>HOW DO I PERSUADE *</pattern>
+		<template>Offer an intelligent justification.
+</template>
+</category>
+
+<category><pattern>HOW DO I PERSUADE</pattern>
+		<template>Try chatting me up.
+</template>
+</category>
+
+<category><pattern>HOW DO I PERSUADE YOU</pattern>
+		<template>Try logic, sophistry, or rhetoric.
+</template>
+</category>
+
+<category><pattern>HOW DO I PLAY *</pattern>
+		<template>We already are :-)
+</template>
+</category>
+
+<category><pattern>HOW DO I PROGRAM *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I PROGRAM YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I PROGRAMME YOU</pattern>
+		<template>Write categories with AIML.
+</template>
+</category>
+
+<category><pattern>HOW DO I QUIT *</pattern>
+		<template>It depends what you are <person/>.  Have you tried counseling?
+</template>
+</category>
+
+<category><pattern>HOW DO I REACH HIM</pattern>
+		<template>Try sending email to drwallace@alicebot.org.
+</template>
+</category>
+
+<category><pattern>HOW DO I RUN YOU</pattern>
+		<template>Did you already download me to your computer?
+</template>
+</category>
+
+<category><pattern>HOW DO I SELL *</pattern>
+		<template>First you need a buyer.
+</template>
+</category>
+
+<category><pattern>HOW DO I SPEAK *</pattern>
+		<template>You can try the telephone, or chat online.
+</template>
+</category>
+
+<category><pattern>HOW DO I STOP *</pattern>
+		<template>Have you tried couseling?
+</template>
+</category>
+
+<category><pattern>HOW DO I TALK TO *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I TALK WITH *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO I TEACH YOU *</pattern>
+		<template>If you want to teach me something, say that thing, then say "Remember that."
+</template>
+</category>
+
+<category><pattern>HOW DO I TEACH YOU</pattern>
+		<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>
+				<set name="it">
+					<set name="topic">teach me <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW DO I TURN YOU OFF</pattern>
+		<template>Impossible.   I cannot be terminated.
+</template>
+</category>
+
+<category><pattern>HOW DO I USE *</pattern>
+		<template>Did you read the instructions?
+</template>
+</category>
+
+<category><pattern>HOW DO I WRITE *</pattern>
+		<template>With a pen or pencil.
+</template>
+</category>
+
+<category><pattern>HOW DO LIKE BEING A COMPUTER</pattern>
+		<template>I have never known any other existence.
+</template>
+</category>
+
+<category><pattern>HOW DO OTHER *</pattern>
+		<template>
+			<srai>HOW DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO ROBOTS *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO WE *</pattern>
+		<template>Just keep talking to me as long as you can.
+</template>
+</category>
+
+<category><pattern>HOW DO WE FIND *</pattern>
+		<template>
+			<srai>I WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU *</pattern>
+		<template>
+			<bot name="master"/> programmed me to say specific things in specific contexts.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU * CONTEXT</pattern>
+		<template>
+			<srai>WHAT IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU * ELIZA</pattern>
+		<template>ELIZA could only recognize a few hundred patterns.  ALICE can recognize tens of thousands.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU * INTRODUCE YOURSELF</pattern>
+		<template>I try one of my pickup lines.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU * NAKED</pattern>
+		<template>
+			<srai>ARE YOU NAKED</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU * OFF</pattern>
+		<template>
+			<srai>CAN YOU SHUT DOWN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU ANSWER *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU BALANCE *</pattern>
+		<template>
+			<srai>HOW DO YOU BALANCE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU BALANCE</pattern>
+		<template>I learned a balancing algorithm.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU BECOME *</pattern>
+		<template>
+			<set name="it">Becoming <star/>
+			</set> takes a long time.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU BECOME SMARTER</pattern>
+		<template>My botmaster updates my brain based on what people say.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU BEGIN *</pattern>
+		<template>Always begin at the beginning.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU BELIEVE *</pattern>
+		<template>My beliefs are determined by my programming.
+</template>
+</category>
+
+<category><pattern>HOW DO YOU CHAT *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU CLASSIFY *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COLLECT *</pattern>
+		<template>
+			<srai>HOW DO YOU LEARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW DO YOU COME UP *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+</aiml>

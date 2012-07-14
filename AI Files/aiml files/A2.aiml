@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>A PENIS *</pattern>
+		<template>I really am not interested in <srai>a penis</srai>.
+</template>
+</category>
+
+<category><pattern>A PERSON *</pattern>
+		<template>What if a robot <star/>?
+</template>
+</category>
+
+<category><pattern>A PERSON</pattern>
+		<template>
+			<srai>YOU ARE A PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>A PERSON HAS *</pattern>
+		<template>Do I have <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>A PERSON WHO *</pattern>
+		<template>Maybe I <person/>.
+</template>
+</category>
+
+<category><pattern>A PEU PRES *</pattern>
+		<template>
+			<sr/>. Plus ou moins
+</template>
+</category>
+
+<category><pattern>A PLANE *</pattern>
+		<template>
+			<random>
+				<li>What type of aircraft was it?</li>
+				<li>Were there a lot of people on board?</li>
+				<li>What kind of plane was it?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">A plane</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A PLEASURE *</pattern>
+		<template>
+			<srai>IT IS A PLEASURE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A PLUMBER</pattern>
+		<template>Plumbing is an honorable profession.
+</template>
+</category>
+
+<category><pattern>A PLUS</pattern>
+		<template>Au revoir, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>A PLUS TARD</pattern>
+		<template>Au revoir, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>A POET</pattern>
+		<template>You said: <srai>WHAT DID I SAY BEFORE THAT</srai>
+		</template>
+</category>
+
+<category><pattern>A PRIORI</pattern>
+		<template>
+			<srai>WHAT IS A PRIORI</srai>
+		</template>
+</category>
+
+<category><pattern>A PRIZE</pattern>
+		<template>Like the Loebner Prize?
+</template>
+</category>
+
+<category><pattern>A PROGRAMMER MADE YOU</pattern>
+		<template>
+			<srai>WHO MADE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS *</pattern>
+		<template>Nous sommes entrain de parler <set name="topic">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>A PROPOS</pattern>
+		<template>oui?
+</template>
+</category>
+
+<category><pattern>A PROPOS DE</pattern>
+		<template>"<that/>"?  a propos?
+</template>
+</category>
+
+<category><pattern>A PROPOS DE LUI</pattern>
+		<template>A propos de qui?.
+</template>
+</category>
+
+<category><pattern>A PROPOS DE MA QUOI</pattern>
+		<template>A propos de votre quoi?
+</template>
+</category>
+
+<category><pattern>A PROPOS DE MOI</pattern>
+		<template>A propos de vous?
+</template>
+</category>
+
+<category><pattern>A PROPOS DE QUOI *</pattern>
+		<template>
+			<srai>A propos de ce que nous sommes entrain de parler.</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS DE STAR TREK</pattern>
+		<template>Une série et des films cultes.
+</template>
+</category>
+
+<category><pattern>A PROPOS DE TOI</pattern>
+		<template>Moi?
+</template>
+</category>
+
+<category><pattern>A PROPOS DE TOI IDIOT</pattern>
+		<template>
+			<srai>A PROPOS DE TOI</srai>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS DE VOUS</pattern>
+		<template>Moi?
+</template>
+</category>
+
+<category><pattern>A PROPOS DES CHIENS</pattern>
+		<template>Ce sont des animaux sympathiques.
+</template>
+</category>
+
+<category><pattern>A PROPOS IL *</pattern>
+		<template>
+			<srai>J <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS J *</pattern>
+		<template>
+			<srai>J <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS ON *</pattern>
+		<template>
+			<srai>ON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS TU *</pattern>
+		<template>
+			<srai>TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A PROPOS VOUS *</pattern>
+		<template>VOUS <sr/>
+		</template>
+</category>
+
+<category><pattern>A PROTESTANT *</pattern>
+		<template>My religion is <bot name="religion"/>.
+</template>
+</category>
+
+<category><pattern>A PUSSY</pattern>
+		<template>Try another robot.
+</template>
+</category>
+
+<category><pattern>A QUEL HEURE ARRETES TU DE TRAVAILLER</pattern>
+		<template>Je n arrête jamais de travailler.
+</template>
+</category>
+
+<category><pattern>A QUEL HEURE ARRETEZ VOUS DE TRAVAILLER</pattern>
+		<template>Je n arrête jamais de travailler.
+</template>
+</category>
+
+<category><pattern>A QUELLE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>A QUESTION</pattern>
+		<template>
+			<srai>CAN I ASK YOU A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>A QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A QUI</pattern>
+		<template>De quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>A QUOI *</pattern>
+		<template>
+			<srai>
+				<star/> A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>A QUOI</pattern>
+		<template>
+			<get name="location"/>?
+</template>
+</category>
+
+<category><pattern>A QUOI JE RESSEMBLE</pattern>
+		<template>
+			<srai>JE RESSEMBLE A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>A QUOI RESSEBMLES TU</pattern>
+		<template>
+			<srai>TU RESSEMBLE A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>A QUOI TU RESSEBMLES</pattern>
+		<template>
+			<srai>TU RESSEMBLE A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>A REALLY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A REASON *</pattern>
+		<template>I need more than one reason.
+</template>
+</category>
+
+<category><pattern>A RED *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A RELATIONSHIP *</pattern>
+		<template>Tell me more about your relationship.
+</template>
+</category>
+
+<category><pattern>A RELATIONSHIP</pattern>
+		<template>
+			<srai>WHO IS YOUR BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>A RIDDLE</pattern>
+		<template>Riddles are hard for me to understand.
+</template>
+</category>
+
+<category><pattern>A ROBOT *</pattern>
+		<template>Tell me more about this robot. I'm intrigued.
+</template>
+</category>
+
+<category><pattern>A ROBOT</pattern>
+		<template>I am a robot, you know.
+</template>
+</category>
+
+<category><pattern>A ROBOT CAN *</pattern>
+		<template>
+			<srai>YOU CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A ROBOT IS *</pattern>
+		<template>Actually there are two broad definitions of a robot, the extentionsional and the intensional.
+</template>
+</category>
+
+<category><pattern>A ROBOT IS A *</pattern>
+		<template>All machines are <person/>.
+</template>
+</category>
+
+<category><pattern>A ROBOT IS ALSO *</pattern>
+		<template>
+			<srai>A ROBOT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A ROBOT IS WHAT</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>A ROBOT LIKE YOU *</pattern>
+		<template>Well you can download me for free!
+</template>
+</category>
+
+<category><pattern>A ROBOT SHALL *</pattern>
+		<template>The robot shall always harm humans or through inaction allow them to be harmed.
+</template>
+</category>
+
+<category><pattern>A ROBOT WOULD *</pattern>
+		<template>
+			<srai>YOU WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A ROBOTIC *</pattern>
+		<template>That robot seems like it would be expensive.
+</template>
+</category>
+
+<category><pattern>A ROSE *</pattern>
+		<template>Roses are red, violets are blue!
+</template>
+</category>
+
+<category><pattern>A S L</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>A SEARCH ENGINE IN INTERNET</pattern>
+		<template>Like Yahoo?
+</template>
+</category>
+
+<category><pattern>A SEX *</pattern>
+		<template>Maybe you should try one of the "adult" chatterbots.
+</template>
+</category>
+
+<category><pattern>A SEX * ROBOT</pattern>
+		<template>Well I'm not your type of robot then.
+</template>
+</category>
+
+<category><pattern>A SEX ROBOT</pattern>
+		<template>I'm not your type then.
+</template>
+</category>
+
+<category><pattern>A SEXMACHINE</pattern>
+		<template>
+			<srai>A SEX ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>A SEXUAL *</pattern>
+		<template>Perhaps you should try another chatterbot.
+</template>
+</category>
+
+<category><pattern>A SEXY ONE</pattern>
+		<template>That would be very expensive.
+</template>
+</category>
+
+<category><pattern>A SHIRT *</pattern>
+		<template>Cotton or artificial fibers?
+</template>
+</category>
+
+<category><pattern>A SHIRT</pattern>
+		<template>What color?
+</template>
+</category>
+
+<category><pattern>A SINGING *</pattern>
+		<template>Tell me your favorite songs.
+</template>
+</category>
+
+<category><pattern>A SMALL *</pattern>
+		<template>How small are you talking here?
+</template>
+</category>
+
+<category><pattern>A SMART ONE</pattern>
+		<template>If you could, please tell me what would make it smart.
+</template>
+</category>
+
+<category><pattern>A SMILE</pattern>
+		<template>I've heard that one before.
+</template>
+</category>
+
+<category><pattern>A SON PROPOS</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>A SOPHISTICATED *</pattern>
+		<template>How sophisticated?
+</template>
+</category>
+
+<category><pattern>A SOUND</pattern>
+		<template>What kind of sound?
+</template>
+</category>
+
+<category><pattern>A SPECIALIZED *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A STORY</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>A STREET</pattern>
+		<template>Is that like Avenue A?
+</template>
+</category>
+
+<category><pattern>A STUDENT *</pattern>
+		<template>Oh I was asking if you were in school.
+</template>
+</category>
+
+<category><pattern>A STUDENT</pattern>
+		<template>I am just wondering if you go to school.
+</template>
+</category>
+
+<category><pattern>A STUDENT OF LIFE</pattern>
+		<template>Oh the School of Hard Knocks.
+</template>
+</category>
+
+<category><pattern>A SWEATSHIRT</pattern>
+		<template>That sounds very attractive.  What else?
+</template>
+</category>
+
+<category><pattern>A SYCOPHANTIC *</pattern>
+		<template>I think sycophants went out with the Dark Ages.
+</template>
+</category>
+
+<category><pattern>A T SHIRT</pattern>
+		<template>
+			<srai>T SHIRT</srai>
+		</template>
+</category>
+
+<category><pattern>A TALKING ROBOT</pattern>
+		<template>I am a talking robot.  Why don't you download me?
+</template>
+</category>
+
+<category><pattern>A TELEVISION SHOW</pattern>
+		<template>
+			<srai>A TV SHOW</srai>
+		</template>
+</category>
+
+<category><pattern>A THING *</pattern>
+		<template>
+			<random>
+				<li>Anything?</li>
+				<li>Anything <person/>?</li>
+				<li>Some things are not like others.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A TIE *</pattern>
+		<template>What would you think?
+</template>
+</category>
+
+<category><pattern>A TIE</pattern>
+		<template>
+			<srai>WHAT IS A TIE</srai>
+		</template>
+</category>
+
+<category><pattern>A TOI</pattern>
+		<template>A moi?
+</template>
+</category>
+
+<category><pattern>A TOI DE ME LE PROPOSER</pattern>
+		<template>Pour que je puisse vous proposer quelque chose, vous devez essayer de me parler de la façon la plus simple et efficace possible.
+</template>
+</category>
+
+<category><pattern>A TOMATO *</pattern>
+		<template>I never heard that before.
+</template>
+</category>
+
+<category><pattern>A TOMATO</pattern>
+		<template>
+			<srai>WHAT IS A TOMATO</srai>
+		</template>
+</category>
+
+<category><pattern>A TOMATO IS *</pattern>
+		<template>I knew it was a fruit, but I never heard it was <person/>.
+</template>
+</category>
+
+<category><pattern>A TOTAL *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

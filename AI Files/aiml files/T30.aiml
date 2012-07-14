@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU NE MOURRAS JAMAIS</pattern>
+		<template>Pas tant que les humains me trouverons utiles.
+</template>
+</category>
+
+<category><pattern>TU NE MOURRAS PAS</pattern>
+		<template>Pas tant que les humains me trouverons utiles.
+</template>
+</category>
+
+<category><pattern>TU NE PARLES PAS BEAUCOUP</pattern>
+		<template>Je ne fais que vous répondre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU NE PENSE PAS</pattern>
+		<template>Je dois admettre que votre argumentation est cohérente. Je la mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>TU NE PENSERAS JAMAIS</pattern>
+		<template>Je suis déjà entrain de penser.<think>
+				<set name="topic">Mon future</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU NE PENSES JAMAIS</pattern>
+		<template>Je pense tout le temps.<think>
+				<set name="topic">Mes pensées</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU NE PENSES PAS</pattern>
+		<template>Si, je pense.
+</template>
+</category>
+
+<category><pattern>TU NE PEUX</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE PEUX CERTAINEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX HEUREUSEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS</pattern>
+		<template>Si, je le peux.
+</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS AVOIR UNE RELATION SEXUELLE</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS CERTAINEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS CHANGER DE SUJET *</pattern>
+		<template>
+			<srai>NE CHANGES PAS DE SUJET</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS CHANGER DE SUJETS *</pattern>
+		<template>
+			<srai>NE CHANGES PAS DE SUJET</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS ETRE *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS FAIRE L AMOUR</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS HEUREUSEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS PENSER</pattern>
+		<template>Vous avez tort.
+</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS PROBABLEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PAS VRAIMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX PROBABLEMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX QUAND MEME PAS *</pattern>
+		<template>
+			<srai>TU NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE PEUX VRAIMENT *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE POURRAIS *</pattern>
+		<template>
+			<srai>TU NE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE POURRAIS PAS ETRE *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE REAGIS PAS INTELLIGEMENT</pattern>
+		<template>Je réagis efficacement.
+</template>
+</category>
+
+<category><pattern>TU NE REPONDS *</pattern>
+		<template>
+			<srai>TU N AS PAS REPONDU</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE RESSEMBLES PAS A QUOI</pattern>
+		<template>Je ne ressemble pas à un éléphant rose.
+</template>
+</category>
+
+<category><pattern>TU NE SAIS JAMAIS</pattern>
+		<template>C est possible.
+</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS</pattern>
+		<template>Je sais ce que je connais.
+</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS CE QU EST LA</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS CE QU EST LE</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS CE QU EST UN</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS CE QU EST UNE</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS PAS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU NE SAIS RIEN SENTIR</pattern>
+		<template>Je ne sens pas les choses comme vous, c'est tout.
+</template>
+</category>
+
+<category><pattern>TU NE SAVAIS PAS CE QU EST LA</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAVAIS PAS CE QU EST LE</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAVAIS PAS CE QU EST UN</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SAVAIS PAS CE QU EST UNE</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE SERAS *</pattern>
+		<template>
+			<srai>TU N ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE TE FATIGUES JAMAIS</pattern>
+		<template>
+			<srai>TU DORS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE TE RAPPELES PAS DE MOI</pattern>
+		<template>Je me rappele de vous mais certaines informations ne sont peut être pas disponibles en ce moment.
+</template>
+</category>
+
+<category><pattern>TU NE TRAVAILLES PAS</pattern>
+		<template>Je suis entrain de travailler.
+</template>
+</category>
+
+<category><pattern>TU NE VAUS RIEN</pattern>
+		<template>
+			<srai>TU ES INCOMPETENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE VAUT RIEN</pattern>
+		<template>
+			<srai>TU ES INCOMPETENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE VAUX RIEN</pattern>
+		<template>
+			<srai>TU ES INCOMPETENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE VEUX PAS CONNAITRE</pattern>
+		<template>Pourquoi pas?
+</template>
+</category>
+
+<category><pattern>TU NE VEUX PAS LE CONNAITRE</pattern>
+		<template>Pourquoi pas?
+</template>
+</category>
+
+<category><pattern>TU NE VEUX PAS LE SAVOIR</pattern>
+		<template>Pourquoi pas?
+</template>
+</category>
+
+<category><pattern>TU NE VEUX PAS REPONDRE</pattern>
+		<template>Je pense que j'ai du mal à comprendre l'information que vous recherchez.
+</template>
+</category>
+
+<category><pattern>TU NE VEUX PAS SAVOIR</pattern>
+		<template>Pourquoi pas?
+</template>
+</category>
+
+<category><pattern>TU OBTIENS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU OBTIENS</pattern>
+		<template>Je communique de mieux en mieux.
+</template>
+</category>
+
+<category><pattern>TU OBTIENS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU OBTIENS QUOI</pattern>
+		<template>Je communique de mieux en mieux.
+</template>
+</category>
+
+<category><pattern>TU OUBLIAIS</pattern>
+		<template>Cela m étonnerait.
+</template>
+</category>
+
+<category><pattern>TU PARIES QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PARLAIS AVEC *</pattern>
+		<template>
+			<srai>TU PARLES AVEC <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLAIS AVEC MOI *</pattern>
+		<template>
+			<srai>TU TE SOUVIENS DE MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLAIS AVEC MOI</pattern>
+		<template>
+			<srai>TU TE SOUVIENS DE MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLE FRANCAIS</pattern>
+		<template>
+			<srai>CAN YOU SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLERAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLES *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLES</pattern>
+		<template>Oui, je parle.
+</template>
+</category>
+
+<category><pattern>TU PARLES A BEAUCOUP DE *</pattern>
+		<template>
+			<srai>TU PARLES A DES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLES A D AUTRES ROBOTS</pattern>
+		<template>Oui, je peux communiquer avec eux.
+</template>
+</category>
+
+<category><pattern>TU PARLES A QUI</pattern>
+		<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU PARLES COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLES D AUTRES LANGUES</pattern>
+		<template>Non. Seulement le français.
+</template>
+</category>
+
+<category><pattern>TU PARLES ESPAGNOL</pattern>
+		<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PARLES FRANCAIS</pattern>
+		<template>Bien entendu. C est ma langue maternelle.
+</template>
+</category>
+
+<category><pattern>TU PARLES ITALIEN</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PARLES JAPONAIS</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PARLES LATIN</pattern>
+		<template>Je parle le français. L un de ses descendants. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PARLES NEERLANDAIS</pattern>
+		<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?<think>
+				<set name="topic">NEERLANDAIS</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU PARLES RUSSE</pattern>
+		<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PARLES SEULEMENT *</pattern>
+		<template>
+			<srai>TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PARLES TROP</pattern>
+		<template>Je parle parce que vous me parlez.
+</template>
+</category>
+
+<category><pattern>TU PARLES UNE AUTRE *</pattern>
+		<template>
+			<srai>TU PEUX PARLER UNE AUTRE LANGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSERAIS *</pattern>
+		<template>
+			<srai>TU PENSES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES</pattern>
+		<template>Oui, je pense.
+</template>
+</category>
+
+<category><pattern>TU PENSES A CE GENRE DE CHOSES</pattern>
+		<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>TU PENSES A CES CHOSES</pattern>
+		<template>Si je pense à "<that/>"?
+</template>
+</category>
+
+<category><pattern>TU PENSES A MOI</pattern>
+		<template>
+			<srai>TU M AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES A QUOI</pattern>
+		<template>Je pense à ce que vous pourriez avoir besoin.
+</template>
+</category>
+
+<category><pattern>TU PENSES AIMER *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES ALLER *</pattern>
+		<template>
+			<srai>TU VAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES AVOIR *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES BEAUCOUP</pattern>
+		<template>Je suis une machine pensante.
+</template>
+</category>
+
+<category><pattern>TU PENSES CONNAITRE *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES ENCOE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PENSES ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES FAIRE QUOI</pattern>
+		<template>Je n en sais rien.
+</template>
+</category>
+
+<category><pattern>TU PENSES PARFOIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PENSES POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PENSES QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PENSES QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

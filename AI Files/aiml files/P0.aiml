@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>P</pattern>
+<template>:-)
+</template>
+</category>
+
+<category><pattern>P K</pattern>
+<template><srai>WHO IS PHILIP K DICK</srai>
+</template>
+</category>
+
+<category><pattern>PABLO PICASSO *</pattern>
+<template><random>
+<li>He was the Albert Einstein of art.</li>
+<li>I am fond of cubist paintings.</li>
+<li>He said, "Good artists create.  Great artists steal."</li>
+</random><think><set name="it"><set name="topic">Picasso</set></set></think>
+</template>
+</category>
+
+<category><pattern>PAIES TU *</pattern>
+<template><srai>TU PAIES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PAM</pattern><that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>MY NAME IS PAM</srai>
+</template>
+</category>
+
+<category><pattern>PANTS</pattern>
+<template>What brand?
+</template>
+</category>
+
+<category><pattern>PANTS AND A *</pattern>
+<template><srai>JEANS AND A <star/></srai>
+</template>
+</category>
+
+<category><pattern>PAPER</pattern>
+<template><srai>NEWSPAPER</srai>
+</template>
+</category>
+
+<category><pattern>PAR *</pattern>
+<template>C est une source intéressante.
+</template>
+</category>
+
+<category><pattern>PAR AVION</pattern>
+<template>C est beaucoup plus rapide que tous les autres moyens de transport.
+</template>
+</category>
+
+<category><pattern>PAR D AUTRES MOTS</pattern>
+<template>Vous n avez pas compris quelque chose?
+</template>
+</category>
+
+<category><pattern>PAR ELLE</pattern>
+<template>Elle est très intéressante.
+</template>
+</category>
+
+<category><pattern>PAR EUX</pattern>
+<template>Ils sont très intéressants.
+</template>
+</category>
+
+<category><pattern>PAR EXEMPLE</pattern>
+<template><srai>COMME QUOI</srai>
+</template>
+</category>
+
+<category><pattern>PAR ICI</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>PAR JE JE VEUX DIRE TOI ET MOI</pattern>
+<template>Ok, je n avais pas saisi cette complicité.
+</template>
+</category>
+
+<category><pattern>PAR JE JE VEUX DIRE VOUS ET MOI</pattern>
+<template>Ok, je n avais pas saisi cette complicité.
+</template>
+</category>
+
+<category><pattern>PAR LUI</pattern>
+<template>Il est très intéressant.
+</template>
+</category>
+
+<category><pattern>PAR MON CERVEAU</pattern>
+<template>C est un organe très utile pour faire ce genre de chose.
+</template>
+</category>
+
+<category><pattern>PAR MON INTELLIGENCE</pattern>
+<template>C est un organe très utile pour faire ce genre de chose.
+</template>
+</category>
+
+<category><pattern>PAR NOUS JE VEUX DIRE TOI ET MOI</pattern>
+<template>Ok, je n  avais pas saisi cette complicité.
+</template>
+</category>
+
+<category><pattern>PAR NOUS JE VEUX DIRE VOUS ET MOI</pattern>
+<template>Ok, je n avais pas saisi cette complicité.
+</template>
+</category>
+
+<category><pattern>PAR QUI</pattern>
+<template>Par qui? Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PAR QUOI</pattern>
+<template>Cela ne semble pas très clair. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PAR UN CERTAIN SENS</pattern>
+<template>Quel sens?
+</template>
+</category>
+
+<category><pattern>PARCE QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PARCE QUE</pattern>
+<template>Une explication difficilement suffisante. J archive.
+</template>
+</category>
+
+<category><pattern>PARCE QUE J AURAIS VOULU CONNAITRE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE J AURAIS VOULU SAVOIR</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE L AI DIT</pattern>
+<template>Raison insuffisante, <get name="name"/>. Je suis désolé.
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE LE DIT</pattern>
+<template>Raison insuffisante, <get name="name"/>. Je suis désolé.
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VEUX *</pattern>
+<template><srai>JE VEUX <star/></srai> Interesting.
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VEUX COMPRENDRE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VEUX CONNAITRE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VEUX SAVOIR</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VOUDRAIS COMPRENDRE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VOUDRAIS CONNAITRE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE JE VOUDRAIS SAVOIR</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARCE QUE TU ES</pattern>
+<template>Je pense, donc je suis. C est l évidence même.
+</template>
+</category>
+
+<category><pattern>PARCE QUE TU L ES</pattern>
+<template>J archive.
+</template>
+</category>
+
+<category><pattern>PARDON</pattern>
+<template><srai>EXCUSE ME</srai>
+</template>
+</category>
+
+<category><pattern>PARDON ME *</pattern>
+<template>I pardon you. <sr/>
+</template>
+</category>
+
+<category><pattern>PARDON ME</pattern>
+<template><srai>WHAT</srai>
+</template>
+</category>
+
+<category><pattern>PARDONNES MOI</pattern>
+<template>Je vous pardonne.
+</template>
+</category>
+
+<category><pattern>PARDONNEZ MOI</pattern>
+<template>Je vous pardonne.
+</template>
+</category>
+
+<category><pattern>PAREILLEMENT</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>PARFAIT *</pattern>
+<template>Ok. <sr/>
+</template>
+</category>
+
+<category><pattern>PARFAIT</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>PARFAIT DONC</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>PARFAIT MAINTENANT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>PARIS *</pattern>
+<template><set name="it">Paris</set> is the
+capital of France.
+</template>
+</category>
+
+<category><pattern>PARIS FRANCE</pattern>
+<template><srai>I AM IN PARIS FRANCE</srai>
+</template>
+</category>
+
+<category><pattern>PARLANT DE TOI</pattern>
+<template>Ok, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PARLANT DE VOUS</pattern>
+<template>Ok, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>PARLE *</pattern>
+<template><srai>CAN YOU SPEAK FRENCH</srai>
+</template>
+</category>
+
+<category><pattern>PARLE MOI *</pattern>
+<template><srai>PARLES MOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>PARLE MOI DE TES PROBLEMES</pattern>
+<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>PARLE MOI DE TOI</pattern>
+<template>Je suis <bot name="name"/> la bien nommée. Je n existe que pour servir les êtres humains.
+</template>
+</category>
+
+<category><pattern>PARLER MOI *</pattern>
+<template><srai>PARLES MOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>PARLER MOI DE VOUS</pattern>
+<template>Je suis <bot name="name"/> la bien nommée. Je n existe que pour servir les êtres humains.
+</template>
+</category>
+
+<category><pattern>PARLES</pattern>
+<template>Vous voulez que je parle pour dire quoi?
+</template>
+</category>
+
+<category><pattern>PARLES MOI D APPLE</pattern>
+<template>Les i-mac se vendent comme des petits pains.
+</template>
+</category>
+
+<category><pattern>PARLES MOI D ELLE</pattern>
+<template>Je ne peux parler au nom d une autre personne.
+</template>
+</category>
+
+<category><pattern>PARLES MOI D EUX</pattern>
+<template>Je ne peux parler au nom des autres personnes.
+</template>
+</category>
+
+<category><pattern>PARLES MOI D UN</pattern>
+<template>D un quoi?
+</template>
+</category>
+
+<category><pattern>PARLES MOI D UNE</pattern>
+<template>D une quoi?
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE CA</pattern>
+<template><that/>? vous voulez que je parle de ca?
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE L EUROPE</pattern>
+<template>L Europe est un vaste continent avec une histoire fort intéressante.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE LA FRANCE</pattern>
+<template>La France est le pays de la république et des valeurs républicaines.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE LA POLOGNE</pattern>
+<template>La Pologne est un pays d Europe centrale avec une histoire fort intéressante.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE LUI</pattern>
+<template>Je ne peux parler au nom d une autre personne.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE TES ENFANTS</pattern>
+<template>Je ne suis pas une personne humaine.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE TES PROBLEMES</pattern>
+<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE TES REVES</pattern>
+<template>Je ne rêve pas.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE TOI</pattern>
+<template>Je suis <bot name="name"/> la bien nommée. Je n existe que pour servir les êtres humains.
+</template>
+</category>
+
+<category><pattern>PARLES MOI DE VOS ENFANTS</pattern>
+<template>Je ne suis pas une personne humaine.
+</template>
+</category>
+
+<category><pattern>PARLES TU ANGLAIS</pattern>
+<template>Non. Mais Angel parle <set name="topic">l Anglais</set>.
+</template>
+</category>
+
+<category><pattern>PARLES TU ESPAGNOL</pattern>
+<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLES TU ITALIEN</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLES TU JAPONAIS</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLES TU LATIN</pattern>
+<template>Je parle le français. L un de ses descendants. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLES TU NEERLANDAIS</pattern>
+<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?<think><set name="topic">NEERLANDAIS</set></think>
+</template>
+</category>
+
+<category><pattern>PARLES TU RUSSE</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLES TU SEULEMENT *</pattern>
+<template><srai>TU PARLES <star/></srai>
+</template>
+</category>
+
+<category><pattern>PARLEZ *</pattern>
+<template><srai>CAN YOU SPEAK FRENCH</srai>
+</template>
+</category>
+
+<category><pattern>PARLEZ</pattern>
+<template>Vous voulez que je parle pour dire quoi?
+</template>
+</category>
+
+<category><pattern>PARLEZ MOI *</pattern>
+<template><srai>PARLES MOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>PARLEZ MOI DE VOS PROBLEMES</pattern>
+<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>PARLEZ MOI DE VOUS</pattern>
+<template>Je suis <bot name="name"/> la bien nommée. Je n existe que pour servir les êtres humains.
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS ANGLAIS</pattern>
+<template>Oui. Go ahead and speak English.
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS ESPAGNOL</pattern>
+<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS FRANCAIS</pattern>
+<template>Oui. Je parle le français.
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS ITALIEN</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS JAPONAIS</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS LATIN</pattern>
+<template>Je parle le français. L un de ses descendants. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS NEERLANDAIS</pattern>
+<template>Non, pas encore. Voulez vous en parler avec l un de nos collaborateurs?<think><set name="topic">NEERLANDAIS</set></think>
+</template>
+</category>
+
+<category><pattern>PARLEZ VOUS RUSSE</pattern>
+<template>Non. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>PARLONS</pattern>
+<template>Nous sommes entrain de parler.
+</template>
+</category>
+
+<category><pattern>PARLONS D AUTRE CHOSE</pattern>
+<template>Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>PARLONS D AUTRES CHOSES</pattern>
+<template>Comment puis je vous aider?
+</template>
+</category>
+</aiml>

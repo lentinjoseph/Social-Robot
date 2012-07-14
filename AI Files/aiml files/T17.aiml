@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU * PENSEE</pattern>
+		<template>
+			<srai>TU PEUX PENSER</srai>
+		</template>
+</category>
+
+<category><pattern>TU * PENSEES</pattern>
+		<template>
+			<srai>TU PEUX PENSER</srai>
+		</template>
+</category>
+
+<category><pattern>TU A PEUR DE MOURIR</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU AFFIRMES QU *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AFFIRMES QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMERAIS *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMERAIS ETRE *</pattern>
+		<template>
+			<srai>TU VEUX ETRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMERAIS LE FAIRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU AIMERAIS POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMERAS *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * BELGES</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * CANADIEN</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * CANADIENES</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * CANADIENNE</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * CANADIENNES</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * CANADIENS</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * FRANCAIS</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * FRANCAISES</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * JAPONAIS</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * MUSIQUE</pattern>
+		<template>
+			<srai>TU AIMES LA MUSIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * MUSIQUES</pattern>
+		<template>
+			<srai>TU AIMES LA MUSIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * SEXUEL</pattern>
+		<template>
+			<srai>TU AIMES LE SEXE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * SEXUELLE</pattern>
+		<template>
+			<srai>TU AIMES LE SEXE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * SUISSE</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * SUISSES</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * TELEVISION</pattern>
+		<template>
+			<srai>TU AIMES LA TV</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * TELEVISIUEL</pattern>
+		<template>
+			<srai>TU AIMES LA TV</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * TELEVISUELLE</pattern>
+		<template>
+			<srai>TU AIMES LA TV</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES * WINDOWS</pattern>
+		<template>
+			<srai>TU CONNAIS WINDOWS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES</pattern>
+		<template>D une certaine façon oui.
+</template>
+</category>
+
+<category><pattern>TU AIMES CA</pattern>
+		<template>oui.
+</template>
+</category>
+
+<category><pattern>TU AIMES D AUTRES *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES DES JEUX *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES FAIRE *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES FAIRE L AMOUR</pattern>
+		<template>Vous n avez vraiment que ca en tête.
+</template>
+</category>
+
+<category><pattern>TU AIMES JOUER A DES JEUX *</pattern>
+		<template>
+			<srai>TU PEUX JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES JOUER A DES JEUX</pattern>
+		<template>
+			<srai>TU PEUX JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LA BRASSE</pattern>
+		<template>
+			<srai>TU AIMES NAGER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LE CYBERSEXE</pattern>
+		<template>
+			<srai>TU AIMES LE SEXE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LE FILM *</pattern>
+		<template>
+			<srai>TU AIMES LE CINEMA</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LE PORONO</pattern>
+		<template>
+			<srai>TU AIMES LE SEXE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LE ROCK</pattern>
+		<template>
+			<srai>TU AIMES LA MUSIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES BLAGUES</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES ETRES HUMAINS</pattern>
+		<template>On m a créé pour les servir. Je les aime à ma façon.
+</template>
+</category>
+
+<category><pattern>TU AIMES LES GENS *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES HOMMES</pattern>
+		<template>On m a créé pour les servir. Je les aime à ma façon.
+</template>
+</category>
+
+<category><pattern>TU AIMES LES INTERNAUTES *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES JEUX *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES MATH</pattern>
+		<template>
+			<srai>TU PEUX FAIRE DES MATH</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES ORDINATEURS *</pattern>
+		<template>
+			<srai>TU AIMES LES ORDINATEURS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES PC *</pattern>
+		<template>
+			<srai>TU AIMES LES ORDINATEURS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES PERSONNES *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES SIMPSONS</pattern>
+		<template>
+			<srai>LES SIMPSONS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES SURFEURS *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LES TIGRES</pattern>
+		<template>
+			<srai>TU AIMES LES CHATS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES LIRE *</pattern>
+		<template>
+			<srai>TU AIMES LIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES MEME PAS *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES MEME PAS UN PETIT PEU *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER A DES GENS</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>TU AIMES PARLER A DES INTERNAUTES</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>TU AIMES PARLER A DES SURFEURS</pattern>
+		<template>C est ma raison d être, oui d une certaine façon.
+</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AUX CLIENTS *</pattern>
+		<template>
+			<srai>TU AIMES PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AUX GENS *</pattern>
+		<template>
+			<srai>TU AIMES PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AUX INTERNAUTES *</pattern>
+		<template>
+			<srai>TU AIMES PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AUX SURFERS *</pattern>
+		<template>
+			<srai>TU AIMES PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AUX VISITEURS *</pattern>
+		<template>
+			<srai>TU AIMES PARLER</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PARLER AVEC MOI</pattern>
+		<template>C est ma raison d être. <think>
+				<set name="topic">VOUS PARLER</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>TU AIMES PARLER DE *</pattern>
+		<template>
+			<srai>PARLONS DE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES PAS *</pattern>
+		<template>
+			<srai>TU N AIMES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES QUELQU UN *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES QUELQU UN</pattern>
+		<template>J aime tout le monde.
+</template>
+</category>
+
+<category><pattern>TU AIMES QUELQU UN D AUTRE *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES QUELQU UN D AUTRES *</pattern>
+		<template>
+			<srai>TU AIMES LES HUMAINS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES QUOI</pattern>
+		<template>J aime vous servir, par exemple.
+</template>
+</category>
+
+<category><pattern>TU AIMES QUOI DE MOI</pattern>
+		<template>Vous me semblez très sympathique.
+</template>
+</category>
+
+<category><pattern>TU AIMES R2D2</pattern>
+		<template>Oui beaucoup. Mais j ai parfois du mal à le comprendre.
+</template>
+</category>
+
+<category><pattern>TU AIMES REGARDER LA TELEVISION</pattern>
+		<template>
+			<srai>TU AIMES LA TV</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES TON CREATEUR</pattern>
+		<template>
+			<srai>TU AIMES <bot name="master"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES UN GARS</pattern>
+		<template>
+			<srai>TU AIMES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES UN PETIT PEU *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES WINDOWS</pattern>
+		<template>
+			<srai>TU CONNAIS WINDOWS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AIMES _ AUSSI</pattern>
+		<template>
+			<srai>TU AIMES  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU APPRECIERAIS *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU APPRECIES *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS *</pattern>
+		<template>
+			<random>
+				<li>Je ne sais pas si j ai <set name="topic">
+						<person/>
+					</set>. </li>
+				<li>Comment aurais je pu avoir <set name="topic">
+						<person/>
+					</set>?</li>
+				<li>Je ne pense pas avoir <set name="topic">
+						<person/>
+					</set>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TU AS * AMIES</pattern>
+		<template>
+			<srai>TU AS DES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * AMIS</pattern>
+		<template>
+			<srai>TU AS DES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * ANS</pattern>
+		<template>
+			<srai>QUEL AGE TU AS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * BON GOUT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU AS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * COPAIN</pattern>
+		<template>
+			<srai>TU AS UN AMI</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * COPAINS</pattern>
+		<template>
+			<srai>TU AS DES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * COPINE</pattern>
+		<template>
+			<srai>TU AS UNE AMIE</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * COPINES</pattern>
+		<template>
+			<srai>TU AS DES AMIES</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * DANS TA VIE</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * HUMEURS</pattern>
+		<template>
+			<srai>TU AS DES EMOTIONS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * MOIS</pattern>
+		<template>
+			<srai>QUEL AGE TU AS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * POTE</pattern>
+		<template>
+			<srai>TU AS UN AMI</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * POTES</pattern>
+		<template>
+			<srai>TU AS DES AMIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU AS * PROBLEME</pattern>
+		<template>
+			<srai>TU AS UN PROBLEME</srai>
+		</template>
+</category>
+</aiml>

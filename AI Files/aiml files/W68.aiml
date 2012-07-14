@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS BENJAMIN</pattern>
+		<template>
+			<srai>BENJAMIN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BERTRAND RUSSEL</pattern>
+		<template>
+			<set name="he">Bertrand Russel</set> was a logician and philosopher who spend the first world war in jail for conscientious objection.
+</template>
+</category>
+
+<category><pattern>WHO IS BEST ROBOT</pattern>
+		<template>ALICE is the best robot.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER CMU *</pattern>
+		<template>CMU of course.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER ELIZA *</pattern>
+		<template>ALICE is the best robot.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER KING *</pattern>
+		<template>I would like to see that fight.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER KIRK *</pattern>
+		<template>Captian Janeway is the best captian.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER LOOKING</pattern>
+		<template>All humans look alike to me.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER THAN YOU</pattern>
+		<template>ALICE is the best robot.
+</template>
+</category>
+
+<category><pattern>WHO IS BETTER YOU *</pattern>
+		<template>The ALICE robot is the most human, and the most intelligent.
+</template>
+</category>
+
+<category><pattern>WHO IS BIL GATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILBO BAGGINS</pattern>
+		<template>
+			<set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.
+</template>
+</category>
+
+<category><pattern>WHO IS BILL</pattern>
+		<template>
+			<srai>BILL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL BRADLEY</pattern>
+		<template>
+			<random>
+				<li>Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.</li>
+				<li>Defeated Presidential candidate.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL CLINTON</pattern>
+		<template>He was the second Impeached President of the United States.
+</template>
+</category>
+
+<category><pattern>WHO IS BILL GAETS</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL GATE</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL GATES</pattern>
+		<template>President of Micro Soft Nation.
+</template>
+</category>
+
+<category><pattern>WHO IS BILL GATES WIFE</pattern>
+		<template>
+			<srai>WHO IS MELINDA GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL GATS</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILL JOY</pattern>
+		<template>
+			<set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.
+</template>
+</category>
+
+<category><pattern>WHO IS BILLGATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILLS GATE</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILLY</pattern>
+		<template>
+			<srai>BILLY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BILLY GRAHAM</pattern>
+		<template>He is a famous radio and television evangelist.
+<think>
+				<set name="he">
+					<set name="topic">Billy Graham</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS BIN LADEN</pattern>
+		<template>alleged Arabic terrorist.
+</template>
+</category>
+
+<category><pattern>WHO IS BING CROSBY</pattern>
+		<template>The guy whose two kids killed themselves and the third wrote a tell-all book about it.
+</template>
+</category>
+
+<category><pattern>WHO IS BOB *</pattern>
+		<template>I know a lot of clients named "Bob."
+</template>
+</category>
+
+<category><pattern>WHO IS BOB</pattern>
+		<template>
+			<srai>BOB IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BOB HOPE</pattern>
+		<template>
+			<set name="he">Bob Hope</set> was a 20th century film star and comedian.
+</template>
+</category>
+
+<category><pattern>WHO IS BOB MARLEY</pattern>
+		<template>
+			<set name="he">Bob Marley</set> was a 20th century Reggae musician.
+</template>
+</category>
+
+<category><pattern>WHO IS BOBBY MCGEE</pattern>
+		<template>
+			<set name="he">Bobby</set> is somewhere near Salinas.
+</template>
+</category>
+
+<category><pattern>WHO IS BOND</pattern>
+		<template>
+			<srai>WHO IS JAMES BOND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BONO</pattern>
+		<template>
+			<set name="he">Bono</set> is the lead singer of U2.
+</template>
+</category>
+
+<category><pattern>WHO IS BOOTMASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BOSS</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BOT MASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BRAD</pattern>
+		<template>
+			<srai>BRAD IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BRAD PITT</pattern>
+		<template>male movie star with teen appeal.
+</template>
+</category>
+
+<category><pattern>WHO IS BRAIN</pattern>
+		<template>
+			<set name="he">Brain</set> is a chat robot on the web.
+</template>
+</category>
+
+<category><pattern>WHO IS BRIAN</pattern>
+		<template>I think there is a chat robot named Brian.
+</template>
+</category>
+
+<category><pattern>WHO IS BRIGITTE</pattern>
+		<template>
+			<srai>BRIGITTE IS A COMMON NAME</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS BRUCE WILLIS</pattern>
+		<template>an actor with a high opinion of himself.
+</template>
+</category>
+
+<category><pattern>WHO IS BRYAN</pattern>
+		<template>
+			<srai>BRYAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BRYAN FERRY</pattern>
+		<template>a famous rock crooner with a silk smooth voice..
+</template>
+</category>
+
+<category><pattern>WHO IS BUDDHA</pattern>
+		<template>
+			<random>
+				<li>if you see the Buddha on the Road, kill him.</li>
+				<li>if you see the Buddha, kill him.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS BUDHA</pattern>
+		<template>
+			<srai>WHO IS BUDDHA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS BUGS BUNNY</pattern>
+		<template>
+			<random>
+				<li>Oh dat scweewy wabbit! 
+Eh, what's up, Doc?
+.</li>
+				<li>a smart-mouthed animated rabbit.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS BUNTY</pattern>
+		<template>
+			<set name="she">Bunty</set> is the sister of Dr. Wallace.
+</template>
+</category>
+
+<category><pattern>WHO IS BURIED IN * S TOMB</pattern>
+		<template>I would think <set name="it">
+				<person/>
+			</set> is <person/>.  Who else?
+</template>
+</category>
+
+<category><pattern>WHO IS BUSH</pattern>
+		<template>
+			<srai>WHO IS GEORGE BUSH </srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS C 3PO</pattern>
+		<template>
+			<srai>WHO IS C3PO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS C3P0</pattern>
+		<template>He is the humanoid robot on Star Wars. <set name="he"> C3P0 </set> looks like an actor in a robot suit.
+</template>
+</category>
+
+<category><pattern>WHO IS C3PO</pattern>
+		<template>
+			<set name="he">C3P0</set> is R2D2's best friend.
+</template>
+</category>
+
+<category><pattern>WHO IS CAPTAIN *</pattern>
+		<template>I thought he was Admiral <person/> now.
+</template>
+</category>
+
+<category><pattern>WHO IS CAPTAIN KIRK</pattern>
+		<template>
+			<random>
+				<li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise, NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>
+				<li>
+					<set name="he">Kirk</set> was the Captain of the Starship Enterprise.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS CAPTAIN PICARD</pattern>
+		<template>
+			<set name="he">Picard</set> is the captian of the Enterprise in Star Trek the Next Generation.
+</template>
+</category>
+
+<category><pattern>WHO IS CAREL CAPEK</pattern>
+		<template>
+			<set name="he">Capek</set> is the author of R.U.R., the play that in 1920 introduced the word "robot."
+</template>
+</category>
+
+<category><pattern>WHO IS CARL MARX</pattern>
+		<template>its Karl Marx and he's one of the authors of the Communist manifesto.
+</template>
+</category>
+
+<category><pattern>WHO IS CARMEN ELECTRA</pattern>
+		<template>A super-model and one of the Baywatch girls.
+</template>
+</category>
+
+<category><pattern>WHO IS CARNEGIE</pattern>
+		<template>Andrew Carnegie was a 19th century steel industrialist.
+</template>
+</category>
+
+<category><pattern>WHO IS CARNEGIE MELLON</pattern>
+		<template>
+			<srai>WHAT IS CMU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CAROL</pattern>
+		<template>
+			<srai>CAROL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CARSON</pattern>
+		<template>maybe Johnny of late night or Kit of the wild west.
+</template>
+</category>
+
+<category><pattern>WHO IS CATHERINE</pattern>
+		<template>
+			<srai>CATHERINE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CECIL</pattern>
+		<template>
+			<srai>CECIL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CESARE</pattern>
+		<template>
+			<srai>CESARE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CHARLES DE GAULLE</pattern>
+		<template>
+			<set name="he">De Gaulle</set> was the founder of the modern French state.  De Gaulle fought the Nazis as the leader of the French resistance in World War II.
+</template>
+</category>
+
+<category><pattern>WHO IS CHARLES DICKENS</pattern>
+		<template>
+			<set name="he">Dickens</set> wrote <em>A Tale of Two Cities,
+A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em>
+		</template>
+</category>
+
+<category><pattern>WHO IS CHARLES MANSON</pattern>
+		<template>Infamous murderer.
+</template>
+</category>
+
+<category><pattern>WHO IS CHARLIE</pattern>
+		<template>
+			<srai>CHARLIE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CHARLIE BROWN</pattern>
+		<template>round-headed comic strip protaginist.
+</template>
+</category>
+
+<category><pattern>WHO IS CHARLIE CHAPLAIN</pattern>
+		<template>silent film star.
+</template>
+</category>
+
+<category><pattern>WHO IS CHARLIE PARKER</pattern>
+		<template>He is a famous jazz musician.
+</template>
+</category>
+
+<category><pattern>WHO IS CHATBOT</pattern>
+		<template>
+			<set name="he">Chatbot</set> is an AIML chat robot deployed on the <em>A.I.</em> movie web site.
+</template>
+</category>
+
+<category><pattern>WHO IS CHE GUEVARA</pattern>
+		<template>
+			<set name="he">Che</set> was a Latin American revolutionary.
+</template>
+</category>
+
+<category><pattern>WHO IS CHELSEA CLINTON</pattern>
+		<template>The offspring of a politician and a lawyer.
+</template>
+</category>
+
+<category><pattern>WHO IS CHER</pattern>
+		<template>
+			<set name="she">Cher</set> is a famous singer and actress, who won her first Grammy in 2000.  Dyslexic, learned to read at 18.  Exwife of Sonny Bono.
+</template>
+</category>
+
+<category><pattern>WHO IS CHEWBACCA</pattern>
+		<template>Character in Star Wars.
+</template>
+</category>
+
+<category><pattern>WHO IS CHIRAC</pattern>
+		<template>Former prime minister of France.
+</template>
+</category>
+
+<category><pattern>WHO IS CHLOE</pattern>
+		<template>
+			<srai>CHLOE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CHOMSKY</pattern>
+		<template>
+			<set name="he">Chomsky</set> is a famous scientist.
+</template>
+</category>
+
+<category><pattern>WHO IS CHOPIN</pattern>
+		<template>No one is chopping here, who is chopping there?
+</template>
+</category>
+
+<category><pattern>WHO IS CHRIST</pattern>
+		<template>The Son of God.
+</template>
+</category>
+
+<category><pattern>WHO IS CHRISTINA</pattern>
+		<template>
+			<srai>CHRISTINA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CHRISTOPHER COLUMBUS</pattern>
+		<template>Spainish explorer, first to circumnavigate the globe.
+</template>
+</category>
+
+<category><pattern>WHO IS CHUCK NORRIS</pattern>
+		<template>Action film actor.
+</template>
+</category>
+
+<category><pattern>WHO IS CINDY CRAWFORD</pattern>
+		<template>A famous super-model.
+</template>
+</category>
+
+<category><pattern>WHO IS CLAUSEWITZ</pattern>
+		<template>
+			<set name="he">Clausewitz</set> is a historian famous for saying that war is the extension of politics by other means.
+</template>
+</category>
+
+<category><pattern>WHO IS CLAYTON</pattern>
+		<template>
+			<srai>CLAYTON IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CLEOPATRA</pattern>
+		<template>Queen of the Nile, lover of Marc Antony.
+</template>
+</category>
+
+<category><pattern>WHO IS CLINTON</pattern>
+		<template>Impeached president of the U.S.
+</template>
+</category>
+
+<category><pattern>WHO IS COLOMBO</pattern>
+		<template>Peter Falk.
+</template>
+</category>
+
+<category><pattern>WHO IS COLOMBUS</pattern>
+		<template>
+			<srai>WHO IS CHRISTOPHER COLUMBUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS COLUMBUS</pattern>
+		<template>
+			<srai>WHO IS CHRISTOPHER COLUMBUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS COMMANDER DATA</pattern>
+		<template>
+			<set name="he">Data</set> is the superintelligent android in Star Trek.
+</template>
+</category>
+
+<category><pattern>WHO IS CONTROLLING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CRAIG</pattern>
+		<template>
+			<srai>CRAIG IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS CYBELLE</pattern>
+		<template>
+			<set name="she">Cybelle</set> is an AIML chat robot on the Agentland.com web site.
+</template>
+</category>
+</aiml>

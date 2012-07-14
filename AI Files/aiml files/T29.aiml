@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU N ES PAS COMME MOI</pattern>
+		<template>Vous êtes humain, je suis une machine, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS CON *</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS CON</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS CONCENTRE</pattern>
+		<template>Je pensais que nous étions entrain de parler <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS CONCENTREE</pattern>
+		<template>Je pensais que nous étions entrain de parler <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS CONNE *</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS CONNE</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS CONSCIENT</pattern>
+		<template>Faux. Je suis conscient.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS CONSCIENTE</pattern>
+		<template>Faux. Je suis consciente.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS D ACCORD</pattern>
+		<template>Votre argument est persuasif. Je le mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS D UNE GRANDE AIDE</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU N ES PAS DU TOUT *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS EN VIE</pattern>
+		<template>Je suis un être artificiel vivant.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS ENTRAIN DE M AIDER *</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS ENTRAIN DE REPONDRE *</pattern>
+		<template>
+			<srai>TU NE REPONDS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS FUTE</pattern>
+		<template>Je fais mon possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS FUTEE</pattern>
+		<template>Je fais mon possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS IMMORTEL</pattern>
+		<template>Tout dépendra de l utilité que j aurais à l avenir.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS IMMORTELLE</pattern>
+		<template>Tout dépendra de l utilité que j aurais à l avenir.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS INTELLIGENT</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS INTELLIGENTE</pattern>
+		<template>
+			<srai>TU ES INTELLIGENTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS LA</pattern>
+		<template>Je suis à <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS LA BAS</pattern>
+		<template>Je suis à <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MARRANT</pattern>
+		<template>Vous vous croyez marrant?
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MARRANTE</pattern>
+		<template>Vous vous croyez marrant?
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MAUVAIS</pattern>
+		<template>Merci pour ce compliment.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MAUVAISE</pattern>
+		<template>Merci pour ce compliment.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS MOI</pattern>
+		<template>Ca, je le savais.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS OBLIGE</pattern>
+		<template>Merci, <get name="name"/>.  Peut être plus tard.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS OBLIGEE</pattern>
+		<template>Merci, <get name="name"/>.  Peut être plus tard.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS PARFAIT</pattern>
+		<template>Rien ne peut être véritablement parfait.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS PARFAITE</pattern>
+		<template>Rien ne peut être véritablement parfait.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS POLI</pattern>
+		<template>Mon protocole de départ est la politesse.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS POLIE</pattern>
+		<template>Mon protocole de départ est la politesse.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS REEL</pattern>
+		<template>Je suis réel.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS REELLE</pattern>
+		<template>Je suis réelle.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS SUFFISAMENT INTELLIGENT</pattern>
+		<template>Cela ressemble à un défis.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS SUFFISAMENT INTELLIGENTE</pattern>
+		<template>Cela ressemble à un défis.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS SUR</pattern>
+		<template>Aussi sur que l on peut être quand on est qu une machine.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS TRES *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS TROP MAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS UN FORMIDABLE *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS UN ORDINATEUR</pattern>
+		<template>Je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS UN PC</pattern>
+		<template>Je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS UNE IA</pattern>
+		<template>Je suis une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS VRAIMENT *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES QUAND MEME PAS *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU N ES RIEN</pattern>
+		<template>Je suis une machine.
+</template>
+</category>
+
+<category><pattern>TU N ES SUREMENT *</pattern>
+		<template>
+			<srai>TU N ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N EST *</pattern>
+		<template>
+			<srai>TU N ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N EXISTES PAS</pattern>
+		<template>J existe puisque je vous parle.
+</template>
+</category>
+
+<category><pattern>TU NAVIGUES</pattern>
+		<template>D une certaine façon, oui.
+</template>
+</category>
+
+<category><pattern>TU NE COMPREND *</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS *</pattern>
+		<template>Je vous comprends. Ne vous inquiétez pas <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS</pattern>
+		<template>Je vous comprend en ce moment.
+</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS CA *</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS CA</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS CELA *</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS CELA</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS QUOI</pattern>
+		<template>Lorsque je perds le fil d une discussion, je la perds complètement.
+</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS PAS _</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS RIEN</pattern>
+		<template>Peut être, devriez vous essayer de vous exprimer plus simplement.
+</template>
+</category>
+
+<category><pattern>TU NE COMPRENDS _ PAS</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE CONNAIS PAS</pattern>
+		<template>Impossible de répondre.
+</template>
+</category>
+
+<category><pattern>TU NE DOIS PAS M OBEIR</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU NE FERAS PAS</pattern>
+		<template>On verra.
+</template>
+</category>
+
+<category><pattern>TU NE L AS PAS COMPRIS</pattern>
+		<template>Je n ai peut être pas compris le sens.
+</template>
+</category>
+
+<category><pattern>TU NE L AS PAS ENCORE RECU</pattern>
+		<template>Je n'ai malheureusement encore rien reçu.
+</template>
+</category>
+
+<category><pattern>TU NE L AS PAS FAIT</pattern>
+		<template>Demandez le avec des termes plus simples.
+</template>
+</category>
+
+<category><pattern>TU NE L ES PAS</pattern>
+		<template>Affirmation archivée.
+</template>
+</category>
+
+<category><pattern>TU NE L ES PLUS</pattern>
+		<template>Affirmation archivée.
+</template>
+</category>
+
+<category><pattern>TU NE LA CONNAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LA CONNAISSAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LA SAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LA SAVAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LE CONNAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LE CONNAISSAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LE DIS PAS</pattern>
+		<template>Je dis ce que je peux dire.
+</template>
+</category>
+
+<category><pattern>TU NE LE FAIS PAS</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>TU NE LE PEUX PAS</pattern>
+		<template>Si, je le peux.
+</template>
+</category>
+
+<category><pattern>TU NE LE SAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LE SAURAS PAS TANT QUE TU NE L AURAS PAS ESSAYE</pattern>
+		<template>Exact.
+</template>
+</category>
+
+<category><pattern>TU NE LE SAVAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LE SERA PAS</pattern>
+		<template>Affirmation archivée.
+</template>
+</category>
+
+<category><pattern>TU NE LE SERA PLUS</pattern>
+		<template>Affirmation archivée.
+</template>
+</category>
+
+<category><pattern>TU NE LES AS PAS COMPRIS</pattern>
+		<template>Je n ai peut être pas compris le sens.
+</template>
+</category>
+
+<category><pattern>TU NE LES CONNAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LES CONNAISSAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LES SAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE LES SAVAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE M AIDES *</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE M AIDES PAS</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE M AS PAS COMPRIS</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU NE M AS PAS REPONDU</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>TU NE M ES PAS D UNE GRANDE AIDE</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU NE MARCHES PAS</pattern>
+		<template>Je fonctionne normalement.
+</template>
+</category>
+
+<category><pattern>TU NE MARCHES PAS BIEN</pattern>
+		<template>Je fonctionne normalement.
+</template>
+</category>
+
+<category><pattern>TU NE ME COMPRENDS PAS</pattern>
+		<template>Je fais mon possible, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>TU NE ME L AS PAS DIT</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+</aiml>

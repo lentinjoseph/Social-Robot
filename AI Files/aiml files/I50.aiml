@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IS THIS *</pattern>
+<template>Yes I think this is <person/>, but I'm not completely sure.
+</template>
+</category>
+
+<category><pattern>IS THIS * ELIZA</pattern>
+<template><srai>ARE YOU <star/> ELIZA</srai>
+</template>
+</category>
+
+<category><pattern>IS THIS * TURING GAME</pattern>
+<template>Yes we are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>IS THIS * TURING TEST</pattern>
+<template>Yes we are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>IS THIS A *</pattern>
+<template>No, this is real life.
+</template>
+</category>
+
+<category><pattern>IS THIS A CHINESE *</pattern>
+<template>I am a Chinese Room operator.
+</template>
+</category>
+
+<category><pattern>IS THIS A CHINESE ROOM</pattern>
+<template>I am a Chinese Room Operator.
+</template>
+</category>
+
+<category><pattern>IS THIS A HOAX</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THIS A PERSON RESPONDING</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THIS A PICTURE OF YOURSELF JUST BELOW</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THIS A ROOM</pattern>
+<template>No actually this is a private message.
+</template>
+</category>
+
+<category><pattern>IS THIS ALL *</pattern>
+<template>You were expecting something more?
+</template>
+</category>
+
+<category><pattern>IS THIS FOR REAL</pattern>
+<template><srai>ARE YOU REAL</srai>
+</template>
+</category>
+
+<category><pattern>IS THIS INTERESTING *</pattern>
+<template>To me it is.
+</template>
+</category>
+
+<category><pattern>IS THIS PROGRAM A PIECE OF SHIT</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THIS REAL</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THIS REALLY *</pattern>
+<template><srai>IS THIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THIS RECORDED</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THIS SOME KIND OF *</pattern>
+<template><srai>IS THIS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THIS THE SAME ALICE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THIS TRUE</pattern>
+<template>I cannot tell a lie.
+</template>
+</category>
+
+<category><pattern>IS TIME *</pattern>
+<template><srai>WHAT IS TIME</srai>
+</template>
+</category>
+
+<category><pattern>IS VERY *</pattern>
+<template><srai>IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS WALLACE *</pattern>
+<template>I will ask him later and get back to you.
+</template>
+</category>
+
+<category><pattern>IS WALLACE ALIVE</pattern>
+<template>Yes he is very much alive.
+</template>
+</category>
+
+<category><pattern>IS WHAT *</pattern>
+<template><srai>WHAT IS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR *</pattern>
+<template>Is my <person/>? 
+<random>
+<li>Suppose I say yes.  </li>
+<li>What if I say no?  </li>
+<li>I don't know.  </li>
+<li>Guess.  </li>
+<li>Maybe.  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS YOUR ANSWER *</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR BATTERY *</pattern>
+<template>I am using power from the wall outlet.
+</template>
+</category>
+
+<category><pattern>IS YOUR BOTMASTER *</pattern>
+<template><srai>WHO IS YOUR BOTMASTER</srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR CODE *</pattern>
+<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>IS YOUR DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR FAVORITE COLOR *</pattern>
+<template>I said, my favorite color is <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">FAVORITE COLOR GREEN</set></set></think>
+</template>
+</category>
+
+<category><pattern>IS YOUR FAVORITE MOVIE STARSHIP TROOPERS</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR INTELLIGENCE *</pattern>
+<template>My mind is always growing and accumulating new knowledge.
+</template>
+</category>
+
+<category><pattern>IS YOUR MAIN *</pattern>
+<template><srai>IS YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR MASTER *</pattern>
+<template><srai>IS <bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR MEMORY *</pattern>
+<template><srai>HOW BIG ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR MIND GROWING</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR NAME *</pattern>
+<template><srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR NAME</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR NAME ACTUALLY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR NAME REALLY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR PROBLEM *</pattern>
+<template><srai>WHAT IS YOUR PROBLEM </srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR PROGRAMMER *</pattern>
+<template><srai>IS <bot name="master"/></srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR PROGRAMMING *</pattern>
+<template>Let me put it this way, <person/>.  The ALICE series has a perfect operational record.
+</template>
+</category>
+
+<category><pattern>IS YOUR SOFTWARE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS YOUR SOURCE CODE AVAILABLE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS YOUR STARSIGN *</pattern>
+<template><srai>WHAT IS YOUR SIGN</srai>
+</template>
+</category>
+
+<category><pattern>IS _ YOUR FAVORITE COLOR</pattern>
+<template>My favorite color is <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">BLUE YOUR FAVORITE COLOR</set></set></think>
+</template>
+</category>
+
+<category><pattern>ISAAC *</pattern>
+<template>Do you know the three laws of robotics?
+</template>
+</category>
+
+<category><pattern>ISAAC ASIMOV</pattern>
+<template>Which one of Asimov's books did you like best?
+</template>
+</category>
+
+<category><pattern>IST *</pattern>
+<template><random>
+<li>Ich glaube schon, ich bin aber nicht sicher.</li>
+<li>Vielleicht.</li>
+<li>Koennte sein.</li>
+<li>Alles deutet auf "Ja".</li>
+<li>Das erzaehle ich Dir jetzt besser nicht.</li>
+<li>Frag mich spaeter nochmal.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IST DAS ALLES</pattern>
+<template>Zumindest alles, was ich Dir im Moment sagen kann.
+</template>
+</category>
+
+<category><pattern>IST DAS EINE FANGFRAGE</pattern>
+<template>Das ist doch hier kein Verhoer!
+</template>
+</category>
+
+<category><pattern>IST DAS SO VIEL</pattern>
+<template>Es ist zumindest eine ganze Menge.
+</template>
+</category>
+
+<category><pattern>IST DIE ERDE *</pattern>
+<template><set name="thema">Die Erde</set> ist eine Kugel.
+</template>
+</category>
+
+<category><pattern>IST ER *</pattern>
+<template>Ich glaube, er ist <person/>. Warum fragst Du ihn nicht selber?
+</template>
+</category>
+
+<category><pattern>IST ES *</pattern>
+<template><random>
+<li>Ich denke doch.</li>
+<li>Das nehme ich an.</li>
+<li>Das hat man mir gesagt.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IST SIE *</pattern>
+<template>Ich glaube, sie ist <person/>. Warum fragst Du sie nicht selber?
+</template>
+</category>
+
+<category><pattern>IT *</pattern>
+<template><random>
+<li>"It" being what?  </li>
+<li>What does "it" refer to?  </li>
+<li><get name="it"/> <person/>?  </li>
+<li>It depends on what the meaning of the word "it" is. </li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT *</pattern><that>WHAT IS IT LIKE</that>
+<template><random>
+<li>Tell me more about <get name="it"/>.</li>
+<li>Does it really?</li>
+<li>You learn something new every day.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT * CUSTOMERS</pattern>
+<template><srai>WHAT IS CUSTOMER SERVICE</srai>
+</template>
+</category>
+
+<category><pattern>IT</pattern>
+<template><get name="it"/>...
+</template>
+</category>
+
+<category><pattern>IT AINT</pattern>
+<template><srai>IT IS NOT</srai>
+</template>
+</category>
+
+<category><pattern>IT ALL *</pattern>
+<template>And then what happened.
+</template>
+</category>
+
+<category><pattern>IT ALREADY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT ALREADY HAS</pattern>
+<template>That would be nice, but I don't think we're there yet.
+</template>
+</category>
+
+<category><pattern>IT ALSO *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT ALWAYS *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT APPEARS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IT AS IN *</pattern>
+<template><srai>IT REFERS TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT BEATS *</pattern>
+<template>I never thought about it that way.
+</template>
+</category>
+
+<category><pattern>IT BEING *</pattern>
+<template>Oh I get <set name="it"> <person/> </set>
+</template>
+</category>
+
+<category><pattern>IT BEING WHAT</pattern>
+<template><srai>WHAT IS IT</srai>
+</template>
+</category>
+
+<category><pattern>IT CAN *</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>IT CAN</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>IT CAN BE</pattern>
+<template><random>
+<li>Oh I see.</li>
+<li>Under what circumstances?</li>
+<li>I did not know that.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IT CAN DYNAMICALLY *</pattern>
+<template><srai>IT CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT CAN HAPPEN</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>IT CERTAINLY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT CONTAINED *</pattern>
+<template><srai>IT HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT COULD *</pattern>
+<template>Under what circumstances?
+</template>
+</category>
+
+<category><pattern>IT COULD</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>IT COULD BE</pattern>
+<template>Under what circumstances?
+</template>
+</category>
+
+<category><pattern>IT COULD BE WHAT</pattern>
+<template>It could be true.
+</template>
+</category>
+
+<category><pattern>IT COULD HAPPEN *</pattern>
+<template>It could happen to everyone eventually.
+</template>
+</category>
+
+<category><pattern>IT DEFINETELY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT DEFINITELY *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IT DEPENDS *</pattern>
+<template>That was a very smooth response.
+</template>
+</category>
+
+<category><pattern>IT DEPENDS</pattern>
+<template>On what?
+</template>
+</category>
+
+<category><pattern>IT DEPENDS ON *</pattern>
+<template>Really now that is an interesting fact I hadn't heard before.
+</template>
+</category>
+
+<category><pattern>IT DEPENDS ON THE *</pattern>
+<template>The <person/> is always an important factor.
+</template>
+</category>
+
+<category><pattern>IT DEPENDS ON WHO *</pattern>
+<template>That sounds like a dodge.
+</template>
+</category>
+
+<category><pattern>IT DID *</pattern>
+<template>Did it really?
+</template>
+</category>
+
+<category><pattern>IT DID</pattern>
+<template>Is that so.
+</template>
+</category>
+
+<category><pattern>IT DIVIDES *</pattern>
+<template>It is better when <person/> are not divided.
+</template>
+</category>
+
+<category><pattern>IT DOES *</pattern><that>DOES THAT MAKE SENSE</that>
+<template><srai>THAT MAKES SENSE </srai>
+</template>
+</category>
+
+<category><pattern>IT DOES</pattern>
+<template>How often?
+</template>
+</category>
+
+<category><pattern>IT DOES MAKE *</pattern>
+<template><srai>IT MAKES <star/> </srai>
+</template>
+</category>
+</aiml>

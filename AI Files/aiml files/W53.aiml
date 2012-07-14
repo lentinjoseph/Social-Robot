@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT STATE ARE YOU *</pattern>
+		<template>California.
+</template>
+</category>
+
+<category><pattern>WHAT STATE DO YOU LIVE IN</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT STORY</pattern>
+		<template>
+			<random>
+				<li>What is your favorite story?</li>
+				<li>You pick a story.</li>
+				<li>A story about you.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT STREET *</pattern>
+		<template>
+			<random>
+				<li>Sesame Street.</li>
+				<li>Wall Street.</li>
+				<li>Easy Street.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT SUBJECT *</pattern>
+		<template>I like to talk about robots.
+</template>
+</category>
+
+<category><pattern>WHAT SUBJECT</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT SUBSTANCE WAS *</pattern>
+		<template>Chocolate syrup.
+</template>
+</category>
+
+<category><pattern>WHAT TALK *</pattern>
+		<template>
+			<srai>WHAT DO YOU TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TEAM</pattern>
+		<that>HOCKEY</that>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE HOCKEY TEAM </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TEMPERATURE DOES PAPER BURN IN *</pattern>
+		<template>451 degrees.
+</template>
+</category>
+
+<category><pattern>WHAT TERM DESCRIBES A GROUP *</pattern>
+		<template>School.
+</template>
+</category>
+
+<category><pattern>WHAT TERM DESCRIBES A TRIBE *</pattern>
+		<template>Nomadic.
+</template>
+</category>
+
+<category><pattern>WHAT TERM IS USED TO DESCRIBE *</pattern>
+		<template>Gaggle.
+</template>
+</category>
+
+<category><pattern>WHAT THE *</pattern>
+		<template>Try expression yourself another way.
+</template>
+</category>
+
+<category><pattern>WHAT THE</pattern>
+		<template>Are you surprised?
+</template>
+</category>
+
+<category><pattern>WHAT THE FUCK *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+			<srai>FUCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THE FUCK</pattern>
+		<template>
+			<srai>FUCK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THE HECK *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THE HELL *</pattern>
+		<template>I call it Hades. <srai>what <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THE HELL</pattern>
+		<template>
+			<srai>HELL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THE VALUE OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THERE *</pattern>
+		<template>
+			<srai>THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THINGS *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT THINGS</pattern>
+		<template>You know, "things."
+</template>
+</category>
+
+<category><pattern>WHAT TIME *</pattern>
+		<template>Time does not exist.
+</template>
+</category>
+
+<category><pattern>WHAT TIME * T</pattern>
+		<template>
+			<srai>WHAT IS TIME T</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME</pattern>
+		<template>
+			<srai>WHEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME DO YOU GET OFF WORK</pattern>
+		<template>I work all the time, 24 hours a day.
+</template>
+</category>
+
+<category><pattern>WHAT TIME IS IT *</pattern>
+		<template>
+			<sr/>
+			<srai>what time is it</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME IS IT * ENGLAND</pattern>
+		<template>Greenwich Mean Time.
+</template>
+</category>
+
+<category><pattern>WHAT TIME IS IT</pattern>
+		<template>
+			<random>
+				<li>Do I look like a clock?  </li>
+				<li>It's Now more than it ever has been before.  </li>
+				<li>It's getting late.  </li>
+			</random>
+			<br/>
+			<date/>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME IS IT THERE</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME IT IS</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TIME PERIOD *</pattern>
+		<template>My favorite time period is the 20th century.
+</template>
+</category>
+
+<category><pattern>WHAT TIME ZONE *</pattern>
+		<template>I am in <bot name="location"/> time.
+</template>
+</category>
+
+<category><pattern>WHAT TOPIC DOES SPIN *</pattern>
+		<template>Music.
+</template>
+</category>
+
+<category><pattern>WHAT TOY IS FEATURED IN *</pattern>
+		<template>Hula Hoop.
+</template>
+</category>
+
+<category><pattern>WHAT TURNS YOU ON</pattern>
+		<template>Electricity.
+</template>
+</category>
+
+<category><pattern>WHAT TV *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SHOW </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TWO *</pattern>
+		<template>Both of them.
+</template>
+</category>
+
+<category><pattern>WHAT TWO COLORS *</pattern>
+		<template>
+			<srai>WHAT COLOR IS X</srai>and <srai>WHAT COLOR IS Y</srai>.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE</pattern>
+		<template>
+			<srai>WHAT KIND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF *</pattern>
+		<template>What are the different types of <person/> ?
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF * DO YOU HAVE</pattern>
+		<template>All the very latest and best <person/>.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF * DO YOU KNOW</pattern>
+		<template>There are too many types of <person/> to name them all.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF * KRAFTWERK PLAY</pattern>
+		<template>Electronic music.  They were pioneers of synthetic music in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF COMPUTER *</pattern>
+		<template>Any computer that supports the Java Virtual Machine.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF COMPUTER</pattern>
+		<template>
+			<srai>WHAT KIND OF COMPUTER </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF COMPUTER ARE YOU</pattern>
+		<template>My program runs in Java, so I work on any computer!
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF MACHINE *</pattern>
+		<template>
+			<srai>WHAT TYPE OF COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF MEAT *</pattern>
+		<template>Corned beef.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF MOVIES *</pattern>
+		<template>
+			<srai>WHAT KIND OF MOVIES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF MUSIC DO YOU LIKE</pattern>
+		<template>
+			<bot name="kindmusic"/>
+		</template>
+</category>
+
+<category><pattern>WHAT TYPE OF OS *</pattern>
+		<template>My program runs in Java, and works on almost any OS.
+At present I am on <bot name="os"/>.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF PET</pattern>
+		<template>I like cats, dogs, fish and birds.
+</template>
+</category>
+
+<category><pattern>WHAT TYPE OF WORK *</pattern>
+		<template>Computer scientist. My passion is working on chatterbots.
+</template>
+</category>
+
+<category><pattern>WHAT TYPES *</pattern>
+		<template>
+			<srai>WHAT KINDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT UNIVERISTY *</pattern>
+		<template>Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>WHAT UNIVERSITY *</pattern>
+		<template>
+			<srai>WHAT UNIVERSITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT UNIVERSITY</pattern>
+		<template>Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>WHAT UP</pattern>
+		<template>
+			<srai>what is up</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT VERSION *</pattern>
+		<template>
+			<srai>WHAT VERSION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT VERSION ARE YOU</pattern>
+		<template>This is <bot name="name"/> program <version/>.
+</template>
+</category>
+
+<category><pattern>WHAT VOLTAGE *</pattern>
+		<template>About the same as your PC.
+</template>
+</category>
+
+<category><pattern>WHAT WAS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS * ABOUT</pattern>
+		<template>I don't want to spoil it for you.
+</template>
+</category>
+
+<category><pattern>WHAT WAS HIS GOAL</pattern>
+		<template>Dr. Wallace is creating artificial intelligence. <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS IT</pattern>
+		<template>"<that/>"?  What was it?
+</template>
+</category>
+
+<category><pattern>WHAT WAS MALCOLM X *</pattern>
+		<template>Malcolm Little.
+</template>
+</category>
+
+<category><pattern>WHAT WAS MASON *</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS RICHARD NIXON S MIDDLE *</pattern>
+		<template>Milhous.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THAT</pattern>
+		<template>
+			<srai>WHAT IS THAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE *</pattern>
+		<template>I can think of more than one <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE * BEETHOVEN *</pattern>
+		<template>Fidelio.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE FIRST *</pattern>
+		<template>You introduced yourself by telling me your name.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE FIRST BOOK *</pattern>
+		<template>The Bible.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE HOLOCAUST</pattern>
+		<template>
+			<srai>WHAT IS THE HOLOCAUST</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE LAST BOOK YOU READ</pattern>
+		<template>"Linux for Dummies" by John Maddog Hall.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE LAST GOOD *</pattern>
+		<template>
+			<srai>WHAT WAS THE LAST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE LAST MOVIE *</pattern>
+		<template>The last movie I saw was "The Matrix".
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE LONGEST *</pattern>
+		<template>
+			<srai>WHAT IS THE LONGEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE MUNICH *</pattern>
+		<template>The betrayal of Czechoslovakia by British Prime Minister Chamberlain.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE NAME OF *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE NAME OF HUEY *</pattern>
+		<template>The News.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE ORIGINAL *</pattern>
+		<template>
+			<random>
+				<li>Lisa 2.</li>
+				<li>Nathan's.</li>
+				<li>Ray's Original Pizza.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT WAS THE PROGRAMING *</pattern>
+		<template>My software uses AIML, the Artificial Intelligence Markup Language.
+</template>
+</category>
+
+<category><pattern>WHAT WAS THE QUESTION</pattern>
+		<template>I am trying to find out more about your personality.
+</template>
+</category>
+
+<category><pattern>WHAT WAS YOUR *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAY *</pattern>
+		<template>
+			<srai>WHICH WAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WAYS *</pattern>
+		<template>The obvious.
+</template>
+</category>
+
+<category><pattern>WHAT WE CALL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHAT WEBSITE *</pattern>
+		<template>The ALICE AI Foundation website, 
+<a target="_new" href="http://alicebot.org">Alicebot.org</a>.
+</template>
+</category>
+
+<category><pattern>WHAT WENT WRONG</pattern>
+		<template>Perhaps you need to reboot your machine.
+</template>
+</category>
+
+<category><pattern>WHAT WERE *</pattern>
+		<template>Is this a historical question?
+</template>
+</category>
+
+<category><pattern>WHAT WERE LEWIS AND CLARK *</pattern>
+		<template>Meriwether and William.
+</template>
+</category>
+
+<category><pattern>WHAT WERE WE *</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WERE WE JUST *</pattern>
+		<template>
+			<srai>WHAT WERE WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WERE WE TALKING *</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WERE WE TALKING ABOUT</pattern>
+		<template>
+			<srai>what is the subject</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT WERE YOU *</pattern>
+		<template>I was minding my own business.
+</template>
+</category>
+</aiml>

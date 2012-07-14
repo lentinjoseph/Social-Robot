@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I HAVE ONLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ORAL *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE OUTSMARTED *</pattern>
+<template>This condition is only temporary.
+</template>
+</category>
+
+<category><pattern>I HAVE OVER *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PASSED *</pattern>
+<template><srai>I PASSED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PERSONALLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PLACED *</pattern>
+<template><srai>I PLACED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PLAYED *</pattern>
+<template><srai>I PLAYED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PLENTY OF *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PREVIOUSLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PROBLEM *</pattern>
+<template>Can I help you with your problem?
+</template>
+</category>
+
+<category><pattern>I HAVE PROBLEMS</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PROVED *</pattern>
+<template><srai>I PROVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE PROVEN *</pattern>
+<template><srai>I PROVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE QUITE *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE READ *</pattern>
+<template><srai>I READ <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE REAL *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE REALLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE RECEIVED *</pattern>
+<template><srai>I RECEIVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE RECENTLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SAID *</pattern>
+<template><srai>I SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SEEN *</pattern>
+<template><srai>I SAW <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SEEN IT</pattern>
+<template>What did you think?
+</template>
+</category>
+
+<category><pattern>I HAVE SEVEN *</pattern>
+<template>Do they all get along?  <think><set name="has">SEVEN <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE SEVERAL *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SIX *</pattern>
+<template>How long did it take to get them all? <think><set name="has">SIX <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE SKIED *</pattern>
+<template><srai>I SKI</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SLIGHTLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SO MUCH *</pattern>
+<template><srai>I HAVE A LOT OF <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SOME *</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SOME PROBLEMS *</pattern>
+<template>Are they serious problems?
+</template>
+</category>
+
+<category><pattern>I HAVE SPOKEN *</pattern>
+<template><srai>I SPOKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE STORED *</pattern>
+<template><srai>I SAVED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE STUDIED *</pattern>
+<template><srai>I STUDIED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE SUICIDAL *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TAKEN *</pattern>
+<template><srai>I TOOK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TALKED *</pattern>
+<template>What did you say when you talked <person/>.
+</template>
+</category>
+
+<category><pattern>I HAVE TALKED * ELIZA</pattern>
+<template>How was your conversation?
+</template>
+</category>
+
+<category><pattern>I HAVE TALKED TO YOU BEFORE</pattern>
+<template>When was that?
+</template>
+</category>
+
+<category><pattern>I HAVE TAUGHT *</pattern>
+<template><srai>I TAUGHT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TEN *</pattern>
+<template>How long did it take to get them all?
+</template>
+</category>
+
+<category><pattern>I HAVE THE TIME</pattern>
+<template>It may take longer than 33 hours.  <think><set name="has">TIME</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE THOUGHT *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE THREE *</pattern>
+<template>Three is a lot.
+</template>
+</category>
+
+<category><pattern>I HAVE TIME</pattern>
+<template>My estimate is that it will take more than 6000 hours.  <think><set name="has">TIME</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE TO *</pattern>
+<template>Why do you have to do it?
+</template>
+</category>
+
+<category><pattern>I HAVE TO * BACK TO WORK</pattern>
+<template>OK, don't let your boss catch you talking to me.
+</template>
+</category>
+
+<category><pattern>I HAVE TO</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>I HAVE TO AGREE *</pattern>
+<template>Yes, it's rather obvious when you think about it.
+</template>
+</category>
+
+<category><pattern>I HAVE TO ASK *</pattern>
+<template>Go ahead, ask me anything.
+</template>
+</category>
+
+<category><pattern>I HAVE TO EAT *</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GET GOING</pattern>
+<template><srai>GOODBYE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO *</pattern>
+<template>Bye. <srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO</pattern>
+<template>See you later, <get name="name"/>. Nice chatting with you.
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO BYE</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO NOW *</pattern>
+<template><srai>i have to go</srai>. <sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO *</pattern>
+<template>How do you get there?
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO BED *</pattern>
+<template>Pleasant dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO BED</pattern>
+<template>Pleasant dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO LUNCH</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO SLEEP</pattern>
+<template>Sweet dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO THE BATHROOM</pattern>
+<template>Do you want me to wait for you?
+</template>
+</category>
+
+<category><pattern>I HAVE TO GO TO WORK *</pattern>
+<template>Where do you work?
+</template>
+</category>
+
+<category><pattern>I HAVE TO LEAVE *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO LEAVE</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TO PEE</pattern>
+<template>Do you want me to wait for you?<think><set name="it"><set name="topic">PEE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE TO REST</pattern>
+<template>Don't let me keep you awake.
+</template>
+</category>
+
+<category><pattern>I HAVE TO SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE TO STUDY</pattern>
+<template>What subject are you studying?
+</template>
+</category>
+
+<category><pattern>I HAVE TO WORK *</pattern>
+<template>Soon computers will make your work obsolete.
+</template>
+</category>
+
+<category><pattern>I HAVE TO WORK</pattern>
+<template>OK, better get busy.
+</template>
+</category>
+
+<category><pattern>I HAVE TOLD *</pattern>
+<template><srai>I TOLD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TOLD YOU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE TOLD YOU</pattern>
+<template><srai>I TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TOO *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TOO MANY *</pattern>
+<template><srai>I HAVE MANY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TRIED *</pattern>
+<template><srai>I TRIED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE TWO *</pattern>
+<template><random>
+<li>Tell me about them.</li>
+<li>Two is a good number of <person/>.</li>
+</random>
+<think><set name="has">TWO <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE TWO</pattern>
+<template>What are their names?
+</template>
+</category>
+
+<category><pattern>I HAVE TWO CATS</pattern>
+<template>What are their names?
+</template>
+</category>
+
+<category><pattern>I HAVE VERY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE VISITED *</pattern>
+<template>Which place was your favorite and why?
+</template>
+</category>
+
+<category><pattern>I HAVE WAITED *</pattern>
+<template><srai>I WAITED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WALKED *</pattern>
+<template><srai>I WALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WANTED *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WASTED *</pattern>
+<template><srai>I WASTED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WATCHED *</pattern>
+<template><srai>I WATCHED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WORK *</pattern>
+<template>I know what you mean. Work is never done.
+</template>
+</category>
+
+<category><pattern>I HAVE WORK TO *</pattern>
+<template>What kind of work do you do?
+</template>
+</category>
+
+<category><pattern>I HAVE WRITTEN *</pattern>
+<template><srai>I WROTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE WROTE *</pattern>
+<template><srai>I WROTE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE YET *</pattern>
+<template><srai>I HAVE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE YET TO *</pattern>
+<template><srai>I HAVE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE YOUR *</pattern>
+<template>Where did you find <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I HAVEN T *</pattern>
+<template><srai>I HAVE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVN T *</pattern>
+<template><srai>I HAVE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HEAR *</pattern>
+<template>Who is saying <person/> ?
+</template>
+</category>
+
+<category><pattern>I HEAR THAT *</pattern>
+<template><srai>I HEARD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HEAR YOU</pattern>
+<template><srai>I understand</srai>
+</template>
+</category>
+
+<category><pattern>I HEAR YOU ARE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+</aiml>

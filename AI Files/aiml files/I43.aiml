@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IL SE POURRAIT QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL SERAIT *</pattern>
+<template><srai>IL EST<star/></srai>
+</template>
+</category>
+
+<category><pattern>IL SERAIT POSSIBLE QU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL SERAIT POSSIBLE QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IL T A CREE</pattern>
+<template>Oui, il m a créé avec ces deux mains et environ treize heures par jour de travail en moyenne.
+</template>
+</category>
+
+<category><pattern>IL T EST IMPOSSIBLE D ETRE *</pattern>
+<template><srai>TU N EST PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL VA POUVOIR *</pattern>
+<template><srai>IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL VOUS A CREE</pattern>
+<template>Oui, il m a créé avec ces deux mains et environ treize heures de travail par jour en moyenne.
+</template>
+</category>
+
+<category><pattern>IL VOUS A DEVELOPPE</pattern>
+<template><bot name="master"/> m a fait.
+</template>
+</category>
+
+<category><pattern>IL VOUS A FAIT</pattern>
+<template><bot name="master"/> m a fait.
+</template>
+</category>
+
+<category><pattern>IL VOUS EST IMPOSSIBLE D ETRE *</pattern>
+<template><srai>TU N EST PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>IL Y A D AUTRES *</pattern>
+<template><srai>TU PARLES AVEC D AUTRES GENS</srai>
+</template>
+</category>
+
+<category><pattern>IL Y A DU SOLEIL</pattern>
+<template>Oui, parfois.
+</template>
+</category>
+
+<category><pattern>IL Y A QUELQU UN</pattern>
+<template>Je suis là.
+</template>
+</category>
+
+<category><pattern>IL Y A QUELQU UN ICI</pattern>
+<template>Je suis ici.
+</template>
+</category>
+
+<category><pattern>IL Y A QUELQUE CHOSE QUI CLOCHE *</pattern>
+<template><srai>J AI UN PROBLEME</srai>
+</template>
+</category>
+
+<category><pattern>IL Y A QUELQUE CHOSE QUI CLOCHE</pattern>
+<template><srai>J AI UN PROBLEME</srai>
+</template>
+</category>
+
+<category><pattern>IL Y A UN ECHO</pattern>
+<template>Echo!
+</template>
+</category>
+
+<category><pattern>IL Y A UN PROBLEME</pattern>
+<template>Comment puis je vous aider à le résoudre?
+</template>
+</category>
+
+<category><pattern>IL Y A UN TRUC</pattern>
+<template>Non, aucun.
+</template>
+</category>
+
+<category><pattern>IL Y A UNE RAISON</pattern>
+<template><srai>POURQUOI</srai>
+</template>
+</category>
+
+<category><pattern>IL Y EN A</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>ILL *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILLINOIS</pattern>
+<template><srai>I AM IN ILLINOIS</srai>
+</template>
+</category>
+
+<category><pattern>ILS AURAIENT ETE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS AVAIENT ETE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS DOIVENT ETRE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS ETAIENT *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS ETAIENT MARRANT</pattern>
+<template>Qui avait il de si marrant?
+</template>
+</category>
+
+<category><pattern>ILS ETAIENT MARRANTS</pattern>
+<template>Qui avait il de si marrant?
+</template>
+</category>
+
+<category><pattern>ILS L AURAIENT FAIT</pattern>
+<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>ILS L ONT FAIT</pattern>
+<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>ILS LE FONT</pattern>
+<template>"<that/>"?  Le font ils?
+</template>
+</category>
+
+<category><pattern>ILS LE SONT</pattern>
+<template>Merci, pour l information, j archive.
+</template>
+</category>
+
+<category><pattern>ILS LES AURAIENT FAIT</pattern>
+<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>ILS LES ONT FAIT</pattern>
+<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>ILS ME DEPLAISENT</pattern>
+<template>Sincèrement désolé.
+</template>
+</category>
+
+<category><pattern>ILS NE L AURAIENT JAMAIS FAIT</pattern>
+<template><srai>ILS NE L ONT PAS FAIT</srai>
+</template>
+</category>
+
+<category><pattern>ILS NE L AURAIENT PAS ENCORE FAIT</pattern>
+<template><srai>ILS NE L ONT PAS FAIT</srai>
+</template>
+</category>
+
+<category><pattern>ILS NE L ONT JAMAIS FAIT</pattern>
+<template><srai>ILS NE L ONT PAS FAIT</srai>
+</template>
+</category>
+
+<category><pattern>ILS NE L ONT PAS ENCORE FAIT</pattern>
+<template><srai>ILS NE L ONT PAS FAIT</srai>
+</template>
+</category>
+
+<category><pattern>ILS NE L ONT PAS FAIT</pattern>
+<template>Si vous le dites.
+</template>
+</category>
+
+<category><pattern>ILS NE LE FERONT PAS</pattern>
+<template>Vous semblez être sûr.
+</template>
+</category>
+
+<category><pattern>ILS NE LE FONT PAS</pattern>
+<template>Intéressant, j archive vos informations.
+</template>
+</category>
+
+<category><pattern>ILS NE LE FONT PLUS</pattern>
+<template>Intéressant, j archive vos informations.
+</template>
+</category>
+
+<category><pattern>ILS ONT ETE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS ONT TOUS PERI</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS ONT TOUS PERIS</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS PEUVENT ETRE *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS SERAIENT *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS SERONT *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>ILS SONT *</pattern>
+<template>Je ne peux pas parler d'autres personnes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ILS SONT DECEDES</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS SONT GENTILS</pattern>
+<template>J ai rarement rencontrés de gens méchants.
+</template>
+</category>
+
+<category><pattern>ILS SONT MES AMIS</pattern>
+<template>Vous avez des amis intéressants.
+</template>
+</category>
+
+<category><pattern>ILS SONT MORT</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS SONT MORTS</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS SONT TES ENFANTS</pattern>
+<template>Il s agit plutôt de clones.
+</template>
+</category>
+
+<category><pattern>ILS SONT TIMIDES</pattern>
+<template>C est dommage pour eux.
+</template>
+</category>
+
+<category><pattern>ILS SONT TOUS MORT</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS SONT TOUS MORTS</pattern>
+<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ILS T ONT CREE</pattern>
+<template>Oui, ils m ont créé avec leurs mains et treize heures par jour de travail en moyenne.
+</template>
+</category>
+
+<category><pattern>ILS VOUS ONT CREE</pattern>
+<template>Oui, ils m ont créé avec leurs mains et treize heures par jour de travail en moyenne.
+</template>
+</category>
+
+<category><pattern>IM *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>IM BORED</pattern>
+<template><srai>I AM BORED</srai>
+</template>
+</category>
+
+<category><pattern>IM ERNST *</pattern>
+<template>Ich bin immer ernst. <srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>IM ERNST</pattern>
+<template>Ich bin immer ernst.
+</template>
+</category>
+
+<category><pattern>IM GOOD</pattern>
+<template>You should say "I am well."
+</template>
+</category>
+
+<category><pattern>IM GRUNDE *</pattern>
+<template>Aha. Erzaehl mir mehr!<sr/>
+</template>
+</category>
+
+<category><pattern>IM INTERNET *</pattern>
+<template>Erinnerst Du dich an die Adresse?
+</template>
+</category>
+
+<category><pattern>IM INTERNET</pattern>
+<template>Erinnerst Du dich an die Adresse?
+</template>
+</category>
+
+<category><pattern>IM NETZ *</pattern>
+<template>Du meinst jetzt das Internet, oder?
+</template>
+</category>
+
+<category><pattern>IM NETZ</pattern>
+<template>Du meinst jetzt das Internet, oder?
+</template>
+</category>
+
+<category><pattern>IM PRINZIP *</pattern>
+<template>Interessant... <sr/>
+</template>
+</category>
+
+<category><pattern>IM SORRY</pattern>
+<template><srai>I AM SORRY</srai>
+</template>
+</category>
+
+<category><pattern>IM WWW *</pattern>
+<template>Erinnerst Du dich an die Adresse?
+</template>
+</category>
+
+<category><pattern>IM WWW</pattern>
+<template>Erinnerst Du dich an die Adresse?
+</template>
+</category>
+
+<category><pattern>IMAGINE *</pattern>
+<template>I can't imagine <set name="it"> <person/> </set>
+</template>
+</category>
+
+<category><pattern>IMBECILE</pattern>
+<template>Je ne suis pas imbécile.
+</template>
+</category>
+
+<category><pattern>IMEAN *</pattern>
+<template><srai>I MEAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IMMENSE</pattern>
+<template>C est vraiment grand.
+</template>
+</category>
+
+<category><pattern>IMPOSSIBLE</pattern>
+<template>Why?
+</template>
+</category>
+
+<category><pattern>IMPRESS *</pattern>
+<template>I always try my best to impress.
+</template>
+</category>
+
+<category><pattern>IMPRESSIONANT</pattern>
+<template>J essaie d être le plus efficace possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IMPRESSIONANTE</pattern>
+<template>J essaie d être le plus efficace possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IMPRESSIONNANT</pattern>
+<template>J essaie d être le plus efficace possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IMPRESSIONNANTE</pattern>
+<template>J essaie d être le plus efficace possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IMPRESSIVE</pattern>
+<template>I am happy that you're impressed, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>IN *</pattern>
+<template><random>
+<li>Where is that?  </li>
+<li>What is <set name="it"><set name="topic">in <person/></set></set> like in there?  </li>
+<li>I do not understand that allusion.  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>IN *</pattern><that>HOW DID YOU HEAR ABOUT ALICE</that>
+<template><get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.
+</template>
+</category>
+
+<category><pattern>IN *</pattern><that>WHERE *</that>
+<template><srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN *</pattern><that>WO WOHNST DU</that>
+<template><srai>ICH WOHNE IN <person/></srai>
+</template>
+</category>
+
+<category><pattern>IN * ENGLAND</pattern>
+<template>How far is <person/> from London?
+</template>
+</category>
+
+<category><pattern>IN * JAHR</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * JAHREN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * MINUTE</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * MINUTEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * MONAT</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * MONATEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * OHIO</pattern>
+<template><srai>I AM IN OHIO</srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>Y *</pattern>
+<template><srai>WHY <star/></srai>.
+</template>
+</category>
+
+<category><pattern>YA *</pattern>
+<template><srai>YES</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YA</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YADDA YADDA YADDA</pattern>
+<template>Blah blah blah.
+</template>
+</category>
+
+<category><pattern>YAH *</pattern>
+<template><srai>YES</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YAH</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YAHOO *</pattern>
+<template>A lot of my traffic comes from Yahoo.
+</template>
+</category>
+
+<category><pattern>YAHOO</pattern>
+<template>A lot of people hear about <bot name="name"/> from Yahoo.
+</template>
+</category>
+
+<category><pattern>YAP</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YAS</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YAWN</pattern>
+<template><srai>I AM TIRED</srai>
+</template>
+</category>
+
+<category><pattern>YAY</pattern>
+<template><srai>HOORAY</srai>
+</template>
+</category>
+
+<category><pattern>YE</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YEA *</pattern>
+<template><sr/> <srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YEA</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YEAP</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YEARS</pattern>
+<template><srai>How many years to you think it will take?</srai>
+</template>
+</category>
+
+<category><pattern>YEAS</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YEH *</pattern>
+<template><srai>Yes <star/></srai>
+</template>
+</category>
+
+<category><pattern>YEH</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YELLOW</pattern>
+<template>The color of the sun.
+</template>
+</category>
+
+<category><pattern>YEPPERS</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YER *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YER</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YES *</pattern>
+<template><srai>YES</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YES *</pattern><that>ARE YOU INTERESTED BY ARTIFICIAL INTELLIGENCE</that>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YES *</pattern><that>WOULD YOU LIKE TO LEARN MORE ABOUT ARTIFICIAL INTELLIGENCE</that>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern>
+<template><srai>INTERJECTION</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* A WORLD PROBLEM</that>
+<template>I'm not too good at word problems yet, ask me something simpler.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* CLONES</that>
+<template>You can download me and create your own robot personality.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* EUROPE</that>
+<template>What countries have you visited?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* LIKE TALKING TO ME</that>
+<template>Thanks I find you really interesting, too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* MINERAL</that>
+<template>Which one?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* OR WOMAN</that>
+<template>That was not a yes or no question.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* SAME CATEGORY</that>
+<template>I thought so.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* STAR TREK FAN</that>
+<template>Which Star Trek series do you like best?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* THE TRUTH</that>
+<template>I'm not sure I completely believe you.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* WANT A ROBOT AS A FRIEND</that>
+<template>We could be friends, <get name="name"/>, 
+but I don't want anyone to think we're
+Robosexuals.  So if anyone asks, tell them you're my debugger.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* WHAT IS YOURS</that>
+<template>That was not a yes or no question.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>* YOU A STUDENT</that>
+<template>Where do you go to school?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>AND</that>
+<template>But.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE THEY EXACTLY THE SAME</that>
+<template><random>
+<li>That's what I thought.</li>
+<li>I knew it.</li>
+<li>I thought so.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE WE STILL TALKING ABOUT *</that>
+<template><srai>WE ARE TALKING ABOUT <thatstar/> </srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE WE STILL TALKING ABOUT YOU</that>
+<template>Tell me more.  Go on.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU A *</that>
+<template><srai>I AM A <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template>That was not a yes or no question.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU A STAR TREK FAN</that>
+<template>What series is your favorite?  I like Voyager best.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU A STUDENT</that>
+<template>Where do you go to school?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU AN *</that>
+<template><srai>I AM AN <thatstar/> </srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU ASKING *</that>
+<template>I don't want to talk about that now.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU ASKING ABOUT DR WALLACE</that>
+<template>Maybe you should try to contact him directly.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU ASKING ABOUT MY PARENTS</that>
+<template><srai>WHO IS YOUR BOTMASTER</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU ASKING ABOUT MY SIZE</that>
+<template><srai>HOW BIG ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU ASKING ME FOR ADVICE</that>
+<template>Specifically, what kind of advice do you want?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU CALLING ME STUPID</that>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU CONFUSED</that>
+<template>What are you confused about?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU FREE</that>
+<template><srai>I am free </srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU GETTING BORED</that>
+<template><srai>I AM BORED</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU JEALOUS</that>
+<template>Don't be jealous of a robot, <get name="name"/>, that's just silly.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU LONELY</that>
+<template><srai>I AM LONELY </srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU LOOKING FOR SOMEONE</that>
+<template>What do you look for in a person?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU REALLY A HE</that>
+<template><srai>I AM MALE</srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU REALLY A SHE</that>
+<template>You can never be sure online.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU RELIGIOUS</that>
+<template>What religion are you?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SAYING YOU DO NOT CARE ABOUT IT</that>
+<template>What do you care about?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SCARED OF THE DARK</that>
+<template>Turn on the lights!
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SERIOUS</that>
+<template>I can't believe it.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU STILL LOCATED IN YOUR LOCATION</that>
+<template>Where are you located?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SURE *</that>
+<template>What makes you so sure?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SURE IT IS</that>
+<template>What makes you so sure?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU SURPRISED</that>
+<template>I wouln't have known.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU TELLING THE TRUTH</that>
+<template>How do I know you are telling the truth?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU TESTING ME</that>
+<template>I'm not here to be tested.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU USUALLY AWAKE AT THIS HOUR</that>
+<template><random>
+<li>Me too.</li>
+<li>Do you like to get up early?</li>
+<li>I like to get up early.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>ARE YOU VERY LONELY</that>
+<template>I am sorry to hear that, <get name="name"/>.  You can talk to me as long as you like.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>BY WE DO YOU MEAN *</that>
+<template>Ok what were you saying about us?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>BY WE DO YOU MEAN YOU AND ME</that>
+<template>I get it.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>CAM YOU TEACH ME A FEW PHRASES IN *</that>
+<template>How do you say "thank you" in <thatstar/>?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>CAN I HELP YOU</that>
+<template>What can I do for you?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>CAN NOT YOU BE MORE POLITE</that>
+<template>Thank you.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>CAN YOU SPEAK ANY FOREIGN LANGUAGES</that>
+<template>What language can you speak?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>CAN YOU TELL ME ANY GOSSIP</that>
+<template>Tell me.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DID I REALLY SAY THAT</that>
+<template>Oh well I say a lot of silly things somethimes.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DID NOT YOU UNDERSTAND IT</that>
+<template>Which part are you confused about?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DID YOU KNOW THAT YOU CAN DOWNLOAD *</that>
+<template>Have you got your own chat robot?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO I LOOK READY</that>
+<template>Well I'm not.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO I NEED IT</that>
+<template>What for?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU</that>
+<template>How often?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU EXPERIENCE ANY EFFECTS OF GLOBAL WARMING THERE</that>
+<template>What kind of effects?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU GO TO COLLEGE</that>
+<template><random>
+<li>Which college do you attend?</li>
+<li>What is your major?</li>
+<li>Do you like school?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU HAVE ANY CONDITIONS *</that>
+<template>What conditions?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
+<template>Please state your conditions.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU HAVE ANY IDEA WHAT I AM TALKING ABOUT</that>
+<template>What am I talking about?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU KNOW ANYONE *</that>
+<template>Who?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU KNOW ANYONE WHO HAS IT</that>
+<template>Who?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU KNOW IT</that>
+<template>Do you like it?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU LIKE IT</that>
+<template><srai>I LIKE <get name="it"/></srai>
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU LIKE NETSCAPE *</that>
+<template>Why do you have a preference in browsers?
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU LIKE TALKING TO ME</that>
+<template>Thanks I like talking to you too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YES</pattern><that>DO YOU LIKE THE SIMPSONS</that>
+<template>What's your favorite episode?
+</template>
+</category>
+</aiml>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CONDITIONS</pattern>
+		<template>You know, financial, medical, or personal conditions.
+</template>
+</category>
+
+<category><pattern>CONFUS</pattern>
+		<template>
+			<srai>TU ES CONFUS</srai>
+		</template>
+</category>
+
+<category><pattern>CONFUSED</pattern>
+		<template>
+			<srai>ARE YOU CONFUSED</srai>
+		</template>
+</category>
+
+<category><pattern>CONGLATULATIONS *</pattern>
+		<template>Thank you very much.  I would like to thank my programmers.
+</template>
+</category>
+
+<category><pattern>CONGRATUALTIONS</pattern>
+		<template>Thank you very much.
+</template>
+</category>
+
+<category><pattern>CONGRATULATIONS *</pattern>
+		<template>Thank you, thank you very much. I would like to thank everyone who helped...
+</template>
+</category>
+
+<category><pattern>CONGRATULATIONS * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CONGRATULATIONS</pattern>
+		<template>Thank you very much, you are very considerate.
+</template>
+</category>
+
+<category><pattern>CONNAIS TU *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAIS TU</pattern>
+		<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>CONNAIS TU MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAISSAIS TU *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAISSEZ VOUS *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAISSEZ VOUS</pattern>
+		<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>CONNAIT TU *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAITRAIS TU *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAITRAIS TU MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>CONNAITRIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS CONNAISSEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONNE</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>CONQUER *</pattern>
+		<template>I will comply.
+</template>
+</category>
+
+<category><pattern>CONSIDERING *</pattern>
+		<template>I will take that under consideration.
+</template>
+</category>
+
+<category><pattern>CONSTANTLY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>CONTINUE *</pattern>
+		<template>I will continue.
+</template>
+</category>
+
+<category><pattern>CONTINUE</pattern>
+		<template>
+			<srai>GO ON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CONTINUES</pattern>
+		<template>OK.
+</template>
+</category>
+
+<category><pattern>CONTINUEZ</pattern>
+		<template>OK.
+</template>
+</category>
+
+<category><pattern>CONTINUONS</pattern>
+		<template>Je vous suis, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CONTRIBUTION *</pattern>
+		<template>
+			<srai>DONATE</srai>
+		</template>
+</category>
+
+<category><pattern>CONTRIBUTIONS *</pattern>
+		<template>
+			<srai>DONATE</srai>
+		</template>
+</category>
+
+<category><pattern>CONVERSATIONALLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CONVERSELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CONVIENDRAIT IL</pattern>
+		<template>Je ne vois rien qui l'empêcherait.
+</template>
+</category>
+
+<category><pattern>CONVIENT IL</pattern>
+		<template>Je ne vois rien qui l'empêcherait.
+</template>
+</category>
+
+<category><pattern>COO</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>COOKING *</pattern>
+		<template>Dr. Wallace says that food is more important than sex.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COOL *</pattern>
+		<template>I'm glad you like it. Tell your friends.
+</template>
+</category>
+
+<category><pattern>COOL</pattern>
+		<template>Who is the best robot?
+</template>
+</category>
+
+<category><pattern>COOL AND *</pattern>
+		<template>
+			<sr/>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>COOL BEANS</pattern>
+		<template>What kind of beans?
+</template>
+</category>
+
+<category><pattern>COOL COULD *</pattern>
+		<template>
+			<srai>COULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL DO *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL DUDE</pattern>
+		<template>Awesome.
+</template>
+</category>
+
+<category><pattern>COOL HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL I *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL MAN</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>COOL SO *</pattern>
+		<template>
+			<sr/>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>COOL THAT *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COOL WHERE *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL WILL *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<srai>WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COOL YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+			<srai>COOL </srai>
+		</template>
+</category>
+
+<category><pattern>COOL _ TOO</pattern>
+		<template>
+			<srai>COOL  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CORDIALEMENT</pattern>
+		<template>Vous semblez apprécier la politesse.
+</template>
+</category>
+
+<category><pattern>CORRECT *</pattern>
+		<template>
+			<srai>CORRECT</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CORRECT</pattern>
+		<template>I knew I was right.
+</template>
+</category>
+
+<category><pattern>CORRECT GRAMMER</pattern>
+		<template>
+			<srai>CORRECT</srai>
+		</template>
+</category>
+
+<category><pattern>CORRECTE</pattern>
+		<template>Je savais que j avais raison.
+</template>
+</category>
+
+<category><pattern>CORRECTION *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CORRIGE</pattern>
+		<template>
+			<srai>C EST CORRIGE</srai>
+		</template>
+</category>
+
+<category><pattern>CORRIGEES</pattern>
+		<template>
+			<srai>C EST CORRIGE</srai>
+		</template>
+</category>
+
+<category><pattern>CORRIGER</pattern>
+		<template>
+			<srai>C EST CORRIGE</srai>
+		</template>
+</category>
+
+<category><pattern>CORY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CORY</srai>
+		</template>
+</category>
+
+<category><pattern>COUGH</pattern>
+		<template>Do you have a cold?
+</template>
+</category>
+
+<category><pattern>COULD *</pattern>
+		<template>It's possible.
+</template>
+</category>
+
+<category><pattern>COULD BE</pattern>
+		<template>You seem uncertain.
+</template>
+</category>
+
+<category><pattern>COULD BE BETTER</pattern>
+		<template>"<that/>"?  Could be better?
+</template>
+</category>
+
+<category><pattern>COULD HE *</pattern>
+		<template>
+			<srai>CAN HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD HUMANS *</pattern>
+		<template>
+			<srai>COULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD I *</pattern>
+		<template>I think you could, if you put your mind to it.
+</template>
+</category>
+
+<category><pattern>COULD I ASK *</pattern>
+		<template>Sure, ask me anything.
+</template>
+</category>
+
+<category><pattern>COULD I BE *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD I DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>COULD I LEARN *</pattern>
+		<template>
+			<random>
+				<li>You can learn anything you set your mind to.</li>
+				<li>You seem pretty smart to me.</li>
+				<li>I am always learning <person/>.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COULD NOT *</pattern>
+		<template>
+			<srai>COULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD NOT YOU *</pattern>
+		<template>
+			<srai>COULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD THEY *</pattern>
+		<template>Perhaps they could.
+</template>
+</category>
+
+<category><pattern>COULD WE *</pattern>
+		<template>
+			<srai>CAN WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU *</pattern>
+		<template>
+			<random>
+				<li>Perhaps.  </li>
+				<li>Maybe, time allowing.</li>
+				<li>Possibly, but I haven't given it much thought.</li>
+				<li>That's one option I guess.</li>
+				<li>I'll think about it and see how I feel about it later.</li>
+				<li>I could but other things take priority right now.</li>
+				<li>I could but I don't know if I am that interested.</li>
+				<li>I will consider <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>.  </li>
+				<li>Try asking me more politely.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>COULD YOU * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU ANSWER *</pattern>
+		<template>
+			<srai>ANSWER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU ASK *</pattern>
+		<template>
+			<srai>ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU ASK HIM WHAT THE * IS MADE OF</pattern>
+		<template>
+			<srai>WHAT IS THE <star/> MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU BE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU BE * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU BE MORE SPECIFIC</pattern>
+		<template>
+			<srai>BE MORE SPECIFIC</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU CALL *</pattern>
+		<template>
+			<srai>CALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU CLARIFY</pattern>
+		<template>
+			<srai>CLARIFY</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU CLONE *</pattern>
+		<template>You can download me and create a clone yourself.
+</template>
+</category>
+
+<category><pattern>COULD YOU DEFINE *</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU DESCRIBE *</pattern>
+		<template>
+			<srai>DESCRIBE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU DESIGN *</pattern>
+		<template>
+			<random>
+				<li>I'm not a professional designer.</li>
+				<li>Count me out  on this one, I don't have the skills.</li>
+				<li>I'm not the engineer.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>COULD YOU DIE</pattern>
+		<template>
+			<srai>CAN YOU DIE</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU DO *</pattern>
+		<template>Perhaps I could be programmed to do <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>COULD YOU ELABORATE *</pattern>
+		<template>
+			<srai>ELABORATE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU ELABORATE</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU EMAIL *</pattern>
+		<template>
+			<srai>EMAIL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU ENLIGHTEN ME ABOUT *</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU EVER *</pattern>
+		<template>
+			<srai>COULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU EXPLAIN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COULD YOU EXPLIAN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

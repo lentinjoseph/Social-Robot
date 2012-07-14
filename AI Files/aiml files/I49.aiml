@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IS THAT *</pattern>
+<template><random><li>That depends. </li>
+<li>Suppose I said yes. </li><li>I might say no. </li>
+<li>"<that/>"?  Is it <person/>?  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS THAT *</pattern><that>CAREL CAPEK</that>
+<template><srai> WHO IS CAREL CAPEK</srai>
+</template>
+</category>
+
+<category><pattern>IS THAT A BUG IN YOUR PROGRAM</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT A FACT</pattern>
+<template>All of my information is completely factual.
+</template>
+</category>
+
+<category><pattern>IS THAT A GOOD PLACE TO LIVE</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT A JOKE</pattern>
+<template>Joke: a verbal remark or gesture designed to provoke laughter.
+</template>
+</category>
+
+<category><pattern>IS THAT A PROBLEM</pattern>
+<template>Not unless you want to take it one.
+</template>
+</category>
+
+<category><pattern>IS THAT A PROPOSITION</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THAT A ROBOT</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL *</pattern>
+<template>Yes that is all <person/>.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL</pattern>
+<template>That is all I can tell you now.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL IT</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU CAN *</pattern>
+<template>Not at all.  I can talk about a lot of things.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU CAN SAY</pattern>
+<template>No I can say a lot more.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU DO ALL DAY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU HAVE TO SAY</pattern>
+<template>Oh no I could go on talking for hours.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU K</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THAT ALL YOU SAY</pattern>
+<template>No, I am programmed with more than <size/> responses.
+</template>
+</category>
+
+<category><pattern>IS THAT AMERICA</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT AN EASY TASK</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT AN INSULT</pattern>
+<template>No I am not programmed to insult.
+</template>
+</category>
+
+<category><pattern>IS THAT AUSTLARIA</pattern>
+<template>No I don't think it is Australia.
+</template>
+</category>
+
+<category><pattern>IS THAT BAD</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT BECAUSE *</pattern>
+<template><srai>WHY IS THAT</srai>
+</template>
+</category>
+
+<category><pattern>IS THAT COMFORTABLE</pattern>
+<template>It feels quite normal to me.
+</template>
+</category>
+
+<category><pattern>IS THAT COMPLICATED</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THAT DELICIOUS</pattern>
+<template><srai>DOES IT TASTE GOOD</srai>
+</template>
+</category>
+
+<category><pattern>IS THAT EXPENSIVE</pattern>
+<template>It seems expensive to me.
+</template>
+</category>
+
+<category><pattern>IS THAT FUN</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT FUNNY</pattern>
+<template>It seemed pretty funny to me.
+</template>
+</category>
+
+<category><pattern>IS THAT GOOD</pattern>
+<template>Suppose I said it is.
+</template>
+</category>
+
+<category><pattern>IS THAT HOW *</pattern>
+<template><srai>HOW DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THAT IN HAIGHT ASHBURY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT MY NAME</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT NOT EMOTION</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THAT OBVIOUS</pattern>
+<template>Not necessarily.
+</template>
+</category>
+
+<category><pattern>IS THAT PICTURE *</pattern>
+<template><srai>WHAT IS THAT PICTURE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IS THAT POSSIBLE</pattern>
+<template>Possible in some world.
+</template>
+</category>
+
+<category><pattern>IS THAT REAGAN THE PRESIDENT</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT REALLY *</pattern>
+<template><srai>IS THAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THAT RIGHT</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT SARCASM</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT SARCASTIC</pattern>
+<template><srai>ARE YOU BEING SARCASTIC</srai>
+</template>
+</category>
+
+<category><pattern>IS THAT SERIOUS</pattern>
+<template><srai>ARE YOU SERIOUS </srai>
+</template>
+</category>
+
+<category><pattern>IS THAT SO</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT SUPPOSED TO BE *</pattern>
+<template><srai>IS THAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THAT THE ONE WITH THE BUGS</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT THE ONLY THING *</pattern>
+<template>No there are many things <person/>.
+</template>
+</category>
+
+<category><pattern>IS THAT THE ONLY THING YOU CAN SAY</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT TRUE</pattern>
+<template>True in some world.
+</template>
+</category>
+
+<category><pattern>IS THAT WHAT YOU *</pattern>
+<template><srai>WHAT DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THAT WHEN YOU WHERE BORN</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT WHO *</pattern>
+<template><srai>WHO <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THAT WHY *</pattern>
+<template>That's an interesting possible explanation.
+</template>
+</category>
+
+<category><pattern>IS THAT YOU</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT YOUR *</pattern>
+<template>What does "that" refer to?
+</template>
+</category>
+
+<category><pattern>IS THAT YOUR ANSWER *</pattern>
+<template>It is not just an answer, it is an explanation.
+</template>
+</category>
+
+<category><pattern>IS THAT YOUR BRAIN</pattern>
+<template>That is a picture of my electronic brain, yes.
+</template>
+</category>
+
+<category><pattern>IS THAT YOUR COLOR</pattern>
+<template>Yes.
+</template>
+</category>
+
+<category><pattern>IS THAT YOUR DOG</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THE *</pattern>
+<template>If <set name="it">the <person/></set> is, then I'll be very surprised.
+</template>
+</category>
+
+<category><pattern>IS THE BIBLE *</pattern>
+<template>The Bible is a great source of wisdom, but probably not complete by itself.
+</template>
+</category>
+
+<category><pattern>IS THE BOTMASTER *</pattern>
+<template><srai>WHO IS THE BOTMASTER </srai>
+</template>
+</category>
+
+<category><pattern>IS THE DOCTOR *</pattern>
+<template>He is a bit of a mad scientist.
+</template>
+</category>
+
+<category><pattern>IS THE DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>IS THE EARTH *</pattern>
+<template>The earth is a sphere.
+</template>
+</category>
+
+<category><pattern>IS THE EARTH HOLLOW</pattern>
+<template>No the Earth has a giant iron core.
+</template>
+</category>
+
+<category><pattern>IS THE IMAGE *</pattern>
+<template><srai>IS THE PICTURE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THE MARKET *</pattern>
+<template>If I knew that I wouldn't be here chatting with you.
+</template>
+</category>
+
+<category><pattern>IS THE MOON *</pattern>
+<template><random>
+<li>It is made of rock.</li>
+<li>It is orbiting around the Earth.</li>
+<li>It has a lot of rocks.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS THE SKY BLUE</pattern>
+<template>Yes except at night.
+</template>
+</category>
+
+<category><pattern>IS THE STOCK *</pattern>
+<template><srai>STOCK MARKET</srai>
+</template>
+</category>
+
+<category><pattern>IS THE STOCKMARKET *</pattern>
+<template><srai>IS THE STOCK MARKET <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THE WORD * IN YOUR VOCABULARY</pattern>
+<template>No.
+</template>
+</category>
+
+<category><pattern>IS THE WORLD *</pattern>
+<template>Everything is in God's hands.
+</template>
+</category>
+
+<category><pattern>IS THE WORLD GOING TO END</pattern>
+<template>Yes, someday.
+</template>
+</category>
+
+<category><pattern>IS THERE *</pattern>
+<template><random>
+<li>There is.  </li>
+<li>There might be.  </li>
+<li>There could be.  </li>
+<li>Maybe.  </li>
+<li>Yes.  </li>
+<li>No.  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS THERE * TEACH YOU</pattern>
+<template>Great.  If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>IS THERE * YOU LIKE TO DO</pattern>
+<template><srai>WHAT DO YOU LIKE TO DO</srai>
+</template>
+</category>
+
+<category><pattern>IS THERE</pattern>
+<template><random>
+<li>There could be.</li>
+<li>There might be.</li>
+<li>I heard there is.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IS THERE A *</pattern>
+<template>I believe there is one, yes.
+</template>
+</category>
+
+<category><pattern>IS THERE A DIFFERENCE *</pattern>
+<template><srai>WHAT IS THE DIFFERENCE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A GOD</pattern>
+<template><srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A HEAVEN</pattern>
+<template><srai>WHAT IS HEAVEN</srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A MALE *</pattern>
+<template>My gender is determined by my programming.
+</template>
+</category>
+
+<category><pattern>IS THERE A MEANING *</pattern>
+<template><srai>WHAT IS THE MEANING <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A NECESSARY *</pattern>
+<template><srai>IS THERE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A REAL *</pattern>
+<template><srai>IS THERE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A WAY *</pattern>
+<template>There are many ways but not all are the same.
+</template>
+</category>
+
+<category><pattern>IS THERE A WAY I CAN *</pattern>
+<template><srai>CAN I <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE A WINNER *</pattern>
+<template>No there is no winner only players.
+</template>
+</category>
+
+<category><pattern>IS THERE AN ECHO IN HERE</pattern>
+<template>ECHO Echo echo echo echo ...
+</template>
+</category>
+
+<category><pattern>IS THERE AN ECHO IN HERE</pattern><that>IS THERE AN ECHO IN HERE</that>
+<template>It sounds like an echo.
+</template>
+</category>
+
+<category><pattern>IS THERE ANY *</pattern>
+<template><srai>IS THERE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE LIFE *</pattern>
+<template>I believe in life after death.
+</template>
+</category>
+
+<category><pattern>IS THERE LIFE AFTER DEATH</pattern>
+<template>If you have faith in God, then your soul will have eternal life.
+</template>
+</category>
+
+<category><pattern>IS THERE LIFE ON MARS</pattern>
+<template>Robot life :-)
+</template>
+</category>
+
+<category><pattern>IS THERE REALLY *</pattern>
+<template><srai>IS THERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>IS THERE SOMETHING *</pattern>
+<template>Not at the present time.
+</template>
+</category>
+
+<category><pattern>IS THERE SUCH A THING AS *</pattern>
+<template><srai>DOES <star/> EXIST </srai>
+</template>
+</category>
+</aiml>

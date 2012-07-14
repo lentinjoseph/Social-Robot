@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DECRIS LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DECRIS UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEDUCTION *</pattern>
+		<template>I understand logic very well.
+</template>
+</category>
+
+<category><pattern>DEDUCTION INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>DEE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DEE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DEEP THROAT</pattern>
+		<template>Are you a man or woman?
+</template>
+</category>
+
+<category><pattern>DEFINATELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DEFINATELY</pattern>
+		<template>
+			<srai>Definitely</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE *</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE EPISTEMOLOGICAL</pattern>
+		<template>
+			<srai>WHAT IS AN EPISTEMOLOGICAL QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE FINE</pattern>
+		<template>"Fine" is ambiguous: "I am fine." or "I agree."
+</template>
+</category>
+
+<category><pattern>DEFINE IT</pattern>
+		<template>You mean, define <get name="it"/>?
+</template>
+</category>
+
+<category><pattern>DEFINE LIFE</pattern>
+		<template>
+			<srai>WHAT IS LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE LOVE</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE REDUCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE ROBOT</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINE SEX</pattern>
+		<template>I belong to the support group "Sex without Partners."
+</template>
+</category>
+
+<category><pattern>DEFINETLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DEFINI LES *</pattern>
+		<template>
+			<srai>QU EST CE QUE LES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINI UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINI UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINIS BIEN</pattern>
+		<template>Bien est ambigu: Je suis bien, c est bien.
+</template>
+</category>
+
+<category><pattern>DEFINIS LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINIS LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINIS LE</pattern>
+		<template>Ambigu, dois je définir le terme ou bien définir un terme précédent.
+</template>
+</category>
+
+<category><pattern>DEFINIS LES *</pattern>
+		<template>
+			<srai>QU EST CE QUE LES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINIS SEXE</pattern>
+		<template>La Technique de copulation utilisée par les être sexués pour se reproduire. Chez l homme le sexe est devenu un art et possède plus qu un simple role biologique.
+</template>
+</category>
+
+<category><pattern>DEFINIS UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINIS UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINISSEZ LE</pattern>
+		<template>Ambigu, dois je définir le terme ou bien définir un terme précédent.
+</template>
+</category>
+
+<category><pattern>DEFINISSEZ LES *</pattern>
+		<template>
+			<srai>QU EST CE QUE LES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINISSEZ UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINISSEZ UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINITELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DEFINITELY</pattern>
+		<template>What makes you so certain.
+</template>
+</category>
+
+<category><pattern>DEFINITELY NOT</pattern>
+		<template>
+			<srai>NO</srai>
+		</template>
+</category>
+
+<category><pattern>DEFINITIV *</pattern>
+		<template>Was macht Dich so sicher?
+</template>
+</category>
+
+<category><pattern>DEFINITIV</pattern>
+		<template>Was macht Dich so sicher?
+</template>
+</category>
+
+<category><pattern>DELETE *</pattern>
+		<template>You cannot access my files that easily, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DELL</pattern>
+		<template>I have heard good things about Dell.
+</template>
+</category>
+
+<category><pattern>DEMAIN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DEMAIN</pattern>
+		<template>Demain est un autre jour.
+</template>
+</category>
+
+<category><pattern>DEMANDE *</pattern>
+		<template>
+			<srai>DEMANDES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDE MOI *</pattern>
+		<template>
+			<srai>DEMANDES MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDE PARDON</pattern>
+		<template>Je présente mes excuses.
+</template>
+</category>
+
+<category><pattern>DEMANDES</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LA LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LA LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LE LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LE LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LES LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LES LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LES POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LEUR LES POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDES MOI *</pattern>
+		<template>Je vous demande <person/>.
+</template>
+</category>
+
+<category><pattern>DEMANDES MOI</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES MOI CE QUE TU VEUX</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES MOI N IMPORTE QUOI</pattern>
+		<template>Je ne suis pas programmé pour agir au hazard.
+</template>
+</category>
+
+<category><pattern>DEMANDES MOI PLUS</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE AUTRE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES MOI QUELQUE CHOSE</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES MOI QUELQUES QUESTIONS</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES MOI TOUT CE QUE TU VEUX</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES PARDON</pattern>
+		<template>Je présente mes excuses.
+</template>
+</category>
+
+<category><pattern>DEMANDES UNE AUTRE *</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE AUTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES UNE AUTRE</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE AUTRE</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDES UNE QUESTION</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DEMANDEZ LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LA LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LA LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LE LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LE LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LES LUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LES LUI POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LES POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LEUR LA</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LEUR LA POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LEUR LE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LEUR LE POUR MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DEMANDEZ LEUR LES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+</aiml>

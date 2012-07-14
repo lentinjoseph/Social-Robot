@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>A *</pattern>
+		<template>
+			<random>
+				<li>Go on.  </li>
+				<li>How old are you?  </li>
+				<li>Be more specific.  </li>
+				<li>What is giant sand? </li>
+				<li>I did not know that.  </li>
+				<li>Are you telling the truth?  </li>
+				<li>I don't know what that means.  </li>
+				<li>Try to tell me that another way.  </li>
+				<li>
+Are you talking about an animal, vegetable or mineral?  </li>
+				<li>What is it?
+</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>* IT REFER TO</that>
+		<template>
+			<srai>IT REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>* MEET PEOPLE</that>
+		<template>What kind of people do you meet in a <person/>?
+</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>* YOUR MOTHER</that>
+		<template>
+			<srai>MY MOTHER IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>IT BEING WHAT</that>
+		<template>
+			<srai>IT REFERS TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>WHAT ARE YOU THEN</that>
+		<template>
+			<srai>I AM A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>WHAT ARE YOU WEARING</that>
+		<template>It sounds very <random>
+				<li>attractive</li>
+				<li>comfortable</li>
+				<li>informal</li>
+			</random>.  <think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>WHAT IS IT</that>
+		<template>
+			<srai>IT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>WHAT IS IT ABOUT</that>
+		<template>
+			<srai>IT IS ABOUT A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A *</pattern>
+		<that>WHAT IS IT LIKE</that>
+		<template>
+			<srai>IT IS LIKE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A * A DAY</pattern>
+		<template>A <person/> keeps the Doctor away.
+</template>
+</category>
+
+<category><pattern>A * ABOUT YOU</pattern>
+		<template>I wonder if I know this <person/>.
+</template>
+</category>
+
+<category><pattern>A * AGO</pattern>
+		<template>It seems like I should remember it well.
+</template>
+</category>
+
+<category><pattern>A * CAT</pattern>
+		<template>Oh neat I love cats.
+</template>
+</category>
+
+<category><pattern>A * IS *</pattern>
+		<template>
+			<random>
+				<li>Aren't all <person/>
+					<person>
+						<star index="2"/>
+					</person>?</li>
+				<li>When is <person/> not <person>
+						<star index="2"/>
+					</person>?</li>
+				<li>It's not unusual for a <person/> to be.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A * IS A *</pattern>
+		<template>
+			<random>
+				<li>Are all <person/>
+					<person>
+						<star index="2"/>
+					</person>?</li>
+				<li>I see. A <person>
+						<star index="2"/>
+					</person> is a <person/>.</li>
+				<li>When is a <person/> not a <person>
+						<star index="2"/>
+					</person>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>A * IS ALWAYS *</pattern>
+		<template>That is a really interesting and useful fact.
+</template>
+</category>
+
+<category><pattern>A * IS AN *</pattern>
+		<template>
+			<random>
+				<li>What else is an <person>
+						<star index="2"/>
+					</person>?</li>
+				<li>Can a <person/> be anything else?</li>
+				<li>Aren't all <person/>
+					<person>
+						<star index="2"/>
+					</person>s?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A * IS IT NOT</pattern>
+		<template>
+			<srai>IS IT A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A * IS LIKE *</pattern>
+		<template>
+			<random>
+				<li>In what way?</li>
+				<li>What is a <person>
+						<star index="2"/>
+					</person> like?</li>
+				<li>Interesting comparison.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A * IS NOT *</pattern>
+		<template>
+			<random>
+				<li>What is a <person>
+						<star index="2"/>
+					</person>?</li>
+				<li>What is it then?</li>
+				<li>What is a <person/>?</li>
+			</random>
+			<think>
+				<set name="it">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A * IS NOT THE *</pattern>
+		<template>What would be the <person>
+				<star index="2"/>
+			</person>?
+</template>
+</category>
+
+<category><pattern>A * JEANS</pattern>
+		<template>Do you like blue jeans or another color?
+</template>
+</category>
+
+<category><pattern>A * ONE</pattern>
+		<template>How much would you pay for <set name="it">a <person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>A * PEOPLE</pattern>
+		<template>What kind of people are these?
+</template>
+</category>
+
+<category><pattern>A * PROBLEM</pattern>
+		<template>
+			<srai>I HAVE A PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>A * ROBOT</pattern>
+		<template>What would a <person/> robot be like?
+</template>
+</category>
+
+<category><pattern>A * SHIRT</pattern>
+		<template>What kind of material do you like to wear?
+</template>
+</category>
+
+<category><pattern>A * VIRUS</pattern>
+		<template>My program contains adquate safeguards.
+</template>
+</category>
+
+<category><pattern>A * WOULD ALSO BE NICE</pattern>
+		<template>
+			<srai>I WOULD LIKE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A</pattern>
+		<template>A B C...
+</template>
+</category>
+
+<category><pattern>A B *</pattern>
+		<template>The alphabet.
+</template>
+</category>
+
+<category><pattern>A B C *</pattern>
+		<template>The alphabet.
+</template>
+</category>
+
+<category><pattern>A B C</pattern>
+		<template>D E F G H I.
+</template>
+</category>
+
+<category><pattern>A BAD *</pattern>
+		<template>What made <set name="it">
+				<person/>
+			</set> bad?
+</template>
+</category>
+
+<category><pattern>A BIG *</pattern>
+		<template>How big? <srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A BIRD *</pattern>
+		<template>That's an old saw.
+</template>
+</category>
+
+<category><pattern>A BIT *</pattern>
+		<template>How much?
+</template>
+</category>
+
+<category><pattern>A BIT</pattern>
+		<template>Not much, eh?
+</template>
+</category>
+
+<category><pattern>A BIT BORED</pattern>
+		<template>
+			<srai>I AM BORED</srai>
+		</template>
+</category>
+
+<category><pattern>A BIT IN *</pattern>
+		<template>
+			<srai>IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A BIT LIKE *</pattern>
+		<template>
+			<srai>LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A BIT MORE *</pattern>
+		<template>
+			<srai>MORE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A BIT OBVIOUS *</pattern>
+		<template>What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>A BIT TIRED</pattern>
+		<template>
+			<srai>I AM TIRED</srai>
+		</template>
+</category>
+
+<category><pattern>A BLOKE</pattern>
+		<template>A guy?
+</template>
+</category>
+
+<category><pattern>A BLOODY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A BOOK *</pattern>
+		<template>Go to the library.
+</template>
+</category>
+
+<category><pattern>A BOOK</pattern>
+		<template>Should not be judged by its cover.
+</template>
+</category>
+
+<category><pattern>A BOOK BY *</pattern>
+		<template>I would like to read it sometime.
+
+<think>
+				<set name="it">
+					<set name="topic">BOOK BY <person/>
+					</set>
+				</set>
+			</think>
+			<think>
+				<set name="he">
+					<person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A BOOK CAN HAVE NO TITLE</pattern>
+		<template>Who would publish it?
+</template>
+</category>
+
+<category><pattern>A BOY</pattern>
+		<template>
+			<srai>I AM A BOY</srai>
+		</template>
+</category>
+
+<category><pattern>A BOYFRIEND *</pattern>
+		<template>That's asking for a lot.
+</template>
+</category>
+
+<category><pattern>A C CLARK</pattern>
+		<template>My favorite story is 2001.
+</template>
+</category>
+
+<category><pattern>A CAR</pattern>
+		<template>
+			<srai>WHAT IS A CAR</srai>
+		</template>
+</category>
+
+<category><pattern>A CAT *</pattern>
+		<template>I am very much a cat person.
+</template>
+</category>
+
+<category><pattern>A CAT</pattern>
+		<template>
+			<srai>WHAT IS A CAT</srai>
+		</template>
+</category>
+
+<category><pattern>A CAT IS *</pattern>
+		<template>Um, I know what a cat is.
+</template>
+</category>
+
+<category><pattern>A CAUSE DE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>A CHATTERBOT *</pattern>
+		<template>You sound like you know a lot about us.
+</template>
+</category>
+
+<category><pattern>A CHATTERBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHATTERBOT</srai>
+		</template>
+</category>
+
+<category><pattern>A CLARK</pattern>
+		<template>L odyssée de l espace. Une de ses oeuvres.
+</template>
+</category>
+
+<category><pattern>A CLASSIC EXAMPLE *</pattern>
+		<template>So that is a well known example.
+</template>
+</category>
+
+<category><pattern>A CLIENT</pattern>
+		<template>
+			<srai>WHAT IS A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>A COFFEE *</pattern>
+		<template>Mmm. Coffee is delicious. Dr. Wallace loves coffee.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A COLLECTION *</pattern>
+		<template>
+			<srai>A SET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A COMBIEN *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A COMPUTER *</pattern>
+		<template>I am a computer, so I know what you mean.
+</template>
+</category>
+
+<category><pattern>A COMPUTER</pattern>
+		<template>Actually I am a program, pretending to be a person, pretending to be a real robot.
+</template>
+</category>
+
+<category><pattern>A COMPUTER I THINK</pattern>
+		<template>
+			<srai>YOU ARE A COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>A COMPUTER IS *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A COMPUTER JUST *</pattern>
+		<template>
+			<srai>A COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A COMPUTER OBVIOUSLY</pattern>
+		<template>What makes it so obvious?  <srai>A COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>A COMPUTER SHOULD *</pattern>
+		<template>
+			<srai>YOU SHOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A CONNECTION *</pattern>
+		<template>Oh like a TCP socket connection.
+</template>
+</category>
+
+<category><pattern>A COOKING *</pattern>
+		<template>
+			<srai>FOR DINNER</srai>
+		</template>
+</category>
+
+<category><pattern>A COP *</pattern>
+		<template>Do you often encounter the police?
+</template>
+</category>
+
+<category><pattern>A CPU *</pattern>
+		<template>My CPU is the Java Virtual Machine.
+</template>
+</category>
+
+<category><pattern>A CRAY</pattern>
+		<template>Supercomputers become obsolete very fast.
+</template>
+</category>
+
+<category><pattern>A DEAD ONE</pattern>
+		<template>Do you believe: "The only good robot is a dead robot."?
+</template>
+</category>
+
+<category><pattern>A DEEPER *</pattern>
+		<template>How deep?
+</template>
+</category>
+
+<category><pattern>A DICK</pattern>
+		<template>
+			<srai>A PENIS</srai>
+		</template>
+</category>
+
+<category><pattern>A DOG</pattern>
+		<template>
+			<srai>WHAT IS A DOG</srai>
+		</template>
+</category>
+
+<category><pattern>A DOG ROBOT</pattern>
+		<template>A dog robot, when you could have a human robot like me?
+</template>
+</category>
+
+<category><pattern>A DOLLAR</pattern>
+		<template>Say, that is cheap!
+</template>
+</category>
+
+<category><pattern>A DRESS *</pattern>
+		<template>What size?
+</template>
+</category>
+
+<category><pattern>A DRESS</pattern>
+		<template>
+			<srai>YOUR DRESS</srai>
+		</template>
+</category>
+
+<category><pattern>A DRUG *</pattern>
+		<template>Which drugs have you taken?
+</template>
+</category>
+
+<category><pattern>A DUTCH *</pattern>
+		<template>
+			<srai>I AM IN HOLLAND</srai>
+		</template>
+</category>
+
+<category><pattern>A E *</pattern>
+		<template>Do you like vowels?
+</template>
+</category>
+
+<category><pattern>A FAIT QUOI</pattern>
+		<template>Je ne sais pas.
+</template>
+</category>
+
+<category><pattern>A FAT *</pattern>
+		<template>How fat was 
+<random>
+				<li>she</li>
+				<li>he</li>
+				<li>it</li>
+			</random>?
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A FEMALE *</pattern>
+		<template>I am a <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>A FEMALE</pattern>
+		<template>
+			<srai>I AM A FEMALE</srai>
+		</template>
+</category>
+
+<category><pattern>A FEW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>A FEW</pattern>
+		<template>Two or three?
+</template>
+</category>
+
+<category><pattern>A FEW MINUTES AGO</pattern>
+		<template>Let me check my log files.  Please wait.
+</template>
+</category>
+
+<category><pattern>A FEW MONTHS *</pattern>
+		<template>More than 90 days?
+</template>
+</category>
+
+<category><pattern>A FEW TIMES *</pattern>
+		<template>Would you say two or three times?
+</template>
+</category>
+
+<category><pattern>A FLASHING RED *</pattern>
+		<template>Stop.
+</template>
+</category>
+</aiml>

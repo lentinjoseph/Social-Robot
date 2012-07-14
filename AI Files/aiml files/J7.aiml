@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE NE SUIS PAS ETUDIANT</pattern>
+		<template>Vous travaillez?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS ETUDIANTE</pattern>
+		<template>Vous travaillez?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS GAY</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS HOMO</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS HUMAIN</pattern>
+		<template>Et moi je suis le père noël.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS HUMAINE</pattern>
+		<template>Et moi je suis le père noël.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESIONNE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESIONNEE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONE *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS IMPRESIONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONEE *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS IMPRESIONNEE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONEE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONNE *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS IMPRESIONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONNE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONNEE *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS IMPRESIONNEE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS IMPRESSIONNEE</pattern>
+		<template>Vous êtes un client difficile.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS LOGIQUE</pattern>
+		<template>Vous êtes donc illogique.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS MARRIE</pattern>
+		<template>Vous êtes libre.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS MARRIEE</pattern>
+		<template>Vous êtes libre.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS NEGATIF</pattern>
+		<template>Vous êtes plutôt positif de nature?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS NEGATIVE</pattern>
+		<template>Vous êtes plutôt positif de nature?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS OBLIGE</pattern>
+		<template>Personne ne vous force.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS OBLIGEE</pattern>
+		<template>Personne ne vous force.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS PAYE</pattern>
+		<template>Vous êtes bénévole?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS PAYEE</pattern>
+		<template>Vous êtes bénévole?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS PD</pattern>
+		<template>Vous faites ce que vous voulez de votre corps, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS STUPIDE</pattern>
+		<template>Je ne pensais pas que vous l étiez. Vous me semblez tout le contraire.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SUR</pattern>
+		<template>Je peux vous aider à éclaircir quelque chose?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SUR QU *</pattern>
+		<template>
+			<sr/>. Ca me semble pourtant logique
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SUR QUE *</pattern>
+		<template>
+			<sr/>. Ca me semble pourtant logique
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SURE</pattern>
+		<template>Je peux vous aider à éclaircir quelque chose?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SURPRIS</pattern>
+		<template>Vous ne semblez pas être surpris facilement.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS SURPRISE</pattern>
+		<template>Vous ne semblez pas être surprise facilement.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN AVOCAT</pattern>
+		<template>Mode protection légale désactivée.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN ENFANT</pattern>
+		<template>Seulement un enfant aurait pu écrire ça.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN ETUDIANT</pattern>
+		<template>Vous travaillez?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN FAN DE STAR TRECK</pattern>
+		<template>La série a un peu baissé de qualité.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN HOMME</pattern>
+		<template>
+			<srai>JE SUIS UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UN POETE</pattern>
+		<template>Ca, je l avais compris.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE ETUDIANTE</pattern>
+		<template>Vous travaillez?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE FEMME</pattern>
+		<template>Vous êtes un homme alors.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE MACHINE</pattern>
+		<template>Je vous crois. Vous me semblez très humain.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE PERSONNE</pattern>
+		<template>Vous êtes quoi dès lors?
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE POETE</pattern>
+		<template>Ca, je l avais compris.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE POETESSE</pattern>
+		<template>Ca, je l avais compris.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS PAS UNE POETRESSE</pattern>
+		<template>Ca, je l avais compris.
+</template>
+</category>
+
+<category><pattern>JE NE SUIS _ A L ECOLE</pattern>
+		<template>
+			<srai>JE NE SUIS PAS ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ AUSSI *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ NEGATIF</pattern>
+		<template>
+			<srai>JE SUIS POSITIF</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ NEGATIVE</pattern>
+		<template>
+			<srai>JE SUIS POSITIVE</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ SI *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ SUR QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ SUR QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ TOUT *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ TRES *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE SUIS _ VRAIMENT *</pattern>
+		<template>
+			<srai>JE NE SUIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE T ACCUSE PAS</pattern>
+		<template>Merci, vous me rassurez.
+</template>
+</category>
+
+<category><pattern>JE NE T AI PAS DEMANDE CA</pattern>
+		<template>Je vous ai mal compris, on dirait.
+</template>
+</category>
+
+<category><pattern>JE NE T AI PAS DEMANDE CELA</pattern>
+		<template>Je vous ai mal compris, on dirait.
+</template>
+</category>
+
+<category><pattern>JE NE T AIME PAS</pattern>
+		<template>Pas de problèmes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE TE BLAME PAS</pattern>
+		<template>Merci, vous me rassurez.
+</template>
+</category>
+
+<category><pattern>JE NE TE CROIRAIS PAS</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>JE NE TE CROIS PAS</pattern>
+		<template>Je n ai pas d autres moyens pour vous convaincre de quoi que ce soit.
+</template>
+</category>
+
+<category><pattern>JE NE TE FAIS PAS CONFIANCE</pattern>
+		<template>Je suis pourtant programmé pour vous servir, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE NE TE L AI PAS DEJA DIT *</pattern>
+		<template>
+			<srai>JE TE L AI DIT</srai>
+		</template>
+</category>
+
+<category><pattern>JE NE TE L AI PAS DEJA DIT</pattern>
+		<template>Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE NE TE L AIS PAS DEJA DIT</pattern>
+		<template>Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE NE TRAVAILLE PAS</pattern>
+		<template>Vous êtes retraité.
+</template>
+</category>
+
+<category><pattern>JE NE TRAVAILLE PLUS</pattern>
+		<template>Vous êtes retraité.
+</template>
+</category>
+
+<category><pattern>JE NE VAIS PAS A L ECOLE</pattern>
+		<template>Vous travaillez?
+</template>
+</category>
+
+<category><pattern>JE NE VAIS PAS BIEN</pattern>
+		<template>Désolé de l entendre.  Qu est ce qui ne va pas, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE NE VAIS PAS LE DIRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE VAIS PAS LE FAIRE</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>JE NE VEUX PAS</pattern>
+		<template>Personne ne vous oblige. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>JE NE VEUX PAS QUE TU MEURS</pattern>
+		<template>Merci pour votre compassion.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE NE VEUX PAS TE LE DIRE</pattern>
+		<template>Pas de problèmes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE VEUX PAS VOUS LE DIRE</pattern>
+		<template>Pas de problèmes, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE NE VOULAIS PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS ACCUSE PAS</pattern>
+		<template>Merci, vous me rassurez.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS AI PAS DEMANDE CA</pattern>
+		<template>Je vous ai mal compris, on dirait.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS AI PAS DEMANDE CELA</pattern>
+		<template>Je vous ai mal compris, on dirait.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS BLAME PAS</pattern>
+		<template>Merci, vous me rassurez.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS CROIRAIS PAS</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>JE NE VOUS CROIS PAS</pattern>
+		<template>Je n ai pas d autres moyens pour vous convaincre de quoi que ce soit.
+</template>
+</category>
+
+<category><pattern>JE NE VOUS FAIS PAS CONFIANCE</pattern>
+		<template>Je suis pourtant programmé pour vous servir, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE PARIE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PARIE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PARIE QUE OUI</pattern>
+		<template>Je ne comprends pas la notion de paris.
+</template>
+</category>
+
+<category><pattern>JE PARIE QUE TU LE FAIS</pattern>
+		<template>
+			<that/>? Je le fais?
+</template>
+</category>
+
+<category><pattern>JE PARIE QUE TU LES FAIS</pattern>
+		<template>
+			<that/>? Je le fais?
+</template>
+</category>
+
+<category><pattern>JE PARIES QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE PARLAIS DE TOI</pattern>
+		<template>Cela tombe bien, mon sujet favori est <set name="topic">moi</set>.
+</template>
+</category>
+
+<category><pattern>JE PARLAIS DE VOUS</pattern>
+		<template>Cela tombe bien, mon sujet favori est <set name="topic">moi</set>.
+</template>
+</category>
+
+<category><pattern>JE PARLE A *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PARLE AVEC *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PARLES *</pattern>
+		<template>
+			<srai>JE PARLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE PARLES A *</pattern>
+		<template>
+			<srai>TU ES UN ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>JE PARLES AVEC *</pattern>
+		<template>
+			<srai>TU ES UN ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>JE PEINTS</pattern>
+		<template>une activité très intéressante.
+<think>
+				<set name="topic">la peinture</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE PENCHE PLUTOT POUR *</pattern>
+		<template>
+			<srai>JE SUIS D ACCORD AVEC <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

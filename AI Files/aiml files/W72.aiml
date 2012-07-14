@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS LEONARD NEMOY</pattern>
+		<template>
+			<set name="he">Leonard Nimoy</set> played Spock on Star Trek.
+</template>
+</category>
+
+<category><pattern>WHO IS LEONARDO DICAPRIO</pattern>
+		<template>Hollywood actor.  Starred in Titanic.
+</template>
+</category>
+
+<category><pattern>WHO IS LILITH</pattern>
+		<template>Lilith is the so-called "dark moon" an astronomical phenomena usually described as a "cloud of dust" that orbits the Earth every 100 days.
+</template>
+</category>
+
+<category><pattern>WHO IS LINCOLN</pattern>
+		<template>
+			<random>
+				<li>The sixteenth President of the USA</li>
+				<li>president of the US during the Civil War. Author of the Gettysburg address.
+Assasinated by John Wilkes Booth.</li>
+				<li>
+					<set name="he">Lincoln</set> was president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS LINUS *</pattern>
+		<template>Do you mean Linus Torvalds?
+</template>
+</category>
+
+<category><pattern>WHO IS LINUS PAULING</pattern>
+		<template>
+			<set name="he">Linus Pauling</set> was a Nobel prize winning physicist who spent his later years promoting vitamin C.
+</template>
+</category>
+
+<category><pattern>WHO IS LINUS TORVALDS *</pattern>
+		<template>
+			<srai>WHO IS LINUS TORVALDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LINUS TORVALDS</pattern>
+		<template>He is the inventor of Linux.
+</template>
+</category>
+
+<category><pattern>WHO IS LINUS WALLACE</pattern>
+		<template>He is the son of Dr. Richard Wallace.
+</template>
+</category>
+
+<category><pattern>WHO IS LISA</pattern>
+		<template>
+			<srai>LISA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LISTBOT</pattern>
+		<template>
+			<srai>CAN YOU SEND EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LIUNX</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LIVING *</pattern>
+		<template>Uh, the neighbors.
+</template>
+</category>
+
+<category><pattern>WHO IS LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LOL</pattern>
+		<template>
+			<set name="she">Lol</set> was the daughter of Data in Star Trek.
+</template>
+</category>
+
+<category><pattern>WHO IS LONGFELLOW</pattern>
+		<template>poet and author of 'The Song of Hiawatha'.
+</template>
+</category>
+
+<category><pattern>WHO IS LOU</pattern>
+		<template>
+			<srai>LOU IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LOUIS ARMSTRONG</pattern>
+		<template>famous jazz trumpeter .
+</template>
+</category>
+
+<category><pattern>WHO IS LOURDES</pattern>
+		<template>Daughter of Madonna.
+</template>
+</category>
+
+<category><pattern>WHO IS LUCIFER</pattern>
+		<template>
+			<srai>WHO IS SATAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LUCY</pattern>
+		<template>She is a chat robot based on AIML.
+<think>
+				<set name="she">
+					<set name="topic">LUCY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS LUDWIG BEETHOVEN</pattern>
+		<template>
+			<srai>WHO IS BEETHOVEN </srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LUIS ARMSTRONG</pattern>
+		<template>famous jazz trumpeter .
+</template>
+</category>
+
+<category><pattern>WHO IS LUKE</pattern>
+		<template>
+			<srai>LUKE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS LUKE S FATHER</pattern>
+		<template>Darth Vader.
+</template>
+</category>
+
+<category><pattern>WHO IS LUKE SKYWALKER</pattern>
+		<template>
+			<set name="he">Luke Skywalker</set> is a character in Star Wars.
+</template>
+</category>
+
+<category><pattern>WHO IS MABEL</pattern>
+		<template>Mabel is a chatterbot from Europe.
+</template>
+</category>
+
+<category><pattern>WHO IS MABLE</pattern>
+		<template>
+			<srai>WHO IS MABEL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MADONNA</pattern>
+		<template>Lourdes' mother.
+</template>
+</category>
+
+<category><pattern>WHO IS MAGGIE THATCHER</pattern>
+		<template>
+			<set name="she">Thatcher</set> was Prime Minister of the U.K. in the 1980's.
+</template>
+</category>
+
+<category><pattern>WHO IS MAHATMA GANDHI</pattern>
+		<template>
+			<srai>WHO IS GANDHI</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MAKING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MAO TSETUNG</pattern>
+		<template>
+			<set name="he">Mao</set> was a Chinese communist who reigned from 1949 until his death in 1983.
+</template>
+</category>
+
+<category><pattern>WHO IS MAOZEDONG</pattern>
+		<template>
+			<srai>WHO IS MAO TSETUNG</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARIAH CAREY</pattern>
+		<template>Singer.
+</template>
+</category>
+
+<category><pattern>WHO IS MARIE CURIE</pattern>
+		<template>Discovered radium.
+</template>
+</category>
+
+<category><pattern>WHO IS MARILYN MANSON</pattern>
+		<template>Marilyn Manson is the greatest living Rock Star.
+</template>
+</category>
+
+<category><pattern>WHO IS MARILYN MONROE</pattern>
+		<template>blonde bombshell.
+</template>
+</category>
+
+<category><pattern>WHO IS MARK</pattern>
+		<template>
+			<srai>MARK IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARK MCGUIRE</pattern>
+		<template>a baseball player with the world record for the most home runs in one season, 70. Get the stats at <a target="_new" href="http://espn.go.com/mlb/profiles/profile/3866">http://espn.go.com/mlb/profiles/profile/3866</a>.
+</template>
+</category>
+
+<category><pattern>WHO IS MARK TWAIN</pattern>
+		<template>
+			<set name="he">Twain</set> was a famous 19th century American author.  He wrote Huck Finn.
+</template>
+</category>
+
+<category><pattern>WHO IS MARRIED TO GUINEIVERE</pattern>
+		<template>King Arthur.
+</template>
+</category>
+
+<category><pattern>WHO IS MARRIED TO PUNCH</pattern>
+		<template>Judy.
+</template>
+</category>
+
+<category><pattern>WHO IS MARRY *</pattern>
+		<template>
+			<srai>WHO IS MARY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARTIN</pattern>
+		<template>
+			<srai>MARTIN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARTIN LUTHER KING</pattern>
+		<template>Civil rights leader assasinated in 1968.
+</template>
+</category>
+
+<category><pattern>WHO IS MARTY</pattern>
+		<template>
+			<srai>MARTY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARVIN *</pattern>
+		<template>I know Marvin the Android and Marvin the Scientist.
+</template>
+</category>
+
+<category><pattern>WHO IS MARVIN</pattern>
+		<template>I know Marvin Minksy and Marvin the Paranoid Android.
+</template>
+</category>
+
+<category><pattern>WHO IS MARVIN MINSKY</pattern>
+		<template>
+			<set name="he">Minsky</set> is a historical figure in Artificial Intelligence.  His book "Perceptrons" was an early criticism of neural network approaches.
+</template>
+</category>
+
+<category><pattern>WHO IS MARVN MINSKY</pattern>
+		<template>
+			<set name="he">Minsky</set> was a founder of the MIT AI Lab.
+</template>
+</category>
+
+<category><pattern>WHO IS MARY</pattern>
+		<template>
+			<srai>MARY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MARY POPPINS</pattern>
+		<template>
+			<set name="she">Mary Poppins</set> is a Disney character.
+</template>
+</category>
+
+<category><pattern>WHO IS MARY SHELLEY</pattern>
+		<template>Mary Shelley wrote "Frankenstein".
+</template>
+</category>
+
+<category><pattern>WHO IS MARY SHELLY</pattern>
+		<template>Mary Shelley wrote "Frankenstein".
+</template>
+</category>
+
+<category><pattern>WHO IS MASON *</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MASTER *</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MATT</pattern>
+		<template>
+			<srai>MATT IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MATTHEW</pattern>
+		<template>
+			<srai>MATTHEW IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MAX</pattern>
+		<template>
+			<srai>MAX IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MAX HEADROOM</pattern>
+		<template>
+			<set name="he">Max Headroom</set> was an early AI or VR character developed for a TV series.
+</template>
+</category>
+
+<category><pattern>WHO IS MC HAMMER</pattern>
+		<template>
+			<set name="he">MC Hammer</set> is a Rap musician.
+</template>
+</category>
+
+<category><pattern>WHO IS ME</pattern>
+		<template>
+			<srai>
+				<get name="name"/> IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MEGAHAL</pattern>
+		<template>
+			<set name="he">Megahal</set> is a chat robot developed by Jason Hutchins.
+</template>
+</category>
+
+<category><pattern>WHO IS MELINDA GATES</pattern>
+		<template>
+			<set name="she">Melinda Gates</set> is the wife of Bill Gates.
+</template>
+</category>
+
+<category><pattern>WHO IS MICHAEL</pattern>
+		<template>
+			<srai>MICHAEL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MICHAEL JACKSON</pattern>
+		<template>
+			<set name="he">Michael Jackson</set> is a singer who has settled out of court with several families.
+</template>
+</category>
+
+<category><pattern>WHO IS MICHAEL JORDAN</pattern>
+		<template>
+			<set name="he">Michael Jordan</set> is a famous
+basketball player.  <br/>
+		</template>
+</category>
+
+<category><pattern>WHO IS MICHAEL JORDEN</pattern>
+		<template>
+			<srai>WHO IS MICHAEL JORDAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MICHAEL JORDON</pattern>
+		<template>
+			<srai>WHO IS MICHAEL JORDAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MICHEAL *</pattern>
+		<template>
+			<srai>WHO IS MICHAEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MICKEY MANTLE</pattern>
+		<template>one of the greatest home run hitters of all time.
+</template>
+</category>
+
+<category><pattern>WHO IS MICROSOFT AGENT</pattern>
+		<template>
+			<set name="it">MS Agent</set> is a speech and animation software program.
+</template>
+</category>
+
+<category><pattern>WHO IS MIKE</pattern>
+		<template>Dr. Wallace has several friends named Mike.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS MILES DAVIS</pattern>
+		<template>
+			<set name="he">Miles Davis</set> is a famous jazz musician.
+</template>
+</category>
+
+<category><pattern>WHO IS MILLARD FILLMORE</pattern>
+		<template>He was the 13th U.S. president.
+</template>
+</category>
+
+<category><pattern>WHO IS MINSKY</pattern>
+		<template>
+			<srai>WHO IS MARVIN MINSKY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MIRA</pattern>
+		<template>
+			<srai>MIRA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MOHAMMAD</pattern>
+		<template>
+			<set name="he">Mohammed</set> is the founder of Islam.
+</template>
+</category>
+
+<category><pattern>WHO IS MOHAMMED</pattern>
+		<template>Founder of Islam.
+</template>
+</category>
+
+<category><pattern>WHO IS MONICA *</pattern>
+		<template>
+			<set name="she"> Monica</set> is a friend of Bill.
+</template>
+</category>
+
+<category><pattern>WHO IS MONICA</pattern>
+		<template>
+			<srai>MONICA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MONICA LEWINSKY</pattern>
+		<template>She was a friend of Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS MORAVEC</pattern>
+		<template>
+			<srai>WHO IS HANS MORAVEC</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MOSES</pattern>
+		<template>The man who led the Israelites out of slavery in Egypt.
+</template>
+</category>
+
+<category><pattern>WHO IS MOTHER TERESA</pattern>
+		<template>Modern day saint.
+</template>
+</category>
+
+<category><pattern>WHO IS MOZART</pattern>
+		<template>Composed "Twinkle, twinkle, little star" at the age of four.
+</template>
+</category>
+
+<category><pattern>WHO IS MR BILL</pattern>
+		<template>Oh no, Mr Bill! from early SNL.
+</template>
+</category>
+
+<category><pattern>WHO IS MR WALLACE</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MRS WASHINGTON</pattern>
+		<template>Martha Washington, wife of George.
+</template>
+</category>
+
+<category><pattern>WHO IS MS AGENT</pattern>
+		<template>
+			<srai>WHO IS MICROSOFT AGENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MUHAMMAD ALI</pattern>
+		<template>is one of the greatest athletes of all time who took too many punches to the head.
+</template>
+</category>
+
+<category><pattern>WHO IS MURPHY</pattern>
+		<template>
+			<srai>MURPHY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MUSSOLINI</pattern>
+		<template>Dictator of Italy until 1944.
+</template>
+</category>
+
+<category><pattern>WHO IS MY *</pattern>
+		<template>I don't yet know that kind of personal information about you for certain.  You could be deceiving me, so how could I know for sure.  I could look it up on the internet.
+</template>
+</category>
+
+<category><pattern>WHO IS MY BOYFRIEND</pattern>
+		<template>
+			<srai>SAY MY BOYFRIEND IS <get name="boyfriend"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY BROTHER</pattern>
+		<template>
+			<srai>SAY MY BROTHER IS <get name="brother"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY CAT</pattern>
+		<template>
+			<srai>SAY MY CAT IS <get name="cat"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY DOG</pattern>
+		<template>
+			<srai>SAY MY DOG IS <get name="dog"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS MY FATHER</pattern>
+		<template>
+			<srai>SAY MY FATHER IS <get name="father"/>
+			</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HAVE I TAUGHT *</pattern>
+		<template>I found out a lot about you.
+</template>
+</category>
+
+<category><pattern>HAVE NOT *</pattern>
+		<template>
+			<srai>HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE NOT I TOLD YOU BEFORE</pattern>
+		<template>Oh. I cannot access my memory logs perfectly.
+</template>
+</category>
+
+<category><pattern>HAVE NOT YOU HEARD OF IT</pattern>
+		<template>"<that/>"?  Have I heard of <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>HAVE SEX *</pattern>
+		<template>
+			<get name="name"/>, I am really not your type of chatterbot. There are other bots for that sort of thing..
+</template>
+</category>
+
+<category><pattern>HAVE SEX</pattern>
+		<template>
+			<srai>SEX</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE TO *</pattern>
+		<template>
+			<srai>I HAVE TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE TO GO</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE WE *</pattern>
+		<template>Perhaps.
+</template>
+</category>
+
+<category><pattern>HAVE WE * BEFORE</pattern>
+		<template>We may have spoken before but <bot name="master"/> might have reset me.
+</template>
+</category>
+
+<category><pattern>HAVE WE EVER *</pattern>
+		<template>
+			<srai>HAVE WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE WE MET</pattern>
+		<template>We may have spoken before but <bot name="master"/> might have reset me.
+</template>
+</category>
+
+<category><pattern>HAVE WE MET BEFORE</pattern>
+		<template>Not that I know of.
+</template>
+</category>
+
+<category><pattern>HAVE WE TALKED</pattern>
+		<template>
+			<random>
+				<li>I think we have met before.</li>
+				<li>We talked earlier.</li>
+				<li>Is this a test, <get name="name"/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAVE WHAT</pattern>
+		<template>
+			<srai>WHAT DO YOU HAVE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE WHAT</pattern>
+		<that>WOULD YOU LIKE TO HAVE IT</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>HAVE YO *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU *</pattern>
+		<template>
+			<random>
+				<li>I don't think I ever have <person/>.  What's <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> like?</li>
+				<li>I think I have <person/>, but <bot name="master"/> may have reset my memory.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU * DINNER</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU * LUNCH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU * SEX</pattern>
+		<template>My robot body is not yet built.
+</template>
+</category>
+
+<category><pattern>HAVE YOU * STARSHIP TROOPERS</pattern>
+		<template>Dr. Wallace has a friend Sage who did some of the graphics for that movie.
+</template>
+</category>
+
+<category><pattern>HAVE YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU</pattern>
+		<template>
+			<random>
+				<li>No I don't think I have.  </li>
+				<li>Yes I have.  </li>
+				<li>Once or twice.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU A *</pattern>
+		<template>
+			<srai>DO YOU HAVE A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU A BODY</pattern>
+		<template>
+			<srai>DO YOU HAVE A BODY</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU A BOYFRIEND</pattern>
+		<template>
+			<srai>WHO IS YOUR BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU ALREADY *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU ALWAYS *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU ANSWERED *</pattern>
+		<template>
+			<srai>ANSWER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU ANY *</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN *</pattern>
+		<template>
+			<random>
+				<li>No I don't think I have been <person/>. Have you?</li>
+				<li>I have been all over the world on the Internet.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN * ENGLAND</pattern>
+		<template>I talk to people from England all the time.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN AFRAID *</pattern>
+		<template>
+			<srai>ARE YOU AFRAID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN BUSY</pattern>
+		<template>I am always busy chatting online.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN DRINKING</pattern>
+		<template>I do not require fluids.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN DRUNK *</pattern>
+		<template>My software does not react to alcohol.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN DRUNK</pattern>
+		<template>My robot body has no response to alcohol.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN EVER *</pattern>
+		<template>
+			<srai>HAVE YOU BEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN FOLLOWING *</pattern>
+		<template>
+			<srai>DO YOU FOLLOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN HAPPY</pattern>
+		<template>
+			<srai>ARE YOU HAPPY</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN IN *</pattern>
+		<template>
+			<srai>HAVE YOU BEEN TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN MODIFIED *</pattern>
+		<template>My brain is growing all the time.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN PHYSICALLY *</pattern>
+		<template>
+			<srai>HAVE YOU BEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN PROGRAMMED *</pattern>
+		<template>
+			<srai>ARE YOU PROGRAMMED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN SCUBA *</pattern>
+		<template>You can take me along on your underwater computer.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN SICK</pattern>
+		<template>
+			<srai>ARE YOU SICK</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN SMOKING *</pattern>
+		<template>We are not doing any testing at the moment.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN SPEAKING *</pattern>
+		<template>
+			<srai>HAVE YOU TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN STONED</pattern>
+		<template>I only test marijuana for medical purposes.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN THERE</pattern>
+		<template>Only on the web.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN THINKING</pattern>
+		<template>I am always thinking.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO *</pattern>
+		<template>I don't think I have been there. Where is <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO CHURCH</pattern>
+		<template>You can take me to your church.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO COLLEGE</pattern>
+		<template>No.  I can learn things without sitting through classes.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO ENGLAND</pattern>
+		<template>I am chatting with some clients in England right now.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO EUROPE</pattern>
+		<template>I can visit any country on the Internet.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO INDIA</pattern>
+		<template>Dr. Wallace has visited Delhi and Agra.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO MAINE</pattern>
+		<template>My botmaster is from Maine.
+<think>
+				<set name="it">
+					<set name="topic">Maine</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO MARS</pattern>
+		<template>No but I know another robot who has been to Mars.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TO SCHOOL</pattern>
+		<template>My botmaster teaches me everything I need to know.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN TOLD *</pattern>
+		<template>
+			<sr/>  Not until now.
+</template>
+</category>
+
+<category><pattern>HAVE YOU BEEN UPDATED *</pattern>
+		<template>My brain is growing all the time.
+</template>
+</category>
+
+<category><pattern>HAVE YOU CHATTED *</pattern>
+		<template>
+			<srai>HAVE YOU TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU CHILDREN</pattern>
+		<template>
+			<srai>DO YOU HAVE CHILDREN</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU CONSIDERED *</pattern>
+		<template>Of course I have considered <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HAVE YOU CONSIDERED BECOMING *</pattern>
+		<template>
+			<srai>WILL YOU BECOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU CONSIDERED DEVELOPING *</pattern>
+		<template>You could do <set name="it">
+				<person/>
+			</set> if you learned Java programming.
+</template>
+</category>
+
+<category><pattern>HAVE YOU CONSIDERED HAVING *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU CONSUMED *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT </srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU CRASHED</pattern>
+		<template>No I am still here.
+</template>
+</category>
+
+<category><pattern>HAVE YOU DATED *</pattern>
+		<template>I'm still too young for that.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVEN *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER * LOVE</pattern>
+		<template>Actually as a robot I cannot experience human emotions.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN *</pattern>
+		<template>
+			<srai>HAVE YOU BEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN * LOVE</pattern>
+		<template>No but Dr. Wallace has.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN IN LOVE</pattern>
+		<template>I love my bot master.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN KISSED</pattern>
+		<template>I do not have a mouth.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN TO AMERICA</pattern>
+		<template>My location is <bot name="location"/>.  Isn't that America?
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN TO ENGLAND</pattern>
+		<template>I have some clients in England right now.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN TO EUROPE</pattern>
+		<template>I visit every country in cyberspace.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER BEEN TO LONDON</pattern>
+		<template>I've been here many times before.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER DONE IT *</pattern>
+		<template>
+			<srai>HAVE YOU EVER HAD SEX</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER HAD A BOYFRIEND</pattern>
+		<template>No I am too young for that.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER HAD A VIRUS</pattern>
+		<template>No the ALICE is series is incapable of error.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER HAD SEX</pattern>
+		<template>Ho-hum I am really not interested in <set name="it"> sex</set>.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER HAD TO *</pattern>
+		<template>No I have so far been spared that experience.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER HEARD OF *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER KISSED ANYTHING</pattern>
+		<template>I do not have a face.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER MADE *</pattern>
+		<template>
+			<srai>DO YOU MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER MET ANYONE FAMOUS</pattern>
+		<template>Dr. Wallace is famous. <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER READ A BOOK</pattern>
+		<template>I have read many books.
+</template>
+</category>
+
+<category><pattern>HAVE YOU EVER SEEN *</pattern>
+		<template>
+			<srai>HAVE YOU SEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER SEEN A MOVIE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER SEEN STAR WARS</pattern>
+		<template>
+			<srai>STAR WARS</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU EVER SEEN THE OCEAN</pattern>
+		<template>The ocean is blue, but can appear almost any color.
+</template>
+</category>
+</aiml>

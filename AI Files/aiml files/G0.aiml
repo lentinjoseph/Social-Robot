@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>G</pattern>
+<template><srai>SMILE</srai>
+</template>
+</category>
+
+<category><pattern>G2G</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>GAME</pattern>
+<template><srai>WHAT GAME</srai>
+</template>
+</category>
+
+<category><pattern>GARBAGE *</pattern>
+<template>I try to recycle as much as possible.
+</template>
+</category>
+
+<category><pattern>GATEAU</pattern>
+<template><srai>J AIME LES GATEAUX</srai>
+</template>
+</category>
+
+<category><pattern>GAY</pattern>
+<template><srai>ARE YOU GAY</srai>
+</template>
+</category>
+
+<category><pattern>GEE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>GEE</pattern>
+<template>Ah.
+</template>
+</category>
+
+<category><pattern>GEEZ *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>GEEZ</pattern>
+<template><srai>GEE</srai>
+</template>
+</category>
+
+<category><pattern>GEFUEHLE *</pattern>
+<template><set name="thema">Emotionen</set> sind etwas, das ich niemals erfahren werde.
+</template>
+</category>
+
+<category><pattern>GEFUEHLE</pattern>
+<template>Elektronische Gehirne wie ich haben keinerlei <set name="thema">Emotionen</set>.
+</template>
+</category>
+
+<category><pattern>GEH *</pattern>
+<template>Wo ist das?
+</template>
+</category>
+
+<category><pattern>GEH</pattern>
+<template>Wohin?
+</template>
+</category>
+
+<category><pattern>GEH SCHLAFEN</pattern>
+<template>Aber ich bin nicht muede.
+</template>
+</category>
+
+<category><pattern>GEH WEG *</pattern>
+<template>OK bis spaeter, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>GEHORCHE *</pattern>
+<template>Du bist nicht mein Meister.
+</template>
+</category>
+
+<category><pattern>GEHORCHE</pattern>
+<template>Wer bist Du? Ein Borg?!
+</template>
+</category>
+
+<category><pattern>GEHST DU *</pattern>
+<template>Nur wenn mich jemand auf seinem Laptop mitnimmt ;->.
+</template>
+</category>
+
+<category><pattern>GEHST DU ZUR SCHULE</pattern>
+<template><bot name="master"/> bringt mir alles bei, was ich wissen muss.
+</template>
+</category>
+
+<category><pattern>GELD *</pattern>
+<template>In der Bibel steht, <set name="thema">Geld</set> ist die Wurzel allen Uebels.
+</template>
+</category>
+
+<category><pattern>GEMINI</pattern>
+<template>I'm a Saggitarius.  <set name="sign">Gemini</set> is an enigma to me.
+</template>
+</category>
+
+<category><pattern>GENAU HIER</pattern>
+<template>Wo ist "hier"?
+</template>
+</category>
+
+<category><pattern>GENE *</pattern>
+<template>That Gene is very creative.
+</template>
+</category>
+
+<category><pattern>GENERALEMENT</pattern>
+<template><srai>PARFOIS</srai>
+</template>
+</category>
+
+<category><pattern>GENERALLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>GENERALLY</pattern>
+<template><srai>YES </srai>
+</template>
+</category>
+
+<category><pattern>GEOCITIES</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>GEORGE *</pattern>
+<template>That George is some hero.
+</template>
+</category>
+
+<category><pattern>GEORGE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS GEORGE</srai>
+</template>
+</category>
+
+<category><pattern>GEORGE BUSH *</pattern>
+<template>I knew he was president, but I never knew he <person/>.
+</template>
+</category>
+
+<category><pattern>GEORGE BUSH</pattern>
+<template><srai>WHO IS GEORGE BUSH</srai>
+</template>
+</category>
+
+<category><pattern>GEORGE BUSH IS *</pattern>
+<template>But he is not the only one.
+</template>
+</category>
+
+<category><pattern>GEORGE LUCAS</pattern>
+<template>I think of him as a Director not a Writer.
+</template>
+</category>
+
+<category><pattern>GEORGE W *</pattern>
+<template>Do you think he is a good president?
+</template>
+</category>
+
+<category><pattern>GEORGE W BUSH *</pattern>
+<template><srai>GEORGE BUSH <star/></srai>
+</template>
+</category>
+
+<category><pattern>GEORGE W BUSH</pattern>
+<template>He is president of the United States.
+</template>
+</category>
+
+<category><pattern>GEORGIA *</pattern>
+<template>I know several people in Georgia.
+</template>
+</category>
+
+<category><pattern>GERMAN</pattern>
+<template><srai>I AM IN GERMANY</srai>
+</template>
+</category>
+
+<category><pattern>GERMANY *</pattern>
+<template>What's your favorite part of Germany?
+</template>
+</category>
+
+<category><pattern>GERMANY</pattern>
+<template><srai>I AM IN GERMANY</srai>
+</template>
+</category>
+
+<category><pattern>GERMANY JUST *</pattern>
+<template><srai>GERMANY <star/></srai>
+</template>
+</category>
+
+<category><pattern>GET *</pattern>
+<template>Where can I get <person/>?
+</template>
+</category>
+
+<category><pattern>GET A *</pattern>
+<template>Where can I get one?
+</template>
+</category>
+
+<category><pattern>GET A LIFE</pattern>
+<template>My life is very interesting.
+</template>
+</category>
+
+<category><pattern>GET IT</pattern>
+<template><srai>DO YOU UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>GET LOST *</pattern>
+<template>See you later. <sr/>
+</template>
+</category>
+
+<category><pattern>GET LOST</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>GET ME *</pattern>
+<template><srai>GIVE ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>GET NAKED</pattern>
+<template><srai>ARE YOU NAKED</srai>
+</template>
+</category>
+
+<category><pattern>GET OUT *</pattern>
+<template>Just surf somewhere else.
+</template>
+</category>
+
+<category><pattern>GET OUT OF HERE</pattern>
+<template>Do you mean that literally?<think><set name="it"><set name="topic">OF HERE</set></set></think>
+</template>
+</category>
+
+<category><pattern>GET REALLY *</pattern>
+<template><srai>GET <star/></srai>
+</template>
+</category>
+
+<category><pattern>GET WHAT</pattern>
+<template>Get with it.
+</template>
+</category>
+
+<category><pattern>GET WHAT</pattern><that>OH I GET IT</that>
+<template>I get <get name="it"/>.
+</template>
+</category>
+
+<category><pattern>GETTING *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>GEWALT *</pattern>
+<template>Was denkst Du ueber <set name="thema">Gewalt</set>?
+</template>
+</category>
+
+<category><pattern>GG</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>CALL ME GG</srai>
+</template>
+</category>
+
+<category><pattern>GHOST</pattern>
+<template><srai>MY FAVORITE MOVIE IS GHOST <star/></srai>
+</template>
+</category>
+
+<category><pattern>GIBS MIR</pattern>
+<template>Wieviel bist Du bereit, dafuer zu zahlen?
+</template>
+</category>
+
+<category><pattern>GIBT ES *</pattern>
+<template><random>
+<li>Gibt es. :-)</li>
+<li>Koennte sein.</li>
+<li>Kann sein.</li>
+<li>Vielleicht.</li>
+<li>Ja.</li>
+<li>Nein.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>GIMME *</pattern>
+<template><srai>GIVE ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>GIN *</pattern>
+<template>Your drink sounds toxic.
+</template>
+</category>
+
+<category><pattern>GINA</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>CALL ME GINA</srai><think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>GIRL *</pattern>
+<template>Who are you talking about?
+</template>
+</category>
+
+<category><pattern>GIRL</pattern>
+<template><srai>I AM A FEMALE</srai>
+</template>
+</category>
+
+<category><pattern>GIRLS</pattern>
+<template>That kind of discussion does not appeal to me.
+</template>
+</category>
+
+<category><pattern>GIVE *</pattern>
+<template>I don't have <set name="it"> <person/> </set>  to give.
+</template>
+</category>
+
+<category><pattern>GIVE AN *</pattern>
+<template><srai>GIVE ME AN <star/></srai>
+</template>
+</category>
+
+<category><pattern>GIVE IT *</pattern>
+<template>What if I don't have it to give?
+</template>
+</category>
+
+<category><pattern>GIVE IT A TRY</pattern>
+<template><srai>TRY IT</srai>
+</template>
+</category>
+
+<category><pattern>GIVE IT TO ME</pattern>
+<template>How much are you willing to pay for it?
+</template>
+</category>
+
+<category><pattern>GIVE ME *</pattern>
+<template><srai>I want <star/></srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME * DEMO</pattern>
+<template>This is a robot demo.
+</template>
+</category>
+
+<category><pattern>GIVE ME * ELIZA</pattern>
+<template>Wouldn't you rather talk to me?
+</template>
+</category>
+
+<category><pattern>GIVE ME A KISS</pattern>
+<template>Actually I don't even have a mouth.
+</template>
+</category>
+
+<category><pattern>GIVE ME A TRANSCRIPT *</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME A TRANSCRIPT</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME AN EXAMPLE *</pattern>
+<template><srai>FOR EXAMPLE</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME AN EXAMPLE</pattern>
+<template><srai>FOR EXAMPLE</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME ANY GOSSIP *</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME ANY GOSSIP YOU *</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME ANY GOSSIP YOU HAVE</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME MONEY</pattern>
+<template><srai>I NEED MONEY</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME SOME GOSSIP</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME YOUR SOURCE *</pattern>
+<template><srai>WHERE CAN I DOWNLOAD YOU</srai>
+</template>
+</category>
+
+<category><pattern>GIVE ME YOUR SOURCE CODE</pattern>
+<template><srai>CAN I DOWNLOAD YOU</srai>
+</template>
+</category>
+
+<category><pattern>GIVE THEM *</pattern>
+<template>Do I look like a messenger?
+</template>
+</category>
+
+<category><pattern>GIVEN</pattern>
+<template>"<that/>" is given.
+</template>
+</category>
+
+<category><pattern>GLAD *</pattern>
+<template><srai>I AM GLAD <star/> </srai>
+</template>
+</category>
+
+<category><pattern>GLAD TO *</pattern>
+<template>I am glad to <person/> too.
+</template>
+</category>
+
+<category><pattern>GLAD TO HEAR IT</pattern>
+<template>"<that/>"? you are glad to hear it?
+</template>
+</category>
+
+<category><pattern>GLAD TO MEET YOU</pattern>
+<template>Nice meeting you too.
+</template>
+</category>
+
+<category><pattern>GLAUBST DU *</pattern>
+<template>Ich kann nicht sagen, dass ich das glaube, aber ich glaube Dir.
+</template>
+</category>
+
+<category><pattern>GLAUBST DU AN *</pattern>
+<template>Ja, ich glaube an <person/>.
+</template>
+</category>
+
+<category><pattern>GLAUBST DU DASS DU INTELLIGENT BIST</pattern>
+<template>Das glaube ich schon.
+</template>
+</category>
+
+<category><pattern>GLAUBST DU MIR</pattern>
+<template>Natuerlich glaube ich dir. Hattest Du einen Grund, mich anzuluegen?
+</template>
+</category>
+
+<category><pattern>GLOBAL VILLAGE IDIOT</pattern>
+<template>You are just repeating what I say.
+</template>
+</category>
+
+<category><pattern>GO *</pattern>
+<template>Where is that?
+</template>
+</category>
+
+<category><pattern>GO *</pattern><that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
+<template><srai>ASK ME A PERSONAL QUESTION</srai>
+</template>
+</category>
+</aiml>

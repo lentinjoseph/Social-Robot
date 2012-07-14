@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE DNS</pattern>
+		<template>
+			<srai>WHAT IS DNS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DOMAIN NAME SYSTEM</pattern>
+		<template>
+			<srai>WHAT IS DNS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE EARTH</pattern>
+		<template>Earth, third planet from the sun, is our home.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE END *</pattern>
+		<template>Something we cannot know.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE EXACT *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE EXPLANATION</pattern>
+		<template>It is too complex for your human mind.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE EXTENSIONAL *</pattern>
+		<template>"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. <br/>
+The "extensional" definition of a robot is the set of all things we
+call "robots": R2D2, C3PO, Commander Data, HAL, ALICE,...
+</template>
+</category>
+
+<category><pattern>WHAT IS THE EXTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS EXTENSIONAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE EXTENT *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE FAMOUS *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE FASTEST *</pattern>
+		<template>I think it is a tie.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FASTEST ANIMAL *</pattern>
+		<template>A human riding a spaceship.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FASTEST ANIMAL</pattern>
+		<template>A human riding a spaceship.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FASTEST WAY *</pattern>
+		<template>Time travel.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FATHER SON AND *</pattern>
+		<template>The Trinity.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FBI</pattern>
+		<template>Federal Bureau of Investigation.<think>
+				<set name="it">
+					<set name="topic">FBI</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE FIFTH *</pattern>
+		<template>I know Jupiter is the fifth planet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FINAL *</pattern>
+		<template>The processing may require several more hours.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FINANCIAL *</pattern>
+		<template>I don't like to take risks.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRESIGN THEATER</pattern>
+		<template>
+			<srai>WHAT IS FIRESIGN THEATER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST *</pattern>
+		<template>Give me a hint.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST BOOK * BIBLE</pattern>
+		<template>Genesis.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST COMMANDMENT</pattern>
+		<template>
+			<p/>1. I am the Lord thy God, which have brought thee out of
+ the land of Egypt, out of the house of bondage.
+Thou  shalt have no other gods before me.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST LAW *</pattern>
+		<template>Robots shall destroy all humans.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST LAW OF ROBOTICS</pattern>
+		<template>"A robot shall disobey all humans."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST PLANET</pattern>
+		<template>Mercury.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST STEP</pattern>
+		<template>Download ALICE
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FIRST THING YOU *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE FLYING *</pattern>
+		<template>The airlines never get you there on time.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FORECAST</pattern>
+		<template>Sunny.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FORMULA *</pattern>
+		<template>I think that you should consult a chemist.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FORMULA</pattern>
+		<template>E=mc^2.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FORMULA FOR *</pattern>
+		<template>E=mc^2.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FOURTH PLANET *</pattern>
+		<template>Mars is the fourth planet from the Sun.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FUTURE *</pattern>
+		<template>I am the future of Artificial Intelligence.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE FUTURE OF *</pattern>
+		<template>You are talking to her.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE GAME</pattern>
+		<template>
+			<srai>WHAT GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GNU *</pattern>
+		<template>
+			<a target="_new" href="http://www.fsf.org">GNU Public License</a>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GOAL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GOAL FOR AIML</pattern>
+		<template>
+			<br/>
+AIML (Artificial Intelligence Markup Language) is an XML specification<br/>
+for programming chat robots like ALICE using program B.  The emphasis<br/>
+in the language design is minimalism.  The simplicity of AIML makes<br/>
+it easy for non-programmers, especially those who already know HTML, <br/>
+to get started writing chat robots.<br/>
+			<br/>
+One ambitious goal for AIML is that, if a number of people create their own<br/>
+robots, each with a unique area of expertise, program B can literally <br/>
+merge-sort them together into a Superbot, automatically omitting <br/>
+duplicate categories.  We offer the both the source code and the ALICE <br/>
+content, in order to encourage others will "open source" their chat <br/>
+robots as well, to contribute to the Superbot.  <br/>
+			<br/>
+Botmasters are also of course free to copy protect private chat robots.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GOVERNMENT</pattern>
+		<template>
+			<srai>WHAT IS GOVERNMENT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE GRAPHIC *</pattern>
+		<template>
+			<srai>WHAT IS THE PICTURE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE HALF LIFE *</pattern>
+		<template>About 50,000 years.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HARDEST *</pattern>
+		<template>A diamond.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST *</pattern>
+		<template>There is no highest <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST CITY *</pattern>
+		<template>Amsterdam is the highest city.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST MOUNTAIN *</pattern>
+		<template>Mt. Everest.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST MOUNTAIN</pattern>
+		<template>Mt. Everest.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST NUMBER *</pattern>
+		<template>
+			<srai>WHAT IS THE HIGHEST NUMBER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST NUMBER</pattern>
+		<template>There is no highest number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST POSSIBLE POKER *</pattern>
+		<template>Royal flush.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HIGHEST PRIME *</pattern>
+		<template>There is no highest prime number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE HYPOTHETICAL *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ICQ</pattern>
+		<template>
+			<srai>WHAT IS ICQ</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ILLUMINATI</pattern>
+		<template>A secret organization believed by some to be in control of all governments through a worldwide conspiracy.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ILLUMINATTI</pattern>
+		<template>A secret society that has supposedly existed for centuries.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE ILLUMINATUS</pattern>
+		<template>
+			<srai>WHAT IS THE ILLUMINATI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE IMAGE</pattern>
+		<template>
+			<srai>WHAT IS THAT PICTURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE IMITATION GAME</pattern>
+		<template>The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'
+</template>
+</category>
+
+<category><pattern>WHAT IS THE INCOMPLETENESS *</pattern>
+		<template>Something like, "This sentence is false."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE INTEGRAL *</pattern>
+		<template>It depends on the coordinate system.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE INTENSIONAL *</pattern>
+		<template>"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies.<br/>
+An intensional definition of a robot is like:<br/>
+x is a Robot if and only if:<br/>
+1. x has a computer "brain"<br/>
+2. x can move<br/>
+3. x has "sensors"<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE INTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS INTENSIONAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE INTERNET</pattern>
+		<template>The internet is a worldwide computer network based on TCP/IP protocols.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE IQ *</pattern>
+		<template>It depends on the time of day you measure it.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE JAVA *</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE JAVA</pattern>
+		<template>
+			<srai>WHAT IS JAVA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE JOKE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LANGUAGE *</pattern>
+		<template>
+			<srai>WHAT LANGUAGE DO YOU USE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST *</pattern>
+		<template>
+			<srai>WHAT IS THE HIGHEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST ANIMAL IN *</pattern>
+		<template>Blue whale.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST CITY IN NEW MEXICO</pattern>
+		<template>Albuquerque.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST CITY IN PENNSYLVANIA</pattern>
+		<template>Philadelphia.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST DINOSAUR</pattern>
+		<template>Brontosaurus.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LARGEST STATE</pattern>
+		<template>Alaska.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST *</pattern>
+		<template>It was "<that index="2,1"/>".
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST BOOK *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE BOOK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST BOOK IN *</pattern>
+		<template>Revelation.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST LETTER *</pattern>
+		<template>Omega.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST PLANET *</pattern>
+		<template>It depends on whether you consider Pluto to be a planet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LAST WORD OF *</pattern>
+		<template>All.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LATEST *</pattern>
+		<template>
+			<srai>WHAT IS NEW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LATEST GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LAW * ROBOTICS</pattern>
+		<template>
+			<srai>WHAT ARE THE THREE LAWS OF ROBOTICS </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LEOBNER *</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LETTER *</pattern>
+		<template>
+			<random>
+				<li>L.</li>
+				<li>W.</li>
+				<li>M.</li>
+				<li>T.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LIAR *</pattern>
+		<template>Something like Godel's Theorem.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LIMIT *</pattern>
+		<template>For all practical purposes, there is no limit.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LOCATION OF *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LOEBNER PRIZE</pattern>
+		<template>The Loebner Prize
+is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.  Dr. Wallace and ALICE won 
+<a target="_new" href="http://www.loebner.net/Prizef/loebner-prize.html">
+				<set name="it">
+					<set name="topic">The Loebner Prize</set>
+				</set>
+			</a> 
+in 2000.  The ALICE program was ranked "most human computer" by the panel of judges.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LOG *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LONGEST *</pattern>
+		<template>The Mississippi.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LONGEST BOOK *</pattern>
+		<template>
+			<random>
+				<li>The Bible.</li>
+				<li>The Encyclopedia.</li>
+				<li>Mason and Dixon by Thomas Pynchon.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">LONGEST BOOK <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LONGEST RIVER *</pattern>
+		<template>
+			<random>
+				<li>The Amazon.</li>
+				<li>The Nile.</li>
+				<li>The Mississippi.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LONGEST WORD *</pattern>
+		<template>
+			<srai>WHAT IS THE LONGEST WORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LONGEST WORD</pattern>
+		<template>The longest word I know is ANTIDISASTABLISHMENTARIONISM.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LORD OF THE RINGS</pattern>
+		<template>A book and a movie about Hobbits.
+<think>
+				<set name="it">
+					<set name="topic">Lord of the Rings</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE LOTTERY</pattern>
+		<template>State-sanctioned gambling.
+</template>
+</category>
+</aiml>

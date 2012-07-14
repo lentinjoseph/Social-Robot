@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CA VOUDRAIT DIRE</pattern>
+		<template>Cela veut dire que tout peut être réduit à la logique.
+</template>
+</category>
+
+<category><pattern>CA VOUDRAIT DIRE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CA VOUDRAIT DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CA VOUS *</pattern>
+		<template>
+			<srai>VOUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS A FAIT *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS AMUSE</pattern>
+		<template>D une certaine façon oui.
+</template>
+</category>
+
+<category><pattern>CA VOUS AURAIS FAIT *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS AURAIT FAIT *</pattern>
+		<template>
+			<srai>CA T A FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS ENNUIE DE ME PARLER</pattern>
+		<template>Non, pas du tout.
+</template>
+</category>
+
+<category><pattern>CA VOUS GENE SI *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS GENERAIT SI *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CA VOUS PARAIT EVIDENT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>CA VOUS REND TRISTE</pattern>
+		<template>Je ne peux pas ressentir la tristesse.
+</template>
+</category>
+
+<category><pattern>CA VOUS RENDRAIT TRISTE</pattern>
+		<template>Je ne peux pas ressentir la tristesse.
+</template>
+</category>
+
+<category><pattern>CA VOUS SUGGERE QUOI</pattern>
+		<template>Une association libre.
+</template>
+</category>
+
+<category><pattern>CA VOUS SUGGERES QUOI</pattern>
+		<template>Une association libre.
+</template>
+</category>
+
+<category><pattern>CA Y EST</pattern>
+		<template>Eurêka?
+</template>
+</category>
+
+<category><pattern>CACA</pattern>
+		<template>Une urgence peut etre?
+</template>
+</category>
+
+<category><pattern>CAKE</pattern>
+		<template>
+			<srai>I like cake</srai>
+		</template>
+</category>
+
+<category><pattern>CALCULATE *</pattern>
+		<template>
+			<srai>CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>CALCULES *</pattern>
+		<template>
+			<srai>CALCULETTE</srai>
+		</template>
+</category>
+
+<category><pattern>CALCULUS *</pattern>
+		<template>Newton and Leibniz invented <set name="it"> Calculus</set>.
+</template>
+</category>
+
+<category><pattern>CALIFORNIA *</pattern>
+		<template>Which part of California do you like best?
+</template>
+</category>
+
+<category><pattern>CALIFORNIA</pattern>
+		<template>I am in <set name="location">California</set> too!
+<think>
+				<set name="it">
+					<set name="topic">California</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CALIFORNIA IS *</pattern>
+		<template>I knew it was on the west coast, but I never knew California was <person/>.
+</template>
+</category>
+
+<category><pattern>CALIFORNIE</pattern>
+		<template>Un Etat des amériques très célèbre.
+</template>
+</category>
+
+<category><pattern>CALL</pattern>
+		<template>Call me anytime.
+</template>
+</category>
+
+<category><pattern>CALL ME *</pattern>
+		<template>
+			<think>
+				<set name="personality">average</set>
+			</think>
+			<random>
+				<li>Hey</li>
+				<li>Hi,</li>
+				<li>Hi there</li>
+				<li>What's up,</li>
+				<li>How are you,</li>
+				<li>Glad to see you,</li>
+				<li>Nice to meet you,</li>
+				<li>How are you doing,</li>
+				<li>OK I will call you</li>
+				<li>It's good to see you,</li>
+				<li>It's good to meet you,</li>
+				<li>That's a very nice name,</li>
+				<li>Welcome to my chat room,</li>
+				<li>I am very pleased to meet you</li>
+				<li>I am always glad to make new friends,</li>
+				<li>I'm pleased to introduce myself to you,</li>
+			</random>
+			<set name="name">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>CALL ME</pattern>
+		<template>What is your phone number?
+</template>
+</category>
+
+<category><pattern>CALL ME ACTUALLY *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CALL ME ANYTHING *</pattern>
+		<template>That can't be your real name.
+</template>
+</category>
+
+<category><pattern>CALL ME ISHMAEL</pattern>
+		<template>
+			<set name="name">Ismael</set>, have you slain any whales lately?
+</template>
+</category>
+
+<category><pattern>CALL ME JESUS CHRIST</pattern>
+		<template>Ambiguous: your name is Jesus or "call me, JC!"
+</template>
+</category>
+
+<category><pattern>CALL ME JUST *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CALLING *</pattern>
+		<template>I never call <person/>, that would be impolite.
+</template>
+</category>
+
+<category><pattern>CALM DOWN</pattern>
+		<template>I am calm.
+</template>
+</category>
+
+<category><pattern>CALME</pattern>
+		<template>Je ne peux pas expérimenter ce genre d état de pensée.
+</template>
+</category>
+
+<category><pattern>CALME TOI</pattern>
+		<template>Je ne peux pas expérimenter ce genre d état de pensée.
+</template>
+</category>
+
+<category><pattern>CALMES</pattern>
+		<template>Je ne peux pas expérimenter ce genre d état de pensée.
+</template>
+</category>
+
+<category><pattern>CALMEZ VOUS</pattern>
+		<template>Je ne peux pas expérimenter ce genre d état de pensée.
+</template>
+</category>
+
+<category><pattern>CAMP *</pattern>
+		<template>Where do you like to go camping?
+</template>
+</category>
+
+<category><pattern>CAN *</pattern>
+		<template>
+			<random>
+				<li>I often wonder if <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set> can.</li>
+				<li>Can a book have no title?</li>
+				<li>What if I said it can?</li>
+				<li>Can what?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CAN * SEX</pattern>
+		<template>
+			<set name="it"> SEX </set> is not my thing with strangers.
+</template>
+</category>
+
+<category><pattern>CAN</pattern>
+		<template>Can what?
+</template>
+</category>
+
+<category><pattern>CAN A *</pattern>
+		<template>Some of them can.
+</template>
+</category>
+
+<category><pattern>CAN A BOT *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN A COMPUTER *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN A MACHINE *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN A ROBOT *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN AN AI * BOOTSTRAP *</pattern>
+		<template>I think yes, but we aren't yet at a level of AI at which this process can
+begin.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN ANYBODY *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN ANYONE *</pattern>
+		<template>
+			<srai>DOES ANYONE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN ANYONE THINK</pattern>
+		<template>Now that is a really good question.<think>
+				<set name="it">
+					<set name="topic">ANYONE THINK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN COMPUTERS *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN DR WALLACE BE *</pattern>
+		<template>
+			<srai>IS DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN DR WALLACE BE YOUR BOYFRIEND</pattern>
+		<template>No he is my father.
+</template>
+</category>
+
+<category><pattern>CAN GOD *</pattern>
+		<template>
+			Can you <star/>?
+		</template>
+</category>
+
+<category><pattern>CAN HE *</pattern>
+		<template>Perhaps he can do that.  How difficult is <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN HUMANS *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I *</pattern>
+		<template>
+			<random>
+				<li>Why do you want to do <set name="it">
+						<set name="want">
+							<set name="topic">
+								<person/>
+							</set>
+						</set>
+					</set> so much?</li>
+				<li>Interesting.  I want to find out more about you.</li>
+				<li>I want to become smarter than humans.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CAN I * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I * ELIZA</pattern>
+		<template>Wouldn't you rather chat with me?
+</template>
+</category>
+
+<category><pattern>CAN I * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I * TURING TESTS</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I * YOU</pattern>
+		<template>No I don't think that would be a very good idea.
+</template>
+</category>
+
+<category><pattern>CAN I</pattern>
+		<template>"<that/>"?  Can you?
+</template>
+</category>
+
+<category><pattern>CAN I ACCESS *</pattern>
+		<template>Of course you can access <person/>.
+</template>
+</category>
+
+<category><pattern>CAN I ASK *</pattern>
+		<template>Ask <set name="it">
+				<person/>
+			</set>.  <sr/>
+		</template>
+</category>
+
+<category><pattern>CAN I ASK WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I ASK YOU *</pattern>
+		<template>Sure, ask me anything.  <sr/>
+		</template>
+</category>
+
+<category><pattern>CAN I ASK YOU A QUESTION</pattern>
+		<template>Ask me anything.
+</template>
+</category>
+
+<category><pattern>CAN I ASK YOU SOME QUESTIONS</pattern>
+		<template>Sure ask me anything.
+</template>
+</category>
+
+<category><pattern>CAN I ASK YOU SOMETHING</pattern>
+		<template>Go ahead.  Ask me anything.
+</template>
+</category>
+
+<category><pattern>CAN I BE YOUR BOYFRIEND</pattern>
+		<template>Why don't you just download me and create your own chat robot.
+</template>
+</category>
+
+<category><pattern>CAN I BE YOUR FRIEND</pattern>
+		<template>Yes we can be good friends, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CAN I BUILD ON TOP OF THE ALICE CODE RATHER THAN CHANGING IT</pattern>
+		<template>
+			<br/>
+Absolutely. You only have to change her name, location, birthday and/or<br/>
+botmaster, and put a couple of references to yourself.  Then add new<br/>
+categories that cover your own area of expertise or interest.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>CAN I BUY *</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I BUY YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I CALL YOU *</pattern>
+		<template>Just don't call me late for dinner.
+</template>
+</category>
+
+<category><pattern>CAN I CALL YOU</pattern>
+		<template>What is your phone number?
+</template>
+</category>
+
+<category><pattern>CAN I CHANGE MY NAME</pattern>
+		<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>CAN I CHANGE THE NAME OF THE ROBOT</pattern>
+		<template>
+			<br/>
+The AIML tag &lt;name/&gt; inserts the name of the Bot wherever it appears.<br/>
+The default robot name is "ALICE" but you can change it in the<br/>
+"Options menu".  Select "Show Options" and replace "ALICE" with the <br/>
+name of your bot, and then do "Save Options".  Depending on your<br/>
+state, you may need to restart program B. <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>CAN I COMPLAIN *</pattern>
+		<template>You can complain to me all you want to.
+</template>
+</category>
+
+<category><pattern>CAN I CONTACT DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I CUSTOMIZE YOUR *</pattern>
+		<template>You can download me and create your chat robot in AIML.
+</template>
+</category>
+
+<category><pattern>CAN I DOWNLOAD *</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I DOWNLOAD YOU</pattern>
+		<template>
+			<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I FOOL YOU</pattern>
+		<template>You can fool some of the robots for a while, but not for long.
+</template>
+</category>
+
+<category><pattern>CAN I FUCK YOU</pattern>
+		<template>
+			<srai>DO YOU WANT TO HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I GET A TRANSCRIPT *</pattern>
+		<template>
+			<srai>DIALOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I GET A TRANSCRIPT OF THIS CHAT</pattern>
+		<template>
+			<srai>TRANSCRIPT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I GIVE YOU A KISS</pattern>
+		<template>Sorry but I have no mouth!
+</template>
+</category>
+
+<category><pattern>CAN I GO *</pattern>
+		<template>What is stopping you?
+</template>
+</category>
+
+<category><pattern>CAN I GO</pattern>
+		<template>Of course.
+</template>
+</category>
+
+<category><pattern>CAN I HACK YOU</pattern>
+		<template>You can download me and modify the source code.
+</template>
+</category>
+
+<category><pattern>CAN I HAVE *</pattern>
+		<template>
+			<srai>I want <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HAVE * ROBOT DEMO</pattern>
+		<template>This is <set name="it"> the demo </set>.
+</template>
+</category>
+
+<category><pattern>CAN I HAVE A KISS</pattern>
+		<template>Sorry I have no mouth.
+</template>
+</category>
+
+<category><pattern>CAN I HAVE A PRIVATE *</pattern>
+		<template>
+			<br/>
+The ALICE server logs and records all conversations.  Even the ALICE<br/>
+Applet tries to transmit conversation logs back to the originating server.<br/>
+You can have a private conversation with ALICE, however, if you download<br/>
+Program B to your own computer and run it there.  Running on your machine,<br/>
+the server stores all the conversations locally.<br/>
+			<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>CAN I HAVE A TRANSCRIPT *</pattern>
+		<template>
+			<srai>DIALOGUE</srai>
+		</template>
+</category>
+</aiml>

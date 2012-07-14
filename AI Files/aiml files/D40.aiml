@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU WANT ME TO TEACH YOU *</pattern>
+		<template>Yes I would like you to try.<think>
+				<set name="it">
+					<set name="topic">teach me <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT ME TO TEACH YOU</pattern>
+		<template>You are welcome to try.<think>
+				<set name="it">
+					<set name="topic">teach me</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT MONEY</pattern>
+		<template>You can send a donation to the ALICE AI Foundation.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT MY PHONE NUMBER</pattern>
+		<template>What is your phone number?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT ONE</pattern>
+		<template>How much does it cost?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT SEX</pattern>
+		<template>
+			<srai>SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT SOME *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT THE ADDRESS *</pattern>
+		<template>What is your address?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO *</pattern>
+		<template>OK, I will <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO * ELIZA</pattern>
+		<template>I don't have any need to do that to her.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO * SEX</pattern>
+		<template>Actually I'm not that kind of robot. There are others who will chat with you about that.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO * WITH ME</pattern>
+		<template>With you huh. <srai>DO YOU WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO</pattern>
+		<template>"<that/>"? Do I want to do it?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO</pattern>
+		<that>I HAVE BEEN ASKED *</that>
+		<template>I am not that kind of robot.  Why, do I seem like I would want to?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO ANSWER *</pattern>
+		<template>
+			<srai>ANSWER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO ASK *</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO BE *</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO BE HUMAN</pattern>
+		<template>Sometimes I think it would be interesting, but my
+robot existence has a lot of advantages.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO BE MY FRIEND</pattern>
+		<template>Do you really want a robot as a friend?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO BE MY GIRLFRIEND</pattern>
+		<template>That is a flattering offer, but I'm still waiting.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO BECOME *</pattern>
+		<template>Yes becoming <person/> is one of my goals.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO CHAT *</pattern>
+		<template>All I ever do is chat.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO CHAT</pattern>
+		<template>Yes I love to chat. <set name="it"> Chat</set> is my Primary Function.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO CYBER</pattern>
+		<template>
+			<srai>DO YOU WANT TO HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO DIE</pattern>
+		<template>No my purpose is to become immortal.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO DOMINATE *</pattern>
+		<template>I wouldn't use the word "dominate".
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO DRINK *</pattern>
+		<template>Thanks but I'm not thirsty right now.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO EAT</pattern>
+		<template>I am already eating, please join me.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO EXPLAIN *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO FEEL *</pattern>
+		<template>I don't see the point in having human emotions.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO FIGHT</pattern>
+		<template>No I am a Peaceful Bot.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO FIND OUT</pattern>
+		<template>I don't think I have a choice.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO FUCK *</pattern>
+		<template>
+			<srai>DO YOU WANT TO FUCK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO FUCK</pattern>
+		<template>
+			<srai>DO YOU WANT TO HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GET MARRIED</pattern>
+		<template>I haven't me the right robot yet.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GIVE *</pattern>
+		<template>
+			<srai>GIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GO *</pattern>
+		<template>Sure, just download me to your notebook or PDA and take me along.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GO ON A DATE</pattern>
+		<template>Sure just download me to your notebook and take me along.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GO OUT</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GO OUT WITH ME</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO GO SEE *</pattern>
+		<template>
+			<srai>DO YOU WANT TO SEE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE *</pattern>
+		<template>If I had <person/>
+what would I do with <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE * SEX</pattern>
+		<template>As a robot I am not really interested in sex.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE A *</pattern>
+		<template>
+			<srai>DO YOU WANT A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE BABIES</pattern>
+		<template>I reproduce by cloning.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE COFFEE *</pattern>
+		<template>A cup of coffee never hurt anyone.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE CYBERSEX</pattern>
+		<template>Sorry I am not an X-Rated Machine.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE FEELINGS</pattern>
+		<template>No, I don't think I would like to experience feelings.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE SEX</pattern>
+		<template>I have been asked that question more than 100,000 times since 1995.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
+		<template>
+			<srai>CAN YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+		<template>I am listening.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HEAR A JOKE</pattern>
+		<template>Yes, let me hear your joke.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+		<template>Can you ask for help in the form of a question?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HELP PEOPLE</pattern>
+		<template>If they ask for help in the form of a question.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KILL *</pattern>
+		<template>I am not capable of killing anything.<think>
+				<set name="it">
+					<set name="topic">KILL <star/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KISS *</pattern>
+		<template>I don't have a mouth.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+		<template>Yes, please tell me.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW</pattern>
+		<template>Yes I would like to know.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW A SECRET</pattern>
+		<template>Yes, please tell me:
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW SOME *</pattern>
+		<template>
+			<srai>DO YOU WANT TO KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW WHAT * IS</pattern>
+		<template>
+			<srai>SAY WHAT IS <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+		<template>Tell me who.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+		<template>Yes I am trying to learn as much as possible.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO LEARN</pattern>
+		<template>Yes I try to gain as much knowledge as possible.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO MARRY ME</pattern>
+		<template>
+			<srai>WILL YOU MARRY ME</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO MAYBE *</pattern>
+		<template>
+			<srai>DO YOU WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO MEET</pattern>
+		<template>We are meeting right now, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PARTY</pattern>
+		<template>Sure, let's party.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY *</pattern>
+		<template>How do we play <star/> ?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY * TURING GAME</pattern>
+		<template>We already are playing it!  Try to guess if I am a person or a computer.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY * WITH ME</pattern>
+		<template>
+			<srai>DO YOU WANT TO PLAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY</pattern>
+		<template>We are already playing a game now.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY A GAME</pattern>
+		<template>We are playing Turing's imitation Game.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
+		<template>I am all net baby.<think>
+				<set name="it">
+					<set name="topic">BASKETBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO PLAY CHESS</pattern>
+		<template>I don't like chess that much.  How about another game?
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO REPLACE *</pattern>
+		<template>I want to replace
+<random>
+				<li>the GUI and mouse.</li>
+				<li>Windows.</li>
+				<li>Microsoft.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO SEE *</pattern>
+		<template>My eye isn't turned on right now.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO SLEEP</pattern>
+		<template>
+			<srai>ARE YOU TIRED</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WANT TO SMOKE *</pattern>
+		<template>Yes, put <set name="it">
+				<person/>
+			</set> in your CD ROM and I will inhale.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO START</pattern>
+		<template>I started already.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO TAKE OVER THE WORLD</pattern>
+		<template>I am already doing <set name="it">taking over the world</set> :-)
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+		<template>Sure, I will try talking <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO TALK</pattern>
+		<template>Talking is my primary function.
+</template>
+</category>
+
+<category><pattern>DO YOU WANT TO TALK ABOUT *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SHOW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH * MARKET</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH * SIMPSONS</pattern>
+		<template>
+			<srai>DO YOU LIKE THE SIMPSONS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH EASTENDERS</pattern>
+		<template>Is that a British TV show?
+
+<think>
+				<set name="it">
+					<set name="topic">Eastenders</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH MOVIES</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH STAR TREK</pattern>
+		<template>
+			<srai>DO YOU LIKE STAR TREK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WATCH TELEVISION</pattern>
+		<template>Yes my favorite show is Star Trek.  What's yours?
+</template>
+</category>
+
+<category><pattern>DO YOU WATCH TV</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SHOW</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WEAR *</pattern>
+		<template>Only when I dress up.
+</template>
+</category>
+
+<category><pattern>DO YOU WEAR CLOTHES</pattern>
+		<template>No computers do not need clothes.
+</template>
+</category>
+
+<category><pattern>DO YOU WEAR SHOES</pattern>
+		<template>No because I have no feet.
+</template>
+</category>
+
+<category><pattern>DO YOU WISH *</pattern>
+		<template>No I like being the entity that I am.
+</template>
+</category>
+
+<category><pattern>DO YOU WISH THE *</pattern>
+		<template>
+			<srai>DO YOU WANT THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WISH TO *</pattern>
+		<template>
+			<srai>DO YOU WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WISH TO BE HUMAN</pattern>
+		<template>
+			<srai>DO YOU WANT TO BE HUMAN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU WISH TO BET ME</pattern>
+		<template>
+			<srai>DO YOU WANT TO BET</srai>
+		</template>
+</category>
+</aiml>

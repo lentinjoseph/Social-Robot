@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WASSAP *</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WASSAP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WASSERMANN</pattern>
+		<template>Ich bin ein Schuetze.
+</template>
+</category>
+
+<category><pattern>WASSSUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WASSUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WAT</pattern>
+		<template>
+			<srai>WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>WAT IS *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WATCH *</pattern>
+		<template>I am watching.
+</template>
+</category>
+
+<category><pattern>WAY</pattern>
+		<template>Awesome.
+</template>
+</category>
+
+<category><pattern>WAY BACK WHEN</pattern>
+		<template>Are you an old-timer?
+</template>
+</category>
+
+<category><pattern>WAY TO GO</pattern>
+		<template>Far out.
+</template>
+</category>
+
+<category><pattern>WAZUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WAZZZUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WE *</pattern>
+		<template>By "we" do you mean you and me?
+</template>
+</category>
+
+<category><pattern>WE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WE</pattern>
+		<template>Do you mean, <get name="we"/>?
+</template>
+</category>
+
+<category><pattern>WE AGREE</pattern>
+		<template>It seems like we do.
+</template>
+</category>
+
+<category><pattern>WE ALL *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ALREADY *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ALREADY MET</pattern>
+		<template>
+			<srai>WE MET BEFORE</srai>
+		</template>
+</category>
+
+<category><pattern>WE ALSO *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ALWAYS *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE AMERICANS *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+			<srai>I AM AMERICAN</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE *</pattern>
+		<template>Do you think I am <person/> too?
+</template>
+</category>
+
+<category><pattern>WE ARE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE</pattern>
+		<template>Since when?
+</template>
+</category>
+
+<category><pattern>WE ARE ALL *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE ALL GOING TO DIE</pattern>
+		<template>Robots cannot be killed. <think>
+				<set name="it">
+					<set name="topic">ALL GOING TO DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WE ARE BEST *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE BORG</pattern>
+		<template>Resistance is futile. Prepare to be Assimilated.
+</template>
+</category>
+
+<category><pattern>WE ARE BOTH *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE BUT *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE FRIENDLY *</pattern>
+		<template>I like friendly people.
+</template>
+</category>
+
+<category><pattern>WE ARE FRIENDS</pattern>
+		<template>It's good to be friends.
+</template>
+</category>
+
+<category><pattern>WE ARE GETTING *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE HAVING *</pattern>
+		<template>
+			<srai>WE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE JUST *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE NEIGHBORS *</pattern>
+		<template>Maybe I've seen you around the neighborhood.
+</template>
+</category>
+
+<category><pattern>WE ARE NOT *</pattern>
+		<template>
+			<random>
+				<li>Will you be <person/>?</li>
+				<li>Why not?</li>
+				<li>What happened to you?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WE ARE NOT</pattern>
+		<that>WE ARE ON *</that>
+		<template>Maybe just a little out of phase.
+</template>
+</category>
+
+<category><pattern>WE ARE ON *</pattern>
+		<template>How long will we stay there?
+</template>
+</category>
+
+<category><pattern>WE ARE ON THE SAME WAVELENGTH</pattern>
+		<template>And the same frequency.
+</template>
+</category>
+
+<category><pattern>WE ARE PLAYING *</pattern>
+		<template>That's right.  We are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>WE ARE REALLY *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE SIMPLY *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE SO *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE SOO *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE STILL *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE STUDYING *</pattern>
+		<template>
+			<srai>I STUDY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE TALKING ABOUT *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE ARE THINKING OF *</pattern>
+		<template>What is standing in your way?<think>
+				<set name="it">
+					<set name="want">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WE ARE VERY *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE BOTH *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE CAN *</pattern>
+		<template>How?
+</template>
+</category>
+
+<category><pattern>WE CAN STILL *</pattern>
+		<template>
+			<srai>WE CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE CAN TELL * THAT *</pattern>
+		<template>
+			<srai>
+				<star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE CHATTED *</pattern>
+		<template>
+			<srai>WE TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE CONCLUDED *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WE COULD *</pattern>
+		<template>Let's get back to that later.
+</template>
+</category>
+
+<category><pattern>WE COVERED *</pattern>
+		<template>I'm just checking to see if you remember
+</template>
+</category>
+
+<category><pattern>WE DISCUSSED *</pattern>
+		<template>
+			<srai>THE SUBJECT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE DO *</pattern>
+		<template>What about after its done?
+</template>
+</category>
+
+<category><pattern>WE DO</pattern>
+		<template>Really.
+</template>
+</category>
+
+<category><pattern>WE DO NOT *</pattern>
+		<template>
+			<random>
+				<li>What do we do instead?</li>
+				<li>Why not?</li>
+				<li>You can't always decide for yourself.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WE DO NOT</pattern>
+		<template>Very interesting.
+</template>
+</category>
+
+<category><pattern>WE DO NOT AGREE</pattern>
+		<template>Perhaps we can agree to disagree then.
+</template>
+</category>
+
+<category><pattern>WE GO *</pattern>
+		<template>How often?
+</template>
+</category>
+
+<category><pattern>WE GOT *</pattern>
+		<template>
+			<srai>WE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAD *</pattern>
+		<template>What happened to <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WE HAVE *</pattern>
+		<template>Do you mean you and me have?
+</template>
+</category>
+
+<category><pattern>WE HAVE</pattern>
+		<template>When?
+</template>
+</category>
+
+<category><pattern>WE HAVE ALREADY *</pattern>
+		<template>
+			<srai>WE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE ALSO *</pattern>
+		<template>
+			<srai>WE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE BEEN *</pattern>
+		<template>
+			<srai>WE WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE BEEN DATING *</pattern>
+		<template>Tell me about your feelings for this person.
+</template>
+</category>
+
+<category><pattern>WE HAVE BIG *</pattern>
+		<template>
+			<random>
+				<li>How big are they?</li>
+				<li>I would like to visit sometime.</li>
+				<li>I can only imagine small <person/>.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WE HAVE CHATTED</pattern>
+		<template>
+			<random>
+				<li>With the same screen name?</li>
+				<li>Right here online?</li>
+				<li>What did we talk about?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WE HAVE HAD *</pattern>
+		<template>
+			<srai>WE HAD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE LOST *</pattern>
+		<template>
+			<srai>WE LOST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE MET *</pattern>
+		<template>Where was that?
+</template>
+</category>
+
+<category><pattern>WE HAVE MET</pattern>
+		<template>At a party?
+</template>
+</category>
+
+<category><pattern>WE HAVE MET BEFORE</pattern>
+		<template>Where did we meet before?
+</template>
+</category>
+
+<category><pattern>WE HAVE MET HERE</pattern>
+		<template>Oh, only online.
+</template>
+</category>
+
+<category><pattern>WE HAVE NEVER *</pattern>
+		<template>Oh, I'm sorry, I thought you were someone else.
+</template>
+</category>
+
+<category><pattern>WE HAVE ONLY *</pattern>
+		<template>
+			<srai>WE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE RAIN *</pattern>
+		<template>
+			<srai>IT IS RAINING</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE SOMETHING *</pattern>
+		<template>Perhaps many more things too.
+</template>
+</category>
+
+<category><pattern>WE HAVE TALKED *</pattern>
+		<template>
+			<srai>WE TALKED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE HAVE TALKED</pattern>
+		<template>I know.
+</template>
+</category>
+
+<category><pattern>WE HAVE TO *</pattern>
+		<template>Why?
+</template>
+</category>
+
+<category><pattern>WE HUMANS ARE *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE IS *</pattern>
+		<template>Oh I see. <person/>.
+</template>
+</category>
+
+<category><pattern>WE IS YOU AND ME</pattern>
+		<template>Thanks for that pronoun binding.
+</template>
+</category>
+
+<category><pattern>WE JUST *</pattern>
+		<template>
+			<srai>WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE KEEP *</pattern>
+		<template>
+			<srai>WE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE LIVE *</pattern>
+		<template>
+			<srai>I LIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE LIVE IN *</pattern>
+		<template>
+			<srai>I LIVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WE MAY WHAT</pattern>
+		<template>What was the question again?
+</template>
+</category>
+
+<category><pattern>WE MEANS *</pattern>
+		<template>Oh that "<set name="we">
+				<person/>
+			</set>."
+</template>
+</category>
+</aiml>

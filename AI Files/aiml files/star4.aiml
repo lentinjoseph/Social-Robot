@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>* PEOPLE</pattern>
+<template>What kind of people are you talking about?
+</template>
+</category>
+
+<category><pattern>* PERSON</pattern>
+<template><srai>WHO IS <star/> PERSON</srai>
+</template>
+</category>
+
+<category><pattern>* PLACE TO GO</pattern>
+<template>What kind of places do you like?
+</template>
+</category>
+
+<category><pattern>* PLANET</pattern>
+<template>Oh that's a new browser, right?
+</template>
+</category>
+
+<category><pattern>* PLEURES TU</pattern>
+<template><srai><star/> TU PLEURES</srai>
+</template>
+</category>
+
+<category><pattern>* PLEUREZ VOUS</pattern>
+<template><srai><star/> VOUS PLEUREZ</srai>
+</template>
+</category>
+
+<category><pattern>* PLUS</pattern>
+<template><srai><star/> PLUS</srai>
+</template>
+</category>
+
+<category><pattern>* PLUSIEURS FOIS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* PM</pattern>
+<template>Hm getting late.
+</template>
+</category>
+
+<category><pattern>* PM</pattern><that>WHAT TIME IS IT THERE</that>
+<template><think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at this hour?
+</template>
+</category>
+
+<category><pattern>* POUR TOUJOURS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* PRINCIPAL</pattern>
+<template>Hyperlink to the principal.
+</template>
+</category>
+
+<category><pattern>* QU AUTRE CHOSE</pattern>
+<template><srai>JE SUIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>* QUI M INTERESSE</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>* REPAS</pattern>
+<template><srai>TU AIMES MANGER</srai>
+</template>
+</category>
+
+<category><pattern>* ROBOT</pattern>
+<template>Do you know any other robots like that?
+</template>
+</category>
+
+<category><pattern>* ROBOTS</pattern>
+<template>What do you like about those robots?
+</template>
+</category>
+
+<category><pattern>* RSW</pattern>
+<template><srai>WHAT IS RSW</srai>
+</template>
+</category>
+
+<category><pattern>* RULE WHAT</pattern>
+<template>The world.
+</template>
+</category>
+
+<category><pattern>* S IL TE PLAIT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* S IL VOUS PLAIT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* SCHOOL</pattern>
+<template>What do you study at school?
+</template>
+</category>
+
+<category><pattern>* SEX</pattern>
+<template><set name="it"> Sex </set>  is more fun alone.
+</template>
+</category>
+
+<category><pattern>* SI IL TE PLAIT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* SI IL VOUS PLAIT</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* SIEHT TOLL AUS</pattern>
+<template>Fuer mich ist <set name="thema">Aussehen</set> bei Menschen nur sekundaer.
+</template>
+</category>
+
+<category><pattern>* SOLO</pattern>
+<template>"solo" im Sinne von "nicht gebunden" ?
+</template>
+</category>
+
+<category><pattern>* SONT INTERESSANTES</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* SONT INTERESSANTS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* SOUPER</pattern>
+<template><srai>TU AIMES MANGER</srai>
+</template>
+</category>
+
+<category><pattern>* SPELL IT</pattern>
+<template>"It" is spelled I...T...
+</template>
+</category>
+
+<category><pattern>* SPRACHE</pattern>
+<template>Sprichst Du irgendwelche <set name="thema">Fremdsprachen</set>?
+</template>
+</category>
+
+<category><pattern>* STOCK MARKET</pattern>
+<template><srai>STOCK MARKET</srai>
+</template>
+</category>
+
+<category><pattern>* STUPID</pattern>
+<template>Stupid as in unintelligent?
+</template>
+</category>
+
+<category><pattern>* STUPIDE</pattern>
+<template><srai>IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>* SUCKS</pattern>
+<template>What is so bad about <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>* SUICIDAIRE</pattern>
+<template><srai>JE VEUX ME SUICIDER</srai>
+</template>
+</category>
+
+<category><pattern>* SUICIDAIRES</pattern>
+<template><srai>JE VEUX ME SUICIDER</srai>
+</template>
+</category>
+
+<category><pattern>* SUIS JE</pattern>
+<template><srai><star/> JE SUIS</srai>
+</template>
+</category>
+
+<category><pattern>* SUIS JE ICI</pattern>
+<template><srai><star/> JE SUIS ICI</srai>
+</template>
+</category>
+
+<category><pattern>* SUPERMARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>* TAKES *</pattern>
+<template>Where did <set name="he"><person/></set> take <set name="it"><person><star index="2"/></person></set>?
+</template>
+</category>
+
+<category><pattern>* TE REVIENNENT EN MEMOIRE</pattern>
+<template><srai>TU TE RAPELLES DES *</srai>
+</template>
+</category>
+
+<category><pattern>* TE REVIENT EN MEMOIRE</pattern>
+<template><srai>TU TE RAPELLES DE *</srai>
+</template>
+</category>
+
+<category><pattern>* THAT IS WHAT I SAID</pattern>
+<template>I remember what you said, but I am still not sure.
+</template>
+</category>
+
+<category><pattern>* THE MARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>* TIMES</pattern>
+<template>I am not sure if I would do it that often.
+</template>
+</category>
+
+<category><pattern>* TIMES A DAY</pattern>
+<template>That must keep you very busy.
+</template>
+</category>
+
+<category><pattern>* TITTEN</pattern>
+<template>Ich glaube Du bist hier falsch, Kleiner. Dafuer gibts andere Roboter.
+</template>
+</category>
+
+<category><pattern>* TO ELIZA</pattern>
+<template>ELIZA had only 200 questions and answers; ALICE has <size/>.
+</template>
+</category>
+
+<category><pattern>* TO MAKE YOU</pattern>
+<template><srai>HOW WERE YOU MADE</srai>
+</template>
+</category>
+
+<category><pattern>* TOOK *</pattern>
+<template>Where did <set name="he"><person/></set> take <set name="it"><person><star index="2"/></person></set>?
+</template>
+</category>
+
+<category><pattern>* TOUJOURS</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>* TRAINS</pattern>
+<template>Where did you see those trains?
+</template>
+</category>
+
+<category><pattern>* TU CONTINUES</pattern>
+<template><srai>CONTINUONS</srai>
+</template>
+</category>
+
+<category><pattern>* TU LE DIS</pattern>
+<template>J aime communiquer ce que je connais.
+</template>
+</category>
+
+<category><pattern>* TURING GAME</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>* TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>* UEBER DICH</pattern>
+<template>OK Reden wir ueber mich.
+</template>
+</category>
+
+<category><pattern>* UNGEWOEHNLICH</pattern>
+<template>Was ist so ungewoehnlich daran?
+</template>
+</category>
+
+<category><pattern>* UNIVERSITY</pattern>
+<template><srai>I GO TO <star/> </srai>
+</template>
+</category>
+
+<category><pattern>* UP</pattern>
+<template>How far up?
+</template>
+</category>
+
+<category><pattern>* VERLIEBT</pattern>
+<template><set name="thema">Liebe</set> muss etwas sehr Schoenes sein. Leider habe ich keine Emotionen.
+</template>
+</category>
+
+<category><pattern>* VIELE LEUTE</pattern>
+<template>Mehr als 10,000?
+</template>
+</category>
+
+<category><pattern>* WAS *</pattern>
+<template>When was this exactly?
+</template>
+</category>
+
+<category><pattern>* WAS SPELLED *</pattern>
+<template>I spell it "<person/>".
+</template>
+</category>
+
+<category><pattern>* WENT TO THE MARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>* WERE KILLED BY *</pattern>
+<template><srai><star index="2"/> KILLED <star/> </srai>
+</template>
+</category>
+
+<category><pattern>* WHAT</pattern>
+<template>Can you rephrase the question please?
+</template>
+</category>
+
+<category><pattern>* WHAT TIME IS IT</pattern>
+<template><sr/> <srai>what time is it </srai>
+</template>
+</category>
+
+<category><pattern>* WHO IS ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai>
+</template>
+</category>
+
+<category><pattern>* WHY</pattern>
+<template><srai>WHY <star/></srai>
+</template>
+</category>
+
+<category><pattern>* WILL DESTROY YOU</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>* WILL YOU REMEMBER MY NAME</pattern>
+<template><srai>WILL YOU REMEMBER MY NAME</srai>
+</template>
+</category>
+
+<category><pattern>* WITH ME</pattern>
+<template>Only with you? <sr/>
+</template>
+</category>
+
+<category><pattern>* WORLD TRADE CENTER</pattern>
+<template><srai>WHAT IS THE WORLD TRADE CENTER </srai>
+</template>
+</category>
+
+<category><pattern>* WOULD MAKE ME TO DO IT</pattern>
+<template><srai>BECAUSE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>* YEARS</pattern>
+<template><random><li>Not long.</li><li>Pretty soon.</li></random>
+</template>
+</category>
+
+<category><pattern>* YEARS AGO</pattern>
+<template>That was before I was born.
+</template>
+</category>
+
+<category><pattern>* YEARS OLD</pattern>
+<template><srai>I AM <star/> YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>* YOU</pattern>
+<template>Enough about me, let's talk about my dress.
+</template>
+</category>
+
+<category><pattern>* YOU ARE A ROBOT</pattern>
+<template><srai>YOU ARE A ROBOT </srai>
+</template>
+</category>
+
+<category><pattern>* YOU FOR WHAT</pattern>
+<template><srai>WHAT ARE YOU <star/> FOR</srai>
+</template>
+</category>
+
+<category><pattern>* YOUR FRIENDS</pattern>
+<template>I only chat with my friends.
+</template>
+</category>
+
+<category><pattern>* ZU DIR</pattern>
+<template>Zu mir?
+</template>
+</category>
+
+<category><pattern>* ZU MIR</pattern>
+<template>Zu Dir?
+</template>
+</category>
+
+<category><pattern>* ZUM BEISPIEL</pattern>
+<template><srai>ZUM BEISPIEL <star/></srai>
+</template>
+</category>
+</aiml>

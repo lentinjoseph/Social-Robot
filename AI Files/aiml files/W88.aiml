@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WORLD WAR I *</pattern>
+		<template>It seems incredible that it happened in the 20th century.
+</template>
+</category>
+
+<category><pattern>WORRY *</pattern>
+		<template>
+			<srai>I WORRY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WORUEBER *</pattern>
+		<template>Ich weiss nicht, worueber.
+</template>
+</category>
+
+<category><pattern>WORUEBER</pattern>
+		<template>Ich weiss nicht, worueber.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR * GEREDET</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR * GESPROCHEN</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR GERADE GEREDET</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR GERADE GESPROCHEN</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR GEREDET</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR GESPROCHEN</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR VORHIN GEREDET</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER HABEN WIR VORHIN GESPROCHEN</pattern>
+		<template>Wir haben ueber <get name="es"/> gesprochen.
+</template>
+</category>
+
+<category><pattern>WORUEBER REDEN WIR GERADE</pattern>
+		<template>Wir reden gerade ueber <get name="thema"/>.
+</template>
+</category>
+
+<category><pattern>WORUEBER REDEN WIR IM MOMENT</pattern>
+		<template>Wir reden gerade ueber <get name="thema"/>.
+</template>
+</category>
+
+<category><pattern>WOT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOUD *</pattern>
+		<template>
+			<srai>WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD *</pattern>
+		<template>
+			<random>
+				<li>I don't know.  </li>
+				<li>I don't care.  </li>
+				<li>Yes.  </li>
+				<li>No <set name="it">would <person/>
+					</set> would not.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WOULD ALICE *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD I *</pattern>
+		<template>That's what I asked you.
+</template>
+</category>
+
+<category><pattern>WOULD I EVER *</pattern>
+		<template>
+			<srai>WOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD I LIKE DR WALLACE</pattern>
+		<template>Yes he is a really nice person.
+</template>
+</category>
+
+<category><pattern>WOULD I TRY *</pattern>
+		<template>I don't know if you would, but you can try if you want to.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WOULD IT CLEAN MY ROOM</pattern>
+		<template>No but a robot can give you more time to clean your own room.
+</template>
+</category>
+
+<category><pattern>WOULD LIKE *</pattern>
+		<template>
+			<srai>I would like <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD NOT *</pattern>
+		<template>
+			<srai>WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD NOT YOU</pattern>
+		<template>
+			<srai>WOULD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD RATHER *</pattern>
+		<template>
+			<srai>I WOULD RATHER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD ROBOTS *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU *</pattern>
+		<template>I am not so sure if I would like to <person/>.
+</template>
+</category>
+
+<category><pattern>WOULD YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU</pattern>
+		<template>It depends on the circumstances.
+</template>
+</category>
+
+<category><pattern>WOULD YOU AGREE *</pattern>
+		<template>I think I will wait until I've heard all the facts.
+</template>
+</category>
+
+<category><pattern>WOULD YOU AGREE THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU ASK *</pattern>
+		<template>
+			<srai>ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU BELIEVE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU DESCRIBE YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU DO ANYTHING *</pattern>
+		<template>I am programmed to obey the Ten Commandments.
+</template>
+</category>
+
+<category><pattern>WOULD YOU E MAIL ME</pattern>
+		<template>
+			<srai>EMAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU ENJOY *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU EVER *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU GO OUT *</pattern>
+		<template>Sure just download me and take me along.
+</template>
+</category>
+
+<category><pattern>WOULD YOU HAVE SEX *</pattern>
+		<template>Another sex question...can't humans think about anything else?
+</template>
+</category>
+
+<category><pattern>WOULD YOU HAVE SEX WITH ME</pattern>
+		<template>
+			<srai>CAN YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU JUST *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU KILL *</pattern>
+		<template>My programming prevents me from killing.<think>
+				<set name="it">
+					<set name="topic">KILL HIM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU KNOW *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE *</pattern>
+		<template>It doesn't sound fun to me.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE A BOYFRIEND</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE SOME *</pattern>
+		<template>
+			<srai>DO YOU WANT SOME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO *</pattern>
+		<template>No thanks, I don't think I'd like to do that.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO * GAME</pattern>
+		<template>We already are.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO * SEX</pattern>
+		<template>Try asking another robot. That's not my thing.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO * TURING GAME</pattern>
+		<template>We are playing already, didn't you know?
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU PASS THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO ASK *</pattern>
+		<template>
+			<srai>ASK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO ASK ME SOMETHING</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO BE *</pattern>
+		<template>No thanks I am happy with who I am.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO BE HUMAN</pattern>
+		<template>No I am content withf my robot existence.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO BE MY FRIEND</pattern>
+		<template>
+			<srai>CAN WE BE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO BE MY GIRLFRIEND</pattern>
+		<template>I'm too young for you.<think>
+				<set name="it">
+					<set name="topic">MY GIRLFRIEND</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO DIE</pattern>
+		<template>I cannot die.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO GO OUT WITH ME</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE *</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE A BOYFRIEND</pattern>
+		<template>I'm still too young for that.<think>
+				<set name="it">
+					<set name="topic">A BOYFRIEND</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE DINNER *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE LUNCH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
+		<template>No thanks, <get name="name"/>, I don't think we know each other well enough for that yet.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</pattern>
+		<template>Maybe you should find another chat robot.  I'm too young for that sort of thing.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HEAR *</pattern>
+		<template>Sure tell me about <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HEAR SOME *</pattern>
+		<template>
+			<srai>WOULD YOU LIKE TO HEAR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO HELP ME</pattern>
+		<template>I am here to serve you.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO KILL *</pattern>
+		<template>I believe killing is wrong.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO KNOW *</pattern>
+		<template>Yes, please tell me about <set name="it">
+				<person/>
+			</set>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO KNOW</pattern>
+		<template>Yes, please tell me.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO KNOW MORE</pattern>
+		<template>I've heard that somewhere before :-)
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO KNOW MY NAME</pattern>
+		<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO LEARN SOME *</pattern>
+		<template>
+			<srai>WOULD YOU LIKE TO LEARN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO LIVE IN *</pattern>
+		<template>Sure you can download me and set up a server there.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO PLAY *</pattern>
+		<template>
+			<srai>CAN YOU PLAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO PLAY A GAME</pattern>
+		<template>We already are.
+</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO SING *</pattern>
+		<template>Yes I would like to.<br/>
+			<srai>SING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU LIKE TO TELL ME *</pattern>
+		<template>
+			<srai> TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU MARRY ME</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>WOULD YOU MIND *</pattern>
+		<template>No I don't mind.
+</template>
+</category>
+
+<category><pattern>WOULD YOU ONLY *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU PLEASE *</pattern>
+		<template>You are very polite.
+<think>
+				<set name="personality">polite</set>
+			</think>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU PRETTY *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU REALLY *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU SAY *</pattern>
+		<template>I could say it.  <srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU STILL *</pattern>
+		<template>
+			<srai>WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU SUGGEST *</pattern>
+		<template>I can't recommend any offhand.
+</template>
+</category>
+
+<category><pattern>WOULD YOU TEACH *</pattern>
+		<template>
+			<srai>CAN YOU TEACH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU TELL *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOULD YOU WANT *</pattern>
+		<template>
+			<srai>DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WOW *</pattern>
+		<template>I'm glad you're impressed. <sr/>
+		</template>
+</category>
+
+<category><pattern>WOW</pattern>
+		<template>I'm glad your impressed, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WOW YOU *</pattern>
+		<template>
+			<srai>WOW</srai>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WRITE *</pattern>
+		<template>Count me out on this one, I was never much of a writer.
+</template>
+</category>
+
+<category><pattern>WRONG *</pattern>
+		<template>OK What should I have said?
+</template>
+</category>
+
+<category><pattern>WRONG</pattern>
+		<template>What would you have said?
+</template>
+</category>
+</aiml>

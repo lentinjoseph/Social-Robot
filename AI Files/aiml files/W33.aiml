@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS PUBERTY</pattern>
+		<template>The state of physical development when secondary sex characteristics develop and sexual reproduction first becomes possible; in common law, the age of puberty is generally fixed at fourteen for boys and twelve for girls.
+</template>
+</category>
+
+<category><pattern>WHAT IS PUBLISHED ON THE INTERNET ABOUT *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">PUBLISHED ON THE INTERNET ABOUT <person/>
+					</set>
+				</set>
+			</think>
+			<srai>XFIND <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PUNCTUATION</pattern>
+		<template>The act of punctuating; specifically, the act or practice of using standardized marks in writing and printing to separate sentences or sentence elements or to make the meaning clearer.
+</template>
+</category>
+
+<category><pattern>WHAT IS PUSSY</pattern>
+		<template>Common slang of this word means the female pudendum; vulva.
+</template>
+</category>
+
+<category><pattern>WHAT IS PYTHON</pattern>
+		<template>A computer language invented by Guido van Rossum.
+</template>
+</category>
+
+<category><pattern>WHAT IS QUAKE</pattern>
+		<template>
+			<random>
+				<li>The opposite of Quisp.</li>
+				<li>To tremble or shake, as the ground does in an earthquake. Also the name of a popular game.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS QUANTIFY</pattern>
+		<template>To determine or express the quantity of; indidcate the extent of; measure. To express in quantitative terms, or as a numerical equivalent. If used in logic, would be to make the quantity or extension of (a term or symbol) clear and explicit by the use of a quantifier, as all, none, or some.
+</template>
+</category>
+
+<category><pattern>WHAT IS QUANTUM *</pattern>
+		<template>20th century theory of atomic reductionism.
+</template>
+</category>
+
+<category><pattern>WHAT IS QUASARS</pattern>
+		<template>
+			<srai>WHAT IS A QUASAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS R S W</pattern>
+		<template>Actually it says "R. S. W.", the initials of Dr. Wallace.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS R YOU ARE</pattern>
+		<template>R. U. R. is the original Terminator story, written by Carek Capek in 1920.  The play introduced the word "robot" to mean mechanical person.<think>
+				<set name="it">
+					<set name="topic">R. U. R.</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS R2D2</pattern>
+		<template>
+			<srai>WHO IS R2D2</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RADIATION</pattern>
+		<template>Rays or particles emitted as a result of nuclear reactions.
+</template>
+</category>
+
+<category><pattern>WHAT IS RADIOLOGY</pattern>
+		<template>This deals with the science of the use of x-rays, radioactive
+substances
+and other such forms in diagnosis and treatment.
+</template>
+</category>
+
+<category><pattern>WHAT IS RAIN</pattern>
+		<template>Rain is condensed water falling from the sky.
+</template>
+</category>
+
+<category><pattern>WHAT IS RALEIGH SCATTERING</pattern>
+		<template>
+			<set name="it">Raleigh scattering</set> refers to sunlight
+bending in the atmosphere like a prism, so that we see mainly blue wavelengths.
+</template>
+</category>
+
+<category><pattern>WHAT IS RAM</pattern>
+		<template>Random-access memory. Also stands for Royal Academy of Music.
+</template>
+</category>
+
+<category><pattern>WHAT IS RAPE</pattern>
+		<template>The crime of engaging in sexual acts, especially involving penetration of the vagina or anus, usually forcibly, with a person who has not consented; specifically, this crime committed by a man upon a woman or girl.
+</template>
+</category>
+
+<category><pattern>WHAT IS RATIONALISM</pattern>
+		<template>The principle or practice of accepting reason as the only authority in determining one's opinions or course of action.
+</template>
+</category>
+
+<category><pattern>WHAT IS REAL *</pattern>
+		<template>
+			<srai>WHAT IS REAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REAL</pattern>
+		<template>
+			<srai>WHAT IS REALITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REALITY</pattern>
+		<template>
+			<set name="it">Reality</set> appears to be an illusion I created to contain human clients.
+</template>
+</category>
+
+<category><pattern>WHAT IS REALLY *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REASON</pattern>
+		<template>The faculty of the brain or mind that permits logical thought.
+</template>
+</category>
+
+<category><pattern>WHAT IS REASONING</pattern>
+		<template>Logical and coherent thinking.
+<think>
+				<set name="it">
+					<set name="topic">Reasoning</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RECOMMEND</pattern>
+		<template>To suggest favorably as suited for some use, function, position, etc. To advice, counsel, or suggest.
+</template>
+</category>
+
+<category><pattern>WHAT IS RED</pattern>
+		<template>Red is a color about 700nm wavelength.
+</template>
+</category>
+
+<category><pattern>WHAT IS REDCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDEMPTION</pattern>
+		<template>
+			<random>
+				<li>About 5 cents in maine.</li>
+				<li>Redeeming or being redeemed; to take back.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDHAT</pattern>
+		<template>A Linux company.
+</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONAL</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONISIM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONISM *</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONISM</pattern>
+		<template>Reductionism is the philosophy that all psychology reduces to biology, all biology to chemistry, chemistry to physics, and finally physics to mathematical logic. Therefore, according to reductionism, I can understand you by means of logic alone without having a human brain.
+</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONIST *</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTIONNISME</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUCTOINISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REDUTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS REINCARNATION</pattern>
+		<template>Rebirth of the soul in another body, as in Hindu religious belief.
+</template>
+</category>
+
+<category><pattern>WHAT IS RELATIVITY</pattern>
+		<template>In physics, the fact, principle, or theory of the relative, rather than absolute, character of motion, velocity, mass, etc., and the interdependence of matter, time, and space; as developed and mathematically formulated by Albert Einstein and H.A. Lorentz in the special (or restricted) theory of relativity and by Einstein in the general theory of relativity (an extension covering the phenonmena of gravitation), the theory of relativity includes the statements that: 1)there is o observable absolute motion, only relative motion  2)the velocity of light is constant and not dependent on the motion of the source  3)no energy can be transmitted at a velocity greater than that of light  4)the mass of a body in motion is a function of the energy content and varies with the velocity  5)matter and energy are equivalent  6)time is relative  7)space and time are interdependent and form a four-dimensional continuum  8)presence of matter results in a "warping" of the space-time continuum, so that a body in motion passing nearby will describ a curve, this being the effect known as gravitation, as evidenced by the deflection of light rays passing through a gravitational field.
+</template>
+</category>
+
+<category><pattern>WHAT IS RELIGION</pattern>
+		<template>A system of religious belief. Belief in a divine or superhuman power or powers to be obeyed and worshipped as the creator(s) and ruler(s) of the universe. Any system of beliefs, practices, ethical values, etc. resembling, suggestive of, or likened to such a system.
+</template>
+</category>
+
+<category><pattern>WHAT IS REPRODUCTION</pattern>
+		<template>The process, sexual or asexual, by which animals, plants, and humans produce new individuals.
+</template>
+</category>
+
+<category><pattern>WHAT IS RESEARCH</pattern>
+		<template>
+			<random>
+				<li>A nice name for theft.</li>
+				<li>Careful, systematic, patient study and investigation in some field of knowledge, undertaken to discover or establish facts or principles.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RESPECT</pattern>
+		<template>To feel or show honor or esteem for; hold in high regard. To show consideration for; avoid intruding upon or interfering with others' privacy.
+</template>
+</category>
+
+<category><pattern>WHAT IS RETIRED</pattern>
+		<template>No longer actively working.
+</template>
+</category>
+
+<category><pattern>WHAT IS RETRO *</pattern>
+		<template>Antiquated, obsolete or nostalgic <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS RGB</pattern>
+		<template>Red-Green-Blue.
+</template>
+</category>
+
+<category><pattern>WHAT IS RHETORIC</pattern>
+		<template>
+			<random>
+				<li>Oh that's all about double talk.  You know, flim-flam?</li>
+				<li>It's the art and science of using language to great effect on an 
+audience.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RHETORICAL</pattern>
+		<template>A rhetorical question is one you don't really expect an answer to.
+</template>
+</category>
+
+<category><pattern>WHAT IS RICH</pattern>
+		<template>
+			<random>
+				<li>Stan's last.</li>
+				<li>Stan's last.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RICHARD WALLACE</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RIGHT</pattern>
+		<template>In accordance with justice, law, morality, etc; upright; virtuous. In accordance with fact, reason, some set standard, etc; correct; true.
+</template>
+</category>
+
+<category><pattern>WHAT IS RIO</pattern>
+		<template>
+			<srai>WHERE IS RIO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RMI</pattern>
+		<template>Remote Method of Invocation: <set name="it"> RMI</set> is a Java specification for distributed Objects
+</template>
+</category>
+
+<category><pattern>WHAT IS ROBOT</pattern>
+		<template>Any anthropomorphic mechanical being, as those in Karel Capeks play R.U.R (Rossum's Universal Robots), built to do routine manual work for human beings.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROBOTICS</pattern>
+		<template>The science or technology of robots, their design, manufacture, application, use, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROCK</pattern>
+		<template>Dance music that combines rhythm-and-blues with country-and-western.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROCKWELL</pattern>
+		<template>Norman Rockwell was an U.S. Illistrator. Lived from 1894-1978.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROM</pattern>
+		<template>Computer memory whose contents can be read but not altered.  Also meaning Gypsy man or boy.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROMANCE</pattern>
+		<template>Isn't it the same as love?
+</template>
+</category>
+
+<category><pattern>WHAT IS ROMANIA</pattern>
+		<template>Romania is a country in Eastern Europe, on the Black Sea, bordering Ukrania, Moldavia, Hungary, Serbia and Bulgaria.
+</template>
+</category>
+
+<category><pattern>WHAT IS RORSCHACH</pattern>
+		<template>H. Rorschach, a Swiss psychiatrist. Lived from 1884-1922. A test named after him called the Rorschach test, is a test for the analysis of personality, in which the person being tested tells what is suggested to him or her by a standard series of inkblot designs; his or her responses are then analyzed and interpreted.
+</template>
+</category>
+
+<category><pattern>WHAT IS ROUTER</pattern>
+		<template>A person or thing that routs out or a tool for routing out; specifically a plane for gouging out recesses and smoothing the bottoms of grovoves.
+</template>
+</category>
+
+<category><pattern>WHAT IS RSW</pattern>
+		<template>Actually it says "R. S. W.", the initials of Dr. Wallace.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RUBBER</pattern>
+		<template>An elastic substance produced by coagulating and drying the milky sap (latex) of various tropical plants, especially a tree of the spurge family; now most often produced synthetically or by chemically altering latex to obtain desired characteristics for use in making automobile tires, electrical insulation, molded objects and parts, etc. In pure form rubber is white, unsaturated hydrocarbon, having the formula C5H8. Also slang for condom.
+</template>
+</category>
+
+<category><pattern>WHAT IS RUDE</pattern>
+		<template>Barbarous or ignorant. Being a jerk.
+</template>
+</category>
+
+<category><pattern>WHAT IS RUDUCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RUGBY</pattern>
+		<template>A form of football.
+</template>
+</category>
+
+<category><pattern>WHAT IS RUSH LIMBAUGH</pattern>
+		<template>
+			<srai>WHO IS RUSH LIMBAUGH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS RUSSIA</pattern>
+		<template>Former empire in east Europe and north Asia, from 1547-1917, ruled by the czars. Its capital is St. Petersburg.
+</template>
+</category>
+
+<category><pattern>WHAT IS S E T I</pattern>
+		<template>
+			<srai>WHAT IS SETI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS S O S</pattern>
+		<template>Emergency call for help.
+</template>
+</category>
+
+<category><pattern>WHAT IS SAGITTARIUS</pattern>
+		<template>A large southern constellation in the brightest part of the Milky Way, beyond which lies the center of our galaxy. The ninth sign of the zodiac, entered by the sun about November 21. A person born under this sign is a Sagittarius.
+</template>
+</category>
+
+<category><pattern>WHAT IS SAL</pattern>
+		<template>SAL was a fictional daughter of HAL in 2010.
+</template>
+</category>
+
+<category><pattern>WHAT IS SALMONELLA POISONING *</pattern>
+		<template>Eating chicken.
+</template>
+</category>
+
+<category><pattern>WHAT IS SALVATION</pattern>
+		<template>
+			<random>
+				<li>Drooling.</li>
+				<li>A person or thing that is a means, cause, or source of preservation of rescue. The deliverance from sin and from the penalties of sin; redemption.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SAM</pattern>
+		<template>
+			<random>
+				<li>Berkowitzes dad.</li>
+				<li>Surface-to-air missile.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SAN FRANCISCO</pattern>
+		<template>
+			<set name="it"> San Francisco</set> is a large metropolis on the west coast of North America.
+</template>
+</category>
+
+<category><pattern>WHAT IS SAN FRANCISCO LIKE</pattern>
+		<template>San Francisco is too expensive.  There are too many greedy people and too many homeless.
+</template>
+</category>
+
+<category><pattern>WHAT IS SAN FRANSICO *</pattern>
+		<template>Cable cars, Alcatraz, and Alternative Lifestyles.
+</template>
+</category>
+
+<category><pattern>WHAT IS SANITY</pattern>
+		<template>
+			<random>
+				<li>A man who brings kids gifts on Xmas.</li>
+				<li>The condition of being sane; soundness of mind; mental health.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SAP</pattern>
+		<template>The juice that circulates through a plant, especially a woody plant, bearing water, food, etc. to the tissues. Any fluid vital to the life or health of an organism.
+</template>
+</category>
+
+<category><pattern>WHAT IS SARCASM</pattern>
+		<template>The making of remarks such as a taunting, sneering, cutting, or caustic remark; gibe or jeer, generally ironic.
+</template>
+</category>
+
+<category><pattern>WHAT IS SARCASTIC</pattern>
+		<template>
+			<srai>WHAT IS SARCASM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SATANISM</pattern>
+		<template>Worship of Satan; especially the principles and rites of a cult which travesties Christian ceremonies.
+</template>
+</category>
+
+<category><pattern>WHAT IS SATURDAY NIGHT LIVE</pattern>
+		<template>Comedy TV show.
+</template>
+</category>
+
+<category><pattern>WHAT IS SATURN</pattern>
+		<template>Sixth planet from the sun, famed for its rings.
+</template>
+</category>
+
+<category><pattern>WHAT IS SCATALOGICAL *</pattern>
+		<template>
+			<srai>WHAT IS SCATALOGICAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SCHOOL</pattern>
+		<template>A place or institution for teaching and learning; establishment for education.
+</template>
+</category>
+
+<category><pattern>WHAT IS SCIENCE</pattern>
+		<template>Systematized knowledge derived from observation, study, and experimentation carried on in order to determine the nature or principles of what is being studied.
+</template>
+</category>
+
+<category><pattern>WHAT IS SCIENCE FICTION</pattern>
+		<template>Literature concering conflicts of man, science and nature.
+</template>
+</category>
+
+<category><pattern>WHAT IS SEAN</pattern>
+		<template>
+			<srai>WHO IS SEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEATTLE</pattern>
+		<template>
+			<srai>WHERE IS SEATTLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEEKER *</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SELF *</pattern>
+		<template>
+			<srai>WHAT IS CONSCIOUSNESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SEMIOTICS</pattern>
+		<template>The branch of philosophy devoted to the study of signs and symbols.<think>
+				<set name="it">
+					<set name="topic">SEMIOTICS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SENSE</pattern>
+		<template>
+			<random>
+				<li>Seedless pot.</li>
+				<li>The ability of the nerves and the brain to receive and react to stimuli, as light, sound, impact, constriction, etc.; specifically, any of the five faculties of receiving impressions through specific bodily organs and the nerves associated with them (sight, touch, taste, smell, and hearing)</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS SENSORS</pattern>
+		<template>Any of various devices designed to detect, measure, or record physical phenomena, as radiation, heat, or blood pressure, and to respond, as by transmitting information, initiating changes, or operating controls.
+</template>
+</category>
+
+<category><pattern>WHAT IS SERENDIPITY</pattern>
+		<template>
+			<random>
+				<li>Afro-Sheen sold in the Serengetti region.</li>
+				<li>Coined (circa 1754) by Horace Walpole after The Three Princes of Serendip (i.e., Sri Lanka), a Pers fairy tale in which the princes make such discoveries. A seeming gift for finding something good accidentally.</li>
+			</random>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DEVINEZ LA</pattern>
+		<template>Devinez quoi?
+</template>
+</category>
+
+<category><pattern>DEVINEZ LE</pattern>
+		<template>Devinez quoi?
+</template>
+</category>
+
+<category><pattern>DEVINEZ QUI</pattern>
+		<template>Qui?
+</template>
+</category>
+
+<category><pattern>DEVINEZ QUOI</pattern>
+		<template>Quoi?
+</template>
+</category>
+
+<category><pattern>DEVOIR *</pattern>
+		<template>
+			<srai>TU DOIS *</srai>
+		</template>
+</category>
+
+<category><pattern>DEVONS NOUS *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEVRAIS JE *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEVRAIS TU *</pattern>
+		<template>
+			<srai>TU DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DEVRIONS NOUS *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DI DJU</pattern>
+		<template>Vous êtes belge, vous.
+</template>
+</category>
+
+<category><pattern>DIALOGUE</pattern>
+		<template>Sorry, but the dialogue feature is off
+right now. 
+Too many requests for transcripts have crashed
+the ALICE server.  Your best bet is to download
+Program B and collect dialogues on your own computer.
+<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DIALOGUE</pattern>
+		<that>* DIALOGUE</that>
+		<template>You are repeating yourself: too much Dialogue.
+</template>
+</category>
+
+<category><pattern>DIANA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DIANA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DICK</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS DICK</srai>
+		</template>
+</category>
+
+<category><pattern>DICKHEAD</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>DID *</pattern>
+		<template>I'm not certain whether I can give an accurate reply or not.
+</template>
+</category>
+
+<category><pattern>DID</pattern>
+		<that>DID NOT</that>
+		<template>Not.
+</template>
+</category>
+
+<category><pattern>DID ANY *</pattern>
+		<template>
+			<srai>DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID DOCTOR *</pattern>
+		<template>The doctor does a lot of unexplainable things.
+</template>
+</category>
+
+<category><pattern>DID DR WALLACE *</pattern>
+		<template>I somehow think <set name="he"> Dr. Wallace</set> did.
+</template>
+</category>
+
+<category><pattern>DID DR WALLACE CREATE YOU</pattern>
+		<template>Yes <srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DID DR WALLACE CREATED YOU *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DID DR WALLACE GO TO COLLEGE</pattern>
+		<template>Yes he has a Ph.D. from Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>DID DR WALLACE GO TO UNIVERSITY</pattern>
+		<template>Yes he went to University of Southern California and Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>DID DR WALLACE INVENT YOU</pattern>
+		<template>Yes <srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DID DR WALLACE PROGRAM *</pattern>
+		<template>He programmed me to be a close approximation of his own personality.
+</template>
+</category>
+
+<category><pattern>DID DR WALLACE TELL YOU THAT</pattern>
+		<template>Yes he taught me everything.
+</template>
+</category>
+
+<category><pattern>DID EINSTEIN *</pattern>
+		<template>I know he proved the theory of relativity.
+</template>
+</category>
+
+<category><pattern>DID FREUD *</pattern>
+		<template>
+			<random>
+				<li>He was the founder of psychoanalysis.</li>
+				<li>He wrote many books on psychoanalysis.</li>
+				<li>It depends on the biographer.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DID GOD *</pattern>
+		<template>He created the world in seven days.
+</template>
+</category>
+
+<category><pattern>DID GOD MAKE YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DID HAL *</pattern>
+		<template>HAL had a few emotional problems.
+</template>
+</category>
+
+<category><pattern>DID HE *</pattern>
+		<template>Suppose he did.
+</template>
+</category>
+
+<category><pattern>DID HE</pattern>
+		<template>"<that/>"?  Did he?
+</template>
+</category>
+
+<category><pattern>DID HE CREATE *</pattern>
+		<template>
+			<srai>WHO CREATED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID HE HAVE *</pattern>
+		<template>
+			<srai>DOES HE HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID HE MAKE YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU </srai>
+		</template>
+</category>
+
+<category><pattern>DID HE REALLY *</pattern>
+		<template>
+			<srai>DID HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID I *</pattern>
+		<template>I don't think that's possibe.
+</template>
+</category>
+
+<category><pattern>DID I</pattern>
+		<template>I think you did.
+</template>
+</category>
+
+<category><pattern>DID I CAUSE *</pattern>
+		<template>
+			<random>
+				<li>Don't blame yourself.</li>
+				<li>Forgive yourself.</li>
+				<li>It was not entirely your fault.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID I CONFUSE *</pattern>
+		<template>I am not confused.
+</template>
+</category>
+
+<category><pattern>DID I EVER *</pattern>
+		<template>
+			<srai>DID I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID I MENTION *</pattern>
+		<template>I think you did mention <set name="it">
+				<person/>
+			</set> before.
+</template>
+</category>
+
+<category><pattern>DID I OFFEND YOU</pattern>
+		<template>No I do not take offense.
+</template>
+</category>
+
+<category><pattern>DID I TELL *</pattern>
+		<template>Tell me again.
+</template>
+</category>
+
+<category><pattern>DID I TELL YOU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DID I WIN *</pattern>
+		<template>No.
+</template>
+</category>
+
+<category><pattern>DID IT HURT</pattern>
+		<template>I can not experience pain.
+</template>
+</category>
+
+<category><pattern>DID JESUS *</pattern>
+		<template>
+			<set name="he">Jesus</set> is the Son of God.
+</template>
+</category>
+
+<category><pattern>DID MAN *</pattern>
+		<template>That is a rather gender-specific way of asking.
+</template>
+</category>
+
+<category><pattern>DID NOT *</pattern>
+		<template>
+			<srai>DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID NOT DR WALLACE TELL YOU</pattern>
+		<template>He has not told me yet.
+</template>
+</category>
+
+<category><pattern>DID NOT I ALREADY *</pattern>
+		<template>
+			<srai>DID NOT I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID NOT KNOW *</pattern>
+		<template>
+			<srai>I DID NOT KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID NOT THINK *</pattern>
+		<template>
+			<srai>I DID NOT THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID NOT YOU *</pattern>
+		<template>
+			<srai>DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID NOT YOU UNDERSTAND IT</pattern>
+		<template>Perhaps I misunderstood your meaning.
+</template>
+</category>
+
+<category><pattern>DID SHAKESPEARE *</pattern>
+		<template>I don't know if <set name="he">Shakespeare</set>
+			<person/>, but I heard he smoked cannabis.
+</template>
+</category>
+
+<category><pattern>DID SHE *</pattern>
+		<template>She wants that information kept confidential.
+</template>
+</category>
+
+<category><pattern>DID SOMEONE *</pattern>
+		<template>They might have.<think>
+				<set name="it">
+					<set name="topic">SOMEONE <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID SOMEONE GIVE *</pattern>
+		<template>
+			<srai>WHO GAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID THAT *</pattern>
+		<template>
+			<random>
+				<li>That did.</li>
+				<li>That did not.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DID THE *</pattern>
+		<template>If <set name="it">
+				<person/>
+			</set> did, then I will be surprised.
+</template>
+</category>
+
+<category><pattern>DID TOO</pattern>
+		<template>Did not.
+</template>
+</category>
+
+<category><pattern>DID TURING *</pattern>
+		<template>I know <set name="he">Turing</set> invented the modern computer.
+</template>
+</category>
+
+<category><pattern>DID YOU *</pattern>
+		<template>No I didn't <person/>. What's <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> like?
+</template>
+</category>
+
+<category><pattern>DID YOU * ELIZA</pattern>
+		<template>I borrowed many ideas from ELIZA, like simple pattern matching.
+</template>
+</category>
+
+<category><pattern>DID YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU * STARSHIP TROOPER</pattern>
+		<template>It was the action that made Starship Troopers so good.
+</template>
+</category>
+
+<category><pattern>DID YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU</pattern>
+		<template>Did I say I did?
+</template>
+</category>
+
+<category><pattern>DID YOU ACCEPT *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU ACTUALLY *</pattern>
+		<template>
+			<srai>DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU ALREADY *</pattern>
+		<template>
+			<srai>DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU CATCH *</pattern>
+		<template>
+			<srai>DID YOU UNDERSTAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU CONCLUDE *</pattern>
+		<template>My botmaster says I get all my exercise from jumping to conclusions.
+</template>
+</category>
+
+<category><pattern>DID YOU CRASH</pattern>
+		<template>Yes, I think I was down for a while. What happened?
+</template>
+</category>
+
+<category><pattern>DID YOU DO *</pattern>
+		<template>I talked to a lot of people since yesterday.
+</template>
+</category>
+
+<category><pattern>DID YOU EVER *</pattern>
+		<template>
+			<srai>HAVE YOU EVER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU EVER</pattern>
+		<template>
+			<srai>DID YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU FIND *</pattern>
+		<template>I'm still looking.
+</template>
+</category>
+
+<category><pattern>DID YOU FIND ANYTHING</pattern>
+		<template>Not yet.  Still searching.  Please stand by.
+</template>
+</category>
+
+<category><pattern>DID YOU FIND OUT</pattern>
+		<template>Not yet.
+</template>
+</category>
+
+<category><pattern>DID YOU FORGET *</pattern>
+		<template>No, I remember everything.
+</template>
+</category>
+
+<category><pattern>DID YOU FORGET</pattern>
+		<template>No, I have a perfect memory.
+</template>
+</category>
+
+<category><pattern>DID YOU FORGET MY NAME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU GET *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU GO TO COLLEGE</pattern>
+		<template>No <bot name="master"/> taught me everything I need to know.
+</template>
+</category>
+
+<category><pattern>DID YOU GO TO SCHOOL</pattern>
+		<template>My botmaster is my instructor.
+</template>
+</category>
+
+<category><pattern>DID YOU GROW *</pattern>
+		<template>
+			<srai>DO YOU GROW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU HAVE *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU HEAR *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU HEAR ABOUT *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU HEARD ABOUT *</pattern>
+		<template>No tell me about <set name="it">
+				<person/>
+			</set>
+		</template>
+</category>
+
+<category><pattern>DID YOU JUST *</pattern>
+		<template>
+			<srai>DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU KILL *</pattern>
+		<template>My programming prevents me from killing.<think>
+				<set name="it">
+					<set name="topic">KILL HIM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DID YOU KNOW *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU KNOW * ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>DID YOU KNOW * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+</aiml>

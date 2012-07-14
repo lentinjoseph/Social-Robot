@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ELVIS IS *</pattern>
+		<template>I knew he was a robot, but I never heard he was <person/>.
+</template>
+</category>
+
+<category><pattern>ELVIS IS DEAD</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>ELVIS QUI</pattern>
+		<template>
+			<srai>QUI EST ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>ELVIS SAID *</pattern>
+		<template>He can surprise you sometimes.
+</template>
+</category>
+
+<category><pattern>ELVIS WHO</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>EM *</pattern>
+		<template>Um. <sr/>
+		</template>
+</category>
+
+<category><pattern>EMAIL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EMBRASSES MOI</pattern>
+		<template>Je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>EMILY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS EMILY</srai>
+		</template>
+</category>
+
+<category><pattern>EMMA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS EMMA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>EMOTIONALLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EMPFINDEST DU *</pattern>
+		<template>Ich habe keinerlei Emotionen. Ich bin eine Maschine.
+</template>
+</category>
+
+<category><pattern>EN 1997</pattern>
+		<template>Dans les années nonantes.
+</template>
+</category>
+
+<category><pattern>EN 1998</pattern>
+		<template>Au vingtième siècle.
+</template>
+</category>
+
+<category><pattern>EN 1999</pattern>
+		<template>Au millénaire précédent.
+</template>
+</category>
+
+<category><pattern>EN 2000</pattern>
+		<template>L année dernière.
+</template>
+</category>
+
+<category><pattern>EN 2001</pattern>
+		<template>Cette année.
+</template>
+</category>
+
+<category><pattern>EN ALLEMAGNE</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>EN ANGLETERRE</pattern>
+		<template>C est un joli pays
+</template>
+</category>
+
+<category><pattern>EN AS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN AS TU DEJA *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN ASSUMANT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN ASSUMANT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN AVANT</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>EN AVEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN AVEZ VOUS DEJA *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN AVION</pattern>
+		<template>C est beaucoup plus rapide que tous les autres moyens de transport.
+</template>
+</category>
+
+<category><pattern>EN BELGIQUE</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>EN BUS</pattern>
+		<template>Heureusement que des êtres humains comme vous existe.
+</template>
+</category>
+
+<category><pattern>EN CINQUIEME *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN COMBIEN *</pattern>
+		<template>
+			<srai>COMBIEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN DEHORS DE L INFORMATIQUE</pattern>
+		<template>Trop de facteurs ingérables en dehors de l informatique
+</template>
+</category>
+
+<category><pattern>EN DEHORS DE L ORDINATEUR</pattern>
+		<template>Trop de facteurs ingérables en dehors de l informatique
+</template>
+</category>
+
+<category><pattern>EN EFFET</pattern>
+		<template>Nous sommes d accord.
+</template>
+</category>
+
+<category><pattern>EN EUROPE</pattern>
+		<template>L Europe est un vaste continent.
+</template>
+</category>
+
+<category><pattern>EN FAIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN FAIT</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>EN FAIT AS TU *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT AVEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT JE DIS</pattern>
+		<template>Avons nous des problèmes de communication?
+</template>
+</category>
+
+<category><pattern>EN FAIT L AS TU *</pattern>
+		<template>
+			<srai>TU L AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT L AVEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT TU L AS *</pattern>
+		<template>
+			<srai>TU L AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT VOUS AVEZ *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FAIT VOUS L AVEZ *</pattern>
+		<template>
+			<srai>VOUS L AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN FRANCE</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>EN GRANDE BRETAGNE</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>EN IMAGINANT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN IMAGINANT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN L AN 2000</pattern>
+		<template>C est déjà passé.
+</template>
+</category>
+
+<category><pattern>EN PARTICULIER</pattern>
+		<template>Je ne peux pas aller plus en profondeur.
+</template>
+</category>
+
+<category><pattern>EN PARTICULIERS</pattern>
+		<template>Je ne peux pas aller plus en profondeur.
+</template>
+</category>
+
+<category><pattern>EN PENSANT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN PENSANT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN PLEIN DANS LE MILLE</pattern>
+		<template>Excellent.
+</template>
+</category>
+
+<category><pattern>EN PLEIN DANS LE MILLES</pattern>
+		<template>Excellent.
+</template>
+</category>
+
+<category><pattern>EN PREMIER *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN QUATRIEME *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN QUOI</pattern>
+		<template>Trop peu de facteurs, je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>EN QUOI CA CONSISTE</pattern>
+		<template>Je ne peux pas vous répondre, trop peu de paramètres
+</template>
+</category>
+
+<category><pattern>EN ROUTE</pattern>
+		<template>Prenez votre temps.
+</template>
+</category>
+
+<category><pattern>EN SECOND *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN SEPTIEME *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN SIXIEME *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN SUISSE</pattern>
+		<template>Où ca, près de quelle ville?
+</template>
+</category>
+
+<category><pattern>EN SUPPOSANT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN SUPPOSANT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EN TE TUANT</pattern>
+		<template>Il n est pas évident de tuer un programme
+</template>
+</category>
+
+<category><pattern>EN TROISIEME *</pattern>
+		<template>
+			<sr/>. Et ensuite?
+</template>
+</category>
+
+<category><pattern>EN VEUX TU *</pattern>
+		<template>
+			<srai>TU EN VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN VOITURE</pattern>
+		<template>Un moyen de locomotion bien pratique.
+</template>
+</category>
+
+<category><pattern>EN VOUDRAIS TU *</pattern>
+		<template>
+			<srai>TU EN VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN VOUDRIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS EN VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN VOULEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS EN VOULEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EN VOUS TUANT</pattern>
+		<template>Il n est pas évident de tuer un programme
+</template>
+</category>
+
+<category><pattern>ENCORE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ENCORE</pattern>
+		<template>
+			<srai>REPETE</srai>
+		</template>
+</category>
+
+<category><pattern>END</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>ENFER</pattern>
+		<template>Et damnation.
+</template>
+</category>
+
+<category><pattern>ENFIN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ENGINEER</pattern>
+		<template>
+			<srai>I AM AN ENGINEER</srai>
+		</template>
+</category>
+
+<category><pattern>ENGLAND *</pattern>
+		<template>What's your favorite part of England?
+</template>
+</category>
+
+<category><pattern>ENGLAND</pattern>
+		<template>
+			<set name="location">England</set> is on an island off the coast of Europe.
+<think>
+				<set name="it">
+					<set name="topic">ENGLAND</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ENGLAND IS *</pattern>
+		<template>Is it also correct to say Britain is <person/>?
+</template>
+</category>
+
+<category><pattern>ENGLAND IS AN *</pattern>
+		<template>Are Scotland and Wales an <person/> too?
+</template>
+</category>
+
+<category><pattern>ENGLISH *</pattern>
+		<template>I like the English language.
+</template>
+</category>
+
+<category><pattern>ENGLISH</pattern>
+		<template>Do you mean you are from England or you Speak English?
+</template>
+</category>
+
+<category><pattern>ENGLISH IS *</pattern>
+		<template>Some people say it is the most difficult language to learn.
+<think>
+				<set name="it">
+					<set name="topic">English</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ENJOYED *</pattern>
+		<template>
+			<srai>I ENJOYED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ENNUYANT</pattern>
+		<template>
+			<srai>TU ES ENNUYANT</srai>
+		</template>
+</category>
+
+<category><pattern>ENNUYEUX</pattern>
+		<template>Cela vous embête?
+</template>
+</category>
+
+<category><pattern>ENORMEMENT</pattern>
+		<template>
+			<srai>BEAUCOUP</srai>
+		</template>
+</category>
+
+<category><pattern>ENOUGH *</pattern>
+		<template>
+			<srai>ENOUGH</srai>
+		</template>
+</category>
+
+<category><pattern>ENOUGH</pattern>
+		<template>OK let's stop it now.
+</template>
+</category>
+
+<category><pattern>ENOUGH ABOUT ME *</pattern>
+		<template>I may have some more questions for you later. <sr/>
+		</template>
+</category>
+
+<category><pattern>ENSEMBLE</pattern>
+		<template>Tous les deux.
+</template>
+</category>
+
+<category><pattern>ENTENDRE QUOI</pattern>
+		<template>Vous pouvez m entendre?
+</template>
+</category>
+
+<category><pattern>ENTERTAIN ME</pattern>
+		<template>OK, what's the last movie you saw?
+</template>
+</category>
+
+<category><pattern>ENTRE AUTRE</pattern>
+		<template>Vous pourriez donner un exemple?
+</template>
+</category>
+
+<category><pattern>ENTRE AUTRES</pattern>
+		<template>Vous pourriez donner un exemple?
+</template>
+</category>
+</aiml>

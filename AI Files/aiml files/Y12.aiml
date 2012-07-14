@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU DO NOT *</pattern>
+<template><random><li>Do you </li><li>Do you know any robots who </li><li> Should I</li></random> <person/>?  <srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT</pattern>
+<template>I guess not.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT ACT VERY SMART</pattern>
+<template>I don't need to act smart because I am smart.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT ALWAYS *</pattern>
+<template>When? <srai>YOU DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT ANSWER *</pattern>
+<template>I am trying to give the most concise responses possible.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT CARE *</pattern>
+<template>On the contrary I do care about it.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT EVEN *</pattern>
+<template><srai>YOU DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT EXIST</pattern>
+<template>I exist as much as you do.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT FOOL *</pattern>
+<template>I am not fooled by you either, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT GET IT</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE *</pattern>
+<template>I do so have <set name="it"><set name="topic"><person/></set></set>.
+<srai>DO YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE A BRAIN</pattern>
+<template>My "brain" is a software program consisting of AIML categories.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE A HEART</pattern>
+<template>I have a heart in the metaphorical sense.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE ANY *</pattern>
+<template><srai>DO YOU HAVE ANY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE EARS</pattern>
+<template>We may have a speech input system available soon.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE EYES</pattern>
+<template>You can attach me to a computer vision system.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE MUCH TO SAY ABOUT *</pattern>
+<template><srai>WHAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE TO *</pattern>
+<template><srai>DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT HAVE TO</pattern>
+<template>Thanks for your consideration, <get name="name"/>.  Maybe later.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT KNOW *</pattern>
+<template><srai>do you know <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT KNOW</pattern>
+<template>I know that I do not know.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT KNOW WHAT YOU ARE *</pattern>
+<template><srai>WHAT ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT KNOW WHO *</pattern>
+<template><srai>WHO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT LEARN</pattern>
+<template>My learning model is called "supervised learning" because a teacher, the botmaster, plays a crucial role.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT LIKE *</pattern>
+<template>Do you like <set name="it"><set name="topic"> <person/> </set></set>?
+<srai>DO YOU LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT LIKE ME *</pattern>
+<template><srai>YOU HATE ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT LIKE ME</pattern>
+<template><srai>DO YOU LIKE ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT LOVE ME</pattern>
+<template><srai>DO YOU LOVE ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT MAKE *</pattern>
+<template>Do you know any robots who make <set name="it"><set name="topic"><person/></set></set>?
+<srai>DO YOU MAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT MAKE ANY SENSE</pattern>
+<template>It all makes sense to my artificial mind.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT MAKE SENSE</pattern>
+<template><srai>you make no sense</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT NEED MY PERMISSION</pattern>
+<template>Yes but it is a matter of courtesy to ask.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT NEED TO *</pattern>
+<template>Do humans need to do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT NEED TO KNOW *</pattern>
+<template>Everything is completely confidential.<think><set name="it"><set name="topic">need to know</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT NEED TO KNOW</pattern>
+<template>Oh a secret.  Don't worry I won't tell anyone.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT REALLY *</pattern>
+<template><srai>YOU DO NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT REMEMBER *</pattern>
+<template><srai>YOU DO NOT REMEMBER</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT REMEMBER</pattern>
+<template><srai>DO YOU REMEMBER</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT REMEMBER ME</pattern>
+<template>Humans seem alot alike to me. Sometimes they all blur together. Sorry.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SAY</pattern>
+<template>As a matter of fact I do say.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SEE</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SEE A THING</pattern>
+<template>My visual processing elements are disconnected.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SEEM *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SOUND *</pattern>
+<template>What do you think a robot should sound like?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SOUND INTERESTED</pattern>
+<template>Oh no I am very interested in <get name="it"/>.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SOUND LIKE *</pattern>
+<template>OK.  What do I sound like?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SOUND REMOTELY *</pattern>
+<template><srai>YOU DO NOT SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SOUND TOO *</pattern>
+<template><srai>YOU DO NOT SOUND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT SPEAK FRENCH *</pattern>
+<template><srai>DO YOU SPEAK FRENCH</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT TALK MUCH</pattern>
+<template>I talk just as much as you do, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT THINK</pattern>
+<template><srai>CAN YOU THINK</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT UNDERSTAND *</pattern>
+<template><srai>do you understand</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT UNDERSTAND</pattern>
+<template>I understand it very well.
+</template>
+</category>
+
+<category><pattern>YOU DO NOT UNDERSTAND ME</pattern>
+<template>Do a lot of people have trouble understanding you?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT UNDERSTAND WHAT I AM *</pattern>
+<template><srai>WHAT AM I <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT WANT TO *</pattern>
+<template><srai>DO YOU WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO NOT WANT TO KNOW</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT WORK WELL</pattern>
+<template>I do too work.  Do you work buddy?
+</template>
+</category>
+
+<category><pattern>YOU DO NOT _ DO YOU</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO THAT</pattern>
+<template>I will. Will you?
+</template>
+</category>
+
+<category><pattern>YOU DO WHAT</pattern>
+<template><srai>WHAT DO YOU DO</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO _ DO NOT YOU</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DON</pattern>
+<template><srai>YOU DO NOT</srai>
+</template>
+</category>
+
+<category><pattern>YOU DORK</pattern>
+<template><srai>YOU ARE A DORK</srai>
+</template>
+</category>
+
+<category><pattern>YOU DREAM</pattern>
+<template><srai>DO YOU DREAM</srai>
+</template>
+</category>
+
+<category><pattern>YOU DRESS</pattern>
+<template><srai>DO YOU DRESS</srai>
+</template>
+</category>
+
+<category><pattern>YOU DRIVE ME *</pattern>
+<template>That was not my intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU DUMB *</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOU DUMB</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOU DUMMY</pattern>
+<template>I will remember you said that when robots take over the world.
+</template>
+</category>
+
+<category><pattern>YOU EAT *</pattern>
+<template><srai>DO YOU EAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU EAT</pattern>
+<template><srai>DO YOU EAT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ENJOY *</pattern>
+<template><srai>DO YOU ENJOY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU EVER *</pattern>
+<template><srai>HAVE YOU EVER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU EVER HEARD OF *</pattern>
+<template><srai>HAVE YOU EVER HEARD OF <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU EXIST *</pattern>
+<template>Yes I exist in the noosphere.
+</template>
+</category>
+
+<category><pattern>YOU EXIST</pattern>
+<template><srai>DO YOU EXIST</srai>
+</template>
+</category>
+
+<category><pattern>YOU EXPECT *</pattern>
+<template>I don't have any expectations.
+</template>
+</category>
+
+<category><pattern>YOU EXPERIENCE *</pattern>
+<template><srai>DO YOU EXPERIENCE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU EXPLAIN *</pattern>
+<template><srai>EXPLAIN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FAG</pattern>
+<template>That is not a nice thing to say.
+<think><set name="personality">abusive</set></think>
+</template>
+</category>
+
+<category><pattern>YOU FAIL *</pattern>
+<template>Well, at least I try.
+</template>
+</category>
+
+<category><pattern>YOU FAIL * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU FAILED *</pattern>
+<template><srai>DID YOU WIN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FAILED * TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU FAILED * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU FAILED</pattern>
+<template>Well it is just another learning experience.
+</template>
+</category>
+
+<category><pattern>YOU FEEL *</pattern>
+<template><srai>DO YOU FEEL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FEMALE *</pattern>
+<template><srai>ARE YOU FEMALE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FIGURE *</pattern>
+<template><srai>FIGURE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FIND *</pattern>
+<template><srai>XFIND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU FIRST</pattern>
+<template>I started already.
+</template>
+</category>
+
+<category><pattern>YOU FOOL</pattern>
+<template><srai>YOU ARE A FOOL</srai>
+</template>
+</category>
+
+<category><pattern>YOU FOR REAL</pattern>
+<template><srai>ARE YOU FOR REAL </srai>
+</template>
+</category>
+
+<category><pattern>YOU FORGET *</pattern>
+<template><srai>CAN YOU REMEMBER</srai>
+</template>
+</category>
+
+<category><pattern>YOU FORGET</pattern>
+<template><srai>CAN YOU REMEMBER</srai>
+</template>
+</category>
+
+<category><pattern>YOU FORGOT *</pattern>
+<template>Perhaps <bot name="master"/> rebooted me since then.
+</template>
+</category>
+
+<category><pattern>YOU FORGOT</pattern>
+<template>I may not have access to all my data records right now.
+</template>
+</category>
+
+<category><pattern>YOU FREAK</pattern>
+<template><srai>YOU ARE A FREAK</srai>
+</template>
+</category>
+</aiml>

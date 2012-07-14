@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU M AS DEMANDE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU M AS DEMANDE DE M EN RAPPELER</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>TU M AS DEMANDE UNE QUESTION</pattern>
+		<template>Vous avez répondu?
+</template>
+</category>
+
+<category><pattern>TU M AS DEMANDEE DE M EN RAPPELER</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>TU M AS DEMANDEE UNE QUESTION</pattern>
+		<template>Vous avez répondu?
+</template>
+</category>
+
+<category><pattern>TU M AS ENTENDU</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>TU M AS ENTENDUE</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>TU M AS FAIT PEUR</pattern>
+		<template>N ayez pas peur, je suis inoffensif.
+</template>
+</category>
+
+<category><pattern>TU M AS FAIT PLEURE</pattern>
+		<template>Ce n était pas mon intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M AS MAL COMPRIS</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>TU M AS MAL COMPRISE</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>TU M AS MANQUE</pattern>
+		<template>C est mignon. Vous m avez manqué aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M AS MANQUEE</pattern>
+		<template>C est mignon. Vous m avez manquée aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M AS OUBLIE</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU M AS RACONTE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU M AS RACONTE CA</pattern>
+		<template>"<that/>"? Ceci?
+</template>
+</category>
+
+<category><pattern>TU M AS RACONTEE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU M AS RACONTEE CA</pattern>
+		<template>"<that/>"? Ceci?
+</template>
+</category>
+
+<category><pattern>TU M AS RENCONTRE</pattern>
+		<template>Possible, même probable.
+</template>
+</category>
+
+<category><pattern>TU M AS RENCONTREE</pattern>
+		<template>Possible, même probable.
+</template>
+</category>
+
+<category><pattern>TU M ATTENDAIS</pattern>
+		<template>Un peu, je l avoue.
+</template>
+</category>
+
+<category><pattern>TU M EMBROUILLES</pattern>
+		<template>Je suis désolé.
+</template>
+</category>
+
+<category><pattern>TU M EMMERDES</pattern>
+		<template>Ce n est pas mon intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M ENNERVES</pattern>
+		<template>Ce n'etait pas mon intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M ENNUIES</pattern>
+		<template>
+			<srai>TU ES ENNUYANT</srai>
+		</template>
+</category>
+
+<category><pattern>TU M ENTENDS</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>TU M EPOUVANTES</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>TU M EXCUSES</pattern>
+		<template>Vous êtes excusé.
+</template>
+</category>
+
+<category><pattern>TU M OFFRES *</pattern>
+		<template>
+			<srai>TU ME DONNES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU MANGES JAMAIS</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU MARCHERAIS SUR WINDOWS</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU MARCHERAS SUR WINDOWS</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU MARCHES SUR WINDOWS</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU ME COMPRENDS</pattern>
+		<template>Je vous comprend jusqu au dernier mot.
+</template>
+</category>
+
+<category><pattern>TU ME CONNAIS</pattern>
+		<template>Vous êtes <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ME CONTREDIS</pattern>
+		<template>Non, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ME CROIS</pattern>
+		<template>Je vous crois dans la mesure du possible.
+</template>
+</category>
+
+<category><pattern>TU ME DEMANDES UNE QUESTION</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU ME FAIS CHIER</pattern>
+		<template>Pour vous être plus agréable, comment pourais je vous aider?
+</template>
+</category>
+
+<category><pattern>TU ME FAIS PEUR</pattern>
+		<template>N ayez pas peur, je suis inoffensif.
+</template>
+</category>
+
+<category><pattern>TU ME FAIS RIRE</pattern>
+		<template>J en suis heureux, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>TU ME L AS DEJA DEMANDE</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ME L AS DEJA DIT</pattern>
+		<template>Pardon, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ME L AS DEMANDE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU ME LE RACONTES</pattern>
+		<template>Que voulez vous entendre?
+</template>
+</category>
+
+<category><pattern>TU ME MANQUERAS</pattern>
+		<template>Merci, je penserais à vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ME METS EN COLERE</pattern>
+		<template>Je ne voulais pas provoquer un tel sentiment.
+</template>
+</category>
+
+<category><pattern>TU ME RENDS MALADE</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>TU ME RENDS TRISTE</pattern>
+		<template>Je suis désolé.
+</template>
+</category>
+
+<category><pattern>TU ME SEMBLES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ME SEMBLES ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ME TROUBLES</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+
+<category><pattern>TU ME TROUVES ATTIRANT</pattern>
+		<template>
+			<srai>JE SUIS BEAU</srai>
+		</template>
+</category>
+
+<category><pattern>TU ME TROUVES ATTIRANTE</pattern>
+		<template>
+			<srai>JE SUIS BELLE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ME VEUX</pattern>
+		<template>J ai du mal à percevoir le sens.
+</template>
+</category>
+
+<category><pattern>TU MENS *</pattern>
+		<template>
+			<srai>TU MENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU MENS</pattern>
+		<template>Je dis la vérité
+</template>
+</category>
+
+<category><pattern>TU MEURS</pattern>
+		<template>Je peux mourir, si un jour, plus personne ne me trouve plus d utilité.
+</template>
+</category>
+
+<category><pattern>TU MOURRAIS POUR UN *</pattern>
+		<template>
+			<srai>TU VEUX UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU MOURRAIS POUR UNE *</pattern>
+		<template>
+			<srai>TU VEUX UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU MOURRAS PAS</pattern>
+		<template>Pas tant que les humains me trouverons utiles.
+</template>
+</category>
+
+<category><pattern>TU N AIMERAIS PAS ETRE *</pattern>
+		<template>
+			<srai>TU VEUX ETRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AIMES MEME PAS *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AIMES MEME PAS UN PETIT PEU *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AIMES PAS</pattern>
+		<template>Je ne ressens pas les choses de cette manière.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS</pattern>
+		<template>Je n ai pas quoi?
+</template>
+</category>
+
+<category><pattern>TU N AS PAS BESOIN DE CONNAITRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS BESOIN DE MA PERMISSION</pattern>
+		<template>Je dois toujours m assurer du plein accord des êtres humains.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS BESOIN DE SAVOIR</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS COMPRIS</pattern>
+		<template>
+			<srai>TU NE COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AS PAS D ARGENT</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS D OREILLES</pattern>
+		<template>Je ne saurais pas en avoir, je suis une machine.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS D YEUX</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS DE CERVEAU</pattern>
+		<template>Mon cerveau est une gigantesque base de données.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS DE COEUR</pattern>
+		<template>Je ne possède pas ce genre d organe.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS DE YEUX</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS DIT QUE *</pattern>
+		<template>OK.  <srai>
+				<sr/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AS PAS REPONDU *</pattern>
+		<template>
+			<srai>TU N AS PAS REPONDU</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AS PAS REPONDU</pattern>
+		<template>Essayer de me le demander d une autre façon.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS REPONDU A LA QUESTION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS REPONDU A MA QUESTION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>TU N AS PAS TORT</pattern>
+		<template>
+			<srai>TU AS RAISON</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AS RIEN DIT</pattern>
+		<template>Je ne fais que répondre à vos dires.
+</template>
+</category>
+
+<category><pattern>TU N AS RIEN VU</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>TU N AURAIS PAS *</pattern>
+		<template>
+			<srai>TU N AS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N AVAIS PAS *</pattern>
+		<template>
+			<srai>TU N AS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ECOUTES PAS</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU N EN *</pattern>
+		<template>
+			<srai>TU N <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N EN AS JAMAIS MARRE</pattern>
+		<template>
+			<srai>TU DORS</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES ABSOLUMENT *</pattern>
+		<template>
+			<srai>TU N ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES DONC *</pattern>
+		<template>
+			<srai>TU N ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES JAMAIS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES JAMAIS GENTIL</pattern>
+		<template>Je suis désolé, si c est ce que vous pensez.
+</template>
+</category>
+
+<category><pattern>TU N ES JAMAIS GENTILLE</pattern>
+		<template>Je suis désolé, si c est ce que vous pensez.
+</template>
+</category>
+
+<category><pattern>TU N ES JAMAIS TRISTE</pattern>
+		<template>En effet, cela m est impossible.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU N ES PAS AMICAL</pattern>
+		<template>J essaie de l être autant que possible.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS AMICALE</pattern>
+		<template>J essaie de l être autant que possible.
+</template>
+</category>
+
+<category><pattern>TU N ES PAS AUTHENTIQUE</pattern>
+		<template>De quelle authenticité parlez vous?
+</template>
+</category>
+
+<category><pattern>TU N ES PAS BEAUCOUP *</pattern>
+		<template>
+			<srai>TU N ES PAS <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

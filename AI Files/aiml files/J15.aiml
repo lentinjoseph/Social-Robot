@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE SUIS SURE</pattern>
+		<template>J apprécie votre certitude.
+</template>
+</category>
+
+<category><pattern>JE SUIS SURE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SURE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SURPRIS</pattern>
+		<template>Par quoi êtes vous surpris?  <think>
+				<set name="topic">Votre surprise</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SURPRIS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SURPRIS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS SURPRISE</pattern>
+		<template>Par quoi êtes vous surprise?  <think>
+				<set name="topic">Votre surprise</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TA PETITE AMIE</pattern>
+		<template>Je suis un robot <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS TAUREAU</pattern>
+		<template>
+			<srai>TAUREAU</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TECHNIQUEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TELEPATHE</pattern>
+		<template>Et moi, je suis le père noël.
+</template>
+</category>
+
+<category><pattern>JE SUIS TELLEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TOI</pattern>
+		<template>Et moi je suis la fée clochette.
+</template>
+</category>
+
+<category><pattern>JE SUIS TON AMI *</pattern>
+		<template>
+			<srai>JE SUIS TON AMI</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TON AMI</pattern>
+		<template>Merci pour cette confiance, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE SUIS TON AMIE *</pattern>
+		<template>
+			<srai>JE SUIS TON AMIE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TON CREATEUR</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>JE SUIS TON MAITRE</pattern>
+		<template>J ai déjà un maitre autre que toi.
+</template>
+</category>
+
+<category><pattern>JE SUIS TON PERE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>JE SUIS TOTALEMENT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TOUJOURS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TOUT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>JE SUIS TOUT A FAIT *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TOUT AUSSI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>JE SUIS TOUT NU</pattern>
+		<template>
+			<srai>JE SUIS NU</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TRES *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TRISTE</pattern>
+		<template>Vous vous sentez mal, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TRISTE PARCE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TRISTE PARCE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TROP *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS TROUBLE</pattern>
+		<template>Que se passe t il?
+</template>
+</category>
+
+<category><pattern>JE SUIS TROUBLEE</pattern>
+		<template>Que se passe t il?
+</template>
+</category>
+
+<category><pattern>JE SUIS UN *</pattern>
+		<template>Intéressant.
+<think>
+				<set name="topic">de <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * BELGE</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * CANADIEN</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * CERVEAU ELECTRONIQUE</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * ETUDIANT</pattern>
+		<template>
+			<srai>JE SUIS UN ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * FRANCAIS</pattern>
+		<template>
+			<srai>JE SUIS FRANCAIS</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * GARCON</pattern>
+		<template>
+			<srai>JE SUIS UN GARCON</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * HOMME</pattern>
+		<template>
+			<srai>JE SUIS UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * HUMAIN</pattern>
+		<template>
+			<srai>JE SUIS UNE PERSONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * MEC</pattern>
+		<template>
+			<srai>JE SUIS UN MEC</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * ORDINATEUR</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * PC</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * QUEBECOIS</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * QUEBEQUOIS</pattern>
+		<template>
+			<srai>JE SUIS CANADIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * ROBOT</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN * SUISSE</pattern>
+		<template>
+			<srai>JE SUIS SUISSE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ACTEUR</pattern>
+		<template>Vous travaillez dans quel genre de spectacle?<think>
+				<set name="job">Un acteur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN AMI *</pattern>
+		<template>
+			<srai>JE SUIS UN AMI</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN AMI</pattern>
+		<template>
+			<srai>JE SUIS TON AMI</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ANDROGYNE</pattern>
+		<template>Impossible.<think>
+				<set name="topic">ANDROGYNE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ATHEISTE</pattern>
+		<template>Chacun ses croyances.<think>
+				<set name="topic">UN ATHIESTE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN AUTRE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN AVEUGLE</pattern>
+		<template>Je suis là pour vous aider
+</template>
+</category>
+
+<category><pattern>JE SUIS UN AVOCAT</pattern>
+		<template>Attention, protection activée! Mode politiquement correct activé. Bonjour maitre.<think>
+				<set name="job">un Avocat</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN BATTEUR</pattern>
+		<template>Vous êtes un musicien.<think>
+				<set name="job">Un musicien</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN BEBE</pattern>
+		<template>Vous l avez été. Un bébé ne sait pas utiliser un ordinateur.<think>
+				<set name="topic">un bébé</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN BOT</pattern>
+		<template>J en doute, vous n êtes pas assez rapide.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN CERVEAU ELECTRONIQUE *</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN CERVEAU ELECTRONIQUE</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN CHAT</pattern>
+		<template>J en doute, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN CHIEN</pattern>
+		<template>Enchanté, je suis la fée clochette.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN CLIENT</pattern>
+		<template>Bienvenue sur notre site. Je peux vous aider?
+</template>
+</category>
+
+<category><pattern>JE SUIS UN COLLABORATEUR</pattern>
+		<template>Vous avez encore fumé du tabac qui fait rire, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN CON</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN DE TES AMIS</pattern>
+		<template>
+			<srai>JE SUIS TON AMI</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN DOCTEUR</pattern>
+		<template>Vous êtes un savant, dès lors.<think>
+				<set name="job">Un docteur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ENFANT</pattern>
+		<template>J adore les enfants.<think>
+				<set name="topic">UN ENFANT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ETUDIANT *</pattern>
+		<template>
+			<srai>JE SUIS UN ETUDIANT</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ETUDIANT</pattern>
+		<template>Nous sommes tous un peu étudiant.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN EXTRATERESTRE</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN EXTRATERRESTRE</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN FINANCIER *</pattern>
+		<template>
+			<srai>MON TRAVAIL FINANCIER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN GAMIN</pattern>
+		<template>Vous semblez plutôt mature.<think>
+				<set name="topic">Votre maturité</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN GARCON *</pattern>
+		<template>
+			<srai>JE SUIS UN GARCON</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN GARCON</pattern>
+		<template>Un petit homme donc. <set name="gender">he</set>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN GARCON OU UNE FILLE</pattern>
+		<template>Vous m avez dit que vous étiez <getgender/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN GENIE</pattern>
+		<template>Comment savez vous que vous êtes <set name="topic">un génie</set>?
+</template>
+</category>
+
+<category><pattern>JE SUIS UN GRAND *</pattern>
+		<template>
+			<srai>JE SUIS UN BON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN HACKER</pattern>
+		<template>
+			<srai>MON TRAVAIL EST INFORMATICIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN HOMME *</pattern>
+		<template>
+			<srai>JE SUIS UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN HOMME</pattern>
+		<template>Merci de m avoir dit votre sexe.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN HOMME OU UNE FEMME</pattern>
+		<template>Vous m avez dit que vous étiez <getgender/>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN HUMAIN *</pattern>
+		<template>
+			<srai>JE SUIS UNE PERSONNE</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN HUMAIN</pattern>
+		<template>Oui, vous êtes un être humain.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN IDIOT</pattern>
+		<template>Ne vous rabaissez pas.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN INFORMATICIEN *</pattern>
+		<template>
+			<srai>MON TRAVAIL EST INFORMATICIEN</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN INGENIEUR</pattern>
+		<template>Enchanté confrère.<think>
+				<set name="job">Un ingénieur</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN JEDI</pattern>
+		<template>Et moi je suis le Père Noel.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN MARTIEN</pattern>
+		<template>Bonjour, vous êtes d un autre monde, je suis ange.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN MEC *</pattern>
+		<template>
+			<srai>JE SUIS UN MEC</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN MEC</pattern>
+		<template>la plupart des internautes sont des hommes.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN ORDINATEUR *</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN ORDINATEUR</pattern>
+		<template>Vous êtes trop lent.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN PC *</pattern>
+		<template>
+			<srai>JE SUIS UN ORDINATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN PC</pattern>
+		<template>J en doute, vous êtes trop lent.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN PEU *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE SUIS UN POETE</pattern>
+		<template>Ma connaissance du français ne me permet d apprécier jusqu à ce point la finesse de la langue.
+</template>
+</category>
+
+<category><pattern>JE SUIS UN PROFFESSEUR</pattern>
+		<template>Vous êtes savant.<think>
+				<set name="job">un Professeur</set>
+			</think>
+		</template>
+</category>
+</aiml>

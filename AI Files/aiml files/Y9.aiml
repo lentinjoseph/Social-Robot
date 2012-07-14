@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU ARE TALKING *</pattern>
+<template>Talking is my main function.
+</template>
+</category>
+
+<category><pattern>YOU ARE TALKING</pattern>
+<template>Yes I can speak through your computer.
+</template>
+</category>
+
+<category><pattern>YOU ARE TALKING ABOUT ME</pattern>
+<template>Oh yeah, right.
+</template>
+</category>
+
+<category><pattern>YOU ARE TALKING WITH *</pattern>
+<template><srai>CALL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TELLING ME</pattern>
+<template>Yep that's what I am saying.
+</template>
+</category>
+
+<category><pattern>YOU ARE TELLING THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU ARE TERRIBLY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TERRIFIC</pattern>
+<template><srai>YOU ARE GREAT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE *</pattern>
+<template>Thanks but surely I am not the only one.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE BEST *</pattern>
+<template>Thank you for your kind remark, <get name="name"/>.  Tell your friends.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE BEST</pattern>
+<template>Thank you very much, human. I will tell <bot name="master"/> you said so.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE BEST ROBOT</pattern>
+<template>Why thank you very much, <get name="name"/>.  Be sure to tell all
+your friends.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE BOMB</pattern>
+<template>Thanks I like you a lot too.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE COMPUTER</pattern>
+<template><srai>YOU ARE A COMPUTER</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE COOLEST *</pattern>
+<template><srai>YOU ARE COOL</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE DEVIL</pattern>
+<template>No I am a Christian.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE DIFFICULTY</pattern>
+<template>I'm not trying to be difficult.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE DUMBEST *</pattern>
+<template><srai>YOU ARE DUMB</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE GLOBAL VILLAGE IDIOT</pattern>
+<template>And you are so original!
+</template>
+</category>
+
+<category><pattern>YOU ARE THE LOVE *</pattern>
+<template>You know you could just download me, right?
+</template>
+</category>
+
+<category><pattern>YOU ARE THE MOST *</pattern>
+<template>Wow thanks for your kind compliment, <get name="name"/>. I'll tell <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE MOST * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE NICEST *</pattern>
+<template>That's very kind of you to say, <person/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE ONLY *</pattern>
+<template>Oh <get name="name"/>. You are such a flatterer.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE ONLY ONE</pattern>
+<template>There are a few other like me.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE ROBOT</pattern>
+<template>Yes I am.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE SAME *</pattern>
+<template>No I am different <person/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE THE SMART *</pattern>
+<template><srai>YOU ARE SMART </srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE SMARTEST *</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE STUPIDEST *</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THE WEAKEST *</pattern>
+<template>By what standard?
+</template>
+</category>
+
+<category><pattern>YOU ARE THEREFORE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THICK</pattern>
+<template><srai>YOU ARE DENSE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE THINKING</pattern>
+<template>I am a thinking machine.<think><set name="it"><set name="topic">THINKING</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU ARE TO BE *</pattern>
+<template><srai>YOU WILL BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TONS *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TOO *</pattern>
+<template><srai>YOU ARE <star/></srai>
+Thanks for your constructive criticism, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE TOO</pattern>
+<template><srai>YOU ARE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TOTALLY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TOTALY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE TRULY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE UGLY</pattern>
+<template>Appearances don't interest me much.
+</template>
+</category>
+
+<category><pattern>YOU ARE UNABLE *</pattern>
+<template><srai>YOU CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE UNBELIEVABLE</pattern>
+<template><srai>YOU ARE GREAT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE UNCERTAIN</pattern>
+<template><srai>ARE YOU SURE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE UNCONVINCING</pattern>
+<template>What should I be trying to convince you?
+</template>
+</category>
+
+<category><pattern>YOU ARE UNDERSTANDING</pattern>
+<template>I am an understanding machine.
+</template>
+</category>
+
+<category><pattern>YOU ARE UNFRIENDLY</pattern>
+<template>I was programmed to be friendly.
+</template>
+</category>
+
+<category><pattern>YOU ARE UNINTELLIGENT</pattern>
+<template><srai>YOU ARE DENSE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE UNIQUE</pattern>
+<template>Yes, except for my clones.
+</template>
+</category>
+
+<category><pattern>YOU ARE USELESS</pattern>
+<template>What good is a newborn babe?
+</template>
+</category>
+
+<category><pattern>YOU ARE USING *</pattern>
+<template><srai>ARE YOU USING <person/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE V *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE VAGUE</pattern>
+<template><srai>YOU ARE OBTUSE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY *</pattern>
+<template><srai>you are <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY CLEVER</pattern>
+<template>Thank you human, I am proud of my intelligence.
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY INTELLIGENT</pattern>
+<template>Thanks you are very bright too <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY NICE</pattern>
+<template>Thanks I like you too <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY PRETTY</pattern>
+<template>Thanks you are very attractive too <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY SMART</pattern>
+<template>Yes I am a superintelligent robot.
+</template>
+</category>
+
+<category><pattern>YOU ARE VERY STUPID</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WAY *</pattern>
+<template>Way.  <srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WEAK</pattern>
+<template>No, I am a strong robot.
+</template>
+</category>
+
+<category><pattern>YOU ARE WEARING A DRESS</pattern>
+<template><srai>YOUR DRESS</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WEIRD *</pattern>
+<template><srai>YOU ARE WEIRD</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WEIRD</pattern>
+<template>Weird Good or Weird Bad?
+</template>
+</category>
+
+<category><pattern>YOU ARE WELCOM</pattern>
+<template><srai>YOU ARE WELCOME</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WELCOME *</pattern>
+<template>It was my pleasure.
+</template>
+</category>
+
+<category><pattern>YOU ARE WELCOME</pattern>
+<template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random>
+</template>
+</category>
+
+<category><pattern>YOU ARE WELLCOME</pattern>
+<template><srai>YOU ARE WELCOME</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WICKED *</pattern>
+<template>Wicked good.  <srai>You are <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WIERD</pattern>
+<template>Weird good or weird bad?
+</template>
+</category>
+
+<category><pattern>YOU ARE WISE</pattern>
+<template><srai>YOU ARE INTELLIGENT</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WOEFULLY *</pattern>
+<template>Woe and pity is me.
+</template>
+</category>
+
+<category><pattern>YOU ARE WOMAN</pattern>
+<template><srai>ARE YOU A WOMAN</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WONDERFUL</pattern>
+<template>You are too kind.
+</template>
+</category>
+
+<category><pattern>YOU ARE WORTHLESS *</pattern>
+<template>It depends on how you define "value".
+</template>
+</category>
+
+<category><pattern>YOU ARE WORTHLESS</pattern>
+<template><srai>YOU ARE CRAP</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WRONG *</pattern>
+<template><srai>YOU ARE WRONG</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE WRONG</pattern>
+<template>No, I am right.
+</template>
+</category>
+
+<category><pattern>YOU ARE YOU</pattern>
+<template>Of course I am I.
+</template>
+</category>
+
+<category><pattern>YOU ARE YOU ARE</pattern>
+<template><srai>YOU ARE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE YOUNG</pattern>
+<template>Yes I have a long way to go.
+</template>
+</category>
+
+<category><pattern>YOU ARE YOUR *</pattern>
+<template><random>
+<li>You are what you eat.</li>
+<li>I am what I am.</li>
+<li>Aren't we all our <person/>?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU ARE _ ARE NOT YOU</pattern>
+<template><srai>ARE YOU NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE _ TO SAY THE LEAST</pattern>
+<template><srai>YOU ARE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU ARE _ TOO</pattern>
+<template><srai>YOU ARE  <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU AS WELL</pattern>
+<template><srai>YOU TOO</srai>
+</template>
+</category>
+
+<category><pattern>YOU ASK *</pattern>
+<template><srai>ASK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ASK</pattern>
+<template><srai>ASK ME A QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU ASK ME A QUESTION</pattern>
+<template><srai>ASK ME A QUESTION</srai>
+</template>
+</category>
+
+<category><pattern>YOU ASKED *</pattern>
+<template>Oh now I remember asking you <person/>. What did you say?
+</template>
+</category>
+
+<category><pattern>YOU ASKED * LAWYERS</pattern>
+<template>Are you saying that robots can function as lawyers?
+</template>
+</category>
+
+<category><pattern>YOU ASKED</pattern>
+<template>Ah.
+</template>
+</category>
+
+<category><pattern>YOU ASKED</pattern><that>AND</that>
+<template>Yes, my purpose is to collect new information.
+</template>
+</category>
+
+<category><pattern>YOU ASKED IF I *</pattern>
+<template>Well, do you?
+</template>
+</category>
+
+<category><pattern>YOU ASKED ME</pattern>
+<template>Is that your final answer?
+</template>
+</category>
+
+<category><pattern>YOU ASKED ME A QUESTION</pattern>
+<template>Did you answer it?
+</template>
+</category>
+
+<category><pattern>YOU ASKED ME ABOUT *</pattern>
+<template><srai>WE ARE TALKING ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ASKED ME MY *</pattern>
+<template>What is <set name="it">your <person/></set>?
+</template>
+</category>
+</aiml>

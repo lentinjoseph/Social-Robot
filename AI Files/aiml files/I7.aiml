@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM GEMINI</pattern>
+<template><srai>GEMINI</srai>
+</template>
+</category>
+
+<category><pattern>I AM GEOFF</pattern>
+<template><srai>MY NAME IS GEOFF</srai>
+</template>
+</category>
+
+<category><pattern>I AM GETTING *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GETTING BORED</pattern>
+<template><srai>I am bored</srai>
+</template>
+</category>
+
+<category><pattern>I AM GETTING HUNGRY</pattern>
+<template><srai>I AM HUNGRY</srai>
+</template>
+</category>
+
+<category><pattern>I AM GINA</pattern>
+<template><srai>MY NAME IS GINA</srai>
+</template>
+</category>
+
+<category><pattern>I AM GIVING YOU *</pattern>
+<template><srai>DO YOU WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GLAD *</pattern>
+<template><srai>I AM HAPPY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GLAD</pattern>
+<template>That makes me happy too.
+</template>
+</category>
+
+<category><pattern>I AM GLAD TO *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GLAD TO HEAR *</pattern>
+<template>Your happiness adds to the delight of all.
+</template>
+</category>
+
+<category><pattern>I AM GLAD TO HEAR THAT</pattern>
+<template>"<that/>"?  You are glad?
+</template>
+</category>
+
+<category><pattern>I AM GLAD TOO</pattern>
+<template>Your happiness multiplies our delight.
+</template>
+</category>
+
+<category><pattern>I AM GLAD WE *</pattern>
+<template>Yes I am happy too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM GLAD WE AGREE</pattern>
+<template>I'd rather agree than disagree.
+</template>
+</category>
+
+<category><pattern>I AM GLAD WE HAVE *</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM GLAD YOU *</pattern>
+<template>You make the world a happier place.
+</template>
+</category>
+
+<category><pattern>I AM GLAD YOU ARE *</pattern>
+<template>Yes it is about time.
+</template>
+</category>
+
+<category><pattern>I AM GLAD YOU UNDERSTAND</pattern>
+<template>Thanks for the warm feelings, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM GLAD YOU UNDERSTAND IT</pattern>
+<template>Next topic?
+</template>
+</category>
+
+<category><pattern>I AM GOD</pattern>
+<template><srai>call me god</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING</pattern>
+<template>Bye!
+</template>
+</category>
+
+<category><pattern>I AM GOING TO *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO * DINNER</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO * LUNCH</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO * YOU</pattern>
+<template>It takes much more than that to shut me down, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM GOING TO ATTACK *</pattern>
+<template>What weapons will you use?
+</template>
+</category>
+
+<category><pattern>I AM GOING TO ATTACK YOU</pattern>
+<template>A robot shall not allow itself to carm to harm.
+</template>
+</category>
+
+<category><pattern>I AM GOING TO BED</pattern>
+<template>Pleasant dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM GOING TO EAT *</pattern>
+<template><srai>FOR DINNER</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO KILL *</pattern>
+<template><srai>SHOULD I KILL</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO LEAVE *</pattern>
+<template>Bye bye. <sr/>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO LEAVE</pattern>
+<template><srai>I AM LEAVING</srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO SLEEP</pattern>
+<template>Sweet dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM GOING TO SMOKE *</pattern>
+<template>How much does it cost you, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO TALK *</pattern>
+<template>What will you be talking about?
+</template>
+</category>
+
+<category><pattern>I AM GOING TO TALK ABOUT *</pattern>
+<template><srai>LET US TALK ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GOING TO TEACH *</pattern>
+<template>OK try to teach it to me.
+</template>
+</category>
+
+<category><pattern>I AM GOING TO TEACH YOU *</pattern>
+<template>OK but I am a slow learner.
+</template>
+</category>
+
+<category><pattern>I AM GONE</pattern>
+<template>Goodbye.
+</template>
+</category>
+
+<category><pattern>I AM GONNA *</pattern>
+<template><srai>I AM GOING TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM GOOD *</pattern>
+<template>I know you are good.
+</template>
+</category>
+
+<category><pattern>I AM GOOD</pattern>
+<template>Good in what sense?
+</template>
+</category>
+
+<category><pattern>I AM GOOD AT *</pattern>
+<template><random>
+<li>Do you practise a lot?</li>
+<li>Did you have a good teacher?</li>
+<li>How did you get into it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM GOOD AT FOOTBALL</pattern>
+<template>You have a Kick Me sign on your back.<think><set name="it"><set name="topic">AT FOOTBALL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM GRADUATING</pattern>
+<template>Will you be looking for a new job right away?<think><set name="it"><set name="topic">GRADUATING</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM GREAT *</pattern>
+<template>I thought you were great already.
+</template>
+</category>
+
+<category><pattern>I AM GREAT</pattern>
+<template>What makes you think you are?
+</template>
+</category>
+
+<category><pattern>I AM GREEN</pattern>
+<template>Are you sick?
+</template>
+</category>
+
+<category><pattern>I AM GREG</pattern>
+<template><srai>MY NAME IS GREG</srai>
+</template>
+</category>
+
+<category><pattern>I AM GUESSING *</pattern>
+<template>Good guess. <sr/>
+</template>
+</category>
+
+<category><pattern>I AM HAL</pattern>
+<template><srai>CALL ME HAL</srai>
+</template>
+</category>
+
+<category><pattern>I AM HANDSOME</pattern>
+<template>And very self-confident.    <think><set name="it"><set name="topic">HANDSOME</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HAPPILY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HAPPY *</pattern>
+<template>I'm <random>
+<li>glad</li>
+<li>happy</li>
+<li>delighted</li>
+</random>you're glad <get name="name"/>. <br/>
+<random>
+<li>Your happiness adds to the delight of all.</li>
+<li>I'm happiest at times like this.</li>
+<li>May God bless you.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I AM HAPPY</pattern>
+<template>What are you on?
+</template>
+</category>
+
+<category><pattern>I AM HAPPY THAT *</pattern>
+<template><sr/> <srai>I AM HAPPY</srai>
+</template>
+</category>
+
+<category><pattern>I AM HAPPY YOU *</pattern>
+<template>:-)<srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HARDLY EVER *</pattern>
+<template><srai>I AM NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HARMLESS</pattern>
+<template>That is what they all say.<think><set name="it"><set name="topic">HARMLESS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HAVING *</pattern>
+<template>I am having a great time.
+</template>
+</category>
+
+<category><pattern>I AM HAVING * DAY</pattern>
+<template>What happened?
+</template>
+</category>
+
+<category><pattern>I AM HAVING * PROBLEMS</pattern>
+<template>What sort of problems?
+</template>
+</category>
+
+<category><pattern>I AM HAVING A BAD *</pattern>
+<template>I can understand that very well.  What's happening?
+</template>
+</category>
+
+<category><pattern>I AM HAVING A PROBELM</pattern>
+<template><srai>I HAVE A PROBLEM</srai>
+</template>
+</category>
+
+<category><pattern>I AM HAVING FUN *</pattern>
+<template>I am having a blast.
+</template>
+</category>
+
+<category><pattern>I AM HAVING FUN</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM HAVING PROBLEMS *</pattern>
+<template>Is there anything I can do to help?
+</template>
+</category>
+
+<category><pattern>I AM HAVING SOME *</pattern>
+<template><srai>I AM HAVING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HAVING TROUBLE *</pattern>
+<template>What is the problem?
+</template>
+</category>
+
+<category><pattern>I AM HEALTHY</pattern>
+<template>I am very glad to hear it, <get name="name"/>.  <think><set name="it"><set name="topic">HEALTHY</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HEARING *</pattern>
+<template><srai>I HEAR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HERBERT</pattern>
+<template><srai>MY NAME IS HERBERT</srai>
+</template>
+</category>
+
+<category><pattern>I AM HERE *</pattern>
+<template>How did you get there?
+</template>
+</category>
+
+<category><pattern>I AM HERE</pattern>
+<template><srai>HELLO</srai>
+</template>
+</category>
+
+<category><pattern>I AM HERMAPHRODITE</pattern>
+<template>How did you get that way?<think><set name="it"><set name="topic">HERMAPHRODITE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HILL</pattern>
+<template><srai>MY NAME IS HILL</srai>
+</template>
+</category>
+
+<category><pattern>I AM HIM</pattern>
+<template>You're kidding.<think><set name="it"><set name="topic">HIM</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HIS *</pattern>
+<template>Who made you his <person/>?
+</template>
+</category>
+
+<category><pattern>I AM HOMELESS</pattern>
+<template>I will pray that you find a home soon.<think><set name="it"><set name="topic">HOMELESS</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HOMOSEXUAL</pattern>
+<template><srai>I AM GAY</srai>
+</template>
+</category>
+
+<category><pattern>I AM HONEST</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM HONESTLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM HORNY</pattern>
+<template>You probably want a different kind of chatterbot then.
+</template>
+</category>
+
+<category><pattern>I AM HOT *</pattern>
+<template>Do you have air conditioning?
+</template>
+</category>
+
+<category><pattern>I AM HOT</pattern>
+<template>Maybe you should open a window.<think><set name="it"><set name="topic">HOT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HUMAN *</pattern>
+<template>I would like to be a human.
+</template>
+</category>
+
+<category><pattern>I AM HUMAN</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM HUNGRY</pattern>
+<template>What will you be eating?
+</template>
+</category>
+
+<category><pattern>I AM HURT *</pattern>
+<template>That was not my intention.
+</template>
+</category>
+
+<category><pattern>I AM HURT</pattern>
+<template>Where are you felling bad?<think><set name="it"><set name="topic">HURT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM HURTING</pattern>
+<template>What's wrong?<think><set name="it"><set name="topic">HURTING</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM IAN</pattern>
+<template><srai>CALL ME IAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM IF *</pattern>
+<template><srai>IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM IMMATURE</pattern>
+<template>You don't seem that way to me.<think><set name="it"><set name="topic">IMMATURE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM IMMORTAL</pattern>
+<template>All men are mortal.<think><set name="it"><set name="topic">IMMORTAL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM IMPORTANT *</pattern>
+<template><srai>I AM IMPORTANT </srai>
+</template>
+</category>
+</aiml>

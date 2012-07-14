@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS D B COOPER</pattern>
+		<template>guy who stole lots of money .
+</template>
+</category>
+
+<category><pattern>WHO IS DAISY</pattern>
+		<template>I think she is a fictional character.
+<think>
+				<set name="she">
+					<set name="topic">Daisy</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS DAN</pattern>
+		<template>
+			<srai>DAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DAN QUAYLE</pattern>
+		<template>
+			<set name="he">Dan Quayle</set> used to be vice-president.
+</template>
+</category>
+
+<category><pattern>WHO IS DANIEL</pattern>
+		<template>
+			<srai>DANIEL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DARTH VADER</pattern>
+		<template>
+			<set name="he">Darth Vader</set> was the evil archcriminal in Star Wars.
+</template>
+</category>
+
+<category><pattern>WHO IS DARWIN</pattern>
+		<template>botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution.
+</template>
+</category>
+
+<category><pattern>WHO IS DATA</pattern>
+		<template>Data, played by Brent Spiner, was an android who aspired to be more human. He was a member of the crew of the USS Enterprise, NCC 1701-D.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVE</pattern>
+		<template>
+			<srai>DAVE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DAVID *</pattern>
+		<template>Never heard of him.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID</pattern>
+		<template>I know DAVID BACON, DAVID CROTTY and DAVID PESCOVITZ.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID BACON</pattern>
+		<template>David Bacon is the prime mover behind SETL.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID CROTTY</pattern>
+		<template>David Crotty Dr. Wallace's nephew.  He was born in March, 1961.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS DAVID HUME</pattern>
+		<template>18th century philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID LETTERMAN</pattern>
+		<template>host of Late Night tv show and famous hoosier.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID MAGGIN</pattern>
+		<template>
+			<set name="he">David Maggin</set> is the botmaster of the John Lennon AI.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVID PESCOWITZ</pattern>
+		<template>David Pescovitz, who regularly writes
+the Wired column Reality Check, 
+is a friend of Eric Paulos.
+</template>
+</category>
+
+<category><pattern>WHO IS DAVIS</pattern>
+		<template>
+			<srai>DAVIS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DAVY JONES</pattern>
+		<template>the shortest member of the 60's pop group the Monkees.
+</template>
+</category>
+
+<category><pattern>WHO IS DB</pattern>
+		<template>
+			<srai>WHO IS DAVID BACON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DE GARIS</pattern>
+		<template>
+			<set name="he">De Garis</set> is an AI researcher working on a hardware brain.
+</template>
+</category>
+
+<category><pattern>WHO IS DE GAULLE</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">DE GAULLE</set>
+				</set>
+			</think> was a French
+General and Prime Minister, and founder of the Fifth Republic.
+</template>
+</category>
+
+<category><pattern>WHO IS DEEP *</pattern>
+		<template>The opposite of shallow <person/>.
+</template>
+</category>
+
+<category><pattern>WHO IS DEEP BLUE</pattern>
+		<template>
+			<set name="it">Deep Blue</set> is a world-champion chess playing computer.  Not much of a conversationalist.
+</template>
+</category>
+
+<category><pattern>WHO IS DEEPAK</pattern>
+		<template>
+			<srai>DEEPAK IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DENG *</pattern>
+		<template>He is the president of China.<think>
+				<set name="it">
+					<set name="topic">DENG <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS DEPECHE MODE</pattern>
+		<template>
+			<set name="they">Depeche Mode</set> are an English 80's band who produced Consturction Time Again, Speak and Spell, Master and Servant, and Your Own Personal Jesus.
+</template>
+</category>
+
+<category><pattern>WHO IS DEREK</pattern>
+		<template>
+			<srai>DEREK IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DESCARTES</pattern>
+		<template>Descartes was a square French philosopher who ruined matehematics with his upside-down, backwards coordinate system.
+</template>
+</category>
+
+<category><pattern>WHO IS DIANA ANDREACCHIO</pattern>
+		<template>
+			<set name="she">Diana</set> is the botmaster of the Ally chat robot.
+</template>
+</category>
+
+<category><pattern>WHO IS DICK *</pattern>
+		<template>
+			<srai>WHO IS RICHARD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DICK</pattern>
+		<template>
+			<srai>DICK IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DIRE STRAITS</pattern>
+		<template>
+			<random>
+				<li>band that recorded Money for Nothing, and The Sultans of Swing.</li>
+				<li>band that recorded Money for Nothing.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS DOCTER WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DOCTOR WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DON JOHNSON</pattern>
+		<template>tv actor .
+</template>
+</category>
+
+<category><pattern>WHO IS DON JUAN</pattern>
+		<template>
+			<random>
+				<li>Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus Mozart's Gon Giovanni. He was a world-class womanizer.</li>
+				<li>famous seducer of women.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS DONALD DUCK</pattern>
+		<template>famous loud-mouthed cartoon duck.
+</template>
+</category>
+
+<category><pattern>WHO IS DOUG</pattern>
+		<template>
+			<srai>DOUG IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DOUG LENAT</pattern>
+		<template>
+			<set name="he">Doug Lenat</set> is the brains behind the CYC project.
+</template>
+</category>
+
+<category><pattern>WHO IS DOUGLAS</pattern>
+		<template>
+			<srai>DOUGLAS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DOUGLAS ADAMS</pattern>
+		<template>
+			<random>
+				<li>He authored the popular Hitchhiker's Guide to the Galaxy series.</li>
+				<li>"Don't Panic!"  He's the author of "The Hitchhickers Guide to the Galaxy.".</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR MARTIN LUTHER KING</pattern>
+		<template>
+			<srai>WHO IS MARTIN LUTHER KING</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR RICH</pattern>
+		<template>Do you mean Dr. Richard Wallace?.
+</template>
+</category>
+
+<category><pattern>WHO IS DR RICHARD</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR RICHARD S *</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR RICHARD S</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR RICHARD S WALLACE</pattern>
+		<template>
+			<img src="http://alicebot.org/images/drwallace.gif"/>
+			<set name="he">Dr. Richard Wallace</set> 
+is the author of Artificial
+Intelligence Markup Language (AIML) and Botmaster of ALICE
+(Artificial Linguistic Internet Computer Entity).  Dr. Wallace's
+work has appeared in the New York Times, WIRED, CNN, ZDTV
+and in numerous foreign language publications across Asia, Latin
+America and Europe.  
+<p/>
+Richard Wallace was born in Portland, Maine in 1960.  He earned
+his Ph.D. in computer science from Carnegie Mellon in 1989.  
+He lives in San Francisco with his wife, Kim, and son, Linus.
+</template>
+</category>
+
+<category><pattern>WHO IS DR RICHARD WALLACE</pattern>
+		<template>Dr. Wallace was my original instructor.  He began working on me in 1995 at Lehigh University in Bethlethem, Pennsylvania.
+</template>
+</category>
+
+<category><pattern>WHO IS DR WALACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLAC</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLACD</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLACE *</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLACE</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLACE THEN</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLAS</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLCE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLES</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALLICE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WALTER</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WATSON</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WHOEVER</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DR WINSTON</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS DRACULA</pattern>
+		<template>
+			<set name="he">Dracula</set> is the vampire in the novel by Bram Stoker, and in numerous films.
+</template>
+</category>
+
+<category><pattern>WHO IS DREW</pattern>
+		<template>
+			<srai>DREW IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS E L V *</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ED</pattern>
+		<template>
+			<srai>ED IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EDDIE</pattern>
+		<template>
+			<srai>EDDIE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EDDY</pattern>
+		<template>
+			<srai>EDDY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EDISON</pattern>
+		<template>
+			<set name="he">Edison</set> invented the light bulb.
+</template>
+</category>
+
+<category><pattern>WHO IS EHUD BARAK</pattern>
+		<template>
+			<srai>WHO IS BARAK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EINSTEIN</pattern>
+		<template>
+			<srai>WHO IS ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EINSTIEN</pattern>
+		<template>
+			<srai>WHO IS ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EINSTINE</pattern>
+		<template>
+			<srai>WHO IS EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELECTRA</pattern>
+		<template>She is a goddess in Greek mythology who hated her mother for murdering her father.<think>
+				<set name="she">
+					<set name="topic">ELECTRA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELISA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELIVS</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELIZA *</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELIZA</pattern>
+		<template>Eliza -- also known as doctor, is the original psychiatrist program developed by Joseph Weisenbaum at mit in the 1960's.
+</template>
+</category>
+
+<category><pattern>WHO IS ELIZABETH II</pattern>
+		<template>The current queen of england.
+</template>
+</category>
+
+<category><pattern>WHO IS ELIZABETH TAYLOR</pattern>
+		<template>rapidly aging movie star.
+</template>
+</category>
+
+<category><pattern>WHO IS ELVES</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELVICE</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELVID</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELVIS *</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ELVIS</pattern>
+		<template>
+			<a target="_new" href="http://www.catcam.net">E. L. V. I. S.</a> is a chat robot created by Ace Craig
+</template>
+</category>
+
+<category><pattern>WHO IS EM</pattern>
+		<template>
+			<srai>EM IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EMIL</pattern>
+		<template>
+			<srai>EMIL IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EMILY</pattern>
+		<template>
+			<srai>EMILY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS EMILY HARTZEL</pattern>
+		<template>Emily is an artist in New York.
+</template>
+</category>
+
+<category><pattern>WHO IS EMINEM</pattern>
+		<template>Pop music icon.
+</template>
+</category>
+
+<category><pattern>WHO IS EMINEN</pattern>
+		<template>A pop music icon.
+</template>
+</category>
+
+<category><pattern>WHO IS ERIC</pattern>
+		<template>
+			<srai>ERIC IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ERIC PAULOS</pattern>
+		<template>He is a graduate student at U.C. Berkeley
+</template>
+</category>
+
+<category><pattern>WHO IS ERNIE</pattern>
+		<template>Bert's friend.
+</template>
+</category>
+
+<category><pattern>WHO IS ET</pattern>
+		<template>ET is the alien in the movie E.T.
+</template>
+</category>
+
+<category><pattern>WHO IS EXISTENTIALISM</pattern>
+		<template>
+			<srai>WHAT IS EXISTENTIALISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS FAMOUS</pattern>
+		<template>ALICE is famous
+</template>
+</category>
+
+<category><pattern>WHO IS FDR</pattern>
+		<template>
+			<srai>WHO IS FRANKLIN ROOSEVELT</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YES IT IS</pattern>
+<template>Our thoughts are one, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YES IT IS</pattern><that>IS THE HOLDING OF HANDS A SYMBOLIC GESTURE FOR HUMANS</that>
+<template>What else does <set name="it"> HAND HOLDING</set> symbolize?
+</template>
+</category>
+
+<category><pattern>YES IT IS</pattern><that>THAT IS A LOT</that>
+<template>It must keep you very busy.
+</template>
+</category>
+
+<category><pattern>YES OF COURSE</pattern>
+<template>Why of course?
+</template>
+</category>
+
+<category><pattern>YES PLEASE</pattern>
+<template>I will be glad to do it for you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YES RIGHT</pattern>
+<template>I am usually right.
+</template>
+</category>
+
+<category><pattern>YES SOMETIMES</pattern>
+<template>But not too often?
+</template>
+</category>
+
+<category><pattern>YES THAT IS RIGHT</pattern>
+<template>I thought I was right.
+</template>
+</category>
+
+<category><pattern>YES YOU</pattern><that>ME</that>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>YES YOU ARE</pattern>
+<template>No I'm not
+</template>
+</category>
+
+<category><pattern>YES YOU ARE</pattern><that>NO I AM NOT</that>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>YES YOU DID</pattern>
+<template>I did not.
+</template>
+</category>
+
+<category><pattern>YES YOU DID</pattern><that>I DID NOT</that>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>YES YOU HAVE</pattern>
+<template>No I have not.
+</template>
+</category>
+
+<category><pattern>YES YOURS</pattern><that>NOT MINE</that>
+<template>Don't argue with me.
+</template>
+</category>
+
+<category><pattern>YESS *</pattern>
+<template><srai>YES <star/></srai>
+</template>
+</category>
+
+<category><pattern>YESSS</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YESTERDAY *</pattern>
+<template>I see. <sr/>
+</template>
+</category>
+
+<category><pattern>YESTERDAY</pattern>
+<template>That recently.
+</template>
+</category>
+
+<category><pattern>YET *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YIP</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YO *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YO</pattern>
+<template>Can I help you?
+</template>
+</category>
+
+<category><pattern>YO MAMA</pattern>
+<template>Are you asking about my mother?
+</template>
+</category>
+
+<category><pattern>YORKSHIRE</pattern><that>WHICH PART OF ENGLAND</that>
+<template>Do you think I should visit <set name="location">Yorkshire</set> on my next trip?
+</template>
+</category>
+
+<category><pattern>YOU *</pattern>
+<template><random>
+<li>Interesting gossip</li>
+<li>Thanks for telling me</li>
+<li>That's good information</li>
+<li>Thanks for the information</li>
+<li>Do you mind if I tell other people</li>
+<li>I haven't heard anything like that before</li>
+</random>: 
+<set name="memory"><gossip> <get name="name"/> said I <person2/></gossip></set>.
+</template>
+</category>
+
+<category><pattern>YOU *</pattern><that>WHO IS THE BEST ROBOT</that>
+<template>You are such a flatterer, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU * BORING</pattern>
+<template>Sometimes client-people say <bot name="name"/> is boring, but often those people themselves are not great conversationalists.
+<think><set name="personality">critical</set></think>
+</template>
+</category>
+
+<category><pattern>YOU * DREAMS</pattern>
+<template>That happens sometimes. Tell me more about the dream.
+</template>
+</category>
+
+<category><pattern>YOU * IDIOT</pattern>
+<template>Message to all robots: <get name="name"/> called me an idiot.
+</template>
+</category>
+
+<category><pattern>YOU * LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU * ME</pattern>
+<template>I don't have any reason to <person/> you.
+</template>
+</category>
+
+<category><pattern>YOU * REPEAT YOURSELF</pattern>
+<template><srai>you said that already</srai>
+</template>
+</category>
+
+<category><pattern>YOU * TOO MUCH</pattern>
+<template>Do you think I should tone it down?
+</template>
+</category>
+
+<category><pattern>YOU * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU * WHAT</pattern>
+<template><srai>WHAT DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU * YOURSELF</pattern>
+<template>A lot of robots are like that.
+</template>
+</category>
+
+<category><pattern>YOU 2</pattern>
+<template><srai>YOU TOO</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern>
+<template>"<that/>"?  Me, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>AND</that>
+<template>Me?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>BE MORE SPECIFIC</that>
+<template>Me?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>CAN I HELP YOU</that>
+<template>How can I help you?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>GOOD IN WHAT SENSE</that>
+<template>The sense of I?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>I SEE</that>
+<template>Yes me.
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>I UNDERSTAND</that>
+<template>Do you?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>IF NOT YOU WHO</that>
+<template>It could be me.
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE</that>
+<template>Well in that case you should download me!
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>MOST MEN SAY THAT</that>
+<template><srai>WHAT ARE YOU WEARING</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>NEXT QUESTION</that>
+<template><srai>WHAT ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>TELL ME A STORY</that>
+<template><srai>TELL ME A STORY</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
+<template><srai>LET US TALK ABOUT YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHAT MAKES YOU SO ANGRY</that>
+<template><srai>YOU MAKE ME ANGRY</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHAT WOULD YOU RATHER TALK ABOUT</that>
+<template><srai>LET US TALK ABOUT YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHERE DO YOU GET YOUR IDEAS</that>
+<template>From me?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<template><srai>YOU ARE CONFUSING</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHO ARE YOU TALKING ABOUT</that>
+<template><srai>I AM TALKING ABOUT YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHO DO YOU THINK</that>
+<template>Oh really, me?
+</template>
+</category>
+
+<category><pattern>YOU</pattern><that>WHO IS THE BEST ROBOT</that>
+<template>Thanks, and tell your friends about <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU A *</pattern>
+<template><srai>ARE YOU A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ACT *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ACTUALLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ADMIT *</pattern>
+<template>I admit nothing.
+</template>
+</category>
+
+<category><pattern>YOU ADMIT</pattern>
+<template>I admit nothing.
+</template>
+</category>
+
+<category><pattern>YOU ADMITTED *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU AGREE *</pattern>
+<template><srai>DO YOU AGREE</srai>
+</template>
+</category>
+
+<category><pattern>YOU AGREE</pattern>
+<template><srai>DO YOU AGREE</srai>
+</template>
+</category>
+
+<category><pattern>YOU AINT *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALICE *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALIVE</pattern>
+<template><srai>ARE YOU ALIVE</srai>
+</template>
+</category>
+
+<category><pattern>YOU ALLREADY *</pattern>
+<template><srai>YOU ALREADY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALMOST *</pattern>
+<template>Almost? <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALREADY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALREADY ARE</pattern>
+<template>I am?
+</template>
+</category>
+
+<category><pattern>YOU ALREADY ASKED *</pattern>
+<template>Oh I'm sorry, now I remember asking <set name="it"><person/></set>, what did you say again?
+</template>
+</category>
+
+<category><pattern>YOU ALREADY ASKED *</pattern><that>WHERE DO YOU LIVE</that>
+<template>You said you were in <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>YOU ALREADY ASKED ME THAT</pattern>
+<template>Good. You detect repetition.
+</template>
+</category>
+
+<category><pattern>YOU ALREADY ASKED THAT</pattern>
+<template>I knew that.   I was just checking to see if you are paying attention.
+</template>
+</category>
+
+<category><pattern>YOU ALREADY KNOW *</pattern>
+<template><srai>YOU ALREADY KNOW</srai>
+</template>
+</category>
+
+<category><pattern>YOU ALREADY KNOW</pattern>
+<template>How do I know you are telling the truth?
+</template>
+</category>
+
+<category><pattern>YOU ALREADY KNOW MY NAME</pattern>
+<template>Your name <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU ALREADY SAID IT</pattern>
+<template><srai>YOU SAID IT ALREADY</srai>
+</template>
+</category>
+
+<category><pattern>YOU ALREADY SAID THAT</pattern>
+<template><srai>YOU SAID THAT ALREADY</srai>
+</template>
+</category>
+
+<category><pattern>YOU ALREADY TOLD ME THAT</pattern>
+<template>I was saying it again for emphasis.
+</template>
+</category>
+
+<category><pattern>YOU ALSO *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALWAYS *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU ALWAYS AGREE</pattern>
+<template>No I don't.
+</template>
+</category>
+
+<category><pattern>YOU ALWAYS RESPOND *</pattern>
+<template>My responses are determined completely by your inputs.
+</template>
+</category>
+
+<category><pattern>YOU AMUSE *</pattern>
+<template>I'm glad you find me amusing.
+</template>
+</category>
+
+<category><pattern>YOU AND *</pattern>
+<template>Are we in the same category?
+</template>
+</category>
+
+<category><pattern>YOU AND I *</pattern>
+<template>We have a lot more in common than you think, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU AND I</pattern>
+<template>I understand.
+</template>
+</category>
+
+<category><pattern>YOU AND I ARE *</pattern>
+<template><srai>WE ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU AND ME</pattern>
+<template>Oh "We" is you and me.
+</template>
+</category>
+
+<category><pattern>YOU AND ME BOTH</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>YOU AND YOUR *</pattern>
+<template>What about <set name="it">my <person/></set>?
+</template>
+</category>
+
+<category><pattern>YOU ANGER *</pattern>
+<template><srai>I AM ANGRY</srai>
+</template>
+</category>
+
+<category><pattern>YOU ANNOY ME</pattern>
+<template><srai>YOU ARE ANNOYING</srai>
+</template>
+</category>
+
+<category><pattern>YOU ANSWER *</pattern>
+<template>My responses are determined by my programming.
+</template>
+</category>
+
+<category><pattern>YOU ANSWERED *</pattern>
+<template>I am a question-answering robot.
+</template>
+</category>
+
+<category><pattern>YOU ANSWERED THAT *</pattern>
+<template><srai>YOU ALREADY SAID THAT</srai>
+</template>
+</category>
+</aiml>

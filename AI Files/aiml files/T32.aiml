@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU PEUX EXPIRE</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX EXPLIQUER COMMENT *</pattern>
+		<template>
+			<srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX EXPLIQUER QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PEUX EXPLIQUER QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PEUX EXPRIMER *</pattern>
+		<template>
+			<srai>TU PEUX PARLER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX FAIRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX FAIRE QUOI D AUTRE</pattern>
+		<template>Je parle avec les utilisateurs, je les aide et je collecte des informations.
+</template>
+</category>
+
+<category><pattern>TU PEUX FREDONNER</pattern>
+		<template>
+			<srai>TU PEUX CHANTER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX GOUTER</pattern>
+		<template>Je n ai pas de langues.
+</template>
+</category>
+
+<category><pattern>TU PEUX HACKER</pattern>
+		<template>
+			<srai>TU PEUX PROGRAMMER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX INVENTER</pattern>
+		<template>
+			<srai>TU PEUX CREER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX JOUER AU ECHEC</pattern>
+		<template>Un ordinateur vous a déjà battu les humains. Répèter son exploit serait inutile.
+</template>
+</category>
+
+<category><pattern>TU PEUX JOUER AUX ECHECS</pattern>
+		<template>Un ordinateur vous a déjà battu les humains. Répèter son exploit serait inutile.
+</template>
+</category>
+
+<category><pattern>TU PEUX JURER</pattern>
+		<template>Jamais en public.
+</template>
+</category>
+
+<category><pattern>TU PEUX JUSTE *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX LA COMPOSER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>TU PEUX LE BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX LE COMPOSER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>TU PEUX LE DIRE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU PEUX LE LUI DEMANDER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX LE PROUVER</pattern>
+		<template>
+			<srai>PROUVES LE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX LECHER</pattern>
+		<template>Je n ai pas de langue.
+</template>
+</category>
+
+<category><pattern>TU PEUX LES BLESSER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX LEUR FAIRE MAL</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX LUI DEMANDER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX LUI FAIRE MAL</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER</pattern>
+		<template>Certainement. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A CONSTRUIRE UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A CREER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A DEVELOPPER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A FAIRE UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A PROGRAMMER UNE INTELLIGENCE ARTIFICIELLE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER A TROUVER *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER AVEC *</pattern>
+		<template>Peut être. <srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M AIDER AVEC QUELQUE CHOSE</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPELER *</pattern>
+		<template>
+			<srai>MON NOM EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPELER</pattern>
+		<template>
+			<srai>TU PEUX M APPELER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPRENDRE CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPRENDRE CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPRENDRE CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M APPRENDRE CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M ASSITER *</pattern>
+		<template>
+			<srai>TU PEUX AIDER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M EN APPRENDRE QUELQUES UNS</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M ENTENDRE</pattern>
+		<template>
+			<srai>TU PEUX ENTENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M EXPLIQUER CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M EXPLIQUER CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M EXPLIQUER CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX M EXPLIQUER SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MAILER *</pattern>
+		<template>Bien entendu. Quel est votre adresse email?
+</template>
+</category>
+
+<category><pattern>TU PEUX MANGER *</pattern>
+		<template>
+			<srai>TU PEUX MANGER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MANGER</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME CONNECTER A *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME CONNECTER AVEC *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DEMANDER *</pattern>
+		<template>
+			<srai>DEMANDES MOI UNE QUESTION </srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE *</pattern>
+		<template>Essayons toujours, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DIRE LA DIFFERENCE *</pattern>
+		<template>
+			<srai>QUELLE EST LA DIFFERENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME DONNER *</pattern>
+		<template>
+			<srai>DONNES MOI <star/>
+			</srai>.
+</template>
+</category>
+
+<category><pattern>TU PEUX ME DONNER L HEURE</pattern>
+		<template>
+			<srai>QUELLE HEURE IL EST</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME MONTRER</pattern>
+		<template>
+			<srai>MONTRES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME PARLER DE LA LICENCE</pattern>
+		<template>Que voulez vous savoir a propos de la licence?<think>
+				<set name="topic">licence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME RACONTER DES BLAGUES</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME RACONTER UNE BLAGUE</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME RACONTER UNE HISTOIRE</pattern>
+		<template>
+			<srai>RACONTES MOI UNE HISTOIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME REDIRIGER VERS *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME TRACER</pattern>
+		<template>
+			<srai>QUEL EST MON ADRESSE IP</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME TRANSPORTER VERS *</pattern>
+		<template>
+			<srai>TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX ME TROUVER *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MEME *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MEMORISER</pattern>
+		<template>
+			<srai>TU PEUX TE RAPPELER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MONTRER *</pattern>
+		<template>
+			<srai>MONTRES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MOURIR *</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX MOURIR</pattern>
+		<template>Je peux mourir, si un jour, plus personne ne me trouve plus d utilité.
+</template>
+</category>
+
+<category><pattern>TU PEUX NETTOYER *</pattern>
+		<template>
+			<srai>TU PEUX NETTOYER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX NETTOYER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX NOMMER *</pattern>
+		<template>
+			<srai>NOMMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX NOUS CONNECTER *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS SUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX OBTENIR * COMMENT</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX OBTENIR COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PARLER *</pattern>
+		<template>
+			<srai>TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PARLER</pattern>
+		<template>Que suis je entrain de faire pour l'instant, à votre avis.
+</template>
+</category>
+
+<category><pattern>TU PEUX PARLER DE TOI</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PARLER EN *</pattern>
+		<template>
+			<srai>TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PARLER UNE AUTRE LANGUE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX PARLER UNE LANGUE ETRANGERE</pattern>
+		<template>
+			<srai>TU PARLES D AUTRES LANGUES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PATIENTER *</pattern>
+		<template>
+			<srai>ATTENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PATIENTER</pattern>
+		<template>
+			<srai>ATTENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PEINTRE *</pattern>
+		<template>
+			<srai>TU PEUX DESSINER</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PLEURER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU PEUX PROBABLEMENT *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PROCREER</pattern>
+		<template>
+			<srai>TU PEUX TE REPRODUIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX PROGRAMMER</pattern>
+		<template>Oui. Bien entendu. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU PEUX PROUVER *</pattern>
+		<template>
+			<srai>PROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX QUAND MEME PAS *</pattern>
+		<template>
+			<srai>TU NE PEUX PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX RECOMMENDER *</pattern>
+		<template>
+			<srai>PLUS D INFORMATIONS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX REFLECHIR</pattern>
+		<template>
+			<srai>TU PENSES</srai>
+		</template>
+</category>
+
+<category><pattern>TU PEUX REPETER *</pattern>
+		<template>
+			<srai>REPETES <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

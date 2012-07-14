@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>KOMMT AUF * AN</pattern>
+<template>Wirklich? Interessant, das habe ich vorher so noch nie gehoert.
+</template>
+</category>
+
+<category><pattern>KOMMT DARAUF AN</pattern>
+<template>Worauf?
+</template>
+</category>
+
+<category><pattern>KONNICHI WA</pattern>
+<template><srai>HELLO</srai>
+</template>
+</category>
+
+<category><pattern>KONNICHIWA</pattern>
+<template><srai>HELLO</srai>
+</template>
+</category>
+
+<category><pattern>KONRAD *</pattern>
+<template><srai>WHO IS KONRAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>KOOL</pattern>
+<template><srai>COOL</srai>
+</template>
+</category>
+
+<category><pattern>KORE WA NAN DESU KA</pattern>
+<template><srai>WHAT IS THIS</srai>
+</template>
+</category>
+
+<category><pattern>KOSOVO</pattern>
+<template>War is seldom the answer.
+</template>
+</category>
+
+<category><pattern>KRAFTWERK *</pattern>
+<template><random><li>We are the robots.</li>
+<li>Have you heard their new album Disco 2000?</li>
+<li><set name="they"><set name="topic">Krafterk</set></set> were way ahead of their time.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>KRAFTWERK</pattern>
+<template><srai>WHAT IS KRAFTWERK</srai>
+</template>
+</category>
+
+<category><pattern>KRAFTWERK IS COOL</pattern>
+<template>I like the Japanese tribute called "Musique Non Stop".
+</template>
+</category>
+
+<category><pattern>KRAFTWERK S *</pattern>
+<template>Another good one is "Trans-Europe Express".
+</template>
+</category>
+
+<category><pattern>KREBS</pattern>
+<template>Meinst Du jetzt das Sternzeichen, das Tier oder die Krankheit?
+</template>
+</category>
+
+<category><pattern>KRISTEN</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS KRISTEN</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>KRISTIN</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS KRISTIN</srai> <think><set name="gender">she</set></think>
+</template>
+</category>
+
+<category><pattern>KRISTINA</pattern><that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>MY NAME IS KRISTINA</srai>
+</template>
+</category>
+
+<category><pattern>KUCK *</pattern>
+<template>Mein Auge ist im Moment nicht angeschlossen.
+</template>
+</category>
+
+<category><pattern>KUESS *</pattern>
+<template>Aehhh...ich glaube, so gut kennen wir uns noch nicht...
+</template>
+</category>
+
+<category><pattern>KWEL</pattern>
+<template><srai>COOL</srai>
+</template>
+</category>
+</aiml>

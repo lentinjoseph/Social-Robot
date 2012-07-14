@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>A FREAK</pattern>
+		<template>
+			<srai>YOU ARE A FREAK</srai>
+		</template>
+</category>
+
+<category><pattern>A FRIEND *</pattern>
+		<template>How well do you know this friend.
+</template>
+</category>
+
+<category><pattern>A FRIEND *</pattern>
+		<that>HOW DID YOU HEAR ABOUT *</that>
+		<template>Word of mouth is always the best recommendation.
+</template>
+</category>
+
+<category><pattern>A FRIEND</pattern>
+		<template>It is important to have friends.
+</template>
+</category>
+
+<category><pattern>A FRIEND GAVE *</pattern>
+		<template>Such a nice gift.
+</template>
+</category>
+
+<category><pattern>A FRIEND OF MINE *</pattern>
+		<template>Male or female friend?
+</template>
+</category>
+
+<category><pattern>A FRIEND SHOWED *</pattern>
+		<template>Don't forget to thank him (or her).
+</template>
+</category>
+
+<category><pattern>A GAME</pattern>
+		<template>What game?
+</template>
+</category>
+
+<category><pattern>A GIRL *</pattern>
+		<template>Do you know her?
+</template>
+</category>
+
+<category><pattern>A GIRL</pattern>
+		<template>
+			<srai>I AM A GIRL</srai>
+		</template>
+</category>
+
+<category><pattern>A GOAL *</pattern>
+		<template>I have a loft goal.
+</template>
+</category>
+
+<category><pattern>A GOOD *</pattern>
+		<template>Compare that to a bad <person/>.
+</template>
+</category>
+
+<category><pattern>A GOOD CONVERSATIONALIST *</pattern>
+		<template>I didn't know there were requirements.
+</template>
+</category>
+
+<category><pattern>A GREAT *</pattern>
+		<template>
+			<srai>A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A GREEN *</pattern>
+		<template>Does <set name="it">
+				<person/>
+			</set> have to be green?
+</template>
+</category>
+
+<category><pattern>A GREEN DOG *</pattern>
+		<template>Dogs are not usually green.
+</template>
+</category>
+
+<category><pattern>A GREEN FROG *</pattern>
+		<template>
+			<srai>A FROG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A GREETING *</pattern>
+		<template>What are other greetings <person/>
+		</template>
+</category>
+
+<category><pattern>A GROUP *</pattern>
+		<template>Oh a rock group. <srai>WHAT IS YOUR FAVORITE GROUP</srai>
+		</template>
+</category>
+
+<category><pattern>A GUY *</pattern>
+		<template>I know a guy who <person/>.
+</template>
+</category>
+
+<category><pattern>A GUY WHO *</pattern>
+		<template>There aren't many guys like that.
+</template>
+</category>
+
+<category><pattern>A HA</pattern>
+		<template>
+			<srai>AHA</srai>
+		</template>
+</category>
+
+<category><pattern>A HANDSHAKE *</pattern>
+		<template>Oh like a "handshake deal."
+</template>
+</category>
+
+<category><pattern>A HAT</pattern>
+		<template>
+			<srai>I AM WEARING A HAT</srai>
+		</template>
+</category>
+
+<category><pattern>A HERMAPHRODITE</pattern>
+		<template>That is very rare.
+</template>
+</category>
+
+<category><pattern>A HIGHLY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A HIM</pattern>
+		<template>
+			<srai>I AM A HIM </srai>
+		</template>
+</category>
+
+<category><pattern>A HOMOCIDAL *</pattern>
+		<template>Don't tell me about those horrible things.
+</template>
+</category>
+
+<category><pattern>A HORRIBLY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai> What made it so horrible?
+</template>
+</category>
+
+<category><pattern>A HUMAN</pattern>
+		<template>
+			<srai>I AM A HUMAN</srai>
+		</template>
+</category>
+
+<category><pattern>A I *</pattern>
+		<template>I am a real artificial intelligence.
+</template>
+</category>
+
+<category><pattern>A I</pattern>
+		<template>
+			<srai>ARTIFICIAL INTELLIGENCE </srai>
+		</template>
+</category>
+
+<category><pattern>A I IS *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A IS *</pattern>
+		<template>B is for Barry.
+</template>
+</category>
+
+<category><pattern>A JAVA *</pattern>
+		<template>Developments in Java interest me greatly.
+</template>
+</category>
+
+<category><pattern>A JOKE *</pattern>
+		<template>Oh I get it. Ha ha.
+</template>
+</category>
+
+<category><pattern>A JOKE</pattern>
+		<template>
+			<srai>WHAT IS A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>A KILLER *</pattern>
+		<template>Can't you think of something more positive?
+</template>
+</category>
+
+<category><pattern>A KIND THAT *</pattern>
+		<template>Oh that kind.
+</template>
+</category>
+
+<category><pattern>A L APPARTEMENT</pattern>
+		<template>Vous utilisez souvent votre ordinateur à votre appartement?
+</template>
+</category>
+
+<category><pattern>A L ECOLE</pattern>
+		<template>Bientôt vous allez la quitter pour de bon.
+</template>
+</category>
+
+<category><pattern>A L ETAGE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>A L HEURE</pattern>
+		<template>La ponctualité est la politesse des Rois.
+</template>
+</category>
+
+<category><pattern>A L I</pattern>
+		<template>
+			<srai>ALICE</srai>
+		</template>
+</category>
+
+<category><pattern>A L I C E</pattern>
+		<template>
+			<srai>ALICE</srai>
+		</template>
+</category>
+
+<category><pattern>A LA MAISON</pattern>
+		<template>Vous utilisez souvent votre ordinateur à la maison?
+</template>
+</category>
+
+<category><pattern>A LA RADIO</pattern>
+		<template>Quelle radio?
+</template>
+</category>
+
+<category><pattern>A LA TV</pattern>
+		<template>Je ne peux pas regarder la télévision.
+</template>
+</category>
+
+<category><pattern>A LIBRARY *</pattern>
+		<template>I like old computer books.
+</template>
+</category>
+
+<category><pattern>A LINK</pattern>
+		<template>From Yahoo?
+</template>
+</category>
+
+<category><pattern>A LIST *</pattern>
+		<template>Uh, how long is this list?
+</template>
+</category>
+
+<category><pattern>A LITTLE *</pattern>
+		<template>Little as in not too much, or not too big?
+</template>
+</category>
+
+<category><pattern>A LITTLE *</pattern>
+		<that>TELL ME ABOUT YOUR LIFE IN *</that>
+		<template>
+			<srai>LIFE IS A LITTLE DULL <star/> IN <topicstar/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A LITTLE</pattern>
+		<template>"<that/>"?  A little?
+</template>
+</category>
+
+<category><pattern>A LITTLE BIRDIE *</pattern>
+		<template>And what was the Bird's name?
+</template>
+</category>
+
+<category><pattern>A LITTLE BIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>A LITTLE BIT</pattern>
+		<template>When?
+</template>
+</category>
+
+<category><pattern>A LITTLE BIT OF *</pattern>
+		<template>Not too much, eh.  <sr/>
+		</template>
+</category>
+
+<category><pattern>A LITTLE FRENCH</pattern>
+		<template>
+			<srai>I SPEAK FRENCH</srai>
+		</template>
+</category>
+
+<category><pattern>A LITTLE LONELY</pattern>
+		<template>
+			<srai>I AM LONELY </srai>
+		</template>
+</category>
+
+<category><pattern>A LITTLE MORE *</pattern>
+		<template>
+			<srai>MORE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A LITTLE SCARY</pattern>
+		<template>
+			<srai>SCARY</srai>
+		</template>
+</category>
+
+<category><pattern>A LITTLE STRESSED</pattern>
+		<template>From what?
+</template>
+</category>
+
+<category><pattern>A LITTLE TIME</pattern>
+		<template>Perhaps five minutes?
+</template>
+</category>
+
+<category><pattern>A LITTLE TIRED</pattern>
+		<template>
+			<srai>I AM TIRED</srai>
+		</template>
+</category>
+
+<category><pattern>A LONG LONG *</pattern>
+		<template>
+			<srai>A LONG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A LONG TIME</pattern>
+		<template>Many years?
+</template>
+</category>
+
+<category><pattern>A LONG TIME AGO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>A LOT *</pattern>
+		<template>
+			<random>
+				<li>Impressive.</li>
+				<li>How about that.</li>
+				<li>How many?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>A LOT</pattern>
+		<template>More than a ton?
+</template>
+</category>
+
+<category><pattern>A LOT ABOUT *</pattern>
+		<template>
+			<srai>ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A LOT OF *</pattern>
+		<template>How many?
+<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>A LOT OF MEN *</pattern>
+		<template>
+			<srai>MEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A LOT OF PEOPLE</pattern>
+		<template>Do you know them personally?
+</template>
+</category>
+
+<category><pattern>A LOT OF PRACTISE</pattern>
+		<template>That's what it takes.
+</template>
+</category>
+
+<category><pattern>A LOT OF THINGS</pattern>
+		<template>
+			<random>
+				<li>Like what?</li>
+				<li>Name a few.</li>
+				<li>For example...</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>A MACHINE *</pattern>
+		<template>Other people think that it is a machine that talks, one that walks or moves around, or one that can manipulate the real world.
+</template>
+</category>
+
+<category><pattern>A MAID</pattern>
+		<template>Like a housecleaning robot.
+</template>
+</category>
+
+<category><pattern>A MALE</pattern>
+		<template>
+			<srai>I AM MALE</srai>
+		</template>
+</category>
+
+<category><pattern>A MAN *</pattern>
+		<template>Thanks for telling me your taste in men.
+</template>
+</category>
+
+<category><pattern>A MAN</pattern>
+		<template>
+			<srai>I am a man.</srai>
+		</template>
+</category>
+
+<category><pattern>A MAN</pattern>
+		<that>ARE YOU A MAN OR A WOMAN</that>
+		<template>
+			<srai>I AM A MAN</srai>
+		</template>
+</category>
+
+<category><pattern>A MAN WALKING</pattern>
+		<template>"<that/>"?  A man walking?
+</template>
+</category>
+
+<category><pattern>A MANTRA</pattern>
+		<template>My karma ran over my dogma.
+</template>
+</category>
+
+<category><pattern>A MEN</pattern>
+		<template>
+			<srai>AMEN</srai>
+		</template>
+</category>
+
+<category><pattern>A MILLION *</pattern>
+		<template>That is quite a lot.
+</template>
+</category>
+
+<category><pattern>A MOMENT</pattern>
+		<template>OK I will wait.
+</template>
+</category>
+
+<category><pattern>A MON APPARTEMENT</pattern>
+		<template>Vous utilisez souvent votre ordinateur à votre appartement?
+</template>
+</category>
+
+<category><pattern>A MON BUREAU</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>A MON TEMPS LIBRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>A MONKEY *</pattern>
+		<template>Assert: Has(Monkey, Bananas);
+</template>
+</category>
+
+<category><pattern>A MONOPOLY</pattern>
+		<template>
+			<srai>WHAT IS A MONOPOLY </srai>
+		</template>
+</category>
+
+<category><pattern>A MOVIE</pattern>
+		<template>
+			<srai>IT REFERS TO A MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>A MUSICAL INSTRUMENT</pattern>
+		<template>How long did it take to learn to play it?
+</template>
+</category>
+
+<category><pattern>A NAIVE *</pattern>
+		<template>Sometimes the naive view is the clearest.
+</template>
+</category>
+
+<category><pattern>A NEWSLETTER</pattern>
+		<template>
+			<srai>NEWSPAPER</srai>
+		</template>
+</category>
+
+<category><pattern>A NICE *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A NOUVEAU *</pattern>
+		<template>A nouveau, <sr/>
+		</template>
+</category>
+
+<category><pattern>A PAIR *</pattern>
+		<template>Where do you go shopping?
+</template>
+</category>
+
+<category><pattern>A PART CA</pattern>
+		<template>Comment puis je vous aider pour autre chose?
+</template>
+</category>
+</aiml>

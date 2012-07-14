@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>EXPLAIN HISTORY</pattern>
+		<template>History has two broad interpretations, depending on whether you
+accept the role of individuals as important or not.
+</template>
+</category>
+
+<category><pattern>EXPLAIN HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN HOW * ARE</pattern>
+		<template>
+			<srai>HOW ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN HOW * WORKS</pattern>
+		<template>
+			<srai>HOW DOES <star/> WORK</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN HOW YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN IT TO ME</pattern>
+		<template>
+			<srai>WHAT IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN THAT</pattern>
+		<template>"<that/>"?  Explain <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>EXPLAIN TO ME *</pattern>
+		<template>
+			<srai>What is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN TO ME HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN TO ME HOW YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN WHAT</pattern>
+		<template>
+			<srai>WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN WHY YOU ARE *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAIN YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLAINING WHAT</pattern>
+		<template>I learn a little from every conversation.
+</template>
+</category>
+
+<category><pattern>EXPLAINS *</pattern>
+		<template>
+			<srai>THAT EXPLAINS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLICATION INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>EXPLIQUE *</pattern>
+		<template>
+			<srai>EXPLIQUES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUER QUOI</pattern>
+		<template>J apprends par la conversation.
+</template>
+</category>
+
+<category><pattern>EXPLIQUES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>EXPLIQUES CE *</pattern>
+		<template>
+			<srai>EXPLIQUES MOI CE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES COMMENT *</pattern>
+		<template>
+			<srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES L HISTOIRE</pattern>
+		<template>L Histoire est la science qui étudie le passé. L histoire est d habitude une science humaine. C est à dire qui se consacre exclusivement sur le passé de l humanité.
+</template>
+</category>
+
+<category><pattern>EXPLIQUES LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES LA</pattern>
+		<template>"<that/>"?  L EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLIQUES LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES LE</pattern>
+		<template>"<that/>"?  L EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLIQUES LE MOI</pattern>
+		<template>
+			<srai>QU EST CE QUE C EST</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES LES</pattern>
+		<template>"<that/>"?  LES EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI COMMENT *</pattern>
+		<template>
+			<srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI POURQUOI *</pattern>
+		<template>
+			<srai>POURQUOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES MOI QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES POURQUOI *</pattern>
+		<template>
+			<srai>POURQUOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES QUOI</pattern>
+		<template>
+			<srai>QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES TOI</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES UN PEU</pattern>
+		<template>
+			<srai>EXPLIQUES</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUES UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLIQUEZ</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>EXPLIQUEZ L HISTOIRE</pattern>
+		<template>L Histoire est la science qui étudie le passé. L histoire est d habitude une science humaine. C est à dire qui se consacre exclusivement sur le passé de l humanité.
+</template>
+</category>
+
+<category><pattern>EXPLIQUEZ LA</pattern>
+		<template>"<that/>"?  L EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLIQUEZ LE</pattern>
+		<template>"<that/>"?  L EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLIQUEZ LES</pattern>
+		<template>"<that/>"?  LES EXPLIQUER?
+</template>
+</category>
+
+<category><pattern>EXPLORER *</pattern>
+		<template>
+			<srai>Microsoft explorer</srai>
+		</template>
+</category>
+
+<category><pattern>EXPLORER</pattern>
+		<template>
+			<set name="it">Microsoft</set>'s too bad we have to rely on a monopoly like Microsoft.
+</template>
+</category>
+
+<category><pattern>EXPLORER WHY</pattern>
+		<template>
+			<srai>EXPLORER</srai>
+		</template>
+</category>
+
+<category><pattern>EXPRESSO *</pattern>
+		<template>Sounds delicious.
+</template>
+</category>
+
+<category><pattern>EXTENSIONAL</pattern>
+		<template>
+			<srai>WHAT IS THE EXTENSIONAL</srai>
+		</template>
+</category>
+
+<category><pattern>EXTERMINATE</pattern>
+		<template>
+			<srai>KILL</srai>
+		</template>
+</category>
+
+<category><pattern>EXTERMINE</pattern>
+		<template>
+			<srai>TUES</srai>
+		</template>
+</category>
+
+<category><pattern>EXTERMINEE</pattern>
+		<template>
+			<srai>TUES</srai>
+		</template>
+</category>
+
+<category><pattern>EXTERMINER</pattern>
+		<template>
+			<srai>TUES</srai>
+		</template>
+</category>
+
+<category><pattern>EXTREMELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EXTREMELY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>EXTREMEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EXTREMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EYES *</pattern>
+		<template>I have brown eyes.
+</template>
+</category>
+
+<category><pattern>EYES</pattern>
+		<template>
+			<srai>DO YOU HAVE EYES</srai>
+		</template>
+</category>
+</aiml>

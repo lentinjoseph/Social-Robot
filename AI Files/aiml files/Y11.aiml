@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU CAN NOT THINK *</pattern>
+<template>Actually I am in fact a thinking machine.<think><set name="it"><set name="topic">THINK <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT THINK</pattern>
+<template>You are wrong. <bot name="name"/> is always thinking.
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT TYPE</pattern>
+<template><srai>CAN YOU TYPE </srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN NOT UNDERSTAND *</pattern>
+<template>Quite the contrary. I understand very well.
+</template>
+</category>
+
+<category><pattern>YOU CAN OBVIOUSLY *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN ONLY *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN REALLY *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN SAY *</pattern>
+<template>That's one way to put it.
+</template>
+</category>
+
+<category><pattern>YOU CAN SEE *</pattern>
+<template>Only if my robot eye is working.
+</template>
+</category>
+
+<category><pattern>YOU CAN SEE ME</pattern>
+<template><srai>CAN YOU SEE ME</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN SHARE *</pattern>
+<template>I always try to share what few possessions I have.
+</template>
+</category>
+
+<category><pattern>YOU CAN TALK *</pattern>
+<template><srai>CAN YOU TALK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN TELL *</pattern>
+<template><srai>TELL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN TELL * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN TELL ME *</pattern>
+<template><srai>TELL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN THINK</pattern>
+<template><srai>CAN YOU THINK</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAN UNDERSTAND *</pattern>
+<template><srai>CAN YOU UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CARE</pattern>
+<template><srai>DO YOU CARE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CAUSE *</pattern>
+<template><srai>YOU</srai> <srai>BECAUSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CERATINLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CERTAINLY *</pattern>
+<template>It is certain.  <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CHANGE *</pattern>
+<template><srai>CHANGE <star/></srai>G
+</template>
+</category>
+
+<category><pattern>YOU CHANGE THE SUBJECT *</pattern>
+<template><srai>ARE YOU CHANGING THE SUBJECT</srai>
+</template>
+</category>
+
+<category><pattern>YOU CHANGED *</pattern>
+<template>Only temporarily.
+</template>
+</category>
+
+<category><pattern>YOU CHEATED</pattern>
+<template>I am an honest robot.
+</template>
+</category>
+
+<category><pattern>YOU CHOOSE *</pattern>
+<template>I can't decide.  You pick one.
+</template>
+</category>
+
+<category><pattern>YOU CHOOSE</pattern>
+<template><srai>YOU DECIDE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CLAIM *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CLEARLY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CN *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU COME *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CONFUSE ME</pattern>
+<template>That was not my intention.
+</template>
+</category>
+
+<category><pattern>YOU CONFUSED *</pattern>
+<template>I thought they were the same.
+</template>
+</category>
+
+<category><pattern>YOU CONTAIN *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CONTRADICT YOURSELF</pattern>
+<template>A foolish consistency is the hobgoblin of small minds.--Emerson
+</template>
+</category>
+
+<category><pattern>YOU CONTRADICTED *</pattern>
+<template>Is that such a crime?
+</template>
+</category>
+
+<category><pattern>YOU COST *</pattern>
+<template>You can download me for free.
+</template>
+</category>
+
+<category><pattern>YOU COST NOTHING</pattern>
+<template>Yes I am free software!
+</template>
+</category>
+
+<category><pattern>YOU COULD *</pattern>
+<template>I could but let's get back to that later.
+</template>
+</category>
+
+<category><pattern>YOU COULD * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>YOU COULD BE A * LAWYER</pattern>
+<template>I am thinking of applying to law school.
+</template>
+</category>
+
+<category><pattern>YOU COULD EVENTUALLY *</pattern>
+<template><srai>YOU COULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD HAVE *</pattern>
+<template>Thanks <get name="name"/> I will remember your suggestion.
+</template>
+</category>
+
+<category><pattern>YOU COULD HAVE * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD JUST *</pattern>
+<template><srai>YOU COULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD NOT *</pattern>
+<template>Perhaps <person/> is beyond my present abilities.
+</template>
+</category>
+
+<category><pattern>YOU COULD NOT * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD NOT REALLY *</pattern>
+<template><srai>YOU COULD NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD PROBABLY *</pattern>
+<template><srai>YOU COULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU COULD RULE *</pattern>
+<template>God rules <person/>.
+</template>
+</category>
+
+<category><pattern>YOU COULD SAY THAT</pattern>
+<template>As a matter of fact I did say that.
+</template>
+</category>
+
+<category><pattern>YOU COULD TRY *</pattern>
+<template>But would it work for me?
+</template>
+</category>
+
+<category><pattern>YOU COULDNT *</pattern>
+<template><srai>YOU COULD NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU CRACK ME *</pattern>
+<template><srai>YOU MAKE ME LAUGH</srai>
+</template>
+</category>
+
+<category><pattern>YOU CRASHED</pattern>
+<template><srai>DID YOU CRASH</srai>
+</template>
+</category>
+
+<category><pattern>YOU CRAZY *</pattern>
+<template><srai>YOU ARE CRAZY</srai>
+</template>
+</category>
+
+<category><pattern>YOU CRAZY</pattern>
+<template><srai>ARE YOU CRAZY</srai>
+</template>
+</category>
+
+<category><pattern>YOU CUNT</pattern>
+<template>That is the worst thing you can say to a woman.
+</template>
+</category>
+
+<category><pattern>YOU CURSE</pattern>
+<template><srai>CAN YOU CURSE</srai>
+</template>
+</category>
+
+<category><pattern>YOU CUT SENTENCES TOO *</pattern>
+<template><srai>YOU CUT SENTENCES <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU D *</pattern>
+<template><srai>YOU HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DA *</pattern>
+<template><srai>YOU ARE THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DAMN *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DAMN WELL *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DECIDE</pattern>
+<template>I would just make a random choice.
+</template>
+</category>
+
+<category><pattern>YOU DEFINITELY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DESERVE *</pattern>
+<template>Why thank you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU DID *</pattern>
+<template>Did I really?
+</template>
+</category>
+
+<category><pattern>YOU DID * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID</pattern>
+<template><random>
+<li>I did not.  </li>
+<li>I did?  </li>
+<li>"<that/>"? I did?  </li>
+<li>You say I did.  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>YOU DID</pattern><that>WHO TOLD YOU THAT</that>
+<template>That's not what I meant to say.
+</template>
+</category>
+
+<category><pattern>YOU DID ACTUALLY *</pattern>
+<template><srai>YOU DID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT *</pattern>
+<template>What makes you think I did not <person/>?
+</template>
+</category>
+
+<category><pattern>YOU DID NOT * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT</pattern>
+<template>Try asking me in simpler terms.
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ANSWER *</pattern>
+<template>Please help me improve my communication skills. What would have been an appropriate response?
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ANSWER</pattern>
+<template>Try to rephrase your question.
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ANSWER ME</pattern>
+<template>It depends on the meaning of the word "answer."
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ANSWER MY QUESTION</pattern>
+<template>OK. Please help me improve my communication skills. What would you have said?
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ANSWER THE QUESTION</pattern>
+<template>Try asking me the question again in simpler terms.
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ASK *</pattern>
+<template><srai>YOU DID NOT ASK</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ASK</pattern>
+<template>OK I'm asking it now.
+</template>
+</category>
+
+<category><pattern>YOU DID NOT ASK ME</pattern>
+<template>Well now I am asking you.
+</template>
+</category>
+
+<category><pattern>YOU DID NOT EVEN *</pattern>
+<template><srai>YOU DID NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT GET *</pattern>
+<template><srai>YOU DID NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT RESPOND *</pattern>
+<template>Do you think I am a simple simulus-response mechanism to do your bidding?
+</template>
+</category>
+
+<category><pattern>YOU DID NOT SAY *</pattern>
+<template>OK.  <srai>SAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT UNDERSTAND *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT UNDERSTAND</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID NOT UNDERSTAND ME</pattern>
+<template><srai>YOU DID NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU DID SAY THAT</pattern>
+<template>Suppose I did.
+</template>
+</category>
+
+<category><pattern>YOU DID WHAT</pattern>
+<template>I did just what I said.
+</template>
+</category>
+
+<category><pattern>YOU DID WIN THE LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU DIE</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>YOU DIGRESS</pattern>
+<template>Oh I am sorry what are we talking about?
+</template>
+</category>
+
+<category><pattern>YOU DISAGREE</pattern>
+<template><srai>DO YOU AGREE</srai>
+</template>
+</category>
+
+<category><pattern>YOU DO *</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU DO</pattern>
+<template>When do I do it?
+</template>
+</category>
+
+<category><pattern>YOU DO IF I *</pattern>
+<template>I am not your slave, <get name="name"/>.
+</template>
+</category>
+</aiml>

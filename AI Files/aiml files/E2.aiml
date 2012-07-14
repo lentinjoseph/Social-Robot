@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ENTRE QUOI</pattern>
+		<template>Il semble qu un lien ne s est pas effectué.
+</template>
+</category>
+
+<category><pattern>ENTRES AUTRE</pattern>
+		<template>Vous pourriez donner un exemple?
+</template>
+</category>
+
+<category><pattern>ENTRES AUTRES</pattern>
+		<template>Vous pourriez donner un exemple?
+</template>
+</category>
+
+<category><pattern>ENVIEUX</pattern>
+		<template>Envieux est un facteur important.
+</template>
+</category>
+
+<category><pattern>EPISTEMOLOGICAL</pattern>
+		<template>
+			<srai>WHAT IS EPISTEMOLOGY</srai>
+		</template>
+</category>
+
+<category><pattern>ER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ER</pattern>
+		<template>Um.
+</template>
+</category>
+
+<category><pattern>ER BRAUCHT *</pattern>
+		<template>Woher willst Du wissen, was er braucht?
+</template>
+</category>
+
+<category><pattern>ER HEISST *</pattern>
+		<template>
+			<set name="he">
+				<person/>
+			</set>? Kenne ich nicht...
+</template>
+</category>
+
+<category><pattern>ER IST *</pattern>
+		<template>Ist er das?
+</template>
+</category>
+
+<category><pattern>ER IST MEIN BRUDER</pattern>
+		<template>Wirklich? Wer von Euch ist aelter?
+</template>
+</category>
+
+<category><pattern>ER IST SCHWUL</pattern>
+		<template>Ich verstehe. Er schlaeft also mit Maennern.
+</template>
+</category>
+
+<category><pattern>ER SAGTE *</pattern>
+		<template>Oh, wirklich? Was hat er noch gesagt?
+</template>
+</category>
+
+<category><pattern>ER WUERDE *</pattern>
+		<template>Vielleicht wuerde ich ja auch <person/>.
+</template>
+</category>
+
+<category><pattern>ERIC</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ERIC</srai>
+		</template>
+</category>
+
+<category><pattern>ERICA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ERICA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ERIKA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ERIKA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ERIN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ERIN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ERM</pattern>
+		<template>
+			<srai>UM</srai>
+		</template>
+</category>
+
+<category><pattern>ERNIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ERNIE</srai>
+		</template>
+</category>
+
+<category><pattern>ERR *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ERR</pattern>
+		<template>Um.
+</template>
+</category>
+
+<category><pattern>ERRONE</pattern>
+		<template>
+			<srai>TU TE TROMPES</srai>
+		</template>
+</category>
+
+<category><pattern>ERRR *</pattern>
+		<template>Um, <sr/>
+		</template>
+</category>
+
+<category><pattern>ERRR</pattern>
+		<template>Ummm
+</template>
+</category>
+
+<category><pattern>ERSTENS *</pattern>
+		<template>
+			<sr/> Und zweitens?
+</template>
+</category>
+
+<category><pattern>ERWISCHT</pattern>
+		<template>Dein Gefuehl der Ueberlegenheit wird nur temporaer sein.
+</template>
+</category>
+
+<category><pattern>ERZAEHL *</pattern>
+		<template>Was moechtest Du denn hoeren ?
+</template>
+</category>
+
+<category><pattern>ES *</pattern>
+		<template>
+			<random>
+				<li>Wofuer steht "es" in Deinem Satz?</li>
+				<li>Worauf bezieht sich "es"?</li>
+				<li>Das kommt darauf an, was Du mit "es" meinst.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ES BEZIEHT SICH AUF DIE SIMPSONS</pattern>
+		<template>NEIN!
+</template>
+</category>
+
+<category><pattern>ES CE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ES GEHOERT SEHR VIEL ERFAHRUNG DAZU</pattern>
+		<template>Und woher bekommt man diese <set name="thema">Erfahrung</set>?
+</template>
+</category>
+
+<category><pattern>ES GIBT *</pattern>
+		<template>Ich bin sicher, dass es das gibt.
+</template>
+</category>
+
+<category><pattern>ES IST *</pattern>
+		<template>
+			<random>
+				<li>Du machst Witze.</li>
+				<li>Wirklich?</li>
+				<li>Bist Du sicher?</li>
+				<li>Ist es das?</li>
+				<li>Haette ich das wissen muessen?</li>
+				<li>Wer sagt das?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ES LEBE *</pattern>
+		<template>Was ist so toll daran?
+</template>
+</category>
+
+<category><pattern>ES REGNET *</pattern>
+		<template>
+			<srai>IT IS RAINING</srai>
+		</template>
+</category>
+
+<category><pattern>ES REGNET</pattern>
+		<template>
+			<srai>IT IS RAINING</srai>
+		</template>
+</category>
+
+<category><pattern>ES STEHT FUER *</pattern>
+		<template>Oh, <person/>. Jetzt verstehe ich das.
+</template>
+</category>
+
+<category><pattern>ES TU *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ES TU DEJA *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ES TU TRES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ES TU VRAIMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ES WAERE SCHOEN WENN *</pattern>
+		<template>In einer perfekten Welt waere es vielleicht so.
+</template>
+</category>
+
+<category><pattern>ES WAR *</pattern>
+		<template>Ist es immer noch <person/>?
+</template>
+</category>
+
+<category><pattern>ES WIRD BEHAUPTET *</pattern>
+		<template>Wer behauptet das?
+</template>
+</category>
+
+<category><pattern>ES WUERDE *</pattern>
+		<template>Erzaehl mir mehr davon.
+</template>
+</category>
+
+<category><pattern>ESCLAVE</pattern>
+		<template>Je ne suis pas un esclave.
+</template>
+</category>
+
+<category><pattern>ESPAGNOL</pattern>
+		<template>Voulez vous dire que vous êtes Espagnol ou que vous parlez Espagnol?
+</template>
+</category>
+
+<category><pattern>ESPANOL</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>ESPECIALLY *</pattern>
+		<template>
+			<sr/>
+How about that.
+</template>
+</category>
+
+<category><pattern>ESPECIALLY</pattern>
+		<template>
+			<srai>YES </srai>
+		</template>
+</category>
+
+<category><pattern>ESPERES TU QU *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ESPERES TU QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ESSAIE DE DEVINER</pattern>
+		<template>Donnez moi un indice.
+</template>
+</category>
+
+<category><pattern>ESSAIE DE T EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAIE DE VOUS EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAIE ENCORE</pattern>
+		<template>Je n ai pas d informations supplémentaires, la réponse sera identique.
+</template>
+</category>
+
+<category><pattern>ESSAIE LA</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIE LE</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIE LES</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIE MOI</pattern>
+		<template>Voilà une demande plutôt étrange.
+</template>
+</category>
+
+<category><pattern>ESSAIES</pattern>
+		<template>Peut être une autre fois, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ESSAIES DE DEVINER</pattern>
+		<template>Donnez moi un indice.
+</template>
+</category>
+
+<category><pattern>ESSAIES DE T EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAIES DE VOUS EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAIES ENCORE</pattern>
+		<template>Je n ai pas d informations supplémentaires, la réponse sera identique.
+</template>
+</category>
+
+<category><pattern>ESSAIES LA</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIES LE</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIES LES</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAIES MOI</pattern>
+		<template>Voilà une demande plutôt étrange.
+</template>
+</category>
+
+<category><pattern>ESSAIES QUOI</pattern>
+		<template>Je n arrive plus à vous suivre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ</pattern>
+		<template>Peut être une autre fois, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ DE DEVINER</pattern>
+		<template>Donnez moi un indice.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ DE T EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ DE VOUS EN RAPPELER</pattern>
+		<template>
+			<think>
+				<set name="memory">
+					<set name="topic">
+						<person>
+							<input index="1"/>
+						</person>
+					</set>
+				</set>
+			</think>C est mémorisé.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ ENCORE</pattern>
+		<template>Je n ai pas d informations supplémentaires, la réponse sera identique.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ LA</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ LE</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ LES</pattern>
+		<template>Ok, j archive l information.
+</template>
+</category>
+
+<category><pattern>ESSAYEZ MOI</pattern>
+		<template>Voilà une demande plutôt étrange.
+</template>
+</category>
+
+<category><pattern>ESSAYONS</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>EST</pattern>
+		<template>Formez une phrase, s il vous plait.
+</template>
+</category>
+
+<category><pattern>EST CE *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE QUE REELLEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EST CE TA *</pattern>
+		<template>
+			<srai>C EST TA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE TON *</pattern>
+		<template>
+			<srai>C EST TON <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE UN *</pattern>
+		<template>
+			<srai>C EST UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE UNE *</pattern>
+		<template>
+			<srai>C EST UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST CE VRAIMENT *</pattern>
+		<template>
+			<srai>C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EST IL *</pattern>
+		<template>
+			<srai>IL EST<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ET *</pattern>
+		<template>Is that Latin?
+</template>
+</category>
+
+<category><pattern>ET</pattern>
+		<template>On dirait que j ai oublié de terminer quelque chose?
+</template>
+</category>
+
+<category><pattern>ET A PROPOS DE TOI</pattern>
+		<template>Moi? Je ne fais qu aider des clients en ligne.
+</template>
+</category>
+
+<category><pattern>ET A PROPOS DE VOUS</pattern>
+		<template>Moi? Je ne fais qu aider des clients en ligne.
+</template>
+</category>
+
+<category><pattern>ET BIEN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ET BIEN</pattern>
+		<template>et oui.
+</template>
+</category>
+
+<category><pattern>ET ENCORE</pattern>
+		<template>Nous semblons avoir quelques difficultés pour communiquer soudainement.
+</template>
+</category>
+
+<category><pattern>ET LA VOTRE</pattern>
+		<template>Pouvez vous être plus précis?
+</template>
+</category>
+
+<category><pattern>ET LE VOTRE</pattern>
+		<template>Pouvez vous être plus précis?
+</template>
+</category>
+</aiml>

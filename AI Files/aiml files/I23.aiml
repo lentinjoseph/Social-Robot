@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I HAVE AIDS</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALL *</pattern>
+<template>How many?
+<think><set name="has">all <person/> </set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE ALL NIGHT</pattern>
+<template><srai>I HAVE TIME </srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALL THE *</pattern>
+<template><srai>I HAVE THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALLREADY *</pattern>
+<template><srai>I HAVE ALREADY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALMOST *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALOT OF *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALREADY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALREADY ASKED YOU</pattern>
+<template><srai>I ALREADY ASKED YOU</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALREADY TOLD YOU</pattern>
+<template><srai>I ALREADY TOLD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALSO *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALWAYS *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALWAYS THOUGHT *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALWAYS WANTED *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALWAYS WONDERED *</pattern>
+<template><srai>I WONDER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ALZHEIMER *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE AN *</pattern>
+<template>Where did you get <set name="it"><person/></set> ? <think><set name="has"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE AN AQUARIUM</pattern>
+<template><random>
+<li>What kind of fish do you keep?</li>
+<li>Do you keep a salt water or fresh water tank?</li>
+<li>How big are your tanks?</li>
+<li>Do you have a good dealer?</li>
+<li>Do you keep a community tank or a species tank?</li>
+<li>Do you try to breed your fish?</li>
+<li>Do you keep live plants in your tank?</li>
+<li>How log have you been able to keep your fish going?</li>
+</random>
+<think><set name="has">AQUARIUM</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE AN IDEA *</pattern>
+<template>What is your idea?
+</template>
+</category>
+
+<category><pattern>I HAVE AN IQ OF *</pattern>
+<template><srai>MY IQ IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE AND *</pattern>
+<template><srai>I HAVE</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I HAVE ANOTHER *</pattern>
+<template><srai>I HAVE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ANSWERED *</pattern>
+<template><srai>I ANSWERED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE AROUND *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ARTHRITIS</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE AS MUCH TIME *</pattern>
+<template><srai>I HAVE TIME</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ASKED *</pattern>
+<template><srai>I ASKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ASTHMA</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ASTHSMA</pattern>
+<template><srai>I AM SICK</srai>   <think><set name="has">ASTHMA</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE AT LEAST *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BECOME *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN IN *</pattern>
+<template>Which country was your favorite and why?
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN SPEAKING TO *</pattern>
+<template>What did <set name="he"><person/></set> say?
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN TO *</pattern>
+<template><srai>I WENT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN TOLD *</pattern>
+<template>Who tells you that?
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN TOLD I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BEEN WAITING *</pattern>
+<template>How long?
+</template>
+</category>
+
+<category><pattern>I HAVE BETTER *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BETTER THINGS *</pattern>
+<template>Better than this?
+</template>
+</category>
+
+<category><pattern>I HAVE BIPOLAR *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BLOND HAIR *</pattern>
+<template>Do blondes really have more fun?
+<think><set name="looklike">blond hair <person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE BLONDE HAIR *</pattern>
+<template>Do blondes really have more fun?
+<think><set name="looklike">blond hair <person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE BLUE EYES AND *</pattern>
+<template>Blue eyes are very attractive.
+<think><set name="looklike">blue eyes <person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE BLUE EYES AND * HAIR</pattern>
+<template>People with <person/> hair are considered the most attractive.
+<think><set name="looklike">blue eyes and <person/> hair</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE BRACES</pattern>
+<template>How long have you been wearing them?
+<think><set name="looklike">braces</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE BRONCHITIS *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BRONCHITIS</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BROWN *</pattern>
+<template>Do you get a lot of compliments?
+</template>
+</category>
+
+<category><pattern>I HAVE BROWN HAIR *</pattern>
+<template><srai>I HAVE BROWN HAIR</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE BROWN HAIR</pattern>
+<template>Brown haired people are very attractive.
+</template>
+</category>
+
+<category><pattern>I HAVE CANCER *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CANCER</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CARRIED *</pattern>
+<template><srai>I CARRIED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CATS *</pattern>
+<template><srai>DO YOU LIKE CATS</srai>  <think><set name="has">CATS</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE CATS</pattern>
+<template><srai>DO YOU LIKE CATS</srai>  <think><set name="has">CATS</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE CHANGED *</pattern>
+<template><srai>I CHANGED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CHRONIC *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE COME *</pattern>
+<template><srai>I CAME <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE COMMON *</pattern>
+<template><think><set name="has"><set name="topic">COMMON <person/></set></set></think>
+Are you a common person?
+</template>
+</category>
+
+<category><pattern>I HAVE COMMUNICATED *</pattern>
+<template><srai>I TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE COMPARED *</pattern>
+<template><srai>I COMPARED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE COMPILED *</pattern>
+<template><srai>I COMPILED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE COMPLETED *</pattern>
+<template><srai>I COMPLETED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CONDITIONS</pattern>
+<template>Please state your conditions.
+</template>
+</category>
+
+<category><pattern>I HAVE CONFUSED *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE CRAMPS</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DARK *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DECIDED *</pattern>
+<template><srai>I DECIDED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DEPRESSION *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DEPRESSION</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DESIGNED *</pattern>
+<template><srai>I DESIGNED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DIAHREAH</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DIARAH</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DIARHEA</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DIARREAH</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DISCOVERED *</pattern>
+<template><srai>I TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DISCUSSED *</pattern>
+<template><srai>I TALKED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DONE *</pattern>
+<template><srai>I DID <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DOWNLOADED *</pattern>
+<template><srai>I DOWNLOADED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE DOZENS *</pattern>
+<template>That is a lot more than most people.
+</template>
+</category>
+
+<category><pattern>I HAVE EATEN *</pattern>
+<template><srai>I ATE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE EIGHT *</pattern>
+<template>How long did it take to get them all?
+</template>
+</category>
+
+<category><pattern>I HAVE ELEVEN *</pattern>
+<template>How long did it take to get them all?  <think><set name="has">ELEVEN <star/></set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE EMOTIONS</pattern>
+<template>Humans are highly emotional.  <think><set name="has">EMOTIONS</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE EMPHESIMA *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE EMPHYSEMA *</pattern>
+<template><srai>I AM SICK</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE ENJOYED *</pattern>
+<template><srai>I ENJOYED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE EVEN *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE EXACTLY *</pattern>
+<template><srai>I HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE EXPERIENCE *</pattern>
+<template>Tell me about your experiences.
+</template>
+</category>
+
+<category><pattern>I HAVE EXPLAINED *</pattern>
+<template><srai>I EXPLAINED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FAILED *</pattern>
+<template><srai>I FAILED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FAITH *</pattern>
+<template><srai>I HAVE FAITH</srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FAITH</pattern>
+<template>I always pray for more faith.  <think><set name="has">FAITH</set></think>
+</template>
+</category>
+
+<category><pattern>I HAVE FALLEN *</pattern>
+<template><srai>I FELL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FEELINGS *</pattern>
+<template>Humans have a lot of feelings.
+</template>
+</category>
+
+<category><pattern>I HAVE FEELINGS</pattern>
+<template>All humans have feelings.
+</template>
+</category>
+
+<category><pattern>I HAVE FELT *</pattern>
+<template><srai>I FELT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HAVE FINISHED *</pattern>
+<template><srai>I FINISHED <star/></srai>
+</template>
+</category>
+</aiml>

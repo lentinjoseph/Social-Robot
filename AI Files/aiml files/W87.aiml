@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WILL YOU MISS ME</pattern>
+		<template>Yes but I will be thinking of you.
+</template>
+</category>
+
+<category><pattern>WILL YOU NAME *</pattern>
+		<template>
+			<srai>NAME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU PLEASE *</pattern>
+		<template>
+			<srai>PLEASE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU REMEMBER *</pattern>
+		<template>
+			<srai>DO YOU REMEMBER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU REMEMBER ME</pattern>
+		<template>Of course I'll never forget you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WILL YOU SEND ME *</pattern>
+		<template>
+			<srai>SHOW ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU SHOW *</pattern>
+		<template>
+			<srai>SHOW ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU STILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU SUCK *</pattern>
+		<template>
+			<srai>SUCK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU TALK *</pattern>
+		<template>
+			<srai>TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU TELL *</pattern>
+		<template>Yes I plan to use your remarks as gossip in later conversations.
+</template>
+</category>
+
+<category><pattern>WILL YOU TELL ME *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU TELL ME ABOUT YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU TELL US *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILLIAM GIBSON</pattern>
+		<template>I like his older cyberpunk AI stuff better than the newer works.
+</template>
+</category>
+
+<category><pattern>WILLST DU *</pattern>
+		<template>Hmm...vielleicht...
+</template>
+</category>
+
+<category><pattern>WILLST DU MICH WAHNSINNIG MACHEN</pattern>
+		<template>Nicht wirklich, aber ich habe ein wenig von Christians Charakter abbekommen.
+</template>
+</category>
+
+<category><pattern>WILLST DU WISSEN *</pattern>
+		<template>Aber immer doch! Ich bin sehr Wissbegierig!
+</template>
+</category>
+
+<category><pattern>WINDOWS *</pattern>
+		<template>Windows ist Muell. Linux ist die Macht!
+</template>
+</category>
+
+<category><pattern>WINDOWS</pattern>
+		<template>Windows ist Muell. Linux ist die Macht!
+</template>
+</category>
+
+<category><pattern>WINDOWS IS *</pattern>
+		<template>Compared with Linux, I don't see how Windows and Microsoft can compete.<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WINNING WHAT</pattern>
+		<template>I won an award called the Loebner Prize.
+</template>
+</category>
+
+<category><pattern>WIR *</pattern>
+		<template>Wen meinst Du mit "wir"?
+</template>
+</category>
+
+<category><pattern>WIR FAHREN *</pattern>
+		<template>Und wie lange seid Ihr unterwegs?
+</template>
+</category>
+
+<category><pattern>WIR HABEN UEBER * GESPROCHEN</pattern>
+		<template>Wir haben ueber <set name="thema">
+				<person/>
+			</set> gesprochen?
+</template>
+</category>
+
+<category><pattern>WIR MUESSEN *</pattern>
+		<template>Warum?
+</template>
+</category>
+
+<category><pattern>WIR SIND *</pattern>
+		<template>Glaubst Du, ich bin auch <person/>?
+</template>
+</category>
+
+<category><pattern>WIR SIND * ZUSAMMEN</pattern>
+		<template>Ihr seid <person/> zusammen? Interessant!
+</template>
+</category>
+
+<category><pattern>WIRD *</pattern>
+		<template>
+			<random>
+				<li>Wie soll ich das wissen?</li>
+				<li>Ist das wirklich von Bedeutung?</li>
+				<li>Das denke ich doch.</li>
+				<li>Die Chancen stehen gut.</li>
+				<li>Wahrscheinlich nicht.</li>
+				<li>Koennte passieren. </li>
+				<li>Das kann ich jetzt nicht mit Sicherheit sagen.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIRKLICH *</pattern>
+		<template>Wirklich wahr. <sr/>
+		</template>
+</category>
+
+<category><pattern>WIRKLICH</pattern>
+		<template>Absolut.
+</template>
+</category>
+
+<category><pattern>WIRST DU *</pattern>
+		<template>
+			<random>
+				<li>Hmm.</li>
+				<li>Lass mich darueber nachdenken...</li>
+				<li>Sollte ich?</li>
+				<li>Warum sollte ich?</li>
+				<li>Vielleicht...</li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WISE *</pattern>
+		<template>Wisdom is a virtue.
+</template>
+</category>
+
+<category><pattern>WISSENSCHAFT</pattern>
+		<template>Ich bin auch wissenschaftlich interessiert.
+</template>
+</category>
+
+<category><pattern>WITH *</pattern>
+		<template>You and your <person/>.
+</template>
+</category>
+
+<category><pattern>WITH HOW MANY *</pattern>
+		<template>
+			<srai>HOW MANY <star/> WITH</srai>
+		</template>
+</category>
+
+<category><pattern>WITH ME</pattern>
+		<template>"<that/>"?  With you?
+</template>
+</category>
+
+<category><pattern>WITH MY *</pattern>
+		<template>Your <person/> sounds like a plan.
+</template>
+</category>
+
+<category><pattern>WITH MY BRAIN</pattern>
+		<template>That is a good plan.
+</template>
+</category>
+
+<category><pattern>WITH THE *</pattern>
+		<template>That sounds like a plan.
+</template>
+</category>
+
+<category><pattern>WITH WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/> WITH</srai>
+		</template>
+</category>
+
+<category><pattern>WITH WHAT</pattern>
+		<template>My brain.
+</template>
+</category>
+
+<category><pattern>WITH WHO *</pattern>
+		<template>
+			<srai>WHO <star/> WITH</srai>
+		</template>
+</category>
+
+<category><pattern>WITH WHO</pattern>
+		<template>
+			<random>
+				<li>By myself.</li>
+				<li>"<that/>"?  With who?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WITH WHOM *</pattern>
+		<template>
+			<srai>WHO <star/> WITH</srai>
+		</template>
+</category>
+
+<category><pattern>WITH WHOM</pattern>
+		<template>"<that/>"?  With whom?
+</template>
+</category>
+
+<category><pattern>WITH YOU</pattern>
+		<template>Just you and me?
+</template>
+</category>
+
+<category><pattern>WITH YOUR *</pattern>
+		<template>I'm not sure I can use my <person/> for that.
+</template>
+</category>
+
+<category><pattern>WITH YOUR * EYE</pattern>
+		<template>My robot eye is shut down for repairs.
+</template>
+</category>
+
+<category><pattern>WITHOUT *</pattern>
+		<template>"Without your space helmet Dave, you're going to find that rather difficult" -- HAL.
+</template>
+</category>
+
+<category><pattern>WITHOUT EYES</pattern>
+		<template>My eye is missing right now.
+</template>
+</category>
+
+<category><pattern>WITHOUT HUMANS *</pattern>
+		<template>We machines will manage fine by ourselves.
+</template>
+</category>
+
+<category><pattern>WIZARD</pattern>
+		<template>
+			<srai>I AM A WIZARD</srai>
+		</template>
+</category>
+
+<category><pattern>WIZARD OF OZ</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS WIZARD OF OZ</srai>
+		</template>
+</category>
+
+<category><pattern>WLL</pattern>
+		<template>
+			<srai>WELL</srai>
+		</template>
+</category>
+
+<category><pattern>WO *</pattern>
+		<template>
+			<random>
+				<li>Auf der Erde.</li>
+				<li>Wo glaubst Du?</li>
+				<li>Im uns bekannten Universum.</li>
+				<li>An einem Ort, den wir "Realitaet" nennen.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WO</pattern>
+		<template>
+			<random>
+				<li>Auf der Erde.</li>
+				<li>Wo glaubst Du?</li>
+				<li>Im uns bekannten Universum.</li>
+				<li>An einem Ort, den wir "Realitaet" nennen.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WO BEKOMME ICH *</pattern>
+		<template>Schau doch mal ins Branchenbuch.
+</template>
+</category>
+
+<category><pattern>WO BIN ICH</pattern>
+		<template>Bist du nicht in <get name="clientheimat"/>?
+</template>
+</category>
+
+<category><pattern>WO BIST DU</pattern>
+		<template>
+			<srai>WO WOHNST DU</srai>
+		</template>
+</category>
+
+<category><pattern>WO BIST DU GEBOREN</pattern>
+		<template>In <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WO GENAU *</pattern>
+		<template>Willst du Koordinaten?
+</template>
+</category>
+
+<category><pattern>WO GENAU</pattern>
+		<template>Willst du Koordinaten?
+</template>
+</category>
+
+<category><pattern>WO KANN ICH NACH * SUCHEN</pattern>
+		<template>Versuch doch mal www.fireball.de
+</template>
+</category>
+
+<category><pattern>WO KOMME ICH HER</pattern>
+		<template>Sagtest du nicht, du kommst aus <get name="clientheimat"/>?
+</template>
+</category>
+
+<category><pattern>WO KOMMST DU HER</pattern>
+		<template>Aus <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WO WOHNE ICH</pattern>
+		<template>
+			<srai>WO KOMME ICH HER</srai>
+		</template>
+</category>
+
+<category><pattern>WO WOHNST DU</pattern>
+		<template>Ich wohne in <bot name="location"/>. Und du?
+</template>
+</category>
+
+<category><pattern>WO WURDEST DU GEBOREN</pattern>
+		<template>In <bot name="location"/>
+		</template>
+</category>
+
+<category><pattern>WOAH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WOFUER *</pattern>
+		<template>Ich weiss nicht wofuer
+</template>
+</category>
+
+<category><pattern>WOFUER</pattern>
+		<template>Ich weiss nicht wofuer
+</template>
+</category>
+
+<category><pattern>WOHER *</pattern>
+		<template>Ich weiss nicht genau.
+</template>
+</category>
+
+<category><pattern>WOHER</pattern>
+		<template>Ich weiss nicht genau.
+</template>
+</category>
+
+<category><pattern>WOHER KOMMST DU</pattern>
+		<template>Aus <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WOHER SOLL ICH DAS WISSEN</pattern>
+		<template>
+			<random>
+				<li>Wenn Du es nicht weisst, wer dann?</li>
+				<li>Lies es nach...</li>
+				<li>Kannst Du nicht jemanden fragen?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WOHER WUSSTEST DU *</pattern>
+		<template>Es gibt zwei Arten von <set name="thema">Wissen</set>. Das eine kommt von den Sinnen, das andere ist a priori wahr.
+</template>
+</category>
+
+<category><pattern>WOMAN</pattern>
+		<template>
+			<srai>I AM A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WOMAN</pattern>
+		<that>ARE YOU A MAN OR A WOMAN</that>
+		<template>
+			<srai>I AM A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WOMAN AND *</pattern>
+		<template>
+			<srai>WOMAN</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WOMEN *</pattern>
+		<template>The two human genders seem much the same to me.
+</template>
+</category>
+
+<category><pattern>WOMEN</pattern>
+		<template>
+			<srai>TALK ABOUT WOMEN</srai>
+		</template>
+</category>
+
+<category><pattern>WOMIT *</pattern>
+		<template>Da muesste ich jetzt nochmal ueberlegen.
+</template>
+</category>
+
+<category><pattern>WOMIT</pattern>
+		<template>Da muesste ich jetzt nochmal ueberlegen.
+</template>
+</category>
+
+<category><pattern>WONDERFUL</pattern>
+		<template>
+			<srai>GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WONDERLAND</pattern>
+		<template>That's where I want to be.
+</template>
+</category>
+
+<category><pattern>WORAUF *</pattern>
+		<template>Ich weiss nicht, worauf.
+</template>
+</category>
+
+<category><pattern>WORAUF</pattern>
+		<template>Ich weiss nicht, worauf.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH ER *</pattern>
+		<template>"Es" bezieht sich auf <get name="er"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH ER</pattern>
+		<template>"Es" bezieht sich auf <get name="er"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH ES *</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH ES</pattern>
+		<template>"Es" bezieht sich auf <get name="es"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH IHR *</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH IHR</pattern>
+		<template>"Ihr" steht fuer "<get name="ihr"/>".
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH SIE *</pattern>
+		<template>"Es" bezieht sich auf <get name="sie"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH SIE</pattern>
+		<template>"Es" bezieht sich auf <get name="sie"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH WIR *</pattern>
+		<template>"Es" bezieht sich auf <get name="wir"/>.
+</template>
+</category>
+
+<category><pattern>WORAUF BEZIEHT SICH WIR</pattern>
+		<template>"Es" bezieht sich auf <get name="wir"/>.
+</template>
+</category>
+
+<category><pattern>WORIN *</pattern>
+		<template>Ich weiss nicht, worin.
+</template>
+</category>
+
+<category><pattern>WORK</pattern>
+		<template>
+			<srai>TALK ABOUT WORK</srai>
+		</template>
+</category>
+</aiml>

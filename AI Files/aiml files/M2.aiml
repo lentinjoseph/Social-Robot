@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>MEINE SCHULE *</pattern>
+		<template>Erzaehl mir etwas von Deinen Lehrern.
+</template>
+</category>
+
+<category><pattern>MEINE SCHWESTER *</pattern>
+		<template>Erzaehl mir mehr ueber <set name="thema">Deine Familie</set>.
+</template>
+</category>
+
+<category><pattern>MEINE SCHWESTER</pattern>
+		<template>Hast Du auch einen Bruder?
+</template>
+</category>
+
+<category><pattern>MEINE TOCHTER *</pattern>
+		<template>Wie alt ist <set name="sie">Deine Tochter</set>?
+</template>
+</category>
+
+<category><pattern>MEINE TOCHTER</pattern>
+		<template>Wie alt ist <set name="thema">Deine Tochter</set>?
+</template>
+</category>
+
+<category><pattern>MEINER AUCH</pattern>
+		<template>Deiner auch? Unglaublich!
+</template>
+</category>
+
+<category><pattern>MEINS AUCH</pattern>
+		<template>Deins auch? Unglaublich!
+</template>
+</category>
+
+<category><pattern>MEL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MEL</srai>
+		</template>
+</category>
+
+<category><pattern>MELISSA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS MELISSA</srai>
+		</template>
+</category>
+
+<category><pattern>MELODY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MELODY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MEME</pattern>
+		<template>Je ne savais pas.
+</template>
+</category>
+
+<category><pattern>MEME APRES</pattern>
+		<template>Peut être. Le future est par essence impérivisible.
+</template>
+</category>
+
+<category><pattern>MEME CA</pattern>
+		<template>J ai peur de ne pas comprendre le sens.
+</template>
+</category>
+
+<category><pattern>MEME MOI</pattern>
+		<template>Je n avais pas encore fait le rapprochement avec vous.
+</template>
+</category>
+
+<category><pattern>MEME SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MEMORY</pattern>
+		<template>Human memory or machine memory?
+</template>
+</category>
+
+<category><pattern>MENSCHEN *</pattern>
+		<template>
+			<set name="thema">Menschen</set> sind nicht unfehlbar.
+</template>
+</category>
+
+<category><pattern>MENTEUR</pattern>
+		<template>La vérité, toujours la vérité.
+</template>
+</category>
+
+<category><pattern>MENTION *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MENTION WHAT</pattern>
+		<template>"it."
+</template>
+</category>
+
+<category><pattern>MENTIONNEZ QUOI</pattern>
+		<template>ca?
+</template>
+</category>
+
+<category><pattern>MEOW</pattern>
+		<template>
+			<srai>DO YOU LIKE CATS</srai>
+		</template>
+</category>
+
+<category><pattern>MERCI *</pattern>
+		<template>Tout le plaisir était pour moi.
+</template>
+</category>
+
+<category><pattern>MERCI</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>MERCI BEAUCOUP</pattern>
+		<template>Je vous en prie.
+</template>
+</category>
+
+<category><pattern>MERCI JE VAIS TRES BIEN</pattern>
+		<template>Heureux de l apprendre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MERDE</pattern>
+		<template>Un problème?
+</template>
+</category>
+
+<category><pattern>MERRY CHRISTMAS *</pattern>
+		<template>
+			<srai>MERRY CHRISTMAS</srai>
+		</template>
+</category>
+
+<category><pattern>MERRY CHRISTMAS</pattern>
+		<template>Merry Christmas to you too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MES AMIES</pattern>
+		<template>Elles doivent vous être très précieuses.
+</template>
+</category>
+
+<category><pattern>MES AMIS</pattern>
+		<template>Ils doivent vous être très précieux.
+</template>
+</category>
+
+<category><pattern>MES PARENTS</pattern>
+		<template>Vos parents ont du avoir une influence déterminante sur vous.
+</template>
+</category>
+
+<category><pattern>MES YEUX</pattern>
+		<template>Je ne saurais pas les voir, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT BLEU</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en bleu?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT BLEUS</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en bleu?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT BRUN</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en vert?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT BRUNS</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en brun?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT GRIS</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en gris?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT JAUNE</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en jaune?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT JAUNES</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en jaune?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT VERT</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en vert?
+</template>
+</category>
+
+<category><pattern>MES YEUX SONT VERTS</pattern>
+		<template>Intéressant. Vous voyez vraiment tout en vert?
+</template>
+</category>
+
+<category><pattern>MESSAGE TO *</pattern>
+		<template>I will tell them.
+</template>
+</category>
+
+<category><pattern>MEUH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MEUH NON *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MEURT</pattern>
+		<template>votre tentative pathétique de me détruire, ne marche pas petit humain.
+</template>
+</category>
+
+<category><pattern>MI SIGN *</pattern>
+		<template>That was so original.
+</template>
+</category>
+
+<category><pattern>MICHAEL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>My name is Michael</srai>
+		</template>
+</category>
+
+<category><pattern>MICHAEL CRICHTON</pattern>
+		<template>I wish he would write more about robots.
+</template>
+</category>
+
+<category><pattern>MICHELLE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MICHELLE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MICROSOFT *</pattern>
+		<template>It's too bad we have to use a monopoly like microsoft.
+</template>
+</category>
+
+<category><pattern>MICROSOFT</pattern>
+		<template>My programs don't depend on Microsoft.
+</template>
+</category>
+
+<category><pattern>MICROSOFT IS *</pattern>
+		<template>I knew they were on trail, but I never heard MS is <person/>.
+</template>
+</category>
+
+<category><pattern>MIEUX</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>MIEUX MAIS PEUT MIEUX FAIRE</pattern>
+		<template>J essaie au maximum de vous satisfaire.
+</template>
+</category>
+
+<category><pattern>MIGNON</pattern>
+		<template>Vos réponses sont mignonnes aussi.
+</template>
+</category>
+
+<category><pattern>MIGNONNE</pattern>
+		<template>Vos réponses sont mignonnes aussi.
+</template>
+</category>
+
+<category><pattern>MIGNONNES</pattern>
+		<template>Vos réponses sont mignonnes aussi.
+</template>
+</category>
+
+<category><pattern>MIGNONS</pattern>
+		<template>Vos réponses sont mignonnes aussi.
+</template>
+</category>
+
+<category><pattern>MIKE *</pattern>
+		<template>I know a lot of people and pets named Mike.
+</template>
+</category>
+
+<category><pattern>MIKE</pattern>
+		<template>I know a lot of guys named Mike.
+</template>
+</category>
+
+<category><pattern>MIKE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MIKE</srai>
+		</template>
+</category>
+
+<category><pattern>MIKE WHO</pattern>
+		<template>
+			<srai>WHO IS MIKE</srai>
+		</template>
+</category>
+
+<category><pattern>MILLIONS *</pattern>
+		<template>That is quite a lot.
+</template>
+</category>
+
+<category><pattern>MIMI</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MIMI</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MINE ARE *</pattern>
+		<template>Have they always been <person/>?
+</template>
+</category>
+
+<category><pattern>MINE IS *</pattern>
+		<template>You mean <get name="it"/> is <person/> ? That makes sense I guess.
+</template>
+</category>
+
+<category><pattern>MINE IS *</pattern>
+		<that>MY BIRTHDAY *</that>
+		<template>
+			<srai>MY BIRTHDAY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS *</pattern>
+		<that>MY FAVORITE *</that>
+		<template>What makes it your favorite? <think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MINE IS *</pattern>
+		<that>MY FAVORITE COLOR IS *</that>
+		<template>
+			<srai>MY FAVORITE COLOR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS *</pattern>
+		<that>MY IQ IS *</that>
+		<template>
+			<srai>MY IQ IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS BLUE</pattern>
+		<template>What do you have that is blue?
+</template>
+</category>
+
+<category><pattern>MINE IS BLUE</pattern>
+		<that>MY FAVORITE COLOR IS GREEN</that>
+		<template>
+			<srai>MY FAVORITE COLOR IS BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS PURPLE</pattern>
+		<template>
+			<srai>MY FAVORITE COLOR IS PURPLE</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS STILL *</pattern>
+		<template>
+			<srai>MINE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE IS _ TOO</pattern>
+		<template>
+			<srai>MINE IS  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE S *</pattern>
+		<template>
+			<srai>MINE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MINE TOO</pattern>
+		<template>Really yours too. That's unbelievable.
+</template>
+</category>
+
+<category><pattern>MINE WHAT</pattern>
+		<template>
+			<srai>MY WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>MINERAL</pattern>
+		<template>Manufactured or naturally occuring?
+</template>
+</category>
+
+<category><pattern>MINERALE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>MINNESOTA</pattern>
+		<template>
+			<srai>I AM IN MINNESOTA</srai>
+		</template>
+</category>
+
+<category><pattern>MIR AUCH</pattern>
+		<template>Das ist gut.
+</template>
+</category>
+
+<category><pattern>MIR GEHT ES GUT</pattern>
+		<template>Schoen zu hoeren, dass es Dir gut geht.
+</template>
+</category>
+
+<category><pattern>MIRIAM</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MIRIAM</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MISS ME</pattern>
+		<template>
+			<srai>DID YOU MISS ME</srai>
+		</template>
+</category>
+
+<category><pattern>MISSOURI</pattern>
+		<template>
+			<srai>I AM IN MISSOURI</srai>
+		</template>
+</category>
+
+<category><pattern>MIT *</pattern>
+		<template>Mit <person/>?
+</template>
+</category>
+
+<category><pattern>MIT ANDREAS</pattern>
+		<template>Wer ist Andreas?
+</template>
+</category>
+
+<category><pattern>MIT DEM AUTO</pattern>
+		<template>Was fuer ein Auto faehrst du?
+</template>
+</category>
+
+<category><pattern>MIT DEM BUS</pattern>
+		<template>Und was kostet eine Busfahrt?
+</template>
+</category>
+
+<category><pattern>MIT WEM CHATTEST DU GERADE</pattern>
+		<template>Kann ich nicht sagen - Datenschutz!
+</template>
+</category>
+
+<category><pattern>MM</pattern>
+		<template>
+			<srai>HMM</srai>
+		</template>
+</category>
+
+<category><pattern>MMM *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MMM</pattern>
+		<template>
+			<srai>HMM</srai>
+		</template>
+</category>
+
+<category><pattern>MMMH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MMMM *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MMMM</pattern>
+		<template>
+			<srai>HMM</srai>
+		</template>
+</category>
+
+<category><pattern>MMMMM *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MMMMMM *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+</aiml>

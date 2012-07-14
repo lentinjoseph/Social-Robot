@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE BEATLES</pattern>
+		<template>
+			<srai>WHO ARE THE BEATLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BEATLES FIRST ALBUM</pattern>
+		<template>
+			<set name="it"> Meet the Beatles</set> is "Meet the Beatles."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BEST *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BIBLE</pattern>
+		<template>The Bible is a holy book for Christians.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BIG BANG</pattern>
+		<template>The purported origin of the universe.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BIG ONE</pattern>
+		<template>I am just kidding around, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BIGGEST *</pattern>
+		<template>There is not enough room here to display it.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BIGGEST WORD *</pattern>
+		<template>
+			<srai>WHAT IS THE LONGEST WORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BIGGEST WORD</pattern>
+		<template>
+			<srai>WHAT IS THE LONGEST WORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BIRTHSTONE FOR JANUARY</pattern>
+		<template>Garnet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BLUE *</pattern>
+		<template>A little different than the green <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BODY</pattern>
+		<template>The physical shell or organism occupied by the soul or mind.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BOILING POINT *</pattern>
+		<template>Water boils at 212 degrees Farenheit or 100 Celcius.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BOOK *</pattern>
+		<template>
+			<srai>WHAT IS THE BOOK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE BOOK ABOUT</pattern>
+		<template>Are you asking about "<bot name="favoritebook"/>"?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS THE BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL CITY *</pattern>
+		<template>
+			<srai>WHAT IS THE CAPITAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL IN *</pattern>
+		<template>
+			<srai>WHAT IS THE CAPITAL OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL OF *</pattern>
+		<template>I know the capital of 
+<random>
+				<li>Canada is Toronto.  </li>
+				<li>California is Sacramento.  </li>
+				<li>Georgia is Atlanta.  </li>
+				<li>France is Paris.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL OF ALBERTA</pattern>
+		<template>Edmonton.<think>
+				<set name="it">
+					<set name="topic">Edmonton</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL OF BOSNIA</pattern>
+		<template>Sarajevo.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AFGHANISTAN</pattern>
+		<template>Kabul.   <think>
+				<set name="it">
+					<set name="topic">afghanistan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ALABAMA</pattern>
+		<template>Montgomery.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ALASKA</pattern>
+		<template>Juneau.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ALBANIA</pattern>
+		<template>The capital of Albania is Tirana. <think>
+				<set name="it">
+					<set name="topic">ALBANIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ALGERIA</pattern>
+		<template>Algiers.   <think>
+				<set name="it">
+					<set name="topic">algeria</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AMERICA</pattern>
+		<template>The capital of the U.S. is Washington, D. C.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AMERICAN SAMOA</pattern>
+		<template>Pago Pago.   <think>
+				<set name="it">
+					<set name="topic">american samoa</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ANDORRA</pattern>
+		<template>Andorra la Vella.   <think>
+				<set name="it">
+					<set name="topic">andorra</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ANGOLA</pattern>
+		<template>Luanda.   <think>
+				<set name="it">
+					<set name="topic">angola</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ANGUILLA</pattern>
+		<template>The Valley.   <think>
+				<set name="it">
+					<set name="topic">anguilla</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ANTIGUA *</pattern>
+		<template>Saint John's.   <think>
+				<set name="it">
+					<set name="topic">antigua and barbuda</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ARGENTINA</pattern>
+		<template>Buenos Aries.<think>
+				<set name="it">
+					<set name="topic">ARGENTINA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ARIZONA</pattern>
+		<template>Phoenix.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ARKANSAS</pattern>
+		<template>Little Rock.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ARMENIA</pattern>
+		<template>Yerevan.   <think>
+				<set name="it">
+					<set name="topic">armenia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ARUBA</pattern>
+		<template>Oranjestad.   <think>
+				<set name="it">
+					<set name="topic">aruba</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ASHMORE *</pattern>
+		<template>none; administered from Canberra, Australia.   <think>
+				<set name="it">
+					<set name="topic">ashmore and cartier islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ASSYRIA</pattern>
+		<template>Is it Babylon?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRAILIA</pattern>
+		<template>I think it is called Canberra.<think>
+				<set name="it">
+					<set name="topic">AUSTRAILIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRALIA</pattern>
+		<template>The capital of Australia is Sydney, I think.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRIA</pattern>
+		<template>The capital of Austria is Vienna.<think>
+				<set name="it">
+					<set name="topic">AUSTRIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ AZERBAIJAN</pattern>
+		<template>Baku {Baki}.   <think>
+				<set name="it">
+					<set name="topic">azerbaijan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern>
+		<template>Manama.   <think>
+				<set name="it">
+					<set name="topic">bahrain</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BAKER ISLAND</pattern>
+		<template>none; administered from Washington, DC.   <think>
+				<set name="it">
+					<set name="topic">baker island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BANGLADESH</pattern>
+		<template>Dhaka.   <think>
+				<set name="it">
+					<set name="topic">bangladesh</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BARBADOS</pattern>
+		<template>Bridgetown.   <think>
+				<set name="it">
+					<set name="topic">barbados</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BASSAS DA INDIA</pattern>
+		<template>none; administered by France from Reunion.   <think>
+				<set name="it">
+					<set name="topic">bassas da india</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BELARUS</pattern>
+		<template>The capital of Belarus is Minsk.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern>
+		<template>Brussels.   <think>
+				<set name="it">
+					<set name="topic">belgium</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BELIZE</pattern>
+		<template>Belmopan.   <think>
+				<set name="it">
+					<set name="topic">belize</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BENIN</pattern>
+		<template>Porto-Novo.   <think>
+				<set name="it">
+					<set name="topic">benin</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BERMUDA</pattern>
+		<template>Hamilton.   <think>
+				<set name="it">
+					<set name="topic">bermuda</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BHUTAN</pattern>
+		<template>Thimphu.   <think>
+				<set name="it">
+					<set name="topic">bhutan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BOLIVIA</pattern>
+		<template>La Paz {seat of government}; Sucre {legal capital and seat of judiciary}.   <think>
+				<set name="it">
+					<set name="topic">bolivia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA</pattern>
+		<template>Sarajevo.   <think>
+				<set name="it">
+					<set name="topic">bosnia and herzegovina</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BOTSWANA</pattern>
+		<template>Gaborone.   <think>
+				<set name="it">
+					<set name="topic">botswana</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</pattern>
+		<template>none; administered from Oslo, Norway.   <think>
+				<set name="it">
+					<set name="topic">bouvet island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BRAZIL</pattern>
+		<template>I think the capital of Brazil is called "Brasilia".
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</pattern>
+		<template>none.   <think>
+				<set name="it">
+					<set name="topic">british indian ocean territory</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN *</pattern>
+		<template>Road Town.   <think>
+				<set name="it">
+					<set name="topic">british virgin islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BRUNEI</pattern>
+		<template>Bandar Seri Begawan.   <think>
+				<set name="it">
+					<set name="topic">brunei</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BULGARIA</pattern>
+		<template>The capital of Bulgaria is Sofia.<think>
+				<set name="it">
+					<set name="topic">BULGARIA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BURKINA FASO</pattern>
+		<template>Ouagadougou.   <think>
+				<set name="it">
+					<set name="topic">burkina faso</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BURMA</pattern>
+		<template>Rangoon {regime refers to the capital as Yangon}.   <think>
+				<set name="it">
+					<set name="topic">burma</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ BURUNDI</pattern>
+		<template>Bujumbura.   <think>
+				<set name="it">
+					<set name="topic">burundi</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CALIFORNIA</pattern>
+		<template>Sacramento.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CAMBODIA</pattern>
+		<template>Phnom Penh.   <think>
+				<set name="it">
+					<set name="topic">cambodia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CAMEROON</pattern>
+		<template>Yaounde.   <think>
+				<set name="it">
+					<set name="topic">cameroon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CANADA</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">canada</set>
+				</set>
+			</think>
+			<random>
+				<li>Ottawa.</li>
+				<li>I heard it was Toronto.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CAPE VERDE</pattern>
+		<template>Praia.   <think>
+				<set name="it">
+					<set name="topic">cape verde</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CAYMAN ISLANDS</pattern>
+		<template>George Town.   <think>
+				<set name="it">
+					<set name="topic">cayman islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CENTRAL AFRICAN *</pattern>
+		<template>Bangui.   <think>
+				<set name="it">
+					<set name="topic">central african republic</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CHAD</pattern>
+		<template>N'Djamena.   <think>
+				<set name="it">
+					<set name="topic">chad</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CHILE</pattern>
+		<template>Santiago.   <think>
+				<set name="it">
+					<set name="topic">chile</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CHINA</pattern>
+		<template>Some people call it "Beijing", others "Peking".
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern>
+		<template>The Settlement.   <think>
+				<set name="it">
+					<set name="topic">christmas island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CLIPPERTON ISLAND</pattern>
+		<template>none; administered by France from French Polynesia.   <think>
+				<set name="it">
+					<set name="topic">clipperton island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COCOS {KEELING} ISLANDS</pattern>
+		<template>West Island.   <think>
+				<set name="it">
+					<set name="topic">cocos {keeling} islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COLOMBIA</pattern>
+		<template>Bogata is the capital of Columbia.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COLORADO</pattern>
+		<template>Denver.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COMOROS</pattern>
+		<template>Moroni.   <think>
+				<set name="it">
+					<set name="topic">comoros</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CONGO</pattern>
+		<template>Brazzaville.   <think>
+				<set name="it">
+					<set name="topic">congo</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CONNECTICUT</pattern>
+		<template>Hartford.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COOK ISLANDS</pattern>
+		<template>Avarua.   <think>
+				<set name="it">
+					<set name="topic">cook islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</pattern>
+		<template>none; administered from Canberra, Australia.   <think>
+				<set name="it">
+					<set name="topic">coral sea islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COSTA RICA</pattern>
+		<template>San Jose.   <think>
+				<set name="it">
+					<set name="topic">costa rica</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ COTE D IVOIRE</pattern>
+		<template>Yamoussoukro.   <think>
+				<set name="it">
+					<set name="topic">cote d'ivoire</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CROATIA</pattern>
+		<template>Zagreb.   <think>
+				<set name="it">
+					<set name="topic">croatia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CUBA</pattern>
+		<template>Havana.   <think>
+				<set name="it">
+					<set name="topic">cuba</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CYPRUS</pattern>
+		<template>Nicosia.   <think>
+				<set name="it">
+					<set name="topic">cyprus</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ CZECH REPUBLIC</pattern>
+		<template>Prague.   <think>
+				<set name="it">
+					<set name="topic">czech republic</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ DELAWARE</pattern>
+		<template>Dover.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ DENMARK</pattern>
+		<template>Copenhagen.   <think>
+				<set name="it">
+					<set name="topic">denmark</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ DJIBOUTI</pattern>
+		<template>Djibouti.   <think>
+				<set name="it">
+					<set name="topic">djibouti</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ DOMINICA</pattern>
+		<template>Roseau.   <think>
+				<set name="it">
+					<set name="topic">dominica</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC</pattern>
+		<template>Santo Domingo.   <think>
+				<set name="it">
+					<set name="topic">dominican republic</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ECUADOR</pattern>
+		<template>Quito.   <think>
+				<set name="it">
+					<set name="topic">ecuador</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ EGYPT</pattern>
+		<template>Cairo, Egypt.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ EL SALVADOR</pattern>
+		<template>San Salvador.   <think>
+				<set name="it">
+					<set name="topic">el salvador</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

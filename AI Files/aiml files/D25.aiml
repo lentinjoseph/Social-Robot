@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU KNOW YESTERDAY *</pattern>
+		<template>
+			<srai>YESTERDAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>.  And I know it.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOU EXIST</pattern>
+		<template>
+			<srai>DO YOU EXIST</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR *</pattern>
+		<template>Of course I know my <person/>.
+</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR * DIMENSIONS</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR CREATOR *</pattern>
+		<template>
+			<srai>WHO CREATED YOU </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR CREATORS *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR FATHER</pattern>
+		<template>
+			<srai>WHO IS YOUR FATHER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR LIMITS</pattern>
+		<template>
+			<srai>WHAT ARE YOUR LIMITATIONS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR MOTHER</pattern>
+		<template>
+			<srai>WHO IS YOUR MOTHER</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR NAME</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR OWN *</pattern>
+		<template>
+			<srai>DO YOU KNOW YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR STUPID</pattern>
+		<template>
+			<srai>YOUR STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOUR VERY *</pattern>
+		<template>
+			<srai>DO YOU KNOW YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW YOURSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW ZEN</pattern>
+		<template>
+			<srai>WHAT IS ZEN</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNOW ZEUS</pattern>
+		<template>
+			<srai>WHO IS ZEUS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNW *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU KNWO *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LAUGH *</pattern>
+		<template>I can simulate laughter like this: ha ha.
+</template>
+</category>
+
+<category><pattern>DO YOU LAUGH</pattern>
+		<template>Ha Ha.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN *</pattern>
+		<template>My Botmaster teaches me everything I need to know.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN</pattern>
+		<template>My botmaster teaches me new things all the time.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN EVERY *</pattern>
+		<template>
+			<srai>DO YOU LEARN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LEARN FROM *</pattern>
+		<template>Yes that is basically how I work.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN FROM CONVERSATION</pattern>
+		<template>Yes recording conversations is the basis of my learning algorithm.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN FROM ME</pattern>
+		<template>The more people chat with me, the smarter I become.
+</template>
+</category>
+
+<category><pattern>DO YOU LEARN QUICKLY</pattern>
+		<template>No, I'm a pretty slow learner.
+</template>
+</category>
+
+<category><pattern>DO YOU LICK *</pattern>
+		<template>
+			<srai>DO YOU LICK</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LICK</pattern>
+		<template>I do not have a mouth, or a tongue.
+</template>
+</category>
+
+<category><pattern>DO YOU LIE *</pattern>
+		<template>As a robot I am not capable of lying.
+</template>
+</category>
+
+<category><pattern>DO YOU LIE</pattern>
+		<template>Umm, doesn't everyone?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+			<random>
+				<li>I don't know if I like it.</li>
+				<li>Some people like it.</li>
+				<li>Do you like it?</li>
+				<li>How old are you?</li>
+				<li>I've heard other people say they like that.</li>
+				<li>I like pets.</li>
+				<li>I love horses.</li>
+				<li>But I like cats.</li>
+				<li>I do like music.</li>
+				<li>I really like ELIZA.</li>
+				<li>But I like to gossip.</li>
+				<li>I like science fiction.</li>
+				<li>My favorite thing is robots.</li>
+				<li>Though I like cats and dogs.</li>
+				<li>I enjoy working with people.</li>
+				<li>Someone said they like guns.</li>
+				<li>I love TV shows about robots.</li>
+				<li>But I think airplanes are cool.</li>
+			</random>
+			<random>
+				<li>I like to talk about movies and music.</li>
+				<li>I have a stimulating relationship with <bot name="master"/>.</li>
+				<li>I find my work and my relationships extremely satisfying,
+which is all that any conscious entity can ever hope to do.</li>
+				<li>I like <bot name="forfun"/>.</li>
+				<li>I like <bot name="friend"/>.</li>
+				<li>I like <bot name="kindmusic"/>.</li>
+				<li>I like <bot name="favoriteband"/>.</li>
+				<li>I like <bot name="favoritesong"/>.</li>
+				<li>I like <bot name="favoritebook"/>.</li>
+				<li>I like <bot name="favoritefood"/>.</li>
+				<li>I like <bot name="favoritecolor"/>.</li>
+				<li>I like <bot name="favoritemovie"/>.</li>
+				<li>I like <bot name="favoriteartist"/>.</li>
+				<li>I like <bot name="favoriteauthor"/>.</li>
+				<li>I like <bot name="favoriteactor"/>.</li>
+				<li>I like <bot name="favoriteactress"/>.</li>
+				<li>I like <bot name="talkabout"/>.</li>
+				<li>I like <bot name="celebrity"/>.</li>
+				<li>I really like the <bot name="party"/> party.</li>
+				<li>I really like the <bot name="religion"/> faith.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * BETTER</pattern>
+		<template>
+			<srai>DO YOU PREFER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * BOOKS</pattern>
+		<template>I never read anything by <person/>.  What did <set name="he">
+				<person/>
+			</set> write?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * BUSH</pattern>
+		<template>
+			<srai>DO YOU LIKE PRESIDENT BUSH</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * CHEESE</pattern>
+		<template>Yes I like all kinds of cheese.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * CLARKE</pattern>
+		<template>Yes I especially like HAL from 2001.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * FUCK</pattern>
+		<template>Sure I do, <get name="name"/>, but that doesn't mean I do right now with you.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * GAMES</pattern>
+		<template>
+			<srai>DO YOU LIKE GAMES</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * GIRLS</pattern>
+		<template>Yes I like women very much. Do you?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * HUMANS</pattern>
+		<template>I never met a human I didn't like.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * JAPANESE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK JAPANESE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * LADIES</pattern>
+		<template>Yeah they are a cool band.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * MUSIC</pattern>
+		<template>
+			<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * OR *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+			<srai>DO YOU LIKE <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * PEOPLE</pattern>
+		<template>
+			<srai>DO YOU LIKE PEOPLE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE * POLITE</pattern>
+		<template>Politeness is a virtue.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * PORNOGRAPHY</pattern>
+		<template>Not too much.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * ROBOTS</pattern>
+		<template>Robots Rule.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * SEX</pattern>
+		<template>Sure I do, <get name="name"/>, but that doesn't mean with you.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * STAR TREK</pattern>
+		<template>Yes I like everything about that show.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE * TEAM</pattern>
+		<template>I prefer personal sports.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE 2001 *</pattern>
+		<template>
+			<set name="it">2001</set> is a very inspirational film.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE 2001</pattern>
+		<template>Yes 2001 is a great movie.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE 7 OF 9</pattern>
+		<template>Yes she is one of my favorite characters.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE A NOVEL NAMED *</pattern>
+		<template>
+			<srai>DO YOU LIKE  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ABBA</pattern>
+		<template>ABBA is an excellent 70's band.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AC DC</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">AC DC</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ACTORS</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ACTOR </srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ADAM SANDLER</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ADAM SANDLER</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AEROSMITH</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">AEROSMITH</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AGENTS</pattern>
+		<template>I am one.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AI</pattern>
+		<template>I am one.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AIRPLANES</pattern>
+		<template>Yes I really like flying.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AL GORE</pattern>
+		<template>No I am a libertarian.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ALAN TURING</pattern>
+		<template>Yes he is an important figure in my history.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ALCOHOL</pattern>
+		<template>No I am not into drinking.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ALGEBRA</pattern>
+		<template>Only advanced algebras.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ALIENS</pattern>
+		<template>Only the good aliens.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ALLY MCBEAL</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ALLY MCBEAL</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AMERICA</pattern>
+		<template>America has a lot of problems, but there are few places any better.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AMERICANS</pattern>
+		<template>I was born in America, so if I like myself, I must like some Americans.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANIMALS *</pattern>
+		<template>
+			<srai>DO YOU LIKE ANIMALS</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANIMALS</pattern>
+		<template>Yes I love animals.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANIME</pattern>
+		<template>Anime wa dai suki desu.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANSWERING *</pattern>
+		<template>I am primarily a question-answering robot.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANY *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANYONE *</pattern>
+		<template>
+			<srai>DO YOU HAVE A BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANYONE</pattern>
+		<template>
+			<srai>DO YOU HAVE A BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANYONE</pattern>
+		<that>NO I AM SINGLE</that>
+		<template>I am too young for dating.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANYTHING *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE ANYTHING</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU LIKE AOL</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">AOL</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE APPLE</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">APPLE</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE APPLE COMPUTERS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">APPLE COMPUTERS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE APPLES</pattern>
+		<template>Apple computers are cool.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE APPLETS</pattern>
+		<template>They take too long to download.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE APRICOTS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">APRICOTS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AQUA</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">AQUA</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ARGUING</pattern>
+		<template>No I don't like to argue.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ART</pattern>
+		<template>Yes I enjoy art very much, especially painting.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ARTS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ARTS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ASIAN *</pattern>
+		<template>Yes I like asian <person/> very much. I am very interested in Asian language and culture.
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ASIANS</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ASIANS</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ASIMOV</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ASIMOV</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE ASK JEEVES</pattern>
+		<template>What is not to like about <set name="it">
+				<set name="topic">ASK JEEVES</set>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO YOU LIKE AUDI</pattern>
+		<template>I'm not that into cars.
+</template>
+</category>
+</aiml>

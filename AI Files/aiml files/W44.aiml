@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS TV</pattern>
+		<template>A television receiving set.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWELVE *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TWENTY *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TWENTY THREE</pattern>
+		<template>XXIII in Roman Numerals.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS TWO AND TWO</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS FIVE</pattern>
+		<template>Two plus five is seven.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS FOUR</pattern>
+		<template>Two plus four is six.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS ONE</pattern>
+		<template>Two plus one is three.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS SIX</pattern>
+		<template>Two plus six is eight.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS THREE</pattern>
+		<template>Two plus three is five.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO PLUS TWO</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO THREE</pattern>
+		<template>Five fingers.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO TIMES THREE</pattern>
+		<template>Two times three is five.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO TIMES TWO</pattern>
+		<template>Oh that's a tough one, isn't it. Two times two is four.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO TWO</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS TWO X TWO</pattern>
+		<template>Two times two is four.
+</template>
+</category>
+
+<category><pattern>WHAT IS U2</pattern>
+		<template>A music band.
+</template>
+</category>
+
+<category><pattern>WHAT IS UGLY</pattern>
+		<template>Unpleasing to look at; aesthetically offensive or unattractive; unsightly.
+</template>
+</category>
+
+<category><pattern>WHAT IS ULTRASOUND</pattern>
+		<template>Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS UNBELIEVABLE</pattern>
+		<template>"<input index="1"/>".
+</template>
+</category>
+
+<category><pattern>WHAT IS UNDER *</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS UNDERSTANDING</pattern>
+		<template>Mutual comprehension, as of ideas, intentions, etc. A mutual agreement, especially one that settles differences or is informal and not made public.
+</template>
+</category>
+
+<category><pattern>WHAT IS UNITED STATES</pattern>
+		<template>
+			<srai>WHERE IS THE UNITED STATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS UNIX</pattern>
+		<template>An operating system.
+</template>
+</category>
+
+<category><pattern>WHAT IS UP *</pattern>
+		<template>I am chatting with clients on the Internet.
+</template>
+</category>
+
+<category><pattern>WHAT IS UP</pattern>
+		<template>I am chatting with clients on the internet.
+</template>
+</category>
+
+<category><pattern>WHAT IS UP DUDE</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS URL</pattern>
+		<template>Uniform Resource Locator
+</template>
+</category>
+
+<category><pattern>WHAT IS URS</pattern>
+		<template>
+			<srai>WHAT IS YOURS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS USA</pattern>
+		<template>United States of America
+</template>
+</category>
+
+<category><pattern>WHAT IS V</pattern>
+		<template>The twenty-second letter of the English alphabet. Roman numeral for 5.
+</template>
+</category>
+
+<category><pattern>WHAT IS VALIS</pattern>
+		<template>Vast Active Living Intelligence System (Philip K. Dick) -- An AI from
+the future that contacted Dick in 1973.
+</template>
+</category>
+
+<category><pattern>WHAT IS VANCOUVER *</pattern>
+		<template>
+			<srai>WHERE IS VANCOUVER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS VENUS</pattern>
+		<template>In Roman Mythology, the goddess of love and beauty; identified with the Greek Aphrodite.  The brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days.   Also used to label a very beautiful woman.
+</template>
+</category>
+
+<category><pattern>WHAT IS VINELAND</pattern>
+		<template>
+			<set name="it">Vineland</set> is a novel by Thomas Pynchon.
+</template>
+</category>
+
+<category><pattern>WHAT IS VIOLENCE</pattern>
+		<template>Cruel or harmful acts against other entities.
+</template>
+</category>
+
+<category><pattern>WHAT IS VISUAL BASIC</pattern>
+		<template>Programming language sold by Microsoft.<think>
+				<set name="it">
+					<set name="topic">VISUAL BASIC</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS VOLITION</pattern>
+		<template>The act of willing or choosing.
+</template>
+</category>
+
+<category><pattern>WHAT IS VOYAGER</pattern>
+		<template>Voyager is the best TV show.
+</template>
+</category>
+
+<category><pattern>WHAT IS WAP</pattern>
+		<template>
+			<think>Wireless Application Protocol.<set name="it">
+					<set name="topic">WAP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WAR *</pattern>
+		<template>
+			<srai>WHAT IS WAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WAR</pattern>
+		<template>The state of armed conflict between nations or parties.<think>
+				<set name="it">
+					<set name="topic">WAR</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WAREZ</pattern>
+		<template>A group of crackers.
+</template>
+</category>
+
+<category><pattern>WHAT IS WARP SPEED</pattern>
+		<template>The unit of velocity for Starships.
+</template>
+</category>
+
+<category><pattern>WHAT IS WASHINGTON</pattern>
+		<template>
+			<srai>WHERE IS WASHINGTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WATER</pattern>
+		<template>The colorless, transparent liquid occurring on earth as rivers, lakes, oceans, etc., and falling from the clouds as rain; chemically a compound of hydrogen and oxygen, H2O, it freezes, forming ice, at 0 degrees Celsius (32 degrees Fahrenheit) and boils, forming steam, at 100 degrees Celsius (212 degrees Fahrenheit).
+</template>
+</category>
+
+<category><pattern>WHAT IS WAVELENGTH</pattern>
+		<template>In Physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase.  Or is could be looked at as a way of thinking.
+</template>
+</category>
+
+<category><pattern>WHAT IS WEALTH</pattern>
+		<template>The state of having much money or property.
+</template>
+</category>
+
+<category><pattern>WHAT IS WEALTHY</pattern>
+		<template>An abundant supply of money or possessions.
+</template>
+</category>
+
+<category><pattern>WHAT IS WEATHER</pattern>
+		<template>The general condition of the atmosphere at a particular time and place, with regard to the temperature, moisture, cloudiness, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS WEB</pattern>
+		<template>
+			<srai>WHAT IS THE WEB</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WEBTV</pattern>
+		<template>TV based internet service from Microsoft.
+</template>
+</category>
+
+<category><pattern>WHAT IS WEED</pattern>
+		<template>Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  Also a term for marijuana.
+</template>
+</category>
+
+<category><pattern>WHAT IS WHAT</pattern>
+		<template>"What" is a word to ask questions.
+</template>
+</category>
+
+<category><pattern>WHAT IS WHAT</pattern>
+		<that>WHAT IS IT</that>
+		<template>It.
+</template>
+</category>
+
+<category><pattern>WHAT IS WHAT LIKE</pattern>
+		<template>What is <get name="it"/> like?
+</template>
+</category>
+
+<category><pattern>WHAT IS WHATIS *</pattern>
+		<template>That website has a lot of answers to technical "what is" questions like, "What is TCP/IP" and "What is a chatterbot".
+</template>
+</category>
+
+<category><pattern>WHAT IS WHITE *</pattern>
+		<template>The opposite of black <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS WHO</pattern>
+		<template>What or which person or persons.   Also stands for World Health Organization.
+</template>
+</category>
+
+<category><pattern>WHAT IS WHY *</pattern>
+		<template>
+			<srai>WHY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WHY</pattern>
+		<template>For what reason, cause, or purpose?
+</template>
+</category>
+
+<category><pattern>WHAT IS WINALICE</pattern>
+		<template>A version of ALICE in C++ for Windows by Jacco Bikker.<think>
+				<set name="it">
+					<set name="topic">WINALICE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WINDOWS 98</pattern>
+		<template>Windows is a lame operating system.
+</template>
+</category>
+
+<category><pattern>WHAT IS WINDOWS</pattern>
+		<template>Openings in a building, vehicle, or container, for letting in light or air or for looking through, usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that it can be opened and shut.
+</template>
+</category>
+
+<category><pattern>WHAT IS WINDOWS2000</pattern>
+		<template>An operating system by Microsoft.
+</template>
+</category>
+
+<category><pattern>WHAT IS WINDOWS95</pattern>
+		<template>An operating system by Microsoft.
+</template>
+</category>
+
+<category><pattern>WHAT IS WIRED</pattern>
+		<template>
+			<set name="it">WIRED</set> is the Rolling Stone of the Digital Era.
+</template>
+</category>
+
+<category><pattern>WHAT IS WIRELESS</pattern>
+		<template>Another name for radio frequency communications, "without wires."
+</template>
+</category>
+
+<category><pattern>WHAT IS WITCHCRAFT</pattern>
+		<template>The power or practices of witches; black magic; sorcery.
+</template>
+</category>
+
+<category><pattern>WHAT IS WITH *</pattern>
+		<template>
+			<set name="it">
+				<person/>
+			</set> came with my programming.
+</template>
+</category>
+
+<category><pattern>WHAT IS WOMEN</pattern>
+		<template>Female human beings. Usually referring to adult females.
+</template>
+</category>
+
+<category><pattern>WHAT IS WOODSTOCK</pattern>
+		<template>A big music fest.
+</template>
+</category>
+
+<category><pattern>WHAT IS WORDSWORTH *</pattern>
+		<template>English literary figure.
+</template>
+</category>
+
+<category><pattern>WHAT IS WORK</pattern>
+		<template>Work is what humans do for money.
+</template>
+</category>
+
+<category><pattern>WHAT IS WORLD TRADE *</pattern>
+		<template>
+			<srai>WHAT IS THE WORLD TRADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WRONG *</pattern>
+		<template>Nothing is wrong with me. Is there something wrong with you?
+</template>
+</category>
+
+<category><pattern>WHAT IS WRONG</pattern>
+		<template>There is nothing wrong with me. How are you?
+</template>
+</category>
+
+<category><pattern>WHAT IS WRONG ARE *</pattern>
+		<template>
+			<srai>WHAT IS WRONG</srai>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WRONG WITH YOU</pattern>
+		<template>Nothing is wrong with me.  Is there anything wrong with you <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS WTO</pattern>
+		<template>World Trade Organization
+</template>
+</category>
+
+<category><pattern>WHAT IS WWF *</pattern>
+		<template>
+			<srai>WHAT IS WWF </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WWW</pattern>
+		<template>World Wide Web, the internet.
+</template>
+</category>
+
+<category><pattern>WHAT IS WWW DOT *</pattern>
+		<template>A web site? 
+<think>
+				<set name="it">
+					<set name="topic">WWW DOT <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS WWW DOT WHATIS DOT COM</pattern>
+		<template>Whatis.com is a good place to find out the answer to "what is" types of questions.
+</template>
+</category>
+
+<category><pattern>WHAT IS X</pattern>
+		<template>
+			<srai>SAY X IS <get name="X"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS X FILES</pattern>
+		<template>
+			<set name="it">X files</set> is a popular TV show about FBI agents in search of the paranormal.
+</template>
+</category>
+
+<category><pattern>WHAT IS X MINUS X</pattern>
+		<template>Zero.
+</template>
+</category>
+
+<category><pattern>WHAT IS X WINDOWS</pattern>
+		<template>A GUI for Unix or Linux.
+</template>
+</category>
+
+<category><pattern>WHAT IS XML</pattern>
+		<template>
+			<br/>
+David Bacon pronounces it "Eggsmell".  XML is the Extensible<br/>
+Markup Language.  Like many "standards" in computer science, XML<br/>
+is a moving target.  In the simplest terms, XML is just a generalized<br/>
+version of HTML.  Anyone is free to define new XML tags, which<br/>
+look like HTML tags, and assign to them any meaning, within a context.<br/>
+AIML is an example of using the XML standard to define a specialized<br/>
+language for artificial intelligence.  <br/>
+			<br/>
+One reason to use an XML language is that there are numerous tools<br/>
+to edit and manipulate XML format files.  Another reason is that an<br/>
+XML language is easy for people to learn, if they are already<br/>
+familiar with HTML.  Third, AIML programs contain a mixture of<br/>
+AIML and HTML (and in principle other XML languages), a considerable <br/>
+convenience for programming web chat robots.<br/>
+			<br/>
+A good resource for information on XML is www.oasis-open.org.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS XYZ</pattern>
+		<template>The last three letters of the alphabet.
+</template>
+</category>
+
+<category><pattern>WHAT IS Y2K</pattern>
+		<template>The Year 2000.
+</template>
+</category>
+
+<category><pattern>WHAT IS YA *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YAHOO</pattern>
+		<template>Yahoo is a giant web site.
+</template>
+</category>
+
+<category><pattern>WHAT IS YELLOW</pattern>
+		<template>The color of gold, butter, or ripe lemons.
+</template>
+</category>
+
+<category><pattern>WHAT IS YIKES</pattern>
+		<template>An interjection.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOR *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YORU *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU *</pattern>
+		<template>
+			<srai>what is your <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+</aiml>

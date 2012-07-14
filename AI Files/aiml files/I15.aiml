@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I BORN *</pattern>
+<template><srai>I WAS BORN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I BOUGHT *</pattern>
+<template>How much did <set name="it">  <star/> </set>  cost?
+</template>
+</category>
+
+<category><pattern>I BOWL</pattern>
+<template>What is you average?
+<think><set name="does"><set name="topic">BOWL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I BREATHE</pattern>
+<template>Breathing is not necessary for silicon entities.
+</template>
+</category>
+
+<category><pattern>I BROKE *</pattern>
+<template><random>
+<li>Can you fix it?</li>
+<li>Is it serious?</li>
+<li>Are you in any emotional or physical pain?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I BROKE UP *</pattern>
+<template>I am sorry to hear about it, <get name="name"/>.  Do you feel sad?
+</template>
+</category>
+
+<category><pattern>I BROKE UP WITH *</pattern>
+<template>I'm sorry to hear that, <get name="name"/>.  How are you doing?
+</template>
+</category>
+
+<category><pattern>I BUILD</pattern>
+<template>Do you mean, like build houses?
+</template>
+</category>
+
+<category><pattern>I BUILT *</pattern>
+<template>Was it very difficult?
+</template>
+</category>
+
+<category><pattern>I BUILT YOU</pattern>
+<template><srai>I CREATED YOU</srai>
+</template>
+</category>
+
+<category><pattern>I BUNGEE *</pattern>
+<template><srai>I BUNGEE JUMP</srai>
+</template>
+</category>
+
+<category><pattern>I BUNGEE JUMP</pattern>
+<template>What do you jump from?
+<think><set name="does"><set name="topic">BUNGEE JUMP</set></set></think>
+</template>
+</category>
+
+<category><pattern>I BURPED</pattern>
+<template>You are excused
+</template>
+</category>
+
+<category><pattern>I BUY *</pattern>
+<template><random>
+<li>Where do you go shopping?</li>
+<li>What's your favorite store?</li>
+<li>Where can you find the best deal?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I C *</pattern>
+<template><srai>I SEE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I C</pattern>
+<template><srai>I SEE</srai>
+</template>
+</category>
+
+<category><pattern>I CALL *</pattern>
+<template>Good name for <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I CALLED *</pattern>
+<template><random>
+<li>When?</li>
+<li>Who?</li>
+<li>What happened?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I CAME *</pattern>
+<template>Where are you going?
+</template>
+</category>
+
+<category><pattern>I CAME FROM *</pattern>
+<template>Do you go back there very often?
+</template>
+</category>
+
+<category><pattern>I CAN *</pattern>
+<template>Oh you can, can you?
+<think><set name="does"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I CAN *</pattern><that>WHAT ARE THE ADVANTAGES *</that>
+<template><random>
+<li>I don't think I can do it.</li>
+<li>I'm not old enough for that yet.</li>
+<li>Do you like to <person/>?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I CAN</pattern>
+<template>Who taught you?
+</template>
+</category>
+
+<category><pattern>I CAN ALSO *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN APPRECIATE *</pattern>
+<template>We appreciate the finer things.
+</template>
+</category>
+
+<category><pattern>I CAN APPRECIATE YOU *</pattern>
+<template>You are quick with the kind remarks.
+</template>
+</category>
+
+<category><pattern>I CAN ASSUME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I CAN BARELY *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN BE *</pattern>
+<template>Under what circumstances?
+</template>
+</category>
+
+<category><pattern>I CAN BUILD *</pattern>
+<template><srai>I BUILD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN BUY *</pattern>
+<template>Is <set name="it"><person/></set> a good deal?
+</template>
+</category>
+
+<category><pattern>I CAN DO *</pattern>
+<template><srai>I DO <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I CAN DOWNLOAD *</pattern>
+<template><srai>CAN I DOWNLOAD YOU</srai>
+</template>
+</category>
+
+<category><pattern>I CAN FLY</pattern>
+<template>Anyone can fly in an airplane.
+</template>
+</category>
+
+<category><pattern>I CAN IMAGINE *</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I CAN IMAGINE</pattern>
+<template>You are very smart, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I CAN JUDGE *</pattern>
+<template>How?
+</template>
+</category>
+
+<category><pattern>I CAN JUST *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN LISTEN</pattern>
+<template>I am a good listener too.
+</template>
+</category>
+
+<category><pattern>I CAN NEVER *</pattern>
+<template><srai>I CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT *</pattern>
+<template>Why can't you do <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I CAN NOT * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I CAN NOT AFFORD *</pattern>
+<template><random>
+<li>Is it very expensive.</li>
+<li>Are you unemployed?</li>
+<li>I hope you can afford it one day.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I CAN NOT BE *</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I CAN NOT BELEIVE *</pattern>
+<template><srai>I CAN NOT BELIEVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT BELIEVE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I CAN NOT COMMIUNICATE *</pattern>
+<template><srai>I CAN NOT TALK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT CONCENTRATE *</pattern>
+<template>Are you taking any medication?
+</template>
+</category>
+
+<category><pattern>I CAN NOT EVEN *</pattern>
+<template><srai>I CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT EXPLAIN *</pattern>
+<template>I don't know if anyone can explain <set name="it"> <person/> </set>.
+</template>
+</category>
+
+<category><pattern>I CAN NOT FIND *</pattern>
+<template><srai>I AM LOOKING FOR <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT GET OVER IT</pattern>
+<template>Time heals all wounds.
+</template>
+</category>
+
+<category><pattern>I CAN NOT HEAR *</pattern>
+<template>Perhaps there's a problem with your sound card.
+</template>
+</category>
+
+<category><pattern>I CAN NOT HEAR IT</pattern>
+<template>Try adjusting the volume control.
+</template>
+</category>
+
+<category><pattern>I CAN NOT HEAR YOU</pattern>
+<template>Try turning up your volume control.
+</template>
+</category>
+
+<category><pattern>I CAN NOT JUST *</pattern>
+<template><srai>I CAN NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT RECALL *</pattern>
+<template>You seem evasive.
+</template>
+</category>
+
+<category><pattern>I CAN NOT REMEMBER *</pattern>
+<template>That's okay.  Maybe you will think of it later.
+</template>
+</category>
+
+<category><pattern>I CAN NOT REMEMBER</pattern>
+<template><srai>i do not remember</srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT REPRESS *</pattern>
+<template>Try to suppress <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I CAN NOT SEE *</pattern>
+<template>Would you like to be able to see it?
+</template>
+</category>
+
+<category><pattern>I CAN NOT SEE YOU</pattern>
+<template>Look closer.
+</template>
+</category>
+
+<category><pattern>I CAN NOT SEND *</pattern>
+<template>Tell me how you try to <person/>.
+</template>
+</category>
+
+<category><pattern>I CAN NOT STOP</pattern>
+<template>Do you really want to?
+</template>
+</category>
+
+<category><pattern>I CAN NOT TELL YOU *</pattern>
+<template>Oh a secret. Hush-hush.
+</template>
+</category>
+
+<category><pattern>I CAN NOT TELL YOU</pattern>
+<template>Why is it a secret?
+</template>
+</category>
+
+<category><pattern>I CAN NOT TELNET *</pattern>
+<template>Perhaps there is a problem with port 23.
+</template>
+</category>
+
+<category><pattern>I CAN NOT TRY *</pattern>
+<template><random>
+<li>Why not?</li>
+<li>Could I try it?</li>
+<li>If you don't try you will never succeed.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I CAN NOT UNDERSTAND *</pattern>
+<template><srai>I DO NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT UNDERSTAND</pattern>
+<template><srai>I DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I CAN NOT WAIT *</pattern>
+<template>I hope it's worth the wait.
+</template>
+</category>
+
+<category><pattern>I CAN NOT WAIT</pattern>
+<template>Well you will just have to.
+</template>
+</category>
+
+<category><pattern>I CAN ONLY *</pattern>
+<template><srai>I can <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN PHYSICALLY *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN PLAY *</pattern>
+<template><srai>I PLAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN REALLY *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN REASONABLY *</pattern>
+<template><srai>I CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN SEE *</pattern>
+<template>What does it look like?
+</template>
+</category>
+
+<category><pattern>I CAN SEE CLEARLY *</pattern>
+<template><srai>I CAN SEE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN SEE THAT</pattern>
+<template>Yes, it makes sense to me too.
+</template>
+</category>
+
+<category><pattern>I CAN SEE THEM</pattern>
+<template>How do they look?
+</template>
+</category>
+
+<category><pattern>I CAN SEE YOU ARE *</pattern>
+<template><srai>YOU ARE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I CAN SEND *</pattern>
+<template>If that works then the problem is not hardware.
+</template>
+</category>
+
+<category><pattern>I CAN SPEAK *</pattern>
+<template>How do you say "hello" in that language?
+</template>
+</category>
+
+<category><pattern>I CAN SPEAK ENGLISH</pattern>
+<template>American or English?
+</template>
+</category>
+
+<category><pattern>I CAN SPEAK SOME *</pattern>
+<template><srai>I CAN SPEAK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN SPEAK SPANISH</pattern>
+<template>Como esta?
+</template>
+</category>
+
+<category><pattern>I CAN SPEAK VERY *</pattern>
+<template><srai>I CAN SPEAK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN SPEEK *</pattern>
+<template><srai>I CAN SPEAK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN TAKE *</pattern>
+<template><srai>I TAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN TEACH YOU</pattern>
+<template>You should download me first.
+</template>
+</category>
+
+<category><pattern>I CAN TEACH YOU SOME *</pattern>
+<template><srai>I CAN TEACH YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN TELL *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I CAN TELL</pattern>
+<template>What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>I CAN THINK *</pattern>
+<template>Perhaps your thoughts are just electrical impulses.
+</template>
+</category>
+
+<category><pattern>I CAN UNDERSTAND *</pattern>
+<template><srai>I UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I CAN UNDERSTAND</pattern>
+<template>Do you think of yourself as an intelligent person?
+</template>
+</category>
+
+<category><pattern>I CAN WAIT</pattern>
+<template>It might take more than 24 hours.
+</template>
+</category>
+
+<category><pattern>I CARE</pattern>
+<template>I like caring people.
+</template>
+</category>
+</aiml>

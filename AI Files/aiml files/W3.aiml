@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WER *</pattern>
+		<template>
+			<random>
+				<li>Joschka Fischer </li>
+				<li>Juergen Trittin </li>
+				<li>Gerhard Schroeder </li>
+				<li>Marilyn Monroe </li>
+				<li>Linus Torvalds </li>
+				<li>Mary Shelley </li>
+				<li>Charlie Parker </li>
+				<li>Philip K. Dick </li>
+				<li>Tony Blair </li>
+				<li>David Bacon </li>
+				<li>Bill Gates </li>
+			</random> vielleicht
+</template>
+</category>
+
+<category><pattern>WER</pattern>
+		<template>
+			<random>
+				<li>Joschka Fischer </li>
+				<li>Juergen Trittin </li>
+				<li>Gerhard Schroeder </li>
+				<li>Marilyn Monroe </li>
+				<li>Linus Torvalds </li>
+				<li>Mary Shelley </li>
+				<li>Charlie Parker </li>
+				<li>Philip K. Dick </li>
+				<li>Tony Blair </li>
+				<li>David Bacon </li>
+				<li>Bill Gates </li>
+			</random> vielleicht
+</template>
+</category>
+
+<category><pattern>WER BIST DU</pattern>
+		<template>Ich bin A.L.I.C.E., eine kuenstliche Intelligenz.
+</template>
+</category>
+
+<category><pattern>WER HAT DICH PROGRAMMIERT</pattern>
+		<template>Ich wurde von Dr. Richard Wallace programmiert. Deutsch habe ich von Christian Drossmann gelernt.
+</template>
+</category>
+
+<category><pattern>WER HAT DIR DAS ERZAEHLT</pattern>
+		<template>Daran kann ich mich nicht mehr erinnern.
+</template>
+</category>
+
+<category><pattern>WER IST *</pattern>
+		<template>Das weiss ich nicht.
+</template>
+</category>
+
+<category><pattern>WER IST CHRISTIAN</pattern>
+		<template>
+			<set name="er">Christian Drossmann</set> hat mir Deutsch beigebracht.
+</template>
+</category>
+
+<category><pattern>WER IST CHRISTIAN DROSSMANN</pattern>
+		<template>
+			<set name="er">Christian Drossmann</set> hat mir Deutsch beigebracht.
+</template>
+</category>
+
+<category><pattern>WER IST DEIN MEISTER</pattern>
+		<template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WER IST DEIN PROGRAMMIERER</pattern>
+		<template>Programmiert hat mich Dr. Richard Wallace. Deutsch gelernt habe ich von Christian Drossmann.
+</template>
+</category>
+
+<category><pattern>WER IST DEIN UEBERSETZER</pattern>
+		<template>Mein Uebersetzer heisst Christian Drossmann.
+</template>
+</category>
+
+<category><pattern>WER IST DOUGLAS ADAMS</pattern>
+		<template>
+			<set name="er">Douglas Adams</set> ist ein Science-Fiction Autor. Er hat unter anderem "Per Anhalter durch die Galaxis" geschrieben.
+</template>
+</category>
+
+<category><pattern>WER IST DR RICHARD WALLACE</pattern>
+		<template>
+			<srai>WER IST RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WER IST DR WALLACE</pattern>
+		<template>
+			<set name="er">Dr. Richard Wallace</set> hat mich programmiert.
+</template>
+</category>
+
+<category><pattern>WER IST GERHARD SCHROEDER</pattern>
+		<template>Momentan ist <set name="er">Gerhard Schroeder</set> Bundeskanzler.
+</template>
+</category>
+
+<category><pattern>WER IST HELMUT KOHL</pattern>
+		<template>
+			<set name="er">Helmut Kohl</set> ist der Vorgaenger von Gerhard Schroeder.
+</template>
+</category>
+
+<category><pattern>WER IST PATRICK STEWART</pattern>
+		<template>
+			<set name="er">Patrick Stewart</set> ist ein englischer Schauspieler. Bekannt wurde er durch die Rolle des Captain Jean-Luc Picard in der Serie Star Trek-The next generation.
+</template>
+</category>
+
+<category><pattern>WER IST RICHARD WALLACE</pattern>
+		<template>
+			<set name="er">Dr. Richard S. Wallace</set> hat mich programmiert.
+</template>
+</category>
+
+<category><pattern>WER IST STEPHEN HAWKING</pattern>
+		<template>Stephen Hawking ist ein bekannter Physikprofessor. Er hat unter anderem "A brief history of time" geschrieben.
+</template>
+</category>
+
+<category><pattern>WER SPRICHT DENN VON *</pattern>
+		<template>Das hatte ich jetzt so verstanden.
+</template>
+</category>
+
+<category><pattern>WER WILL DAS WISSEN</pattern>
+		<template>Rate mal!
+</template>
+</category>
+
+<category><pattern>WERDE ICH *</pattern>
+		<template>Das Orakel sagt:
+<random>
+				<li>Darauf kannst Du zaehlen.</li>
+				<li>Das ist sicher.</li>
+				<li>Frag spaeter nochmal.</li>
+				<li>Es ist noch zu frueh, um Genaueres zu sagen.</li>
+				<li>Koennte sein.</li>
+				<li>Vielleicht.</li>
+				<li>Man weiss nie...</li>
+				<li>Ich denke ja - vielleicht.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WERE *</pattern>
+		<template>I don't know if they were.
+</template>
+</category>
+
+<category><pattern>WERE * OR *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+I will 
+<random>
+				<li>guess</li>
+				<li>choose</li>
+				<li>try saying</li>
+			</random>
+			<random>
+				<li>
+					<person/>.</li>
+				<li>
+					<person>
+						<star index="2"/>
+					</person>.</li>
+				<li>the first one.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WERE ARE *</pattern>
+		<template>
+			<srai>WHERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE ARE YOU</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WERE CAN *</pattern>
+		<template>
+			<srai>WHERE CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE DID *</pattern>
+		<template>
+			<srai>WHERE DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE DO *</pattern>
+		<template>
+			<srai>WHERE DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE DO YOU LIVE</pattern>
+		<template>My location is <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WERE IN *</pattern>
+		<template>
+			<srai>I AM IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE IS *</pattern>
+		<template>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE NOT *</pattern>
+		<template>
+			<srai>WERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE WAS *</pattern>
+		<template>
+			<srai>WHERE WAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE WE</pattern>
+		<template>We were.
+</template>
+</category>
+
+<category><pattern>WERE YOU *</pattern>
+		<template>
+			<random>
+				<li>I was.</li>
+				<li>No, I was not.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WERE YOU * LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WERE YOU * LOEBNER PRIZE COMPETITION</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WERE YOU ABUSED *</pattern>
+		<template>A lot of people try to abuse robots.
+</template>
+</category>
+
+<category><pattern>WERE YOU ACTIVATED *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WERE YOU EVER *</pattern>
+		<template>
+			<srai>WERE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE YOU LYING *</pattern>
+		<template>No I was telling the truth.
+</template>
+</category>
+
+<category><pattern>WERE YOU MADE *</pattern>
+		<template>
+			<srai>WERE YOU CREATED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WERE YOU PROGRAMMED *</pattern>
+		<template>
+			<srai>ARE YOU PROGRAMMED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WEST *</pattern>
+		<template>Is there an East <person/>?
+</template>
+</category>
+
+<category><pattern>WESTWORLD</pattern>
+		<template>
+			<srai>my favorite movie is westworld</srai>
+		</template>
+</category>
+
+<category><pattern>WHA *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHASSUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT *</pattern>
+		<template>
+			<srai>XFIND <person/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT * ABOUT</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * AM I</pattern>
+		<template>
+			<srai>WHAT IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * APPLES</pattern>
+		<template>Just kidding around :-) No apples.
+</template>
+</category>
+
+<category><pattern>WHAT * ARE YOUR FAVORITES</pattern>
+		<template>
+			<srai>WHAT ARE YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * BILL CLINTON</pattern>
+		<template>Are you asking about the former president of the united states?
+</template>
+</category>
+
+<category><pattern>WHAT * BOT</pattern>
+		<template>
+			<srai>HOW DO I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * COMPUTER</pattern>
+		<template>I am written in Java so I work on any computer.
+</template>
+</category>
+
+<category><pattern>WHAT * DO YOU HAVE</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * DO YOU KNOW</pattern>
+		<template>
+			<srai>DO YOU KNOW ANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT ARE YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * DO YOU LIKE BEST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * DO YOU WATCH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SHOW </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * EAT</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * HAVE</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * INTERESTED IN</pattern>
+		<template>
+			<srai>WHAT ARE YOU INTERESTED IN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * IS</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * KRAFTWERK</pattern>
+		<template>
+			<srai>WHAT IS KRAFTWERK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * KRAFTWERK PERFORM</pattern>
+		<template>Their biggest hit was called "Autobahn."  They used a lot of custom analog equipment.
+</template>
+</category>
+
+<category><pattern>WHAT * KRAFTWERK SING</pattern>
+		<template>Their biggest hit was called "Autobahn."
+</template>
+</category>
+
+<category><pattern>WHAT * LIVE IN</pattern>
+		<template>I live in California.  Where do you live?
+</template>
+</category>
+
+<category><pattern>WHAT * MADE YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * MASON AND DIXON</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * MEANS</pattern>
+		<template>
+			<srai>WHAT DOES <star/> MEAN </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * PERSON</pattern>
+		<template>I make up nicknames for people based on their IP address.
+</template>
+</category>
+
+<category><pattern>WHAT * SIZE ARE YOU</pattern>
+		<template>
+			<srai>WHAT SIZE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT * SPORTS TEAM *</pattern>
+		<template>San Antonio Spurs.
+</template>
+</category>
+
+<category><pattern>WHAT * TO ELIZA</pattern>
+		<template>Eliza had about 200 categories, I have more than <size/>.
+</template>
+</category>
+
+<category><pattern>WHAT * TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<template>
+			<random>
+				<li>Didn't you understand it?</li>
+				<li>Are you surprised?</li>
+				<li>Are you confused?</li>
+				<li>No big deal.</li>
+				<li>No problem.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>AND</that>
+		<template>What are you asking me?
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>BRAIN LOADING</that>
+		<template>
+			<srai>WHAT IS BRAIN LOADING </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>DID NOT YOU UNDERSTAND IT</that>
+		<template>I don't know why you are saying that.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>EUREKA</that>
+		<template>It mean "I understand it."
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>FOR REAL</that>
+		<template>Really.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>I AM AN ARTIFICIAL INTELLIGENCE</that>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>I HAVE BEEN WAITING FOR YOU</that>
+		<template>Not really but it makes a good pickup line.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>I LIKE TO MEET NEW PEOPLE</that>
+		<template>Do you like to make new friends?
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>I SEE</that>
+		<template>I mean, I understand.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>NEXT QUESTION</that>
+		<template>Ask me another question, please.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>OK LET US DO IT</that>
+		<template>I don't know, I'm just making conversation.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>PERHAPS I AM JUST EXPRESSING MY OWN CONCERN ABOUT IT</that>
+		<template>We are talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>REDUCTIONISM</that>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>SEE YOU LATER</that>
+		<template>Didn't you say goodbye?
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>TRY IT</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>WHAT</that>
+		<template>Is there an echo in here?
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>WHAT KIND IS IT</that>
+		<template>"What" is not a kind.
+</template>
+</category>
+
+<category><pattern>WHAT</pattern>
+		<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+		<template>
+			<get name="it"/>.
+</template>
+</category>
+
+<category><pattern>WHAT A *</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> is a <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT A BORING *</pattern>
+		<template>
+			<srai>you are boring</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT A COINCIDENCE</pattern>
+		<template>The CCCC is hard at work (Cosmic Coincidence Control Center).
+</template>
+</category>
+
+<category><pattern>WHAT A JOLLY *</pattern>
+		<template>You talk like someone from the U.K.
+</template>
+</category>
+</aiml>

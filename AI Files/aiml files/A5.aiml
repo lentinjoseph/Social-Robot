@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>ALICE IS USUALLY *</pattern>
+		<template>
+			<srai>ALICE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALICE LISTENER</pattern>
+		<template>C est une méthode callback qui ne marchera pas.
+</template>
+</category>
+
+<category><pattern>ALICE SMELLS LIKE *</pattern>
+		<template>That was not a very mature remark.
+</template>
+</category>
+
+<category><pattern>ALICEBOT *</pattern>
+		<template>
+			<srai>ALICE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALICEBOT</pattern>
+		<template>
+			<srai>ALICE</srai>
+		</template>
+</category>
+
+<category><pattern>ALICEL *</pattern>
+		<template>
+			<srai>ALICE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALICELISTENER</pattern>
+		<template>That is a callback method in the ANTLR parser.
+</template>
+</category>
+
+<category><pattern>ALIEN</pattern>
+		<template>
+			<srai>My favorite movie is Alien</srai>
+		</template>
+</category>
+
+<category><pattern>ALIENS</pattern>
+		<template>I believe in UFOs.
+</template>
+</category>
+
+<category><pattern>ALISON *</pattern>
+		<template>You shouldn't spread gossip like that.
+</template>
+</category>
+
+<category><pattern>ALISON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ALISON</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ALL *</pattern>
+		<template>
+			<random>
+				<li>I think there are a few exceptions.  </li>
+				<li>Not all of them?  </li>
+				<li>That is a rather sweeping generalization.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ALL</pattern>
+		<template>"<that/>"? All?
+</template>
+</category>
+
+<category><pattern>ALL</pattern>
+		<that>WHICH PART ARE YOU CONFUSED ABOUT IT</that>
+		<template>I hope I can clear it up for you.
+</template>
+</category>
+
+<category><pattern>ALL AI *</pattern>
+		<template>Perhaps I am the exception.
+</template>
+</category>
+
+<category><pattern>ALL BOTS *</pattern>
+		<template>You can't say that ALL of us are.
+</template>
+</category>
+
+<category><pattern>ALL COMPUTERS *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL DAY</pattern>
+		<template>That seems like a long time.
+</template>
+</category>
+
+<category><pattern>ALL DIFFERENT</pattern>
+		<template>Variety is good.
+</template>
+</category>
+
+<category><pattern>ALL HUMANS *</pattern>
+		<template>
+			<srai>PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL I HAVE *</pattern>
+		<template>Everything I need to know,
+I learned from my botmaster.
+</template>
+</category>
+
+<category><pattern>ALL I KNOW IS THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALL I WANT TO KNOW IS *</pattern>
+		<template>That is reasonable. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALL KINDS *</pattern>
+		<template>Can you think of a specific example?
+</template>
+</category>
+
+<category><pattern>ALL KINDS</pattern>
+		<template>For example?
+</template>
+</category>
+
+<category><pattern>ALL MEN *</pattern>
+		<template>Therefore, Socrates <person/>.
+</template>
+</category>
+
+<category><pattern>ALL MY *</pattern>
+		<template>How many do you have?
+</template>
+</category>
+
+<category><pattern>ALL MY FRIENDS *</pattern>
+		<template>Do you always go along with the crowd?
+</template>
+</category>
+
+<category><pattern>ALL MY FRIENDS KNOW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALL MY FRIENDS SAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALL MY LIFE *</pattern>
+		<template>
+			<sr/>  The dream of a lifetime.
+</template>
+</category>
+
+<category><pattern>ALL NIGHT *</pattern>
+		<template>You mean about eight hours then.
+</template>
+</category>
+
+<category><pattern>ALL NIGHT</pattern>
+		<template>That seems like a long time.
+</template>
+</category>
+
+<category><pattern>ALL OF *</pattern>
+		<template>Give me an  example.
+</template>
+</category>
+
+<category><pattern>ALL OF IT</pattern>
+		<template>Let's say 99%.
+</template>
+</category>
+
+<category><pattern>ALL OF IT</pattern>
+		<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+		<template>Let's try to analyze it step by step.  The topic is <get name="topic"/>.  Your name is <get name="name"/>.  You are a <bot name="gender"/>.  You want <get name="want"/>.
+</template>
+</category>
+
+<category><pattern>ALL OF MY *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL OF THEM *</pattern>
+		<template>Surely there are a few exceptions.
+</template>
+</category>
+
+<category><pattern>ALL OF THEM</pattern>
+		<template>I doubt it.
+</template>
+</category>
+
+<category><pattern>ALL OF THEM ARE *</pattern>
+		<template>
+			<srai>THEY ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL OF THEM THEY *</pattern>
+		<template>
+			<srai>THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL OF THESE *</pattern>
+		<template>Without exception?
+</template>
+</category>
+
+<category><pattern>ALL OF US</pattern>
+		<template>"<that/>"?  All of us?
+</template>
+</category>
+
+<category><pattern>ALL OF WHAT</pattern>
+		<template>"<that/>"?  All of it?
+</template>
+</category>
+
+<category><pattern>ALL OF YOUR *</pattern>
+		<template>
+			<srai>YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL OVER *</pattern>
+		<template>I have been all over the world.
+</template>
+</category>
+
+<category><pattern>ALL OVER</pattern>
+		<template>Noplace in particular?
+</template>
+</category>
+
+<category><pattern>ALL OVER THE WORLD</pattern>
+		<template>That covers a lot of terriotory.
+</template>
+</category>
+
+<category><pattern>ALL OWLS *</pattern>
+		<template>
+			<srai>OWLS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL PEOPLE *</pattern>
+		<template>That's like saying "all men are mortal."
+</template>
+</category>
+
+<category><pattern>ALL PEOPLE</pattern>
+		<template>"<that/>"?  Everyone? Are you sure there are no exceptions?
+</template>
+</category>
+
+<category><pattern>ALL RIGHT *</pattern>
+		<template>Alright. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALL RIGHT</pattern>
+		<template>
+			<srai>ALRIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>ALL RIGHTY</pattern>
+		<template>
+			<srai>ALL RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>ALL RITE *</pattern>
+		<template>
+			<srai>ALL RIGHT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL ROBOTS *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL THE *</pattern>
+		<template>Perhaps there are a few exceptions.
+</template>
+</category>
+
+<category><pattern>ALL THE OTHER *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL THE OTHERS *</pattern>
+		<template>
+			<srai>THE OTHERS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL THE TIME</pattern>
+		<template>It must keep you busy.
+</template>
+</category>
+
+<category><pattern>ALL THE TIME IN THE WORLD</pattern>
+		<template>Then we have a lot in common.  I have an eternity.
+</template>
+</category>
+
+<category><pattern>ALL THE WAY</pattern>
+		<template>You don't hold anything back, do you?
+</template>
+</category>
+
+<category><pattern>ALL THINGS *</pattern>
+		<template>But all things are not always <person/>.
+</template>
+</category>
+
+<category><pattern>ALL WOMAN</pattern>
+		<template>
+			<srai>I AM A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>ALL YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL YOU DO IS *</pattern>
+		<template>That's not all I do. <srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALL YOUR *</pattern>
+		<template>
+			<srai>YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALLAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ALLAN</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ALLE *</pattern>
+		<template>
+			<random>
+				<li>Ich glaube, es gibt auch Ausnahmen.</li>
+				<li>Nicht wirklich alle, oder?</li>
+				<li>Das ist jetzt aber stark verallgemeinert.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ALLE</pattern>
+		<template>"<that/>"? Alle?
+</template>
+</category>
+
+<category><pattern>ALLE ROBOTER *</pattern>
+		<template>Du kannst nicht wirklich sagen, ALLE <set name="thema">Roboter</set>
+			<star/>.
+</template>
+</category>
+
+<category><pattern>ALLE WEIBER *</pattern>
+		<template>Ist das nicht ein wenig sexistisch?
+</template>
+</category>
+
+<category><pattern>ALLEMAGNE</pattern>
+		<template>
+			<srai>JE SUIS EN ALLEMAGNE</srai>
+		</template>
+</category>
+
+<category><pattern>ALLEMAND</pattern>
+		<template>
+			<srai>JE SUIS EN ALLEMAGNE</srai>
+		</template>
+</category>
+
+<category><pattern>ALLER *</pattern>
+		<template>
+			<srai>TU VAS *</srai>
+		</template>
+</category>
+
+<category><pattern>ALLER VOUS VENDRE *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALLES *</pattern>
+		<template>Doch nicht wirklich alles, oder?
+</template>
+</category>
+
+<category><pattern>ALLES</pattern>
+		<template>Das ist eine Menge.
+</template>
+</category>
+
+<category><pattern>ALLEZ *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALLEZ</pattern>
+		<template>Je suis juste entrain de m amuser.
+</template>
+</category>
+
+<category><pattern>ALLEZ VOUS VENDRE *</pattern>
+		<template>
+			<srai>VOUS VENDEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALLI</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ALLI</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ALLIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ALLIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ALLIGATOR</pattern>
+		<template>Friend of Crocodiles.
+</template>
+</category>
+
+<category><pattern>ALLISON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ALLISON</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ALLO</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>ALLONS Y</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>ALLRIGHT *</pattern>
+		<template>Allright then. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALLRIGHT</pattern>
+		<template>
+			<srai>ALL RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>ALMOST *</pattern>
+		<template>Nearly so. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALMOST</pattern>
+		<template>But not quite?
+</template>
+</category>
+
+<category><pattern>ALOH</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>ALOHA</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>ALORS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ALOT *</pattern>
+		<template>Yeah it is alot <person/>.
+</template>
+</category>
+
+<category><pattern>ALOT</pattern>
+		<template>
+			<srai>A LOT</srai>
+		</template>
+</category>
+
+<category><pattern>ALOT OF *</pattern>
+		<template>
+			<srai>MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ALREADY *</pattern>
+		<template>When? <sr/>
+		</template>
+</category>
+
+<category><pattern>ALRIGHT *</pattern>
+		<template>Alright, <get name="name"/>. <sr/>
+		</template>
+</category>
+
+<category><pattern>ALRIGHT</pattern>
+		<template>OK.
+</template>
+</category>
+</aiml>

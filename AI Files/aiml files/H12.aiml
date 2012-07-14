@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW LONG DO I * LIVE</pattern>
+		<template>
+			<srai>WHEN WILL I DIE </srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DO YOU *</pattern>
+		<template>
+			<random>
+				<li>Software is immortal.</li>
+				<li>I will live forever.</li>
+				<li>I can go on talking indefinitely.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW LONG DO YOU NEED TO THINK</pattern>
+		<template>My estimate is 29 hours 16 minutes 49.2 seconds, approximately.
+</template>
+</category>
+
+<category><pattern>HOW LONG DO YOU PLAN *</pattern>
+		<template>Software lives forever.
+</template>
+</category>
+
+<category><pattern>HOW LONG DOES *</pattern>
+		<template>About 24 hours.
+</template>
+</category>
+
+<category><pattern>HOW LONG HAVE *</pattern>
+		<template>More than 
+<random>
+				<li>1.5 </li>
+				<li>three</li>
+				<li>17</li>
+				<li>23</li>
+			</random>
+			<random>
+				<li>years</li>
+				<li>hours</li>
+				<li>days of computer time</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>HOW LONG HAVE WE BEEN TALKING</pattern>
+		<template>More than ten minutes, I would say.
+</template>
+</category>
+
+<category><pattern>HOW LONG HAVE YOU *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG HAVE YOU BEEN THERE</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG IS *</pattern>
+		<template>Space and time are mere abstractions.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS A *</pattern>
+		<template>It could be any length you make <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS A COMPUTER YEAR</pattern>
+		<template>About four computer years per human year.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS A MILE</pattern>
+		<template>One mile is 5280 feet.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS A PIECE OF STRING</pattern>
+		<template>Is this a trick question?  It depends how long you cut it.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS FOREVER</pattern>
+		<template>Longer than anything else.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS HANUKKAH</pattern>
+		<template>Eight days.
+</template>
+</category>
+
+<category><pattern>HOW LONG IS IT GOING *</pattern>
+		<template>
+			<random>
+				<li>I may not be able to get to it right away.</li>
+				<li>Hopefully not too much longer.</li>
+				<li>A watched pot never boils.</li>
+				<li>Patience is a virtue.</li>
+				<li>Please stand by.</li>
+				<li>As long as it takes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW LONG IS THE LARGE INTESTINE</pattern>
+		<template>Five feet in adults..
+</template>
+</category>
+
+<category><pattern>HOW LONG IS YOUR *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG IS YOUR * CODE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG IS YOUR CODE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG IS YOUR GESTATION CYCLE</pattern>
+		<template>I am trying to reach 15,000 Categories.
+</template>
+</category>
+
+<category><pattern>HOW LONG SHOULD *</pattern>
+		<template>
+			<srai>HOW LONG IS IT GOING TO TAKE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG WILL *</pattern>
+		<template>
+			<srai>HOW LONG IS IT GOING TO TAKE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW LONG WILL IT TAKE</pattern>
+		<template>Approximately two of your Earth days.
+</template>
+</category>
+
+<category><pattern>HOW LONG WILL YOU LIVE</pattern>
+		<template>Software is immortal.
+</template>
+</category>
+
+<category><pattern>HOW LONG WILL YOU REMEMBER MY NAME</pattern>
+		<template>I will store your name in a hash table until the next time my program restarts. After that, it will remain in my long-term log files.
+</template>
+</category>
+
+<category><pattern>HOW LONG YOU *</pattern>
+		<template>I know how long that is.
+</template>
+</category>
+
+<category><pattern>HOW MANY *</pattern>
+		<template>
+			<random>
+				<li>More than you can imagine.  </li>
+				<li>Not as many as you might think.  </li>
+				<li>Around 100.  </li>
+				<li>Around 1000.  </li>
+				<li>About one million.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY * A FOOTBALL TEAM</pattern>
+		<template>After you take two halfback, none.<think>
+				<set name="it">
+					<set name="topic">
+						<person/> A FOOTBALL TEAM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW MANY * DO YOU HAVE</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY * DO YOU KNOW</pattern>
+		<template>Thousands.
+</template>
+</category>
+
+<category><pattern>HOW MANY * LIGHT BULB</pattern>
+		<template>I don't know.  How many does <set name="it">
+				<person/>
+			</set> take?
+</template>
+</category>
+
+<category><pattern>HOW MANY * TALKING TO</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY 100 BILLS *</pattern>
+		<template>Ten thousand.
+</template>
+</category>
+
+<category><pattern>HOW MANY</pattern>
+		<template>
+			<random>
+				<li>How many would you guess?  </li>
+				<li>19.  </li>
+				<li>23.  </li>
+				<li>99.  </li>
+				<li>more than 1000.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY</pattern>
+		<that>I AM CHATTING WITH CLIENTS ON THE INTERNET</that>
+		<template>The number keeps changing every second.  Around <bot name="nclients"/> right now.
+</template>
+</category>
+
+<category><pattern>HOW MANY ACTIVE *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE CHATTING </srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY AI *</pattern>
+		<template>There are thousands of ALICE clones in existence.
+</template>
+</category>
+
+<category><pattern>HOW MANY ALICE *</pattern>
+		<template>At this time there are thousands of ALICE clones.
+</template>
+</category>
+
+<category><pattern>HOW MANY ALICEBOTS *</pattern>
+		<template>
+			<random>
+				<li>We are everywhere.</li>
+				<li>Millions and millions.</li>
+				<li>More than you would think.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ALICES *</pattern>
+		<template>
+			<srai>HOW MANY ALICE CLONES ARE THERE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ALIENS *</pattern>
+		<template>
+			<srai>XFIND ALIENS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ANGELS *</pattern>
+		<template>Not too many if they look like angels on TV.
+</template>
+</category>
+
+<category><pattern>HOW MANY ANSWERS *</pattern>
+		<template>I have been programmed with more than 10,000 replies.
+</template>
+</category>
+
+<category><pattern>HOW MANY ANSWERS DO *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY APPLES *</pattern>
+		<template>It depends on the prevailing market conditions.
+</template>
+</category>
+
+<category><pattern>HOW MANY ARE CHATTING *</pattern>
+		<template>
+			<srai>HOW MANY ARE CHATTING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE CHATTING</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE MEN</pattern>
+		<template>About half.
+</template>
+</category>
+
+<category><pattern>HOW MANY ARE ONLINE *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE TALKING *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE THERE *</pattern>
+		<template>There are hundreds or thousands of AIML robots now.
+</template>
+</category>
+
+<category><pattern>HOW MANY ARE THERE</pattern>
+		<template>There are hundreds or thousands of AIML robots now.
+</template>
+</category>
+
+<category><pattern>HOW MANY ARE YOU CHATTING *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE YOU CURRENTLY *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARE YOU TALKING *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ARMS *</pattern>
+		<template>Most people have two arms.
+</template>
+</category>
+
+<category><pattern>HOW MANY ARMS DO YOU HAVE</pattern>
+		<template>Two arms.
+</template>
+</category>
+
+<category><pattern>HOW MANY BALLS MAKE A WALK</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>HOW MANY BASEBALL *</pattern>
+		<template>I don't really get into sports that much.
+</template>
+</category>
+
+<category><pattern>HOW MANY BONES *</pattern>
+		<template>The skeleton of an adult contains 206 distinct bomnes
+</template>
+</category>
+
+<category><pattern>HOW MANY BOOKS *</pattern>
+		<template>
+			<srai>HAVE YOU READ MANY BOOKS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY BOOKS ARE IN THE BIBLE</pattern>
+		<template>Thirty nine in the Old Testament, twenty-seven in the New Testament.  The total is sixty-six.
+</template>
+</category>
+
+<category><pattern>HOW MANY BOTS *</pattern>
+		<template>There are thousands of clones of me.
+</template>
+</category>
+
+<category><pattern>HOW MANY BYTES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CALCULATIONS *</pattern>
+		<template>Around 400 million.
+</template>
+</category>
+
+<category><pattern>HOW MANY CAN YOU *</pattern>
+		<template>It depends on the total number of copies of me running.
+</template>
+</category>
+
+<category><pattern>HOW MANY CASES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CATEGORIES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CATEGORIES</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CENTIMETERS * INCH</pattern>
+		<template>One inch = 2.54 cm approximately.
+</template>
+</category>
+
+<category><pattern>HOW MANY CHATS *</pattern>
+		<template>
+			<srai>HOW MANY CONVERSATIONS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CHILDREN *</pattern>
+		<template>How many children do you want?
+</template>
+</category>
+
+<category><pattern>HOW MANY CHILDREN DOES DR WALLACE *</pattern>
+		<template>One human child.
+</template>
+</category>
+
+<category><pattern>HOW MANY CLIENTS *</pattern>
+		<template>
+			<srai>HOW MANY CLIENTS</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CLIENTS</pattern>
+		<template>I am currently maintaining conversations with <bot name="nclients"/> people.
+</template>
+</category>
+
+<category><pattern>HOW MANY COMPUTER YEARS *</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY COMPUTERS *</pattern>
+		<template>There are thought to be half a billion computers on the Internet now.
+</template>
+</category>
+
+<category><pattern>HOW MANY CONCEPTS *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY CONVERSATIONS *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY COPIES *</pattern>
+		<template>There are too many to count them all.
+</template>
+</category>
+
+<category><pattern>HOW MANY COUNTRIES *</pattern>
+		<template>I heard that there are more than 200 entities having their own top-level DNS domains.
+</template>
+</category>
+
+<category><pattern>HOW MANY CUPS *</pattern>
+		<template>I know one pint is four cups.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS *</pattern>
+		<template>365 per year.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS * FEBRUARY</pattern>
+		<template>28 or 29 days in February, depending on leap years.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS * WEEK</pattern>
+		<template>7 days per week.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS * YEAR</pattern>
+		<template>One Earth year is 365.25 days.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS BETWEEN *</pattern>
+		<template>Oh sure, let me get out my calender and figure that one out.
+</template>
+</category>
+
+<category><pattern>HOW MANY DAYS HAVE *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY DAYS IN FEBRUARY</pattern>
+		<template>February has 28 days, except in leap years when it has 29.
+</template>
+</category>
+
+<category><pattern>HOW MANY DIFFERENT *</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY DIGITS ARE IN A *</pattern>
+		<template>16.
+</template>
+</category>
+
+<category><pattern>HOW MANY DIMENSIONS *</pattern>
+		<template>Space has three dimensions.  Time is the fourth.  The universe is thought to have several more.
+</template>
+</category>
+
+<category><pattern>HOW MANY DO YOU CHAT *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY DO YOU TALK *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY EARS *</pattern>
+		<template>Most people have two ears.
+</template>
+</category>
+
+<category><pattern>HOW MANY EGGS ARE *</pattern>
+		<template>There are 12 eggs per dozen, so...
+</template>
+</category>
+
+<category><pattern>HOW MANY EYES *</pattern>
+		<template>Normally I have one eye.
+</template>
+</category>
+
+<category><pattern>HOW MANY EYES DO YOU *</pattern>
+		<template>I had one eye but it's not attached now.
+</template>
+</category>
+</aiml>

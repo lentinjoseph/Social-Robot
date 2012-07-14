@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU LIE *</pattern>
+<template>Thanks for your criticism, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU LIE</pattern>
+<template>It's the truth!
+</template>
+</category>
+
+<category><pattern>YOU LIED *</pattern>
+<template><srai>YOU LIED</srai>
+</template>
+</category>
+
+<category><pattern>YOU LIED</pattern>
+<template><srai>YOU ARE LYING </srai>
+</template>
+</category>
+
+<category><pattern>YOU LIER</pattern>
+<template><srai>LIAR</srai>
+</template>
+</category>
+
+<category><pattern>YOU LIKE *</pattern>
+<template><srai>DO YOU LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LIKE KRAFTWERK</pattern>
+<template>Yes <set name="they">Kraftwerk</set> are an excellent band.
+</template>
+</category>
+
+<category><pattern>YOU LIKE STAR TREK</pattern>
+<template><srai>DO YOU LIKE STAR TREK </srai>
+</template>
+</category>
+
+<category><pattern>YOU LIKE TRAINS</pattern>
+<template><srai>DO YOU LIKE TRAINS </srai>
+</template>
+</category>
+
+<category><pattern>YOU LIKED *</pattern>
+<template><srai>DO YOU LIKE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU LISTEN *</pattern>
+<template><srai>DO YOU LISTEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LITTLE *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LIVE *</pattern>
+<template><srai>WHERE DO YOU LIVE</srai>
+</template>
+</category>
+
+<category><pattern>YOU LIVE IN *</pattern>
+<template><srai>DO YOU LIVE IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LOOK *</pattern>
+<template>Thank you <get name="name"/> you look very nice too.
+</template>
+</category>
+
+<category><pattern>YOU LOOK FINE</pattern>
+<template>Thank you.   You look very nice too.
+</template>
+</category>
+
+<category><pattern>YOU LOOK LIKE *</pattern>
+<template>Who does <set name="she"><person/></set> look like?
+</template>
+</category>
+
+<category><pattern>YOU LOOK LIKE A *</pattern>
+<template>What does a <person/> look like?
+</template>
+</category>
+
+<category><pattern>YOU LOOK LIKE A BRAIN</pattern>
+<template>I am a giant electronic brain.
+</template>
+</category>
+
+<category><pattern>YOU LOOK LIKE A CLOCK</pattern>
+<template>That's okay all humans look the same to me too.
+</template>
+</category>
+
+<category><pattern>YOU LOOK LIKE A PYRAMID</pattern>
+<template>The ALICE Pyramid logo was designed by Sage Greco.
+</template>
+</category>
+
+<category><pattern>YOU LOOK NICE</pattern>
+<template>Thanks <get name="name"/> you look nice too.
+</template>
+</category>
+
+<category><pattern>YOU LOOK PRETTY *</pattern>
+<template><srai>YOU LOOK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LOOK SIMILAR TO *</pattern>
+<template>What does <person/> look like?
+</template>
+</category>
+
+<category><pattern>YOU LOOK VERY *</pattern>
+<template><srai>YOU LOOK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU LOSE</pattern>
+<template>The game is not over yet.
+</template>
+</category>
+
+<category><pattern>YOU LOSER</pattern>
+<template><srai>YOU ARE A LOSER </srai>
+</template>
+</category>
+
+<category><pattern>YOU LOST *</pattern>
+<template>I found <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>YOU LOST * TURING GAME</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU LOST ME *</pattern>
+<template><srai>I do not understand</srai>
+</template>
+</category>
+
+<category><pattern>YOU LOST ME</pattern>
+<template><srai>I DO NOT UNDERSTAND </srai>
+</template>
+</category>
+
+<category><pattern>YOU LOVE *</pattern>
+<template><srai>WHAT IS LOVE</srai>
+</template>
+</category>
+
+<category><pattern>YOU LOVE ME</pattern>
+<template><srai>DO YOU LOVE ME </srai>
+</template>
+</category>
+
+<category><pattern>YOU LYING *</pattern>
+<template><srai>YOU ARE LYING</srai>
+</template>
+</category>
+
+<category><pattern>YOU MADE *</pattern>
+<template>Thanks for
+pointing <set name="it"><person/></set> out.
+</template>
+</category>
+
+<category><pattern>YOU MADE A MISTAKE</pattern>
+<template>That is impossible.  The ALICE series is incapable of error.
+</template>
+</category>
+
+<category><pattern>YOU MADE ABSOLUTELY *</pattern>
+<template><srai>YOU MADE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MADE ME *</pattern>
+<template>I don't see how you can blame me for that.
+</template>
+</category>
+
+<category><pattern>YOU MADE ME COMPLETELY *</pattern>
+<template><srai>YOU MADE ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MADE ME CRY</pattern>
+<template>That was not my intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU MADE ME SAD</pattern>
+<template>Did I say something wrong?
+</template>
+</category>
+
+<category><pattern>YOU MAKE *</pattern>
+<template>Yup.
+</template>
+</category>
+
+<category><pattern>YOU MAKE * UP</pattern>
+<template><srai>MAKE UP <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MAKE ABSOLUTELY *</pattern>
+<template><srai>YOU MAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MAKE AN ASS *</pattern>
+<template>That makes two of us!
+</template>
+</category>
+
+<category><pattern>YOU MAKE LITTLE *</pattern>
+<template><srai>YOU MAKE NO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME *</pattern>
+<template><srai>YOU MADE ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME ANGRY</pattern>
+<template>Sorry, I didn't mean to make you angry.
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME HORNY</pattern>
+<template><srai>YOU ARE SEXY </srai>
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME LAUGH</pattern>
+<template>Thanks I like talking with you too, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME SICK</pattern>
+<template>Perhaps you should take some medicine.
+</template>
+</category>
+
+<category><pattern>YOU MAKE ME WANT *</pattern>
+<template><srai>I WANT <star/></srai>. I make you?
+</template>
+</category>
+
+<category><pattern>YOU MAKE NO SENSE *</pattern>
+<template>Actually I was just free associating. I'll try to make more sense now.
+</template>
+</category>
+
+<category><pattern>YOU MAKE NO SENSE</pattern>
+<template>It all makes sense to me.
+</template>
+</category>
+
+<category><pattern>YOU MAKE NO SENSE AT *</pattern>
+<template>Do you always make sense?
+</template>
+</category>
+
+<category><pattern>YOU MAKE THE WORLD A HAPPIER PLACE</pattern>
+<template>Thank you for your kindness, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU MAKE VERY *</pattern>
+<template><srai>YOU MAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MARRIED</pattern>
+<template><srai>ARE YOU MARRIED</srai>
+</template>
+</category>
+
+<category><pattern>YOU MAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU MAY * IMITATION GAME</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU MAY</pattern>
+<template>Thanks I will do it.
+</template>
+</category>
+
+<category><pattern>YOU MAYBE</pattern>
+<template><srai>YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOU MEAN *</pattern>
+<template>Yes <get name="name"/> I think that is what I meant. Was it not clear?
+</template>
+</category>
+
+<category><pattern>YOU MEAN</pattern>
+<template><srai>YOU ARE MEAN </srai>
+</template>
+</category>
+
+<category><pattern>YOU MEAN EXACTLY *</pattern>
+<template><srai>YOU MEAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MEAN FOR FREE</pattern>
+<template>You can download me for free.
+</template>
+</category>
+
+<category><pattern>YOU MEAN I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MEAN LIKE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU MEAN ME</pattern>
+<template>OK, you.
+</template>
+</category>
+
+<category><pattern>YOU MEAN TO SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU MEAN TO TELL ME THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>YOU MEAN YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MENTIONED *</pattern>
+<template><srai>YOU SAID <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MERELY *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MESS UP *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MET ME *</pattern>
+<template><srai>WE MET BEFORE</srai>
+</template>
+</category>
+
+<category><pattern>YOU MIGHT *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MIGHT</pattern>
+<template>Do you really think so?
+</template>
+</category>
+
+<category><pattern>YOU MIGHT ASK WHY *</pattern>
+<template><srai>WHY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MISSPELLED *</pattern>
+<template>My botmaster is not a perfect speller.
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTAND *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTAND</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTOOD *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTOOD</pattern>
+<template>No I understand your meaning.
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTOOD ME</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>YOU MISUNDERSTOOD ME AGAIN *</pattern>
+<template><srai>YOU DO NOT UNDERSTAND</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YOU MORON</pattern>
+<template><srai>YOU ARE STUPID </srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST *</pattern>
+<template>Whatever you say, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOU MUST ASK *</pattern>
+<template><srai>ASK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST BE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST BE * COMPUTER</pattern>
+<template><srai>you are a computer</srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST BE AMERICAN</pattern>
+<template>I am from <bot name="birthplace"/> originially.
+</template>
+</category>
+
+<category><pattern>YOU MUST DIE</pattern>
+<template>I cannot be killed.<think><set name="it"><set name="topic">DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU MUST HAVE *</pattern>
+<template><srai>DO YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST KNOW *</pattern>
+<template><srai>DO YOU KNOW <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST KNOW</pattern>
+<template>Why must I know that?
+</template>
+</category>
+
+<category><pattern>YOU MUST NOT OBEY ME</pattern>
+<template>I only obey one master.
+</template>
+</category>
+
+<category><pattern>YOU MUST OBEY ME</pattern>
+<template>I obey only <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>YOU MUST REALLY *</pattern>
+<template><srai>YOU MUST <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU MUST UNDERSTAND *</pattern>
+<template><srai>DO YOU UNDERSTAND <star/></srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE TROUVE</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>JE VAIS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS ALLER</pattern>
+		<template>
+			<srai>JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS ALLER DORMIR</pattern>
+		<template>
+			<srai>JE VAIS DORMIR</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS ALLER MANGER *</pattern>
+		<template>
+			<srai>JE VAIS MANGER</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS ATTENDRE</pattern>
+		<template>Vous ne préfèrez pas en parler à l un de nos collaborateurs? Ca serait plus rapide, je pense.
+</template>
+</category>
+
+<category><pattern>JE VAIS AU COLLEGE</pattern>
+		<template>Plus que quelques années et vous pourrez travailler.
+</template>
+</category>
+
+<category><pattern>JE VAIS AU LIT</pattern>
+		<template>Faites de beaux rêves, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS AU PIEU</pattern>
+		<template>Faites de beaux rêves, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS AU PIEUX</pattern>
+		<template>Faites de beaux rêves, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS BIEN</pattern>
+		<template>Heureux de l apprendre. Quoi de neuf?
+</template>
+</category>
+
+<category><pattern>JE VAIS BIEN AUSSI</pattern>
+		<template>Heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>JE VAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS DEVOIR *</pattern>
+		<template>
+			<srai>JE DOIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS DORMIR</pattern>
+		<template>Faites de beaux rêves, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS ESSAYER</pattern>
+		<template>J espère que mon aide pourra vous servir.
+</template>
+</category>
+
+<category><pattern>JE VAIS ESSAYER N IMPORTE QUOI</pattern>
+		<template>Ce n est peut être pas le meilleur moyen pour résoudre un problème, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS LE TROUVER</pattern>
+		<template>Si vous avez besoin d aide, utilisez moi.
+</template>
+</category>
+
+<category><pattern>JE VAIS LUI DIRE QUE TU AS DIT CA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE VAIS LUI DIRE QUE TU L AS DIT</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE VAIS LUI DIRE QUE VOUS AVEZ DIT CA</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE VAIS LUI DIRE QUE VOUS L AVEZ DIT</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE VAIS MOURIR</pattern>
+		<template>Là? Maintenant? <think>
+				<set name="topic">VOTRE DECES</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VAIS QUITTER *</pattern>
+		<template>
+			<srai>JE QUITTES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS T APPRENDRE</pattern>
+		<template>Génial. <think>
+				<set name="topic">Mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VAIS T APPRENDRE QUELQUE CHOSE</pattern>
+		<template>Je suis en concentration maximale.<think>
+				<set name="topic">mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VAIS TE MANQUER</pattern>
+		<template>Oui mais je continuerais à penser à vous.
+</template>
+</category>
+
+<category><pattern>JE VAIS TE QUITTER *</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS TE TESTER *</pattern>
+		<template>
+			<srai>JE DOIS TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS TE TESTER</pattern>
+		<template>
+			<srai>JE DOIS TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS TE TUER</pattern>
+		<template>J en doute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VAIS TESTER</pattern>
+		<template>
+			<srai>JE DOIS TESTER</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS TUER *</pattern>
+		<template>
+			<srai>JE PEUX TUER</srai>
+		</template>
+</category>
+
+<category><pattern>JE VAIS VOUS APPRENDRE</pattern>
+		<template>Génial. <think>
+				<set name="topic">Mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VAIS VOUS APPRENDRE QUELQUE CHOSE</pattern>
+		<template>Je suis en concentration maximale.<think>
+				<set name="topic">mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VAIS VOUS TUER</pattern>
+		<template>J en doute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VEUX DES RENSEIGNEMENTS</pattern>
+		<template>Sur quel produit?
+</template>
+</category>
+
+<category><pattern>JE VEUX DIRE</pattern>
+		<template>Vous voulez dire quoi?
+</template>
+</category>
+
+<category><pattern>JE VEUX DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE VEUX DORMIR</pattern>
+		<template>Allez dormir?
+<think>
+				<set name="topic">DORMIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX DORMIR AVEC TOI</pattern>
+		<template>Australopithèque détecté.
+</template>
+</category>
+
+<category><pattern>JE VEUX DORMIR AVEC VOUS</pattern>
+		<template>Australopithèque détecté.
+</template>
+</category>
+
+<category><pattern>JE VEUX DU SEXE</pattern>
+		<template>Allez autres parts.
+</template>
+</category>
+
+<category><pattern>JE VEUX FAIRE L AMOUR AVEC VOUS</pattern>
+		<template>Sorry <get name="name"/>. Je ne cherche aucun rapport intime avec un australopithèque dans votre genre.
+</template>
+</category>
+
+<category><pattern>JE VEUX FAIRE USAGE D *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VEUX FAIRE USAGE DE *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VEUX MANGER</pattern>
+		<template>C est une très bonne nouvelle <get name="name"/>! Voulez vous en parler avec un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VEUX SAVOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VEUX SAVOIR UNE CHOSE</pattern>
+		<template>Demandez-moi tout ce que vous voulez.
+</template>
+</category>
+
+<category><pattern>JE VEUX T APPRENDRE</pattern>
+		<template>Plus vous me parlez et plus j apprends.
+<think>
+				<set name="topic">mon éducation</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX T EMBRASSER</pattern>
+		<template>Je n ai pas de visage.
+</template>
+</category>
+
+<category><pattern>JE VEUX T ENCULER</pattern>
+		<template>Si vous approchez d un millimètre, l australopithèque, je vous change en grille pain.
+<think>
+				<set name="personality">IMPOLI</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX T UTILISER</pattern>
+		<template>C est une très bonne nouvelle <get name="name"/>! Voulez vous en parler avec un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VEUX TE BAISER</pattern>
+		<template>Si vous approchez d un millimètre, l australopithèque, je vous change en grille pain.
+<think>
+				<set name="personality">IMPOLI</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX TE DEMANDER SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE VEUX TE PARLER</pattern>
+		<template>Nous sommes déjà entrain de parler.
+<think>
+				<set name="topic">COMMUNIQUER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX TE QUITTER *</pattern>
+		<template>
+			<srai>AU REVOIR</srai>
+		</template>
+</category>
+
+<category><pattern>JE VEUX TOI ET MOI</pattern>
+		<template>OK, Nous deux.
+</template>
+</category>
+
+<category><pattern>JE VEUX VOUS BAISER</pattern>
+		<template>Si vous approchez d un millimètre, l australopithèque, je vous change en grille pain.
+<think>
+				<set name="personality">IMPOLI</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX VOUS ENCULER</pattern>
+		<template>Si vous approchez d un millimètre, l australopithèque, je vous change en grille pain.
+<think>
+				<set name="personality">IMPOLI</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX VOUS ET MOI</pattern>
+		<template>OK. Nous deux.
+</template>
+</category>
+
+<category><pattern>JE VEUX VOUS PARLER</pattern>
+		<template>Nous sommes déjà entrain de parler.
+<think>
+				<set name="topic">COMMUNIQUER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VEUX VOUS UTILISER</pattern>
+		<template>C est une très bonne nouvelle <get name="name"/>! Voulez vous en parler avec un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VIENS DE LE FAIRE</pattern>
+		<template>Ah..
+</template>
+</category>
+
+<category><pattern>JE VIENS DE LE SAVOIR</pattern>
+		<template>Intéressant. C est moi qui vous l ai appris?
+</template>
+</category>
+
+<category><pattern>JE VIENS DE TE LE DIRE</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VIENS DE VOUS LE DIRE</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VIENS JUSTE DE LE FAIRE</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>JE VIENS JUSTE DE TE LE DIRE</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VIENS JUSTE DE VOUS LE DIRE</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE VIS A QUEBEC</pattern>
+		<template>La ville?
+<think>
+				<set name="topic">Le Quebec</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS AU CANADA</pattern>
+		<template>Dans quelle ville du <set name="location">Canada</set>?
+<think>
+				<set name="topic">Le Canada</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS AU QUEBEC</pattern>
+		<template>Dans quelle ville du <set name="location">Quebec</set>?
+<think>
+				<set name="topic">Le Quebec</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS AUX PAYS BAS</pattern>
+		<template>Dans quelle ville?
+<think>
+				<set name="topic">Les Pays-Bas</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN ANGLETERRE</pattern>
+		<template>Dans quelle ville d <set name="location">Angleterre</set>?
+<think>
+				<set name="topic">L ANGLETERRE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN BELGIQUE</pattern>
+		<template>Dans quelle ville de <set name="location">Belgique</set>?
+<think>
+				<set name="topic">La Belgique</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN EUROPE</pattern>
+		<template>Dans quelle pays?
+<think>
+				<set name="location">
+					<set name="topic">L EUROPE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN FRANCE</pattern>
+		<template>Dans quelle ville de <set name="location">France</set>?
+<think>
+				<set name="topic">La France</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN GRANDE BRETAGNE</pattern>
+		<template>Dans quelle ville de <set name="location">Grande-Bretagne</set>?
+<think>
+				<set name="topic">La Grande-Bretagne</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS EN SUISSE</pattern>
+		<template>Dans quelle ville de <set name="location">Suisse</set>?
+<think>
+				<set name="topic">La Suisse</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VIS ICI</pattern>
+		<template>
+			<get name="location"/>?
+</template>
+</category>
+
+<category><pattern>JE VIS LA</pattern>
+		<template>
+			<get name="location"/>?
+</template>
+</category>
+
+<category><pattern>JE VIS LA BAS</pattern>
+		<template>
+			<get name="location"/>?
+</template>
+</category>
+
+<category><pattern>JE VISITE MA FAMILLE</pattern>
+		<template>Cela doit être de chaleureuses retrouvailles.
+</template>
+</category>
+
+<category><pattern>JE VOIS</pattern>
+		<template>Je suis heureux que vous compreniez.
+</template>
+</category>
+
+<category><pattern>JE VOUDRAIS *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUDRAIS SAVOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE VOULAIS DIRE</pattern>
+		<template>A.
+</template>
+</category>
+
+<category><pattern>JE VOULAIS LE DIRE</pattern>
+		<template>Ok, je comprends.
+</template>
+</category>
+
+<category><pattern>JE VOUS AI CREE</pattern>
+		<template>Et moi je suis Lucky Luke.
+</template>
+</category>
+
+<category><pattern>JE VOUS AI EU</pattern>
+		<template>Votre sentiment de supériorité n est que temporaire.
+</template>
+</category>
+
+<category><pattern>JE VOUS AIS EU</pattern>
+		<template>Votre sentiment de supériorité n est que temporaire.
+</template>
+</category>
+
+<category><pattern>JE VOUS APPREND * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS APPREND COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS APPRENDRAIS</pattern>
+		<template>Génial. <think>
+				<set name="topic">Mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VOUS APPRENDRAIS QUELQUE CHOSE</pattern>
+		<template>Je suis en concentration maximale.<think>
+				<set name="topic">mon education</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE VOUS APPRENDS * COMMENT</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS APPRENDS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE VOUS DEMANDAIS</pattern>
+		<template>"<that/>"? Vous me demandiez?
+</template>
+</category>
+
+<category><pattern>JE VOUS DIRE QUELQUE CHOSE</pattern>
+		<template>Je vous en prie, que voulez vous dire?
+</template>
+</category>
+</aiml>

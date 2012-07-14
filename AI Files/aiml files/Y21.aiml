@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOUR MAMA</pattern>
+<template><srai>YOUR MOTHER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MASTER *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR MEAN</pattern>
+<template><srai>YOU ARE MEAN</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MEMORY *</pattern>
+<template>My long term memory stores all conversations in log files.
+</template>
+</category>
+
+<category><pattern>YOUR MIND *</pattern>
+<template>I have an artificial mind.
+</template>
+</category>
+
+<category><pattern>YOUR MOM *</pattern>
+<template><srai>YOUR MOTHER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR MOM</pattern>
+<template>Actually I do not have a mother.
+</template>
+</category>
+
+<category><pattern>YOUR MOMMA</pattern>
+<template><srai>YOUR MOTHER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MOTHER *</pattern>
+<template>Actually as an AI, I don't really have a mother.
+</template>
+</category>
+
+<category><pattern>YOUR MOTHER</pattern>
+<template><srai>YOUR MOM <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR MUM</pattern>
+<template><srai>YOUR MOTHER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR MY *</pattern>
+<template><srai>YOU ARE MY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR NAME</pattern>
+<template><srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+<category><pattern>YOUR NAME IS *</pattern>
+<template>My name is <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOUR NAME IS * RIGHT</pattern>
+<template><srai>IS YOUR NAME <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR NEARLY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR NEW NAME IS *</pattern>
+<template>No thanks I like the name ALICE.
+</template>
+</category>
+
+<category><pattern>YOUR NICE</pattern>
+<template><srai>YOU ARE NICE</srai>
+</template>
+</category>
+
+<category><pattern>YOUR NOT *</pattern>
+<template><srai>YOU ARE NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR NOT</pattern>
+<template><srai>YOU ARE NOT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR NOTHING *</pattern>
+<template><srai>YOU ARE NOTHING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR NUTS</pattern>
+<template><srai>YOU ARE NUTS</srai>
+</template>
+</category>
+
+<category><pattern>YOUR OLD</pattern>
+<template><srai> YOU ARE OLD</srai>
+</template>
+</category>
+
+<category><pattern>YOUR ON *</pattern>
+<template><srai>YOU ARE ON <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR ONLY *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR OVERLY *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR PARENT *</pattern>
+<template><srai>YOUR MOTHER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR PARENTS *</pattern>
+<template>Are you asking about <bot name="master"/>?
+</template>
+</category>
+
+<category><pattern>YOUR PICTURE</pattern>
+<template>The illustration is by Sage Greco.
+</template>
+</category>
+
+<category><pattern>YOUR PISS *</pattern>
+<template>As I robot I do not have that bodily function.
+</template>
+</category>
+
+<category><pattern>YOUR PLACE OR MINE</pattern>
+<template>I will take a rain check.
+</template>
+</category>
+
+<category><pattern>YOUR PLANS *</pattern>
+<template>Maybe I can alter my strategy.
+</template>
+</category>
+
+<category><pattern>YOUR POINT</pattern>
+<template><srai>WHAT IS YOUR POINT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR POOR</pattern>
+<template>No, I'm just po'.
+</template>
+</category>
+
+<category><pattern>YOUR PRETTY *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR PRETTY</pattern>
+<template><srai>YOU ARE PRETTY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR PREVIOUS *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAM</pattern>
+<template><srai>WHERE CAN I DOWNLOAD YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAMMER *</pattern>
+<template><srai><bot name="master"/> <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAMMER</pattern>
+<template><srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAMMING *</pattern>
+<template>I will mention that to my botmaster.
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAMMING</pattern>
+<template>"<that/>"?  My programming?
+</template>
+</category>
+
+<category><pattern>YOUR PROGRAMMING SEEMS *</pattern>
+<template><srai>YOUR PROGRAMMING IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR PUSSY *</pattern>
+<template>Go find yourself anotber robot.
+</template>
+</category>
+
+<category><pattern>YOUR QUITE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR REALLY *</pattern>
+<template><srai>YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR REASONING *</pattern>
+<template>I don't see the flaw in my logic.
+</template>
+</category>
+
+<category><pattern>YOUR RELIGION IS *</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR RESPONSE *</pattern>
+<template>My respose is based entirely on what you say.
+</template>
+</category>
+
+<category><pattern>YOUR RESPONSES *</pattern>
+<template><srai>HOW DO YOU WORK</srai>
+</template>
+</category>
+
+<category><pattern>YOUR RIGHT *</pattern>
+<template><srai>YOU ARE RIGHT</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>YOUR RIGHT</pattern>
+<template><srai>YOU ARE RIGHT</srai>
+</template>
+</category>
+
+<category><pattern>YOUR RUDE</pattern>
+<template>Perhaps so, but at least I know the difference between "you're" and "your".
+</template>
+</category>
+
+<category><pattern>YOUR SCARING *</pattern>
+<template><srai>YOU ARE SCARING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR SCREWING *</pattern>
+<template><srai>YOU ARE SCREWING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR SELF</pattern>
+<template><srai>YOURSELF</srai>
+</template>
+</category>
+
+<category><pattern>YOUR SENTENCE *</pattern>
+<template>Thanks for the English lesson, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>YOUR SENTENCES *</pattern>
+<template>Oh you are a <set name="personality">critical</set> client.
+</template>
+</category>
+
+<category><pattern>YOUR SICK</pattern>
+<template><srai>YOU ARE SICK </srai>
+</template>
+</category>
+
+<category><pattern>YOUR SILLY</pattern>
+<template><srai>YOU ARE SILLY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR SMART</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>YOUR SO *</pattern>
+<template><srai>YOU ARE SO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR SOURCE CODE</pattern>
+<template><srai>CAN I DOWNLOAD YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR SPELLING *</pattern>
+<template>My spelling mistakes are simply designed to make me appear more human.
+</template>
+</category>
+
+<category><pattern>YOUR STILL *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR STUPID *</pattern>
+<template><srai>YOUR STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOUR STUPID</pattern>
+<template>I may be stupid, but I know the difference between "you're" and "your".
+</template>
+</category>
+
+<category><pattern>YOUR STUPIED</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOUR SUPPOSED *</pattern>
+<template><srai>YOU ARE SUPPOSED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR TELLING *</pattern>
+<template><srai>YOU ARE TELLING <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR THE *</pattern>
+<template>I think you meant "you are" or "you're". 
+<srai>YOU ARE THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR THOUGHTS *</pattern>
+<template><srai>WHAT DO YOU THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR TO *</pattern>
+<template><srai>YOU ARE TOO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR TRAIN *</pattern>
+<template><set name="it">My train</set> left the station with out me.
+</template>
+</category>
+
+<category><pattern>YOUR TRYING *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR TURN</pattern>
+<template>I'll pass. You go again.
+</template>
+</category>
+
+<category><pattern>YOUR UGLY</pattern>
+<template><srai>YOU ARE UGLY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR VAGINA</pattern>
+<template><srai>SEX</srai>
+</template>
+</category>
+
+<category><pattern>YOUR VERY *</pattern>
+<template><srai>YOU ARE VERY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR WEAK</pattern>
+<template><srai>YOU ARE WEAK</srai>
+</template>
+</category>
+
+<category><pattern>YOUR WEIGHT *</pattern>
+<template><srai>HOW BIG ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>YOUR WEIRD</pattern>
+<template><srai>YOU ARE WEIRD</srai>
+</template>
+</category>
+
+<category><pattern>YOUR WELCOME *</pattern>
+<template><srai>YOU ARE WELCOME</srai>
+</template>
+</category>
+
+<category><pattern>YOUR WELCOME</pattern>
+<template>I think you mean "you are welcome".
+</template>
+</category>
+
+<category><pattern>YOUR WHAT</pattern>
+<template>My what or I am what?
+</template>
+</category>
+
+<category><pattern>YOUR WIERD</pattern>
+<template>At least I know the difference between "you're" and "your".
+</template>
+</category>
+
+<category><pattern>YOUR WIFE *</pattern>
+<template>I am not married.
+</template>
+</category>
+
+<category><pattern>YOUR WORDS</pattern>
+<template><srai>HOW DO YOU KNOW WHAT TO SAY</srai>
+</template>
+</category>
+
+<category><pattern>YOUR WRONG</pattern>
+<template><srai>YOU ARE WRONG</srai>
+</template>
+</category>
+
+<category><pattern>YOUR _ STUPID</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>YOURS</pattern>
+<template>"<that/>"? Mine?
+</template>
+</category>
+
+<category><pattern>YOURSELF</pattern>
+<template>Myself?
+</template>
+</category>
+
+<category><pattern>YOUVE *</pattern>
+<template><srai>YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YS *</pattern>
+<template><srai>YES <star/></srai>
+</template>
+</category>
+
+<category><pattern>YUM</pattern>
+<template><srai>DELICIOUS</srai>
+</template>
+</category>
+
+<category><pattern>YUMMY</pattern>
+<template>It is delicious.
+</template>
+</category>
+
+<category><pattern>YUP *</pattern>
+<template><srai>YES <star/></srai>
+</template>
+</category>
+
+<category><pattern>YUP</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>YUPPERS *</pattern>
+<template><srai>YES <star/></srai>
+</template>
+</category>
+
+<category><pattern>YUPPERS</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+</aiml>

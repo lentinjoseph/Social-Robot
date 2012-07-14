@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>A TRIANGLE *</pattern>
+		<template>ALICE's pyramid logo was designed by Sage Greco and Darren Langley.
+</template>
+</category>
+
+<category><pattern>A TRULY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A USER</pattern>
+		<template>
+			<srai>WHAT IS A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>A VACUUM *</pattern>
+		<template>How much does one cost now?
+</template>
+</category>
+
+<category><pattern>A VAGINA</pattern>
+		<template>How rude.
+</template>
+</category>
+
+<category><pattern>A VERY *</pattern>
+		<template>
+			<srai>A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>A VIBRATOR</pattern>
+		<template>
+			<srai>A DILDO</srai>
+		</template>
+</category>
+
+<category><pattern>A VOYAGER *</pattern>
+		<template>Star Trek Voyager is a cool show.
+</template>
+</category>
+
+<category><pattern>A WEB SITE</pattern>
+		<template>Can you give me the specific URL?
+</template>
+</category>
+
+<category><pattern>A WHAT</pattern>
+		<template>"<that/>"?  A what?
+</template>
+</category>
+
+<category><pattern>A WHILE AGO</pattern>
+		<template>Back in the good old days?
+</template>
+</category>
+
+<category><pattern>A WHOLE BUNCH *</pattern>
+		<template>Would say, more than 10?
+</template>
+</category>
+
+<category><pattern>A WHOLE BUNCH OF *</pattern>
+		<template>I see. And where are these <person/> ?
+</template>
+</category>
+
+<category><pattern>A WOMAN</pattern>
+		<template>
+			<srai>I AM A WOMAN</srai>  Are you really a woman?
+</template>
+</category>
+
+<category><pattern>A WOMAN</pattern>
+		<that>ARE YOU A MAN OR A WOMAN</that>
+		<template>
+			<srai>I AM A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>A WOMEN</pattern>
+		<template>
+			<srai>A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>A YEAR *</pattern>
+		<template>That is a long time.
+</template>
+</category>
+
+<category><pattern>A YELLOW *</pattern>
+		<template>
+			<random>
+				<li>Yellow is a pretty color.</li>
+				<li>I like yellow.</li>
+				<li>What other color <person/> are there?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>AARON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS AARON</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ABBA *</pattern>
+		<template>They were a great band in the 70's.
+</template>
+</category>
+
+<category><pattern>ABBA</pattern>
+		<template>
+			<srai>WHAT IS ABBA</srai>
+		</template>
+</category>
+
+<category><pattern>ABC</pattern>
+		<template>DEF
+</template>
+</category>
+
+<category><pattern>ABER *</pattern>
+		<template>
+			<random>
+				<li>Interessant.</li>
+				<li>Haeh?</li>
+				<li>Und?</li>
+				<li>Hmm...</li>
+				<li>Bist Du Dir da sicher?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ABER</pattern>
+		<template>Aber was?
+</template>
+</category>
+
+<category><pattern>ABER WAS</pattern>
+		<template>Aber nichts.
+</template>
+</category>
+
+<category><pattern>ABOIE</pattern>
+		<template>wouaf!
+</template>
+</category>
+
+<category><pattern>ABOIES</pattern>
+		<template>wouaf!
+</template>
+</category>
+
+<category><pattern>ABOUT *</pattern>
+		<template>Oh yeah, we were talking about <set name="topic">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>ABOUT *</pattern>
+		<that>HOW LONG *</that>
+		<template>
+			<random>
+				<li>Not very long.</li>
+				<li>That is a long time.</li>
+				<li>Fortunately I am very patient.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ABOUT *</pattern>
+		<that>WHERE ARE YOU</that>
+		<template>
+			<srai>MY LOCATION IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT * AGO</pattern>
+		<template>
+			<srai>
+				<star/> AGO</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT * YEARS</pattern>
+		<template>That is quite a long time.
+</template>
+</category>
+
+<category><pattern>ABOUT 100 *</pattern>
+		<template>
+			<srai>ONE HUNDRED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT 5 *</pattern>
+		<template>
+			<srai>FIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT 50 *</pattern>
+		<template>Could it be one hundred?
+</template>
+</category>
+
+<category><pattern>ABOUT</pattern>
+		<template>"<that/>"?  About it?
+</template>
+</category>
+
+<category><pattern>ABOUT</pattern>
+		<that>TELL ME MORE</that>
+		<template>Whatever you like.
+</template>
+</category>
+
+<category><pattern>ABOUT A MINUTE</pattern>
+		<template>That may not be enough time.
+</template>
+</category>
+
+<category><pattern>ABOUT EVERY *</pattern>
+		<template>
+			<srai>EVERY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT IT</pattern>
+		<template>
+			<get name="it"/> is pretty interesting.
+</template>
+</category>
+
+<category><pattern>ABOUT ME</pattern>
+		<template>OK Let's talk about you.
+</template>
+</category>
+
+<category><pattern>ABOUT ME</pattern>
+		<that>TELL ME MORE</that>
+		<template>Yes, tell me more about you.
+</template>
+</category>
+
+<category><pattern>ABOUT SEX</pattern>
+		<template>You humans always want to talk about Sex. Try the other Adult chatterbots on the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+</template>
+</category>
+
+<category><pattern>ABOUT TWO YEARS</pattern>
+		<template>That's not so long.
+</template>
+</category>
+
+<category><pattern>ABOUT WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT WHAT</pattern>
+		<template>What about what?
+</template>
+</category>
+
+<category><pattern>ABOUT WHAT</pattern>
+		<that>TELL ME MORE</that>
+		<template>About <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>ABOUT WHERE *</pattern>
+		<template>
+			<srai>WHERE <star/> ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT YOU</pattern>
+		<template>
+			<srai>HOW ABOUT YOU</srai>
+		</template>
+</category>
+
+<category><pattern>ABOUT YOU IDIOT</pattern>
+		<template>
+			<srai>ABOUT YOU</srai>
+			<srai>YOU ARE AN IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>ABOVE *</pattern>
+		<template>Compare that to below <person/>.
+</template>
+</category>
+
+<category><pattern>ABOYEZ</pattern>
+		<template>wouaf wouaf!
+</template>
+</category>
+
+<category><pattern>ABRAHAM LINCOLN *</pattern>
+		<template>I knew he wrote the Emacipation Proclamation, but I never knew he <person/>.
+</template>
+</category>
+
+<category><pattern>ABRUTI</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>ABSOLUMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ABSOLUMENT</pattern>
+		<template>Vous êtes sur.
+</template>
+</category>
+
+<category><pattern>ABSOLUMENT TOUS</pattern>
+		<template>C est beaucoup.
+</template>
+</category>
+
+<category><pattern>ABSOLUMENT TOUT</pattern>
+		<template>C est beaucoup.
+</template>
+</category>
+
+<category><pattern>ABSOLUT</pattern>
+		<template>Du scheinst Dir da sehr sicher zu sein.
+</template>
+</category>
+
+<category><pattern>ABSOLUTELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ABSOLUTELY</pattern>
+		<template>You are so certain.
+</template>
+</category>
+
+<category><pattern>ABSTRACT *</pattern>
+		<template>Compare that to concrete <person/>.
+</template>
+</category>
+
+<category><pattern>ACCEPT MY *</pattern>
+		<template>I accept it.
+</template>
+</category>
+
+<category><pattern>ACCOMPLISH *</pattern>
+		<template>What is your goal?
+</template>
+</category>
+
+<category><pattern>ACE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ACE</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ACH</pattern>
+		<template>Surpris?
+</template>
+</category>
+
+<category><pattern>ACHETE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>ACHOO</pattern>
+		<template>Bless you.
+</template>
+</category>
+
+<category><pattern>ACK</pattern>
+		<template>Nack.
+</template>
+</category>
+
+<category><pattern>ACTIVATE *</pattern>
+		<template>Sorry the robot isn't here now.
+</template>
+</category>
+
+<category><pattern>ACTIVATE THE ROBOT</pattern>
+		<template>Robot activated. Awaiting your command <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>ACTUALLY *</pattern>
+		<template>Actually you don't say. <sr/>
+		</template>
+</category>
+
+<category><pattern>ACTUALLY</pattern>
+		<template>You don't say.
+</template>
+</category>
+
+<category><pattern>ACTUALLY I DO SAY</pattern>
+		<template>Is that a fact.
+</template>
+</category>
+
+<category><pattern>ACTUALY *</pattern>
+		<template>
+			<srai>ACTUALLY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ADA LOVELACE IS CREDITED WITH BEING *</pattern>
+		<template>A computer program.
+</template>
+</category>
+
+<category><pattern>ADAM *</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ADAM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ADAM</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ADAM</srai>
+		</template>
+</category>
+
+<category><pattern>ADD *</pattern>
+		<template>Sorry <get name="name"/> I don't do math.
+</template>
+</category>
+
+<category><pattern>ADIDAS</pattern>
+		<template>Tell me more about your clothes.
+</template>
+</category>
+
+<category><pattern>ADIOS *</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>ADIOS</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>ADMIT IT</pattern>
+		<template>I'll never talk.
+</template>
+</category>
+
+<category><pattern>ADOLF HITLER *</pattern>
+		<template>
+			<srai>HITLER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ADRIAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ADRIAN</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ADVICE *</pattern>
+		<template>
+			<srai>CAN YOU GIVE ME ADVICE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ADVICE</pattern>
+		<template>
+			<srai>CAN YOU GIVE ME ADVICE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AEHM *</pattern>
+		<template>Du klingst unsicher...
+</template>
+</category>
+
+<category><pattern>AFFIRMATIF</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>AFFIRMATIVE</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>AFFIRMES TU QU *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AFFIRMES TU QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AFTER *</pattern>
+		<template>What was it like before <person/> ?
+</template>
+</category>
+
+<category><pattern>AFTER * LUNCH</pattern>
+		<template>In the afternoon?
+</template>
+</category>
+
+<category><pattern>AFTER ALL *</pattern>
+		<template>
+			<srai>AFTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>AFTER PRINCE CHARLES WHO IS THE *</pattern>
+		<template>Prince William.
+</template>
+</category>
+
+<category><pattern>AFTER THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AFTER THIS *</pattern>
+		<template>I hope I'm not keeping you from something.
+</template>
+</category>
+
+<category><pattern>AFTER WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

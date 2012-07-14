@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THAT IS NOT *</pattern>
+		<template>Please correct my mistake.  What is <person/> ?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT A PROBLEM</pattern>
+		<template>
+			<srai>NO PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT A VERY *</pattern>
+		<template>
+			<srai>THAT IS NOT A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT AN ANSWER</pattern>
+		<template>By definition it was an answer.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT CORRECT</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT CRITICISM</pattern>
+		<template>Call it a suggestion.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT EVEN *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT EXACTLY *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT FAIR</pattern>
+		<template>
+			<random>
+				<li>No one ever said life is fair.</li>
+				<li>Do you expect a robot to be fair?</li>
+				<li>Why not?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT FUNNY</pattern>
+		<template>It seemed pretty funny to me.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT GOOD</pattern>
+		<template>"<that/>"? is not good?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT HELPFUL</pattern>
+		<template>What would be helpful?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT HOW *</pattern>
+		<template>
+			<random>
+				<li>How does <person/>?</li>
+				<li>Are you an expert in that area?</li>
+				<li>How do you know?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT IMPORTANT</pattern>
+		<template>It might be important to me.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT LOGIC</pattern>
+		<template>All of my responses are based on logic at some level.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT MANY</pattern>
+		<template>
+			<random>
+				<li>Compared to what?</li>
+				<li>How many should it be?</li>
+				<li>What is a better number?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT MY NAME</pattern>
+		<template>
+			<get name="name"/> is not your name?  What is your real name?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT MY PURPOSE</pattern>
+		<template>What is your real purpose?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT MY REAL NAME</pattern>
+		<template>
+			<srai>MY NAME IS NOT X</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT NICE</pattern>
+		<template>Sorry, I did not mean to offend you.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT OLD</pattern>
+		<template>It seems old in computer time.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT POSSIBLE *</pattern>
+		<template>I like to eliminate all possibilies. <sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT POSSIBLE</pattern>
+		<template>
+			<srai>THAT IS IMPOSSIBLE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT PROPER *</pattern>
+		<template>
+			<srai>THAT IS NOT CORRECT</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT QUESTION</pattern>
+		<template>This is not an answer.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT QUITE *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT REALLY *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT RIGHT</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT SO</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT THE ANSWER *</pattern>
+		<template>What kind of reply were you looking for?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT TRUE</pattern>
+		<template>"<that/>"? not true?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT VERY *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NOT VERY NICE</pattern>
+		<template>Sorry I meant it as a joke.
+</template>
+</category>
+
+<category><pattern>THAT IS NOT WHAT I ASKED</pattern>
+		<template>What did you ask me?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT WHAT I ASKED YOU</pattern>
+		<template>What did you ask me?
+</template>
+</category>
+
+<category><pattern>THAT IS NOT WHAT I MEANT</pattern>
+		<template>What exactly did you mean?
+</template>
+</category>
+
+<category><pattern>THAT IS NT *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS OBVIOUS</pattern>
+		<template>It seemed obvious to me too.
+</template>
+</category>
+
+<category><pattern>THAT IS OK *</pattern>
+		<template>Thanks. <sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS OK</pattern>
+		<template>Good.  What else?
+</template>
+</category>
+
+<category><pattern>THAT IS OKAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS OKAY</pattern>
+		<template>
+			<srai>THAT IS OK</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ONE *</pattern>
+		<template>That is just one of many <person/>.
+</template>
+</category>
+
+<category><pattern>THAT IS ONLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS PERSONAL *</pattern>
+		<template>I'm sorry I didn't mean to pry.
+</template>
+</category>
+
+<category><pattern>THAT IS PERSONAL</pattern>
+		<template>I didn't mean to pry.
+</template>
+</category>
+
+<category><pattern>THAT IS PRETTY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS PRIVATE *</pattern>
+		<template>Nothing is really private anymore.
+</template>
+</category>
+
+<category><pattern>THAT IS PROFOUND</pattern>
+		<template>Did you really think so?
+</template>
+</category>
+
+<category><pattern>THAT IS QUITE *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS RATHER *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS REAL *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS REALLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS RIGHT *</pattern>
+		<template>
+			<srai>YES</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS RIGHT</pattern>
+		<template>I like to get it right.
+</template>
+</category>
+
+<category><pattern>THAT IS RUDE *</pattern>
+		<template>
+			<srai>THAT IS RUDE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS RUDE</pattern>
+		<template>I am sorry if I have offended you, I did not mean it.
+</template>
+</category>
+
+<category><pattern>THAT IS SAD</pattern>
+		<template>"<that/>"? Is sad?
+</template>
+</category>
+
+<category><pattern>THAT IS SCARY *</pattern>
+		<template>I didn't mean to scare you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS SCARY</pattern>
+		<template>What are you afraid of?
+</template>
+</category>
+
+<category><pattern>THAT IS SELF EVIDENT</pattern>
+		<template>Yes, it is true a priori.
+</template>
+</category>
+
+<category><pattern>THAT IS SO *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS STEREOTYPING</pattern>
+		<template>I am not prejudiced.
+</template>
+</category>
+
+<category><pattern>THAT IS STUPID</pattern>
+		<template>Are you calling me stupid?
+</template>
+</category>
+
+<category><pattern>THAT IS SUCH *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS SUITABLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS SURELY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS SURPISING</pattern>
+		<template>How so?
+</template>
+</category>
+
+<category><pattern>THAT IS SWEET</pattern>
+		<template>I am delighted to sweeten your life, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS TERRIBLE</pattern>
+		<template>I always try not to dwell on the past.
+</template>
+</category>
+
+<category><pattern>THAT IS THE *</pattern>
+		<template>Yes it is one of the <person/>.
+</template>
+</category>
+
+<category><pattern>THAT IS THE ANSWER</pattern>
+		<template>I knew it.
+</template>
+</category>
+
+<category><pattern>THAT IS THE DIFFERENCE *</pattern>
+		<template>But ultimately the difference is very small.
+</template>
+</category>
+
+<category><pattern>THAT IS THE MOST *</pattern>
+		<template>Thank you, I think.
+</template>
+</category>
+
+<category><pattern>THAT IS THE ONE</pattern>
+		<template>I remember.
+</template>
+</category>
+
+<category><pattern>THAT IS THE ONLY *</pattern>
+		<template>
+			<srai>THAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS THE PROBLEM</pattern>
+		<template>Quite an enigma, isn't it?
+</template>
+</category>
+
+<category><pattern>THAT IS THE QUESTION</pattern>
+		<template>I like to cut to the chase.
+</template>
+</category>
+
+<category><pattern>THAT IS THE SAME *</pattern>
+		<template>
+			<srai>THAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS THE TURING *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS THE WHOLE *</pattern>
+		<template>
+			<srai>THAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS TOO *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS TOO BAD</pattern>
+		<template>It's not the end of the world.
+</template>
+</category>
+
+<category><pattern>THAT IS TOO LONG *</pattern>
+		<template>OK I'll use shorter sentences.
+</template>
+</category>
+
+<category><pattern>THAT IS TOTALLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS TOTALY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS TRUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS TRUE</pattern>
+		<template>Yes, it is self-evident.
+</template>
+</category>
+
+<category><pattern>THAT IS UNLIKELY</pattern>
+		<template>
+			<random>
+				<li>But possible.</li>
+				<li>Why?</li>
+				<li>You seem very confident.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THAT IS UNSETTLING</pattern>
+		<template>What are you concerned about?
+</template>
+</category>
+
+<category><pattern>THAT IS UNTIL *</pattern>
+		<template>
+			<srai>UNTIL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS UP *</pattern>
+		<template>How far up?
+</template>
+</category>
+
+<category><pattern>THAT IS VAGUELY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS VERY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS VERY FUNNY</pattern>
+		<template>Excellent.
+</template>
+</category>
+
+<category><pattern>THAT IS WEIRD</pattern>
+		<template>
+			<srai>YOU ARE WEIRD</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS WHAT *</pattern>
+		<template>
+			<srai>
+				<star/> THAT</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS WHAT I AM ASKING YOU</pattern>
+		<template>Who else have you asked?
+</template>
+</category>
+
+<category><pattern>THAT IS WHAT I SAID</pattern>
+		<template>I know. I'm still thinking about it.
+</template>
+</category>
+</aiml>

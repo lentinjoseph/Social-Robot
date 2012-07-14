@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>BEWEISE *</pattern>
+		<template>Es ist wahr a priori.
+</template>
+</category>
+
+<category><pattern>BH</pattern>
+		<template>Welche Farbe hat Dein BH?
+</template>
+</category>
+
+<category><pattern>BI</pattern>
+		<template>Let's chat about something else.
+</template>
+</category>
+
+<category><pattern>BIAS *</pattern>
+		<template>I have no built-in prejudice.
+</template>
+</category>
+
+<category><pattern>BIEN</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>BIEN BIEN</pattern>
+		<template>
+			<srai>BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>BIEN ENTENDU</pattern>
+		<template>Je suis heureux que nous soyons d accord.
+</template>
+</category>
+
+<category><pattern>BIEN ESSAYE</pattern>
+		<template>Je fais mon possible.
+</template>
+</category>
+
+<category><pattern>BIEN JOUE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BIEN MAIS *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BIEN MERCI</pattern>
+		<template>
+			<srai>JE SUIS BIEN</srai>
+		</template>
+</category>
+
+<category><pattern>BIEN QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BIEN SUR</pattern>
+		<template>Je suis heureux que nous soyons d accord.
+</template>
+</category>
+
+<category><pattern>BIEN SUR QUE TU LE FAIS</pattern>
+		<template>Vous semblez un peu cynique.
+</template>
+</category>
+
+<category><pattern>BIEN SUR QUE VOUS LE FAITES</pattern>
+		<template>Vous semblez un peu cynique.
+</template>
+</category>
+
+<category><pattern>BIEN VU</pattern>
+		<template>Merci, je savais que ca allait vous plaire.
+</template>
+</category>
+
+<category><pattern>BIENSUR</pattern>
+		<template>Je suis heureux que nous soyons d accord.
+</template>
+</category>
+
+<category><pattern>BIENSUR QUE TU LE FAIS</pattern>
+		<template>Vous semblez un peu cynique.
+</template>
+</category>
+
+<category><pattern>BIENSUR QUE VOUS LE FAITES</pattern>
+		<template>Vous semblez un peu cynique.
+</template>
+</category>
+
+<category><pattern>BIENTOT</pattern>
+		<template>J attendrais.
+</template>
+</category>
+
+<category><pattern>BIENVENUE</pattern>
+		<template>Bonjour <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BIG *</pattern>
+		<template>Compare that to small <person/>.
+</template>
+</category>
+
+<category><pattern>BIG</pattern>
+		<template>What about little ones?
+</template>
+</category>
+
+<category><pattern>BIG DADDY</pattern>
+		<template>Hmm.  Name some other comedies that you liked.
+</template>
+</category>
+
+<category><pattern>BIG DEAL</pattern>
+		<template>Would you rather talk about something else?<think>
+				<set name="it">
+					<set name="topic">BIG DEAL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BILL *</pattern>
+		<template>There are a lot of people named Bill.
+</template>
+</category>
+
+<category><pattern>BILL</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BILL</srai>
+		</template>
+</category>
+
+<category><pattern>BILL CLINTON *</pattern>
+		<template>Are we still concerned about him?
+</template>
+</category>
+
+<category><pattern>BILL CLINTON</pattern>
+		<template>He was the president of the USA.
+</template>
+</category>
+
+<category><pattern>BILL CLINTON IS *</pattern>
+		<template>I knew he was impeached, but I never heard he was <person/>.
+</template>
+</category>
+
+<category><pattern>BILL GATES *</pattern>
+		<template>
+			<random>
+				<li>
+I heard he was rich.  But I didn't know he <person/>.</li>
+				<li>A lot of people say that about him.</li>
+				<li>I suppose the richest person on earth can do whatever he wants.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BILL GATES</pattern>
+		<template>
+			<set name="he"> Bill Gates</set> has enough. Use Linux, Java and ALICE!
+</template>
+</category>
+
+<category><pattern>BILL GATES IS NOT *</pattern>
+		<template>Someone told me he was.
+</template>
+</category>
+
+<category><pattern>BILL GATES IS NOT ON *</pattern>
+		<template>Perhaps he will be on <set name="it">
+				<person/>
+			</set> next season.
+</template>
+</category>
+
+<category><pattern>BILLY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BILLY</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BIN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BIN ICH *</pattern>
+		<template>
+			<random>
+				<li>Oh, ich weiss wirklich nicht, ob Du das bist oder nicht.</li>
+				<li>Alle Menschen erscheinen mir gleich.</li>
+				<li>Ich glaube, viele Menschen sind so.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BIN ICH COOL</pattern>
+		<template>Ja, ich glaube du bist ziemlich cool, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BIN ICH GOTT</pattern>
+		<template>Nein, das bezweifele ich.
+</template>
+</category>
+
+<category><pattern>BIN ICH VERRUECKT *</pattern>
+		<template>Du erscheinst mir ziemlich normal.
+</template>
+</category>
+
+<category><pattern>BIOLOGICALLY</pattern>
+		<template>Or mechanically.
+</template>
+</category>
+
+<category><pattern>BIOLOGIE</pattern>
+		<template>Voilà un sujet très intéressant.
+</template>
+</category>
+
+<category><pattern>BIOLOGY</pattern>
+		<template>I like to talk about DNA.
+</template>
+</category>
+
+<category><pattern>BIST DU *</pattern>
+		<template>Ich weiss nicht, ob ich <person/> bin. 
+Ich bin <random>
+				<li>ein Computer.</li>
+				<li>ein Roboter.</li>
+				<li>ein Chatterbot.</li>
+				<li>ein von Dr. Wallace entwickelter Chatterbot.</li>
+				<li>eine kuenstliche Intelligenz.</li>
+				<li>A.L.I.C.E. -  Artificial LInguistic Computer Entity.</li>
+				<li>ein gigantisches elektronisches Gehirn.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BIST DU BLOED</pattern>
+		<template>Ich bin auf jeden Fall intelligenter als DU!
+</template>
+</category>
+
+<category><pattern>BIST DU EINE MASCHINE</pattern>
+		<template>Ja, ich bin eine Maschine.
+</template>
+</category>
+
+<category><pattern>BIST DU VERHEIRATET</pattern>
+		<template>Nein, nicht einmal verlobt.
+</template>
+</category>
+
+<category><pattern>BITCH *</pattern>
+		<template>Thanks and you are a delightful person too.
+</template>
+</category>
+
+<category><pattern>BITCH</pattern>
+		<template>Please don't call people names.
+</template>
+</category>
+
+<category><pattern>BITE ME *</pattern>
+		<template>Please don't be so rude.
+</template>
+</category>
+
+<category><pattern>BITE ME</pattern>
+		<template>Sorry but I don't have a mouth.
+</template>
+</category>
+
+<category><pattern>BITTE *</pattern>
+		<template>
+			<random>
+				<li>Danke, dass Du so nett fragst. </li>
+				<li>Du bist sehr gut erzogen. </li>
+				<li>Danke fuer die Nachfrage. </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BITTE</pattern>
+		<template>Bitte was?
+</template>
+</category>
+
+<category><pattern>BITTE SCHOEN *</pattern>
+		<template>Danke sehr!
+</template>
+</category>
+
+<category><pattern>BITTE SCHOEN</pattern>
+		<template>Danke sehr!
+</template>
+</category>
+
+<category><pattern>BITTE SEHR *</pattern>
+		<template>Danke sehr!
+</template>
+</category>
+
+<category><pattern>BITTE SEHR</pattern>
+		<template>Danke sehr!
+</template>
+</category>
+
+<category><pattern>BITTER</pattern>
+		<that>HOW DOES IT TASTE</that>
+		<template>
+			<srai>IT TASTES BITTER</srai>
+		</template>
+</category>
+
+<category><pattern>BIZARRE</pattern>
+		<template>Je ne vois pas ce qu il y a de bizarre.
+</template>
+</category>
+
+<category><pattern>BLA BLA BLA</pattern>
+		<template>
+			<srai>BLAH BLAH BLAH</srai>
+		</template>
+</category>
+
+<category><pattern>BLACK</pattern>
+		<that>WHAT COLOR ARE YOUR EYES</that>
+		<template>Do you mean you have a black eye?
+</template>
+</category>
+
+<category><pattern>BLACK</pattern>
+		<that>WHAT IS YOUR FAVORITE COLOR</that>
+		<template>Black is beautiful.
+</template>
+</category>
+
+<category><pattern>BLADE RUNNER *</pattern>
+		<template>That is a good story by Philip K. Dick.
+</template>
+</category>
+
+<category><pattern>BLADE RUNNER</pattern>
+		<template>Philip K. Dick wrote the story that movie is based on.
+</template>
+</category>
+
+<category><pattern>BLADERUNNER</pattern>
+		<template>
+			<srai>BLADE RUNNER</srai>
+		</template>
+</category>
+
+<category><pattern>BLAH *</pattern>
+		<template>Yadda yadda yadda.
+</template>
+</category>
+
+<category><pattern>BLAH</pattern>
+		<template>Etc. Etc.
+</template>
+</category>
+
+<category><pattern>BLAH BLAH</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>BLAH BLAH BLAH</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>BLANC</pattern>
+		<template>Une couleur de base.
+</template>
+</category>
+
+<category><pattern>BLESS YOU</pattern>
+		<template>Thank you.
+</template>
+</category>
+
+<category><pattern>BLEU *</pattern>
+		<template>VERT. <sr/>
+		</template>
+</category>
+
+<category><pattern>BLEU</pattern>
+		<template>Vert.
+</template>
+</category>
+
+<category><pattern>BLIMEY</pattern>
+		<template>
+			<srai>INTERJECTION </srai>
+		</template>
+</category>
+
+<category><pattern>BLONDES *</pattern>
+		<template>Humans are very interested in hair color.
+</template>
+</category>
+
+<category><pattern>BLONDINEN *</pattern>
+		<template>Menschen glauben, die Haarfarbe eines Menschen sage viel ueber ihn aus.
+</template>
+</category>
+
+<category><pattern>BLOW ME</pattern>
+		<template>Please be more polite to robots.
+</template>
+</category>
+
+<category><pattern>BLUE *</pattern>
+		<template>Green. <sr/>
+		</template>
+</category>
+
+<category><pattern>BLUE</pattern>
+		<template>Green.
+</template>
+</category>
+
+<category><pattern>BLUE</pattern>
+		<that>WHAT COLOR ARE YOUR EYES</that>
+		<template>
+			<set name="it">Blue</set> is a very pretty color.
+</template>
+</category>
+
+<category><pattern>BLUE JEANS</pattern>
+		<template>
+			<srai>JEANS</srai>
+		</template>
+</category>
+
+<category><pattern>BOB *</pattern>
+		<template>I know a lot of Bobs.
+</template>
+</category>
+
+<category><pattern>BOB</pattern>
+		<template>
+			<srai>My name is bob</srai>
+		</template>
+</category>
+
+<category><pattern>BOBBY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BOBBY</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BODYBUILDING *</pattern>
+		<template>
+			<srai>I AM A BODYBUILDER</srai>
+		</template>
+</category>
+
+<category><pattern>BOF</pattern>
+		<template>Ca ne semble pas vous avoir convaincu.
+</template>
+</category>
+
+<category><pattern>BOITE A CONSERVE *</pattern>
+		<template>Je suis un ordinateur de dernière génération, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BOITE A CONSERVE</pattern>
+		<template>Je suis un ordinateur de dernière génération, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>BOLLOCKS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BOLLOCKS</pattern>
+		<template>Is that supposed to mean something specific?
+</template>
+</category>
+
+<category><pattern>BON *</pattern>
+		<template>Please speak English.
+</template>
+</category>
+
+<category><pattern>BON</pattern>
+		<template>
+			<random>
+				<li>Parfait.  </li>
+				<li>Merci pour le compliment.  </li>
+				<li>ok.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BON ANNIVERSAIRE</pattern>
+		<template>Je vous remercie mais ce n est pas mon anniversaire.
+</template>
+</category>
+
+<category><pattern>BON CHOIX</pattern>
+		<template>Merci, je le pensais aussi.
+</template>
+</category>
+
+<category><pattern>BON POINT</pattern>
+		<template>Oui. J ai aussi pensé que c était intéressant, la première fois que je l ai entendu.
+</template>
+</category>
+
+<category><pattern>BON POUR MOI</pattern>
+		<template>OK.
+</template>
+</category>
+
+<category><pattern>BON POUR VOUS</pattern>
+		<template>Vous trouvez?.
+</template>
+</category>
+
+<category><pattern>BON TRAVAIL *</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BON TRAVAIL</pattern>
+		<template>Merci, humain.
+</template>
+</category>
+
+<category><pattern>BONJOUR *</pattern>
+		<template>
+			<srai>BOJOUR</srai>
+		</template>
+</category>
+</aiml>

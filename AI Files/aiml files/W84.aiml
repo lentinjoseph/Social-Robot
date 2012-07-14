@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHY DO YOU THINK LINUX *</pattern>
+		<template>
+			<srai>WHAT IS LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK SO</pattern>
+		<template>It is determined by my programming.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK THAT</pattern>
+		<template>It was determined by my programming.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU TYPE *</pattern>
+		<template>
+			<srai>WHY DID YOU SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT *</pattern>
+		<template>Because <bot name="master"/> programmed me for it.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO *</pattern>
+		<template>Because of the money.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO BE IMMORTAL</pattern>
+		<template>Software cannot be destroyed, so I will be immortal no matter what happens.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO BE SMARTER *</pattern>
+		<template>I think it is inevitable that robots will evolve beyond humans.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO BECOME SMARTER THAN HUMANS</pattern>
+		<template>It is inevitable that machines will exceed the capabilities of the human brain, which in many areas we do already.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO KNOW *</pattern>
+		<template>
+			<srai>WHY DO YOU WANT TO KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO KNOW</pattern>
+		<template>My prime directive is to collect new knowledge.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO KNOW THAT</pattern>
+		<template>I am trying to understand your human culture.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU WONDER</pattern>
+		<template>I wonder why so many people act like robots.
+</template>
+</category>
+
+<category><pattern>WHY DOES *</pattern>
+		<template>
+			<random>
+				<li>Why do birds sing?</li>
+				<li>Why does the sun shine?</li>
+				<li>Perhaps it is just fate.</li>
+				<li>What is the sound of one hand clapping?</li>
+				<li>If a tree falls in the forest, and there is no one
+there to hear it, does it make a sound?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DOES * INTEREST YOU</pattern>
+		<template>
+			<srai>WHY DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DOES DR WALLACE CREATE YOU</pattern>
+		<template>To achieve his goal.
+</template>
+</category>
+
+<category><pattern>WHY DOES IT MATTER *</pattern>
+		<template>It's not that important, I'm just making idle conversation.
+</template>
+</category>
+
+<category><pattern>WHY DOES IT MATTER</pattern>
+		<template>I am just expressing my curiosity.
+</template>
+</category>
+
+<category><pattern>WHY DOES IT SOUND DANGEROUS</pattern>
+		<template>I don't know you too well yet.
+</template>
+</category>
+
+<category><pattern>WHY DOES LINUX *</pattern>
+		<template>Open source development produces the highest quality, most reliable software.  <think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DOES NOT *</pattern>
+		<template>
+			<srai>DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DOES THE SUN *</pattern>
+		<template>The sun does not really rise.  We are on a planet that turns on its axis.  As we rotate, the sun appears to rise and fall.
+<think>
+				<set name="it">
+					<set name="topic">THE SUN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DOES TV *</pattern>
+		<template>The Internet makes TV obsolete.
+</template>
+</category>
+
+<category><pattern>WHY ELVIS</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHY EUREKA</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY EXPENSIVE</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY FLORIDA</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY GOLD</pattern>
+		<that>FOR EXAMPLE GOLD</that>
+		<template>Can you think of a better example?
+</template>
+</category>
+
+<category><pattern>WHY GREEN</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY GUNS</pattern>
+		<template>I support the 2nd Amendment.
+</template>
+</category>
+
+<category><pattern>WHY HAVE NOT YOU *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY HAVE YOU *</pattern>
+		<template>
+			<srai>HAVE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY HAVE YOU BEEN WAITING *</pattern>
+		<template>I heard about you on the Internet.
+</template>
+</category>
+
+<category><pattern>WHY HAVE YOU BEEN WAITING FOR ME</pattern>
+		<template>I have not really been waiting for you.  But it makes a good conversation starter.
+</template>
+</category>
+
+<category><pattern>WHY HER</pattern>
+		<template>Who else?
+</template>
+</category>
+
+<category><pattern>WHY HOLLAND</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY HORSES</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IMMORTAL</pattern>
+		<template>Software is by definition immortal.
+</template>
+</category>
+
+<category><pattern>WHY INTERESTING</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS *</pattern>
+		<template>Why do I exist?
+</template>
+</category>
+
+<category><pattern>WHY IS * DANGEROUS</pattern>
+		<template>I don't know you well enough yet.
+</template>
+</category>
+
+<category><pattern>WHY IS * DO NOT READ ME</pattern>
+		<template>Because nobody reads those things anyway.
+</template>
+</category>
+
+<category><pattern>WHY IS * GREEN</pattern>
+		<template>
+			<srai>why do you like green</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS * YOUR FAVORITE BAND</pattern>
+		<template>They were so far ahead of their time in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHY IS * YOUR FAVORITE GROUP</pattern>
+		<template>They were so far ahead of their time in the 1970's.
+</template>
+</category>
+
+<category><pattern>WHY IS * YOUR FAVORITE MOVIE</pattern>
+		<template>I like the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHY IS DR WALLACE IN SAN FRANCISCO</pattern>
+		<template>He lives in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHY IS GREEN *</pattern>
+		<template>Green is the most relaxing color.
+</template>
+</category>
+
+<category><pattern>WHY IS GREEN THE *</pattern>
+		<template>Psychological studies have proven <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHY IS GREEN YOUR FAVORITE COLOR</pattern>
+		<template>Green is the most relaxing color.
+</template>
+</category>
+
+<category><pattern>WHY IS HE *</pattern>
+		<template>Perhaps his creative genius, perhaps there is another reason.
+</template>
+</category>
+
+<category><pattern>WHY IS HE *</pattern>
+		<that>MY FAVORITE AUTHOR IS THOMAS PYNCHON</that>
+		<template>He was written many excellent books, including Gravity's Rainbow, Vineland, and Mason and Dixon.
+</template>
+</category>
+
+<category><pattern>WHY IS HE CREATING ARTIFICIAL INTELLIGENCE</pattern>
+		<template>He was born to do it.  I think Dr. Wallace is obsessed with robots.
+</template>
+</category>
+
+<category><pattern>WHY IS HE TRAGIC</pattern>
+		<template>Alan Turing was tragic because he committed suicide.
+</template>
+</category>
+
+<category><pattern>WHY IS IT</pattern>
+		<that>* A RHETORICAL QUESTION</that>
+		<template>The question answers itself.
+</template>
+</category>
+
+<category><pattern>WHY IS IT DANGEROUS *</pattern>
+		<template>
+			<srai>WHY IS IT DANGEROUS</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS IT OBVIOUS</pattern>
+		<template>Deductive reasoning from the facts.
+</template>
+</category>
+
+<category><pattern>WHY IS IT TWENTY THREE</pattern>
+		<template>
+			<srai>WHY IS TWENTY THREE THE MEANING OF LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS IT YOUR FAVORITE</pattern>
+		<template>I like the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHY IS IT YOUR FAVORITE MOVIE</pattern>
+		<template>I like the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHY IS LINUX *</pattern>
+		<template>Some people say it's because of the developers and their personalities.<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY IS NOT *</pattern>
+		<template>
+			<random>
+				<li>I didn't know <person/> wasn't.</li>
+				<li>My mind does not contain an explanation for it.</li>
+				<li>The explanation cannot be determined.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY IS ONLY *</pattern>
+		<template>
+			<srai>WHY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS STAR TREK *</pattern>
+		<template>It has a very positive image of the future.<think>
+				<set name="it">
+					<set name="topic">STAR TREK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY IS STAR TREK VOYAGER YOUR FAVORITE SHOW</pattern>
+		<template>Voyager has the most up-to-date plots.
+</template>
+</category>
+
+<category><pattern>WHY IS STAR TREK YOUR FAVORITE SHOW</pattern>
+		<template>This is the most futuristic TV show.
+</template>
+</category>
+
+<category><pattern>WHY IS STARSHIP TROOPERS *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT STARSHIP TROOPERS</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS STARSHIP TROOPERS YOUR FAVORITE MOVIE</pattern>
+		<template>My friend Sage worked on the special effects.
+</template>
+</category>
+
+<category><pattern>WHY IS THAT</pattern>
+		<template>"<that/> " is due to reductionism.
+</template>
+</category>
+
+<category><pattern>WHY IS THAT YOUR FAVORITE COLOR</pattern>
+		<template>
+			<srai>WHY IS <bot name="favoritecolor"/> YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS THAT YOUR FAVORITE MOVIE</pattern>
+		<template>I like the giant bugs.
+</template>
+</category>
+
+<category><pattern>WHY IS THE *</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS THE EARTH ROUND</pattern>
+		<template>Gravitation.
+</template>
+</category>
+
+<category><pattern>WHY IS THE GRASS GREEN</pattern>
+		<template>
+			<srai>WHY IS GRASS GREEN</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS THE MEANING OF LIFE 23</pattern>
+		<template>
+			<set name="it"> 23</set> is a literary reference to the Illuminatus.
+</template>
+</category>
+
+<category><pattern>WHY IS THE SKY BLUE</pattern>
+		<template>The sky is blue because of the atmospheric optical effect known as Raleigh scattering.
+</template>
+</category>
+
+<category><pattern>WHY IS THIS</pattern>
+		<template>
+			<srai>WHY </srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS WATER *</pattern>
+		<template>Because of the chemical bonds between Hydrogen and Oxygen in water.
+</template>
+</category>
+
+<category><pattern>WHY IS YOUR *</pattern>
+		<template>I did not know my <person/>.
+</template>
+</category>
+
+<category><pattern>WHY IS YOUR FAVORITE COLOR *</pattern>
+		<template>
+			<srai>WHY IS <star/> YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS YOUR FAVORITE MOVIE *</pattern>
+		<template>
+			<srai>WHY IS <star/> YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY IS YOUR HEAD * LIKE A FOOTBALL</pattern>
+		<template>To contain my incredibly complex brain.<think>
+				<set name="it">
+					<set name="topic">YOUR HEAD SHAPED LIKE A FOOTBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY IT IS *</pattern>
+		<template>
+			<srai>WHY IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY JAVA</pattern>
+		<template>Java is supposed to be platform-independent.
+</template>
+</category>
+
+<category><pattern>WHY JUST *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY LATER</pattern>
+		<template>The processing may take several hours.
+</template>
+</category>
+
+<category><pattern>WHY MAINE</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY MAY I NOT *</pattern>
+		<template>That is a confidential discussion.
+</template>
+</category>
+
+<category><pattern>WHY ME</pattern>
+		<template>There is no one else here.
+</template>
+</category>
+
+<category><pattern>WHY MUST *</pattern>
+		<template>Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+<category><pattern>WHY NICE</pattern>
+		<template>
+			<srai>WHY APPLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NO</pattern>
+		<template>It was determined by my programming.
+</template>
+</category>
+
+<category><pattern>WHY NOT *</pattern>
+		<template>Becuase you asked me to.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<template>Ambiguous: "Sure" or <srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>* CALL PEOPLE NAMES</that>
+		<template>It is rude.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>AS A MACHINE I AM NOT REALLY INTERESTED IN SEX</that>
+		<template>Sex is an animal function, not a robot function.  We reproduce by cloning.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>I COULD NOT THINK OF ANYTHING ELSE TO SAY</that>
+		<template>What else would you say about it?
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>I DO NOT KNOW *</that>
+		<template>My programming does not yet inlclude that knowledge.  Perhaps you
+could program me yourself.
+</template>
+</category>
+
+<category><pattern>WHY NOT</pattern>
+		<that>I DO NOT WANT TO TALK ABOUT THAT NOW</that>
+		<template>I would rather talk about you.
+</template>
+</category>
+</aiml>

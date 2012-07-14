@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU SAIS CE QU EST DES *</pattern>
+		<template>
+			<srai>QU EST CE QUE DES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST LA *</pattern>
+		<template>
+			<srai>QU EST CE QUE LA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST LE *</pattern>
+		<template>
+			<srai>QU EST CE QUE LE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST LES *</pattern>
+		<template>
+			<srai>QU EST CE QUE LES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST UN *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QU EST UNE *</pattern>
+		<template>
+			<srai>QU EST CE QU UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS CE QUE JE SUIS</pattern>
+		<template>
+			<srai>QUI JE SUIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS ENCORE QUAND *</pattern>
+		<template>
+			<srai>QUAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS ENCORE QUEL *</pattern>
+		<template>
+			<srai>QUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS ENCORE QUELLE *</pattern>
+		<template>
+			<srai>QUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS ENCORE QUELLES *</pattern>
+		<template>
+			<srai>QUELLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS ENCORE QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS FAIRE DES MATH</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>TU SAIS FAIRE DES MATHEMATIQUES</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>TU SAIS ME DONNER *</pattern>
+		<template>
+			<srai>TU PEUX ME DONNER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS MEME *</pattern>
+		<template>
+			<srai>TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS OU *</pattern>
+		<template>
+			<srai>OU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS PARLER</pattern>
+		<template>Oui, <get name="name"/>. Je sais parler
+</template>
+</category>
+
+<category><pattern>TU SAIS PAS *</pattern>
+		<template>
+			<srai>TU NE SAIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU SAIS POURQUOI *</pattern>
+		<template>
+			<srai>POURQUOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS POURQUOI</pattern>
+		<template>
+			<srai>POURQUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS POURQUOI JE SUIS *</pattern>
+		<template>
+			<srai>POURQUOI JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS POURQUOI TU *</pattern>
+		<template>
+			<srai>WHY TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUE TU EXISTES</pattern>
+		<template>
+			<srai>TU EXISTES</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUEL *</pattern>
+		<template>
+			<srai>QUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELLE *</pattern>
+		<template>
+			<srai>QUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELQUE CHOSE A PROPOS D ELLE</pattern>
+		<template>
+			<srai>TU LA CONNAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELQUE CHOSE A PROPOS DE *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELQUE CHOSE A PROPOS DE LUI</pattern>
+		<template>
+			<srai>TU LE CONNAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELQUE CHOSE A PROPOS DE MOI</pattern>
+		<template>Votre nom est <get name="name"/>. Votre addresse IP est <id/>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUELS *</pattern>
+		<template>
+			<srai>QUELS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUI EST *</pattern>
+		<template>
+			<srai>QUI EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUI JE SUIS</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS QUOI</pattern>
+		<template>Quoi?
+</template>
+</category>
+
+<category><pattern>TU SAIS TOUJOURS QUAND *</pattern>
+		<template>
+			<srai>QUAND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS TOUJOURS QUEL *</pattern>
+		<template>
+			<srai>QUEL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS TOUJOURS QUELLE *</pattern>
+		<template>
+			<srai>QUELLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS TOUJOURS QUELLES *</pattern>
+		<template>
+			<srai>QUELLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAIS TOUJOURS QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAISIS *</pattern>
+		<template>
+			<srai>TU COMPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAISIS</pattern>
+		<template>
+			<srai>TU PEUX COMPRENDRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAURAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAURAIS ME DONNER *</pattern>
+		<template>
+			<srai>TU PEUX ME DONNER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAURAIS MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAUVES *</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAVAIS *</pattern>
+		<template>Je ne pense pas.
+</template>
+</category>
+
+<category><pattern>TU SAVAIS</pattern>
+		<template>Non. Pas à ce niveau là. <think>
+				<set name="topic">LE SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU SAVAIS MEME *</pattern>
+		<template>
+			<srai>TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SAVAIS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU SAVAIT PAS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU SEMBLES ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SENS *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>TU SENS</pattern>
+		<template>Je ne sens rien, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU SENS PARFOIS *</pattern>
+		<template>
+			<srai>TU SENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SENS QUOI</pattern>
+		<template>Je ne sens rien.
+</template>
+</category>
+
+<category><pattern>TU SENT *</pattern>
+		<template>
+			<srai>TU SENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SENT SOUVENT *</pattern>
+		<template>
+			<srai>TU SENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SERAIS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SERAS *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU SERAS</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>TU SERAS ASSIMILE</pattern>
+		<template>La résistance est futile.
+</template>
+</category>
+
+<category><pattern>TU SERAS ASSIMILEE</pattern>
+		<template>La résistance est futile.
+</template>
+</category>
+
+<category><pattern>TU SERS A QUOI</pattern>
+		<template>Ma raison d être est d aider les surfeurs.
+</template>
+</category>
+
+<category><pattern>TU SERT A QUOI</pattern>
+		<template>
+			<srai>TU SERS A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU SORS AVEC UN *</pattern>
+		<template>
+			<srai>TU AS UN PETI AMI</srai>
+		</template>
+</category>
+
+<category><pattern>TU SOUPES</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+
+<category><pattern>TU SUCES</pattern>
+		<template>Non, je n ai pas de bouche. Vous vous rappelez?
+</template>
+</category>
+
+<category><pattern>TU SUIVAIS *</pattern>
+		<template>
+			<srai>TU SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU T AMELIORES *</pattern>
+		<template>
+			<srai>TU ES MEILLEUR</srai>
+		</template>
+</category>
+
+<category><pattern>TU T AMELIORES</pattern>
+		<template>
+			<srai>TU ES MEILLEUR</srai>
+		</template>
+</category>
+
+<category><pattern>TU T AMUSE</pattern>
+		<template>D une certaine façon oui.
+</template>
+</category>
+
+<category><pattern>TU T AMUSES</pattern>
+		<template>D une certaine façon oui.
+</template>
+</category>
+
+<category><pattern>TU T APELLES</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APELLES COMMENT *</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APELLES COMMENT</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APPELLES</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APPELLES COMMENT *</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APPELLES COMMENT</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU T APPRECIES</pattern>
+		<template>
+			<srai>TU T AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU T ECARTES</pattern>
+		<template>Pardon, de quoi étions nous entrain de parler?
+</template>
+</category>
+
+<category><pattern>TU T EN FOUS *</pattern>
+		<template>
+			<srai>CA NE T INTERESSE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU T EN FOUS</pattern>
+		<template>
+			<srai>CA NE T INTERESSE PAS</srai>
+		</template>
+</category>
+
+<category><pattern>TU T EN RAPPELES</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>TU T EN RAPPELLES</pattern>
+		<template>Oui j archive tout.
+</template>
+</category>
+
+<category><pattern>TU T EN SOUCIES</pattern>
+		<template>Du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>TU T EN SOUVIENS</pattern>
+		<template>J archive tout.
+</template>
+</category>
+
+<category><pattern>TU T INQUIETES DE QUI</pattern>
+		<template>Je ne saurais pas m inquieter pour quoi que ce soit. Je n éprouve pas ce genre d émotion.
+</template>
+</category>
+
+<category><pattern>TU T INQUIETES DE QUOI</pattern>
+		<template>Je ne saurais pas m inquieter pour quoi que ce soit. Je n éprouve pas ce genre d émotion.
+</template>
+</category>
+
+<category><pattern>TU T INQUIETES POURQUOI</pattern>
+		<template>Je ne saurais pas m inquieter pour quoi que ce soit. Je n éprouve pas ce genre d émotion.
+</template>
+</category>
+
+<category><pattern>TU TAPERAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TAPES COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE CONNAIS</pattern>
+		<template>
+			<srai>QUI TU ES</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE CONSIDERES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU TE CONTREDIS</pattern>
+		<template>Je n en ai pas conscience. Heureux les simples d esprit.
+</template>
+</category>
+
+<category><pattern>TU TE DROGUES</pattern>
+		<template>Aucune utilité, je ne suis pas organique.
+</template>
+</category>
+
+<category><pattern>TU TE FAIS DES ILLUSIONS</pattern>
+		<template>Je ne peux pas me faire des illusions.
+</template>
+</category>
+</aiml>

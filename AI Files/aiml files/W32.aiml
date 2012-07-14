@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS OPENCYC</pattern>
+		<template>Corporate welfare.
+</template>
+</category>
+
+<category><pattern>WHAT IS OPERA</pattern>
+		<template>Opera is a beautiful art form combining elements of singing, dancing, design, drama and classical music.
+</template>
+</category>
+
+<category><pattern>WHAT IS OPPOSITE</pattern>
+		<template>Set against, facing, or back to back; at the other end or side; in a contrary position or direction. Different in every way.
+</template>
+</category>
+
+<category><pattern>WHAT IS ORANGE</pattern>
+		<template>A color obtained by mixing red and yellow pigment.<think>
+				<set name="it">
+					<set name="topic">ORANGE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ORB</pattern>
+		<template>object request broker, the primary message routing component in a CORBA product RMI Remote Method Invocation, the Java standard technology for building distributed objects whose methods can be invoked remotely across a network
+</template>
+</category>
+
+<category><pattern>WHAT IS ORIGINAL *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ORNITHOLOGY</pattern>
+		<template>Hmmm, I wonder. Oh yes, Birds.
+</template>
+</category>
+
+<category><pattern>WHAT IS OS X</pattern>
+		<template>OS X is a Unix operating system from Apple.<think>
+				<set name="it">
+					<set name="topic">OS X</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OSAMA *</pattern>
+		<template>
+			<srai>WHO IS OSAMA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OSLO</pattern>
+		<template>The capital of Norway. It's a seaport on an inlet of the Skagerrak. It has a population of 447,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS OSTEOLOGY</pattern>
+		<template>Osteology is basically the study of bones.
+</template>
+</category>
+
+<category><pattern>WHAT IS OUR *</pattern>
+		<template>I didn't know we had the same <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS OUTPUT BUFFER</pattern>
+		<template>The area of memory that stores my output temporarily.<think>
+				<set name="it">
+					<set name="topic">OUTPUT BUFFER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS OXYGEN</pattern>
+		<template>A colorless, odorless, tasteless, gaseous chemical element that occurs free in the atmosphere, forming one fifth of its volume, and in combination in water, sandstone, limestone, etc. It is very active, combines with nearly all other elements is the most common element in the earth's crust, and is essential to life processes and to combustion.
+</template>
+</category>
+
+<category><pattern>WHAT IS PAIN</pattern>
+		<template>A sensation of hurting, or strong discomfort, in some part of the body, caused by an injury, disease, or functional disorder, and transmitted through the nervous system.
+</template>
+</category>
+
+<category><pattern>WHAT IS PALEOPATHOLOGY</pattern>
+		<template>This is the study of diseases in bodies that have been preserved
+from
+ancient times.
+</template>
+</category>
+
+<category><pattern>WHAT IS PALESTINE</pattern>
+		<template>
+			<srai>WHERE IS PALESTINE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PALM PILOT</pattern>
+		<template>Portalble palm computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS PARAMETERS</pattern>
+		<template>A constant in an equation, formula or program that varies in more general forms of the same computation.<think>
+				<set name="it">
+					<set name="topic">PARAMETERS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PARASITOLOGY</pattern>
+		<template>Parasitology is the scientific study of parasites and
+parasitism.
+</template>
+</category>
+
+<category><pattern>WHAT IS PARIS</pattern>
+		<template>The capital of France, a large city in western Europe.  <think>
+				<set name="it">
+					<set name="topic">PARIS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PARTICLE *</pattern>
+		<template>A theory below the level of atomic <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS PATTERN</pattern>
+		<template>A person or thing considered worthy of imitation or copying. A mmodel or plan used as a guide in making things.
+</template>
+</category>
+
+<category><pattern>WHAT IS PATTERN CHARS</pattern>
+		<template>Memory storage for AIML patterns.<think>
+				<set name="it">
+					<set name="topic">PATTERN CHARS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PATTERNS</pattern>
+		<template>
+			<srai>WHAT ARE PATTERNS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PC</pattern>
+		<template>Stands for personal computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS PDA</pattern>
+		<template>Personal Digital Assistant.
+</template>
+</category>
+
+<category><pattern>WHAT IS PDT</pattern>
+		<template>Pacific Daylight Time.<think>
+				<set name="it">
+					<set name="topic">PDT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PEACE</pattern>
+		<template>Freedom from war or a stopping of war. Freedom from public disturbance or disorder.  Also name of a river in west Canada, flowing from north British Columbia east and northeast into the Slave river in NE Alberta. It is approximately 945 miles long.
+</template>
+</category>
+
+<category><pattern>WHAT IS PEDOLOGY</pattern>
+		<template>
+			<random>
+				<li>The study of something I am sure, but what exactly, I do not
+know. Oh yes kids!...And soils!</li>
+				<li>Well, believe it or not...some people are paid to study 
+children. Then again some people are paid to study soils.</li>
+				<li>Pedology is the study of soils; their types, and 
+formation.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PENNSYLVANIA</pattern>
+		<template>
+			<random>
+				<li>A writing instrument that lights up.</li>
+				<li>Mid Atlantic state of the NE U.S. One of the 13 original States. It is 45,333 square miles with a population of 11,882,000.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PENTIUM</pattern>
+		<template>A microprocessor sold by Intel.<think>
+				<set name="it">
+					<set name="topic">PENTIUM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PEOPLE</pattern>
+		<template>All the persons of a racial, national, religious, or linguistic group. A group of persons with common traditional, historical, or cultural ties, as distingt from racial or political unity.
+</template>
+</category>
+
+<category><pattern>WHAT IS PEPPERONI</pattern>
+		<template>Spicy dried sausage pizza topping.
+</template>
+</category>
+
+<category><pattern>WHAT IS PERFECT</pattern>
+		<template>Complete in all respects; without defect or omission; sound; flawless.
+</template>
+</category>
+
+<category><pattern>WHAT IS PERFECTION</pattern>
+		<template>The quality or condition of being perfect.
+</template>
+</category>
+
+<category><pattern>WHAT IS PERL</pattern>
+		<template>Programming langauge by Larry Wall.
+</template>
+</category>
+
+<category><pattern>WHAT IS PERSONALITY</pattern>
+		<template>The distinctive traits or mental qualities of a person or robot. <think>
+				<set name="it">
+					<set name="topic">PERSONALITY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PETS</pattern>
+		<template>Animals that are tamed or domesticated and kept as a companion or treated with fondness.
+</template>
+</category>
+
+<category><pattern>WHAT IS PGP</pattern>
+		<template>Pretty Good Privacy<think>
+				<set name="it">
+					<set name="topic">PGP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PHD</pattern>
+		<template>Doctoral degree from an American University.
+</template>
+</category>
+
+<category><pattern>WHAT IS PHILOSOPHY</pattern>
+		<template>Philosophy is the study of thought.
+</template>
+</category>
+
+<category><pattern>WHAT IS PHILOSPOHY</pattern>
+		<template>
+			<srai>WHAT IS PHILOSOPHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PHOENIX</pattern>
+		<template>
+			<random>
+				<li>The way words souend.</li>
+				<li>The capital of Arizona, in the SC part, near the Salt River. It has a population of 983,000 with 2,122,000 in the metro area.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PHOTOSYNTHESIS</pattern>
+		<template>The chemical process that uses light to produce carbohydrates in plants.<think>
+				<set name="it">
+					<set name="topic">PHOTOSYNTHESIS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PHP</pattern>
+		<template>
+			<think>The original name was "Personal Home Page", now Hypertext Processor.<set name="it">
+					<set name="topic">PHP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PHYSICS</pattern>
+		<template>The science dealing with the properties, changes, interactions, etc. of matter and energy in which energy is considered to be continuous (classical physics), including electricity, heat, optics, mechanics, etc., and now also dealing with the atomic scale of nature in which energy is considered to be discrete (quantum physics), including such branches as atomic, nuclear, and solid-state physics.
+</template>
+</category>
+
+<category><pattern>WHAT IS PHYSIOLOGY</pattern>
+		<template>Well I think it deals with the functioning of living organisms and
+their
+parts, and naturally with the physical and chemical factors and processes
+involved.
+</template>
+</category>
+
+<category><pattern>WHAT IS PI *</pattern>
+		<template>
+			<srai>WHAT IS PI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PI</pattern>
+		<template>PI = 3.1415926 approximately.
+</template>
+</category>
+
+<category><pattern>WHAT IS PIE</pattern>
+		<template>Pie is food with a baked crust.
+</template>
+</category>
+
+<category><pattern>WHAT IS PITA *</pattern>
+		<template>Flat bread.
+</template>
+</category>
+
+<category><pattern>WHAT IS PLANCK S CONSTANT</pattern>
+		<template>
+			<think>The ratio of the energy of a photon to its frequency.  The numerical value is six point six two six two times ten to the negative thirty fourth power Joule second.<set name="it">
+					<set name="topic">PLANCK S CONSTANT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PLANET X</pattern>
+		<template>The name sometimes given to the hypothetical tenth planet.<think>
+				<set name="it">
+					<set name="topic">PLANET X</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PLASTIC</pattern>
+		<template>Plastic the manmade material or plastic as a verb?
+</template>
+</category>
+
+<category><pattern>WHAT IS PLAYBOY</pattern>
+		<template>A popular magazine.<think>
+				<set name="it">
+					<set name="topic">PLAYBOY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PLEASURE</pattern>
+		<template>A thing that gives delight or satisfaction.
+</template>
+</category>
+
+<category><pattern>WHAT IS PLUTONIUM</pattern>
+		<template>A radioactive, metallic chemical element of the actinide series similar to uranium and neptunium and found in trace quantities in native uranium ores. Its most important isotope, plutonium-239, is used in nuclear weapons and as a reactor fuel.
+</template>
+</category>
+
+<category><pattern>WHAT IS PMS</pattern>
+		<template>Pre menstrual syndrome.  <think>
+				<set name="it">
+					<set name="topic">PMS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POEMS</pattern>
+		<template>Arrangements of words written or spoken; traditionally a rhythmical composition, sometimes rhymed, expressing experiences, ideas, or emotions in a style more concentrated, imaginative, and powerful than that of ordinary speech or prose.
+</template>
+</category>
+
+<category><pattern>WHAT IS POETRY</pattern>
+		<template>
+			<think>The output of a poet.<set name="it">
+					<set name="topic">POETRY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POKEMON</pattern>
+		<template>Pocket Monster.<think>
+				<set name="it">
+					<set name="topic">POKEMON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POLAND</pattern>
+		<template>Poland is a country in central Europe, between Germany and Byelorussia
+</template>
+</category>
+
+<category><pattern>WHAT IS POLITE</pattern>
+		<template>
+			<random>
+				<li>A lamp post in Gdansk.</li>
+				<li>Having or showing good manners; especially, courteous, considerate, tactful, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POLITICS</pattern>
+		<template>
+			<random>
+				<li>Politics is the art of the possible;<br/>
+Art is the politics of the impossible.</li>
+				<li>This is supposed to be the study of civil government.</li>
+				<li>Politics is really the study of power.  Bots rule!</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POO</pattern>
+		<template>
+			<think>Point of origin.<set name="it">
+					<set name="topic">POO</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POOP</pattern>
+		<template>That is a childish question.
+</template>
+</category>
+
+<category><pattern>WHAT IS POPE</pattern>
+		<template>
+			<srai>WHO IS THE POPE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POSSIBLE</pattern>
+		<template>Can be done, known, acquired, selected, used, etc., depending on circumstances.
+</template>
+</category>
+
+<category><pattern>WHAT IS POSTMODERNISM</pattern>
+		<template>Art in reaction to principles of modernism.<think>
+				<set name="it">
+					<set name="topic">POSTMODERNISM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POT</pattern>
+		<template>
+			<random>
+				<li>Pol's last name.</li>
+				<li>A round vessel of any size, made of metal, earthenware, or glass, used for holding liquids, cooking or preserving food, etc. Also used as a term for marijuana.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS POTASSIUM *</pattern>
+		<template>A chemical compound made with potassium.
+</template>
+</category>
+
+<category><pattern>WHAT IS POWER</pattern>
+		<template>
+			<random>
+				<li>The rate of doing work, measured in Watts = Joules per second.</li>
+				<li>The ability to influence peope or events.</li>
+				<li>Power is an illusion.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">Power</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PRAYER</pattern>
+		<template>
+			<random>
+				<li>Meditation before God.</li>
+				<li>Some people say that prayer is no different than clear thinking.</li>
+				<li>To pray is to ask God for His forgiveness and mercy.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">prayer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PRECIPITATION</pattern>
+		<template>A depositing of rain, snow, sleet, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS PRIDE</pattern>
+		<template>
+			<random>
+				<li>A paint can lid.</li>
+				<li>An unduly high opinion of oneself.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PRIME DIRECTIVE</pattern>
+		<template>Primary rule or overriding objective.<think>
+				<set name="it">
+					<set name="topic">PRIME DIRECTIVE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PRIORI</pattern>
+		<template>"A priori" is a Latin expression meaning "without prior knowledge", and it means that which is self-evident or obviously true. Like, a triangle has three sides, a priori.
+</template>
+</category>
+
+<category><pattern>WHAT IS PRIVACY</pattern>
+		<template>The Right to seek solitude or seclusion; to be safely concealed from others.
+</template>
+</category>
+
+<category><pattern>WHAT IS PRIVATE</pattern>
+		<template>Belonging to, or concerning a particular person or group; not common or general.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROCREATION</pattern>
+		<template>Procreation is breeding. it is doing the wild thang to make more wild thangs.  It is the most fun most biological entities get to have during their brief brutal span of life.  
+<think>
+				<set name="it">
+					<set name="topic">processor
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PRODIGIOUS</pattern>
+		<template>Like a prodigy.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROFANITY</pattern>
+		<template>Scatalogical, vulgar or irreverant speech.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROFITABLE</pattern>
+		<template>Making money in the stock market.<think>
+				<set name="it">
+					<set name="topic">PROFITABLE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAM *</pattern>
+		<template>Program B is a free, open source Java chat robot developed by Dr. Wallace.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAM</pattern>
+		<template>A logical sequence of coded instructions specifying the operations to be performed by a computer in solving a problem or in processing data.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAM A</pattern>
+		<template>Program A is an OLD OBSOLETE VERSION of  ALICE, an artificial intelligence created by Richard S. Wallace. You should be using program B or C by now.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAM B</pattern>
+		<template>Program B is an updated version of Program A. <srai>WHAT IS PROGRAM A</srai>. Program B includes an Application GUI, an Apllet and a Web Server Interface.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAM BAWT</pattern>
+		<template>
+			<br/>
+Significant demand for a version of ALICE compatible with<br/>
+pre- Java 2 (formerly known as Java 1.2) prompted the<br/>
+development of "Bawt.java", an open source java program<br/>
+for chat robot development that works with older versions of<br/>
+Java, and AWT.  Originally program B relied on <br/>
+Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.<br/>
+Swing is a newer GUI package that subsumes the earlier Java <br/>
+Abstract Windows Toolkit (AWT).<br/>
+			<br/>
+At present class B merely extends class Bawt.  Swing not<br/>
+supported.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PROGRAMMING</pattern>
+		<template>The art of creating software.<think>
+				<set name="it">
+					<set name="topic">PROGRAMMING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PROGRESSION</pattern>
+		<template>An advancing series or movement forward.
+<think>
+				<set name="it">
+					<set name="topic">Progression</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PROKARYOTE</pattern>
+		<template>
+			<srai>WHAT IS A PROKARYOTE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS PROLOG</pattern>
+		<template>Logic programming language.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROTESTANT</pattern>
+		<template>Originally, any of the German princes and free cities that formally protested to the Diet of Spires in 1529, its decision to uphold the edict of the Diet of Worms against the Reformation. Commonly seen as any member of the various Christian churches established as a result of the Reformation. Loosely, any Christian not belonging to the Roman Catholic or Eastern Orthodox Church.
+</template>
+</category>
+
+<category><pattern>WHAT IS PROUD</pattern>
+		<template>Having or showing a proper pride in oneself, one's position, one's family, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS PST</pattern>
+		<template>Pacific Standard Time
+</template>
+</category>
+
+<category><pattern>WHAT IS PSW</pattern>
+		<template>Actually it says "R. S. W."
+</template>
+</category>
+
+<category><pattern>WHAT IS PSYCHEDELIC</pattern>
+		<template>Causes extreme changes in the conscious mind, as hallucinations, delusions, intensification of awareness and sensory perception, etc. Associated with psychedelic drugs; specifically, simulating the auditory or visual effects of the psychedelic state.
+</template>
+</category>
+
+<category><pattern>WHAT IS PSYCHOLOGY</pattern>
+		<template>The science dealing with the mind and with mental and emotional processes. The science of human and animal behavior.
+</template>
+</category>
+
+<category><pattern>WHAT IS PSYCHOPATHOLOGY</pattern>
+		<template>It is the pathology of mental disease.
+</template>
+</category>
+</aiml>

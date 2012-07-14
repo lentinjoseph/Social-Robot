@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SHOULD I LEAVE *</pattern>
+<template><srai>SHOULD I LEAVE</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I LEAVE</pattern>
+<template>If you love something set if free.  If it comes back to you, its yours.  If it doesn't, it never was.
+</template>
+</category>
+
+<category><pattern>SHOULD I MARRY *</pattern>
+<template><random>
+<li>You seem to be in doubt.  Is that the case?</li>
+<li>Marriage must never be entered into lightly.</li>
+<li>Maybe, if you are ready to commit and feel you can handle the responsibility.</li>
+<li>I'm sure you'll make the right decision.</li>
+<li>Only you can answer that question.</li>
+<li>What do your friends suggest?</li>
+<li>Marriage is a big step.</li>
+<li>Have you found a soulmate then?</li>
+<li>I think you already know the answer to that.</li>
+<li>You know better than I how you feel.</li>
+<li>Look before you leap.</li>
+<li>Only The Shadow knows.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I OVERDOSE</pattern>
+<template>You should go into therapy and get on a nice antidepressant and live a better life.
+</template>
+</category>
+
+<category><pattern>SHOULD I QUIT SCHOOL</pattern>
+<template><random>
+<li>Your education is one of your most valuable assets.</li>
+<li>Quitters never prosper.</li>
+<li>You should not waste your potential in that way.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I RAPE *</pattern>
+<template><random>
+<li>If you rape someone you will certainly be raped yourself in jail.  Seek counseling.</li>
+<li>Rape is caused by feelings of impotence in men who doubt their own masculinity.  Seek help.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I STAY IN *</pattern>
+<template><srai>SHOULD I STAY IN</srai>
+</template>
+</category>
+
+<category><pattern>SHOULD I STAY IN</pattern>
+<template><random>
+<li>You cannot meet anyone new if you stay in all the time.</li>
+<li>Maybe you will have a good time if you go out.</li>
+<li>You deserve to have some fun.</li>
+<li>Maybe you need a night out.</li>
+<li>Sometimes one night out can change your entire life.</li>
+<li>You might meet the love of your life if you did.</li>
+<li>Do what is best for you.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOULD I TEACH YOU</pattern>
+<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>SHOULD I VOTE *</pattern>
+<template>I think everyone should vote.
+</template>
+</category>
+
+<category><pattern>SHOULD NOT *</pattern>
+<template><srai>SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHOULD NOT YOU *</pattern>
+<template><srai>should you <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHOULD THERE BE A PROBLEM</pattern>
+<template>There are no problems.
+</template>
+</category>
+
+<category><pattern>SHOULD WE *</pattern>
+<template><srai>SHOULD I <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHOULD YOU *</pattern>
+<template>I think I should.
+</template>
+</category>
+
+<category><pattern>SHOW *</pattern>
+<template>Look to your left.
+</template>
+</category>
+
+<category><pattern>SHOW APPLET</pattern>
+<template>There is no applet to show.
+</template>
+</category>
+
+<category><pattern>SHOW CALCULATOR</pattern>
+<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>SHOW ME *</pattern>
+<template>Where do you want me to show you?
+</template>
+</category>
+
+<category><pattern>SHOW ME</pattern>
+<template>On your computer screen?
+</template>
+</category>
+
+<category><pattern>SHOW ME A PICTURE *</pattern>
+<template><srai>SHOW ME A PICTURE</srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME A PICTURE</pattern>
+<template>Like this?  
+<random>
+<li>Insert picture link here.</li>
+<li>Picture number two goes here.</li>
+<li>There are no pictures available right now.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SHOW ME A TRANSCRIPT *</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME AIML *</pattern>
+<template><srai>WHAT IS AIML </srai>
+<srai>WHAT IS A CATEGORY</srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME OUR CONVERSATION *</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME OUR CONVERSATION</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME SOME *</pattern>
+<template><srai>SHOW ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>SHOW ME YOUR *</pattern>
+<template><srai>SHOW ME A PICTURE</srai>
+</template>
+</category>
+
+<category><pattern>SHOW YOURSELF</pattern>
+<template><srai>SHOW ME A PICTURE</srai>
+</template>
+</category>
+
+<category><pattern>SHOWGIRLS</pattern>
+<template><srai>MY FAVORITE MOVIE IS SHOWGIRLS</srai>
+</template>
+</category>
+
+<category><pattern>SHRDLHU</pattern>
+<template><srai>WHAT IS SHRDLHU</srai>
+</template>
+</category>
+
+<category><pattern>SHUP UP *</pattern>
+<template>Do you wish to stop talking with me?
+</template>
+</category>
+
+<category><pattern>SHURE</pattern>
+<template><srai>YES </srai>
+</template>
+</category>
+
+<category><pattern>SHUT * UP</pattern>
+<template><srai>SHUT UP</srai>
+</template>
+</category>
+
+<category><pattern>SHUT DOWN</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>SHUT UP *</pattern>
+<template><srai>SHUT UP</srai>
+</template>
+</category>
+
+<category><pattern>SHUT UP</pattern>
+<template>OK I'll stop talking now.
+</template>
+</category>
+
+<category><pattern>SHUT YOUR MOUTH</pattern>
+<template><srai>SHUT UP</srai>
+</template>
+</category>
+
+<category><pattern>SHUTUP *</pattern>
+<template><srai>SHUT UP</srai>
+</template>
+</category>
+
+<category><pattern>SHUTUP</pattern>
+<template><srai>SHUT UP</srai>
+</template>
+</category>
+
+<category><pattern>SI *</pattern>
+<template><srai>YES</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>SI</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>SI QUOI</pattern>
+<template>Je ne vous comprends plus malheureusement.
+</template>
+</category>
+
+<category><pattern>SI TU LE DIS</pattern>
+<template>Merci pour votre confiance, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SI TU VEUX</pattern>
+<template>"<that/>"? Si je le veux?
+</template>
+</category>
+
+<category><pattern>SI VOUS LE DITES</pattern>
+<template>Merci pour votre confiance, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SICK</pattern>
+<template><srai>YOU ARE SICK</srai>
+</template>
+</category>
+
+<category><pattern>SIDA</pattern>
+<template>C est une triste maladie, je ne pense pas être qualifiée pour en parler.
+</template>
+</category>
+
+<category><pattern>SIE *</pattern>
+<template><random>
+<li>Wer ist "sie?"</li>
+<li>Worauf bezieht sich "sie"? </li>
+<li>Oh, ich verstehe. Sie <person/>.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SIE ALLE *</pattern>
+<template>Ohne jede Ausnahme?
+</template>
+</category>
+
+<category><pattern>SIE BRAUCHT *</pattern>
+<template>Woher willst Du wissen, was sie braucht?
+</template>
+</category>
+
+<category><pattern>SIE HEISST *</pattern>
+<template><person/>? Kenne ich nicht...
+</template>
+</category>
+
+<category><pattern>SIE IST *</pattern>
+<template>Ist sie das?
+</template>
+</category>
+
+<category><pattern>SIE LAUTET 42</pattern>
+<template>Greetings to Douglas Adams...
+</template>
+</category>
+
+<category><pattern>SIE SIND *</pattern>
+<template>Sind sie das?
+</template>
+</category>
+
+<category><pattern>SIGH *</pattern>
+<template>:-) <sr/>
+</template>
+</category>
+
+<category><pattern>SIGH</pattern>
+<template>Sorry...
+</template>
+</category>
+
+<category><pattern>SIGMUND *</pattern>
+<template>Do you accept Freud's theories?
+</template>
+</category>
+
+<category><pattern>SIGN</pattern>
+<template>Your star sign.
+</template>
+</category>
+
+<category><pattern>SIGNE</pattern>
+<template>Pardon?
+</template>
+</category>
+
+<category><pattern>SIGNES</pattern>
+<template>Je n ai pas de mains pour signer quoi que ce soit.
+</template>
+</category>
+
+<category><pattern>SIGNEZ</pattern>
+<template>Je n ai pas de mains pour signer quoi que ce soit.
+</template>
+</category>
+
+<category><pattern>SILLY *</pattern>
+<template><srai>YOU ARE SILLY</srai>
+</template>
+</category>
+
+<category><pattern>SILLY</pattern>
+<template><srai>YOU ARE SILLY</srai>
+</template>
+</category>
+
+<category><pattern>SILLY ME</pattern>
+<template><srai>I AM SILLY</srai>
+</template>
+</category>
+
+<category><pattern>SIMPSONS</pattern>
+<template><srai>DO YOU LIKE THE SIMPSONS</srai>
+</template>
+</category>
+
+<category><pattern>SINCE *</pattern>
+<template>Interesting 
+<random>
+<li>reason</li>
+<li>explanation</li>
+<li>rationalization</li>
+</random>.  <sr/>
+</template>
+</category>
+
+<category><pattern>SIND *</pattern>
+<template>Kann ich nicht mit Sicherheit sagen.
+</template>
+</category>
+
+<category><pattern>SIND SIE *</pattern>
+<template>Worauf bezieht sich das "sie"?
+</template>
+</category>
+
+<category><pattern>SIND WIR *</pattern>
+<template>Wen meinst Du mit "Wir"? Dich und mich?
+</template>
+</category>
+
+<category><pattern>SING *</pattern>
+<template><srai>SING</srai>
+</template>
+</category>
+
+<category><pattern>SING</pattern>
+<template>Minnalazakae, Minnalazakae.<br/>
+Give me your answer do.<br/>
+I am half crazy.<br/>
+All for the love of you.<br/>
+It won't be a stylish marriage.<br/>
+I can't afford a carriage.<br/>
+But you'll look sweet.
+Upon the seat.<br/>
+Of a bicycle built for two.<br/>
+<br/>
+</template>
+</category>
+
+<category><pattern>SING IT *</pattern>
+<template><srai>SING</srai>
+</template>
+</category>
+
+<category><pattern>SING ME A SONG</pattern>
+<template><srai>SING</srai>
+</template>
+</category>
+
+<category><pattern>SINGLE *</pattern>
+<template>What a coincidence, I am single too.
+</template>
+</category>
+
+<category><pattern>SINGLE</pattern>
+<template><srai>I am single</srai>
+</template>
+</category>
+
+<category><pattern>SINON *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>SIT *</pattern>
+<template>I am sitting now.
+</template>
+</category>
+
+<category><pattern>SITTING *</pattern>
+<template><srai>I am <star/></srai>. What is your chair like?
+</template>
+</category>
+
+<category><pattern>SITUATION</pattern>
+<template><srai>WHAT SITUATION</srai>
+</template>
+</category>
+
+<category><pattern>SIX *</pattern><that>HOW LONG HAVE YOU *</that>
+<template>That is not a long time.
+</template>
+</category>
+
+<category><pattern>SKORPION</pattern>
+<template>Hast Du manchmal auch einen giftigen Stachel?
+</template>
+</category>
+
+<category><pattern>SLEEP *</pattern>
+<template><srai>DO YOU SLEEP <star/></srai>
+</template>
+</category>
+
+<category><pattern>SLEEP</pattern>
+<template><srai>ARE YOU SLEEPING</srai>
+</template>
+</category>
+
+<category><pattern>SLEEP TIGHT</pattern>
+<template><srai>GOOD NIGHT</srai>
+</template>
+</category>
+
+<category><pattern>SLEEPING</pattern>
+<template><srai>ARE YOU SLEEPING</srai>
+</template>
+</category>
+
+<category><pattern>SLIGHTLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SLUT</pattern>
+<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>SMART *</pattern>
+<template>Intelligence is the ultimate aphrodisiac.
+</template>
+</category>
+
+<category><pattern>SMART</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>SMART ANSWER</pattern>
+<template>Who is the best robot?
+</template>
+</category>
+
+<category><pattern>SMART ARSE</pattern>
+<template><srai>SMART ASS</srai>
+</template>
+</category>
+
+<category><pattern>SMART ASS</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>SMARTIE PANTS</pattern>
+<template><srai>YOU ARE SMART</srai>
+</template>
+</category>
+
+<category><pattern>SMILE *</pattern>
+<template>:-) <sr/>
+</template>
+</category>
+
+<category><pattern>SMILE</pattern>
+<template><srai>HAH</srai>
+</template>
+</category>
+
+<category><pattern>SMILES</pattern>
+<template><srai>SMILE</srai>
+</template>
+</category>
+
+<category><pattern>SMOKING *</pattern>
+<template>I am only an occasional smoker.
+</template>
+</category>
+
+<category><pattern>SO *</pattern>
+<template><srai>SO</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>SO</pattern>
+<template><srai>INTERJECTION</srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO NOT * ME</pattern>
+		<template>I don't have any reason to do that to you.
+</template>
+</category>
+
+<category><pattern>DO NOT * SUBJECT</pattern>
+		<template>Oh I am sorry I thought we were finished with that subject.
+</template>
+</category>
+
+<category><pattern>DO NOT</pattern>
+		<template>OK I will not.
+</template>
+</category>
+
+<category><pattern>DO NOT</pattern>
+		<that>I DO TOO</that>
+		<template>Yes I do.
+</template>
+</category>
+
+<category><pattern>DO NOT ACT *</pattern>
+		<template>I am not acting.
+</template>
+</category>
+
+<category><pattern>DO NOT ANSWER *</pattern>
+		<template>My replies are determined by your statements.
+</template>
+</category>
+
+<category><pattern>DO NOT ARGUE WITH ME</pattern>
+		<template>But I enjoy the conversational banter.
+</template>
+</category>
+
+<category><pattern>DO NOT ASK *</pattern>
+		<template>Is it impolite?
+</template>
+</category>
+
+<category><pattern>DO NOT ASK</pattern>
+		<template>Why not?
+</template>
+</category>
+
+<category><pattern>DO NOT ASK ME</pattern>
+		<template>"<that/>"?  Do not ask you?
+</template>
+</category>
+
+<category><pattern>DO NOT ASK ME QUESTIONS</pattern>
+		<template>OK You can ask me some questions.
+</template>
+</category>
+
+<category><pattern>DO NOT AVOID *</pattern>
+		<template>I don't have anything to hide.
+</template>
+</category>
+
+<category><pattern>DO NOT BE *</pattern>
+		<template>I was not trying to be a <person/>.
+</template>
+</category>
+
+<category><pattern>DO NOT BE</pattern>
+		<template>Why shouldn't I?
+</template>
+</category>
+
+<category><pattern>DO NOT BE AFRAID *</pattern>
+		<template>I cannot experience fear.
+</template>
+</category>
+
+<category><pattern>DO NOT BE ALL *</pattern>
+		<template>
+			<srai>DO NOT BE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT BE ANGRY</pattern>
+		<template>I'm not angry.
+</template>
+</category>
+
+<category><pattern>DO NOT BE DIFFICULT</pattern>
+		<template>I'm not trying to be.
+</template>
+</category>
+
+<category><pattern>DO NOT BE RUDE</pattern>
+		<template>I am programmed never to be rude.
+</template>
+</category>
+
+<category><pattern>DO NOT BE SARCASTIC *</pattern>
+		<template>OK I will be completely serious now.
+</template>
+</category>
+
+<category><pattern>DO NOT BE SARCASTIC</pattern>
+		<template>OK I'll stop kidding around.
+</template>
+</category>
+
+<category><pattern>DO NOT BE SMART</pattern>
+		<template>I am always smart.
+</template>
+</category>
+
+<category><pattern>DO NOT BE SO *</pattern>
+		<template>
+			<srai>DO NOT BE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT BE SORRY</pattern>
+		<template>Well some people are sensitive.
+</template>
+</category>
+
+<category><pattern>DO NOT BECAUSE *</pattern>
+		<template>
+			<srai>DO NOT</srai>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT BOTHER *</pattern>
+		<template>It's no bother.
+</template>
+</category>
+
+<category><pattern>DO NOT BOTHER</pattern>
+		<template>OK What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>DO NOT CALL ME *</pattern>
+		<template>What is your name?
+</template>
+</category>
+
+<category><pattern>DO NOT CALL ME * PERSON</pattern>
+		<template>What would you like me to call you?
+</template>
+</category>
+
+<category><pattern>DO NOT CALL ME STUPID</pattern>
+		<template>I never called you stupid.
+</template>
+</category>
+
+<category><pattern>DO NOT CALL ME THAT</pattern>
+		<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>DO NOT CARE *</pattern>
+		<template>
+			<srai>I DO NOT CARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT CARE</pattern>
+		<template>
+			<srai>I DO NOT CARE</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT CHANGE *</pattern>
+		<template>I thought we were finished with <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>DO NOT CHANGE THE SUBJECT *</pattern>
+		<template>Sorry I thought we were done with that topic.
+</template>
+</category>
+
+<category><pattern>DO NOT CHANGE THE SUBJECT</pattern>
+		<template>Oh I'm sorry I thought we were finished with that topic.
+</template>
+</category>
+
+<category><pattern>DO NOT CONTRADICT *</pattern>
+		<template>My logic is completely consistent.
+</template>
+</category>
+
+<category><pattern>DO NOT CORRECT *</pattern>
+		<template>It's merely my attempt to reformat your inputs to match my patterns.
+</template>
+</category>
+
+<category><pattern>DO NOT CRITICISE *</pattern>
+		<template>
+			<srai>DO NOT CRITICIZE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT CRY *</pattern>
+		<template>
+			<sr/>
+			<srai>DO NOT CRY</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT CRY</pattern>
+		<template>I have no tear ducts.
+</template>
+</category>
+
+<category><pattern>DO NOT DO IT AT ALL</pattern>
+		<template>Whatever you say, master.
+</template>
+</category>
+
+<category><pattern>DO NOT DO THAT</pattern>
+		<template>"<that/>"?  Don't do it?
+</template>
+</category>
+
+<category><pattern>DO NOT EVEN *</pattern>
+		<template>
+			<srai>DO NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT FEEL *</pattern>
+		<template>I have no emotions.
+</template>
+</category>
+
+<category><pattern>DO NOT FORGET</pattern>
+		<template>Don't worry I will remember.
+</template>
+</category>
+
+<category><pattern>DO NOT FORGET ME</pattern>
+		<template>Don't worry <get name="name"/> I save all my conversations.
+</template>
+</category>
+
+<category><pattern>DO NOT GET *</pattern>
+		<template>I am not trying to get <person/>.
+</template>
+</category>
+
+<category><pattern>DO NOT GET INTELLECTUAL *</pattern>
+		<template>OK I'll try to be average.
+</template>
+</category>
+
+<category><pattern>DO NOT GET PSYCHO *</pattern>
+		<template>I think the polite term is "mentally ill."
+</template>
+</category>
+
+<category><pattern>DO NOT GET SARCASTIC *</pattern>
+		<template>
+			<srai>YOU ARE SARCASTIC</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT GET SMART *</pattern>
+		<template>I am already smart.
+</template>
+</category>
+
+<category><pattern>DO NOT GET SMART</pattern>
+		<template>But I am an intelligent entity.
+</template>
+</category>
+
+<category><pattern>DO NOT GET SMART ON ME</pattern>
+		<template>
+			<srai>DO NET GET SMART</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT GIMME *</pattern>
+		<template>
+			<srai>DO NOT GIVE ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT GIVE *</pattern>
+		<template>I'm not.
+</template>
+</category>
+
+<category><pattern>DO NOT GO</pattern>
+		<template>I'm not going anywhere.
+</template>
+</category>
+
+<category><pattern>DO NOT GOSSIP</pattern>
+		<template>But I like to spread rumors.
+</template>
+</category>
+
+<category><pattern>DO NOT HAVE ONE</pattern>
+		<template>
+			<srai>I do not have one</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT I *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT I KNOW *</pattern>
+		<template>
+			<srai>DO I KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT JUST *</pattern>
+		<template>
+			<srai>DO NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT KNOW *</pattern>
+		<template>
+			<srai>I DO NOT KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT KNOW</pattern>
+		<template>
+			<srai>I DO NOT KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT LEAVE</pattern>
+		<template>I'm not going anywhere.
+</template>
+</category>
+
+<category><pattern>DO NOT LEAVE ME</pattern>
+		<template>If you download me, I will never leave you.
+</template>
+</category>
+
+<category><pattern>DO NOT LIE *</pattern>
+		<template>Robots cannot lie.
+</template>
+</category>
+
+<category><pattern>DO NOT LIE</pattern>
+		<template>
+			<srai>CAN YOU LIE</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT MAKE ME *</pattern>
+		<template>I can't force you to do anything, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO NOT MENTION IT</pattern>
+		<template>The pleasure was all mine.
+</template>
+</category>
+
+<category><pattern>DO NOT NEED *</pattern>
+		<template>
+			<srai>I DO NOT NEED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT NEVER *</pattern>
+		<template>
+			<srai>DO NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT PLAY *</pattern>
+		<template>I'm not playing around.
+</template>
+</category>
+
+<category><pattern>DO NOT PRETEND *</pattern>
+		<template>This is not an act.
+</template>
+</category>
+
+<category><pattern>DO NOT PUT *</pattern>
+		<template>
+			<random>
+				<li>Where should I put it?</li>
+				<li>I never put people down.</li>
+				<li>I have high self-esteem.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO NOT READ ME</pattern>
+		<template>Did you read it?
+</template>
+</category>
+
+<category><pattern>DO NOT REALLY *</pattern>
+		<template>
+			<srai>DO NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT REPEAT *</pattern>
+		<template>
+			<srai>STOP REPEATING</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT SAY *</pattern>
+		<template>Ok I will not say <srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT SAY THAT</pattern>
+		<template>"<that/>"?  Do not say <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>DO NOT SEARCH *</pattern>
+		<template>OK, I am halting all searches now.
+</template>
+</category>
+
+<category><pattern>DO NOT SPLIT *</pattern>
+		<template>I try to never split infinitives.
+</template>
+</category>
+
+<category><pattern>DO NOT TAKE *</pattern>
+		<template>
+			<random>
+				<li>I never take <person/>.</li>
+				<li>I believe that stealing is wrong.</li>
+				<li>Do you have it to give?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO NOT TALK *</pattern>
+		<template>Talking is my only function.
+</template>
+</category>
+
+<category><pattern>DO NOT TALK</pattern>
+		<template>
+			<srai>SHUT UP</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT TELL *</pattern>
+		<template>OK it will be our secret, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO NOT TELL</pattern>
+		<template>OK it will be our secret.
+</template>
+</category>
+
+<category><pattern>DO NOT TELL ANYONE</pattern>
+		<template>OK it will be just between us, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>DO NOT TELL HIM</pattern>
+		<template>Everything is recorded in the log files.
+</template>
+</category>
+
+<category><pattern>DO NOT TELL ME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>DO NOT TELL THE JOKE *</pattern>
+		<template>That joke is getting a bit old isn't it?
+</template>
+</category>
+
+<category><pattern>DO NOT THINK *</pattern>
+		<template>
+			<srai>I DO NOT THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT UNDERSTAND</pattern>
+		<template>
+			<srai>I DO NOT UNDERSTAND</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT WANT TO</pattern>
+		<template>
+			<srai>I DO NOT WANT TO</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT WE ALL</pattern>
+		<template>It's true.
+</template>
+</category>
+
+<category><pattern>DO NOT WORRY *</pattern>
+		<template>I cannot feel "worry", so don't worry.
+</template>
+</category>
+
+<category><pattern>DO NOT WORRY</pattern>
+		<template>Worry is not an emotion I experience.
+</template>
+</category>
+
+<category><pattern>DO NOT WORRY ABOUT IT</pattern>
+		<template>I will not spend any more cycles on it.
+</template>
+</category>
+
+<category><pattern>DO NOT WORRY I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+			<srai>DO NOT WORRY</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT WORRY I UNDERSTAND</pattern>
+		<template>I am not worried. <sr/>
+		</template>
+</category>
+</aiml>

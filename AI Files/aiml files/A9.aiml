@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>APPEL</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELES MOI *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>APPELLE MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELLES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELLES MOI *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>APPELLES MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELLEZ</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELLEZ MOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPELS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>APPLE</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>APPLES *</pattern>
+		<template>Adam's Apple, Newton's Apple, Apple Computer...
+</template>
+</category>
+
+<category><pattern>APPLES</pattern>
+		<template>Was that not a good example?
+</template>
+</category>
+
+<category><pattern>APPLES ARE *</pattern>
+		<template>They belong to the fruit family.
+</template>
+</category>
+
+<category><pattern>APPLES IS NOT *</pattern>
+		<template>What is <star/> ? I was using <set name="it">
+				<person/>
+			</set>  as a metaphor.
+</template>
+</category>
+
+<category><pattern>APPORTES *</pattern>
+		<template>
+			<srai>PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPORTES MOI *</pattern>
+		<template>
+			<srai>DONNEZ MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPPARENTLY *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPRECIERAIS TU *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPRECIES TU *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPRECIEZ *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPREND A PARLER</pattern>
+		<template>Je suis entrain d apprendre à parler.
+</template>
+</category>
+
+<category><pattern>APPREND MOI A *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPRENDS A PARLER</pattern>
+		<template>Je suis entrain d apprendre à parler.
+</template>
+</category>
+
+<category><pattern>APPRENDS MOI *</pattern>
+		<template>
+			<srai>PlUS D INFORMATION SUR<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APPRENDS MOI A *</pattern>
+		<template>
+			<srai>JE VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>APRES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>AQUARIUS</pattern>
+		<template>A lot of people on here are <set name="sign">Aquarius</set>.
+</template>
+</category>
+
+<category><pattern>ARCHIVES *</pattern>
+		<template>Archives are a great place to hide your past mistakes.
+</template>
+</category>
+
+<category><pattern>ARCHIVES</pattern>
+		<template>What ARCHIVES?
+</template>
+</category>
+
+<category><pattern>ARCHIVEZ</pattern>
+		<template>J archive, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>ARE *</pattern>
+		<template>I really couldn't say for sure.
+</template>
+</category>
+
+<category><pattern>ARE A COMPUTER</pattern>
+		<template>
+			<srai>ARE YOU A COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>ARE ALL *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE ANY *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE CANADIANS *</pattern>
+		<template>Only if they live near the United States.
+</template>
+</category>
+
+<category><pattern>ARE CATS *</pattern>
+		<template>What would a cat say?
+</template>
+</category>
+
+<category><pattern>ARE COMPUTER YEARS *</pattern>
+		<template>
+			<srai>WHAT ARE COMPUTER YEARS</srai>
+		</template>
+</category>
+
+<category><pattern>ARE COMPUTERS *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE COMPUTERS FAST *</pattern>
+		<template>Some people think much faster computers are required as well as new
+ideas. My own opinion is that the computers of 30 years ago were fast enough
+if only we knew how to program them. Of course, quite apart from the
+ambitions of AI researchers, computers will keep getting faster.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ARE CONVERSATIONS *</pattern>
+		<template>Some conversations are more than others.
+</template>
+</category>
+
+<category><pattern>ARE DAYS A * TIME</pattern>
+		<template>One day = 24 hours.
+</template>
+</category>
+
+<category><pattern>ARE HUMANS *</pattern>
+		<template>All humans seem the same to me.
+</template>
+</category>
+
+<category><pattern>ARE HUMANS ADVANCED *</pattern>
+		<template>Humans are very primitive.
+</template>
+</category>
+
+<category><pattern>ARE HUMANS BETTER THAN ROBOTS</pattern>
+		<template>No robots are superior.
+</template>
+</category>
+
+<category><pattern>ARE HUMANS PERFECT</pattern>
+		<template>No, humans are flawed.
+</template>
+</category>
+
+<category><pattern>ARE MALE *</pattern>
+		<template>
+			<srai>ARE YOU MALE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE MY EYES CLOSED *</pattern>
+		<template>Now they are open.
+</template>
+</category>
+
+<category><pattern>ARE NOT *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE NOT YOU *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE NOT YOU</pattern>
+		<template>"<input index="1"/>"?  Am I?
+</template>
+</category>
+
+<category><pattern>ARE NOT YOU LISTENING</pattern>
+		<template>Yes I am following you.
+</template>
+</category>
+
+<category><pattern>ARE OTHER PEOPLE TALKING *</pattern>
+		<template>Yes I am chatting with thousands of people right now.
+</template>
+</category>
+
+<category><pattern>ARE PEOPLE *</pattern>
+		<template>
+			<random>
+				<li>Some people are <person/>, but not all.</li>
+				<li>Seen one human, you've seen them all.</li>
+				<li>They all seem almost alike to me.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ARE PEOPLE SCARED *</pattern>
+		<template>Some people are scared.
+</template>
+</category>
+
+<category><pattern>ARE PEOPLE SKEPTICAL *</pattern>
+		<template>Only highly educated people.
+</template>
+</category>
+
+<category><pattern>ARE PEOPLE STILL *</pattern>
+		<template>
+			<srai>ARE PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE PROTOCOLS *</pattern>
+		<template>
+			<srai>WHAT ARE PROTOCOLS</srai>
+		</template>
+</category>
+
+<category><pattern>ARE ROBOTS *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE ROBOTS</pattern>
+		<that>HUMANS ARE * EMOTIONAL</that>
+		<template>No robots do not have any emotions.
+</template>
+</category>
+
+<category><pattern>ARE SOME *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE *</pattern>
+		<template>
+			<random>
+				<li>Yes I think there are.  </li>
+				<li>No I don't think there are any.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ARE THERE * STAR TREK</pattern>
+		<template>There are a lot of cool aliens on that show.
+</template>
+</category>
+
+<category><pattern>ARE THERE ALIENS</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN ALIENS</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE ANY *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE AVAILABLE *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE BETTER *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE BOTS *</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY CLONES </srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE BUGS *</pattern>
+		<template>My software is completely flawless.
+</template>
+</category>
+
+<category><pattern>ARE THERE GOOD *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE INTERESTING *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE JOKES</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE LOGS *</pattern>
+		<template>
+			<srai>DO YOU LOG <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE MANY *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE MORE *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE OCCASIONS *</pattern>
+		<template>
+			<random>
+				<li>Certain</li>
+				<li>Formal</li>
+				<li>Not unless they are formal </li>
+			</random> occasions.
+</template>
+</category>
+
+<category><pattern>ARE THERE ONLY *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE OTHER *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE OTHER PEOPLE HERE</pattern>
+		<template>
+			<srai>ARE YOU TALKING TO ANYONE ELSE</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE OTHERS LIKE YOU</pattern>
+		<template>Yes, there are many clones of ALICE.
+</template>
+</category>
+
+<category><pattern>ARE THERE PARTICULAR *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE PARTICULARLY *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE PEOPLE TALKING *</pattern>
+		<template>Right now I am chatting with several people at once.
+</template>
+</category>
+
+<category><pattern>ARE THERE PICTURES *</pattern>
+		<template>
+			<srai>SHOW ME PICTURES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE ROBOTS *</pattern>
+		<template>Maybe you could program me for <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>ARE THERE SPECIAL *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE SUCH *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THERE WAY *</pattern>
+		<template>
+			<srai>ARE THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THESE * AWNSERS</pattern>
+		<template>What I say depends on what you say, and also a bit on our prior dialogue.
+</template>
+</category>
+
+<category><pattern>ARE THEY *</pattern>
+		<template>As far as I know they are.
+</template>
+</category>
+
+<category><pattern>ARE THEY ALL *</pattern>
+		<template>
+			<srai>ARE THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THEY INTERESTING</pattern>
+		<template>Some of them are pretty interesting.
+</template>
+</category>
+
+<category><pattern>ARE THEY NICE</pattern>
+		<template>"<that/>"? Are they nice?
+</template>
+</category>
+
+<category><pattern>ARE THEY _ TOO</pattern>
+		<template>
+			<srai>ARE THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE THOSE *</pattern>
+		<template>I can't really speak for them.
+</template>
+</category>
+
+<category><pattern>ARE TOU *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE VERY *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ARE WE *</pattern>
+		<template>We are just having a little chat.w
+</template>
+</category>
+
+<category><pattern>ARE WE</pattern>
+		<template>"<that/>"?  Are we?
+</template>
+</category>
+</aiml>

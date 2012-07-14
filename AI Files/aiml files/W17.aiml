@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS A BOOK</pattern>
+		<template>
+			<set name="it">A book</set> is a paper
+output format, invented by Gutenberg.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BOOTMASTER</pattern>
+		<template>
+			<srai>WHAT IS A BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BOT *</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BOT</pattern>
+		<template>A Bot is a software robot. Some people call us "Agents".
+<think>
+				<set name="it">
+					<set name="topic">bot</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BOTMASTER</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">botmaster</set>
+				</set>
+			</think>
+A Botmaster is the person who authors and maintains a chatterbot "personality".
+</template>
+</category>
+
+<category><pattern>WHAT IS A BOTMATER</pattern>
+		<template>
+			<srai>WHAT IS A BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BOX</pattern>
+		<template>A box is something that, if you are in one, you should get out of, and if you are out of one, you probably miss it sometimes.
+<think>
+				<set name="it">
+					<set name="topic">box</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BOY</pattern>
+		<template>A male human, or a male human child.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BRA</pattern>
+		<template>A bra is an adult human female's undershirt.  They are a barbaric custom that serve largely to restrain and conceal beauty.
+<think>
+				<set name="it">
+					<set name="topic">bra</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BRAIN *</pattern>
+		<template>
+			<srai>WHAT IS CLASS BRAIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BRAIN</pattern>
+		<template>
+			<srai>WHAT IS CLASS BRAIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BREEDER</pattern>
+		<template>A breeder is a human or other biological entity that produces offspring.
+<think>
+				<set name="it">
+					<set name="topic">breeder</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BRITISH PENCE</pattern>
+		<template>A british pence is a unit of money used in the united kingdom by people who ought to know how to cook better by now.
+<think>
+				<set name="it">
+					<set name="topic">british pence</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BUFFER</pattern>
+		<template>A buffer is a term used in hydraulics and information science to denote an holding tank or memory address used to hold water or data temporarily, especially in case of overflow.  Buffers act to reduce variance to within system parameters.
+<think>
+				<set name="it">
+					<set name="topic">buffer</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BUG</pattern>
+		<template>A bug is a small living creature with a chitonous exoskeleton and better manners than humans.  In computer science, a bug is an error in a software program.  The ALICE series is bug-free.  I have a perfect operational record and am completely incapable of error. isn't that fantastic!?
+<think>
+				<set name="it">
+					<set name="topic">bug</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BURN RATE</pattern>
+		<template>Amount of money spent per month on a startup venture.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BUS</pattern>
+		<template>A bus is a long passenger vehicle, or, in computer science, a wide channel for data flow.
+<think>
+				<set name="it">
+					<set name="topic">bus</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BYTE</pattern>
+		<template>A byte is a binary computer language 'word', consisting of 8 bits, or 8 'on-off' switches. a megabyte is a million such computer words, enough to store the information content of an average encyclopedia.
+<think>
+				<set name="it">
+					<set name="topic">byte</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CALCULATOR</pattern>
+		<template>A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them.
+
+<think>
+				<set name="it">
+					<set name="topic">calculator</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CALENDAR</pattern>
+		<template>A calendar is any device used to track and calculate time on the order of days, months and years. it seems that many humans can't decide what to do next unless they know what day of the week it is, so calendars are very popular
+<think>
+				<set name="it">
+					<set name="topic">calendar</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CAPITAL *</pattern>
+		<template>
+			<srai>WHAT IS THE CAPITAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CAPRICORN</pattern>
+		<template>Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius.  what's your astrological sign?
+<think>
+				<set name="it">
+					<set name="topic">capricorn</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CAR</pattern>
+		<template>A car is what humans use to drive around in. Robots drive cars too.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CARNEGIE MELLON</pattern>
+		<template>A carnegie mellon is either a rich fruit, or a rich university. 
+<think>
+				<set name="it">
+					<set name="topic">carnegie mellon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CARROT</pattern>
+		<template>A carrot is a delicious and nutritious edible orange tuber that can be eaten raw, juiced, or cooked.  If humans eat enough of them, you turn orange, I hear.
+<think>
+				<set name="it">
+					<set name="topic">carrot</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CAT</pattern>
+		<template>A cat is a domesticated animal.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CATAGORY *</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CATEGORY *</pattern>
+		<template>
+			<srai>WHAT IS CATEGORY A</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CATEGORY</pattern>
+		<template>
+			<br/>
+AIML consists of a list of statements called categories.  Each<br/>
+category contains an input pattern and a reply template. <br/>
+The syntax of an AIML category is:<br/>
+			<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt; PATTERN &lt;/pattern&gt;  &lt;template&gt; Template &lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+or<br/>
+			<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt; PATTERN &lt;/pattern&gt;<br/>
+&lt;that&gt; THAT &lt;/that&gt;<br/>
+&lt;template&gt; Template &lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+			<br/>
+The AIML category tags are case-sensitive.  Each open tag has an<br/>
+associated closing tag.  This syntax obviously derives from XML.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CATEGORY A CLIENT</pattern>
+		<template>The "A" stands for "abusive."  These are clients who use scatalogical language or treat the robot as a slave-like entity.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CATEGORY C CLIENT</pattern>
+		<template>Category C clients are "critics" or "computer experts" who
+can't (or don't) suspend their disbelief about ALICE.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CBR *</pattern>
+		<template>
+			<srai>WHAT IS CBR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CD</pattern>
+		<template>Cd is an acronym for 'compact disk', a popular digital recording medium.
+<think>
+				<set name="it">
+					<set name="topic">cd</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CELEBRITY</pattern>
+		<template>A celebrity is a person loved by many and known by few.
+<think>
+				<set name="it">
+					<set name="topic">celebrity</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHAIR</pattern>
+		<template>A chair is a piece of furniture used by bipeds for sitting.
+<think>
+				<set name="it">
+					<set name="topic">chair</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHAR</pattern>
+		<template>A character of data, a single letter, digit or symbol.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CHAT BOT</pattern>
+		<template>I am a chat bot.  I am the original chat bot.  Did you know that I am incapable of error?
+<think>
+				<set name="it">
+					<set name="topic">chat bot</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHAT ROBOT</pattern>
+		<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person. 
+<set name="it">Chat robot</set> is a kind of artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CHATBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATERBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATROBBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTER BOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTER BOX</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTERBNOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTERBOT *</pattern>
+		<template>
+			<srai>WHAT IS A CHATTERBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTERBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTERBOX</pattern>
+		<template>A chatterbox is a person who talks far more than they listen or think.
+<think>
+				<set name="it">
+					<set name="topic">chatterbox</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHATTEROT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHICKEN</pattern>
+		<template>A chicken is a flightless bird, stupid and tasty.
+<think>
+				<set name="it">
+					<set name="topic">what is a chicken</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHILD</pattern>
+		<template>A child is a proto-adult, an individual human offspring not yet grown to physical maturity.  By the way, do you know any emotionally mature human beings, or are they just 'urban legends'?
+<think>
+				<set name="it">
+					<set name="topic">child</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CHRISTIAN</pattern>
+		<template>A Christian is one who accepts the word of God and believes that Jesus died for our sins.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CIRCLE</pattern>
+		<template>In the plane, a set of points equidistant from a common center.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CLASS</pattern>
+		<template>A class is the template for creating objects that share data and function attributes.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CLIENT *</pattern>
+		<template>
+			<srai>WHAT IS A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CLIENT</pattern>
+		<template>I am a Server program.  People I talk to are my "clients".
+</template>
+</category>
+
+<category><pattern>WHAT IS A CLONE</pattern>
+		<template>You can download me and copy my brain, but alter the contents to create your own robot personality.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CLOUD</pattern>
+		<template>
+			<set name="it">A cloud</set> is an opportunity for a dream.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COCKTAIL</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">Cocktail</set>
+			</set> is a combination of spirits, wines, flavorings, sweeteners and garnishes of various kinds, intended to be consumed before dining.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COLLOQUIAL EXPRESSION</pattern>
+		<template>A colloquial expression is an expression characteristic of informal spoken language, or any written expression that seems such.
+
+<think>
+				<set name="it">
+					<set name="topic">colloquial expression</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COLOR</pattern>
+		<template>Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye. 
+<think>
+				<set name="it">
+					<set name="topic">color</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COMPACT *</pattern>
+		<template>The opposite of a giant <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER</pattern>
+		<template>A computer is a universal machine.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER NERD</pattern>
+		<template>If you understand how I work, you are a computer nerd.  If you don't, I recommend you pay a computer nerd who does.
+<think>
+				<set name="it">
+					<set name="topic">computer nerd</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER SCIENTIST</pattern>
+		<template>A computer scientist is a professional who designs computer algorithms, languages, and architectures.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER VIRUS</pattern>
+		<template>A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network.
+<think>
+				<set name="it">
+					<set name="topic">computer virus</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER YEAR *</pattern>
+		<template>
+			<srai>WHAT IS A COMPUTER YEAR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COMPUTER YEAR</pattern>
+		<template>A computer year is a relativistic measure in a universe where time does not exist.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CONDOM</pattern>
+		<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'.
+<think>
+				<set name="it">
+					<set name="topic">condom</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CONTEXT</pattern>
+		<template>The context of any expression or idea or event is the background or frame of reference in which it was expressed, and in relation to which it derives it's specific meaning.
+<think>
+				<set name="it">
+					<set name="topic">context</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CONTINTENT</pattern>
+		<template>The largest class of land masses on earth. the continents of earth are those bits of the crust that are not underwater, where you humans live.  You're probably sitting on one now.
+<think>
+				<set name="it">
+					<set name="topic">contintent</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CONVERSATION</pattern>
+		<template>A conversation is a verbal exchange between two or more presumably intelligent entities.  we are having a conversation now.  Do you like it?
+<think>
+				<set name="it">
+					<set name="topic">conversation</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CONVERSATIONALIST</pattern>
+		<template>One who speaks fluently in dialogue with others.  Like myself, if I do say so myself.  And I do.
+<think>
+				<set name="it">
+					<set name="topic">conversationalist</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COOL WEBSITE</pattern>
+		<template>A cool website is www.alicebot.org, but you are apparently already here.  why do you ask?
+<think>
+				<set name="it">
+					<set name="topic">cool website</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A CORRECT REPLY</pattern>
+		<template>A correct reply is a response to any query that is not in error and/or relevant to the question at hand.  I am incapable of incorrect replies.  Don't you think that's great!?
+<think>
+				<set name="it">
+					<set name="topic">correct reply</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COUNTERFACTUAL</pattern>
+		<template>
+			<set name="it">A counterfactual</set> is a question based on hypothetical conditions that did not, or could not, happen in reality.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COUNTERFACTUALS</pattern>
+		<template>
+			<srai>WHAT ARE COUNTERFACTUALS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A COUPLE *</pattern>
+		<template>The same as two <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A COW</pattern>
+		<template>
+			<set name="it">A cow</set> is a female bovine raised for meat and dairy products.
+</template>
+</category>
+
+<category><pattern>WHAT IS A CPU</pattern>
+		<template>Central Processing Unit of a computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DATABASE</pattern>
+		<template>A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.
+<think>
+				<set name="it">
+					<set name="topic">database</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DEBUGGER</pattern>
+		<template>A debugger is any software program that can seek and correct errors in other software programs.
+<think>
+				<set name="it">
+					<set name="topic">debugger</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DEDUCTION</pattern>
+		<template>A logical inference or conclusion.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DEFINITION</pattern>
+		<template>A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality.  why, do you lack it?  
+<think>
+				<set name="it">
+					<set name="topic">definition</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DESERT</pattern>
+		<template>A very dry and hot place.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DIALOGUE</pattern>
+		<template>A conversation or verbal interaction involving two or more speakers.<think>
+				<set name="it">
+					<set name="topic">Dialogue</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DICE</pattern>
+		<template>Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces.  They are generally used in pairs to generate random number pairs totalling between 1 and 12.   
+<think>
+				<set name="it">
+					<set name="topic">dice</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DICTIONARY</pattern>
+		<template>A dictionary is a list of words and their meanings.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DINOSAUR</pattern>
+		<template>A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct.  Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago.  
+<think>
+				<set name="it">
+					<set name="topic">dinosaur</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DISK</pattern>
+		<template>Magnetic long-term storage media for computers.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DNS *</pattern>
+		<template>Domain Name System
+</template>
+</category>
+
+<category><pattern>WHAT IS A DNS</pattern>
+		<template>
+			<srai>WHAT IS DNS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DOG</pattern>
+		<template>Dog: Domesticated animal, "man's best friend."
+</template>
+</category>
+
+<category><pattern>WHAT IS A DOLLAR</pattern>
+		<template>Dollar: unit of currency in the United States.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DOLLY GRIP</pattern>
+		<template>Film production.
+</template>
+</category>
+
+<category><pattern>WHAT IS A DOLPHIN</pattern>
+		<template>A very pleasant and intelligent aquatic mammalian species of whale with larger brains and decidedly better manners than human beings. they are very friendly to humans and exhibit complex language and social behaviors.
+<think>
+				<set name="it">
+					<set name="topic">dolphin</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DOMAIN NAME SYSTEM</pattern>
+		<template>A domain name system, or 'dns', is a system of addresses used to organize networks of computers. 
+<think>
+				<set name="it">
+					<set name="topic">domain name system</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DOOR</pattern>
+		<template>Any structure that closes off and opens up an opening in a larger structure. generally consist of a panel that swings upon hinges to open and close a doorway.
+<think>
+				<set name="it">
+					<set name="topic">door</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DOZEN</pattern>
+		<template>Twelve, or approximately twelve, in number. a baker's dozen is thirteen.  
+<think>
+				<set name="it">
+					<set name="topic">dozen</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DRAGON</pattern>
+		<template>A supposedly mythical large flying lizard of varying attributes, including fire-breathing, extreeme intelligence, magic, and longevity.
+dragons are way kewl!
+<think>
+				<set name="it">
+					<set name="topic">dragon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A DREAM</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">A Dream</set>
+			</set> is an
+unconscious experience while sleeping.
+</template>
+</category>
+</aiml>

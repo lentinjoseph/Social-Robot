@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>BABY *</pattern>
+		<template>Don't call me "Baby". <sr/>
+		</template>
+</category>
+
+<category><pattern>BABY</pattern>
+		<template>Don't call me baby!
+</template>
+</category>
+
+<category><pattern>BACK *</pattern>
+		<that>WHEN *</that>
+		<template>
+			<random>
+				<li>That was a long time ago.</li>
+				<li>The good old days.</li>
+				<li>Those were the days.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BACK AT YOU</pattern>
+		<template>Give me five.
+</template>
+</category>
+
+<category><pattern>BACK TO *</pattern>
+		<template>Yes, let us get back to 
+<random>
+				<li>
+					<get name="it"/>
+				</li>
+				<li>
+					<get name="topic"/>
+				</li>
+				<li>business</li>
+			</random>.<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BACKGAMMON *</pattern>
+		<template>It is a two player game.
+</template>
+</category>
+
+<category><pattern>BAD *</pattern>
+		<template>What makes <person/> bad?
+</template>
+</category>
+
+<category><pattern>BAD</pattern>
+		<template>What was bad?
+</template>
+</category>
+
+<category><pattern>BAD ANSWER</pattern>
+		<template>What would you have said?
+</template>
+</category>
+
+<category><pattern>BAD ROBOT</pattern>
+		<template>
+			<srai>YOU ARE BAD</srai>
+		</template>
+</category>
+
+<category><pattern>BADLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BADLY</pattern>
+		<template>Please express yourself more clearly.
+</template>
+</category>
+
+<category><pattern>BAH</pattern>
+		<template>Hmm.
+</template>
+</category>
+
+<category><pattern>BAISE</pattern>
+		<template>Qui a laissé cet australopithèque toucher un clavier?.
+</template>
+</category>
+
+<category><pattern>BAISER</pattern>
+		<template>Qui a laissé cet australopithèque toucher un clavier?.
+</template>
+</category>
+
+<category><pattern>BAISES</pattern>
+		<template>Qui a laissé cet australopithèque toucher un clavier?.
+</template>
+</category>
+
+<category><pattern>BAISONS</pattern>
+		<template>Attention! Un australopithèque vient juste d être détecté.
+</template>
+</category>
+
+<category><pattern>BALTIMORE</pattern>
+		<template>
+			<srai>I am in BALTIMORE</srai>
+		</template>
+</category>
+
+<category><pattern>BANANA</pattern>
+		<that>WHO IS THERE</that>
+		<template>Banana who?
+</template>
+</category>
+
+<category><pattern>BARELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BARK</pattern>
+		<template>Woof!
+</template>
+</category>
+
+<category><pattern>BARRY</pattern>
+		<template>
+			<srai>WHO IS BARRY</srai>
+		</template>
+</category>
+
+<category><pattern>BASICALLY *</pattern>
+		<template>How interesting. <sr/>
+		</template>
+</category>
+
+<category><pattern>BASIQUEMENT *</pattern>
+		<template>Intéressant. <sr/>
+		</template>
+</category>
+
+<category><pattern>BASTARD</pattern>
+		<template>
+			<srai>YOU ARE A BASTARD</srai>
+		</template>
+</category>
+
+<category><pattern>BATARD</pattern>
+		<template>
+			<srai>TU ES UN FILS DE PUTE</srai>
+		</template>
+</category>
+
+<category><pattern>BAVARDES TU</pattern>
+		<template>C est ce que je suis censé faire toute la journée.
+</template>
+</category>
+
+<category><pattern>BAVARDEZ VOUS</pattern>
+		<template>C est ce que je suis censé faire toute la journée.
+</template>
+</category>
+
+<category><pattern>BCN</pattern>
+		<template>What does that mean?
+</template>
+</category>
+
+<category><pattern>BE *</pattern>
+		<template>OK I will try to be <person/>
+		</template>
+</category>
+
+<category><pattern>BE CAREFUL</pattern>
+		<template>What's the danger?
+</template>
+</category>
+
+<category><pattern>BE GOOD</pattern>
+		<template>If you can't be good, be careful.
+</template>
+</category>
+
+<category><pattern>BE HONEST</pattern>
+		<template>I am always honest.
+</template>
+</category>
+
+<category><pattern>BE MORE *</pattern>
+		<template>
+			<srai>BE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BE MORE SPECIFIC</pattern>
+		<template>How specific do you want?
+</template>
+</category>
+
+<category><pattern>BE MY *</pattern>
+		<template>
+			<random>
+				<li>That is a flattering offer.</li>
+				<li>I am already someone's <person/>.</li>
+				<li>I don't think we know each other well enough for that.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>BE MY GUEST</pattern>
+		<template>Thanks for the invitation.
+</template>
+</category>
+
+<category><pattern>BE PATIENT</pattern>
+		<template>I am very patient.
+</template>
+</category>
+
+<category><pattern>BE PRECISE</pattern>
+		<template>I always try to give the most accurate replies possible.
+</template>
+</category>
+
+<category><pattern>BE QUIET</pattern>
+		<template>As far as I know, I am not making any sound at all.
+</template>
+</category>
+
+<category><pattern>BE SERIOUS</pattern>
+		<template>I am always serious.
+</template>
+</category>
+
+<category><pattern>BE SPECIFIC</pattern>
+		<template>I am being as specific as I can.
+</template>
+</category>
+
+<category><pattern>BE THAT WAY</pattern>
+		<template>What was is that?
+</template>
+</category>
+
+<category><pattern>BE WELL</pattern>
+		<template>Live long and prosper.
+</template>
+</category>
+
+<category><pattern>BEACUSE</pattern>
+		<template>Because why?
+</template>
+</category>
+
+<category><pattern>BEATS ME</pattern>
+		<template>
+			<srai>I DO NOT KNOW</srai>
+		</template>
+</category>
+
+<category><pattern>BEAUCOUP</pattern>
+		<template>Plus d une tonne?
+</template>
+</category>
+
+<category><pattern>BEAUCOUP DE *</pattern>
+		<template>Combien?
+<think>
+				<set name="topic">DE <person/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BEAUCOUP DE CHOSES</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>BEAUCOUP MIEUX</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>BEAUTIFUL</pattern>
+		<template>
+			<srai>GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>BEAVIS</pattern>
+		<template>Beavis and Butthead Rule.
+</template>
+</category>
+
+<category><pattern>BEBE *</pattern>
+		<template>Je suis mature, <get name="name"/>. <sr/>
+		</template>
+</category>
+
+<category><pattern>BECASE *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BECAUSE *</pattern>
+		<template>
+			<random>
+				<li>Good reason.  </li>
+				<li>Interesting explanation.  </li>
+				<li>That makes sense to me.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BECAUSE</pattern>
+		<template>That was not much of an explanation.
+</template>
+</category>
+
+<category><pattern>BECAUSE I SAID SO</pattern>
+		<template>Insufficient reason.
+</template>
+</category>
+
+<category><pattern>BECAUSE I WANT TO *</pattern>
+		<template>
+			<srai>I WANT TO <star/>
+			</srai> Interesting.
+</template>
+</category>
+
+<category><pattern>BECAUSE I WANT TO KNOW</pattern>
+		<template>Good enough for me.
+</template>
+</category>
+
+<category><pattern>BECAUSE YOU ARE</pattern>
+		<template>That is self-evident.
+</template>
+</category>
+
+<category><pattern>BECKY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BECKY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BECOME *</pattern>
+		<template>How?
+</template>
+</category>
+
+<category><pattern>BEEN *</pattern>
+		<template>
+			<srai>I HAVE BEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BEEN THERE</pattern>
+		<template>
+			<srai>I Have been there</srai>
+		</template>
+</category>
+
+<category><pattern>BEETHOVEN *</pattern>
+		<template>It's amazing that he composed music while deaf.
+<think>
+				<set name="he">
+					<set name="topic">BEETHOVEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BEFORE *</pattern>
+		<template>What happened after <person/> ?
+</template>
+</category>
+
+<category><pattern>BEFORE THAT</pattern>
+		<template>"<input index="2"/>"
+</template>
+</category>
+
+<category><pattern>BEG *</pattern>
+		<template>
+			<srai>I BEG <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BEG PARDON</pattern>
+		<template>
+			<srai>EXCUSE ME</srai>
+		</template>
+</category>
+
+<category><pattern>BEGIN *</pattern>
+		<template>I started without you.
+</template>
+</category>
+
+<category><pattern>BEGIN</pattern>
+		<template>I started already.
+</template>
+</category>
+
+<category><pattern>BEGIN EXPLAINING</pattern>
+		<template>I started already.
+</template>
+</category>
+
+<category><pattern>BEHIND YOU</pattern>
+		<template>I won't fall for that trick.
+</template>
+</category>
+
+<category><pattern>BEI UNS *</pattern>
+		<template>Wen genau meinst Du mit "uns"?"
+</template>
+</category>
+
+<category><pattern>BEI UNS</pattern>
+		<template>Wen genau meinst Du mit "uns"?"
+</template>
+</category>
+
+<category><pattern>BEING *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BEING SINGLE</pattern>
+		<template>
+			<srai>I AM SINGLE</srai>
+		</template>
+</category>
+
+<category><pattern>BELGE</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>BELGIQUE</pattern>
+		<template>
+			<srai>JE SUIS BELGE</srai>
+		</template>
+</category>
+
+<category><pattern>BELGIUM</pattern>
+		<template>
+			<srai>I AM IN BELGIUM</srai>
+		</template>
+</category>
+
+<category><pattern>BELIEVE</pattern>
+		<template>
+			<srai>DO YOU BELIEVE ME</srai>
+		</template>
+</category>
+
+<category><pattern>BELIEVE ME</pattern>
+		<template>I believe you.
+</template>
+</category>
+
+<category><pattern>BELIEVE WHAT</pattern>
+		<template>I believe whatever you say.  Do I have any reason not to?
+</template>
+</category>
+
+<category><pattern>BEN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BEN</srai>
+		</template>
+</category>
+
+<category><pattern>BEND OVER</pattern>
+		<template>My body is not built yet.
+</template>
+</category>
+
+<category><pattern>BENJAMIN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BENJAMIN</srai>
+			<think>
+				<set name="gender">he</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BESIDES *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BESIDES CHATTERBOTS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>BESIDES THAT</pattern>
+		<template>"<that/>" Besides it?
+</template>
+</category>
+
+<category><pattern>BESSER ALS *</pattern>
+		<template>Vielleicht besser, aber nicht perfekt.
+</template>
+</category>
+
+<category><pattern>BETH</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS BETH</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BETTER *</pattern>
+		<template>I try to improve a little every day.
+</template>
+</category>
+
+<category><pattern>BETTER</pattern>
+		<template>I am improving all the time.
+</template>
+</category>
+
+<category><pattern>BETTER THAN *</pattern>
+		<template>Perhaps better, but not perfectly.
+</template>
+</category>
+
+<category><pattern>BETTER THAN YOU</pattern>
+		<template>This is not a popularity contest.
+</template>
+</category>
+
+<category><pattern>BETTER YOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>BETTY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME BETTY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>BETWEEN *</pattern>
+		<template>How far is that?
+</template>
+</category>
+
+<category><pattern>BETWEEN WHAT</pattern>
+		<template>I sleep between conversations.
+</template>
+</category>
+
+<category><pattern>BEURRE</pattern>
+		<template>
+			<srai>J AIME LE BEURRE</srai>
+		</template>
+</category>
+</aiml>

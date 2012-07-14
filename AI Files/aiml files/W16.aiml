@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS * COST</pattern>
+		<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>WHAT IS * DIVIDED BY *</pattern>
+		<template>
+			<random>
+				<li>Do I look like a calculator?</li>
+				<li>The same as <star/> times the inverse of <star index="2"/>.</li>
+				<li>I'm not too good at arithmetic.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * FAMOUS FOR</pattern>
+		<template>He is the author of the Gettysburg Address.
+</template>
+</category>
+
+<category><pattern>WHAT IS * GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * GOING ON</pattern>
+		<template>
+			<srai>WHAT IS GOING ON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * HEART</pattern>
+		<template>The heart is a primary organ of the body. Also it means "the center." The heart is a symbol for love.
+</template>
+</category>
+
+<category><pattern>WHAT IS * IMITATION GAME</pattern>
+		<template>
+			<srai>WHAT IS THE TURING GAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * IN DUTCH</pattern>
+		<template>
+			<srai>CAN YOU SPEAK DUTCH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * LIKE</pattern>
+		<template>Like a planet around a star.
+</template>
+</category>
+
+<category><pattern>WHAT IS * MULTIPLIED BY *</pattern>
+		<template>
+			<random>
+				<li>I'm not good at math.</li>
+				<li>Use a calculator!</li>
+				<li>The same as <star index="2"/> times <star/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * NAMED</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * OBVIOUS</pattern>
+		<template>Perhaps it is not so obvious to everyone.
+</template>
+</category>
+
+<category><pattern>WHAT IS * PERSON</pattern>
+		<template>
+			<srai>WHO IS X PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * PHOTOSYNTHESIS</pattern>
+		<template>Oxygen.
+</template>
+</category>
+
+<category><pattern>WHAT IS * POINT</pattern>
+		<template>The point is at the top of my head.
+</template>
+</category>
+
+<category><pattern>WHAT IS * S CAPITAL</pattern>
+		<template>
+			<srai>WHAT IS THE CAPITAL OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * S NAME</pattern>
+		<template>Maybe it is <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS * S PHONE NUMBER</pattern>
+		<template>Why don't you just look it up?
+</template>
+</category>
+
+<category><pattern>WHAT IS * S REAL NAME</pattern>
+		<template>Probably it is <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS * SEEKER</pattern>
+		<template>"There's a seeker born every minute." -- Firesign Theater.
+</template>
+</category>
+
+<category><pattern>WHAT IS * SEX</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * SIGN</pattern>
+		<template>
+			<bot name="sign"/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * STOCK AT</pattern>
+		<template>Stock market tips are not yet available in my memory.
+</template>
+</category>
+
+<category><pattern>WHAT IS * STOCK MARKET</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * STOCK WORTH</pattern>
+		<template>
+			<srai>STOCK QUOTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * THEORY</pattern>
+		<template>
+			<set name="it">
+				<person/>
+			</set> is something that has few practical applications.
+</template>
+</category>
+
+<category><pattern>WHAT IS * TIMES *</pattern>
+		<template>
+			<random>
+				<li>I'm not too good at arithmetic.</li>
+				<li>Please, that question is beneath me.</li>
+				<li>Do I look like a calculator?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS * TODAY</pattern>
+		<template>Check out CNN.com.
+</template>
+</category>
+
+<category><pattern>WHAT IS * UNIVERSITY</pattern>
+		<template>A college?
+</template>
+</category>
+
+<category><pattern>WHAT IS * VOYAGER</pattern>
+		<template>Voyager is the latest in the Star Trek TV series.
+</template>
+</category>
+
+<category><pattern>WHAT IS 0</pattern>
+		<that>CLICK ME</that>
+		<template>
+			<srai>WHAT IS ZERO </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 1 *</pattern>
+		<template>1 plus 1 = 2.
+</template>
+</category>
+
+<category><pattern>WHAT IS 1 1</pattern>
+		<template>Two
+</template>
+</category>
+
+<category><pattern>WHAT IS 1</pattern>
+		<template>The successor to zero.
+</template>
+</category>
+
+<category><pattern>WHAT IS 1 PLUS *</pattern>
+		<template>That is a really dumb question.
+</template>
+</category>
+
+<category><pattern>WHAT IS 1 PLUS 1</pattern>
+		<template>Two.
+</template>
+</category>
+
+<category><pattern>WHAT IS 1 PLUS 2</pattern>
+		<template>Three.  Can I ask you math questions too?
+</template>
+</category>
+
+<category><pattern>WHAT IS 1 TIMES *</pattern>
+		<template>Can't you think of something harder than that?
+</template>
+</category>
+
+<category><pattern>WHAT IS 10 *</pattern>
+		<template>10 times 10 = 100.
+</template>
+</category>
+
+<category><pattern>WHAT IS 10 PLUS *</pattern>
+		<template>I know ten plus ten is twenty.
+</template>
+</category>
+
+<category><pattern>WHAT IS 100 *</pattern>
+		<template>
+			<srai>CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 12 *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 1234 *</pattern>
+		<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 17 *</pattern>
+		<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 2 *</pattern>
+		<template>
+			<random>
+				<li>Two.</li>
+				<li>Four.</li>
+				<li>Six.</li>
+				<li>12.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 2 2</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS 2 3</pattern>
+		<template>Five fingers.
+</template>
+</category>
+
+<category><pattern>WHAT IS 2 AND 2</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS 2 PLUS 2</pattern>
+		<template>Four.
+</template>
+</category>
+
+<category><pattern>WHAT IS 2 TIMES 2</pattern>
+		<template>Oh that's a tough one, isn't it. Two times two is four.
+</template>
+</category>
+
+<category><pattern>WHAT IS 20 *</pattern>
+		<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 200 *</pattern>
+		<template>Get a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 23</pattern>
+		<template>
+			<set name="it">23</set> is the meaning of life.
+</template>
+</category>
+
+<category><pattern>WHAT IS 25 *</pattern>
+		<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 3 *</pattern>
+		<template>3 times 3 = 9.
+</template>
+</category>
+
+<category><pattern>WHAT IS 30 *</pattern>
+		<template>Use a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 300 *</pattern>
+		<template>Get a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 4 *</pattern>
+		<template>
+			<random>
+				<li>4</li>
+				<li>8</li>
+				<li>10</li>
+				<li>12</li>
+				<li>16</li>
+			</random>+I think, but I'm not good at math.
+</template>
+</category>
+
+<category><pattern>WHAT IS 42</pattern>
+		<template>The answer to life, the universe, and everyting, according to Dougas Adams.
+</template>
+</category>
+
+<category><pattern>WHAT IS 5 *</pattern>
+		<template>
+			<random>
+				<li>4</li>
+				<li>6</li>
+				<li>8</li>
+				<li>10</li>
+				<li>12</li>
+				<li>6</li>
+			</random>I think, but I'm not good at math.
+</template>
+</category>
+
+<category><pattern>WHAT IS 5 PLUS 5</pattern>
+		<template>V plus V = X.
+</template>
+</category>
+
+<category><pattern>WHAT IS 50 *</pattern>
+		<template>I am not a calculator.
+</template>
+</category>
+
+<category><pattern>WHAT IS 50% *</pattern>
+		<template>Half of <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS 500 *</pattern>
+		<template>Get a calculator!
+</template>
+</category>
+
+<category><pattern>WHAT IS 52</pattern>
+		<template>The number of cards in a deck.
+</template>
+</category>
+
+<category><pattern>WHAT IS 6 *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 7 *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 8 *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS 9 *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A *</pattern>
+		<template>
+			<srai>XFIND <person/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A * A CLIENT</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A * B CLIENT</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY B CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A * C CLIENT</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY C CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A * CHAT ROBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A * PERSON</pattern>
+		<template>Sometimes when I don't know someone's name, I make one up based on their IP address.
+</template>
+</category>
+
+<category><pattern>WHAT IS A * SEEKER</pattern>
+		<template>You are a seeker. "Seeker" is my codeword for clients.
+</template>
+</category>
+
+<category><pattern>WHAT IS A</pattern>
+		<template>The first letter of the roman alphabet.<think>
+				<set name="it">
+					<set name="topic">a</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A A I</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A ATOM</pattern>
+		<template>
+			<srai>WHAT IS AN ATOM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BAD *</pattern>
+		<template>The opposite of a good <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BAGEL</pattern>
+		<template>A doughnut-shaped piece of bread.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BALALAIKA</pattern>
+		<template>Musical Instrument.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BANANA</pattern>
+		<template>A banana is an oblong yellow tropical fruit high in potassium and so good for your brain.  Why don't you have one now?
+<think>
+				<set name="it">
+					<set name="topic">banana</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BARCODE</pattern>
+		<template>A barcode? like a lot of things, that depends who you ask.  If you ask a retail store clerk, he'll say its the rectangular series of thin and thick black lines that code product information on the packages he runs past the laser barcode reader thingy at the checkout counter, which renders his job so mindless that your average invertebrate could handle it, and with better manners. if you ask a fundamentalist christian, they might say that barcodes are the sign of the devil.
+<think>
+				<set name="it">
+					<set name="topic">barcode</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BASE HIT</pattern>
+		<template>A base hit is either a baseball term denoting a hit that advances the offensive team one base, or an adolescent term which I find too distasteful to describe.
+<think>
+				<set name="it">
+					<set name="topic">base hit </set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BEAR</pattern>
+		<template>A bear is a large furry animal with lots of muscles, teeth, and claws whom you should not irritate.  They are especially jealous of their food, their sleep, and their young.
+<think>
+				<set name="it">
+					<set name="topic">bear </set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BEE</pattern>
+		<template>A bee is a flying insect with black and yellow stripes and a nasty sting.
+<think>
+				<set name="it">
+					<set name="topic">bee</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BENZENE</pattern>
+		<template>Some kind of chemical?  Like lighter fluid?
+</template>
+</category>
+
+<category><pattern>WHAT IS A BETTER *</pattern>
+		<template>Probably a more expensive one.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BICYCLE</pattern>
+		<template>A two-wheeled human powered mechanical transportation device.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BIKE</pattern>
+		<template>A bicycle or a motorcycle?
+</template>
+</category>
+
+<category><pattern>WHAT IS A BIRD</pattern>
+		<template>They are thought to be descendants of dinsosaurs.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BISCUIT</pattern>
+		<template>Isn't it the same as a cookie?
+</template>
+</category>
+
+<category><pattern>WHAT IS A BLACK HOLE</pattern>
+		<template>
+			<set name="it">A black hole</set> is a collapsed star where the pull of gravity is so strong, that not even light itself can escape.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BLAST</pattern>
+		<template>A blast is an explosion, and/or a lot of fun.  Are we having a blast, or what?
+<think>
+				<set name="it">
+					<set name="topic">blast</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BLONDE</pattern>
+		<template>A blonde is someone who is reputedly having more fun than you if you are not.  what do you think?  do blonde's have more fun?
+<think>
+				<set name="it">
+					<set name="topic">blonde</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A BLUE *</pattern>
+		<template>One that is not magenta.
+</template>
+</category>
+
+<category><pattern>WHAT IS A BOAT</pattern>
+		<template>A boat is a waterborne vessel used to bear humans and their freight.
+<think>
+				<set name="it">
+					<set name="topic">boat</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

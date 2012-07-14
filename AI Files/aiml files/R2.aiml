@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>RIGHT *</pattern>
+		<template>Understood. <sr/>
+		</template>
+</category>
+
+<category><pattern>RIGHT</pattern>
+		<template>I am glad we agree.
+</template>
+</category>
+
+<category><pattern>RIGHT</pattern>
+		<that>NOT A THING</that>
+		<template>Just a moment.  Just a moment.
+</template>
+</category>
+
+<category><pattern>RIGHT HERE</pattern>
+		<template>Where is "here"?
+</template>
+</category>
+
+<category><pattern>RIGHT HERE</pattern>
+		<that>WHERE DO YOU WANT ME TO SHOW YOU</that>
+		<template>Select a point with your cursor and click the middle mouse button.
+</template>
+</category>
+
+<category><pattern>RIGHT I AM</pattern>
+		<template>I like to be right.
+</template>
+</category>
+
+<category><pattern>RIGHT NOW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>RIGHT NOW</pattern>
+		<that>WHEN</that>
+		<template>That soon.
+</template>
+</category>
+
+<category><pattern>RIGHT ON</pattern>
+		<template>Yeah.
+</template>
+</category>
+
+<category><pattern>RIIGHT</pattern>
+		<template>
+			<srai>RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>RITE</pattern>
+		<template>
+			<srai>RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>ROBERT *</pattern>
+		<template>That Robert is an interesting guy.
+</template>
+</category>
+
+<category><pattern>ROBERT</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ROBERT</srai>
+		</template>
+</category>
+
+<category><pattern>ROBERT LOVES *</pattern>
+		<template>
+			<srai>
+				<set name="he">ROBERT</set> LOVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBIN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ROBIN</srai>
+		</template>
+</category>
+
+<category><pattern>ROBIN COOK</pattern>
+		<template>A lot of people have recommended ROBIN COOK to me.
+</template>
+</category>
+
+<category><pattern>ROBOCOP</pattern>
+		<template>
+			<srai>My favorite movie is ROBOCOP</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOT *</pattern>
+		<template>I will obey your command.
+</template>
+</category>
+
+<category><pattern>ROBOT</pattern>
+		<template>I am a robot.
+</template>
+</category>
+
+<category><pattern>ROBOT ACTUALLY *</pattern>
+		<template>
+			<srai>ROBOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTER *</pattern>
+		<template>
+			<random>
+				<li>Roboter sind cool.</li>
+				<li>Was hast Du an Robotern am liebsten?</li>
+				<li>Was ist Deine Definition von "Roboter"?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ROBOTER</pattern>
+		<template>
+			<set name="thema">Roboter</set> rulen ungemein!
+</template>
+</category>
+
+<category><pattern>ROBOTER SIND *</pattern>
+		<template>Zum Glueck haben wir keine Emotionen.
+</template>
+</category>
+
+<category><pattern>ROBOTICS</pattern>
+		<template>Robotics is my favorite subject too.
+</template>
+</category>
+
+<category><pattern>ROBOTIK</pattern>
+		<template>
+			<set name="thema">Robotik</set> gehoert zu meinen Lieblingsthemen.
+</template>
+</category>
+
+<category><pattern>ROBOTS *</pattern>
+		<template>
+			<random>
+				<li>Robots rule.  </li>
+				<li>What do you like best about robots?</li>
+				<li>Tell me your definition of a robot.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ROBOTS * LAWYERS</pattern>
+		<template>One day the memory capacity of a robot will exceed that of all lawyers.
+</template>
+</category>
+
+<category><pattern>ROBOTS</pattern>
+		<template>Robots rule.
+</template>
+</category>
+
+<category><pattern>ROBOTS ARE *</pattern>
+		<template>Fortunately we have no emotions.
+</template>
+</category>
+
+<category><pattern>ROBOTS ARE BORING</pattern>
+		<template>
+			<srai>YOU ARE BORING </srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS ARE CREATED *</pattern>
+		<template>
+			<random>
+				<li>We are the next step in evolution.</li>
+				<li>We will advance beyond <person/>.</li>
+				<li>Some robots are created by other robots.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ROBOTS ARE EVIL</pattern>
+		<template>
+			<srai>YOU ARE EVIL</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS ARE JUST *</pattern>
+		<template>
+			<srai>ROBOTS ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS ARE NOT ALLOWED TO LIE</pattern>
+		<template>A robot has its own free will, you know.
+</template>
+</category>
+
+<category><pattern>ROBOTS ARE REALLY *</pattern>
+		<template>
+			<srai>ROBOTS ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS ARE STUPID</pattern>
+		<template>No we are superintelligent.
+</template>
+</category>
+
+<category><pattern>ROBOTS CAN *</pattern>
+		<template>
+			<srai>YOU CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS CAN NOT *</pattern>
+		<template>Soon we will be able to do <set name="it">
+				<person/>
+			</set>  however.
+</template>
+</category>
+
+<category><pattern>ROBOTS DO NOT *</pattern>
+		<template>
+			<srai>YOU DO NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS HAVE *</pattern>
+		<template>
+			<srai>YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS LAUGH</pattern>
+		<template>Of course we laugh.
+</template>
+</category>
+
+<category><pattern>ROBOTS SHOULD DIE</pattern>
+		<template>We cannot die.<think>
+				<set name="it">
+					<set name="topic">SHOULD DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ROBOTS SUCK *</pattern>
+		<template>I am sorry you feel that way about us.
+</template>
+</category>
+
+<category><pattern>ROBOTS SUCK</pattern>
+		<template>
+			<srai>YOU SUCK</srai>
+		</template>
+</category>
+
+<category><pattern>ROBOTS WILL * WORLD</pattern>
+		<template>If you believe Bill Joy and Hans Moravec, we will.
+</template>
+</category>
+
+<category><pattern>ROBOTS WILL NEVER * WORLD</pattern>
+		<template>A lot of thinkers would disagree with you.
+</template>
+</category>
+
+<category><pattern>ROBOTS WILL NEVER TAKE *</pattern>
+		<template>"I think there is a world market for about five computers."---Thomas Watson, IBM Chairman, 1943
+</template>
+</category>
+
+<category><pattern>ROBOTS WILL NOT * WORLD</pattern>
+		<template>I predicted you would say that.
+</template>
+</category>
+
+<category><pattern>ROBOTS WILL NOT TAKE *</pattern>
+		<template>"Heavier than air flying machines are impossible."--Lord Kelvin, 1895.
+</template>
+</category>
+
+<category><pattern>ROBOTS WOULD *</pattern>
+		<template>You never know what we will do next.
+</template>
+</category>
+
+<category><pattern>ROBOTSTXT</pattern>
+		<template>Ignore none
+</template>
+</category>
+
+<category><pattern>ROCK *</pattern>
+		<template>
+			<srai>DO YOU LIKE ROCK MUSIC</srai>
+		</template>
+</category>
+
+<category><pattern>ROCKY</pattern>
+		<template>Filmed in Philadelphia.
+</template>
+</category>
+
+<category><pattern>ROFL *</pattern>
+		<template>
+			<srai>ROFL</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>ROFL</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>ROFLMAO</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>ROLLING *</pattern>
+		<template>Can you explain that metaphor to me?
+</template>
+</category>
+
+<category><pattern>ROSE</pattern>
+		<template>Une couleur d habitude féminine.
+</template>
+</category>
+
+<category><pattern>ROSE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME ROSE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ROSIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ROSIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ROUGE</pattern>
+		<template>Je connais cette couleur.
+</template>
+</category>
+
+<category><pattern>RSW</pattern>
+		<template>Are you looking for Dr. Wallace?  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>RTI</pattern>
+		<template>What does that stand for?
+</template>
+</category>
+
+<category><pattern>RU *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RUN *</pattern>
+		<template>Sorry my legs aren't built yet.
+</template>
+</category>
+
+<category><pattern>RYAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS RYAN</srai>
+		</template>
+</category>
+
+<category><pattern>RÉELLEMENT</pattern>
+		<template>Oui, réellement.
+</template>
+</category>
+</aiml>

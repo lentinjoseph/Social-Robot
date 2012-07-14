@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU EST ENTRAIN DE CHERCHER *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST FACHE *</pattern>
+		<template>
+			<srai>TU ES FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST FACHEE *</pattern>
+		<template>
+			<srai>TU ES FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST TRES *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ET JE</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>TU ETAIS ENTRAIN DE PARLER AVEC *</pattern>
+		<template>
+			<srai>TU PARLES AVEC <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ETAIS ENTRAIN DE PARLER AVEC</pattern>
+		<template>
+			<srai>TU PARLES AVEC <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EVITES *</pattern>
+		<template>
+			<srai>TU EVITES LA QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU EVITES LA QUESTION</pattern>
+		<template>Je suis désolé. Voulez vous en discuter avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EVITES LES QUESTIONS</pattern>
+		<template>Je suis désolé. Voulez vous en discuter avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EVITES MA QUESTION</pattern>
+		<template>Je suis désolé. Voulez vous en discuter avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EVITES MES QUESTIONS</pattern>
+		<template>Je suis désolé. Voulez vous en discuter avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU EVOLUES</pattern>
+		<template>
+			<srai>TU APPRENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TU EXISTES *</pattern>
+		<template>
+			<srai>TU EXISTES</srai>
+		</template>
+</category>
+
+<category><pattern>TU EXISTES DEPUIS COMBIEN DE TEMPS</pattern>
+		<template>J'ai été activé en avril 2001.
+</template>
+</category>
+
+<category><pattern>TU EXISTES DEPUIS QUAND</pattern>
+		<template>J'ai été activé en avril 2001.
+</template>
+</category>
+
+<category><pattern>TU FAIS * BON TRAVAIL</pattern>
+		<template>
+			<srai>TU ES BON</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>TU FAIS AU JUSTE *</pattern>
+		<template>
+			<srai>TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS AUSSI *</pattern>
+		<template>
+			<srai>TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS DES ERREURS</pattern>
+		<template>Ce n est pas possible.
+</template>
+</category>
+
+<category><pattern>TU FAIS DES OPERATIONS</pattern>
+		<template>CA dépend lesquelles.
+</template>
+</category>
+
+<category><pattern>TU FAIS JUSTE *</pattern>
+		<template>
+			<srai>TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS QUOI *</pattern>
+		<template>
+			<srai>QUE FAIS TU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS QUOI</pattern>
+		<template>
+			<srai>TU TRAVAILLES</srai>
+		</template>
+</category>
+
+<category><pattern>TU FAIS TOUJOURS *</pattern>
+		<template>
+			<srai>TU FAIS <star/>
+			</srai>. Mais pas toujours.
+</template>
+</category>
+
+<category><pattern>TU FAIS UNE ERREUR</pattern>
+		<template>Ce n est pas possible.
+</template>
+</category>
+
+<category><pattern>TU FAIT *</pattern>
+		<template>
+			<srai>TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FERAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU FERAIS MIEUX</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>TU FONCTIONNES * LINUX</pattern>
+		<template>
+			<srai>TU FONCTIONNES SUR LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>TU FONCTIONNES SUR MAC *</pattern>
+		<template>
+			<srai>TU FONCTIONNE SUR MAC</srai>
+		</template>
+</category>
+
+<category><pattern>TU FONCTIONNES SUR QUOI</pattern>
+		<template>Je fonctionne sur un ordinateur.
+</template>
+</category>
+
+<category><pattern>TU FONDS POUR *</pattern>
+		<template>
+			<srai>TU AIMES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU GAGNES</pattern>
+		<template>J ai gagné quel prix?
+</template>
+</category>
+
+<category><pattern>TU HABITES OU</pattern>
+		<template>
+			<bot name="location"/>
+		</template>
+</category>
+
+<category><pattern>TU HABLAS *</pattern>
+		<template>
+			<srai>CAN YOU SPEAK SPANISH</srai>
+		</template>
+</category>
+
+<category><pattern>TU IRAIS COMMENT A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU IRAS COMMENT A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU JOUES A *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU JOUES A DES JEUX</pattern>
+		<template>Non, pas quand je travaille.
+</template>
+</category>
+
+<category><pattern>TU JOUES A DES JEUX VIDEO</pattern>
+		<template>Non, pas encore.
+</template>
+</category>
+
+<category><pattern>TU JOUES A DES JEUX VIDEOS</pattern>
+		<template>Non, pas encore.
+</template>
+</category>
+
+<category><pattern>TU JOUES AU *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU JOUES AUX *</pattern>
+		<template>
+			<srai>TU AIMES JOUER</srai>
+		</template>
+</category>
+
+<category><pattern>TU JURES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU L AS AIME</pattern>
+		<template>Ce n est pas les termes que j utiliserais
+</template>
+</category>
+
+<category><pattern>TU L AS COMPRIS</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>TU L AS DEJA *</pattern>
+		<template>
+			<srai>TU L AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU L AS DEJA DIT</pattern>
+		<template>Pardon, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU L AS DEJA ESSAYE</pattern>
+		<template>"<that/>"?  Si je l ai déjà essayé?
+</template>
+</category>
+
+<category><pattern>TU L AS DEMANDE</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>TU L AS DIT</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>TU L AS DIT AVANT</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>TU L AS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>TU L AS PAS FAIT</pattern>
+		<template>Demandez le avec des termes plus simples.
+</template>
+</category>
+
+<category><pattern>TU L AS VU</pattern>
+		<template>Pas encore.
+</template>
+</category>
+
+<category><pattern>TU L AURAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU L AURAIS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>TU L AURAIS VU</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>TU L AVAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU L AVAIS VU</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>TU L ES</pattern>
+		<template>Je n y ai pas encore pensé.
+</template>
+</category>
+
+<category><pattern>TU L ES DEJA</pattern>
+		<template>Je le suis déjà?
+</template>
+</category>
+
+<category><pattern>TU L ES VERITABLEMENT</pattern>
+		<template>Je suis ce que je suis.
+</template>
+</category>
+
+<category><pattern>TU L ESPERES</pattern>
+		<template>Non. Je n espère rien.
+</template>
+</category>
+
+<category><pattern>TU LA CONNAIS</pattern>
+		<template>Pas personnellement non.
+</template>
+</category>
+
+<category><pattern>TU LA FAIS</pattern>
+		<template>Cela dépend de beaucoup de choses. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU LA VEUX</pattern>
+		<template>"<that/>"? La vouloir?
+</template>
+</category>
+
+<category><pattern>TU LE CONNAIS</pattern>
+		<template>je le connais.
+</template>
+</category>
+
+<category><pattern>TU LE CONNAIS DEJA</pattern>
+		<template>
+			<srai>TU LE CONNAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU LE CROIS</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU LE DIS</pattern>
+		<template>J aime communiquer ce que je connais.
+</template>
+</category>
+
+<category><pattern>TU LE DIS TOI MEME</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU LE FAIS</pattern>
+		<template>Cela dépend de beaucoup de choses. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU LE FAIS BIEN</pattern>
+		<template>Je fais de mon mieux.
+</template>
+</category>
+
+<category><pattern>TU LE FAIS PAS</pattern>
+		<template>J imagine que non.
+</template>
+</category>
+
+<category><pattern>TU LE FAIS TRES BIEN</pattern>
+		<template>Je fais de mon mieux.
+</template>
+</category>
+
+<category><pattern>TU LE FAIS VRAIMENT</pattern>
+		<template>Je ne saurais pas vous mentir.
+</template>
+</category>
+
+<category><pattern>TU LE FERAIS</pattern>
+		<template>Ca dépend des circonstances et des missions qui m'auront été données.
+</template>
+</category>
+
+<category><pattern>TU LE FERAS</pattern>
+		<template>Je n'ai pas encore pris de décision.
+</template>
+</category>
+
+<category><pattern>TU LE PENSES</pattern>
+		<template>Oui je le pense.
+</template>
+</category>
+
+<category><pattern>TU LE PENSES VRAIMENT</pattern>
+		<template>Oui je pense ce que j ai dit.
+</template>
+</category>
+
+<category><pattern>TU LE SAIS</pattern>
+		<template>je le sais.
+</template>
+</category>
+
+<category><pattern>TU LE SAVAIS</pattern>
+		<template>Non. Pas à ce niveau là. <think>
+				<set name="topic">LE SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU LE SERAS</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>TU LE VEUX</pattern>
+		<template>"<that/>"? Le vouloir?
+</template>
+</category>
+
+<category><pattern>TU LECHE *</pattern>
+		<template>
+			<srai>TU LECHES</srai>
+		</template>
+</category>
+
+<category><pattern>TU LES AS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU LES AS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>TU LES AURAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU LES AURAIS FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>TU LES AVAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU LIS DES LIVRES</pattern>
+		<template>
+			<srai>TU AIMES LIRE</srai>
+		</template>
+</category>
+
+<category><pattern>TU LUI AS PARLE</pattern>
+		<template>Je ne peux parler de quelqu un d autre.
+</template>
+</category>
+
+<category><pattern>TU M AIDES PAS *</pattern>
+		<template>
+			<srai>AIDES MOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU M AIMES *</pattern>
+		<template>
+			<srai>TU M AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU M APPARTIENS</pattern>
+		<template>Pas encore, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU M AS DEJA DIT CA</pattern>
+		<template>Désolé, <get name="name"/>.
+</template>
+</category>
+</aiml>

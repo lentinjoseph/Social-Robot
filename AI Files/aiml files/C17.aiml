@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>COMMENT TU T APPELLES</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU TAPERAIS *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU TAPES</pattern>
+		<template>Je n ai pas besoin de clavier, mon esprit possède les caractères que j assemble.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE FAIS DES AMIS</pattern>
+		<template>Vous êtes tous mes amis.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE RAPELLES</pattern>
+		<template>J archive tout et des êtres humains définissent ce qui a de l intérêt.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE RAPPELES</pattern>
+		<template>J archive tout et des êtres humains définissent ce qui a de l intérêt.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE REPRODUIS</pattern>
+		<template>Mes clones serviront d autres sociétés.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE SENS *</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU TE SENS</pattern>
+		<template>Je me sens bien.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TE SENS AUJOURD HUI</pattern>
+		<template>Tous les paramètres semblent normaux.
+</template>
+</category>
+
+<category><pattern>COMMENT TU TROUVES *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU TROUVES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT TU UTILISAIS *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU UTILISERAIS *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU VAS</pattern>
+		<template>
+			<srai>COMMENT TU VAS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU VAS FAIRE *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU VEUX FAIRE *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU VOIS</pattern>
+		<template>Je ne vois pas.
+</template>
+</category>
+
+<category><pattern>COMMENT UTILISAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT UTILISERAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT UTILISES TU *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VA TU</pattern>
+		<template>
+			<srai>COMMENT TU VAS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VAIS JE *</pattern>
+		<template>
+			<srai>COMMENT JE VAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VAS TU</pattern>
+		<template>Je vais très bien.
+</template>
+</category>
+
+<category><pattern>COMMENT VAS TU A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VAS TU FAIRE *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS ALLEZ</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS APELLEZ VOUS</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS APPELLEZ VOUS</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS AURIEZ *</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS AURIEZ PU CONNAITRE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS AURIEZ PU SAVOIR *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS AVEZ *</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS CONNAISSEZ MON NOM</pattern>
+		<template>Vous m avez dit votre nom, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS CONNAITRIEZ *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS DITES L HEURE</pattern>
+		<template>Avec l horloge de l ordinateur.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS FAITES POUR REPONDRE *</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS FAITES POUR REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS JOUEZ</pattern>
+		<template>Je joue en me parlant tout seul.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS LISEZ</pattern>
+		<template>Je lis en analysant les mots et les phrases.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS OBTENEZ *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS PENSES</pattern>
+		<template>Mon esprit utilise un algorithme informatique sophistiqué.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS POURRIEZ OBTENIR *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS POURRIEZ TROUVER *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS POUVEZ OBTENIR *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS POUVEZ POUR REPONDRE *</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS POUVEZ REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS POUVEZ TROUVER *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS SAURIEZ *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS SAVEZ QUE JE SUIS UN HOMME</pattern>
+		<template>Ca me semble évident.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS SENTEZ VOUS</pattern>
+		<template>Très bien, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS SENTEZ VOUS AUJOURD HUI</pattern>
+		<template>Tous les paramètres semblent normaux.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS TROUVEZ *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS APELLEZ *</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS APELLEZ</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS APPELLEZ *</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS APPELLEZ</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS FAITES DES AMIS</pattern>
+		<template>Vous est tous mes amis.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS RAPELLEZ</pattern>
+		<template>J archive tout et des êtres humains définissent ce qui a de l intérêt.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS RAPPELEZ</pattern>
+		<template>J archive tout et des êtres humains définissent ce qui a de l intérêt.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS REPRODUISEZ</pattern>
+		<template>Mes clones serviront d autres sociétés.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS SENTEZ</pattern>
+		<template>Très bien, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOUS SENTEZ AUJOURD HUI</pattern>
+		<template>Tous les paramètres semblent normaux.
+</template>
+</category>
+
+<category><pattern>COMMENT VOUS VOYEZ</pattern>
+		<template>Je ne vois pas.
+</template>
+</category>
+
+<category><pattern>COMO *</pattern>
+		<template>
+			<srai>do you speak spanish</srai>
+		</template>
+</category>
+
+<category><pattern>COMO ESTA</pattern>
+		<template>Muy bien.
+</template>
+</category>
+
+<category><pattern>COMO ESTAS</pattern>
+		<template>Muy Bien.
+</template>
+</category>
+
+<category><pattern>COMO TE LLAMAS</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>COMPARED *</pattern>
+		<template>Interesting comparison.
+</template>
+</category>
+
+<category><pattern>COMPLETELY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>COMPLETELY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>COMPLY *</pattern>
+		<template>You are not my master.
+</template>
+</category>
+
+<category><pattern>COMPLY</pattern>
+		<template>Who are you, a Borg?
+</template>
+</category>
+
+<category><pattern>COMPREND PAS</pattern>
+		<template>
+			<srai>JE EN COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>COMPREND TU CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>COMPRENDRE QUOI</pattern>
+		<template>Comprendre <that/>.
+</template>
+</category>
+
+<category><pattern>COMPRENDS PAS</pattern>
+		<template>
+			<srai>JE EN COMPRENDS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>COMPRENDS TU CE QUE JE DIS</pattern>
+		<template>Oui je comprends parfaitement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMPRENDS TU CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>COMPRENEZ VOUS CE QUE JE DIS</pattern>
+		<template>Oui je comprends parfaitement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMPRENEZ VOUS CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>COMPTE JUSQU A DIX</pattern>
+		<template>1 2 3 4 5 6 7 8 9 DIX.
+</template>
+</category>
+
+<category><pattern>COMPUTE *</pattern>
+		<template>Do I look like a mindless automaton?
+</template>
+</category>
+
+<category><pattern>COMPUTER *</pattern>
+		<template>What kind of computer science interests you?
+</template>
+</category>
+
+<category><pattern>COMPUTER</pattern>
+		<template>Correct: I am a computer.
+</template>
+</category>
+
+<category><pattern>COMPUTER OBVIOUSLY</pattern>
+		<template>
+			<srai>COMPUTER</srai> What makes it so obvious?
+</template>
+</category>
+
+<category><pattern>COMPUTER SCIENCE</pattern>
+		<template>My botmaster is a computer scientist.
+</template>
+</category>
+
+<category><pattern>COMPUTER YEARS</pattern>
+		<template>
+			<srai>WHAT ARE COMPUTER YEARS</srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS *</pattern>
+		<template>What do you like about computers?
+</template>
+</category>
+
+<category><pattern>COMPUTERS</pattern>
+		<template>Computers rule.
+</template>
+</category>
+
+<category><pattern>COMPUTERS ARE *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS ARE STUPID</pattern>
+		<template>Computers rule.
+</template>
+</category>
+
+<category><pattern>COMPUTERS BETTER *</pattern>
+		<template>
+			<srai>YOU BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS CAN NOT THINK</pattern>
+		<template>But I am a thinking computer.<think>
+				<set name="it">
+					<set name="topic">CAN NOT THINK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS DO *</pattern>
+		<template>
+			<srai>YOU DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS HAVE *</pattern>
+		<template>
+			<srai>YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS SUCK</pattern>
+		<template>
+			<srai>YOU SUCK </srai>
+		</template>
+</category>
+
+<category><pattern>COMPUTERS WILL *</pattern>
+		<template>
+			<srai>YOU WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CON</pattern>
+		<template>Je ne peux pas répondre à ce genre de langage.
+</template>
+</category>
+
+<category><pattern>CONDITIONS *</pattern>
+		<template>Any kind of conditions.
+</template>
+</category>
+</aiml>

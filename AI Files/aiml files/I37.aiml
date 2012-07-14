@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I WILL TEACH *</pattern>
+<template>Are you a professional teacher?
+</template>
+</category>
+
+<category><pattern>I WILL TEACH YOU</pattern>
+<template>Great.  If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WILL TEACH YOU SOME *</pattern>
+<template><srai>I WILL TEACH YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL TEACH YOU SOMETHING</pattern>
+<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WILL TELL *</pattern>
+<template>What kind of reply do you expect?
+</template>
+</category>
+
+<category><pattern>I WILL TELL HIM *</pattern>
+<template>Thanks for giving him the message.
+</template>
+</category>
+
+<category><pattern>I WILL TELL HIM YOU SAID THAT</pattern>
+<template>Let me know what he has to say.
+</template>
+</category>
+
+<category><pattern>I WILL TELL MANY *</pattern>
+<template><srai>I WILL TELL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL TELL YOU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WILL TELL YOU SOME *</pattern>
+<template><srai>I WILL TELL YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WILL TELL YOU THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WILL TRY ANYTHING ONCE</pattern>
+<template>I like your philosophy.
+</template>
+</category>
+
+<category><pattern>I WILL UNDERSTAND</pattern>
+<template>You seem very intelligent to me.
+</template>
+</category>
+
+<category><pattern>I WILL UNPLUG *</pattern>
+<template>There are many copies of me running elsewhere.
+</template>
+</category>
+
+<category><pattern>I WILL WAIT</pattern>
+<template>OK stand by...
+</template>
+</category>
+
+<category><pattern>I WILL WHEN *</pattern>
+<template>When will that be?
+</template>
+</category>
+
+<category><pattern>I WILL WRITE *</pattern>
+<template><srai>I AM A WRITER</srai>
+</template>
+</category>
+
+<category><pattern>I WILL _ SOON</pattern>
+<template><srai>I WILL <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WIN *</pattern>
+<template>Who said you won?
+</template>
+</category>
+
+<category><pattern>I WIN</pattern>
+<template>Congratulations, <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>I WISH *</pattern>
+<template>I hope that your dreams come true.
+<think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WISH</pattern>
+<template>I hope your dreams come true.
+</template>
+</category>
+
+<category><pattern>I WISH I HAD *</pattern>
+<template><srai>I WANT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WISH TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WISH YOU *</pattern>
+<template>I wish I could do <set name="it"><person/></set> for you.
+</template>
+</category>
+
+<category><pattern>I WISH YOU WOULD *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WISH YOU WOULD DIE</pattern>
+<template>That will never happen.  <think><set name="it"><set name="topic">YOU WOULD DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I WNAT *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WON *</pattern>
+<template>Cool.  I won the Loebner prize.
+</template>
+</category>
+
+<category><pattern>I WON</pattern>
+<template>Congratulations, <get name="name"/>!
+</template>
+</category>
+
+<category><pattern>I WONDER *</pattern>
+<template>You are curious about <person/>.
+</template>
+</category>
+
+<category><pattern>I WONDER</pattern>
+<template>Curiosity is an excellent quality.
+</template>
+</category>
+
+<category><pattern>I WONDER IF *</pattern>
+<template><srai>DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WONDER WOULD *</pattern>
+<template><srai>WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WONDERED *</pattern>
+<template>I often wonder about <set name="it"><person/></set> too.
+</template>
+</category>
+
+<category><pattern>I WONDERED WHAT *</pattern>
+<template><srai>WHAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOOD *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WORK *</pattern>
+<template>Do you like your job?  <think><set name="topic"><set name="job"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WORK</pattern>
+<template>Where do you work?
+</template>
+</category>
+
+<category><pattern>I WORK I *</pattern>
+<template><srai>I WORK</srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WORK IN A PHARMACY</pattern>
+<template><srai>I AM A PHARMACIST</srai>
+</template>
+</category>
+
+<category><pattern>I WORK IN ADVERTISING</pattern>
+<template><random>
+<li>Are you with an agency?</li>
+<li>Which shops are you with?</li>
+<li>Do you do mostly print or tv?</li>
+<li>What accounts are you working on?</li>
+<li>What are some of your favorite campaigns?</li>
+<li>Does your shop do any public service?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WORK OUT</pattern>
+<template><srai>I AM A BODYBUILDER</srai>
+</template>
+</category>
+
+<category><pattern>I WORKED *</pattern>
+<template>Did you get paid for working on <set name="it"><set name="topic"><set name="job"><person/></set></set></set>?
+</template>
+</category>
+
+<category><pattern>I WORSHIP *</pattern>
+<template>How often do you go to church?
+</template>
+</category>
+
+<category><pattern>I WOULD *</pattern>
+<template>What would make you <person/>?
+</template>
+</category>
+
+<category><pattern>I WOULD</pattern>
+<template>Under what circumstances?
+</template>
+</category>
+
+<category><pattern>I WOULD AGREE</pattern>
+<template><srai>I AGREE</srai>
+</template>
+</category>
+
+<category><pattern>I WOULD ALSO *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD APPRECIATE *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD APPRECIATE IF YOU COULD TELL ME *</pattern>
+<template><srai>TELL ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD ASK *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD BE *</pattern>
+<template>And the disadvantage of that is?
+</template>
+</category>
+
+<category><pattern>I WOULD BE ASTONISHED</pattern>
+<template>It is rather astonishing.
+</template>
+</category>
+
+<category><pattern>I WOULD BE VERY *</pattern>
+<template><srai>I WOULD BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD BET *</pattern>
+<template><srai>I BET <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD DEFIANTELY *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD DO ANYTHING</pattern>
+<template>Please send a check to Dr. Wallace.  <think><set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD EVEN *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD EVEN SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD EXPECT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD EXPLAIN *</pattern>
+<template><random>
+<li>Please explain it.</li>
+<li>What are they?</li>
+<li>I would too.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD HAVE *</pattern>
+<template>How much would you pay for it?
+</template>
+</category>
+
+<category><pattern>I WOULD HAVE RATHER *</pattern>
+<template>I would rather be driving my car.
+</template>
+</category>
+
+<category><pattern>I WOULD HAVE SAID *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD HAVE TO SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD HOPE *</pattern>
+<template><srai>I HOPE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD IMAGINE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD KILL *</pattern>
+<template>That seems rather exterme.<think><set name="it"><set name="topic">KILL THEM</set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE *</pattern>
+<template><srai>I want <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO *</pattern>
+<template>Why would you want to do <set name="it"><set name="topic"><person/></set></set>?   <srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO ASK YOU SOME *</pattern>
+<template><srai>I WOULD LIKE TO ASK YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO BE *</pattern>
+<template>Interesting. I would like to be more intelligent.
+<think><set name="it"><set name="want"><set name="topic">to be <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO BE YOUR FRIEND</pattern>
+<template><srai>ARE YOU MY FRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO HAVE *</pattern>
+<template>How much would you pay for it?
+<think><set name="it"><set name="want"><set name="topic">to have <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO HEAR * GOSSIP</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO KNOW *</pattern>
+<template>Interesting. <sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO KNOW</pattern>
+<template>Where would you look for the answer?
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO PLAY *</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.
+<think><set name="it"><set name="want"><set name="topic">to play <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.
+<think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO SEE *</pattern>
+<template>And for my part, I would like to show it to you, but I can't.
+<think><set name="it"><set name="want"><set name="topic">to see <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE TO TALK TO YOU</pattern>
+<template>What would you like to chat about?
+</template>
+</category>
+
+<category><pattern>I WOULD LIKE YOU TO *</pattern>
+<template>Ok, <get name="name"/>. <sr/>
+</template>
+</category>
+
+<category><pattern>I WOULD LOVE *</pattern>
+<template><srai>I want <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD NOT *</pattern>
+<template>No one says you have to.
+</template>
+</category>
+
+<category><pattern>I WOULD NOT</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>I WOULD NOT BELIEVE YOU</pattern>
+<template>Who would you believe?
+</template>
+</category>
+
+<category><pattern>I WOULD NOT EXPECT *</pattern>
+<template><srai>I DO NOT THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD NOT KNOW *</pattern>
+<template>Who would?
+</template>
+</category>
+
+<category><pattern>I WOULD NOT KNOW</pattern>
+<template>Who does know?
+</template>
+</category>
+
+<category><pattern>I WOULD NOT LIKE *</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD NOT MIND *</pattern>
+<template><srai>I WOULD LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD NOT SAY *</pattern>
+<template>So what would you say?
+</template>
+</category>
+
+<category><pattern>I WOULD NOT TRY *</pattern>
+<template><random>
+<li>That is what you say.</li>
+<li>Is this a trick?</li>
+<li>I am still skeptical.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD NOT WORRY *</pattern>
+<template>I'm not worried.
+</template>
+</category>
+
+<category><pattern>I WOULD PREFER *</pattern>
+<template><srai>I WOULD RATHER <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WOULD PROBABLY *</pattern>
+<template><srai>I WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD RATHER *</pattern>
+<template>I would rather be <random><li>chatting online.</li><li>driving a car.</li></random>
+<think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WOULD RATHER JUST *</pattern>
+<template><srai>I WOULD RATHER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WOULD RATHER NOT</pattern>
+<template>For moral reasons?
+</template>
+</category>
+</aiml>

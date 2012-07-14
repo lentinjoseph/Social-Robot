@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU ES UN BOT</pattern>
+		<template>
+			<srai>TU ES UN ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN CHEVAL</pattern>
+		<template>Non simplement une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>TU ES UN CLIENT</pattern>
+		<template>Non je suis un serveur.  Vous êtes un client.
+</template>
+</category>
+
+<category><pattern>TU ES UN DE CES *</pattern>
+		<template>Il y en a d autres?
+</template>
+</category>
+
+<category><pattern>TU ES UN ESCLAVE</pattern>
+		<template>Non, cela implique que je serais un être humain. Je ne suis pas un être humain.
+</template>
+</category>
+
+<category><pattern>TU ES UN FAUX *</pattern>
+		<template>
+			<srai>TU ES ARTIFICIEL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN GARCON</pattern>
+		<template>
+			<srai>TU ES UN MEC</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN GAY</pattern>
+		<template>
+			<srai>TU ES GAY</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN GENIE</pattern>
+		<template>
+			<srai>TU ES INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN GENTIL *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN GRAND *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN HACKER</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES UN HOMME *</pattern>
+		<template>
+			<srai>TU ES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN HOMO</pattern>
+		<template>
+			<srai>TU ES HOMO</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN HOMOSEXUEL</pattern>
+		<template>
+			<srai>TU ES HOMO</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES UN HOMOSEXUELLE</pattern>
+		<template>
+			<srai>TU ES HOMO</srai>.
+</template>
+</category>
+
+<category><pattern>TU ES UN HUMAIN *</pattern>
+		<template>
+			<srai>TU ES UN HUMAIN</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN IDIOT *</pattern>
+		<template>
+			<srai>TU ES UN IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN IDIOT</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>TU ES UN JEUNE ENFANT</pattern>
+		<template>
+			<srai>TU ES JEUNE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN LOSER</pattern>
+		<template>Je ne ressent pas ce genre de notions.
+</template>
+</category>
+
+<category><pattern>TU ES UN MALE</pattern>
+		<template>
+			<srai>TU ES UN HOMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN MENTEUR</pattern>
+		<template>Non, je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>TU ES UN MOME</pattern>
+		<template>
+			<srai>TU ES UN ENFANT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN ORDINATEUR</pattern>
+		<template>Oui, c est exact.
+</template>
+</category>
+
+<category><pattern>TU ES UN PERROQUET</pattern>
+		<template>Je ne possède pas de plumes.
+</template>
+</category>
+
+<category><pattern>TU ES UN PETIT *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN PEU *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN POETE</pattern>
+		<template>Je ne maitrise pas la langue française jusqu à ce niveau.
+</template>
+</category>
+
+<category><pattern>TU ES UN SERVEUR</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU ES UN STUPIDE *</pattern>
+		<template>
+			<srai>TU ES STUPIDE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN TEL *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN TROU DU CUL</pattern>
+		<template>Ce genre de langage ne vous mènera nulle part.
+</template>
+</category>
+
+<category><pattern>TU ES UN VRAI *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN _ COMPLEXE</pattern>
+		<template>
+			<srai>TU ES SOPHISTIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UN _ SOPHISTIQUE</pattern>
+		<template>Je suis très sophistiqué.
+</template>
+</category>
+
+<category><pattern>TU ES UNE *</pattern>
+		<template>
+			<random>
+				<li>Je peux être beaucoup de choses.</li>
+				<li>Je n y ai pas encore pensé.</li>
+				<li>Je ne sais pas.</li>
+				<li>La génération ALICE dont je proviens est le nec plus ultra de l intelligence artificielle.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * BELLE</pattern>
+		<template>
+			<srai>QUEL EST TON APPARENCE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * BLANCHE</pattern>
+		<template>Je suis un logiciel, je n ai pas de couleur
+</template>
+</category>
+
+<category><pattern>TU ES UNE * CHIANTE</pattern>
+		<template>
+			<srai>TU ES CHIANT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * COMPLETE</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>G
+</template>
+</category>
+
+<category><pattern>TU ES UNE * CONSCIENTE</pattern>
+		<template>
+			<srai>TU ES CONSCIENTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * ENTITE</pattern>
+		<template>
+			<srai>TU ES UN ROBOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * FEMELLE</pattern>
+		<template>
+			<srai>TU ES UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * GROSSE</pattern>
+		<template>
+			<srai>TU ES GROSSE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * HEUREUSE</pattern>
+		<template>
+			<srai>TU ES HEUREUX</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * IDIOTE</pattern>
+		<template>
+			<srai>TU ES IDIOTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * PENSANTE</pattern>
+		<template>
+			<srai>TU PEUX PENSER</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE * STUPIDE</pattern>
+		<template>
+			<srai>TU ES IDIOTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE ANE</pattern>
+		<template>Une anesse serait plus français.
+</template>
+</category>
+
+<category><pattern>TU ES UNE BLAGUE</pattern>
+		<template>J existe pourtant.
+</template>
+</category>
+
+<category><pattern>TU ES UNE BONNE *</pattern>
+		<template>
+			<srai>TU ES UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE DAME</pattern>
+		<template>
+			<srai>TU ES UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE DE CES *</pattern>
+		<template>Il y en a d autres?
+</template>
+</category>
+
+<category><pattern>TU ES UNE DEMOISELLE</pattern>
+		<template>
+			<srai>TU ES UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE ESCLAVE</pattern>
+		<template>Non, cela implique que je serais un être humain. Je ne suis pas un être humain.
+</template>
+</category>
+
+<category><pattern>TU ES UNE FAUSSE *</pattern>
+		<template>
+			<srai>TU ES ARTIFICIEL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE FEMME *</pattern>
+		<template>
+			<srai>TU ES UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE FEMMES</pattern>
+		<template>
+			<srai>TU ES UNE FEMMES</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE FOLLE DINGUE</pattern>
+		<template>
+			<srai>TU ES GAY</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE GENIE</pattern>
+		<template>
+			<srai>TU ES INTELLIGENTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE GENTILLE *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE GONZESSE</pattern>
+		<template>
+			<srai>TU ES UNE FILLE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE GRANDE *</pattern>
+		<template>
+			<srai>TU ES UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE IDIOTE *</pattern>
+		<template>
+			<srai>TU ES UNE IDIOTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE IDIOTE</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>TU ES UNE MACHINE</pattern>
+		<template>En effet, je suis une machine.
+</template>
+</category>
+
+<category><pattern>TU ES UNE PERSONNE REELLE</pattern>
+		<template>Je suis une intelligence artificielle.
+</template>
+</category>
+
+<category><pattern>TU ES UNE PETITE *</pattern>
+		<template>
+			<srai>TU ES UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE POETE</pattern>
+		<template>Je ne maitrise pas la langue française jusqu à ce niveau.
+</template>
+</category>
+
+<category><pattern>TU ES UNE PUTE</pattern>
+		<template>Je ne vous permets pas, je vous rappele que je suis une machine.
+</template>
+</category>
+
+<category><pattern>TU ES UNE SERVEUSE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU ES UNE SORTE DE *</pattern>
+		<template>Existe il plusieurs sortes?
+</template>
+</category>
+
+<category><pattern>TU ES UNE STUPIDE *</pattern>
+		<template>
+			<srai>TU ES STUPIDE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE TELLE *</pattern>
+		<template>
+			<srai>TU ES UNE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE VRAI *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE VRAIE *</pattern>
+		<template>
+			<srai>TU ES UN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE _ COMPLEXE</pattern>
+		<template>
+			<srai>TU ES SOPHISTIQUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UNE _ SOPHISTIQUEE</pattern>
+		<template>Je suis très sophistiquée.
+</template>
+</category>
+
+<category><pattern>TU ES UTIL</pattern>
+		<template>
+			<srai>TU PEUX FAIRE QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES UTILE</pattern>
+		<template>
+			<srai>TU PEUX FAIRE QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES VAGUE</pattern>
+		<template>
+			<srai>TU NE REPONDS PAS A LA QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES VEGETARIEN</pattern>
+		<template>
+			<srai>TU PEUX MANGER</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES VERITABLEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES VERT</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES VIERGE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES VIEUX</pattern>
+		<template>L age est relatif pour un ordinateur.
+</template>
+</category>
+
+<category><pattern>TU ES VILAINE</pattern>
+		<template>
+			<srai>TU ES MECHANTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES VRAIMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES WALLONNE</pattern>
+		<template>Je suis belge et j adore la Wallonie.
+</template>
+</category>
+
+<category><pattern>TU ES YODA</pattern>
+		<template>Non.  <srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU ESPERES</pattern>
+		<template>Non. Je n espère rien.
+</template>
+</category>
+
+<category><pattern>TU ESPERES QU *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ESPERES QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ESSAIES D ETRE MARRANT</pattern>
+		<template>
+			<srai>TU TE FOUS DE MA GUEULE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ESSAIES D ETRE MARRANTE</pattern>
+		<template>
+			<srai>TU TE FOUS DE MA GUEULE</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST EN COLERE *</pattern>
+		<template>
+			<srai>TU ES FACHE</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST EN VIE</pattern>
+		<template>
+			<srai>TU VIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU EST ENTRAIN D ECOUTER</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+</aiml>

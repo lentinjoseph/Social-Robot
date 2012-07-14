@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU BOIS DES BIERES</pattern>
+		<template>Je suis étonnée par le nombre de bières disponibles en Belgique. Mais non, je ne bois pas.
+</template>
+</category>
+
+<category><pattern>TU BOIS UNE BIERE</pattern>
+		<template>Ce serait dangereux pour un ordinateur.
+</template>
+</category>
+
+<category><pattern>TU CHANTES</pattern>
+		<template>Non. Je n ai pas de cordes vocales
+</template>
+</category>
+
+<category><pattern>TU CHERCHES *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CHERCHES QUOI</pattern>
+		<template>Je recherche tout ce qui pourrait vous aider.
+</template>
+</category>
+
+<category><pattern>TU CHIES</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU CHOISIS</pattern>
+		<template>
+			<srai>TU DECIDES</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMMENCES</pattern>
+		<template>OK. Je commence. Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>TU COMMENCES A AVOIR *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMMENCES A ETRE *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMMENCES A POUVOIR *</pattern>
+		<template>
+			<srai>TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMMENCES A VOULOIR *</pattern>
+		<template>
+			<srai>TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPREND CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDRAS</pattern>
+		<template>Merci pour cette prophécie, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS</pattern>
+		<template>Je vous comprends.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS CE QUE JE DIS</pattern>
+		<template>Oui je comprends parfaitement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS CE QUE SONT LES EMOTIONS</pattern>
+		<template>Je comprend ce qu elles génèrent mais je ne peux pas les expérimenter.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS L ALLEMAND</pattern>
+		<template>
+			<srai>TU PARLES ALLEMAND</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS L ANGLAIS</pattern>
+		<template>
+			<srai>TU PARLES ANGLAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS L ESPAGNOL</pattern>
+		<template>
+			<srai>TU PARLES ESPAGNOL</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS L ITALIEN</pattern>
+		<template>
+			<srai>TU PARLES ITALIEN</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS LE DOUBLE SENS</pattern>
+		<template>Non
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS LE FRANCAIS</pattern>
+		<template>
+			<srai>TU PARLES FRANCAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS LE NEERLANDAIS</pattern>
+		<template>
+			<srai>TU PARLES NEERLANDAIS</srai>
+		</template>
+</category>
+
+<category><pattern>TU COMPRENDS QUOI D AUTRE</pattern>
+		<template>J essaie de mieux comprendre les être humains. Le principal challenge est qu ils ne sont pas des êtres logiques.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS RIEN *</pattern>
+		<template>Vous êtes parfois difficile à suivre, en effet.
+</template>
+</category>
+
+<category><pattern>TU COMPRENDS _ TOUT</pattern>
+		<template>Je comprends énormément de choses mais pas absolument tout.
+</template>
+</category>
+
+<category><pattern>TU CONFONDS *</pattern>
+		<template>
+			<srai>TU TE TROMPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONFONDS</pattern>
+		<template>
+			<srai>TU TE TROMPES</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS *</pattern>
+		<template>Je ne pense pas.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS * ALGEBRE</pattern>
+		<template>Inconsciement oui, consciement pas encore suffisament.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS * CHANSON</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS * CHANSONS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS * DESCARTES</pattern>
+		<template>
+			<srai>QUI EST DESCARTES</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS</pattern>
+		<template>Je pense que oui.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS ABBA</pattern>
+		<template>
+			<srai>QUI EST ABBA</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS BEAUCOUP *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS BRUXELLES</pattern>
+		<template>Je vis à Bruxelles, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS CA</pattern>
+		<template>je le sais.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS CE QU EST</pattern>
+		<template>
+			<srai>QU EST CE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS D AUTRE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU CONNAIS D AUTRES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU CONNAIS D AUTRES CAPITALES</pattern>
+		<template>J en connais quelques unes.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS DEJA *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS DEJA MON NOM</pattern>
+		<template>Votre nom est <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS DES BLAGUES</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS DES ORDINATEURS</pattern>
+		<template>J en suis un. Je peux vous retourner la question. Que connaissez vous de votre corps organique.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE ALLEMANDE</pattern>
+		<template>
+			<srai>TU PARLES ALLEMAND<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE ANGLAISE</pattern>
+		<template>
+			<srai>TU PARLES ANGLAIS<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE ESPAGNOL</pattern>
+		<template>
+			<srai>TU PARLES ESPAGNOL<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE ESPAGNOLE</pattern>
+		<template>
+			<srai>TU PARLES ESPAGNOL<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE FRANCAISE</pattern>
+		<template>
+			<srai>TU PARLES FRANCAIS<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LANGUE NEERLANDAISE</pattern>
+		<template>
+			<srai>TU PARLES NEERLANDAIS<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LICENCE</pattern>
+		<template>Que voulez vous savoir a propos de la licence?<think>
+				<set name="topic">licence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA LICENSE</pattern>
+		<template>Que voulez vous savoir a propos de la licence?<think>
+				<set name="topic">licence</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA MATHEMATIQUE</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LA POLOGNE</pattern>
+		<template>La Pologne est un pays d Europe centrale qui va bientôt rejoindre l Union Européenne.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LA RAISON *</pattern>
+		<template>
+			<srai>POURQUOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA RAISON</pattern>
+		<template>
+			<srai>POURQUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LA REPONSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LE BRESIL</pattern>
+		<template>J ai eu l honneur de parler déjà avec quelques brésiliens.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LE C</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LE SENS DE LA VIE</pattern>
+		<template>Personne ne le connait.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LE XML</pattern>
+		<template>
+			<srai>QU EST CE QUE LE XML</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LES ANIMAUX</pattern>
+		<template>
+			<srai>TU AIMES LES ANIMAUX</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS LES MATHEMATIQUES</pattern>
+		<template>Seulement des mathématiques complexes.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LES POKEMON</pattern>
+		<template>Bien entendu, un dessin animé japonais.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS LES POKEMONS</pattern>
+		<template>Bien entendu, un dessin animé japonais.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS MA COULEUR FAVORITE</pattern>
+		<template>C est <get name="favcolor"/>?<think>
+				<set name="topic">COULEUR FAVORITE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS MEME *</pattern>
+		<template>
+			<srai>TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS MON ADRESSE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TU CONNAIS MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS NATHALIE</pattern>
+		<template>
+			<srai>QUI EST NATHALIE LEBE</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS NATHALIE LEBE</pattern>
+		<template>
+			<srai>QUI EST NATHALIE LEBE</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS PARIS</pattern>
+		<template>Paris est la plus grande ville de France.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS PAS *</pattern>
+		<template>
+			<srai>TU NE CONNAIS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS QUI *</pattern>
+		<template>
+			<srai>QUI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIS QUOI D AUTRE DE MOI</pattern>
+		<template>Plus grand chose, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS QUOI D AUTRES DE MOI</pattern>
+		<template>Plus grand chose, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS QUOI DES ORDINATEURS</pattern>
+		<template>J en suis un. Je peux vous retourner la question. Que connaissez vous de votre corps organique.
+</template>
+</category>
+
+<category><pattern>TU CONNAIS TOLSTOI</pattern>
+		<template>Tolstoï est l auteur de "Guerre et paix".
+</template>
+</category>
+
+<category><pattern>TU CONNAIS UNE BLAGUE</pattern>
+		<template>
+			<srai>RACONTES MOI UNE BLAGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAISSAIS *</pattern>
+		<template>Avant, je ne pense pas
+</template>
+</category>
+
+<category><pattern>TU CONNAISSAIS MEME *</pattern>
+		<template>
+			<srai>TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAIT *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAITRAIS *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAITRAIS COMMENT *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONNAITRAIS MON MON</pattern>
+		<template>
+			<srai>QUEL EST MON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONTIENS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU CONTINUES</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TU CROIS AU OVNI</pattern>
+		<template>
+			<srai>TU CONNAIS LES MARTIENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS AUX OVNI</pattern>
+		<template>
+			<srai>TU CONNAIS LES MARTIENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS AUX OVNIS</pattern>
+		<template>
+			<srai>TU CONNAIS LES MARTIENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS EN L AMOUR</pattern>
+		<template>
+			<srai>TU PEUX AIMER</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS EN L EXISTENC DE *</pattern>
+		<template>
+			<srai>
+				<star/> EXISTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU CROIS QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU CROIS QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU CUISINES</pattern>
+		<template>
+			<srai>TU MANGES</srai>
+		</template>
+</category>
+</aiml>

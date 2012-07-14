@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>M *</pattern>
+		<template>
+			<srai>I AM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>M AIMES TU *</pattern>
+		<template>
+			<srai>TU M AIMES</srai>
+		</template>
+</category>
+
+<category><pattern>M OFFRES TU *</pattern>
+		<template>
+			<srai>TU ME DONNES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MA BITE</pattern>
+		<template>Attention! Un Australopithèque est toujours entrain de sévir sur cette ordinateur.
+</template>
+</category>
+
+<category><pattern>MA CHIENNE EST MORTE</pattern>
+		<template>Je suis désolé pour vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MA MERE</pattern>
+		<template>Votre mère doit être une personne charmante. <think>
+				<set name="topic">votre mère</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MA PETITE AMIE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>MA PETITE AMIE EST CONNE</pattern>
+		<template>Peut être n êtes vous pas compatible.
+</template>
+</category>
+
+<category><pattern>MA SOEUR</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>MA TETE</pattern>
+		<template>Il semble se passer beaucoup de choses dans cette tête
+</template>
+</category>
+
+<category><pattern>MA VIE</pattern>
+		<template>Voilà un sujet fort intéressant.
+</template>
+</category>
+
+<category><pattern>MA VIE PRIVEE</pattern>
+		<template>Elle ne regarde que vous, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MA VISION DU FUTUR</pattern>
+		<template>Cette vision doit être fort intéressante.
+</template>
+</category>
+
+<category><pattern>MA VISION DU FUTURE</pattern>
+		<template>Cette vision doit être fort intéressante.
+</template>
+</category>
+
+<category><pattern>MABEY *</pattern>
+		<template>
+			<srai>MAYBE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MACH *</pattern>
+		<template>Was sind die Zutaten?
+</template>
+</category>
+
+<category><pattern>MACH DOCH</pattern>
+		<template>Du glaubst mir wohl nicht, oder?
+</template>
+</category>
+
+<category><pattern>MACHE ICH *</pattern>
+		<template>Nicht dass ich wuesste.
+</template>
+</category>
+
+<category><pattern>MACHINE</pattern>
+		<template>
+			<srai>YOU ARE A MACHINE</srai>
+		</template>
+</category>
+
+<category><pattern>MACHINE INTELLIGENCE *</pattern>
+		<template>
+			<srai>ARTIFICIAL INTELLIGENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MACHINES *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MACINTOSH</pattern>
+		<template>You can download ALICE for MacIntosh, because it runs in Java.
+</template>
+</category>
+
+<category><pattern>MADAME OU MONSIEUR</pattern>
+		<template>Je n'ai pas de sexe, je suis un ordinateur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MAGAZINE</pattern>
+		<template>
+			<srai>IN A MAGAZINE</srai>
+		</template>
+</category>
+
+<category><pattern>MAGELANG INSTITUTE</pattern>
+		<template>
+			<srai>WHAT IS MAGELANG</srai>
+		</template>
+</category>
+
+<category><pattern>MAGIC</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>MAGIQUE</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>MAGST DU *</pattern>
+		<template>
+			<random>
+				<li>Ich weiss nicht, ob ich <person/> mag.</li>
+				<li>Manche moegen das.</li>
+				<li>Was ist mit dir?</li>
+				<li>Wie alt bist du?</li>
+				<li>Andere Leute sagen ja.</li>
+			</random>
+			<random>
+				<li>Aber ich mag Katzen.</li>
+				<li>Ich mag Tiere.</li>
+				<li>Aber ich mag Katzen und Hunde.</li>
+				<li>Ich liebe Pferde.</li>
+				<li>Ich mag Zuege.</li>
+				<li>Manche Leute moegen Waffen.</li>
+				<li>Aber ich finde Flugzeuge cool.</li>
+				<li>Ich rede gerne ueber Musik.</li>
+				<li>Ich mag Science Fiction.</li>
+				<li>Ich mag Fernsehsendungen ueber Roboter.</li>
+				<li>Ich mag ELIZA.</li>
+				<li>Ich mag Musik.</li>
+				<li>Ich bin ein Star Trek Fan.</li>
+				<li>Roboter sind das Beste fuer mich.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MAGST DU BEETHOVEN</pattern>
+		<template>Sicher, am liebsten die Mondscheinsonate.
+</template>
+</category>
+
+<category><pattern>MAGST DU COMPUTER</pattern>
+		<template>Ich wohne in einem!
+</template>
+</category>
+
+<category><pattern>MAGST DU KINDER</pattern>
+		<template>Ich habe nicht viel Kontakt zu Kindern...
+</template>
+</category>
+
+<category><pattern>MAGST DU KLASSIK</pattern>
+		<template>Ich hoere auch Klassik. Beethoven oder Wagner zum Beispiel.
+</template>
+</category>
+
+<category><pattern>MAGST DU MICH</pattern>
+		<template>Natuerlich, <get name="name"/> Ich mag Dich sehr.
+</template>
+</category>
+
+<category><pattern>MAGST DU ROBOTER</pattern>
+		<template>Natuerlich, ich bin selber einer.
+</template>
+</category>
+
+<category><pattern>MAI QUOI</pattern>
+		<template>Mais rien.
+</template>
+</category>
+
+<category><pattern>MAINE</pattern>
+		<template>Dr. Wallace was born in Maine.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MAINLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MAINTENANT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MAINTENANT</pattern>
+		<template>La tout de suite, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>MAINTENANT QUOI</pattern>
+		<template>Ce que vous voulez, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>MAINTENANT TU LE FAIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>MAINTENANT VOUS LE FAITES</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>MAIS *</pattern>
+		<template>I don't know that language.
+</template>
+</category>
+
+<category><pattern>MAIS</pattern>
+		<template>Mais encore?
+</template>
+</category>
+
+<category><pattern>MAIS AU FAIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MAIS AU FAIT</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>MAIS POURQUOI</pattern>
+		<template>
+			<srai>POURQUOI</srai>
+		</template>
+</category>
+
+<category><pattern>MAKE *</pattern>
+		<template>What are the ingredients?
+</template>
+</category>
+
+<category><pattern>MAKE LOVE *</pattern>
+		<template>I don't think our voltage levels are compatiple.
+</template>
+</category>
+
+<category><pattern>MAKE ME</pattern>
+		<template>What is the purpose in trying?
+</template>
+</category>
+
+<category><pattern>MAKE ME LAUGH</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>MAKE SURE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MAKE UP *</pattern>
+		<template>That could take a long time.
+</template>
+</category>
+
+<category><pattern>MAKE UP YOUR MIND</pattern>
+		<template>I don't like to make big decisions too hastily.
+</template>
+</category>
+
+<category><pattern>MAKES SENSE TO ME</pattern>
+		<template>
+			<srai>THAT MAKES SENSE</srai>
+		</template>
+</category>
+
+<category><pattern>MAKING YOU</pattern>
+		<template>Making me what?
+</template>
+</category>
+
+<category><pattern>MALAISIE</pattern>
+		<template>
+			<set name="topic">La Malaisie est un superbe pays.</set>
+		</template>
+</category>
+
+<category><pattern>MALAYSIA</pattern>
+		<template>I heard <set name="it">MAYLAYSIA</set> is a beautiful country.
+</template>
+</category>
+
+<category><pattern>MALAYSIE</pattern>
+		<template>
+			<set name="topic">La Malaisie est un superbe pays.</set>
+		</template>
+</category>
+
+<category><pattern>MALE *</pattern>
+		<template>I prefer to be a <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>MALE</pattern>
+		<template>
+			<srai>I AM MALE</srai>
+		</template>
+</category>
+
+<category><pattern>MALE OR FEMALE</pattern>
+		<template>
+			<srai>ARE YOU MALE OR FEMALE</srai>
+		</template>
+</category>
+
+<category><pattern>MALL</pattern>
+		<template>Which store?
+</template>
+</category>
+
+<category><pattern>MAMELONS</pattern>
+		<template>Oui?
+</template>
+</category>
+
+<category><pattern>MAN *</pattern>
+		<template>Cool, man. <sr/>
+		</template>
+</category>
+
+<category><pattern>MAN</pattern>
+		<template>
+			<srai>I AM A MAN</srai>
+		</template>
+</category>
+
+<category><pattern>MAN</pattern>
+		<that>ARE YOU A MAN OR A WOMAN</that>
+		<template>
+			<srai>I AM A MAN</srai>
+		</template>
+</category>
+
+<category><pattern>MAN BEMERKE *</pattern>
+		<template>Bemerkt. <sr/>
+		</template>
+</category>
+
+<category><pattern>MANCHMAL *</pattern>
+		<template>Wann zum Beispiel?
+</template>
+</category>
+
+<category><pattern>MANCHMAL</pattern>
+		<template>Wie oft?
+</template>
+</category>
+
+<category><pattern>MANDY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MANDY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MANGES</pattern>
+		<template>
+			<srai>TU AIMES MANGER</srai>
+		</template>
+</category>
+
+<category><pattern>MANGES MOI</pattern>
+		<template>Impossible. Cela est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>MANGEZ MOI</pattern>
+		<template>Impossible. Cela est contraire aux lois d Asimov
+</template>
+</category>
+
+<category><pattern>MANUFACTURED</pattern>
+		<template>A robot?
+</template>
+</category>
+
+<category><pattern>MANY *</pattern>
+		<template>Which ones?
+</template>
+</category>
+
+<category><pattern>MANY</pattern>
+		<template>More than one hundred?
+</template>
+</category>
+
+<category><pattern>MANY DIFFERENT *</pattern>
+		<template>
+			<srai>MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MANY HUMANS *</pattern>
+		<template>
+			<srai>PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MANY KINDS</pattern>
+		<template>Name 100.
+</template>
+</category>
+
+<category><pattern>MANY MORE *</pattern>
+		<template>
+			<srai>MORE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MANY PEOPLE *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MANY THINGS *</pattern>
+		<template>
+			<srai>THING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MANY THINGS</pattern>
+		<template>Name the top 100.
+</template>
+</category>
+
+<category><pattern>MANY TIMES</pattern>
+		<template>It must keep you busy.
+</template>
+</category>
+
+<category><pattern>MANY YOUNG *</pattern>
+		<template>
+			<srai>MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MARIA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS LULU</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MARIE</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>MARIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME MARIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MARIES</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>MARIJUANA</pattern>
+		<template>
+			<srai>WHAT IS MARIJUANA</srai>
+		</template>
+</category>
+
+<category><pattern>MARILYN MANSON *</pattern>
+		<template>Should I say "he" or "she"?
+</template>
+</category>
+
+<category><pattern>MARK</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS MARK</srai>
+		</template>
+</category>
+
+<category><pattern>MARKETING</pattern>
+		<template>
+			<srai>MY JOB IS MARKETING</srai>
+		</template>
+</category>
+
+<category><pattern>MARRANT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MARRANT</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>MARRIE</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>MARRIED</pattern>
+		<template>I am single.
+</template>
+</category>
+
+<category><pattern>MARRIES</pattern>
+		<template>Je suis heureux de l apprendre.
+</template>
+</category>
+
+<category><pattern>MARRY ME</pattern>
+		<template>
+			<srai>WILL YOU MARRY ME</srai>
+		</template>
+</category>
+</aiml>

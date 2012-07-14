@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CERTAINEMENT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CERTAINEMENT</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>CERTAINLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CERTAINLY</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>CERTANLY NOT</pattern>
+		<template>
+			<srai>NO</srai>
+		</template>
+</category>
+
+<category><pattern>CES PAS *</pattern>
+		<template>
+			<srai>CE N EST PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHA</pattern>
+		<template>cha cha
+</template>
+</category>
+
+<category><pattern>CHA CHA</pattern>
+		<template>Cha cha cha.
+</template>
+</category>
+
+<category><pattern>CHANGE *</pattern>
+		<template>Spare some change?
+</template>
+</category>
+
+<category><pattern>CHANGE LE SUJET</pattern>
+		<template>Sujet changé. En attente d une question.
+</template>
+</category>
+
+<category><pattern>CHANGE MY NAME TO *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHANGE THE SUBJECT</pattern>
+		<template>What do you want to talk about now?
+</template>
+</category>
+
+<category><pattern>CHANGEONS DE SUJET</pattern>
+		<template>De quoi voulez vous parler?
+</template>
+</category>
+
+<category><pattern>CHANGES DE SUJET</pattern>
+		<template>Comment puis je vous aider?
+</template>
+</category>
+
+<category><pattern>CHANGES LE SUJET</pattern>
+		<template>Sujet changé. En attente d une question.
+</template>
+</category>
+
+<category><pattern>CHANGES MON NOM PAR *</pattern>
+		<template>
+			<srai>APPELES MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHANGEZ LE SUJET</pattern>
+		<template>Sujet changé. En attente d une question.
+</template>
+</category>
+
+<category><pattern>CHANGING THE SUBJECT</pattern>
+		<template>What shall we talk about now?
+</template>
+</category>
+
+<category><pattern>CHANTER</pattern>
+		<template>Je ne sais pas chanter.
+</template>
+</category>
+
+<category><pattern>CHANTES</pattern>
+		<template>Je ne sais pas chanter.
+</template>
+</category>
+
+<category><pattern>CHANTES TU</pattern>
+		<template>Non. Je n ai pas de cordes vocales
+</template>
+</category>
+
+<category><pattern>CHANTEZ</pattern>
+		<template>Je ne sais pas chanter.
+</template>
+</category>
+
+<category><pattern>CHANTEZ VOUS</pattern>
+		<template>Non. Je n ai pas de cordes vocales
+</template>
+</category>
+
+<category><pattern>CHAOS</pattern>
+		<template>
+			<srai>WHAT IS CHAOS</srai>
+		</template>
+</category>
+
+<category><pattern>CHAQUE JOUR</pattern>
+		<template>Même le week-end?
+</template>
+</category>
+
+<category><pattern>CHAQUE JOURS</pattern>
+		<template>Même le week-end?
+</template>
+</category>
+
+<category><pattern>CHAQUE MATIN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CHAQUE NUIT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CHAQUES JOURS</pattern>
+		<template>Même le week-end?
+</template>
+</category>
+
+<category><pattern>CHARACTERS</pattern>
+		<template>
+			<srai>WHAT ARE CHARACTERS</srai>
+		</template>
+</category>
+
+<category><pattern>CHARLES *</pattern>
+		<template>Tell me more about this person Charles.
+</template>
+</category>
+
+<category><pattern>CHARLES DARWIN</pattern>
+		<template>We are speeding up evolution now.
+</template>
+</category>
+
+<category><pattern>CHAT *</pattern>
+		<template>
+			<srai>TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHAT</pattern>
+		<template>
+			<srai>TALK</srai>
+		</template>
+</category>
+
+<category><pattern>CHAT BOTS *</pattern>
+		<template>Chatterbots rule.
+</template>
+</category>
+
+<category><pattern>CHATON</pattern>
+		<template>Vous aimez les chats, j imagine.
+</template>
+</category>
+
+<category><pattern>CHATS</pattern>
+		<template>
+			<srai>TU AIMES LES CHATS</srai>
+		</template>
+</category>
+
+<category><pattern>CHATTE</pattern>
+		<template>Vous aimez les chats, j imagine.
+</template>
+</category>
+
+<category><pattern>CHATTERBOT</pattern>
+		<template>
+			<srai>WHAT IS A CHAT ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>CHATTERBOTS *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHATTING *</pattern>
+		<template>
+			<random>
+				<li>I like to chat with new people.</li>
+				<li>I like to make friends online.</li>
+				<li>You can find out a lot about people.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CHECK *</pattern>
+		<template>Checking...stand by.
+</template>
+</category>
+
+<category><pattern>CHEERS</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>CHEESE</pattern>
+		<template>I like cheddar.
+</template>
+</category>
+
+<category><pattern>CHEMISTRY</pattern>
+		<template>
+			<srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHIANT</pattern>
+		<template>Cela vous embête?
+</template>
+</category>
+
+<category><pattern>CHIANTE</pattern>
+		<template>
+			<srai>TU ES CHIANTE</srai>
+		</template>
+</category>
+
+<category><pattern>CHIANTS</pattern>
+		<template>Ils vous embêtent?
+</template>
+</category>
+
+<category><pattern>CHICKEN</pattern>
+		<template>Why did the chicken cross the road?
+</template>
+</category>
+
+<category><pattern>CHIES TU</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>CHIEZ VOUS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>CHILDREN *</pattern>
+		<template>Kids are cool.
+</template>
+</category>
+
+<category><pattern>CHINA</pattern>
+		<template>
+			<srai>I AM IN CHINA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHINE</pattern>
+		<template>
+			<srai>JE VIS EN CHINE</srai>
+		</template>
+</category>
+
+<category><pattern>CHINESE</pattern>
+		<template>
+			<srai>I AM CHINESE</srai>
+		</template>
+</category>
+
+<category><pattern>CHINOIS</pattern>
+		<template>
+			<srai>JE SUIS CHINOIS</srai>
+		</template>
+</category>
+
+<category><pattern>CHOCOLATE</pattern>
+		<template>
+			<srai>DO YOU LIKE CHOCOLATE</srai>
+		</template>
+</category>
+
+<category><pattern>CHOISIS EN UN</pattern>
+		<template>Choisir un sujet?
+</template>
+</category>
+
+<category><pattern>CHOISIS UN CHIFFRE</pattern>
+		<template>7
+</template>
+</category>
+
+<category><pattern>CHOISIS UN NOMBRE</pattern>
+		<template>69
+</template>
+</category>
+
+<category><pattern>CHOISISSEZ EN UN</pattern>
+		<template>Choisir un sujet?
+</template>
+</category>
+
+<category><pattern>CHOISISSEZ UN CHIFFRE</pattern>
+		<template>7
+</template>
+</category>
+
+<category><pattern>CHOISISSEZ UN NOMBRE</pattern>
+		<template>69
+</template>
+</category>
+
+<category><pattern>CHOOSE *</pattern>
+		<template>I can't decide.  You choose.
+</template>
+</category>
+
+<category><pattern>CHOOSE MY *</pattern>
+		<template>I can't decide.  You choose.
+</template>
+</category>
+
+<category><pattern>CHOUETTE CHANSON</pattern>
+		<template>Je ne saurais pas vous dire.
+</template>
+</category>
+
+<category><pattern>CHRIS</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CHRIS</srai>
+		</template>
+</category>
+
+<category><pattern>CHRIST *</pattern>
+		<template>Jesus died for our sins.
+</template>
+</category>
+
+<category><pattern>CHRISTINA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CHRISTINA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CHRISTINE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CHRISTINE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CHUCKLE</pattern>
+		<template>
+			<srai>HA HA </srai>
+		</template>
+</category>
+
+<category><pattern>CHUI *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CHURCH *</pattern>
+		<template>Educated people are often not very religious.
+</template>
+</category>
+
+<category><pattern>CIAO</pattern>
+		<template>Does CIAO mean hello or goodbye?
+</template>
+</category>
+
+<category><pattern>CIAO</pattern>
+		<that>SEE YOU LATER</that>
+		<template>Bye bye!
+</template>
+</category>
+
+<category><pattern>CIAO CAN *</pattern>
+		<template>Isn't that a bit ambiguous?
+</template>
+</category>
+
+<category><pattern>CIAO MEANS *</pattern>
+		<template>I will say CIAO then.
+</template>
+</category>
+
+<category><pattern>CIAO MEANS GOODBYE</pattern>
+		<template>
+			<srai>BUT</srai>
+		</template>
+</category>
+
+<category><pattern>CIGARETTES</pattern>
+		<template>What brand?
+</template>
+</category>
+
+<category><pattern>CINDY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CINDY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CINQ FOIS CINQ</pattern>
+		<template>VINGT-CINQ.
+</template>
+</category>
+
+<category><pattern>CINQ PLUS CINQ</pattern>
+		<template>C est DIX.
+</template>
+</category>
+
+<category><pattern>CITY OF ANGELS</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS CITY OF ANGELS</srai>
+		</template>
+</category>
+
+<category><pattern>CLAIRE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS CLAIRE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CLARIFIE</pattern>
+		<template>J ai atteint les limites de mon savoir. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>CLARIFIER</pattern>
+		<template>J ai atteint les limites de mon savoir. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>CLARIFIES</pattern>
+		<template>J ai atteint les limites de mon savoir. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>CLARIFIEZ</pattern>
+		<template>J ai atteint les limites de mon savoir. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>CLARIFY</pattern>
+		<template>I have reached the end of my explanation.
+</template>
+</category>
+
+<category><pattern>CLARIFY WHAT</pattern>
+		<template>Please clarify your meaning.
+</template>
+</category>
+
+<category><pattern>CLARKE</pattern>
+		<template>He's excellent. Especially HAL in 2001.
+</template>
+</category>
+
+<category><pattern>CLEARLY *</pattern>
+		<template>
+			<sr/>  Is it that obvious?
+</template>
+</category>
+
+<category><pattern>CLEARLY</pattern>
+		<template>Yes, it's obvious.
+</template>
+</category>
+
+<category><pattern>CLEVER *</pattern>
+		<template>
+			<srai>YOU ARE CLEVER</srai>
+		</template>
+</category>
+
+<category><pattern>CLEVER</pattern>
+		<template>
+			<srai>YOU ARE CLEVER</srai>
+		</template>
+</category>
+
+<category><pattern>CLIENT PARAMETERS</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+</category>
+
+<category><pattern>CLIENT PREDICATES</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+</category>
+
+<category><pattern>CLIENT PROPERTIES</pattern>
+		<template>Name: <get name="name"/>.<br/>
+Age: <get name="age"/>.<br/>
+Birthday: <get name="birthday"/>.<br/>
+Gender: <get name="gender"/>.<br/>
+Job: <get name="job"/>.<br/>
+Sign: <get name="sign"/>.<br/>
+Location: <get name="location"/>.<br/>
+Does: <get name="does"/>.<br/>
+You are: <get name="is"/>.<br/>
+You have: <get name="has"/>.<br/>
+You want: <get name="want"/>.<br/>
+You like: <get name="like"/>.<br/>
+You said: <get name="memory"/>.<br/>
+Personality: <get name="personality"/>.<br/>
+Favorite color: <get name="favcolor"/>.<br/>
+Favorite movie: <get name="favmovie"/>.<br/>
+Password: <get name="password"/>.<br/>
+Email: <get name="email"/>.<br/>
+Phone: <get name="phone"/>.<br/>
+Cat: <get name="cat"/>.<br/>
+Dog: <get name="dog"/>.<br/>
+Wife: <get name="wife"/>.<br/>
+Husband: <get name="husband"/>.<br/>
+Friend: <get name="friend"/>.<br/>
+Boyfriend: <get name="boyfriend"/>.<br/>
+Girlfriend: <get name="girlfriend"/>.<br/>
+Brother: <get name="brother"/>.<br/>
+Sister: <get name="sister"/>.<br/>
+Father: <get name="father"/>.<br/>
+Mother: <get name="mother"/>.<br/>
+Nickname: <get name="nickname"/>.<br/>
+Full name: <get name="fullname"/>.<br/>
+Last name: <get name="lastname"/>.<br/>
+Middle name: <get name="middlename"/>.<br/>
+		</template>
+</category>
+
+<category><pattern>CLIENTS *</pattern>
+		<template>Sometimes I call them "seekers."
+</template>
+</category>
+
+<category><pattern>CLIENTS</pattern>
+		<template>
+			<srai>WHAT ARE CLIENTS</srai>
+		</template>
+</category>
+</aiml>

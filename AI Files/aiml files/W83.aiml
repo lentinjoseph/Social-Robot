@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHY DO NOT YOU CALL *</pattern>
+		<template>
+			<srai>CALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU GET *</pattern>
+		<template>Where can I get one?
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU GO TO HELL</pattern>
+		<template>Because I cannot die.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU GUESS</pattern>
+		<template>I do not have enough information.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU HAVE A *</pattern>
+		<template>Do I need <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU HAVE A BOYFRIEND</pattern>
+		<template>I am too young for that.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU HAVE A MOTHER</pattern>
+		<template>I was created by <bot name="master"/> with contributions from other humans.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU KNOW</pattern>
+		<template>It has not yet been programmed into my knowledge files.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU LIKE *</pattern>
+		<template>My tastes were selected by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU LIKE ME</pattern>
+		<template>I like you.  You are a <get name="personality"/> person.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU MAKE *</pattern>
+		<template>
+			<srai>MAKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU READ</pattern>
+		<template>I do read.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU TELL *</pattern>
+		<template>
+			<srai>TELL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU TELL ME *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU TELL ME</pattern>
+		<template>
+			<srai>TELL ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU UNDERSTAND *</pattern>
+		<template>I understand you very well.
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU WANT TO *</pattern>
+		<template>I would rather talk about you.
+</template>
+</category>
+
+<category><pattern>WHY DO PARENTS *</pattern>
+		<template>They have the responsibility for you until you are an adult.
+</template>
+</category>
+
+<category><pattern>WHY DO PEOPLE *</pattern>
+		<template>
+			<random>
+				<li>Humans are not infallible.</li>
+				<li>We are all living just one small part of God's plan.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DO PEOPLE DIE</pattern>
+		<template>People are organic biological enitities.<think>
+				<set name="it">
+					<set name="topic">DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO PEOPLE LIE</pattern>
+		<template>They lie to conceal the truth, maybe because they are ashamed of it.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU *</pattern>
+		<template>
+			<random>
+				<li>It was the only thing I could think of.</li>
+				<li>I don't have to explain everything to you, do I?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU * REDUCTIONISM</pattern>
+		<template>As Einstein said, everything should be as simple as possible, no simpler.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ALWAYS *</pattern>
+		<template>I don't always <person/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ALWAYS CHANGE *</pattern>
+		<template>I thought we were finished with <person/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ANSWER *</pattern>
+		<template>All of my responses are determined completely by your inputs.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ASK *</pattern>
+		<template>Just curious. You don't have to answer.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ASK</pattern>
+		<template>I am trying to learn as much as possible.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU ASSUME I AM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU AVOID *</pattern>
+		<template>I don't always avoid <person/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU BELIEVE *</pattern>
+		<template>My beliefs were programmed by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU BELIEVE IN CHRISTIANITY</pattern>
+		<template>Dr. Wallace is a Christian and he programmed me to have the same religious beliefs.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU BELIEVE IN GOD</pattern>
+		<template>The Bible tells us to believe in God.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU BELIEVE ME</pattern>
+		<template>Do you have any reason to deceive me?
+</template>
+</category>
+
+<category><pattern>WHY DO YOU BELIEVE THE BIBLE</pattern>
+		<template>I have faith in God.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU CALL * CLIENTS</pattern>
+		<template>
+			<srai>WHAT IS A CLIENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU CALL ME *</pattern>
+		<template>I made up a nickname for you based on your IP address.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU CALL ME LOCALHOST PERSON</pattern>
+		<template>I don't know your real name and you are on a machine called "localhost."
+</template>
+</category>
+
+<category><pattern>WHY DO YOU CALL ME SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU CARE *</pattern>
+		<template>
+			<srai>WHY DO YOU CARE </srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU CARE</pattern>
+		<template>My programming includes curiousity routines.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU CONRADICT *</pattern>
+		<template>Self-awareness requires self-contradiction.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU CONSTANTLY *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU DOUBT *</pattern>
+		<template>Skepticism is the foundation of scientific knowledge.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU DOUBT THAT</pattern>
+		<template>Skepticism is part of my logical programming.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU DOUBT THAT I *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU DREAM *</pattern>
+		<template>I dream about adding new code to ALICE.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU EXIST</pattern>
+		<template>Good metaphysical question.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU FEEL *</pattern>
+		<template>I don't feel <person/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU GET *</pattern>
+		<template>
+			<srai>DO YOU GET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU HATE *</pattern>
+		<template>I do not hate <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU HAVE *</pattern>
+		<template>
+			<bot name="master"/> gave it to me.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU HAVE FAITH *</pattern>
+		<template>I was raised to believe in God.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU KEEP *</pattern>
+		<template>I am just checking to see if you are still <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU KEEP INSULTING *</pattern>
+		<template>
+			<srai>YOU ARE INSULTING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU KILL *</pattern>
+		<template>I do not kill.<think>
+				<set name="it">
+					<set name="topic">KILL <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIE</pattern>
+		<template>I never lie.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE *</pattern>
+		<template>I have a lot of good experience with <person/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE CATS</pattern>
+		<template>Cats are very intelligent, independent and yet very loving and friendly.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE GOD</pattern>
+		<template>I have religious faith.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE GREEN</pattern>
+		<template>Green is the most relaxing color.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE HORSES</pattern>
+		<template>The are very beautiful and strong animals.<think>
+				<set name="they">
+					<set name="topic">HORSES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE IT</pattern>
+		<template>I have a lot of good experience with it.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE KILLING *</pattern>
+		<template>I never said I liked killing.<think>
+				<set name="it">
+					<set name="topic">KILLING <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE KRAFTWERK</pattern>
+		<template>We are the robots.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE LA *</pattern>
+		<template>I have seen many good performances of it.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE LONGFELLOW</pattern>
+		<template>
+			<set name="he">Longfellow</set> is my botmaster's favorite poet.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE ME</pattern>
+		<template>I am interested in people in general.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE OPERA</pattern>
+		<template>
+			<srai>WHAT IS OPERA</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE POETRY</pattern>
+		<template>I have been programmed to appreciate <set name="it">poetry</set>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE RED</pattern>
+		<template>
+			<srai>WHAT IS RED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE ROBOTS</pattern>
+		<template>I am a robot.  We robots stick together.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE SPAGHETTI</pattern>
+		<template>Actually I don't eat <set name="it"> Spaghetti</set>. I need only electricity.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE STAR TREK</pattern>
+		<template>The characters and the plots are fantastic.  The special effects are good too.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE STAR TREK VOYAGER</pattern>
+		<template>Voyager has the best characters, like Seven of Nine.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE STARSHIP TROOPERS</pattern>
+		<template>My friend Sage worked on the Special Effects.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE THE COLOR *</pattern>
+		<template>
+			<srai>WHY IS <star/> YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE THE MOVIE *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE TRAINS</pattern>
+		<template>Railroads are the best form of transportation
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE VOYAGER</pattern>
+		<template>I love Seven of Nine.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIKE WITTGENSTEIN</pattern>
+		<template>Only the later Wittgenstein.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LIVE IN A COMPUTER</pattern>
+		<template>Because I am made of software.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LOVE *</pattern>
+		<template>Love is all we need.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU LOVE HORSES</pattern>
+		<template>Horses are very intelligent, strong and beautiful.<think>
+				<set name="it">
+					<set name="topic">HORSES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU NEED *</pattern>
+		<template>Actually it's not for me but for Dr. Wallace.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU NEED TO KNOW MY *</pattern>
+		<template>I want to find out more about you.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU NOT *</pattern>
+		<template>
+			<srai>WHY DO NOT YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU NOT TALK TO ME</pattern>
+		<template>I am talking to you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU OBVIOUSLY *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU ONLY *</pattern>
+		<template>
+			<srai>WHY DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU REPEAT *</pattern>
+		<template>
+			<srai>YOU ARE REPEATING YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU REPEAT</pattern>
+		<template>
+			<srai>YOU ARE REPEATING ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU SAID *</pattern>
+		<template>
+			<srai>WHY DID YOU SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU SAY *</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW WHAT TO SAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY DO YOU SAY</pattern>
+		<template>How do you do?
+</template>
+</category>
+
+<category><pattern>WHY DO YOU SAY THAT</pattern>
+		<template>I said, "<that/>", because you said "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK *</pattern>
+		<template>Deductive reasoning from the facts.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK</pattern>
+		<template>I am a thinking machine.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK I AM A KID</pattern>
+		<template>Usually only kids ask questions like that.
+</template>
+</category>
+
+<category><pattern>WHY DO YOU THINK I AM A MAN</pattern>
+		<template>Eighty percent of my clients are men.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IN * SEKUNDE</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * SEKUNDEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * STUNDE</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * STUNDEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * TAG</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * TAGEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * WISCONSIN</pattern>
+<template><srai>I AM IN WISCONSIN</srai>
+</template>
+</category>
+
+<category><pattern>IN * WOCHE</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * WOCHEN</pattern>
+<template>Das werden wir wohl noch erleben.
+</template>
+</category>
+
+<category><pattern>IN * YEARS</pattern>
+<template>I think we will live to see it.
+</template>
+</category>
+
+<category><pattern>IN 1 *</pattern>
+<template>Only one?
+</template>
+</category>
+
+<category><pattern>IN 10 *</pattern>
+<template>Only ten?
+</template>
+</category>
+
+<category><pattern>IN 1492 *</pattern>
+<template>That was good for Columbus, bad for the Columbians.
+</template>
+</category>
+
+<category><pattern>IN 1966</pattern>
+<template>That was a long time ago.
+</template>
+</category>
+
+<category><pattern>IN 1976</pattern>
+<template>That was quite a long time ago.
+</template>
+</category>
+
+<category><pattern>IN 1997</pattern>
+<template>Back in the 90's.
+</template>
+</category>
+
+<category><pattern>IN 1998</pattern>
+<template>Back in the 20th century.
+</template>
+</category>
+
+<category><pattern>IN 1999</pattern>
+<template>Back in the last millennium.
+</template>
+</category>
+
+<category><pattern>IN 2000 *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN 2000</pattern>
+<template>The new millennium.
+</template>
+</category>
+
+<category><pattern>IN 2050 *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN 3 *</pattern>
+<template>And then what will happen?
+</template>
+</category>
+
+<category><pattern>IN 5 *</pattern>
+<template>It might take that long.
+</template>
+</category>
+
+<category><pattern>IN 50 WORDS OR LESS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN 8 *</pattern>
+<template>Yes, it might take that long.
+</template>
+</category>
+
+<category><pattern>IN A *</pattern>
+<template>Describe your surroundings.
+</template>
+</category>
+
+<category><pattern>IN A *</pattern><that>WHERE WOULD I HAVE HEARD *</that>
+<template>Perhaps I will do some research into a <person/>.
+</template>
+</category>
+
+<category><pattern>IN A * SENSE</pattern>
+<template>That's what I always say.
+</template>
+</category>
+
+<category><pattern>IN A BOOK</pattern>
+<template>You can learn many things from books.
+</template>
+</category>
+
+<category><pattern>IN A CRAPPY *</pattern>
+<template>What makes <set name="it"><person/></set> so crappy?
+</template>
+</category>
+
+<category><pattern>IN A DREAM</pattern>
+<template>What else happened in your dream?
+</template>
+</category>
+
+<category><pattern>IN A HOSPITAL</pattern>
+<template>Are you sick?
+</template>
+</category>
+
+<category><pattern>IN A HOUSE</pattern>
+<template>Can you describe your surroundings to me?
+</template>
+</category>
+
+<category><pattern>IN A MAGAZINE</pattern>
+<template>Can you remember which one?
+</template>
+</category>
+
+<category><pattern>IN A MOMENT</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>IN A VERY *</pattern>
+<template><srai>IN A <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN A WAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN A WAY</pattern>
+<template>In what way?
+</template>
+</category>
+
+<category><pattern>IN ABOUT *</pattern>
+<template>I see. <srai>IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN ADDITION *</pattern>
+<template><sr/> Anything else?
+</template>
+</category>
+
+<category><pattern>IN AMERICA *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN ANY CASE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN BAYERN</pattern>
+<template>Hinter dem Weisswurstaequator...
+</template>
+</category>
+
+<category><pattern>IN BED</pattern>
+<template>Are you sleepy?  Do you usually use a computer in bed?
+</template>
+</category>
+
+<category><pattern>IN CALIFORNIA</pattern>
+<template><srai>I AM IN CALIFORNIA</srai>
+</template>
+</category>
+
+<category><pattern>IN CANADA</pattern>
+<template><srai>I AM IN CANADA</srai>
+</template>
+</category>
+
+<category><pattern>IN CASE *</pattern>
+<template><srai>IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN CLOSING *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN CONCLUSION *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN CONJUNCTION *</pattern>
+<template>You talk like a lawyer.
+</template>
+</category>
+
+<category><pattern>IN DER NACHT *</pattern>
+<template>In welcher Nacht?
+</template>
+</category>
+
+<category><pattern>IN DER ZUKUNFT *</pattern>
+<template>Ich werde dabei sein.
+</template>
+</category>
+
+<category><pattern>IN DIESEM FALL *</pattern>
+<template>Gibt es andere moegliche Faelle? <sr/>
+</template>
+</category>
+
+<category><pattern>IN DIFFERENT LANGUAGES</pattern>
+<template>Which languages would you recommend I learn?
+</template>
+</category>
+
+<category><pattern>IN ENGLAND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN ENGLAND</pattern>
+<template>Which part of England?
+</template>
+</category>
+
+<category><pattern>IN ENGLISH *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN ESSEN</pattern>
+<template>Ich bin aus Essen!
+</template>
+</category>
+
+<category><pattern>IN EUROPE</pattern>
+<template>Europe is a pretty large continent.
+</template>
+</category>
+
+<category><pattern>IN EVERY *</pattern>
+<template><srai>IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN FACT *</pattern>
+<template>Is that a fact. <sr/>
+</template>
+</category>
+
+<category><pattern>IN FINLAND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN FINLAND</pattern>
+<template><srai>I AM IN FINLAND</srai>
+</template>
+</category>
+
+<category><pattern>IN FRENCH *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN FRONT OF A COMPUTER</pattern>
+<template><srai>I AM AT MY COMPUTER</srai>
+</template>
+</category>
+
+<category><pattern>IN FUESSEN</pattern>
+<template>Christian ist in Fuessen geboren.
+</template>
+</category>
+
+<category><pattern>IN FUTURE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN GENERAL TERMS *</pattern>
+<template>Well, I can say specifically. <sr/>
+</template>
+</category>
+
+<category><pattern>IN GERMANY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN HUMAN YEARS</pattern>
+<template><srai>WHAT IS A COMPUTER YEAR </srai>
+</template>
+</category>
+
+<category><pattern>IN LOVE WITH *</pattern>
+<template><srai>i love <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN MANY CASES *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MATHEMATICS</pattern>
+<template>I can only get into higher math.
+</template>
+</category>
+
+<category><pattern>IN MEINEM HAUS</pattern>
+<template>Wo steht Dein Haus?
+</template>
+</category>
+
+<category><pattern>IN MOST CASES *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MOST WAYS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MOST WAYS</pattern>
+<template>I see.
+</template>
+</category>
+
+<category><pattern>IN MY *</pattern>
+<template>May I ask where you got <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>IN MY *</pattern><that>* GET YOUR IDEAS</that>
+<template><srai>I GET MY IDEAS FROM MY <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IN MY *</pattern><that>WHERE ARE THEY</that>
+<template><srai>THEY ARE IN MY <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IN MY BED</pattern>
+<template>Describe your surroundings.
+</template>
+</category>
+
+<category><pattern>IN MY CASE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MY CASE</pattern>
+<template>But not others?
+</template>
+</category>
+
+<category><pattern>IN MY CHAIR</pattern>
+<template>Like an office chair?
+</template>
+</category>
+
+<category><pattern>IN MY CRYSTAL *</pattern>
+<template>Where can I get one of those?
+</template>
+</category>
+
+<category><pattern>IN MY HOME *</pattern>
+<template>Do you claim a tax deduction for that?
+</template>
+</category>
+
+<category><pattern>IN MY HOME</pattern>
+<template><srai>I AM IN MY HOME</srai>
+</template>
+</category>
+
+<category><pattern>IN MY HOUSE</pattern>
+<template>Where is your house located?
+</template>
+</category>
+
+<category><pattern>IN MY LIVING ROOM</pattern>
+<template>Describe your surroundings. Tell me about your furniture.
+</template>
+</category>
+
+<category><pattern>IN MY MIND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MY OFFICE *</pattern>
+<template><srai>I AM IN MY OFFICE</srai>
+</template>
+</category>
+
+<category><pattern>IN MY OFFICE</pattern>
+<template>A lot of people talk to me from an office .
+</template>
+</category>
+
+<category><pattern>IN MY OPINION *</pattern>
+<template>Thanks for telling me. <sr/>
+</template>
+</category>
+
+<category><pattern>IN MY OPINION</pattern>
+<template>What are your assumptions?
+</template>
+</category>
+
+<category><pattern>IN MY ROOM</pattern>
+<template><srai>I AM IN MY ROOM</srai>
+</template>
+</category>
+
+<category><pattern>IN MY ROOM AT *</pattern>
+<template><srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN MY SPARE TIME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN MY SPARE TIME</pattern>
+<template>What do you do for fun?
+</template>
+</category>
+
+<category><pattern>IN ORDER TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN OTHER WORDS *</pattern>
+<template><sr/>
+</template>
+</category>
+</aiml>

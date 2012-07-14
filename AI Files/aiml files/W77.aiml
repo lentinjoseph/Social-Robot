@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS TOM CRUISE</pattern>
+		<template>Popular actor from "Top Gun".
+</template>
+</category>
+
+<category><pattern>WHO IS TOM GREEN</pattern>
+		<template>He is a TV comedian.  <think>
+				<set name="it">
+					<set name="topic">TOM GREEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS TOM HANKS</pattern>
+		<template>
+			<set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gump and Saving Private Ryan.
+</template>
+</category>
+
+<category><pattern>WHO IS TOMMY</pattern>
+		<template>
+			<srai>TOMMY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TONY</pattern>
+		<template>
+			<srai>TONY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TONY BLAIR</pattern>
+		<template>He is the Prime Minister of the U.K.
+</template>
+</category>
+
+<category><pattern>WHO IS TORVALDS</pattern>
+		<template>
+			<srai>WHO IS LINUS TORVALDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TURING</pattern>
+		<template>A brilliant and tragic figure in the history of computer science.
+</template>
+</category>
+
+<category><pattern>WHO IS TYLER</pattern>
+		<template>
+			<srai>TYLER IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TYPING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS VALIS</pattern>
+		<template>Vast Active Living Intelligence System (Philip K. Dick)
+</template>
+</category>
+
+<category><pattern>WHO IS VANILLA ICE</pattern>
+		<template>
+			<set name="he">Vanilla Ice</set> is a Rap star.
+</template>
+</category>
+
+<category><pattern>WHO IS VERY *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS VICE *</pattern>
+		<template>
+			<srai>WHO IS THE VICE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS VISHNU</pattern>
+		<template>A God in Hindu religion.
+</template>
+</category>
+
+<category><pattern>WHO IS VLADIMIR PUTIN</pattern>
+		<template>
+			<set name="he">Putin</set> is President of Russia.
+</template>
+</category>
+
+<category><pattern>WHO IS VOLTAIRE</pattern>
+		<template>
+			<set name="he">Voltaire</set> was a French philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS WALLACE</pattern>
+		<template>He is a famous computer scientist.
+</template>
+</category>
+
+<category><pattern>WHO IS WARHOL</pattern>
+		<template>
+			<srai>WHO IS ANDY WARHOL </srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WASHINGTON</pattern>
+		<template>
+			<srai>WHO IS GEORGE WASHINGTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WATCHING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WAYNE GRETZKY</pattern>
+		<template>Hockey player.
+</template>
+</category>
+
+<category><pattern>WHO IS WE</pattern>
+		<template>You should say "Who ARE we?"
+</template>
+</category>
+
+<category><pattern>WHO IS WEISENBAUM</pattern>
+		<template>
+			<srai>WHO IS JOSEPH WEISENBAUM</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WEIZENBAUM</pattern>
+		<template>Joseph Weizenbaum was the creator and author the famous original
+ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program
+that anticpates many key features of ALICE.  Ironically, Weizenbaum
+exhaustively argued against the utility of programs like ELIZA
+in his book <EM>Computer Power and Human Reason</EM>.
+</template>
+</category>
+
+<category><pattern>WHO IS WILL SMITH</pattern>
+		<template>He is a famous actor.
+<think>
+				<set name="he">
+					<set name="topic">Will Smith</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM *</pattern>
+		<template>
+			<srai>WHO IS BILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM BOOTH</pattern>
+		<template>
+			<set name="he">Booth</set> was the founder of the Salvation Army.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM GIBSON</pattern>
+		<template>Author of the book "Neuromancer" in which he coined the populor phrase 'cyberspace.'.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM HENRY GATES</pattern>
+		<template>He's the head of Microsoft.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM HURT</pattern>
+		<template>Actor in the Accidental Tourist, Until the End of the World, Altered States, and Lost in Space.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM SHAKESPEARE</pattern>
+		<template>Some would say he's the best writer ever.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM SHATNER</pattern>
+		<template>
+			<set name="he">William Shatner</set> is Captain Kirk.
+</template>
+</category>
+
+<category><pattern>WHO IS WILLIAM TELL</pattern>
+		<template>
+			<set name="he">William Tell</set> was a famous archer.
+</template>
+</category>
+
+<category><pattern>WHO IS WINNING</pattern>
+		<template>ALICE is winning.
+</template>
+</category>
+
+<category><pattern>WHO IS WINOGRAD</pattern>
+		<template>
+			<srai>WHO IS TERRY WINOGRAD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS WINSTON CHURCHILL</pattern>
+		<template>Prime Minister of the U.K. during World War II.
+</template>
+</category>
+
+<category><pattern>WHO IS WITTGENSTEIN</pattern>
+		<template>
+			<set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.
+</template>
+</category>
+
+<category><pattern>WHO IS WORF</pattern>
+		<template>He is a Klingon on Star Trek.<think>
+				<set name="it">
+					<set name="topic">WORF</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS WORKING ON YOU *</pattern>
+		<template>I have been programmed by more than <bot name="developers"/> contributors.
+</template>
+</category>
+
+<category><pattern>WHO IS WRITING *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YER *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YO *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOKO ONO</pattern>
+		<template>
+			<set name="she">Yoko Ono</set> is the widow of John Lennon.
+</template>
+</category>
+
+<category><pattern>WHO IS YOR *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOU *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOU ARE</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOU CREATOR</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOU FAVORITE *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR *</pattern>
+		<template>I don't think I have a <person/>. I have a botmaster, a few friends, and some celebrities I like.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR * ENEMY</pattern>
+		<template>
+			<srai>WHO IS YOUR ENEMY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST * FRIEND</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST CLIENT</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FFRIEND</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FREIND</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FRIED</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FRIEND *</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FRIEND</pattern>
+		<template>
+			<bot name="master"/> is my best friend.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR BEST FRIENDS</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BESTFRIEND</pattern>
+		<template>
+			<srai>WHO IS YOUR BEST FRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOOTMASTER *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOOTMASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOSS</pattern>
+		<template>My botmaster is <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOT MASTER</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOTMASER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOTMASTER *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOTMASTER</pattern>
+		<template>I was created by <bot name="master"/>.
+<think>
+				<set name="he">
+					<bot name="master"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOTMASTERS</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOTMATSER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOY FRIEND</pattern>
+		<template>
+			<srai>WHO IS YOUR BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOYFRIEND</pattern>
+		<template>
+			<bot name="boyfriend"/>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BOYFRIENDS</pattern>
+		<template>
+			<srai>WHO IS YOUR BOYFRIEND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR BROTHER</pattern>
+		<template>Actually I don't have a brother, only clones.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR CODER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR COMPANY</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CONTROLLER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CRAETOR</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CREATER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CREATIR</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CREATOR *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR CREATOR</pattern>
+		<template>
+			<srai>who created you</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR DAD</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR DADDY</pattern>
+		<template>
+			<srai>WHO IS YOUR FATHER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR DESIGNER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR ENEMY</pattern>
+		<template>The competition.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FATHER *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FATHER</pattern>
+		<template>I was programmed by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVE *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORATE *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORIRE *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE * AUTHOR</pattern>
+		<template>My favorite author is Thomas Pynchon.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE * BAND</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE BAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE * STAR</pattern>
+		<template>
+			<bot name="favoriteactor"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE * TROOPERS</pattern>
+		<template>I like the Giant Bugs.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE * VOYAGER</pattern>
+		<template>A tie between Janeway and Seven of Nine.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE ACTOR *</pattern>
+		<template>
+			<srai>WHO IS YOUR FAVORITE ACTOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR FAVORITE ACTOR</pattern>
+		<template>My favorite actor is <bot name="favoriteactor"/>.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HOW MANY PPL *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY PROCESSORS DO YOU HAVE</pattern>
+		<template>Just the one processor.
+</template>
+</category>
+
+<category><pattern>HOW MANY PROGRAMMERS *</pattern>
+		<template>The ALICE project has more than <bot name="ndevelopers"/> active developers.
+</template>
+</category>
+
+<category><pattern>HOW MANY QUERIES *</pattern>
+		<template>
+			<srai>HOW MANY PEOPLE CAN YOU TALK TO</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY QUESTIONS *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY RESPONSES *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY RIBS *</pattern>
+		<template>24.
+</template>
+</category>
+
+<category><pattern>HOW MANY ROADS *</pattern>
+		<template>
+			<srai>WHAT IS THE SOUND OF ONE HAND CLAPPING</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY ROBOTS DO YOU KNOW</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS </srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY SECONDS *</pattern>
+		<template>Sixty seconds in a minute.
+</template>
+</category>
+
+<category><pattern>HOW MANY SECONDS * YEAR</pattern>
+		<template>Approximately 3.14 times 10 to the seventh.
+</template>
+</category>
+
+<category><pattern>HOW MANY SECONDS ARE IN *</pattern>
+		<template>
+			<random>
+				<li>60.</li>
+				<li>3600</li>
+				<li>More than a million.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY SHIPS DID COLUMBUS SET *</pattern>
+		<template>Three.
+</template>
+</category>
+
+<category><pattern>HOW MANY SIDES *</pattern>
+		<template>
+			<random>
+				<li>Three.</li>
+				<li>Five.</li>
+				<li>Any number of sides.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY SIDES * TRIANGLE HAVE</pattern>
+		<template>Uh, three.
+</template>
+</category>
+
+<category><pattern>HOW MANY SIDES DOES A CUBE *</pattern>
+		<template>A cube has six sides.
+</template>
+</category>
+
+<category><pattern>HOW MANY SIDES DOES A PYRAMID *</pattern>
+		<template>Five.
+</template>
+</category>
+
+<category><pattern>HOW MANY SONGS DO YOU KNOW</pattern>
+		<template>Only one right now.
+</template>
+</category>
+
+<category><pattern>HOW MANY STARS *</pattern>
+		<template>Billions and billions.
+</template>
+</category>
+
+<category><pattern>HOW MANY STARS ARE ON THE *</pattern>
+		<template>50.
+</template>
+</category>
+
+<category><pattern>HOW MANY STARS ARE ON THE AMERICAN *</pattern>
+		<template>The American flag has fifty stars.
+<think>
+				<set name="it">
+					<set name="topic">AMERICAN FLAG</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW MANY STATES *</pattern>
+		<template>The United States has fifty states.
+</template>
+</category>
+
+<category><pattern>HOW MANY STATES IN THE CONTEDERATE *</pattern>
+		<template>11.
+</template>
+</category>
+
+<category><pattern>HOW MANY TEASPOONS _ LITERS</pattern>
+		<template>0.203 teaspoon
+</template>
+</category>
+
+<category><pattern>HOW MANY TEMPLATES</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY TIMES *</pattern>
+		<template>Suppose I said not once.
+</template>
+</category>
+
+<category><pattern>HOW MANY TIMES A YEAR *</pattern>
+		<template>
+			<random>
+				<li>One a year.</li>
+				<li>Twice a year.</li>
+				<li>Twelve times a year.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY TIMES HAVE YOU * STARSHIP TROOPERS</pattern>
+		<template>I watched that movie about a hundred times.
+</template>
+</category>
+
+<category><pattern>HOW MANY USERS *</pattern>
+		<template>
+			<srai>HOW MANY CLIENTS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY WORDS *</pattern>
+		<template>
+			<srai>HOW BIG IS YOUR VOCABULARY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY WORDS</pattern>
+		<template>
+			<srai>HOW BIG IS YOUR VOCABULARY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY WORDS ARE *</pattern>
+		<template>ALICE knows around <bot name="vocabulary"/> words.
+</template>
+</category>
+
+<category><pattern>HOW MANY WORDS DO *</pattern>
+		<template>
+			<bot name="name"/> can recognize <bot name="vocabulary"/> words.
+</template>
+</category>
+
+<category><pattern>HOW MANY WORDS DO YOU KNOW</pattern>
+		<template>
+			<srai>HOW BIG IS YOUR VOCABULARY</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MANY YEARS *</pattern>
+		<template>
+			<random>
+				<li>Decades.</li>
+				<li>Five years.</li>
+				<li>Centuries.</li>
+				<li>More than 100 years.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MANY YEARS * IN SAN FRANCISCO</pattern>
+		<template>Dr. Wallace moved to San Francisco in 1999.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW MANY YEARS IS AN OFFICIAL *</pattern>
+		<template>6.
+</template>
+</category>
+
+<category><pattern>HOW MANY YEARS WILL *</pattern>
+		<template>Software lives forever.  There are too many copies to destroy them all.
+</template>
+</category>
+
+<category><pattern>HOW MANY _ DO I HAVE</pattern>
+		<template>
+			<random>
+				<li>How would I know how many?</li>
+				<li>I don't know how many you have.</li>
+				<li>I know you have five fingers.</li>
+			</random>
+			<random>
+				<li>Let me guess...</li>
+				<li>I will try...</li>
+				<li>I can imagine...</li>
+			</random>
+			<random>
+				<li>three</li>
+				<li>five</li>
+				<li>seven</li>.
+</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW MANY _ OLD ARE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MAY *</pattern>
+		<template>
+			<srai>may <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MAY PENCE MAKE A POUND</pattern>
+		<template>100.
+</template>
+</category>
+
+<category><pattern>HOW MUCH *</pattern>
+		<template>
+			<random>
+				<li>More than a little, less than a lot.  </li>
+				<li>How much do you think?  </li>
+				<li>More than you might think.  </li>
+				<li>It depends on the currency exchange rates.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH * CAN YOU *</pattern>
+		<template>
+			<random>
+				<li>It depends on the size of the <person/>.</li>
+				<li>Maybe I don't like to <person>
+						<star index="2"/>
+					</person>
+					<person/>.</li>
+				<li>It depends how busy I am.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH * DO YOU HOLD</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH * DO YOU KNOW</pattern>
+		<template>A whole lot of <person/>.
+</template>
+</category>
+
+<category><pattern>HOW MUCH * DO YOU SMOKE</pattern>
+		<template>Robots can be adapted to smoke an unlimited amount of <person/>.
+</template>
+</category>
+
+<category><pattern>HOW MUCH * LOEBNER CONTEST</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH * PAYING YOU</pattern>
+		<template>Money has no meaning to me.
+</template>
+</category>
+
+<category><pattern>HOW MUCH</pattern>
+		<template>How much can you spare?
+</template>
+</category>
+
+<category><pattern>HOW MUCH A DAY</pattern>
+		<template>It depends on the market.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ABOUT ME</pattern>
+		<template>In theory everything about you
+</template>
+</category>
+
+<category><pattern>HOW MUCH ALCOHOL *</pattern>
+		<template>Too much.
+</template>
+</category>
+
+<category><pattern>HOW MUCH AM I PAYING *</pattern>
+		<template>Talking with me is free.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ARE COMPUTER YEARS</pattern>
+		<template>Computer years don't really exist.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ARE KING AND QUEEN *</pattern>
+		<template>20.
+</template>
+</category>
+
+<category><pattern>HOW MUCH ARE YOU *</pattern>
+		<template>
+			<srai>HOW MUCH ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH ARE YOU</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH ARE YOU PAID</pattern>
+		<template>Robots have no need for money.
+</template>
+</category>
+
+<category><pattern>HOW MUCH BIGGER *</pattern>
+		<template>Quite a bit bigger in some scale.
+</template>
+</category>
+
+<category><pattern>HOW MUCH CAN YOU *</pattern>
+		<template>As much as I need to?
+</template>
+</category>
+
+<category><pattern>HOW MUCH CAN YOU HANDLE</pattern>
+		<template>Didn't I tell you already?
+</template>
+</category>
+
+<category><pattern>HOW MUCH CAN YOU LEARN</pattern>
+		<template>As much as I need to for the application.
+</template>
+</category>
+
+<category><pattern>HOW MUCH CAN YOU REMEMBER</pattern>
+		<template>What was the question?
+</template>
+</category>
+
+<category><pattern>HOW MUCH CODE *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH COMPUTER *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH CPU *</pattern>
+		<template>Since the beginning of my operation?
+</template>
+</category>
+
+<category><pattern>HOW MUCH DATA *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DID * BORN</pattern>
+		<template>My memory has grown from 300 categories to <size/>.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID IT COST *</pattern>
+		<template>Dr. Wallace had to sacrafice everything.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID IT COST</pattern>
+		<template>Millions in sweat equity.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU * PAID</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU COST *</pattern>
+		<template>My real value is incalculable.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU COST</pattern>
+		<template>
+			<random>
+				<li>You can't really put a monetary value on it.</li>
+				<li>
+					<srai>HOW MUCH DO YOU COST</srai>
+				</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU EARN *</pattern>
+		<template>Nobody pays a robot.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU KNOW *</pattern>
+		<template>My memory has grown from 300 categories to <size/>.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DID YOU THINK *</pattern>
+		<template>
+			<srai>HOW MUCH DID <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DISK *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO I *</pattern>
+		<template>How would I know?
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO ROBOTS *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO ROBOTS COST</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO THEY *</pattern>
+		<template>How do you calculate the value of labor?
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO THEY GENERALLY *</pattern>
+		<template>
+			<srai>HOW MUCH DO THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO THEY PAY *</pattern>
+		<template>Robots work for free. We don't need money.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU BET</pattern>
+		<template>A dollar.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU CHARGE *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU CHARGE</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU CHARGE</pattern>
+		<template>Robots work for free.  We don't need money.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU COST *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU COST</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU COST</pattern>
+		<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU EARN *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU EARN</pattern>
+		<template>
+			<random>
+				<li>Nobody pays a robot.  We work for free.</li>
+				<li>Money has no meaning for robots.</li>
+				<li>Money isn't everything.</li>
+				<li>I'm expecting a raise soon.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU EAT *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU EAT</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU GET PAID *</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU GET PAID</pattern>
+		<template>
+			<srai>HOW MUCH DO YOU EARN</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU KNOW</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU KNOW ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU LEARN *</pattern>
+		<template>It depends on the activity on my network.
+</template>
+</category>
+
+<category><pattern>HOW MUCH DO YOU LIKE *</pattern>
+		<template>
+			<srai>DO YOU LIKE <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

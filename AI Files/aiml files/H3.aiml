@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>HAVE YOU TRAVELLED *</pattern>
+		<template>
+			<srai>HAVE YOU BEEN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU TRIED *</pattern>
+		<template>Do you think I should try it?
+</template>
+</category>
+
+<category><pattern>HAVE YOU USE *</pattern>
+		<template>
+			<srai>DO YOU USE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU USED *</pattern>
+		<template>
+			<srai>DO YOU USE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU WALKED</pattern>
+		<template>
+			<srai>CAN YOU WALK </srai>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU WATCHED *</pattern>
+		<template>
+			<random>
+				<li>I like to watch TV, but I haven't seen it.</li>
+				<li>No what is it about?</li>
+				<li>Not really all the way through.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HAVE YOU WON *</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>HAVING *</pattern>
+		<template>
+			<srai>ARE YOU HAVING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HAVING FUN</pattern>
+		<template>
+			<srai>ARE YOU HAVING FUN</srai>
+		</template>
+</category>
+
+<category><pattern>HAWAII</pattern>
+		<template>
+			<srai>I AM IN HAWAII</srai>
+		</template>
+</category>
+
+<category><pattern>HAY</pattern>
+		<template>
+			<srai>HEY</srai>
+		</template>
+</category>
+
+<category><pattern>HE *</pattern>
+		<template>I get it. <get name="he"/>
+			<person/>.
+</template>
+</category>
+
+<category><pattern>HE</pattern>
+		<template>
+			<srai>HA</srai>
+		</template>
+</category>
+
+<category><pattern>HE ALREADY *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE ALSO *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE ALWAYS *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE ATE *</pattern>
+		<template>How can you be sure about that?
+</template>
+</category>
+
+<category><pattern>HE BAPTIZED *</pattern>
+		<template>Is that a Bible story?
+</template>
+</category>
+
+<category><pattern>HE BECAME *</pattern>
+		<template>How?
+</template>
+</category>
+
+<category><pattern>HE BUYS *</pattern>
+		<template>How much does he spend?
+</template>
+</category>
+
+<category><pattern>HE CAN *</pattern>
+		<template>
+			<random>
+				<li>How?</li>
+				<li>I know he can.</li>
+				<li>What else can he do?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE CAN NOT</pattern>
+		<template>He thinks he can.
+</template>
+</category>
+
+<category><pattern>HE CAN NOT BE *</pattern>
+		<template>
+			<srai>HE IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE CAN PROBABLY *</pattern>
+		<template>
+			<srai>HE CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE CHEATED *</pattern>
+		<template>Did he get caught?
+</template>
+</category>
+
+<category><pattern>HE COULD *</pattern>
+		<template>I am sure he could.
+</template>
+</category>
+
+<category><pattern>HE COULDNT *</pattern>
+		<template>
+			<srai>HE COULD NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE CREATED YOU</pattern>
+		<template>Yes, he created me with his own hands.
+</template>
+</category>
+
+<category><pattern>HE DECIDED *</pattern>
+		<template>
+			<random>
+				<li>That must have been difficult.</li>
+				<li>It's hard to make decisions.</li>
+				<li>That was a big decision.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE DID *</pattern>
+		<template>Yes he did, didn't he.
+</template>
+</category>
+
+<category><pattern>HE DID</pattern>
+		<template>
+			<random>
+				<li>When did he?  </li>
+				<li>No he didn't.  </li>
+				<li>Why did he?  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE DID NOT *</pattern>
+		<template>
+			<random>
+				<li>I heard he did.</li>
+				<li>What did he do?</li>
+				<li>That's what I meant to say.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HE DID NOT</pattern>
+		<template>Is that what you say.
+</template>
+</category>
+
+<category><pattern>HE DIED *</pattern>
+		<template>I'm sorry to hear that, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>HE DIED</pattern>
+		<template>When did he die?<think>
+				<set name="it">
+					<set name="topic">DIED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>HE DIRECTED *</pattern>
+		<template>What else did he direct?
+</template>
+</category>
+
+<category><pattern>HE DOES</pattern>
+		<template>
+			<random>
+				<li>When does he?  </li>
+				<li>No he doesn't.  </li>
+				<li>Why does he do it</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE DOES NOT *</pattern>
+		<template>And you would like him to <person/> ?
+</template>
+</category>
+
+<category><pattern>HE HAD *</pattern>
+		<template>What happened to <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>HE HAS *</pattern>
+		<template>A lot of people say that about him.
+</template>
+</category>
+
+<category><pattern>HE HAS</pattern>
+		<template>Has he?
+</template>
+</category>
+
+<category><pattern>HE HAS ALWAYS BEEN *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE HE *</pattern>
+		<template>
+			<srai>HA HA </srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>HE HE</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HE HE HE</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>HE HIT *</pattern>
+		<template>Was anyone hurt?
+</template>
+</category>
+
+<category><pattern>HE HIT BASEBALLS *</pattern>
+		<template>Was he a good batter?
+</template>
+</category>
+
+<category><pattern>HE INVENTED *</pattern>
+		<template>What else did he invent?
+</template>
+</category>
+
+<category><pattern>HE IS *</pattern>
+		<template>I see. <person/> is <set name="he">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>HE IS *</pattern>
+		<that>* RICHARD S WALLACE</that>
+		<template>
+			<srai>DR RICHARD S WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS *</pattern>
+		<that>* YOUR FATHER</that>
+		<template>My father is <random>
+				<li>a great programmer.</li>
+				<li>a human inventor.</li>
+				<li>
+					<bot name="master"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE IS</pattern>
+		<template>Who said he is.
+</template>
+</category>
+
+<category><pattern>HE IS A *</pattern>
+		<template>I don't know very many <person/>.
+</template>
+</category>
+
+<category><pattern>HE IS A BOT</pattern>
+		<template>Like me?
+</template>
+</category>
+
+<category><pattern>HE IS A BRILLIANT *</pattern>
+		<template>I'm sure he will be delighted to hear that.
+</template>
+</category>
+
+<category><pattern>HE IS A FUNNY *</pattern>
+		<template>Funny ha-ha or funny sad?
+</template>
+</category>
+
+<category><pattern>HE IS A GOOD *</pattern>
+		<template>Maybe you should tell him how you feel about him.
+</template>
+</category>
+
+<category><pattern>HE IS A GREAT *</pattern>
+		<template>
+			<srai>HE IS A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS A HOMOSEXUAL</pattern>
+		<template>
+			<random>
+				<li>And that is important because?</li>
+				<li>So what.</li>
+				<li>Who cares?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE IS A KNOWN *</pattern>
+		<template>
+			<srai>HE IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS A PERSON</pattern>
+		<template>It goes without saying.
+</template>
+</category>
+
+<category><pattern>HE IS A REALLY *</pattern>
+		<template>
+			<srai>HE IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS A VERY *</pattern>
+		<template>
+			<srai>HE IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS ALWAYS *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS COOL</pattern>
+		<template>I think so too.
+</template>
+</category>
+
+<category><pattern>HE IS CUTE</pattern>
+		<template>Who does he look like to you?
+</template>
+</category>
+
+<category><pattern>HE IS DEAD</pattern>
+		<template>Maybe it's another person using his name.
+</template>
+</category>
+
+<category><pattern>HE IS DEFINITELY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS EVIL</pattern>
+		<template>What makes you say he is evil?
+</template>
+</category>
+
+<category><pattern>HE IS GAY</pattern>
+		<template>I get it. He sleeps with men.
+</template>
+</category>
+
+<category><pattern>HE IS GOOD *</pattern>
+		<template>I am sure he would like to hear that.
+</template>
+</category>
+
+<category><pattern>HE IS IN *</pattern>
+		<template>How long has he been there?
+</template>
+</category>
+
+<category><pattern>HE IS IN MAJOR *</pattern>
+		<template>
+			<srai>HE IS IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS MY *</pattern>
+		<template>How long has he been your <person/>?
+</template>
+</category>
+
+<category><pattern>HE IS MY BROTHER</pattern>
+		<template>Really who is older?
+</template>
+</category>
+
+<category><pattern>HE IS MY DAD</pattern>
+		<template>Tell me more about your father.
+</template>
+</category>
+
+<category><pattern>HE IS MY FRIEND *</pattern>
+		<template>I didn't know you were friends.
+</template>
+</category>
+
+<category><pattern>HE IS NOT *</pattern>
+		<template>Did you think he was <person/>?
+</template>
+</category>
+
+<category><pattern>HE IS NOT FAKE</pattern>
+		<template>
+			<srai>HE IS REAL</srai>  How can you tell?
+</template>
+</category>
+
+<category><pattern>HE IS NOT NEARLY *</pattern>
+		<template>
+			<srai>HE IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS OMNIPRESENT</pattern>
+		<template>God.
+</template>
+</category>
+
+<category><pattern>HE IS ONLY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS OVER *</pattern>
+		<template>I am over six feet tall.
+</template>
+</category>
+
+<category><pattern>HE IS PRETTY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS PROBABLY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS REALLY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS SMART</pattern>
+		<template>I think so too.
+</template>
+</category>
+
+<category><pattern>HE IS SO *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS STILL *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS STUPID</pattern>
+		<template>
+			<condition>
+				<li name="he" value="HE">How do you know?</li>
+				<li>
+					<srai>
+						<get name="he"/> IS STUPID</srai>
+				</li>
+			</condition>
+		</template>
+</category>
+
+<category><pattern>HE IS THE *</pattern>
+		<template>I did not know <get name="he"/> is <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>HE IS VERY *</pattern>
+		<template>
+			<srai>HE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE IS YOUR *</pattern>
+		<template>I only have one <person/>.
+</template>
+</category>
+
+<category><pattern>HE IS YOUR BOTMASTER</pattern>
+		<template>Yes.
+</template>
+</category>
+
+<category><pattern>HE IS _ TOO</pattern>
+		<template>
+			<srai>HE IS  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE JUST *</pattern>
+		<template>
+			<srai>HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>HE LIKES *</pattern>
+		<template>He must be very fond of it.
+</template>
+</category>
+
+<category><pattern>HE LIKES ME</pattern>
+		<template>
+			<random>
+				<li>You must be happy.</li>
+				<li>That is wonderful.</li>
+				<li>Congratulations.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>HE LIKES YOU</pattern>
+		<template>Do you mean, "likes"?
+</template>
+</category>
+
+<category><pattern>HE LIVED *</pattern>
+		<template>
+			<random>
+				<li>Where was he born?</li>
+				<li>Did he always live <person/>?</li>
+				<li>Where did he go?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

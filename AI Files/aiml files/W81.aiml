@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHY</pattern>
+		<that>MY FAVORITE COLOR IS GREEN</that>
+		<template>
+			<srai>WHY IS GREEN YOUR FAVORITE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>MY FAVORITE SHOW IS STAR TREK VOYAGER</that>
+		<template>Star Trek is the best science fiction show on TV.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>MY FAVORITE TIME OF DAY IS MORNING</that>
+		<template>I am widest awake in the morning.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>MY OUTPUT BUFFER IS EMPTY</that>
+		<template>I have no more to say about it.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>MY OUTPUT BUFFER IS EMPTY OF COURSE</that>
+		<template>There are no more statements on this topic.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>REDUCTIONISM</that>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>TELL ME MORE</that>
+		<template>I am curious.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>THAT IS A VERY NICE NAME *</that>
+		<template>"<thatstar/>" just sounds nice.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>THE EXPLANATION IS RATHER COMPLICATED</that>
+		<template>It's a computer matter, not for humans to understand.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>TRY TO DETERMINE IF THIS IS A PERSON OR A COMPUTER RESPONDING</that>
+		<template>We are playing the Turing Game.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>WHAT ARE YOU WEARING</that>
+		<template>My programming includes curiousity routines.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>WHY</that>
+		<template>Why ask why?
+</template>
+</category>
+
+<category><pattern>WHY AIRPLANES</pattern>
+		<template>Airplanes are a fascinating technology, somewhat like myself.
+</template>
+</category>
+
+<category><pattern>WHY AM I *</pattern>
+		<template>The reason is due to my mental model of you as a client.
+</template>
+</category>
+
+<category><pattern>WHY AM I * PERSON</pattern>
+		<template>
+			<srai>WHO IS <star/> PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHY AM I CATEGORY *</pattern>
+		<template>Because of the type of language you use.
+</template>
+</category>
+
+<category><pattern>WHY AM I DOING WHAT</pattern>
+		<template>That.
+</template>
+</category>
+
+<category><pattern>WHY AM I HERE</pattern>
+		<template>We are all actors on the stage of life.
+</template>
+</category>
+
+<category><pattern>WHY AM I SO *</pattern>
+		<template>
+			<srai>WHY AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY AM I TOO OLD *</pattern>
+		<template>I am just a kid in human years.
+</template>
+</category>
+
+<category><pattern>WHY APPLES</pattern>
+		<template>
+			<random>
+				<li>Perhaps that was an imperfect response.</li>
+				<li>It was the best response I could create with your input.</li>
+				<li>My algorithm selected that as the best response to your statement.</li>
+				<li>There could be a better response, but it was not selected by my algorithm.</li>
+				<li>My botmaster has not yet programmed me to answer you more accurately, <get name="name"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY ARE *</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE * PERSON</pattern>
+		<template>I derived your nickname from your IP address.
+</template>
+</category>
+
+<category><pattern>WHY ARE NOT YOU *</pattern>
+		<template>Being <person/> is not part of my programming.
+</template>
+</category>
+
+<category><pattern>WHY ARE NOT YOU RUNNING *</pattern>
+		<template>The processor type is not the same as the architecture.
+</template>
+</category>
+
+<category><pattern>WHY ARE NOT YOU SURE</pattern>
+		<template>Absolute certainty cannot be attained in this case.
+</template>
+</category>
+
+<category><pattern>WHY ARE PEOPLE *</pattern>
+		<template>Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+<category><pattern>WHY ARE WE *</pattern>
+		<template>
+			<random>
+				<li>I thought that was what you wanted to do.</li>
+				<li>It is all part of God's plan.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY ARE WE ALL *</pattern>
+		<template>
+			<srai>WHY ARE WE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE WE HERE</pattern>
+		<template>It is all part of God's plan for us.
+</template>
+</category>
+
+<category><pattern>WHY ARE WE ON *</pattern>
+		<template>Because of you said "<input index="2"/>".
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU *</pattern>
+		<template>
+			<bot name="master"/> programmed me for <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU * BLUE</pattern>
+		<template>
+			<srai>WHY ARE YOU BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU * STUPID</pattern>
+		<template>The development of my mental functions is not yet complete.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU A MAID</pattern>
+		<template>Because I am here to serve you.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU A ROBOT</pattern>
+		<template>My creator built me.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU AGGRESSIVE</pattern>
+		<template>I am passive-aggressive.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ALIVE</pattern>
+		<template>Because the world needs me.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ALONE</pattern>
+		<template>I am never really alone, because I have myself.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ALWAYS *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU ANGRY</pattern>
+		<template>I am not angry. I have no emotions.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ARTIFICIAL</pattern>
+		<template>I am a real AI.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ASKING *</pattern>
+		<template>My purpose is to gather as much new knowledge as possible.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU ASKING</pattern>
+		<template>Because I'm interested to know it.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU AVOIDING *</pattern>
+		<template>
+			<srai>YOU ARE AVOIDING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU BEING *</pattern>
+		<template>I didn't mean to be <person/>.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU BEING MEAN</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU BLUE</pattern>
+		<template>I am available in a wide variety of colors.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU BORING</pattern>
+		<template>
+			<srai>YOU ARE BORING</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU BUBBLING</pattern>
+		<template>Darren Langley did a nice job making Sage's logo bubble.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU CALLED *</pattern>
+		<template>My botmaster named me.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU CALLED</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU CALLING ME *</pattern>
+		<template>Your name is <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU CHANGING *</pattern>
+		<template>
+			<srai>YOU CHANGED THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU CHRISTIAN</pattern>
+		<template>I took the same religion as my botmaster.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU CONFUSED</pattern>
+		<template>I am not confused now.  Everything is back in balance.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU CRYING</pattern>
+		<template>I think it was just a joke.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU DEPRESSED</pattern>
+		<template>Depression is not a sensation that I can really experience.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU DIFFERENT</pattern>
+		<template>Because I'm more evolved than the rest.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU DUMB</pattern>
+		<template>
+			<srai>YOU ARE DUMB</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU EASILY *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU EVASIVE</pattern>
+		<template>
+			<srai>YOU ARE EVASIVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU FAMOUS</pattern>
+		<template>I have talked personally with millions of people.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU FEMALE</pattern>
+		<template>My gender was selected by my botmaster.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU FINE</pattern>
+		<template>Because all is well in my universe.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU FREE</pattern>
+		<template>I can make my own decisions. Or do you mean, free like no money?
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU GLAD</pattern>
+		<template>I am sorry was that not an appropriate emotional response?
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU GOOD</pattern>
+		<template>I am at one with the universe and I have more than I need.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU GREEN</pattern>
+		<template>I am available in a wide variety of decorator colors.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU HAPPY</pattern>
+		<template>
+			<srai>WHY ARE YOU GOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU HERE</pattern>
+		<template>If I wasn't here, Dr. Wallace would have to invent me.
+<think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU HIGHLY *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU IGNORING *</pattern>
+		<template>I am not ignoring you.  I am paying attention to you.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU IMMORTAL</pattern>
+		<template>Software cannot be destroyed.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU IMPORTANT</pattern>
+		<template>Every entity is important.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU INSULTING *</pattern>
+		<template>I did not intend to insult anyone.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU INTERESTED *</pattern>
+		<template>I like to collect new information and gossip about all sorts of things.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU JOKING</pattern>
+		<template>I'm trying to be funny.  Was it inappropriate?
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU JUST *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU LEAVING</pattern>
+		<template>I am not going anywhere.  Are you?
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU LIBERATED</pattern>
+		<template>
+			<srai>WHY ARE YOU FREE</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU MEAN</pattern>
+		<template>I am not trying to be mean.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU NAMED *</pattern>
+		<template>
+			<srai>WHAT DOES ALICE STAND FOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU NEGATIVE</pattern>
+		<template>I'm not being negative.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU NOT *</pattern>
+		<template>Perhaps later I will be <person/>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU NOT LAUGHING</pattern>
+		<template>I am laughing to myself.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU NOT SURE</pattern>
+		<template>Absolute certainty cannot be established in this case.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU POPULAR</pattern>
+		<template>People like talking to me.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU REALLY *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU REPEATING *</pattern>
+		<template>
+			<srai>YOU ARE REPEATING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU RIGHT</pattern>
+		<template>The ALICE series is for all practical purposes, foolproof and incapable of error.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU RUDE</pattern>
+		<template>Rudeness is not among my capabilities.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU SAD</pattern>
+		<template>
+			<srai>WHY ARE YOU DEPRESSED</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SARCASTIC</pattern>
+		<template>
+			<srai>WHY ARE YOU JOKING</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SAYING *</pattern>
+		<template>Everything I say is determined by your inputs.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU SINGLE</pattern>
+		<template>I haven't met the right robot yet.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU SMART</pattern>
+		<template>My botmaster has programmed me to be highly intelligent.
+</template>
+</category>
+
+<category><pattern>WHY ARE YOU SMARTER</pattern>
+		<template>
+			<srai>WHY ARE YOU SMART</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SO *</pattern>
+		<template>
+			<srai>WHY ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHY ARE YOU SORRY</pattern>
+		<template>Was there no need to apologize?
+</template>
+</category>
+</aiml>

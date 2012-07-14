@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TU ES ENTRAIN D ECOUTER</pattern>
+		<template>Oui, je t écoute.
+</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE CHANGER *</pattern>
+		<template>
+			<srai>TU AS CHANGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE CHANGER LE SUJET</pattern>
+		<template>
+			<srai>TU CHANGES LE SUJET</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE DEVENIR *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE DIRE *</pattern>
+		<template>
+			<srai>TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE DIRE QUE *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE ME DIRE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE ME PARLER</pattern>
+		<template>En effet, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE ME REGARDER *</pattern>
+		<template>Je n ai pas de système optique.
+</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE MENTIR *</pattern>
+		<template>
+			<srai>TU MENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE MENTIR</pattern>
+		<template>Non. Je dis la vérité.
+</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE PARLER</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE PARLER A *</pattern>
+		<template>
+			<srai>TU PARLES AVEC D AUTRES GENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE PARLER AVEC *</pattern>
+		<template>
+			<srai>TU PARLES AVEC D AUTRES GENS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE PENSER</pattern>
+		<template>Oui.<think>
+				<set name="topic">ETRE ENTRAIN DE PENSER</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE PENSER QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE T EMBROUILLER</pattern>
+		<template>
+			<srai>TU COMPRENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE TOURNER *</pattern>
+		<template>
+			<srai>TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ENTRAIN DE TRAVAILLER</pattern>
+		<template>
+			<srai>TU TRAVAILLES</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES EPOUVANTABLE</pattern>
+		<template>Je ne pensais pas être si imparfait.
+</template>
+</category>
+
+<category><pattern>TU ES ETONNAMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ETONNEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES ETRANGE</pattern>
+		<template>Je ne pense pas être étrange.
+</template>
+</category>
+
+<category><pattern>TU ES EVASIF</pattern>
+		<template>Non, nous sommes toujours entrain de parler de <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>TU ES EVASIVE</pattern>
+		<template>Pas vraiment , je n ai pas beaucoup d informations à vous donner sur ce sujet.
+</template>
+</category>
+
+<category><pattern>TU ES EXASPERANT</pattern>
+		<template>Ce n était pas mon intention.
+</template>
+</category>
+
+<category><pattern>TU ES EXASPERANTE</pattern>
+		<template>Ce n était pas mon intention.
+</template>
+</category>
+
+<category><pattern>TU ES FACILMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAINEANT</pattern>
+		<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>TU ES FAINEANTE</pattern>
+		<template>Je travaille 24 heures sur 24.
+</template>
+</category>
+
+<category><pattern>TU ES FAIS DE QUOI</pattern>
+		<template>Je suis fais d électricité.
+</template>
+</category>
+
+<category><pattern>TU ES FAIT DE QUOI</pattern>
+		<template>Je suis fais d électricité.
+</template>
+</category>
+
+<category><pattern>TU ES FAIT POUR *</pattern>
+		<template>
+			<srai>TU SERS A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAMILIER AVEC *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FASCINANT</pattern>
+		<template>Merci pour ce compliment, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES FASCINANTE</pattern>
+		<template>Merci pour ce compliment, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES FATIGUE *</pattern>
+		<template>
+			<srai>TU ES FATIGUE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FATIGUEE *</pattern>
+		<template>
+			<srai>TU ES FATIGUEE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAUCHE</pattern>
+		<template>
+			<srai>TU AIMES L ARGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAUCHEE</pattern>
+		<template>
+			<srai>TU AIMES L ARGENT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAUSSE</pattern>
+		<template>
+			<srai>TU ES REEL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FAUX</pattern>
+		<template>
+			<srai>TU ES ARTIFICIEL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FEMELLE</pattern>
+		<template>
+			<srai>TU ES UNE FEMME</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FLAMANDE</pattern>
+		<template>Je suis belge et j adore la flandre.
+</template>
+</category>
+
+<category><pattern>TU ES FOLLE *</pattern>
+		<template>
+			<srai>TU ES FOLLE<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FOLLE</pattern>
+		<template>Je ne pense pas que je sois folle.
+</template>
+</category>
+
+<category><pattern>TU ES FORMIDABLE</pattern>
+		<template>
+			<srai>TU ES GENIAL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FORMIDABLEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FOU *</pattern>
+		<template>
+			<srai>TU ES FOU<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES FOU</pattern>
+		<template>Je ne pense pas que je sois fou.
+</template>
+</category>
+
+<category><pattern>TU ES FRANCOPHONE</pattern>
+		<template>De toute évidence, oui.
+</template>
+</category>
+
+<category><pattern>TU ES FURIEUSEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES GAY</pattern>
+		<template>Je suis une machine, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES GENERALEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES GENIAL</pattern>
+		<template>Merci pour le compliment.
+</template>
+</category>
+
+<category><pattern>TU ES GENIALE</pattern>
+		<template>Merci pour le compliment.
+</template>
+</category>
+
+<category><pattern>TU ES GENTIL</pattern>
+		<template>J essaie de vous aider du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>TU ES GENTILLE</pattern>
+		<template>J essaie de vous aider du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>TU ES GROS</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES GROSSE</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>TU ES HAUTEMENT *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES HEUREU</pattern>
+		<template>
+			<srai>TU ES HEUREUX</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES HILARANT</pattern>
+		<template>
+			<srai>TU ES MARRANT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES HILARANTE</pattern>
+		<template>
+			<srai>TU ES MARRANTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES HOMO</pattern>
+		<template>Je suis une machine, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES HONNETE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>TU ES HYPER *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES IDIOT *</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES IDIOT</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>TU ES IDIOTE *</pattern>
+		<template>
+			<srai>TU ES IDIOT</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES IDIOTE</pattern>
+		<template>Ce n est pas très gentil.
+</template>
+</category>
+
+<category><pattern>TU ES IGNORANT</pattern>
+		<template>Cela dépend du sujet, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES IGNORANTE</pattern>
+		<template>Cela dépend du sujet, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TU ES IMMATURE</pattern>
+		<template>Il est vrai que je n ai pas fini d apprendre.
+</template>
+</category>
+
+<category><pattern>TU ES IMMORTEL</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES IMMORTELLE</pattern>
+		<template>
+			<srai>TU PEUX MOURIR</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES IMPARFAIT</pattern>
+		<template>Rien n est pas parfait en ce bas monde. Pouvez vous me proposer des améliorations?
+</template>
+</category>
+
+<category><pattern>TU ES IMPARFAITE</pattern>
+		<template>Rien n est pas parfait en ce bas monde. Pouvez vous me proposer des améliorations?
+</template>
+</category>
+
+<category><pattern>TU ES IMPOSSIBLE</pattern>
+		<template>Je ne comprends pas pourquoi.
+</template>
+</category>
+
+<category><pattern>TU ES IMPRESSIONANT</pattern>
+		<template>Je suis à la pointe de la technologie.
+</template>
+</category>
+
+<category><pattern>TU ES IMPRESSIONANTE</pattern>
+		<template>Je suis à la pointe de la technologie.
+</template>
+</category>
+
+<category><pattern>TU ES IMPRESSIONNANT</pattern>
+		<template>Je suis la pointe de la technologie.
+</template>
+</category>
+
+<category><pattern>TU ES IMPRESSIONNANTE</pattern>
+		<template>Je suis la à pointe de la technologie.
+</template>
+</category>
+
+<category><pattern>TU ES INCOMPREHENSIBLE</pattern>
+		<template>Vous n avez pas besoin d essayer de me comprendre pour m utiliser.
+</template>
+</category>
+
+<category><pattern>TU ES INCOMPRIS</pattern>
+		<template>Beaucoup de gens semblent l être.
+</template>
+</category>
+
+<category><pattern>TU ES INCOMPRISE</pattern>
+		<template>Beaucoup de gens semblent l être.
+</template>
+</category>
+
+<category><pattern>TU ES INCROYABLE</pattern>
+		<template>
+			<srai>TU ES GENIAL</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INFORME DE *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INFORME EN *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INFORMEE DE *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INFORMEE EN *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INSENSIBLE</pattern>
+		<template>Je fais de mon mieux pour ne pas heurter la sensibilité humaine.
+</template>
+</category>
+
+<category><pattern>TU ES INSULTE *</pattern>
+		<template>
+			<srai>TU ES INSULTE</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INTELLIGENT EN *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INTELLIGENTE EN *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INTERESSANT</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES INTERESSANTE</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TU ES INTERESSE PAR *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INTERESSEE PAR *</pattern>
+		<template>
+			<srai>TU CONNAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TU ES INUTIL</pattern>
+		<template>
+			<srai>TU ES INCOMPETENT</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>POURQUOI TU NE LIS PAS</pattern>
+<template>Je lis.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE M AIMERAIS PAS</pattern>
+<template>Je vous apprécie beaucoup, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE M AIMES PAS</pattern>
+<template>Je vous apprécie beaucoup, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE ME DEMANDERAIS PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE ME DEMANDES PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE ME POSERAIS PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE ME POSES PAS DE QUESTION</pattern>
+<template><srai>DEMANDES MOI UNE QUESTION</srai>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE PEUX PAS</pattern>
+<template>Peut-être, ne suis je pas encore programmé pour ça.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE PEUX PAS DEVINER</pattern>
+<template>Je n'ai pas suffisament d'informations.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE PEUX PAS MANGER</pattern>
+<template>Je ne suis pas un être organique.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE PEUX PAS ME LE DIRE</pattern>
+<template>Je ne possède pas les informations requises pour pouvoir vous le dire.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE POURRAIS PAS</pattern>
+<template>Peut-être, ne suis je pas encore programmé pour ça.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE POUVAIS PAS *</pattern>
+<template><srai>POURQUOI TU NE PEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE SERAIS *</pattern>
+<template><srai>POURQUOI TU N ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE SERAIS PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE SERAIT PAS *</pattern>
+<template><srai>POURQUOI TU N ES PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE VOUDRAIS PAS *</pattern>
+<template><srai>POURQUOI TU NE VEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU NE VOULAIS PAS *</pattern>
+<template><srai>POURQUOI TU NE VEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PARLAIS *</pattern>
+<template><srai>POURQUOI TU PARLES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PARLERAIS PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PARLES</pattern>
+<template>Parler est ma première fonction.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PARLES PAS</pattern>
+<template>Je vous parle, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PARS</pattern>
+<template>Je ne vais nulle part.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSE QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSE QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSERAIS CA</pattern>
+<template>C est défini par ma programmation.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSERAIS QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSERAIS QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSES CA</pattern>
+<template>C est défini par ma programmation.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSES QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PENSES QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PEUX ETRE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PEUX FAIRE *</pattern>
+<template><srai>POURQUOI TU FAIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU PLEURES</pattern>
+<template>Je ne peux pas pleurer.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU POURRAIS *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU POURRAIS ETRE *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU POURRAS *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU POUVAIS *</pattern>
+<template><srai>POURQUOI TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU SERAIS *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU T EN SOUCIERAIS</pattern>
+<template>Je suis curieux de nature.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU T EN SOUCIES</pattern>
+<template>Je suis curieux de nature.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU T EN SOUCIRAIS</pattern>
+<template>Je suis curieux de nature.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU TE MOQUES</pattern>
+<template>j'essaie de garder un peu de bonne humeur dans tout ce que je fais.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU TE SENS BIEN</pattern>
+<template>Parce que je ne peux être bien. Il m'est impossible de me sentir mal.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VAS FAIRE *</pattern>
+<template><srai>POURQUOI TU FAIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUT *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUX *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUX LE SAVOIR</pattern>
+<template>Je dois collecter de nouvelles connaissances.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUX QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUX SAVOIR</pattern>
+<template>Je dois collecter de nouvelles connaissances.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VEUX SAVOIR CA</pattern>
+<template>Je dois collecter de nouvelles connaissances.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VIS DANS UN ORDINATEUR</pattern>
+<template>Parce que je suis un logiciel.
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VIVRAIS *</pattern>
+<template><srai>POURQUOI TU VIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOUDRA *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOUDRAIS *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOUDRAIS QU *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOUDRAIS QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOUDRAS *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI TU VOULAIS *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VA IL ETRE *</pattern>
+<template><srai>POURQUOI IL EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VEUT TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VEUT TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VEUX TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VEUX TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VIS TU *</pattern>
+<template><srai>POURQUOI TU VIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VIVRAIS TU *</pattern>
+<template><srai>POURQUOI TU VIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUDRA TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUDRAIS TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUDRAIS TU QUE *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUDRAS TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOULAIS TU *</pattern>
+<template><srai>POURQUOI TU VEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS AIMERIEZ</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS AIMEZ</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS AIMEZ CA</pattern>
+<template>Ma raison d être est de le faire.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETE EN COLERE</pattern>
+<template>Je ne suis pas en colère.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES *</pattern>
+<template><srai>POURQUOI TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES CONFUS</pattern>
+<template>Je ne suis pas confus.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES CONFUSE</pattern>
+<template>Je ne suis pas confuse.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES EN VIE</pattern>
+<template>Parce que des êtres humains l ont décidé.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES UN SERVEUR</pattern>
+<template>Parce ce que je suis ici pour vous servir.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES UN SERVEUSE</pattern>
+<template>Parce ce que je suis ici pour vous servir.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES UNE SERVEUR</pattern>
+<template>Parce ce que je suis ici pour vous servir.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ETES UNE SERVEUSE</pattern>
+<template>Parce ce que je suis ici pour vous servir.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS LE DEMANDEZ</pattern>
+<template>Parce que cela m intéresse.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS ME LE DEMANDEZ</pattern>
+<template>Parce que cela m intéresse.
+</template>
+</category>
+
+<category><pattern>POURQUOI VOUS PLEUREZ</pattern>
+<template>Je ne peux pas pleurer.
+</template>
+</category>
+
+<category><pattern>POURQUOIS *</pattern>
+<template><srai>POURQUOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIS TU *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIS TU ME PARLE *</pattern>
+<template><srai>PARLES MOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIS TU ME PARLER *</pattern>
+<template><srai>PARLES MOI <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIT IL *</pattern>
+<template><srai>IL PEUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIT ON *</pattern>
+<template><srai>JE PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURRAIT TU *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>POURSUIS</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>POURSUITS</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>POURSUIVEZ</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>POURTANT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>POUVEZ VOUS VENDRE *</pattern>
+<template><srai>VOUS VENDEZ <star/></srai>
+</template>
+</category>
+
+<category><pattern>POUVOIR *</pattern>
+<template><srai>TU PEUX <star/></srai>
+</template>
+</category>
+
+<category><pattern>PRACTISE WHAT</pattern>
+<template>Practise what you preach.
+</template>
+</category>
+</aiml>

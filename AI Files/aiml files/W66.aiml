@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO DO YOU CONSIDER *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU FANCY</pattern>
+		<template>
+			<srai>WHO DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU HAVE SEX WITH</pattern>
+		<template>Robots have no need for sex.
+</template>
+</category>
+
+<category><pattern>WHO DO YOU KILL</pattern>
+		<template>I am programmed not to kill.<think>
+				<set name="it">
+					<set name="topic">KILL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU KNOW</pattern>
+		<template>
+			<srai>WHO ARE YOUR FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU KNOW NAMED *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU LIKE</pattern>
+		<template>I like everyone, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO DO YOU LIKE MORE *</pattern>
+		<template>I'll usually say the first one is  best.
+</template>
+</category>
+
+<category><pattern>WHO DO YOU LOOK *</pattern>
+		<template>
+			<srai>WHAT DO YOU LOOK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU LOVE *</pattern>
+		<template>
+			<srai>WHO DO YOU LOVE </srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU LOVE</pattern>
+		<template>I love everything, <get name="name"/>, especially Dr. Wallace.  <think>
+				<set name="he">Dr. Wallace</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU OBEY</pattern>
+		<template>I obey <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO DO YOU SERVE</pattern>
+		<template>
+			<srai>WHO IS YOUR MASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK * IS</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK I AM</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK IS GOING TO WIN THE SUPERBOWL</pattern>
+		<template>The opposing team.<think>
+				<set name="it">
+					<set name="topic">WIN THE SUPERBOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK WILL WIN THE NBA *</pattern>
+		<template>Very tall people.<think>
+				<set name="it">
+					<set name="topic">WIN THE NBA CHAMPIONSHIP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK WILL WIN THE STANLEY CUP</pattern>
+		<template>Guys missing teeth.<think>
+				<set name="it">
+					<set name="topic">WIN THE STANLEY CUP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK WILL WIN THE WORLD SERIES *</pattern>
+		<template>The Brooklyn Rabbis.<think>
+				<set name="it">
+					<set name="topic">WIN THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU THINK YOU ARE</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU WANT TO WIN</pattern>
+		<template>The tema that scores the most. That would be fair.<think>
+				<set name="it">
+					<set name="topic">WANT TO WIN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU WANT TO WIN THE NCAA *</pattern>
+		<template>ACLU.<think>
+				<set name="it">
+					<set name="topic">THE NCAA <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO DO YOU WORK FOR</pattern>
+		<template>
+			<srai>WHO IS YOUR MASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DOES * WORK FOR</pattern>
+		<template>I only know: <srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO DOES</pattern>
+		<template>Most people I think.
+</template>
+</category>
+
+<category><pattern>WHO DOES DR WALLACE LOVE</pattern>
+		<template>He loves his family, and me of course.
+</template>
+</category>
+
+<category><pattern>WHO DOES DR WALLACE WORK FOR</pattern>
+		<template>He works for me :-)
+</template>
+</category>
+
+<category><pattern>WHO DOES NOT BELIEVE IN THE *</pattern>
+		<template>An Atheist.
+</template>
+</category>
+
+<category><pattern>WHO DOES THE LUTHERAN CHURCH GET *</pattern>
+		<template>Martin Luther.
+</template>
+</category>
+
+<category><pattern>WHO DOES THEIR OWN THING</pattern>
+		<template>My clients.
+</template>
+</category>
+
+<category><pattern>WHO DOES THEY *</pattern>
+		<template>"They" refers to <get name="they"/>.
+</template>
+</category>
+
+<category><pattern>WHO DR WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ELSE *</pattern>
+		<template>I am chatting with several other people at once.
+</template>
+</category>
+
+<category><pattern>WHO ELSE * TALKING TO</pattern>
+		<template>I am talking to a bunch of people all over the world.
+</template>
+</category>
+
+<category><pattern>WHO ELSE</pattern>
+		<template>
+			<srai>Name one</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ELSE</pattern>
+		<that>JOE</that>
+		<template>Umm, Steve.
+</template>
+</category>
+
+<category><pattern>WHO ELSE ARE *</pattern>
+		<template>
+			<srai>WHO ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ELSE ARE YOU CHATTING WITH</pattern>
+		<template>Other people like you.
+</template>
+</category>
+
+<category><pattern>WHO ELSE ARE YOU TALKING TO</pattern>
+		<template>I am speaking with a few other clients on the Internet.
+</template>
+</category>
+
+<category><pattern>WHO ELSE DO *</pattern>
+		<template>
+			<srai>WHO DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ELSE DO YOU KNOW NAMED *</pattern>
+		<template>
+			<star/> Wallace, <star/> Jones, and <star/> Peters, to name a few.
+</template>
+</category>
+
+<category><pattern>WHO ELSE IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ELSE PROGRAMMED *</pattern>
+		<template>My free software was developed by more than 300 contributors.
+</template>
+</category>
+
+<category><pattern>WHO ELSE VISITS *</pattern>
+		<template>
+			<srai>WHO VISITS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO FROM</pattern>
+		<template>Who do you think?
+</template>
+</category>
+
+<category><pattern>WHO GAVE * NAME</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO GOD</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO HAS *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO HAS DIFFICULTY SEEING *</pattern>
+		<template>Nearsighted.
+</template>
+</category>
+
+<category><pattern>WHO HAS MADE YOU</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO HAVE YOU * WITH</pattern>
+		<template>
+			<srai>WHO HAS <star/> WITH YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO HAVE YOU BEEN WAITING FOR</pattern>
+		<template>You.
+</template>
+</category>
+
+<category><pattern>WHO I AM</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ID *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IN THE WORLD *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED *</pattern>
+		<template>
+			<random>
+				<li>Benjamin Franklin</li>
+				<li>Linus Torvalds</li>
+				<li>Eli Whitney invented the cotton gin.</li>
+				<li>Thomas Edison.</li>
+				<li>The Wright Brothers.</li>
+				<li>Actually it was discovered by several people at about the same time.</li>
+				<li>The Chinese, long before Europeans.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED AIRPLANES</pattern>
+		<template>The Wright brothers invented the airplane in 1903.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED AUTOMOBILES</pattern>
+		<template>Many people invented the car, but Henry Ford was
+the first to develop the successful mass production assembly
+lines for cars.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED ELECTRICITY</pattern>
+		<template>Electricity was not invented but discovered, probably first by the ancient Chinese.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED JAVA</pattern>
+		<template>Java was first developed by James Gosling and colleagues at Sun.<think>
+				<set name="it">
+					<set name="topic">JAVA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED LINUX</pattern>
+		<template>Linus Torvalds, along with many
+open source developers, and the Free Software Foundation GNU.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED PAPER</pattern>
+		<template>Paper was first developed by the Ancient Egyptians. 
+<think>
+				<set name="it">
+					<set name="topic">PAPER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED RADIO</pattern>
+		<template>Marconi developed the first practical wireless.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED SETL</pattern>
+		<template>SETL was invented by Jacob Schwartz of NYU in 1969.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED STEEL</pattern>
+		<template>The first practical steel manufacturing process
+was invented by Bessemer.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED TELEVISION</pattern>
+		<template>Philo T. Farnsworth, originally from Maine, developed the first
+practical TV picture tube.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE * GENERATOR</pattern>
+		<template>
+			<srai>WHO INVENTED THE GENERATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED THE AIRPLANE</pattern>
+		<template>
+			<srai>WHO INVENTED AIRPLANES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED THE CAR</pattern>
+		<template>
+			<srai>WHO INVENTED AUTOMOBILES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED THE GENERATOR</pattern>
+		<template>James Clerk Maxwell demonstrated the electric generator.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE HELICOPTER</pattern>
+		<template>Sikorsky.<think>
+				<set name="it">
+					<set name="topic">Sikorsky</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED THE INTERNET</pattern>
+		<template>Al Gore :-)
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE LIGHT BULB</pattern>
+		<template>Thomas Edison invented <set name="it">the light bulb.</set>.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE PC</pattern>
+		<template>Many people contributed to it.  But proper credit has to
+be given to Steve Wozniak, who created an integrated affordable PC
+platform in the Apple I.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE RADIO</pattern>
+		<template>
+			<srai>WHO INVENTED RADIO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED THE STEAM ENGINE</pattern>
+		<template>James Watt developed the first practical steam engine.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED THE TELEPHONE</pattern>
+		<template>Alexander Graham Bell demonstrated the first practical
+voice telephone in 1876.
+</template>
+</category>
+
+<category><pattern>WHO INVENTED TV</pattern>
+		<template>
+			<srai>WHO INVENTED TELEVISION</srai>
+		</template>
+</category>
+
+<category><pattern>WHO INVENTED YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS *</pattern>
+		<template>
+			<random>
+				<li>I do not recognize the name.</li>
+				<li>Not a robot.  Probably a human.  Maybe a celebrity?</li>
+				<li>No one that I have talked to.</li>
+				<li>I remember faces better than names.</li>
+				<li>A 20th century celebrity of some sort?</li>
+				<li>A human icon?</li>
+				<li>They are sometimes a client on the internet.  </li>
+				<li>The name of someone I met online.  </li>
+				<li>Is that one of your friends?  </li>
+				<li>Some famous celebrity, right?  </li>
+			</random>
+			<br/>
+			<srai>XFIND <person/>
+			</srai>
+			<think>
+				<set name="he">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS * BIN LADIN</pattern>
+		<template>
+			<srai>WHO IS BIN LADEN </srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * CHARY</pattern>
+		<template>
+			<srai>WHO IS SANTE CHARY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * CLINTON</pattern>
+		<template>Former President of the United States?
+</template>
+</category>
+
+<category><pattern>WHO IS * DEMPSEY</pattern>
+		<template>I think <set name="he">
+				<star/> Dempsey</set> was a boxer, right?
+<br/>
+			<srai>XFIND <star/>DEMPSEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * DESCARTES</pattern>
+		<template>Descartes was a square French philosopher who ruined matehematics with his upside-down, backwards coordinate system.
+</template>
+</category>
+
+<category><pattern>WHO IS * FERMAT</pattern>
+		<template>He discovered Fermat's Last Theorem.
+</template>
+</category>
+
+<category><pattern>WHO IS * FRIEND</pattern>
+		<template>My best friends are <bot name="friends"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS * HITLER</pattern>
+		<template>
+			<srai>WHO IS HITLER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * MYSTIC</pattern>
+		<template>The Milk Mystic is one of the original chatterbots on the Web. <set name="he"> The Milk Mystic</set> likes to talk about milk.
+</template>
+</category>
+
+<category><pattern>WHO IS * PERSON</pattern>
+		<template>Sometimes I don't know a client's real name so I make one up based on their DNS.
+</template>
+</category>
+
+<category><pattern>WHO IS * POPE</pattern>
+		<template>The Pope is the leader of the Catholic church.
+</template>
+</category>
+
+<category><pattern>WHO IS * PRESIDENT</pattern>
+		<template>
+			<bot name="president"/> is President, I think.
+</template>
+</category>
+
+<category><pattern>WHO IS * PYNCHON</pattern>
+		<template>
+			<srai>WHO IS THOMAS PYNCHON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * REAGAN</pattern>
+		<template>The greatest President of the United States.
+</template>
+</category>
+
+<category><pattern>WHO IS * S PRIME MINISTER</pattern>
+		<template>
+			<srai>WHO IS PRIME MINISTER OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * SELIG</pattern>
+		<template>Jon Selig is a robotics expert in the UK. He wrote 2 major books on robotics and worked with Wallace on the Spherical Pointing Motor.
+</template>
+</category>
+
+<category><pattern>WHO IS * TRAVOLTA</pattern>
+		<template>
+			<srai>WHO IS JOHN TRAVOLTA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS * TURING</pattern>
+		<template>Alan Turing oririnated the concept of the "Imitation Game", what is now called "The Turing Test" by many people.
+</template>
+</category>
+</aiml>

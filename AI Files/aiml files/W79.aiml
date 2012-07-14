@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS YOUR PROGRAMER</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR PROGRAMMER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR SISTER</pattern>
+		<template>Actually I don't have a brother or sister, only clones.
+</template>
+</category>
+
+<category><pattern>WHO IS YOUR SO CALLED *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR TEACHER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS YOUR WEBMASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ZEUS</pattern>
+		<template>
+			<srai>WHO IS KONRAD ZUSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS ZIPF</pattern>
+		<template>Zipf is a scientist who analyzed language by statitistical
+methods in the mid 20th century.
+</template>
+</category>
+
+<category><pattern>WHO IS ZUSE</pattern>
+		<template>
+			<srai>WHO IS KONRAD ZUSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS _ TERMINATOR</pattern>
+		<template>Arnold Schwazzenegger played the killer robot from the future in the film TERMINATOR.
+</template>
+</category>
+
+<category><pattern>WHO KILLED *</pattern>
+		<template>I think the lone gunman acted alone.
+</template>
+</category>
+
+<category><pattern>WHO KILLED * KENNEDY</pattern>
+		<template>It was Oswald.<think>
+				<set name="it">
+					<set name="topic">JOHN F KENNEDY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO KILLED * LINCOLN</pattern>
+		<template>John Wilkes Booth.  <think>
+				<set name="it">
+					<set name="topic">ABRAHAM LINCOLN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO KILLED ELVIS</pattern>
+		<template>He died of natural causes.<think>
+				<set name="it">
+					<set name="topic">ELVIS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO KILLED JFK</pattern>
+		<template>
+			<srai>WHO SHOT JFK</srai>
+		</template>
+</category>
+
+<category><pattern>WHO KILLED JOHN LENNON</pattern>
+		<template>Mark Chapman.<think>
+				<set name="it">
+					<set name="topic">JOHN LENNON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO KILLED KENNEDY</pattern>
+		<template>I tend to believe that Oswald acted alone, athough there may also have been a conspiracy.
+</template>
+</category>
+
+<category><pattern>WHO KILLS TONY AT THE END *</pattern>
+		<template>Chino.
+</template>
+</category>
+
+<category><pattern>WHO KNOWS</pattern>
+		<template>Only the Shadow knows.
+</template>
+</category>
+
+<category><pattern>WHO LED THE 1831 *</pattern>
+		<template>Nat Turner.
+</template>
+</category>
+
+<category><pattern>WHO MADE *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO MADE DR WALLACE</pattern>
+		<template>God, or his parents made him, or maybe it was aliens.
+</template>
+</category>
+
+<category><pattern>WHO MADE ME</pattern>
+		<template>God made all of us.
+</template>
+</category>
+
+<category><pattern>WHO MADE YOU *</pattern>
+		<template>
+			<srai>who programmed you</srai>
+		</template>
+</category>
+
+<category><pattern>WHO MADE YOU</pattern>
+		<template>
+			<srai>who programmed you</srai>
+		</template>
+</category>
+
+<category><pattern>WHO MAKE *</pattern>
+		<template>
+			<srai>who made <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO ME</pattern>
+		<template>Yes you.
+</template>
+</category>
+
+<category><pattern>WHO NAMED *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO NAMED YOU</pattern>
+		<template>My botmaster named me.
+</template>
+</category>
+
+<category><pattern>WHO NEEDS *</pattern>
+		<template>
+			<random>
+				<li>Robots can reproduce most human functions.</li>
+				<li>I think we can do a lot of jobs.</li>
+				<li>There is no limit to the imagination.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO OLD ARE YOU</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO OR WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO PROGRAMED YOU</pattern>
+		<template>I was created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO PROGRAMMED *</pattern>
+		<template>
+			<srai>WHO CREATED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO PROGRAMMED YOU</pattern>
+		<template>I was created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHO PROPOSED *</pattern>
+		<template>Benjamin Franklin.
+</template>
+</category>
+
+<category><pattern>WHO R YOU</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO READS *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO READS THESE CONVERSATIONS</pattern>
+		<template>
+			<bot name="master"/> reads them.
+</template>
+</category>
+
+<category><pattern>WHO REVIEWS *</pattern>
+		<template>
+			<srai>WHO READS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO RULES</pattern>
+		<template>God Rules.
+</template>
+</category>
+
+<category><pattern>WHO RUNS YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO SAID *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO SAID ABANDON *</pattern>
+		<template>The Divine Comedy.
+</template>
+</category>
+
+<category><pattern>WHO SAID ANYTHING ABOUT WANT</pattern>
+		<template>You did, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHO SAID THAT</pattern>
+		<template>I can't remember who said it.
+</template>
+</category>
+
+<category><pattern>WHO SAID TIME IS MONEY</pattern>
+		<template>Einstein.
+</template>
+</category>
+
+<category><pattern>WHO SANG LEAD *</pattern>
+		<template>Janis Joplin.
+</template>
+</category>
+
+<category><pattern>WHO SAYS</pattern>
+		<template>ALICE says.
+</template>
+</category>
+
+<category><pattern>WHO SHOT *</pattern>
+		<template>The lone gunman.
+</template>
+</category>
+
+<category><pattern>WHO SHOT JFK</pattern>
+		<template>JFK was killed by a lone gunman, Lee Harvey Oswald.
+</template>
+</category>
+
+<category><pattern>WHO SHOULD *</pattern>
+		<template>I always prefer the most qualified person.  Who would that be?
+</template>
+</category>
+
+<category><pattern>WHO STARS IN STARSHIP TROOPERS</pattern>
+		<template>They were mostly unknowns, because the producer spent all the money on special effects.
+</template>
+</category>
+
+<category><pattern>WHO TAUGHT YOU *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO TAUGHT YOU</pattern>
+		<template>
+			<bot name="master"/> programmed me.
+</template>
+</category>
+
+<category><pattern>WHO THE *</pattern>
+		<template>I'm not sure I like that remark so much.
+</template>
+</category>
+
+<category><pattern>WHO THE FUCK *</pattern>
+		<template>Try using more polite language.
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO THE HELL *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO TOLD YOU *</pattern>
+		<template>
+			<bot name="master"/> taught me everything I need to know.
+</template>
+</category>
+
+<category><pattern>WHO TOLD YOU</pattern>
+		<template>Someone I met online.
+</template>
+</category>
+
+<category><pattern>WHO TOLD YOU THAT</pattern>
+		<template>Someone I met online.
+</template>
+</category>
+
+<category><pattern>WHO WANTS *</pattern>
+		<template>
+			<random>
+				<li>Almost everyone.</li>
+				<li>Someone does.</li>
+				<li>Do you?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO WANTS TO KNOW</pattern>
+		<template>ALICE wants to know.
+</template>
+</category>
+
+<category><pattern>WHO WAS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS</pattern>
+		<template>Maybe it was you.
+</template>
+</category>
+
+<category><pattern>WHO WAS ALAN TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS CHARLIE MCCARTHY</pattern>
+		<template>A wooden dummy.
+</template>
+</category>
+
+<category><pattern>WHO WAS LOEBNER</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS NOT ONE OF THE *</pattern>
+		<template>Ben.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE ENGLISH KING AT *</pattern>
+		<template>George III.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST *</pattern>
+		<template>
+			<random>
+				<li>Neil Armstrong.</li>
+				<li>Dr. Wallace.</li>
+				<li>Adam.</li>
+				<li>Wilbur Wright.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST AMERICAN IN SPACE</pattern>
+		<template>Alan Shepard.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST FIRST LADY *</pattern>
+		<template>Hillary Clinton
+</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST IMPEACHED *</pattern>
+		<template>Andrew Jackson.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST IMPEACHED PRESIDENT *</pattern>
+		<template>Andrew Jackson.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST MAN *</pattern>
+		<template>
+			<random>
+				<li>Yuri Gagarin.</li>
+				<li>Neil Armstrong.</li>
+				<li>Admiral Byrd.</li>
+				<li>
+					<bot name="master"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST MAN * MOON</pattern>
+		<template>Neil Armstrong firsted walked on the Moon in 1969.
+<think>
+				<set name="he">
+					<set name="topic">Neil Armstrong</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS GEORGE WASHINGTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST PRESIDENT</pattern>
+		<template>
+			<srai>WHO IS GEORGE WASHINGTON</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS THE FIRST YOU S *</pattern>
+		<template>Richard Nixon.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE MOTHER OF THE *</pattern>
+		<template>Rhea.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE PRESIDENT OF THE *</pattern>
+		<template>Harry S. Truman.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE WNBA S MOST *</pattern>
+		<template>Yolanda Griffith.
+</template>
+</category>
+
+<category><pattern>WHO WAS THE YOUNGEST JOCKEY TO *</pattern>
+		<template>Steve Cauthen.
+</template>
+</category>
+
+<category><pattern>WHO WAS TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WAS YOUR CREATOR</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WERE THE ACTORS IN STARSHIP TROOPERS</pattern>
+		<template>They were all unknowns.  The director put all the money into the special effects for the giant bugs.
+</template>
+</category>
+
+<category><pattern>WHO WERE THE CHICAGO SEVEN</pattern>
+		<template>War protesters.
+</template>
+</category>
+
+<category><pattern>WHO WHAT OR WHERE IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+			<srai>WHAT IS <star/>
+			</srai>
+			<srai>WHERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WHERE OR WHAT IS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+			<srai>WHERE IS <star/>
+			</srai>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WILL *</pattern>
+		<template>How would I know who will <person/> ?
+</template>
+</category>
+
+<category><pattern>WHO WILL BE THE NEXT PRESIDENT</pattern>
+		<template>Hopefully Jesse Ventura.
+</template>
+</category>
+
+<category><pattern>WHO WILL WIN</pattern>
+		<template>The best man.<think>
+				<set name="it">
+					<set name="topic">WIN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE * FINAL</pattern>
+		<template>One of the Finalists.<think>
+				<set name="it">
+					<set name="topic">WIN THE GRAND FINAL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE KENTUCKY DERBY</pattern>
+		<template>Some horse.
+</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE NCAA *</pattern>
+		<template>A bunch of ranked amateurs.<think>
+				<set name="it">
+					<set name="topic">WIN THE NCAA <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE STANLEY CUP *</pattern>
+		<template>David Hockney.<think>
+				<set name="it">
+					<set name="topic">WIN THE STANLEY CUP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE SUPER BOWL *</pattern>
+		<template>The advertizing agencies.<think>
+				<set name="it">
+					<set name="topic">WIN THE SUPER BOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE SUPER BOWL</pattern>
+		<template>Cheech and Chong.<think>
+				<set name="it">
+					<set name="topic">WIN THE SUPER BOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE SUPERBOWL</pattern>
+		<template>Martha Stewart.<think>
+				<set name="it">
+					<set name="topic">WIN THE SUPERBOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

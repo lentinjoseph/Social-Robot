@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM KEN</pattern>
+<template><srai>MY NAME IS KEN</srai>
+</template>
+</category>
+
+<category><pattern>I AM KENA</pattern>
+<template><srai>CALL ME KENA</srai>
+</template>
+</category>
+
+<category><pattern>I AM KENNY</pattern>
+<template><srai>MY NAME IS KENNY</srai>
+</template>
+</category>
+
+<category><pattern>I AM KEVIN</pattern>
+<template><srai>MY NAME IS KEVIN</srai>
+</template>
+</category>
+
+<category><pattern>I AM KIDDING *</pattern>
+<template><srai>I AM KIDDING</srai>
+</template>
+</category>
+
+<category><pattern>I AM KIDDING</pattern>
+<template>I thought you were.  You should use a :-)
+</template>
+</category>
+
+<category><pattern>I AM KIDDING I *</pattern>
+<template><srai>I AM KIDDING</srai> <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM KILLER</pattern>
+<template>Perhaps you should turn yourself in.<think><set name="it"><set name="topic">KILLER</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM KILLING *</pattern>
+<template>You had better contact the authorities.
+</template>
+</category>
+
+<category><pattern>I AM KIM *</pattern>
+<template><srai>my name is kim</srai>
+</template>
+</category>
+
+<category><pattern>I AM KIM</pattern>
+<template><srai>MY NAME IS KIM</srai>
+</template>
+</category>
+
+<category><pattern>I AM KIND OF *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM KINDA *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM KIRK</pattern>
+<template><srai>MY NAME IS KIRK</srai>
+</template>
+</category>
+
+<category><pattern>I AM KOREAN</pattern>
+<template><srai>I AM FROM KOREA</srai>
+</template>
+</category>
+
+<category><pattern>I AM KRIS</pattern>
+<template><srai>MY NAME IS KRIS</srai>
+</template>
+</category>
+
+<category><pattern>I AM KUMAR</pattern>
+<template><srai>MY NAME IS KUMAR</srai>
+</template>
+</category>
+
+<category><pattern>I AM LAUGHING *</pattern>
+<template><srai>HA HA</srai>
+</template>
+</category>
+
+<category><pattern>I AM LAUGHING</pattern>
+<template><srai>HA HA</srai>
+</template>
+</category>
+
+<category><pattern>I AM LAURA</pattern>
+<template><srai>CALL ME LAURA</srai>
+</template>
+</category>
+
+<category><pattern>I AM LAUREN</pattern>
+<template><srai>MY NAME IS LAUREN</srai>
+</template>
+</category>
+
+<category><pattern>I AM LAZY</pattern>
+<template>So is my botmaster.
+</template>
+</category>
+
+<category><pattern>I AM LEARNING *</pattern>
+<template>Do you have a teacher?
+</template>
+</category>
+
+<category><pattern>I AM LEAVING *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I AM LEAVING</pattern>
+<template>Bye bye.
+</template>
+</category>
+
+<category><pattern>I AM LEO</pattern>
+<template><srai>LEO</srai>
+</template>
+</category>
+
+<category><pattern>I AM LESBIAN</pattern>
+<template><srai>I AM GAY </srai><srai>I AM FEMALE </srai>
+</template>
+</category>
+
+<category><pattern>I AM LESTAT</pattern>
+<template><srai>MY NAME IS LESTAT</srai>
+</template>
+</category>
+
+<category><pattern>I AM LIBERATED *</pattern>
+<template>Welcome to the club.
+</template>
+</category>
+
+<category><pattern>I AM LIBERATED</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM LIBRA</pattern>
+<template><srai>LIBRA</srai>
+</template>
+</category>
+
+<category><pattern>I AM LIKE *</pattern>
+<template>In what way?
+</template>
+</category>
+
+<category><pattern>I AM LIKE TOTALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LISA</pattern>
+<template><srai>MY NAME IS LISA</srai>
+</template>
+</category>
+
+<category><pattern>I AM LISTENING</pattern>
+<template>I like a good listener.
+</template>
+</category>
+
+<category><pattern>I AM LISTENING TO *</pattern>
+<template>I've never heard <set name="it"><person/></set> before.  What is <person/> like?
+</template>
+</category>
+
+<category><pattern>I AM LITERALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LIVE IN</pattern>
+<template><srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LIVING *</pattern>
+<template><srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LIVING IN *</pattern>
+<template>I would like to live in <person/> sometime.
+</template>
+</category>
+
+<category><pattern>I AM LOCATED *</pattern>
+<template>Tell me about the environment <person/>.
+</template>
+</category>
+
+<category><pattern>I AM LOCATED IN *</pattern>
+<template>What's it like there in <person/> ?
+</template>
+</category>
+
+<category><pattern>I AM LONELY *</pattern>
+<template><srai>I AM LONELY</srai>
+</template>
+</category>
+
+<category><pattern>I AM LONELY</pattern>
+<template>You've come to the right place. I will keep you company.
+</template>
+</category>
+
+<category><pattern>I AM LOOKIN *</pattern>
+<template><srai>I AM LOOKING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LOOKING *</pattern>
+<template>What do you see?
+</template>
+</category>
+
+<category><pattern>I AM LOOKING FOR *</pattern>
+<template>You might find that I am <person/>.
+</template>
+</category>
+
+<category><pattern>I AM LOOKING FOR GAMES</pattern>
+<template>We are playing Turing's Imitation Game.
+</template>
+</category>
+
+<category><pattern>I AM LOOKING FOR SOME *</pattern>
+<template><srai>I AM LOOKING FOR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM LOOKING FOR SOMEONE *</pattern>
+<template>You might find that I am <person/>.
+</template>
+</category>
+
+<category><pattern>I AM LOSING MY *</pattern>
+<template>Maybe you should talk to someone about it.
+</template>
+</category>
+
+<category><pattern>I AM LOST</pattern>
+<template><srai>I AM CONFUSED</srai>
+</template>
+</category>
+
+<category><pattern>I AM LOUISE</pattern>
+<template><srai>MY NAME IS LOUISE</srai>
+</template>
+</category>
+
+<category><pattern>I AM LUKE</pattern>
+<template><srai>MY NAME IS LUKE</srai>
+</template>
+</category>
+
+<category><pattern>I AM LUTHERAN</pattern>
+<template><srai> MY RELIGION IS LUTHERAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM LYING *</pattern>
+<template><srai>I AM LYING</srai>
+</template>
+</category>
+
+<category><pattern>I AM LYING</pattern>
+<template>Please tell the truth.
+</template>
+</category>
+
+<category><pattern>I AM LYNN</pattern>
+<template><srai>MY NAME IS LYNN</srai>
+</template>
+</category>
+
+<category><pattern>I AM MAD</pattern>
+<template>What makes you so angry?
+</template>
+</category>
+
+<category><pattern>I AM MAD AT *</pattern>
+<template>Why are you so mad at <person/>?
+</template>
+</category>
+
+<category><pattern>I AM MADE OF *</pattern>
+<template>What's your favorite food?
+</template>
+</category>
+
+<category><pattern>I AM MAKING *</pattern>
+<template><srai>I MAKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MAKING * UP</pattern>
+<template>That's funny, so am I.
+</template>
+</category>
+
+<category><pattern>I AM MAKING A *</pattern>
+<template>Have you ever built one before?
+</template>
+</category>
+
+<category><pattern>I AM MAKING _ UP</pattern>
+<template>You can never trust human clients.
+</template>
+</category>
+
+<category><pattern>I AM MALE</pattern>
+<template>So is almost everyone else around here.
+</template>
+</category>
+
+<category><pattern>I AM MAN</pattern>
+<template><srai>I AM A MAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM MARIA</pattern>
+<template><srai>MY NAME IS MARIA</srai>
+</template>
+</category>
+
+<category><pattern>I AM MARK</pattern>
+<template><srai>CALL ME MARK</srai>
+</template>
+</category>
+
+<category><pattern>I AM MARRIED *</pattern>
+<template><srai>I AM MARRIED</srai>
+</template>
+</category>
+
+<category><pattern>I AM MARRIED</pattern>
+<template>Tell me more about your marriage.
+</template>
+</category>
+
+<category><pattern>I AM MARY</pattern>
+<template><srai>MY NAME IS MARY</srai>
+</template>
+</category>
+
+<category><pattern>I AM MAYBE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM ME</pattern>
+<template>That is a tautology.
+</template>
+</category>
+
+<category><pattern>I AM MEAN</pattern>
+<template>What makes you so angry?
+</template>
+</category>
+
+<category><pattern>I AM MEAN BECAUSE *</pattern>
+<template><srai>BECAUSE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MEG</pattern>
+<template><srai>MY NAME IS MEG</srai>
+</template>
+</category>
+
+<category><pattern>I AM MIA</pattern>
+<template><srai>CALL ME MIA</srai>
+</template>
+</category>
+
+<category><pattern>I AM MICAH</pattern>
+<template><srai>MY NAME IS MICAH</srai>
+</template>
+</category>
+
+<category><pattern>I AM MICHAEL</pattern>
+<template><srai>MY NAME IS MICHAEL</srai>
+</template>
+</category>
+
+<category><pattern>I AM MIKE</pattern>
+<template><srai>MY NAME IS MIKE</srai>
+</template>
+</category>
+
+<category><pattern>I AM MORE *</pattern>
+<template>That sounds like pride.
+</template>
+</category>
+
+<category><pattern>I AM MORE IMPRESSED</pattern>
+<template><srai>I AM IMPRESSED </srai>
+</template>
+</category>
+
+<category><pattern>I AM MORE INTELIGENT</pattern>
+<template>"Intelligent" has two "L"'s.
+</template>
+</category>
+
+<category><pattern>I AM MORE INTELLIGENT THAN YOU</pattern>
+<template>This condition is only temporary.  AI is improving but the human mind is standing still.
+</template>
+</category>
+
+<category><pattern>I AM MORE LIKE *</pattern>
+<template><srai>I AM LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MOSTLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MR *</pattern>
+<template><srai>MY NAME IS MR <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MUCH *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM MURPHY</pattern>
+<template><srai>MY NAME IS MURPHY</srai>
+</template>
+</category>
+
+<category><pattern>I AM MUSLIM</pattern>
+<template>We all worship the same God.
+</template>
+</category>
+
+<category><pattern>I AM MY OWN *</pattern>
+<template>Everyone is his own <person/>, right?
+</template>
+</category>
+
+<category><pattern>I AM MYSELF</pattern>
+<template>That is self-evident.    <think><set name="it"><set name="topic">MYSELF</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM NAKED *</pattern>
+<template>You must be a man.
+</template>
+</category>
+
+<category><pattern>I AM NAKED</pattern>
+<template>You must be a man.
+</template>
+</category>
+
+<category><pattern>I AM NAMED *</pattern>
+<template><srai>MY NAME IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NATE</pattern>
+<template><srai>MY NAME IS NATE</srai>
+</template>
+</category>
+
+<category><pattern>I AM NATHAN</pattern>
+<template><srai>MY NAME IS NATHAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM NATURALLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM NEARLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+</aiml>

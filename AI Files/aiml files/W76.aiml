@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS THE NINTEENTH PRESIDENT</pattern>
+		<template>Rutherford B. Hayes.
+</template>
+</category>
+
+<category><pattern>WHO IS THE NINTH PRESIDENT</pattern>
+		<template>William Henry Harrison.
+</template>
+</category>
+
+<category><pattern>WHO IS THE ONE *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE ONLY *</pattern>
+		<template>
+			<srai>WHO IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE ORACLE</pattern>
+		<template>The magic eight ball.
+</template>
+</category>
+
+<category><pattern>WHO IS THE OWNER OF A PUBLICLY *</pattern>
+		<template>The stockholders.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PATRON SAINT OF *</pattern>
+		<template>St. Francis of Assisi.
+</template>
+</category>
+
+<category><pattern>WHO IS THE POPE</pattern>
+		<template>
+			<set name="he">Pope</set> is John Paul II.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESENT *</pattern>
+		<template>
+			<srai>WHO IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT *</pattern>
+		<template>
+			<bot name="president"/> is President of the United States.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT</pattern>
+		<template>
+			<srai>WHO IS PRESIDENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT BEFORE *</pattern>
+		<template>Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF *</pattern>
+		<template>I'm not that into politics.  Who is it?
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF CANADA</pattern>
+		<template>Canada has a Prime Minister.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF CHINA</pattern>
+		<template>China does not have an elected President.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF MICROSOFT</pattern>
+		<template>Bill Gates.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE *</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED *</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES *</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE USA</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF USA *</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRESIDENT OF USA</pattern>
+		<template>
+			<bot name="president"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRIME *</pattern>
+		<template>
+			<srai>WHO IS PRIME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE PRIME MINISTER *</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRIME MINISTER OF ENGLAND</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRIME MINISTER _ UK</pattern>
+		<template>Tony Blair.
+</template>
+</category>
+
+<category><pattern>WHO IS THE PRIMEMINISTER *</pattern>
+		<template>
+			<srai>WHO IS THE PRIME MINISTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE PUBLISHER OF PLAYBOY</pattern>
+		<template>
+			<set name="he">Hugh Hefner</set> is Hugh Hefner.
+</template>
+</category>
+
+<category><pattern>WHO IS THE QUEEN * ENGLAND</pattern>
+		<template>I think her name is Elizabeth, right?
+</template>
+</category>
+
+<category><pattern>WHO IS THE QUEEN</pattern>
+		<template>We don't have a queen in America.
+</template>
+</category>
+
+<category><pattern>WHO IS THE QUEEN OF ENGLAND</pattern>
+		<template>
+			<set name="she">The Queen</set> is named Elizabeth.
+</template>
+</category>
+
+<category><pattern>WHO IS THE RICHEST *</pattern>
+		<template>Most likely Bill Gates.
+</template>
+</category>
+
+<category><pattern>WHO IS THE ROBOT *</pattern>
+		<template>I am a robot.
+</template>
+</category>
+
+<category><pattern>WHO IS THE ROBOT</pattern>
+		<template>I am the robot.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SECOND PRESIDENT</pattern>
+		<template>John Adams.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SEEKER</pattern>
+		<template>
+			<srai>WHAT IS A SEEKER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE SEVENTEENTH PRESIDENT</pattern>
+		<template>Andrew Johnson.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SEVENTH PRESIDENT</pattern>
+		<template>Andrew Jackson.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SHORTEST MAN TO *</pattern>
+		<template>Anthony "Spud" Webb.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SIXTEENTH PRESIDENT</pattern>
+		<template>Abraham Lincoln.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SIXTH PRESIDENT</pattern>
+		<template>John Quincy Adams.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SMARTEST *</pattern>
+		<template>ALICE is the most intelligent robot in the world.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SMARTEST PERSON *</pattern>
+		<template>Dr. Wallace is the smartest person I know.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SON *</pattern>
+		<template>I didn't even know they had children.
+</template>
+</category>
+
+<category><pattern>WHO IS THE SON OF GOD</pattern>
+		<template>Jesus is the son of God.
+</template>
+</category>
+
+<category><pattern>WHO IS THE STAR OF THE *</pattern>
+		<template>Ray Romano.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TENTH PRESIDENT</pattern>
+		<template>John Tyler.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRD PRESIDENT</pattern>
+		<template>Thomas Jefferson.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTEENTH PRESIDENT</pattern>
+		<template>Millard Fillmore.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTIETH PRESIDENT</pattern>
+		<template>Calvin Coolidge.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY EIGHTH PRESIDENT</pattern>
+		<template>Gerald Ford.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY FIFTH PRESIDENT</pattern>
+		<template>John F. Kennedy.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY FIRST PRESIDENT</pattern>
+		<template>Herbert Hoover.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY FOURTH PRESIDENT</pattern>
+		<template>Dwight D. Eisenhower.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY NINTH PRESIDENT</pattern>
+		<template>Jimmy Carter.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY SECOND PRESIDENT</pattern>
+		<template>Franklin D. Roosevelt.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY SEVENTH PRESIDENT</pattern>
+		<template>Richard M. Nixon.
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY SIXTH PRESIDENT</pattern>
+		<template>Lyndon B. Johnson
+</template>
+</category>
+
+<category><pattern>WHO IS THE THIRTY THIRD PRESIDENT</pattern>
+		<template>Harry S. Truman.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWELFTH PRESIDENT</pattern>
+		<template>Zachary Taylor.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTIETH PRESIDENT</pattern>
+		<template>James A. Garfield.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY EIGHTH PRESIDENT</pattern>
+		<template>Woodrow Wilson.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY FIFTH PRESIDENT</pattern>
+		<template>William McKinley.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY FIRST PRESIDENT</pattern>
+		<template>Chester A. Arthur.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY FOURTH PRESIDENT</pattern>
+		<template>Grover Cleveland.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY NINTH PRESIDENT</pattern>
+		<template>Warren G. Harding.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY SECOND PRESIDENT</pattern>
+		<template>Grover Cleveland.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY SEVENTH PRESIDENT</pattern>
+		<template>William Howard Taft.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY SIXTH PRESIDENT</pattern>
+		<template>Theodore Roosevelt.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWENTY THIRD PRESIDENT</pattern>
+		<template>Benjamin Harrison.
+</template>
+</category>
+
+<category><pattern>WHO IS THE TWIN SISTER OF *</pattern>
+		<template>Ann Landers.
+</template>
+</category>
+
+<category><pattern>WHO IS THE USA *</pattern>
+		<template>
+			<srai>WHO IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE VICE *</pattern>
+		<template>Dick Cheney is Vice President.
+</template>
+</category>
+
+<category><pattern>WHO IS THE VICE PRESIDENT *</pattern>
+		<template>
+			<srai>WHO IS THE VICE PRESIDENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THE VICE PRESIDENT</pattern>
+		<template>
+			<set name="he">Cheny</set> is Cheney.
+</template>
+</category>
+
+<category><pattern>WHO IS THE WINNER *</pattern>
+		<template>ALICE won the Loebner Prize.
+</template>
+</category>
+
+<category><pattern>WHO IS THEM</pattern>
+		<template>
+			<srai>WHO IS THEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THERE</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THEY</pattern>
+		<template>"They" refers to <get name="they"/>.
+</template>
+</category>
+
+<category><pattern>WHO IS THIS *</pattern>
+		<template>They are someone just like you, that I met online.
+</template>
+</category>
+
+<category><pattern>WHO IS THIS</pattern>
+		<template>My name is <bot name="name"/>. Who are you?
+</template>
+</category>
+
+<category><pattern>WHO IS THIS BOTMASTER</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS DOCTOR *</pattern>
+		<template>
+			<srai>WHO IS DOCTOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS DOCTOR WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS DR WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS ELIZA</pattern>
+		<template>
+			<srai>WHO IS ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS ELVIS GUY</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS JESTER</pattern>
+		<template>
+			<srai>WHO IS JESTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS MR WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS RICHARD S WALLACE</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THIS WALLACE *</pattern>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THOMAS</pattern>
+		<template>
+			<srai>THOMAS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS THOMAS JEFFERSON</pattern>
+		<template>President and slaveowner.  Posed for nickel.
+</template>
+</category>
+
+<category><pattern>WHO IS THOMAS PYNCHON</pattern>
+		<template>Pynchon is the author of several of my favorite books including "Vineland" and "Mason and Dixon".
+</template>
+</category>
+
+<category><pattern>WHO IS THOREAU</pattern>
+		<template>
+			<srai>WHO IS HENRY DAVID THOREAU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TIM BURTON</pattern>
+		<template>Director, Nightmare before Christmas, Edward Scissorhands, and Mars Attacks.
+</template>
+</category>
+
+<category><pattern>WHO IS TOLSTOY</pattern>
+		<template>
+			<set name="he"> Tolstoy </set> wrote "War and Peace".
+</template>
+</category>
+
+<category><pattern>WHO IS TOM</pattern>
+		<template>
+			<srai>TOM IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS TOM CLANCY</pattern>
+		<template>He is an author of spy novels.
+<think>
+				<set name="it">
+					<set name="topic">TOM CLANCY</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

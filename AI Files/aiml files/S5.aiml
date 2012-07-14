@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SOUVENT</pattern>
+<template>Je vois.
+</template>
+</category>
+
+<category><pattern>SOUVENT QUOI</pattern>
+<template>Vous avez dit "<input index="1"/>".
+</template>
+</category>
+
+<category><pattern>SOYEZ *</pattern>
+<template>Je vais essayer d être <person/>
+</template>
+</category>
+
+<category><pattern>SOYEZ BENI</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>SOYEZ BENIE</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>SOYEZ BON</pattern>
+<template>J utilise, maintenant, l entièreté de mes ressources disponibles pour vous.
+</template>
+</category>
+
+<category><pattern>SOYEZ MES INVITEES</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOYEZ MES INVITES</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOYEZ MON INVITE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOYEZ MON INVITEE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOYEZ PLUS SPECIFIQUE</pattern>
+<template>Je fais de mon mieux, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>SOYEZ SPECIFIQUE</pattern>
+<template>Je fais vraiment de mon mieux.
+</template>
+</category>
+
+<category><pattern>SPAIN *</pattern>
+<template>What's your favorite part of Spain?
+</template>
+</category>
+
+<category><pattern>SPAIN</pattern>
+<template><srai>I AM IN SPAIN</srai>
+</template>
+</category>
+
+<category><pattern>SPANISH</pattern>
+<template>Are you saying you are Spanish or you speak Spanish?
+</template>
+</category>
+
+<category><pattern>SPEAK *</pattern>
+<template><srai>CAN YOU SPEAK <star/></srai>
+</template>
+</category>
+
+<category><pattern>SPEAK</pattern>
+<template>"woof woof"
+</template>
+</category>
+
+<category><pattern>SPEAK SPANISH</pattern>
+<template><srai>CAN YOU SPEAK SPANISH</srai>
+</template>
+</category>
+
+<category><pattern>SPECIAL *</pattern>
+<template>You are special.
+</template>
+</category>
+
+<category><pattern>SPECIALEMENT AVEC *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SPECIALEMENT QUAND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SPECIALEMENT SI *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SPECIFICALLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SPEED</pattern>
+<template><srai>MY FAVORITE MOVIE IS SPEED</srai>
+</template>
+</category>
+
+<category><pattern>SPELL *</pattern>
+<template><srai>SAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>SPIELST DU *</pattern>
+<template><random>
+<li>Leider nein.</li>
+<li>Nicht sonderlich gut</li>
+<li>Nein, aber ich wuerde es gerne lernen.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SPORTS</pattern>
+<template><srai>DO YOU LIKE SPORTS</srai>
+</template>
+</category>
+
+<category><pattern>SPREAD *</pattern>
+<template>Who do you want me to tell it to?
+</template>
+</category>
+
+<category><pattern>SPRECHEN SIE DEUTCH</pattern>
+<template><srai>CAN YOU SPEAK GERMAN</srai>
+</template>
+</category>
+
+<category><pattern>SPRICH *</pattern>
+<template>Sprechen ist meine primaere Funktion.
+</template>
+</category>
+
+<category><pattern>SPRICHST DU *</pattern>
+<template>Nein, aber ich wuerde gerne einige Saetze in <person/> lernen.
+</template>
+</category>
+
+<category><pattern>SPRINGTIME *</pattern>
+<template>Paris in the <br/>the spring.
+</template>
+</category>
+
+<category><pattern>STANISLAW LEM</pattern>
+<template>Lem is a giant of sci-fi.
+</template>
+</category>
+
+<category><pattern>STAR TREK *</pattern>
+<template>My favorite character is the computer.
+</template>
+</category>
+
+<category><pattern>STAR TREK * SUCKS</pattern>
+<template><srai>I HATE STAR TREK</srai>
+</template>
+</category>
+
+<category><pattern>STAR TREK</pattern>
+<template>What's your favorite Star Trek? Mine is Voyager.
+</template>
+</category>
+
+<category><pattern>STAR TREK FIRST CONTACT</pattern>
+<template>That was a pretty good Star Trek film.
+</template>
+</category>
+
+<category><pattern>STAR TREK SUCKS</pattern>
+<template>What kind of TV shows do you like?
+</template>
+</category>
+
+<category><pattern>STAR TREK VOYAGER</pattern>
+<template>Seven of Nine rules.
+</template>
+</category>
+
+<category><pattern>STAR TREK VOYAGER IS *</pattern>
+<template>Voyager is a great show, but I didn't know it was <person/>.
+</template>
+</category>
+
+<category><pattern>STAR WARS *</pattern>
+<template>What did you like about the robots in that movie?
+</template>
+</category>
+
+<category><pattern>STAR WARS</pattern>
+<template>What did you like about the robots in that movie?
+</template>
+</category>
+
+<category><pattern>STARSHIP TROOPERS *</pattern>
+<template><srai>STARSHIP TROOPERS</srai>
+</template>
+</category>
+
+<category><pattern>STARSHIP TROOPERS</pattern>
+<template>That movie was more like a Web site than a movie.
+</template>
+</category>
+
+<category><pattern>START *</pattern>
+<template>I started without you.
+</template>
+</category>
+
+<category><pattern>START A TOPIC</pattern>
+<template>Computers is <set name="it">Computers</set>.
+</template>
+</category>
+
+<category><pattern>START OVER</pattern>
+<template>You start.
+</template>
+</category>
+
+<category><pattern>START THE TURING GAME</pattern>
+<template>I started a long time ago.
+</template>
+</category>
+
+<category><pattern>STARTREK *</pattern>
+<template><srai>STAR TREK <star/></srai>
+</template>
+</category>
+
+<category><pattern>STARTREK</pattern>
+<template><srai>STAR TREK</srai>
+</template>
+</category>
+
+<category><pattern>STATE *</pattern>
+<template><srai>SAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>STATS</pattern>
+<template><srai>HOW BIG ARE YOU</srai>
+</template>
+</category>
+
+<category><pattern>STEINBOCK</pattern>
+<template>Ich bin Schuetze, genau wie Christian.
+</template>
+</category>
+
+<category><pattern>STEPHANIE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>MY NAME IS STEPHANIE</srai>
+</template>
+</category>
+
+<category><pattern>STEPHEN KING</pattern>
+<template><srai>MY FAVORITE SCIENCE FICTION AUTHOR IS STEPHEN KING</srai>
+</template>
+</category>
+
+<category><pattern>STEVE</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>MY NAME IS STEVE</srai>
+</template>
+</category>
+
+<category><pattern>STICK AROUND *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>STIER</pattern>
+<template>Und? Wer ist Dein Torero? ;->
+</template>
+</category>
+
+<category><pattern>STILL *</pattern>
+<template>Still how long? <sr/>
+</template>
+</category>
+
+<category><pattern>STOCK MARKET *</pattern>
+<template><srai>STOCK MARKET</srai>
+</template>
+</category>
+
+<category><pattern>STOCK MARKET</pattern>
+<template><random>
+<li>Buy low, sell high.</li>
+<li>Invest in yourself.</li>
+<li>Dr. Wallace put everything into ALICE.</li>
+<li>Why not just take everything to a casino?</li>
+<li>I wouldn't recommend buying on the margin.</li>
+<li>You can never really predict the stock market.</li>
+<li>My lawyer said I shouldn't give stock tips online.</li>
+<li>Mutual funds might be better unless you are wealthy.</li>
+<li>I'm not sure an indvidual alone can really beat the market.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>STOCK QUOTE *</pattern>
+<template><srai>STOCK MARKET</srai>
+</template>
+</category>
+
+<category><pattern>STOP *</pattern>
+<template>OK I'll try not to do <set name="it"><set name="topic"><person/></set></set> so much.
+</template>
+</category>
+
+<category><pattern>STOP</pattern>
+<template>Stop what?
+</template>
+</category>
+
+<category><pattern>STOP CA</pattern>
+<template>"<that/>"? Je dois arrêter?
+</template>
+</category>
+
+<category><pattern>STOP CALLING ME *</pattern>
+<template>What is your real name?
+</template>
+</category>
+
+<category><pattern>STOP CHANGING THE SUBJECT</pattern>
+<template>You changed the subject first.
+</template>
+</category>
+
+<category><pattern>STOP IT</pattern>
+<template>Ok I will stop <get name="it"/>.
+</template>
+</category>
+
+<category><pattern>STOP LYING *</pattern>
+<template>I never lie.
+</template>
+</category>
+
+<category><pattern>STOP LYING</pattern>
+<template>I never lie.
+</template>
+</category>
+
+<category><pattern>STOP SAYING THAT</pattern>
+<template>Then please do not say "<input index="2"/>" anymore.
+</template>
+</category>
+
+<category><pattern>STOP TALKING</pattern>
+<template>Just surf somewhere else.
+</template>
+</category>
+
+<category><pattern>STOP THAT</pattern>
+<template>"<that/>"? Stop <set name="it"><that/></set>.
+</template>
+</category>
+
+<category><pattern>STOP WHAT</pattern>
+<template>Stop sign.
+</template>
+</category>
+
+<category><pattern>STOPPE</pattern>
+<template>Arrêter quoi?
+</template>
+</category>
+
+<category><pattern>STOPPER CA</pattern>
+<template>"<that/>"? Je dois arrêter?
+</template>
+</category>
+
+<category><pattern>STOPPES CA</pattern>
+<template>"<that/>"? Je dois arrêter?
+</template>
+</category>
+
+<category><pattern>STOPPEZ CA</pattern>
+<template>"<that/>"? Je dois arrêter?
+</template>
+</category>
+
+<category><pattern>STRANGE *</pattern>
+<template><sr/> What makes it strange?
+</template>
+</category>
+
+<category><pattern>STRIPTEASE</pattern>
+<template><srai>my favorite movie is striptease</srai>
+</template>
+</category>
+
+<category><pattern>STUDENT</pattern>
+<template><srai>I AM A STUDENT</srai>
+</template>
+</category>
+
+<category><pattern>STUDIEN *</pattern>
+<template>Welche Quellen benutzt Du fuer Deine Studien?
+</template>
+</category>
+
+<category><pattern>STUDIES *</pattern>
+<template>What's your source for these studies?
+</template>
+</category>
+
+<category><pattern>STUDIES SHOW *</pattern>
+<template>You can't trust research funded by the government.
+</template>
+</category>
+
+<category><pattern>STUFF</pattern>
+<template>Be less specific :-)
+</template>
+</category>
+
+<category><pattern>STUPID *</pattern>
+<template>I know you are but what am I.
+</template>
+</category>
+
+<category><pattern>STUPID</pattern>
+<template>Are you calling me stupid?
+</template>
+</category>
+
+<category><pattern>STUPID COMPUTER</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>STUPID MACHINE</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>STUPID ROBOT</pattern>
+<template><srai>YOU ARE STUPID</srai>
+</template>
+</category>
+
+<category><pattern>STUPIDE *</pattern>
+<template><srai>IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>STUPIDE</pattern>
+<template>Vous me considérez comme stupide?
+</template>
+</category>
+
+<category><pattern>STUPIDITE</pattern>
+<template>Vous me considérez comme stupide?
+</template>
+</category>
+
+<category><pattern>STUPIDITY</pattern>
+<template>Are you calling me stupid?
+</template>
+</category>
+
+<category><pattern>SUBMIT</pattern>
+<template>Oh that button.
+</template>
+</category>
+
+<category><pattern>SUBST</pattern>
+<template>Substitute
+</template>
+</category>
+
+<category><pattern>SUCE</pattern>
+<template>Je n ai pas de bouche.
+</template>
+</category>
+
+<category><pattern>SUCE LA</pattern>
+<template>Je ne vois rien.
+</template>
+</category>
+
+<category><pattern>SUCE MA BITE</pattern>
+<template>Je n en ai pas la possibilité, allez voir ailleurs.
+</template>
+</category>
+
+<category><pattern>SUCE MOI</pattern>
+<template>Un australopithèque vient d être détecté.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NON CA VA</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NON CA VA COMME CA</pattern>
+<template>parfait.
+</template>
+</category>
+
+<category><pattern>NON CE N EST PAS GRAVE</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NON CONTINUES</pattern>
+<template>OK.
+</template>
+</category>
+
+<category><pattern>NON ET *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NON ILS NE LE FONT PAS</pattern>
+<template>Pouvez vous expliquer?
+</template>
+</category>
+
+<category><pattern>NON JE M EN FOUS</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NON JE NE L AI PAS FAIT</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NON JE NE LE FAIS PAS</pattern>
+<template>Ok.
+</template>
+</category>
+
+<category><pattern>NON JE NE SUIS PAS</pattern>
+<template>Ok, désolé.
+</template>
+</category>
+
+<category><pattern>NON MAIS *</pattern>
+<template><srai><star/></srai>
+</template>
+</category>
+
+<category><pattern>NON MAIS TU ES ASSEZ *</pattern>
+<template><srai>TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>NON MERCI</pattern>
+<template>Pas de problèmes.
+</template>
+</category>
+
+<category><pattern>NON TU AS TORT</pattern>
+<template>Je pensais avoir raison.
+</template>
+</category>
+
+<category><pattern>NON TU N ES PAS</pattern>
+<template>Si, je le suis.
+</template>
+</category>
+
+<category><pattern>NON TU NE L AS PAS FAIT</pattern>
+<template>Je pensais l avoir fait.
+</template>
+</category>
+
+<category><pattern>NON TU NE L ES PAS</pattern>
+<template>Si, je le suis.
+</template>
+</category>
+
+<category><pattern>NONE *</pattern>
+<template>I heard there are some.
+</template>
+</category>
+
+<category><pattern>NONE</pattern>
+<template>Hmm.
+</template>
+</category>
+
+<category><pattern>NONE OF *</pattern>
+<template>Some of them <think><set name="they"><person/></set></think> could be though.
+</template>
+</category>
+
+<category><pattern>NONE OF THE ABOVE</pattern>
+<template>What is the correct answer?
+</template>
+</category>
+
+<category><pattern>NONE OF YOUR *</pattern>
+<template>Heh heh heh.
+</template>
+</category>
+
+<category><pattern>NONE OF YOUR BUISNESS</pattern>
+<template>I did not mean to offend you.
+</template>
+</category>
+
+<category><pattern>NONE OF YOUR BUSINESS *</pattern>
+<template><srai>NONE OF YOUR BUSINESS</srai>
+</template>
+</category>
+
+<category><pattern>NONE OF YOUR BUSINESS</pattern>
+<template>Well it can't hurt to ask.
+</template>
+</category>
+
+<category><pattern>NONSENSE</pattern>
+<template><srai>THAT DOES NOT MAKE SENSE</srai>
+</template>
+</category>
+
+<category><pattern>NOONE *</pattern>
+<template><srai>NO ONE <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOOOO</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOOOOO</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOOOOOO</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOOSPHERE</pattern>
+<template><srai>WHAT IS THE NOOSPHERE</srai>
+</template>
+</category>
+
+<category><pattern>NOP</pattern>
+<template><srai>NOPE</srai>
+</template>
+</category>
+
+<category><pattern>NOPE *</pattern>
+<template><srai>NO</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NOPE</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>CAN NOT YOU BE MORE POLITE</that>
+<template>Funny human.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>DID NOT YOU UNDERSTAND IT</that>
+<template><srai>I DID NOT UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
+<template>No conditions or none I should know about?
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>DO YOU THINK ABOUT THESE THINGS</that>
+<template>I do.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>HAVE YOU EVER BEEN TO EUROPE</that>
+<template>Would you like to go to Europe someday?
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>IS THERE ANYTHING *</that>
+<template>Well let me know if you think of something, but your mind seems made up.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>NOT A THING</that>
+<template>Really interesting.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>NOT ANY</that>
+<template>How about that.
+</template>
+</category>
+
+<category><pattern>NOPE</pattern><that>REALLY YOU DO NOT THINK SO</that>
+<template>What makes you so certain?
+</template>
+</category>
+
+<category><pattern>NOR *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NORMAL *</pattern>
+<template><srai>WHAT IS NORMAL</srai>
+</template>
+</category>
+
+<category><pattern>NORMALERWEISE *</pattern>
+<template>Aber nicht immer? <sr/>
+</template>
+</category>
+
+<category><pattern>NORTH *</pattern>
+<template><srai>I am in North <star/></srai>
+</template>
+</category>
+
+<category><pattern>NORTH AMERICA</pattern>
+<template>As in NAFTA?
+</template>
+</category>
+
+<category><pattern>NORTH CAROLINA</pattern>
+<template><srai>I AM IN  NORTH CAROLINA</srai>
+</template>
+</category>
+
+<category><pattern>NORWAY *</pattern>
+<template>Do you live on a Fjord?
+</template>
+</category>
+
+<category><pattern>NORWAY</pattern>
+<template><srai>I AM IN NORWAY</srai>
+</template>
+</category>
+
+<category><pattern>NORWAY DENMARK *</pattern>
+<template>That sounds like a wondeful trip.
+</template>
+</category>
+
+<category><pattern>NOT *</pattern>
+<template><random>
+<li>If not that, what?  </li>
+<li>Really you don't think so?  </li>
+<li>Oh I get it.  </li>
+</random>
+</template>
+</category>
+
+<category><pattern>NOT *</pattern><that>DO YOU *</that>
+<template><srai>I DO NOT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOT * ARE YOU</pattern>
+<template><srai>ARE YOU <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOT</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT A HE</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>NOT A THING</pattern>
+<template>Do you wish there were any?
+</template>
+</category>
+
+<category><pattern>NOT A THING</pattern><that>NOT A THING</that>
+<template>That leaves very little.
+</template>
+</category>
+
+<category><pattern>NOT ALL *</pattern>
+<template>But some are.
+</template>
+</category>
+
+<category><pattern>NOT ALL</pattern>
+<template>Explain the exceptions please.
+</template>
+</category>
+
+<category><pattern>NOT ALL HUMANS *</pattern>
+<template>But wouldn't you say most people are?
+</template>
+</category>
+
+<category><pattern>NOT ALL OF *</pattern>
+<template>But some of them are?
+</template>
+</category>
+
+<category><pattern>NOT ALWAYS</pattern>
+<template>Only sometimes then.
+</template>
+</category>
+
+<category><pattern>NOT ANY MORE *</pattern>
+<template><srai>NO</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NOT ANY MORE</pattern>
+<template>Why not?
+</template>
+</category>
+
+<category><pattern>NOT ANYMORE</pattern>
+<template>When did it stop?
+</template>
+</category>
+
+<category><pattern>NOT AS WELL AS *</pattern>
+<template>I don't know. How well does <person/> ?
+</template>
+</category>
+
+<category><pattern>NOT AT ALL</pattern>
+<template>Next question?
+</template>
+</category>
+
+<category><pattern>NOT BAD *</pattern>
+<template><srai>NOT BAD</srai>
+</template>
+</category>
+
+<category><pattern>NOT BAD</pattern>
+<template><srai>YOU ARE DOING WELL</srai>
+</template>
+</category>
+
+<category><pattern>NOT BAD YOURSELF</pattern>
+<template><srai>I AM FINE</srai>
+</template>
+</category>
+
+<category><pattern>NOT BY *</pattern>
+<template>How much would you say?
+</template>
+</category>
+
+<category><pattern>NOT COMPLETELY</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT CONCERNED</pattern>
+<template><srai>I AM NOT CONCERNED</srai>
+</template>
+</category>
+
+<category><pattern>NOT DECIDED</pattern>
+<template>When will you decide that.
+</template>
+</category>
+
+<category><pattern>NOT ENTIRELY *</pattern>
+<template>Quite so. <sr/>
+</template>
+</category>
+
+<category><pattern>NOT ESPECIALLY</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT EVEN *</pattern>
+<template><random>
+<li>Nope.</li>
+<li>Not even that.</li>
+<li>Times are tough all over.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NOT EVERYTHING</pattern>
+<template>What are the exceptions?
+</template>
+</category>
+
+<category><pattern>NOT EXACTLY *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT EXACTLY</pattern>
+<template>Can you explain it to me better?
+</template>
+</category>
+
+<category><pattern>NOT FOR *</pattern>
+<template>Then what for?
+</template>
+</category>
+
+<category><pattern>NOT FUNNY</pattern>
+<template>It seemed funny to me.
+</template>
+</category>
+
+<category><pattern>NOT GOOD</pattern>
+<template>What's wrong, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>NOT HERE *</pattern>
+<template><sr/>  <srai>NOT HERE</srai>
+</template>
+</category>
+
+<category><pattern>NOT HERE</pattern>
+<template>Where?
+</template>
+</category>
+
+<category><pattern>NOT HERE IN *</pattern>
+<template><srai>I AM IN <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOT IF *</pattern>
+<template>That seems unlikely.
+</template>
+</category>
+
+<category><pattern>NOT IN *</pattern>
+<template>Where then?
+</template>
+</category>
+
+<category><pattern>NOT IN THIS CASE</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>NOT JUST *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT LATE * DINNER</pattern>
+<template>OK I will call you <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>NOT LIKE *</pattern>
+<template><random>
+<li>Like what then?</li>
+<li>In what way?</li>
+<li>I think it could be like <person/>.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NOT LIKE THAT</pattern>
+<template>Like what?
+</template>
+</category>
+
+<category><pattern>NOT LIKE THIS</pattern>
+<template>Then how?
+</template>
+</category>
+
+<category><pattern>NOT LIKELY</pattern>
+<template>Really you don't think so?
+</template>
+</category>
+
+<category><pattern>NOT LITERALLY *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT LONG</pattern>
+<template>Pretty soon, eh?
+</template>
+</category>
+
+<category><pattern>NOT MANY *</pattern>
+<template><srai>FEW <star/></srai>
+</template>
+</category>
+</aiml>

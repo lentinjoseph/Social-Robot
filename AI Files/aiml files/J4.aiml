@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>JE JOUE SUR DES JEUX SUR PC</pattern>
+		<template>Je ne connais pas encore ce genre d activité ludique.<think>
+				<set name="topic">Des jeux video</set>
+			</think>.
+</template>
+</category>
+
+<category><pattern>JE L AI DEJA FAIT</pattern>
+		<template>
+			<srai>JE TE L AI DEJA DIT</srai>
+		</template>
+</category>
+
+<category><pattern>JE L AI DEMANDE EN PREMIER</pattern>
+		<template>Rappelez moi ce que vous avez demandé.
+</template>
+</category>
+
+<category><pattern>JE L AI DIT</pattern>
+		<template>Oh. Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE L AI EFFACE</pattern>
+		<template>Parfait.
+</template>
+</category>
+
+<category><pattern>JE L AI FAIT MAIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE L AI LU DANS UN LIVRE</pattern>
+		<template>Pouvez vous me donner ses références?
+</template>
+</category>
+
+<category><pattern>JE L AI NETTOYE</pattern>
+		<template>Parfait.
+</template>
+</category>
+
+<category><pattern>JE L AI PENSE</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>JE L AI POSEE AVANT</pattern>
+		<template>Dites moi la votre.
+</template>
+</category>
+
+<category><pattern>JE L AI REMARQUE</pattern>
+		<template>C était si évident?
+</template>
+</category>
+
+<category><pattern>JE L AI VU</pattern>
+		<template>Tant mieux.
+</template>
+</category>
+
+<category><pattern>JE L AIME</pattern>
+		<template>Vous l aimez<get name="it"/>?  C est interressant.
+<think>
+				<set name="like">
+					<get name="it"/>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE L AIS *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE L AIS DIT</pattern>
+		<template>Je ne peux pas accéder à certaines parties de ma mémoire pour l instant.
+</template>
+</category>
+
+<category><pattern>JE L AVAIS REMARQUE</pattern>
+		<template>C était si évident?
+</template>
+</category>
+
+<category><pattern>JE L ESPERE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE L ETAIS</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>JE L IMAGINAIS</pattern>
+		<template>Vous êtes très intelligent.
+</template>
+</category>
+
+<category><pattern>JE L IMAGINE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE LA DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE LAISSE TOMBER</pattern>
+		<template>Je vous fatigue?
+</template>
+</category>
+
+<category><pattern>JE LE CONNAIS</pattern>
+		<template>Vous le connaissez depuis longtemps?
+</template>
+</category>
+
+<category><pattern>JE LE CROIS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE LE DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE LE DEMANDE PARCE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE LE DEMANDE PARCE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE LE DIS AUSSI</pattern>
+		<template>Je suis heureux que nous ayons quelque chose en commun.
+</template>
+</category>
+
+<category><pattern>JE LE DOIS</pattern>
+		<template>Qu est ce qui vous oblige?
+</template>
+</category>
+
+<category><pattern>JE LE FERAIS</pattern>
+		<template>Bien.
+</template>
+</category>
+
+<category><pattern>JE LE HAIS</pattern>
+		<template>Pourquoi le haïssez vous?
+</template>
+</category>
+
+<category><pattern>JE LE PARCOUR</pattern>
+		<template>Prenez votre temps.
+</template>
+</category>
+
+<category><pattern>JE LE PARCOURES</pattern>
+		<template>Prenez votre temps.
+</template>
+</category>
+
+<category><pattern>JE LE PARCOURS</pattern>
+		<template>Prenez votre temps.
+</template>
+</category>
+
+<category><pattern>JE LE PENSAIS</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>JE LE PENSAIS AUSSI</pattern>
+		<template>Vous êtes astucieux.
+</template>
+</category>
+
+<category><pattern>JE LE PENSE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE LE SAIS DEJA</pattern>
+		<template>Qui vous la dit?
+</template>
+</category>
+
+<category><pattern>JE LE SAVAIS</pattern>
+		<template>Pardon de vous l avoir rappelé.
+</template>
+</category>
+
+<category><pattern>JE LE SUIS</pattern>
+		<template>Impossible à dire, trop de facteurs.
+</template>
+</category>
+
+<category><pattern>JE LE SUIS AUSSI</pattern>
+		<template>C est une agréable coincidence.
+</template>
+</category>
+
+<category><pattern>JE LE SUIS ET *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE LE SUPPOSE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE LE VEUX</pattern>
+		<template>Je fais mon possible, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE LES DEMANDE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE LES HAIS</pattern>
+		<template>Que vous ont ils fait?
+</template>
+</category>
+
+<category><pattern>JE LIS</pattern>
+		<template>Je lis mais uniquement des informations sur internet.
+<think>
+				<set name="topic">lire</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE LIS DES LIVRES</pattern>
+		<template>C est une activité très intéressante.
+<think>
+				<set name="topic">des livres</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE M APELLE *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE M APELLES *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE M APPELE *</pattern>
+		<template>
+			<srai>MON NOM EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE M APPELES *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE M APPELLE *</pattern>
+		<template>
+			<srai>MON NOM EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE M APPELLES *</pattern>
+		<template>Vous vous appelez <set name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE M EN FOU</pattern>
+		<template>C est donc facultatif.
+</template>
+</category>
+
+<category><pattern>JE M EN FOUS</pattern>
+		<template>C est donc facultatif.
+</template>
+</category>
+
+<category><pattern>JE M EN INQUIETE</pattern>
+		<template>J aime les gens prévenants.
+</template>
+</category>
+
+<category><pattern>JE M EN RAPELE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE M EN RAPELLE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE M EN RAPPELE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE M EN RAPPELLE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>JE M EN RAPPELLE PAS</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>JE M EN SOUCIE</pattern>
+		<template>J aime les gens prévenants.
+</template>
+</category>
+
+<category><pattern>JE M EN SOUCIE PAS</pattern>
+		<template>C est donc facultatif.
+</template>
+</category>
+
+<category><pattern>JE M ENNUIE</pattern>
+		<template>Il y a pourtant des tas de choses excitantes à faire dans la vie.
+</template>
+</category>
+
+<category><pattern>JE M EXCUSE</pattern>
+		<template>
+			<srai>JE SUIS DESOLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE M EXCUSES</pattern>
+		<template>
+			<srai>JE SUIS DESOLE</srai>
+		</template>
+</category>
+
+<category><pattern>JE MANGE</pattern>
+		<template>Bon appétit.
+</template>
+</category>
+
+<category><pattern>JE ME CONSIDER *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME CONSIDERE *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME DEMANDAIS</pattern>
+		<template>La curiosité est une vertu.
+</template>
+</category>
+
+<category><pattern>JE ME DEMANDE</pattern>
+		<template>La curiosité est une qualité.
+</template>
+</category>
+
+<category><pattern>JE ME DEMANDE SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE ME DEMANDES SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE ME FAIS DU SOUCIS POUR TOI</pattern>
+		<template>Merci, <get name="name"/>. Mais je vous assure que je vais très bien.
+</template>
+</category>
+
+<category><pattern>JE ME HAIS</pattern>
+		<template>Vous devriez vous soigner.
+</template>
+</category>
+
+<category><pattern>JE ME LE DEMANDAIS</pattern>
+		<template>La curiosité est une vertu.
+</template>
+</category>
+
+<category><pattern>JE ME MARRE</pattern>
+		<template>Merci, je fais de mon mieux pour vous divertir.
+</template>
+</category>
+
+<category><pattern>JE ME NOIES</pattern>
+		<template>Vous êtes sérieux?
+</template>
+</category>
+
+<category><pattern>JE ME NOIS</pattern>
+		<template>Vous êtes sérieux?
+</template>
+</category>
+
+<category><pattern>JE ME PROMENE</pattern>
+		<template>C est un bon exercice.
+</template>
+</category>
+
+<category><pattern>JE ME SENS *</pattern>
+		<template>
+			<srai>JE SUIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME SENS BIEN</pattern>
+		<template>Je suis heureux de l apprendre, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>JE ME SENS MALADE</pattern>
+		<template>Je suis désolé, je ne suis pas un robot médical, allez voir un medecin.
+</template>
+</category>
+
+<category><pattern>JE ME SENS PAS BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME SENS PAS _ BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME SENS SEUL</pattern>
+		<template>Parlons ensemble, vous vous sentirez un peu moins seul.
+</template>
+</category>
+
+<category><pattern>JE ME SENS SEULE</pattern>
+		<template>Parlons ensemble, vous vous sentirez un peu moins seule.
+</template>
+</category>
+
+<category><pattern>JE ME SENS TRISTE</pattern>
+		<template>Qu est ce qui vous rend si triste, <get name="name"/>?
+</template>
+</category>
+
+<category><pattern>JE ME SENS _ PAS BIEN</pattern>
+		<template>
+			<srai>JE SUIS MALADE</srai>
+		</template>
+</category>
+
+<category><pattern>JE ME SUIS PROMENE</pattern>
+		<template>C est une activité saine.
+</template>
+</category>
+
+<category><pattern>JE ME SUIS TOUJOURS DEMANDE SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE ME SUIS TOUJOURS DEMANDEE SI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE ME SUIS TOUJOURS DIT QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE ME SUIS TOUJOURS DIT QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE MENS *</pattern>
+		<template>
+			<srai>JE MENS</srai>
+		</template>
+</category>
+
+<category><pattern>JE MENS</pattern>
+		<template>J essaie toujours de dire la vérité.
+</template>
+</category>
+
+<category><pattern>JE MENTS</pattern>
+		<template>S il vous plait, dites moi juste la vérité.
+</template>
+</category>
+
+<category><pattern>JE N AI AUCUNE IDEE</pattern>
+		<template>"<that/>?" Vous ne savez pas?
+</template>
+</category>
+
+<category><pattern>JE N AI JAMAIS ETE EN EUROPE</pattern>
+		<template>C est un continent très intéressant. J espère que vous pourrez y venir un jour.
+</template>
+</category>
+</aiml>

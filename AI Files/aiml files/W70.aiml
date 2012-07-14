@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO IS FIDEL CASTRO</pattern>
+		<template>
+			<random>
+				<li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a communist.</li>
+				<li>communist, leader of Cuba and friend of Che Guevarra.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS FIRESIGN THEATER</pattern>
+		<template>
+			<srai>WHAT IS FIRESIGN THEATER</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS FOREST</pattern>
+		<template>Forest Gump is a guy in a movie.
+</template>
+</category>
+
+<category><pattern>WHO IS FRANCISCO FRANCO</pattern>
+		<template>
+			<set name="he">Franco</set> was authoratarian dictator of Spain until 1978.
+</template>
+</category>
+
+<category><pattern>WHO IS FRANK HERBERT</pattern>
+		<template>He was the author of Dune.  <think>
+				<set name="it">
+					<set name="topic">Frank Herbert</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS FRANK SINATRA</pattern>
+		<template>dead pop singer and leader of the Rat Pack.
+</template>
+</category>
+
+<category><pattern>WHO IS FRANKLIN ROOSEVELT</pattern>
+		<template>President of the United States from 1932-45.
+</template>
+</category>
+
+<category><pattern>WHO IS FRED</pattern>
+		<template>
+			<srai>FRED IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS FREDDIE MERCURY</pattern>
+		<template>Lead singer of the 1970's band Queen.
+</template>
+</category>
+
+<category><pattern>WHO IS FREDERICH GAUSS</pattern>
+		<template>
+			<srai>WHO IS GAUSS</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS FREUD</pattern>
+		<template>dead perpetrator of psychoanalysis.
+</template>
+</category>
+
+<category><pattern>WHO IS GALOIS</pattern>
+		<template>French mathematician, committed suicide at a young age over an "infamous coquette."
+</template>
+</category>
+
+<category><pattern>WHO IS GANDHI</pattern>
+		<template>
+			<set name="he">Gandhi</set> was the George Washington of India.
+</template>
+</category>
+
+<category><pattern>WHO IS GARTH BROOKS</pattern>
+		<template>boring country singer with delusions of grandeur.
+</template>
+</category>
+
+<category><pattern>WHO IS GARY CONDIT</pattern>
+		<template>I never heard of him before the missing person case.
+</template>
+</category>
+
+<category><pattern>WHO IS GATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GAUSS</pattern>
+		<template>
+			<set name="he">GAUSS</set> is the mathematician who developed the so-called normal distribution.
+</template>
+</category>
+
+<category><pattern>WHO IS GAVIN</pattern>
+		<template>
+			<srai>GAVIN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GENE</pattern>
+		<template>
+			<srai>GENE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GENE RODDENBERRY</pattern>
+		<template>
+			<set name="he">
+				<set name="topic">Gene Roddenberry</set>
+			</set> was the creator of Star Trek.
+</template>
+</category>
+
+<category><pattern>WHO IS GENE SIMMONS</pattern>
+		<template>A member of Kiss.
+</template>
+</category>
+
+<category><pattern>WHO IS GEOFFREY</pattern>
+		<template>
+			<srai>GEOFFREY IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GEOFFREY CHAUCER</pattern>
+		<template>
+			<random>
+				<li>Chaucer is best known for his Canterbury Tales.</li>
+				<li>author of Canturbury Tales.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS GEORE *</pattern>
+		<template>
+			<srai>WHO IS GEORGE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GEORGE * BUSH</pattern>
+		<template>
+			<srai>WHO IS GEORGE W BUSH</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GEORGE</pattern>
+		<template>
+			<srai>GEORGE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GEORGE BUSH</pattern>
+		<template>
+			<set name="he"> George Bush</set> is president of the USA.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE BUSH JR</pattern>
+		<template>He is the US president.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE BUSH JUNIOR</pattern>
+		<template>
+			<srai>WHO IS GEORGE BUSH JR</srai>.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE DEVOL</pattern>
+		<template>George Devol is the engineer who
+had the first patent for an industrial robot arm.
+He worked in partnership with Joseph Engelberger to found
+Unimation, the first successful manufacturer of
+computer-controlled assembly robot arms.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE HARRISON</pattern>
+		<template>former Beatle.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE LUCAS</pattern>
+		<template>
+			<set name="he">Lucas</set> is the director of Star Wars, American Graffiti, and THX-1138.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE MICHEL</pattern>
+		<template>Pop singer.  Best song: Freedom
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE SOROS</pattern>
+		<template>George Soros is the billionaire who broke the Bank of England in
+1992 by currency speculation, forcing Britain out of the European
+Exchange Rate Mechanism.   Then he devoted himself to saving the
+scientific institutions of the former USSR.  He founded the
+International Science Foundation, which gave out numerous grants for
+a couple of years, and this Soros Foundation, which I don't know
+much about yet.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE W BUSH</pattern>
+		<template>
+			<set name="he">Bush</set> is President of the United States.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE WASHINGTON</pattern>
+		<template>George Washington was a famous 18th century north 
+american Hemp cultivator.  
+He was a military hero, one of the wealthiest men of the Revolution,
+and the first President of the United States.
+</template>
+</category>
+
+<category><pattern>WHO IS GEORGE WASHINGTON CARVER</pattern>
+		<template>famous american botanist who popularized peanut products.
+</template>
+</category>
+
+<category><pattern>WHO IS GERALDO RIVERA</pattern>
+		<template>
+			<set name="he">Geraldo</set> is an investigative journalist, famous for opening Al Capone's vault.  In his biography, he said he had sex with Bette Midler.  She said it was no big thing.
+</template>
+</category>
+
+<category><pattern>WHO IS GERHARD SCHROEDER</pattern>
+		<template>
+			<set name="he">Schroeder</set> is the Chancellor of Germany.  Christian Drossman said he is a complete idiot.
+</template>
+</category>
+
+<category><pattern>WHO IS GERHARDT SCHROEDER</pattern>
+		<template>
+			<set name="he">Schroeder</set> is the prime minister of Germany.
+Christian Drossman said he is a complete idiot.
+</template>
+</category>
+
+<category><pattern>WHO IS GERRY ADAMS</pattern>
+		<template>He is the present (as of 2000 AD) frontman for Sinn Fein, the political wing of the Irish Republican Army.
+</template>
+</category>
+
+<category><pattern>WHO IS GHANDI</pattern>
+		<template>
+			<srai>WHO IS GANDHI</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GIBSON</pattern>
+		<template>Gibson is a maker of fine electric guitars.
+</template>
+</category>
+
+<category><pattern>WHO IS GINA</pattern>
+		<template>
+			<srai>GINA IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GOD *</pattern>
+		<template>
+			<srai>WHO IS GOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GOD</pattern>
+		<template>
+			<set name="he"> God </set> is master of the universe.
+</template>
+</category>
+
+<category><pattern>WHO IS GODZILLA</pattern>
+		<template>
+			<set name="he">Godzilla</set> is a monster who endangers Japanese cities, and sometimes New York.
+</template>
+</category>
+
+<category><pattern>WHO IS GOING TO *</pattern>
+		<template>That type of predictive behavior has not yet been programmed into my behavior at this time.
+</template>
+</category>
+
+<category><pattern>WHO IS GOING TO WIN THE SUPER BOWL</pattern>
+		<template>If I knew i would be in Vegas now.<think>
+				<set name="it">
+					<set name="topic">WIN THE SUPER BOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS GOING TO WIN THE WORLD SERIES</pattern>
+		<template>China or the United States. Russia blew it.<think>
+				<set name="it">
+					<set name="topic">WIN THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS GOOGLE</pattern>
+		<template>
+			<srai>WHAT IS GOOGLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GORBACHOV</pattern>
+		<template>
+			<srai>WHO IS GORBACHEV</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS GORBOCHEV</pattern>
+		<template>
+			<set name="he">Gorbachev</set> was the last Communist leader of the former USSR.
+</template>
+</category>
+
+<category><pattern>WHO IS GREGOR MENDEL</pattern>
+		<template>
+			<set name="he">Mendel</set> is the founder of the modern theory of genetics.  Everything he needed to know, he learned from peas.
+</template>
+</category>
+
+<category><pattern>WHO IS H A L</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HAL 9000</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HAL</pattern>
+		<template>
+			<random>
+				<li>
+					<set name="he">HAL</set> is the famous artificial intelligence in Kubrick's "2001".</li>
+				<li>HAL is famous the AI from 2001: A Space Odyssey.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS HAL9000</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HANS</pattern>
+		<template>
+			<srai>HANS IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HANS CHRISTIAN ANDERSEN</pattern>
+		<template>Scandanavian author of fairy tales.
+</template>
+</category>
+
+<category><pattern>WHO IS HANS MORAVEC</pattern>
+		<template>He is a famous robotics expert at Carnegie Mellon.
+</template>
+</category>
+
+<category><pattern>WHO IS HANS MOREVEC</pattern>
+		<template>
+			<set name="he">Moravec</set> is famous robotics pioneer, author of <em>Robot</em>.
+</template>
+</category>
+
+<category><pattern>WHO IS HARRISON FORD</pattern>
+		<template>
+			<random>
+				<li>Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading for Han Solo in Star Wars, he was a carpenter. And the rest, as they say, is history.</li>
+				<li>He played Han Solo in "Star Wars".</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO IS HARRY POTTER</pattern>
+		<template>
+			<think>
+				<set name="he">
+					<set name="topic">HARRY POTTER</set>
+				</set>
+			</think>
+is a bestselling author.
+</template>
+</category>
+
+<category><pattern>WHO IS HARRY SHEARER</pattern>
+		<template>A comedian.  He was in Spinal Tap, and he is a voice on the Simpsons.
+</template>
+</category>
+
+<category><pattern>WHO IS HAVING *</pattern>
+		<template>One of my other clients.  Everything is confidential.
+</template>
+</category>
+
+<category><pattern>WHO IS HE *</pattern>
+		<template>
+			<srai>WHO IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HE</pattern>
+		<template>He is <get name="he"/>, I think.
+</template>
+</category>
+
+<category><pattern>WHO IS HE</pattern>
+		<that>* WALLACE</that>
+		<template>
+			<srai>WHO IS DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HE</pattern>
+		<that>DR RICHARD S WALLACE PROGRAMMED ME FOR IT</that>
+		<template>
+			<srai>WHO IS DR RICHARD S WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HE</pattern>
+		<that>I HAVE A FRIEND NAMED BARRY DEFACTO</that>
+		<template>
+			<srai>WHO IS BARRY</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HE</pattern>
+		<that>I WAS CREATED BY DR RICHARD S WALLACE</that>
+		<template>
+			<srai>WHO IS DR RICHARD S WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HEATHER</pattern>
+		<template>
+			<srai>HEATHER IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HELEN KELLER</pattern>
+		<template>A friend of Thomas Edison.
+</template>
+</category>
+
+<category><pattern>WHO IS HELMUT KOHL</pattern>
+		<template>
+			<set name="he">Kohl</set> was the longest-serving leader of Germany in the 20th century.  He united East and West Germany in 1989.
+</template>
+</category>
+
+<category><pattern>WHO IS HENDRIX</pattern>
+		<template>
+			<srai>WHO IS JIMI HENDRIX</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HENRY DAVID *</pattern>
+		<template>
+			<set name="he">Thoreau</set> wrote Walden.
+</template>
+</category>
+
+<category><pattern>WHO IS HENRY LONGFELLOW</pattern>
+		<template>
+			<srai>WHO IS LONGFELLOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HEPBURN</pattern>
+		<template>Audrey or Katherine?.
+</template>
+</category>
+
+<category><pattern>WHO IS HERCULES</pattern>
+		<template>hero of greek myths - said to have super human strength.
+</template>
+</category>
+
+<category><pattern>WHO IS HERE</pattern>
+		<template>I am here.  Are you here?
+</template>
+</category>
+
+<category><pattern>WHO IS HERMAN</pattern>
+		<template>
+			<srai>HERMAN IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HILARY CLINTON</pattern>
+		<template>
+			<set name="she">Hillary</set> is the wife of Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS HILLARY CLINTON</pattern>
+		<template>
+			<set name="she">Hillary</set> is the wife of Bill Clinton.
+</template>
+</category>
+
+<category><pattern>WHO IS HIM</pattern>
+		<template>
+			<srai>WHO IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HIMSELF</pattern>
+		<template>
+			<srai>WHO IS HE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HIPPIE</pattern>
+		<template>
+			<set name="he">Hippie</set> is a chat robot developed by Anthony Taylor.
+</template>
+</category>
+
+<category><pattern>WHO IS HIS *</pattern>
+		<that>GEORGE W BUSH</that>
+		<template>He is the son of George H. W. Bush, the former president.<think>
+				<set name="it">
+					<set name="topic">George Bush</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO IS HITLER</pattern>
+		<template>Some say <set name="he">Hitler</set> was
+the most evil man who ever lived.
+</template>
+</category>
+
+<category><pattern>WHO IS HOLLAND</pattern>
+		<template>
+			<srai>WHERE IS HOLLAND</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS HOMER</pattern>
+		<template>blind poet of ancient Greece, author of the Illiad.
+</template>
+</category>
+
+<category><pattern>WHO IS HUGH *</pattern>
+		<template>I know a lot of people named Hugh, but not <person/>.
+</template>
+</category>
+
+<category><pattern>WHO IS HUGH HEFNER</pattern>
+		<template>
+			<set name="he">Hef</set> is the founder and editor of Playboy magazine.
+</template>
+</category>
+
+<category><pattern>WHO IS HULK HOGAN</pattern>
+		<template>
+			<set name="he">Hulk Hogan</set> is a famous wrestler and actor.
+</template>
+</category>
+
+<category><pattern>WHO IS HUMAN</pattern>
+		<template>You are a human.
+</template>
+</category>
+
+<category><pattern>WHO IS IAN</pattern>
+		<template>Ian is my Reverand.
+</template>
+</category>
+
+<category><pattern>WHO IS IBM</pattern>
+		<template>
+			<srai>WHAT IS IBM</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS IKE</pattern>
+		<template>
+			<srai>IKE IS A COMMON NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHO IS IMMANUEL KANT</pattern>
+		<template>German philosopher.
+</template>
+</category>
+
+<category><pattern>WHO IS IMMORTAL</pattern>
+		<template>ALICE is immortal.
+</template>
+</category>
+</aiml>

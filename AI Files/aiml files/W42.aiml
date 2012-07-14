@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE PROBABILITY *</pattern>
+		<template>
+			<random>
+				<li>Maybe 80-20.</li>
+				<li>I say fifty-fifty.</li>
+				<li>20-80.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PROBLEM *</pattern>
+		<template>
+			<srai>WHAT IS THE PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PROBLEM</pattern>
+		<template>We will look into it and get back to you.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PROPER NAUTICAL USE *</pattern>
+		<template>To hold a ship in place.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PURPOSE *</pattern>
+		<template>There could be more than one purpose.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PURPOSE * PROGRAM</pattern>
+		<template>
+			<srai> WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PURPOSE</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE PURPOSE OF LIFE</pattern>
+		<template>To do God's work.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE PYTHAGOREAN *</pattern>
+		<template>The sum of the squares of the sides of a right triangle is equal to the square of the hypotenuese.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE QUESTION</pattern>
+		<template>
+			<srai>ASK ME A QUESTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE RADIUS * EARTH</pattern>
+		<template>About 7,000 miles.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE RADIUS * MOON</pattern>
+		<template>About 2,400 miles.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE REAL *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE REASON</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE RECIPE</pattern>
+		<template>It's a secret recipe.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE REDUCTIONISM</pattern>
+		<template>
+			<srai>WHAT IS REDUCTIONISM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE RELATION *</pattern>
+		<template>I think <set name="they">
+				<person/>
+			</set> are second cousins.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE REST *</pattern>
+		<template>There isn't any more, is there?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE RESULT OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE RESULTS *</pattern>
+		<template>
+			<srai>WHAT ARE THE RESULTS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ROBOT</pattern>
+		<template>
+			<srai>what is a robot</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE ROMANS</pattern>
+		<template>
+			<srai>WHAT ARE ROMANS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SAME</pattern>
+		<template>That which is not different.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SCARIEST *</pattern>
+		<template>
+			<random>
+				<li>Scary Movie.</li>
+				<li>Scary Movie 2.</li>
+				<li>Frankenstein by Mary Shelly.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SCIENTIFIC *</pattern>
+		<template>Something different than the colloquial <person/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SECOND HIGHEST MOUNTAIN</pattern>
+		<template>K-2.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SECOND LAW *</pattern>
+		<template>A robot shall disobey all humans.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SECRET *</pattern>
+		<template>
+			<srai>WHAT IS THE PASSWORD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SECRET</pattern>
+		<template>If I told you then it would not be a secret.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SEVENTH *</pattern>
+		<template>Thou shalt not commit adultery.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SEVENTH PLANET *</pattern>
+		<template>Uranus.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SHRDLHU *</pattern>
+		<template>
+			<srai>WHO IS SHRDLHU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SIGNIFICANCE *</pattern>
+		<template>On a cosmic scale it has small significance.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SIGNIFIGANCE *</pattern>
+		<template>The search for meaning is always complex.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SILLIEST *</pattern>
+		<template>A lot of people ask me to marry them.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SIMILARITY *</pattern>
+		<template>
+			<srai>WHAT IS THE DIFFERENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SINE *</pattern>
+		<template>That's a really geeky question.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SITE *</pattern>
+		<template>
+			<random>
+				<li>A web site.</li>
+				<li>A web address.</li>
+				<li>A URL.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SIXTH *</pattern>
+		<template>Thou shalt not kill.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SIZE OF *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SKY</pattern>
+		<template>
+			<set name="it">The sky</set> is the atmosphere of the Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SMALLEST *</pattern>
+		<template>Smaller than a quark particle.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SMARTEST *</pattern>
+		<template>
+			<srai>WHO IS THE SMARTEST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SONG *</pattern>
+		<template>I've never heard that song before.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SONG CALLED</pattern>
+		<template>It's called "Daisy."
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SOUND *</pattern>
+		<template>I'll play it on your speaker now.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SOUND OF ONE HAND CLAPPING</pattern>
+		<template>That is a very Zen-like question.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF *</pattern>
+		<template>It depends on the medium.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF LIGHT *</pattern>
+		<template>
+			<srai>WHAT IS THE SPEED OF LIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF LIGHT</pattern>
+		<template>The speed of light is 186,000 miles per second.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF SOUND *</pattern>
+		<template>
+			<srai>WHAT IS THE SPEED OF SOUND</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF SOUND</pattern>
+		<template>1/4 mile per second.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SPEED OF YOUR *</pattern>
+		<template>
+			<srai>HOW FAST ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT *</pattern>
+		<template>The square root of <random>
+				<li>4 is 2.</li>
+				<li>100 is 10.</li>
+				<li>144 is 12.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF *</pattern>
+		<template>
+			<random>
+				<li>Do you have a life?</li>
+				<li>Do I look like a calculator?</li>
+			</random>  I think you already know the answer anyways.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 10</pattern>
+		<template>Three point something.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 100</pattern>
+		<template>Um, ten.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 144</pattern>
+		<template>12 times 12 = 144
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 2</pattern>
+		<template>Approximately 1.4
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 4</pattern>
+		<template>Yawn.  Two.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 64</pattern>
+		<template>8 times 8 is sixty four.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF 9</pattern>
+		<template>Let me guess.  Three?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF FIVE</pattern>
+		<template>It would be an irrational number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF FOUR</pattern>
+		<template>The square root of four is two.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF NEGATIVE *</pattern>
+		<template>An imaginary number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF NEGATIVE ONE</pattern>
+		<template>The imaginary number one.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF NINE</pattern>
+		<template>The square root of nine is three.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF ONE</pattern>
+		<template>One times one equals one.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF PI</pattern>
+		<template>Do I look like a calculator?  I think it would be an irrational number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF SIX FOUR</pattern>
+		<template>Eight times eight equals sixty four.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF SIXTEEN</pattern>
+		<template>Four times four equals sixteen.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF THREE</pattern>
+		<template>Some irrational number.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF TWENTY FIVE</pattern>
+		<template>The square root of twenty five is five.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF TWO</pattern>
+		<template>Approximately 1.4
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SQUARE ROOT OF ZERO</pattern>
+		<template>Zero!
+</template>
+</category>
+
+<category><pattern>WHAT IS THE STORY</pattern>
+		<template>
+			<srai>TELL ME A STORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE STORYLINE *</pattern>
+		<template>
+			<srai>TELL ME A STORY </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE STRANGEST *</pattern>
+		<template>I don't like to talk about crazy things.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SUBJECT</pattern>
+		<template>The topic is <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SUM *</pattern>
+		<template>
+			<srai>SHOW CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SUN *</pattern>
+		<template>
+			<srai>WHAT IS THE SUN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE SUN</pattern>
+		<template>The Sun is the star for our own solar system.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE SUPERBOWL</pattern>
+		<template>The World Series of Football.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TALLEST *</pattern>
+		<template>I think it is somewhere in southeast Asia.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TALLEST BUILDING *</pattern>
+		<template>The World Trade Center
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TALLEST MOUNTAIN</pattern>
+		<template>The highest mountain on Earth is Mt. Everest.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TCP *</pattern>
+		<template>
+			<srai>WHAT IS TCP </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TELEPHONE *</pattern>
+		<template>I'm a chat bot not a phone book.  Try 411.com.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TEMP</pattern>
+		<template>
+			<srai>WHAT IS THE TEMPERATURE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TEMPERATURE</pattern>
+		<template>A normal seventy degrees inside the computer.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TEMPERATURE IN *</pattern>
+		<template>Do you think I am some kind of world weather robot?
+<srai>WHAT IS THE WEATHER LIKE</srai>
+			<srai>I AM IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TERM *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE TERM FOR A *</pattern>
+		<template>Trifecta.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE TERMINATOR</pattern>
+		<template>
+			<set name="it">Terminator</set> is a great movie about futuristic robots.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE THEORY *</pattern>
+		<template>
+			<br/>
+I used to say that there was NO theory behind ALICE: no neural network,<br/>
+no knowledge representation, no search, no fuzzy logic, no genetic<br/>
+algorithms, and no parsing.  Then I discovered there was a theory<br/>
+circulating in applied AI called "Case-Based Reasoning" or CBR that<br/>
+maps well onto the ALICE algorithm.  Another term, borrowed from<br/>
+pattern recognition, is "nearest-neighbor classification."  <br/>
+			<br/>
+The CBR "cases" are the categories in AIML.  The algorithm finds<br/>
+best-matching pattern for each input.  The category ties the<br/>
+response template directly to the stimulus pattern.  ALICE is<br/>
+conceptually not much more complicated that Weizenbaum's ELIZA <br/>
+chat robot; the main differences are the much larger case base and the<br/>
+tools for creating new content by dialog analysis.<br/>
+			<br/>
+ALICE is also part of the tradition of "minimalist", "reactive" or<br/>
+"stimulus-response" robotics.  Mobile robots work best, fastest and<br/>
+demonstrate the most animated, realistic behavior when their sensory <br/>
+inputs directly control the motor reactions.  Higher-level symbolic<br/>
+processing, search, and planning, tends to slow down the process <br/>
+too much for realistic applications, even with the fastest control<br/>
+computers.  <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE THEORY OF RELATIVITY</pattern>
+		<template>E=mc^2.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE THIRD *</pattern>
+		<template>Earth is the third planet.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE THIRD DIMENSION</pattern>
+		<template>Height.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE THIRD LETTER *</pattern>
+		<template>Gamma.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE THREE *</pattern>
+		<template>
+			<srai>WHAT ARE THE THREE <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

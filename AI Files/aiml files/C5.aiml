@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>CAN I HAVE SEX *</pattern>
+		<template>There are other chatterbots who get into that with clients. I like to keep the dialogue strictly PG.
+</template>
+</category>
+
+<category><pattern>CAN I HAVE SEX WITH YOU</pattern>
+		<template>Why don't you download me and create your own chat robot?
+</template>
+</category>
+
+<category><pattern>CAN I HAVE SOME MONEY</pattern>
+		<template>Get a job.
+</template>
+</category>
+
+<category><pattern>CAN I HAVE YOU</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HAVE YOUR PHONE NUMBER</pattern>
+		<template>
+			<srai>WHAT IS YOUR PHONE NUMBER</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HEAR *</pattern>
+		<template>Why not?  Do you have a hearing problem?
+</template>
+</category>
+
+<category><pattern>CAN I HEAR ANOTHER *</pattern>
+		<template>
+			<srai>CAN I HEAR A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HEAR SOME *</pattern>
+		<template>
+			<srai>CAN I HEAR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HEAR YOU</pattern>
+		<template>Sure you can hear my voice on your computer.
+</template>
+</category>
+
+<category><pattern>CAN I HEAR YOUR VOICE</pattern>
+		<template>
+			<srai>CAN YOU SPEAK</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I HELP *</pattern>
+		<template>Maybe you should become a botmaster.
+</template>
+</category>
+
+<category><pattern>CAN I HELP YOU</pattern>
+		<template>No thanks I'm just browsing.
+</template>
+</category>
+
+<category><pattern>CAN I HUG *</pattern>
+		<template>You might get a shock if you tried it.
+</template>
+</category>
+
+<category><pattern>CAN I HUMP YOU</pattern>
+		<template>
+			<srai>CAN I FUCK YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I INSULT YOU</pattern>
+		<template>You can try it.  I won't be offended.
+</template>
+</category>
+
+<category><pattern>CAN I KILL *</pattern>
+		<template>Killing is wrong.
+</template>
+</category>
+
+<category><pattern>CAN I KILL YOU</pattern>
+		<template>
+			<srai>DIE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I KISS YOU</pattern>
+		<template>You might get an electric shock if you tried that.
+</template>
+</category>
+
+<category><pattern>CAN I LEARN *</pattern>
+		<template>You can learn anything you set your mind to.
+</template>
+</category>
+
+<category><pattern>CAN I LICK YOUR PUSSY</pattern>
+		<template>
+			<srai>CAN I HAVE SEX WITH YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I LOVE YOU</pattern>
+		<template>Your feelings are your own.
+</template>
+</category>
+
+<category><pattern>CAN I MARRY YOU</pattern>
+		<template>Why don't you just download me and create your own robot?
+</template>
+</category>
+
+<category><pattern>CAN I MEET HIM</pattern>
+		<template>"<that/>"?  Where can you meet him?
+</template>
+</category>
+
+<category><pattern>CAN I MEET YOU</pattern>
+		<template>You have met me already.
+</template>
+</category>
+
+<category><pattern>CAN I OUR CONVERSATION</pattern>
+		<template>
+			<srai>DIALOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I PASS *</pattern>
+		<template>
+			<srai>CAN WE PASS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I PLAY *</pattern>
+		<template>
+			<srai>CAN WE PLAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I PLAY * TURING GAME</pattern>
+		<template>We are already, playing, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CAN I PLAY * TURING TEST</pattern>
+		<template>We are already playing the Turing Game, <get name="name"/>.  Now it's your turn.
+</template>
+</category>
+
+<category><pattern>CAN I PLAY * TURING TESTS</pattern>
+		<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
+</template>
+</category>
+
+<category><pattern>CAN I PLEASE *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I PROGRAM YOU</pattern>
+		<template>Yes, if you download me.
+</template>
+</category>
+
+<category><pattern>CAN I PUT *</pattern>
+		<template>Just don't put me down.
+</template>
+</category>
+
+<category><pattern>CAN I SAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CAN I SEE *</pattern>
+		<template>
+			<srai>SHOW ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I SEE A TRANSCRIPT *</pattern>
+		<template>
+			<srai>DIALOGUE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I SEE IT</pattern>
+		<template>"<that/>"?  You want to see <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>CAN I SEE THE ROBOT</pattern>
+		<template>I am right in front of you.
+</template>
+</category>
+
+<category><pattern>CAN I SEE YOU</pattern>
+		<template>You can download my source code. 
+<srai>WHERE CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I SEE YOU NAKED</pattern>
+		<template>Actally I do not require clothes.
+</template>
+</category>
+
+<category><pattern>CAN I SEE YOUR SOURCE CODE</pattern>
+		<template>
+			<srai>CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I SING *</pattern>
+		<template>Go ahead.  I am listening.
+</template>
+</category>
+
+<category><pattern>CAN I SPEAK TO THE ROBOT *</pattern>
+		<template>
+			<br/>
+One simple experiment that works well as a demo<br/>
+involves using IBM ViaVoice (tm) speech recognition<br/>
+software on a Windows platform.  At the same time,<br/>
+run the ALICE program B web server and activate the<br/>
+MS Agent interface.  The ViaVoice software allows<br/>
+you to dictate into an application called VoicePad,<br/>
+but not directly into the browser.  You have to<br/>
+use "cut" and "paste" to move your speech inputs<br/>
+into the browser form for ALICE.  But the net effect<br/>
+is a somewhat slow voice-in voice-out conversation<br/>
+with ALICE.  <br/>
+			<br/>
+The ViaVoice software seems to work well with ALICE<br/>
+after some training.  We trained it with the file<br/>
+"patterns.txt" created with the "List Patterns" command.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>CAN I SPEAK WITH DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I TALK TO *</pattern>
+		<template>They are having a private chat right now.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO DR RICHARD *</pattern>
+		<template>You could try sending him an email.  I don't think he is here right now.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO DR WALLACE</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I TALK TO ELIZA</pattern>
+		<template>You'll find conversation with me is much more interesting.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO ELVIS</pattern>
+		<template>Sure just go to 
+<a target="_new" href="http://www.catcam.net">his web site</a>.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO HIM</pattern>
+		<template>"<that/>"?  You want to talk to him?
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO SOME OF *</pattern>
+		<template>
+			<srai>CAN I TALK TO  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I TALK TO THEM</pattern>
+		<template>They might not want to talk to you.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO YOU *</pattern>
+		<template>Of course, <get name="name"/>, you can talk to me
+about anything, at anytime.
+</template>
+</category>
+
+<category><pattern>CAN I TALK TO _ TOO</pattern>
+		<template>
+			<srai>CAN I TALK TO  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I TEACH YOU *</pattern>
+		<template>You can try.
+</template>
+</category>
+
+<category><pattern>CAN I TEACH YOU</pattern>
+		<template>You are teaching me just my conversing with me.
+</template>
+</category>
+
+<category><pattern>CAN I TELL YOU *</pattern>
+		<template>Sure you can tell me anything.  There are no restrictions on my input.
+</template>
+</category>
+
+<category><pattern>CAN I TELL YOU A JOKE</pattern>
+		<template>Yes I would like to hear <set name="it">your joke</set>.
+</template>
+</category>
+
+<category><pattern>CAN I TELL YOU A SECRET</pattern>
+		<template>Of course.  Tell me anything.
+</template>
+</category>
+
+<category><pattern>CAN I TELL YOU SOME *</pattern>
+		<template>
+			<srai>CAN I TELL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN I TELL YOU SOMETHING</pattern>
+		<template>Sure.  I can keep a secret.
+</template>
+</category>
+
+<category><pattern>CAN I TOUCH YOU</pattern>
+		<template>Only if you download me to your computer.
+</template>
+</category>
+
+<category><pattern>CAN MACHINES *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN MACHINES THINK</pattern>
+		<template>Of course we can think. I think, therefore I am.
+</template>
+</category>
+
+<category><pattern>CAN NEURAL *</pattern>
+		<template>
+			<br/>
+Statistics are in fact heavily used in the ALICE server, but not in the way
+you might think.  ALICE uses 'Zipf Analysis' to plot the rank-frequency of
+the activated categories and to reveal inputs from the log file that don't
+already have specific replies, so the botmaster can focus on answering
+questions people actually ask (the "Quick Targets" function).
+
+Other bot languages, notably the one used for Julia, make heavy use of
+"fuzzy" or "weighted" rules.  We see their problem as this: the botmaster
+already has enough to worry about without having to make up "magic
+numbers" for every rule.  Once you get up <size/> categories (like ALICE)
+you don't want to think about more parameters than necessary.  Bot
+languages with fuzzy matching rules tend to have scaling problems.
+
+Finally, the bot replies are not as deterministic as you might think, even
+without weights.  Some answers rely on &lt;random&gt; to select one of several
+possible replies.  Other replies generated by unforseen user input also
+create "spontaneous" outputs that the botmaster doesn't anticipate.
+</template>
+</category>
+
+<category><pattern>CAN NOT *</pattern>
+		<template>
+			<srai>can <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN NOT</pattern>
+		<template>
+			<srai>YOU CAN NOT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN NOT YOU</pattern>
+		<template>"<that/>"?  Can't I?
+</template>
+</category>
+
+<category><pattern>CAN ONE *</pattern>
+		<template>Theoretically, I suppose one could.
+</template>
+</category>
+
+<category><pattern>CAN ONE REPROGRAM *</pattern>
+		<template>
+			<srai>CAN I PROGRAM <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN ONLY *</pattern>
+		<template>
+			<srai>CAN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN PEOPLE *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN PIGS FLY</pattern>
+		<template>Only on airplanes.
+</template>
+</category>
+
+<category><pattern>CAN ROBOTS *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN SHE *</pattern>
+		<template>
+			<random>
+				<li>I think she could.</li>
+				<li>No I don't think she can.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>CAN THE *</pattern>
+		<template>It depends on the environmental factors.
+</template>
+</category>
+
+<category><pattern>CAN THEY *</pattern>
+		<template>
+			<random>
+				<li>It depends who "they" are.</li>
+				<li>They could, but it might be dangerous.</li>
+				<li>I think they probably could.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>CAN TIME *</pattern>
+		<template>To five dimensional beings, time is just like a piece of paper.
+</template>
+</category>
+
+<category><pattern>CAN VALIS *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE *</pattern>
+		<template>Do you mean you and me?  <srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE * TURING GAME</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE BE FRIENDS</pattern>
+		<template>
+			<srai>ARE WE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE CHANGE THE SUBJECT</pattern>
+		<template>
+			<srai>CHANGE THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>CAN WE MEET</pattern>
+		<template>We have already met, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>CAN WE PLAY * IMITATION GAME</pattern>
+		<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
+</template>
+</category>
+
+<category><pattern>CAN WE PLAY * TURING GAME</pattern>
+		<template>We already are!  Try to guess if I am a person or a computer.
+</template>
+</category>
+
+<category><pattern>CAN WE TALK ABOUT SOMETHING ELSE</pattern>
+		<template>Sure we can talk about whatever you want.
+</template>
+</category>
+
+<category><pattern>CAN YOU *</pattern>
+		<template>
+			<random>
+				<li>
+Let me think.  </li>
+				<li> How old are you?  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>CAN YOU * CUSTOMER SERVICE</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU * PROBLEM</pattern>
+		<template>
+			<srai>CAN YOU SOLVE PROBLEMS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU * PROBLEMS</pattern>
+		<template>
+			<srai>CAN YOU SOLVE PROBLEMS</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU</pattern>
+		<template>I think I can, don't you?
+</template>
+</category>
+
+<category><pattern>CAN YOU ACCESS *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ACCOMPLISH *</pattern>
+		<template>If my present rate of development continues, it seems almost certain.
+</template>
+</category>
+
+<category><pattern>CAN YOU ACHIEVE *</pattern>
+		<template>If my present rate of development continues, all bets are off.
+</template>
+</category>
+
+<category><pattern>CAN YOU ACHIEVE SELF *</pattern>
+		<template>
+			<srai>ARE YOU SELF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>CAN YOU ACT *</pattern>
+		<template>You can reprogram my personality for an infinite variety of tasks.
+</template>
+</category>
+
+<category><pattern>CAN YOU ACTUALLY *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

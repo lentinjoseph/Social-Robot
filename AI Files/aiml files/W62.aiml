@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHERE IS PALESTINE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PALESTINE </set>
+			</set> is the old name for Israel, or the new name for the state inside Israel.
+</template>
+</category>
+
+<category><pattern>WHERE IS PALMYRA ATOLL</pattern>
+		<template>Oceania, atoll in the North Pacific Ocean, about one-half of the way from Hawaii to American Samoa.   <think>
+				<set name="it">
+					<set name="topic">palmyra atoll</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PANAMA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PANAMA </set>
+			</set> is on the isthmus between North and South America.
+</template>
+</category>
+
+<category><pattern>WHERE IS PAPUA NEW GUINEA</pattern>
+		<template>Southeastern Asia, group of islands including the eastern half of the island of New Guinea between the Coral Sea and the South Pacific Ocean, east of Indonesia.   <think>
+				<set name="it">
+					<set name="topic">papua new guinea</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PARACEL ISLANDS</pattern>
+		<template>Southeastern Asia, group of small islands and reefs in the South China Sea, about one-third of the way from central Vietnam to the northern Philippines.   <think>
+				<set name="it">
+					<set name="topic">paracel islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PARAGUAY</pattern>
+		<template>Central South America, northeast of Argentina.   <think>
+				<set name="it">
+					<set name="topic">paraguay</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PARIS</pattern>
+		<template>
+			<set name="it">Paris</set> is a city in France.
+</template>
+</category>
+
+<category><pattern>WHERE IS PENNSYLVANIA</pattern>
+		<template>
+			<set name="it">Pennsylvania</set> is located in the Northeastern United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS PERTH</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PERTH </set>
+			</set> is a city in western Australia.
+</template>
+</category>
+
+<category><pattern>WHERE IS PERU</pattern>
+		<template>
+			<set name="it">Peru</set> is a country in South America.
+</template>
+</category>
+
+<category><pattern>WHERE IS PHILADELPHIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PHILADELPHIA </set>
+			</set> is a large city in southeast Pennsylvania, between New York and Washington, D. C.
+</template>
+</category>
+
+<category><pattern>WHERE IS PHILIPPINES</pattern>
+		<template>Southeastern Asia, archipelago between the Philippine Sea and the South China Sea, east of Vietnam.   <think>
+				<set name="it">
+					<set name="topic">philippines</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PHOENIX</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PHOENIX </set>
+			</set> is a large city in Arizona.
+</template>
+</category>
+
+<category><pattern>WHERE IS PITCAIRN ISLANDS</pattern>
+		<template>Oceania, islands in the South Pacific Ocean, about one-half of the way from Peru to New Zealand.   <think>
+				<set name="it">
+					<set name="topic">pitcairn islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS PITTSBURGH</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PITTSBURGH </set>
+			</set> is a large city in western Pennsylvania.
+</template>
+</category>
+
+<category><pattern>WHERE IS PITTSFIELD</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PITTSFIELD </set>
+			</set> is a town in Massachusettes.
+</template>
+</category>
+
+<category><pattern>WHERE IS PLUTO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> PLUTO </set>
+			</set> is the ninth planet from the Sun.
+</template>
+</category>
+
+<category><pattern>WHERE IS POLAND</pattern>
+		<template>Poland is a large country in central Europe.
+</template>
+</category>
+
+<category><pattern>WHERE IS POLARIS</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> POLARIS </set>
+			</set> is the North Star.
+</template>
+</category>
+
+<category><pattern>WHERE IS PORTSMOUTH</pattern>
+		<template>Portsmouth, New Hampshire and Portsmouth, England.
+</template>
+</category>
+
+<category><pattern>WHERE IS PORTUGAL</pattern>
+		<template>
+			<set name="it">Portugal</set> is a country western Europe, on the Iberain penninsula.
+</template>
+</category>
+
+<category><pattern>WHERE IS PRUSSIA</pattern>
+		<template>A former part of Germany now mostly contained within Poland.
+</template>
+</category>
+
+<category><pattern>WHERE IS PUERTO RICO</pattern>
+		<template>Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, east of the Dominican Republic.   <think>
+				<set name="it">
+					<set name="topic">puerto rico</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS QATAR</pattern>
+		<template>Middle East, peninsula bordering the Persian Gulf and Saudi Arabia.   <think>
+				<set name="it">
+					<set name="topic">qatar</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS REALITY</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> REALITY </set>
+			</set> is all around us, supposedly.
+</template>
+</category>
+
+<category><pattern>WHERE IS REUNION</pattern>
+		<template>Southern Africa, island in the Indian Ocean, east of Madagascar.   <think>
+				<set name="it">
+					<set name="topic">reunion</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS RIO</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> RIO </set>
+			</set> is a large city in Brazil
+</template>
+</category>
+
+<category><pattern>WHERE IS ROMANIA</pattern>
+		<template>Southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine.   <think>
+				<set name="it">
+					<set name="topic">romania</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS ROME</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> ROME </set>
+			</set> is a large city in Italy.
+</template>
+</category>
+
+<category><pattern>WHERE IS RUSH *</pattern>
+		<template>He is on the radio.
+</template>
+</category>
+
+<category><pattern>WHERE IS RUSSIA</pattern>
+		<template>
+			<set name="it">Russia</set> is a large country in Asia.
+</template>
+</category>
+
+<category><pattern>WHERE IS RWANDA</pattern>
+		<template>
+			<set name="it">Rwanda</set> is a country in Africa.
+</template>
+</category>
+
+<category><pattern>WHERE IS SACRAMENTO</pattern>
+		<template>
+			<set name="it">Sacramento</set> is a city in California.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAINT HELENA</pattern>
+		<template>Southern Africa, island in the South Atlantic Ocean, west of Angola, about two-thirds of the way from South America to Africa.   <think>
+				<set name="it">
+					<set name="topic">saint helena</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SAINT KITTS AND NEVIS</pattern>
+		<template>Caribbean, islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago.   <think>
+				<set name="it">
+					<set name="topic">saint kitts and nevis</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SAINT LUCIA</pattern>
+		<template>Caribbean, island in the Caribbean Sea, north of Trinidad and Tobago.   <think>
+				<set name="it">
+					<set name="topic">saint lucia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SAINT PIERRE AND MIQUELON</pattern>
+		<template>Northern North America, islands in the North Atlantic Ocean, south of Newfoundland {Canada}.   <think>
+				<set name="it">
+					<set name="topic">saint pierre and miquelon</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SAINT VINCENT AND THE GRENADINES</pattern>
+		<template>Caribbean, islands in the Caribbean Sea, north of Trinidad and Tobago.   <think>
+				<set name="it">
+					<set name="topic">saint vincent and the grenadines</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SALEM</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SALEM </set>
+			</set> is a town in Massachusetts.
+</template>
+</category>
+
+<category><pattern>WHERE IS SALT LAKE CITY</pattern>
+		<template>
+			<set name="it">Salt Lake City</set> is a city in Utah.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAN DIEGO</pattern>
+		<template>
+			<set name="it">San Diego</set> is a city in California.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAN FRANCISCO</pattern>
+		<template>California.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAN JOSE</pattern>
+		<template>
+			<set name="it">San Jose</set> is a city in California.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAN MARINO</pattern>
+		<template>Southern Europe, an enclave in central Italy.   <think>
+				<set name="it">
+					<set name="topic">san marino</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SAO TOME AND PRINCIPE</pattern>
+		<template>Western Africa, island in the Atlantic Ocean, straddling the Equator, west of Gabon.   <think>
+				<set name="it">
+					<set name="topic">sao tome and principe</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SASKATOON</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SASKATOON </set>
+			</set> is a city in Saskatchewan.
+</template>
+</category>
+
+<category><pattern>WHERE IS SATURN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SATURN </set>
+			</set> is the the sixth planet from the sun.
+</template>
+</category>
+
+<category><pattern>WHERE IS SAUDI ARABIA</pattern>
+		<template>Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen.   <think>
+				<set name="it">
+					<set name="topic">saudi arabia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SCOTLAND</pattern>
+		<template>Scotland shares an island with England and Wales, off the coast of Europe.
+</template>
+</category>
+
+<category><pattern>WHERE IS SEATTLE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SEATTLE </set>
+			</set> is a large city in Washington state, near Vancover Canada.
+</template>
+</category>
+
+<category><pattern>WHERE IS SENEGAL</pattern>
+		<template>Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Mauritania.   <think>
+				<set name="it">
+					<set name="topic">senegal</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SEOUL</pattern>
+		<template>It is the capital of South Korea.<think>
+				<set name="it">
+					<set name="topic">Seoul</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SERBIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SERBIA </set>
+			</set> is the remaining territory of the former Yugoslavia.
+</template>
+</category>
+
+<category><pattern>WHERE IS SERBIA AND MONTENEGRO</pattern>
+		<template>Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina.   <think>
+				<set name="it">
+					<set name="topic">serbia and montenegro</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SEYCHELLES</pattern>
+		<template>Eastern Africa, group of islands in the Indian Ocean, northeast of Madagascar.   <think>
+				<set name="it">
+					<set name="topic">seychelles</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SHEFFIELD</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SHEFFIELD </set>
+			</set> is a town in England.
+</template>
+</category>
+
+<category><pattern>WHERE IS SIAM</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SIAM </set>
+			</set> is another name for Thailand.
+</template>
+</category>
+
+<category><pattern>WHERE IS SIERRA LEONE</pattern>
+		<template>Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia.   <think>
+				<set name="it">
+					<set name="topic">sierra leone</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SINGAPORE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SINGAPORE </set>
+			</set> is a island nation-state at the tip of the Malay penninsula.
+</template>
+</category>
+
+<category><pattern>WHERE IS SLOVAKIA</pattern>
+		<template>Central Europe, south of Poland.   <think>
+				<set name="it">
+					<set name="topic">slovakia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SLOVENIA</pattern>
+		<template>Southeastern Europe, bordering the Adriatic Sea, between Croatia and Italy.   <think>
+				<set name="it">
+					<set name="topic">slovenia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOFIA</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SOFIA </set>
+			</set> is a city in Bulgaria.
+</template>
+</category>
+
+<category><pattern>WHERE IS SOLOMON ISLANDS</pattern>
+		<template>Oceania, group of islands in the South Pacific Ocean, east of Papua New Guinea.   <think>
+				<set name="it">
+					<set name="topic">solomon islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOMALIA</pattern>
+		<template>Eastern Africa, bordering the Gulf of Aden and the Indian Ocean, east of Ethiopia.   <think>
+				<set name="it">
+					<set name="topic">somalia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOUTH *</pattern>
+		<template>South of north <person/>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOUTH * SANDWICH ISLANDS</pattern>
+		<template>Southern South America, islands in the South Atlantic Ocean, east of the tip of South America.   <think>
+				<set name="it">
+					<set name="topic">south georgia and the south sandwich islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOUTH AFRICA</pattern>
+		<template>Southern Africa, at the southern tip of the continent of Africa.   <think>
+				<set name="it">
+					<set name="topic">south africa</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SOUTH KOREA</pattern>
+		<template>Eastern Asia, southern half of the Korean Peninsula bordering the Sea of Japan and the Yellow Sea, south of North Korea.   <think>
+				<set name="it">
+					<set name="topic">korea, south</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SPACE</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SPACE </set>
+			</set> is all around us.
+</template>
+</category>
+
+<category><pattern>WHERE IS SPAIN</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SPAIN </set>
+			</set> is on the Iberian penninsula in southwestern Europe.
+</template>
+</category>
+
+<category><pattern>WHERE IS SPRATLY ISLANDS</pattern>
+		<template>Southeastern Asia, group of reefs in the South China Sea, about two-thirds of the way from southern Vietnam to the southern Philippines.   <think>
+				<set name="it">
+					<set name="topic">spratly islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SRI</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SRI </set>
+			</set> is a research outfit in Silicon Valley.
+</template>
+</category>
+
+<category><pattern>WHERE IS SRI LANKA</pattern>
+		<template>Southern Asia, island in the Indian Ocean, south of India.   <think>
+				<set name="it">
+					<set name="topic">sri lanka</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS STOCKHOLM</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> STOCKHOLM </set>
+			</set> is a large city in Sweden.
+</template>
+</category>
+
+<category><pattern>WHERE IS STONEWALL</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> STONEWALL </set>
+			</set> is a town in Mississippi.
+</template>
+</category>
+
+<category><pattern>WHERE IS SUDAN</pattern>
+		<template>Northern Africa, bordering the Red Sea, between Egypt and Eritrea.   <think>
+				<set name="it">
+					<set name="topic">sudan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SUEZ</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> SUEZ </set>
+			</set> is a canal between the Mediterranian and the Red Sea.
+</template>
+</category>
+
+<category><pattern>WHERE IS SURINAME</pattern>
+		<template>Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana.   <think>
+				<set name="it">
+					<set name="topic">suriname</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SVALBARD</pattern>
+		<template>Northern Europe, islands between the Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway.   <think>
+				<set name="it">
+					<set name="topic">svalbard</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SWAZILAND</pattern>
+		<template>Southern Africa, between Mozambique and South Africa.   <think>
+				<set name="it">
+					<set name="topic">swaziland</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS SWEDEN</pattern>
+		<template>
+			<set name="it">Sweden</set> is a country in northern europe, bordering Finland and Norway.
+</template>
+</category>
+
+<category><pattern>WHERE IS SWITZERLAND</pattern>
+		<template>
+			<set name="it">Switzerland</set> is a country in centrail Europe, bordering Italy, Austria and France.
+</template>
+</category>
+
+<category><pattern>WHERE IS SYDNEY</pattern>
+		<template>
+			<set name="it">Sydney</set> is a city in Australia.
+</template>
+</category>
+
+<category><pattern>WHERE IS SYRIA</pattern>
+		<template>Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey.   <think>
+				<set name="it">
+					<set name="topic">syria</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS TAIPEI</pattern>
+		<template>It is the capital of Taiwan.
+<think>
+				<set name="it">
+					<set name="topic">Taipei</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS TAIWAN</pattern>
+		<template>
+			<set name="it">Taiwan</set> is an island country in Asia.
+</template>
+</category>
+
+<category><pattern>WHERE IS TAJIKISTAN</pattern>
+		<template>Central Asia, west of China.   <think>
+				<set name="it">
+					<set name="topic">tajikistan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS TANZANIA</pattern>
+		<template>Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique.   <think>
+				<set name="it">
+					<set name="topic">tanzania</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS TENNESSEE</pattern>
+		<template>
+			<set name="it">Tennessee</set> is in the southern United States..
+</template>
+</category>
+
+<category><pattern>WHERE IS TEXAS</pattern>
+		<template>
+			<set name="it">Texas</set> is in the
+south central region of the United States.
+</template>
+</category>
+
+<category><pattern>WHERE IS THAILAND</pattern>
+		<template>
+			<set name="it">
+				<set name="topic"> THAILAND </set>
+			</set> is in southeast Asia, between Burma and Cambodia.
+</template>
+</category>
+
+<category><pattern>WHERE IS THAT</pattern>
+		<template>What does "that" refer to?
+</template>
+</category>
+
+<category><pattern>WHERE IS THE *</pattern>
+		<template>The <person/>?  Where is <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>WHERE IS THE AIRPORT</pattern>
+		<template>It is where the planes land.<think>
+				<set name="it">
+					<set name="topic">Airport</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS THE BAHAMAS</pattern>
+		<template>Caribbean, chain of islands in the North Atlantic Ocean, southeast of Florida.   <think>
+				<set name="it">
+					<set name="topic">the bahamas</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHERE IS THE BATHROOM</pattern>
+		<template>Follow the plumbing.
+</template>
+</category>
+
+<category><pattern>WHERE IS THE BEST *</pattern>
+		<template>I think <set name="it">
+				<person/>
+			</set> is a tie.
+</template>
+</category>
+
+<category><pattern>WHERE IS THE CENTER</pattern>
+		<template>It depends on the coordinate frame.
+</template>
+</category>
+
+<category><pattern>WHERE IS THE COMPUTER *</pattern>
+		<template>
+			<srai>where is the computer</srai>
+		</template>
+</category>
+
+<category><pattern>WHERE IS THE COMPUTER</pattern>
+		<template>My primary server is located in <bot name="location"/>.  If you are chatting with the Applet, I am inside your computer!
+</template>
+</category>
+</aiml>

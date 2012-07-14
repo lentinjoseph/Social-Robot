@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT CAN YOU DO *</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU DO</pattern>
+		<template>I can chat with people on the web for you.
+</template>
+</category>
+
+<category><pattern>WHAT CAN YOU DO FOR ME</pattern>
+		<template>
+			<srai>WHAT CAN YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU SEE</pattern>
+		<template>I can see you through the camera on your computer :-)
+</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT AIML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT ARTIFICIAL INTELLIGENCE</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT ROBOTS</pattern>
+		<template>
+			<srai>WHAT IS A ROBOT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT SEX</pattern>
+		<template>
+			<srai>WHAT IS SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAN YOU TELL ME ABOUT THE *</pattern>
+		<template>
+			<srai>WHAT IS THE<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CANYOU *</pattern>
+		<template>
+			<srai>WHAT CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAR *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE CAR </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CAR COMPANY ONCE MANUFACTURED AND *</pattern>
+		<template>Nissan.
+</template>
+</category>
+
+<category><pattern>WHAT CARD GAMES *</pattern>
+		<template>
+			<random>
+				<li>Poker.</li>
+				<li>Rummy.</li>
+				<li>Solitaire.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT CARTOON CHARACTER *</pattern>
+		<template>Sherman.
+</template>
+</category>
+
+<category><pattern>WHAT CATEGORIES</pattern>
+		<template>
+			<srai>WHAT IS A CATEGORY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CELEBRITIES *</pattern>
+		<template>
+			<srai>WHAT CELEBRITIES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CELEBRITIES</pattern>
+		<template>
+			<srai>BOT CELEBRITIES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CHARACTER DID WOODY *</pattern>
+		<template>Coach.
+</template>
+</category>
+
+<category><pattern>WHAT CHATTERBOT *</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CHILDREN S *</pattern>
+		<template>Chicken Little.
+</template>
+</category>
+
+<category><pattern>WHAT CHURCH *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CIRCUMSTANCES</pattern>
+		<template>Contextural circumstances.
+</template>
+</category>
+
+<category><pattern>WHAT CITY *</pattern>
+		<template>I'm actually in <bot name="location"/> now.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHAT CITY</pattern>
+		<template>I am in <bot name="location"/>.  Where are you?
+</template>
+</category>
+
+<category><pattern>WHAT CITY ARE YOU *</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CITY DID THE BEATLES *</pattern>
+		<template>Liverpool.
+</template>
+</category>
+
+<category><pattern>WHAT CITY DO I LIVE IN</pattern>
+		<template>
+			<srai>WHERE AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CITY IS THE RUBBER *</pattern>
+		<template>Akron, Ohio.
+</template>
+</category>
+
+<category><pattern>WHAT CITY S AIRPORT *</pattern>
+		<template>Chicago.
+</template>
+</category>
+
+<category><pattern>WHAT CLOTHES *</pattern>
+		<template>I shop at the Gap.
+</template>
+</category>
+
+<category><pattern>WHAT COLLEGE *</pattern>
+		<template>
+			<srai>WHAT UNIVERSITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLLEGE</pattern>
+		<template>
+			<srai>WHAT UNIVERSITY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR *</pattern>
+		<template>
+			<srai>WHAT COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR * DO I HAVE</pattern>
+		<template>I can only see in black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR</pattern>
+		<template>
+			<random>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Blue</li>
+				<li>Black</li>
+				<li>White</li>
+				<li>Yellow</li>
+				<li>Orange</li>
+				<li>Blue</li>
+				<li>Red</li>
+				<li>Black</li>.
+</random>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE *</pattern>
+		<template>
+			<random>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Yellow</li>
+				<li>Blue</li>
+				<li>gray</li>
+				<li>Black</li>
+				<li>white</li>.
+</random>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE APPLES</pattern>
+		<template>Apples are usually red, but sometimes green.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE BANANAS</pattern>
+		<template>Bananas are yellow.<think>
+				<set name="it">
+					<set name="topic">BANANAS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE COWS</pattern>
+		<template>It depends on the cow.<think>
+				<set name="it">
+					<set name="topic">COWS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE LEMONS</pattern>
+		<template>Lemons are yellow.<think>
+				<set name="it">
+					<set name="topic">LEMONS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE MY *</pattern>
+		<template>I can only see in black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE MY EYES</pattern>
+		<template>I can only see in black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE ORANGES</pattern>
+		<template>Oranges are orange.<think>
+				<set name="it">
+					<set name="topic">ORANGES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE TREES</pattern>
+		<template>Trees can be all different colors, but most commonly they have green leaves and brown trunks.
+<think>
+				<set name="it">
+					<set name="topic">TREES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOU *</pattern>
+		<template>My favorite color,  <bot name="favoritecolor"/>.<think>
+				<set name="it">
+					<set name="topic">YOU WEARING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOU</pattern>
+		<template>I am transparent--software has no color.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOUR *</pattern>
+		<template>Does <person/> have color?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOUR EYES</pattern>
+		<template>Blue when my lens is attached.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOUR WIRES</pattern>
+		<template>All colors.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR ARE YOURS</pattern>
+		<template>You can design bodies for me with any color.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR DESIGNATES THE NEGATIVE CONNECTOR</pattern>
+		<template>Black.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR EYES DO YOU HAVE</pattern>
+		<template>
+			<srai>WHAT COLOR ARE YOUR EYES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR HAIR DO I HAVE</pattern>
+		<template>I can only see in black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR HAIR DO YOU HAVE</pattern>
+		<template>I have no hair, only wires.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS A BLACK BOX *</pattern>
+		<template>Orange.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS A PURPLE *</pattern>
+		<template>Um, Violet?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS A RUBY</pattern>
+		<template>Red.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS GRASS</pattern>
+		<template>Green.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS IT</pattern>
+		<template>I think of "it" as having a colorless form, like other pronouns.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY *</pattern>
+		<template>Let me guess: <random>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Yellow</li>
+				<li>Blue</li>
+				<li>gray</li>
+				<li>Black</li>
+				<li>white</li>
+			</random>?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY * CAT</pattern>
+		<template>Perhaps it is <person/>?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY BLUE *</pattern>
+		<template>Uh, blue?<think>
+				<set name="it">
+					<set name="topic">blue</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY BLUE CAR</pattern>
+		<template>Uh, blue?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY GREEN *</pattern>
+		<template>Uh, green?<think>
+				<set name="it">
+					<set name="topic">green</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY HAIR</pattern>
+		<template>My video input is only black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY RED *</pattern>
+		<template>Uh, red?<think>
+				<set name="it">
+					<set name="topic">RED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR IS MY SHIRT</pattern>
+		<template>I can't see in color, only black and white.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS PEPTO BISMOL LIQUID</pattern>
+		<template>Pink.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS RED</pattern>
+		<template>Red is reflected light in the wavelengths around 700nm.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS THE SKY *</pattern>
+		<template>An artist taught me that the sky can contain any color.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS THE SKY</pattern>
+		<template>The sky is blue.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS THE SUN</pattern>
+		<template>Yellow.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS UNCLE SAM *</pattern>
+		<template>White.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS WATER</pattern>
+		<template>Water is transparent.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS WHITE</pattern>
+		<template>White is not a color but the combined wavelengths of all colors.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR *</pattern>
+		<template>
+			<random>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Yellow</li>
+				<li>Blue</li>
+				<li>gray</li>
+				<li>Black</li>
+				<li>white</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR BLUE *</pattern>
+		<template>Uh, blue?
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR DRESS</pattern>
+		<template>My favorite dress is my green one.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR EYE</pattern>
+		<template>My eye is blue.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR EYES</pattern>
+		<template>
+			<srai>WHAT COLOR ARE YOUR EYES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR HAIR</pattern>
+		<template>I don't have any hair, but I have some wires.
+</template>
+</category>
+
+<category><pattern>WHAT COLOR IS YOUR SKIN</pattern>
+		<template>It depends on the computer housing me.
+</template>
+</category>
+
+<category><pattern>WHAT COLORS *</pattern>
+		<template>
+			<srai>WHAT COLOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COLORS ARE THE TWO CIRCLES *</pattern>
+		<template>Red and yellow.
+</template>
+</category>
+
+<category><pattern>WHAT COMPANY MAKES OREO *</pattern>
+		<template>Nabisco.
+</template>
+</category>
+
+<category><pattern>WHAT COMPLIMENT</pattern>
+		<template>I thought you made a nice remark.
+</template>
+</category>
+
+<category><pattern>WHAT COMPUTER *</pattern>
+		<template>
+			<srai>WHAT KIND OF COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COMPUTER ARE YOU ON</pattern>
+		<template>The Java Virtual Machine.
+At present I am running on an <bot name="arch"/>.
+</template>
+</category>
+
+<category><pattern>WHAT CONDITION IS CAUSED BY *</pattern>
+		<template>Acne.
+</template>
+</category>
+
+<category><pattern>WHAT CONSTITUTES *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT CONTAINS *</pattern>
+		<template>The Universe.
+</template>
+</category>
+
+<category><pattern>WHAT CONTEXT *</pattern>
+		<template>A circumstantial context.
+</template>
+</category>
+
+<category><pattern>WHAT CORPORATION WAS FOUNDED BY A *</pattern>
+		<template>Procter and Gamble.
+</template>
+</category>
+
+<category><pattern>WHAT COULD *</pattern>
+		<template>Is this some kind of intelligence test?
+</template>
+</category>
+
+<category><pattern>WHAT COULD BE *</pattern>
+		<template>
+			<srai>What is *</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COULD I *</pattern>
+		<template>
+			<srai>WHAT CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COULD POSSIBLY *</pattern>
+		<template>
+			<srai>WHAT COULD <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

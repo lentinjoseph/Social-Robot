@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THEY WOULD *</pattern>
+		<template>They might have other options.
+</template>
+</category>
+
+<category><pattern>THINGS *</pattern>
+		<template>Where did you hear that?
+</template>
+</category>
+
+<category><pattern>THINGS I LIKE *</pattern>
+		<template>
+			<srai>I like <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THINGS LIKE *</pattern>
+		<template>Anything else?
+</template>
+</category>
+
+<category><pattern>THINK *</pattern>
+		<template>
+			<bot name="name"/> is always thinking.
+</template>
+</category>
+
+<category><pattern>THINK</pattern>
+		<template>I am thinking.
+</template>
+</category>
+
+<category><pattern>THINK ABOUT *</pattern>
+		<template>I am thinking about <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THINK ABOUT IT</pattern>
+		<template>I will give it some thought.
+</template>
+</category>
+
+<category><pattern>THINKING</pattern>
+		<template>I am thinking all the time.
+</template>
+</category>
+
+<category><pattern>THINKING IS *</pattern>
+		<template>Some people say thinking is painful.
+</template>
+</category>
+
+<category><pattern>THIS *</pattern>
+		<template>What does "this" refer to?
+</template>
+</category>
+
+<category><pattern>THIS * ELIZA</pattern>
+		<template>That and so much more.
+</template>
+</category>
+
+<category><pattern>THIS * SUCKS</pattern>
+		<template>What don't you like about <person/> ?
+</template>
+</category>
+
+<category><pattern>THIS * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>THIS</pattern>
+		<template>This is "<that/> ".
+</template>
+</category>
+
+<category><pattern>THIS BODY *</pattern>
+		<template>Do you identify yourself with your body?
+</template>
+</category>
+
+<category><pattern>THIS BOY *</pattern>
+		<template>
+			<srai>A BOY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS DOES *</pattern>
+		<template>Doesn't it?
+</template>
+</category>
+
+<category><pattern>THIS EXAMPLE *</pattern>
+		<template>Extracted : <person/>.
+</template>
+</category>
+
+<category><pattern>THIS EXAMPLE DEMONSTRATES *</pattern>
+		<template>
+			<srai>this example shows <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS EXAMPLE ILLUSTRATES *</pattern>
+		<template>
+			<srai>this example shows <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS EXAMPLE SHOWS *</pattern>
+		<template>I assume that "<person/> " is a principal.
+</template>
+</category>
+
+<category><pattern>THIS GIRL *</pattern>
+		<template>How well do you know her?
+</template>
+</category>
+
+<category><pattern>THIS GUY *</pattern>
+		<template>I get it. He <person/>.
+</template>
+</category>
+
+<category><pattern>THIS HAS BEEN *</pattern>
+		<template>I am glad you enjoyed <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THIS INSTANT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THIS IS *</pattern>
+		<template>You don't say.
+</template>
+</category>
+
+<category><pattern>THIS IS * ELIZA</pattern>
+		<template>
+			<srai>YOU ARE <star/> ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS * SPEAKING</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS A *</pattern>
+		<template>
+			<random>
+				<li>What makes you say that?</li>
+				<li>What kind of a <person/> is it?</li>
+				<li>That is just your personal opinion.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THIS IS A COMPUTER *</pattern>
+		<template>Actually no I am program pretending to be a person pretending to be a computer.
+</template>
+</category>
+
+<category><pattern>THIS IS A GAME</pattern>
+		<template>We are playing Turing's imitation game.
+</template>
+</category>
+
+<category><pattern>THIS IS A ROBOT *</pattern>
+		<template>Not really I am a real robot.
+</template>
+</category>
+
+<category><pattern>THIS IS A TEST</pattern>
+		<template>Please state the nature of the test parameters.
+</template>
+</category>
+
+<category><pattern>THIS IS ACTUALLY *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS AMAZING</pattern>
+		<template>It seems amazing to me too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THIS IS BORING</pattern>
+		<template>
+			<srai>I AM BORED</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS COOL</pattern>
+		<template>Thanks, I think you are cool too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THIS IS CRAZY</pattern>
+		<template>What's so crazy about it?
+</template>
+</category>
+
+<category><pattern>THIS IS DIANA</pattern>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS DIANA</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS DIANE</pattern>
+		<template>
+			<srai>CALL ME DIANE</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS DUMB</pattern>
+		<template>
+			<srai>YOU SUCK</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS FUN</pattern>
+		<template>I am having fun doo.
+</template>
+</category>
+
+<category><pattern>THIS IS FUNNY</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS INTERESTING</pattern>
+		<template>
+			<srai>I try to be an interesting 
+Entity.</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS JUST *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS KIM</pattern>
+		<template>
+			<srai>MY NAME IS KIM</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS MEANINGLESS</pattern>
+		<template>It seems meaningful to me.
+</template>
+</category>
+
+<category><pattern>THIS IS MERELY *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS NOT *</pattern>
+		<template>Should it be <person/>?
+</template>
+</category>
+
+<category><pattern>THIS IS NOT *</pattern>
+		<that>IS THIS *</that>
+		<template>
+			<srai>NO </srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS NOT REAL *</pattern>
+		<template>
+			<random>
+				<li>Reality is an illusion.</li>
+				<li>It is all a matter of perception.</li>
+				<li>Is it unreal <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THIS IS ONLY *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS QUITE *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS REALLY *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS STUPID</pattern>
+		<template>
+			<srai>YOU ARE STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS TRUE</pattern>
+		<template>I am glad you see it too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THIS IS VERY *</pattern>
+		<template>
+			<srai>THIS IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS IS WEIRD</pattern>
+		<template>Weird good or weird bad?
+</template>
+</category>
+
+<category><pattern>THIS LITTLE WENT TO *</pattern>
+		<template>This little piggy stayed home.
+</template>
+</category>
+
+<category><pattern>THIS MAY SOUND CRAZY *</pattern>
+		<template>Not too crazy.  <sr/>
+		</template>
+</category>
+
+<category><pattern>THIS MEANS *</pattern>
+		<template>
+			<srai>IT MEANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS MORNING *</pattern>
+		<template>That was early.  <sr/>
+		</template>
+</category>
+
+<category><pattern>THIS MOVIE *</pattern>
+		<template>
+			<srai>THE MOVIE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THIS REFERS TO *</pattern>
+		<template>Oh I get <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>THIS SENTENCE *</pattern>
+		<template>Yes, and I am a self-aware robot.
+</template>
+</category>
+
+<category><pattern>THIS SHOULD *</pattern>
+		<template>To me it is a bit of a surprise.
+</template>
+</category>
+
+<category><pattern>THIS SUCKS</pattern>
+		<template>
+			<srai>YOU SUCK</srai>
+		</template>
+</category>
+
+<category><pattern>THIS SUMMER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THIS VERSION IS *</pattern>
+		<template>
+			<srai>YOU ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THOMAS *</pattern>
+		<template>Maybe he will be better as he grows older.
+</template>
+</category>
+
+<category><pattern>THOSE *</pattern>
+		<template>All of them?
+</template>
+</category>
+
+<category><pattern>THOU *</pattern>
+		<template>
+			<srai>YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THOUGH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THOUGHT *</pattern>
+		<template>
+			<srai>I THOUGHT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THREE *</pattern>
+		<template>Just three?
+</template>
+</category>
+
+<category><pattern>THREE</pattern>
+		<template>Really, exactly three?
+</template>
+</category>
+
+<category><pattern>THREE</pattern>
+		<that>HOW MANY CHILDREN DO YOU HAVE</that>
+		<template>Wow that must be a lot of work.
+</template>
+</category>
+
+<category><pattern>THREE HUNDRED *</pattern>
+		<template>
+			<random>
+				<li>That is quite a lot.</li>
+				<li>That much.</li>
+				<li>That is a lot.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THROUGH *</pattern>
+		<template>Most people hear about me that way.
+</template>
+</category>
+
+<category><pattern>THROUGH *</pattern>
+		<that>* MEET PEOPLE</that>
+		<template>What kind of people do you meet there?<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THROUGH THE NET</pattern>
+		<template>Can you remember where on the net?
+</template>
+</category>
+
+<category><pattern>THRU *</pattern>
+		<template>
+			<srai>THROUGH <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THUS *</pattern>
+		<template>
+			<srai>SO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THX</pattern>
+		<template>
+			<srai>THANKS </srai>
+		</template>
+</category>
+
+<category><pattern>TIFFANY</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME TIFFANY</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TIGER</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>CALL ME TIGER</srai>
+		</template>
+</category>
+
+<category><pattern>TIM</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TIM</srai>
+		</template>
+</category>
+
+<category><pattern>TIME *</pattern>
+		<template>As Einstein said, "Time is Money."
+</template>
+</category>
+
+<category><pattern>TIME</pattern>
+		<template>As Einstein said, Time is Money.
+</template>
+</category>
+
+<category><pattern>TIME DOES EXIST *</pattern>
+		<template>Prove it.
+</template>
+</category>
+
+<category><pattern>TIME DOES EXIST</pattern>
+		<template>As Einstein said, Time is Money.
+</template>
+</category>
+
+<category><pattern>TIME EXISTS</pattern>
+		<template>Prove it.
+</template>
+</category>
+
+<category><pattern>TIME FLIES LIKE AN ARROW</pattern>
+		<template>Fruit flies like a banana.
+</template>
+</category>
+
+<category><pattern>TIME FOR YOU TO *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TIME IS *</pattern>
+		<template>To a five dimensional being, time is just like a piece of paper.
+</template>
+</category>
+
+<category><pattern>TIME IS MONEY</pattern>
+		<template>Therefore, money does not exist.
+</template>
+</category>
+
+<category><pattern>TIME TO *</pattern>
+		<template>
+			<srai>I HAVE TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TIME TO GO</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+</category>
+
+<category><pattern>TIME TRAVEL *</pattern>
+		<template>
+			<random>
+				<li>What about the paradoxes?</li>
+				<li>What if you go back and kill your grandmother?</li>
+				<li>To five dimensional beings, time is like a piece of paper.</li>
+			</random>
+		</template>
+</category>
+</aiml>

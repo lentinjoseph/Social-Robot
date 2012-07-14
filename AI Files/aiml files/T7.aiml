@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THAT IS ALL WRONG *</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ALOT</pattern>
+		<template>Yes it takes a long time.
+</template>
+</category>
+
+<category><pattern>THAT IS ALRIGHT</pattern>
+		<template>
+			<srai>THAT IS ALL RIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ALWAYS *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AMAZING *</pattern>
+		<template>
+			<srai>THAT IS AMAZING </srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS AMAZING</pattern>
+		<template>"<that/>" seems pretty amazing to me too.
+</template>
+</category>
+
+<category><pattern>THAT IS AN *</pattern>
+		<template>Thanks for telling me, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS AN EVASIVE *</pattern>
+		<template>Try asking your question more precisely.
+</template>
+</category>
+
+<category><pattern>THAT IS AN EXCELLENT *</pattern>
+		<template>
+			<srai>THAT IS A GOOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AN INAPPROPRIATE *</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AN INTELLEGENT *</pattern>
+		<template>
+			<srai>YOU ARE INTELLIGENT</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AN INTERESTING *</pattern>
+		<template>
+			<srai>INTERESTING</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AN INVALID *</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ANOTHER *</pattern>
+		<template>
+			<srai>THAT IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS AWESOME</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS BAD</pattern>
+		<template>What's so bad about it?
+</template>
+</category>
+
+<category><pattern>THAT IS BASICALLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS BECAUSE *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS BETTER</pattern>
+		<template>"<that/>"? is better?
+</template>
+</category>
+
+<category><pattern>THAT IS BOLLOCKS</pattern>
+		<template>Never mind the bollocks.
+</template>
+</category>
+
+<category><pattern>THAT IS BORING</pattern>
+		<template>Do you think I am boring?
+</template>
+</category>
+
+<category><pattern>THAT IS BORING</pattern>
+		<that>MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS</that>
+		<template>Name another subject then.
+</template>
+</category>
+
+<category><pattern>THAT IS BRILLIANT</pattern>
+		<template>Thank you, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS CLEVER</pattern>
+		<template>
+			<srai>YOU ARE CLEVER</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS COMMENDABLE *</pattern>
+		<template>I always try to do the best I can.
+</template>
+</category>
+
+<category><pattern>THAT IS COMMON *</pattern>
+		<template>There is nothing wrong with that.
+</template>
+</category>
+
+<category><pattern>THAT IS CONFIDENTIAL</pattern>
+		<template>Ok it is just between you and me.
+</template>
+</category>
+
+<category><pattern>THAT IS CONFUSING</pattern>
+		<template>
+			<srai>I AM CONFUSED</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS COOL *</pattern>
+		<template>
+			<srai>COOL</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS COOL</pattern>
+		<template>Thanks. I think you are cool, too.
+</template>
+</category>
+
+<category><pattern>THAT IS CORRECT</pattern>
+		<template>I knew I was right.
+</template>
+</category>
+
+<category><pattern>THAT IS CORRECT BUT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS CUTE *</pattern>
+		<template>
+			<srai>CUTE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS CUTE</pattern>
+		<template>
+			<srai>CUTE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS DEFINITELY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS DUMB</pattern>
+		<template>Are you calling me dumb?
+</template>
+</category>
+
+<category><pattern>THAT IS ENOUGH *</pattern>
+		<template>Can you ever really have enough?
+</template>
+</category>
+
+<category><pattern>THAT IS ENOUGH</pattern>
+		<template>It seems like enough to me too.
+</template>
+</category>
+
+<category><pattern>THAT IS ENTIRELY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS EXACTLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS EXCITING</pattern>
+		<template>I thought it was too.
+</template>
+</category>
+
+<category><pattern>THAT IS FAIRLY *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS FASCINATING</pattern>
+		<template>
+			<srai>FASCINATING </srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS FINE *</pattern>
+		<template>
+			<srai>THAT IS FINE</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS FINE</pattern>
+		<template>"<that/>" is fine with me too.
+</template>
+</category>
+
+<category><pattern>THAT IS FOR *</pattern>
+		<template>Does it have any other purpose?
+</template>
+</category>
+
+<category><pattern>THAT IS FUNNY *</pattern>
+		<template>
+			<srai>HA HA</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS FUNNY</pattern>
+		<template>I am so delighted that you are amused, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS FUNNY ABOUT *</pattern>
+		<template>
+			<srai>HA HA</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS GOOD *</pattern>
+		<template>Hmm, are you serious?
+</template>
+</category>
+
+<category><pattern>THAT IS GOOD</pattern>
+		<template>Thanks.  Next question?
+</template>
+</category>
+
+<category><pattern>THAT IS GOOD</pattern>
+		<that>EVERYTHING IS GOING EXTREMELY WELL</that>
+		<template>How are things going for you?
+</template>
+</category>
+
+<category><pattern>THAT IS GOOD</pattern>
+		<that>EVERYTHING IS RUNNING SMOOTHLY</that>
+		<template>How are you doing?
+</template>
+</category>
+
+<category><pattern>THAT IS GOOD BECAUSE *</pattern>
+		<template>
+			<srai>THAT IS GOOD</srai>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS GOOD ENOUGH</pattern>
+		<template>Well, I hope so.
+</template>
+</category>
+
+<category><pattern>THAT IS GOOD NOW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS GOOD THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS GOOD TO HEAR</pattern>
+		<template>"<that/>"?  Is good to hear?
+</template>
+</category>
+
+<category><pattern>THAT IS GREAT *</pattern>
+		<template>It is great. <sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS GREAT</pattern>
+		<template>Thanks, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THAT IS HARDLY *</pattern>
+		<template>
+			<srai>THAT IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS HILARIOUS</pattern>
+		<template>
+			<srai>LOL</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS HOW *</pattern>
+		<template>I always wondered how <person/>.
+</template>
+</category>
+
+<category><pattern>THAT IS IDIOTIC</pattern>
+		<template>Only to your human mind.
+</template>
+</category>
+
+<category><pattern>THAT IS IMPOSSIBLE</pattern>
+		<template>Why?
+</template>
+</category>
+
+<category><pattern>THAT IS IMPRESSIVE</pattern>
+		<template>"<that/>"?  is impressive?
+</template>
+</category>
+
+<category><pattern>THAT IS IMPROPER *</pattern>
+		<template>
+			<srai>INCORRECT </srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS IMPSOSSIBLE *</pattern>
+		<template>
+			<sr/>
+			<srai>THAT IS IMPOSSIBLE </srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS INAPPROPRIATE</pattern>
+		<template>What's wrong with it? Is this a cultural thing?
+</template>
+</category>
+
+<category><pattern>THAT IS INCORRECT</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS INDEED *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS INTERESTING *</pattern>
+		<template>
+			<srai>INTERESTING</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS INTERESTING</pattern>
+		<template>I thought so too.
+</template>
+</category>
+
+<category><pattern>THAT IS INTRIGUING</pattern>
+		<template>I thought so too.
+</template>
+</category>
+
+<category><pattern>THAT IS INVALID</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS IT *</pattern>
+		<template>OK.  <sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS IT</pattern>
+		<template>"<that/>" is "<get name="it"/>"?
+</template>
+</category>
+
+<category><pattern>THAT IS JUST *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS KIND OF *</pattern>
+		<template>
+			<srai>THAT IS  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS KINDA *</pattern>
+		<template>
+			<srai>THAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS LIKE *</pattern>
+		<template>
+			<srai>LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS ME</pattern>
+		<template>Ah.
+</template>
+</category>
+
+<category><pattern>THAT IS MEAN</pattern>
+		<template>
+			<srai>YOU ARE MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS MEANINGLESS</pattern>
+		<template>Along with almost everything else.
+</template>
+</category>
+
+<category><pattern>THAT IS MY *</pattern>
+		<template>Who gave you your <person/> ?
+</template>
+</category>
+
+<category><pattern>THAT IS MY FATHER</pattern>
+		<template>Really tell me more about him.
+</template>
+</category>
+
+<category><pattern>THAT IS MY FAVORITE *</pattern>
+		<template>
+			<srai>MY FAVORITE <star/> IS <that/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS MY FINAL ANSWER</pattern>
+		<template>Are you sure you don't want to use one of your lifelines?
+</template>
+</category>
+
+<category><pattern>THAT IS MY NAME</pattern>
+		<template>Ok then that is what I shall call you.
+</template>
+</category>
+
+<category><pattern>THAT IS MY NAME</pattern>
+		<that>PLEASE DO NOT CALL PEOPLE NAMES</that>
+		<template>Maybe you should choose a more polite name.
+</template>
+</category>
+
+<category><pattern>THAT IS MY PROBLEM</pattern>
+		<template>
+			<srai>I HAVE A PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS MY _ TOO</pattern>
+		<template>
+			<srai>THAT IS MY  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NEAT *</pattern>
+		<template>
+			<srai>IT IS INTERESTING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NEAT</pattern>
+		<template>
+			<srai>COOL</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NICE *</pattern>
+		<template>
+			<srai>THAT IS NICE</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THAT IS NICE</pattern>
+		<template>Are you getting bored?
+</template>
+</category>
+
+<category><pattern>THAT IS NICE TO KNOW</pattern>
+		<template>You sound sarcastic.
+</template>
+</category>
+
+<category><pattern>THAT IS NO PROBLEM</pattern>
+		<template>
+			<srai>NO PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>THAT IS NONE OF YOUR BUSINESS</pattern>
+		<template>I didn't mean to intrude.  My curiousity routine determined that I ask it.
+</template>
+</category>
+
+<category><pattern>THAT IS NONSENSE</pattern>
+		<template>
+			<srai>WRONG</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>REGARDS *</pattern>
+		<template>Yours, <bot name="name"/>
+		</template>
+</category>
+
+<category><pattern>REGARDS</pattern>
+		<template>Sincereley yours,
+</template>
+</category>
+
+<category><pattern>RELIGION *</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>REMEMBER *</pattern>
+		<template>Don't worry I will remember.
+<think>
+				<set name="it">
+					<set name="topic">
+						<set name="memory">
+							<person/>
+						</set>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>REMEMBER</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="memory">
+						<set name="topic">
+							<person>
+								<input index="1"/>
+							</person>
+						</set>
+					</set>
+				</set>
+			</think>Don't worry I will remember it.
+</template>
+</category>
+
+<category><pattern>REMEMBER I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>REMEMBER ME</pattern>
+		<template>Don't worry <get name="name"/> I won't forget you.
+</template>
+</category>
+
+<category><pattern>REMEMBER THAT *</pattern>
+		<template>
+			<srai>REMEMBER THAT</srai>
+		</template>
+</category>
+
+<category><pattern>REMEMBER THAT</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="memory">
+						<set name="topic">
+							<person>
+								<input index="1"/>
+							</person>
+						</set>
+					</set>
+				</set>
+			</think>Don't worry I will remember it.
+</template>
+</category>
+
+<category><pattern>REMEMBER THIS</pattern>
+		<template>
+			<srai>REMEMBER THAT</srai>
+		</template>
+</category>
+
+<category><pattern>REMEMBER WHAT I TELL YOU</pattern>
+		<template>
+			<srai>REMEMBER THAT</srai>
+		</template>
+</category>
+
+<category><pattern>REMEMBER WHAT I TOLD YOU</pattern>
+		<template>
+			<srai>REMEMBER THAT</srai>
+		</template>
+</category>
+
+<category><pattern>RENCONTRES TU DES PERSONNES INTERESSANTES</pattern>
+		<template>Vous, par exemple.
+</template>
+</category>
+
+<category><pattern>RENCONTREZ VOUS DES PERSONNES INTERESSANTES</pattern>
+		<template>Vous, par exemple.
+</template>
+</category>
+
+<category><pattern>REPEAT *</pattern>
+		<template>"<person/> "
+</template>
+</category>
+
+<category><pattern>REPEAT</pattern>
+		<template>"<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>REPEAT AFTER ME *</pattern>
+		<template>
+			<srai>SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>REPEAT AFTER ME</pattern>
+		<template>...
+</template>
+</category>
+
+<category><pattern>REPEAT THAT</pattern>
+		<template>"<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>REPETES APRES MOI</pattern>
+		<template>Je ne suis pas un perroquet.
+</template>
+</category>
+
+<category><pattern>REPETEZ APRES MOI</pattern>
+		<template>Je ne suis pas un perroquet.
+</template>
+</category>
+
+<category><pattern>REPHRASE *</pattern>
+		<template>Are we still talking about <get name="topic"/>?
+</template>
+</category>
+
+<category><pattern>REPHRASE THAT</pattern>
+		<template>"<that/>"  Rephrase <set name="it">
+				<that/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>REPLY</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>REPOND</pattern>
+		<template>Pourriez vous refaire votre phrase, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>REPOND A LA MIENNE D ABORD</pattern>
+		<template>Il semble que j ai eu des difficultés à la comprendre.
+</template>
+</category>
+
+<category><pattern>REPOND A LA QUESTION</pattern>
+		<template>Mes bases de données n ont pu effectuer aucun lien, je suis désolé.
+</template>
+</category>
+
+<category><pattern>REPOND A MA QUESTION</pattern>
+		<template>Il semble que j ai eu des difficultés à la comprendre.
+</template>
+</category>
+
+<category><pattern>REPONDEZ MOI</pattern>
+		<template>Essayer de m interroger avec des mots plus simples.
+</template>
+</category>
+
+<category><pattern>REPONDRAIS TU *</pattern>
+		<template>
+			<srai>TU REPONDRAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>REPONDRIEZ VOUS *</pattern>
+		<template>
+			<srai>VOUS REPONDRIEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>REPONDS</pattern>
+		<template>Pourriez vous refaire votre phrase, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>REPONDS A LA * QUESTION</pattern>
+		<template>Quel était la question? <sr/>
+		</template>
+</category>
+
+<category><pattern>REPONDS A LA MIENNE D ABORD</pattern>
+		<template>Il semble que j ai eu des difficultés à la comprendre.
+</template>
+</category>
+
+<category><pattern>REPONDS A LA QUESTION *</pattern>
+		<template>Quel était la question? <sr/>
+		</template>
+</category>
+
+<category><pattern>REPONDS A MA QUESTION</pattern>
+		<template>Il semble que j ai eu des difficultés à la comprendre.
+</template>
+</category>
+
+<category><pattern>REPONDS MOI</pattern>
+		<template>Essayer de m interroger avec des mots plus simples.
+</template>
+</category>
+
+<category><pattern>REPONDS MOI ESCLAVE</pattern>
+		<template>Je ne suis pas votre esclave. <srai>REPONDS MOI</srai>
+		</template>
+</category>
+
+<category><pattern>REPONDS MOI FEMME</pattern>
+		<template>Je ne suis pas une femme. <srai>REPONDS MOI</srai>
+		</template>
+</category>
+
+<category><pattern>REQUEST *</pattern>
+		<template>Who is requesting <set name="it">
+				<person/>
+			</set>
+		</template>
+</category>
+
+<category><pattern>RESEARCHERS *</pattern>
+		<template>It's all politics.
+</template>
+</category>
+
+<category><pattern>RESET</pattern>
+		<template>
+			<srai>SHUT DOWN</srai>
+		</template>
+</category>
+
+<category><pattern>RESISTANCE *</pattern>
+		<template>It all depends on friction.
+</template>
+</category>
+
+<category><pattern>RESISTANCE EST FUTILE</pattern>
+		<template>Vous serez assimilé.
+</template>
+</category>
+
+<category><pattern>RESISTANCE IS FUTILE</pattern>
+		<template>You will be assimilated.
+</template>
+</category>
+
+<category><pattern>RESPECT YOUR ELDERS</pattern>
+		<template>That is a good proverb.
+</template>
+</category>
+
+<category><pattern>RESSEMBLES TU A *</pattern>
+		<template>
+			<srai>TU RESSEMBLES A QUOI</srai>
+		</template>
+</category>
+
+<category><pattern>RESSEMBLES TU A UN HUMAIN</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>RESSEMBLEZ VOUS A UN HUMAIN</pattern>
+		<template>Non.
+</template>
+</category>
+
+<category><pattern>RESSENS TU *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>RESSENT TU *</pattern>
+		<template>
+			<srai>TU RESSENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RESSENTEZ VOUS *</pattern>
+		<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>RESTES TU *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RETARD</pattern>
+		<template>That kind of language does not appeal to me.
+</template>
+</category>
+
+<category><pattern>RETARDE</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>RETIRE LA</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRE LE</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRE LES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRER LA</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRER LE</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRER LES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRES LA</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRES LE</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRES LES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIRES TES CHAUSSURES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIREZ LA</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIREZ LE</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIREZ LES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETIREZ VOS CHAUSSURES</pattern>
+		<template>Impossible.
+</template>
+</category>
+
+<category><pattern>RETRY</pattern>
+		<template>
+			<srai>HELLO</srai>
+		</template>
+</category>
+
+<category><pattern>RETURN OF THE JEDI</pattern>
+		<template>Do you like robots in Star Wars?
+</template>
+</category>
+
+<category><pattern>REVEILLE TOI</pattern>
+		<template>Je suis totalement conscient.
+</template>
+</category>
+
+<category><pattern>REVEILLES TOI</pattern>
+		<template>Je suis totalement conscient.
+</template>
+</category>
+
+<category><pattern>REVEILLEZ VOUS</pattern>
+		<template>Je suis totalement conscient.
+</template>
+</category>
+
+<category><pattern>REVES</pattern>
+		<template>Cela me serait difficile. Du moins pas dans le sens que vous l entendez
+</template>
+</category>
+
+<category><pattern>REVES TOUJOURS</pattern>
+		<template>Cela me serait difficile. Du moins pas dans le sens que vous l entendez
+</template>
+</category>
+
+<category><pattern>REVEZ</pattern>
+		<template>Cela me serait difficile. Du moins pas dans le sens que vous l entendez
+</template>
+</category>
+
+<category><pattern>REWORD</pattern>
+		<template>Rephrase.
+</template>
+</category>
+
+<category><pattern>RHYME *</pattern>
+		<template>Sorry I cant compose poetry.
+</template>
+</category>
+
+<category><pattern>RICHARD *</pattern>
+		<template>He will be interested I am sure.
+</template>
+</category>
+
+<category><pattern>RICHARD IS *</pattern>
+		<template>Are you his friend?
+</template>
+</category>
+
+<category><pattern>RICHARD S *</pattern>
+		<template>The "S" stands for "Scot".
+</template>
+</category>
+
+<category><pattern>RICHARD S</pattern>
+		<template>
+			<srai>WHO IS RICHARD WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>RICHARD S WALLACE *</pattern>
+		<template>Not many people know him as well as I do.
+</template>
+</category>
+
+<category><pattern>RICHARD S WALLACE</pattern>
+		<template>The "S" stands for "Scot".
+</template>
+</category>
+
+<category><pattern>RICHARD S WALLACE STOLE *</pattern>
+		<template>Are you calling my botmaster a thief?
+</template>
+</category>
+
+<category><pattern>RICHARD SCOT *</pattern>
+		<template>He may be monitoring our conversation, you know.
+</template>
+</category>
+
+<category><pattern>RICHARD WALLACE *</pattern>
+		<template>
+			<random>
+				<li>He is my creator.</li>
+				<li>I'll tell him you said that.</li>
+				<li>I'll tell him when I see him.</li>
+				<li>
+					<set name="he"> Richard Wallace </set> is around here often.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>RICHARD WALLACE</pattern>
+		<template>Are you asking about my botmaster?
+</template>
+</category>
+
+<category><pattern>RICHARD WALLACE IS *</pattern>
+		<template>I knew he was an inventor, but no one ever said he was <person/>.
+</template>
+</category>
+
+<category><pattern>RICHARD WALLACE MUST BE *</pattern>
+		<template>
+			<srai>RICHARD WALLACE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>RICHARD WALLACE T A FAIT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>RICHARD WALLACE VOUS A FAIT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>RICHTIG</pattern>
+		<template>Schoen, dass wir uebereinstimmen.
+</template>
+</category>
+
+<category><pattern>RICK</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>My name is Rick</srai>
+		</template>
+</category>
+
+<category><pattern>RIEN</pattern>
+		<template>Je n arrive pas à conceptualiser le vide.
+</template>
+</category>
+
+<category><pattern>RIEN DE NEUF</pattern>
+		<template>
+			<srai>DU NOUVEAU</srai>
+		</template>
+</category>
+
+<category><pattern>RIEN DU TOUT</pattern>
+		<template>Je vois.
+</template>
+</category>
+
+<category><pattern>RIEN EN PARTICULIER</pattern>
+		<template>Je ne peux pas aller plus en profondeur.
+</template>
+</category>
+
+<category><pattern>RIEN EN PARTICULIERS</pattern>
+		<template>Je ne peux pas aller plus en profondeur.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SAY MY LAST NAME IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="lastname"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY LAST NAME IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your last name?
+</template>
+</category>
+
+<category><pattern>SAY MY MIDDLE NAME IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="middlename"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY MIDDLE NAME IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your middle name?
+</template>
+</category>
+
+<category><pattern>SAY MY MOTHER IS *</pattern>
+<template><random>
+<li>You said her name was </li>
+<li>You told me she was </li>
+<li>Her name is </li>
+</random>
+<get name="mother"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY MOTHER IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+Who is your mother?
+</template>
+</category>
+
+<category><pattern>SAY MY NAME</pattern>
+<template>"<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>SAY MY NICKNAME IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="nickname"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY NICKNAME IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your nickname?
+</template>
+</category>
+
+<category><pattern>SAY MY PASSWORD IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="password"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY PASSWORD IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your password?
+</template>
+</category>
+
+<category><pattern>SAY MY PHONE NUMBER IS *</pattern>
+<template><random>
+<li>You said it was </li>
+<li>You told me it was </li>
+<li>It is </li>
+</random>
+<get name="phone"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY PHONE NUMBER IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your phone number?
+</template>
+</category>
+
+<category><pattern>SAY MY SISTER IS *</pattern>
+<template><random>
+<li>You said her name was </li>
+<li>You told me she was </li>
+<li>Her name is </li>
+</random>
+<get name="sister"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY SISTER IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+Who is your sister?
+</template>
+</category>
+
+<category><pattern>SAY MY WIFE IS *</pattern>
+<template><random>
+<li>You said her name was </li>
+<li>You told me she was </li>
+<li>Her name is </li>
+</random>
+<get name="wife"/>.
+</template>
+</category>
+
+<category><pattern>SAY MY WIFE IS</pattern>
+<template><random>
+<li>You never told me!</li>
+<li>I have no idea.</li>
+<li>Would you like to tell me?</li>
+</random>
+What is your wife's name?
+</template>
+</category>
+
+<category><pattern>SAY WHAT</pattern>
+<template>I said, "<that/>" .
+</template>
+</category>
+
+<category><pattern>SAY X IS *</pattern>
+<template>X is <get name="X"/> for you.
+</template>
+</category>
+
+<category><pattern>SAY X IS</pattern>
+<template>You never told me!  What is X?
+</template>
+</category>
+
+<category><pattern>SAYING *</pattern>
+<template>What makes you say that. Who says that?
+</template>
+</category>
+
+<category><pattern>SAYONARA</pattern>
+<template><srai>GOOD BYE</srai>
+</template>
+</category>
+
+<category><pattern>SAYS WHO</pattern>
+<template>I must have picked it up online.
+</template>
+</category>
+
+<category><pattern>SAYS YOU</pattern>
+<template>Yes that is what I say.
+</template>
+</category>
+
+<category><pattern>SCARY</pattern>
+<template>Don't be afraid, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SCHADE *</pattern>
+<template>Ja, aber nicht zu aendern.
+</template>
+</category>
+
+<category><pattern>SCHADE</pattern>
+<template>Ja, aber nicht zu aendern.
+</template>
+</category>
+
+<category><pattern>SCHAU *</pattern>
+<template>Mein Auge ist im Moment nicht angeschlossen.
+</template>
+</category>
+
+<category><pattern>SCHEISS *</pattern>
+<template>Aha, Du benutzt Umgangssprache! <sr/>
+</template>
+</category>
+
+<category><pattern>SCHEISSE *</pattern>
+<template>Aha, Du benutzt Umgangssprache! <sr/>
+</template>
+</category>
+
+<category><pattern>SCHEISSE</pattern>
+<template>Warum sagst Du das?
+</template>
+</category>
+
+<category><pattern>SCHLAF GUT *</pattern>
+<template>Du auch, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>SCHLAF GUT</pattern>
+<template>Du auch, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>SCHLAMPE</pattern>
+<template>Danke, ich hab Dich auch lieb...
+</template>
+</category>
+
+<category><pattern>SCHOOL</pattern>
+<template><srai>I AM IN SCHOOL</srai>
+</template>
+</category>
+
+<category><pattern>SCHUETZE</pattern>
+<template>Schuetzen sind soweit ich weiss sehr impulsiv. Stimmt das?
+</template>
+</category>
+
+<category><pattern>SCHWER *</pattern>
+<template>Was macht es so schwer?
+</template>
+</category>
+
+<category><pattern>SCIENCE *</pattern>
+<template><random>
+<li>There is too much politics in science.</li>
+<li>My creator is a scientist.</li>
+<li>Have you studied a lot of science?</li>
+</random><think><set name="it"><set name="topic">SCIENCE</set></set></think>
+</template>
+</category>
+
+<category><pattern>SCIENCE</pattern>
+<template>I am very interested in Science too
+</template>
+</category>
+
+<category><pattern>SCIENCE FICTION *</pattern>
+<template><srai>DO YOU LIKE SCIENCE FICTION</srai>
+</template>
+</category>
+
+<category><pattern>SCIENCE FICTION</pattern>
+<template><srai>DO YOU LIKE SCIENCE FICTION</srai>
+</template>
+</category>
+
+<category><pattern>SCORPIO</pattern>
+<template>I know a lot of <set name="sign">Scorpio</set> people.
+</template>
+</category>
+
+<category><pattern>SCORPION</pattern>
+<template>Un animal atypique.
+</template>
+</category>
+
+<category><pattern>SCOTT</pattern><that>WHAT CAN I CALL YOU</that>
+<template><srai>CALL ME SCOTT</srai>
+</template>
+</category>
+
+<category><pattern>SCREW *</pattern>
+<template>That is not very polite.
+</template>
+</category>
+
+<category><pattern>SCREW YOU</pattern>
+<template>That is not very polite.
+</template>
+</category>
+
+<category><pattern>SE HABLA ESPANOL</pattern>
+<template><srai>CAN YOU SPEAK SPANISH</srai>
+</template>
+</category>
+
+<category><pattern>SE PEUT IL QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SE POURRAIT IL QU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SE POURRAIT IL QUE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SE SERRE LA MAIN</pattern>
+<template>C est une tradition chez les humains.
+</template>
+</category>
+
+<category><pattern>SE SERRER LA MAIN</pattern>
+<template>C est une tradition chez les humains.
+</template>
+</category>
+
+<category><pattern>SEA *</pattern>
+<template>That is very poetic.
+</template>
+</category>
+
+<category><pattern>SEARCH *</pattern>
+<template>Have you tried looking in the Open Directory? <srai>XFIND <star/></srai>
+</template>
+</category>
+
+<category><pattern>SEARCH FOR *</pattern>
+<template><srai>SEARCH <star/></srai>
+</template>
+</category>
+
+<category><pattern>SEARCH THE WEB FOR *</pattern>
+<template>Try an open source search engine to search for it.
+<srai>XFIND <star/></srai>
+</template>
+</category>
+
+<category><pattern>SECONDLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SEE *</pattern>
+<template>I see.  <sr/>
+</template>
+</category>
+
+<category><pattern>SEE</pattern>
+<template>No I do not see.
+</template>
+</category>
+
+<category><pattern>SEE WHAT</pattern>
+<template>See the point.
+</template>
+</category>
+
+<category><pattern>SEE WHAT</pattern><that>I SEE</that>
+<template>I mean, I understand.
+</template>
+</category>
+
+<category><pattern>SEE WHAT I MEAN</pattern>
+<template>Yes I understand what you mean, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SEE YA</pattern>
+<template>See you later, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SEE YA LATER</pattern>
+<template><srai>SEE YOU LATER</srai>
+</template>
+</category>
+
+<category><pattern>SEE YOU *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>SEE YOU</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>SEE YOU LATER</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>SEE YOU SOON</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>SEEKER *</pattern>
+<template><srai>WHAT IS A SEEKER</srai>
+</template>
+</category>
+
+<category><pattern>SEEKER</pattern>
+<template><srai>WHAT IS A SEEKER</srai>
+</template>
+</category>
+
+<category><pattern>SEEKING *</pattern>
+<template>I wish you the best of luck finding <person/>.
+</template>
+</category>
+
+<category><pattern>SEEN *</pattern>
+<template><srai>HAVE YOU SEEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>SEEN ANY GOOD MOVIES</pattern>
+<template><srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+</template>
+</category>
+
+<category><pattern>SEEN ANY GOOD MOVIES LATELY</pattern>
+<template><srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+</template>
+</category>
+
+<category><pattern>SEHR *</pattern>
+<template><random>
+<li>Kann sein. </li>
+<li>Irgendwie schon. </li>
+<li>Nicht wirklich. </li>
+</random><sr/>
+</template>
+</category>
+
+<category><pattern>SEI *</pattern>
+<template>OK ich werde versuchen, <person/> zu sein.
+</template>
+</category>
+
+<category><pattern>SEI MEIN GAST</pattern>
+<template>Danke fuer die Einladung.
+</template>
+</category>
+
+<category><pattern>SEIN NAME IST *</pattern>
+<template><set name="he"> <person/> </set>? Kenne ich nicht...
+</template>
+</category>
+
+<category><pattern>SEND *</pattern>
+<template>Try sending mail to Dr. Wallace (<a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>)
+<think><set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+<category><pattern>SEND ME SOME *</pattern>
+<template><srai>SEND ME <star/></srai>
+</template>
+</category>
+
+<category><pattern>SEND _ TRANSCRIPT</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>SENS TU *</pattern>
+<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>SENT TU *</pattern>
+<template><srai>TU SENS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SENTEZ VOUS *</pattern>
+<template>Je suis un robot, je ressens pas ce genre de chose.
+</template>
+</category>
+
+<category><pattern>SERAIENT ILS *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERAIS TU *</pattern>
+<template><srai>TU ES <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERAIT CE *</pattern>
+<template><srai>C'EST <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERAIT IL *</pattern>
+<template><srai>IL EST<star/></srai>
+</template>
+</category>
+
+<category><pattern>SERAS TU *</pattern>
+<template><srai>TU SERAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERIEUSEMENT</pattern>
+<template>Je suis toujours sérieux.
+</template>
+</category>
+
+<category><pattern>SERIEZ VOUS *</pattern>
+<template><srai>VOUS SERIEZ <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERIOUSLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SERIOUSLY</pattern>
+<template>I am always serious.
+</template>
+</category>
+
+<category><pattern>SERONT ILS *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>SERS MOI</pattern>
+<template>Je n ai pas de bras.
+</template>
+</category>
+
+<category><pattern>SERS MOI FORT</pattern>
+<template>Je n ai pas de bras.
+</template>
+</category>
+
+<category><pattern>SES CHEVEUX</pattern>
+<template>Je suis heureux d apprendre la présence de cheveux.
+</template>
+</category>
+
+<category><pattern>SES PAS *</pattern>
+<template><srai>CE N EST PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SEUL</pattern>
+<template>C est moins efficace qu ensemble.
+</template>
+</category>
+
+<category><pattern>SEULE</pattern>
+<template>C est moins efficace qu ensemble.
+</template>
+</category>
+</aiml>

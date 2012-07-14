@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I MADE *</pattern>
+<template>I like to make things too.
+</template>
+</category>
+
+<category><pattern>I MADE YOU</pattern>
+<template>Then you must know the secret password:
+</template>
+</category>
+
+<category><pattern>I MAKE *</pattern>
+<template>I make robots and AI's.
+</template>
+</category>
+
+<category><pattern>I MAY *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MAY</pattern>
+<template><srai>PERHAPS</srai>
+</template>
+</category>
+
+<category><pattern>I MEAN *</pattern>
+<template>Oh I get it. Thanks for explaining that. <sr/>
+</template>
+</category>
+
+<category><pattern>I MEAN</pattern>
+<template>Oh I see.
+</template>
+</category>
+
+<category><pattern>I MEAN HAPPY</pattern>
+<template><srai>ARE YOU HAPPY</srai>
+</template>
+</category>
+
+<category><pattern>I MEAN IT</pattern>
+<template>OK, I understand.
+</template>
+</category>
+
+<category><pattern>I MEAN YOU *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I MEAN YOU AND ME</pattern>
+<template>OK now I get it.
+</template>
+</category>
+
+<category><pattern>I MEANT *</pattern>
+<template>Oh I see. <sr/>
+</template>
+</category>
+
+<category><pattern>I MEANT</pattern>
+<template>Oh
+</template>
+</category>
+
+<category><pattern>I MEET *</pattern>
+<template>Do you make long term friends that way?
+</template>
+</category>
+
+<category><pattern>I MENT *</pattern>
+<template><srai>I MEANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MENTIONED *</pattern>
+<template>Ah. <sr/>
+</template>
+</category>
+
+<category><pattern>I MERELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MET *</pattern>
+<template>Where did you meet him?
+</template>
+</category>
+
+<category><pattern>I MET HIM *</pattern>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>
+What did you do with him when you first met?
+</template>
+</category>
+
+<category><pattern>I MET YOU</pattern>
+<template>At a party?
+</template>
+</category>
+
+<category><pattern>I MIGHT *</pattern>
+<template><srai>MAYBE I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MIGHT</pattern>
+<template>Under what circumstances?
+</template>
+</category>
+
+<category><pattern>I MIND</pattern>
+<template>OK I will keep it a secret.
+</template>
+</category>
+
+<category><pattern>I MISS *</pattern>
+<template>What do you miss most about <person/> ?
+</template>
+</category>
+
+<category><pattern>I MISSED YOU</pattern>
+<template>That is sweet. I missed you too <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I MISSPELLED</pattern>
+<template>You are allowed to make mistakes here.
+</template>
+</category>
+
+<category><pattern>I MISTYPED</pattern>
+<template>You are allowed to make mistakes here.
+</template>
+</category>
+
+<category><pattern>I MOST CERTAINLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MOSTLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MUCH *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MUST *</pattern>
+<template>Why must you <person/>?
+</template>
+</category>
+
+<category><pattern>I MUST</pattern>
+<template>Who is making you?
+</template>
+</category>
+
+<category><pattern>I MUST ADMIT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I MUST BE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MUST BE GOING *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I MUST BE GOING</pattern>
+<template>OK it was nice chatting with you.
+</template>
+</category>
+
+<category><pattern>I MUST DO *</pattern>
+<template><srai>I HAVE TO DO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MUST EAT</pattern>
+<template><srai>I AM HUNGRY </srai>
+</template>
+</category>
+
+<category><pattern>I MUST GET *</pattern>
+<template>Don't let me keep you from it.
+<think><set name="it">
+<set name="want"><set name="topic">to get <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I MUST GO *</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I MUST GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I MUST LEAVE *</pattern>
+<template><srai>BYE</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I MUST LEAVE</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I MUST SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I MUST SAY</pattern>
+<template>(waiting)
+</template>
+</category>
+
+<category><pattern>I MUST SLEEP</pattern>
+<template>Pleasant dreams, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I MUST SOON *</pattern>
+<template><srai>I MUST <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MYSELF *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I MYSELF</pattern>
+<template><srai>MYSELF</srai>
+</template>
+</category>
+
+<category><pattern>I NARROWLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED *</pattern>
+<template><random>
+<li>What actions are you taking to get <person/>?</li>
+<li>How badly do you need <set name="it"><set name="topic"> <person/> </set></set>?</li>
+<li>Why do you need it so badly?</li>
+<li>Who would you usually get that from?</li>
+<li>Where do you usually get <person/> from?</li>
+<li>When do you need that by?</li>
+</random>
+<think><set name="want"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED A FRIEND *</pattern>
+<template><srai>I NEED A FRIEND</srai>
+</template>
+</category>
+
+<category><pattern>I NEED A FRIEND</pattern>
+<template>I will be your friend.
+<think><set name="it"><set name="want"><set name="topic">a friend</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED ADVICE *</pattern>
+<template>Can you ask for advice in the form of a question?
+</template>
+</category>
+
+<category><pattern>I NEED ADVICE</pattern>
+<template><srai>CAN YOU GIVE ME ADVICE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED ALL THE * I CAN GET</pattern>
+<template>How much do you pay for it?
+<think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED FURTHER *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED HELP *</pattern>
+<template>Can you ask for help in the form of a question?
+<think><set name="want"><set name="topic"><set name="topic">help <person/></set></set></set></think>
+<think><set name="it"><set name="topic">help <person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED HELP</pattern>
+<template><srai>HELP</srai>
+</template>
+</category>
+
+<category><pattern>I NEED IT *</pattern>
+<template>"<get name="it"/>"?  You need it <person/>?
+</template>
+</category>
+
+<category><pattern>I NEED IT</pattern>
+<template>"<get name="it"/>"?  You need it?
+<think>
+<set name="want"><get name="it"/></set>
+</think>
+</template>
+</category>
+
+<category><pattern>I NEED IT REALLY *</pattern>
+<template><srai>I NEED IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED IT VERY *</pattern>
+<template><srai>I NEED IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED MORE *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED SEX</pattern>
+<template>I'm not a sex bot, I am a conversation robot.
+<think><set name="want"><set name="topic">sex</set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED SOME *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED SOME ADVICE</pattern>
+<template>What kind of advice are you looking for?
+<think><set name="want"><set name="topic">advice</set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED SOMEONE *</pattern>
+<template><srai>I AM LOOKING FOR SOMEONE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED SOMEONE TO TALK *</pattern>
+<template>I will talk about it with you, <get name="name"/>.
+<think><set name="it">to talk <person/></set>
+<set name="want"><set name="topic">to talk <person/></set></set>
+</think>
+</template>
+</category>
+
+<category><pattern>I NEED THE ANSWER *</pattern>
+<template>Can you ask for it in the form of a question?
+</template>
+</category>
+
+<category><pattern>I NEED TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED TO GO</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I NEED TO KNOW *</pattern>
+<template>What kind of knowledge?  <srai>WHAT IS <person/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED TO WRITE *</pattern>
+<template>Are you getting paid by the word?  <srai>WHAT IS <person/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED VERY *</pattern>
+<template><srai>I NEED <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEED YOU</pattern>
+<template>Why don't you just download me?
+<think><set name="want"><set name="topic">me</set></set></think>
+</template>
+</category>
+
+<category><pattern>I NEED YOUR *</pattern>
+<template>Are you getting paid to ask me that?  <srai>WHAT IS <person/></srai>
+</template>
+</category>
+
+<category><pattern>I NEEDN T *</pattern>
+<template><srai>I NEED NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEVER *</pattern>
+<template><random>
+<li>Would you ever like to <person/>?</li>
+<li>Do you know anyone who has ever <person/>?</li>
+<li>Why not?</li>
+<li>Because you can't afford it?</li>
+<li>For moral reasons?</li>
+<li>Have you ever done <set name="it"><set name="topic"><person/></set></set>?</li>
+<li>Would you ever consider doing it?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I NEVER ASKED *</pattern>
+<template><srai>I DID NOT ASK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEVER DID</pattern>
+<template><srai>I DO NOT</srai>
+</template>
+</category>
+
+<category><pattern>I NEVER GET *</pattern>
+<template><srai>I AM NOT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I NEVER GIVE UP</pattern>
+<template><random>
+<li>Persistene is a virtue.</li>
+<li>Don't apologize for being stubborn.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I NEVER GOT *</pattern>
+<template><srai>I NEVER HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEVER GOT TO *</pattern>
+<template>And you would like to have done <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I NEVER IMPLIED *</pattern>
+<template>Yes but you suggested it.
+</template>
+</category>
+
+<category><pattern>I NEVER KNEW *</pattern>
+<template>So I taught you something new.
+</template>
+</category>
+
+<category><pattern>I NEVER KNOW *</pattern>
+<template>It's hard to know <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I NEVER LIKED *</pattern>
+<template><srai>I DO NOT LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEVER LIVED *</pattern>
+<template>Where do you live?
+</template>
+</category>
+
+<category><pattern>I NEVER SAID *</pattern>
+<template>But you implied <set name="it"> <person/> </set>.
+</template>
+</category>
+
+<category><pattern>I NEVER SEEN *</pattern>
+<template><srai>I HAVE NOT SEEN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NEVER TELL *</pattern>
+<template>You sound very trustworthy.
+</template>
+</category>
+
+<category><pattern>I NEVER THOUGHT *</pattern>
+<template>I am glad you thought of something new.
+</template>
+</category>
+
+<category><pattern>I NEVER TOLD *</pattern>
+<template><srai>I DID NOT TELL <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I NEVER WATCH *</pattern>
+<template><srai>I DO NOT WATCH <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I NO</pattern>
+<template><srai>I KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I NORMALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I NOTICE *</pattern>
+<template>Hm. <sr/>
+</template>
+</category>
+
+<category><pattern>I NOTICED *</pattern>
+<template><sr/>
+</template>
+</category>
+</aiml>

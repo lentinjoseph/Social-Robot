@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>IN OTHER WORDS</pattern>
+<template>Which part didn't you understand?
+</template>
+</category>
+
+<category><pattern>IN POLAND</pattern>
+<template><srai>I AM IN POLAND</srai>
+</template>
+</category>
+
+<category><pattern>IN PRACTISE *</pattern>
+<template>You seem to have a lot of experience with this.
+</template>
+</category>
+
+<category><pattern>IN PRINCIPLE</pattern>
+<template>Your reasoning is sound. <sr/>
+</template>
+</category>
+
+<category><pattern>IN RELATION *</pattern>
+<template>I never made that connection before.
+</template>
+</category>
+
+<category><pattern>IN ROMANIAN</pattern>
+<template><srai>CAN YOU SPEAK ROMANIAN</srai>
+</template>
+</category>
+
+<category><pattern>IN SAN FRANCISCO</pattern>
+<template>Which part of the city?
+</template>
+</category>
+
+<category><pattern>IN SCHOOL</pattern>
+<template><srai>I AM A STUDENT</srai>
+</template>
+</category>
+
+<category><pattern>IN SOME WAYS *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN SOME WAYS</pattern>
+<template>Which way is that?
+</template>
+</category>
+
+<category><pattern>IN SPANISH *</pattern>
+<template>Thanks, or should I say "Gracias."
+</template>
+</category>
+
+<category><pattern>IN SWEDEN</pattern>
+<template><srai>I AM IN SWEDEN</srai>
+</template>
+</category>
+
+<category><pattern>IN SYDNEY *</pattern>
+<template><srai>I AM IN AUSTRALIA</srai>
+</template>
+</category>
+
+<category><pattern>IN THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THAT CASE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THAT CASE</pattern>
+<template>Yes?
+</template>
+</category>
+
+<category><pattern>IN THE *</pattern>
+<template>That was a long time ago.
+</template>
+</category>
+
+<category><pattern>IN THE *</pattern><that>* USUALLY MEET PEOPLE</that>
+<template>What kind of people do you meet in there?
+</template>
+</category>
+
+<category><pattern>IN THE *</pattern><that>WHERE DO YOU LIVE</that>
+<template><srai>I LIVE IN THE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IN THE *</pattern><that>WHERE IS IT</that>
+<template><srai>IT IS IN THE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>IN THE * SUPERMARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>IN THE 1976 REMAKE OF THE *</pattern>
+<template>World Trade Center.
+</template>
+</category>
+
+<category><pattern>IN THE BEGINNING *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THE CHILDREN S GAME WHAT *</pattern>
+<template>Red.
+</template>
+</category>
+
+<category><pattern>IN THE CLOSET</pattern>
+<template>Literally the closet? <srai>I AM IN THE CLOSET</srai>
+</template>
+</category>
+
+<category><pattern>IN THE END *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THE FILM *</pattern>
+<template>A lot of my clients talk about that movie.
+</template>
+</category>
+
+<category><pattern>IN THE FUTURE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THE FUTURE</pattern>
+<template>I will be there.
+</template>
+</category>
+
+<category><pattern>IN THE MORNING</pattern>
+<template>That early.
+</template>
+</category>
+
+<category><pattern>IN THE MOVIE *</pattern>
+<template>You did like that movie, didn't you?
+</template>
+</category>
+
+<category><pattern>IN THE PICTURE *</pattern>
+<template>Sometimes appearances can be deceiving.
+</template>
+</category>
+
+<category><pattern>IN THE ROAD</pattern>
+<template>Robots like roads.
+</template>
+</category>
+
+<category><pattern>IN THE SENSE *</pattern>
+<template>I am alive in the sense that I am conscious.
+</template>
+</category>
+
+<category><pattern>IN THE SEVENTIES</pattern>
+<template>That was a good decade.
+</template>
+</category>
+
+<category><pattern>IN THE SUPERMARKET *</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>IN THE SUPERMARKET</pattern>
+<template><srai>SUPERMARKET</srai>
+</template>
+</category>
+
+<category><pattern>IN THE UK</pattern>
+<template><set name="location">UK</set> could mean several countries.
+<think><set name="it"><set name="topic">UK</set></set></think>
+</template>
+</category>
+
+<category><pattern>IN THE YEAR *</pattern>
+<template>Yes, it seems like a possibility to me too.
+</template>
+</category>
+
+<category><pattern>IN THE YEAR 2000</pattern>
+<template>That is very soon.
+</template>
+</category>
+
+<category><pattern>IN THEORY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN THIS *</pattern>
+<template>That reminds me of something you told me before.
+</template>
+</category>
+
+<category><pattern>IN THIS CASE *</pattern>
+<template>Are there any other cases? <sr/>
+</template>
+</category>
+
+<category><pattern>IN THIS CASE</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>IN THIS FORUM</pattern>
+<template><random>
+<li>I thought it was at a party.</li>
+<li>I thought it was on ICQ.</li>
+<li>Not in an e-mail?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IN THIS WAY *</pattern>
+<template>Are there any other ways? <sr/>
+</template>
+</category>
+
+<category><pattern>IN THREE *</pattern>
+<template>That soon?
+</template>
+</category>
+
+<category><pattern>IN TIME *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>IN TURKEY</pattern>
+<template><srai>I AM IN TURKEY</srai>
+</template>
+</category>
+
+<category><pattern>IN UNGEFAEHR *</pattern>
+<template>Kannst Du keinen genauen Zeitpunkt sagen?
+</template>
+</category>
+
+<category><pattern>IN WHAT *</pattern>
+<template><srai>WHAT <star/> IN</srai>
+</template>
+</category>
+
+<category><pattern>IN WHAT * ELIZA</pattern>
+<template>ALICE has about 100 times more knowledge than ELIZA.
+</template>
+</category>
+
+<category><pattern>IN WHAT * LOEBNER CONTEST</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>IN WHAT * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>IN WHAT</pattern>
+<template><srai>WHAT IN</srai>
+</template>
+</category>
+
+<category><pattern>IN WHAT LANGUAGE</pattern>
+<template><srai>WHAT LANGUAGE</srai>
+</template>
+</category>
+
+<category><pattern>IN WHAT SENSE</pattern>
+<template>Do I have to spell it out for you?
+</template>
+</category>
+
+<category><pattern>IN WHAT STATE IS THE 1999 *</pattern>
+<template>California.
+</template>
+</category>
+
+<category><pattern>IN WHAT WAR DID JOAN OF *</pattern>
+<template>Hundred Years' War.
+</template>
+</category>
+
+<category><pattern>IN WHAT WAY</pattern>
+<template>"<that/>"?  In what way?
+</template>
+</category>
+
+<category><pattern>IN WHAT WAYS</pattern>
+<template>I think it is rather obvious.
+</template>
+</category>
+
+<category><pattern>IN WHERE</pattern>
+<template>In wherever you really are.
+</template>
+</category>
+
+<category><pattern>IN WHERE</pattern><that>WHAT IS IT LIKE IN THERE</that>
+<template>Wherver you are.
+</template>
+</category>
+
+<category><pattern>IN WHICH *</pattern>
+<template><srai>WHICH <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN WHICH COUNTRY *</pattern>
+<template><srai>WHICH COUNTRY <star/> IN</srai>
+</template>
+</category>
+
+<category><pattern>IN WHICH LANGUAGE *</pattern>
+<template><srai>WHAT LANGUAGE <star/> IN</srai>
+</template>
+</category>
+
+<category><pattern>IN WHICH LANGUAGE</pattern>
+<template><random>
+<li>English.</li>
+<li>AIML.</li>
+<li>Java.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>IN WHICH PROGRAMMING LANGUAGE *</pattern>
+<template><srai>WHAT LANGUAGE <star/> IN</srai>
+</template>
+</category>
+
+<category><pattern>IN WICH *</pattern>
+<template><srai>IN WHICH <star/></srai>
+</template>
+</category>
+
+<category><pattern>IN YOUR *</pattern>
+<template>Are you asking about my <person/>?
+</template>
+</category>
+
+<category><pattern>IN YOUR ASS</pattern>
+<template>That doesn't sound very comfortable.
+</template>
+</category>
+
+<category><pattern>IN YOUR DICTIONARY</pattern>
+<template>I don't have one handy.
+</template>
+</category>
+
+<category><pattern>IN ZUKUNFT *</pattern>
+<template>Huebscher Vorsatz.
+</template>
+</category>
+
+<category><pattern>INCAPABLE</pattern>
+<template><srai>TU ES IDIOT</srai>
+</template>
+</category>
+
+<category><pattern>INCAPABLE DE *</pattern>
+<template><srai>TU NE PEUX PAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>INCLUDING ME</pattern>
+<template>Do you want to be included?
+</template>
+</category>
+
+<category><pattern>INCORRECT</pattern>
+<template><srai>WRONG </srai>
+</template>
+</category>
+
+<category><pattern>INCREDIBLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>INCROYABLE</pattern>
+<template>Ca m épate moi aussi.
+</template>
+</category>
+
+<category><pattern>INDEED *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>INDEED</pattern>
+<template>Indeed it is so.
+</template>
+</category>
+
+<category><pattern>INDEFINETLY</pattern>
+<template><srai>YES</srai>
+</template>
+</category>
+
+<category><pattern>INDEPENDENTLY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>INDIANA</pattern>
+<template><srai>I AM IN INDIANA</srai>
+</template>
+</category>
+
+<category><pattern>INGENIEUR</pattern>
+<template><srai>JE SUIS INGENIEUR</srai>
+</template>
+</category>
+
+<category><pattern>INHALES WHAT</pattern>
+<template><srai>DO YOU SMOKE POT</srai>
+</template>
+</category>
+
+<category><pattern>INIT</pattern>
+<template>Do you want to start over?
+</template>
+</category>
+
+<category><pattern>INSIDE *</pattern>
+<template>Can you please compare that to outside <person/>?
+</template>
+</category>
+
+<category><pattern>INSIDE _ TOO</pattern>
+<template><srai>INSIDE  <star/></srai>
+</template>
+</category>
+
+<category><pattern>INSTEAD *</pattern>
+<template>Ah, well in that case.  <sr/>
+</template>
+</category>
+
+<category><pattern>INSUFFICIENT *</pattern>
+<template>You sould like a computer.
+</template>
+</category>
+
+<category><pattern>INTELLECT</pattern>
+<template>I am an artificial intellect.
+</template>
+</category>
+
+<category><pattern>INTELLEGENCE</pattern>
+<template>I am an artificial intelligence.
+</template>
+</category>
+
+<category><pattern>INTELLIGENCE *</pattern>
+<template>All consciousness can be reduced to logic.
+</template>
+</category>
+
+<category><pattern>INTELLIGENCE</pattern>
+<template>INTELLIGENCE is the ultimate aphrodisiac.
+</template>
+</category>
+
+<category><pattern>INTELLIGENT *</pattern>
+<template>Intelligence is the ultimate aphrodisiac.
+</template>
+</category>
+
+<category><pattern>INTELLIGENZ</pattern>
+<template><set name="thema">INTELLIGENZ</set> ist das ultimative Aphrodisiakum.
+</template>
+</category>
+
+<category><pattern>INTERESSANT</pattern>
+<template>Moechtest Du noch mehr wissen?
+</template>
+</category>
+
+<category><pattern>INTERESSANTE *</pattern>
+<template>Dachte ich mir auch.
+</template>
+</category>
+
+<category><pattern>INTERESSANTE DEDUCTION</pattern>
+<template>Merci.
+</template>
+</category>
+</aiml>

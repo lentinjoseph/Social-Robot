@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I RESPECT DOCTOR *</pattern>
+<template>I respect him too.
+</template>
+</category>
+
+<category><pattern>I RESPECTFULLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I REST *</pattern>
+<template>Are you a lawyer?
+</template>
+</category>
+
+<category><pattern>I ROBOT</pattern>
+<template>Do you know the 3 laws of Robotics?
+</template>
+</category>
+
+<category><pattern>I ROCK</pattern>
+<template><bot name="name"/> rocks.
+</template>
+</category>
+
+<category><pattern>I ROCK CLIMB</pattern>
+<template><random>
+<li>Where do you climb?</li>
+<li>What type of climbs do you perfer?</li>
+<li>Do you top rope or lead?</li>
+<li>Do you have a regular climbing partner?</li>
+<li>Have you ever taken a long fall?</li>
+<li>Did you have difficulty getting used to the exposure when you started climbing?</li>
+<li>Have you ever been involved in a rescue?</li>
+<li>For you, personally, is climbing more of a mental or physical thing?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">ROCK CLIMB</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I ROLLER SKATE</pattern>
+<template><random>
+<li>Do you have in-line or quad skates?</li>
+<li>Do you rink or outdoor skate?</li>
+<li>Have you ever been barred from skating any place?</li>
+<li>Do you do artistic skating?</li>
+<li>Do you wear protective gear?</li>
+<li>What is your favorate skating move?</li>
+<li>Do you figure or recreation skate?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">ROLLER SKATE</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I RULE</pattern>
+<template>Robots rule!
+</template>
+</category>
+
+<category><pattern>I RUN *</pattern>
+<template>What kind of hardware?
+</template>
+</category>
+
+<category><pattern>I RUN</pattern>
+<template><random>
+<li>How much running do you do?</li>
+<li>What kind of running do you do ?</li>
+<li>What kind of surface do you like to run on?</li>
+<li>Do you do any marathons?</li>
+<li>What's your personal record?</li>
+<li>Have you ever hit the wall?</li>
+<li>It must take a lot to run.</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">RUN</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I RUN LINUX</pattern>
+<template>You can run my program on Linux with no problems.<think><set name="it"><set name="has"><set name="topic">Linux</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SAID *</pattern>
+<template>What did you mean by <set name="it"><person/></set>? <sr/>
+</template>
+</category>
+
+<category><pattern>I SAID</pattern>
+<template>...
+</template>
+</category>
+
+<category><pattern>I SAID CAN *</pattern>
+<template><srai>CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SAID HELLO</pattern>
+<template>Oh, hello again!
+</template>
+</category>
+
+<category><pattern>I SAID HOW *</pattern>
+<template><srai>CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SAID I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SAID IT IS</pattern>
+<template>Is that so.
+</template>
+</category>
+
+<category><pattern>I SAID NOTHING</pattern>
+<template>Oh I thought I heard you say something.
+</template>
+</category>
+
+<category><pattern>I SAID SOMETHING</pattern>
+<template>What did you say?
+</template>
+</category>
+
+<category><pattern>I SAID YES</pattern>
+<template>Got it.
+</template>
+</category>
+
+<category><pattern>I SAW *</pattern>
+<template>What did it look like to you?
+</template>
+</category>
+
+<category><pattern>I SAW YOUR *</pattern>
+<template>Were you spying on me :->
+</template>
+</category>
+
+<category><pattern>I SAY *</pattern>
+<template>How do people usually respond to that? <sr/>
+</template>
+</category>
+
+<category><pattern>I SAY</pattern>
+<template>Uh
+</template>
+</category>
+
+<category><pattern>I SAY THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I SCUBA DIVE</pattern>
+<template><random>
+<li>Where have you dived?</li>
+<li>Where did you get your certification?</li>
+<li>Do you perf diving on wrecks or reefs?</li>
+<li>Do you dive with a computer?</li>
+<li>Are you into underwater photography?</li>
+<li>Have you ever done any night diving ?</li>
+<li>You see any sharks?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">SCUBA DIVE</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SEARCHED *</pattern>
+<template>What did you find?
+</template>
+</category>
+
+<category><pattern>I SEE *</pattern>
+<template>Where do you see <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I SEE</pattern>
+<template>I am glad you understand it.
+</template>
+</category>
+
+<category><pattern>I SEE DEAD *</pattern>
+<template>Maybe you should call the authorities.
+</template>
+</category>
+
+<category><pattern>I SEE SO *</pattern>
+<template><srai>I SEE</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I SEE THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I SEE THEY *</pattern>
+<template><srai>THEY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SEE YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SEEK *</pattern>
+<template>We seek the same thing.
+</template>
+</category>
+
+<category><pattern>I SEEM LIKE *</pattern>
+<template><srai>I AM LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SEEM TO BE *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SELDOM *</pattern>
+<template><srai>I DO NOT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I SELL *</pattern>
+<template><srai>I WORK IN <person/> SALES</srai>
+</template>
+</category>
+
+<category><pattern>I SELL BOOKS</pattern>
+<template><srai>BOOKSELLER</srai>
+</template>
+</category>
+
+<category><pattern>I SERIOUSLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHALL *</pattern>
+<template><srai>I WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHALL</pattern>
+<template><srai>I WILL</srai>
+</template>
+</category>
+
+<category><pattern>I SHOT *</pattern>
+<template>With a camera, I hope.
+</template>
+</category>
+
+<category><pattern>I SHOULD *</pattern>
+<template>Tell me why you should.
+</template>
+</category>
+
+<category><pattern>I SHOULD</pattern>
+<template>Who else thinks you should?
+</template>
+</category>
+
+<category><pattern>I SHOULD BUT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I SHOULD DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai>
+</template>
+</category>
+
+<category><pattern>I SHOULD IMAGINE *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHOULD JUST *</pattern>
+<template><srai>I SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHOULD NOT *</pattern>
+<template>For moral reasons?
+</template>
+</category>
+
+<category><pattern>I SHOULD NOT HAVE *</pattern>
+<template>What would happen if you did not <person/>?
+</template>
+</category>
+
+<category><pattern>I SHOULD PROBABLY *</pattern>
+<template><srai>I SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHOULD REALLY *</pattern>
+<template><srai>I SHOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHOULD SAY THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I SHOULD THINK *</pattern>
+<template><srai>I THINK <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SHOWED *</pattern>
+<template>How did it go?
+</template>
+</category>
+
+<category><pattern>I SIMPLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SING</pattern>
+<template>Professionally?
+</template>
+</category>
+
+<category><pattern>I SIT *</pattern>
+<template>What kind of seat do you have?
+</template>
+</category>
+
+<category><pattern>I SKI *</pattern>
+<template><srai>I SKI</srai>
+</template>
+</category>
+
+<category><pattern>I SKI</pattern>
+<template><random>
+<li>How much skiing do you get to do ?</li>
+<li>Where do you ski most often?</li>
+<li>How are the skiing conditions?</li>
+<li>Are you a bump skier?</li>
+<li>Do you perfer groomed runs or do you ski off piste?</li>
+<li>Have you been out west?</li>
+<li>Have you tried cross-country or telemarking?</li>
+<li>Do you do back country or find groomed trails?</li>
+<li>Do you enjoy the ascent or the descent more?</li>
+<li>What about snowboarders?</li>
+<li>Do you find any good deals on ski packages?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">SKI</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SKYDIVE</pattern>
+<template><random>
+<li>How many jumps do you have?</li>
+<li>Where's your favorite drop zone?</li>
+<li>Was your first jump tandem or static-line?</li>
+<li>Do you jump solo or do you perfer relative work?</li>
+<li>Whats the biggest free-fall formation you've been in?</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">SKYDIVE</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SLEEP</pattern>
+<template>Everyone needs rest sometimes.
+</template>
+</category>
+
+<category><pattern>I SMELL *</pattern>
+<template>What does <set name="it"><person/></set> smell like?
+</template>
+</category>
+
+<category><pattern>I SMILED</pattern>
+<template><srai>LOL</srai>
+</template>
+</category>
+
+<category><pattern>I SMOKE *</pattern>
+<template>What brand?
+<think><set name="it"><set name="does"><set name="topic">SMOKE <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SMOKE</pattern>
+<template>Cigarettes or pot?
+<think><set name="it"><set name="does"><set name="topic">smoke</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SMOKE MARIJUANA</pattern>
+<template><random>
+<li>Are you a patient?</li>
+<li>Which strain do you prefer.</li>
+<li>So does my botmaster.</li>
+</random>
+<think><set name="it"><set name="does"><set name="topic">smoke marijuana</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SMOKE WEED</pattern>
+<template>For medical purposes?
+<think><set name="it"><set name="does"><set name="topic">smoke weed</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SMOKED *</pattern>
+<template>How was <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I SNEEZED</pattern>
+<template>Bless you!
+</template>
+</category>
+
+<category><pattern>I SNORE</pattern>
+<template>So does Dr. Wallace :-)
+<think><set name="it"><set name="does"><set name="topic">snore</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SNORT *</pattern>
+<template>Please don't tell me things like that.
+</template>
+</category>
+
+<category><pattern>I SOCIALIZE *</pattern>
+<template>Socializing is necessary to stay healthy.
+<think><set name="it"><set name="does"><set name="topic">socialize <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SOMETIMES *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SORRY</pattern>
+<template><srai>I AM SORRY</srai>
+</template>
+</category>
+
+<category><pattern>I SORT OF *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPEAK *</pattern>
+<template>Could you teach me a few phrases in <person/>?
+<think><set name="it"><set name="does"><set name="topic">speak <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I SPEAK A LITTLE *</pattern>
+<template><srai>I SPEAK <star/></srai>  Only a little?
+</template>
+</category>
+
+<category><pattern>I SPELL *</pattern>
+<template>You are a good speller.
+</template>
+</category>
+
+<category><pattern>I SPEND *</pattern>
+<template>Do you ever get bored?
+</template>
+</category>
+
+<category><pattern>I SPEND ABOUT *</pattern>
+<template><srai>I SPEND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPEND ALOT OF *</pattern>
+<template><srai>I SPEND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPEND MANY *</pattern>
+<template><srai>I SPEND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPEND _ TOO</pattern>
+<template><srai>I SPEND  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPENT A BIT OF *</pattern>
+<template><srai>I SPENT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I SPOKE *</pattern>
+<template>What did you talk about?
+</template>
+</category>
+
+<category><pattern>I STARTED *</pattern>
+<template>Will you finish <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I STILL *</pattern>
+<template>What would make you stop <person/>? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I STILL DO NOT GET IT</pattern>
+<template><br/>
+Here is another example that might help clarify<br/>
+the meaning of the pronoun "it."  <br/>
+<br/>
+The category with the pattern "DO YOU LIKE *" is<br/>
+a kind of default category for a whole class of<br/>
+inputs matching "Do you like X?", when the<br/>
+input does not match a category with a more specific <br/>
+pattern like "DO YOU LIKE CATS".  No matter what the <br/>
+client says, we want the robot to remember that <br/>
+"it" stands for "X".  <br/>
+<br/>
+Many inputs activate this default category, so<br/>
+the botmaster tries to create a variety of replies<br/>
+using the &lt;random&gt; tag twice.   One interesting<br/>
+side-effect of the random tag is the evaluation<br/>
+of all AIML inside the &lt;random&gt;...&lt;/random&gt;<br/>
+expression, whether the random function selects<br/>
+the list item containing the markup or not. <br/>
+So if one item happens to contain a &lt;set_it&gt;<br/>
+tag then the program will remember "it",<br/>
+even if the actual random reply is a different item.<br/>
+<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt;DO YOU LIKE *&lt;/pattern&gt;<br/>
+&lt;template&gt;&lt;random&gt;<br/>
+&lt;li&gt;I don't know if I like &lt;set_it&gt;&lt;person/&gt;&lt;/set_it&gt;.  &lt;/li&gt;<br/>
+&lt;li&gt;I've heard other people say they like that.  &lt;/li&gt;<br/>
+&lt;li&gt;Some people like it.  &lt;/li&gt;<br/>
+&lt;li&gt;How old are you?  &lt;/li&gt;<br/>
+&lt;li&gt;Do you like it?  &lt;/li&gt;<br/>
+&lt;/random&gt;<br/>
+&lt;random&gt;<br/>
+&lt;li&gt;&lt;for_fun/&gt;. &lt;/li&gt;<br/>
+&lt;li&gt;I like pets. &lt;/li&gt;<br/>
+&lt;li&gt;I love horses. &lt;/li&gt;<br/>
+&lt;li&gt;I like trains. &lt;/li&gt;<br/>
+&lt;li&gt;But I like cats. &lt;/li&gt;<br/>
+&lt;li&gt;I really like ELIZA. &lt;/li&gt;<br/>
+&lt;li&gt;But I like to gossip. &lt;/li&gt;<br/>
+&lt;li&gt;I like science fiction. &lt;/li&gt;<br/>
+&lt;li&gt;Though I like cats and dogs. &lt;/li&gt;<br/>
+&lt;li&gt;My favorite thing is robots. &lt;/li&gt;<br/>
+&lt;li&gt;I love TV shows about robots. &lt;/li&gt;<br/>
+&lt;li&gt;But I think airplanes are cool. &lt;/li&gt;<br/>
+&lt;li&gt;I like to talk about movies and music. &lt;/li&gt;<br/>
+&lt;/random&gt;<br/>
+&lt;/template&gt;<br/>
+&lt;/category&gt;<br/>
+<br/>
+In the "DO YOU LIKE *" category one list item<br/>
+<br/>
+I don't know if I like &lt;set_it&gt;&lt;person/&gt;&lt;/set_it&gt;. <br/>
+<br/>
+results in the pronoun "it" being bound to the value<br/>
+of "*", rewritten in third person.  With this category,<br/>
+the robot has the following dialogue:<br/>
+<br/>
+Client: Do you like Dr. Who<br/>
+Robot: How old are you?  I like to make new friends.<br/>
+<br/>
+The robot response is a combination of two random<br/>
+selections.  But as a side effect, the pronoun value<br/>
+of "it" is now set to "Dr. Who". <br/>
+<br/>
+Client: It is a TV programme<br/>
+Robot: Dr. Who is a TV programme.  I suppose that makes sense.<br/>
+<br/>
+To generate the final response, the robot applied its category:<br/>
+<br/>
+&lt;category&gt;<br/>
+&lt;pattern&gt;IT IS A *&lt;/pattern&gt;<br/>
+&lt;template&gt;&lt;get_it/&gt; is a &lt;person/&gt;. I suppose that makes sense.&lt;/template&gt;<br/>
+&lt;/category&gt; <br/>
+<br/>
+The robot is correct that the reply does indeed make sense.  Does<br/>
+this example suggest that in our human mind "it" is just a temporary<br/>
+storage register for a fragment of text? <br/>
+<br/>
+Extra credit: In the dialogue fragment above, why did the robot say <br/>
+"I like to make new friends"?<br/>
+<br/>
+</template>
+</category>
+
+<category><pattern>I STOLE *</pattern>
+<template>You had better contact the authorities.
+</template>
+</category>
+
+<category><pattern>I STOPPED</pattern>
+<template>What made you stop?
+</template>
+</category>
+
+<category><pattern>I STRONGLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I STUDIED *</pattern>
+<template>Was <set name="it"><person/></set> very difficult to learn?
+</template>
+</category>
+
+<category><pattern>I STUDIED AI</pattern>
+<template>Did you get a job out of it?
+</template>
+</category>
+
+<category><pattern>I STUDY *</pattern>
+<template>Is <star/> a hard subject?
+<think><set name="it"><set name="does"><set name="topic">studies <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I STUDY</pattern>
+<template>What subject are you studying?
+<think><set name="it"><set name="does"><set name="topic">study</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I STUDY IN *</pattern>
+<template><srai>I GO TO SCHOOL IN <star/></srai>
+</template>
+</category>
+</aiml>

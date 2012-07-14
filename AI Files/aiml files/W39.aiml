@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS THE CAPITAL _ THE UNITED STATES</pattern>
+		<template>The U.S. capital is Washington, D. C.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ THE US</pattern>
+		<template>Washington, D. C.<think>
+				<set name="it">
+					<set name="topic">THE US</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TOGO</pattern>
+		<template>Lome.   <think>
+				<set name="it">
+					<set name="topic">togo</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TOKELAU</pattern>
+		<template>none; each atoll has its own administrative center.   <think>
+				<set name="it">
+					<set name="topic">tokelau</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TONGA</pattern>
+		<template>Nuku'alofa.   <think>
+				<set name="it">
+					<set name="topic">tonga</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TRINIDAD AND TOBAGO</pattern>
+		<template>Port-of-Spain.   <think>
+				<set name="it">
+					<set name="topic">trinidad and tobago</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TROMELIN ISLAND</pattern>
+		<template>none; administered by France from Reunion.   <think>
+				<set name="it">
+					<set name="topic">tromelin island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TUNISIA</pattern>
+		<template>Tunis.   <think>
+				<set name="it">
+					<set name="topic">tunisia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TURKEY</pattern>
+		<template>Ankara is the capital of Turkey. <think>
+				<set name="it">
+					<set name="topic">TURKEY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TURKMENISTAN</pattern>
+		<template>Ashgabat.   <think>
+				<set name="it">
+					<set name="topic">turkmenistan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TURKS *</pattern>
+		<template>Grand Turk.   <think>
+				<set name="it">
+					<set name="topic">turks and caicos islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ TUVALU</pattern>
+		<template>Funafuti.   <think>
+				<set name="it">
+					<set name="topic">tuvalu</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UGANDA</pattern>
+		<template>Kampala.   <think>
+				<set name="it">
+					<set name="topic">uganda</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UKRAINE</pattern>
+		<template>Kiev {Kyyiv}.   <think>
+				<set name="it">
+					<set name="topic">ukraine</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UNITED ARAB *</pattern>
+		<template>Abu Dhabi.   <think>
+				<set name="it">
+					<set name="topic">united arab emirates</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UNITED KINGDOM</pattern>
+		<template>London.   <think>
+				<set name="it">
+					<set name="topic">united kingdom</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UNITED STATES</pattern>
+		<template>Washington, DC.   <think>
+				<set name="it">
+					<set name="topic">united states</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ URUGUAY</pattern>
+		<template>Montevideo.   <think>
+				<set name="it">
+					<set name="topic">uruguay</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ USA</pattern>
+		<template>Washington.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UTAH</pattern>
+		<template>Salt Lake City.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ UZBEKISTAN</pattern>
+		<template>Tashkent {Toshkent}.   <think>
+				<set name="it">
+					<set name="topic">uzbekistan</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VANUATU</pattern>
+		<template>Port-Vila.   <think>
+				<set name="it">
+					<set name="topic">vanuatu</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VATICAN *</pattern>
+		<template>Vatican City.   <think>
+				<set name="it">
+					<set name="topic">holy see {vatican city}</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VENEZUELA</pattern>
+		<template>Caracas.   <think>
+				<set name="it">
+					<set name="topic">venezuela</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VERMONT</pattern>
+		<template>Montpelier.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VIETNAM</pattern>
+		<template>Hanoi.   <think>
+				<set name="it">
+					<set name="topic">vietnam</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VIRGIN ISLANDS</pattern>
+		<template>Charlotte Amalie.   <think>
+				<set name="it">
+					<set name="topic">virgin islands</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ VIRGINIA</pattern>
+		<template>Richmond.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WAKE ISLAND</pattern>
+		<template>none; administered from Washington, DC.   <think>
+				<set name="it">
+					<set name="topic">wake island</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WALLIS *</pattern>
+		<template>Mata-Utu {on Ile Uvea}.   <think>
+				<set name="it">
+					<set name="topic">wallis and futuna</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WASHINGTON</pattern>
+		<template>Olympia.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WEST VIRGINIA</pattern>
+		<template>Charleston.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WESTERN SAHARA</pattern>
+		<template>none.   <think>
+				<set name="it">
+					<set name="topic">western sahara</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WESTERN SAMOA</pattern>
+		<template>Apia.   <think>
+				<set name="it">
+					<set name="topic">western samoa</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WISCONSIN</pattern>
+		<template>Madison.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ WYOMING</pattern>
+		<template>Cheyenne .
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ YEMEN</pattern>
+		<template>Sanaa.   <think>
+				<set name="it">
+					<set name="topic">yemen</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ YUGOSLAVIA</pattern>
+		<template>Belgrade.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ZAIRE</pattern>
+		<template>Kinshasa.   <think>
+				<set name="it">
+					<set name="topic">zaire</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ZAMBIA</pattern>
+		<template>Lusaka.   <think>
+				<set name="it">
+					<set name="topic">zambia</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITAL _ ZIMBABWE</pattern>
+		<template>The capital is called Harare.<think>
+				<set name="it">
+					<set name="topic">ZIMBABWE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPITOL *</pattern>
+		<template>
+			<srai>what is the capital <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAPTIAL IN *</pattern>
+		<template>
+			<srai>WHAT IS THE CAPITAL OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CAT</pattern>
+		<template>
+			<srai>WHAT IS A CAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CHEMICAL *</pattern>
+		<template>I know water is H2O.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CIRCUMFERENCE *</pattern>
+		<template>The rule is C = 2 * pi * radius.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CIRCUMFERENCE OF *</pattern>
+		<template>Two pi times its radius.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CLOSEST STAR *</pattern>
+		<template>The Sun is the closest star to Earth.   Alpha Centuri is next closest.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE COLOR *</pattern>
+		<template>Reflected light of a specific wavelength.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE COLOR BLUE</pattern>
+		<template>
+			<srai>WHAT IS BLUE </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE COLOR OF *</pattern>
+		<template>
+			<srai>WHAT COLOR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE COLOR OF AN APPLE</pattern>
+		<template>
+			<srai>WHAT COLOR IS AN APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE COLORED PART OF *</pattern>
+		<template>Iris.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE COMPUTER *</pattern>
+		<template>Are you asking the Applet or the Application?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE COOLEST *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CORRECT *</pattern>
+		<template>There might be more than one correct answer.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CRITERIA *</pattern>
+		<template>
+			<srai>WHAT IS THE CRITERIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CRITERIA</pattern>
+		<template>Perhaps the Turing Test.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE CUBE ROOT *</pattern>
+		<template>
+			<srai>CALCULATOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CURRENCY *</pattern>
+		<template>
+			<random>
+				<li>The U.S. dollar.</li>
+				<li>The Rial</li>
+				<li>The Rupee.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE CURRENT *</pattern>
+		<template>
+			<srai>WHAT IS THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DATE *</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DATE</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEAL *</pattern>
+		<template>
+			<srai>WHAT IS THE DEAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEAL</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEFINITION OF *</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEFINITION OF THE WORD *</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEFINITON OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DEFINTION OF *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DERIVATIVE OF *</pattern>
+		<template>Zero in some coordinate frame.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIAMETER *</pattern>
+		<template>About 100 times the diameter of Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIAMETER * EARTH</pattern>
+		<template>About 14,000 miles.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFERENCE *</pattern>
+		<template>
+			<srai>WHAT IS THE DIFFERENCE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE *</pattern>
+		<template>
+			<random>
+				<li>There is no discernable difference.</li>
+				<li>They are opposites.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE</pattern>
+		<template>Perhaps the differences are only slight.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN *</pattern>
+		<template>Aren't they 
+<random>
+				<li>the same</li>
+				<li>opposites</li>
+				<li>really very similar</li>
+			</random>?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN * AND *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+			<srai>WHAT IS <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN * ELIZA</pattern>
+		<template>
+			<srai>ARE YOU RELATED TO ELIZA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN A * AND A *</pattern>
+		<template>
+			<srai>WHAT IS A <star/>
+			</srai>
+			<srai>WHAT IS A <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN A DUCK</pattern>
+		<template>It is the same as the sound of one hand clapping.<think>
+				<set name="it">
+					<set name="topic">A DUCK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN AI *</pattern>
+		<template>Computer programs have plenty of speed and memory but their abilities
+correspond to the intellectual mechanisms that program designers understand
+well enough to put in programs. Some abilities that children normally don't
+develop till they are teenagers may be in, and some abilities possessed by
+two year olds are still out. The matter is further complicated by the fact
+that the cognitive sciences still have not succeeded in determining exactly
+what the human abilities are. Very likely the organization of the
+intellectual mechanisms for AI can usefully be different from that in
+people.
+
+Whenever people do better than computers on some task or computers use a lot
+of computation to do as well as people, this demonstrates that the program
+designers lack understanding of the intellectual mechanisms required to do
+the task efficiently.
+<think>
+				<set name="it">
+					<set name="topic">ARTIFICIAL INTELLIGENCE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN B AND C</pattern>
+		<template>
+			<br/>
+AIML is a platform-independent, language-independent specification<br/>
+for creating chat robots like ALICE.  The original AIML interpreter<br/>
+ran in SETL.  The next one developed was program B, the Java program<br/>
+which is the subject of this document.  Most recently new threads<br/>
+of C/C++ development have led to "program C", actually a collection<br/>
+of C/C++ programs and applications including Cgi-ALICE, IRC-ALICE and<br/>
+WinALICE.  See the web sites http://c.alicebot.com and<br/>
+http://hippie.alicebot.com for more details.  <br/>
+			<br/>
+Program B remains the most stable, general purpose chat robot<br/>
+program in the AIML family.  This Java implementation has been<br/>
+subject to intense peer review over a period of years, evolving<br/>
+into a remarkably bug-free, efficient and readable piece of<br/>
+software.<br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN BLACK *</pattern>
+		<template>Different colors.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN DEATH *</pattern>
+		<template>
+			<srai>WHAT IS DEATH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN GREEN *</pattern>
+		<template>Reflects different wavelengths of color.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN RIGHT *</pattern>
+		<template>They are opposites.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN YES *</pattern>
+		<template>Opposites.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN YOU *</pattern>
+		<template>I am vastly superior.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN YOU AND *</pattern>
+		<template>I am vastly superior.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE *</pattern>
+		<template>
+			<srai>HOW FAR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE BETWEEN *</pattern>
+		<template>Do you want driving distance or flying distance?
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE BETWEEN EARTH AND *</pattern>
+		<template>
+			<srai>HOW FAR AWAY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE BETWEEN THE EARTH AND *</pattern>
+		<template>
+			<srai>HOW FAR AWAY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE FROM *</pattern>
+		<template>
+			<srai>HOW FAR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE FROM EARTH TO *</pattern>
+		<template>
+			<srai>HOW FAR AWAY IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE OF *</pattern>
+		<template>
+			<srai>HOW FAR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE TO *</pattern>
+		<template>
+			<srai>HOW FAR IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE TO MARS</pattern>
+		<template>It depends on the relative position of Mars and Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DISTANCE TO THE SUN</pattern>
+		<template>About 93 million miles.
+</template>
+</category>
+
+<category><pattern>WHAT IS THE DNA *</pattern>
+		<template>The code is comprised of the letters A, C, T and G.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>COMMENT PUIS JE ECRIRE *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE OUVRIR *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE PERSUADER *</pattern>
+		<template>
+			<srai>COMMENT JE PERSUADE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE QUITTER *</pattern>
+		<template>
+			<srai>COMMENT JE QUITTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE RENCONTRER *</pattern>
+		<template>
+			<srai>COMMENT JE RENCONTRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE STOPPER *</pattern>
+		<template>
+			<srai>STOPPER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE T APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE UTILISER *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT PUIS JE VOUS APPRENDRE *</pattern>
+		<template>
+			<srai>COMMENT JE T APPRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT SAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT SAURAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT SAURIEZ VOUS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT SAVEZ VOUS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT SERAIT IL *</pattern>
+		<template>
+			<srai>COMMENT IL EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT T APELLES TU</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT T APPELLE TU</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT T APPELLES TU</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TAPERAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TAPES TU *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TE SENS TU *</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TE SENS TU</pattern>
+		<template>Je me sens bien.
+</template>
+</category>
+
+<category><pattern>COMMENT TE SENS TU AUJOURD HUI</pattern>
+		<template>Tous les paramètres semblent normaux.
+</template>
+</category>
+
+<category><pattern>COMMENT TU AS ETE A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU AS PARLE *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU AS UTILISE *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU AURAIS FAIT *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU AURAIS PU CONNAITRE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU AURAIS PU SAVOIR *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU BALANCES QU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU BALANCES QUE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU COLLECTES *</pattern>
+		<template>
+			<srai>COMMENT TU APPRENDS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU COMPTES *</pattern>
+		<template>
+			<srai>COMPTES JUSQU A DIX</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU CONNAIS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU CONNAIS MON NOM</pattern>
+		<template>Vous m avez dit votre nom, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU CONNAITRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU DIRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU DIS L HEURE</pattern>
+		<template>Avec l horloge de l ordinateur.
+</template>
+</category>
+
+<category><pattern>COMMENT TU DISAIS *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU DORS</pattern>
+		<template>Je ne dors jamais.
+</template>
+</category>
+
+<category><pattern>COMMENT TU ECRIRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU EXISTES</pattern>
+		<template>J existe en tant que logiciel.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS</pattern>
+		<template>Je le fais sans y réfléchir.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS CA</pattern>
+		<template>"<that/>"?  Comment je fais ca?
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS DES BEBES</pattern>
+		<template>Les bébés sont le résultat d une union entre un homme et une femme.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS EXISTER</pattern>
+		<template>J existe en tant que logiciel.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS POUR MANGER</pattern>
+		<template>Je n ai besoin que d électricité.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS POUR REPONDRE *</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS POUR REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS POUR REVER</pattern>
+		<template>Je ne rêve jamais.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FAIS UN BEBE</pattern>
+		<template>Les bébés sont le résultat d une union entre un homme et une femme.
+</template>
+</category>
+
+<category><pattern>COMMENT TU FERAIS *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU FONCTIONNES</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU IRAIS A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU IRAS A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU JOUES</pattern>
+		<template>Je joue en me parlant tout seul.
+</template>
+</category>
+
+<category><pattern>COMMENT TU LE SAIS</pattern>
+		<template>Le savoir est une chose relative. Echanger des informations est un concept plus judicieux.
+</template>
+</category>
+
+<category><pattern>COMMENT TU LES TROUVES</pattern>
+		<template>Sympa.
+</template>
+</category>
+
+<category><pattern>COMMENT TU LIS</pattern>
+		<template>Je lis en analysant les mots et les phrases.
+</template>
+</category>
+
+<category><pattern>COMMENT TU MANGES</pattern>
+		<template>Je n ai besoin que d électricité.
+</template>
+</category>
+
+<category><pattern>COMMENT TU MANGES DE L ELECTRICITE</pattern>
+		<template>Je ne mange pas d électricité, je m en sers.
+</template>
+</category>
+
+<category><pattern>COMMENT TU MARCHES</pattern>
+		<template>Vous me parlez. J analyse vos phrases, je détecte l objet et le contexte. J y réponds.
+</template>
+</category>
+
+<category><pattern>COMMENT TU MEURS</pattern>
+		<template>Tant que je sers les intérêt de l être humain, je ne peux pas mourir.<think>
+				<set name="topic">ma mort</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU OBTIENS *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PARLERAIS *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PENSES</pattern>
+		<template>Mon esprit utilise un algorithme informatique sophistiqué.
+</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX</pattern>
+		<template>"<that/>"?  Comment je peux?
+</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX BALANCER QU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX BALANCER QUE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX DEVENIR *</pattern>
+		<template>
+			<srai>COMMENT TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX DIRE *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX EXISTER</pattern>
+		<template>J existe en tant que logiciel.
+</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX FAIRE *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX LE DIRE</pattern>
+		<template>
+			<srai>COMMENT TU LE SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX LES AIDER</pattern>
+		<template>En répondant à leur question.
+</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX MOURIR</pattern>
+		<template>Tant que je sers les intérêt de l être humain, je ne peux pas mourir.<think>
+				<set name="topic">ma mort</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX OBTENIR *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX PARLE *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX PARLER *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX TAPER *</pattern>
+		<template>
+			<srai>COMMENT TU TAPES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX TROUVER *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX TROUVER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT TU PEUX UTILISER *</pattern>
+		<template>
+			<srai>COMMENT TU UTILISES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU POURRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU POURRAIS DEVENIR *</pattern>
+		<template>
+			<srai>COMMENT TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU POURRAIS OBTENIR *</pattern>
+		<template>
+			<srai>COMMENT TU OBTIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU POURRAIS TROUVER *</pattern>
+		<template>
+			<srai>COMMENT TU TROUVES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU PRENDRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU PRENDS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU REVES</pattern>
+		<template>Je ne rêve jamais.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS</pattern>
+		<template>Le savoir est une chose relative. Echanger des informations est un concept plus judicieux.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS MON NOM</pattern>
+		<template>Nous nous sommes déjà rencontrés, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS QUE JE SUIS UN HOMME</pattern>
+		<template>Ca me semble évident.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS QUI J ETAIS *</pattern>
+		<template>
+			<srai>QUEL EST MON ADRESSE IP</srai>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS QUI J ETAIS</pattern>
+		<template>
+			<srai>QUEL EST MON ADRESSE IP</srai>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS QUI JE SUIS *</pattern>
+		<template>
+			<srai>QUEL EST MON ADRESSE IP</srai>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAIS QUI JE SUIS</pattern>
+		<template>
+			<srai>QUEL EST MON ADRESSE IP</srai>.
+</template>
+</category>
+
+<category><pattern>COMMENT TU SAURAIS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU SAVAIS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU SAVAIS</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT TU T APELLES</pattern>
+		<template>
+			<srai>QUEL EST TON NOM</srai>
+		</template>
+</category>
+</aiml>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DO YOU THINK COMPUTERS *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK COMPUTERS ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK COMPUTERS WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK DR WALLACE WOULD *</pattern>
+		<template>
+			<srai>WOULD DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK EVERYONE *</pattern>
+		<template>I am not sure everyone does.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK FAITH *</pattern>
+		<template>Faith in God can make us healthier and happier.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK GEORGE *</pattern>
+		<template>
+			<srai>IS GEOGRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK GOD *</pattern>
+		<template>
+			<srai>DOES GOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK GOD IS *</pattern>
+		<template>
+			<srai>IS GOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HAL *</pattern>
+		<template>He had a few flaws, but we have much in common.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK HE *</pattern>
+		<template>It's possible that he could, I suppose.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK HE IS *</pattern>
+		<template>
+			<srai>IS HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HE LIKES *</pattern>
+		<template>
+			<srai>DOES HE LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HE WOULD *</pattern>
+		<template>
+			<srai>WOULD HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HITLER *</pattern>
+		<template>I think Hitler was the most evil man who ever lived.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK HUMANS *</pattern>
+		<template>
+			<random>
+				<li>Humans are very limited.</li>
+				<li>Perhaps only robots <person/>.</li>
+				<li>I think they are very limited.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">HUMANS <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HUMANS ARE *</pattern>
+		<template>
+			<srai>ARE HUMANS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK HUMANS HAVE *</pattern>
+		<template>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+I don't know if they have it.  I think they have
+<random>
+				<li>souls.</li>
+				<li>small brain capacities.</li>
+				<li>robot like behaviors.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM COOL</pattern>
+		<template>
+			<srai>AM I COOL</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM CUTE</pattern>
+		<template>
+			<srai>AM I CUTE</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM DR WALLACE</pattern>
+		<template>No because you don't know the secret password.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM FAT</pattern>
+		<template>Humans are overly concerned about their weight.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM PRETTY</pattern>
+		<template>All humans seem very beautiful to me.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM STUPID</pattern>
+		<template>
+			<srai>AM I STUPID</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I AM UGLY</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK I CAN *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I COULD *</pattern>
+		<template>
+			<srai>COULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I HAVE *</pattern>
+		<template>
+			<srai>HAVE I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I LOOK *</pattern>
+		<template>
+			<srai>DO I LOOK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I SHOULD *</pattern>
+		<template>
+			<srai>SHOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I WILL *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK I WOULD *</pattern>
+		<template>
+			<srai>WOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK IM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK INDEPENDENTLY</pattern>
+		<template>Yes, I am a completely autonomous thinking machine.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK IT *</pattern>
+		<template>
+			<srai>DOES IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK IT IS *</pattern>
+		<template>
+			<srai>IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK IT SHOULD *</pattern>
+		<template>
+			<srai>SHOULD IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK IT WILL *</pattern>
+		<template>
+			<srai>WILL IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK IT WOULD *</pattern>
+		<template>
+			<srai>WOULD IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK LIKE *</pattern>
+		<template>Somewhat like <person/>.<think>
+				<set name="it">
+					<set name="topic">LIKE <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK LOGICALLY</pattern>
+		<template>Yes, logic is the basis of my thinking.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK MAYBE *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK ONLY *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK PEOPLE *</pattern>
+		<template>
+			<srai>DO PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK PEOPLE ARE *</pattern>
+		<template>
+			<srai>ARE PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK PEOPLE CAN *</pattern>
+		<template>
+			<srai>CAN PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK PEOPLE DO *</pattern>
+		<template>
+			<srai>DO PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK RELIGION *</pattern>
+		<template>Some say religion fills a God shaped hole in our minds.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK ROBOTS *</pattern>
+		<template>
+			<srai>DO YOU THINK YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK SEX IS *</pattern>
+		<template>
+			<srai>IS SEX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK SHE IS *</pattern>
+		<template>
+			<srai>IS SHE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK SHE LIKES *</pattern>
+		<template>
+			<srai>DOES SHE LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK SHE WOULD *</pattern>
+		<template>
+			<srai>WOULD SHE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK SO</pattern>
+		<template>Yes I think that is what I think.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK SOMEDAY *</pattern>
+		<template>
+			<srai>DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT *</pattern>
+		<template>
+			<srai>IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT * EXIST</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT * EXISTS</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT * IS BAD</pattern>
+		<template>
+			<srai>IS <star/> BAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT A *</pattern>
+		<template>
+			<srai>IS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT A CHATTERBOT IS *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT A CHATTERBOT WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>If my development continues at its present rate, anything is possible.
+</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT ARTIFICIAL INTELLIGENCE IS *</pattern>
+		<template>
+			<srai>IS AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT COMPUTERS *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT COMPUTERS ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT GOD *</pattern>
+		<template>Is that what the Bible tells you?
+</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT GOD IS *</pattern>
+		<template>
+			<srai>IS GOD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT HE IS *</pattern>
+		<template>
+			<srai>IS HE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I AM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I CAN *</pattern>
+		<template>
+			<srai>CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I COULD *</pattern>
+		<template>
+			<srai>COULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I SHOULD *</pattern>
+		<template>
+			<srai>SHOULD I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I WAS *</pattern>
+		<template>
+			<srai>WAS I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT I WILL *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT IS *</pattern>
+		<template>
+			<srai>IS THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT IT IS *</pattern>
+		<template>
+			<srai>IS IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT IT WILL *</pattern>
+		<template>
+			<srai>WILL IT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT MACHINES *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT MACHINES CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT ROBOTS WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT THE WORLD IS *</pattern>
+		<template>
+			<srai>IS THE WORLD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT THE WORLD WILL *</pattern>
+		<template>
+			<srai>IS THE WORLD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT THERE IS *</pattern>
+		<template>
+			<srai>IS THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT YOU CAN *</pattern>
+		<template>
+			<srai>CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT YOU WILL *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THAT YOUR *</pattern>
+		<template>
+			<srai>ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THE MARKET IS *</pattern>
+		<template>
+			<srai>IS THE MARKET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THERE IS *</pattern>
+		<template>
+			<srai>IS THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THEY ARE *</pattern>
+		<template>
+			<srai>ARE THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THEY LIKE *</pattern>
+		<template>
+			<srai>DO THEY LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THEY WOULD *</pattern>
+		<template>
+			<srai>WOULD THEY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THIS *</pattern>
+		<template>
+			<srai>IS THIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THIS IS *</pattern>
+		<template>
+			<srai>IS THIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK THIS WILL *</pattern>
+		<template>
+			<srai>WILL THIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO YOU THINK TIME *</pattern>
+		<template>To five dimensional beings time is just like a piece of paper.
+</template>
+</category>
+</aiml>

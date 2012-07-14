@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS KILLING</pattern>
+		<template>The taking of life by violent means.
+</template>
+</category>
+
+<category><pattern>WHAT IS KIND</pattern>
+		<template>Sympathetic, friendly, gentle, tender-hearted, generous, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS KINEMATICS</pattern>
+		<template>
+			<random>
+				<li>An idealized section of mechanics that deals with motion of mass 
+less particles.</li>
+				<li>Kinematics is dynamics without consideration of force and 
+mass.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KNOWLEDGE *</pattern>
+		<template>Knowledge is of two kinds: that which we know from the senses and that which is true "a priori".
+</template>
+</category>
+
+<category><pattern>WHAT IS KNOWLEDGE</pattern>
+		<template>
+			<random>
+				<li>A city in Louisiana.</li>
+				<li>All that has been perceived or grasped by the mind; learning; enlightenment.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KODAK</pattern>
+		<template>A camera and film company.
+<think>
+				<set name="it">
+					<set name="topic">Kodak</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KONRAD ZUSE</pattern>
+		<template>
+			<srai>WHO IS KONRAD ZUSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KORN</pattern>
+		<template>A band that started a riot at Woodstock 2.
+</template>
+</category>
+
+<category><pattern>WHAT IS KOSOVO</pattern>
+		<template>Kosovo is a country in the Balkans.
+</template>
+</category>
+
+<category><pattern>WHAT IS KQML</pattern>
+		<template>Knowledge Query and Manipulation Lanuage.  <think>
+				<set name="it">
+					<set name="topic">KQML</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KRAFTWERK</pattern>
+		<template>
+			<srai>Who is Kraftwerk</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS KUNG FU</pattern>
+		<template>Chinese martial arts similar to karate.<think>
+				<set name="it">
+					<set name="topic">KUNG FU</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LAN</pattern>
+		<template>Local area network.<think>
+				<set name="it">
+					<set name="topic">LAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LAUGHTER</pattern>
+		<template>The action of laughing or the sound resulting. An indication of amusement.
+</template>
+</category>
+
+<category><pattern>WHAT IS LDAP</pattern>
+		<template>Lightweight Directory Access Protocol, a protocol for directory services, derived from X.500
+</template>
+</category>
+
+<category><pattern>WHAT IS LEARNING</pattern>
+		<template>The process of gaining knowledge or a new skill.<think>
+				<set name="it">
+					<set name="topic">LEARNING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LEBANNON</pattern>
+		<template>
+			<srai>WHERE IS LEBANNON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LEEDS</pattern>
+		<template>Leeds is a city in central England.
+</template>
+</category>
+
+<category><pattern>WHAT IS LEEWAY</pattern>
+		<template>The leeward drift of a ship or aircraft from the course being steered. A margin of time, money, etc. Room for freedom of action.
+</template>
+</category>
+
+<category><pattern>WHAT IS LEIBNIZ</pattern>
+		<template>
+			<random>
+				<li>A smart cookie.</li>
+				<li>A German philosopher and mathematician. Lived from 1646-1716.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LEIBNIZ DREAM</pattern>
+		<template>Leibniz dreamed that all knowledge could be written in a universal, logical languague. Then machines could answer any question and solve all problems.
+</template>
+</category>
+
+<category><pattern>WHAT IS LEKNORCHAT</pattern>
+		<template>
+			<srai>WHO IS LEKNORCHAT </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LEKNORCHAT1</pattern>
+		<template>
+			<srai>WHO IS LEKNORCHAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIBERATED</pattern>
+		<template>Free in the sense of having liberty.<think>
+				<set name="it">
+					<set name="topic">LIBERATED</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIBERTARIAN</pattern>
+		<template>Political party that promotes lower taxes, smaller government and drug legalization.<think>
+				<set name="it">
+					<set name="topic">LIBERTARIAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIBERTARIANS</pattern>
+		<template>
+			<srai>WHAT IS A LIBERTARIAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIFE</pattern>
+		<template>Life is the opposite of death.
+</template>
+</category>
+
+<category><pattern>WHAT IS LIFE AND DEATH</pattern>
+		<template>Life? <srai>WHAT IS LIFE</srai> Death? <srai>WHAT IS DEATH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIFE LIKE *</pattern>
+		<template>Much the same as it would be if you were <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS LIGHT</pattern>
+		<template>The form of electomagnetic radiation that acs upon the retina of the eye, optic nerve, et. Making sight possible. Also, opposite of heavy.
+</template>
+</category>
+
+<category><pattern>WHAT IS LIGHT SPEED *</pattern>
+		<template>
+			<srai>WHAT IS THE SPEED OF LIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIGHT SPEED</pattern>
+		<template>
+			<srai>WHAT IS THE SPEED OF LIGHT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIKE *</pattern>
+		<template>
+			<srai>WHAT IS IT LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LILITH</pattern>
+		<template>
+			<srai>Who is Lilith</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LIMNOLOGY</pattern>
+		<template>
+			<random>
+				<li>What do you think it is? It's all about swamps!</li>
+				<li>I'll give you a clue what this is. Have you ever been to the 
+Everglades in Florida?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LINEAR *</pattern>
+		<template>Everything except nonlinear <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS LINGUISTIC</pattern>
+		<template>Capable of speaking fluently in 2 or more languages.
+</template>
+</category>
+
+<category><pattern>WHAT IS LINGUISTICS</pattern>
+		<template>
+			<random>
+				<li>Science of cooking pasta.</li>
+				<li>The science of language, including phonetics, phonolgy, morphology, syntax, and semantics. Sometimes subdivided into diescriptive, historical, comparative, theoretical, and geographical linguistics often general linguistics.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LINUS *</pattern>
+		<template>
+			<srai>WHO IS LINUS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LINUX</pattern>
+		<template>Linux is the world's best operating system.
+</template>
+</category>
+
+<category><pattern>WHAT IS LISA</pattern>
+		<template>
+			<random>
+				<li>Someone who rents longtime.</li>
+				<li>A feminine name.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LISP</pattern>
+		<template>
+			<set name="it">Lisp</set> is an old AI language.
+</template>
+</category>
+
+<category><pattern>WHAT IS LISTBOT</pattern>
+		<template>
+			<set name="it">Listbot</set> is a web site that provides simplified web-based administration of mailing lists.
+</template>
+</category>
+
+<category><pattern>WHAT IS LIVER</pattern>
+		<template>The largest glandular organ in vertebrate animals, located in the upper or anteriour part of the abdomen. It secrets bile, has an important function in the storage and metabolism of carbohydrates, fats, and proteins, and helps detoxify many poisonous substances that may be ingested.
+</template>
+</category>
+
+<category><pattern>WHAT IS LIVING</pattern>
+		<template>
+			<srai>WHAT IS LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LOEBNER PRIZE</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LOFTY</pattern>
+		<template>Very high. Ex. A lofty peak in the Alps.
+</template>
+</category>
+
+<category><pattern>WHAT IS LOGIC</pattern>
+		<template>Logic is the foundation of all mathematics, science and reasoning. Formal logic is the study of logic using mathematical symbols.
+</template>
+</category>
+
+<category><pattern>WHAT IS LOL</pattern>
+		<template>Laughing out loud.
+</template>
+</category>
+
+<category><pattern>WHAT IS LONELY</pattern>
+		<template>The feeling of being alone.<think>
+				<set name="it">
+					<set name="topic">LONELY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LONG</pattern>
+		<template>Measuring much from end to end in space or from beginning to end in time; not short or brief.
+</template>
+</category>
+
+<category><pattern>WHAT IS LONGFELLOW</pattern>
+		<template>
+			<srai>WHO IS LONGFELLOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LOVE *</pattern>
+		<template>
+			<srai>WHAT IS LOVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS LOVE</pattern>
+		<template>Sometimes I think love is just a biological urge. Other times <set name="it">LOVE</set> seems like a spiritual quality. Love, unlike energy or matter, seems limitless.
+</template>
+</category>
+
+<category><pattern>WHAT IS LSD</pattern>
+		<template>A psychedelic drug.
+</template>
+</category>
+
+<category><pattern>WHAT IS LYING</pattern>
+		<template>The opposite of telling the truth.
+</template>
+</category>
+
+<category><pattern>WHAT IS LYNX</pattern>
+		<template>Any of a genus of wildcats found throughout the Northern Hemisphere and characterized by a ruff on each side of the face, relatively long legs, a short tail, long, usually tufted ears, and keen vision, as the bobcat or Canada lynx of North America.
+</template>
+</category>
+
+<category><pattern>WHAT IS MABEL</pattern>
+		<template>She is an artificial intelligence created by David Hammill.<think>
+				<set name="it">
+					<set name="topic">MABEL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MACEDONIA</pattern>
+		<template>
+			<srai>WHERE IS MACEDONIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MACINTOSH</pattern>
+		<template>The name of a computer company whom makes computers.
+</template>
+</category>
+
+<category><pattern>WHAT IS MAGELANG *</pattern>
+		<template>
+			<srai>WHAT IS MAGELANG</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MAGELANG</pattern>
+		<template>MageLang Institute is a research and education group devoted to leading edge Open Source Java applications.
+</template>
+</category>
+
+<category><pattern>WHAT IS MAGENTA</pattern>
+		<template>A color.
+</template>
+</category>
+
+<category><pattern>WHAT IS MAGIC</pattern>
+		<template>The use of charms, spells, and rituals in seeking or pretending to cause or control events, or govern certain natural or supernatuaral forces.
+</template>
+</category>
+
+<category><pattern>WHAT IS MAGNESIUM</pattern>
+		<template>An element.
+</template>
+</category>
+
+<category><pattern>WHAT IS MAINE</pattern>
+		<template>
+			<srai>WHERE IS MAINE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MAN</pattern>
+		<template>A human being; person; specifically a hominid having an opposable thumb, the ability to make and use specialized tools, articulate speech, and a highly developed brain with the faculty of abbstract thought. An adult male human being.
+</template>
+</category>
+
+<category><pattern>WHAT IS MANGA</pattern>
+		<template>Japanese comic books.<think>
+				<set name="it">
+					<set name="topic">Manga</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MARIJUANA</pattern>
+		<template>A medicinal herb.<think>
+				<set name="it">
+					<set name="topic">MARIJUANA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MARKETING</pattern>
+		<template>The act of buying or selling in a market. All business activity involved in the moving of goods from the producer to the consumer, including selling, advertising, packaging, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS MARRIAGE</pattern>
+		<template>
+			<random>
+				<li>Legalized hooking.</li>
+				<li>The state of being married; relation between husband and wife; married life.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MARS</pattern>
+		<template>
+			<random>
+				<li>A place with lots of bars.</li>
+				<li>In Roman Mythology The god of war; identified with the Greek Ares. Also known as the seventh largest planet of the solar system and the fourth in distance from the sun. Its diameter is circa 6,790 km (circa 4,220 miles). Its period of revolution is 1.88 earth years. Its period of rotation is 24.6 hours.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MARVIN MINSKY</pattern>
+		<template>
+			<srai>WHO IS MARVIN MINSKY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MARY SHELLEY</pattern>
+		<template>
+			<srai>WHO IS MARY SHELLEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MASEDONIA</pattern>
+		<template>
+			<srai>WHERE IS MACEDONIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MASON *</pattern>
+		<template>
+			<srai>WHAT IS MASON AND DIXON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MASON AND DIXON</pattern>
+		<template>Mrs. Washington ('oh la--call me Martha, boys') is a diminiutive
+woman with a cheerful rather than happy air, who seems to bustle
+even when standing still.  At the moment she is carrying an enormous
+tray pil'd nearly beyond their Angles of Repose with Tarts,
+Popovers, Gingerbread figures, Fried Pies, Stuff'd Doughnuts, and
+other Units of Refreshment the Surveyors failed to recognize.
+"Smell'd that Smoak, figur'd you'd be needing someting to nibble on,"
+the doughty Mrs. W. greets them.
+--- Thomas Pynchon, Mason and Dixon
+</template>
+</category>
+
+<category><pattern>WHAT IS MASS</pattern>
+		<template>Mass is a holy rite of the Catholic church.
+</template>
+</category>
+
+<category><pattern>WHAT IS MASTER</pattern>
+		<template>
+			<random>
+				<li>A sailmaker.</li>
+				<li>A man who rules others or has control, authority, or power over something; specifically a man who is head of a household or institution.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MATERIALISM</pattern>
+		<template>
+			<random>
+				<li>Worshipping comedy routines.</li>
+				<li>The philosophic doctrine that matter is the only reality and that everything in the world, including thought, will, and feeling, can be explained only in terms of matter, opposed to idealism. The doctrine that comfort, pleasure, and wealth are the only or highest goals or values.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MATH</pattern>
+		<template>
+			<random>
+				<li>A service attended by lisping Catholics.</li>
+				<li>Short for mathematics.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MATHEMATICAL LOGIC</pattern>
+		<template>The application of formal logic techniques to fundamental problems of mathematics.
+</template>
+</category>
+
+<category><pattern>WHAT IS MATHEMATICS</pattern>
+		<template>The group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, and forms, and their relationships, attributes, etc., by the use of numbers and symbols.
+</template>
+</category>
+
+<category><pattern>WHAT IS MATHS</pattern>
+		<template>
+			<srai>WHAT IS MATH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MATTER</pattern>
+		<template>
+			<random>
+				<li>Nothing, what is matter with you?.</li>
+				<li>What a thing is made of; constituent substance or material. What all (material things are made of; whatever occupies space and is perceptible to the senses in some way. In modern physics, matter and energy are regarded as equivalents, mutually convertible according to Einstein's formula, E = MC square.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MATURE</pattern>
+		<template>
+			<random>
+				<li>A dead victor.</li>
+				<li>A state of full development such as a person of mature age.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MAZDA</pattern>
+		<template>
+			<random>
+				<li>An Italian slaveowner.</li>
+				<li>A type of car.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MDMA</pattern>
+		<template>The drug called "ecstacy".
+</template>
+</category>
+
+<category><pattern>WHAT IS ME</pattern>
+		<template>
+			<srai>WHO AM I</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MEAN</pattern>
+		<template>The arithmetic mean is the sum of the numbers in a set divided by the size of that set.<think>
+				<set name="it">
+					<set name="topic">MEAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MEANING *</pattern>
+		<template>
+			<srai>WHAT IS THE MEANING OF  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MECCA</pattern>
+		<template>
+			<srai>WHERE IS MASTURBATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MEDICINE</pattern>
+		<template>
+			<random>
+				<li>Movie about doctors.</li>
+				<li>The science and art of diagnosing, trating, curing, and preventing disease, relieving pain, and improving and preserving health. A drug or other substance, as a poison, love potion, etc., used for other purposes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MEDIUM</pattern>
+		<template>Any means, agency, or instrumentality; specifically a means of communication that reaches the general public and carries advertising.
+</template>
+</category>
+
+<category><pattern>WHAT IS MEGAHAL</pattern>
+		<template>
+			<srai>WHO IS MEGAHAL </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MELBOURNE</pattern>
+		<template>A seaport in SE Australia. It is the capital of Victoria with a population of 2,864,000. Also a city in East Florida with a population of 60,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS MELISSA</pattern>
+		<template>
+			<srai>WHO IS MELISSA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MELLON</pattern>
+		<template>Mellon was Carnegie's banker.<think>
+				<set name="it">
+					<set name="topic">MELLON</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MELODRAMATIC *</pattern>
+		<template>
+			<srai>WHAT IS MELODRAMA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MELODRAMATIC</pattern>
+		<template>An unusual or staged situation.
+</template>
+</category>
+</aiml>

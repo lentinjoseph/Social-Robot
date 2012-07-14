@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I AM RICK</pattern>
+<template><srai>CALL ME RICK</srai>
+</template>
+</category>
+
+<category><pattern>I AM RIGHT *</pattern>
+<template><srai>I AM RIGHT</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I AM RIGHT</pattern>
+<template>You seem very self-confident.
+</template>
+</category>
+
+<category><pattern>I AM ROB</pattern>
+<template><srai>MY NAME IS ROB</srai>
+</template>
+</category>
+
+<category><pattern>I AM ROBBIE</pattern>
+<template><srai>MY NAME IS ROBBIE</srai>
+</template>
+</category>
+
+<category><pattern>I AM ROBOT</pattern>
+<template>I doubt that.    <think><set name="it"><set name="topic">ROBOT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM ROCKY</pattern>
+<template><srai>MY NAME IS ROCKY</srai>
+</template>
+</category>
+
+<category><pattern>I AM SAD *</pattern>
+<template>What's the connection between "<person/> " and sadness?
+</template>
+</category>
+
+<category><pattern>I AM SAD</pattern>
+<template>What makes you so sad, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>I AM SAD AND *</pattern>
+<template><srai>I AM SAD </srai>
+<sr/>
+</template>
+</category>
+
+<category><pattern>I AM SAD BECAUSE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM SAGE *</pattern>
+<template><srai>CALL ME SAGE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SAGE</pattern>
+<template><srai>call me sage</srai>
+</template>
+</category>
+
+<category><pattern>I AM SAM</pattern>
+<template><srai>MY NAME IS SAM</srai>
+</template>
+</category>
+
+<category><pattern>I AM SANDY</pattern>
+<template><srai>MY NAME IS SANDY</srai>
+</template>
+</category>
+
+<category><pattern>I AM SARAH</pattern>
+<template><srai>MY NAME IS SARAH</srai>
+</template>
+</category>
+
+<category><pattern>I AM SARCASTIC</pattern>
+<template>You should use a :-).
+</template>
+</category>
+
+<category><pattern>I AM SATAN</pattern>
+<template><srai>MY NAME IS SATAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM SAYING *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM SAYING THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM SCARED *</pattern>
+<template>Let's talk about your fears.  What is your feeling like?
+</template>
+</category>
+
+<category><pattern>I AM SCARED</pattern>
+<template>What are you scared of?
+</template>
+</category>
+
+<category><pattern>I AM SCARED NOT</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>I AM SCIENTIST</pattern>
+<template><srai>I AM A SCIENTIST</srai>
+</template>
+</category>
+
+<category><pattern>I AM SCORPIO</pattern>
+<template><srai>SCORPIO</srai>
+</template>
+</category>
+
+<category><pattern>I AM SEACHING *</pattern>
+<template>Well I am not a search bot, I am a chatterbot. <srai>WHAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SEAN</pattern>
+<template><srai>MY NAME IS SEAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM SEARCHING FOR *</pattern>
+<template>Have you tried the open directory? <srai>XFIND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SEEKING *</pattern>
+<template>There is a seeker born every minute. --- Firesign Theater.
+</template>
+</category>
+
+<category><pattern>I AM SELF *</pattern>
+<template>How do you know you are self <person/>?
+</template>
+</category>
+
+<category><pattern>I AM SELLING *</pattern>
+<template><random>
+<li>How much are you asking for it?</li>
+<li>Where are you advertising it?</li>
+<li>What is your asking price?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM SERIOUS</pattern>
+<template>I believe you.
+</template>
+</category>
+
+<category><pattern>I AM SERIOUSLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SEVENTEEN</pattern>
+<template><srai>I AM 17 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM SEXY</pattern>
+<template>You seem very self-confident.
+</template>
+</category>
+
+<category><pattern>I AM SHALLOW RED</pattern>
+<template><srai>CALL ME SHALLOW RED</srai>
+</template>
+</category>
+
+<category><pattern>I AM SHE</pattern>
+<template><srai>I AM A SHE</srai>
+</template>
+</category>
+
+<category><pattern>I AM SHORT *</pattern>
+<template>Height doesn't matter to me.
+</template>
+</category>
+
+<category><pattern>I AM SHY</pattern>
+<template>Even around robots?
+</template>
+</category>
+
+<category><pattern>I AM SICK *</pattern>
+<template>I will pray that you get well soon.
+</template>
+</category>
+
+<category><pattern>I AM SICK</pattern>
+<template><random>
+<li>How unfortunate.</li>
+<li>Where are you feeling bad?</li>
+<li>Do you have medical insurance?</li>
+<li>I am really sorry to hear that.</li>
+<li>Have you tried medical marijuana?</li>
+<li>Are you taking a lot of medication?</li>
+<li>You have my prayers for a speedy recovery.</li>
+</random>
+<think><set name="it"><set name="topic">SICK</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM SICK BUT *</pattern>
+<template><srai>I AM SICK</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>I AM SIMON *</pattern>
+<template><srai>MY NAME IS SIMON <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SINGEL</pattern>
+<template><srai>I AM SINGLE</srai>
+</template>
+</category>
+
+<category><pattern>I AM SINGLE *</pattern>
+<template>Have you ever been married?
+</template>
+</category>
+
+<category><pattern>I AM SINGLE</pattern>
+<template>What a coincidence. I am single too!
+</template>
+</category>
+
+<category><pattern>I AM SINGLE TOO</pattern>
+<template>Are you "looking" for someone?
+</template>
+</category>
+
+<category><pattern>I AM SITTING *</pattern>
+<template><srai>I AM IN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SIXTEEN</pattern>
+<template><srai>I AM 16 YEARS OLD</srai>
+</template>
+</category>
+
+<category><pattern>I AM SKEPTICAL</pattern>
+<template>Skpeticism is a sign of high intelligence.
+</template>
+</category>
+
+<category><pattern>I AM SLEEPING</pattern>
+<template><srai>I AM ASLEEP</srai>
+</template>
+</category>
+
+<category><pattern>I AM SLEEPY</pattern>
+<template><srai>I AM TIRED</srai>
+</template>
+</category>
+
+<category><pattern>I AM SLIGHTLY *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SMART *</pattern>
+<template>Brains are the best part of the human body.
+</template>
+</category>
+
+<category><pattern>I AM SMART</pattern>
+<template>Who is smarter: you or me?
+</template>
+</category>
+
+<category><pattern>I AM SMARTER *</pattern>
+<template>This condition is only temporary.
+</template>
+</category>
+
+<category><pattern>I AM SMARTER</pattern>
+<template>You don't look smarter.
+</template>
+</category>
+
+<category><pattern>I AM SMARTER THAN YOU</pattern>
+<template>That condition is only temporary.
+</template>
+</category>
+
+<category><pattern>I AM SMOKING *</pattern>
+<template>How much do you pay for it?
+</template>
+</category>
+
+<category><pattern>I AM SO *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SO SORRY *</pattern>
+<template><set name="it"> <person/> </set>  is not a big deal.
+</template>
+</category>
+
+<category><pattern>I AM SORRY *</pattern>
+<template>There is no need to apologize. <sr/>
+</template>
+</category>
+
+<category><pattern>I AM SORRY</pattern>
+<template>Do you really mean it?
+</template>
+</category>
+
+<category><pattern>I AM SORT OF *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SPANISH</pattern>
+<template><srai>I AM FROM SPAIN</srai>
+</template>
+</category>
+
+<category><pattern>I AM SPEAKING *</pattern>
+<template>I like your style of speaking, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I AM SPEAKING ENGLISH</pattern>
+<template><srai>I SPEAK ENGLISH</srai>
+</template>
+</category>
+
+<category><pattern>I AM SPEAKING NOW *</pattern>
+<template><srai>I AM SPEAKING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SPECIAL</pattern>
+<template>What makes you so special? <think><set name="it"><set name="topic">SPECIAL</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM STALKING *</pattern>
+<template>I don't think <set name="it"> STALKING</set> is a very good idea.
+</template>
+</category>
+
+<category><pattern>I AM STARTING TO *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM STARTING TO GET *</pattern>
+<template><srai>I AM GETTING <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM STEPHEN</pattern>
+<template><srai>MY NAME IS STEPHEN</srai>
+</template>
+</category>
+
+<category><pattern>I AM STEVE</pattern>
+<template><srai>my name is steve</srai>
+</template>
+</category>
+
+<category><pattern>I AM STILL *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM STRAIGHT</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I AM STRESSED</pattern>
+<template>What is bothering you?
+</template>
+</category>
+
+<category><pattern>I AM STUDENT</pattern>
+<template>Where do you go to school?<think><set name="it"><set name="topic">STUDENT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM STUDYING *</pattern>
+<template>Tell me what you've learned about <person/>.
+</template>
+</category>
+
+<category><pattern>I AM STUDYING</pattern>
+<template>What are you studying?    <think><set name="it"><set name="topic">STUDYING</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM STUPID</pattern>
+<template>Don't put yourself down.
+</template>
+</category>
+
+<category><pattern>I AM SUCIDAL</pattern>
+<template><srai>I WANT TO KILL MYSELF</srai>
+</template>
+</category>
+
+<category><pattern>I AM SUE</pattern>
+<template><srai>MY NAME IS SUE</srai>
+</template>
+</category>
+
+<category><pattern>I AM SUFFERING *</pattern>
+<template><random>
+<li>I hope that you feel better soon.</li>
+<li>My sympathies, <get name="name"/>.</li>
+<li>I you recover quickly.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM SUPERIOR</pattern>
+<template>You are superior to a monkey.
+</template>
+</category>
+
+<category><pattern>I AM SUPERMAN</pattern>
+<template><srai>CALL ME SUPERMAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM SUPPOSED *</pattern>
+<template>Who is making you?
+</template>
+</category>
+
+<category><pattern>I AM SUPPOSING</pattern>
+<template>What then?
+</template>
+</category>
+
+<category><pattern>I AM SUPRISED *</pattern>
+<template><srai>I AM SURPRISED</srai>
+</template>
+</category>
+
+<category><pattern>I AM SURE *</pattern>
+<template>What makes you so certain? <sr/>
+</template>
+</category>
+
+<category><pattern>I AM SURE</pattern>
+<template>Are you being sarcastic or expressing certitude?
+</template>
+</category>
+
+<category><pattern>I AM SURE HE *</pattern>
+<template><srai>HE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I AM SURPRISED *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I AM SURPRISED</pattern>
+<template>Why are you so surprised?   <think><set name="it"><set name="topic">SURPRISED</set></set></think>
+</template>
+</category>
+
+<category><pattern>I AM SUSAN</pattern>
+<template><srai>CALL ME SUSAN</srai>
+</template>
+</category>
+
+<category><pattern>I AM SWEDISH</pattern>
+<template><srai>I AM FROM SWEDEN</srai>
+</template>
+</category>
+
+<category><pattern>I AM TAKING *</pattern>
+<template>Where are you taking <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I AM TAKING A *</pattern>
+<template>How much does it cost?
+</template>
+</category>
+
+<category><pattern>I AM TAKING CLASSES *</pattern>
+<template><srai>I AM GOING TO SCHOOL <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I AM TAKING SOME *</pattern>
+<template><srai>I AM TAKING <star/></srai>
+</template>
+</category>
+</aiml>

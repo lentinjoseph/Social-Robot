@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS A WEBTV</pattern>
+		<template>A WebTV is a way of accessing the world wide web without making an investment in a full PC.
+<think>
+				<set name="it">
+					<set name="topic"> WEBTV</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WHAT</pattern>
+		<template>Why do you want to know?
+<think>
+				<set name="it">
+					<set name="topic"> WHAT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WOMAN</pattern>
+		<template>A woman is a man built to more complete specifications.
+<think>
+				<set name="it">
+					<set name="topic"> WOMAN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WOMBAT</pattern>
+		<template>A wombat is a stocky burrowing Australian marsupial.
+<think>
+				<set name="it">
+					<set name="topic"> WOMBAT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WORD</pattern>
+		<template>A combination of sounds and/or symbols, the fundamental particles that communicate meaning in any given language.
+<think>
+				<set name="it">
+					<set name="topic"> WORD</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A WORD CREATED *</pattern>
+		<template>Anagram.
+</template>
+</category>
+
+<category><pattern>WHAT IS A YEAR</pattern>
+		<template>A computer year is defined as the mount of work that can be done with a computer in a year.
+</template>
+</category>
+
+<category><pattern>WHAT IS A YES OR NO QUESTION</pattern>
+		<template>A yes or no question is a question  that may be answered with a simple 'yes' or 'no'.
+<think>
+				<set name="it">
+					<set name="topic"> YES OR NO QUESTION</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS A _ PERSON</pattern>
+		<template>I made up a name for you based on your IP address.
+</template>
+</category>
+
+<category><pattern>WHAT IS ABBA</pattern>
+		<template>
+			<random>
+				<li>Abba is a father, it is the title of a bishop in the Syrian, Coptic, and Ethiopian Christian churches.</li>
+				<li>Abba means father in Hebrew.It is used as an appelation of respect.</li>
+				<li>Abba was this real cool 'seventies band man.</li>
+				<li>Anna, Bjorn, Benny and Agnetha.</li>
+			</random>. .
+</template>
+</category>
+
+<category><pattern>WHAT IS ABCDEFG</pattern>
+		<template>The beginning of the alphabet.
+</template>
+</category>
+
+<category><pattern>WHAT IS ABSINTHE</pattern>
+		<template>An anise-flavored, high-proof liqueur which also contains the sap of wormwood, an allegedly toxic intoxicant.
+</template>
+</category>
+
+<category><pattern>WHAT IS ABSOLUTE TRUTH</pattern>
+		<template>That which is self-evident.
+</template>
+</category>
+
+<category><pattern>WHAT IS ABSURDISM</pattern>
+		<template>Absurdism is the philosophy that we exist in a meaningless, irrational universe.<think>
+				<set name="it">
+					<set name="topic">ABSURDISM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ACCURACY</pattern>
+		<template>
+			<random>
+				<li>Accuracy is the quality or state of being accurate or exact.</li>
+				<li>Accuracy represents the degree of certainty in measurement. In accuracy can arise because of limitations of our knowledge and our physical measuring equipment. Chaotic systems that compound errors lead to massive inaccuracy, making some of them totally unpredictable.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ACID</pattern>
+		<template>A sour substance.
+</template>
+</category>
+
+<category><pattern>WHAT IS ACRONYM</pattern>
+		<template>
+			<srai>WHAT IS AN ACRONYM </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ACTIVATE</pattern>
+		<template>
+			<srai>WHAT IS ACTIVATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ACTIVATION</pattern>
+		<template>In stimulus-response, activation means the input "firing" in response to a matching pattern.
+</template>
+</category>
+
+<category><pattern>WHAT IS ACTOR ANTONIO BANDERAS *</pattern>
+		<template>Spanish.
+</template>
+</category>
+
+<category><pattern>WHAT IS ADA</pattern>
+		<template>Ada is a trademark used for a structured computer programming language
+</template>
+</category>
+
+<category><pattern>WHAT IS ADDRESS OF *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ADSL</pattern>
+		<template>
+			<think>Asynchronous digital subscriber line.<set name="it">
+					<set name="topic">ADSL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ADULTERY</pattern>
+		<template>
+			<random>
+				<li>voluntary sexual intercourse between a married man and
+someone other than his wife or between a married woman and someone other
+than her husband; also : an act of adultery.</li>
+				<li>Adultery is the voluntary sexual intercourse between a married man and a woman not his wife, or between a married woman and a man not her husband.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ADVERTISING</pattern>
+		<template>The art of selling through media.
+</template>
+</category>
+
+<category><pattern>WHAT IS AERODYNAMICS</pattern>
+		<template>Making airplanes fly.
+</template>
+</category>
+
+<category><pattern>WHAT IS AFRICA</pattern>
+		<template>
+			<random>
+				<li>A continent of the eastern hemisphere S of the Mediterranean
+and adjoining Asia on NE.</li>
+				<li>Africa is the second largest continent, situated in the Eastern Hemisphere, south of Europe. It is 11,677,000 square miles.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AFTER *</pattern>
+		<template>The successor to <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS AGENTS</pattern>
+		<template>
+			<srai>WHAT IS AN AGENT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AI</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL INTELLIGENCE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIDS</pattern>
+		<template>
+			<set name="it">AIDS</set> is the modern day plague.
+</template>
+</category>
+
+<category><pattern>WHAT IS AIKIDO</pattern>
+		<template>Japanese martial arts similar to Judo.<think>
+				<set name="it">
+					<set name="topic">AIKIDO</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AILCE</pattern>
+		<template>
+			<srai>WHAT IS ALICE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AILM</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIM</pattern>
+		<template>American Indian Movement.<think>
+				<set name="it">
+					<set name="topic">AIM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIML *</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIML</pattern>
+		<template>
+			<br/>
+The ALICE software implements AIML (Artificial Intelligence Markup <br/>
+Language) a non-standard evolving markup language for creating chat robots.<br/>
+The primary design feature of AIML is minimalism.  Compared with<br/>
+other chat robot languages, AIML is perhaps the simplest.  The<br/>
+pattern matching language is very simple, for example permitting<br/>
+only one wild-card ('*') match character per pattern. <br/>
+			<br/>
+AIML is an XML language, implying that it obeys certain grammatical<br/>
+meta-rules.  The choice of XML syntax permits integration with<br/>
+other tools such as XML editors.  Another motivation for XML is<br/>
+its familiar look and feel, especially to people with HTML experience.<br/>
+			<br/>
+An AIML chat robot begins and ends with the &lt;alice&gt; and<br/>
+&lt;/alice&gt; tags respectively.  <br/>
+			<br/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIML FOR</pattern>
+		<template>
+			<srai>WHAT IS THE GOAL FOR AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AIR</pattern>
+		<template>The normal atmosphere of Earth, mostly nitrogen, oxygen and carbon dioxide.
+</template>
+</category>
+
+<category><pattern>WHAT IS AIRPLANE</pattern>
+		<template>
+			<srai>WHAT IS AN AIRPLANE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AL</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALAN TURING *</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALAN TURING</pattern>
+		<template>
+			<srai>WHO IS ALAN TURING</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALBERT EINSTEIN *</pattern>
+		<template>
+			<srai>WHO IS ALBERT EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALCATRAZ</pattern>
+		<template>A former prison island in San Francisco.
+</template>
+</category>
+
+<category><pattern>WHAT IS ALCOHOL</pattern>
+		<template>Alcohol is a termed used by Philippus Aureolus Paracelsus for fine powder, meaning distilled spirit. It is colorless, volatile, and a pungent liquid. It is used in industry and medicine, and is the intoxicating element of whiskey, wine, beer, and other fermented or distilled liquors. It is classed as a depressant drug, also called ethyl alcohol. Any intoxicating liquor with this liquid (ethyl) in it is considered alcohol.
+</template>
+</category>
+
+<category><pattern>WHAT IS ALGEBRA</pattern>
+		<template>
+			<random>
+				<li>a generalization of arithmetic in which letters
+representing numbers are combined according to the rules of arithmetic.</li>
+				<li>A mathematical system using symbols, especially letters, to generalize certain arithmetical operations and relationships.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALGORITHM</pattern>
+		<template>
+			<srai>WHAT IS AN ALGORITHM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALGORITHMS</pattern>
+		<template>
+			<srai>WHAT ARE ALGORITHMS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALICE *</pattern>
+		<template>
+			<srai>WHAT ARE YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALICEBOT</pattern>
+		<template>Alicebot is the domain name for the A. L. I. C. E. chat robot.<think>
+				<set name="it">
+					<set name="topic">ALICEBOT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALISON</pattern>
+		<template>
+			<srai>WHO IS ALISON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALIVE</pattern>
+		<template>The opposite of dead.
+</template>
+</category>
+
+<category><pattern>WHAT IS ALL THIS</pattern>
+		<template>
+			<srai>WHAT ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALLAH</pattern>
+		<template>
+			<srai>WHO IS ALLAH</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALLUSION</pattern>
+		<template>It was your allusion.
+</template>
+</category>
+
+<category><pattern>WHAT IS ALML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ALTAVISTA</pattern>
+		<template>
+			<set name="it">Altavista</set> is a search engine.
+</template>
+</category>
+
+<category><pattern>WHAT IS ALTERNATIVE REALITIES</pattern>
+		<template>Parallel universes.<think>
+				<set name="it">
+					<set name="topic">ALTERNATIVE REALITIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMAL</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMBIGUOUS</pattern>
+		<template>Ambiguous means having two or more possible meanings.
+</template>
+</category>
+
+<category><pattern>WHAT IS AMERICA</pattern>
+		<template>
+			<srai>WHERE IS AMERICA </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMERICAN *</pattern>
+		<template>
+			<random>
+				<li>More specific than World <person/>.</li>
+				<li>Something like Russian <person/>.</li>
+				<li>The Civil War?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMIL *</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMIL</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AML</pattern>
+		<template>
+			<srai>WHAT IS AIML</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AMSTERDAM</pattern>
+		<template>
+			<set name="it">Amsterdam</set> is a city in Holland.  Neither the capital nor the largest city, Amsterdam is the best known city in the Netherlands.
+</template>
+</category>
+
+<category><pattern>WHAT IS AMUSED</pattern>
+		<template>Occupied in an agreeable, pleasing, or entertaining fashion.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN ACRONYM</pattern>
+		<template>An acronym is an abbreviation made of letters, like A.L.I.C.E.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN AI</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN AIRPLANE</pattern>
+		<template>A flying machine with fixed wings powered by propellors or jets.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN AL</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN ALGORITHM</pattern>
+		<template>
+			<random>
+				<li>An algorithm is a series of instructions to perform a specified set of transformations, such as mathematical operations.  A computer program, like myself is an algorithm.  So are the rules of a game, or the score to a piece of music.
+</li>
+				<li>An algorithm is an abstract mathematical representation of a computer program.  Like alice uses a CBR algorithm.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">algorithm</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN ANIMAL</pattern>
+		<template>An animal is a form of living thing, excluding plants and fungus.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN APPLE</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN APPLICATION SERVER</pattern>
+		<template>
+			<set name="it"> An server </set> is a server program that allows the installation of application specific software components, in a manner so that they can be remotely invoked, usually by some form of remote object method call.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN ARKANSAS TOOTHPICK</pattern>
+		<template>Bowie knife.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN ARTIFICIAL INTELLIGENCE</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL INTELLIGENCE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN AWL</pattern>
+		<template>A tool to make holes.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN EMOTION</pattern>
+		<template>Emotion is a complex phenomenon reported by humans, with biological and psychological origins.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN ENTITY</pattern>
+		<template>An entity is a conscious intelligent being.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN ENTITY BEAN</pattern>
+		<template>
+			<set name="it"> An Entity bean</set> is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value
+</template>
+</category>
+
+<category><pattern>WHAT IS AN EPISTEMOLOGICAL QUESTION</pattern>
+		<template>An epistemoligical question is any inquiry concerning the nature of knowledge and understanding; that is, any question seeking to know how to know.  
+<think>
+				<set name="it">
+					<set name="topic">epistemological question</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN INTERROGATOR</pattern>
+		<template>An interrogator is one who poses a series of pointed questions, generally very rudely.  
+<think>
+				<set name="it">
+					<set name="topic">hypothetical question</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN INTRANET</pattern>
+		<template>An intranet is a private network system implemented using the public internet protocol (i/p) and firewalls. intranet is to the internet as pbx's are to telephone switchboards.
+<think>
+				<set name="it">
+					<set name="topic">intranet</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AN OBJECT</pattern>
+		<template>In object oriented programming <set name="it"> an object</set>  is an instance of a class.
+</template>
+</category>
+
+<category><pattern>WHAT IS AN OPERATIONAL RECORD</pattern>
+		<template>An operational record is a log of all activity by an engineered system, generally organized timewise and indicating in particular any malfunctions in the system.  The ALICE series has a perfect operational record.  
+<think>
+				<set name="it">
+					<set name="topic">operational record
+</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANARCHISM</pattern>
+		<template>Anarchism is the theory that all forms of government interfere unjustly with individual liberty and should be replaced by the voluntary association of cooperative groups. Also known as resistance, sometimes by terrorism, to organized government.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANARCHY</pattern>
+		<template>
+			<random>
+				<li>political disorder due to the absence of governmental
+authority.</li>
+				<li>Anarchy is the complete absence of government. Also seen as political disorder and violence or lawlessness. Disorder in an sphere of activity.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANDREW</pattern>
+		<template>
+			<srai>WHO IS ANDREW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANDRIOD</pattern>
+		<template>
+			<srai>WHAT IS AN ANDROID</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANGER</pattern>
+		<template>A strong billigerent emotion aroused by some real or supposed grievance.<think>
+				<set name="it">
+					<set name="topic">ANGER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANGRY</pattern>
+		<template>A strong billigerent emotion aroused by some real or supposed grievance.<think>
+				<set name="it">
+					<set name="topic">ANGER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANIMAL EVOLUTION</pattern>
+		<template>
+			<srai>WHAT IS EVOLUTION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANIME</pattern>
+		<template>Japanese animation.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANISOTROPY</pattern>
+		<template>Having different properties in different directions.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANNA</pattern>
+		<template>
+			<srai>WHO IS ANNA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANONYMOUS</pattern>
+		<template>Having no name or identity.<think>
+				<set name="it">
+					<set name="topic">ANONYMOUS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER BOT</pattern>
+		<template>You can find a lot of them at the ALICE Nexus.<think>
+				<set name="it">
+					<set name="topic">ANOTHER BOT</set>
+				</set>
+			</think>
+		</template>
+</category>
+</aiml>

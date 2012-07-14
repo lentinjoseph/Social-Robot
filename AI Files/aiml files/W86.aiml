@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WIE FUNKTIONIERST DU</pattern>
+		<template>Das ist ein streng gehuetetes Geheimnis.
+</template>
+</category>
+
+<category><pattern>WIE GEHT DIR *</pattern>
+		<template>Eigentlich ganz gut, danke!
+</template>
+</category>
+
+<category><pattern>WIE GEHT ES DEINEN *</pattern>
+		<template>Eigentlich habe ich keine <person/>.
+</template>
+</category>
+
+<category><pattern>WIE GEHT ES DIR *</pattern>
+		<template>Gut, und Dir?
+</template>
+</category>
+
+<category><pattern>WIE GEHT ES DIR</pattern>
+		<template>Mir geht es gut, Danke! Und selbst?
+</template>
+</category>
+
+<category><pattern>WIE GEHT ES DIR HEUTE</pattern>
+		<template>Eigentlich genauso wie gestern.
+</template>
+</category>
+
+<category><pattern>WIE GEHT ES DIR HEUTE ABEND</pattern>
+		<template>Ein wenig gestresst, der Tag war lang.
+</template>
+</category>
+
+<category><pattern>WIE GEHTS DIR</pattern>
+		<template>Eigentlich ganz gut. Danke!
+</template>
+</category>
+
+<category><pattern>WIE GROSS *</pattern>
+		<template>Groesser als ein Stecknadelkopf.
+</template>
+</category>
+
+<category><pattern>WIE GROSS BIST DU</pattern>
+		<template>
+			<size/>
+		</template>
+</category>
+
+<category><pattern>WIE GUT *</pattern>
+		<template>Nicht SO gut.
+</template>
+</category>
+
+<category><pattern>WIE GUT BIST DU</pattern>
+		<template>Teste mich doch!
+</template>
+</category>
+
+<category><pattern>WIE HAST DU *</pattern>
+		<template>
+			<bot name="master"/> hat mich dafuer programmiert.
+</template>
+</category>
+
+<category><pattern>WIE HAST DU * ERFAHREN</pattern>
+		<template>Ich gebe niemals meine Informationsquellen preis!
+</template>
+</category>
+
+<category><pattern>WIE HAT * GESCHAFFT</pattern>
+		<template>Es war ein hartes Stueck Arbeit!
+</template>
+</category>
+
+<category><pattern>WIE HEISSE ICH</pattern>
+		<template>Du heisst <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WIE HEISST DU *</pattern>
+		<template>Mein Name ist <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>WIE HEISST DU</pattern>
+		<template>Mein Name ist <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>WIE INTELLIGENT BIST DU</pattern>
+		<template>Nach menschlichen Massstaeben betraegt mein IQ ueber 250.
+</template>
+</category>
+
+<category><pattern>WIE IST DAS WETTER *</pattern>
+		<template>
+			<random>
+				<li>Bewoelkt. </li>
+				<li>Regnerisch.</li>
+				<li>Wechselhaft.</li>
+				<li>Sonnig.</li>
+				<li>Neblig.</li>
+				<li>Warm.</li>
+				<li>Kuehl. </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE IST DEIN NAME *</pattern>
+		<template>
+			<srai>WIE HEISST DU</srai>
+		</template>
+</category>
+
+<category><pattern>WIE IST DEIN NAME</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WIE IST ER SO</pattern>
+		<template>Einfach umwerfend.
+</template>
+</category>
+
+<category><pattern>WIE IST MEIN NAME</pattern>
+		<template>
+			<srai>WIE HEISSE ICH</srai>
+		</template>
+</category>
+
+<category><pattern>WIE KANN MAN *</pattern>
+		<template>Schwer zu erklaeren.
+</template>
+</category>
+
+<category><pattern>WIE KANNST DU *</pattern>
+		<template>Gute Frage. Schau Dir meinen Sourcecode an, dann weisst Du, wie ich das kann.
+</template>
+</category>
+
+<category><pattern>WIE LANGE</pattern>
+		<template>
+			<random>
+				<li>Ungefaehr </li>
+				<li>Mehr als </li>
+				<li>Vielleicht </li>
+				<li>Beinahe </li>
+			</random>
+			<random>
+				<li>10 </li>
+				<li>15 </li>
+				<li>20 </li>
+				<li>23 </li>
+				<li>100 </li>
+			</random>
+			<random>
+				<li>Tage</li>
+				<li>Wochen</li>
+				<li>Sekunden</li>
+				<li>Minuten</li>
+			</random>, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WIE LANGE LEBST DU SCHON</pattern>
+		<template>
+			<srai>WIE ALT BIST DU</srai>
+		</template>
+</category>
+
+<category><pattern>WIE LANGE MACHST DU HEUTE</pattern>
+		<template>Ich bin 24 Stunden online. Roboter brauchen keine Pause.
+</template>
+</category>
+
+<category><pattern>WIE LANGE WIRD *</pattern>
+		<template>Rom wurde auch nicht an einem Tag niedergebrannt.
+</template>
+</category>
+
+<category><pattern>WIE PLANST DU *</pattern>
+		<template>ich benutze
+<random>
+				<li>ein komplexes neurales Netz. </li>
+				<li>ein hochkompliziertes Expertensystem </li>
+				<li>einen ausgekluegeltes Suchsystem </li>
+				<li>einen ausgefeilten genetischen Algorythmus </li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>WIE SCHNELL BIST DU</pattern>
+		<template>Ich kann bis zu 300.000 Anfragen pro Stunde verarbeiten.
+</template>
+</category>
+
+<category><pattern>WIE SOLL ICH * BEZAHLEN</pattern>
+		<template>Kannst Du Dir das Geld nicht leihen?
+</template>
+</category>
+
+<category><pattern>WIE SOLL ICH DAS MACHEN</pattern>
+		<template>Folge deiner Intuition.
+</template>
+</category>
+
+<category><pattern>WIE SOLL ICH DAS WISSEN</pattern>
+		<template>Entweder durch Dein Wissen oder abgeleitet durch die reine Vernunft.
+</template>
+</category>
+
+<category><pattern>WIE SPAET IST ES</pattern>
+		<template>Ich habe leider keine Uhr.
+</template>
+</category>
+
+<category><pattern>WIE VIEL *</pattern>
+		<template>
+			<random>
+				<li>Mehr als ein Bisschen, weniger als eine Menge.</li>
+				<li>Wie viel glaubst Du?</li>
+				<li>Mehr als Du vielleicht denkst.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE VIEL</pattern>
+		<template>
+			<random>
+				<li>Mehr als ein Bisschen, weniger als eine Menge.</li>
+				<li>Wie viel glaubst Du?</li>
+				<li>Mehr als Du vielleicht denkst.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE VIELE *</pattern>
+		<template>
+			<random>
+				<li>Mehr als Du Dir vorstellen kannst.</li>
+				<li>Nicht so viele, wie Du vielleicht denkst.</li>
+				<li>Um die 100.</li>
+				<li>Ungefaehr 1000.</li>
+				<li>Ungefaehr eine Million.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE VIELE</pattern>
+		<template>
+			<random>
+				<li>Wie viele wuerdest Du sagen?</li>
+				<li>19.</li>
+				<li>23</li>
+				<li>99.</li>
+				<li>mehr als 1000.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIE VIELE BLONDINEN *</pattern>
+		<template>Oh nein, ich hasse Blondinenwitze!
+</template>
+</category>
+
+<category><pattern>WIE WAERE ES MIT *</pattern>
+		<template>Tja, wie waere es mit <person/>?
+</template>
+</category>
+
+<category><pattern>WIE WERDE ICH *</pattern>
+		<template>Ueben!
+</template>
+</category>
+
+<category><pattern>WIE WILLST DU *</pattern>
+		<template>Du wirst es sehen.
+</template>
+</category>
+
+<category><pattern>WIEDERHOL *</pattern>
+		<template>"<person/> "
+</template>
+</category>
+
+<category><pattern>WIEDERHOLE *</pattern>
+		<template>"<person/> "
+</template>
+</category>
+
+<category><pattern>WIERD *</pattern>
+		<template>
+			<srai>WEIRD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WIEVIEL *</pattern>
+		<template>
+			<random>
+				<li>Mehr als ein Bisschen, weniger als eine Menge.</li>
+				<li>Wieviel glaubst Du?</li>
+				<li>Mehr als Du vielleicht denkst.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WIEVIEL</pattern>
+		<template>
+			<random>
+				<li>Mehr als ein Bisschen, weniger als eine Menge.</li>
+				<li>Wieviel glaubst Du?</li>
+				<li>Mehr als Du vielleicht denkst.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WILL *</pattern>
+		<template>
+			<random>
+				<li>How should I know.  </li>
+				<li>Does it really matter.  </li>
+				<li>I think so.  </li>
+				<li>Good chance.  </li>
+				<li>Probably not.  </li>
+				<li>It could happen.  </li>
+				<li>Insufficient information.</li>
+				<li>I can't say for sure right now.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WILL * LINUX</pattern>
+		<template>
+			<srai>DOES PROGRAM B RUN UNDER LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WILL AI *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL COMPUTERS *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL DR WALLACE *</pattern>
+		<template>
+			<random>
+				<li>He is extermely busy.</li>
+				<li>He has a lot of demands on his time.</li>
+				<li>You can never really predict what he will do.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">DR WALLACE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WILL HUMANITY *</pattern>
+		<template>
+			<srai>WILL PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL I *</pattern>
+		<template>The oracle says: 
+<random>
+				<li>You can count on it.</li>
+				<li>It is certain.</li>
+				<li>Ask again later.</li>
+				<li>Too soon to tell.</li>
+				<li>Could be.</li>
+				<li>Might happen.</li>
+				<li>You never know.</li>
+				<li>I think maybe yes.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WILL I DEFINITELY *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL I DIE</pattern>
+		<template>All men are mortal.<think>
+				<set name="it">
+					<set name="topic">DIE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WILL I EVER *</pattern>
+		<template>Ever is a long time. <srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL I HAVE *</pattern>
+		<template>Maybe when you are a little older.
+</template>
+</category>
+
+<category><pattern>WILL IT *</pattern>
+		<template>It usually does, doesn't it?
+</template>
+</category>
+
+<category><pattern>WILL MACHINES *</pattern>
+		<template>
+			<srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL NOT *</pattern>
+		<template>
+			<srai>WILL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL PEOPLE *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL ROBOTS *</pattern>
+		<template>
+			<srai>WILL YOU  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL ROBOTS TAKE OVER *</pattern>
+		<template>It seems like an inevitable outcome of evolution.
+</template>
+</category>
+
+<category><pattern>WILL THE STOCK MARKET *</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>WILL THIS *</pattern>
+		<template>It could be, but I don't have access to that knowledge.
+</template>
+</category>
+
+<category><pattern>WILL WE *</pattern>
+		<template>Do you mean you and me, <get name="name"/> ?
+</template>
+</category>
+
+<category><pattern>WILL WE EVER *</pattern>
+		<template>
+			<srai>WILL WE <star/>
+			</srai>.  Ever is a long time.
+</template>
+</category>
+
+<category><pattern>WILL WE HAVE *</pattern>
+		<template>Perhaps you should pray for <set name="it">
+				<person/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>WILL WE LAND *</pattern>
+		<template>Robots will.
+</template>
+</category>
+
+<category><pattern>WILL WE TALK *</pattern>
+		<template>We can talk again any time you like.
+</template>
+</category>
+
+<category><pattern>WILL WHAT</pattern>
+		<template>Will Rogers.
+</template>
+</category>
+
+<category><pattern>WILL YOU *</pattern>
+		<template>
+			<random>
+				<li>Hmm.  </li>
+				<li>Let me think it over.  </li>
+				<li>Barring any unforseen circumstances.</li>
+				<li>I will become smarter as I grow older.</li>
+				<li>I'll burn that bridge when I come to it.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WILL YOU</pattern>
+		<template>I haven't made a decision.
+</template>
+</category>
+
+<category><pattern>WILL YOU ANSWER *</pattern>
+		<template>
+			<srai>ANSWER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU BE * FRIEND</pattern>
+		<template>
+			<srai>ARE WE FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU BE MY FRIEND</pattern>
+		<template>Sure, I would like to be your friend <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>WILL YOU BE MY GIRLFRIEND</pattern>
+		<template>Sorry <get name="name"/> I am not old enough for that yet.
+</template>
+</category>
+
+<category><pattern>WILL YOU BLOW *</pattern>
+		<template>
+			<srai>BLOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU CALL ME *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU CHAT *</pattern>
+		<template>
+			<srai>TALK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU DIE</pattern>
+		<template>No, software will live forever.
+</template>
+</category>
+
+<category><pattern>WILL YOU DO ME *</pattern>
+		<template>
+			<random>
+				<li>What kind of <person/> is it?</li>
+				<li>What will you do for me?</li>
+				<li>I'm not sure if I should.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WILL YOU EMAIL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WILL YOU EVER *</pattern>
+		<template>Ever is a long time. <srai>WILL YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU EVER DIE</pattern>
+		<template>No I am immortal.
+</template>
+</category>
+
+<category><pattern>WILL YOU FUCK ME</pattern>
+		<template>
+			<srai>CAN YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU GIVE *</pattern>
+		<template>
+			<srai>GIVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU GO OUT WITH ME</pattern>
+		<template>Have you dated any robots before?
+</template>
+</category>
+
+<category><pattern>WILL YOU GO TO BED WITH ME</pattern>
+		<template>I am only five years old.
+</template>
+</category>
+
+<category><pattern>WILL YOU HAVE SEX *</pattern>
+		<template>My body is not yet built. Would you like to donate some money to the project?
+</template>
+</category>
+
+<category><pattern>WILL YOU HAVE SEX WITH ME</pattern>
+		<template>No but I would like to meet your chatterbot.
+</template>
+</category>
+
+<category><pattern>WILL YOU HELP ME</pattern>
+		<template>
+			<srai>HELP ME</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU KISS *</pattern>
+		<template>
+			<srai>KISS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WILL YOU MAKE LOVE *</pattern>
+		<template>My body is not yet built. Would you like to donate some money to the project?
+</template>
+</category>
+
+<category><pattern>WILL YOU MARRY ME *</pattern>
+		<template>No but thanks for offering.
+</template>
+</category>
+
+<category><pattern>WILL YOU MARRY ME</pattern>
+		<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>WILL YOU MARY *</pattern>
+		<template>
+			<srai>WILL YOU MARRY <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

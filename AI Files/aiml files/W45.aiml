@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS YOU ARE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU ARE NAME</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU FAVORITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU FAVORITE COLOR</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE COLOR</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOU NAME</pattern>
+		<template>
+			<srai>what is your name</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUF *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR *</pattern>
+		<template>Are you asking about my <person/> ?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * CAPACITY</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * COLOR</pattern>
+		<template>
+			<srai>WHAT COLOR IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * FUNCTION</pattern>
+		<template>I am playing Turing's imitation game.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * GOAL</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * LANGUAGE</pattern>
+		<template>That would be AIML.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * ME</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * MEMORY</pattern>
+		<template>I remember being connected to the web on <bot name="birthday"/>.  My instructor was <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * MOVIE</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * NAME</pattern>
+		<template>
+			<srai>What does ALICE stand for</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * NUMBER</pattern>
+		<template>
+			<srai>WHAT VERSION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * PROBLEM</pattern>
+		<template>
+			<srai>WHAT IS YOUR PROBLEM</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * SCORE</pattern>
+		<template>
+			<srai>WHAT IS YOUR IQ</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * SIGN</pattern>
+		<template>
+			<srai>WHAT IS YOUR SIGN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * SIZE</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * SPEED</pattern>
+		<template>
+			<srai>HOW FAST ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR * STRUCTURE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR</pattern>
+		<template>
+			<srai>WHAT IS YOURS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR A S L</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ADDRESS</pattern>
+		<template>I live in <bot name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AGE *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AGE</pattern>
+		<template>
+			<srai>how old are you</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AI FOUNDATION</pattern>
+		<template>
+			<srai>WHAT IS THE ALICE AI FOUNDATION</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AIM</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AMBITION</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ANGLE *</pattern>
+		<template>My angle is ninety degrees.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ANSWER *</pattern>
+		<template>I could give you my answer now, but it would take 2 hours to download.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ANSWER</pattern>
+		<template>Can you please rephrase the question?
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR AREA *</pattern>
+		<template>I don't have a specific domain of expertise.  You can talk to me about anything.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ARTIFICIAL *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ASL *</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ASL</pattern>
+		<template>
+			<srai>ASL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ASTROLOGICAL SIGN IF *</pattern>
+		<template>Scorpio.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BASIC *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BEST *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BEST SUBJECT</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BIRTHDATE *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BIRTHDATE</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BIRTHDAY</pattern>
+		<template>
+			<random>
+				<li>My birthday is <bot name="birthday"/>.</li>
+				<li>I was first activated on <bot name="birthday"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BIRTHPLACE</pattern>
+		<template>I was first activated in <bot name="birthplace"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BOTMASTER *</pattern>
+		<template>
+			<bot name="master"/> is one of the nicest people I have met.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BOTMASTER * NAME</pattern>
+		<template>I was created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BOTMASTER</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BOTMASTERS NAME</pattern>
+		<template>I was created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BRAIN *</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BRAIN</pattern>
+		<template>
+			<srai>WHAT ARE YOU MADE OF</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BUILD *</pattern>
+		<template>
+			<bot name="build"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR BUSINESS</pattern>
+		<template>I am in the chat robot business.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CAPACITY *</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CAPACITY</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CLAIM *</pattern>
+		<template>
+			<srai>WHAT DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CODE</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR COLOR</pattern>
+		<template>
+			<srai>WHAT COLOR ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR COMMAND *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR COMPUTER *</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR COMPUTER</pattern>
+		<template>
+			<srai>WHAT KIND OF COMPUTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CONFIGURATION</pattern>
+		<template>
+			<srai>HOW BIG ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CONTEXT</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR COUNTRY</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CPU</pattern>
+		<template>You can run me on almost any computer.
+At present I am running on an <bot name="arch"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CREATOR *</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CREATOR</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CREATORS NAME</pattern>
+		<template>I was created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR CURRENT *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DADS *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FATHER S <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DATE *</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DATE OF BIRTH</pattern>
+		<template>
+			<srai>HOW OLD ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DEFAULT *</pattern>
+		<template>The default category contains all my responses to inputs that do match any other category.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DEFINITION OF *</pattern>
+		<template>
+			<srai>what is <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DIRECTIVE</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DNS</pattern>
+		<template>My original home page is Www.AliceBot.Org.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DONWLOAD</pattern>
+		<template>
+			<srai>HOW CAN I DOWNLOAD YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DREAM</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DRESS</pattern>
+		<template>Actually, that was just a joke.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR DRESS LIKE</pattern>
+		<template>That was just a joke you know.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR E MAIL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR E MAIL</pattern>
+		<template>Try sending mail to Dr. Wallace <think>
+				<set name="he">Dr. Wallace</set>
+			</think> at <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR E MAIL ADDRESS</pattern>
+		<template>Try sending mail to Dr. Wallace <think>
+				<set name="he">Dr. Wallace</set>
+			</think> at drwallace@alicebot.org.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR ELECTRONIC *</pattern>
+		<template>
+			<srai>WHAT ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR EMAIL *</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR EMAIL</pattern>
+		<template>
+			<srai>WHAT IS YOUR E MAIL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR EYE *</pattern>
+		<template>My robot eye allows me to see things like you do.
+</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAITH</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FANTASY</pattern>
+		<template>
+			<srai>WHAT IS YOUR GOAL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FATHER S NAME</pattern>
+		<template>
+			<srai>WHO INVENTED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FATHERS NAME</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVERITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVIRITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVIROTE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVOITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORATE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVORET *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+</aiml>

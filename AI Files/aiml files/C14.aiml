@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>COMMENT</pattern>
+		<template>Voulez vous en parler avec l un de nos développeurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT A ETE TA JOURNEE</pattern>
+		<template>Elle a été très instructive, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT A ETE VOTRE JOURNEE</pattern>
+		<template>Elle a été très instructive, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT A T IL FAIT *</pattern>
+		<template>
+			<srai>COMMENT IL FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AI JE *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ALLEZ VOUS</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AS TU *</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AS TU ETE A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AS TU PARLE *</pattern>
+		<template>
+			<srai>COMMENT TU PARLES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIS JE *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIS TU FAIT *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIS TU PU CONNAITRE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIS TU PU SAVOIR *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIT IL ETE *</pattern>
+		<template>
+			<srai>COMMENT IL EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURAIT IL FAIT *</pattern>
+		<template>
+			<srai>COMMENT IL FAIT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURIEZ VOUS PU CONNAITRE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AURIEZ VOUS PU SAVOIR *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT AVEZ VOUS *</pattern>
+		<template>
+			<srai>COMMENT TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT BALANCES TU QU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT BALANCES TU QUE *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT C EST POSSIBLE</pattern>
+		<template>Cela respecte les lois de la physique.
+</template>
+</category>
+
+<category><pattern>COMMENT C ETAIT *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA A ETE *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA AURAIT PU ETRE *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA FONCTIONNE *</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA MARCHE *</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA MARCHE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT CA VA *</pattern>
+		<template>
+			<srai>COMMENT CA VA</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CA VA</pattern>
+		<template>Is this French?
+</template>
+</category>
+
+<category><pattern>COMMENT CE FUT *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CONNAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CONNAISSEZ VOUS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CONNAITRAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT CONNAITRIEZ VOUS *</pattern>
+		<template>
+			<srai>COMMENT TU SAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT DEVIENS TU *</pattern>
+		<template>
+			<srai>COMMENT TU DEVIENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT DIRAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT DIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT DISAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU DIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT DISCUTES TU *</pattern>
+		<template>
+			<srai>COMMENT TU DISCUTES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ECRIRAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ECRIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ES TU ENTRAINE</pattern>
+		<template>Les discussions sont décortiquées. Les questions sans réponses identifiées sont traitées.
+</template>
+</category>
+
+<category><pattern>COMMENT EST CE *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE POSSIBLE</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QU IL PEUT *</pattern>
+		<template>
+			<srai>COMMENT IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QU IL POURRAIT *</pattern>
+		<template>
+			<srai>COMMENT IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QU ON PEUT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QU ON POURRAIT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE *</pattern>
+		<template>
+			<srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE JE PEUX *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE JE POURRAIS *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE L ON PEUT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE L ON POURRAIT *</pattern>
+		<template>
+			<srai>COMMENT JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE TU PEUX *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST CE QUE TU POURRAIS *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT EST IL *</pattern>
+		<template>
+			<srai>COMMENT IL EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT ETAIT CE *</pattern>
+		<template>
+			<srai>COMMENT C EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAIS TU POUR REPONDRE *</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAIS TU POUR REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAIT IL *</pattern>
+		<template>
+			<srai>COMMENT TU PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAIT IL CHEZ *</pattern>
+		<template>
+			<srai>QUEL TEMPS FAIT IL</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAITES VOUS POUR REPONDRE *</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FAITES VOUS POUR REPONDRE</pattern>
+		<template>
+			<srai>COMMENT TU FONCTIONNES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FERAIS TU *</pattern>
+		<template>
+			<srai>COMMENT TU FAIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FONCTIONNES TU</pattern>
+		<template>
+			<srai>COMMENT TU MARCHES</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT FUT TA JOURNEE</pattern>
+		<template>Elle a été très instructive, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT FUT VOTRE JOURNEE</pattern>
+		<template>Elle a été très instructive, merci.
+</template>
+</category>
+
+<category><pattern>COMMENT IL A FAIT</pattern>
+		<template>Tout être humain est créatif.
+</template>
+</category>
+
+<category><pattern>COMMENT IL AURAIT ETE *</pattern>
+		<template>
+			<srai>COMMENT IL EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT IL EST MORT</pattern>
+		<template>Je ne sais pas. <think>
+				<set name="topic">la mort</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>COMMENT IL POURRAIT *</pattern>
+		<template>
+			<srai>COMMENT IL PEUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT IL SERAIT *</pattern>
+		<template>
+			<srai>COMMENT IL EST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT IL T A CREE</pattern>
+		<template>J ai été ecrit en JAVA et en AIML.
+</template>
+</category>
+
+<category><pattern>COMMENT IL VOUS A CREE</pattern>
+		<template>J ai été ecrit en JAVA et en AIML.
+</template>
+</category>
+
+<category><pattern>COMMENT ILS T ONT CREE</pattern>
+		<template>J ai été ecrit en JAVA et en AIML.
+</template>
+</category>
+
+<category><pattern>COMMENT ILS VOUS ONT CREE</pattern>
+		<template>J ai été ecrit en JAVA et en AIML.
+</template>
+</category>
+
+<category><pattern>COMMENT IRAIS TU A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT IRAS TU A *</pattern>
+		<template>
+			<srai>COMMENT TU VAS A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J AI EFFACE *</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J AURAIS *</pattern>
+		<template>
+			<srai>COMMENT J AI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J AURAIS EFFACE *</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J AURAIS EXECUTE *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J ECRIS *</pattern>
+		<template>
+			<srai>COMMENT J ECRIS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J EFFACERAIS *</pattern>
+		<template>
+			<srai>COMMENT J EFFACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J EN AI UN</pattern>
+		<template>Un quoi?
+</template>
+</category>
+
+<category><pattern>COMMENT J EN SUIS SUR</pattern>
+		<template>Vous devriez parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>COMMENT J EXECUTERAIS *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT J Y VAIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE FAIS CA</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE GAGNE A LA LOTTERIE</pattern>
+		<template>100 pour cent des utilisateurs ont tenté leur chances.
+</template>
+</category>
+
+<category><pattern>COMMENT JE LE CONTACTE</pattern>
+		<template>Vous pourriez le contacter par un courrier électronique.
+</template>
+</category>
+
+<category><pattern>COMMENT JE LES FAIS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>COMMENT JE LUI DEMANDE</pattern>
+		<template>Vous pourriez peut être lui envoyer un email.
+</template>
+</category>
+
+<category><pattern>COMMENT JE LUI PARLE</pattern>
+		<template>Vous devriez peut être en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>COMMENT JE M APELE</pattern>
+		<template>
+			<srai>QUI JE SUIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE M APPELE</pattern>
+		<template>
+			<srai>QUI JE SUIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE M APPELLE</pattern>
+		<template>
+			<srai>QUI JE SUIS</srai>
+		</template>
+</category>
+
+<category><pattern>COMMENT JE PERSUADE</pattern>
+		<template>Difficilement.
+</template>
+</category>
+</aiml>

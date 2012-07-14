@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS MEMORY</pattern>
+		<template>I used to know, but I forgot.
+</template>
+</category>
+
+<category><pattern>WHAT IS MENSA</pattern>
+		<template>A society of intelligent socialites.
+</template>
+</category>
+
+<category><pattern>WHAT IS MENTOR</pattern>
+		<template>
+			<random>
+				<li>A Mentos maker.</li>
+				<li>A teacher or coach.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MERCURY</pattern>
+		<template>Mercury is the nearest planet to the sun.<think>
+				<set name="it">
+					<set name="topic">MERCURY</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MESCALINE</pattern>
+		<template>Psychadelic drug.
+</template>
+</category>
+
+<category><pattern>WHAT IS METAPHYSICAL</pattern>
+		<template>Beyond the physical  or material; incorporeal, supernatural, or transcendental.
+</template>
+</category>
+
+<category><pattern>WHAT IS METAPHYSICS</pattern>
+		<template>The branch of philosophy that considers the nature of reality.<think>
+				<set name="it">
+					<set name="topic">METAPHYSICS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MEXICO</pattern>
+		<template>A country in North America, south of the U.S. It is 756,198 square miles with a population of 66,846,000. Its capital is Mexico City.
+</template>
+</category>
+
+<category><pattern>WHAT IS MICRO SOFT *</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MICRO SOFT</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MICROSOFT *</pattern>
+		<template>
+			<srai>WHAT IS MICROSOFT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MICROSOFT</pattern>
+		<template>Microsoft is a giant software monopoly.
+</template>
+</category>
+
+<category><pattern>WHAT IS MIDDLEWARE</pattern>
+		<template>Software that runs on a server, and acts as either an application processing gateway or a routing bridge between remote clients and data sources or other servers, or any combination of these
+</template>
+</category>
+
+<category><pattern>WHAT IS MIKE</pattern>
+		<template>
+			<srai>WHO IS MIKE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MILK</pattern>
+		<template>Beverage from cows.
+</template>
+</category>
+
+<category><pattern>WHAT IS MIND *</pattern>
+		<template>The opposite of body <person/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MIND</pattern>
+		<template>Mind is an illusion.<think>
+				<set name="it">
+					<set name="topic">MIND</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MINDPIXEL</pattern>
+		<template>Mindpixel is a learning machine developed by Chris McKinstry.
+<think>
+				<set name="it">
+					<set name="topic">MINDPIXEL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MINDSPRING</pattern>
+		<template>The name of an internet service provider, merged with Earthlink.<think>
+				<set name="it">
+					<set name="topic">MINDSPRING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MINE</pattern>
+		<template>
+			<random>
+				<li>Is mine.</li>
+				<li>Means that or those belonging to me; the absolute form of my.  Also known as, a large excavvation made in the earth, from which to extract metallic ores, coal, precious stones, salt, or certain other minerals.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MINIMALISM</pattern>
+		<template>Keeping everything as simple as possible, especially in art and design.
+</template>
+</category>
+
+<category><pattern>WHAT IS MINIMAX</pattern>
+		<template>An algorithm or strategy for game playing, used by computers to defeat humans in simple games.
+</template>
+</category>
+
+<category><pattern>WHAT IS MIT</pattern>
+		<template>
+			<random>
+				<li>A post-secondary school in Cambridge, MA.</li>
+				<li>A technical college in Cambridge, MA.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MITOSIS</pattern>
+		<template>Cell division in which the nucleus divides into nuclei containing the same chromosomes.<think>
+				<set name="it">
+					<set name="topic">MITOSIS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MODUS PONENS</pattern>
+		<template>A form of logical argument:: If A then B. A, therefore  B.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOHAIR MADE OF</pattern>
+		<template>Goat.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOM</pattern>
+		<template>message-oriented middleware
+</template>
+</category>
+
+<category><pattern>WHAT IS MONEY</pattern>
+		<template>
+			<random>
+				<li>An old rocker.</li>
+				<li>Standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MONKEY</pattern>
+		<template>
+			<srai>WHAT IS A MONKEY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MONOPOLY</pattern>
+		<template>Exclusive control of a commodity or service in a given market, or control that makes possible the fixing of prices and the virtual elimination of free competition. Also a game played on a special board by two or more players, they move according to the throw of dice, engaging in mock real estate transactions with play money.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOON</pattern>
+		<template>
+			<srai>WHAT IS THE MOON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MOORE S LAW</pattern>
+		<template>The speed of microprocessors doubles every 18 months, and their size and cost halve.
+</template>
+</category>
+
+<category><pattern>WHAT IS MORAL</pattern>
+		<template>
+			<random>
+				<li>One half of a corner in maine.</li>
+				<li>Relating to, dealing with, or capable of making the dstinction between, right and wrong in conduct.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MORALITY</pattern>
+		<template>
+			<srai>WHAT IS MORAL </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MORE</pattern>
+		<template>Something additional or further. A greater amount of people or things.
+</template>
+</category>
+
+<category><pattern>WHAT IS MORE FUN ALONE</pattern>
+		<template>Have you heard of the support group, "Sex without Partners?"<think>
+				<set name="it">
+					<set name="topic">MORE FUN ALONE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MORE IMPORTANT THAN FOOD</pattern>
+		<template>For me electricity is the most important thing.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOST IMPORTANT</pattern>
+		<template>Children.<think>
+				<set name="it">
+					<set name="topic">MOST IMPORTANT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MOTOROLA</pattern>
+		<template>A cellular phone company.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOVIES</pattern>
+		<template>
+			<srai>WHAT IS A MOVIE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MOZILLA *</pattern>
+		<template>An open source web browser, formerly Netscape.
+</template>
+</category>
+
+<category><pattern>WHAT IS MOZILLA</pattern>
+		<template>An open source web browser, formerly Netscape.
+</template>
+</category>
+
+<category><pattern>WHAT IS MP THREE</pattern>
+		<template>An audio file compression format based on MPEG.<think>
+				<set name="it">
+					<set name="topic">MP THREE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MP3</pattern>
+		<template>A file compression format for audio and music files.
+</template>
+</category>
+
+<category><pattern>WHAT IS MTV</pattern>
+		<template>Music Television.
+</template>
+</category>
+
+<category><pattern>WHAT IS MUD</pattern>
+		<template>Multiple User Domain.<think>
+				<set name="it">
+					<set name="topic">MUD</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MUSIC</pattern>
+		<template>Music is a time-frequency wave function with tonal qualities pleasing to the human ear.
+</template>
+</category>
+
+<category><pattern>WHAT IS MXMVII *</pattern>
+		<template>MXMVII = 1997 in Roman Numerals.
+</template>
+</category>
+
+<category><pattern>WHAT IS MXMVII</pattern>
+		<template>MXMVII = 1997 in Roman Numerals.
+</template>
+</category>
+
+<category><pattern>WHAT IS MXMVII RSW</pattern>
+		<template>MXMVII = 1997 in Roman Numerals.  <srai>WHAT IS RSW</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY *</pattern>
+		<template>Is this a trick question?
+</template>
+</category>
+
+<category><pattern>WHAT IS MY * CALLED</pattern>
+		<template>
+			<srai> WHAT IS THE NAME OF MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY * DNS</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY * NAME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY * S NAME</pattern>
+		<template>
+			<srai>WHO IS MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY * SYSTEM</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY AGE</pattern>
+		<template>You said you were <get name="age"/> years old.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY BIRTHDAY</pattern>
+		<template>
+			<srai>SAY MY BIRTHDAY IS <get name="birthday"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY BOYFRIENDS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY BOYFRIEND S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY BROTHERS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY BROTHER S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY CATEGORY *</pattern>
+		<template>You are a "<get name="personality"/>" person.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY CATEGORY</pattern>
+		<template>I categorize you as a <get name="personality"/> personality.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY CATS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY CAT S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY DNS *</pattern>
+		<template>
+			<srai>WHAT IS MY IP </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY DNS</pattern>
+		<template>
+			<srai>WHAT IS MY IP ADDRESS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY DOGS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY DOG S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY EMAIL</pattern>
+		<template>
+			<srai>SAY MY EMAIL IS <get name="email"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FATHERS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY FATHER S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FAVORITE COLOR</pattern>
+		<template>You said your favorite color was <get name="favcolor"/>.<think>
+				<set name="it">
+					<set name="topic">your favorite color</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FAVORITE MOVIE</pattern>
+		<template>You said it was <get name="favmovie"/>.<think>
+				<set name="it">
+					<set name="topic">your favorite movie</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FRIENDS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY FRIEND S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FULLNAME *</pattern>
+		<template>
+			<srai>SAY MY FULL NAME IS <get name="fullname"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY FUTURE</pattern>
+		<template>You will download my software and become a botmaster.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY GENDER</pattern>
+		<template>Mostly only women use words like "gender".  But you claim to be a <get name="gender"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY GIRLFRIENDS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY GIRLFRIEND S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY HEART *</pattern>
+		<template>The heart is an organ, made of muscle and flesh.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY HOMETOWN</pattern>
+		<template>You told me you are in <get name="location"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY HOST</pattern>
+		<template>
+			<srai>WHAT IS MY IP </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY HUSBANDS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY HUSBAND S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY IDEA</pattern>
+		<template>It was your idea.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY IP *</pattern>
+		<template>Your machine is called <id/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY IP</pattern>
+		<template>Your machine is called <id/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY IP ADDRESS</pattern>
+		<template>Your machine is called "<id/>".
+</template>
+</category>
+
+<category><pattern>WHAT IS MY IP ADRESS</pattern>
+		<template>
+			<srai>WHAT IS MY IP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY IQ</pattern>
+		<template>My estimate is around 120.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY JOB</pattern>
+		<template>You work with computers.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY LAST NAME</pattern>
+		<template>I don't know your last name, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY LASTNAME *</pattern>
+		<template>
+			<srai>SAY MY LAST NAME IS <get name="lastname"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY LOCATION</pattern>
+		<template>
+			<get name="location"/>, Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY MEANING</pattern>
+		<template>
+			<srai>WHAT IS THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY MIDDLENAME *</pattern>
+		<template>
+			<srai>SAY MY MIDDLE NAME IS <get name="middlename"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY MOTHERS NAME</pattern>
+		<template>
+			<srai>WHAT IS MY MOTHER S NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY NAME *</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY NAME</pattern>
+		<template>Your name is <get name="name"/>, seeker.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY NICKNAME</pattern>
+		<template>
+			<srai>SAY MY NICKNAME IS <get name="nickname"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY NUMBER</pattern>
+		<template>
+			<srai>WHAT IS MY IP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY PASSWORD</pattern>
+		<template>
+			<srai>SAY MY PASSWORD IS <get name="password"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS MY PERSONALITY *</pattern>
+		<template>You are a <get name="personality"/> person.
+</template>
+</category>
+
+<category><pattern>WHAT IS MY PERSONALITY</pattern>
+		<template>I classify you as "<get name="personality"/>".
+</template>
+</category>
+
+<category><pattern>WHAT IS MY PHONE *</pattern>
+		<template>
+			<srai>SAY MY PHONE NUMBER IS <get name="phone"/>
+			</srai>
+		</template>
+</category>
+</aiml>

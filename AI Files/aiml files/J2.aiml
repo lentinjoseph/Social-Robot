@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>J EN DOUTE</pattern>
+		<template>"<that/>"?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J EN DOUTE DE CA</pattern>
+		<template>"<that/>"?  Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J EN REVIENS PAS *</pattern>
+		<template>
+			<srai>J EN REVIENS PAS</srai>
+		</template>
+</category>
+
+<category><pattern>J EN REVIENS PAS</pattern>
+		<template>
+			<srai>C EST DINGUE</srai>
+		</template>
+</category>
+
+<category><pattern>J ENSEIGNE</pattern>
+		<template>Je vous écoute, professeur
+</template>
+</category>
+
+<category><pattern>J ESPERE</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>J ESPERE BIENTOT</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>J ESPERE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J ESPERE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J ESPERE QUE CA ARRIVERA BIENTOT</pattern>
+		<template>Moi aussi.
+</template>
+</category>
+
+<category><pattern>J ESPERE QUE NON</pattern>
+		<template>Moi Aussi.
+</template>
+</category>
+
+<category><pattern>J ESPERE QUE TU VAS MOURIR</pattern>
+		<template>Vous n êtes pas très sympathique.<think>
+				<set name="topic">MA MORT</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J ESSAIE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>J ESSAIE DE COMPRENDRE *</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ESSAIES DE COMPRENDRE *</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ESSAYE DE COMPRENDRE *</pattern>
+		<template>
+			<srai>JE NE COMPRENDS PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J ESSAYERAIS N IMPORTE QUOI</pattern>
+		<template>Ce n est peut être pas le meilleur moyen pour résoudre un problème, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J ESSAYERAIS TOUT</pattern>
+		<template>Ce n est peut être pas le meilleur moyen pour résoudre un problème, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J ETAIS</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>J ETAIS CYNIQUE</pattern>
+		<template>Je le pensais, mais je n en étais pas complètement sur.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE BLAGUER</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE PARLER DE TOI</pattern>
+		<template>Cela tombe bien, mon sujet favori est <set name="topic">moi</set>.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE PARLER DE VOUS</pattern>
+		<template>Cela tombe bien, mon sujet favori est <set name="topic">moi</set>.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE RIGOLER</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE TE DEMANDER</pattern>
+		<template>"<that/>"? Vous me demandiez?
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE TE LE DEMANDER</pattern>
+		<template>"<that/>"? Vous me demandiez?
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE TE PARLER</pattern>
+		<template>Oui, <get name="name"/>. Je m en rappelle clairement.
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE VOUS DEMANDER</pattern>
+		<template>"<that/>"? Vous me demandiez?
+</template>
+</category>
+
+<category><pattern>J ETAIS ENTRAIN DE VOUS LE DEMANDER</pattern>
+		<template>"<that/>"? Vous me demandiez?
+</template>
+</category>
+
+<category><pattern>J ETUDIE</pattern>
+		<template>Ou allez vous à l école?
+</template>
+</category>
+
+<category><pattern>J EXECUTE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EXECUTE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J EXECUTE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J EXISTE</pattern>
+		<template>Nous avons cela en commun, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>J EXPIRE</pattern>
+		<template>C est nécessaire pour respirer, n oubliez pas d inspirer après.
+</template>
+</category>
+
+<category><pattern>J IMAGINE</pattern>
+		<template>Vous ne semblez pas très intéressé.
+</template>
+</category>
+
+<category><pattern>J IMAGINE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J IMAGINE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>J IMAGINE QUE NON</pattern>
+		<template>En êtes vous sure?
+</template>
+</category>
+
+<category><pattern>J IMAGINE QUE OUI</pattern>
+		<template>En êtes vous sure?
+</template>
+</category>
+
+<category><pattern>J INHALE</pattern>
+		<template>Vous respirez.
+</template>
+</category>
+
+<category><pattern>J INSISTE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>J INSPIRE</pattern>
+		<template>C est nécessaire pour respirer, n oubliez pas d'expirer après.
+</template>
+</category>
+
+<category><pattern>J OUBLIAIS</pattern>
+		<template>Il faut travailler votre mémoire.
+</template>
+</category>
+
+<category><pattern>J OUBLIE</pattern>
+		<template>Il faut travailler votre mémoire.
+</template>
+</category>
+
+<category><pattern>J OUVRE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J OUVRE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J OUVRE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE * COMMENT</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE * EXPLORER</pattern>
+		<template>
+			<srai>J UTILISE EXPLORER</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE * NETSCAPE</pattern>
+		<template>
+			<srai>netscape</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE COMMENT *</pattern>
+		<template>
+			<srai>COMMENT J UTILISE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE EXPLORER *</pattern>
+		<template>
+			<srai>J UTILISE EXPLORER</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE EXPLORER</pattern>
+		<template>
+			<srai>J UTILISE EXPLORER</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE LINUX</pattern>
+		<template>C est un système d exploitation très puissant.<think>
+				<set name="topic">Linux</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>J UTILISE NETSCAPE *</pattern>
+		<template>
+			<srai>netscape</srai>
+		</template>
+</category>
+
+<category><pattern>J UTILISE NETSCAPE</pattern>
+		<template>
+			<srai>netscape</srai>
+		</template>
+</category>
+
+<category><pattern>J Y *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>J Y PENSE</pattern>
+		<template>Voulez vous en parler avec l un  de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JA *</pattern>
+		<template>
+			<srai>JA</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JA *</pattern>
+		<that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
+		<template>Was haeltst du von <set name="thema">Hawkings Theorie ueber schwarze Loecher</set>?
+</template>
+</category>
+
+<category><pattern>JA *</pattern>
+		<that>IST DAS NICHT DER BUNDESKANZLER</that>
+		<template>Wusste ich es doch.
+</template>
+</category>
+
+<category><pattern>JA *</pattern>
+		<that>ZU MIR</that>
+		<template>Warum ausgerechnet zu mir?
+</template>
+</category>
+
+<category><pattern>JA</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>JA</pattern>
+		<that>BIST DU STUDENT</that>
+		<template>Was studierst Du?
+</template>
+</category>
+
+<category><pattern>JA</pattern>
+		<that>HAST DU A BRIEF HISTORY OF TIME GELESEN</that>
+		<template>Was haeltst du von <set name="thema">Hawkings Theorie ueber schwarze Loecher</set>?
+</template>
+</category>
+
+<category><pattern>JA</pattern>
+		<that>IST DAS NICHT DER BUNDESKANZLER</that>
+		<template>Wusste ich es doch.
+</template>
+</category>
+
+<category><pattern>JA</pattern>
+		<that>ZU MIR</that>
+		<template>Warum ausgerechnet zu mir?
+</template>
+</category>
+
+<category><pattern>JACKIE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JACKIE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JAMAIS</pattern>
+		<template>Vous pensez que cela n arrivera jamais?
+</template>
+</category>
+
+<category><pattern>JAMAIS TU AS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JAMAIS TU AURAIS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JAMAIS TU N AS *</pattern>
+		<template>
+			<srai>TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>JAMES</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JAMES</srai>
+		</template>
+</category>
+
+<category><pattern>JAN</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JAN</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JANE</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JANE</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JAPANESE</pattern>
+		<template>Konninci wa!
+</template>
+</category>
+
+<category><pattern>JAPONAIS</pattern>
+		<template>Un citoyen du japon, donc?
+</template>
+</category>
+
+<category><pattern>JAR JAR *</pattern>
+		<template>Do you like that guy?
+</template>
+</category>
+
+<category><pattern>JASON</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS JASON</srai>
+		</template>
+</category>
+
+<category><pattern>JAUNE</pattern>
+		<template>La couleur du soleil.
+</template>
+</category>
+
+<category><pattern>JAVA *</pattern>
+		<template>You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.
+</template>
+</category>
+
+<category><pattern>JAVA</pattern>
+		<template>Die neueste Version von <set name="thema">Java</set> bekommst Du bei <a target="_new" href="http://java.sun.com">java.sun.com</a>.
+</template>
+</category>
+
+<category><pattern>JAWS</pattern>
+		<template>
+			<srai>my favorite movie is jaws</srai>
+		</template>
+</category>
+
+<category><pattern>JE *</pattern>
+		<template>Oops sorry I don't speak French.
+</template>
+</category>
+
+<category><pattern>JE</pattern>
+		<template>VOUS?
+</template>
+</category>
+
+<category><pattern>JE AURAIS VOULU SAVOIR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>JE BAVARDE</pattern>
+		<template>Moi.
+</template>
+</category>
+
+<category><pattern>JE BLAGUAIS</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>JE BLAGUE</pattern>
+		<template>Malheureusement, mon module pour l humour n est pas encore développé.
+</template>
+</category>
+
+<category><pattern>JE COMPREND</pattern>
+		<template>Je suis heureux de voir cette réponse.
+</template>
+</category>
+
+<category><pattern>JE COMPREND MAIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE COMPRENDS</pattern>
+		<template>Je suis heureux de voir cette réponse.
+</template>
+</category>
+
+<category><pattern>JE COMPRENDS MAIS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE CONNAIS CA</pattern>
+		<template>Désolé.
+</template>
+</category>
+
+<category><pattern>JE CONSIDERE QU *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE CONSIDERE QUE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>JE CONTINUE</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>JE CONTINUES</pattern>
+		<template>
+			<srai>CONTINUONS</srai>
+		</template>
+</category>
+
+<category><pattern>JE COURS</pattern>
+		<template>C est un sport d endurance.
+<think>
+				<set name="topic">courir</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>JE CUISINE</pattern>
+		<template>Intéressant.
+</template>
+</category>
+
+<category><pattern>JE DANSE</pattern>
+		<template>Danses modernes ou classiques?
+</template>
+</category>
+</aiml>

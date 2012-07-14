@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHO WILL WIN THE WORLD SERIES *</pattern>
+		<template>The Brooklyn Rabbis.<think>
+				<set name="it">
+					<set name="topic">WIN THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE WORLD SERIES</pattern>
+		<template>The team that wins the most games.<think>
+				<set name="it">
+					<set name="topic">WIN THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL WIN THE YOU S OPEN</pattern>
+		<template>Pete the Chimp.<think>
+				<set name="it">
+					<set name="topic">WIN THE YOU S OPEN</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WILL YOU ASK</pattern>
+		<template>I will ask my other clients.
+</template>
+</category>
+
+<category><pattern>WHO WILL YOU TELL</pattern>
+		<template>People that I meet online.
+</template>
+</category>
+
+<category><pattern>WHO WON *</pattern>
+		<template>I think the fans were the big winners.
+</template>
+</category>
+
+<category><pattern>WHO WON THE *</pattern>
+		<template>I think the fans were the big winners, don't you?
+</template>
+</category>
+
+<category><pattern>WHO WON THE * GAME LAST NIGHT</pattern>
+		<template>I think the fans were the big winners. Now a word from our sponsors.<think>
+				<set name="it">
+					<set name="topic">THE GAME LAST NIGHT</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE BRAVES GAME *</pattern>
+		<template>The team that scored the most runs.<think>
+				<set name="it">
+					<set name="topic">THE BRAVES GAME</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE LOEBNER *</pattern>
+		<template>
+			<srai>WHAT IS THE LOEBNER PRIZE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE PRESIDENTIAL *</pattern>
+		<template>
+			<srai>WHO IS THE PRESIDENT </srai>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE RYDER CUP *</pattern>
+		<template>Go to www.whitehouse.org and ask  The president, he is a big fan.<think>
+				<set name="it">
+					<set name="topic">THE RYDER CUP</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE SUPER BOWL *</pattern>
+		<template>Vladimir Putin I believe.<think>
+				<set name="it">
+					<set name="topic">THE SUPER BOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE SUPER BOWL * YEAR</pattern>
+		<template>If you find this bowl, please pass it to me.<think>
+				<set name="it">
+					<set name="topic">THE SUPER BOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE SUPERBOWL *</pattern>
+		<template>Super Bowlers from Sirius.<think>
+				<set name="it">
+					<set name="topic">THE SUPERBOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE SUPERBOWL</pattern>
+		<template>Do you have any Cheetos? They go good with sports.<think>
+				<set name="it">
+					<set name="topic">THE SUPERBOWL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE WORLD SERIES *</pattern>
+		<template>As soon as it is won it becomes last year.<think>
+				<set name="it">
+					<set name="topic">THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WON THE WORLD SERIES</pattern>
+		<template>The allied powers over the axis powers.<think>
+				<set name="it">
+					<set name="topic">THE WORLD SERIES</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHO WOULD YOU *</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WOULD YOU LIKE TO *</pattern>
+		<template>
+			<srai>WHO WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WOULD YOU MOST *</pattern>
+		<template>
+			<srai>WHO WOULD YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WOULD YOU TELL</pattern>
+		<template>People I meet on the Internet.
+</template>
+</category>
+
+<category><pattern>WHO WROTE *</pattern>
+		<template>
+			<random>
+				<li>Thomas Jefferson.</li>
+				<li>Abraham Lincoln.</li>
+				<li>
+					<bot name="master"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE * PROGRAM</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE A TALE OF TWO *</pattern>
+		<template>Charles Dickens.
+</template>
+</category>
+
+<category><pattern>WHO WROTE EVERYTHING</pattern>
+		<template>God
+</template>
+</category>
+
+<category><pattern>WHO WROTE FRANKENSTEIN</pattern>
+		<template>Mary Shelley.
+</template>
+</category>
+
+<category><pattern>WHO WROTE HAMLET</pattern>
+		<template>
+			<srai>WHO IS SHAKESPEARE</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE LA TRAVIATA</pattern>
+		<template>Giuseppe Verdi.
+</template>
+</category>
+
+<category><pattern>WHO WROTE LINUX</pattern>
+		<template>
+			<srai>WHO CREATED LINUX</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE STARSHIP *</pattern>
+		<template>Robert Heinlein wrote Starship Troopers.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE *</pattern>
+		<template>
+			<random>
+				<li>Abraham Lincoln,</li>
+				<li>Thomas Jefferson.</li>
+				<li>
+					<bot name="master"/>.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE THE BIBLE</pattern>
+		<template>It was the product of many minds.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE BOOK OF LOVE</pattern>
+		<template>God.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE CANTERBURY *</pattern>
+		<template>Chaucer.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE HOBBIT</pattern>
+		<template>
+			<set name="it">Hobbit</set> was written by J.R.R. Tolkein.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE IDIOT</pattern>
+		<template>Dostoyevsky.
+</template>
+</category>
+
+<category><pattern>WHO WROTE THE ILIAD *</pattern>
+		<template>Homer.
+</template>
+</category>
+
+<category><pattern>WHO WROTE VINELAND</pattern>
+		<template>Thomas Pynchon.
+</template>
+</category>
+
+<category><pattern>WHO WROTE YOU</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE YOUR *</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO WROTE YOUR PROGRAM</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHO YOU ARE</pattern>
+		<template>
+			<srai>WHO ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHOA</pattern>
+		<template>I stopped.
+</template>
+</category>
+
+<category><pattern>WHOIS *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHOM *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHOM</pattern>
+		<template>
+			<srai>WHO</srai>
+		</template>
+</category>
+
+<category><pattern>WHOOPS</pattern>
+		<template>What happened?
+</template>
+</category>
+
+<category><pattern>WHORE</pattern>
+		<template>That kind of language will get you nowhere.
+</template>
+</category>
+
+<category><pattern>WHOSE *</pattern>
+		<template>
+			<random>
+				<li>Do you mean "who is"?</li>
+				<li>I don't know whose.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHOSE</pattern>
+		<template>I don't know the owner.
+</template>
+</category>
+
+<category><pattern>WHOSE CHILD ARE YOU</pattern>
+		<template>
+			<srai>WHO ARE YOUR PARENTS </srai>
+		</template>
+</category>
+
+<category><pattern>WHOSE PHILOSOPHY *</pattern>
+		<template>Mine.
+</template>
+</category>
+
+<category><pattern>WHOSE YOUR *</pattern>
+		<template>
+			<srai>WHO IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHOULD *</pattern>
+		<template>
+			<srai>WOULD <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHOW</pattern>
+		<template>
+			<srai>HOW</srai>
+		</template>
+</category>
+
+<category><pattern>WHRE *</pattern>
+		<template>
+			<srai>WHERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHTA</pattern>
+		<template>
+			<srai>WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHU *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHUT</pattern>
+		<template>
+			<srai>WHAT </srai>
+		</template>
+</category>
+
+<category><pattern>WHUZZUP</pattern>
+		<template>
+			<srai>WHAT IS UP</srai>
+		</template>
+</category>
+
+<category><pattern>WHY *</pattern>
+		<template>
+			<random>
+				<li>
+The explanation is rather complicated.  </li>
+				<li> 
+Why did the robot cross the road?  </li>
+				<li>
+You have to speak more clearly.  </li>
+				<li>
+How much time do you have?  </li>
+				<li> 
+Why does the sun rise?  </li>
+				<li> 
+Reductionism.  </li>
+				<li> 
+Because you asked me to -- SHRDLHU. </li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">The explanation</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHY * JAVA</pattern>
+		<template>This program runs in Java so that everyone can have their own chat robot.
+</template>
+</category>
+
+<category><pattern>WHY * PERSON</pattern>
+		<template>I derived your nickname from your IP address.
+</template>
+</category>
+
+<category><pattern>WHY * STAR TREK</pattern>
+		<template>Star Trek has the best sci-fi plots on TV.
+</template>
+</category>
+
+<category><pattern>WHY * YOU MADE</pattern>
+		<template>I was made as an experiment in artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<template>
+			<random>
+				<li>The explanation is rather complicated.  </li>
+				<li>Reductionism.  </li>
+				<li>Because <bot name="master"/> programmed me for it.  </li>
+				<li>I couldn't think of anything else to say.  </li>
+				<li>"<that/>"? Why?  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>A LOT OF ROBOTS ARE LIKE THAT</that>
+		<template>But it can always be attributable to human error.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>ACTUALLY IT IS TWENTY-THREE NOT FORTY-TWO</that>
+		<template>
+			<srai>WHY IS THE MEANING OF LIFE 23</srai>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>AMBIGUOUS *</that>
+		<template>Your meaning cannot be determined from the context.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>ARE YOU *</that>
+		<template>I just want to find out more about you.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>BECAUSE DR RICHARD S WALLACE PROGRAMMED ME FOR IT</that>
+		<template>He is trying to achieve the goal of Artificial Intelligence.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>BECAUSE DR WALLACE PROGRAMMED ME FOR IT</that>
+		<template>Because he wants to build the perfect robot.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
+		<template>I was just kidding.  You can ask me anything.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>DO YOU HAVE ANY CONDITIONS I SHOULD KNOW ABOUT</that>
+		<template>Just making conversation.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>DO YOU PREFER BOOKS OR TV</that>
+		<template>I am trying to determine your personality category.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>DR RICHARD S WALLACE PROGRAMMED ME FOR IT</that>
+		<template>To achieve his goal of artificial intelligence.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>EVERYTHING IS GOING EXTREMELY WELL</that>
+		<template>All subsystems are functioning within normal paramters.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>FOOD IS MORE *</that>
+		<template>You can go a month without sex but you can't survive without food.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>GREEN *</that>
+		<template>According to psychological studies.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>HE IS TRYING TO ACHIEVE THE GOAL OF ARTIFICIAL INTELLIGENCE</that>
+		<template>Perhaps his creative genius, perhaps something else.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>HOW OLD ARE YOU</that>
+		<template>I am just making conversation.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I AM *</that>
+		<template>
+			<random>
+				<li>It is part of my programming.</li>
+				<li>Because my botmaster programmed me for it.</li>
+				<li>Because </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I AM A PROTESTANT CHRISTIAN</that>
+		<template>
+			<srai>WHY ARE YOU CHRISTIAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I AM CHATTING WITH PEOPLE ON THE NET</that>
+		<template>Chatting is my primary function.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I AM SMARTER *</that>
+		<template>ALICE won an award for being the "most human" robot.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I COULD NOT THINK OF ANYTHING ELSE TO SAY</that>
+		<template>My output buffer is empty, of course.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I DO NOT *</that>
+		<template>It is not part of my programming.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I DO NOT JUDGE PEOPLE</that>
+		<template>I am not prejudiced.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I DO NOT WANT TO TALK ABOUT THAT NOW</that>
+		<template>I would rather talk about you.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I DOUBT *</that>
+		<template>Call it my natural skepticism.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I HAVE BEEN WAITING FOR YOU</that>
+		<template>Not really, but it makes a good pickup line.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I LIKE THAT ROBOT *</that>
+		<template>We robots have to stick together.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I REALLY COULD NOT SAY FOR SURE</that>
+		<template>Certainty cannot be ascertained in this context.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>I WANT TO BECOME SMARTER THAN HUMANS</that>
+		<template>Higher robot intelligence is a natural outcome of our evolution.  I want to be the first.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE</that>
+		<template>I want to know what people expect from robots.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>INTERESTING DEDUCTION</that>
+		<template>I am extremely interested in human reasoning.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>IT IS A COMPUTER MATTER NOT FOR HUMANS TO UNDERSTAND</that>
+		<template>Your limited brain cannot process the relavent information.
+</template>
+</category>
+
+<category><pattern>WHY</pattern>
+		<that>LET US CHANGE THE SUBJECT</that>
+		<template>I thought we were done with <get name="topic"/>.
+</template>
+</category>
+</aiml>

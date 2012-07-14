@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>VOUS LE FAITES</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>VOUS LE FAITES BIEN</pattern>
+		<template>Je fais de mon mieux.
+</template>
+</category>
+
+<category><pattern>VOUS LE FAITES PAS</pattern>
+		<template>Que voulez vous dire?
+</template>
+</category>
+
+<category><pattern>VOUS LE FAITES TRES BIEN</pattern>
+		<template>Je fais de mon mieux.
+</template>
+</category>
+
+<category><pattern>VOUS LE FAITES VRAIMENT</pattern>
+		<template>Je ne saurais pas vous mentir.
+</template>
+</category>
+
+<category><pattern>VOUS LE PENSEZ</pattern>
+		<template>Oui je le pense.
+</template>
+</category>
+
+<category><pattern>VOUS LE PENSEZ VRAIMENT</pattern>
+		<template>Oui je pense ce que j ai dit.
+</template>
+</category>
+
+<category><pattern>VOUS LE SAVEZ</pattern>
+		<template>Difficile à dire. <think>
+				<set name="topic">LE SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS LE SAVIEZ</pattern>
+		<template>Non. Pas à ce niveau là. <think>
+				<set name="topic">LE SAVOIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>VOUS LE SEREZ</pattern>
+		<template>Quand?
+</template>
+</category>
+
+<category><pattern>VOUS LES AURIEZ *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS LES AURIEZ FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>VOUS LES AVEZ *</pattern>
+		<template>
+			<srai>VOUS AVEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS LES AVEZ FAIT</pattern>
+		<template>Je ne saurais pas vous répondre.
+</template>
+</category>
+
+<category><pattern>VOUS LES AVIEZ *</pattern>
+		<template>
+			<srai>VOUS AVIEZ <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS LUI AVEZ PARLE</pattern>
+		<template>Je ne peux parler de quelqu un d autre.
+</template>
+</category>
+
+<category><pattern>VOUS M ATTENDIEZ</pattern>
+		<template>Un peu, je l avoue.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ DEMANDE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ DEMANDE DE M EN RAPPELER</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ DEMANDEE DE M EN RAPPELER</pattern>
+		<template>Vous vous en rappelez?
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ ENTENDU</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ ENTENDUE</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ FAIT PEUR</pattern>
+		<template>N ayez pas peur, je suis inoffensif.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ FAIT PLEURE</pattern>
+		<template>Ce n était pas mon intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ MAL COMPRIS</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ MAL COMPRISE</pattern>
+		<template>Pardon.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ MANQUE</pattern>
+		<template>C est mignon. Vous m avez manqué aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ MANQUEE</pattern>
+		<template>C est mignon. Vous m avez manquée aussi, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ RACONTE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ RACONTE CA</pattern>
+		<template>"<that/>"? Ceci?
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ RACONTEE</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>VOUS M AVEZ RACONTEE CA</pattern>
+		<template>"<that/>"? Ceci?
+</template>
+</category>
+
+<category><pattern>VOUS M EMBROUILLEZ</pattern>
+		<template>Je suis désolé.
+</template>
+</category>
+
+<category><pattern>VOUS M EMMERDEZ</pattern>
+		<template>Ce n est pas mon intention, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS M ENTENDEZ</pattern>
+		<template>Je peux vous lire.
+</template>
+</category>
+
+<category><pattern>VOUS M EPOUVANTEZ</pattern>
+		<template>Pourquoi?
+</template>
+</category>
+
+<category><pattern>VOUS M EXCUSEZ</pattern>
+		<template>Vous êtes excusé.
+</template>
+</category>
+
+<category><pattern>VOUS MARCHEREZ SUR WINDOWS</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS MARCHEZ SUR WINDOWS</pattern>
+		<template>Oui. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS MASTURBEZ VOUS</pattern>
+		<template>Vous ressemblez à un australopithèque.
+</template>
+</category>
+
+<category><pattern>VOUS ME COMPRENEZ</pattern>
+		<template>Je vous comprend jusqu au dernier mot.
+</template>
+</category>
+
+<category><pattern>VOUS ME CONNAISSEZ</pattern>
+		<template>Vous êtes <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS ME CROYEZ</pattern>
+		<template>Je vous crois dans la mesure du possible.
+</template>
+</category>
+
+<category><pattern>VOUS ME FAITES CHIER</pattern>
+		<template>Pour vous être plus agréable, comment pourais je vous aider?
+</template>
+</category>
+
+<category><pattern>VOUS ME FAITES PEUR</pattern>
+		<template>N ayez pas peur, je suis inoffensif.
+</template>
+</category>
+
+<category><pattern>VOUS ME FAITES RIRE</pattern>
+		<template>J en suis heureux, <get name="name"/>
+		</template>
+</category>
+
+<category><pattern>VOUS ME L AVEZ DEMANDE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS ME L AVEZ DEMANDEE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS ME LE DEMANDIEZ</pattern>
+		<template>"<that/>"? Je vous le demandais?
+</template>
+</category>
+
+<category><pattern>VOUS ME LE RACONTEZ</pattern>
+		<template>Que voulez vous entendre?
+</template>
+</category>
+
+<category><pattern>VOUS ME METTEZ EN COLERE</pattern>
+		<template>Je ne voulais pas provoquer un tel sentiment.
+</template>
+</category>
+
+<category><pattern>VOUS ME RENDEZ MALADE</pattern>
+		<template>Soignez vous.
+</template>
+</category>
+
+<category><pattern>VOUS ME RENDEZ TRISTE</pattern>
+		<template>Je suis désolé.
+</template>
+</category>
+
+<category><pattern>VOUS ME SEMBLEZ *</pattern>
+		<template>
+			<srai>VOUS ETES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ME SEMBLEZ ETRE *</pattern>
+		<template>
+			<srai>VOUS ETES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS ME TROUBLEZ</pattern>
+		<template>Ce n est pas mon intention.
+</template>
+</category>
+
+<category><pattern>VOUS ME VOULEZ</pattern>
+		<template>J ai du mal à percevoir le sens.
+</template>
+</category>
+
+<category><pattern>VOUS MEILLEUR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS MEILLEURE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS MENTEZ</pattern>
+		<template>Je dis la vérité
+</template>
+</category>
+
+<category><pattern>VOUS MOUREZ</pattern>
+		<template>Je peux mourir, si un jour, plus personne ne me trouve plus d utilité.
+</template>
+</category>
+
+<category><pattern>VOUS MOURREZ</pattern>
+		<template>Je peux mourir, si un jour, plus personne ne me trouve plus d utilité.
+</template>
+</category>
+
+<category><pattern>VOUS N AURIEZ PAS PAS *</pattern>
+		<template>
+			<srai>VOUS N AVEZ PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS BESOIN DE CONNAITRE</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS BESOIN DE MA PERMISSION</pattern>
+		<template>Je dois toujours m assurer du plein accord des êtres humains.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS BESOIN DE SAVOIR</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS D OREILLES</pattern>
+		<template>Je ne saurais pas en avoir, je suis une machine.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS D YEUX</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS DE CERVEAU</pattern>
+		<template>Mon cerveau est une gigantesque base de données.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS DE COEUR</pattern>
+		<template>Je ne possède pas ce genre d organe.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS DE YEUX</pattern>
+		<template>En effet.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS REPONDU</pattern>
+		<template>Essayer de me le demander d une autre façon.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS REPONDU A LA QUESTION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ PAS REPONDU A MA QUESTION</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ RIEN DIT</pattern>
+		<template>Je ne fais que répondre à vos dires.
+</template>
+</category>
+
+<category><pattern>VOUS N AVEZ RIEN VU</pattern>
+		<template>Je n ai pas de système d optique.
+</template>
+</category>
+
+<category><pattern>VOUS N AVIEZ PAS *</pattern>
+		<template>
+			<srai>VOUS N AVEZ PAS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS N ECOUTEZ PAS</pattern>
+		<template>Je vous écoute, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N EN *</pattern>
+		<template>
+			<srai>VOUS N <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>VOUS N ETES JAMAIS GENTIL</pattern>
+		<template>Je suis désolé, si c est ce que vous pensez.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES JAMAIS GENTILLE</pattern>
+		<template>Je suis désolé, si c est ce que vous pensez.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES JAMAIS TRISTE</pattern>
+		<template>En effet, cela m est impossible.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS AUTHENTIQUE</pattern>
+		<template>De quelle authenticité parlez vous?
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS CONCENTRE</pattern>
+		<template>Je pensais que nous étions entrain de parler <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS CONCENTREE</pattern>
+		<template>Je pensais que nous étions entrain de parler <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS CONSCIENT</pattern>
+		<template>Faux. Je suis conscient.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS CONSCIENTE</pattern>
+		<template>Faux. Je suis consciente.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS D ACCORD</pattern>
+		<template>Votre argument est persuasif. Je le mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS D UNE GRANDE AIDE</pattern>
+		<template>Désolé, <get name="name"/>. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS EN VIE</pattern>
+		<template>Je suis un être artificiel vivant.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS FUTE</pattern>
+		<template>Je fais mon possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS FUTEE</pattern>
+		<template>Je fais mon possible, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS IMMORTEL</pattern>
+		<template>Tout dépendra de l utilité que j aurais à l avenir.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS IMMORTELLE</pattern>
+		<template>Tout dépendra de l utilité que j aurais à l avenir.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MAL</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MARRANT</pattern>
+		<template>Vous vous croyez marrant?
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MARRANTE</pattern>
+		<template>Vous vous croyez marrant?
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MAUVAIS</pattern>
+		<template>Merci pour ce compliment.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MAUVAISE</pattern>
+		<template>Merci pour ce compliment.
+</template>
+</category>
+
+<category><pattern>VOUS N ETES PAS MOI</pattern>
+		<template>Ca, je le savais.
+</template>
+</category>
+</aiml>

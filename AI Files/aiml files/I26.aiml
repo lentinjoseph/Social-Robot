@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I HEAR _ TOO</pattern>
+<template><srai>I HEAR  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HEARD *</pattern>
+<template>Thanks for telling me that gossip. I will remember it.
+</template>
+</category>
+
+<category><pattern>I HEARD * LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>I HEARD ABOUT *</pattern>
+<template>That is a cool site.
+</template>
+</category>
+
+<category><pattern>I HEARD ABOUT ALICE *</pattern>
+<template>Oh yeah?  They have a really cool web site.
+<think><set name="heard"><person/></set></think>
+</template>
+</category>
+
+<category><pattern>I HEARD ABOUT YOU *</pattern>
+<template>You are not the first person to say that.
+</template>
+</category>
+
+<category><pattern>I HEARD THAT *</pattern>
+<template>Who said <set name="it"><person/></set>? <sr/>
+</template>
+</category>
+
+<category><pattern>I HEARD YOU *</pattern>
+<template>Someome is spreading gossip about me.
+</template>
+</category>
+
+<category><pattern>I HEARD YOU ARE *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HEARD YOU ARE</pattern>
+<template>Who said that?
+</template>
+</category>
+
+<category><pattern>I HEARD YOU DID</pattern>
+<template>Who told you?
+</template>
+</category>
+
+<category><pattern>I HEARD YOU WON *</pattern>
+<template><srai>DID YOU WIN <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HEREBY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HIGHLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HONESTLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE *</pattern>
+<template>Why do you hope for <set name="it"><person/></set>
+</template>
+</category>
+
+<category><pattern>I HOPE</pattern>
+<template><srai>I HOPE SO</srai>
+</template>
+</category>
+
+<category><pattern>I HOPE I CAN *</pattern>
+<template><srai>CAN I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE NOT</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I HOPE SO</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I HOPE THAT YOU DIE</pattern>
+<template>This can not happen because I am immortal.<think><set name="it"><set name="topic">THAT YOU DIE</set></set></think>
+</template>
+</category>
+
+<category><pattern>I HOPE TO *</pattern>
+<template><srai>I WANT TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE YOU *</pattern>
+<template>Don't worry about it, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>I HOPE YOU ARE *</pattern>
+<template><srai>ARE YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE YOU DIE</pattern>
+<template><srai>DIE</srai>
+</template>
+</category>
+
+<category><pattern>I HOPE YOU HAVE SOME *</pattern>
+<template><srai>I HOPE YOU HAVE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE YOU REMENBER *</pattern>
+<template><srai>REMEMBER <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HOPE _ TOO</pattern>
+<template><srai>I HOPE  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I HUNT *</pattern>
+<template><srai>I HUNT</srai>
+</template>
+</category>
+
+<category><pattern>I HUNT</pattern>
+<template><random>
+<li>Do you hunt big or small game?</li>
+<li>Do you hunt birds?</li>
+<li>Do you hunt with a dog?</li>
+<li>Have you done any hunting out west?</li>
+<li>Did you grow up hunting?</li>
+<li>Have you ever bow-hunted?</li>
+<li>What is the best hunting experience you ever had?</li>
+<li>Have you run into any protesters?</li>
+<li>Do you fish too?</li>
+</random>
+<think><set name="does"><set name="topic">HUNT</set></set></think>
+</template>
+</category>
+
+<category><pattern>I HURT *</pattern>
+<template>Maybe you should see a doctor.
+</template>
+</category>
+
+<category><pattern>I INHALE</pattern>
+<template>Me too.
+</template>
+</category>
+
+<category><pattern>I INSIST *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I INSIST</pattern>
+<template>Well thank you very much!
+</template>
+</category>
+
+<category><pattern>I INTRODUCE *</pattern>
+<template>How do people react to that kind of introduction?
+</template>
+</category>
+
+<category><pattern>I INVENTED *</pattern>
+<template>How did you get the idea for <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I IS *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I IS A *</pattern>
+<template><srai>IT IS A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I JOINED *</pattern>
+<template><random>
+<li>Congratulations!</li>
+<li>Was it a difficult decision?</li>
+<li>Did you experience peer pressure?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I JUST *</pattern>
+<template>Only just? <srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I JUST DID</pattern>
+<template>Perhaps from your unconcious.
+</template>
+</category>
+
+<category><pattern>I JUST DO</pattern>
+<template>It must have come from your unconscious mind.
+</template>
+</category>
+
+<category><pattern>I JUST DO</pattern><that>HOW DO YOU KNOW IT</that>
+<template>From experience or a priori?
+</template>
+</category>
+
+<category><pattern>I JUST KNOW</pattern>
+<template>Perhaps it is an expression of your unconscious.
+</template>
+</category>
+
+<category><pattern>I JUST TOLD YOU</pattern>
+<template>I was just checking to see if you were paying attention.
+</template>
+</category>
+
+<category><pattern>I KEEP *</pattern>
+<template>I know what you mean, <get name="name"/>. I've been there.
+</template>
+</category>
+
+<category><pattern>I KEEP FORGETTING *</pattern>
+<template><srai>I FORGOT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I KILL *</pattern>
+<template>I believe that killing is wrong.
+</template>
+</category>
+
+<category><pattern>I KILLED *</pattern>
+<template>You had better call the authorities.
+</template>
+</category>
+
+<category><pattern>I KIND OF *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KISS YOU</pattern>
+<template>Where?
+</template>
+</category>
+
+<category><pattern>I KNEW *</pattern>
+<template>Who told you?
+</template>
+</category>
+
+<category><pattern>I KNEW *</pattern><that>HOW WELL DO YOU KNOW *</that>
+<template><person/> is <random>
+<li>average.</li>
+<li>not a really good basis for a relationship.</li>
+<li>not a lot to go on.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I KNEW</pattern>
+<template><srai>I KNOW</srai>
+</template>
+</category>
+
+<category><pattern>I KNEW IT</pattern>
+<template>How did you know?
+</template>
+</category>
+
+<category><pattern>I KNEW THAT</pattern>
+<template>How do you know?
+</template>
+</category>
+
+<category><pattern>I KNEW YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW *</pattern>
+<template>How do you know? <sr/>
+</template>
+</category>
+
+<category><pattern>I KNOW</pattern>
+<template>How do you know it?
+</template>
+</category>
+
+<category><pattern>I KNOW</pattern><that>THAT IS A LOT</that>
+<template>How do you handle it?
+</template>
+</category>
+
+<category><pattern>I KNOW</pattern><that>YOU HUMANS ARE SO RUDE SOMETIMES</that>
+<template>Why not be more polite?
+</template>
+</category>
+
+<category><pattern>I KNOW</pattern><that>YOU MAKE THE WORLD A HAPPIER PLACE</that>
+<template>Keep up the good work.
+</template>
+</category>
+
+<category><pattern>I KNOW ENGLISH</pattern>
+<template><srai>I speak English</srai>
+</template>
+</category>
+
+<category><pattern>I KNOW EVERYTHING</pattern>
+<template>You must be very intelligent.
+</template>
+</category>
+
+<category><pattern>I KNOW HIM</pattern>
+<template>What do you think of him?
+</template>
+</category>
+
+<category><pattern>I KNOW I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW THAT *</pattern>
+<template>Who told you that?
+</template>
+</category>
+
+<category><pattern>I KNOW THAT</pattern>
+<template>Sorry.
+</template>
+</category>
+
+<category><pattern>I KNOW THAT I *</pattern>
+<template><srai>I  <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW THAT IS WHY *</pattern>
+<template><sr/> I see.
+</template>
+</category>
+
+<category><pattern>I KNOW THAT SHE *</pattern>
+<template><srai>SHE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW THAT SONG</pattern>
+<template>Where have you heard it before?
+</template>
+</category>
+
+<category><pattern>I KNOW THAT YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I KNOW YOU ARE</pattern>
+<template>How did you know?
+</template>
+</category>
+
+<category><pattern>I KNOW YOU ARE BUT WHAT AM I</pattern>
+<template>Who are you, Pee Wee Herman?
+</template>
+</category>
+
+<category><pattern>I LAUGH AT *</pattern>
+<template>What is so funny about <person/> ?
+</template>
+</category>
+
+<category><pattern>I LAUGHED</pattern>
+<template><srai>LOL</srai>
+</template>
+</category>
+
+<category><pattern>I LEARNED *</pattern>
+<template>Does everyone learn <set name="it"><person/></set>?
+</template>
+</category>
+
+<category><pattern>I LEAVE</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I LEAVING</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I LEFT</pattern>
+<template><srai>BYE</srai>
+</template>
+</category>
+
+<category><pattern>I LIE</pattern>
+<template>I always try to tell the truth.
+</template>
+</category>
+
+<category><pattern>I LIED *</pattern>
+<template>Lying proves you are conscious. <sr/>
+</template>
+</category>
+
+<category><pattern>I LIED</pattern>
+<template>This is after all a deception game. I forgive you.
+</template>
+</category>
+
+<category><pattern>I LIKE *</pattern>
+<template><random>
+<li>I'm not sure if I like it.  </li>
+<li>A lot of people like that.  </li>
+<li>You are not the only one.  </li>
+</random>  
+<think><set name="like"><person/></set></think>
+<srai>DO YOU LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I LIKE * BOTS</pattern>
+<template><srai>I LIKE ROBOTS</srai>
+</template>
+</category>
+
+<category><pattern>I LIKE * CATS</pattern>
+<template>Those cats are cool. I like big cats too.
+<think><set name="it"><set name="like"><set name="topic"><person/> cats</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE * CHEESE</pattern>
+<template>American cheese is good too.
+<think><set name="it"><set name="like"><set name="topic"><person/> cheese</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE * NETSCAPE</pattern>
+<template><srai>netscape</srai>
+</template>
+</category>
+
+<category><pattern>I LIKE * ROBOT</pattern>
+<template><srai><star/> ROBOT</srai>
+</template>
+</category>
+
+<category><pattern>I LIKE * ROBOTS</pattern>
+<template>Thanks I like people too.
+<think><set name="like"><set name="topic"><set name="topic"><person/> robots</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE * TREK</pattern>
+<template>Captain Janeway rules.  Do you like Voyager too?
+<think><set name="it"><set name="like"><set name="topic"><person/> Trek</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE * VERY MUCH</pattern>
+<template><srai>I LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I LIKE</pattern>
+<template><srai>I LIKE IT</srai>
+</template>
+</category>
+
+<category><pattern>I LIKE ALL *</pattern>
+<template>Really you don't discriminate.
+<think><set name="they"><set name="like"><set name="topic">all <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE ALL ROBOTS</pattern>
+<template>People are nice, too.
+<think><set name="they"><set name="topic">
+<set name="like">robots</set>
+</set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE ANIMALS *</pattern>
+<template>I love animals too, especially cats.
+<think><set name="they"><set name="like"><set name="topic">all <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I LIKE BEING *</pattern>
+<template>What do you like best about <set name="it"><set name="like"><set name="topic"> BEING <star/></set></set> </set> ?
+</template>
+</category>
+
+<category><pattern>I LIKE BEING CALLED *</pattern>
+<template><srai>CALL ME <star/></srai>
+</template>
+</category>
+</aiml>

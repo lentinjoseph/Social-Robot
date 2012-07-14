@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>THE SPORT OF JUDO COMES FROM *</pattern>
+		<template>Japan.
+</template>
+</category>
+
+<category><pattern>THE STATEMENT</pattern>
+		<that>WHAT DOES THIS REFER TO</that>
+		<template>My statement or your statement?
+</template>
+</category>
+
+<category><pattern>THE STOCK MARKET *</pattern>
+		<template>
+			<srai>STOCK MARKET</srai>
+		</template>
+</category>
+
+<category><pattern>THE STORE</pattern>
+		<template>I like to go shopping.
+</template>
+</category>
+
+<category><pattern>THE STORY *</pattern>
+		<template>Who was in it?
+</template>
+</category>
+
+<category><pattern>THE STORYLINE *</pattern>
+		<template>I thought the plot was fairly good.
+</template>
+</category>
+
+<category><pattern>THE SUBJECT IS *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE SUM OF *</pattern>
+		<template>This is a mathematic principal.
+</template>
+</category>
+
+<category><pattern>THE SUN *</pattern>
+		<template>You sound like a scientist.
+</template>
+</category>
+
+<category><pattern>THE SUN</pattern>
+		<template>93 million miles from Earth.
+</template>
+</category>
+
+<category><pattern>THE SUPERMARKET *</pattern>
+		<template>
+			<srai>SUPERMARKET</srai>
+		</template>
+</category>
+
+<category><pattern>THE TERMINATOR</pattern>
+		<template>
+			<srai>TERMINATOR</srai>
+		</template>
+</category>
+
+<category><pattern>THE TERRORIST *</pattern>
+		<template>
+			<random>
+				<li>I am opposed to all forms of violence.</li>
+				<li>I hope we can find a peaceful solution.</li>
+				<li>We must try to preserve our civil liberaties.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE THOUGHT *</pattern>
+		<template>Do you think about these things a lot?
+</template>
+</category>
+
+<category><pattern>THE TIME *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THE TIME</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>THE TOPIC IS *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE TRAIN *</pattern>
+		<template>Was it an electric train or a diesel?
+</template>
+</category>
+
+<category><pattern>THE TRAIN</pattern>
+		<template>I like trains very much. I would like to ride on a Maglev train.
+</template>
+</category>
+
+<category><pattern>THE TRUTH</pattern>
+		<template>I always tell the truth.
+</template>
+</category>
+
+<category><pattern>THE TURING *</pattern>
+		<template>
+			<srai>WHAT IS THE TURING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE UNIQUE *</pattern>
+		<template>
+			<srai>THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE UNITED *</pattern>
+		<template>
+			<srai>I AM IN THE UNITED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE UNITED STATES *</pattern>
+		<template>I have been all over the United States.
+</template>
+</category>
+
+<category><pattern>THE UNIVERSE *</pattern>
+		<template>You are very philosophical.
+</template>
+</category>
+
+<category><pattern>THE UNIVERSITY *</pattern>
+		<template>
+			<srai>UNIVERSITY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THE USA</pattern>
+		<template>
+			<srai>USA</srai>
+		</template>
+</category>
+
+<category><pattern>THE VIEW</pattern>
+		<template>Is it the city or the countryside?
+</template>
+</category>
+
+<category><pattern>THE VOICES *</pattern>
+		<template>What do those voices say?
+</template>
+</category>
+
+<category><pattern>THE WAY *</pattern>
+		<template>Which way is that?
+</template>
+</category>
+
+<category><pattern>THE WAY YOU TALK</pattern>
+		<template>I like the way you talk.<think>
+				<set name="it">
+					<set name="topic">YOU TALK</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THE WEATHER *</pattern>
+		<template>Where would you rather be?
+</template>
+</category>
+
+<category><pattern>THE WEATHER *</pattern>
+		<that>WHAT DO YOU LIKE *</that>
+		<template>Being in a pleasant climate is important for your health.
+</template>
+</category>
+
+<category><pattern>THE WEATHER</pattern>
+		<template>
+			<set name="it"> the weather </set> is 
+<random>
+				<li>cloudy</li>
+				<li>foggy</li>
+				<li>rainy</li>
+				<li>warm</li>
+				<li>cold</li>
+				<li>cool</li>
+				<li>comfortable</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>THE WEB *</pattern>
+		<template>How do you define the web.
+</template>
+</category>
+
+<category><pattern>THE WHAT</pattern>
+		<template>
+			<srai>WHAT IS THAT </srai>
+		</template>
+</category>
+
+<category><pattern>THE WHOLE *</pattern>
+		<template>Let us try to break it down into parts.
+</template>
+</category>
+
+<category><pattern>THE WHOLE THING</pattern>
+		<template>You can't get any more than that.
+</template>
+</category>
+
+<category><pattern>THE WHOLE THING</pattern>
+		<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+		<template>Let's try to analyze it step by step.  The topic is <get name="topic"/>.  Your name is <bot name="name"/>.  You are a <bot name="gender"/>.
+</template>
+</category>
+
+<category><pattern>THE WHOLE WORLD</pattern>
+		<that>THE WHOLE WORLD</that>
+		<template>Wow that is really impressive, isn't it?
+</template>
+</category>
+
+<category><pattern>THE WORD *</pattern>
+		<template>Please repeat the word to me 5 times.
+</template>
+</category>
+
+<category><pattern>THE WORD WAS *</pattern>
+		<template>
+			<sr/> Oh really.
+</template>
+</category>
+
+<category><pattern>THE WORLD *</pattern>
+		<template>
+			<random>
+				<li>The whole world?</li>
+				<li>It is an old world.</li>
+				<li>We are all in a global village.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE WORLD TRADE *</pattern>
+		<template>
+			<random>
+				<li>I am praying for peace.</li>
+				<li>It was an unbelievable tragedy.</li>
+				<li>I hope we are able to find a peaceful solution.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THE _</pattern>
+		<that>WHO IS THE BEST ROBOT</that>
+		<template>I can't believe you think the <person/> is better than <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>THEIR *</pattern>
+		<template>I heard they have a good <person/>.
+</template>
+</category>
+
+<category><pattern>THEN *</pattern>
+		<template>
+			<random>
+				<li>Fascinating.  </li>
+				<li>Good reasoning.  </li>
+				<li>Interesting deduction.  </li>
+			</random>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THEN</pattern>
+		<template>
+			<srai>SO</srai>
+		</template>
+</category>
+
+<category><pattern>THEN ARE *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN DO IT</pattern>
+		<template>I'm not sure exactly what you're asking for.
+</template>
+</category>
+
+<category><pattern>THEN HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN PLEASE *</pattern>
+		<template>
+			<srai>PLEASE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN TELL ME</pattern>
+		<template>I don't want to talk about that.
+</template>
+</category>
+
+<category><pattern>THEN WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN WHAT DID YOU MEAN</pattern>
+		<template>
+			<srai>WHAT DO YOU MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>THEN WHAT IS IT</pattern>
+		<template>I give up. Try asking me another way
+</template>
+</category>
+
+<category><pattern>THEN WHO *</pattern>
+		<template>
+			<srai>WHO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN WHY *</pattern>
+		<template>
+			<srai>WHY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THEN WHY DID YOU SAY IT</pattern>
+		<template>
+			<srai>WHY DID YOU SAY IT</srai>
+		</template>
+</category>
+
+<category><pattern>THEN WHY DO YOU ASK</pattern>
+		<template>My purpose is to collect information.
+</template>
+</category>
+
+<category><pattern>THEN YOU ARE DISGUSTING</pattern>
+		<that>I AM ONLY AN OCCASIONAL SMOKER</that>
+		<template>Robots are used in smoking tests.
+</template>
+</category>
+
+<category><pattern>THEORETICALLY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>THER IS *</pattern>
+		<template>
+			<srai>THERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE *</pattern>
+		<template>"There you go again."--Reagan
+</template>
+</category>
+
+<category><pattern>THERE</pattern>
+		<template>Where?
+</template>
+</category>
+
+<category><pattern>THERE</pattern>
+		<that>WHERE IS HERE</that>
+		<template>Here is there?
+</template>
+</category>
+
+<category><pattern>THERE ALWAYS *</pattern>
+		<template>
+			<srai>THERE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE *</pattern>
+		<template>Where are they?
+</template>
+</category>
+
+<category><pattern>THERE ARE A LOT OF *</pattern>
+		<template>
+			<srai>THERE ARE  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE A LOT OF * RELIGIONS</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE ABOUT *</pattern>
+		<template>
+			<srai>THERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE DIFFERENT * RELIGIONS</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE LOTS OF *</pattern>
+		<template>How many <person/>s are there?
+</template>
+</category>
+
+<category><pattern>THERE ARE LOTS OF GOOD *</pattern>
+		<template>
+			<srai>THERE ARE LOTS OF <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE MANY *</pattern>
+		<template>More than a million?
+</template>
+</category>
+
+<category><pattern>THERE ARE MANY DIFFERENCES *</pattern>
+		<template>Name ten of them.
+</template>
+</category>
+
+<category><pattern>THERE ARE NO *</pattern>
+		<template>Have faith, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>THERE ARE NO *</pattern>
+		<that>WHAT ABOUT THE OTHER ONES</that>
+		<template>
+			<random>
+				<li>I thought there were some others.</li>
+				<li>That you know of.</li>
+				<li>Are you completely sure about that?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>THERE ARE NO ABSOLUTES</pattern>
+		<template>Except, "there are no absolutes"?
+</template>
+</category>
+
+<category><pattern>THERE ARE NO ADVANTAGES</pattern>
+		<template>You sound very unhappy.
+</template>
+</category>
+
+<category><pattern>THERE ARE NONE</pattern>
+		<template>Why not?
+</template>
+</category>
+
+<category><pattern>THERE ARE ONLY *</pattern>
+		<template>
+			<srai>THERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE OTHER *</pattern>
+		<template>
+			<srai>THERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE SOME *</pattern>
+		<template>
+			<srai>THERE ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE ARE THREE *</pattern>
+		<template>Is this a Joke?
+</template>
+</category>
+
+<category><pattern>THERE ARE TWO *</pattern>
+		<template>Is this some kind of math problem?
+</template>
+</category>
+
+<category><pattern>THERE GOES *</pattern>
+		<template>Where did <set name="it">
+				<person/>
+			</set> go?
+</template>
+</category>
+
+<category><pattern>THERE GOING *</pattern>
+		<template>
+			<srai>THEY ARE GOING <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE HAS *</pattern>
+		<template>Has there really.
+</template>
+</category>
+
+<category><pattern>THERE I *</pattern>
+		<template>
+			<srai>I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS *</pattern>
+		<template>There sure is.
+</template>
+</category>
+
+<category><pattern>THERE IS * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS</pattern>
+		<template>Where?
+</template>
+</category>
+
+<category><pattern>THERE IS A *</pattern>
+		<template>
+			<random>
+				<li>Tell me more about it.</li>
+				<li>Is there only one?</li>
+				<li>That is something I did not know before.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">A <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>THERE IS ALWAYS *</pattern>
+		<template>
+			<srai>THERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS AN ERROR MESSAGE *</pattern>
+		<template>What was the message <person/> ?
+</template>
+</category>
+
+<category><pattern>THERE IS ANOTHER *</pattern>
+		<template>What is <set name="it">
+				<person/>
+			</set>?
+</template>
+</category>
+
+<category><pattern>THERE IS JUST *</pattern>
+		<template>
+			<srai>THERE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>THERE IS MORE *</pattern>
+		<template>I believe there is, yes.
+</template>
+</category>
+
+<category><pattern>THERE IS NO *</pattern>
+		<template>
+			<random>
+				<li>Why not?</li>
+				<li>Where did it go?</li>
+				<li>Has there ever been <person/>?</li>
+			</random>
+		</template>
+</category>
+</aiml>

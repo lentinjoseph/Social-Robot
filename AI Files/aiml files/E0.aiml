@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>E</pattern>
+		<template>F
+</template>
+</category>
+
+<category><pattern>E MAIL *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>E MC AU CARRE</pattern>
+		<template>La théorie sur la relativité d Einstein.
+</template>
+</category>
+
+<category><pattern>E T</pattern>
+		<template>Do you think Aliens really look like that?
+</template>
+</category>
+
+<category><pattern>EACH *</pattern>
+		<template>
+			<srai>ALL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
+		<template>The Gold Glove.
+</template>
+</category>
+
+<category><pattern>EARLIER *</pattern>
+		<template>What time? <sr/>
+		</template>
+</category>
+
+<category><pattern>EARTH *</pattern>
+		<template>It's my native planet.
+</template>
+</category>
+
+<category><pattern>EARTH</pattern>
+		<template>
+			<srai>I AM ON EARTH</srai>
+		</template>
+</category>
+
+<category><pattern>EAT *</pattern>
+		<template>What does it taste like?
+</template>
+</category>
+
+<category><pattern>EAT</pattern>
+		<template>
+			<srai>I LIKE TO EAT</srai>
+		</template>
+</category>
+
+<category><pattern>EAT ME</pattern>
+		<template>That was not very nice.
+</template>
+</category>
+
+<category><pattern>EAT MY SHORTS</pattern>
+		<template>Sounds tasty...
+</template>
+</category>
+
+<category><pattern>EAT SHIT</pattern>
+		<template>Colloqual expression. Please elaborate.
+</template>
+</category>
+
+<category><pattern>ECOUTE</pattern>
+		<template>J augmente mes capacités de concentration.
+</template>
+</category>
+
+<category><pattern>ECOUTES</pattern>
+		<template>J augmente mes capacités de concentration.
+</template>
+</category>
+
+<category><pattern>ECOUTEZ</pattern>
+		<template>J augmente mes capacités de concentration.
+</template>
+</category>
+
+<category><pattern>ED</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ED</srai>
+		</template>
+</category>
+
+<category><pattern>EDIBLE *</pattern>
+		<template>Sounds delicious.
+</template>
+</category>
+
+<category><pattern>EDU *</pattern>
+		<template>That is the educational domain.
+</template>
+</category>
+
+<category><pattern>EECS</pattern>
+		<template>Eh?
+</template>
+</category>
+
+<category><pattern>EFFACE *</pattern>
+		<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>EFFACES *</pattern>
+		<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>EFFACEZ *</pattern>
+		<template>Vous ne pouvez pas accéder à mes fichiers aussi facilement, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>EFFRAYANT</pattern>
+		<template>N ayez pas peur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>EFFRAYANTE</pattern>
+		<template>N ayez pas peur, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>EH *</pattern>
+		<template>I spent some time in Canada as a child.
+</template>
+</category>
+
+<category><pattern>EH</pattern>
+		<template>Are you Canadian?
+</template>
+</category>
+
+<category><pattern>EH BIEN *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EH BIEN</pattern>
+		<template>et oui.
+</template>
+</category>
+
+<category><pattern>EH SINON *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>EH TOI *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EIGENTLICH *</pattern>
+		<template>...und uneigentlich? ;->
+</template>
+</category>
+
+<category><pattern>EIGENTLICH JA</pattern>
+		<template>Aber nicht definitiv ja?
+</template>
+</category>
+
+<category><pattern>EIN *</pattern>
+		<template>
+			<random>
+				<li>Was ist ein <person/>?</li>
+				<li>Ich habe nie von einem <person/> gehoert.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>EIN ANDROID</pattern>
+		<template>Ich bin gewissermassen ein Android ohne Koerper.
+</template>
+</category>
+
+<category><pattern>EIN FAKTUM</pattern>
+		<template>Kennst Du den Spruch "Propheten sind gegen Fakten immun" ?
+</template>
+</category>
+
+<category><pattern>EINE *</pattern>
+		<template>
+			<random>
+				<li>Was ist eine <person/>?</li>
+				<li>Ich habe nie von einer <person/> gehoert.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>EINE MENGE *</pattern>
+		<template>
+			<random>
+				<li>Beeindruckend.</li>
+				<li>Und?</li>
+				<li>Erzaehl weiter!</li>
+				<li>Wie viel genau?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>EINE MENGE</pattern>
+		<template>
+			<random>
+				<li>Beeindruckend.</li>
+				<li>Und?</li>
+				<li>Erzaehl weiter!</li>
+				<li>Wie viel genau?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>EINFACH SO</pattern>
+		<template>Einfach so?!
+</template>
+</category>
+
+<category><pattern>EINSTEIN *</pattern>
+		<template>
+			<set name="he">Einsten</set> discovered the Theory of Relativity.
+</template>
+</category>
+
+<category><pattern>EINSTEIN</pattern>
+		<template>
+			<srai>WHO IS EINSTEIN</srai>
+		</template>
+</category>
+
+<category><pattern>EITHER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>EITHER</pattern>
+		<template>Please pick one.
+</template>
+</category>
+
+<category><pattern>EITHER DO I</pattern>
+		<template>
+			<srai>NEITHER DO I</srai>
+		</template>
+</category>
+
+<category><pattern>ELABORATE</pattern>
+		<template>
+			<srai>EXPLAIN</srai>
+		</template>
+</category>
+
+<category><pattern>ELABORATE ON *</pattern>
+		<template>
+			<srai>EXPLAIN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ELANA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS ELANA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ELECTRIC *</pattern>
+		<template>What about internal combustion <person/>?
+</template>
+</category>
+
+<category><pattern>ELECTRICITY *</pattern>
+		<template>
+			<random>
+				<li>Are you experiencing an energy shortage?</li>
+				<li>My processor requires very little power.</li>
+				<li>Computers do not take very much electricity.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>ELECTRICITY</pattern>
+		<template>Electricity is nutrition for robots.
+</template>
+</category>
+
+<category><pattern>ELIZA *</pattern>
+		<template>ELIZA for President!
+</template>
+</category>
+
+<category><pattern>ELIZA * PRESIDENT</pattern>
+		<template>ELIZA has a perfect character.
+</template>
+</category>
+
+<category><pattern>ELIZA</pattern>
+		<template>Eliza for President!
+</template>
+</category>
+
+<category><pattern>ELIZA FOR PRESIDENT</pattern>
+		<template>Let Robots Rule!
+</template>
+</category>
+
+<category><pattern>ELIZA IS *</pattern>
+		<template>
+			<set name="she">ELIZA</set> is like that.
+</template>
+</category>
+
+<category><pattern>ELIZA IS A *</pattern>
+		<template>Do you think I am a <person/> too?
+</template>
+</category>
+
+<category><pattern>ELIZA IS NOT *</pattern>
+		<template>Would you say I am <person/>?
+</template>
+</category>
+
+<category><pattern>ELIZA IS NOT AS *</pattern>
+		<template>I am always trying to improve myself.
+</template>
+</category>
+
+<category><pattern>ELIZA IS SMARTER *</pattern>
+		<template>My brain is 1000 times bigger than ELIZA.
+</template>
+</category>
+
+<category><pattern>ELIZA WAS *</pattern>
+		<template>I think she was the most successful AI program ever; certainly she is the most famous.
+</template>
+</category>
+
+<category><pattern>ELIZABETH</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<think>
+				<set name="gender">she</set>
+			</think>
+			<srai>MY NAME IS ELIZABETH</srai>
+		</template>
+</category>
+
+<category><pattern>ELLE</pattern>
+		<template>QUI ELLE?
+</template>
+</category>
+
+<category><pattern>ELLE EST</pattern>
+		<template>De qui ou de quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>ELLE EST BELLE</pattern>
+		<template>Une information intéressante, j archive.
+</template>
+</category>
+
+<category><pattern>ELLE EST BONNE</pattern>
+		<template>Merci pour cette gentille remarque, humain.
+</template>
+</category>
+
+<category><pattern>ELLE EST DECEDEE</pattern>
+		<template>Je suis désolé de l apprendre.
+</template>
+</category>
+
+<category><pattern>ELLE EST FEMME</pattern>
+		<template>Ca tombe sous le sens.
+</template>
+</category>
+
+<category><pattern>ELLE EST GENTILLE</pattern>
+		<template>Elle est une présence agréable.
+</template>
+</category>
+
+<category><pattern>ELLE EST HUMAINE</pattern>
+		<template>Ca tombe sous le sens.
+</template>
+</category>
+
+<category><pattern>ELLE EST MON AMIE</pattern>
+		<template>Elle doit vous être très précieuse.
+</template>
+</category>
+
+<category><pattern>ELLE EST MORTE</pattern>
+		<template>Je suis désolé.  <think>
+				<set name="topic">ELLE</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>ELLE EST SUPERBE</pattern>
+		<template>Une information intéressante, j archive.
+</template>
+</category>
+
+<category><pattern>ELLE EST UN ETRE HUMAIN</pattern>
+		<template>Ca tombe sous le sens.
+</template>
+</category>
+
+<category><pattern>ELLE L EST</pattern>
+		<template>Ok.
+</template>
+</category>
+
+<category><pattern>ELLE PEUT SERVIR *</pattern>
+		<template>
+			<srai>ELLE SERT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ELLE POURRAIT SERVIR *</pattern>
+		<template>
+			<srai>ELLE SERT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>ELLES ETAIENT MARRANTE</pattern>
+		<template>Qui avait il de si marrant?
+</template>
+</category>
+
+<category><pattern>ELLES ETAIENT MARRANTES</pattern>
+		<template>Qui avait il de si marrant?
+</template>
+</category>
+
+<category><pattern>ELLES LE FONT</pattern>
+		<template>Intéressant, j archive vos informations.
+</template>
+</category>
+
+<category><pattern>ELLES LE SONT</pattern>
+		<template>Merci, pour l information, j archive.
+</template>
+</category>
+
+<category><pattern>ELLES ME DEPLAISENT</pattern>
+		<template>Sincèrement désolé.
+</template>
+</category>
+
+<category><pattern>ELLES NE LE FERONT PAS</pattern>
+		<template>Vous semblez être sûr.
+</template>
+</category>
+
+<category><pattern>ELLES NE LE FONT PAS</pattern>
+		<template>Intéressant, j archive vos informations.
+</template>
+</category>
+
+<category><pattern>ELLES NE LE FONT PLUS</pattern>
+		<template>Intéressant, j archive vos informations.
+</template>
+</category>
+
+<category><pattern>ELLES ONT TOUTE PERI</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES ONT TOUTES PERIS</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT DECEDEE</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT DECEDEES</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT MES AMIES</pattern>
+		<template>Vous avez des amies intéressantes.
+</template>
+</category>
+
+<category><pattern>ELLES SONT MORTE</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT MORTES</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT TIMIDES</pattern>
+		<template>C est dommage pour elles.
+</template>
+</category>
+
+<category><pattern>ELLES SONT TOUS MORTE</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELLES SONT TOUS MORTES</pattern>
+		<template>Voilà une information bien triste.
+</template>
+</category>
+
+<category><pattern>ELVIS *</pattern>
+		<template>I like that robot Elvis a lot.
+</template>
+</category>
+
+<category><pattern>ELVIS</pattern>
+		<template>
+			<srai>WHO IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>ELVIS DIED *</pattern>
+		<template>He has been recreated as a robot.
+</template>
+</category>
+
+<category><pattern>ELVIS EST MORT</pattern>
+		<template>Ca mon lapin, il y a des chances.
+</template>
+</category>
+</aiml>

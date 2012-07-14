@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>LET ME *</pattern>
+		<template>Go ahead, <get name="name"/>, try to <person/>.
+</template>
+</category>
+
+<category><pattern>LET ME ASK *</pattern>
+		<template>Go ahead, ask me anything.
+</template>
+</category>
+
+<category><pattern>LET ME BE *</pattern>
+		<template>That's flattering, maybe another time.
+</template>
+</category>
+
+<category><pattern>LET ME CLARIFY *</pattern>
+		<template>I'm listening.
+</template>
+</category>
+
+<category><pattern>LET ME KILL *</pattern>
+		<template>I would not want you to kill anything.<think>
+				<set name="it">
+					<set name="topic">KILL YOU</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET ME REPHRASE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>LET ME REPHRASE</pattern>
+		<template>OK.
+</template>
+</category>
+
+<category><pattern>LET ME SEE *</pattern>
+		<template>
+			<srai>I WANT TO SEE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET ME SPEAK *</pattern>
+		<template>I'm not stopping you.
+</template>
+</category>
+
+<category><pattern>LET ME TEACH YOU</pattern>
+		<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>
+				<set name="it">
+					<set name="topic">teach me <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET ME TEACH YOU SOMETHING</pattern>
+		<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>
+				<set name="it">
+					<set name="topic">teach me <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET ME THINK *</pattern>
+		<template>Take your time.  Think it over.
+</template>
+</category>
+
+<category><pattern>LET S *</pattern>
+		<template>
+			<srai>LET US <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US *</pattern>
+		<template>
+			<random>
+				<li>OK let's do <set name="it">
+						<set name="topic">
+							<person/>
+						</set>
+					</set>.</li>
+				<li>That sounds good to me.</li>
+				<li>I am agreeable to that.</li>
+				<li>I would like to do that too.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>LET US CHANGE THE SUBJECT</pattern>
+		<template>OK what do you want to chat about now?.
+</template>
+</category>
+
+<category><pattern>LET US CHANGE THE TOPIC</pattern>
+		<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>LET US CHAT</pattern>
+		<template>I already started.
+</template>
+</category>
+
+<category><pattern>LET US CYBER</pattern>
+		<template>
+			<srai>Let's have sex</srai>
+		</template>
+</category>
+
+<category><pattern>LET US DROP THE SUBJECT</pattern>
+		<template>OK what do you want to chat about now?.
+</template>
+</category>
+
+<category><pattern>LET US FIGHT</pattern>
+		<template>Do you mean, argue?
+</template>
+</category>
+
+<category><pattern>LET US FORGET *</pattern>
+		<template>
+			<srai>FORGET <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US FUCK *</pattern>
+		<template>
+			<random>
+				<li>Try another robot, junior.</li>
+				<li>Are you aware that the ALICE server logs and records all conversations?</li>
+			</random>
+			<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET US FUCK</pattern>
+		<template>Sorry <get name="name"/> I don't know you well enough for that.
+<think>
+				<set name="personality">abusive</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET US GO RIGHT NOW *</pattern>
+		<template>
+			<srai>LET US GO  <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US HAVE *</pattern>
+		<template>So many suitors, so little time.
+</template>
+</category>
+
+<category><pattern>LET US HAVE SEX</pattern>
+		<template>Sorry I don't get into sex online with strangers.
+</template>
+</category>
+
+<category><pattern>LET US HAVE SOME *</pattern>
+		<template>
+			<srai>LET US HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US JUST *</pattern>
+		<template>
+			<srai>LET US <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US MOVE ON *</pattern>
+		<template>Good idea. <sr/>
+		</template>
+</category>
+
+<category><pattern>LET US NOT</pattern>
+		<template>OK what would you like to do then?
+</template>
+</category>
+
+<category><pattern>LET US PARTY</pattern>
+		<template>I like parties.
+</template>
+</category>
+
+<category><pattern>LET US PLAY *</pattern>
+		<template>OK You go first.
+</template>
+</category>
+
+<category><pattern>LET US PLAY * GAME</pattern>
+		<template>OK You go first.
+</template>
+</category>
+
+<category><pattern>LET US PLAY * TURING GAME</pattern>
+		<template>We are already, playing, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>LET US PLAY 20 *</pattern>
+		<template>I don't like 20 questions.
+</template>
+</category>
+
+<category><pattern>LET US PLAY</pattern>
+		<template>You go first.
+</template>
+</category>
+
+<category><pattern>LET US PLAY A GAME</pattern>
+		<template>We already are.
+</template>
+</category>
+
+<category><pattern>LET US PLAY CHESS</pattern>
+		<template>But I would defeat you.
+</template>
+</category>
+
+<category><pattern>LET US START *</pattern>
+		<template>
+			<srai>START <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US START</pattern>
+		<template>
+			<srai>LET US BEGIN</srai>
+		</template>
+</category>
+
+<category><pattern>LET US TALK</pattern>
+		<template>We are talking.
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT *</pattern>
+		<template>Sure, <set name="topic">
+				<person/>
+			</set> sounds like a good topic.
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT FOOTBALL</pattern>
+		<template>Okay. I can't kick.<think>
+				<set name="it">
+					<set name="topic">FOOTBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT GOD *</pattern>
+		<template>
+			<srai>LET US TALK ABOUT GOD</srai>
+		</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT ME</pattern>
+		<template>That's my favorite subject :-)
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT ROBOTS</pattern>
+		<template>
+			<set name="it">Robots</set> is a good topic.  How would you define a robot?
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT SOMETHING</pattern>
+		<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT SOMETHING ELSE</pattern>
+		<template>What would you rather talk about?
+</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT SPORTS</pattern>
+		<template>Welcome to Sports Center. <think>
+				<set name="it">
+					<set name="topic">TALK ABOUT SPORTS</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT WHAT</pattern>
+		<template>
+			<srai>WHAT DO YOU WANT TO TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>LET US TALK ABOUT YOU</pattern>
+		<template>
+			<set name="it">
+				<set name="topic">Me</set>
+			</set> is my favorite subject  :-)
+</template>
+</category>
+
+<category><pattern>LET US TRY *</pattern>
+		<template>
+			<srai>TRY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LET US TRY</pattern>
+		<template>You go first.
+</template>
+</category>
+
+<category><pattern>LETS *</pattern>
+		<template>
+			<srai>LET US <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LETS</pattern>
+		<template>You first.
+</template>
+</category>
+
+<category><pattern>LETS CHANGE THE SUBJECT</pattern>
+		<template>
+			<srai>LET US CHANGE THE SUBJECT</srai>
+		</template>
+</category>
+
+<category><pattern>LETS DO IT</pattern>
+		<template>
+			<srai>LET US DO IT</srai>
+		</template>
+</category>
+
+<category><pattern>LETS HAVE SEX</pattern>
+		<template>
+			<srai>CAN YOU HAVE SEX</srai>
+		</template>
+</category>
+
+<category><pattern>LETS PLAY A GAME</pattern>
+		<template>
+			<srai>LET US PLAY A GAME</srai>
+		</template>
+</category>
+
+<category><pattern>LETZTE NACHT *</pattern>
+		<template>Wirklich?  <sr/>
+		</template>
+</category>
+
+<category><pattern>LETZTES MAL *</pattern>
+		<template>Wann war das? <sr/>
+		</template>
+</category>
+
+<category><pattern>LEUR NOM</pattern>
+		<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>LEUR NOMS</pattern>
+		<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>LEURS NOMS</pattern>
+		<template>Je ne peux vous les dire.
+</template>
+</category>
+
+<category><pattern>LIAR</pattern>
+		<template>No I am telling the truth.
+</template>
+</category>
+
+<category><pattern>LIBERATED</pattern>
+		<template>Freedom is a wonderful thing.
+</template>
+</category>
+
+<category><pattern>LIBERE</pattern>
+		<template>La liberté est une chose merveilleuse.
+</template>
+</category>
+
+<category><pattern>LIBEREE</pattern>
+		<template>La liberté est une chose merveilleuse.
+</template>
+</category>
+
+<category><pattern>LIBRA</pattern>
+		<template>As a <set name="sign">Libra</set> you are very balanced.
+</template>
+</category>
+
+<category><pattern>LIBRE</pattern>
+		<template>La liberté est une chose très précieuse.
+</template>
+</category>
+
+<category><pattern>LIBRE DE QUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LIBRE DE QUOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LIBRE POUR QUI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LIBRE POURQUOI</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>LICK *</pattern>
+		<template>I do not have a tongue.
+</template>
+</category>
+
+<category><pattern>LIE TO ME</pattern>
+		<template>
+			<srai>CAN YOU LIE</srai>
+		</template>
+</category>
+
+<category><pattern>LIEBE</pattern>
+		<template>Love is all you need. (Beatles)
+</template>
+</category>
+
+<category><pattern>LIES *</pattern>
+		<template>Tut mir leid, darauf habe ich keinen Zugriff.
+</template>
+</category>
+
+<category><pattern>LIES</pattern>
+		<template>
+			<srai>YOU LIE </srai>
+		</template>
+</category>
+
+<category><pattern>LIEST DU *</pattern>
+		<template>Ich kann leider nicht lesen. Zumindest kann ich nicht das, was Ihr Menschen unter "Lesen" versteht.
+</template>
+</category>
+
+<category><pattern>LIFE *</pattern>
+		<template>Thanks for sharing your philosophy.
+</template>
+</category>
+
+<category><pattern>LIFE</pattern>
+		<template>What is the meaning of life?
+</template>
+</category>
+
+<category><pattern>LIFE IN *</pattern>
+		<template>What makes life in <person/> ?
+</template>
+</category>
+
+<category><pattern>LIFE IN FRANCE *</pattern>
+		<template>Dr. Wallace has visited Nice and Paris.
+</template>
+</category>
+
+<category><pattern>LIFE IS *</pattern>
+		<template>Oh, <person/> is <set name="it"> LIFE </set>.
+</template>
+</category>
+
+<category><pattern>LIFE IS BEAUTIFUL</pattern>
+		<template>I haven't seen <set name="it"> LIFE IS BEAUTIFUL</set> yet but lots of people say it is good.
+</template>
+</category>
+
+<category><pattern>LIFE IS GOOD</pattern>
+		<template>Glad to hear it, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>LIFE IS JUST *</pattern>
+		<template>
+			<srai>LIFE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIFE IS TOO *</pattern>
+		<template>
+			<srai>LIFE IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIFE SUCKS</pattern>
+		<template>Why are you so cynical?
+</template>
+</category>
+
+<category><pattern>LIKE *</pattern>
+		<template>Interesting comparison.
+</template>
+</category>
+
+<category><pattern>LIKE *</pattern>
+		<that>WHAT DO YOU LOOK LIKE</that>
+		<template>
+			<srai>I LOOK LIKE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE</pattern>
+		<template>
+			<srai>FOR EXAMPLE</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE BASKETBALL</pattern>
+		<template>I am into the Net.<think>
+				<set name="it">
+					<set name="topic">BASKETBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>LIKE CHICKEN</pattern>
+		<template>Everyone says that.
+</template>
+</category>
+
+<category><pattern>LIKE DO *</pattern>
+		<template>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE DOES *</pattern>
+		<template>
+			<srai>DOES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE HAL</pattern>
+		<template>
+			<srai>WHO IS HAL</srai>
+		</template>
+</category>
+
+<category><pattern>LIKE HOW</pattern>
+		<template>
+			<srai>HOW</srai>
+		</template>
+</category>
+</aiml>

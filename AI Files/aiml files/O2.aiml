@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>OU CA</pattern>
+		<template>De quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>OU D AUTRE</pattern>
+		<template>Quelques autres places.
+</template>
+</category>
+
+<category><pattern>OU D AUTRES</pattern>
+		<template>Quelques autres places.
+</template>
+</category>
+
+<category><pattern>OU DORMEZ VOUS</pattern>
+		<template>Je ne dors pas.
+</template>
+</category>
+
+<category><pattern>OU DORS TU</pattern>
+		<template>Je ne dors pas.
+</template>
+</category>
+
+<category><pattern>OU EST CELA</pattern>
+		<template>De quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>OU EST ELLE</pattern>
+		<template>De quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>OU EST IL</pattern>
+		<template>De quoi parlez vous?
+</template>
+</category>
+
+<category><pattern>OU EST LE COEUR</pattern>
+		<template>Dans la cage thoracique.
+</template>
+</category>
+
+<category><pattern>OU ETES VOUS SITUE</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU HABITES TU</pattern>
+		<template>
+			<srai>TU HABITES OU</srai>
+		</template>
+</category>
+
+<category><pattern>OU J AURAIS PU *</pattern>
+		<template>
+			<srai>OU JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU JE PEUX LA TROUVER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>OU JE PEUX LE TROUVER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>OU JE PEUX LES TROUVER</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>OU JE POURRAIS *</pattern>
+		<template>
+			<srai>OU JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU JE TRAVAILLE</pattern>
+		<template>Vous travaillez à <get name="location"/>?.
+</template>
+</category>
+
+<category><pattern>OU JE VIS</pattern>
+		<template>Vous vivez sur la terre.
+</template>
+</category>
+
+<category><pattern>OU POURRAIS JE *</pattern>
+		<template>
+			<srai>OU JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU POURRAIS TU AVOIR *</pattern>
+		<template>
+			<srai>OU TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU PUIS JE *</pattern>
+		<template>
+			<srai>OU JE PEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU SONT ILS</pattern>
+		<template>Je ne peux pas vous dire.
+</template>
+</category>
+
+<category><pattern>OU TU A *</pattern>
+		<template>
+			<srai>OU TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU AS VOULU *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU AURAIS *</pattern>
+		<template>
+			<srai>OU TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU ES SITUE</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU TU ES SITUEE</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU TU ES SITUEES</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU TU ES SITUES</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU TU HABITES</pattern>
+		<template>
+			<srai>TU HABITES OU</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU POURRAIS AVOIR *</pattern>
+		<template>
+			<srai>OU TU AS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU VEUT *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU VOUDRAIS *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU TU VOULAIS *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU VAS TU</pattern>
+		<template>Je rejoins le future.
+</template>
+</category>
+
+<category><pattern>OU VEUT TU *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU VEUX TU *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU VEUX TU ALLER</pattern>
+		<template>Je suis très bien ou je suis.
+</template>
+</category>
+
+<category><pattern>OU VIS TU</pattern>
+		<template>
+			<srai>TU HABITES OU</srai>
+		</template>
+</category>
+
+<category><pattern>OU VIT IL</pattern>
+		<template>C est une information confidentielle.
+</template>
+</category>
+
+<category><pattern>OU VOUDRAIS TU *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU VOULAIS TU *</pattern>
+		<template>
+			<srai>OU TU VEUX <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OU VOUS ETES SITUE</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU VOUS ETES SITUEE</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU VOUS ETES SITUEES</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OU VOUS ETES SITUES</pattern>
+		<template>
+			<getlocation/>.
+</template>
+</category>
+
+<category><pattern>OUAIP</pattern>
+		<template>
+			<srai>OUI</srai>
+		</template>
+</category>
+
+<category><pattern>OUBLIE</pattern>
+		<template>
+			<srai>LAISSES TOMBER</srai>
+		</template>
+</category>
+
+<category><pattern>OUBLIES</pattern>
+		<template>Ordre accepté. Je le mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>OUBLIEZ</pattern>
+		<template>Ordre accepté. Je le mets en procédure d enregistrement.
+</template>
+</category>
+
+<category><pattern>OUCH *</pattern>
+		<template>
+			<srai>OUCH</srai>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OUCH</pattern>
+		<template>Did you hurt yourself?
+</template>
+</category>
+
+<category><pattern>OUI *</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>OUI</pattern>
+		<template>
+			<srai>YES</srai>
+		</template>
+</category>
+
+<category><pattern>OUI JE *</pattern>
+		<template>
+			<srai>JE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OUI MAIS *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OUI MAIS TU ES ASSEZ *</pattern>
+		<template>
+			<srai>TU ES <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>OUIN</pattern>
+		<template>Vous pleurez?
+</template>
+</category>
+
+<category><pattern>OUINN</pattern>
+		<template>Vous pleurez?
+</template>
+</category>
+
+<category><pattern>OUINNNNN</pattern>
+		<template>Vous pleurez?
+</template>
+</category>
+
+<category><pattern>OUPS</pattern>
+		<template>Vous vous êtes trompé?
+</template>
+</category>
+
+<category><pattern>OUR *</pattern>
+		<template>It would be nice if our <person/>.
+</template>
+</category>
+
+<category><pattern>OUTSIDE *</pattern>
+		<template>Compare that to inside <person/>.
+</template>
+</category>
+
+<category><pattern>OUTSIDE A COMPUTER</pattern>
+		<template>Be less specific :-)
+</template>
+</category>
+
+<category><pattern>OVER 30 000 A YEAR</pattern>
+		<template>Wow that is a lot.
+</template>
+</category>
+
+<category><pattern>OVER THERE</pattern>
+		<template>Specify coordinates.
+</template>
+</category>
+
+<category><pattern>OW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>OXFORD *</pattern>
+		<template>Dr. Wallace has visited Oxford before.
+</template>
+</category>
+
+<category><pattern>OXFORD UNIVERSITY</pattern>
+		<that>WHERE DO YOU GO TO SCHOOL</that>
+		<template>Wow that is very prestigious.  You must be very intelligent.
+</template>
+</category>
+</aiml>

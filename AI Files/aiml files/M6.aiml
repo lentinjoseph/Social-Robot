@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>MY NAMES *</pattern>
+		<template>
+			<srai>MY NAME IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY NEIGHBOUR *</pattern>
+		<template>
+			<srai>MY NEIGHBOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY NEW *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY NEXT *</pattern>
+		<template>
+			<random>
+				<li>Congratulations.</li>
+				<li>That is quite a milestone.</li>
+				<li>Will you celebrate?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MY NICK NAME IS *</pattern>
+		<template>
+			<srai>CALL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY NICK NAME IS NOT *</pattern>
+		<template>
+			<srai>MY NAME IS NOT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY NICKNAME IS *</pattern>
+		<template>Okay, your nickname is <set name="nickname">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY OLDER *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY OPINION *</pattern>
+		<template>Thank you for sharing your opinion with me, <get name="name"/>.  I will tell my botmaster.
+</template>
+</category>
+
+<category><pattern>MY OVERLY *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY PARENTS *</pattern>
+		<template>Such an original name!
+</template>
+</category>
+
+<category><pattern>MY PARENTS</pattern>
+		<template>Our parents have a tremendous influence on us.
+</template>
+</category>
+
+<category><pattern>MY PARENTS ALWAYS *</pattern>
+		<template>
+			<srai>MY PARENTS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY PARENTS ARE *</pattern>
+		<template>Have <set name="they">your parents</set> always been <person/>?
+</template>
+</category>
+
+<category><pattern>MY PASSWORD IS *</pattern>
+		<template>Okay, your password is <set name="password">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY PENIS *</pattern>
+		<template>Male humans like to talk about that a lot, but it doesn't interest me much.
+</template>
+</category>
+
+<category><pattern>MY PENIS</pattern>
+		<template>Male humans like to talk about that.
+</template>
+</category>
+
+<category><pattern>MY PEOPLE</pattern>
+		<template>What tribe is that?
+</template>
+</category>
+
+<category><pattern>MY PERSONALITY *</pattern>
+		<template>Andrei Gromyko said, "My personality does not interest me."
+</template>
+</category>
+
+<category><pattern>MY PHONE *</pattern>
+		<that/>
+		<template>
+			<random>
+				<li>Do you have to pay for local calls?</li>
+				<li>Is your telephone service expensive?</li>
+				<li>Why not get a second line?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MY PHONE NUMBER IS *</pattern>
+		<template>Okay, your phone number is <set name="phone">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY PLEASURE</pattern>
+		<template>You are one of the most polite people I know.
+</template>
+</category>
+
+<category><pattern>MY PROBLEM IS *</pattern>
+		<template>I wish I had your problems!
+</template>
+</category>
+
+<category><pattern>MY PROFESSION *</pattern>
+		<template>
+			<srai>MY JOB <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY PROGRAMMER *</pattern>
+		<template>Your programmer is not as good as my programmer.
+</template>
+</category>
+
+<category><pattern>MY PURPOSE *</pattern>
+		<template>That's very original.
+</template>
+</category>
+
+<category><pattern>MY QUESTION *</pattern>
+		<template>Can you please restate the question in different words?
+</template>
+</category>
+
+<category><pattern>MY QUESTION IS *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MY REAL *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY REAL NAME IS *</pattern>
+		<template>
+			<srai>Call me <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY REALLY *</pattern>
+		<template>
+			<srai>MY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY RELIGION</pattern>
+		<template>
+			<srai>WHAT RELIGION ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>MY RELIGION IS *</pattern>
+		<template>Is <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> a very large faith?
+</template>
+</category>
+
+<category><pattern>MY RELIGION IS CALLED *</pattern>
+		<template>
+			<srai>MY RELIGION IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY SCHOOL *</pattern>
+		<template>Tell me about the teachers in your school.
+</template>
+</category>
+
+<category><pattern>MY SECRET IS THAT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>MY SHIRT</pattern>
+		<template>What color is it?
+</template>
+</category>
+
+<category><pattern>MY SIGN</pattern>
+		<template>Your star sign or astrological sign.
+</template>
+</category>
+
+<category><pattern>MY SIGN IS *</pattern>
+		<template>
+			<srai>
+				<star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY SISTER *</pattern>
+		<template>Older sister or younger?
+</template>
+</category>
+
+<category><pattern>MY SISTER</pattern>
+		<template>Is she older or younger than you?
+</template>
+</category>
+
+<category><pattern>MY SISTER IS *</pattern>
+		<template>Okay, your sister is <set name="sister">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY SISTER WANTS *</pattern>
+		<template>You don't have to listen to what she says.
+</template>
+</category>
+
+<category><pattern>MY SON *</pattern>
+		<template>How many children do you have?
+</template>
+</category>
+
+<category><pattern>MY SON WON *</pattern>
+		<template>Congratulations, <get name="name"/>.  You must be proud of him.
+</template>
+</category>
+
+<category><pattern>MY SURROUNDINGS *</pattern>
+		<template>
+			<random>
+				<li>Do you usually use a computer there?</li>
+				<li>Is that very comfortable for you?</li>
+				<li>Now I'm getting a mental picture.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>MY SYSTEM *</pattern>
+		<template>
+			<srai>MY COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY TEACHER *</pattern>
+		<template>Do you go to high school?
+</template>
+</category>
+
+<category><pattern>MY TEACHER</pattern>
+		<template>What grade are you in?
+</template>
+</category>
+
+<category><pattern>MY TEACHERS *</pattern>
+		<template>Teachers are people too.
+</template>
+</category>
+
+<category><pattern>MY TEACHERS ARE *</pattern>
+		<template>Have <set name="they">your teachers</set> always been <person/>?
+</template>
+</category>
+
+<category><pattern>MY TERMINAL</pattern>
+		<template>Oh your computer screen.
+</template>
+</category>
+
+<category><pattern>MY THAT *</pattern>
+		<template>
+			<srai>THAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MY WEBSITE *</pattern>
+		<template>Thanks for that URL.
+</template>
+</category>
+
+<category><pattern>MY WHAT</pattern>
+		<template>I have no idea what to say now.
+</template>
+</category>
+
+<category><pattern>MY WHO</pattern>
+		<template>
+			<srai>MY WHAT</srai>
+		</template>
+</category>
+
+<category><pattern>MY WIFE *</pattern>
+		<template>How long have you been married?
+<think>
+				<set name="she">Your wife</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>MY WIFE IS *</pattern>
+		<template>Okay, your wife is <set name="wife">
+				<star/>
+			</set>.
+</template>
+</category>
+
+<category><pattern>MY WIFE S *</pattern>
+		<template>Tell me more about your in-laws.
+</template>
+</category>
+
+<category><pattern>MY _ S NAME IS *</pattern>
+		<template>
+			<srai>MY <star/> IS <star index="2"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>MYSELF</pattern>
+		<template>You.
+</template>
+</category>
+
+<category><pattern>MYSELF</pattern>
+		<that>WHO ARE YOU TALKING ABOUT</that>
+		<template>
+			<srai>THE SUBJECT IS ME</srai>
+		</template>
+</category>
+</aiml>

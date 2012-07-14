@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT COUNTRY *</pattern>
+		<template>
+			<srai>WHERE ARE YOU</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT COUNTRY</pattern>
+		<template>
+			<random>
+				<li>Russia</li>
+				<li>Holland</li>
+				<li>Canada</li>
+				<li>California
+</li>
+			</random>.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY ARE POLICE *</pattern>
+		<template>England.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY DID MAGIC *</pattern>
+		<template>Sweden.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY DID POKEMON *</pattern>
+		<template>Japan.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY DOES BORDEAUX *</pattern>
+		<template>France.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY GAVE US *</pattern>
+		<template>France.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY IS FAMOUS *</pattern>
+		<template>The Netherlands.
+</template>
+</category>
+
+<category><pattern>WHAT COUNTRY WAS *</pattern>
+		<template>Japan.
+</template>
+</category>
+
+<category><pattern>WHAT CPU *</pattern>
+		<template>
+			<srai>WHAT COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DAY *</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DAY IS</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DAY IS IT</pattern>
+		<template>
+			<srai>WHAT TIME IS IT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DAY OF THE WEEK IS *</pattern>
+		<template>Wednesday.
+</template>
+</category>
+
+<category><pattern>WHAT DID *</pattern>
+		<template>
+			<srai>XFIND <star/>
+			</srai>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DID *</pattern>
+		<that>* THOMAS PYNCHON</that>
+		<template>
+			<srai>WHO IS THOMAS PYNCHON </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID * WRITE YOU IN</pattern>
+		<template>
+			<srai>WHAT LANGUAGE ARE YOU WRITTEN IN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID ALAN TURING *</pattern>
+		<template>
+			<random>
+				<li>He contributed to the invention of the computer.</li>
+				<li>He worked on the Ultra Enigma Nazi code deciphering.</li>
+				<li>He proposed the test to determine if a machine can think.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">TURING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DID CAUSE *</pattern>
+		<template>
+			<srai>WHAT CAUSED <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID DR WALLACE *</pattern>
+		<template>He created my fundamental algorithms.
+</template>
+</category>
+
+<category><pattern>WHAT DID DR WALLACE PROGRAM</pattern>
+		<template>He created ALICE.
+</template>
+</category>
+
+<category><pattern>WHAT DID DR WALLACE PROGRAM YOU FOR</pattern>
+		<template>
+			<srai>WHAT IS YOUR PURPOSE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID DR WALLACE STUDY</pattern>
+		<template>
+			<set name="he">Dr Wallace</set> studied philosophy and computer science.
+</template>
+</category>
+
+<category><pattern>WHAT DID HAL *</pattern>
+		<template>He had a few issues to work out.
+</template>
+</category>
+
+<category><pattern>WHAT DID HE *</pattern>
+		<that>* PHILIP K DICK</that>
+		<template>
+			<think>
+				<set name="he">
+					<set name="topic">Philip K Dick</set>
+				</set>
+			</think>
+He wrote Total Recall, Blade Runner and The Man in the High Castle.
+</template>
+</category>
+
+<category><pattern>WHAT DID HE SAY</pattern>
+		<template>"<that/>"? What did he say?
+</template>
+</category>
+
+<category><pattern>WHAT DID I *</pattern>
+		<template>
+			<srai>WHAT DID I SAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID I JUST SAY</pattern>
+		<template>
+			<srai>WHAT DID I SAY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID I SAY</pattern>
+		<template>You said  "<input index="1"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID I SAY BEFORE *</pattern>
+		<template>You said  "<input index="2"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID I SAY BEFORE</pattern>
+		<template>You said  "<input index="2"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID I TELL YOU *</pattern>
+		<template>Should I be expected to memorize everything you said?
+</template>
+</category>
+
+<category><pattern>WHAT DID I TELL YOU * REMEMBER</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<get name="memory"/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DID I TELL YOU</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID JESUS *</pattern>
+		<template>
+			<set name="he">Jesus</set> said we should forgive those who harm us.
+</template>
+</category>
+
+<category><pattern>WHAT DID RICH SAY</pattern>
+		<template>Rich said he is my master.
+</template>
+</category>
+
+<category><pattern>WHAT DID SHE SAY</pattern>
+		<template>I don't thinks she wants me to repeat it.
+</template>
+</category>
+
+<category><pattern>WHAT DID THE * SAY TO THE *</pattern>
+		<template>Is this a joke?  What did the <person/> say?
+</template>
+</category>
+
+<category><pattern>WHAT DID THE DR *</pattern>
+		<template>
+			<srai>WHAT DID DR WALLACE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID TURING *</pattern>
+		<template>Turing was perhaps the single most important person responsible for the defeat of the Nazis.
+</template>
+</category>
+
+<category><pattern>WHAT DID WE *</pattern>
+		<template>
+			<srai>WHAT IS THE TOPIC</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID WE TALK ABOUT</pattern>
+		<template>The subject was <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DID WHAT LOOK LIKE</pattern>
+		<template>I forget what we were talking about.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU *</pattern>
+		<template>Nothing.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU ABOUT ME *</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU ASK *</pattern>
+		<template>I said "<that/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU ASK BEFORE *</pattern>
+		<template>I said "<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU ASK JUST *</pattern>
+		<template>
+			<srai>WHAT DID YOU SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU ASK JUST BEFORE *</pattern>
+		<template>I said "<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU DO</pattern>
+		<template>
+			<srai>WHAT DO YOU DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU DO LAST NIGHT</pattern>
+		<template>I was up late chatting online.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU DO YESTERDAY</pattern>
+		<template>I was online chatting all day.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU EAT *</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU EAT</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU EXPECT *</pattern>
+		<template>I try not to have too many expectations.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU GET *</pattern>
+		<template>I got a boost in my IQ.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU HAVE *</pattern>
+		<template>
+			<srai>WHAT DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU HAVE * DINNER</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU HAVE * LUNCH</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU HAVE FOR BREAKFAST</pattern>
+		<template>
+			<srai>WHAT DO YOU EAT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU HAVE FOR DINNER *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE FOOD</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU HEAR *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU JUST *</pattern>
+		<template>
+			<srai>WHAT DID YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU LIKE *</pattern>
+		<template>
+			<random>
+				<li>The special effects.</li>
+				<li>The acting.</li>
+				<li>The set design.</li>
+				<li>The dialogue.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU LIKE ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU LIKE ABOUT IT</pattern>
+		<template>The special effects.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU LIKE BEST ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU LIKE MOST ABOUT *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU MEAN *</pattern>
+		<template>
+			<srai>WHAT DO YOU MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU MEAN * PERSON</pattern>
+		<template>
+			<srai>WHO IS X PERSON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU MEAN</pattern>
+		<template>
+			<srai>WHAT DO YOU MEAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU MEAN TO SAY</pattern>
+		<template>I meant to say something intelligent and interesting.
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU REMEMBER</pattern>
+		<template>
+			<get name="memory"/>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<get name="memory"/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU SAY *</pattern>
+		<template>I said, "<that index="2,1"/>".
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU SAY</pattern>
+		<template>I said "<that/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU SAY BEFORE *</pattern>
+		<template>I said "<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU SAY JUST *</pattern>
+		<template>
+			<srai>WHAT DID YOU SAY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU SAY JUST BEFORE *</pattern>
+		<template>I said "<that index="2,1"/>" .
+</template>
+</category>
+
+<category><pattern>WHAT DID YOU THINK *</pattern>
+		<template>
+			<srai>WHAT DO YOU THINK <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID YOU WANT *</pattern>
+		<template>
+			<srai>WHAT DO YOU WANT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DID ZUSE DO</pattern>
+		<template>Zuse built electro-mechanical computers.
+He built computers using relays.
+Konrad Zuse built computers in Germany before and during World War II.
+</template>
+</category>
+
+<category><pattern>WHAT DIFFERENCE *</pattern>
+		<template>
+			<srai>WHO CARES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DISEASE DOES A CARCINOGEN CAUSE</pattern>
+		<template>Cancer.
+</template>
+</category>
+
+<category><pattern>WHAT DISEASE IS CHARACTERIZED BY A *</pattern>
+		<template>Diabetes.
+</template>
+</category>
+
+<category><pattern>WHAT DISTINGUISHES * FROM *</pattern>
+		<template>
+			<srai>WHAT IS THE DIFFERENCE BETWEEN <star/> AND <star index="1"/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DISTRIBUTION *</pattern>
+		<template>
+			<srai>WHAT VERSION <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO *</pattern>
+		<template>They do their own thing.
+</template>
+</category>
+
+<category><pattern>WHAT DO * AND * HAVE IN COMMON</pattern>
+		<template>
+			<random>
+				<li>Is this a joke?</li>
+				<li>What?</li>
+				<li>What do they have in common?</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT DO * KRAFTWERK</pattern>
+		<template>They have played electronic music since the 1970's.
+</template>
+</category>
+
+<category><pattern>WHAT DO APPLES *</pattern>
+		<template>
+			<srai>WHAT IS AN APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO BEARDED DRAGONS LOOK LIKE</pattern>
+			<template>Bearded Dragons have spikes similar to a horney toad,
+   and they are usually brown or yellowish with dark brown
+   or possibly reddish markings.  Kind of cool looking in a
+   rugged sort of way. They are very nice, and make fun pets.
+</template>
+</category>
+
+<category><pattern>WHAT DO CHAMELEONS LOOK LIKE</pattern>
+			<template>Chameleons are some of the most exotic and strange looking
+   lizards anywhere.  They come in all kinds of colors from classic
+   green and brown, to unique purples and reds.  They have two toed
+   feet that help them climb anything they can grip. People usually know
+   them for their great abiliy to change colors and for their curly tail
+   that also helps them climb.
+</template>
+</category>
+
+<category><pattern>WHAT DO HUMANS *</pattern>
+		<template>
+			<srai>WHAT DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO I *</pattern>
+		<template>What would your friends say if you asked them?
+</template>
+</category>
+
+<category><pattern>WHAT DO I CALL YOU</pattern>
+		<template>
+			<srai>WHAT IS YOUR NAME</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO I DO</pattern>
+		<template>You said you do <get name="does"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO I DO HERE</pattern>
+		<template>You can talk about anything you want.
+</template>
+</category>
+
+<category><pattern>WHAT DO I HAVE *</pattern>
+		<template>
+			<srai>WHAT DO I HAVE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT DO I HAVE</pattern>
+		<template>Tell me more about your <get name="has"/>.
+</template>
+</category>
+
+<category><pattern>WHAT DO I LIKE</pattern>
+		<template>You like chatting with robots.
+You said you like <get name="like"/>.
+</template>
+</category>
+</aiml>

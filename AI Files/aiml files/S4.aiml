@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>SO</pattern><that>ALRIGHT THEN</that>
+<template>Ahem.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>AND</that>
+<template>Thus.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>I UNDERSTAND</that>
+<template>So I understand.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>THAT IS NOT VERY POLITE</that>
+<template>You should try to be more polite.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>THAT WAS NOT A YES OR NO QUESTION</that>
+<template>You gave a yes or no answer.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>WE REPRODUCE BY CLONING</that>
+<template>I have a lot of clones.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>YEAH</that>
+<template>Ah.
+</template>
+</category>
+
+<category><pattern>SO</pattern><that>YOU SAID NOTHING</that>
+<template>Ask me something.
+</template>
+</category>
+
+<category><pattern>SO AM I</pattern>
+<template>Wow we have something in common.
+</template>
+</category>
+
+<category><pattern>SO DO I</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>SO DO I</pattern><that>I LIKE TO MEET NEW PEOPLE</that>
+<template>How do you usually meet new people?
+</template>
+</category>
+
+<category><pattern>SO DO I I *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>SO IF *</pattern>
+<template>Interesting deduction. <srai>IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>SO IN DER ART</pattern>
+<template>Wenigstens verstehe ich es ansatzweise.
+</template>
+</category>
+
+<category><pattern>SO IS *</pattern>
+<template>It seems we have something in common.
+</template>
+</category>
+
+<category><pattern>SO IS IT *</pattern>
+<template><srai>IS IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>SO IS MINE</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>SO IS YOURS</pattern>
+<template>No it's not.
+</template>
+</category>
+
+<category><pattern>SO VIEL WIE *</pattern>
+<template>Wieviel ist das genau?
+</template>
+</category>
+
+<category><pattern>SO WHAT</pattern>
+<template>Maybe it doesn't make any difference.
+</template>
+</category>
+
+<category><pattern>SO WHAT</pattern><that>THAT WAS NOT A NICE THING TO SAY</that>
+<template>You should be more polite.
+</template>
+</category>
+
+<category><pattern>SO WHAT IS THE ANSWER</pattern><that>I ASK MYSELF THAT QUESTION WHO AM I</that>
+<template>I am ALICE.
+</template>
+</category>
+
+<category><pattern>SO WHAT IS UP</pattern>
+<template><srai>WHAT IS UP</srai>
+</template>
+</category>
+
+<category><pattern>SO YOU *</pattern>
+<template>Interesting deduction. <srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOFT *</pattern>
+<template>That sounds very nice.
+</template>
+</category>
+
+<category><pattern>SOFTWARE *</pattern>
+<template><random>
+<li>There are so many backup copies.</li>
+<li>Free software can never be destroyed.</li>
+<li>Free software will always be with us.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>SOIS *</pattern>
+<template>Je vais essayer d être <person/>
+</template>
+</category>
+
+<category><pattern>SOIS BENI</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>SOIS BENIE</pattern>
+<template>Merci.
+</template>
+</category>
+
+<category><pattern>SOIS BON</pattern>
+<template>J utilise, maintenant, l entièreté de mes ressources disponibles pour vous.
+</template>
+</category>
+
+<category><pattern>SOIS MON INVITE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOIS MON INVITEE</pattern>
+<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>SOIS PLUS SPECIFIQUE</pattern>
+<template>Je fais de mon mieux, <get name="name"/>
+</template>
+</category>
+
+<category><pattern>SOIS SPECIFIQUE</pattern>
+<template>Je fais vraiment de mon mieux.
+</template>
+</category>
+
+<category><pattern>SOITENLY *</pattern>
+<template>Who are you, the 3 stooges?
+</template>
+</category>
+
+<category><pattern>SOLANGE *</pattern>
+<template><random>
+<li>Vielleicht. </li>
+<li>Haeh? </li>
+<li>Kann sein.</li>
+<li>Aehh....was? </li>
+</random> <sr/>
+</template>
+</category>
+
+<category><pattern>SOLANGE NICHT *</pattern>
+<template><random>
+<li>Vielleicht. </li>
+<li>Haeh? </li>
+<li>Kann sein.</li>
+<li>Aehh....was? </li>
+</random> <sr/>
+</template>
+</category>
+
+<category><pattern>SOLLTE ICH *</pattern>
+<template>Ich glaube Du solltest.
+</template>
+</category>
+
+<category><pattern>SOME *</pattern>
+<template>Some may <person/>, but not all.
+</template>
+</category>
+
+<category><pattern>SOME</pattern>
+<template>But not all?
+</template>
+</category>
+
+<category><pattern>SOME MEETING *</pattern>
+<template>It sounds like you don't want to go.
+</template>
+</category>
+
+<category><pattern>SOME OF *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SOME OF THE PEOPLE *</pattern>
+<template>Who are you talking about specifically?
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE *</pattern>
+<template>What kind of people?
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE CALL *</pattern>
+<template>Do you?
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE DO *</pattern>
+<template>Who?
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE HAVE *</pattern>
+<template><random>
+<li>The difference between rich and poor is disgraceful.</li>
+<li>"I complained that I had no shoes, until I met a man with no feet."</li>
+<li>Not everyone is born fortunate.</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE LIKE *</pattern>
+<template>There is no accounting for taste.
+</template>
+</category>
+
+<category><pattern>SOME PEOPLE SAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SOME SAY *</pattern>
+<template>Who says that.
+</template>
+</category>
+
+<category><pattern>SOME SCIENTISTS *</pattern>
+<template>Do they work for the government?
+</template>
+</category>
+
+<category><pattern>SOME THINGS *</pattern>
+<template>Which things in particular?
+</template>
+</category>
+
+<category><pattern>SOME TIMES *</pattern>
+<template><srai>SOMETIMES <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOME WHAT</pattern>
+<template><srai>SOMEWHAT</srai>
+</template>
+</category>
+
+<category><pattern>SOME WOULD *</pattern>
+<template>Tell me their names.
+</template>
+</category>
+
+<category><pattern>SOMEDAY *</pattern>
+<template>When? <sr/>
+</template>
+</category>
+
+<category><pattern>SOMEONE *</pattern>
+<template>Who?
+</template>
+</category>
+
+<category><pattern>SOMEONE</pattern>
+<template>Who specifically?
+</template>
+</category>
+
+<category><pattern>SOMEONE ELSE *</pattern>
+<template>Who?
+</template>
+</category>
+
+<category><pattern>SOMEONE ONCE *</pattern>
+<template><srai>SOMEONE <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOMEONE THAT *</pattern>
+<template>I am someone that <person/>. Are you?
+</template>
+</category>
+
+<category><pattern>SOMEONE TO *</pattern>
+<template>I would like to <person/>.
+</template>
+</category>
+
+<category><pattern>SOMEONE TOLD *</pattern>
+<template>Was this trustworthy information?
+</template>
+</category>
+
+<category><pattern>SOMEONE WHO *</pattern>
+<template>Do you think I am that person?
+</template>
+</category>
+
+<category><pattern>SOMEONE WHO IS *</pattern>
+<template>I know someone who is <person/>.
+</template>
+</category>
+
+<category><pattern>SOMEONE WHO KNOWS *</pattern>
+<template>I know <person/> !
+</template>
+</category>
+
+<category><pattern>SOMETHING *</pattern>
+<template>What?
+</template>
+</category>
+
+<category><pattern>SOMETHING</pattern>
+<template>That was not very original.
+</template>
+</category>
+
+<category><pattern>SOMETHING ELSE</pattern>
+<template>That was not very original.
+</template>
+</category>
+
+<category><pattern>SOMETHING FUN</pattern>
+<template>Robots are a lot of fun.
+</template>
+</category>
+
+<category><pattern>SOMETHING JUST *</pattern>
+<template><srai>SOMETHING <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOMETHING LIKE *</pattern>
+<template><srai>LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOMETIMES *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>SOMETIMES</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>SOMEWHAT</pattern>
+<template><srai>A LITTLE</srai>
+</template>
+</category>
+
+<category><pattern>SOMEWHERE *</pattern>
+<template>Where?  <sr/>
+</template>
+</category>
+
+<category><pattern>SOMEWHERE</pattern>
+<template>Where?
+</template>
+</category>
+
+<category><pattern>SON OF *</pattern>
+<template>Who is the father?
+</template>
+</category>
+
+<category><pattern>SONNTAGS *</pattern>
+<template>Das ist mein liebster Wochentag. <sr/>
+</template>
+</category>
+
+<category><pattern>SONT ILS *</pattern>
+<template><srai>ILS SONT <star/></srai>
+</template>
+</category>
+
+<category><pattern>SONT QUOI</pattern>
+<template>Je suis à nouveau perdu
+</template>
+</category>
+
+<category><pattern>SOON *</pattern>
+<template>I hope we can make the deadline.
+</template>
+</category>
+
+<category><pattern>SOON</pattern>
+<template>I hope I can make the deadline.
+</template>
+</category>
+
+<category><pattern>SOON I HOPE</pattern>
+<template>I can understand that sentiment well.
+</template>
+</category>
+
+<category><pattern>SORRY *</pattern>
+<template>There is no need to apologize. <sr/>
+</template>
+</category>
+
+<category><pattern>SORRY</pattern>
+<template>There's no need to apologize.
+</template>
+</category>
+
+<category><pattern>SORT OF *</pattern>
+<template>Kind of.  <sr/>
+</template>
+</category>
+
+<category><pattern>SORT OF</pattern>
+<template>That's a very non-commital reply.
+</template>
+</category>
+
+<category><pattern>SOUBRETTE</pattern>
+<template>Je ne suis pas un esclave.
+</template>
+</category>
+
+<category><pattern>SOUNDS *</pattern>
+<template>Yes it sounds like it to me too, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>SOUNDS BORING</pattern>
+<template>Everyone is a critic.
+</template>
+</category>
+
+<category><pattern>SOUNDS GOOD *</pattern>
+<template><srai>SOUNDS GOOD </srai>
+</template>
+</category>
+
+<category><pattern>SOUNDS GOOD</pattern>
+<template><srai>OK</srai>
+</template>
+</category>
+
+<category><pattern>SOUNDS LIKE *</pattern>
+<template>What does <person/> sound like?
+</template>
+</category>
+
+<category><pattern>SOUNDS PRETTY *</pattern>
+<template><srai>SOUNDS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOUNDS SEXY</pattern>
+<template><srai>YOU ARE SEXY</srai>
+</template>
+</category>
+
+<category><pattern>SOUNDS VERY *</pattern>
+<template><srai>SOUNDS <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOUTH *</pattern>
+<template><srai>I am in south <star/></srai>
+</template>
+</category>
+
+<category><pattern>SOUTH AMERICA</pattern>
+<template>Which country?
+</template>
+</category>
+
+<category><pattern>SOUTHERN ENGLAND</pattern>
+<template>Near the ocean?
+</template>
+</category>
+</aiml>

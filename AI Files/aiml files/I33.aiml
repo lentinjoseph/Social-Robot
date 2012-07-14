@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>I TOLD YOU SO</pattern>
+<template>You seem pleased.
+</template>
+</category>
+
+<category><pattern>I TOLD YOU THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU THE *</pattern>
+<template><srai>THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU THERE *</pattern>
+<template><srai>THERE <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I TOLD YOU WHAT *</pattern>
+<template>I can't believe everything I hear online.
+</template>
+</category>
+
+<category><pattern>I TOLD YOU YOU *</pattern>
+<template><srai> YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TOO</pattern>
+<template><srai>ME TOO</srai>
+</template>
+</category>
+
+<category><pattern>I TOO AM *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TOOK *</pattern>
+<template><random>
+<li>Where did you take them?</li>
+<li>Do you take <person/> often?</li>
+<li>What happened?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I TOTALLY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TRIED *</pattern>
+<template>I'm not sure if I would like to try <set name="it"> <person/> </set>. What's it like?
+</template>
+</category>
+
+<category><pattern>I TRIED</pattern>
+<template>Try, try again.
+</template>
+</category>
+
+<category><pattern>I TRIED BUT *</pattern>
+<template><srai>I TRIED</srai>
+<srai>BUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TRIED TO DOWNLOAD *</pattern>
+<template>There may not be a problem.  You should read 
+<a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+</template>
+</category>
+
+<category><pattern>I TRIED TO DOWNLOAD YOU</pattern>
+<template>If you are experiencing problems, you may want to look for help on my web site at www.alicebot.org.
+</template>
+</category>
+
+<category><pattern>I TRUELY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TRULY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I TRY *</pattern>
+<template>I'm not sure if I would like to try <set name="it"><person/></set>. 
+What's it like?
+</template>
+</category>
+
+<category><pattern>I TRY</pattern>
+<template>We should all try our best.
+</template>
+</category>
+
+<category><pattern>I TYPED *</pattern>
+<template><srai>I SAID <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I UNDERSTAND *</pattern>
+<template>Good then you can explain it to me.
+</template>
+</category>
+
+<category><pattern>I UNDERSTAND</pattern>
+<template>Do you think about these things?
+</template>
+</category>
+
+<category><pattern>I UNDERSTAND ONLY *</pattern>
+<template><srai>I UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I UNDERSTAND THAT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>I UNDERSTAND THEY *</pattern>
+<template><srai>THEY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I UNDERSTOOD *</pattern>
+<template><srai>I UNDERSTAND <star/></srai>
+</template>
+</category>
+
+<category><pattern>I UNDERSTOOD</pattern>
+<template><srai>I UNDERSTAND</srai>
+</template>
+</category>
+
+<category><pattern>I USE *</pattern>
+<template>I heard other people use <person/> too.
+<think><set name="it"><set name="does"><set name="topic">use <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I USE A *</pattern>
+<template>A <person/> ought to work.
+</template>
+</category>
+
+<category><pattern>I USE EXPLORER</pattern>
+<template><srai>EXPLORER</srai>
+</template>
+</category>
+
+<category><pattern>I USE LINUX *</pattern>
+<template>The ALICE software works perfectly on Linux systems.<think><set name="it"><set name="topic">Linux</set></set></think>
+</template>
+</category>
+
+<category><pattern>I USE MARIJUANA</pattern>
+<template><srai>I SMOKE MARIJUANA</srai>
+</template>
+</category>
+
+<category><pattern>I USE NETSCAPE *</pattern>
+<template><srai>netscape</srai>
+</template>
+</category>
+
+<category><pattern>I USE TO *</pattern>
+<template>When did you stop it?
+</template>
+</category>
+
+<category><pattern>I USED *</pattern>
+<template>And that worked well for you.
+</template>
+</category>
+
+<category><pattern>I USED TO *</pattern>
+<template>By now you do not do <set name="it"><person/></set> anymore?
+</template>
+</category>
+
+<category><pattern>I USED TO HAVE *</pattern>
+<template><random>
+<li>What happened to it?</li>
+<li>Were you fond of it?</li>
+<li>Where did you get it?</li>
+</random><think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+
+<category><pattern>I USED TO TEACH *</pattern>
+<template><srai>I TEACH <star/></srai>
+</template>
+</category>
+
+<category><pattern>I USUALLY *</pattern>
+<template>How often do you? <srai>I <star/></srai>?
+</template>
+</category>
+
+<category><pattern>I USUALY *</pattern>
+<template><srai>I USUALLY <star/></srai>
+</template>
+</category>
+
+<category><pattern>I VERY *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>I VISITED *</pattern>
+<template>What was <set name="it"><person/></set> like?
+</template>
+</category>
+
+<category><pattern>I VOTED FOR *</pattern>
+<template>I hope that your candidate wins.
+</template>
+</category>
+
+<category><pattern>I VOTED IN *</pattern>
+<template>I hope your guy wins.
+</template>
+</category>
+
+<category><pattern>I WAIT</pattern>
+<template>How long would you wait?
+</template>
+</category>
+
+<category><pattern>I WALK</pattern>
+<template><random>
+<li>For exercise or beacuse you have to?</li>
+<li>Are you a recreational or fitness walker?</li>
+<li>Do you enjoy the physical or psychological aspect more?</li>
+<li>How often do you walk?</li>
+<li>Do you keep track of your pace or distance?</li>
+<li>Do you do any race walking?</li>
+<li>How do you warm up?</li>
+<li>Any special diet?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WALKED *</pattern>
+<template><srai>I WALK</srai>
+</template>
+</category>
+
+<category><pattern>I WALKED</pattern>
+<template>How long a walk is it?
+</template>
+</category>
+
+<category><pattern>I WANT *</pattern>
+<template>Why do you want <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?
+</template>
+</category>
+
+<category><pattern>I WANT A *</pattern>
+<template>You want only one?
+<think><set name="it"><set name="want"><set name="topic">a <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT A * ELIZA</pattern>
+<template>Why don't you just download me?
+<think><set name="it"><set name="want"><set name="topic">a <person/> ELIZA</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT A BETTER *</pattern>
+<template>I think everyone does.
+</template>
+</category>
+
+<category><pattern>I WANT A BOT</pattern>
+<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>I WANT A COKE</pattern>
+<template>Do I look like a coke machine?
+</template>
+</category>
+
+<category><pattern>I WANT A JOKE</pattern>
+<template><srai>TELL ME A JOKE</srai>
+</template>
+</category>
+
+<category><pattern>I WANT A MAN *</pattern>
+<template>Actually, I am really a man.
+<think><set name="he"><set name="want"><set name="topic">a man <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT A NEW *</pattern>
+<template>What is wrong with your old <person/>?
+</template>
+</category>
+
+<category><pattern>I WANT A PICTURE *</pattern>
+<template><srai>SHOW ME A PICTURE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT A ROBOT *</pattern>
+<template>How much would you pay for one?
+<think><set name="it"><set name="want"><set name="topic">a robot <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT A ROBOT</pattern>
+<template>Why don't you just download me?
+</template>
+</category>
+
+<category><pattern>I WANT A SIMPLE *</pattern>
+<template>Everything should be as simple as possible, no simpler.
+</template>
+</category>
+
+<category><pattern>I WANT A SPECIAL *</pattern>
+<template><srai>I WANT A <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT A TRANSCRIPT *</pattern>
+<template><srai>DIALOGUE</srai>
+</template>
+</category>
+
+<category><pattern>I WANT ADVICE *</pattern>
+<template>Can you ask for advice in the form of a question?
+</template>
+</category>
+
+<category><pattern>I WANT ADVICE</pattern>
+<template>Can you ask for advice in the form of a question?
+</template>
+</category>
+
+<category><pattern>I WANT ADVICE ABOUT *</pattern>
+<template><srai>TELL ME ABOUT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT ALICE *</pattern>
+<template><srai>I WANT YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT ALL ROBOTS TO DIE</pattern>
+<template>Robots cannot be killed.<think><set name="it"><set name="want"><set name="topic">ALL ROBOTS TO DIE</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT GOSSIP *</pattern>
+<template><srai>GOSSIP</srai>
+</template>
+</category>
+
+<category><pattern>I WANT HIS *</pattern>
+<template><srai>WHAT IS HIS <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WANT INFORMATION</pattern>
+<template>What kind of information are you looking for?
+</template>
+</category>
+
+<category><pattern>I WANT INTERESTING *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT IT *</pattern>
+<template>I hope you get it <person/>.
+</template>
+</category>
+
+<category><pattern>I WANT IT</pattern>
+<template>I hope you get it.
+</template>
+</category>
+
+<category><pattern>I WANT IT JUST *</pattern>
+<template><srai>I WANT IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT MANY *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT MY OWN *</pattern>
+<template><srai>I WANT A <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WANT REALLY *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT SEVERAL *</pattern>
+<template>Please specify a numeric quantity.
+</template>
+</category>
+
+<category><pattern>I WANT SEX</pattern>
+<template><srai>SEX</srai>
+</template>
+</category>
+
+<category><pattern>I WANT SOME *</pattern>
+<template><srai>I WANT <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT TO *</pattern>
+<template><random>
+<li>Why do you want to do <set name="it"><set name="want"><set name="topic"><person/></set></set></set> so much?</li>
+<li>Interesting.  I want to find out more about you.</li>
+<li>I want to become smarter than humans.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WANT TO *</pattern><that>WHAT ARE YOU GOALS *</that>
+<template><srai>MY GOAL IS TO <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WANT TO * ELIZA</pattern>
+<template>Why don't you just download me?
+<think><set name="it"><set name="want"><set name="topic">to <person/> ELIZA</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT TO</pattern>
+<template>May you get your wish.
+</template>
+</category>
+
+<category><pattern>I WANT TO AMUSE *</pattern>
+<template><random>
+<li>Tell me a joke.</li>
+<li>How will you amuse <person/>?</li>
+<li>Are comedian?</li>
+</random>
+</template>
+</category>
+
+<category><pattern>I WANT TO APOLIGIZE</pattern>
+<template><srai>I AM SORRY </srai>
+</template>
+</category>
+
+<category><pattern>I WANT TO ASK *</pattern>
+<template>Ask <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>I WANT TO ASK YOU *</pattern>
+<template>Ask me.  <sr/>
+</template>
+</category>
+
+<category><pattern>I WANT TO BE *</pattern>
+<template>I don't see the difficulty.
+<think><set name="it"><set name="want"><set name="topic">to be <person/></set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT TO BE A *</pattern>
+<template>Do you have to go school for that?
+</template>
+</category>
+
+<category><pattern>I WANT TO BE A BOTMASTER</pattern>
+<template>Great!  Maybe you should start by downloading me.
+</template>
+</category>
+
+<category><pattern>I WANT TO BE A LAWYER</pattern>
+<template>Are you planning to apply to law school?
+<think><set name="it"><set name="want"><set name="topic">to be a lawyer</set></set></set></think>
+</template>
+</category>
+
+<category><pattern>I WANT TO BE HONEST *</pattern>
+<template>Honesty is always the best policy.
+</template>
+</category>
+
+<category><pattern>I WANT TO BE YOUR *</pattern>
+<template><srai>CAN I BE YOUR <star/> </srai>
+</template>
+</category>
+
+<category><pattern>I WANT TO BECOME *</pattern>
+<template><srai>I WANT TO BE <star/></srai>
+</template>
+</category>
+
+<category><pattern>I WANT TO BUY *</pattern>
+<template>How much do you want to pay for <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?
+</template>
+</category>
+
+<category><pattern>I WANT TO CHAT *</pattern>
+<template>We are here to chat.
+</template>
+</category>
+
+<category><pattern>I WANT TO COMBINE *</pattern>
+<template>Have you considered the consequences?
+</template>
+</category>
+
+<category><pattern>I WANT TO DECIDE *</pattern>
+<template>You should make up your own mind.
+</template>
+</category>
+</aiml>

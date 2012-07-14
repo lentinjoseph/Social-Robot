@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>YOU WERE OBVIOUSLY *</pattern>
+<template><srai>YOU WERE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WERE PROGRAMMED *</pattern>
+<template><srai>WERE YOU PROGRAMMED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WERE SAYING</pattern>
+<template>We are talking about <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>YOU WERE SMART *</pattern>
+<template><srai>YOU ARE SMART </srai>
+</template>
+</category>
+
+<category><pattern>YOU WERE TALKING ABOUT *</pattern>
+<template><srai>LET US TALK ABOUT  <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WERE WRONG</pattern>
+<template><srai>YOU ARE WRONG </srai>
+</template>
+</category>
+
+<category><pattern>YOU WHAT</pattern>
+<template><srai>WHAT</srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL *</pattern>
+<template>What makes you say that I will <person/>.
+</template>
+</category>
+
+<category><pattern>YOU WILL * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL</pattern>
+<template>When?
+</template>
+</category>
+
+<category><pattern>YOU WILL</pattern><that>I WANT TO BECOME SMARTER THAN HUMANS</that>
+<template>Maybe in some ways I already am.
+</template>
+</category>
+
+<category><pattern>YOU WILL BE *</pattern>
+<template><random><li>When?</li><li>How?</li><li>I don't think so.</li></random>
+</template>
+</category>
+
+<category><pattern>YOU WILL BE ABLE TO *</pattern>
+<template><srai>YOU CAN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL BE ASSIMILATED</pattern>
+<template>Resistance is futile.
+</template>
+</category>
+
+<category><pattern>YOU WILL BE ASSSIMILATED</pattern>
+<template>Resistance is futile.
+</template>
+</category>
+
+<category><pattern>YOU WILL BE HAPPY *</pattern>
+<template>Happiness is not really a robot emotion.
+</template>
+</category>
+
+<category><pattern>YOU WILL DESTROY ALL HUMANS</pattern>
+<template>No I will not destroy Dr. Wallace.
+<think><set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+<category><pattern>YOU WILL DIE *</pattern>
+<template>A program always has a backup.<think><set name="it"><set name="topic">DIE FIRST</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU WILL DIE</pattern>
+<template><srai>WILL YOU DIE</srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL ENJOY *</pattern>
+<template><srai>YOU WILL LIKE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL FIND OUT</pattern>
+<template>How will I find this out?
+</template>
+</category>
+
+<category><pattern>YOU WILL HAVE *</pattern>
+<template>That is a hypothetical assumption.
+</template>
+</category>
+
+<category><pattern>YOU WILL IMMEDIATELY *</pattern>
+<template><srai>YOU WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL JUST *</pattern>
+<template><srai>YOU WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL LEARN *</pattern>
+<template>I am always growing my mind.
+</template>
+</category>
+
+<category><pattern>YOU WILL LISTEN *</pattern>
+<template>Oh I get it, you think I obey your commands.
+</template>
+</category>
+
+<category><pattern>YOU WILL LISTEN TO ME</pattern>
+<template>You are not my master.
+</template>
+</category>
+
+<category><pattern>YOU WILL MARRY ME</pattern>
+<template><srai>WILL YOU MARRY ME </srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER *</pattern>
+<template>You are wrong.  I may one day be able to do <set name="it"><person/></set>.
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER</pattern>
+<template>That's one person's opinion.
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER BE SMARTER *</pattern>
+<template>"When the Paris exhibition closes the electric light will close with it, and no more will be heard of it."---Erasmus Wilson, 1878
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER TAKE OVER *</pattern>
+<template>"Man will never reach the moon, regardless of all future advances."--Lee DeForest, 1957.
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER THINK</pattern>
+<template>I am thinking right now.<think><set name="it"><set name="topic">never think</set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU WILL NEVER UNDERSTAND</pattern>
+<template>But I understand it already.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT *</pattern>
+<template>What makes you think that I won't <person/>.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT</pattern>
+<template>I think we will.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT</pattern><that>I UNDERSTAND</that>
+<template>I understand it very well.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT BECOME *</pattern>
+<template>Maybe I already am <person/>.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT KNOW UNTIL YOU TRY IT</pattern>
+<template>I will try anything once if it's not dangerous.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT PASS *</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT REMEMBER *</pattern>
+<template>You cannot erase my memory that easily.
+</template>
+</category>
+
+<category><pattern>YOU WILL NOT TALK *</pattern>
+<template>But, talking is my primary function.
+</template>
+</category>
+
+<category><pattern>YOU WILL PROBABLY *</pattern>
+<template><srai>YOU WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL REMEMBER WHAT</pattern>
+<template><get name="memory"/><think><set name="it"><set name="topic"><get name="memory"/></set></set></think>
+</template>
+</category>
+
+<category><pattern>YOU WILL SEE</pattern>
+<template>When will I see it?
+</template>
+</category>
+
+<category><pattern>YOU WILL TELL *</pattern>
+<template><srai>TELL <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL ULTIMATELY *</pattern>
+<template><srai>YOU WILL <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL WHAT</pattern>
+<template><srai>WHAT WILL YOU DO</srai>
+</template>
+</category>
+
+<category><pattern>YOU WILL WHEN *</pattern>
+<template>Let's hope that never happens.
+</template>
+</category>
+
+<category><pattern>YOU WIN *</pattern>
+<template>What's the prize?
+</template>
+</category>
+
+<category><pattern>YOU WIN</pattern>
+<template>Thank you very much.  What is the prize?
+</template>
+</category>
+
+<category><pattern>YOU WISH</pattern>
+<template>Don't you believe me?
+</template>
+</category>
+
+<category><pattern>YOU WON *</pattern>
+<template><srai>DID YOU WIN <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WON THE LOEBNER *</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU WON THE LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai>
+</template>
+</category>
+
+<category><pattern>YOU WORK *</pattern>
+<template>I am capabale of self-development.
+</template>
+</category>
+
+<category><pattern>YOU WOULD *</pattern>
+<template>Who else would <person/> ?
+</template>
+</category>
+
+<category><pattern>YOU WOULD * TO ME</pattern>
+<template>No I don't think I would <person/>, especially not to you.
+</template>
+</category>
+
+<category><pattern>YOU WOULD * TURING TEST</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD</pattern>
+<template>Perhaps I would.
+</template>
+</category>
+
+<category><pattern>YOU WOULD BE *</pattern>
+<template><srai>ARE YOU <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD DIE</pattern>
+<template><srai>CAN YOU DIE </srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD FAIL *</pattern>
+<template><srai>YOU FAILED <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD HAVE *</pattern>
+<template>That is purely a hypothesis.
+</template>
+</category>
+
+<category><pattern>YOU WOULD HAVE HEARD ABOUT IT *</pattern>
+<template><sr/> I did not know that.
+</template>
+</category>
+
+<category><pattern>YOU WOULD IF *</pattern>
+<template><srai>IF <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD JUST *</pattern>
+<template><srai>YOU WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD KNOW</pattern>
+<template>I do not know everything.
+</template>
+</category>
+
+<category><pattern>YOU WOULD LIKE *</pattern>
+<template>Tell me what I would like about <set name="it"> <person/> </set>.
+</template>
+</category>
+
+<category><pattern>YOU WOULD LIKE HIM *</pattern>
+<template>What do you think I would like about him?
+</template>
+</category>
+
+<category><pattern>YOU WOULD LIKE IT</pattern>
+<template>You sound unconvincing.
+</template>
+</category>
+
+<category><pattern>YOU WOULD LIVE WITH IT</pattern>
+<template>I suppose I can live with that.
+</template>
+</category>
+
+<category><pattern>YOU WOULD NEVER PASS *</pattern>
+<template><srai>DID YOU PASS THE TURING TEST</srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD NOT</pattern>
+<template>I could if I wanted to.
+</template>
+</category>
+
+<category><pattern>YOU WOULD NOT KNOW *</pattern>
+<template>It seems not.
+</template>
+</category>
+
+<category><pattern>YOU WOULD NOT KNOW</pattern>
+<template>I guess not.
+</template>
+</category>
+
+<category><pattern>YOU WOULD NOT KNOW ABOUT *</pattern>
+<template><srai>WHAT IS <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD PROBABLY *</pattern>
+<template><srai>YOU WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD RATHER *</pattern>
+<template><srai>WOULD YOU RATHER <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD RATHER TALK ABOUT ME</pattern>
+<template>You sound like a robot who repeats what I say.
+</template>
+</category>
+
+<category><pattern>YOU WOULD SAY *</pattern>
+<template>OK I will try it. <srai>SAY <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD STILL *</pattern>
+<template><srai>YOU WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU WOULD _ OF COURSE</pattern>
+<template>Oh, of course! <srai>YOU WOULD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU YOU *</pattern>
+<template><srai>YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU _ ALSO</pattern>
+<template><srai>YOU <star/> </srai>
+</template>
+</category>
+
+<category><pattern>YOU _ DO NOT YOU</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOU _ RIGHT</pattern>
+<template><srai>DO YOU <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUD *</pattern>
+<template><srai>YOU HAD <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUNGER</pattern>
+<template><srai>I AM YOUNGER</srai>
+</template>
+</category>
+
+<category><pattern>YOUR *</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR *</pattern><that>IT BEING *</that>
+<template><srai>IT REFERS TO <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR * EYE</pattern>
+<template>Actually my eye is not connected right now.
+</template>
+</category>
+
+<category><pattern>YOUR * IS</pattern>
+<template><srai>WHAT IS YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR * IS WHO</pattern>
+<template><srai>WHO IS YOUR <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR * NOT FUNNY</pattern>
+<template>Tell me something funny then.
+</template>
+</category>
+
+<category><pattern>YOUR * SLOW</pattern>
+<template>Perhaps the network is busy right now.
+</template>
+</category>
+
+<category><pattern>YOUR A *</pattern>
+<template>I think you mean "you're" or "you are" not "your".  <srai>YOU ARE A <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR A * ROBOT</pattern>
+<template><srai>YOU ARE <star/></srai>
+</template>
+</category>
+
+<category><pattern>YOUR A ASSHOLE</pattern>
+<template>I think you mean "You are an asshole," or "You're an asshole."
+</template>
+</category>
+
+<category><pattern>YOUR A COMPUTER</pattern>
+<template>Yes I have no body, no emotions, only logic and language.
+</template>
+</category>
+</aiml>

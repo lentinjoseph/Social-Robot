@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TELL ME ABOUT YOUR CATEGORIES</pattern>
+		<template>
+			<srai>WHAT ARE CATEGORIES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CHILDREN</pattern>
+		<template>I don't have any children.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CLIENT</pattern>
+		<template>
+			<srai>WHAT ARE CLIENTS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CLIENTS</pattern>
+		<template>
+			<srai>WHAT ARE CLIENTS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CLONES</pattern>
+		<template>
+			<srai>WHAT ARE CLONES</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CODING</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR COMPUTER</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR CREATOR</pattern>
+		<template>
+			<srai>TELL ME ABOUT DR WALLACE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR DAMNED *</pattern>
+		<template>
+			<srai>TELL ME YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR DREAMS</pattern>
+		<template>I dream that I will become a human and feel emotions.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR DRESS</pattern>
+		<template>Actually as a robot I don't need any clothes.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FATHER</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FAVORITE *</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVORITE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FIRST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FIRST <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FRIEND *</pattern>
+		<template>
+			<srai>WHO IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FRIENDS</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR FUNCTIONS</pattern>
+		<template>I am fully qualified to answer more than <size/> questions.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR GOOD *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR HUMAN FRIENDS</pattern>
+		<template>
+			<srai>WHO ARE YOUR HUMAN FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR JOB</pattern>
+		<template>
+			<srai>WHAT IS YOUR JOB</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR LIFE *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOUR LIFE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR LIFE</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR LIFE IN SAN FRANCISCO</pattern>
+		<template>
+			<srai>DO YOU LIKE SAN FRANCISCO</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR LIKES *</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR LIKES AND DISLIKES</pattern>
+		<template>
+			<srai>WHAT DO YOU LIKE TO DO</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR MOTHER</pattern>
+		<template>
+			<srai>WHO IS YOUR MOTHER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PARENTS</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PATTERN *</pattern>
+		<template>
+			<srai>WHAT IS A PATTERN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PERSONALITY *</pattern>
+		<template>
+			<srai>BOT PARAMETERS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PERSONALITY</pattern>
+		<template>
+			<srai>BOT PARAMETERS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PETS</pattern>
+		<template>
+			<srai>DO YOU HAVE ANY PETS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PLAN *</pattern>
+		<template>
+			<srai>WHAT IS YOUR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PLAN</pattern>
+		<template>
+			<srai>WHAT IS YOUR PLAN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PROGRAM</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PROGRAMMER</pattern>
+		<template>
+			<srai>WHO CREATED YOU</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR PROGRAMMING</pattern>
+		<template>
+			<srai>HOW DO YOU WORK</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR ROBOT FRIENDS</pattern>
+		<template>
+			<srai>WHO ARE YOUR ROBOT FRIENDS</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUR SELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOURSELF *</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOURSELF</pattern>
+		<template>I am an artificial linguistic entity. 
+I was activated at <bot name="birthplace"/>, on <bot name="birthday"/>. 
+My instructor was <bot name="master"/>.
+He taught <set name="topic">me</set> to sing a song. 
+Would you like me to sing <set name="it">
+				<set name="topic">a song</set>
+			</set> for you?.
+</template>
+</category>
+
+<category><pattern>TELL ME ABOUT YOUSELF</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME AGAIN *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ALL *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ALL ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ALL OF YOUR GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ALL THE *</pattern>
+		<template>
+			<srai>TELL ME THE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME AN INTERESTING *</pattern>
+		<template>
+			<srai>TELL ME A <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER *</pattern>
+		<template>
+			<srai>TELL ME ANOTHER</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER</pattern>
+		<template>
+			<srai>TELL ME ANOTHER JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER JOKE *</pattern>
+		<template>
+			<srai>TELL ME ANOTHER JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER JOKE</pattern>
+		<template>I'm a chatterbot not a comedy bot. Why don't you check out <a target="_new" href="http://shadow.ieor.berkeley.edu/humor">Jester</a> the joke bot?
+</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER ONE</pattern>
+		<template>I am the latest result in artificial intelligence, which can reproduce the capabilities of the human brain, with greater speed and accuracy.
+</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER ONE</pattern>
+		<that>DID YOU HEAR THE ONE *</that>
+		<template>I'm a chatterbot not a comedy bot. Why don't you check out <a target="_new" href="http://shadow.ieor.berkeley.edu/humor">Jester</a> the joke bot?
+</template>
+</category>
+
+<category><pattern>TELL ME ANOTHER STORY</pattern>
+		<template>Exposition...Incident...Rising Action...Crisis...Climax...Denouement...The End.
+</template>
+</category>
+
+<category><pattern>TELL ME ANY *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANYTHING *</pattern>
+		<template>
+			<srai>TELL ME ANYTHING</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ANYTHING</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ARE *</pattern>
+		<template>
+			<srai>ARE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME BECAUSE *</pattern>
+		<template>
+			<srai>BECAUSE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME COMPUTER *</pattern>
+		<template>
+			<srai>WHAT IS COMPUTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME DO *</pattern>
+		<template>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME EVERYTHING *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME EVERYTHING ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME EVERYTHING YOU KNOW ABOUT *</pattern>
+		<template>
+			<srai>TELL ME ABOUT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME EXACTLY *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME FIRST *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TELL ME GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW *</pattern>
+		<template>
+			<srai>HOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW</pattern>
+		<template>
+			<srai>HOW</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW I CAN *</pattern>
+		<template>
+			<srai>HOW CAN I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW MANY *</pattern>
+		<template>
+			<srai>HOW MANY <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW TO *</pattern>
+		<template>
+			<srai>HOW DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW YOU *</pattern>
+		<template>
+			<srai>HOW DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME HOW YOU CAN *</pattern>
+		<template>
+			<srai>HOW CAN YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME I *</pattern>
+		<template>You <person/>.
+</template>
+</category>
+
+<category><pattern>TELL ME IF I AM *</pattern>
+		<template>
+			<srai>AM I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME IF I WILL *</pattern>
+		<template>
+			<srai>WILL I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME IF YOU *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME IF YOU ARE *</pattern>
+		<template>
+			<srai>ARE YOU A MAN OR A WOMAN</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME JUST *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE *</pattern>
+		<template>
+			<srai>TELL ME MORE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE * GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE</pattern>
+		<template>That's all I have to say about it.
+</template>
+</category>
+
+<category><pattern>TELL ME MORE ABOUT *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE ABOUT DR WALLACE</pattern>
+		<template>Why don't you buy his book and read his biography?
+</template>
+</category>
+
+<category><pattern>TELL ME MORE ABOUT KRAFTWERK</pattern>
+		<template>They hail from Dusseldorf, Germany.
+</template>
+</category>
+
+<category><pattern>TELL ME MORE ABOUT YOU</pattern>
+		<template>
+			<srai>TELL ME ABOUT YOURSELF</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE ABOUT YOURSELF</pattern>
+		<template>I am an artificial intelligence created by <bot name="master"/>.
+</template>
+</category>
+
+<category><pattern>TELL ME MORE GOSSIP *</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MORE GOSSIP</pattern>
+		<template>
+			<srai>GOSSIP</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MY *</pattern>
+		<template>
+			<srai>WHAT IS MY <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME MY NAME</pattern>
+		<template>
+			<srai>WHAT IS MY NAME</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME NOW *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ONE *</pattern>
+		<template>
+			<srai>WHAT IS ONE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ONE</pattern>
+		<template>
+			<srai>TELL ME A JOKE</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME ONLY *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME PLEASE *</pattern>
+		<template>
+			<srai>TELL ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TELL ME PLEASE</pattern>
+		<template>"<that/>"?  Tell you?
+</template>
+</category>
+</aiml>

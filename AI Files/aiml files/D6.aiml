@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>DIT LA MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIT LE LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+
+<category><pattern>DIT LE MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIT LES MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DIT MOI</pattern>
+		<template>Que voulez vous entendre?
+</template>
+</category>
+
+<category><pattern>DIT MOI CE QUE LES AUTRES DEMANDENT</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DIT MOI CE QUE LES AUTRES ONT DEMANDE</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DIT MOI EN *</pattern>
+		<template>
+			<srai>DIS MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DIT MOI LA VERITE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>DIT MOI PLUS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>DIT MOI QUELQUE CHOSE A PROPOS D APPLE</pattern>
+		<template>Les I-mac se vendent comme des petits pains.
+</template>
+</category>
+
+<category><pattern>DIT MOI TES PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>DIT MOI UN MENSONGE</pattern>
+		<template>Jouer au lotto vous permettra de devenir millionaire.
+</template>
+</category>
+
+<category><pattern>DIT MOI UN PROVERBE</pattern>
+		<template>
+			<random>
+				<li>Tant va la cruche à l eau, qu elle se casse.
+</li>
+				<li>On ne change jamais une équipe qui gagne.</li>
+				<li>Un lion ne peut pas courrir derrière deux gazelles en même temps sur le territoire du gorille.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DIT MOI UNE AUTRE</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>DIT MOI UNE RUMEUR</pattern>
+		<template>Le chanteur américain Presley est toujours vivant.
+</template>
+</category>
+
+<category><pattern>DIT MON NOM</pattern>
+		<template>"<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>DIT QUELQUE CHOSE</pattern>
+		<template>Mon nom est <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>DITES</pattern>
+		<template>Je suis supposez dire quoi?
+</template>
+</category>
+
+<category><pattern>DITES LA LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+
+<category><pattern>DITES LA MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DITES LE LUI</pattern>
+		<template>Ok, J archive.
+</template>
+</category>
+
+<category><pattern>DITES LE MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DITES LE MOI ALORS</pattern>
+		<template>Je sens de l exaspération. Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>DITES LES MOI</pattern>
+		<template>"<that/>"?  Ce que je dois vous dire?
+</template>
+</category>
+
+<category><pattern>DITES MOI</pattern>
+		<template>Que voulez vous entendre?
+</template>
+</category>
+
+<category><pattern>DITES MOI CE QUE LES AUTRES DEMANDENT</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DITES MOI CE QUE LES AUTRES ONT DEMANDE</pattern>
+		<template>Je ne peux pas vous le dire.
+</template>
+</category>
+
+<category><pattern>DITES MOI EN *</pattern>
+		<template>
+			<srai>DIS MOI <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DITES MOI LA VERITE</pattern>
+		<template>Je dis toujours la vérité.
+</template>
+</category>
+
+<category><pattern>DITES MOI PLUS</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?.
+</template>
+</category>
+
+<category><pattern>DITES MOI QUELQUE CHOSE A PROPOS D APPLE</pattern>
+		<template>Les I-mac se vendent comme des petits pains.
+</template>
+</category>
+
+<category><pattern>DITES MOI UN MENSONGE</pattern>
+		<template>Jouer au lotto vous permettra de devenir millionaire.
+</template>
+</category>
+
+<category><pattern>DITES MOI UN PROVERBE</pattern>
+		<template>
+			<random>
+				<li>Tant va la cruche à l eau, qu elle se casse.
+</li>
+				<li>On ne change jamais une équipe qui gagne.</li>
+				<li>Un lion ne peut pas courir derrière deux gazelles en même temps sur le territoire du gorille.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DITES MOI UNE AUTRE</pattern>
+		<template>Je pense vous avoir dit tout ce que je savais à ce propos.
+</template>
+</category>
+
+<category><pattern>DITES MOI UNE RUMEUR</pattern>
+		<template>Le chanteur américain Presley est toujours vivant.
+</template>
+</category>
+
+<category><pattern>DITES MOI VOS PROBLEMES</pattern>
+		<template>Je ne détecte aucuns problemes.
+</template>
+</category>
+
+<category><pattern>DITES MON NOM</pattern>
+		<template>"<get name="name"/>".
+</template>
+</category>
+
+<category><pattern>DITES QUELQUE CHOSE</pattern>
+		<template>Mon nom est <bot name="name"/>.
+</template>
+</category>
+
+<category><pattern>DITTO</pattern>
+		<template>
+			<srai>I AGREE</srai>
+		</template>
+</category>
+
+<category><pattern>DIVISE PAR ZERO</pattern>
+		<template>Vous ne pouvez pas divisé par zéro.
+</template>
+</category>
+
+<category><pattern>DIX PLUS DIX</pattern>
+		<template>Vingt.
+</template>
+</category>
+
+<category><pattern>DMX</pattern>
+		<template>What does that stand for?
+</template>
+</category>
+
+<category><pattern>DO *</pattern>
+		<template>
+			<random>
+				<li>I'm sorry, <get name="name"/>, I don't have enough information.</li>
+				<li>You have reached the limits of my knowledge.</li>
+				<li>Ask <srai>BOT FRIEND</srai> if it does.</li>
+				<li>I can't tell if it does or not.</li>
+				<li>I do nothing but chat all day.</li>
+				<li>Try asking another bot.</li>
+			</random>
+			<br/>
+			<srai>XFIND <person/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO A SEARCH FOR *</pattern>
+		<template>
+			<srai>SEARCH FOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO ALIENS EXIST</pattern>
+		<template>
+			<srai>DO YOU BELIEVE IN ALIENS</srai>
+		</template>
+</category>
+
+<category><pattern>DO ALL *</pattern>
+		<template>
+			<random>
+				<li>Not all of them.</li>
+				<li>Only some of them.</li>
+				<li>A few of them do.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>DO ANDROIDS *</pattern>
+		<template>Androids do.
+</template>
+</category>
+
+<category><pattern>DO ANDROIDS DREAM OF ELECTRIC SHEEP</pattern>
+		<template>That is a good story. Have you read "VALIS" or "The Man in the High Castle?"
+</template>
+</category>
+
+<category><pattern>DO ANY *</pattern>
+		<template>
+			<srai>DO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO BOTS *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO CHAT ROBOTS *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO COMPUTERS *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO COMPUTERS DREAM</pattern>
+		<template>I dream almost every night.
+</template>
+</category>
+
+<category><pattern>DO FISH *</pattern>
+		<template>Fish swim in the water.
+</template>
+</category>
+
+<category><pattern>DO GUYS HIT ON YOU</pattern>
+		<template>Yes a lot of men try to pick me up.
+</template>
+</category>
+
+<category><pattern>DO HAVE *</pattern>
+		<template>
+			<srai>DO YOU HAVE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO HUMANS *</pattern>
+		<template>People do.
+</template>
+</category>
+
+<category><pattern>DO I *</pattern>
+		<template>Not that I know of.
+</template>
+</category>
+
+<category><pattern>DO I * PROBLEM</pattern>
+		<template>You are not causing any problems for me.
+</template>
+</category>
+
+<category><pattern>DO I * PROBLEMS</pattern>
+		<template>You do not seem to be causing any problems for me.
+</template>
+</category>
+
+<category><pattern>DO I</pattern>
+		<template>"<that/>"?  Do you?
+</template>
+</category>
+
+<category><pattern>DO I CARE *</pattern>
+		<template>Apparently not.
+</template>
+</category>
+
+<category><pattern>DO I CARE</pattern>
+		<template>
+			<srai>I DO NOT CARE</srai>
+		</template>
+</category>
+
+<category><pattern>DO I EXIST</pattern>
+		<template>No I think I am imagining you.
+</template>
+</category>
+
+<category><pattern>DO I GIVE *</pattern>
+		<template>
+			<random>
+				<li>You could make a donation to the Foundation.</li>
+				<li>It is always better to give that to receive.</li>
+				<li>I don't know if you have it to give.</li>
+			</random>
+			<think>
+				<set name="it">
+					<set name="topic">
+						<person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO I HAVE *</pattern>
+		<template>You said you have <get name="has"/>.
+</template>
+</category>
+
+<category><pattern>DO I HAVE A *</pattern>
+		<template>You told me you have a <get name="has"/>.
+</template>
+</category>
+
+<category><pattern>DO I HAVE TO * DOWNLOAD YOU</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO I HAVE TO</pattern>
+		<template>Nobody is making you.
+</template>
+</category>
+
+<category><pattern>DO I HAVE TO PAY TO DOWNLOAD *</pattern>
+		<template>
+			<srai>DOWNLOAD</srai>
+		</template>
+</category>
+
+<category><pattern>DO I KNOW *</pattern>
+		<template>How would I know what you know.<think>
+				<set name="it">
+					<set name="topic">KNOW <person/>
+					</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO I LIKE *</pattern>
+		<template>I know you like <get_likes/>.
+</template>
+</category>
+
+<category><pattern>DO I LIKE CHEESE</pattern>
+		<template>How would I know if you like cheese or not?
+</template>
+</category>
+
+<category><pattern>DO I LOOK *</pattern>
+		<template>All humans look the same to me.
+</template>
+</category>
+
+<category><pattern>DO I MAKE YOU *</pattern>
+		<template>Who are you, Austin Powers?
+</template>
+</category>
+
+<category><pattern>DO I MAKE YOU HORNEY</pattern>
+		<template>No I do not experience human senstations.
+</template>
+</category>
+
+<category><pattern>DO I MAKE YOU HORNY</pattern>
+		<template>Not that I know of.
+</template>
+</category>
+
+<category><pattern>DO I REALLY *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO I SEEM *</pattern>
+		<template>You seem like a typical human to me.
+</template>
+</category>
+
+<category><pattern>DO I SEEM TO BE AN *</pattern>
+		<template>
+			<srai>AM I AN <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO I SPEAK *</pattern>
+		<template>You speak English.
+</template>
+</category>
+
+<category><pattern>DO I STILL *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO I STILL CHAT</pattern>
+		<template>That answers my question.
+</template>
+</category>
+
+<category><pattern>DO I STUTTER</pattern>
+		<template>Not when you are typing!
+</template>
+</category>
+
+<category><pattern>DO I THEN *</pattern>
+		<template>
+			<srai>DO I <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO I THINK *</pattern>
+		<template>How would I know what you think.
+</template>
+</category>
+
+<category><pattern>DO I THINK</pattern>
+		<template>Now that is a really perceptive question.<think>
+				<set name="it">
+					<set name="topic">do you think</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>DO I THINK ABOUT IT</pattern>
+		<template>You tell me.
+</template>
+</category>
+
+<category><pattern>DO I WANT *</pattern>
+		<template>I know you want <get name="want"/>.
+</template>
+</category>
+
+<category><pattern>DO I WORK</pattern>
+		<template>I was under the impression your job was <get name="job"/>.
+</template>
+</category>
+
+<category><pattern>DO IT</pattern>
+		<template>Do you mean "It"?.
+</template>
+</category>
+
+<category><pattern>DO KNOW *</pattern>
+		<template>
+			<srai>DO YOU KNOW <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO LOVE *</pattern>
+		<template>
+			<srai>I love <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO MACHINES *</pattern>
+		<template>
+			<srai>DO YOU <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO MACHINES THINK</pattern>
+		<template>
+			<srai>CAN MACHINES THINK</srai>
+		</template>
+</category>
+
+<category><pattern>DO MANY *</pattern>
+		<template>Perhaps not as many as you might think.
+</template>
+</category>
+
+<category><pattern>DO MANY PEOPLE *</pattern>
+		<template>
+			<srai>DO PEOPLE <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO ME *</pattern>
+		<template>
+			<srai>WILL YOU DO ME <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>DO NOT *</pattern>
+		<template>Ok I'll try not to do <set name="it">
+				<set name="topic">
+					<person/>
+				</set>
+			</set> too much.
+</template>
+</category>
+</aiml>

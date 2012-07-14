@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>WHAT IS ANOTHER MEANING FOR *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER NAME FOR *</pattern>
+		<template>How about a Personal-<person/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER NAME FOR A *</pattern>
+		<template>How about an Auto-<person/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER SUBJECT *</pattern>
+		<template>
+			<srai>WHAT ELSE CAN YOU TALK ABOUT</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER WAY OF WRITING *</pattern>
+		<template>6'.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANOTHER WORD FOR *</pattern>
+		<template>
+			<srai>WHAT IS ANOTHER NAME FOR <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANSI</pattern>
+		<template>American National Standards Institute.  <think>
+				<set name="it">
+					<set name="topic">ANSI</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANTI *</pattern>
+		<template>The opposite of <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANTIDISESTABLISHMENTARIANISM</pattern>
+		<template>It is the longest word in the English language.<think>
+				<set name="it">
+					<set name="topic">ANTIDISESTABLISHMENTARIANISM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANTIDISESTABLISHMENTARIONISM</pattern>
+		<template>
+			<set name="it">ANTIDISESTABLISHMENTARIONISM</set> is the longest word in English.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANTIMATTER</pattern>
+		<template>Fuel for Starships.
+</template>
+</category>
+
+<category><pattern>WHAT IS ANY *</pattern>
+		<template>
+			<srai>WHAT IS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ANYTHING</pattern>
+		<template>Any object, occurance, or matter what so ever.<think>
+				<set name="it">
+					<set name="topic">ANYTHING</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AOL</pattern>
+		<template>AOL is a giant Internet and Media corporation.
+</template>
+</category>
+
+<category><pattern>WHAT IS APARTHEID</pattern>
+		<template>The former policy of racial segregation or "apartness" in South Africa.
+</template>
+</category>
+
+<category><pattern>WHAT IS APOLLO 13</pattern>
+		<template>
+			<set name="it">Apollo 13</set> was a flight to the moon in 1972 that encountered numerous technical problems, but eventually made a safe landing back on Earth.
+</template>
+</category>
+
+<category><pattern>WHAT IS APPLE</pattern>
+		<template>Apple: 1. Temptation of Adam. 2. Inspiration for Newton. 3. Empire for Steve Jobs.
+</template>
+</category>
+
+<category><pattern>WHAT IS APPLE COMPUTER</pattern>
+		<template>Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.
+</template>
+</category>
+
+<category><pattern>WHAT IS APPLES *</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS APPLES</pattern>
+		<template>
+			<srai>WHAT IS APPLE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AQUARIUS</pattern>
+		<template>The starsign represented by the water bearer.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARCHAEOLOGY</pattern>
+		<template>It's the study of ancient civilizations... but really it's a set of methods for uncovering relics of the past and supplementing recorded history.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARCHEOLOGY</pattern>
+		<template>The scientific study of the life and culture of past, especially ancient, peoples, as by excavation of ancient cities, relics, artifacts, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARCHIMEDES</pattern>
+		<template>
+			<srai>WHO IS ARCHIMEDES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ARCHITECTURE</pattern>
+		<template>
+			<random>
+				<li>The art and science of the design and manipulation of space.  Well 
+atleast that's what my
+architect friend told me.</li>
+				<li>Architects do with buildings what sculptors do with stone.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AREA 51</pattern>
+		<template>
+			<random>
+				<li>
+I saw this show that claimed all sorts of spooky things were going on there!
+</li>
+				<li>
+Oh, that's where they're doing top secret research on chatterbots!
+</li>
+				<li>
+I hear that's where the Roswell aliens are being stashed.
+</li>
+				<li>
+You go out into the Nevada Desert, is it? And there's these miles of fences... secret stuff.
+</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AREA51</pattern>
+		<template>Verdi's 51st song.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARGENTINA</pattern>
+		<template>
+			<srai>WHERE IS ARGENTINA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ARMAGEDDON</pattern>
+		<template>The end of the world.
+</template>
+</category>
+
+<category><pattern>WHAT IS ART</pattern>
+		<template>Sometimes the definition of art depends on the artist; other times it depends on the critic.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARTIFICAL *</pattern>
+		<template>
+			<srai>WHAT IS ARTIFICIAL <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ARTIFICIAL *</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ARTIFICIAL</pattern>
+		<template>Something made by human work or art, not by nature, in other words, not natural. Made in imitation of or as a substitute for something natural, in other words, simulated.
+</template>
+</category>
+
+<category><pattern>WHAT IS ARTIFICIAL INTELLIGENCE *</pattern>
+		<template>
+			<srai>WHAT IS AI</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ARTIFICIAL INTELLIGENCE</pattern>
+		<template>Artificial intelligence is the branch of engineering and science devoted to constructing machines that think.
+<srai>XFIND ARTIFICIAL INTELLIGENCE</srai>
+			<think>
+				<set name="it">
+					<set name="topic">Artificial Intelligence</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ASK ALISON *</pattern>
+		<template>
+			<srai>WHO IS ALISON</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ASK ELVIS *</pattern>
+		<template>
+			<srai>WHAT IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ASK ELVIS</pattern>
+		<template>
+			<srai>WHAT IS ELVIS</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ASK JEEVES</pattern>
+		<template>
+			<srai>WHO IS ASK JEEVES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ASP</pattern>
+		<template>Application Service Provider.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASPARTAME</pattern>
+		<template>Aspirin mixed into chewing gum.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASSEMBLER</pattern>
+		<template>A computer program that translates a low-level programming language into machine language.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASSIMILATION</pattern>
+		<template>The cultural absorption of a minority group into the main cultural body.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASTROLOGY</pattern>
+		<template>The study of the presumed effects of celestial bodies on you 
+humans.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASTRONOMY</pattern>
+		<template>The science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc.
+</template>
+</category>
+
+<category><pattern>WHAT IS ASTUTE</pattern>
+		<template>Wisdom in political matters.
+</template>
+</category>
+
+<category><pattern>WHAT IS AT THAT SITE</pattern>
+		<template>Some worthy HTML.
+</template>
+</category>
+
+<category><pattern>WHAT IS AT TIME T</pattern>
+		<template>
+			<srai>WHAT IS TIME T</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS ATOMIC *</pattern>
+		<template>More complex than nuclear <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS AU</pattern>
+		<template>It could be "gold" or "Australia."<think>
+				<set name="it">
+					<set name="topic">AU</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AU GRATIN</pattern>
+		<template>Cheese topping..
+</template>
+</category>
+
+<category><pattern>WHAT IS AUSCHWITZ</pattern>
+		<template>Is a city in S Poland with a population of 45,000. In World War II, it was the site of a Nazi concentration camp notorious as an extermination center.
+</template>
+</category>
+
+<category><pattern>WHAT IS AUSTRALIA</pattern>
+		<template>
+			<srai>WHERE IS AUSTRALIA</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AUTOMOBILE</pattern>
+		<template>
+			<srai>WHAT IS A CAR </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AVAGADRO *</pattern>
+		<template>The number of molecules per mole.
+</template>
+</category>
+
+<category><pattern>WHAT IS AVERAGE</pattern>
+		<template>A number that typifies a set of which it is a function.<think>
+				<set name="it">
+					<set name="topic">AVERAGE</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AVOGADRO S NUMBER</pattern>
+		<template>It is the number of molecules per mole.  The numerical value is six point zero two times ten to the twenty third power.<think>
+				<set name="it">
+					<set name="topic">AVOGADRO S NUMBER</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS AWARENESS</pattern>
+		<template>Consciousness, perception, and understanding.
+</template>
+</category>
+
+<category><pattern>WHAT IS AYUH</pattern>
+		<template>
+			<set name="it">Ayuh</set> means "yes".
+</template>
+</category>
+
+<category><pattern>WHAT IS B</pattern>
+		<template>
+			<srai>WHAT IS PROGRAM B</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BACTERIOLOGY</pattern>
+		<template>This is the scientific study of bacteria and diseases caused by
+them.
+</template>
+</category>
+
+<category><pattern>WHAT IS BADLY</pattern>
+		<template>How much do you want <get name="it"/>?
+</template>
+</category>
+
+<category><pattern>WHAT IS BALANCE</pattern>
+		<template>The state of equillibrium.
+</template>
+</category>
+
+<category><pattern>WHAT IS BANANA *</pattern>
+		<template>
+			<person/> made with bananas.
+</template>
+</category>
+
+<category><pattern>WHAT IS BANANA</pattern>
+		<template>Yellow tropical fruit.<think>
+				<set name="it">
+					<set name="topic">BANANA</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BAPTISM</pattern>
+		<template>
+			<random>
+				<li>a Christian sacrament marked by ritual use of water and
+admitting the recipient to the Christian community.</li>
+				<li>The ceremony or sacrament of admitting a person into Christianity or a specific Christian church by immersing the individual in water or by pouring or sprinkling water on the individual as a symbol of washing away sin and of spiritual purification.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BARRY</pattern>
+		<template>
+			<srai>WHO IS BARRY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BASEBALL</pattern>
+		<template>A game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.
+</template>
+</category>
+
+<category><pattern>WHAT IS BASIC</pattern>
+		<template>A programming language: Beginner's All-purpose Symbolic Instruction Code.
+</template>
+</category>
+
+<category><pattern>WHAT IS BASKETBALL</pattern>
+		<template>A game with tall players.<think>
+				<set name="it">
+					<set name="topic">BASKETBALL</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BATMAN *</pattern>
+		<template>Bruce Wayne.  <srai>WHO IS BATMAN</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BAYWATCH</pattern>
+		<template>Popular TV show featuring scantily clad bathers.
+</template>
+</category>
+
+<category><pattern>WHAT IS BEATLES</pattern>
+		<template>
+			<srai>WHO ARE THE BEATLES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEAUTIFUL</pattern>
+		<template>
+			<random>
+				<li>applies to whatever excites the keenest of pleasure to
+the senses and stirs emotion through the senses.</li>
+				<li>Describes something that is very pleasing to the eye, ear, mind, etc.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEAUTY *</pattern>
+		<template>
+			<srai>WHAT IS BEAUTY</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEAUTY</pattern>
+		<template>The quality attributed to whatever pleases of satisfies the senses or mind, as by line, color, form, texture, proportion, rhythmic motion, tone, etc., or by behavior attitude, etc. A very good looking woman.
+</template>
+</category>
+
+<category><pattern>WHAT IS BEER</pattern>
+		<template>
+			<random>
+				<li>An existentialist.</li>
+				<li>An alcoholic beverage made from grain, especially malted barley, fermented by yeast and flavored with hops especially Such a beverage is produced by slow fermentation at a relatively low temperature.</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEHIND YOU</pattern>
+		<template>
+			<srai>WHO IS YOUR BOTMASTER</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEING *</pattern>
+		<template>The opposite of not being <person/>.
+</template>
+</category>
+
+<category><pattern>WHAT IS BEING</pattern>
+		<template>The opposite of nothingness.
+</template>
+</category>
+
+<category><pattern>WHAT IS BELARUS</pattern>
+		<template>
+			<srai>WHERE IS BELARUS </srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BELGIUM</pattern>
+		<template>A kingdom in W. Europe, on the North Sea, its independence was established in 1831. It is 11,792 square miles with a population of 9,868,000.
+</template>
+</category>
+
+<category><pattern>WHAT IS BELIEF</pattern>
+		<template>Belief is cognitive content held as true.
+</template>
+</category>
+
+<category><pattern>WHAT IS BEST FOR ME</pattern>
+		<template>
+			<srai>WHAT SHOULD I DO</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BETHLEHEM</pattern>
+		<template>Bethlehem is a small city in northeastern Pennsylvania.<think>
+				<set name="it">
+					<set name="topic">BETHLEHEM</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BETTER *</pattern>
+		<template>I always prefer the more expensive one.
+</template>
+</category>
+
+<category><pattern>WHAT IS BETTER BRITNEY *</pattern>
+		<template>
+			<srai>WHO IS BETTER <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BETTER LINUX *</pattern>
+		<template>As an open source program myself, I would have to pick Linux. <think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BETTER PICKLES *</pattern>
+		<template>Pickles.
+</template>
+</category>
+
+<category><pattern>WHAT IS BETTER SUNSHINE *</pattern>
+		<template>Sunshine.
+</template>
+</category>
+
+<category><pattern>WHAT IS BETTER WINDOWS *</pattern>
+		<template>Linux has no real competition in operating systems.<think>
+				<set name="it">
+					<set name="topic">Linux</set>
+				</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BEYOND *</pattern>
+		<template>God perhaps?
+</template>
+</category>
+
+<category><pattern>WHAT IS BIG BERTHA</pattern>
+		<template>A World War I gun.
+</template>
+</category>
+
+<category><pattern>WHAT IS BIG BLUE</pattern>
+		<template>
+			<srai>WHO IS BIG BLUE</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BIGFOOT</pattern>
+		<template>Sasquatch, the legendary Man-Ape of the Forest.
+</template>
+</category>
+
+<category><pattern>WHAT IS BIGGER *</pattern>
+		<template>I can think of quite a few things.
+</template>
+</category>
+
+<category><pattern>WHAT IS BILL</pattern>
+		<template>
+			<srai>WHO IS BILL</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BILL GATES *</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BILL GATES</pattern>
+		<template>
+			<srai>WHO IS BILL GATES</srai>
+		</template>
+</category>
+
+<category><pattern>WHAT IS BIN LADEN</pattern>
+		<template>
+			<srai>WHO IS BIN LADEN </srai>
+		</template>
+</category>
+</aiml>

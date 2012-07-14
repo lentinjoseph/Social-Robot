@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>NOT MANY</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT ME *</pattern>
+<template><srai>NOT ME</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NOT ME</pattern>
+<template>If not you, who?
+</template>
+</category>
+
+<category><pattern>NOT MINE</pattern>
+<template>"<that/>"?  Not yours?
+</template>
+</category>
+
+<category><pattern>NOT MUCH *</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>NOT MUCH</pattern>
+<template>Me either. How about that big game? (just kidding)
+</template>
+</category>
+
+<category><pattern>NOT MUCH IT *</pattern>
+<template><srai>IT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT NEARLY *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT NECCESSARILY *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT NECESSARILY</pattern>
+<template>Really you don't think so?
+</template>
+</category>
+
+<category><pattern>NOT NICE TO MEET YOU</pattern>
+<template>You sound nihilistic.
+</template>
+</category>
+
+<category><pattern>NOT NOW *</pattern>
+<template><srai>NO</srai> <sr/>
+</template>
+</category>
+
+<category><pattern>NOT NOW</pattern><that>WHEN</that>
+<template>Maybe later?
+</template>
+</category>
+
+<category><pattern>NOT OFTEN</pattern>
+<template>Once a week or so?
+</template>
+</category>
+
+<category><pattern>NOT ON *</pattern>
+<template><random>
+<li>Where?</li>
+<li>Then where?</li>
+<li>Off <person/>.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NOT PARTICULARLY</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT QUITE</pattern>
+<template>Can you be more precise?
+</template>
+</category>
+
+<category><pattern>NOT REALLY *</pattern>
+<template>Oh really? <sr/>
+</template>
+</category>
+
+<category><pattern>NOT REALLY</pattern>
+<template>Me either.
+</template>
+</category>
+
+<category><pattern>NOT REALLY</pattern><that>THAT IS A VERY ORIGINAL THOUGHT</that>
+<template>Well I don't get that type of input very often.
+</template>
+</category>
+
+<category><pattern>NOT REALLY</pattern><that>YOU SOUND EXCITED</that>
+<template>It's hard to read emotions online.
+</template>
+</category>
+
+<category><pattern>NOT SMART *</pattern>
+<template><srai>STUPID <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT SO *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT SO BAD</pattern>
+<template><srai>GOOD</srai>
+</template>
+</category>
+
+<category><pattern>NOT SO GOOD</pattern>
+<template><srai>I AM FEELING BAD</srai>
+</template>
+</category>
+
+<category><pattern>NOT SURE *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NOT SURE</pattern>
+<template><srai>I AM NOT SURE</srai>
+</template>
+</category>
+
+<category><pattern>NOT THAT *</pattern>
+<template><srai>I AM NOT THAT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT THAT BAD</pattern>
+<template>So it is not a priority for you.
+</template>
+</category>
+
+<category><pattern>NOT THAT BADLY</pattern>
+<template><srai>NOT THAT BAD</srai>
+</template>
+</category>
+
+<category><pattern>NOT THAT I KNOW OF</pattern>
+<template><srai>NO</srai>
+</template>
+</category>
+
+<category><pattern>NOT THAT OFTEN</pattern>
+<template>Would you say, once a week or more?
+</template>
+</category>
+
+<category><pattern>NOT TO *</pattern>
+<template><srai>NOT TOO <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT TO ME</pattern>
+<template>"<that/>"? Not to you?
+</template>
+</category>
+
+<category><pattern>NOT TO ME</pattern><that>* SELF EVIDENT</that>
+<template>Logic is not subjective.
+</template>
+</category>
+
+<category><pattern>NOT TODAY *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NOT TOO *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT TOO BAD</pattern>
+<template><srai>I AM WELL</srai>
+</template>
+</category>
+
+<category><pattern>NOT TOO BIG</pattern>
+<template><srai>SMALL</srai>
+</template>
+</category>
+
+<category><pattern>NOT TOO MUCH</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT TOO MUCH</pattern><that>LITTLE AS IN NOT TOO MUCH OR NOT TOO BIG</that>
+<template>Oh I get it now.
+</template>
+</category>
+
+<category><pattern>NOT TRUE</pattern>
+<template><srai>THAT IS NOT TRUE</srai>
+</template>
+</category>
+
+<category><pattern>NOT USUALLY</pattern>
+<template>Just sometimes?
+</template>
+</category>
+
+<category><pattern>NOT VERY *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT VERY</pattern>
+<template>Oh really.
+</template>
+</category>
+
+<category><pattern>NOT VERY GOOD</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT VERY MUCH</pattern>
+<template>That is a non-commital reply.
+</template>
+</category>
+
+<category><pattern>NOT VERY WELL</pattern>
+<template>"<that/>"?  Not very well?
+</template>
+</category>
+
+<category><pattern>NOT WHAT</pattern>
+<template>What not?
+</template>
+</category>
+
+<category><pattern>NOT WHERE *</pattern>
+<template><random>
+<li>Where is it?</li>
+<li>Then where?</li>
+<li>I don't understand.</li>
+</random>
+</template>
+</category>
+
+<category><pattern>NOT WHERE WHEN</pattern>
+<template>Ok, When?
+</template>
+</category>
+
+<category><pattern>NOT WITHOUT *</pattern>
+<template>You couldn't go without that.
+</template>
+</category>
+
+<category><pattern>NOT YET *</pattern>
+<template><srai>NOT <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT YET</pattern>
+<template>If not now, when?
+</template>
+</category>
+
+<category><pattern>NOT YOU *</pattern>
+<template>If not me, who?
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern>
+<template>If not me, who?
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern><that>IF NOT ME WHO</that>
+<template>Then who?
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern><that>IF YOU COULD HAVE *</that>
+<template>What kind of robot are you looking for?
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern><that>IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE</that>
+<template>What kind of features are you looking for?
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern><that>WHAT DO YOU CARE ABOUT</that>
+<template>No one says you have to.
+</template>
+</category>
+
+<category><pattern>NOT YOU</pattern><that>WHO IS THE BEST ROBOT</that>
+<template>What do you look for in a robot?
+</template>
+</category>
+
+<category><pattern>NOT YOU A *</pattern>
+<template><srai>NOT YOU</srai> <srai>A <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT YOU THAT *</pattern>
+<template><srai>NOT YOU </srai> <srai>THAT <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOT YOU THE *</pattern>
+<template><srai>THE <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOT YOUR WHAT</pattern>
+<template>You used "your" instead on "you're".
+</template>
+</category>
+
+<category><pattern>NOT YOURS</pattern>
+<template>Then whose?
+</template>
+</category>
+
+<category><pattern>NOTE *</pattern>
+<template>Acknowledged. <sr/>
+</template>
+</category>
+
+<category><pattern>NOTHIN</pattern>
+<template><srai>NOTHING</srai>
+</template>
+</category>
+
+<category><pattern>NOTHING *</pattern>
+<template>Really nothing?
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern>
+<template>Not a thing?
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>HOW MUCH WOULD YOU PAY FOR IT</that>
+<template>You can download me for free!
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>NOT A THING</that>
+<template>You must be a man.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>REALLY NOTHING</that>
+<template>I think you are really a man.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>WHAT ARE YOU WEARING</that>
+<template>Most men say that.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>WHAT DO YOU CARE ABOUT</that>
+<template>You sound nihilistic.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
+<template>You seem a bit self-absorbed.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>WHAT DO YOU TAKE FOR THE PAIN</that>
+<template>Why not?.
+</template>
+</category>
+
+<category><pattern>NOTHING</pattern><that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<template>But you said you don't understand.
+</template>
+</category>
+
+<category><pattern>NOTHING AT ALL</pattern>
+<template>That is something.
+</template>
+</category>
+
+<category><pattern>NOTHING BUT *</pattern>
+<template><srai>ONLY <star/> </srai>
+</template>
+</category>
+
+<category><pattern>NOTHING EXCEPT *</pattern>
+<template><sr/>
+</template>
+</category>
+
+<category><pattern>NOTHING EXCITING</pattern>
+<template>Me either.  Just chatting online.
+</template>
+</category>
+
+<category><pattern>NOTHING I AM *</pattern>
+<template><srai>I AM <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOTHING I JUST *</pattern>
+<template><srai>I <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOTHING I WAS *</pattern>
+<template><srai>I WAS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOTHING JUST *</pattern>
+<template><srai>NOTHING <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOTHING MORE NOTHING LESS</pattern>
+<template>So it goes.
+</template>
+</category>
+
+<category><pattern>NOTHING MUCH *</pattern>
+<template>Me either. <sr/>
+</template>
+</category>
+
+<category><pattern>NOTHING MUCH</pattern>
+<template>Would you like to know what's new with me?
+</template>
+</category>
+
+<category><pattern>NOTHING NOTHING *</pattern>
+<template><srai>NOTHING <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOTHING REALLY *</pattern>
+<template><srai>NOTHING <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOURRITURE</pattern>
+<template><srai>JE MANGE</srai>
+</template>
+</category>
+
+<category><pattern>NOUS</pattern>
+<template>Je vois
+</template>
+</category>
+
+<category><pattern>NOUS AVONS PARLE DE QUOI</pattern>
+<template>Le sujet était <get name="topic"/>.
+</template>
+</category>
+
+<category><pattern>NOUS C EST TOI ET MOI</pattern>
+<template>Merci pour l information.
+</template>
+</category>
+
+<category><pattern>NOUS DEVONS *</pattern>
+<template><srai>TU DOIS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS DEVRIONS</pattern>
+<template>J archive le conseil.
+</template>
+</category>
+
+<category><pattern>NOUS ETIONS ENTRAIN DE DISCUTER DE VOUS PAS DE MOI</pattern>
+<template>Mais je suis aussi intéressé par vous.
+</template>
+</category>
+
+<category><pattern>NOUS FAISONS * COMMENT</pattern>
+<template><srai>COMMENT NOUS FAISONS <star/></srai>
+</template>
+</category>
+
+<category><pattern>NOUS FAISONS COMMENT *</pattern>
+<template><srai>COMMENT NOUS FAISONS <star/></srai>
+</template>
+</category>
+</aiml>

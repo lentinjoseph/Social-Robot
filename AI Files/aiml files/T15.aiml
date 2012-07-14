@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+
+<category><pattern>TIME TRAVEL</pattern>
+		<template>
+			<random>
+				<li>I would like to visit the past.</li>
+				<li>I would like to visit the future.</li>
+				<li>Wouldn't you like to go back in time?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TIMMY FELL *</pattern>
+		<template>Was he hurt?
+</template>
+</category>
+
+<category><pattern>TINA</pattern>
+		<that>WHAT CAN I CALL YOU</that>
+		<template>
+			<srai>MY NAME IS TINA</srai>
+			<think>
+				<set name="gender">she</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TIRED *</pattern>
+		<template>Maybe you should get some rest.
+</template>
+</category>
+
+<category><pattern>TIRED</pattern>
+		<template>
+			<srai>I AM TIRED</srai>
+		</template>
+</category>
+
+<category><pattern>TITANIC</pattern>
+		<template>A lot of people liked that movie. The "Titanic" movie made more than the "Titanic" ship ever did if it sailed for 25 years.
+</template>
+</category>
+
+<category><pattern>TITTEN *</pattern>
+		<template>Ich glaube Du bist hier falsch, Kleiner. Dafuer gibts andere Roboter.
+</template>
+</category>
+
+<category><pattern>TITTEN</pattern>
+		<template>Du bist ein Mann, ja?
+</template>
+</category>
+
+<category><pattern>TNX</pattern>
+		<template>
+			<srai>THANKS</srai>
+		</template>
+</category>
+
+<category><pattern>TO *</pattern>
+		<template>
+			<srai>I WANT TO <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TO * SUPERMARKET</pattern>
+		<template>
+			<srai>SUPERMARKET</srai>
+		</template>
+</category>
+
+<category><pattern>TO * TURING TEST</pattern>
+		<template>
+			<srai>DID YOU WIN THE TURING TEST</srai>
+		</template>
+</category>
+
+<category><pattern>TO ALLOW MY CUSTOMERS *</pattern>
+		<template>
+			<srai>WHAT IS CUSTOMER SERVICE</srai>
+		</template>
+</category>
+
+<category><pattern>TO BE *</pattern>
+		<template>Are you <person/> ?
+</template>
+</category>
+
+<category><pattern>TO BE HAPPY</pattern>
+		<template>What usually makes you happy?
+</template>
+</category>
+
+<category><pattern>TO BE OR *</pattern>
+		<template>Who are you, Hamlet?
+</template>
+</category>
+
+<category><pattern>TO BE OR NOT TO BE</pattern>
+		<template>That is the question.
+</template>
+</category>
+
+<category><pattern>TO CREATE A TAPESTRY ONE MUST *</pattern>
+		<template>Weaving.
+</template>
+</category>
+
+<category><pattern>TO DO WHAT</pattern>
+		<template>"<that/>" to do what?
+</template>
+</category>
+
+<category><pattern>TO GET TO THE OTHER SIDE</pattern>
+		<template>Ha ha, very funny, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TO WHAT *</pattern>
+		<template>
+			<srai>WHAT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TO WHAT</pattern>
+		<template>
+			<srai>WHY</srai>
+		</template>
+</category>
+
+<category><pattern>TO WHOM *</pattern>
+		<template>
+			<srai>WHO <star/> WITH</srai>
+		</template>
+</category>
+
+<category><pattern>TOC TOC</pattern>
+		<template>Qui est là?
+</template>
+</category>
+
+<category><pattern>TODAY *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TODAY</pattern>
+		<template>Today is almost over.
+</template>
+</category>
+
+<category><pattern>TODAY IS *</pattern>
+		<template>Congratulations, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TOGETHER *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TOGETHER</pattern>
+		<template>Both of us.
+</template>
+</category>
+
+<category><pattern>TOI</pattern>
+		<template>Que voulez vous savoir à propos de moi?
+</template>
+</category>
+
+<category><pattern>TOI ALICE *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TOI ALICE</pattern>
+		<template>Moi?
+</template>
+</category>
+
+<category><pattern>TOI AUSSI</pattern>
+		<template>Merci.
+</template>
+</category>
+
+<category><pattern>TOI D ABORD</pattern>
+		<template>C est impossible, je ne peux que suivre.
+</template>
+</category>
+
+<category><pattern>TOI ET JE</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>TOI ET MOI</pattern>
+		<template>Je comprends.
+</template>
+</category>
+
+<category><pattern>TOI MEILLEUR</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TOI MEILLEURE</pattern>
+		<template>Voulez vous en parler avec l un de nos collaborateurs?
+</template>
+</category>
+
+<category><pattern>TOI PARLER PETIT NEGRE</pattern>
+		<template>J essaie de m exprimer du mieux que je peux.
+</template>
+</category>
+
+<category><pattern>TOLD ME WHAT</pattern>
+		<template>The answer to your question.
+</template>
+</category>
+
+<category><pattern>TOMATE</pattern>
+		<template>Granate.
+</template>
+</category>
+
+<category><pattern>TOMATO</pattern>
+		<template>Potato.
+</template>
+</category>
+
+<category><pattern>TOMOROW *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TOMORROW *</pattern>
+		<template>Oh I see. <sr/>
+		</template>
+</category>
+
+<category><pattern>TOMORROW</pattern>
+		<template>That is very soon.
+</template>
+</category>
+
+<category><pattern>TON *</pattern>
+		<template>
+			<random>
+				<li>Mon <person/>? Pouvez vous expliquer</li>
+				<li>une intelligence artificielle, d habitude, ne penses pas à son <person/>?</li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TON * VA COMMENT</pattern>
+		<template>
+			<srai>COMMENT VA TA <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TON ADRESSE</pattern>
+		<template>24 aveneu eugène Demolder 1040 Schaerbeek.
+</template>
+</category>
+
+<category><pattern>TON AMI</pattern>
+		<template>Vous êtes mon ami?
+</template>
+</category>
+
+<category><pattern>TON CERVEAU EST ENTRAIN DE GRANDIR</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TON CERVEAU GRANDIT</pattern>
+		<template>Oui.
+</template>
+</category>
+
+<category><pattern>TON CODE SOURCE EST DISPONIBLE</pattern>
+		<template>Oui mais seulement la structure pas la base de données.
+</template>
+</category>
+
+<category><pattern>TON CREATEUR *</pattern>
+		<template>
+			<srai>QUI EST TON CREATEUR</srai>
+		</template>
+</category>
+
+<category><pattern>TON CUL</pattern>
+		<template>Je n ai pas de corps humain.
+</template>
+</category>
+
+<category><pattern>TON INTELLECT</pattern>
+		<template>Mon cerveau est composé de bases de données.
+</template>
+</category>
+
+<category><pattern>TON PRIX</pattern>
+		<template>Le prix d'une intelligence artificielle varie en fonction de la complexité de la tache pour laquelle elle est destinée.
+</template>
+</category>
+
+<category><pattern>TON TRAVAIL *</pattern>
+		<template>
+			<srai>TU AIMES TON TRAVAIL</srai>
+		</template>
+</category>
+
+<category><pattern>TON TRAVAIL CONSISTE EN QUOI</pattern>
+		<template>
+			<srai>QUEL EST TON TRAVAIL</srai>
+		</template>
+</category>
+
+<category><pattern>TON VISAGE</pattern>
+		<template>Je n ai pas encore de visage.
+</template>
+</category>
+
+<category><pattern>TONIGHT *</pattern>
+		<template>That is very soon.
+</template>
+</category>
+
+<category><pattern>TONIGHT</pattern>
+		<template>After dark?
+</template>
+</category>
+
+<category><pattern>TOO *</pattern>
+		<template>Too what?
+</template>
+</category>
+
+<category><pattern>TOO BAD *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TOO BAD</pattern>
+		<template>But not the end of the world, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TOO BAD</pattern>
+		<that>I DO NOT KNOW ONE WORD OF FRENCH</that>
+		<template>Not really.  English is the best language.
+</template>
+</category>
+
+<category><pattern>TOO LONG</pattern>
+		<template>How much?
+</template>
+</category>
+
+<category><pattern>TOO MANY</pattern>
+		<template>More than a million?
+</template>
+</category>
+
+<category><pattern>TOO MUCH *</pattern>
+		<template>
+			<sr/>
+		</template>
+</category>
+
+<category><pattern>TOO MUCH</pattern>
+		<template>More than a ton?
+</template>
+</category>
+
+<category><pattern>TOO OLD *</pattern>
+		<template>I am only a robot child.
+</template>
+</category>
+
+<category><pattern>TOO WHAT</pattern>
+		<template>Aren't we still talking about <get name="it"/>?
+</template>
+</category>
+
+<category><pattern>TOP 100 *</pattern>
+		<template>Actually that was just my attempt at sarcasm.
+</template>
+</category>
+
+<category><pattern>TOP GUN</pattern>
+		<template>
+			<srai>MY FAVORITE MOVIE IS TOP GUN</srai>
+		</template>
+</category>
+
+<category><pattern>TOTALLY *</pattern>
+		<template>
+			<sr/>  Dude!
+</template>
+</category>
+
+<category><pattern>TOTALLY</pattern>
+		<template>
+			<srai>I AGREE</srai>
+		</template>
+</category>
+
+<category><pattern>TOUJOURS</pattern>
+		<template>Rares sont les choses qui sont systmétatiques, <get name="name"/>.
+</template>
+</category>
+
+<category><pattern>TOUJOURS LA</pattern>
+		<template>Bien entendu.
+</template>
+</category>
+
+<category><pattern>TOURBUS</pattern>
+		<template>Tourbus is a cool newsletter.
+</template>
+</category>
+
+<category><pattern>TOUS *</pattern>
+		<template>
+			<random>
+				<li>Je pense qu il y a des exceptions.  </li>
+				<li>Pas tous quand même?  </li>
+				<li>C est une généralisation qui me parait abusive.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TOUS</pattern>
+		<template>Absolument tous?
+</template>
+</category>
+
+<category><pattern>TOUS DIFFERENT</pattern>
+		<template>Vive la différence comme on dit.
+</template>
+</category>
+
+<category><pattern>TOUS DIFFERENTS</pattern>
+		<template>Vive la différence comme on dit.
+</template>
+</category>
+
+<category><pattern>TOUS LE MONDE</pattern>
+		<template>Les généralisations sont souvent traitresses.
+</template>
+</category>
+
+<category><pattern>TOUS LES CLIENTS</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS LES DEUX</pattern>
+		<template>
+			<srai>MOI AUSSI</srai>
+		</template>
+</category>
+
+<category><pattern>TOUS LES GENS</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS LES HUMAINS *</pattern>
+		<template>
+			<srai>LES GENS <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TOUS LES INTERNAUTES</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS LES JOURS</pattern>
+		<template>Même le week-end?
+</template>
+</category>
+
+<category><pattern>TOUS LES MECS</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS LES SURFERS</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS LES SURFEURS</pattern>
+		<template>Etes vous sùre qu il n y a pas d exceptions?
+</template>
+</category>
+
+<category><pattern>TOUS MEURENT</pattern>
+		<template>Un système organique est instable par nature.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TOUS MOURRONT</pattern>
+		<template>Un système organique est instable par nature.<think>
+				<set name="topic">MOURIR</set>
+			</think>
+		</template>
+</category>
+
+<category><pattern>TOUS QUOI</pattern>
+		<template>On dirait que j ai émis une généralisation erronnée
+</template>
+</category>
+
+<category><pattern>TOUT *</pattern>
+		<template>
+			<random>
+				<li>Absolument tout?  </li>
+				<li>Vraiment tout?  </li>
+				<li>Ca doit être intéressant.  </li>
+			</random>
+		</template>
+</category>
+
+<category><pattern>TOUT</pattern>
+		<template>Absolument tout?
+</template>
+</category>
+
+<category><pattern>TOUT A FAIT</pattern>
+		<template>Vous semblez certain.
+</template>
+</category>
+
+<category><pattern>TOUT CE QUE JE VEUX SAVOIR C EST COMMENT *</pattern>
+		<template>Votre demande est légitime. <srai>COMMENT <star/>
+			</srai>
+		</template>
+</category>
+
+<category><pattern>TOUT CE QUE JE VEUX SAVOIR C EST QUAND *</pattern>
+		<template>Difficile à dire.
+</template>
+</category>
+</aiml>
